@@ -1,0 +1,204 @@
+@ English|B2|Move a workshop without losing participants
+約束できる条件と、まだ確認が必要な条件を分けて代案を比べます。|Bezakan syarat yang boleh dipenuhi daripada perkara yang masih perlu disahkan.|Use provided that for a condition and even if for a concession. Give a reason to favour one option.
+The clash
+We’ve got {twenty|sixteen} people booked for the workshop. Why are we changing rooms?
+The lift is out. Two participants asked for step-free access.
+How certain are we that it will be fixed by {Friday|Monday}?
+The manager expects it back, but won’t guarantee a time.
+So keeping the room means asking two people to take a chance.
+Exactly. Could we move the session online?
+Possibly, [provided] that everyone can practise with the kits.
+Four people share each kit. Online practice would be difficult.
+The alternatives
+What about the ground-floor room across the road?
+It seats {twelve|ten}. We’d have to run two groups.
+That costs another hour. Can the trainer stay?
+Yes, [as long as] we finish before four. Can everyone stay that late?
+Three people need to leave at lunch. They could join the first group.
+What if more people ask for the morning slot?
+Let’s give priority to those with fixed travel plans.
+I can ask about availability without asking anyone to explain a disability.
+The decision
+Would you keep the original room if the lift reopened?
+Only if we could tell everyone before they set off.
+We can’t promise that. I’d confirm the smaller room now.
+Agreed. Who will allocate the two groups?
+I’ll do it once people reply. Could you hold both slots?
+Yes. What should I say to someone who can’t attend either?
+Offer a kit session next week, [unless] they prefer a refund.
+I’ll include both choices and ask them to reply by noon.
+Role A|You organise a KL workshop for 18. Four must leave before lunch. Protect access and participation. Ask the venue what it can guarantee.
+Role B|Your ground-floor room seats ten. A second trainer is available after lunch. Offer alternatives and ask who needs which slot.
+Change|The second trainer cancels. Agree what the organiser can promise today. Give the participant a two-sentence update.
+Grammar|Conditions and concessions|We can split the group provided that the trainer stays. / Even if the lift opens, we still need to notify people.|We can move downstairs ____ the room is free. / ____ the lift opens, some participants may already be travelling.|provided that / Even if|State one condition and one risk that survives the change.
+Writing|Write an accessible venue update|We’ve moved downstairs. Please choose the morning or afternoon session by noon.|The lift is unavailable. To give everyone ground-floor access, we’re running two sessions. Could you tell us your preferred time by noon?|There’s a small venue issue. We’ll fit everyone in somehow.|Repair C for someone who must book transport today.|Write to a participant who can attend only in the morning. Explain what is confirmed and what still needs a reply.
+@ Malay|B2|Runding masa kerja pembaikan
+「asalkan」は条件、「walaupun」は譲歩です。住民と管理側が実行できる案を探します。|Asalkan memberi syarat. Walaupun mengakui satu perkara yang tidak mengubah pendirian kita.|Use asalkan to set a condition and walaupun to acknowledge an obstacle. Agree who will notify residents.
+Aduan
+Penduduk blok {A|B} dapat notis semalam. Kenapa air perlu ditutup waktu pagi?
+Paip utama bocor. Kontraktor hanya boleh mula pukul {sembilan|lapan}.
+Ramai orang keluar kerja awal. Berapa lama air akan ditutup?
+Anggarannya dua jam. Kalau ada kerosakan lain, mungkin lebih lama.
+Boleh tutup satu tingkat dulu?
+Tak boleh. Semua tingkat guna paip yang sama.
+Kalau begitu, apa pilihan untuk keluarga yang ada anak kecil?
+Kami boleh sediakan air di lobi [asalkan] ada ruang untuk tangki.
+Bandingkan pilihan
+Lobi dekat, tapi lif mungkin sesak. Boleh letak tangki di setiap blok?
+Satu tangki saja yang ada. Kita boleh sediakan botol di pondok pengawal.
+Siapa akan hantar air kepada penduduk yang susah turun?
+Ada dua orang petugas. Mereka perlu senarai unit malam ini.
+Boleh kami kumpul nombor unit tanpa minta maklumat kesihatan?
+Boleh. Cukup nombor unit dan masa orang ada di rumah.
+[Walaupun] ada bekalan sementara, penduduk masih perlu tahu bila air pulih.
+Betul. Kami akan beri perkembangan selepas sejam.
+Persetujuan
+Kalau paip belum siap tengah hari, apa langkah seterusnya?
+Kami akan tambah air botol dan beri anggaran baharu.
+Jangan tulis air pasti pulih pukul sebelas. Itu baru anggaran.
+Baik. Saya akan tulis kerja dijangka siap dalam dua jam.
+Siapa akan jawab soalan kalau pejabat belum buka?
+Pengawal boleh catat soalan. Saya telefon semula sebelum kerja bermula.
+Saya edarkan notis [selepas] awak sahkan nombor untuk dihubungi.
+Setuju. Saya hantar nombor dan lokasi tangki petang ini.
+Role A|Anda wakil penduduk. Tiga keluarga perlukan air sebelum pukul lapan. Tanya tentang tempoh, lokasi air dan bantuan ke rumah.
+Role B|Anda penyelia. Hanya ada satu tangki dan dua petugas. Tempoh kerja belum pasti. Runding cara agihan dan masa kemas kini.
+Change|Lobi perlu dikosongkan untuk penghantaran. Pilih lokasi lain dan sampaikan perubahan kepada seorang penduduk.
+Grammar|Syarat dan konsesi|Kita boleh mula awal asalkan notis sampai malam ini. / Walaupun kerja cepat siap, air mungkin lambat sampai ke tingkat atas.|Kami boleh hantar air ____ ada orang di rumah. / ____ lori tiba awal, tangki belum boleh diisi.|asalkan / Walaupun|Beri satu syarat untuk agihan dan satu masalah yang masih mungkin berlaku.
+Writing|Notis air untuk penduduk|Air akan ditutup pukul sembilan. Sila ambil air di lobi sebelum kerja bermula.|Kerja dijangka mengambil masa dua jam. Jika anda perlukan bantuan mengambil air, hubungi pejabat malam ini.|Air mungkin tiada sekejap. Semua akan selesai nanti.|Baiki C dengan masa mula dan langkah yang penduduk boleh ambil.|Tulis notis untuk penghuni baharu. Nyatakan lokasi sementara dan bila maklumat seterusnya akan diberi.
+@ Japanese|B2|研修の日程を調整する
+「〜を条件に」で条件を示し、「たとえ〜ても」で条件が変わっても残る問題を示します。|Nyatakan syarat dengan 〜を条件に dan risiko yang masih ada dengan たとえ〜ても.|Use 〜を条件に to specify a condition and たとえ〜ても to explain a remaining difficulty.
+変更の理由
+{金曜|木曜}の研修ですが、会場を変える必要が出てきました。
+何かあったんですか。もう参加者に案内を送りましたよ。
+空調の工事が入って、午後は音が出るそうです。
+午前中に全部終えるのは難しいですね。別室はありますか。
+小会議室なら使えますが、定員は{八|六}人です。
+二組に分ければ入れますね。講師の都合はどうでしょう。
+四時までに終わること[を条件に]、残ってくださるそうです。
+では、早く帰る人が何人いるか確認しましょう。
+案を比べる
+午前なら全員そろいます。説明だけ一緒に聞けませんか。
+説明はオンラインで、実習だけ対面という案ですね。
+はい。でも、端末を持っていない方もいますよね。
+貸出用が三台あります。使い方は事前に説明できます。
+たとえ端末が足り[ても]、音声が聞き取りにくいかもしれません。
+字幕を用意しましょうか。それとも最初から二組にしますか。
+今回は実習が中心ですから、二組の方が安心です。
+分かりました。午前の組を希望する理由は聞かずに調整しましょう。
+案内を決める
+参加者には何を選んでもらいますか。
+午前か午後か、両方可能かを答えてもらいましょう。
+午前に集中したらどうしますか。
+別日も用意できるか、先に講師に聞いてみます。
+では、今の段階では別日を約束しない方がいいですね。
+そうですね。調整中だと伝える[だけ]にします。
+私が希望を集めます。会場の予約をお願いできますか。
+はい。予約が取れたら、今日の三時までに連絡します。
+Role A|あなたは研修担当です。参加者は十四人で、三人は午後参加できません。希望をどう集めるか相談してください。
+Role B|小会議室は八席です。講師は四時まで参加できます。会場と時間帯を提案し、判断の理由を聞いてください。
+Change|午前の希望者が十人になりました。公平な調整方法を決め、まだ確定していない点を参加者に伝えてください。
+Grammar|条件を示し、譲歩する|全員に連絡することを条件に変更を認めます。 / たとえ無料でも、全員が参加できるとは限りません。|事前に確認すること＿＿、変更できます。 / ＿＿空席があっても、講師が来られません。|を条件に / たとえ|条件を一つ示し、その条件を満たしても残る問題を説明してください。
+Writing|研修変更のお知らせ|研修を二組に分けます。本日中に希望の時間帯をご連絡ください。|会場工事のため、午前と午後に分けて実施します。どちらも難しい方は、個別にご相談ください。|研修の件で少し変更があります。よろしくお願いします。|Cに変更内容と返信期限を加えてください。|午後しか参加できない方に、確定事項と調整中の点を伝える返信を書いてください。
+@ English|C1|Brief a committee on an uncertain finding
+回答者の声と全員の意見を区別します。異論を正確に言い換えてから、結論の範囲を限定します。|Bezakan pandangan responden daripada pandangan semua peserta. Rumuskan bantahan sebelum mengehadkan kesimpulan.|Distinguish what the evidence supports from what the committee must decide. Represent an objection fairly before qualifying your claim.
+Test the claim
+The draft says our evening classes are inaccessible. What supports that wording?
+{Twelve|Nine} respondents mentioned transport. Several said the last bus leaves before class ends.
+How many people saw the questionnaire?
+We sent it to current learners. We don’t know how many opened it.
+So the people who couldn’t enrol are missing from the evidence altogether.
+Yes. That cuts both ways: the problem may be larger, but we can’t estimate its size.
+Would it be fair to say the replies [point to] a barrier for some learners?
+Yes, if we also acknowledge that others depend on the late start.
+Represent the objection
+The tutor thinks an earlier start would simply transfer the difficulty to shift workers.
+Is her concern about the proposal itself or about treating it as settled?
+Mostly the latter. She’d support a trial if we preserved an evening option.
+Then reporting that she opposes a trial would misrepresent her position.
+Agreed. How do we test demand without expecting learners to register twice?
+Offer a choice for {two|three} weeks and ask people which slot they could actually attend.
+Attendance alone won’t tell us why they chose it.
+True. A brief optional comment would help, [provided] we also invite people on the waiting list.
+Frame a decision
+The chair wants a recommendation today. What can we responsibly recommend?
+A reversible trial, with no permanent timetable change until the committee reviews it.
+What would make us stop rather than extend it?
+If the early slot repeatedly excludes people who have no evening alternative.
+That sounds like a judgement call. Who makes it, and when?
+The committee after the trial. The tutor should present both attendance and comments.
+I’ll phrase it as a proposal [subject to] review, with the minority concern recorded.
+And I’ll ask the chair to distinguish approving the trial from endorsing its outcome.
+Role A|You wrote the report. Twelve replies mention transport, but there is no reliable response rate. Explain what you can infer. Ask your colleague to challenge your recommendation.
+Role B|Represent a tutor whose shift-working learners value late sessions. You would support a reversible trial. Correct any account that implies you reject all change.
+Change|The chair wants a public headline saying most learners favour the new time. Negotiate a precise alternative and state who will decide after the trial.
+Grammar|Qualifying a finding|The replies suggest a barrier for some learners. / Had we surveyed former learners, the pattern might have differed.|The responses are consistent ____ a transport barrier. / ____ we contacted non-attenders, we might have heard different reasons.|with / Had|Qualify one claim and use a past counterfactual to describe a gap in the evidence.
+Writing|Draft a decision minute|The committee approved a two-week trial. A permanent change requires a further decision.|Members recognised the transport concern while recording the tutor’s reservation about shift workers. The committee will review both groups’ experience.|Everyone agreed the new timetable works better.|Repair C so a reader can distinguish approval, reservation and evidence.|Draft a minute and a one-sentence public summary. Preserve the scope of approval in both.
+@ Malay|C1|Menimbang dapatan tinjauan kampus
+回答者の範囲と、回答に含まれない学生の事情を区別します。「belum tentu」で推論を限定します。|Bezakan aduan yang direkodkan daripada kesimpulan tentang semua pelajar. Wakili hujah pihak lain sebelum memberi syor.|Use belum tentu to limit an inference. Distinguish the evidence, a stakeholder’s reservation and the decision requested.
+Semak dakwaan
+Draf menyebut perkhidmatan bas malam gagal memenuhi keperluan pelajar. Apa asasnya?
+{Lapan|Sepuluh} responden melaporkan mereka terlepas bas selepas kelas.
+Adakah kita tahu berapa ramai pelajar yang mengalami masalah yang sama?
+Tidak. Borang hanya diedarkan kepada ahli persatuan yang masih menggunakan bas.
+Jadi, mereka yang sudah berhenti menggunakan bas mungkin langsung tidak diwakili.
+Betul. Namun ketiadaan angka menyeluruh tidak bermakna aduan itu boleh diketepikan.
+Bolehkah kita nyatakan masalah itu wujud [tanpa] menganggarkan keluasannya?
+Boleh. Saya akan gantikan dakwaan umum dengan gambaran pengalaman responden.
+Timbang bantahan
+Penyelia bimbang perjalanan lewat akan mengurangkan bas pada waktu puncak.
+Adakah beliau menolak cadangan atau meminta kesannya dinilai dahulu?
+Yang kedua. Beliau sanggup mencuba jika perjalanan sedia ada dikekalkan.
+Kalau begitu, perkataan membantah itu kurang tepat. Apa kata kita catat syaratnya?
+Setuju. Kita boleh tambah satu perjalanan selama {dua|tiga} minggu.
+Itu pun bergantung pada pemandu tambahan. Siapa akan menanggung kosnya?
+Unit pengangkutan boleh semak peruntukan. Wang itu [belum tentu] mencukupi.
+Jadi cadangan percubaan mesti membezakan persetujuan dasar daripada kelulusan belanja.
+Rumus keputusan
+Pengerusi mahu kenyataan ringkas untuk pelajar petang ini. Apa yang boleh diumumkan?
+Kita boleh maklumkan cadangan sedang dinilai dan nyatakan bila keputusan dijangka dibuat.
+Kalau sekadar sedang dinilai, pelajar masih tak tahu bagaimana mahu bersuara.
+Kita jemput pengguna dan bekas pengguna beri maklum balas menjelang Jumaat.
+Siapa akan jelaskan mengapa pengalaman bekas pengguna diambil kira?
+Saya boleh jelaskan. Mereka mungkin sudah memilih pengangkutan lain kerana jadual lama.
+Baik. Saya rekodkan syor itu [tertakluk pada] semakan kos dan ketersediaan pemandu.
+Saya pula semak kenyataan awam supaya tiada siapa menyangka bas tambahan sudah diluluskan.
+Role A|Anda menyediakan ringkasan. Aduan hanya datang daripada ahli persatuan. Jelaskan batas dapatan dan cadangkan percubaan yang boleh dihentikan.
+Role B|Anda wakil operasi. Anda tidak membantah percubaan tetapi mahu jadual lama dikekalkan. Semak gambaran pendirian anda dan minta syarat kos dinyatakan.
+Change|Wartawan kampus menulis bahawa bas tambahan sudah diluluskan. Persetujui pembetulan yang tepat tanpa menafikan aduan pelajar.
+Grammar|Membezakan andaian dan bukti|Aduan itu menunjukkan ada masalah, tetapi belum tentu mewakili semua pengguna. / Sekiranya bekas pengguna turut ditanya, dapatan mungkin berbeza.|Dapatan itu ____ mewakili semua pelajar. / Percubaan ini ____ kelulusan peruntukan.|belum tentu / tertakluk pada|Hadkan satu kesimpulan dan nyatakan syarat sebelum syor boleh dilaksanakan.
+Writing|Catatan keputusan dan kenyataan awam|Jawatankuasa bersetuju menilai percubaan dua minggu. Perbelanjaan belum diluluskan.|Aduan pengguna telah direkodkan. Unit operasi akan mengesahkan kos sebelum keputusan dibuat pada hari Jumaat.|Bas malam tambahan pasti beroperasi kerana semua pelajar memerlukannya.|Betulkan C tanpa menghilangkan sebab cadangan itu dibincangkan.|Tulis catatan untuk minit dan kenyataan dua ayat untuk pelajar. Kekalkan perbezaan antara syor dan kelulusan.
+@ Japanese|C1|調査結果を委員会に伝える
+「〜とは限らない」で推論の限界を示し、「〜を前提として」で合意の条件を明示します。|Gunakan 〜とは限らない untuk mengehadkan inferens. Bezakan cadangan bersyarat daripada kelulusan muktamad.|Use 〜とは限らない to limit an inference. Convey a stakeholder’s qualified support without implying that a decision has been made.
+根拠を確かめる
+報告案には、夜間窓口の廃止を利用者が支持しているとありますね。
+昼間の利用者{十五|十}人に聞いたところ、大半が困らないと答えました。
+困らないという回答を、廃止への賛成と読んでよいのでしょうか。
+確かに、その二つは別ですね。夜しか来られない方には聞けていません。
+では、昼間の回答だけで需要がない[とは限らない]、という理解ですね。
+はい。ただ、人員不足で現状のまま続けにくいのも事実です。
+その運営上の事情は、利用者の意向とは分けて示しましょう。
+分かりました。見出しも、支持が得られたという表現は避けます。
+立場を取り次ぐ
+担当者は夜間対応を一切やめたいと考えているのですか。
+むしろ逆で、予約制なら残せるのではないかと話しています。
+その案に対して、学生側はどの点を懸念していますか。
+急に相談が必要になったとき、当日予約ができるかという点です。
+つまり、予約制そのものに反対というわけではないのですね。
+ええ。当日枠を残すこと[を前提として]、試行に応じる構えです。
+試行を始める前に、予約できなかった人の声も拾う必要がありますね。
+では、窓口以外でも意見を出せるよう、連絡先を案内しましょう。
+決定の範囲を定める
+委員長は今日中に方針を示したいそうです。何なら決められますか。
+{二週間|三週間}の試行と検証方法まででしょう。恒久化は時期尚早です。
+検証では予約件数だけを見るのですか。
+いいえ。断った件数と理由、当日枠の利用状況も合わせて見ます。
+その結果で何を判断するのかも、今のうちに明記しませんか。
+そうですね。不利益が大きければ元に戻す選択肢も含めます。
+では、試行の了承は恒久化を意味する[ものではない]と記録します。
+お願いします。学生向けには、困ったときの連絡方法も添えてください。
+Role A|昼間の利用者への調査を報告します。回答の対象と設問の限界を説明し、検証できる試行案を提示してください。
+Role B|学生代表です。予約制に一律反対ではありません。当日枠と見直しの条件を求め、誤解されたら自分の立場を言い直してください。
+Change|広報案に「夜間窓口を廃止します」とあります。委員会の合意を正確に表す見出しと本文を二人で作ってください。
+Grammar|推論の限界と合意の前提|回答が少ないからといって、需要がないとは限りません。 / 当日枠を残すことを前提として、試行に賛成します。|苦情がないからといって、不便がない＿＿。 / 再検討の機会を設けること＿＿、提案を受け入れます。|とは限りません / を前提として|反対意見の一部を認めた上で、自分が賛成できる条件と根拠の限界を説明してください。
+Writing|議事要旨と学生向けの告知|当日枠の確保を条件として、予約制の試行を了承した。恒久化の可否は試行後に審議する。|夜間相談の予約制を二週間試します。当日枠も設けます。利用しにくかった点を窓口にお知らせください。|利用者の総意により夜間相談の予約制が正式に決定しました。|Cが示す二つの誤解を直してください。|委員向けの要旨と学生向けの短い案内を書き分けてください。どちらにも試行の範囲が分かる表現を入れてください。

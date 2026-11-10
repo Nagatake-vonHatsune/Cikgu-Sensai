@@ -24,6 +24,9 @@ extended("Meeting at the station","Japanese","A2",["待ち合わせ（まちあ�
 lesson("Where things are · に and で","Japanese","A1","Grammar",["「に」は人や物がある場所、「で」は何かをする場所です。","Guna に untuk lokasi dengan あります. Guna で untuk tempat sesuatu aktiviti berlaku.","With あります, に marks where something is. With an action such as 読みます, で marks where you do it."],[("1 · Notice",["ロビーに本があります。","ロビーで本を読みます。","どちらの文で、人が何かをしますか。"]),("2 · Choose",["に・で を入れましょう。","駅の前＿＿店があります。","その店＿＿パンを買います。","部屋＿＿机があります。"]),("3 · Write and ask",["家や学校に何がありますか。そこで何をしますか。","二つの文を書いて、相手にも聞きましょう。","________________________________","________________________________"])],["Second model describes an action. Gaps: に / で / に.","Example: 学校に図書室があります。図書室で本を読みます。"])
 lesson("Tell a colleague you will be late","Japanese","B1","Writing",["到着予定と次にしてほしいことを伝えます。相手との関係に合う言い方を選びましょう。","Nyatakan waktu tiba dan apa yang rakan boleh buat sementara menunggu.","State the expected arrival time and whether the recipient should wait or start."],[("1 · Compare",["A　ごめん、電車が遅れてる。10時10分ごろ着くよ。先に始めてて。","B　すみません。電車の遅れで、到着は10時10分ごろになります。先に始めていただけますか。","C　少し遅れます。すみません。","どれを親しい同僚に送りますか。Cを読んだ相手は何を聞きたいですか。"]),("2 · Repair",["Cを書き直しましょう。到着は9時15分です。会議は先に始めてください。","________________________________","________________________________"]),("3 · Write",["取引先との約束に遅れます。理由と到着予定を伝え、相手の都合を聞いてください。","________________________________","________________________________"])],["A is casual, B is appropriate for a more formal relationship. C leaves the recipient unsure whether to wait.","Example: 申し訳ありません。電車が遅れており、9時15分に到着予定です。先に始めていただけますか。"])
 
+from curriculum import load_batch
+load_batch(lesson)
+
 from fontTools import subset
 from fontTools.ttLib import TTFont
 from tempfile import TemporaryDirectory

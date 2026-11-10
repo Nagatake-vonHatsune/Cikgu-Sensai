@@ -1,0 +1,60 @@
+@ Move a workshop without losing participants
+Change the booking
+The venue has just offered a second room. Would that solve the access problem?
+Only [if] it has a step-free entrance. Have they confirmed that?
+Yes, but the two groups would need separate trainers.
+In that case, the room alone doesn’t settle it. Could one group start later?
+Possibly. What can we tell the people who have already booked transport?
+Confirm their original start, [provided] we can reserve the first room now.
+I’ll ring the venue. Will you hold off sending the timetable until I reply?
+Yes. I’ll send an interim message explaining when we’ll confirm.
+@ Runding masa kerja pembaikan
+Semak perubahan
+Kontraktor baru telefon. Kerja hanya boleh mula petang. Boleh kita teruskan?
+Boleh [asalkan] penduduk dapat notis baharu sebelum mereka keluar.
+Keluarga yang dah simpan air tentu nak tahu kenapa kita tukar masa.
+Beritahu mereka alat ganti belum sampai. Jangan janji masa yang belum pasti.
+Kalau lori lambat lagi, siapa akan beri maklumat?
+Saya. [Walaupun] belum ada keputusan, saya akan hubungi wakil blok pukul dua.
+Saya semak bekalan air untuk petang. Awak boleh maklumkan pengawal?
+Boleh. Kita catat nombor telefon untuk penduduk yang perlukan bantuan.
+@ 研修の日程を調整する
+別の提案
+講師から、午前だけなら助手を呼べると連絡がありました。
+では、午前に二部屋使うこともできますね。何が必要ですか。
+同じ教材を使うこと[を条件に]、二組を同時に教えられるそうです。
+教材がそろっても、助手の説明に差が出るかもしれません。
+先に打ち合わせをして、実習の手順を確認しませんか。
+そうですね。[たとえ]準備が間に合っても、会場の確認は必要です。
+私が二部屋を仮予約します。参加者への連絡はいつにしましょうか。
+助手と会場の両方が決まった時点で、私が連絡します。
+@ Brief a committee on an uncertain finding
+Revise the public wording
+A colleague has sent a press line saying the pilot proved demand. Can we sign it off?
+That goes [beyond] the evidence. The trial hasn’t even begun.
+Would “learners asked for an earlier start” capture the point?
+Some did. Others asked us to retain the existing slot. Both count.
+How about saying we’re testing an additional option in response to feedback?
+Yes, [provided] the evening class remains available throughout.
+Should we promise to keep whichever slot draws the bigger group?
+No. Say how the committee will consider people who have no workable alternative.
+@ Menimbang dapatan tinjauan kampus
+Semak tajuk berita
+Tajuk yang dicadangkan berbunyi Pelajar Tolak Jadual Lama. Tepatkah?
+Tidak. Aduan itu [belum tentu] mewakili pelajar yang berpuas hati.
+Jika kita sebut ada pelajar meminta perjalanan lewat, adakah itu memadai?
+Lebih tepat. Nyatakan juga cadangan masih [tertakluk pada] semakan kos.
+Ada yang bimbang kenyataan itu kedengaran seperti alasan untuk bertangguh.
+Sertakan tarikh semakan dan pihak yang bertanggungjawab. Itu boleh disahkan.
+Jadi kita umumkan proses dan tempoh, tanpa mendahului keputusan?
+Ya. Beri juga saluran kepada pelajar yang tidak menjawab tinjauan asal.
+@ 調査結果を委員会に伝える
+見出しを修正する
+広報案に「利用者が窓口の縮小を支持」とあります。このままでよいでしょうか。
+いいえ。困らないという回答が賛成を意味する[とは限りません]。
+では、試行に合意したのは利用者ではなく委員会だと明記しますか。
+ええ。その際、学生代表が示した条件も落とさないでください。
+当日枠を設けること[を前提として]、という点ですね。
+そうです。夜間利用者の意見はこれから集めることも伝えましょう。
+見出しは「夜間相談の予約制を試行へ」でどうでしょう。
+それなら決定の範囲が明確です。本文に見直し日も入れてください。

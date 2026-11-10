@@ -1,0 +1,117 @@
+@ Malay|A1|Beli buah di pasar
+いくらか、いくつ欲しいかを伝えます。satu biji は一個、sekilo は一キロです。|Tanya harga dengan berapa. Sebut buah dan jumlah: dua biji epal.|Ask berapa for a price. Count individual fruit with biji.
+Nak buah apa?|Nak epal. Epal merah ada?
+Ada. Nak berapa biji?|Dua biji. Berapa harga satu?
+Satu dua ringgit. Nak buah lain?|Pisang ada? Saya nak sikit saja.
+Ada. Pisang ni tiga ringgit setandan kecil.|Kalau ambil dua epal dan pisang, semua tujuh ringgit?
+Ya, betul. Nak beg?|Tak nak, saya ada beg.
+Nak bayar macam mana?|Tunai. Ini sepuluh ringgit.
+Ini baki tiga ringgit. Cukup?|Ya. Boleh campur epal hijau lain kali?
+Boleh. Esok pun ada.|Baik, terima kasih.
+Anda jual epal RM2 sebiji dan pisang RM3 setandan. Tanya jumlah dan cara bayar.|Anda ada RM7. Beli untuk dua orang. Semak harga dan baki.|Epal merah tinggal satu. Pilih buah lain dalam bajet.
+Jumlah buah|Satu biji epal. Dua biji epal.|Saya nak dua ____ epal. / ____ harga satu?|biji / Berapa|Pesan tiga buah dan tanya harga.
+Pesanan buah|Nak dua biji epal merah.|Boleh beli dua biji epal merah untuk saya?|Beli yang itu.|Baiki C supaya kawan tahu buah dan jumlah.|Tulis pesanan untuk kawan dengan bajet RM6.
+@ English|A1|Meet at a campus gate
+at は集合時刻や場所に使えます。Which gate? で入口を確認します。|Guna at untuk masa dan tempat pertemuan.|Use at for a meeting time or a specific meeting point.
+Which gate are you at?|Gate two. Where are you?
+At the library. Is gate two near the café?|Yes. Can you see the café sign?
+Yes. Is it on my left?|No, on your right.
+What time do we meet the class?|At ten. It’s nine fifty now.
+Do we have time for water?|Yes. There’s a shop by the gate.
+What colour is your bag?|It’s green. Can you see me?
+Are you by the blue sign?|Yes. I can see you now.
+Shall we go to class?|Yes. This way.
+You are at the library. Find your partner and check the class time.|You are at gate two beside the café. Describe a landmark and your bag.|Gate two closes. Agree on a different gate and time.
+Time and place with at|Meet me at gate two. Meet me at ten.|Meet me ____ the café. / Which ____ are you at?|at / gate|Tell your partner a time and a meeting point.
+Give a meeting point|Meet me at gate two at ten.|Can we meet at gate two at ten, please?|See you there.|Give C a place and time.|Send a new meeting point when your friend misses the bus.
+@ Japanese|A1|教室を探す
+「どこですか」で場所を聞きます。「〜のとなり」はすぐ横です。|Tanya lokasi dengan どこですか. となり bermaksud di sebelah.|Ask どこですか to locate something. となり means next to.
+すみません、日本語の教室はどこですか。|二階です。何時のクラスですか。
+十時です。部屋の番号は何番ですか。|二〇三です。
+階段はどこですか。|受付のとなりです。
+あの白いドアですか。|はい。エレベーターもありますよ。
+エレベーターはどちらですか。|右です。青い看板が見えますか。
+はい。二階ですね。|そうです。降りて左です。
+教室の前に何がありますか。|いすがあります。
+ありがとうございます。ここから近いですか。|はい、すぐですよ。
+十時のクラスに行きます。部屋、階、目印を聞いてください。|二〇三は二階です。階段とエレベーターを案内してください。|教室が三〇二に変わりました。相手に新しい場所を伝えてください。
+場所を表す「の」|受付のとなりです。教室の前です。|受付＿＿右です。 / 部屋＿＿前です。|の / の|二つの場所を使って道を教えてください。
+教室の案内|十時に二〇三に来てください。|十時の教室は二階の二〇三です。|ここです。|Cに階と部屋の番号を書いてください。|新しい学生に時間と部屋を知らせてください。
+@ Malay|A2|Ambil bungkusan di lobi
+dah は完了、belum はまだです。受け取り状況を確認しましょう。|Dah: sudah siap. Belum: masih tunggu.|Use dah and belum to check whether a parcel has arrived.
+Saya nak ambil bungkusan. Dah sampai?|Nama siapa? Ada nombor unit?
+Unit B-12. Nama saya Aki.|Ada dua kotak. Yang mana satu?
+Kotak kecil. Ada nama saya tak?|Yang kecil ni untuk unit B-21.
+Oh, jadi kotak saya belum ada?|Tunggu dulu. Ada satu lagi dekat pintu.
+Betul, itu nama saya. Perlu tunjuk apa?|Boleh tunjuk mesej dari kedai?
+Ini mesejnya. Nombor sama tak?|Sama. Nak ambil sekarang?
+Ya. Di mana saya perlu tulis nama?|Di sini. Semak kotak dulu.
+Kotak elok. Terima kasih.|Sama-sama. Tolong tutup pintu ya.
+Cari kotak kecil untuk unit C-3. Anda ada mesej dari kedai.|Dua kotak warna sama. Tanya nombor unit dan semak nama.|Label koyak. Cari cara lain untuk semak pemilik.
+Dah atau belum|Kotak dah sampai. Saya belum ambil.|Kotak masih dalam van. Kotak ____ sampai. / Ini kotaknya. Kotak ____ sampai.|belum / dah|Tanya status dua bungkusan.
+Mesej untuk pengawal|Saya akan ambil kotak unit C-3 pukul enam.|Boleh simpan kotak kecil untuk unit C-3 sampai pukul enam?|Tolong simpan itu.|Baiki C dengan saiz, unit dan masa.|Minta kawan ambil kotak dan beri cara untuk kenal kotak itu.
+@ English|A2|Return a borrowed book
+過去の出来事と今できることを区別します。borrow は借りる、lend は貸すです。|Borrow bermaksud pinjam daripada orang. Lend bermaksud beri pinjaman.|You borrow a book from someone. They lend it to you.
+Can I return this book here?|Yes. When did you borrow it?
+Last Monday. Is it late?|It was due yesterday. Is the map inside?
+I think so. Where should I look?|In the pocket at the back.
+It’s empty. Can I bring the map tomorrow?|Yes. Do you still have it?
+It’s on my desk. What time do you close?|At six, but the desk closes at five.
+Can I leave it in the box?|Please bring it to the desk. It’s a loose page.
+Can my friend bring it at four?|Yes. Ask them to give your name.
+So my friend brings the map before five?|Exactly. I’ll keep the book here.
+Return a guidebook. One loose insert is at home. Ask for two return options.|You close at five. Name one way to return the insert tomorrow.|Your friend can only arrive at six. Agree on another day.
+Borrow and lend|I borrowed the map from Jo. Jo lent it to me.|Can I ____ your book? / Can you ____ me your map?|borrow / lend|Describe an item you borrowed. Ask for another day.
+Explain a missing item|I returned the book, but the map is at home. I’ll bring it at four.|Could I bring the missing map at four tomorrow? I’ve already returned the book.|I forgot it. Later, OK?|Repair C for someone who was away yesterday.|Ask your classmate to take the map to the desk.
+@ Japanese|A2|昼ご飯を予約する
+「〜人で」で人数を、「〜てもいいですか」で許可を確認します。|Sebut bilangan orang dengan 〜人で. Guna 〜てもいいですか untuk meminta izin.|Give the party size with 〜人で and ask permission with 〜てもいいですか.
+明日の昼、予約できますか。|何人ですか。
+三人です。十二時に空いていますか。|十二時は満席です。一時なら空いています。
+一時は少し遅いです。外の席はどうですか。|外なら十二時半に座れます。
+雨のときはどうなりますか。|中の席が空くまで待っていただきます。
+では、一時に中の席をお願いします。|お名前をお願いします。
+田中です。一人、少し遅れてもいいですか。|はい。何時ごろですか。
+一時十五分です。先に注文してもいいですか。|もちろんです。入口でお名前をお願いします。
+三人で一時ですね。|はい。お待ちしています。
+三人で食事します。時間と席を相談してください。|中は一時、外は十二時半です。名前と人数を聞いてください。|もう一人来ます。席と時間をもう一度確認してください。
+許可を聞く|先に注文してもいいですか。ここで待ってもいいですか。|ここに座っ＿＿いいですか。 / 写真を撮っ＿＿いいですか。|ても / ても|店で二つの許可を求めてください。
+予約の確認|一時に三人で予約しました。|一時に三人です。入口で田中の名前を伝えてください。|もう予約したよ。|Cに店で会うための情報を加えてください。|遅れる友人に時間、人数、予約名を伝えてください。
+@ Malay|B1|Susun giliran di kaunter
+sebab で理由、jadi で結果を示します。予定が変わった人と交代の条件を決めます。|Sebab memberi alasan. Jadi menunjukkan hasil atau keputusan.|Give a reason with sebab and a consequence with jadi.
+Boleh tukar giliran esok? Saya kena pergi ke kampus.|Pukul berapa awak mesti sampai?
+Sebelum sebelas. Giliran saya pukul sepuluh.|Saya boleh ambil giliran itu, tapi saya perlukan rehat awal.
+Kalau saya sampai balik pukul satu, cukup masa?|Cukup jika bas tak lewat. Ada pilihan lain?
+Saya boleh minta Mei jaga kaunter setengah jam.|Mei belum biasa guna sistem. Siapa boleh bantu dia?
+Saya tunjuk langkah hari ini. Awak semak selepas itu?|Boleh. Jadi saya mula sepuluh dan rehat satu?
+Ya. Kalau saya lambat, saya telefon sebelum dua belas.|Siapa akan beritahu penyelia?
+Saya hantar jadual baru. Perlu tukar giliran minggu depan juga?|Tak perlu. Minggu ini saja.
+Baik, saya tulis tarikh supaya jelas.|Terima kasih. Saya tunggu mesej awak.
+Minta tukar satu giliran. Jelaskan sebab dan rancangan jika lewat.|Boleh bantu tetapi perlukan rehat. Tanya siapa akan maklumkan perubahan.|Rakan ketiga tak dapat bantu. Cari pelan baru.
+Sebab dan akibat|Saya perlu ke kampus, jadi saya minta tukar giliran. Saya lambat sebab bas rosak.|Bas lambat, ____ saya telefon penyelia. / Saya telefon ____ saya akan lewat.|jadi / sebab|Terangkan satu perubahan menggunakan kedua-dua bentuk.
+Mesej tukar giliran|Saya ambil giliran sepuluh esok. Aki ganti saya pukul satu.|Boleh sahkan saya jaga kaunter esok dari sepuluh hingga satu?|Kami dah tukar macam biasa.|Baiki C dengan nama, masa dan tarikh.|Maklumkan perubahan kepada penyelia dan minta pengesahan.
+@ English|B1|Plan a group presentation
+提案と条件を区別します。if で条件、otherwise で別の場合の結果を説明できます。|Nyatakan syarat dengan if dan pilihan lain dengan otherwise.|Use if for a condition and otherwise for what happens when it is unmet.
+Can we practise the presentation on Thursday?|I finish work at six. Could we start at seven?
+The room closes at seven. Could we meet online?|Yes, if someone sends the slides in advance.
+Who has the latest version?|I do. I still need the figures for slide four.
+I can check them at lunch. What if I can’t find them?|Use last month’s figures and label the date clearly.
+How long should each person speak?|Two minutes each, then a minute for questions.
+Could you listen for unclear transitions?|Yes. Could you time my section?
+Of course. Who will send the invitation?|I will, once the group confirms the time.
+So we meet online at seven on Thursday?|Yes. I’ll send a link and the slides by five.
+You need a rehearsal before Friday. The venue closes early. Negotiate a plan.|You work until six and have the slides. Ask for figures and a deadline.|One member cannot join online. Give them a useful part before the rehearsal.
+If and otherwise|If the room is free, we can meet there. Otherwise we can meet online.|____ the slides arrive, I can practise. / Book the room; ____ we may lose it.|If / otherwise|Suggest a plan with a condition and a fallback.
+Confirm a rehearsal|We meet online at seven on Thursday. Please read the slides first.|Could everyone confirm Thursday at seven? I’ll send the slides by five.|Let’s practise later like we said.|Repair C so an absent member can act.|Write a follow-up for someone who missed the meeting.
+@ Japanese|B1|発表の役割を調整する
+「〜ことになりました」で決まったことを、「〜つもりです」で自分の意図を表します。|Bezakan keputusan kumpulan dengan niat sendiri.|Use 〜ことになりました for an arrangement and 〜つもりです for your own intention.
+発表の順番、もう決まりましたか。|はい。私たちが最初に話すことになりました。
+資料を先に配った方がいいですか。|そうですね。私は入口で配るつもりです。
+では、私はスライドを準備します。|一人で大丈夫ですか。
+写真が一枚足りません。送ってもらえますか。|今夜なら送れます。締め切りはいつですか。
+明日の昼です。間に合わなければ図を使います。|では、九時までに連絡します。
+質問には誰が答えますか。|内容によって分けませんか。
+いいですね。費用については私が答えます。|日程については私が答えます。
+欠席の人に何を伝えましょうか。|発表の順番と担当を知らせてください。
+最初の発表を担当します。資料の不足を相談し、締め切りを決めてください。|写真を持っています。質問の担当も決めたいです。|写真が間に合いません。別の資料と分担を決め直してください。
+決定と意図|最初に話すことになりました。私は図を使うつもりです。|相談の結果、三人で話す＿＿になりました。 / 私はゆっくり話す＿＿です。|こと / つもり|決まった順番と、自分がやるつもりの準備を説明してください。
+担当の連絡|私は費用、田中さんは日程の質問に答えます。|欠席の方へ。明日の発表では費用を私が担当します。変更があれば今夜ご連絡ください。|分担は前と同じです。|Cを初めて読む人にも分かるように直してください。|写真が使えないときの代案を含めて連絡してください。

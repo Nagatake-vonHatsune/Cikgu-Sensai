@@ -1,0 +1,81 @@
+@ Beli buah di pasar
+Nak buah apa hari ini?|Nak mangga. Berapa [harga] satu?
+Tiga ringgit sebiji. Nak berapa?|Saya nak dua [biji]. Yang ini manis tak?
+Manis. Yang kecil masam sikit.|Kalau satu besar dan satu kecil, sama harga?
+Yang kecil dua ringgit. Semua lima ringgit.|Saya ada empat ringgit saja. Dua yang kecil boleh?
+[Boleh]. Nak beg sekali?|Tak nak. Ini duit.
+Empat ringgit, cukup. Ada lagi?|Esok buka pukul [berapa]?
+Pukul lapan. Nak datang lagi?|Ya, saya nak beli untuk kawan.
+Baik, jumpa esok.|Terima kasih.
+@ Meet at a campus gate
+Where are you now?|I’m outside the shop. Which [gate] do we need?
+Gate four. Can you see the bus stop?|Yes. Is the gate on the [left]?
+No, turn right after the stop.|What time does the visit start?
+It starts [at] eleven. Do you have the tickets?|Yes. Are you near the red bus?
+I’m near a white bus. What can you see?|A yellow sign and two benches.
+I see the sign too. Can you wait there?|Yes. What colour is your shirt?
+It’s blue. Are you on the first bench?|No, the second one, [next] to the sign.
+There you are. Shall we go?|Yes. I have both tickets.
+@ 教室を探す
+すみません、料理の教室は[どこ]ですか。|一階です。予約は何時ですか。
+十一時です。ここは何階ですか。|ここは二階です。階段はあちらです。
+荷物があります。エレベーターはありますか。|はい。受付の[となり]です。
+受付はこのドアの右ですか。|いいえ、左です。赤い机があります。
+分かりました。一階の部屋は[何番]ですか。|一〇五です。出口の近くです。
+教室の前に看板がありますか。|はい。緑の看板です。
+では、一階の一〇五ですね。|はい。入口で名前をお願いします。
+[ありがとう]ございます。|どういたしまして。
+@ Ambil bungkusan di lobi
+Ada kotak untuk unit D-6?|Maaf, lori [belum] sampai. Ada nombor pesanan?
+Ada. Ini nombornya. Bila lori sampai?|Mungkin pukul tiga. Nak tunggu atau datang lagi?
+Saya ada kelas. Kawan boleh ambil?|Boleh. Siapa [nama] kawan?
+Nama dia Mei. Apa dia perlu tunjuk?|Mesej dari awak dan nombor unit.
+Kalau dia datang pukul enam, pejabat masih buka?|Tak. Kami tutup pukul lima. Esok pun [boleh].
+Kalau macam tu, saya ambil esok. Perlu tulis nama sekarang?|Tak perlu. Semak nama bila ambil nanti.
+Sekarang kotak saya dah sampai ke?|Ya, lori baru sampai. Ini [kotak] awak.
+Bagus, saya boleh ambil sekarang.|Boleh, semak nombor dulu.
+@ Return a borrowed book
+Can I bring this dictionary back today?|Yes. When did you [borrow] it?
+On Friday. I think my card is inside.|Shall we check before I put it away?
+Here it is. Could you [lend] me the smaller dictionary?|Of course. When do you need it?
+For class tomorrow. When is it due?|Next Tuesday. Can you return it before five?
+I finish class at six. Is there another way?|Yes. Leave it in the return box [after] class.
+Is the box by the library door?|No, it’s by the lift. Do you know where that is?
+Yes. Can I leave the card inside?|Keep the card. Just return the [dictionary].
+Thanks. Next Tuesday by the lift, then?|Exactly. Enjoy the class.
+@ 昼ご飯を予約する
+土曜日の夜、二人で[予約]できますか。|七時でしたら、一席あります。
+窓の近くですか。|いいえ、入口のそばです。窓の席は八時からです。
+それでは八時にします。名前は森です。|お二人ですね。何かご希望はありますか。
+友人が七時半に着きます。中で待っても[いい]ですか。|はい。入口にいすがあります。
+先に飲み物を注文できますか。|はい。メニューをお渡しします。
+もし三人になったらどうしますか。|夕方までに[電話]してください。
+何時までですか。|五時までにお願いします。
+では、八時に[二人]ですね。|はい。お待ちしています。
+@ Susun giliran di kaunter
+Boleh saya ambil giliran petang dan awak ambil pagi?|Saya nak bantu, tapi saya ada kelas [sebelum] tengah hari.
+Kalau saya jaga pagi dan awak mula dua belas, sempat?|Sempat. Kenapa nak tukar?
+Saya perlu ambil dokumen, [jadi] saya kena keluar pukul satu.|Siapa akan tutup kaunter petang?
+Saya boleh datang balik pukul empat.|Kalau lewat, siapa ada kunci?
+Mei ada kunci. Saya akan telefon kalau lambat.|Baik. Beritahu penyelia [sebab] jadual asal masih di papan.
+Saya hantar jadual hari ini. Awak boleh semak tarikh?|Boleh. Selasa minggu ini saja, betul?
+Ya. Minggu depan ikut jadual asal.|Baik. Saya akan tulis masa [mula] dan tamat.
+Terima kasih. Jumpa esok.|Sama-sama.
+@ Plan a group presentation
+Our rehearsal room is booked. What can we do [instead]?|We could use the café, but it gets noisy.
+Could we try the library room?|Yes, [if] nobody has booked it yet.
+I'll check. What if it's full?|We can meet online; otherwise we may miss our last chance.
+What time does everyone finish class?|At four, except for Ken. He finishes at five.
+Can he send his part [before] we meet?|Yes. We can listen and suggest one change.
+Who will check that our examples fit his section?|I will. Could you time the first half?
+Of course. Shall I send everyone the new plan?|Yes. Mention that the room is still [unconfirmed].
+I'll send a second message when I hear back.|Great. I'll ask Ken for his recording.
+@ 発表の役割を調整する
+発表が金曜に変わったそうですね。|はい。二番目に話す[こと]になりました。
+私は最初に結果を説明する[つもり]です。|理由も少し説明しませんか。
+時間が足りるでしょうか。|図を一枚にすれば大丈夫ですよ。
+では、図を選んでもらえますか。|はい。今夜までに候補を二つ送ります。
+明日の朝に一緒に決めても[いい]ですか。|もちろんです。何時にしましょうか。
+九時なら空いています。|私は九時半なら大丈夫です。
+では九時半にしましょう。場所はどこですか。|図書室の前で[会う]ことにしましょう。
+変更を他の二人にも伝えますね。|お願いします。私は図を準備します。
