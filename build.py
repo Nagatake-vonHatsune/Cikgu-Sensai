@@ -27,6 +27,9 @@ lesson("Tell a colleague you will be late","Japanese","B1","Writing",["到着予
 from curriculum import load_batch
 load_batch(lesson)
 
+from course import add_course
+chapters=add_course(lessons,lesson)
+
 from fontTools import subset
 from fontTools.ttLib import TTFont
 from tempfile import TemporaryDirectory
@@ -44,3 +47,4 @@ with TemporaryDirectory() as tmp:
             assert space>=0,(item["title"],page)
     raw=doc.tobytes(garbage=4,deflate=True)
 (root/"dist/bank.js").write_text("const lessons="+json.dumps(lessons,ensure_ascii=False)+";\nconst bankPDF='"+base64.b64encode(raw).decode()+"';")
+(root/"dist/chapters.js").write_text("const chapters="+json.dumps(chapters,ensure_ascii=False)+";")

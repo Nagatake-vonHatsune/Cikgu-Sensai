@@ -1,8 +1,18 @@
 const $=id=>document.getElementById(id), chosen=new Set(), excluded=new Set();
-function visible(){return lessons.filter(l=>['lang','level','kind'].every(k=>!$(k).selectedIndex||$(k).value===l[k]));}
+function chapterOptions(){
+ const match=(c,k)=>!$(k).selectedIndex || c[k]===$(k).value;
+ const levels=chapters.filter(c=>match(c,'lang')&&match(c,'level'));
+ const refill=(id,label,values)=>{const el=$(id),old=el.value;el.replaceChildren(new Option(label,''));for(const [text,value] of values)el.add(new Option(text,value));el.value=values.some(pair=>pair[1]===old)?old:'';};
+ refill('genre','All genres',[...new Set(levels.map(c=>c.genre))].map(x=>[x,x]));
+ const options=levels.filter(c=>!$('genre').value||c.genre===$('genre').value);
+ refill('chapter','Browse all chapters',options.map(c=>[c.lang+' · '+c.level+' · '+c.title,String(chapters.indexOf(c))]));
+ const chapter=$('chapter');$('prev').disabled=chapter.selectedIndex<2;$('next').disabled=chapter.selectedIndex>=chapter.options.length-1;
+ const current=chapters[chapter.value];$('outcome').textContent=current?current.goal+' · '+current.items.length+' resources. Use the core plan in one session or select individual sections below.':'Choose a chapter to see its learner pack, teaching plan and linked exercises.';
+}
+function visible(){const selected=chapters[$('chapter').value];const topic=$('genre').value;return lessons.filter(l=>(!selected||selected.items.includes(l.title))&&(!topic||chapters.some(c=>c.genre===topic&&c.items.includes(l.title)))).filter(l=>['lang','level','kind'].every(k=>!$(k).selectedIndex||$(k).value===l[k]));}
 function pages(l){return [...document.querySelectorAll('[name=note]:checked')].map(n=>l.pages[+n.value]).concat(l.pages.slice(3,-1).filter(p=>!excluded.has(p)));}
 function draw(){
- const items=visible();$('list').replaceChildren();
+ chapterOptions(); const items=visible();$('list').replaceChildren();
  for(const l of items){
   const c=document.createElement('article');c.className='card';
   c.innerHTML='<label><input type="checkbox"> '+l.title+'</label><span class="meta">'+[l.lang,l.level,l.kind].join(' · ')+'</span><details><summary>Preview and choose sections</summary></details>';
@@ -47,5 +57,7 @@ async function download(){
 $('download').onclick=async()=>{try{await download();$('status').textContent='Pack ready.';}catch(e){$('status').textContent=e.message;}};
 $('all').onclick=()=>{const items=visible(),remove=items.every(l=>chosen.has(l));items.forEach(l=>remove?chosen.delete(l):chosen.add(l));draw();};
 for(const k of ['lang','level','kind'])$(k).onchange=draw;
+for(const id of ['genre','chapter'])$(id).onchange=draw;
+for(const [id,step] of [['prev',-1],['next',1]])$(id).onclick=()=>{$('chapter').selectedIndex+=step;draw();};
 for(const el of document.querySelectorAll('[name=note],#key,#format'))el.onchange=update;
 draw();
