@@ -1,0 +1,13 @@
+*{box-sizing:border-box}body{margin:0;background:#f7f6f1;color:#182d29;font:17px/1.5 Inter,"Noto Sans",Arial,sans-serif}header{background:#163e34;color:white;padding:14px max(5%,calc((100% - 1150px)/2));display:flex;align-items:center;gap:24px}header strong{font: bold 38px Georgia}header span{border-left:1px solid #a3bab1;padding-left:22px}main{max-width:1200px;padding:40px 25px;margin:auto}h1{font:normal clamp(44px,7vw,76px)/1.05 Georgia;margin:12px 0}.intro{color:#42564c;margin:0 0 32px}.filters,.bar{display:flex;gap:18px;align-items:center}.filters{background:#e8ede4;padding:19px 22px;border-block:1px solid #aab8ab}.filters label{flex:1}select{display:block;width:100%;padding:9px;background:white;color:inherit;border:1px solid #81958d;border-radius:4px;font:inherit}label,legend{font-size:15px;font-weight:600}.layout{display:grid;grid-template-columns:1fr minmax(280px,35%);gap:32px}.bar{justify-content:space-between}h2{font:normal 29px Georgia}.card,aside{background:white;border:1px solid #bac5bc;padding:18px;margin-bottom:10px}.card label{font-size:19px}.meta{font-size:14px;color:#43594d;display:block;margin-left:27px}summary{cursor:pointer;margin-top:10px}details label{display:block;padding:3px}.card p{margin:4px 0 8px}aside{align-self:start;margin-top:21px;border-top:5px solid #245841}aside h2{margin-top:0}fieldset{border:0;margin:10px 0;padding:0}fieldset label{display:inline-block;margin:4px 8px 6px 0}aside>label{display:block;margin:14px 0}button{cursor:pointer;font:inherit;color:#184936;background:white;border:1px solid #55776b;border-radius:4px;padding:7px 12px}button:disabled{opacity:.5}#download{background:#184936;color:white;width:100%;margin-top:12px}#quick button{font-size:14px;margin:8px 4px 0 0}input{accent-color:#184936}#summary{font-size:15px}#summary ol{padding-left:22px}#status:empty{display:none}@media(max-width:700px){.layout{grid-template-columns:1fr;gap:4px}.filters{flex-wrap:wrap}.filters label{min-width:120px}main{padding:20px 14px}}
+
+/* Screen accents retain the monochrome worksheet palette in print. */
+@media screen {
+  header { background: #123c40; border-bottom: 4px solid; border-image: linear-gradient(90deg,#43d4c6 0% 68%,#508bff 68% 91%,#da65a1 91% 100%) 1; }
+  header strong { color: #84e8dc; }
+  .filters { background: #e5f1ef; }
+  aside { border-top-color: #365fae; }
+  #download { background: #165e60; }
+  summary { color: #29589d; }
+  aside a { color: #82375f; }
+  :focus-visible { outline: 3px solid #82375f; outline-offset: 3px; }
+}
