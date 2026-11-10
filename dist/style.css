@@ -2,12 +2,16 @@
 
 /* Screen accents retain the monochrome worksheet palette in print. */
 @media screen {
-  header { background: #123c40; border-bottom: 4px solid; border-image: linear-gradient(90deg,#43d4c6 0% 68%,#508bff 68% 91%,#da65a1 91% 100%) 1; }
-  header strong { color: #84e8dc; }
-  .filters { background: #e5f1ef; }
-  aside { border-top-color: #365fae; }
-  #download { background: #165e60; }
-  summary { color: #29589d; }
-  aside a { color: #82375f; }
-  :focus-visible { outline: 3px solid #82375f; outline-offset: 3px; }
+  header { background: #fbf7f0; color: #0a1026; border-bottom: 1px solid #cdcac7; flex-wrap: wrap; gap: 10px 24px; }
+  header strong { font-weight: 500; font-size: clamp(32px,5vw,46px); }
+  .wordmark { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .wordmark img { width: 46px; height: 50px; object-fit: contain; }
+  .wordmark b { color: #b52374; font-weight: inherit; }
+  .filters { background: #e9f2f2; }
+  aside { border-top-color: #3157bb; }
+  #download { background: #12595f; }
+  summary { color: #284d9a; }
+  aside a { color: #842756; }
+  :focus-visible { outline: 3px solid #93285f; outline-offset: 3px; }
 }
+@media print { .wordmark img { display: none; } header { background: white; color: black; } }
