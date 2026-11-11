@@ -48,3 +48,15 @@ with TemporaryDirectory() as tmp:
     raw=doc.tobytes(garbage=4,deflate=True)
 (root/"dist/bank.js").write_text("const lessons="+json.dumps(lessons,ensure_ascii=False)+";\nconst bankPDF='"+base64.b64encode(raw).decode()+"';")
 (root/"dist/chapters.js").write_text("const chapters="+json.dumps(chapters,ensure_ascii=False)+";")
+
+# Keep the downloadable offline copy in sync with the deployed chapter guide.
+# Preserve the existing archive layout (source files plus dist/index.html).
+from zipfile import ZipFile, ZIP_DEFLATED
+archive_path=root/"dist/Cikgu-Sensai-offline.zip"
+with ZipFile(archive_path,"w",ZIP_DEFLATED) as offline:
+    files=list(root.glob("*.py"))+[root/"README.md",root/"wrangler.json"]
+    for folder in ("curriculum","dist","docs","tools"):
+        files.extend((root/folder).rglob("*"))
+    for path in sorted(set(files)):
+        if path.is_file() and path!=archive_path and "__pycache__" not in path.parts:
+            offline.write(path,path.relative_to(root))

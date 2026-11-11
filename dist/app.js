@@ -5,11 +5,16 @@ function chapterOptions(){
  const refill=(id,label,values)=>{const el=$(id),old=el.value;el.replaceChildren(new Option(label,''));for(const [text,value] of values)el.add(new Option(text,value));el.value=values.some(pair=>pair[1]===old)?old:'';};
  refill('genre','All genres',[...new Set(levels.map(c=>c.genre))].map(x=>[x,x]));
  const options=levels.filter(c=>!$('genre').value||c.genre===$('genre').value);
- refill('chapter','Browse all chapters',options.map(c=>[c.lang+' · '+c.level+' · '+c.title,String(chapters.indexOf(c))]));
- const chapter=$('chapter');$('prev').disabled=chapter.selectedIndex<2;$('next').disabled=chapter.selectedIndex>=chapter.options.length-1;
- const current=chapters[chapter.value];$('outcome').textContent=current?current.goal+' · '+current.items.length+' resources. Use the core plan in one session or select individual sections below.':'Choose a chapter to see its learner pack, teaching plan and linked exercises.';
+ refill('chapter','Browse all chapters',options.map(c=>[c.lang+' · '+c.level+' · '+c.title+(c.sequence==='future'?' · Stage 2, not yet active':c.sequence==='supplementary'?' · Unplaced · provisional':''),String(chapters.indexOf(c))]));
+ const current=chapters[$('chapter').value];
+ refill('unit','All units in this chapter',(current?.units||[]).map(u=>['Unit '+u.label+(u.items.length?'':' · Content not yet written'),u.label]));
+ $('unit-label').hidden=!current?.units;
+ const route=navigation(),pos=route.indexOf(current);
+ $('prev').disabled=pos<=0;$('next').disabled=pos<0||pos>=route.length-1;
+ $('outcome').textContent=current?[current.status,current.goal,current.items.length+' resources.',current.sequence==='stage1'?'Existing lessons regrouped for review. Empty units are placeholders; the full chapter suite is not yet written.':'Select individual resources below.'].filter(Boolean).join(' '):'Malay Stage 1 follows nine A1 chapters. Stage 2 and unplaced supplementary packs are outside that sequence.';
 }
-function visible(){const selected=chapters[$('chapter').value];const topic=$('genre').value;return lessons.filter(l=>(!selected||selected.items.includes(l.title))&&(!topic||chapters.some(c=>c.genre===topic&&c.items.includes(l.title)))).filter(l=>['lang','level','kind'].every(k=>!$(k).selectedIndex||$(k).value===l[k]));}
+function navigation(){const current=chapters[$('chapter').value];return chapters.filter(c=>(c.sequence||c.lang)===(current?.sequence||current?.lang)&&['lang','level','genre'].every(k=>!$(k).value||!$(k).selectedIndex||c[k]===$(k).value));}
+function visible(){const selected=chapters[$('chapter').value],unit=selected?.units?.find(u=>u.label===$('unit').value),topic=$('genre').value;const titles=unit?unit.items:selected?selected.items:[...new Set(chapters.flatMap(c=>c.items))];return titles.map(t=>lessons.find(l=>l.title===t)).filter(l=>(!topic||chapters.some(c=>c.genre===topic&&c.items.includes(l.title)))).filter(l=>['lang','level','kind'].every(k=>!$(k).selectedIndex||$(k).value===l[k]));}
 function pages(l){return [...document.querySelectorAll('[name=note]:checked')].map(n=>l.pages[+n.value]).concat(l.pages.slice(3,-1).filter(p=>!excluded.has(p)));}
 function draw(){
  chapterOptions(); const items=visible();$('list').replaceChildren();
@@ -24,7 +29,7 @@ function draw(){
   }
   $('list').append(c);
  }
- if(!items.length)$('list').textContent='No matching worksheets.';
+ if(!items.length)$('list').textContent=chapters[$('chapter').value]?.units?.some(u=>u.label===$('unit').value&&!u.items.length)||chapters[$('chapter').value]?.items.length===0?'Content not yet written. This placeholder preserves the agreed teaching order.':'No matching worksheets.';
  update();
 }
 function update(){
@@ -57,7 +62,7 @@ async function download(){
 $('download').onclick=async()=>{try{await download();$('status').textContent='Pack ready.';}catch(e){$('status').textContent=e.message;}};
 $('all').onclick=()=>{const items=visible(),remove=items.every(l=>chosen.has(l));items.forEach(l=>remove?chosen.delete(l):chosen.add(l));draw();};
 for(const k of ['lang','level','kind'])$(k).onchange=draw;
-for(const id of ['genre','chapter'])$(id).onchange=draw;
-for(const [id,step] of [['prev',-1],['next',1]])$(id).onclick=()=>{$('chapter').selectedIndex+=step;draw();};
+for(const id of ['genre','chapter','unit'])$(id).onchange=()=>{if(id!=='unit')$('unit').value='';draw();};
+for(const [id,step] of [['prev',-1],['next',1]])$(id).onclick=()=>{const route=navigation(),next=route[route.indexOf(chapters[$('chapter').value])+step];if(next){$('chapter').value=String(chapters.indexOf(next));$('unit').value='';draw();}};
 for(const el of document.querySelectorAll('[name=note],#key,#format'))el.onchange=update;
 draw();

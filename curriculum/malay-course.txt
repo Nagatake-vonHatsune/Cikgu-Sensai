@@ -16,18 +16,18 @@ belas は十台、puluh は十のまとまり。dua belas と dua puluh の違�
 Nak berapa tiket?|Dua belas tiket.|Dua puluh?|Bukan, dua belas saja.
 12 = dua ____|20 = dua ____|belas / puluh
 Secretly write three quantities. Order each one and compare the listener’s record.|Repeat once with 13 and 30.
-Order and floors|Wayfinding|Distinguish how many from which one in a sequence.
-pertama = first; 最初|kedua = second; 二番目|ketiga = third; 三番目|keempat = fourth; 四番目|tingkat = floor; 階
-dua は二つ、kedua は二番目です。まず決まった形として覚えます。|Dua untuk jumlah. Kedua untuk turutan.|Learn pertama, kedua and ketiga as useful whole words.
-Ada berapa pintu?|Ada tiga. Guna pintu kedua.|Yang ini pintu pertama?|Ya. Pintu selepas itu pintu kedua.
-Pintu nombor satu ialah pintu ____.|Pintu selepas pintu kedua ialah pintu ____.|pertama / ketiga
-Sketch four doors. Guide a partner to one without pointing.|Ask how many doors there are, then which door to use.
 Ringgit and sen|Transactions|Check an amount and the change due.
 harga = price; 値段|ringgit = リンギット|sen = セン|baki = change; お釣り|tunai = cash; 現金
 RM3.50 は tiga ringgit lima puluh sen。baki はお釣りです。|Tanya harga dengan Berapa? Semak baki selepas bayar.|Separate ringgit from sen and confirm the change.
 Air ini berapa?|Tiga ringgit lima puluh sen.|Ini lima ringgit. Baki berapa?|Satu ringgit lima puluh sen.
 RM2.20 = dua ringgit dua puluh ____.|RM5 less RM2.20 = RM____.|sen / 2.80
 Price three classroom objects. Buy two separately and check each amount.|The seller changes one price. Check the new total aloud.
+Order and floors|Wayfinding|Distinguish how many from which one in a sequence.
+pertama = first; 最初|kedua = second; 二番目|ketiga = third; 三番目|keempat = fourth; 四番目|tingkat = floor; 階
+dua は二つ、kedua は二番目です。まず決まった形として覚えます。|Dua untuk jumlah. Kedua untuk turutan.|Learn pertama, kedua and ketiga as useful whole words.
+Ada berapa pintu?|Ada tiga. Guna pintu kedua.|Yang ini pintu pertama?|Ya. Pintu selepas itu pintu kedua.
+Pintu nombor satu ialah pintu ____.|Pintu selepas pintu kedua ialah pintu ____.|pertama / ketiga
+Sketch four doors. Guide a partner to one without pointing.|Ask how many doors there are, then which door to use.
 Clock time|Schedules|Arrange a meeting with an unambiguous time.
 pukul = o’clock; 時|setengah = half; 半分|pagi = morning; 午前|tengah hari = midday; 正午|petang = afternoon; 午後
 時刻は pukul で示します。tiga setengah は三時半です。|Pukul tiga setengah ialah 3.30. Tambah petang supaya jelas.|Use pukul to give clock time. Add pagi or petang if needed.
@@ -40,24 +40,12 @@ hari は曜日、tarikh は日付を聞く時に使います。|Hari apa? untuk 
 Kelas hari apa?|Hari Rabu.|Berapa hari bulan?|Dua belas Mei, pukul sepuluh pagi.
 Hari selepas Isnin ialah ____.|12 Mei = ____ belas Mei.|Selasa / dua
 Use a real calendar. Pick a date and time, then move the booking by one week.|Point to the date you heard before comparing calendars.
-Asking where|Wayfinding|Ask where a place is and distinguish location from destination.
-di mana = where; どこ|dekat = near; 近い|jauh = far; 遠い|sini = here; ここ|sana = there; あそこ
-di はいる場所、ke は行き先です。dekat は近さを示します。|Saya di kedai sekarang. Saya nak pergi ke bank.|Use di for present location and ke for destination.
-Maaf, bank di mana?|Dekat stesen.|Jauh dari sini?|Tak jauh. Saya pun nak pergi ke sana.
-Saya sekarang ____ kedai.|Saya nak pergi ____ bank.|di / ke
-Choose a place on a sketch map. Ask where it is and how far away it is.|Your partner marks your starting point and destination.
 Frequency and routines|Daily routines|Find a time when two weekly routines overlap.
 selalu = often; よく|kadang-kadang = sometimes; 時々|jarang = rarely; めったに〜ない|setiap = every; 毎〜|dua kali seminggu = twice a week; 週二回
 回数をはっきり言う時は dua kali seminggu のように言います。|Selalu tidak beri angka tepat. Dua kali seminggu beri angka tepat.|Distinguish an approximate frequency from a count per week.
 Selalu pergi pasar?|Tak selalu. Dua kali seminggu saja.|Hari apa biasanya?|Selasa dan Jumaat pagi.
 Dua ____ seminggu. (twice)|____ hari. (every day)|kali / Setiap
 Compare two weekly routines. Choose one day to visit the market together.|Change one regular activity and agree a new time.
-Directions and orientation|Wayfinding|Give a route with a turn, crossing and destination.
-kiri / kanan = left / right; 左／右|atas / bawah = above / below; 上／下|depan / belakang = front / back; 前／後|seberang / lintas = opposite side / cross; 向こう側／渡る|utara / selatan / timur / barat = north / south / east / west; 北／南／東／西
-seberang は反対側、lintas は渡る動作です。方角は地図の北を先に確認します。|Bank di seberang jalan. Untuk ke sana, lintas di lintasan pejalan kaki.|Distinguish the far side from the act of crossing. Mark north before using compass directions.
-Bank di sebelah kanan?|Ya, di seberang jalan.|Saya lintas di sini?|Guna lintasan di depan stesen. Lepas itu belok kiri.
-Turn right = belok ____.|Opposite side of the road = di ____ jalan.|kanan / seberang
-Draw a station, a bank across the road and a crossing to the east. Give a route without showing your map.|Rotate the paper and distinguish right from east.
 Taste and colour|Description|Describe and choose food according to someone else’s preferences.
 manis / masam = sweet / sour; 甘い／酸っぱい|pedas = spicy; 辛い|tawar = bland or lacking flavour; 味が薄い|sedap = delicious; おいしい|merah / biru = red / blue; 赤／青
 tawar は味が薄いことを表します。水を頼む時は air kosong と言えます。|Tawar untuk rasa. Air kosong untuk air tanpa gula atau perisa.|Use tawar to describe taste and air kosong to order plain water.
@@ -76,3 +64,15 @@ lebih kelakar daripada は「〜より笑える」、paling kelakar は「一番
 Buku A lebih murah daripada buku B?|Ya. Tapi buku B lebih kelakar.|Antara tiga buku ini, yang mana paling kelakar?|Bagi saya, buku C. Ceritanya memang lucu.
 B lebih panjang ____ A.|Among three: C yang ____ panjang.|daripada / paling
 Compare three books using price, length and humour. Recommend one within a budget.|Change the buyer’s priority. Explain whether your recommendation changes.
+Asking where|Wayfinding|Ask where a place is and distinguish location from destination.
+di mana = where; どこ|dekat = near; 近い|jauh = far; 遠い|sini = here; ここ|sana = there; あそこ
+di はいる場所、ke は行き先です。dekat は近さを示します。|Saya di kedai sekarang. Saya nak pergi ke bank.|Use di for present location and ke for destination.
+Maaf, bank di mana?|Dekat stesen.|Jauh dari sini?|Tak jauh. Saya pun nak pergi ke sana.
+Saya sekarang ____ kedai.|Saya nak pergi ____ bank.|di / ke
+Choose a place on a sketch map. Ask where it is and how far away it is.|Your partner marks your starting point and destination.
+Directions and orientation|Wayfinding|Give a route with a turn, crossing and destination.
+kiri / kanan = left / right; 左／右|atas / bawah = above / below; 上／下|depan / belakang = front / back; 前／後|seberang / lintas = opposite side / cross; 向こう側／渡る|utara / selatan / timur / barat = north / south / east / west; 北／南／東／西
+seberang は反対側、lintas は渡る動作です。方角は地図の北を先に確認します。|Bank di seberang jalan. Untuk ke sana, lintas di lintasan pejalan kaki.|Distinguish the far side from the act of crossing. Mark north before using compass directions.
+Bank di sebelah kanan?|Ya, di seberang jalan.|Saya lintas di sini?|Guna lintasan di depan stesen. Lepas itu belok kiri.
+Turn right = belok ____.|Opposite side of the road = di ____ jalan.|kanan / seberang
+Draw a station, a bank across the road and a crossing to the east. Give a route without showing your map.|Rotate the paper and distinguish right from east.

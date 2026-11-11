@@ -16,3 +16,5 @@
 }
 @media print { .wordmark img { display: none; } header { background: white; color: black; } }
 .course{background:#fffdf7;border:1px solid #bac5bc;padding:20px;margin-top:18px}.course h2{margin:0 0 12px}.course label{display:inline-block;max-width:100%;margin:0 12px 8px 0}.course select{max-width:100%}.course details{max-width:75ch}.course p{max-width:80ch}
+
+[hidden]{display:none!important}

@@ -1,6 +1,20 @@
 """Chapter order, component selection and printable lesson plans."""
 from pathlib import Path
 
+# Navigation only for charter step 1. These are placements of existing resources,
+# not the chapter/component data model reserved for step 2.
+MALAY_CHAPTERS = [
+    ("Greetings", "Social encounters", [("1", ["Greetings"])]),
+    ("Pronouns and self-introduction", "Social encounters", [("2A", ["Introductions"]), ("2B", [])]),
+    ("Numbers and money", "Transactions", [("3A", ["Counting and quantities"]), ("3B", ["Ringgit and sen"]), ("3C", ["Order and floors"])]),
+    ("Time and routines", "Schedules", [("4A", ["Clock time", "Dates and days"]), ("4B", ["Frequency and routines"])]),
+    ("Adjectives", "Description", [("5", ["Taste and colour", "Size and shape"])]),
+    ("Comparatives and superlatives", "Choices and opinions", [("6", ["Comparisons and superlatives"])]),
+    ("Directions and locations", "Wayfinding", [("7", ["Asking where", "Directions and orientation"])]),
+    ("Penjodoh bilangan", "Transactions", [("8", [])]),
+    ("Passive di-, signs and notices", "Social encounters", [("9", [])]),
+]
+
 def add_course(lessons, lesson):
     folder=Path(__file__).with_name("curriculum")
     groups=[]
@@ -25,14 +39,14 @@ def add_course(lessons, lesson):
             [key,"Observe whether the recipient understood. For a one-to-one class the teacher plays the other role."])
         groups.append(dict(title=title,genre=genre,lang=lang,level=level,goal=goal,items=[starter,lessons[-1]["title"],*related]))
     rows=(folder/"malay-course.txt").read_text().splitlines()
-    links={2:["Beli buah di pasar"],4:["Jumlah buah","Pesanan buah"],7:["Di, ke and dari"],9:["Di, ke and dari"],10:["Lunch at a Malaysian stall"]}
+    links={"Asking where":["Di, ke and dari"],"Directions and orientation":["Di, ke and dari"],"Taste and colour":["Lunch at a Malaysian stall"]}
     prior="Ask what Malay greetings the learner already recognises."
     for i in range(0,len(rows),6):
         title,genre,goal=rows[i].split("|"); notes=rows[i+2].split("|")
         guided=rows[i+4].split("|");task,check=rows[i+5].split("|")
-        chapter(title,genre,"Malay","A1" if i//6<9 else "A2",goal,notes,rows[i+1].split("|"),
-                [("A   " if k%2==0 else "B   ")+s for k,s in enumerate(rows[i+3].split("|"))],guided[:2],task,check,guided[2],links.get(i//6,[]),prior)
-        prior="From the previous chapter: "+goal
+        chapter(title,genre,"Malay","A1",goal,notes,rows[i+1].split("|"),
+                [("A   " if k%2==0 else "B   ")+s for k,s in enumerate(rows[i+3].split("|"))],guided[:2],task,check,guided[2],links.get(title,[]),prior)
+        prior="From the previous resource: "+goal
     features=[
       ("Transactions","epal · apple / りんご|sebiji · one item / 一個|harga · price / 値段|baki · change / お釣り"),
       ("Wayfinding","gate · pintu / 門|beside · di sebelah / 〜のそば|turn right · belok kanan / 右に曲がる"),
@@ -58,6 +72,30 @@ def add_course(lessons, lesson):
     for family,(genre,lex) in zip(families,features,strict=True):
         conv,gram,writing=family; title=conv["title"]; pp=conv["pages"]; g=gram["pages"]
         chapter(title,genre,conv["lang"],conv["level"],pp[-4]["lines"][1], [p["lines"][0] for p in pp[:3]],lex.split("|"),pp[3]["lines"][:4],g[4]["lines"][:2],pp[-4]["lines"][1],pp[-2]["lines"][0],g[-1]["lines"][0],[w["title"] for w in family]+extra.get(title,[]),"Describe a similar situation and recall two expressions.")
+    # Keep every existing worksheet and its wording; only regroup the menu.
+    old={g["title"]:g for g in groups}
+    stage1=[]
+    for number,(title,genre,placements) in enumerate(MALAY_CHAPTERS,1):
+        units=[]
+        goals=[]
+        for label,names in placements:
+            members=[old[name] for name in names]
+            if label=="3B":
+                members.append(old["Beli buah di pasar"])
+            items=list(dict.fromkeys(t for member in members for t in member["items"]))
+            goals.extend(old[name]["goal"] for name in names)
+            units.append(dict(label=label,items=items))
+        stage1.append(dict(title=f"Chapter {number} · {title}",genre=genre,lang="Malay",level="A1",
+            goal=" ".join(goals),items=list(dict.fromkeys(t for unit in units for t in unit["items"])),
+            units=units,sequence="stage1",status="Restructure only · existing content awaiting audit corrections"))
+    future=old["Ambil bungkusan di lobi"]
+    future.update(title="Chapter 12 · Ambil bungkusan di lobi",sequence="future",status="Stage 2, not yet active")
+    supplementary=[]
+    for group in groups[13:]:
+        if group["lang"]=="Malay" and group["level"] in {"B1","B2","C1"}:
+            group.update(sequence="supplementary",status="Unplaced · provisional")
+            supplementary.append(group)
+    groups=stage1+[future]+supplementary+[g for g in groups if g["lang"]!="Malay"]
     titles={l["title"] for l in lessons}
     assert all(t in titles for group in groups for t in group["items"])
     assert titles=={t for group in groups for t in group["items"]}

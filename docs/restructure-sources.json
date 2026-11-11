@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-11",
+  "katakata_commit": "0f78179034552f85d4c0d7ac4cb9e185f8b8ac8a",
+  "cikgu_sensai_baseline": "d4813c3cb56cdc0a7cbe756284faae78c1d194dd",
+  "hanashishou_commit": "ea4f93e9471204e44f1e09886cabd50a44607283",
+  "files": {
+    "content/ledger/malay-ledger.csv": "c777ace9e1ba3b2d7e141f031d90239720e2ff9a06aa1a0c55203d5fc5431e6d",
+    "tools/affix-guard.mjs": "fb9735b6ca8d0c8c932a8d79830a58c5eebe1cad7ddf834df611e1dd9c4355e2",
+    "content/ms/kelas/c01.json": "3602b44818063d8eea1c60101953b435ac49f397824ff22a7cd8faa6a4fbabc8",
+    "content/ms/kelas/c02.json": "07c079e223effd5f18602b8dbe3a7c71a30dd78123e02435ad3cd155b8177223",
+    "content/ms/kelas/c03.json": "516d666ea851adbd147737fd8d491a30a7b5ebcc9e3c9b159f21c8933d0d4791",
+    "content/ms/kelas/c04.json": "161b4c8926846f9cf960262bc4b45968c23cd4882223f0fd17ae8f3f0276df8f",
+    "content/ms/kelas/c05.json": "dd6e1c71bf6ebbd7dd146b51df54c1fd191c2c1d759d94ac84a7cc27fc6500d0",
+    "content/ms/kelas/c06.json": "9af0ed91021ec6316aa18a494390107ad844d09e7d35416b4c5ee13c21feac09",
+    "content/ms/kelas/c07.json": "b17759798705aaaab1b9dbe252e84029d6c52ce3775b4854406763bf555f8eb8",
+    "content/ms/kelas/c08.json": "0c7b2e59a15155d7a6c1d5554ec3ec6c5ba6ed88b8b34ee23cfe5a66cadcb118",
+    "content/ms/kelas/c09.json": "342ff95df1f933e6e1c32aa02b52870d56c21b4a5fcf0d8a77ca47e69d1d2ab7"
+  }
+}
