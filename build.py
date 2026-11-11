@@ -30,6 +30,9 @@ load_batch(lesson)
 from course import add_course
 chapters=add_course(lessons,lesson)
 
+from catalogue import write_catalogue
+write_catalogue(lessons,chapters)
+
 from fontTools import subset
 from fontTools.ttLib import TTFont
 from tempfile import TemporaryDirectory
@@ -55,7 +58,7 @@ from zipfile import ZipFile, ZIP_DEFLATED
 archive_path=root/"dist/Cikgu-Sensai-offline.zip"
 with ZipFile(archive_path,"w",ZIP_DEFLATED) as offline:
     files=list(root.glob("*.py"))+[root/"README.md",root/"wrangler.json"]
-    for folder in ("curriculum","dist","docs","tools"):
+    for folder in ("curriculum","dist","tools"):
         files.extend((root/folder).rglob("*"))
     for path in sorted(set(files)):
         if path.is_file() and path!=archive_path and "__pycache__" not in path.parts:

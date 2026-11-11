@@ -44,6 +44,8 @@ def main(reference):
     allow_source = (reference/'tools/affix-guard.mjs').read_text()
     allow_block = re.sub(r'//[^\n]*', '', allow_source.split('new Set([')[1].split(']);')[0])
     allow = set(re.findall(r"'([^']+)'", allow_block))
+    approved_roots = set(json.loads((ROOT/'curriculum/malay-roots.json').read_text())['roots'])
+    allow |= approved_roots
     exempt = defaultdict(list)
     for pack in packs:
         for card in pack['cards']:
@@ -125,7 +127,7 @@ def main(reference):
             for w in sorted(set(tokens)):
                 if w.startswith('ber') or re.match(r'^be[kl]|^me[^aeiou\W]',w):
                     if w in allow:
-                        status='Allow-list root in Kata-Kata; not a productive-affix violation.'
+                        status=('Sam-approved root (2026-11-11)' if w in approved_roots else 'Allow-list root in Kata-Kata')+'; not a productive-affix violation.'
                     elif w in exempt:
                         status='Kata-Kata chunk/lex/recognition exemption: '+', '.join(exempt[w])+'. Context and chapter availability still need review.'
                     else:
@@ -203,9 +205,9 @@ def main(reference):
         '- Existing units still lack much of the charter’s expanded grammar/vocabulary coverage; that content work remains outside step 1.',
         '- The old 13 resources remain intact inside the 13 planned unit slots; several slots contain two resources and three slots are empty. This is not a claim that 13 complete charter units now exist.',
         '- B1/B2/C1 families retain their existing levels as unplaced, provisional supplementary packs. Chapter 12 is Stage 2, not yet active.',
-        '- Step 2 chapter records/component tags, step 3 enforcement and new teaching content have not been implemented.', ''])
-    out=ROOT/'dist/restructure-issues.md';out.write_text('\n'.join(lines))
-    with (ROOT/'dist/restructure-issues.csv').open('w',newline='') as f:
+        '- This log inventories preserved legacy wording. Step 3 enforcement and new teaching content remain outside this audit.', ''])
+    out=ROOT/'docs/restructure-issues.md';out.write_text('\n'.join(lines))
+    with (ROOT/'docs/restructure-issues.csv').open('w',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=['unit','category','term','source','evidence','detail'],lineterminator='\n');writer.writeheader();writer.writerows(records)
     paths=[ledger_path,reference/'tools/affix-guard.mjs']+sorted((reference/'content/ms/kelas').glob('c0[1-9].json'))
     manifest=dict(date='2026-11-11',katakata_commit='0f78179034552f85d4c0d7ac4cb9e185f8b8ac8a',cikgu_sensai_baseline='d4813c3cb56cdc0a7cbe756284faae78c1d194dd',hanashishou_commit='ea4f93e9471204e44f1e09886cabd50a44607283',files={str(p.relative_to(reference)):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths})

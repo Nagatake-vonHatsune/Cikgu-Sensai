@@ -16,13 +16,22 @@ unnumbered, unplaced and provisional. English and Japanese content is unchanged.
 The existing A2 lunch extension remains linked from 3B and 5 at its original level.
 
 Read [the step 1 report](docs/STEP-1-REPORT.md) and
-[the per-unit issues log](dist/restructure-issues.md). The matching CSV contains
+[the per-unit issues log](docs/restructure-issues.md). The matching CSV contains
 source locations and quoted evidence. Japanese text awaits native-speaker review.
-Step 2 and later work require Sam's approval; no eleven-component data model or
-affix/register/ledger build enforcement has been added.
+Step 2 adds the component catalogue below. Step 3 affix/register/ledger enforcement
+has not started.
 
 To reproduce the audit, obtain Kata-Kata at the exact revision recorded in
 `docs/restructure-sources.json`, then run
 `python tools/restructure_audit.py /path/to/katakata` before `python build.py`.
 The audit reports issues only and never edits the reference repository or lesson text.
 `build.py` regenerates bank.js, chapters.js and the downloadable offline ZIP.
+
+## Charter step 2
+`catalogue.py` generates `dist/catalogue.js` from the unchanged source packs and
+pinned Kata-Kata chapter snapshots in `curriculum/reference/katakata/`.
+All eleven types are filterable; only existing content is extractable. The
+original full-pack view remains available. Missing suites are explicitly shown.
+See [the step 2 report](docs/STEP-2-REPORT.md) and [model contract](docs/DATA-MODEL.md).
+Run `python -m unittest discover -s tests -v` after `python build.py`.
+The downloadable offline ZIP excludes `docs`, including both audit logs.

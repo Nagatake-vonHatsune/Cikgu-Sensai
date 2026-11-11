@@ -74,7 +74,7 @@ The existing Lunch at a Malaysian stall link is retained at A2 as an optional ex
 - **Ledger present, chapter unassigned:** ambil, beg, buka, faham, jelas, pasar, pesanan, tahu, tanya, tindakan, tulis, tutup
 - **Later chapter:** air → Earliest chapter card: Ch5. L-0259; akan → Earliest chapter card: Ch4. L-0192; besar → Earliest chapter card: Ch5. L-0237; biji → Earliest chapter card: Ch8. L-0344; buah → Earliest chapter card: Ch8. L-0514; dalam → Earliest chapter card: Ch7. L-0308; diambil → Earliest chapter card: Ch9. L-0391; hari ini → Earliest chapter card: Ch4. L-0169; hijau → Earliest chapter card: Ch5. L-0229; kalau → Earliest chapter card: Ch7. L-0341; kecil → Earliest chapter card: Ch5. L-0238; kurang → Earliest chapter card: Ch6. L-0266; lain → Earliest chapter card: Ch6. L-0281; macam mana → Earliest chapter card: Ch5. L-0211; manis → Earliest chapter card: Ch5. L-0218; masam → Earliest chapter card: Ch5. L-0220; merah → Earliest chapter card: Ch5. L-0226; minit → Earliest chapter card: Ch4. L-0159; nak → Earliest chapter card: Ch5. L-0213; oleh → Earliest chapter card: Ch9. L-0377; pilih → Earliest chapter card: Ch6. L-0280; pukul → Earliest chapter card: Ch4. L-0157; sama → Earliest chapter card: Ch6. L-0268; sebiji → Earliest chapter card: Ch8. L-0361; sekali → Earliest chapter card: Ch4. L-0188; semua → Earliest chapter card: Ch8. L-0374; sikit → Earliest chapter card: Ch5. L-0216; yang → Earliest chapter card: Ch5. L-0212
 - **Register:** macam mana → bagaimana, nak → mahu, ni → ini, saja → sahaja, sikit → sedikit, tak → tidak
-- **Affix inventory:** beli [allow-list root]; berapa [chapter chunk/lex exemption]; beri [review]; merah [allow-list root]; mesej [review]
+- **Affix inventory:** beli [allow-list root]; berapa [chapter chunk/lex exemption]; beri [allow-list root]; merah [allow-list root]; mesej [allow-list root]
 
 ### Unit 3C
 
@@ -106,7 +106,7 @@ Order and floors uses tingkat and location-related vocabulary ahead of chapter 7
 - **Ledger present, chapter unassigned:** angka, pasar, tepat
 - **Later chapter:** None detected in the scoped text.
 - **Register:** saja → sahaja, tak → tidak
-- **Affix inventory:** beri [review]
+- **Affix inventory:** beri [allow-list root]
 
 ### Unit 5
 
@@ -132,7 +132,7 @@ REORDER-CREATED dependency: Comparisons and superlatives now precedes chapter 7.
 - **Ledger present, chapter unassigned:** bagi
 - **Later chapter:** antara → Earliest chapter card: Ch7. L-0311; buku → Earliest chapter card: Ch8. L-0487; dalam → Earliest chapter card: Ch7. L-0308
 - **Register:** tapi → tetapi
-- **Affix inventory:** memang [review]
+- **Affix inventory:** memang [allow-list root]
 
 ### Unit 7
 
@@ -144,7 +144,7 @@ Di, ke and dari remains linked to both existing location/direction resources; it
 - **Ledger present, chapter unassigned:** cari, guna, lintas, pejalan kaki
 - **Later chapter:** None detected in the scoped text.
 - **Register:** nak → mahu, tak → tidak
-- **Affix inventory:** belakang [allow-list root]; belok [allow-list root]; beritahu [review]
+- **Affix inventory:** belakang [allow-list root]; belok [allow-list root]; beritahu [allow-list root]
 
 ### Unit 8
 
@@ -174,7 +174,7 @@ Di, ke and dari remains linked to both existing location/direction resources; it
 - **Ledger present, chapter unassigned:** Not assessed: no approved chapter sequence for this pack.
 - **Later chapter:** Not assessed: no approved chapter sequence for this pack.
 - **Register:** dah → sudah, macam tu → seperti itu, nak → mahu, ni → ini, tak → tidak, tu → itu
-- **Affix inventory:** belum [allow-list root]; beri [review]; mesej [review]; mesejnya [review]
+- **Affix inventory:** belum [allow-list root]; beri [allow-list root]; mesej [allow-list root]; mesejnya [review]
 
 ### Supplementary · Susun giliran di kaunter · unplaced / provisional
 
@@ -184,7 +184,7 @@ Di, ke and dari remains linked to both existing location/direction resources; it
 - **Ledger present, chapter unassigned:** Not assessed: no approved chapter sequence for this pack.
 - **Later chapter:** Not assessed: no approved chapter sequence for this pack.
 - **Register:** dah → sudah, nak → mahu, saja → sahaja, tak → tidak, tapi → tetapi
-- **Affix inventory:** belas [allow-list root]; belum [allow-list root]; berapa [chapter chunk/lex exemption]; beri [review]; beritahu [review]; memberi [review]; menggunakan [review]; menunjukkan [review]; mesej [review]; mesti [review]
+- **Affix inventory:** belas [allow-list root]; belum [allow-list root]; berapa [chapter chunk/lex exemption]; beri [allow-list root]; beritahu [allow-list root]; memberi [review]; menggunakan [review]; menunjukkan [review]; mesej [allow-list root]; mesti [allow-list root]
 
 ### Supplementary · Runding masa kerja pembaikan · unplaced / provisional
 
@@ -194,7 +194,7 @@ Di, ke and dari remains linked to both existing location/direction resources; it
 - **Ledger present, chapter unassigned:** Not assessed: no approved chapter sequence for this pack.
 - **Later chapter:** Not assessed: no approved chapter sequence for this pack.
 - **Register:** dah → sudah, nak → mahu, saja → sahaja, tak → tidak, tapi → tetapi
-- **Affix inventory:** bekalan [review]; belum [allow-list root]; berapa [chapter chunk/lex exemption]; beri [review]; beritahu [review]; berlaku [review]; bermula [review]; memberi [review]; mengakui [review]; mengambil [review]; mengubah [review]; mereka [allow-list root]; mesej [review]
+- **Affix inventory:** bekalan [review]; belum [allow-list root]; berapa [chapter chunk/lex exemption]; beri [allow-list root]; beritahu [allow-list root]; berlaku [review]; bermula [review]; memberi [review]; mengakui [review]; mengambil [review]; mengubah [review]; mereka [allow-list root]; mesej [allow-list root]
 
 ### Supplementary · Menimbang dapatan tinjauan kampus · unplaced / provisional
 
@@ -204,7 +204,7 @@ Di, ke and dari remains linked to both existing location/direction resources; it
 - **Ledger present, chapter unassigned:** Not assessed: no approved chapter sequence for this pack.
 - **Later chapter:** Not assessed: no approved chapter sequence for this pack.
 - **Register:** tak → tidak
-- **Affix inventory:** bekas [review]; belanja [allow-list root]; beliau [allow-list root]; belum [allow-list root]; berapa [chapter chunk/lex exemption]; berbeza [review]; berbunyi [review]; bergantung [review]; berhenti [review]; beri [review]; bermakna [review]; beroperasi [review]; berpuas [review]; bersetuju [review]; bersuara [review]; bertangguh [review]; bertanggungjawab [review]; melaporkan [review]; memadai [review]; membantah [review]; memberi [review]; membezakan [review]; memenuhi [review]; memerlukannya [review]; memilih [review]; meminta [review]; menafikan [review]; menanggung [review]; mencuba [review]; mencukupi [review]; mendahului [review]; mengalami [review]; menganggarkan [review]; mengapa [review]; mengesahkan [review]; menggunakan [review]; menghilangkan [review]; mengurangkan [review]; menilai [review]; menimbang [review]; menjawab [review]; menjelang [review]; menolak [review]; menulis [review]; menunjukkan [review]; menyangka [review]; menyebut [review]; menyediakan [review]; menyeluruh [review]; mereka [allow-list root]; mesej [review]; mesti [review]; mewakili [review]
+- **Affix inventory:** bekas [review]; belanja [allow-list root]; beliau [allow-list root]; belum [allow-list root]; berapa [chapter chunk/lex exemption]; berbeza [review]; berbunyi [review]; bergantung [review]; berhenti [review]; beri [allow-list root]; bermakna [review]; beroperasi [review]; berpuas [review]; bersetuju [review]; bersuara [review]; bertangguh [review]; bertanggungjawab [review]; melaporkan [review]; memadai [review]; membantah [review]; memberi [review]; membezakan [review]; memenuhi [review]; memerlukannya [review]; memilih [review]; meminta [review]; menafikan [review]; menanggung [review]; mencuba [review]; mencukupi [review]; mendahului [review]; mengalami [review]; menganggarkan [review]; mengapa [review]; mengesahkan [review]; menggunakan [review]; menghilangkan [review]; mengurangkan [review]; menilai [review]; menimbang [review]; menjawab [review]; menjelang [review]; menolak [review]; menulis [review]; menunjukkan [review]; menyangka [review]; menyebut [review]; menyediakan [review]; menyeluruh [review]; mereka [allow-list root]; mesej [allow-list root]; mesti [allow-list root]; mewakili [review]
 
 ### Linked A2 extension · Lunch at a Malaysian stall
 
@@ -223,4 +223,4 @@ Di, ke and dari remains linked to both existing location/direction resources; it
 - Existing units still lack much of the charter’s expanded grammar/vocabulary coverage; that content work remains outside step 1.
 - The old 13 resources remain intact inside the 13 planned unit slots; several slots contain two resources and three slots are empty. This is not a claim that 13 complete charter units now exist.
 - B1/B2/C1 families retain their existing levels as unplaced, provisional supplementary packs. Chapter 12 is Stage 2, not yet active.
-- Step 2 chapter records/component tags, step 3 enforcement and new teaching content have not been implemented.
+- This log inventories preserved legacy wording. Step 3 enforcement and new teaching content remain outside this audit.

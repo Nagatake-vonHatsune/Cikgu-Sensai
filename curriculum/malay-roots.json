@@ -1,0 +1,11 @@
+{
+  "roots": [
+    "beri",
+    "mesej",
+    "memang",
+    "mesti",
+    "beritahu"
+  ],
+  "authority": "Sam, chat instruction, 2026-11-11",
+  "note": "Root classifications only; no ledger addition."
+}

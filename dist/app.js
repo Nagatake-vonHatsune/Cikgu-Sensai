@@ -1,4 +1,23 @@
 const $=id=>document.getElementById(id), chosen=new Set(), excluded=new Set();
+const componentResources=catalogue.components.map(c=>{
+ const l=lessons.find(x=>x.title===c.source_title);
+ const pages=[...c.explainer_indices,...c.page_indices,...c.key_indices].map(i=>({...l.pages[i],component:c}));
+ return {...c,lang:c.language,kind:c.component_type,pages};
+});
+const tagFields={sub_type:'Sub-type',skills:'Skill',grammar_points:'Grammar point',time_minutes:'Time (minutes)',prerequisites:'Prerequisites',course_path:'Course path',external_textbook_links:'External textbook',review_status:'Review status'};
+function tagValues(c,k){const v=c[k];if(k==='prerequisites')return [...v.chapters,...v.grammar_points,...v.word_ids];if(k==='external_textbook_links')return v.map(x=>x.label);return Array.isArray(v)?v:v==null?[]:[String(v)];}
+for(const [k,label] of Object.entries(tagFields)){
+ const wrap=document.createElement('label');wrap.textContent=label;const select=document.createElement('select');select.id='tag-'+k;
+ select.add(new Option('All',''));select.add(new Option('Unverified / not mapped','__unmapped'));
+ for(const v of [...new Set(catalogue.components.flatMap(c=>tagValues(c,k)))].sort())select.add(new Option(k==='grammar_points'?(catalogue.grammar_registry.find(g=>g.id===v)?.label||v):v,v));
+ select.onchange=draw;wrap.append(select);$('tag-filters').append(wrap);
+}
+function exerciseOptions(){const old=$('kind').value;$('kind').replaceChildren(new Option('All exercises',''));
+ for(const t of $('view').value==='components'?catalogue.component_types:['Conversation','Grammar','Writing','Chapter pack','Lesson plan'])$('kind').add(new Option(t,t));
+ if([...$('kind').options].some(o=>o.value===old))$('kind').value=old;
+}
+exerciseOptions();
+function componentHeader(c){return [c.language,c.level,c.unit_id||c.chapter_id||'Standalone',c.component_type,c.time_minutes==null?'Time unverified':c.time_minutes+' min'].join(' / ');}
 function chapterOptions(){
  const match=(c,k)=>!$(k).selectedIndex || c[k]===$(k).value;
  const levels=chapters.filter(c=>match(c,'lang')&&match(c,'level'));
@@ -14,10 +33,21 @@ function chapterOptions(){
  $('outcome').textContent=current?[current.status,current.goal,current.items.length+' resources.',current.sequence==='stage1'?'Existing lessons regrouped for review. Empty units are placeholders; the full chapter suite is not yet written.':'Select individual resources below.'].filter(Boolean).join(' '):'Malay Stage 1 follows nine A1 chapters. Stage 2 and unplaced supplementary packs are outside that sequence.';
 }
 function navigation(){const current=chapters[$('chapter').value];return chapters.filter(c=>(c.sequence||c.lang)===(current?.sequence||current?.lang)&&['lang','level','genre'].every(k=>!$(k).value||!$(k).selectedIndex||c[k]===$(k).value));}
-function visible(){const selected=chapters[$('chapter').value],unit=selected?.units?.find(u=>u.label===$('unit').value),topic=$('genre').value;const titles=unit?unit.items:selected?selected.items:[...new Set(chapters.flatMap(c=>c.items))];return titles.map(t=>lessons.find(l=>l.title===t)).filter(l=>(!topic||chapters.some(c=>c.genre===topic&&c.items.includes(l.title)))).filter(l=>['lang','level','kind'].every(k=>!$(k).selectedIndex||$(k).value===l[k]));}
+function visible(){
+ const selected=chapters[$('chapter').value],unit=$('unit').value,topic=$('genre').value;
+ if($('view').value==='components')return componentResources.filter(c=>(!selected||c.menu_title===selected.title)&&(!unit||c.unit_label===unit)&&(!topic||c.genre===topic)&&['lang','level','kind'].every(k=>!$(k).selectedIndex||$(k).value===c[k])&&Object.keys(tagFields).every(k=>{const v=$('tag-'+k).value,values=tagValues(c,k);return !v||(v==='__unmapped'?!values.length:values.includes(v));}));
+ const titles=unit?selected.units.find(u=>u.label===unit).items:selected?selected.items:[...new Set(chapters.flatMap(c=>c.items))];return titles.map(t=>lessons.find(l=>l.title===t)).filter(l=>(!topic||chapters.some(c=>c.genre===topic&&c.items.includes(l.title)))).filter(l=>['lang','level','kind'].every(k=>!$(k).selectedIndex||$(k).value===l[k]));
+}
+function suiteInfo(){
+ $('suite').replaceChildren();const g=chapters[$('chapter').value],ch=catalogue.chapters.find(c=>c.title===g?.title);if(!ch)return;
+ const p=document.createElement('p');p.textContent='Draft chapter plan: '+ch.block_plan.length+' × 45-minute blocks. Self-study: approximately '+ch.self_study_hours.full+' hours (full), 9–10 hours (fast). Prerequisites not yet mapped.';$('suite').append(p);
+ const link=document.createElement('a');link.href=ch.kata_kata_set.source_url;link.textContent='Kata-Kata '+ch.kata_kata_set.pack_id+' and Sedia Kelas set';$('suite').append(link);
+ const list=document.createElement('ul');for(const slot of catalogue.component_slots.filter(s=>s.chapter_id===ch.id&&(!$('unit').value||ch.units.find(u=>u.id===s.unit_id)?.label===$('unit').value))){const li=document.createElement('li');li.textContent=slot.unit_id+' · '+slot.component_type+': '+(slot.component_ids.length?slot.component_ids.length+' extractable item(s); suite incomplete':'not yet authored');list.append(li);}
+ const d=document.createElement('details');const summary=document.createElement('summary');summary.textContent='Eleven-component availability';d.append(summary,list);$('suite').append(d);
+}
 function pages(l){return [...document.querySelectorAll('[name=note]:checked')].map(n=>l.pages[+n.value]).concat(l.pages.slice(3,-1).filter(p=>!excluded.has(p)));}
 function draw(){
- chapterOptions(); const items=visible();$('list').replaceChildren();
+ chapterOptions(); suiteInfo(); const items=visible();$('list').replaceChildren();
  for(const l of items){
   const c=document.createElement('article');c.className='card';
   c.innerHTML='<label><input type="checkbox"> '+l.title+'</label><span class="meta">'+[l.lang,l.level,l.kind].join(' · ')+'</span><details><summary>Preview and choose sections</summary></details>';
@@ -26,6 +56,11 @@ function draw(){
    const row=document.createElement('div');row.innerHTML=(i>=3?'<label><input type="checkbox"> '+p.label+'</label>':'<b>'+p.label+'</b>')+'<p>'+p.lines.join('<br>')+'</p>';
    const check=row.querySelector('input');if(check){check.checked=!excluded.has(p);check.onchange=()=>{check.checked?excluded.delete(p):excluded.add(p);update();};}
    c.querySelector('details').append(row);
+  }
+  if(l.component_type){
+   const meta=document.createElement('p');meta.className='meta';meta.textContent=componentHeader(l)+' · Draft · '+l.genre+' · '+(l.skills.join(', ')||'Skills unverified');c.append(meta);
+   const detail=document.createElement('p');detail.textContent=l.tag_status+'. '+l.key_scope+'. Japanese text awaits native review.';c.querySelector('details').append(detail);
+   const prereq=document.createElement('button');prereq.textContent='Check prerequisites';prereq.onclick=()=>{$('status').textContent='Prerequisite mapping and chapter tests are not yet authored. No revision pack can be assembled for this item.';};c.append(prereq);
   }
   $('list').append(c);
  }
@@ -42,12 +77,12 @@ function update(){
  $('all').textContent=visible().length&&visible().every(l=>chosen.has(l))?'Clear shown':'Select all shown';
 }
 let source;
-async function pdf(ps){source ||= PDFLib.PDFDocument.load(bankPDF);const out=await PDFLib.PDFDocument.create();for(const p of await out.copyPages(await source,ps.map(p=>p.index)))out.addPage(p);return out.save();}
+async function pdf(ps){source ||= PDFLib.PDFDocument.load(bankPDF);const out=await PDFLib.PDFDocument.create();for(const [i,p] of (await out.copyPages(await source,ps.map(p=>p.index))).entries()){if(ps[i].component){p.drawText(componentHeader(ps[i].component),{x:46,y:820,size:8});}out.addPage(p);}return out.save();}
 function xml(t){return t.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');}
 async function word(ps){
  const z=new JSZip();
  const para=(s,size,br=false)=>'<w:p><w:pPr>'+(br?'<w:pageBreakBefore/>':'')+'<w:spacing w:after="180"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Noto Sans" w:hAnsi="Noto Sans" w:eastAsia="Noto Sans JP"/><w:sz w:val="'+size+'"/></w:rPr><w:t xml:space="preserve">'+xml(s)+'</w:t></w:r></w:p>';
- const body=ps.map((p,i)=>para("Cikgu, Sensai!",24,i>0)+para(lessons.find(l=>l.pages.includes(p)).title,48)+para(p.label,40)+p.lines.map(s=>para(s,36)).join('')).join('');
+ const body=ps.map((p,i)=>para("Cikgu, Sensai!",24,i>0)+(p.component?para(componentHeader(p.component),20):'')+para(p.component?.source_title||lessons.find(l=>l.pages.includes(p)).title,48)+para(p.label,40)+p.lines.map(s=>para(s,36)).join('')).join('');
  z.file('[Content_Types].xml','<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/></Types>');
  z.file('_rels/.rels','<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/></Relationships>');
  z.file('word/document.xml','<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body>'+body+'<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="900" w:bottom="900" w:left="920" w:right="920"/></w:sectPr></w:body></w:document>');return z.generateAsync({type:'uint8array'});
@@ -55,12 +90,13 @@ async function word(ps){
 function save(bytes,name){const url=URL.createObjectURL(new Blob([bytes]));const a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);}
 async function download(){
  const ls=[...chosen],f=$('format').value,k=$('key').value,students=ls.flatMap(pages),keys=ls.map(l=>l.pages.at(-1)),z=new JSZip();
- if(f==='zip'){for(const l of ls){const ps=pages(l);if(k==='end')ps.push(l.pages.at(-1));if(ps.length)z.file(l.title+'.pdf',await pdf(ps));}if(k==='separate')z.file('Teacher keys.pdf',await pdf(keys));}
+ if(f==='zip'){for(const l of ls){const ps=pages(l);if(k==='end')ps.push(l.pages.at(-1));if(ps.length)z.file(l.title+(l.id?' - '+l.id:'')+'.pdf',await pdf(ps));}if(k==='separate')z.file('Teacher keys.pdf',await pdf(keys));}
  else{const make=f==='pdf'?pdf:word;const bytes=await make(k==='end'?students.concat(keys):students);if(k!=='separate'){save(bytes,'Cikgu, Sensai! worksheets.'+f);return;}z.file('Student worksheets.'+f,bytes);z.file('Teacher keys.'+f,await make(keys));}
  save(await z.generateAsync({type:'uint8array'}),'Cikgu, Sensai! print pack.zip');
 }
 $('download').onclick=async()=>{try{await download();$('status').textContent='Pack ready.';}catch(e){$('status').textContent=e.message;}};
 $('all').onclick=()=>{const items=visible(),remove=items.every(l=>chosen.has(l));items.forEach(l=>remove?chosen.delete(l):chosen.add(l));draw();};
+$('view').onchange=()=>{exerciseOptions();$('tag-filters').closest('details').hidden=$('view').value==='packs';draw();};
 for(const k of ['lang','level','kind'])$(k).onchange=draw;
 for(const id of ['genre','chapter','unit'])$(id).onchange=()=>{if(id!=='unit')$('unit').value='';draw();};
 for(const [id,step] of [['prev',-1],['next',1]])$(id).onclick=()=>{const route=navigation(),next=route[route.indexOf(chapters[$('chapter').value])+step];if(next){$('chapter').value=String(chapters.indexOf(next));$('unit').value='';draw();}};
