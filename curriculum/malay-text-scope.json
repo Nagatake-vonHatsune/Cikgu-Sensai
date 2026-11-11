@@ -1,0 +1,5576 @@
+{
+  "version": 1,
+  "note": "Explicit target-language spans. New or edited body lines require review. Excluded explainers, teacher plans/keys, rubrics and translations are not baseline waivers.",
+  "lines": {
+    "Di, ke and dari|3|0": {
+      "source_text": "Saya di KL Sentral.",
+      "target_spans": [
+        "Saya di KL Sentral."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Di, ke and dari|3|1": {
+      "source_text": "Saya nak pergi ke Pasar Seni.",
+      "target_spans": [
+        "Saya nak pergi ke Pasar Seni."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Di, ke and dari|3|2": {
+      "source_text": "Saya naik tren dari KL Sentral.",
+      "target_spans": [
+        "Saya naik tren dari KL Sentral."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Di, ke and dari|3|3": {
+      "source_text": "Cari nama tempat. Di mana saya sekarang?",
+      "target_spans": [
+        "Di mana saya sekarang?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Di, ke and dari|4|0": {
+      "source_text": "Pilih: di / ke / dari.",
+      "target_spans": [
+        "di / ke / dari"
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Di, ke and dari|4|1": {
+      "source_text": "Saya sekarang ____ rumah.",
+      "target_spans": [
+        "Saya sekarang ____ rumah."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Di, ke and dari|4|2": {
+      "source_text": "Saya nak pergi ____ kelas.",
+      "target_spans": [
+        "Saya nak pergi ____ kelas."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Di, ke and dari|4|3": {
+      "source_text": "Saya naik bas ____ rumah ke kampus.",
+      "target_spans": [
+        "Saya naik bas ____ rumah ke kampus."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Di, ke and dari|5|0": {
+      "source_text": "Anda di stesen. Pilih tempat yang anda nak pergi.",
+      "target_spans": [
+        "Anda di stesen."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Di, ke and dari|5|1": {
+      "source_text": "Beritahu kawan: anda di mana? Nak pergi ke mana? Dari mana?",
+      "target_spans": [
+        "anda di mana? Nak pergi ke mana? Dari mana?"
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Di, ke and dari|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Di, ke and dari|5|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "A clear pickup message|3|0": {
+      "source_text": "A   Jumpa pukul tiga di pintu A, ya.",
+      "target_spans": [
+        "Jumpa pukul tiga di pintu A, ya."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "A clear pickup message|3|1": {
+      "source_text": "B   Boleh ambil saya di pintu A pukul tiga? Terima kasih.",
+      "target_spans": [
+        "Boleh ambil saya di pintu A pukul tiga? Terima kasih."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "A clear pickup message|3|2": {
+      "source_text": "C   Ambil saya dekat sana nanti.",
+      "target_spans": [
+        "Ambil saya dekat sana nanti."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "A clear pickup message|3|3": {
+      "source_text": "Yang mana sesuai kalau kawan dah tahu rancangan anda? Yang mana jelas untuk minta tolong?",
+      "target_spans": [
+        "Yang mana jelas untuk minta tolong?"
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "A clear pickup message|4|0": {
+      "source_text": "Kawan anda tak tahu tempat atau masa. Baiki mesej C.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "A clear pickup message|4|1": {
+      "source_text": "Tempat: pintu B. Masa: pukul empat petang.",
+      "target_spans": [
+        "pintu B",
+        "pukul empat petang"
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "A clear pickup message|4|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "A clear pickup message|4|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "A clear pickup message|5|0": {
+      "source_text": "Kelas tamat lewat. Minta kawan datang pukul lima. Pilih tempat baru.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "A clear pickup message|5|1": {
+      "source_text": "Tulis mesej. Tukar dengan kawan. Boleh dia cari anda?",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "A clear pickup message|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "A clear pickup message|5|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Lunch at a Malaysian stall|3|0": {
+      "source_text": "A   Nak nasi ayam satu. Ada lagi?",
+      "target_spans": [
+        "Nak nasi ayam satu. Ada lagi?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|3|1": {
+      "source_text": "B   Ada. Nak makan sini ke bungkus?",
+      "target_spans": [
+        "Ada. Nak makan sini ke bungkus?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|3|2": {
+      "source_text": "A   Makan sini. Kawan saya pun nak makan.",
+      "target_spans": [
+        "Makan sini. Kawan saya pun nak makan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|3|3": {
+      "source_text": "B   Dia nak nasi ayam juga?",
+      "target_spans": [
+        "Dia nak nasi ayam juga?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|3|4": {
+      "source_text": "A   Dia tak makan ayam. Ada mi goreng?",
+      "target_spans": [
+        "Dia tak makan ayam. Ada mi goreng?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|3|5": {
+      "source_text": "B   Ada. Nak satu pinggan?",
+      "target_spans": [
+        "Ada. Nak satu pinggan?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|3|6": {
+      "source_text": "A   Ya. Mi tu pedas tak?",
+      "target_spans": [
+        "Ya. Mi tu pedas tak?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|3|7": {
+      "source_text": "B   Tak pedas. Sambal ada di tepi.",
+      "target_spans": [
+        "Tak pedas. Sambal ada di tepi."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|4|0": {
+      "source_text": "A   Air apa yang ada hari ni?",
+      "target_spans": [
+        "Air apa yang ada hari ni?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|4|1": {
+      "source_text": "B   Ada teh ais, kopi dan air kosong.",
+      "target_spans": [
+        "Ada teh ais, kopi dan air kosong."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|4|2": {
+      "source_text": "A   Teh ais satu. Boleh kurang manis?",
+      "target_spans": [
+        "Teh ais satu. Boleh kurang manis?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|4|3": {
+      "source_text": "B   Boleh. Kawan nak minum apa?",
+      "target_spans": [
+        "Boleh. Kawan nak minum apa?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|4|4": {
+      "source_text": "A   Dia nak air kosong. Berapa harga teh ais?",
+      "target_spans": [
+        "Dia nak air kosong. Berapa harga teh ais?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|4|5": {
+      "source_text": "B   Tiga ringgit. Air kosong satu ringgit.",
+      "target_spans": [
+        "Tiga ringgit. Air kosong satu ringgit."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|4|6": {
+      "source_text": "A   Kalau dua air kosong saja?",
+      "target_spans": [
+        "Kalau dua air kosong saja?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|4|7": {
+      "source_text": "B   Dua ringgit. Nak tukar?",
+      "target_spans": [
+        "Dua ringgit. Nak tukar?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|4|8": {
+      "source_text": "A   Ya, dua air kosong saja.",
+      "target_spans": [
+        "Ya, dua air kosong saja."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|4|9": {
+      "source_text": "B   Baik. Nak ais?",
+      "target_spans": [
+        "Baik. Nak ais?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|4|10": {
+      "source_text": "A   Satu dengan ais, satu lagi tak nak ais.",
+      "target_spans": [
+        "Satu dengan ais, satu lagi tak nak ais."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|4|11": {
+      "source_text": "B   Baik, saya ambil sekarang.",
+      "target_spans": [
+        "Baik, saya ambil sekarang."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|5|0": {
+      "source_text": "A   Maaf, mi goreng belum sampai. Dah siap?",
+      "target_spans": [
+        "Maaf, mi goreng belum sampai. Dah siap?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|5|1": {
+      "source_text": "B   Sekejap ya. Ini mi goreng. Cukup semua?",
+      "target_spans": [
+        "Sekejap ya. Ini mi goreng. Cukup semua?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|5|2": {
+      "source_text": "A   Ya. Nasi ayam, mi goreng dan dua air kosong.",
+      "target_spans": [
+        "Ya. Nasi ayam, mi goreng dan dua air kosong."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|5|3": {
+      "source_text": "B   Betul. Nasi lapan, mi enam, air dua. Semua enam belas.",
+      "target_spans": [
+        "Betul. Nasi lapan, mi enam, air dua. Semua enam belas."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|5|4": {
+      "source_text": "A   Boleh bayar dengan kad?",
+      "target_spans": [
+        "Boleh bayar dengan kad?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|5|5": {
+      "source_text": "B   Maaf, tunai atau QR saja.",
+      "target_spans": [
+        "Maaf, tunai atau QR saja."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|5|6": {
+      "source_text": "A   Kalau saya bagi dua puluh ringgit, ada baki?",
+      "target_spans": [
+        "Kalau saya bagi dua puluh ringgit, ada baki?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|5|7": {
+      "source_text": "B   Ada. Ini baki empat ringgit.",
+      "target_spans": [
+        "Ada. Ini baki empat ringgit."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|5|8": {
+      "source_text": "A   Terima kasih. Sambal boleh ambil di mana?",
+      "target_spans": [
+        "Terima kasih. Sambal boleh ambil di mana?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|5|9": {
+      "source_text": "B   Di hujung meja, dekat sudu.",
+      "target_spans": [
+        "Di hujung meja, dekat sudu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|6|0": {
+      "source_text": "A   Nak nasi lemak satu. Ada lagi?",
+      "target_spans": [
+        "Nak nasi lemak satu. Ada lagi?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|6|1": {
+      "source_text": "B   Maaf, nasi lemak dah ____.",
+      "target_spans": [
+        "Maaf, nasi lemak dah ____."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|6|2": {
+      "source_text": "A   Kalau macam tu, ada apa ____?",
+      "target_spans": [
+        "Kalau macam tu, ada apa ____?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|6|3": {
+      "source_text": "B   Ada nasi ayam dan mi goreng.",
+      "target_spans": [
+        "Ada nasi ayam dan mi goreng."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|6|4": {
+      "source_text": "A   Mi goreng ____ tak?",
+      "target_spans": [
+        "Mi goreng ____ tak?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|6|5": {
+      "source_text": "B   Pedas sikit. Nak cuba nasi ayam?",
+      "target_spans": [
+        "Pedas sikit. Nak cuba nasi ayam?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|6|6": {
+      "source_text": "A   Ya. Kalau nak sambal asing, boleh?",
+      "target_spans": [
+        "Ya. Kalau nak sambal asing, boleh?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|6|7": {
+      "source_text": "B   ____. Nak makan sini atau bungkus?",
+      "target_spans": [
+        "____. Nak makan sini atau bungkus?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|7|0": {
+      "source_text": "A   Saya nak ____. Nasi ayam berapa?",
+      "target_spans": [
+        "Saya nak ____. Nasi ayam berapa?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|7|1": {
+      "source_text": "B   Lapan ringgit. Nak air juga?",
+      "target_spans": [
+        "Lapan ringgit. Nak air juga?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|7|2": {
+      "source_text": "A   Saya ada sepuluh ringgit. Air apa yang boleh saya beli?",
+      "target_spans": [
+        "Saya ada sepuluh ringgit. Air apa yang boleh saya beli?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|7|3": {
+      "source_text": "B   Air kosong dua ringgit. Teh ais tiga ringgit.",
+      "target_spans": [
+        "Air kosong dua ringgit. Teh ais tiga ringgit."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|7|4": {
+      "source_text": "A   Kalau ambil air kosong, cukup tak?",
+      "target_spans": [
+        "Kalau ambil air kosong, cukup tak?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|7|5": {
+      "source_text": "B   ____. Semua sepuluh ringgit.",
+      "target_spans": [
+        "____. Semua sepuluh ringgit."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|7|6": {
+      "source_text": "A   Baik. Air kosong satu, tak nak ais.",
+      "target_spans": [
+        "Baik. Air kosong satu, tak nak ais."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|7|7": {
+      "source_text": "B   Baik. Nak sudu sekali?",
+      "target_spans": [
+        "Baik. Nak sudu sekali?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|8|0": {
+      "source_text": "A   Ya, satu sudu. Saya tunggu di ____?",
+      "target_spans": [
+        "Ya, satu sudu. Saya tunggu di ____?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|8|1": {
+      "source_text": "B   Di tepi kaunter. Saya panggil nanti.",
+      "target_spans": [
+        "Di tepi kaunter. Saya panggil nanti."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|8|2": {
+      "source_text": "A   Maaf, yang ini nasi saya ke?",
+      "target_spans": [
+        "Maaf, yang ini nasi saya ke?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|8|3": {
+      "source_text": "B   Ya. Cuba tengok, cukup semua?",
+      "target_spans": [
+        "Ya. Cuba tengok, cukup semua?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|8|4": {
+      "source_text": "A   Air belum ada. Boleh saya ambil sekarang?",
+      "target_spans": [
+        "Air belum ada. Boleh saya ambil sekarang?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|8|5": {
+      "source_text": "B   Boleh. Ini air kosong. Nak bayar macam mana?",
+      "target_spans": [
+        "Boleh. Ini air kosong. Nak bayar macam mana?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|8|6": {
+      "source_text": "A   Boleh bayar dengan ____?",
+      "target_spans": [
+        "Boleh bayar dengan ____?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|8|7": {
+      "source_text": "B   Boleh. Terima kasih, jumpa lagi.",
+      "target_spans": [
+        "Boleh. Terima kasih, jumpa lagi."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|9|0": {
+      "source_text": "Bual selama 3–5 minit. Kalau siap awal, tukar satu pilihan dan tanya lagi.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Lunch at a Malaysian stall|9|1": {
+      "source_text": "Ada RM10. Nak nasi lemak dan air. Tanya apa lagi yang ada dan bandingkan harga.",
+      "target_spans": [
+        "Ada RM10.",
+        "Nak nasi lemak dan air."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|9|2": {
+      "source_text": "Kawan tak nak makanan pedas. Tanya pasal sambal. Pesan, semak harga dan cara bayar.",
+      "target_spans": [
+        "Kawan tak nak makanan pedas."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|9|3": {
+      "source_text": "Tiba-tiba kawan nak bungkus. Apa perlu tukar?",
+      "target_spans": [
+        "Tiba-tiba kawan nak bungkus."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|9|4": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Lunch at a Malaysian stall|9|5": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Lunch at a Malaysian stall|10|0": {
+      "source_text": "Bual selama 3–5 minit. Kalau siap awal, tukar satu pilihan dan tanya lagi.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Lunch at a Malaysian stall|10|1": {
+      "source_text": "Nasi lemak dah habis. Nasi ayam RM8, mi goreng RM6, air kosong RM2. Teh ais RM3.",
+      "target_spans": [
+        "Nasi lemak dah habis.",
+        "Nasi ayam RM8, mi goreng RM6, air kosong RM2.",
+        "Teh ais RM3."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|10|2": {
+      "source_text": "Tanya pasal sambal, ais dan makan sini atau bungkus. Terima tunai atau QR.",
+      "target_spans": [
+        "Terima tunai atau QR."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|10|3": {
+      "source_text": "Bila pelanggan semak pesanan, satu minuman belum siap. Cari jalan sama-sama.",
+      "target_spans": [
+        "Bila pelanggan semak pesanan, satu minuman belum siap."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Lunch at a Malaysian stall|10|4": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Lunch at a Malaysian stall|10|5": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Runding masa kerja pembaikan|3|0": {
+      "source_text": "A   Penduduk blok A dapat notis semalam. Kenapa air perlu ditutup waktu pagi?",
+      "target_spans": [
+        "Penduduk blok A dapat notis semalam. Kenapa air perlu ditutup waktu pagi?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|3|1": {
+      "source_text": "B   Paip utama bocor. Kontraktor hanya boleh mula pukul sembilan.",
+      "target_spans": [
+        "Paip utama bocor. Kontraktor hanya boleh mula pukul sembilan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|3|2": {
+      "source_text": "A   Ramai orang keluar kerja awal. Berapa lama air akan ditutup?",
+      "target_spans": [
+        "Ramai orang keluar kerja awal. Berapa lama air akan ditutup?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|3|3": {
+      "source_text": "B   Anggarannya dua jam. Kalau ada kerosakan lain, mungkin lebih lama.",
+      "target_spans": [
+        "Anggarannya dua jam. Kalau ada kerosakan lain, mungkin lebih lama."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|3|4": {
+      "source_text": "A   Boleh tutup satu tingkat dulu?",
+      "target_spans": [
+        "Boleh tutup satu tingkat dulu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|3|5": {
+      "source_text": "B   Tak boleh. Semua tingkat guna paip yang sama.",
+      "target_spans": [
+        "Tak boleh. Semua tingkat guna paip yang sama."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|3|6": {
+      "source_text": "A   Kalau begitu, apa pilihan untuk keluarga yang ada anak kecil?",
+      "target_spans": [
+        "Kalau begitu, apa pilihan untuk keluarga yang ada anak kecil?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|3|7": {
+      "source_text": "B   Kami boleh sediakan air di lobi asalkan ada ruang untuk tangki.",
+      "target_spans": [
+        "Kami boleh sediakan air di lobi asalkan ada ruang untuk tangki."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|4|0": {
+      "source_text": "A   Lobi dekat, tapi lif mungkin sesak. Boleh letak tangki di setiap blok?",
+      "target_spans": [
+        "Lobi dekat, tapi lif mungkin sesak. Boleh letak tangki di setiap blok?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|4|1": {
+      "source_text": "B   Satu tangki saja yang ada. Kita boleh sediakan botol di pondok pengawal.",
+      "target_spans": [
+        "Satu tangki saja yang ada. Kita boleh sediakan botol di pondok pengawal."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|4|2": {
+      "source_text": "A   Siapa akan hantar air kepada penduduk yang susah turun?",
+      "target_spans": [
+        "Siapa akan hantar air kepada penduduk yang susah turun?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|4|3": {
+      "source_text": "B   Ada dua orang petugas. Mereka perlu senarai unit malam ini.",
+      "target_spans": [
+        "Ada dua orang petugas. Mereka perlu senarai unit malam ini."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|4|4": {
+      "source_text": "A   Boleh kami kumpul nombor unit tanpa minta maklumat kesihatan?",
+      "target_spans": [
+        "Boleh kami kumpul nombor unit tanpa minta maklumat kesihatan?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|4|5": {
+      "source_text": "B   Boleh. Cukup nombor unit dan masa orang ada di rumah.",
+      "target_spans": [
+        "Boleh. Cukup nombor unit dan masa orang ada di rumah."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|4|6": {
+      "source_text": "A   Walaupun ada bekalan sementara, penduduk masih perlu tahu bila air pulih.",
+      "target_spans": [
+        "Walaupun ada bekalan sementara, penduduk masih perlu tahu bila air pulih."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|4|7": {
+      "source_text": "B   Betul. Kami akan beri perkembangan selepas sejam.",
+      "target_spans": [
+        "Betul. Kami akan beri perkembangan selepas sejam."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|5|0": {
+      "source_text": "A   Kalau paip belum siap tengah hari, apa langkah seterusnya?",
+      "target_spans": [
+        "Kalau paip belum siap tengah hari, apa langkah seterusnya?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|5|1": {
+      "source_text": "B   Kami akan tambah air botol dan beri anggaran baharu.",
+      "target_spans": [
+        "Kami akan tambah air botol dan beri anggaran baharu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|5|2": {
+      "source_text": "A   Jangan tulis air pasti pulih pukul sebelas. Itu baru anggaran.",
+      "target_spans": [
+        "Jangan tulis air pasti pulih pukul sebelas. Itu baru anggaran."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|5|3": {
+      "source_text": "B   Baik. Saya akan tulis kerja dijangka siap dalam dua jam.",
+      "target_spans": [
+        "Baik. Saya akan tulis kerja dijangka siap dalam dua jam."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|5|4": {
+      "source_text": "A   Siapa akan jawab soalan kalau pejabat belum buka?",
+      "target_spans": [
+        "Siapa akan jawab soalan kalau pejabat belum buka?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|5|5": {
+      "source_text": "B   Pengawal boleh catat soalan. Saya telefon semula sebelum kerja bermula.",
+      "target_spans": [
+        "Pengawal boleh catat soalan. Saya telefon semula sebelum kerja bermula."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|5|6": {
+      "source_text": "A   Saya edarkan notis selepas awak sahkan nombor untuk dihubungi.",
+      "target_spans": [
+        "Saya edarkan notis selepas awak sahkan nombor untuk dihubungi."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|5|7": {
+      "source_text": "B   Setuju. Saya hantar nombor dan lokasi tangki petang ini.",
+      "target_spans": [
+        "Setuju. Saya hantar nombor dan lokasi tangki petang ini."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|6|0": {
+      "source_text": "A   Penduduk blok B dapat notis semalam. Kenapa air perlu ditutup waktu pagi?",
+      "target_spans": [
+        "Penduduk blok B dapat notis semalam. Kenapa air perlu ditutup waktu pagi?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|6|1": {
+      "source_text": "B   Paip utama bocor. Kontraktor hanya boleh mula pukul lapan.",
+      "target_spans": [
+        "Paip utama bocor. Kontraktor hanya boleh mula pukul lapan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|6|2": {
+      "source_text": "A   Ramai orang keluar kerja awal. Berapa lama air akan ditutup?",
+      "target_spans": [
+        "Ramai orang keluar kerja awal. Berapa lama air akan ditutup?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|6|3": {
+      "source_text": "B   Anggarannya dua jam. Kalau ada kerosakan lain, mungkin lebih lama.",
+      "target_spans": [
+        "Anggarannya dua jam. Kalau ada kerosakan lain, mungkin lebih lama."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|6|4": {
+      "source_text": "A   Boleh tutup satu tingkat dulu?",
+      "target_spans": [
+        "Boleh tutup satu tingkat dulu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|6|5": {
+      "source_text": "B   Tak boleh. Semua tingkat guna paip yang sama.",
+      "target_spans": [
+        "Tak boleh. Semua tingkat guna paip yang sama."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|6|6": {
+      "source_text": "A   Kalau begitu, apa pilihan untuk keluarga yang ada anak kecil?",
+      "target_spans": [
+        "Kalau begitu, apa pilihan untuk keluarga yang ada anak kecil?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|6|7": {
+      "source_text": "B   Kami boleh sediakan air di lobi ____ ada ruang untuk tangki.",
+      "target_spans": [
+        "Kami boleh sediakan air di lobi ____ ada ruang untuk tangki."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|7|0": {
+      "source_text": "A   Lobi dekat, tapi lif mungkin sesak. Boleh letak tangki di setiap blok?",
+      "target_spans": [
+        "Lobi dekat, tapi lif mungkin sesak. Boleh letak tangki di setiap blok?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|7|1": {
+      "source_text": "B   Satu tangki saja yang ada. Kita boleh sediakan botol di pondok pengawal.",
+      "target_spans": [
+        "Satu tangki saja yang ada. Kita boleh sediakan botol di pondok pengawal."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|7|2": {
+      "source_text": "A   Siapa akan hantar air kepada penduduk yang susah turun?",
+      "target_spans": [
+        "Siapa akan hantar air kepada penduduk yang susah turun?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|7|3": {
+      "source_text": "B   Ada dua orang petugas. Mereka perlu senarai unit malam ini.",
+      "target_spans": [
+        "Ada dua orang petugas. Mereka perlu senarai unit malam ini."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|7|4": {
+      "source_text": "A   Boleh kami kumpul nombor unit tanpa minta maklumat kesihatan?",
+      "target_spans": [
+        "Boleh kami kumpul nombor unit tanpa minta maklumat kesihatan?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|7|5": {
+      "source_text": "B   Boleh. Cukup nombor unit dan masa orang ada di rumah.",
+      "target_spans": [
+        "Boleh. Cukup nombor unit dan masa orang ada di rumah."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|7|6": {
+      "source_text": "A   ____ ada bekalan sementara, penduduk masih perlu tahu bila air pulih.",
+      "target_spans": [
+        "____ ada bekalan sementara, penduduk masih perlu tahu bila air pulih."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|7|7": {
+      "source_text": "B   Betul. Kami akan beri perkembangan selepas sejam.",
+      "target_spans": [
+        "Betul. Kami akan beri perkembangan selepas sejam."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|8|0": {
+      "source_text": "A   Kontraktor baru telefon. Kerja hanya boleh mula petang. Boleh kita teruskan?",
+      "target_spans": [
+        "Kontraktor baru telefon. Kerja hanya boleh mula petang. Boleh kita teruskan?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|8|1": {
+      "source_text": "B   Boleh ____ penduduk dapat notis baharu sebelum mereka keluar.",
+      "target_spans": [
+        "Boleh ____ penduduk dapat notis baharu sebelum mereka keluar."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|8|2": {
+      "source_text": "A   Keluarga yang dah simpan air tentu nak tahu kenapa kita tukar masa.",
+      "target_spans": [
+        "Keluarga yang dah simpan air tentu nak tahu kenapa kita tukar masa."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|8|3": {
+      "source_text": "B   Beritahu mereka alat ganti belum sampai. Jangan janji masa yang belum pasti.",
+      "target_spans": [
+        "Beritahu mereka alat ganti belum sampai. Jangan janji masa yang belum pasti."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|8|4": {
+      "source_text": "A   Kalau lori lambat lagi, siapa akan beri maklumat?",
+      "target_spans": [
+        "Kalau lori lambat lagi, siapa akan beri maklumat?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|8|5": {
+      "source_text": "B   Saya. ____ belum ada keputusan, saya akan hubungi wakil blok pukul dua.",
+      "target_spans": [
+        "Saya. ____ belum ada keputusan, saya akan hubungi wakil blok pukul dua."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|8|6": {
+      "source_text": "A   Saya semak bekalan air untuk petang. Awak boleh maklumkan pengawal?",
+      "target_spans": [
+        "Saya semak bekalan air untuk petang. Awak boleh maklumkan pengawal?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|8|7": {
+      "source_text": "B   Boleh. Kita catat nombor telefon untuk penduduk yang perlukan bantuan.",
+      "target_spans": [
+        "Boleh. Kita catat nombor telefon untuk penduduk yang perlukan bantuan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|9|0": {
+      "source_text": "Bual selama 3–5 minit. Tanya soalan lanjut dan semak apa yang rakan faham.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Runding masa kerja pembaikan|9|1": {
+      "source_text": "Anda wakil penduduk. Tiga keluarga perlukan air sebelum pukul lapan. Tanya tentang tempoh, lokasi air dan bantuan ke rumah.",
+      "target_spans": [
+        "Anda wakil penduduk.",
+        "Tiga keluarga perlukan air sebelum pukul lapan."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|9|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Runding masa kerja pembaikan|9|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Runding masa kerja pembaikan|10|0": {
+      "source_text": "Bual selama 3–5 minit. Tanya soalan lanjut dan semak apa yang rakan faham.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Runding masa kerja pembaikan|10|1": {
+      "source_text": "Anda penyelia. Hanya ada satu tangki dan dua petugas. Tempoh kerja belum pasti. Runding cara agihan dan masa kemas kini.",
+      "target_spans": [
+        "Anda penyelia.",
+        "Hanya ada satu tangki dan dua petugas.",
+        "Tempoh kerja belum pasti."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|10|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Runding masa kerja pembaikan|10|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Runding masa kerja pembaikan|11|0": {
+      "source_text": "Lobi perlu dikosongkan untuk penghantaran. Pilih lokasi lain dan sampaikan perubahan kepada seorang penduduk.",
+      "target_spans": [
+        "Lobi perlu dikosongkan untuk penghantaran."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan|11|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Runding masa kerja pembaikan|11|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Runding masa kerja pembaikan|11|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Syarat dan konsesi|3|0": {
+      "source_text": "Kita boleh mula awal asalkan notis sampai malam ini.",
+      "target_spans": [
+        "Kita boleh mula awal asalkan notis sampai malam ini."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Syarat dan konsesi|3|1": {
+      "source_text": "Walaupun kerja cepat siap, air mungkin lambat sampai ke tingkat atas.",
+      "target_spans": [
+        "Walaupun kerja cepat siap, air mungkin lambat sampai ke tingkat atas."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Syarat dan konsesi|3|2": {
+      "source_text": "Gariskan perbezaan maksud. Terangkan pilihan anda kepada rakan.",
+      "target_spans": [],
+      "kind": "model",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Syarat dan konsesi|4|0": {
+      "source_text": "Kami boleh hantar air ____ ada orang di rumah.",
+      "target_spans": [
+        "Kami boleh hantar air ____ ada orang di rumah."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Syarat dan konsesi|4|1": {
+      "source_text": "____ lori tiba awal, tangki belum boleh diisi.",
+      "target_spans": [
+        "____ lori tiba awal, tangki belum boleh diisi."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Syarat dan konsesi|4|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Syarat dan konsesi|5|0": {
+      "source_text": "Beri satu syarat untuk agihan dan satu masalah yang masih mungkin berlaku.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Syarat dan konsesi|5|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Syarat dan konsesi|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Syarat dan konsesi|6|0": {
+      "source_text": "Lobi perlu dikosongkan untuk penghantaran. Pilih lokasi lain dan sampaikan perubahan kepada seorang penduduk.",
+      "target_spans": [
+        "Lobi perlu dikosongkan untuk penghantaran."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Syarat dan konsesi|6|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Syarat dan konsesi|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Syarat dan konsesi|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Notis air untuk penduduk|3|0": {
+      "source_text": "A   Air akan ditutup pukul sembilan. Sila ambil air di lobi sebelum kerja bermula.",
+      "target_spans": [
+        "Air akan ditutup pukul sembilan. Sila ambil air di lobi sebelum kerja bermula."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Notis air untuk penduduk|3|1": {
+      "source_text": "B   Kerja dijangka mengambil masa dua jam. Jika anda perlukan bantuan mengambil air, hubungi pejabat malam ini.",
+      "target_spans": [
+        "Kerja dijangka mengambil masa dua jam. Jika anda perlukan bantuan mengambil air, hubungi pejabat malam ini."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Notis air untuk penduduk|3|2": {
+      "source_text": "C   Air mungkin tiada sekejap. Semua akan selesai nanti.",
+      "target_spans": [
+        "Air mungkin tiada sekejap. Semua akan selesai nanti."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Notis air untuk penduduk|3|3": {
+      "source_text": "Bandingkan tiga versi. Untuk siapa? Gariskan tindakan yang boleh diambil oleh pembaca.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Notis air untuk penduduk|4|0": {
+      "source_text": "Baiki C dengan masa mula dan langkah yang penduduk boleh ambil.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Notis air untuk penduduk|4|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Notis air untuk penduduk|4|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Notis air untuk penduduk|5|0": {
+      "source_text": "Tulis notis untuk penghuni baharu. Nyatakan lokasi sementara dan bila maklumat seterusnya akan diberi.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Notis air untuk penduduk|5|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Notis air untuk penduduk|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Notis air untuk penduduk|6|0": {
+      "source_text": "Lobi perlu dikosongkan untuk penghantaran. Pilih lokasi lain dan sampaikan perubahan kepada seorang penduduk.",
+      "target_spans": [
+        "Lobi perlu dikosongkan untuk penghantaran."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Notis air untuk penduduk|6|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Notis air untuk penduduk|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Notis air untuk penduduk|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Menimbang dapatan tinjauan kampus|3|0": {
+      "source_text": "A   Draf menyebut perkhidmatan bas malam gagal memenuhi keperluan pelajar. Apa asasnya?",
+      "target_spans": [
+        "Draf menyebut perkhidmatan bas malam gagal memenuhi keperluan pelajar. Apa asasnya?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|3|1": {
+      "source_text": "B   Lapan responden melaporkan mereka terlepas bas selepas kelas.",
+      "target_spans": [
+        "Lapan responden melaporkan mereka terlepas bas selepas kelas."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|3|2": {
+      "source_text": "A   Adakah kita tahu berapa ramai pelajar yang mengalami masalah yang sama?",
+      "target_spans": [
+        "Adakah kita tahu berapa ramai pelajar yang mengalami masalah yang sama?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|3|3": {
+      "source_text": "B   Tidak. Borang hanya diedarkan kepada ahli persatuan yang masih menggunakan bas.",
+      "target_spans": [
+        "Tidak. Borang hanya diedarkan kepada ahli persatuan yang masih menggunakan bas."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|3|4": {
+      "source_text": "A   Jadi, mereka yang sudah berhenti menggunakan bas mungkin langsung tidak diwakili.",
+      "target_spans": [
+        "Jadi, mereka yang sudah berhenti menggunakan bas mungkin langsung tidak diwakili."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|3|5": {
+      "source_text": "B   Betul. Namun ketiadaan angka menyeluruh tidak bermakna aduan itu boleh diketepikan.",
+      "target_spans": [
+        "Betul. Namun ketiadaan angka menyeluruh tidak bermakna aduan itu boleh diketepikan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|3|6": {
+      "source_text": "A   Bolehkah kita nyatakan masalah itu wujud tanpa menganggarkan keluasannya?",
+      "target_spans": [
+        "Bolehkah kita nyatakan masalah itu wujud tanpa menganggarkan keluasannya?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|3|7": {
+      "source_text": "B   Boleh. Saya akan gantikan dakwaan umum dengan gambaran pengalaman responden.",
+      "target_spans": [
+        "Boleh. Saya akan gantikan dakwaan umum dengan gambaran pengalaman responden."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|4|0": {
+      "source_text": "A   Penyelia bimbang perjalanan lewat akan mengurangkan bas pada waktu puncak.",
+      "target_spans": [
+        "Penyelia bimbang perjalanan lewat akan mengurangkan bas pada waktu puncak."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|4|1": {
+      "source_text": "B   Adakah beliau menolak cadangan atau meminta kesannya dinilai dahulu?",
+      "target_spans": [
+        "Adakah beliau menolak cadangan atau meminta kesannya dinilai dahulu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|4|2": {
+      "source_text": "A   Yang kedua. Beliau sanggup mencuba jika perjalanan sedia ada dikekalkan.",
+      "target_spans": [
+        "Yang kedua. Beliau sanggup mencuba jika perjalanan sedia ada dikekalkan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|4|3": {
+      "source_text": "B   Kalau begitu, perkataan membantah itu kurang tepat. Apa kata kita catat syaratnya?",
+      "target_spans": [
+        "Kalau begitu, perkataan membantah itu kurang tepat. Apa kata kita catat syaratnya?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|4|4": {
+      "source_text": "A   Setuju. Kita boleh tambah satu perjalanan selama dua minggu.",
+      "target_spans": [
+        "Setuju. Kita boleh tambah satu perjalanan selama dua minggu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|4|5": {
+      "source_text": "B   Itu pun bergantung pada pemandu tambahan. Siapa akan menanggung kosnya?",
+      "target_spans": [
+        "Itu pun bergantung pada pemandu tambahan. Siapa akan menanggung kosnya?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|4|6": {
+      "source_text": "A   Unit pengangkutan boleh semak peruntukan. Wang itu belum tentu mencukupi.",
+      "target_spans": [
+        "Unit pengangkutan boleh semak peruntukan. Wang itu belum tentu mencukupi."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|4|7": {
+      "source_text": "B   Jadi cadangan percubaan mesti membezakan persetujuan dasar daripada kelulusan belanja.",
+      "target_spans": [
+        "Jadi cadangan percubaan mesti membezakan persetujuan dasar daripada kelulusan belanja."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|5|0": {
+      "source_text": "A   Pengerusi mahu kenyataan ringkas untuk pelajar petang ini. Apa yang boleh diumumkan?",
+      "target_spans": [
+        "Pengerusi mahu kenyataan ringkas untuk pelajar petang ini. Apa yang boleh diumumkan?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|5|1": {
+      "source_text": "B   Kita boleh maklumkan cadangan sedang dinilai dan nyatakan bila keputusan dijangka dibuat.",
+      "target_spans": [
+        "Kita boleh maklumkan cadangan sedang dinilai dan nyatakan bila keputusan dijangka dibuat."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|5|2": {
+      "source_text": "A   Kalau sekadar sedang dinilai, pelajar masih tak tahu bagaimana mahu bersuara.",
+      "target_spans": [
+        "Kalau sekadar sedang dinilai, pelajar masih tak tahu bagaimana mahu bersuara."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|5|3": {
+      "source_text": "B   Kita jemput pengguna dan bekas pengguna beri maklum balas menjelang Jumaat.",
+      "target_spans": [
+        "Kita jemput pengguna dan bekas pengguna beri maklum balas menjelang Jumaat."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|5|4": {
+      "source_text": "A   Siapa akan jelaskan mengapa pengalaman bekas pengguna diambil kira?",
+      "target_spans": [
+        "Siapa akan jelaskan mengapa pengalaman bekas pengguna diambil kira?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|5|5": {
+      "source_text": "B   Saya boleh jelaskan. Mereka mungkin sudah memilih pengangkutan lain kerana jadual lama.",
+      "target_spans": [
+        "Saya boleh jelaskan. Mereka mungkin sudah memilih pengangkutan lain kerana jadual lama."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|5|6": {
+      "source_text": "A   Baik. Saya rekodkan syor itu tertakluk pada semakan kos dan ketersediaan pemandu.",
+      "target_spans": [
+        "Baik. Saya rekodkan syor itu tertakluk pada semakan kos dan ketersediaan pemandu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|5|7": {
+      "source_text": "B   Saya pula semak kenyataan awam supaya tiada siapa menyangka bas tambahan sudah diluluskan.",
+      "target_spans": [
+        "Saya pula semak kenyataan awam supaya tiada siapa menyangka bas tambahan sudah diluluskan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|6|0": {
+      "source_text": "A   Draf menyebut perkhidmatan bas malam gagal memenuhi keperluan pelajar. Apa asasnya?",
+      "target_spans": [
+        "Draf menyebut perkhidmatan bas malam gagal memenuhi keperluan pelajar. Apa asasnya?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|6|1": {
+      "source_text": "B   Sepuluh responden melaporkan mereka terlepas bas selepas kelas.",
+      "target_spans": [
+        "Sepuluh responden melaporkan mereka terlepas bas selepas kelas."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|6|2": {
+      "source_text": "A   Adakah kita tahu berapa ramai pelajar yang mengalami masalah yang sama?",
+      "target_spans": [
+        "Adakah kita tahu berapa ramai pelajar yang mengalami masalah yang sama?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|6|3": {
+      "source_text": "B   Tidak. Borang hanya diedarkan kepada ahli persatuan yang masih menggunakan bas.",
+      "target_spans": [
+        "Tidak. Borang hanya diedarkan kepada ahli persatuan yang masih menggunakan bas."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|6|4": {
+      "source_text": "A   Jadi, mereka yang sudah berhenti menggunakan bas mungkin langsung tidak diwakili.",
+      "target_spans": [
+        "Jadi, mereka yang sudah berhenti menggunakan bas mungkin langsung tidak diwakili."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|6|5": {
+      "source_text": "B   Betul. Namun ketiadaan angka menyeluruh tidak bermakna aduan itu boleh diketepikan.",
+      "target_spans": [
+        "Betul. Namun ketiadaan angka menyeluruh tidak bermakna aduan itu boleh diketepikan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|6|6": {
+      "source_text": "A   Bolehkah kita nyatakan masalah itu wujud ____ menganggarkan keluasannya?",
+      "target_spans": [
+        "Bolehkah kita nyatakan masalah itu wujud ____ menganggarkan keluasannya?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|6|7": {
+      "source_text": "B   Boleh. Saya akan gantikan dakwaan umum dengan gambaran pengalaman responden.",
+      "target_spans": [
+        "Boleh. Saya akan gantikan dakwaan umum dengan gambaran pengalaman responden."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|7|0": {
+      "source_text": "A   Penyelia bimbang perjalanan lewat akan mengurangkan bas pada waktu puncak.",
+      "target_spans": [
+        "Penyelia bimbang perjalanan lewat akan mengurangkan bas pada waktu puncak."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|7|1": {
+      "source_text": "B   Adakah beliau menolak cadangan atau meminta kesannya dinilai dahulu?",
+      "target_spans": [
+        "Adakah beliau menolak cadangan atau meminta kesannya dinilai dahulu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|7|2": {
+      "source_text": "A   Yang kedua. Beliau sanggup mencuba jika perjalanan sedia ada dikekalkan.",
+      "target_spans": [
+        "Yang kedua. Beliau sanggup mencuba jika perjalanan sedia ada dikekalkan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|7|3": {
+      "source_text": "B   Kalau begitu, perkataan membantah itu kurang tepat. Apa kata kita catat syaratnya?",
+      "target_spans": [
+        "Kalau begitu, perkataan membantah itu kurang tepat. Apa kata kita catat syaratnya?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|7|4": {
+      "source_text": "A   Setuju. Kita boleh tambah satu perjalanan selama tiga minggu.",
+      "target_spans": [
+        "Setuju. Kita boleh tambah satu perjalanan selama tiga minggu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|7|5": {
+      "source_text": "B   Itu pun bergantung pada pemandu tambahan. Siapa akan menanggung kosnya?",
+      "target_spans": [
+        "Itu pun bergantung pada pemandu tambahan. Siapa akan menanggung kosnya?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|7|6": {
+      "source_text": "A   Unit pengangkutan boleh semak peruntukan. Wang itu ____ mencukupi.",
+      "target_spans": [
+        "Unit pengangkutan boleh semak peruntukan. Wang itu ____ mencukupi."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|7|7": {
+      "source_text": "B   Jadi cadangan percubaan mesti membezakan persetujuan dasar daripada kelulusan belanja.",
+      "target_spans": [
+        "Jadi cadangan percubaan mesti membezakan persetujuan dasar daripada kelulusan belanja."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|8|0": {
+      "source_text": "A   Tajuk yang dicadangkan berbunyi Pelajar Tolak Jadual Lama. Tepatkah?",
+      "target_spans": [
+        "Tajuk yang dicadangkan berbunyi Pelajar Tolak Jadual Lama. Tepatkah?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|8|1": {
+      "source_text": "B   Tidak. Aduan itu ____ mewakili pelajar yang berpuas hati.",
+      "target_spans": [
+        "Tidak. Aduan itu ____ mewakili pelajar yang berpuas hati."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|8|2": {
+      "source_text": "A   Jika kita sebut ada pelajar meminta perjalanan lewat, adakah itu memadai?",
+      "target_spans": [
+        "Jika kita sebut ada pelajar meminta perjalanan lewat, adakah itu memadai?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|8|3": {
+      "source_text": "B   Lebih tepat. Nyatakan juga cadangan masih ____ semakan kos.",
+      "target_spans": [
+        "Lebih tepat. Nyatakan juga cadangan masih ____ semakan kos."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|8|4": {
+      "source_text": "A   Ada yang bimbang kenyataan itu kedengaran seperti alasan untuk bertangguh.",
+      "target_spans": [
+        "Ada yang bimbang kenyataan itu kedengaran seperti alasan untuk bertangguh."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|8|5": {
+      "source_text": "B   Sertakan tarikh semakan dan pihak yang bertanggungjawab. Itu boleh disahkan.",
+      "target_spans": [
+        "Sertakan tarikh semakan dan pihak yang bertanggungjawab. Itu boleh disahkan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|8|6": {
+      "source_text": "A   Jadi kita umumkan proses dan tempoh, tanpa mendahului keputusan?",
+      "target_spans": [
+        "Jadi kita umumkan proses dan tempoh, tanpa mendahului keputusan?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|8|7": {
+      "source_text": "B   Ya. Beri juga saluran kepada pelajar yang tidak menjawab tinjauan asal.",
+      "target_spans": [
+        "Ya. Beri juga saluran kepada pelajar yang tidak menjawab tinjauan asal."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|9|0": {
+      "source_text": "Bual selama 3–5 minit. Tanya soalan lanjut dan semak apa yang rakan faham.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Menimbang dapatan tinjauan kampus|9|1": {
+      "source_text": "Anda menyediakan ringkasan. Aduan hanya datang daripada ahli persatuan. Jelaskan batas dapatan dan cadangkan percubaan yang boleh dihentikan.",
+      "target_spans": [
+        "Anda menyediakan ringkasan.",
+        "Aduan hanya datang daripada ahli persatuan."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|9|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Menimbang dapatan tinjauan kampus|9|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Menimbang dapatan tinjauan kampus|10|0": {
+      "source_text": "Bual selama 3–5 minit. Tanya soalan lanjut dan semak apa yang rakan faham.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Menimbang dapatan tinjauan kampus|10|1": {
+      "source_text": "Anda wakil operasi. Anda tidak membantah percubaan tetapi mahu jadual lama dikekalkan. Semak gambaran pendirian anda dan minta syarat kos dinyatakan.",
+      "target_spans": [
+        "Anda wakil operasi.",
+        "Anda tidak membantah percubaan tetapi mahu jadual lama dikekalkan."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|10|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Menimbang dapatan tinjauan kampus|10|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Menimbang dapatan tinjauan kampus|11|0": {
+      "source_text": "Wartawan kampus menulis bahawa bas tambahan sudah diluluskan. Persetujui pembetulan yang tepat tanpa menafikan aduan pelajar.",
+      "target_spans": [
+        "Wartawan kampus menulis bahawa bas tambahan sudah diluluskan."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus|11|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Menimbang dapatan tinjauan kampus|11|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Menimbang dapatan tinjauan kampus|11|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Membezakan andaian dan bukti|3|0": {
+      "source_text": "Aduan itu menunjukkan ada masalah, tetapi belum tentu mewakili semua pengguna.",
+      "target_spans": [
+        "Aduan itu menunjukkan ada masalah, tetapi belum tentu mewakili semua pengguna."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Membezakan andaian dan bukti|3|1": {
+      "source_text": "Sekiranya bekas pengguna turut ditanya, dapatan mungkin berbeza.",
+      "target_spans": [
+        "Sekiranya bekas pengguna turut ditanya, dapatan mungkin berbeza."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Membezakan andaian dan bukti|3|2": {
+      "source_text": "Gariskan perbezaan maksud. Terangkan pilihan anda kepada rakan.",
+      "target_spans": [],
+      "kind": "model",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Membezakan andaian dan bukti|4|0": {
+      "source_text": "Dapatan itu ____ mewakili semua pelajar.",
+      "target_spans": [
+        "Dapatan itu ____ mewakili semua pelajar."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Membezakan andaian dan bukti|4|1": {
+      "source_text": "Percubaan ini ____ kelulusan peruntukan.",
+      "target_spans": [
+        "Percubaan ini ____ kelulusan peruntukan."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Membezakan andaian dan bukti|4|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Membezakan andaian dan bukti|5|0": {
+      "source_text": "Hadkan satu kesimpulan dan nyatakan syarat sebelum syor boleh dilaksanakan.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Membezakan andaian dan bukti|5|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Membezakan andaian dan bukti|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Membezakan andaian dan bukti|6|0": {
+      "source_text": "Wartawan kampus menulis bahawa bas tambahan sudah diluluskan. Persetujui pembetulan yang tepat tanpa menafikan aduan pelajar.",
+      "target_spans": [
+        "Wartawan kampus menulis bahawa bas tambahan sudah diluluskan."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Membezakan andaian dan bukti|6|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Membezakan andaian dan bukti|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Membezakan andaian dan bukti|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Catatan keputusan dan kenyataan awam|3|0": {
+      "source_text": "A   Jawatankuasa bersetuju menilai percubaan dua minggu. Perbelanjaan belum diluluskan.",
+      "target_spans": [
+        "Jawatankuasa bersetuju menilai percubaan dua minggu. Perbelanjaan belum diluluskan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Catatan keputusan dan kenyataan awam|3|1": {
+      "source_text": "B   Aduan pengguna telah direkodkan. Unit operasi akan mengesahkan kos sebelum keputusan dibuat pada hari Jumaat.",
+      "target_spans": [
+        "Aduan pengguna telah direkodkan. Unit operasi akan mengesahkan kos sebelum keputusan dibuat pada hari Jumaat."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Catatan keputusan dan kenyataan awam|3|2": {
+      "source_text": "C   Bas malam tambahan pasti beroperasi kerana semua pelajar memerlukannya.",
+      "target_spans": [
+        "Bas malam tambahan pasti beroperasi kerana semua pelajar memerlukannya."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Catatan keputusan dan kenyataan awam|3|3": {
+      "source_text": "Bandingkan tiga versi. Untuk siapa? Gariskan tindakan yang boleh diambil oleh pembaca.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Catatan keputusan dan kenyataan awam|4|0": {
+      "source_text": "Betulkan C tanpa menghilangkan sebab cadangan itu dibincangkan.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Catatan keputusan dan kenyataan awam|4|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Catatan keputusan dan kenyataan awam|4|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Catatan keputusan dan kenyataan awam|5|0": {
+      "source_text": "Tulis catatan untuk minit dan kenyataan dua ayat untuk pelajar. Kekalkan perbezaan antara syor dan kelulusan.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Catatan keputusan dan kenyataan awam|5|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Catatan keputusan dan kenyataan awam|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Catatan keputusan dan kenyataan awam|6|0": {
+      "source_text": "Wartawan kampus menulis bahawa bas tambahan sudah diluluskan. Persetujui pembetulan yang tepat tanpa menafikan aduan pelajar.",
+      "target_spans": [
+        "Wartawan kampus menulis bahawa bas tambahan sudah diluluskan."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Catatan keputusan dan kenyataan awam|6|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Catatan keputusan dan kenyataan awam|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Catatan keputusan dan kenyataan awam|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Beli buah di pasar|3|0": {
+      "source_text": "A   Nak buah apa?",
+      "target_spans": [
+        "Nak buah apa?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|3|1": {
+      "source_text": "B   Nak epal. Epal merah ada?",
+      "target_spans": [
+        "Nak epal. Epal merah ada?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|3|2": {
+      "source_text": "A   Ada. Nak berapa biji?",
+      "target_spans": [
+        "Ada. Nak berapa biji?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|3|3": {
+      "source_text": "B   Dua biji. Berapa harga satu?",
+      "target_spans": [
+        "Dua biji. Berapa harga satu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|3|4": {
+      "source_text": "A   Satu dua ringgit. Nak buah lain?",
+      "target_spans": [
+        "Satu dua ringgit. Nak buah lain?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|3|5": {
+      "source_text": "B   Pisang ada? Saya nak sikit saja.",
+      "target_spans": [
+        "Pisang ada? Saya nak sikit saja."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|3|6": {
+      "source_text": "A   Ada. Pisang ni tiga ringgit setandan kecil.",
+      "target_spans": [
+        "Ada. Pisang ni tiga ringgit setandan kecil."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|3|7": {
+      "source_text": "B   Kalau ambil dua epal dan pisang, semua tujuh ringgit?",
+      "target_spans": [
+        "Kalau ambil dua epal dan pisang, semua tujuh ringgit?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|4|0": {
+      "source_text": "A   Ya, betul. Nak beg?",
+      "target_spans": [
+        "Ya, betul. Nak beg?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|4|1": {
+      "source_text": "B   Tak nak, saya ada beg.",
+      "target_spans": [
+        "Tak nak, saya ada beg."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|4|2": {
+      "source_text": "A   Nak bayar macam mana?",
+      "target_spans": [
+        "Nak bayar macam mana?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|4|3": {
+      "source_text": "B   Tunai. Ini sepuluh ringgit.",
+      "target_spans": [
+        "Tunai. Ini sepuluh ringgit."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|4|4": {
+      "source_text": "A   Ini baki tiga ringgit. Cukup?",
+      "target_spans": [
+        "Ini baki tiga ringgit. Cukup?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|4|5": {
+      "source_text": "B   Ya. Boleh campur epal hijau lain kali?",
+      "target_spans": [
+        "Ya. Boleh campur epal hijau lain kali?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|4|6": {
+      "source_text": "A   Boleh. Esok pun ada.",
+      "target_spans": [
+        "Boleh. Esok pun ada."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|4|7": {
+      "source_text": "B   Baik, terima kasih.",
+      "target_spans": [
+        "Baik, terima kasih."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|5|0": {
+      "source_text": "A   Nak buah apa hari ini?",
+      "target_spans": [
+        "Nak buah apa hari ini?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|5|1": {
+      "source_text": "B   Nak mangga. Berapa ____ satu?",
+      "target_spans": [
+        "Nak mangga. Berapa ____ satu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|5|2": {
+      "source_text": "A   Tiga ringgit sebiji. Nak berapa?",
+      "target_spans": [
+        "Tiga ringgit sebiji. Nak berapa?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|5|3": {
+      "source_text": "B   Saya nak dua ____. Yang ini manis tak?",
+      "target_spans": [
+        "Saya nak dua ____. Yang ini manis tak?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|5|4": {
+      "source_text": "A   Manis. Yang kecil masam sikit.",
+      "target_spans": [
+        "Manis. Yang kecil masam sikit."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|5|5": {
+      "source_text": "B   Kalau satu besar dan satu kecil, sama harga?",
+      "target_spans": [
+        "Kalau satu besar dan satu kecil, sama harga?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|5|6": {
+      "source_text": "A   Yang kecil dua ringgit. Semua lima ringgit.",
+      "target_spans": [
+        "Yang kecil dua ringgit. Semua lima ringgit."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|5|7": {
+      "source_text": "B   Saya ada empat ringgit saja. Dua yang kecil boleh?",
+      "target_spans": [
+        "Saya ada empat ringgit saja. Dua yang kecil boleh?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|6|0": {
+      "source_text": "A   ____. Nak beg sekali?",
+      "target_spans": [
+        "____. Nak beg sekali?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|6|1": {
+      "source_text": "B   Tak nak. Ini duit.",
+      "target_spans": [
+        "Tak nak. Ini duit."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|6|2": {
+      "source_text": "A   Empat ringgit, cukup. Ada lagi?",
+      "target_spans": [
+        "Empat ringgit, cukup. Ada lagi?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|6|3": {
+      "source_text": "B   Esok buka pukul ____?",
+      "target_spans": [
+        "Esok buka pukul ____?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|6|4": {
+      "source_text": "A   Pukul lapan. Nak datang lagi?",
+      "target_spans": [
+        "Pukul lapan. Nak datang lagi?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|6|5": {
+      "source_text": "B   Ya, saya nak beli untuk kawan.",
+      "target_spans": [
+        "Ya, saya nak beli untuk kawan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|6|6": {
+      "source_text": "A   Baik, jumpa esok.",
+      "target_spans": [
+        "Baik, jumpa esok."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|6|7": {
+      "source_text": "B   Terima kasih.",
+      "target_spans": [
+        "Terima kasih."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar|7|0": {
+      "source_text": "Bual selama 3–5 minit. Tanya soalan lanjut dan semak apa yang rakan faham.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Beli buah di pasar|7|1": {
+      "source_text": "Anda jual epal RM2 sebiji dan pisang RM3 setandan. Tanya jumlah dan cara bayar.",
+      "target_spans": [
+        "Anda jual epal RM2 sebiji dan pisang RM3 setandan."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Beli buah di pasar|7|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Beli buah di pasar|7|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Beli buah di pasar|8|0": {
+      "source_text": "Bual selama 3–5 minit. Tanya soalan lanjut dan semak apa yang rakan faham.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Beli buah di pasar|8|1": {
+      "source_text": "Anda ada RM7. Beli untuk dua orang. Semak harga dan baki.",
+      "target_spans": [
+        "Anda ada RM7.",
+        "Beli untuk dua orang."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Beli buah di pasar|8|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Beli buah di pasar|8|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Beli buah di pasar|9|0": {
+      "source_text": "Epal merah tinggal satu. Pilih buah lain dalam bajet.",
+      "target_spans": [
+        "Epal merah tinggal satu."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Beli buah di pasar|9|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Beli buah di pasar|9|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Beli buah di pasar|9|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Jumlah buah|3|0": {
+      "source_text": "Satu biji epal. Dua biji epal.",
+      "target_spans": [
+        "Satu biji epal. Dua biji epal."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Jumlah buah|3|1": {
+      "source_text": "Gariskan perbezaan maksud. Terangkan pilihan anda kepada rakan.",
+      "target_spans": [],
+      "kind": "model",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Jumlah buah|4|0": {
+      "source_text": "Saya nak dua ____ epal.",
+      "target_spans": [
+        "Saya nak dua ____ epal."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Jumlah buah|4|1": {
+      "source_text": "____ harga satu?",
+      "target_spans": [
+        "____ harga satu?"
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Jumlah buah|4|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Jumlah buah|5|0": {
+      "source_text": "Pesan tiga buah dan tanya harga.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Jumlah buah|5|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Jumlah buah|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Jumlah buah|6|0": {
+      "source_text": "Epal merah tinggal satu. Pilih buah lain dalam bajet.",
+      "target_spans": [
+        "Epal merah tinggal satu."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Jumlah buah|6|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Jumlah buah|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Jumlah buah|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Pesanan buah|3|0": {
+      "source_text": "A   Nak dua biji epal merah.",
+      "target_spans": [
+        "Nak dua biji epal merah."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Pesanan buah|3|1": {
+      "source_text": "B   Boleh beli dua biji epal merah untuk saya?",
+      "target_spans": [
+        "Boleh beli dua biji epal merah untuk saya?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Pesanan buah|3|2": {
+      "source_text": "C   Beli yang itu.",
+      "target_spans": [
+        "Beli yang itu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Pesanan buah|3|3": {
+      "source_text": "Bandingkan tiga versi. Untuk siapa? Gariskan tindakan yang boleh diambil oleh pembaca.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Pesanan buah|4|0": {
+      "source_text": "Baiki C supaya kawan tahu buah dan jumlah.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Pesanan buah|4|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Pesanan buah|4|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Pesanan buah|5|0": {
+      "source_text": "Tulis pesanan untuk kawan dengan bajet RM6.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Pesanan buah|5|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Pesanan buah|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Pesanan buah|6|0": {
+      "source_text": "Epal merah tinggal satu. Pilih buah lain dalam bajet.",
+      "target_spans": [
+        "Epal merah tinggal satu."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Pesanan buah|6|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Pesanan buah|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Pesanan buah|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ambil bungkusan di lobi|3|0": {
+      "source_text": "A   Saya nak ambil bungkusan. Dah sampai?",
+      "target_spans": [
+        "Saya nak ambil bungkusan. Dah sampai?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|3|1": {
+      "source_text": "B   Nama siapa? Ada nombor unit?",
+      "target_spans": [
+        "Nama siapa? Ada nombor unit?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|3|2": {
+      "source_text": "A   Unit B-12. Nama saya Aki.",
+      "target_spans": [
+        "Unit B-12. Nama saya Aki."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|3|3": {
+      "source_text": "B   Ada dua kotak. Yang mana satu?",
+      "target_spans": [
+        "Ada dua kotak. Yang mana satu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|3|4": {
+      "source_text": "A   Kotak kecil. Ada nama saya tak?",
+      "target_spans": [
+        "Kotak kecil. Ada nama saya tak?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|3|5": {
+      "source_text": "B   Yang kecil ni untuk unit B-21.",
+      "target_spans": [
+        "Yang kecil ni untuk unit B-21."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|3|6": {
+      "source_text": "A   Oh, jadi kotak saya belum ada?",
+      "target_spans": [
+        "Oh, jadi kotak saya belum ada?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|3|7": {
+      "source_text": "B   Tunggu dulu. Ada satu lagi dekat pintu.",
+      "target_spans": [
+        "Tunggu dulu. Ada satu lagi dekat pintu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|4|0": {
+      "source_text": "A   Betul, itu nama saya. Perlu tunjuk apa?",
+      "target_spans": [
+        "Betul, itu nama saya. Perlu tunjuk apa?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|4|1": {
+      "source_text": "B   Boleh tunjuk mesej dari kedai?",
+      "target_spans": [
+        "Boleh tunjuk mesej dari kedai?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|4|2": {
+      "source_text": "A   Ini mesejnya. Nombor sama tak?",
+      "target_spans": [
+        "Ini mesejnya. Nombor sama tak?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|4|3": {
+      "source_text": "B   Sama. Nak ambil sekarang?",
+      "target_spans": [
+        "Sama. Nak ambil sekarang?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|4|4": {
+      "source_text": "A   Ya. Di mana saya perlu tulis nama?",
+      "target_spans": [
+        "Ya. Di mana saya perlu tulis nama?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|4|5": {
+      "source_text": "B   Di sini. Semak kotak dulu.",
+      "target_spans": [
+        "Di sini. Semak kotak dulu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|4|6": {
+      "source_text": "A   Kotak elok. Terima kasih.",
+      "target_spans": [
+        "Kotak elok. Terima kasih."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|4|7": {
+      "source_text": "B   Sama-sama. Tolong tutup pintu ya.",
+      "target_spans": [
+        "Sama-sama. Tolong tutup pintu ya."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|5|0": {
+      "source_text": "A   Ada kotak untuk unit D-6?",
+      "target_spans": [
+        "Ada kotak untuk unit D-6?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|5|1": {
+      "source_text": "B   Maaf, lori ____ sampai. Ada nombor pesanan?",
+      "target_spans": [
+        "Maaf, lori ____ sampai. Ada nombor pesanan?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|5|2": {
+      "source_text": "A   Ada. Ini nombornya. Bila lori sampai?",
+      "target_spans": [
+        "Ada. Ini nombornya. Bila lori sampai?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|5|3": {
+      "source_text": "B   Mungkin pukul tiga. Nak tunggu atau datang lagi?",
+      "target_spans": [
+        "Mungkin pukul tiga. Nak tunggu atau datang lagi?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|5|4": {
+      "source_text": "A   Saya ada kelas. Kawan boleh ambil?",
+      "target_spans": [
+        "Saya ada kelas. Kawan boleh ambil?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|5|5": {
+      "source_text": "B   Boleh. Siapa ____ kawan?",
+      "target_spans": [
+        "Boleh. Siapa ____ kawan?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|5|6": {
+      "source_text": "A   Nama dia Mei. Apa dia perlu tunjuk?",
+      "target_spans": [
+        "Nama dia Mei. Apa dia perlu tunjuk?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|5|7": {
+      "source_text": "B   Mesej dari awak dan nombor unit.",
+      "target_spans": [
+        "Mesej dari awak dan nombor unit."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|6|0": {
+      "source_text": "A   Kalau dia datang pukul enam, pejabat masih buka?",
+      "target_spans": [
+        "Kalau dia datang pukul enam, pejabat masih buka?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|6|1": {
+      "source_text": "B   Tak. Kami tutup pukul lima. Esok pun ____.",
+      "target_spans": [
+        "Tak. Kami tutup pukul lima. Esok pun ____."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|6|2": {
+      "source_text": "A   Kalau macam tu, saya ambil esok. Perlu tulis nama sekarang?",
+      "target_spans": [
+        "Kalau macam tu, saya ambil esok. Perlu tulis nama sekarang?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|6|3": {
+      "source_text": "B   Tak perlu. Semak nama bila ambil nanti.",
+      "target_spans": [
+        "Tak perlu. Semak nama bila ambil nanti."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|6|4": {
+      "source_text": "A   Sekarang kotak saya dah sampai ke?",
+      "target_spans": [
+        "Sekarang kotak saya dah sampai ke?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|6|5": {
+      "source_text": "B   Ya, lori baru sampai. Ini ____ awak.",
+      "target_spans": [
+        "Ya, lori baru sampai. Ini ____ awak."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|6|6": {
+      "source_text": "A   Bagus, saya boleh ambil sekarang.",
+      "target_spans": [
+        "Bagus, saya boleh ambil sekarang."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|6|7": {
+      "source_text": "B   Boleh, semak nombor dulu.",
+      "target_spans": [
+        "Boleh, semak nombor dulu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|7|0": {
+      "source_text": "Bual selama 3–5 minit. Tanya soalan lanjut dan semak apa yang rakan faham.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Ambil bungkusan di lobi|7|1": {
+      "source_text": "Cari kotak kecil untuk unit C-3. Anda ada mesej dari kedai.",
+      "target_spans": [
+        "Anda ada mesej dari kedai."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|7|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ambil bungkusan di lobi|7|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ambil bungkusan di lobi|8|0": {
+      "source_text": "Bual selama 3–5 minit. Tanya soalan lanjut dan semak apa yang rakan faham.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Ambil bungkusan di lobi|8|1": {
+      "source_text": "Dua kotak warna sama. Tanya nombor unit dan semak nama.",
+      "target_spans": [
+        "Dua kotak warna sama."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|8|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ambil bungkusan di lobi|8|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ambil bungkusan di lobi|9|0": {
+      "source_text": "Label koyak. Cari cara lain untuk semak pemilik.",
+      "target_spans": [
+        "Label koyak."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi|9|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Ambil bungkusan di lobi|9|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ambil bungkusan di lobi|9|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Dah atau belum|3|0": {
+      "source_text": "Kotak dah sampai. Saya belum ambil.",
+      "target_spans": [
+        "Kotak dah sampai. Saya belum ambil."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Dah atau belum|3|1": {
+      "source_text": "Gariskan perbezaan maksud. Terangkan pilihan anda kepada rakan.",
+      "target_spans": [],
+      "kind": "model",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Dah atau belum|4|0": {
+      "source_text": "Kotak masih dalam van. Kotak ____ sampai.",
+      "target_spans": [
+        "Kotak masih dalam van. Kotak ____ sampai."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Dah atau belum|4|1": {
+      "source_text": "Ini kotaknya. Kotak ____ sampai.",
+      "target_spans": [
+        "Ini kotaknya. Kotak ____ sampai."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Dah atau belum|4|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Dah atau belum|5|0": {
+      "source_text": "Tanya status dua bungkusan.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Dah atau belum|5|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Dah atau belum|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Dah atau belum|6|0": {
+      "source_text": "Label koyak. Cari cara lain untuk semak pemilik.",
+      "target_spans": [
+        "Label koyak."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Dah atau belum|6|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Dah atau belum|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Dah atau belum|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej untuk pengawal|3|0": {
+      "source_text": "A   Saya akan ambil kotak unit C-3 pukul enam.",
+      "target_spans": [
+        "Saya akan ambil kotak unit C-3 pukul enam."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Mesej untuk pengawal|3|1": {
+      "source_text": "B   Boleh simpan kotak kecil untuk unit C-3 sampai pukul enam?",
+      "target_spans": [
+        "Boleh simpan kotak kecil untuk unit C-3 sampai pukul enam?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Mesej untuk pengawal|3|2": {
+      "source_text": "C   Tolong simpan itu.",
+      "target_spans": [
+        "Tolong simpan itu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Mesej untuk pengawal|3|3": {
+      "source_text": "Bandingkan tiga versi. Untuk siapa? Gariskan tindakan yang boleh diambil oleh pembaca.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej untuk pengawal|4|0": {
+      "source_text": "Baiki C dengan saiz, unit dan masa.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej untuk pengawal|4|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej untuk pengawal|4|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej untuk pengawal|5|0": {
+      "source_text": "Minta kawan ambil kotak dan beri cara untuk kenal kotak itu.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej untuk pengawal|5|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej untuk pengawal|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej untuk pengawal|6|0": {
+      "source_text": "Label koyak. Cari cara lain untuk semak pemilik.",
+      "target_spans": [
+        "Label koyak."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Mesej untuk pengawal|6|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Mesej untuk pengawal|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej untuk pengawal|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Susun giliran di kaunter|3|0": {
+      "source_text": "A   Boleh tukar giliran esok? Saya kena pergi ke kampus.",
+      "target_spans": [
+        "Boleh tukar giliran esok? Saya kena pergi ke kampus."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|3|1": {
+      "source_text": "B   Pukul berapa awak mesti sampai?",
+      "target_spans": [
+        "Pukul berapa awak mesti sampai?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|3|2": {
+      "source_text": "A   Sebelum sebelas. Giliran saya pukul sepuluh.",
+      "target_spans": [
+        "Sebelum sebelas. Giliran saya pukul sepuluh."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|3|3": {
+      "source_text": "B   Saya boleh ambil giliran itu, tapi saya perlukan rehat awal.",
+      "target_spans": [
+        "Saya boleh ambil giliran itu, tapi saya perlukan rehat awal."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|3|4": {
+      "source_text": "A   Kalau saya sampai balik pukul satu, cukup masa?",
+      "target_spans": [
+        "Kalau saya sampai balik pukul satu, cukup masa?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|3|5": {
+      "source_text": "B   Cukup jika bas tak lewat. Ada pilihan lain?",
+      "target_spans": [
+        "Cukup jika bas tak lewat. Ada pilihan lain?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|3|6": {
+      "source_text": "A   Saya boleh minta Mei jaga kaunter setengah jam.",
+      "target_spans": [
+        "Saya boleh minta Mei jaga kaunter setengah jam."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|3|7": {
+      "source_text": "B   Mei belum biasa guna sistem. Siapa boleh bantu dia?",
+      "target_spans": [
+        "Mei belum biasa guna sistem. Siapa boleh bantu dia?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|4|0": {
+      "source_text": "A   Saya tunjuk langkah hari ini. Awak semak selepas itu?",
+      "target_spans": [
+        "Saya tunjuk langkah hari ini. Awak semak selepas itu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|4|1": {
+      "source_text": "B   Boleh. Jadi saya mula sepuluh dan rehat satu?",
+      "target_spans": [
+        "Boleh. Jadi saya mula sepuluh dan rehat satu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|4|2": {
+      "source_text": "A   Ya. Kalau saya lambat, saya telefon sebelum dua belas.",
+      "target_spans": [
+        "Ya. Kalau saya lambat, saya telefon sebelum dua belas."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|4|3": {
+      "source_text": "B   Siapa akan beritahu penyelia?",
+      "target_spans": [
+        "Siapa akan beritahu penyelia?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|4|4": {
+      "source_text": "A   Saya hantar jadual baru. Perlu tukar giliran minggu depan juga?",
+      "target_spans": [
+        "Saya hantar jadual baru. Perlu tukar giliran minggu depan juga?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|4|5": {
+      "source_text": "B   Tak perlu. Minggu ini saja.",
+      "target_spans": [
+        "Tak perlu. Minggu ini saja."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|4|6": {
+      "source_text": "A   Baik, saya tulis tarikh supaya jelas.",
+      "target_spans": [
+        "Baik, saya tulis tarikh supaya jelas."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|4|7": {
+      "source_text": "B   Terima kasih. Saya tunggu mesej awak.",
+      "target_spans": [
+        "Terima kasih. Saya tunggu mesej awak."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|5|0": {
+      "source_text": "A   Boleh saya ambil giliran petang dan awak ambil pagi?",
+      "target_spans": [
+        "Boleh saya ambil giliran petang dan awak ambil pagi?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|5|1": {
+      "source_text": "B   Saya nak bantu, tapi saya ada kelas ____ tengah hari.",
+      "target_spans": [
+        "Saya nak bantu, tapi saya ada kelas ____ tengah hari."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|5|2": {
+      "source_text": "A   Kalau saya jaga pagi dan awak mula dua belas, sempat?",
+      "target_spans": [
+        "Kalau saya jaga pagi dan awak mula dua belas, sempat?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|5|3": {
+      "source_text": "B   Sempat. Kenapa nak tukar?",
+      "target_spans": [
+        "Sempat. Kenapa nak tukar?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|5|4": {
+      "source_text": "A   Saya perlu ambil dokumen, ____ saya kena keluar pukul satu.",
+      "target_spans": [
+        "Saya perlu ambil dokumen, ____ saya kena keluar pukul satu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|5|5": {
+      "source_text": "B   Siapa akan tutup kaunter petang?",
+      "target_spans": [
+        "Siapa akan tutup kaunter petang?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|5|6": {
+      "source_text": "A   Saya boleh datang balik pukul empat.",
+      "target_spans": [
+        "Saya boleh datang balik pukul empat."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|5|7": {
+      "source_text": "B   Kalau lewat, siapa ada kunci?",
+      "target_spans": [
+        "Kalau lewat, siapa ada kunci?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|6|0": {
+      "source_text": "A   Mei ada kunci. Saya akan telefon kalau lambat.",
+      "target_spans": [
+        "Mei ada kunci. Saya akan telefon kalau lambat."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|6|1": {
+      "source_text": "B   Baik. Beritahu penyelia ____ jadual asal masih di papan.",
+      "target_spans": [
+        "Baik. Beritahu penyelia ____ jadual asal masih di papan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|6|2": {
+      "source_text": "A   Saya hantar jadual hari ini. Awak boleh semak tarikh?",
+      "target_spans": [
+        "Saya hantar jadual hari ini. Awak boleh semak tarikh?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|6|3": {
+      "source_text": "B   Boleh. Selasa minggu ini saja, betul?",
+      "target_spans": [
+        "Boleh. Selasa minggu ini saja, betul?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|6|4": {
+      "source_text": "A   Ya. Minggu depan ikut jadual asal.",
+      "target_spans": [
+        "Ya. Minggu depan ikut jadual asal."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|6|5": {
+      "source_text": "B   Baik. Saya akan tulis masa ____ dan tamat.",
+      "target_spans": [
+        "Baik. Saya akan tulis masa ____ dan tamat."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|6|6": {
+      "source_text": "A   Terima kasih. Jumpa esok.",
+      "target_spans": [
+        "Terima kasih. Jumpa esok."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|6|7": {
+      "source_text": "B   Sama-sama.",
+      "target_spans": [
+        "Sama-sama."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|7|0": {
+      "source_text": "Bual selama 3–5 minit. Tanya soalan lanjut dan semak apa yang rakan faham.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Susun giliran di kaunter|7|1": {
+      "source_text": "Minta tukar satu giliran. Jelaskan sebab dan rancangan jika lewat.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Susun giliran di kaunter|7|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Susun giliran di kaunter|7|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Susun giliran di kaunter|8|0": {
+      "source_text": "Bual selama 3–5 minit. Tanya soalan lanjut dan semak apa yang rakan faham.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Susun giliran di kaunter|8|1": {
+      "source_text": "Boleh bantu tetapi perlukan rehat. Tanya siapa akan maklumkan perubahan.",
+      "target_spans": [
+        "Boleh bantu tetapi perlukan rehat."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|8|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Susun giliran di kaunter|8|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Susun giliran di kaunter|9|0": {
+      "source_text": "Rakan ketiga tak dapat bantu. Cari pelan baru.",
+      "target_spans": [
+        "Rakan ketiga tak dapat bantu."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter|9|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Susun giliran di kaunter|9|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Susun giliran di kaunter|9|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Sebab dan akibat|3|0": {
+      "source_text": "Saya perlu ke kampus, jadi saya minta tukar giliran. Saya lambat sebab bas rosak.",
+      "target_spans": [
+        "Saya perlu ke kampus, jadi saya minta tukar giliran. Saya lambat sebab bas rosak."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Sebab dan akibat|3|1": {
+      "source_text": "Gariskan perbezaan maksud. Terangkan pilihan anda kepada rakan.",
+      "target_spans": [],
+      "kind": "model",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Sebab dan akibat|4|0": {
+      "source_text": "Bas lambat, ____ saya telefon penyelia.",
+      "target_spans": [
+        "Bas lambat, ____ saya telefon penyelia."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Sebab dan akibat|4|1": {
+      "source_text": "Saya telefon ____ saya akan lewat.",
+      "target_spans": [
+        "Saya telefon ____ saya akan lewat."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Sebab dan akibat|4|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Sebab dan akibat|5|0": {
+      "source_text": "Terangkan satu perubahan menggunakan kedua-dua bentuk.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Sebab dan akibat|5|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Sebab dan akibat|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Sebab dan akibat|6|0": {
+      "source_text": "Rakan ketiga tak dapat bantu. Cari pelan baru.",
+      "target_spans": [
+        "Rakan ketiga tak dapat bantu."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Sebab dan akibat|6|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Sebab dan akibat|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Sebab dan akibat|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej tukar giliran|3|0": {
+      "source_text": "A   Saya ambil giliran sepuluh esok. Aki ganti saya pukul satu.",
+      "target_spans": [
+        "Saya ambil giliran sepuluh esok. Aki ganti saya pukul satu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Mesej tukar giliran|3|1": {
+      "source_text": "B   Boleh sahkan saya jaga kaunter esok dari sepuluh hingga satu?",
+      "target_spans": [
+        "Boleh sahkan saya jaga kaunter esok dari sepuluh hingga satu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Mesej tukar giliran|3|2": {
+      "source_text": "C   Kami dah tukar macam biasa.",
+      "target_spans": [
+        "Kami dah tukar macam biasa."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Mesej tukar giliran|3|3": {
+      "source_text": "Bandingkan tiga versi. Untuk siapa? Gariskan tindakan yang boleh diambil oleh pembaca.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej tukar giliran|4|0": {
+      "source_text": "Baiki C dengan nama, masa dan tarikh.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej tukar giliran|4|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej tukar giliran|4|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej tukar giliran|5|0": {
+      "source_text": "Maklumkan perubahan kepada penyelia dan minta pengesahan.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej tukar giliran|5|1": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej tukar giliran|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej tukar giliran|6|0": {
+      "source_text": "Rakan ketiga tak dapat bantu. Cari pelan baru.",
+      "target_spans": [
+        "Rakan ketiga tak dapat bantu."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Mesej tukar giliran|6|1": {
+      "source_text": "Tutup contoh. Beri mesej anda kepada rakan. Tanya apa yang dia akan buat. Jika kurang jelas, ubah satu butiran.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "Malay rubric"
+    },
+    "Mesej tukar giliran|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Mesej tukar giliran|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Greetings · Learner pack|3|0": {
+      "source_text": "pagi = morning; 朝",
+      "target_spans": [
+        "pagi"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Greetings · Learner pack|3|1": {
+      "source_text": "petang = late afternoon; 夕方",
+      "target_spans": [
+        "petang"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Greetings · Learner pack|3|2": {
+      "source_text": "malam = night; 夜",
+      "target_spans": [
+        "malam"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Greetings · Learner pack|3|3": {
+      "source_text": "terima kasih = thank you; ありがとう",
+      "target_spans": [
+        "terima kasih"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Greetings · Learner pack|3|4": {
+      "source_text": "jumpa lagi = see you again; またね",
+      "target_spans": [
+        "jumpa lagi"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Greetings · Learner pack|4|0": {
+      "source_text": "A   Selamat pagi. Apa khabar?",
+      "target_spans": [
+        "Selamat pagi. Apa khabar?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Greetings · Learner pack|4|1": {
+      "source_text": "B   Khabar baik. Awak pula?",
+      "target_spans": [
+        "Khabar baik. Awak pula?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Greetings · Learner pack|4|2": {
+      "source_text": "A   Saya pun baik. Terima kasih.",
+      "target_spans": [
+        "Saya pun baik. Terima kasih."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Greetings · Learner pack|4|3": {
+      "source_text": "B   Sama-sama. Jumpa lagi.",
+      "target_spans": [
+        "Sama-sama. Jumpa lagi."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Greetings · Learner pack|5|0": {
+      "source_text": "Selamat ____! (8 am)",
+      "target_spans": [
+        "Selamat ____!"
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Greetings · Learner pack|5|1": {
+      "source_text": "Jumpa ____! (leaving)",
+      "target_spans": [
+        "Jumpa ____!"
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Greetings · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Greetings · Learner pack|6|0": {
+      "source_text": "Meet a neighbour at 8 am. Change roles and meet again after dark.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Greetings · Learner pack|6|1": {
+      "source_text": "Can your partner identify the time from your greeting?",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Greetings · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Greetings · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Introductions · Learner pack|3|0": {
+      "source_text": "nama = name; 名前",
+      "target_spans": [
+        "nama"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Introductions · Learner pack|3|1": {
+      "source_text": "saya = I; 私",
+      "target_spans": [
+        "saya"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Introductions · Learner pack|3|2": {
+      "source_text": "dari = from; 〜から",
+      "target_spans": [
+        "dari"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Introductions · Learner pack|3|3": {
+      "source_text": "tinggal = live; 住む",
+      "target_spans": [
+        "tinggal"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Introductions · Learner pack|3|4": {
+      "source_text": "kerja = work; 働く",
+      "target_spans": [
+        "kerja"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Introductions · Learner pack|4|0": {
+      "source_text": "A   Nama saya Emi. Siapa nama awak?",
+      "target_spans": [
+        "Nama saya Emi. Siapa nama awak?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Introductions · Learner pack|4|1": {
+      "source_text": "B   Saya Farah. Emi dari mana?",
+      "target_spans": [
+        "Saya Farah. Emi dari mana?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Introductions · Learner pack|4|2": {
+      "source_text": "A   Saya dari Jepun. Sekarang saya tinggal di PJ.",
+      "target_spans": [
+        "Saya dari Jepun. Sekarang saya tinggal di PJ."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Introductions · Learner pack|4|3": {
+      "source_text": "B   Oh, saya pun tinggal di PJ!",
+      "target_spans": [
+        "Oh, saya pun tinggal di PJ!"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Introductions · Learner pack|5|0": {
+      "source_text": "Saya ____ Osaka. (origin)",
+      "target_spans": [
+        "Saya ____ Osaka."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Introductions · Learner pack|5|1": {
+      "source_text": "Saya tinggal ____ Shah Alam.",
+      "target_spans": [
+        "Saya tinggal ____ Shah Alam."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Introductions · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Introductions · Learner pack|6|0": {
+      "source_text": "Introduce yourself to a new classmate. Find one thing you share.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Introductions · Learner pack|6|1": {
+      "source_text": "Introduce your partner using the facts they actually gave.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Introductions · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Introductions · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Counting and quantities · Learner pack|3|0": {
+      "source_text": "satu, dua, tiga = 1–3; 一〜三",
+      "target_spans": [
+        "satu, dua, tiga"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Counting and quantities · Learner pack|3|1": {
+      "source_text": "empat, lima, enam = 4–6; 四〜六",
+      "target_spans": [
+        "empat, lima, enam"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Counting and quantities · Learner pack|3|2": {
+      "source_text": "tujuh, lapan, sembilan = 7–9; 七〜九",
+      "target_spans": [
+        "tujuh, lapan, sembilan"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Counting and quantities · Learner pack|3|3": {
+      "source_text": "sepuluh, sebelas = 10, 11; 十、十一",
+      "target_spans": [
+        "sepuluh, sebelas"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Counting and quantities · Learner pack|3|4": {
+      "source_text": "dua belas / dua puluh = 12 / 20; 十二／二十",
+      "target_spans": [
+        "dua belas / dua puluh"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Counting and quantities · Learner pack|4|0": {
+      "source_text": "A   Nak berapa tiket?",
+      "target_spans": [
+        "Nak berapa tiket?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Counting and quantities · Learner pack|4|1": {
+      "source_text": "B   Dua belas tiket.",
+      "target_spans": [
+        "Dua belas tiket."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Counting and quantities · Learner pack|4|2": {
+      "source_text": "A   Dua puluh?",
+      "target_spans": [
+        "Dua puluh?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Counting and quantities · Learner pack|4|3": {
+      "source_text": "B   Bukan, dua belas saja.",
+      "target_spans": [
+        "Bukan, dua belas saja."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Counting and quantities · Learner pack|5|0": {
+      "source_text": "12 = dua ____",
+      "target_spans": [
+        "dua ____"
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Counting and quantities · Learner pack|5|1": {
+      "source_text": "20 = dua ____",
+      "target_spans": [
+        "dua ____"
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Counting and quantities · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Counting and quantities · Learner pack|6|0": {
+      "source_text": "Secretly write three quantities. Order each one and compare the listener’s record.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Counting and quantities · Learner pack|6|1": {
+      "source_text": "Repeat once with 13 and 30.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Counting and quantities · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Counting and quantities · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ringgit and sen · Learner pack|3|0": {
+      "source_text": "harga = price; 値段",
+      "target_spans": [
+        "harga"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Ringgit and sen · Learner pack|3|1": {
+      "source_text": "ringgit = リンギット",
+      "target_spans": [
+        "ringgit"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Ringgit and sen · Learner pack|3|2": {
+      "source_text": "sen = セン",
+      "target_spans": [
+        "sen"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Ringgit and sen · Learner pack|3|3": {
+      "source_text": "baki = change; お釣り",
+      "target_spans": [
+        "baki"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Ringgit and sen · Learner pack|3|4": {
+      "source_text": "tunai = cash; 現金",
+      "target_spans": [
+        "tunai"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Ringgit and sen · Learner pack|4|0": {
+      "source_text": "A   Air ini berapa?",
+      "target_spans": [
+        "Air ini berapa?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ringgit and sen · Learner pack|4|1": {
+      "source_text": "B   Tiga ringgit lima puluh sen.",
+      "target_spans": [
+        "Tiga ringgit lima puluh sen."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ringgit and sen · Learner pack|4|2": {
+      "source_text": "A   Ini lima ringgit. Baki berapa?",
+      "target_spans": [
+        "Ini lima ringgit. Baki berapa?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ringgit and sen · Learner pack|4|3": {
+      "source_text": "B   Satu ringgit lima puluh sen.",
+      "target_spans": [
+        "Satu ringgit lima puluh sen."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ringgit and sen · Learner pack|5|0": {
+      "source_text": "RM2.20 = dua ringgit dua puluh ____.",
+      "target_spans": [
+        "dua ringgit dua puluh ____."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Ringgit and sen · Learner pack|5|1": {
+      "source_text": "RM5 less RM2.20 = RM____.",
+      "target_spans": [
+        "RM____."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Ringgit and sen · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ringgit and sen · Learner pack|6|0": {
+      "source_text": "Price three classroom objects. Buy two separately and check each amount.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ringgit and sen · Learner pack|6|1": {
+      "source_text": "The seller changes one price. Check the new total aloud.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ringgit and sen · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ringgit and sen · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Order and floors · Learner pack|3|0": {
+      "source_text": "pertama = first; 最初",
+      "target_spans": [
+        "pertama"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Order and floors · Learner pack|3|1": {
+      "source_text": "kedua = second; 二番目",
+      "target_spans": [
+        "kedua"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Order and floors · Learner pack|3|2": {
+      "source_text": "ketiga = third; 三番目",
+      "target_spans": [
+        "ketiga"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Order and floors · Learner pack|3|3": {
+      "source_text": "keempat = fourth; 四番目",
+      "target_spans": [
+        "keempat"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Order and floors · Learner pack|3|4": {
+      "source_text": "tingkat = floor; 階",
+      "target_spans": [
+        "tingkat"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Order and floors · Learner pack|4|0": {
+      "source_text": "A   Ada berapa pintu?",
+      "target_spans": [
+        "Ada berapa pintu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Order and floors · Learner pack|4|1": {
+      "source_text": "B   Ada tiga. Guna pintu kedua.",
+      "target_spans": [
+        "Ada tiga. Guna pintu kedua."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Order and floors · Learner pack|4|2": {
+      "source_text": "A   Yang ini pintu pertama?",
+      "target_spans": [
+        "Yang ini pintu pertama?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Order and floors · Learner pack|4|3": {
+      "source_text": "B   Ya. Pintu selepas itu pintu kedua.",
+      "target_spans": [
+        "Ya. Pintu selepas itu pintu kedua."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Order and floors · Learner pack|5|0": {
+      "source_text": "Pintu nombor satu ialah pintu ____.",
+      "target_spans": [
+        "Pintu nombor satu ialah pintu ____."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Order and floors · Learner pack|5|1": {
+      "source_text": "Pintu selepas pintu kedua ialah pintu ____.",
+      "target_spans": [
+        "Pintu selepas pintu kedua ialah pintu ____."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Order and floors · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Order and floors · Learner pack|6|0": {
+      "source_text": "Sketch four doors. Guide a partner to one without pointing.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Order and floors · Learner pack|6|1": {
+      "source_text": "Ask how many doors there are, then which door to use.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Order and floors · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Order and floors · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Clock time · Learner pack|3|0": {
+      "source_text": "pukul = o’clock; 時",
+      "target_spans": [
+        "pukul"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Clock time · Learner pack|3|1": {
+      "source_text": "setengah = half; 半分",
+      "target_spans": [
+        "setengah"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Clock time · Learner pack|3|2": {
+      "source_text": "pagi = morning; 午前",
+      "target_spans": [
+        "pagi"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Clock time · Learner pack|3|3": {
+      "source_text": "tengah hari = midday; 正午",
+      "target_spans": [
+        "tengah hari"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Clock time · Learner pack|3|4": {
+      "source_text": "petang = afternoon; 午後",
+      "target_spans": [
+        "petang"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Clock time · Learner pack|4|0": {
+      "source_text": "A   Kita jumpa pukul berapa?",
+      "target_spans": [
+        "Kita jumpa pukul berapa?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Clock time · Learner pack|4|1": {
+      "source_text": "B   Pukul tiga setengah.",
+      "target_spans": [
+        "Pukul tiga setengah."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Clock time · Learner pack|4|2": {
+      "source_text": "A   Pagi atau petang?",
+      "target_spans": [
+        "Pagi atau petang?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Clock time · Learner pack|4|3": {
+      "source_text": "B   Petang, selepas kelas.",
+      "target_spans": [
+        "Petang, selepas kelas."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Clock time · Learner pack|5|0": {
+      "source_text": "3.30 pm = pukul tiga ____ petang.",
+      "target_spans": [
+        "pukul tiga ____ petang."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Clock time · Learner pack|5|1": {
+      "source_text": "9 am = pukul sembilan ____.",
+      "target_spans": [
+        "pukul sembilan ____."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Clock time · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Clock time · Learner pack|6|0": {
+      "source_text": "Offer two meeting times. Reject one, then confirm the other.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Clock time · Learner pack|6|1": {
+      "source_text": "Each person writes the agreed time independently.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Clock time · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Clock time · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Dates and days · Learner pack|3|0": {
+      "source_text": "hari ini = today; 今日",
+      "target_spans": [
+        "hari ini"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Dates and days · Learner pack|3|1": {
+      "source_text": "esok = tomorrow; 明日",
+      "target_spans": [
+        "esok"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Dates and days · Learner pack|3|2": {
+      "source_text": "Isnin, Selasa, Rabu = Mon–Wed; 月〜水",
+      "target_spans": [
+        "Isnin, Selasa, Rabu"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Dates and days · Learner pack|3|3": {
+      "source_text": "Khamis, Jumaat = Thu–Fri; 木、金",
+      "target_spans": [
+        "Khamis, Jumaat"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Dates and days · Learner pack|3|4": {
+      "source_text": "Sabtu, Ahad = Sat–Sun; 土、日",
+      "target_spans": [
+        "Sabtu, Ahad"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Dates and days · Learner pack|4|0": {
+      "source_text": "A   Kelas hari apa?",
+      "target_spans": [
+        "Kelas hari apa?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Dates and days · Learner pack|4|1": {
+      "source_text": "B   Hari Rabu.",
+      "target_spans": [
+        "Hari Rabu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Dates and days · Learner pack|4|2": {
+      "source_text": "A   Berapa hari bulan?",
+      "target_spans": [
+        "Berapa hari bulan?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Dates and days · Learner pack|4|3": {
+      "source_text": "B   Dua belas Mei, pukul sepuluh pagi.",
+      "target_spans": [
+        "Dua belas Mei, pukul sepuluh pagi."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Dates and days · Learner pack|5|0": {
+      "source_text": "Hari selepas Isnin ialah ____.",
+      "target_spans": [
+        "Hari selepas Isnin ialah ____."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Dates and days · Learner pack|5|1": {
+      "source_text": "12 Mei = ____ belas Mei.",
+      "target_spans": [
+        "____ belas Mei."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Dates and days · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Dates and days · Learner pack|6|0": {
+      "source_text": "Use a real calendar. Pick a date and time, then move the booking by one week.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Dates and days · Learner pack|6|1": {
+      "source_text": "Point to the date you heard before comparing calendars.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Dates and days · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Dates and days · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Frequency and routines · Learner pack|3|0": {
+      "source_text": "selalu = often; よく",
+      "target_spans": [
+        "selalu"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Frequency and routines · Learner pack|3|1": {
+      "source_text": "kadang-kadang = sometimes; 時々",
+      "target_spans": [
+        "kadang-kadang"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Frequency and routines · Learner pack|3|2": {
+      "source_text": "jarang = rarely; めったに〜ない",
+      "target_spans": [
+        "jarang"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Frequency and routines · Learner pack|3|3": {
+      "source_text": "setiap = every; 毎〜",
+      "target_spans": [
+        "setiap"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Frequency and routines · Learner pack|3|4": {
+      "source_text": "dua kali seminggu = twice a week; 週二回",
+      "target_spans": [
+        "dua kali seminggu"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Frequency and routines · Learner pack|4|0": {
+      "source_text": "A   Selalu pergi pasar?",
+      "target_spans": [
+        "Selalu pergi pasar?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Frequency and routines · Learner pack|4|1": {
+      "source_text": "B   Tak selalu. Dua kali seminggu saja.",
+      "target_spans": [
+        "Tak selalu. Dua kali seminggu saja."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Frequency and routines · Learner pack|4|2": {
+      "source_text": "A   Hari apa biasanya?",
+      "target_spans": [
+        "Hari apa biasanya?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Frequency and routines · Learner pack|4|3": {
+      "source_text": "B   Selasa dan Jumaat pagi.",
+      "target_spans": [
+        "Selasa dan Jumaat pagi."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Frequency and routines · Learner pack|5|0": {
+      "source_text": "Dua ____ seminggu. (twice)",
+      "target_spans": [
+        "Dua ____ seminggu."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Frequency and routines · Learner pack|5|1": {
+      "source_text": "____ hari. (every day)",
+      "target_spans": [
+        "____ hari."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Frequency and routines · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Frequency and routines · Learner pack|6|0": {
+      "source_text": "Compare two weekly routines. Choose one day to visit the market together.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Frequency and routines · Learner pack|6|1": {
+      "source_text": "Change one regular activity and agree a new time.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Frequency and routines · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Frequency and routines · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Taste and colour · Learner pack|3|0": {
+      "source_text": "manis / masam = sweet / sour; 甘い／酸っぱい",
+      "target_spans": [
+        "manis / masam"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Taste and colour · Learner pack|3|1": {
+      "source_text": "pedas = spicy; 辛い",
+      "target_spans": [
+        "pedas"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Taste and colour · Learner pack|3|2": {
+      "source_text": "tawar = bland or lacking flavour; 味が薄い",
+      "target_spans": [
+        "tawar"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Taste and colour · Learner pack|3|3": {
+      "source_text": "sedap = delicious; おいしい",
+      "target_spans": [
+        "sedap"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Taste and colour · Learner pack|3|4": {
+      "source_text": "merah / biru = red / blue; 赤／青",
+      "target_spans": [
+        "merah / biru"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Taste and colour · Learner pack|4|0": {
+      "source_text": "A   Nak sos yang mana?",
+      "target_spans": [
+        "Nak sos yang mana?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Taste and colour · Learner pack|4|1": {
+      "source_text": "B   Yang merah itu pedas tak?",
+      "target_spans": [
+        "Yang merah itu pedas tak?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Taste and colour · Learner pack|4|2": {
+      "source_text": "A   Pedas sikit. Yang ini manis.",
+      "target_spans": [
+        "Pedas sikit. Yang ini manis."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Taste and colour · Learner pack|4|3": {
+      "source_text": "B   Kalau begitu, saya nak yang manis.",
+      "target_spans": [
+        "Kalau begitu, saya nak yang manis."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Taste and colour · Learner pack|5|0": {
+      "source_text": "Sour = ____.",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Taste and colour · Learner pack|5|1": {
+      "source_text": "Plain water = air ____.",
+      "target_spans": [
+        "air ____."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Taste and colour · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Taste and colour · Learner pack|6|0": {
+      "source_text": "Invent three drinks with different tastes and labels. Choose one for a partner who dislikes sweet drinks.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Taste and colour · Learner pack|6|1": {
+      "source_text": "Describe the chosen drink without naming its colour.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Taste and colour · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Taste and colour · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Size and shape · Learner pack|3|0": {
+      "source_text": "besar / kecil = big / small; 大／小",
+      "target_spans": [
+        "besar / kecil"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Size and shape · Learner pack|3|1": {
+      "source_text": "panjang / pendek = long / short; 長い／短い",
+      "target_spans": [
+        "panjang / pendek"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Size and shape · Learner pack|3|2": {
+      "source_text": "tinggi / rendah = tall or high / low; 高い／低い",
+      "target_spans": [
+        "tinggi / rendah"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Size and shape · Learner pack|3|3": {
+      "source_text": "tebal / nipis = thick / thin; 厚い／薄い",
+      "target_spans": [
+        "tebal / nipis"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Size and shape · Learner pack|3|4": {
+      "source_text": "lebar / sempit = wide / narrow; 広い／狭い",
+      "target_spans": [
+        "lebar / sempit"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Size and shape · Learner pack|4|0": {
+      "source_text": "A   Nak buku yang mana?",
+      "target_spans": [
+        "Nak buku yang mana?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Size and shape · Learner pack|4|1": {
+      "source_text": "B   Buku biru yang nipis.",
+      "target_spans": [
+        "Buku biru yang nipis."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Size and shape · Learner pack|4|2": {
+      "source_text": "A   Yang di atas rak tinggi itu?",
+      "target_spans": [
+        "Yang di atas rak tinggi itu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Size and shape · Learner pack|4|3": {
+      "source_text": "B   Ya, bukan buku tebal di bawah.",
+      "target_spans": [
+        "Ya, bukan buku tebal di bawah."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Size and shape · Learner pack|5|0": {
+      "source_text": "A thick book = buku ____.",
+      "target_spans": [
+        "buku ____."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Size and shape · Learner pack|5|1": {
+      "source_text": "A short rope = tali ____.",
+      "target_spans": [
+        "tali ____."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Size and shape · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Size and shape · Learner pack|6|0": {
+      "source_text": "Draw three objects with two features each. Describe one until your partner identifies it.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Size and shape · Learner pack|6|1": {
+      "source_text": "Exchange drawings and use a different pair of features.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Size and shape · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Size and shape · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Comparisons and superlatives · Learner pack|3|0": {
+      "source_text": "lebih = more; より",
+      "target_spans": [
+        "lebih"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Comparisons and superlatives · Learner pack|3|1": {
+      "source_text": "daripada = than; 〜より",
+      "target_spans": [
+        "daripada"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Comparisons and superlatives · Learner pack|3|2": {
+      "source_text": "paling = most; 一番",
+      "target_spans": [
+        "paling"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Comparisons and superlatives · Learner pack|3|3": {
+      "source_text": "kelakar = funny; 面白くて笑える",
+      "target_spans": [
+        "kelakar"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Comparisons and superlatives · Learner pack|3|4": {
+      "source_text": "murah / mahal = cheap / expensive; 安い／高い",
+      "target_spans": [
+        "murah / mahal"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Comparisons and superlatives · Learner pack|4|0": {
+      "source_text": "A   Buku A lebih murah daripada buku B?",
+      "target_spans": [
+        "Buku A lebih murah daripada buku B?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Comparisons and superlatives · Learner pack|4|1": {
+      "source_text": "B   Ya. Tapi buku B lebih kelakar.",
+      "target_spans": [
+        "Ya. Tapi buku B lebih kelakar."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Comparisons and superlatives · Learner pack|4|2": {
+      "source_text": "A   Antara tiga buku ini, yang mana paling kelakar?",
+      "target_spans": [
+        "Antara tiga buku ini, yang mana paling kelakar?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Comparisons and superlatives · Learner pack|4|3": {
+      "source_text": "B   Bagi saya, buku C. Ceritanya memang lucu.",
+      "target_spans": [
+        "Bagi saya, buku C. Ceritanya memang lucu."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Comparisons and superlatives · Learner pack|5|0": {
+      "source_text": "B lebih panjang ____ A.",
+      "target_spans": [
+        "B lebih panjang ____ A."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Comparisons and superlatives · Learner pack|5|1": {
+      "source_text": "Among three: C yang ____ panjang.",
+      "target_spans": [
+        "C yang ____ panjang."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Comparisons and superlatives · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Comparisons and superlatives · Learner pack|6|0": {
+      "source_text": "Compare three books using price, length and humour. Recommend one within a budget.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Comparisons and superlatives · Learner pack|6|1": {
+      "source_text": "Change the buyer’s priority. Explain whether your recommendation changes.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Comparisons and superlatives · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Comparisons and superlatives · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Asking where · Learner pack|3|0": {
+      "source_text": "di mana = where; どこ",
+      "target_spans": [
+        "di mana"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Asking where · Learner pack|3|1": {
+      "source_text": "dekat = near; 近い",
+      "target_spans": [
+        "dekat"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Asking where · Learner pack|3|2": {
+      "source_text": "jauh = far; 遠い",
+      "target_spans": [
+        "jauh"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Asking where · Learner pack|3|3": {
+      "source_text": "sini = here; ここ",
+      "target_spans": [
+        "sini"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Asking where · Learner pack|3|4": {
+      "source_text": "sana = there; あそこ",
+      "target_spans": [
+        "sana"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Asking where · Learner pack|4|0": {
+      "source_text": "A   Maaf, bank di mana?",
+      "target_spans": [
+        "Maaf, bank di mana?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Asking where · Learner pack|4|1": {
+      "source_text": "B   Dekat stesen.",
+      "target_spans": [
+        "Dekat stesen."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Asking where · Learner pack|4|2": {
+      "source_text": "A   Jauh dari sini?",
+      "target_spans": [
+        "Jauh dari sini?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Asking where · Learner pack|4|3": {
+      "source_text": "B   Tak jauh. Saya pun nak pergi ke sana.",
+      "target_spans": [
+        "Tak jauh. Saya pun nak pergi ke sana."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Asking where · Learner pack|5|0": {
+      "source_text": "Saya sekarang ____ kedai.",
+      "target_spans": [
+        "Saya sekarang ____ kedai."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Asking where · Learner pack|5|1": {
+      "source_text": "Saya nak pergi ____ bank.",
+      "target_spans": [
+        "Saya nak pergi ____ bank."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Asking where · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Asking where · Learner pack|6|0": {
+      "source_text": "Choose a place on a sketch map. Ask where it is and how far away it is.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Asking where · Learner pack|6|1": {
+      "source_text": "Your partner marks your starting point and destination.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Asking where · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Asking where · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Directions and orientation · Learner pack|3|0": {
+      "source_text": "kiri / kanan = left / right; 左／右",
+      "target_spans": [
+        "kiri / kanan"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Directions and orientation · Learner pack|3|1": {
+      "source_text": "atas / bawah = above / below; 上／下",
+      "target_spans": [
+        "atas / bawah"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Directions and orientation · Learner pack|3|2": {
+      "source_text": "depan / belakang = front / back; 前／後",
+      "target_spans": [
+        "depan / belakang"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Directions and orientation · Learner pack|3|3": {
+      "source_text": "seberang / lintas = opposite side / cross; 向こう側／渡る",
+      "target_spans": [
+        "seberang / lintas"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Directions and orientation · Learner pack|3|4": {
+      "source_text": "utara / selatan / timur / barat = north / south / east / west; 北／南／東／西",
+      "target_spans": [
+        "utara / selatan / timur / barat"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Directions and orientation · Learner pack|4|0": {
+      "source_text": "A   Bank di sebelah kanan?",
+      "target_spans": [
+        "Bank di sebelah kanan?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Directions and orientation · Learner pack|4|1": {
+      "source_text": "B   Ya, di seberang jalan.",
+      "target_spans": [
+        "Ya, di seberang jalan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Directions and orientation · Learner pack|4|2": {
+      "source_text": "A   Saya lintas di sini?",
+      "target_spans": [
+        "Saya lintas di sini?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Directions and orientation · Learner pack|4|3": {
+      "source_text": "B   Guna lintasan di depan stesen. Lepas itu belok kiri.",
+      "target_spans": [
+        "Guna lintasan di depan stesen. Lepas itu belok kiri."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Directions and orientation · Learner pack|5|0": {
+      "source_text": "Turn right = belok ____.",
+      "target_spans": [
+        "belok ____."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Directions and orientation · Learner pack|5|1": {
+      "source_text": "Opposite side of the road = di ____ jalan.",
+      "target_spans": [
+        "di ____ jalan."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Directions and orientation · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Directions and orientation · Learner pack|6|0": {
+      "source_text": "Draw a station, a bank across the road and a crossing to the east. Give a route without showing your map.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Directions and orientation · Learner pack|6|1": {
+      "source_text": "Rotate the paper and distinguish right from east.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Directions and orientation · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Directions and orientation · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Beli buah di pasar · Learner pack|3|0": {
+      "source_text": "epal · apple / りんご",
+      "target_spans": [
+        "epal"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Beli buah di pasar · Learner pack|3|1": {
+      "source_text": "sebiji · one item / 一個",
+      "target_spans": [
+        "sebiji"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Beli buah di pasar · Learner pack|3|2": {
+      "source_text": "harga · price / 値段",
+      "target_spans": [
+        "harga"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Beli buah di pasar · Learner pack|3|3": {
+      "source_text": "baki · change / お釣り",
+      "target_spans": [
+        "baki"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Beli buah di pasar · Learner pack|4|0": {
+      "source_text": "A   Nak buah apa?",
+      "target_spans": [
+        "Nak buah apa?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar · Learner pack|4|1": {
+      "source_text": "B   Nak epal. Epal merah ada?",
+      "target_spans": [
+        "Nak epal. Epal merah ada?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar · Learner pack|4|2": {
+      "source_text": "A   Ada. Nak berapa biji?",
+      "target_spans": [
+        "Ada. Nak berapa biji?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar · Learner pack|4|3": {
+      "source_text": "B   Dua biji. Berapa harga satu?",
+      "target_spans": [
+        "Dua biji. Berapa harga satu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Beli buah di pasar · Learner pack|5|0": {
+      "source_text": "Saya nak dua ____ epal.",
+      "target_spans": [
+        "Saya nak dua ____ epal."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Beli buah di pasar · Learner pack|5|1": {
+      "source_text": "____ harga satu?",
+      "target_spans": [
+        "____ harga satu?"
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Beli buah di pasar · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Beli buah di pasar · Learner pack|6|0": {
+      "source_text": "Anda jual epal RM2 sebiji dan pisang RM3 setandan. Tanya jumlah dan cara bayar.",
+      "target_spans": [
+        "Anda jual epal RM2 sebiji dan pisang RM3 setandan."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Beli buah di pasar · Learner pack|6|1": {
+      "source_text": "Epal merah tinggal satu. Pilih buah lain dalam bajet.",
+      "target_spans": [
+        "Epal merah tinggal satu."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Beli buah di pasar · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Beli buah di pasar · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ambil bungkusan di lobi · Learner pack|3|0": {
+      "source_text": "bungkusan · parcel / 小包",
+      "target_spans": [
+        "bungkusan"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi · Learner pack|3|1": {
+      "source_text": "unit · apartment unit / 住戸",
+      "target_spans": [
+        "unit"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi · Learner pack|3|2": {
+      "source_text": "dah sampai · has arrived / 届いた",
+      "target_spans": [
+        "dah sampai"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi · Learner pack|4|0": {
+      "source_text": "A   Saya nak ambil bungkusan. Dah sampai?",
+      "target_spans": [
+        "Saya nak ambil bungkusan. Dah sampai?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi · Learner pack|4|1": {
+      "source_text": "B   Nama siapa? Ada nombor unit?",
+      "target_spans": [
+        "Nama siapa? Ada nombor unit?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi · Learner pack|4|2": {
+      "source_text": "A   Unit B-12. Nama saya Aki.",
+      "target_spans": [
+        "Unit B-12. Nama saya Aki."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi · Learner pack|4|3": {
+      "source_text": "B   Ada dua kotak. Yang mana satu?",
+      "target_spans": [
+        "Ada dua kotak. Yang mana satu?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi · Learner pack|5|0": {
+      "source_text": "Kotak masih dalam van. Kotak ____ sampai.",
+      "target_spans": [
+        "Kotak masih dalam van. Kotak ____ sampai."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi · Learner pack|5|1": {
+      "source_text": "Ini kotaknya. Kotak ____ sampai.",
+      "target_spans": [
+        "Ini kotaknya. Kotak ____ sampai."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ambil bungkusan di lobi · Learner pack|6|0": {
+      "source_text": "Cari kotak kecil untuk unit C-3. Anda ada mesej dari kedai.",
+      "target_spans": [
+        "Anda ada mesej dari kedai."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi · Learner pack|6|1": {
+      "source_text": "Label koyak. Cari cara lain untuk semak pemilik.",
+      "target_spans": [
+        "Label koyak."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Ambil bungkusan di lobi · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Ambil bungkusan di lobi · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Susun giliran di kaunter · Learner pack|3|0": {
+      "source_text": "giliran · turn or shift / 当番",
+      "target_spans": [
+        "giliran"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter · Learner pack|3|1": {
+      "source_text": "ganti · replace / 代わる",
+      "target_spans": [
+        "ganti"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter · Learner pack|3|2": {
+      "source_text": "penyelia · supervisor / 監督者",
+      "target_spans": [
+        "penyelia"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter · Learner pack|4|0": {
+      "source_text": "A   Boleh tukar giliran esok? Saya kena pergi ke kampus.",
+      "target_spans": [
+        "Boleh tukar giliran esok? Saya kena pergi ke kampus."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter · Learner pack|4|1": {
+      "source_text": "B   Pukul berapa awak mesti sampai?",
+      "target_spans": [
+        "Pukul berapa awak mesti sampai?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter · Learner pack|4|2": {
+      "source_text": "A   Sebelum sebelas. Giliran saya pukul sepuluh.",
+      "target_spans": [
+        "Sebelum sebelas. Giliran saya pukul sepuluh."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter · Learner pack|4|3": {
+      "source_text": "B   Saya boleh ambil giliran itu, tapi saya perlukan rehat awal.",
+      "target_spans": [
+        "Saya boleh ambil giliran itu, tapi saya perlukan rehat awal."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter · Learner pack|5|0": {
+      "source_text": "Bas lambat, ____ saya telefon penyelia.",
+      "target_spans": [
+        "Bas lambat, ____ saya telefon penyelia."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter · Learner pack|5|1": {
+      "source_text": "Saya telefon ____ saya akan lewat.",
+      "target_spans": [
+        "Saya telefon ____ saya akan lewat."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Susun giliran di kaunter · Learner pack|6|0": {
+      "source_text": "Minta tukar satu giliran. Jelaskan sebab dan rancangan jika lewat.",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Susun giliran di kaunter · Learner pack|6|1": {
+      "source_text": "Rakan ketiga tak dapat bantu. Cari pelan baru.",
+      "target_spans": [
+        "Rakan ketiga tak dapat bantu."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Susun giliran di kaunter · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Susun giliran di kaunter · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Runding masa kerja pembaikan · Learner pack|3|0": {
+      "source_text": "bekalan · supply / 供給",
+      "target_spans": [
+        "bekalan"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan · Learner pack|3|1": {
+      "source_text": "anggaran · estimate / 見込み",
+      "target_spans": [
+        "anggaran"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan · Learner pack|3|2": {
+      "source_text": "agihan · distribution / 配分",
+      "target_spans": [
+        "agihan"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan · Learner pack|4|0": {
+      "source_text": "A   Penduduk blok A dapat notis semalam. Kenapa air perlu ditutup waktu pagi?",
+      "target_spans": [
+        "Penduduk blok A dapat notis semalam. Kenapa air perlu ditutup waktu pagi?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan · Learner pack|4|1": {
+      "source_text": "B   Paip utama bocor. Kontraktor hanya boleh mula pukul sembilan.",
+      "target_spans": [
+        "Paip utama bocor. Kontraktor hanya boleh mula pukul sembilan."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan · Learner pack|4|2": {
+      "source_text": "A   Ramai orang keluar kerja awal. Berapa lama air akan ditutup?",
+      "target_spans": [
+        "Ramai orang keluar kerja awal. Berapa lama air akan ditutup?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan · Learner pack|4|3": {
+      "source_text": "B   Anggarannya dua jam. Kalau ada kerosakan lain, mungkin lebih lama.",
+      "target_spans": [
+        "Anggarannya dua jam. Kalau ada kerosakan lain, mungkin lebih lama."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan · Learner pack|5|0": {
+      "source_text": "Kami boleh hantar air ____ ada orang di rumah.",
+      "target_spans": [
+        "Kami boleh hantar air ____ ada orang di rumah."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan · Learner pack|5|1": {
+      "source_text": "____ lori tiba awal, tangki belum boleh diisi.",
+      "target_spans": [
+        "____ lori tiba awal, tangki belum boleh diisi."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Runding masa kerja pembaikan · Learner pack|6|0": {
+      "source_text": "Anda wakil penduduk. Tiga keluarga perlukan air sebelum pukul lapan. Tanya tentang tempoh, lokasi air dan bantuan ke rumah.",
+      "target_spans": [
+        "Anda wakil penduduk.",
+        "Tiga keluarga perlukan air sebelum pukul lapan."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan · Learner pack|6|1": {
+      "source_text": "Lobi perlu dikosongkan untuk penghantaran. Pilih lokasi lain dan sampaikan perubahan kepada seorang penduduk.",
+      "target_spans": [
+        "Lobi perlu dikosongkan untuk penghantaran."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Runding masa kerja pembaikan · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Runding masa kerja pembaikan · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|3|0": {
+      "source_text": "dapatan · findings / 調査結果",
+      "target_spans": [
+        "dapatan"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|3|1": {
+      "source_text": "peruntukan · allocation / 予算枠",
+      "target_spans": [
+        "peruntukan"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|3|2": {
+      "source_text": "tertakluk pada · subject to / 〜を条件に",
+      "target_spans": [
+        "tertakluk pada"
+      ],
+      "kind": "vocabulary",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|4|0": {
+      "source_text": "A   Draf menyebut perkhidmatan bas malam gagal memenuhi keperluan pelajar. Apa asasnya?",
+      "target_spans": [
+        "Draf menyebut perkhidmatan bas malam gagal memenuhi keperluan pelajar. Apa asasnya?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|4|1": {
+      "source_text": "B   Lapan responden melaporkan mereka terlepas bas selepas kelas.",
+      "target_spans": [
+        "Lapan responden melaporkan mereka terlepas bas selepas kelas."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|4|2": {
+      "source_text": "A   Adakah kita tahu berapa ramai pelajar yang mengalami masalah yang sama?",
+      "target_spans": [
+        "Adakah kita tahu berapa ramai pelajar yang mengalami masalah yang sama?"
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|4|3": {
+      "source_text": "B   Tidak. Borang hanya diedarkan kepada ahli persatuan yang masih menggunakan bas.",
+      "target_spans": [
+        "Tidak. Borang hanya diedarkan kepada ahli persatuan yang masih menggunakan bas."
+      ],
+      "kind": "model",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|5|0": {
+      "source_text": "Dapatan itu ____ mewakili semua pelajar.",
+      "target_spans": [
+        "Dapatan itu ____ mewakili semua pelajar."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|5|1": {
+      "source_text": "Percubaan ini ____ kelulusan peruntukan.",
+      "target_spans": [
+        "Percubaan ini ____ kelulusan peruntukan."
+      ],
+      "kind": "guided",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|5|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "guided",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|6|0": {
+      "source_text": "Anda menyediakan ringkasan. Aduan hanya datang daripada ahli persatuan. Jelaskan batas dapatan dan cadangkan percubaan yang boleh dihentikan.",
+      "target_spans": [
+        "Anda menyediakan ringkasan.",
+        "Aduan hanya datang daripada ahli persatuan."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|6|1": {
+      "source_text": "Wartawan kampus menulis bahawa bas tambahan sudah diluluskan. Persetujui pembetulan yang tepat tanpa menafikan aduan pelajar.",
+      "target_spans": [
+        "Wartawan kampus menulis bahawa bas tambahan sudah diluluskan."
+      ],
+      "kind": "task",
+      "exclusion": null
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|6|2": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    },
+    "Menimbang dapatan tinjauan kampus · Learner pack|6|3": {
+      "source_text": "________________________________",
+      "target_spans": [],
+      "kind": "task",
+      "exclusion": "rubric/translation/blank"
+    }
+  }
+}

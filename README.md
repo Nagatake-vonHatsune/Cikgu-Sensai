@@ -35,3 +35,25 @@ original full-pack view remains available. Missing suites are explicitly shown.
 See [the step 2 report](docs/STEP-2-REPORT.md) and [model contract](docs/DATA-MODEL.md).
 Run `python -m unittest discover -s tests -v` after `python build.py`.
 The downloadable offline ZIP excludes `docs`, including both audit logs.
+
+## Charter step 3: frozen baseline
+
+The governing charter is the living [Google Doc](https://docs.google.com/document/d/1d-uiYfQixReMUlPAcUEJ6R4onWOh-4Aa9urr14DL2lw).
+Re-read it at the start of every step; it is read-only to this builder.
+
+`python build.py` runs `language_checks.py` before generating assets. The build
+fails on unlisted unit/check/term violations. Missing ledger terms are separately
+reported as non-blocking gaps. `curriculum/legacy-exceptions.json` may only shrink;
+never regenerate it from the current content. The frozen hash ceiling and Git
+history reject additions, edits and reintroduced keys. Use a full Git checkout.
+
+For a re-authored unit: remove all its exception entries, add its ID to
+`curriculum/reauthored-units.json`, review its explicit target/rubric spans in
+`curriculum/malay-text-scope.json`, and make it pass with no exceptions. Stage 1
+rubrics/explainers must then be Japanese or English. Do not edit the ledger or
+reference snapshot to make the check pass without Sam's approval.
+
+`python tools/check_report.py` regenerates developer-only reports under `docs`.
+It never writes exceptions. Read [the step 3 report](docs/STEP-3-REPORT.md) and
+[complete inventory](docs/STEP-3-INVENTORY.md). Section 13 list A is coverage
+metadata only, not authorised vocabulary. No step 4 content has been written.

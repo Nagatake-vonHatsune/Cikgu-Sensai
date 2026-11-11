@@ -30,8 +30,11 @@ load_batch(lesson)
 from course import add_course
 chapters=add_course(lessons,lesson)
 
-from catalogue import write_catalogue
-write_catalogue(lessons,chapters)
+from catalogue import make_catalogue
+from language_checks import run_checks
+catalogue=make_catalogue(lessons,chapters)
+run_checks(lessons,catalogue)
+(root/"dist/catalogue.js").write_text("const catalogue="+json.dumps(catalogue,ensure_ascii=False)+";\n")
 
 from fontTools import subset
 from fontTools.ttLib import TTFont

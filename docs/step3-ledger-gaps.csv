@@ -1,0 +1,372 @@
+unit,term,list_a_chapter,coverage,sources
+ms-c01,pun,1,Would close gap at this chapter,Greetings · Learner pack|4|2
+ms-c02a,oh,1,Would close gap at this chapter,Introductions · Learner pack|4|3
+ms-c02a,pun,1,Would close gap at this chapter,Introductions · Learner pack|4|3
+ms-c03a,saja,3,Would close gap at this chapter,Counting and quantities · Learner pack|4|3
+ms-c03b,betul,3,Would close gap at this chapter,Beli buah di pasar|4|0
+ms-c03b,campur,,Not in list A,Beli buah di pasar|4|5
+ms-c03b,cukup,3,Would close gap at this chapter,Beli buah di pasar|4|4; Beli buah di pasar|6|2
+ms-c03b,datang,4,"Would add term, but later than this use",Beli buah di pasar|6|4
+ms-c03b,epal,3,Would close gap at this chapter,Beli buah di pasar · Learner pack|3|0; Beli buah di pasar · Learner pack|4|1; Beli buah di pasar · Learner pack|5|0; Beli buah di pasar · Learner pack|6|0; Beli buah di pasar · Learner pack|6|1; Beli buah di pasar|3|1; Beli buah di pasar|3|7; Beli buah di pasar|4|5; Beli buah di pasar|7|1; Beli buah di pasar|9|0; Jumlah buah|3|0; Jumlah buah|4|0; Jumlah buah|6|0; Pesanan buah|3|0; Pesanan buah|3|1; Pesanan buah|6|0
+ms-c03b,ini,2,Would close gap at this chapter,Ringgit and sen · Learner pack|4|0; Ringgit and sen · Learner pack|4|2; Beli buah di pasar|4|3; Beli buah di pasar|4|4; Beli buah di pasar|5|3; Beli buah di pasar|6|1
+ms-c03b,itu,2,Would close gap at this chapter,Pesanan buah|3|2
+ms-c03b,mangga,3,Would close gap at this chapter,Beli buah di pasar|5|1
+ms-c03b,ni,,Not in list A,Beli buah di pasar|3|6
+ms-c03b,pisang,3,Would close gap at this chapter,Beli buah di pasar · Learner pack|6|0; Beli buah di pasar|3|5; Beli buah di pasar|3|6; Beli buah di pasar|3|7; Beli buah di pasar|7|1
+ms-c03b,puluh,3,Would close gap at this chapter,Ringgit and sen · Learner pack|4|1; Ringgit and sen · Learner pack|4|3
+ms-c03b,pun,1,Would close gap at this chapter,Beli buah di pasar|4|6
+ms-c03b,saja,3,Would close gap at this chapter,Beli buah di pasar|3|5; Beli buah di pasar|5|7
+ms-c03b,setandan,,Not in list A,Beli buah di pasar · Learner pack|6|0; Beli buah di pasar|3|6; Beli buah di pasar|7|1
+ms-c03b,untuk,3,Would close gap at this chapter,Beli buah di pasar|6|5; Beli buah di pasar|8|1; Pesanan buah|3|1
+ms-c03c,ialah,3,Would close gap at this chapter,Order and floors · Learner pack|5|0; Order and floors · Learner pack|5|1
+ms-c03c,ini,2,Would close gap at this chapter,Order and floors · Learner pack|4|2
+ms-c03c,itu,2,Would close gap at this chapter,Order and floors · Learner pack|4|3
+ms-c03c,nombor,3,Would close gap at this chapter,Order and floors · Learner pack|5|0
+ms-c03c,selepas,4,"Would add term, but later than this use",Order and floors · Learner pack|4|3; Order and floors · Learner pack|5|1
+ms-c04a,belas,3,Would close gap at this chapter,Dates and days · Learner pack|5|1
+ms-c04a,ialah,3,Would close gap at this chapter,Dates and days · Learner pack|5|0
+ms-c04a,kelas,2,Would close gap at this chapter,Clock time · Learner pack|4|3; Dates and days · Learner pack|4|0
+ms-c04a,selepas,4,Would close gap at this chapter,Clock time · Learner pack|4|3; Dates and days · Learner pack|5|0
+ms-c04b,saja,3,Would close gap at this chapter,Frequency and routines · Learner pack|4|1
+ms-c05,begitu,,Not in list A,Taste and colour · Learner pack|4|3
+ms-c05,ini,2,Would close gap at this chapter,Taste and colour · Learner pack|4|2
+ms-c05,itu,2,Would close gap at this chapter,Taste and colour · Learner pack|4|1; Size and shape · Learner pack|4|2
+ms-c05,rak,,Not in list A,Size and shape · Learner pack|4|2
+ms-c05,sos,,Not in list A,Taste and colour · Learner pack|4|0
+ms-c05,tali,,Not in list A,Size and shape · Learner pack|5|1
+ms-c06,cerita,,Not in list A,Comparisons and superlatives · Learner pack|4|3
+ms-c06,ini,2,Would close gap at this chapter,Comparisons and superlatives · Learner pack|4|2
+ms-c06,kelakar,5,Would close gap at this chapter,Comparisons and superlatives · Learner pack|3|3; Comparisons and superlatives · Learner pack|4|1; Comparisons and superlatives · Learner pack|4|2
+ms-c06,lucu,,Not in list A,Comparisons and superlatives · Learner pack|4|3
+ms-c06,memang,,Not in list A,Comparisons and superlatives · Learner pack|4|3
+ms-c07,barat,7,Would close gap at this chapter,Directions and orientation · Learner pack|3|4
+ms-c07,itu,2,Would close gap at this chapter,Directions and orientation · Learner pack|4|3
+ms-c07,kampus,,Not in list A,"Di, ke and dari|4|3"
+ms-c07,kelas,2,Would close gap at this chapter,"Di, ke and dari|4|2"
+ms-c07,lintasan,7,Would close gap at this chapter,Directions and orientation · Learner pack|4|3
+ms-c07,pun,1,Would close gap at this chapter,Asking where · Learner pack|4|3
+ms-c07,selatan,7,Would close gap at this chapter,Directions and orientation · Learner pack|3|4
+ms-c07,timur,7,Would close gap at this chapter,Directions and orientation · Learner pack|3|4
+ms-c07,tren,,Not in list A,"Di, ke and dari|3|2"
+ms-c07,utara,7,Would close gap at this chapter,Directions and orientation · Learner pack|3|4
+ms-c12,betul,3,Would close gap at this chapter,Ambil bungkusan di lobi|4|0
+ms-c12,bila,,Not in list A,Ambil bungkusan di lobi|5|2; Ambil bungkusan di lobi|6|3
+ms-c12,datang,4,Would close gap at this chapter,Ambil bungkusan di lobi|5|3; Ambil bungkusan di lobi|6|0
+ms-c12,elok,,Not in list A,Ambil bungkusan di lobi|4|6
+ms-c12,ini,2,Would close gap at this chapter,Ambil bungkusan di lobi · Learner pack|5|1; Ambil bungkusan di lobi|4|2; Ambil bungkusan di lobi|5|2; Ambil bungkusan di lobi|6|5; Dah atau belum|4|1
+ms-c12,itu,2,Would close gap at this chapter,Ambil bungkusan di lobi|4|0; Mesej untuk pengawal|3|2
+ms-c12,jadi,,Not in list A,Ambil bungkusan di lobi|3|6
+ms-c12,kelas,2,Would close gap at this chapter,Ambil bungkusan di lobi|5|4
+ms-c12,koyak,,Not in list A,Ambil bungkusan di lobi · Learner pack|6|1; Ambil bungkusan di lobi|9|0; Dah atau belum|6|0; Mesej untuk pengawal|6|0
+ms-c12,label,,Not in list A,Ambil bungkusan di lobi · Learner pack|6|1; Ambil bungkusan di lobi|9|0; Dah atau belum|6|0; Mesej untuk pengawal|6|0
+ms-c12,mesej,,Not in list A,Ambil bungkusan di lobi · Learner pack|6|0; Ambil bungkusan di lobi|4|1; Ambil bungkusan di lobi|5|7; Ambil bungkusan di lobi|7|1
+ms-c12,mesejnya,,Not in list A,Ambil bungkusan di lobi|4|2
+ms-c12,mungkin,,Not in list A,Ambil bungkusan di lobi|5|3
+ms-c12,ni,,Not in list A,Ambil bungkusan di lobi|3|5
+ms-c12,nombor,3,Would close gap at this chapter,Ambil bungkusan di lobi · Learner pack|4|1; Ambil bungkusan di lobi|3|1; Ambil bungkusan di lobi|4|2; Ambil bungkusan di lobi|5|1; Ambil bungkusan di lobi|5|7; Ambil bungkusan di lobi|6|7
+ms-c12,nombornya,,Not in list A,Ambil bungkusan di lobi|5|2
+ms-c12,oh,1,Would close gap at this chapter,Ambil bungkusan di lobi|3|6
+ms-c12,perlu,,Not in list A,Ambil bungkusan di lobi|4|0; Ambil bungkusan di lobi|4|4; Ambil bungkusan di lobi|5|6; Ambil bungkusan di lobi|6|2; Ambil bungkusan di lobi|6|3
+ms-c12,pun,1,Would close gap at this chapter,Ambil bungkusan di lobi|6|1
+ms-c12,semak,,Not in list A,Ambil bungkusan di lobi|4|5; Ambil bungkusan di lobi|6|3; Ambil bungkusan di lobi|6|7
+ms-c12,tu,,Not in list A,Ambil bungkusan di lobi|6|2
+ms-c12,tunjuk,,Not in list A,Ambil bungkusan di lobi|4|0; Ambil bungkusan di lobi|4|1; Ambil bungkusan di lobi|5|6
+ms-c12,untuk,3,Would close gap at this chapter,Ambil bungkusan di lobi|3|5; Ambil bungkusan di lobi|5|0; Mesej untuk pengawal|3|1; A clear pickup message|3|3
+ms-c12,van,,Not in list A,Ambil bungkusan di lobi · Learner pack|5|0; Dah atau belum|4|0
+ms-extension-a2-lunch,belas,3,Would close gap; placement unverified,Lunch at a Malaysian stall|5|3
+ms-extension-a2-lunch,betul,3,Would close gap; placement unverified,Lunch at a Malaysian stall|5|3
+ms-extension-a2-lunch,bila,,Not in list A,Lunch at a Malaysian stall|10|3
+ms-extension-a2-lunch,cukup,3,Would close gap; placement unverified,Lunch at a Malaysian stall|5|1; Lunch at a Malaysian stall|7|4; Lunch at a Malaysian stall|8|3
+ms-extension-a2-lunch,hujung,,Not in list A,Lunch at a Malaysian stall|5|9
+ms-extension-a2-lunch,ini,2,Would close gap; placement unverified,Lunch at a Malaysian stall|5|1; Lunch at a Malaysian stall|5|7; Lunch at a Malaysian stall|8|2; Lunch at a Malaysian stall|8|5
+ms-extension-a2-lunch,lemak,,Not in list A,Lunch at a Malaysian stall|6|0; Lunch at a Malaysian stall|6|1; Lunch at a Malaysian stall|9|1; Lunch at a Malaysian stall|10|1
+ms-extension-a2-lunch,ni,,Not in list A,Lunch at a Malaysian stall|4|0
+ms-extension-a2-lunch,panggil,,Not in list A,Lunch at a Malaysian stall|8|1
+ms-extension-a2-lunch,pelanggan,,Not in list A,Lunch at a Malaysian stall|10|3
+ms-extension-a2-lunch,pun,1,Would close gap; placement unverified,Lunch at a Malaysian stall|3|2
+ms-extension-a2-lunch,saja,3,Would close gap; placement unverified,Lunch at a Malaysian stall|4|6; Lunch at a Malaysian stall|4|8; Lunch at a Malaysian stall|5|5
+ms-extension-a2-lunch,sambal,,Not in list A,Lunch at a Malaysian stall|3|7; Lunch at a Malaysian stall|5|8; Lunch at a Malaysian stall|6|6
+ms-extension-a2-lunch,sekejap,,Not in list A,Lunch at a Malaysian stall|5|1
+ms-extension-a2-lunch,semak,,Not in list A,Lunch at a Malaysian stall|10|3
+ms-extension-a2-lunch,tepi,,Not in list A,Lunch at a Malaysian stall|3|7; Lunch at a Malaysian stall|8|1
+ms-extension-a2-lunch,terima,,Not in list A,Lunch at a Malaysian stall|10|2
+ms-extension-a2-lunch,tiba-tiba,,Not in list A,Lunch at a Malaysian stall|9|3
+ms-extension-a2-lunch,tu,,Not in list A,Lunch at a Malaysian stall|3|6; Lunch at a Malaysian stall|6|2
+ms-supplementary-b1,bantu,,Not in list A,Susun giliran di kaunter · Learner pack|6|1; Susun giliran di kaunter|3|7; Susun giliran di kaunter|5|1; Susun giliran di kaunter|8|1; Susun giliran di kaunter|9|0; Sebab dan akibat|6|0; Mesej tukar giliran|6|0
+ms-supplementary-b1,beritahu,,Not in list A,Susun giliran di kaunter|4|3; Susun giliran di kaunter|6|1
+ms-supplementary-b1,betul,3,Would close gap; placement unverified,Susun giliran di kaunter|6|3
+ms-supplementary-b1,biasa,,Not in list A,Susun giliran di kaunter|3|7; Mesej tukar giliran|3|2
+ms-supplementary-b1,cukup,3,Would close gap; placement unverified,Susun giliran di kaunter|3|4; Susun giliran di kaunter|3|5
+ms-supplementary-b1,dapat,,Not in list A,Susun giliran di kaunter · Learner pack|6|1; Susun giliran di kaunter|9|0; Sebab dan akibat|6|0; Mesej tukar giliran|6|0
+ms-supplementary-b1,datang,4,Would close gap; placement unverified,Susun giliran di kaunter|5|6
+ms-supplementary-b1,dokumen,,Not in list A,Susun giliran di kaunter|5|4
+ms-supplementary-b1,giliran,,Not in list A,Susun giliran di kaunter · Learner pack|3|0; Susun giliran di kaunter · Learner pack|4|0; Susun giliran di kaunter · Learner pack|4|2; Susun giliran di kaunter · Learner pack|4|3; Susun giliran di kaunter|3|0; Susun giliran di kaunter|3|2; Susun giliran di kaunter|3|3; Susun giliran di kaunter|4|4; Susun giliran di kaunter|5|0; Sebab dan akibat|3|0; Mesej tukar giliran|3|0
+ms-supplementary-b1,hingga,,Not in list A,Mesej tukar giliran|3|1
+ms-supplementary-b1,ikut,,Not in list A,Susun giliran di kaunter|6|4
+ms-supplementary-b1,ini,2,Would close gap; placement unverified,Susun giliran di kaunter|4|5; Susun giliran di kaunter|6|3
+ms-supplementary-b1,itu,2,Would close gap; placement unverified,Susun giliran di kaunter · Learner pack|4|3; Susun giliran di kaunter|3|3; Susun giliran di kaunter|4|0
+ms-supplementary-b1,jadi,,Not in list A,Susun giliran di kaunter|4|1; Sebab dan akibat|3|0
+ms-supplementary-b1,jadual,,Not in list A,Susun giliran di kaunter|4|4; Susun giliran di kaunter|6|1; Susun giliran di kaunter|6|2; Susun giliran di kaunter|6|4
+ms-supplementary-b1,jaga,,Not in list A,Susun giliran di kaunter|3|6; Susun giliran di kaunter|5|2; Mesej tukar giliran|3|1
+ms-supplementary-b1,jika,,Not in list A,Susun giliran di kaunter|3|5
+ms-supplementary-b1,kampus,,Not in list A,Susun giliran di kaunter · Learner pack|4|0; Susun giliran di kaunter|3|0; Sebab dan akibat|3|0
+ms-supplementary-b1,kelas,2,Would close gap; placement unverified,Susun giliran di kaunter|5|1
+ms-supplementary-b1,kena,,Not in list A,Susun giliran di kaunter · Learner pack|4|0; Susun giliran di kaunter|3|0; Susun giliran di kaunter|5|4
+ms-supplementary-b1,kenapa,,Not in list A,Susun giliran di kaunter|5|3
+ms-supplementary-b1,kunci,,Not in list A,Susun giliran di kaunter|5|7; Susun giliran di kaunter|6|0
+ms-supplementary-b1,langkah,,Not in list A,Susun giliran di kaunter|4|0
+ms-supplementary-b1,lewat,,Not in list A,Susun giliran di kaunter · Learner pack|5|1; Susun giliran di kaunter|3|5; Susun giliran di kaunter|5|7; Sebab dan akibat|4|1
+ms-supplementary-b1,mesej,,Not in list A,Susun giliran di kaunter|4|7
+ms-supplementary-b1,mesti,,Not in list A,Susun giliran di kaunter · Learner pack|4|1; Susun giliran di kaunter|3|1
+ms-supplementary-b1,papan,,Not in list A,Susun giliran di kaunter|6|1
+ms-supplementary-b1,penyelia,,Not in list A,Susun giliran di kaunter · Learner pack|3|2; Susun giliran di kaunter · Learner pack|5|0; Susun giliran di kaunter|4|3; Susun giliran di kaunter|6|1; Sebab dan akibat|4|0
+ms-supplementary-b1,perlu,,Not in list A,Susun giliran di kaunter|4|4; Susun giliran di kaunter|4|5; Susun giliran di kaunter|5|4; Sebab dan akibat|3|0
+ms-supplementary-b1,perlukan,,Not in list A,Susun giliran di kaunter · Learner pack|4|3; Susun giliran di kaunter|3|3; Susun giliran di kaunter|8|1
+ms-supplementary-b1,pilihan,,Not in list A,Susun giliran di kaunter|3|5
+ms-supplementary-b1,rakan,,Not in list A,Susun giliran di kaunter · Learner pack|6|1; Susun giliran di kaunter|9|0; Sebab dan akibat|6|0; Mesej tukar giliran|6|0
+ms-supplementary-b1,sahkan,,Not in list A,Mesej tukar giliran|3|1
+ms-supplementary-b1,saja,3,Would close gap; placement unverified,Susun giliran di kaunter|4|5; Susun giliran di kaunter|6|3
+ms-supplementary-b1,sebelum,4,Would close gap; placement unverified,Susun giliran di kaunter · Learner pack|4|2; Susun giliran di kaunter|3|2; Susun giliran di kaunter|4|2
+ms-supplementary-b1,selepas,4,Would close gap; placement unverified,Susun giliran di kaunter|4|0
+ms-supplementary-b1,semak,,Not in list A,Susun giliran di kaunter|4|0; Susun giliran di kaunter|6|2
+ms-supplementary-b1,sempat,,Not in list A,Susun giliran di kaunter|5|2; Susun giliran di kaunter|5|3
+ms-supplementary-b1,sistem,,Not in list A,Susun giliran di kaunter|3|7
+ms-supplementary-b1,supaya,,Not in list A,Susun giliran di kaunter|4|6
+ms-supplementary-b1,tamat,,Not in list A,Susun giliran di kaunter|6|5
+ms-supplementary-b1,tarikh,,Not in list A,Susun giliran di kaunter|4|6; Susun giliran di kaunter|6|2
+ms-supplementary-b1,tunjuk,,Not in list A,Susun giliran di kaunter|4|0
+ms-supplementary-b2,agihan,,Not in list A,Runding masa kerja pembaikan · Learner pack|3|2
+ms-supplementary-b2,alat,,Not in list A,Runding masa kerja pembaikan|8|3
+ms-supplementary-b2,anggaran,,Not in list A,Runding masa kerja pembaikan · Learner pack|3|1; Runding masa kerja pembaikan|5|1; Runding masa kerja pembaikan|5|2
+ms-supplementary-b2,anggarannya,,Not in list A,Runding masa kerja pembaikan · Learner pack|4|3; Runding masa kerja pembaikan|3|3; Runding masa kerja pembaikan|6|3
+ms-supplementary-b2,baharu,,Not in list A,Runding masa kerja pembaikan|5|1; Runding masa kerja pembaikan|8|1
+ms-supplementary-b2,bantuan,,Not in list A,Runding masa kerja pembaikan|8|7; Notis air untuk penduduk|3|1
+ms-supplementary-b2,begitu,,Not in list A,Runding masa kerja pembaikan|3|6; Runding masa kerja pembaikan|6|6
+ms-supplementary-b2,bekalan,,Not in list A,Runding masa kerja pembaikan · Learner pack|3|0; Runding masa kerja pembaikan|4|6; Runding masa kerja pembaikan|7|6; Runding masa kerja pembaikan|8|6
+ms-supplementary-b2,beri,,Not in list A,Runding masa kerja pembaikan|4|7; Runding masa kerja pembaikan|5|1; Runding masa kerja pembaikan|7|7; Runding masa kerja pembaikan|8|4
+ms-supplementary-b2,beritahu,,Not in list A,Runding masa kerja pembaikan|8|3
+ms-supplementary-b2,bermula,,Not in list A,Runding masa kerja pembaikan|5|5; Notis air untuk penduduk|3|0
+ms-supplementary-b2,betul,3,Would close gap; placement unverified,Runding masa kerja pembaikan|4|7; Runding masa kerja pembaikan|7|7
+ms-supplementary-b2,bila,,Not in list A,Runding masa kerja pembaikan|4|6; Runding masa kerja pembaikan|7|6
+ms-supplementary-b2,bocor,,Not in list A,Runding masa kerja pembaikan · Learner pack|4|1; Runding masa kerja pembaikan|3|1; Runding masa kerja pembaikan|6|1
+ms-supplementary-b2,catat,,Not in list A,Runding masa kerja pembaikan|5|5; Runding masa kerja pembaikan|8|7
+ms-supplementary-b2,cukup,3,Would close gap; placement unverified,Runding masa kerja pembaikan|4|5; Runding masa kerja pembaikan|7|5
+ms-supplementary-b2,dapat,,Not in list A,Runding masa kerja pembaikan · Learner pack|4|0; Runding masa kerja pembaikan|3|0; Runding masa kerja pembaikan|6|0; Runding masa kerja pembaikan|8|1
+ms-supplementary-b2,dihubungi,,Not in list A,Runding masa kerja pembaikan|5|6
+ms-supplementary-b2,diisi,,Not in list A,Runding masa kerja pembaikan · Learner pack|5|1; Syarat dan konsesi|4|1
+ms-supplementary-b2,dikosongkan,,Not in list A,Runding masa kerja pembaikan · Learner pack|6|1; Runding masa kerja pembaikan|11|0; Syarat dan konsesi|6|0; Notis air untuk penduduk|6|0
+ms-supplementary-b2,hanya,,Not in list A,Runding masa kerja pembaikan · Learner pack|4|1; Runding masa kerja pembaikan|3|1; Runding masa kerja pembaikan|6|1; Runding masa kerja pembaikan|8|0; Runding masa kerja pembaikan|10|1
+ms-supplementary-b2,hubungi,,Not in list A,Runding masa kerja pembaikan|8|5; Notis air untuk penduduk|3|1
+ms-supplementary-b2,ini,2,Would close gap; placement unverified,Runding masa kerja pembaikan|4|3; Runding masa kerja pembaikan|5|7; Runding masa kerja pembaikan|7|3; Syarat dan konsesi|3|0; Notis air untuk penduduk|3|1
+ms-supplementary-b2,itu,2,Would close gap; placement unverified,Runding masa kerja pembaikan|5|2
+ms-supplementary-b2,jangan,,Not in list A,Runding masa kerja pembaikan|5|2; Runding masa kerja pembaikan|8|3
+ms-supplementary-b2,jika,,Not in list A,Notis air untuk penduduk|3|1
+ms-supplementary-b2,kenapa,,Not in list A,Runding masa kerja pembaikan · Learner pack|4|0; Runding masa kerja pembaikan|3|0; Runding masa kerja pembaikan|6|0; Runding masa kerja pembaikan|8|2
+ms-supplementary-b2,kepada,,Not in list A,Runding masa kerja pembaikan|4|2; Runding masa kerja pembaikan|7|2
+ms-supplementary-b2,keputusan,,Not in list A,Runding masa kerja pembaikan|8|5
+ms-supplementary-b2,kerosakan,,Not in list A,Runding masa kerja pembaikan · Learner pack|4|3; Runding masa kerja pembaikan|3|3; Runding masa kerja pembaikan|6|3
+ms-supplementary-b2,kesihatan,,Not in list A,Runding masa kerja pembaikan|4|4; Runding masa kerja pembaikan|7|4
+ms-supplementary-b2,kumpul,,Not in list A,Runding masa kerja pembaikan|4|4; Runding masa kerja pembaikan|7|4
+ms-supplementary-b2,langkah,,Not in list A,Runding masa kerja pembaikan|5|0
+ms-supplementary-b2,lobi,,Not in list A,Runding masa kerja pembaikan · Learner pack|6|1; Runding masa kerja pembaikan|3|7; Runding masa kerja pembaikan|4|0; Runding masa kerja pembaikan|6|7; Runding masa kerja pembaikan|7|0; Runding masa kerja pembaikan|11|0; Syarat dan konsesi|6|0; Notis air untuk penduduk|3|0; Notis air untuk penduduk|6|0
+ms-supplementary-b2,lokasi,,Not in list A,Runding masa kerja pembaikan|5|7
+ms-supplementary-b2,maklumat,,Not in list A,Runding masa kerja pembaikan|4|4; Runding masa kerja pembaikan|7|4; Runding masa kerja pembaikan|8|4
+ms-supplementary-b2,mengambil,,Not in list A,Notis air untuk penduduk|3|1
+ms-supplementary-b2,mungkin,,Not in list A,Runding masa kerja pembaikan · Learner pack|4|3; Runding masa kerja pembaikan|3|3; Runding masa kerja pembaikan|4|0; Runding masa kerja pembaikan|6|3; Runding masa kerja pembaikan|7|0; Syarat dan konsesi|3|1; Notis air untuk penduduk|3|2
+ms-supplementary-b2,nombor,3,Would close gap; placement unverified,Runding masa kerja pembaikan|4|4; Runding masa kerja pembaikan|4|5; Runding masa kerja pembaikan|5|6; Runding masa kerja pembaikan|5|7; Runding masa kerja pembaikan|7|4; Runding masa kerja pembaikan|7|5
+ms-supplementary-b2,pasti,,Not in list A,Runding masa kerja pembaikan|5|2; Runding masa kerja pembaikan|8|3; Runding masa kerja pembaikan|10|1
+ms-supplementary-b2,penduduk,,Not in list A,Runding masa kerja pembaikan · Learner pack|4|0; Runding masa kerja pembaikan · Learner pack|6|0; Runding masa kerja pembaikan|3|0; Runding masa kerja pembaikan|4|2; Runding masa kerja pembaikan|4|6; Runding masa kerja pembaikan|6|0; Runding masa kerja pembaikan|7|2; Runding masa kerja pembaikan|7|6; Runding masa kerja pembaikan|8|1; Runding masa kerja pembaikan|8|7; Runding masa kerja pembaikan|9|1
+ms-supplementary-b2,penghantaran,,Not in list A,Runding masa kerja pembaikan · Learner pack|6|1; Runding masa kerja pembaikan|11|0; Syarat dan konsesi|6|0; Notis air untuk penduduk|6|0
+ms-supplementary-b2,penyelia,,Not in list A,Runding masa kerja pembaikan|10|1
+ms-supplementary-b2,perkembangan,,Not in list A,Runding masa kerja pembaikan|4|7; Runding masa kerja pembaikan|7|7
+ms-supplementary-b2,perlu,,Not in list A,Runding masa kerja pembaikan · Learner pack|4|0; Runding masa kerja pembaikan · Learner pack|6|1; Runding masa kerja pembaikan|3|0; Runding masa kerja pembaikan|4|3; Runding masa kerja pembaikan|4|6; Runding masa kerja pembaikan|6|0; Runding masa kerja pembaikan|7|3; Runding masa kerja pembaikan|7|6; Runding masa kerja pembaikan|11|0; Syarat dan konsesi|6|0; Notis air untuk penduduk|6|0
+ms-supplementary-b2,perlukan,,Not in list A,Runding masa kerja pembaikan · Learner pack|6|0; Runding masa kerja pembaikan|8|7; Runding masa kerja pembaikan|9|1; Notis air untuk penduduk|3|1
+ms-supplementary-b2,petugas,,Not in list A,Runding masa kerja pembaikan|4|3; Runding masa kerja pembaikan|7|3; Runding masa kerja pembaikan|10|1
+ms-supplementary-b2,pilihan,,Not in list A,Runding masa kerja pembaikan|3|6; Runding masa kerja pembaikan|6|6
+ms-supplementary-b2,pulih,,Not in list A,Runding masa kerja pembaikan|4|6; Runding masa kerja pembaikan|5|2; Runding masa kerja pembaikan|7|6
+ms-supplementary-b2,ruang,,Not in list A,Runding masa kerja pembaikan|3|7; Runding masa kerja pembaikan|6|7
+ms-supplementary-b2,sahkan,,Not in list A,Runding masa kerja pembaikan|5|6
+ms-supplementary-b2,saja,3,Would close gap; placement unverified,Runding masa kerja pembaikan|4|1; Runding masa kerja pembaikan|7|1
+ms-supplementary-b2,sebelum,4,Would close gap; placement unverified,Runding masa kerja pembaikan · Learner pack|6|0; Runding masa kerja pembaikan|5|5; Runding masa kerja pembaikan|8|1; Runding masa kerja pembaikan|9|1; Notis air untuk penduduk|3|0
+ms-supplementary-b2,sediakan,,Not in list A,Runding masa kerja pembaikan|3|7; Runding masa kerja pembaikan|4|1; Runding masa kerja pembaikan|6|7; Runding masa kerja pembaikan|7|1
+ms-supplementary-b2,sejam,,Not in list A,Runding masa kerja pembaikan|4|7; Runding masa kerja pembaikan|7|7
+ms-supplementary-b2,sekejap,,Not in list A,Notis air untuk penduduk|3|2
+ms-supplementary-b2,selepas,4,Would close gap; placement unverified,Runding masa kerja pembaikan|4|7; Runding masa kerja pembaikan|5|6; Runding masa kerja pembaikan|7|7
+ms-supplementary-b2,selesai,,Not in list A,Notis air untuk penduduk|3|2
+ms-supplementary-b2,semak,,Not in list A,Runding masa kerja pembaikan|8|6
+ms-supplementary-b2,sementara,,Not in list A,Runding masa kerja pembaikan|4|6; Runding masa kerja pembaikan|7|6
+ms-supplementary-b2,semula,,Not in list A,Runding masa kerja pembaikan|5|5
+ms-supplementary-b2,senarai,,Not in list A,Runding masa kerja pembaikan|4|3; Runding masa kerja pembaikan|7|3
+ms-supplementary-b2,seterusnya,,Not in list A,Runding masa kerja pembaikan|5|0
+ms-supplementary-b2,setuju,,Not in list A,Runding masa kerja pembaikan|5|7
+ms-supplementary-b2,tambah,,Not in list A,Runding masa kerja pembaikan|5|1
+ms-supplementary-b2,tangki,,Not in list A,Runding masa kerja pembaikan · Learner pack|5|1; Runding masa kerja pembaikan|3|7; Runding masa kerja pembaikan|4|0; Runding masa kerja pembaikan|4|1; Runding masa kerja pembaikan|5|7; Runding masa kerja pembaikan|6|7; Runding masa kerja pembaikan|7|0; Runding masa kerja pembaikan|7|1; Runding masa kerja pembaikan|10|1; Syarat dan konsesi|4|1
+ms-supplementary-b2,tanpa,,Not in list A,Runding masa kerja pembaikan|4|4; Runding masa kerja pembaikan|7|4
+ms-supplementary-b2,tempoh,,Not in list A,Runding masa kerja pembaikan|10|1
+ms-supplementary-b2,tentu,,Not in list A,Runding masa kerja pembaikan|8|2
+ms-supplementary-b2,tiada,,Not in list A,Notis air untuk penduduk|3|2
+ms-supplementary-b2,tiba,,Not in list A,Runding masa kerja pembaikan · Learner pack|5|1; Syarat dan konsesi|4|1
+ms-supplementary-b2,untuk,3,Would close gap; placement unverified,Runding masa kerja pembaikan · Learner pack|6|1; Runding masa kerja pembaikan|3|6; Runding masa kerja pembaikan|3|7; Runding masa kerja pembaikan|5|6; Runding masa kerja pembaikan|6|6; Runding masa kerja pembaikan|6|7; Runding masa kerja pembaikan|8|6; Runding masa kerja pembaikan|8|7; Runding masa kerja pembaikan|11|0; Syarat dan konsesi|6|0; Notis air untuk penduduk|6|0
+ms-supplementary-b2,utama,,Not in list A,Runding masa kerja pembaikan · Learner pack|4|1; Runding masa kerja pembaikan|3|1; Runding masa kerja pembaikan|6|1
+ms-supplementary-b2,wakil,,Not in list A,Runding masa kerja pembaikan · Learner pack|6|0; Runding masa kerja pembaikan|8|5; Runding masa kerja pembaikan|9|1
+ms-supplementary-b2,walaupun,,Not in list A,Runding masa kerja pembaikan|4|6; Syarat dan konsesi|3|1
+ms-supplementary-c1,adakah,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|2; Menimbang dapatan tinjauan kampus|3|2; Menimbang dapatan tinjauan kampus|4|1; Menimbang dapatan tinjauan kampus|6|2; Menimbang dapatan tinjauan kampus|7|1; Menimbang dapatan tinjauan kampus|8|2
+ms-supplementary-c1,aduan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|6|0; Menimbang dapatan tinjauan kampus|3|5; Menimbang dapatan tinjauan kampus|6|5; Menimbang dapatan tinjauan kampus|8|1; Menimbang dapatan tinjauan kampus|9|1; Membezakan andaian dan bukti|3|0; Catatan keputusan dan kenyataan awam|3|1
+ms-supplementary-c1,ahli,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|3; Menimbang dapatan tinjauan kampus · Learner pack|6|0; Menimbang dapatan tinjauan kampus|3|3; Menimbang dapatan tinjauan kampus|6|3; Menimbang dapatan tinjauan kampus|9|1
+ms-supplementary-c1,alasan,,Not in list A,Menimbang dapatan tinjauan kampus|8|4
+ms-supplementary-c1,asasnya,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|0; Menimbang dapatan tinjauan kampus|3|0; Menimbang dapatan tinjauan kampus|6|0
+ms-supplementary-c1,awam,,Not in list A,Menimbang dapatan tinjauan kampus|5|7
+ms-supplementary-c1,bahawa,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|6|1; Menimbang dapatan tinjauan kampus|11|0; Membezakan andaian dan bukti|6|0; Catatan keputusan dan kenyataan awam|6|0
+ms-supplementary-c1,balas,,Not in list A,Menimbang dapatan tinjauan kampus|5|3
+ms-supplementary-c1,begitu,,Not in list A,Menimbang dapatan tinjauan kampus|4|3; Menimbang dapatan tinjauan kampus|7|3
+ms-supplementary-c1,bekas,,Not in list A,Menimbang dapatan tinjauan kampus|5|3; Menimbang dapatan tinjauan kampus|5|4; Membezakan andaian dan bukti|3|1
+ms-supplementary-c1,berbeza,,Not in list A,Membezakan andaian dan bukti|3|1
+ms-supplementary-c1,berbunyi,,Not in list A,Menimbang dapatan tinjauan kampus|8|0
+ms-supplementary-c1,bergantung,,Not in list A,Menimbang dapatan tinjauan kampus|4|5; Menimbang dapatan tinjauan kampus|7|5
+ms-supplementary-c1,berhenti,,Not in list A,Menimbang dapatan tinjauan kampus|3|4; Menimbang dapatan tinjauan kampus|6|4
+ms-supplementary-c1,beri,,Not in list A,Menimbang dapatan tinjauan kampus|5|3; Menimbang dapatan tinjauan kampus|8|7
+ms-supplementary-c1,beroperasi,,Not in list A,Catatan keputusan dan kenyataan awam|3|2
+ms-supplementary-c1,berpuas,,Not in list A,Menimbang dapatan tinjauan kampus|8|1
+ms-supplementary-c1,bersetuju,,Not in list A,Catatan keputusan dan kenyataan awam|3|0
+ms-supplementary-c1,bersuara,,Not in list A,Menimbang dapatan tinjauan kampus|5|2
+ms-supplementary-c1,bertangguh,,Not in list A,Menimbang dapatan tinjauan kampus|8|4
+ms-supplementary-c1,betul,3,Would close gap; placement unverified,Menimbang dapatan tinjauan kampus|3|5; Menimbang dapatan tinjauan kampus|6|5
+ms-supplementary-c1,bila,,Not in list A,Menimbang dapatan tinjauan kampus|5|1
+ms-supplementary-c1,bimbang,,Not in list A,Menimbang dapatan tinjauan kampus|4|0; Menimbang dapatan tinjauan kampus|7|0; Menimbang dapatan tinjauan kampus|8|4
+ms-supplementary-c1,cadangan,,Not in list A,Menimbang dapatan tinjauan kampus|4|1; Menimbang dapatan tinjauan kampus|4|7; Menimbang dapatan tinjauan kampus|5|1; Menimbang dapatan tinjauan kampus|7|1; Menimbang dapatan tinjauan kampus|7|7; Menimbang dapatan tinjauan kampus|8|3
+ms-supplementary-c1,catat,,Not in list A,Menimbang dapatan tinjauan kampus|4|3; Menimbang dapatan tinjauan kampus|7|3
+ms-supplementary-c1,dahulu,,Not in list A,Menimbang dapatan tinjauan kampus|4|1; Menimbang dapatan tinjauan kampus|7|1
+ms-supplementary-c1,dakwaan,,Not in list A,Menimbang dapatan tinjauan kampus|3|7; Menimbang dapatan tinjauan kampus|6|7
+ms-supplementary-c1,dapatan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|3|0; Menimbang dapatan tinjauan kampus · Learner pack|5|0; Membezakan andaian dan bukti|3|1; Membezakan andaian dan bukti|4|0
+ms-supplementary-c1,dasar,,Not in list A,Menimbang dapatan tinjauan kampus|4|7; Menimbang dapatan tinjauan kampus|7|7
+ms-supplementary-c1,datang,4,Would close gap; placement unverified,Menimbang dapatan tinjauan kampus · Learner pack|6|0; Menimbang dapatan tinjauan kampus|9|1
+ms-supplementary-c1,dicadangkan,,Not in list A,Menimbang dapatan tinjauan kampus|8|0
+ms-supplementary-c1,diedarkan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|3; Menimbang dapatan tinjauan kampus|3|3; Menimbang dapatan tinjauan kampus|6|3
+ms-supplementary-c1,dikekalkan,,Not in list A,Menimbang dapatan tinjauan kampus|4|2; Menimbang dapatan tinjauan kampus|7|2; Menimbang dapatan tinjauan kampus|10|1
+ms-supplementary-c1,diketepikan,,Not in list A,Menimbang dapatan tinjauan kampus|3|5; Menimbang dapatan tinjauan kampus|6|5
+ms-supplementary-c1,diluluskan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|6|1; Menimbang dapatan tinjauan kampus|5|7; Menimbang dapatan tinjauan kampus|11|0; Membezakan andaian dan bukti|6|0; Catatan keputusan dan kenyataan awam|3|0; Catatan keputusan dan kenyataan awam|6|0
+ms-supplementary-c1,dinilai,,Not in list A,Menimbang dapatan tinjauan kampus|4|1; Menimbang dapatan tinjauan kampus|5|1; Menimbang dapatan tinjauan kampus|5|2; Menimbang dapatan tinjauan kampus|7|1
+ms-supplementary-c1,direkodkan,,Not in list A,Catatan keputusan dan kenyataan awam|3|1
+ms-supplementary-c1,disahkan,,Not in list A,Menimbang dapatan tinjauan kampus|8|5
+ms-supplementary-c1,ditanya,,Not in list A,Membezakan andaian dan bukti|3|1
+ms-supplementary-c1,diumumkan,,Not in list A,Menimbang dapatan tinjauan kampus|5|0
+ms-supplementary-c1,diwakili,,Not in list A,Menimbang dapatan tinjauan kampus|3|4; Menimbang dapatan tinjauan kampus|6|4
+ms-supplementary-c1,gagal,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|0; Menimbang dapatan tinjauan kampus|3|0; Menimbang dapatan tinjauan kampus|6|0
+ms-supplementary-c1,gambaran,,Not in list A,Menimbang dapatan tinjauan kampus|3|7; Menimbang dapatan tinjauan kampus|6|7
+ms-supplementary-c1,gantikan,,Not in list A,Menimbang dapatan tinjauan kampus|3|7; Menimbang dapatan tinjauan kampus|6|7
+ms-supplementary-c1,hanya,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|3; Menimbang dapatan tinjauan kampus · Learner pack|6|0; Menimbang dapatan tinjauan kampus|3|3; Menimbang dapatan tinjauan kampus|6|3; Menimbang dapatan tinjauan kampus|9|1
+ms-supplementary-c1,hati,,Not in list A,Menimbang dapatan tinjauan kampus|8|1
+ms-supplementary-c1,ini,2,Would close gap; placement unverified,Menimbang dapatan tinjauan kampus · Learner pack|5|1; Menimbang dapatan tinjauan kampus|5|0; Membezakan andaian dan bukti|4|1
+ms-supplementary-c1,itu,2,Would close gap; placement unverified,Menimbang dapatan tinjauan kampus · Learner pack|5|0; Menimbang dapatan tinjauan kampus|3|5; Menimbang dapatan tinjauan kampus|3|6; Menimbang dapatan tinjauan kampus|4|3; Menimbang dapatan tinjauan kampus|4|5; Menimbang dapatan tinjauan kampus|4|6; Menimbang dapatan tinjauan kampus|5|6; Menimbang dapatan tinjauan kampus|6|5; Menimbang dapatan tinjauan kampus|6|6; Menimbang dapatan tinjauan kampus|7|3; Menimbang dapatan tinjauan kampus|7|5; Menimbang dapatan tinjauan kampus|7|6; Menimbang dapatan tinjauan kampus|8|1; Menimbang dapatan tinjauan kampus|8|2; Menimbang dapatan tinjauan kampus|8|4; Menimbang dapatan tinjauan kampus|8|5; Membezakan andaian dan bukti|3|0; Membezakan andaian dan bukti|4|0
+ms-supplementary-c1,jadi,,Not in list A,Menimbang dapatan tinjauan kampus|3|4; Menimbang dapatan tinjauan kampus|4|7; Menimbang dapatan tinjauan kampus|6|4; Menimbang dapatan tinjauan kampus|7|7; Menimbang dapatan tinjauan kampus|8|6
+ms-supplementary-c1,jadual,,Not in list A,Menimbang dapatan tinjauan kampus|5|5; Menimbang dapatan tinjauan kampus|8|0; Menimbang dapatan tinjauan kampus|10|1
+ms-supplementary-c1,jawatankuasa,,Not in list A,Catatan keputusan dan kenyataan awam|3|0
+ms-supplementary-c1,jelaskan,,Not in list A,Menimbang dapatan tinjauan kampus|5|4; Menimbang dapatan tinjauan kampus|5|5
+ms-supplementary-c1,jika,,Not in list A,Menimbang dapatan tinjauan kampus|4|2; Menimbang dapatan tinjauan kampus|7|2; Menimbang dapatan tinjauan kampus|8|2
+ms-supplementary-c1,kampus,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|6|1; Menimbang dapatan tinjauan kampus|11|0; Membezakan andaian dan bukti|6|0; Catatan keputusan dan kenyataan awam|6|0
+ms-supplementary-c1,kata,,Not in list A,Menimbang dapatan tinjauan kampus|4|3; Menimbang dapatan tinjauan kampus|7|3
+ms-supplementary-c1,kedengaran,,Not in list A,Menimbang dapatan tinjauan kampus|8|4
+ms-supplementary-c1,kelas,2,Would close gap; placement unverified,Menimbang dapatan tinjauan kampus · Learner pack|4|1; Menimbang dapatan tinjauan kampus|3|1; Menimbang dapatan tinjauan kampus|6|1
+ms-supplementary-c1,keluasannya,,Not in list A,Menimbang dapatan tinjauan kampus|3|6; Menimbang dapatan tinjauan kampus|6|6
+ms-supplementary-c1,kelulusan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|5|1; Menimbang dapatan tinjauan kampus|4|7; Menimbang dapatan tinjauan kampus|7|7; Membezakan andaian dan bukti|4|1
+ms-supplementary-c1,kenyataan,,Not in list A,Menimbang dapatan tinjauan kampus|5|0; Menimbang dapatan tinjauan kampus|5|7; Menimbang dapatan tinjauan kampus|8|4
+ms-supplementary-c1,kepada,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|3; Menimbang dapatan tinjauan kampus|3|3; Menimbang dapatan tinjauan kampus|6|3; Menimbang dapatan tinjauan kampus|8|7
+ms-supplementary-c1,keperluan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|0; Menimbang dapatan tinjauan kampus|3|0; Menimbang dapatan tinjauan kampus|6|0
+ms-supplementary-c1,keputusan,,Not in list A,Menimbang dapatan tinjauan kampus|5|1; Menimbang dapatan tinjauan kampus|8|6; Catatan keputusan dan kenyataan awam|3|1
+ms-supplementary-c1,kerana,,Not in list A,Menimbang dapatan tinjauan kampus|5|5; Catatan keputusan dan kenyataan awam|3|2
+ms-supplementary-c1,kesannya,,Not in list A,Menimbang dapatan tinjauan kampus|4|1; Menimbang dapatan tinjauan kampus|7|1
+ms-supplementary-c1,ketersediaan,,Not in list A,Menimbang dapatan tinjauan kampus|5|6
+ms-supplementary-c1,ketiadaan,,Not in list A,Menimbang dapatan tinjauan kampus|3|5; Menimbang dapatan tinjauan kampus|6|5
+ms-supplementary-c1,kos,,Not in list A,Menimbang dapatan tinjauan kampus|5|6; Menimbang dapatan tinjauan kampus|8|3; Catatan keputusan dan kenyataan awam|3|1
+ms-supplementary-c1,kosnya,,Not in list A,Menimbang dapatan tinjauan kampus|4|5; Menimbang dapatan tinjauan kampus|7|5
+ms-supplementary-c1,langsung,,Not in list A,Menimbang dapatan tinjauan kampus|3|4; Menimbang dapatan tinjauan kampus|6|4
+ms-supplementary-c1,lewat,,Not in list A,Menimbang dapatan tinjauan kampus|4|0; Menimbang dapatan tinjauan kampus|7|0; Menimbang dapatan tinjauan kampus|8|2
+ms-supplementary-c1,maklum,,Not in list A,Menimbang dapatan tinjauan kampus|5|3
+ms-supplementary-c1,masalah,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|2; Menimbang dapatan tinjauan kampus|3|2; Menimbang dapatan tinjauan kampus|3|6; Menimbang dapatan tinjauan kampus|6|2; Menimbang dapatan tinjauan kampus|6|6; Membezakan andaian dan bukti|3|0
+ms-supplementary-c1,melaporkan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|1; Menimbang dapatan tinjauan kampus|3|1; Menimbang dapatan tinjauan kampus|6|1
+ms-supplementary-c1,membantah,,Not in list A,Menimbang dapatan tinjauan kampus|4|3; Menimbang dapatan tinjauan kampus|7|3; Menimbang dapatan tinjauan kampus|10|1
+ms-supplementary-c1,membezakan,,Not in list A,Menimbang dapatan tinjauan kampus|4|7; Menimbang dapatan tinjauan kampus|7|7
+ms-supplementary-c1,memenuhi,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|0; Menimbang dapatan tinjauan kampus|3|0; Menimbang dapatan tinjauan kampus|6|0
+ms-supplementary-c1,memerlukannya,,Not in list A,Catatan keputusan dan kenyataan awam|3|2
+ms-supplementary-c1,memilih,,Not in list A,Menimbang dapatan tinjauan kampus|5|5
+ms-supplementary-c1,meminta,,Not in list A,Menimbang dapatan tinjauan kampus|4|1; Menimbang dapatan tinjauan kampus|7|1; Menimbang dapatan tinjauan kampus|8|2
+ms-supplementary-c1,mencuba,,Not in list A,Menimbang dapatan tinjauan kampus|4|2; Menimbang dapatan tinjauan kampus|7|2
+ms-supplementary-c1,mencukupi,,Not in list A,Menimbang dapatan tinjauan kampus|4|6; Menimbang dapatan tinjauan kampus|7|6
+ms-supplementary-c1,mendahului,,Not in list A,Menimbang dapatan tinjauan kampus|8|6
+ms-supplementary-c1,mengalami,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|2; Menimbang dapatan tinjauan kampus|3|2; Menimbang dapatan tinjauan kampus|6|2
+ms-supplementary-c1,menganggarkan,,Not in list A,Menimbang dapatan tinjauan kampus|3|6; Menimbang dapatan tinjauan kampus|6|6
+ms-supplementary-c1,mengapa,,Not in list A,Menimbang dapatan tinjauan kampus|5|4
+ms-supplementary-c1,menggunakan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|3; Menimbang dapatan tinjauan kampus|3|3; Menimbang dapatan tinjauan kampus|3|4; Menimbang dapatan tinjauan kampus|6|3; Menimbang dapatan tinjauan kampus|6|4
+ms-supplementary-c1,mengurangkan,,Not in list A,Menimbang dapatan tinjauan kampus|4|0; Menimbang dapatan tinjauan kampus|7|0
+ms-supplementary-c1,menilai,,Not in list A,Catatan keputusan dan kenyataan awam|3|0
+ms-supplementary-c1,menjawab,,Not in list A,Menimbang dapatan tinjauan kampus|8|7
+ms-supplementary-c1,menjelang,,Not in list A,Menimbang dapatan tinjauan kampus|5|3
+ms-supplementary-c1,menolak,,Not in list A,Menimbang dapatan tinjauan kampus|4|1; Menimbang dapatan tinjauan kampus|7|1
+ms-supplementary-c1,menulis,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|6|1; Menimbang dapatan tinjauan kampus|11|0; Membezakan andaian dan bukti|6|0; Catatan keputusan dan kenyataan awam|6|0
+ms-supplementary-c1,menunjukkan,,Not in list A,Membezakan andaian dan bukti|3|0
+ms-supplementary-c1,menyangka,,Not in list A,Menimbang dapatan tinjauan kampus|5|7
+ms-supplementary-c1,menyebut,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|0; Menimbang dapatan tinjauan kampus|3|0; Menimbang dapatan tinjauan kampus|6|0
+ms-supplementary-c1,menyediakan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|6|0; Menimbang dapatan tinjauan kampus|9|1
+ms-supplementary-c1,menyeluruh,,Not in list A,Menimbang dapatan tinjauan kampus|3|5; Menimbang dapatan tinjauan kampus|6|5
+ms-supplementary-c1,mesti,,Not in list A,Menimbang dapatan tinjauan kampus|4|7; Menimbang dapatan tinjauan kampus|7|7
+ms-supplementary-c1,mewakili,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|5|0; Menimbang dapatan tinjauan kampus|8|1; Membezakan andaian dan bukti|3|0; Membezakan andaian dan bukti|4|0
+ms-supplementary-c1,mungkin,,Not in list A,Menimbang dapatan tinjauan kampus|3|4; Menimbang dapatan tinjauan kampus|5|5; Menimbang dapatan tinjauan kampus|6|4; Membezakan andaian dan bukti|3|1
+ms-supplementary-c1,namun,,Not in list A,Menimbang dapatan tinjauan kampus|3|5; Menimbang dapatan tinjauan kampus|6|5
+ms-supplementary-c1,nyatakan,,Not in list A,Menimbang dapatan tinjauan kampus|3|6; Menimbang dapatan tinjauan kampus|5|1; Menimbang dapatan tinjauan kampus|6|6; Menimbang dapatan tinjauan kampus|8|3
+ms-supplementary-c1,operasi,,Not in list A,Menimbang dapatan tinjauan kampus|10|1; Catatan keputusan dan kenyataan awam|3|1
+ms-supplementary-c1,pasti,,Not in list A,Catatan keputusan dan kenyataan awam|3|2
+ms-supplementary-c1,pengalaman,,Not in list A,Menimbang dapatan tinjauan kampus|3|7; Menimbang dapatan tinjauan kampus|5|4; Menimbang dapatan tinjauan kampus|6|7
+ms-supplementary-c1,pengangkutan,,Not in list A,Menimbang dapatan tinjauan kampus|4|6; Menimbang dapatan tinjauan kampus|5|5; Menimbang dapatan tinjauan kampus|7|6
+ms-supplementary-c1,pengerusi,,Not in list A,Menimbang dapatan tinjauan kampus|5|0
+ms-supplementary-c1,pengguna,,Not in list A,Menimbang dapatan tinjauan kampus|5|3; Menimbang dapatan tinjauan kampus|5|4; Membezakan andaian dan bukti|3|0; Membezakan andaian dan bukti|3|1; Catatan keputusan dan kenyataan awam|3|1
+ms-supplementary-c1,penyelia,,Not in list A,Menimbang dapatan tinjauan kampus|4|0; Menimbang dapatan tinjauan kampus|7|0
+ms-supplementary-c1,perbelanjaan,,Not in list A,Catatan keputusan dan kenyataan awam|3|0
+ms-supplementary-c1,percubaan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|5|1; Menimbang dapatan tinjauan kampus|4|7; Menimbang dapatan tinjauan kampus|7|7; Menimbang dapatan tinjauan kampus|10|1; Membezakan andaian dan bukti|4|1; Catatan keputusan dan kenyataan awam|3|0
+ms-supplementary-c1,perkataan,,Not in list A,Menimbang dapatan tinjauan kampus|4|3; Menimbang dapatan tinjauan kampus|7|3
+ms-supplementary-c1,perkhidmatan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|0; Menimbang dapatan tinjauan kampus|3|0; Menimbang dapatan tinjauan kampus|6|0
+ms-supplementary-c1,persatuan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|3; Menimbang dapatan tinjauan kampus · Learner pack|6|0; Menimbang dapatan tinjauan kampus|3|3; Menimbang dapatan tinjauan kampus|6|3; Menimbang dapatan tinjauan kampus|9|1
+ms-supplementary-c1,persetujuan,,Not in list A,Menimbang dapatan tinjauan kampus|4|7; Menimbang dapatan tinjauan kampus|7|7
+ms-supplementary-c1,peruntukan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|3|1; Menimbang dapatan tinjauan kampus · Learner pack|5|1; Menimbang dapatan tinjauan kampus|4|6; Menimbang dapatan tinjauan kampus|7|6; Membezakan andaian dan bukti|4|1
+ms-supplementary-c1,pihak,,Not in list A,Menimbang dapatan tinjauan kampus|8|5
+ms-supplementary-c1,proses,,Not in list A,Menimbang dapatan tinjauan kampus|8|6
+ms-supplementary-c1,pun,1,Would close gap; placement unverified,Menimbang dapatan tinjauan kampus|4|5; Menimbang dapatan tinjauan kampus|7|5
+ms-supplementary-c1,rekodkan,,Not in list A,Menimbang dapatan tinjauan kampus|5|6
+ms-supplementary-c1,responden,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|4|1; Menimbang dapatan tinjauan kampus|3|1; Menimbang dapatan tinjauan kampus|3|7; Menimbang dapatan tinjauan kampus|6|1; Menimbang dapatan tinjauan kampus|6|7
+ms-supplementary-c1,ringkas,,Not in list A,Menimbang dapatan tinjauan kampus|5|0
+ms-supplementary-c1,ringkasan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|6|0; Menimbang dapatan tinjauan kampus|9|1
+ms-supplementary-c1,saluran,,Not in list A,Menimbang dapatan tinjauan kampus|8|7
+ms-supplementary-c1,sanggup,,Not in list A,Menimbang dapatan tinjauan kampus|4|2; Menimbang dapatan tinjauan kampus|7|2
+ms-supplementary-c1,sebelum,4,Would close gap; placement unverified,Catatan keputusan dan kenyataan awam|3|1
+ms-supplementary-c1,sebut,,Not in list A,Menimbang dapatan tinjauan kampus|8|2
+ms-supplementary-c1,sedia,,Not in list A,Menimbang dapatan tinjauan kampus|4|2; Menimbang dapatan tinjauan kampus|7|2
+ms-supplementary-c1,sekadar,,Not in list A,Menimbang dapatan tinjauan kampus|5|2
+ms-supplementary-c1,sekiranya,,Not in list A,Membezakan andaian dan bukti|3|1
+ms-supplementary-c1,selama,,Not in list A,Menimbang dapatan tinjauan kampus|4|4; Menimbang dapatan tinjauan kampus|7|4
+ms-supplementary-c1,selepas,4,Would close gap; placement unverified,Menimbang dapatan tinjauan kampus · Learner pack|4|1; Menimbang dapatan tinjauan kampus|3|1; Menimbang dapatan tinjauan kampus|6|1
+ms-supplementary-c1,semak,,Not in list A,Menimbang dapatan tinjauan kampus|4|6; Menimbang dapatan tinjauan kampus|5|7; Menimbang dapatan tinjauan kampus|7|6
+ms-supplementary-c1,semakan,,Not in list A,Menimbang dapatan tinjauan kampus|5|6; Menimbang dapatan tinjauan kampus|8|3; Menimbang dapatan tinjauan kampus|8|5
+ms-supplementary-c1,seperti,,Not in list A,Menimbang dapatan tinjauan kampus|8|4
+ms-supplementary-c1,sertakan,,Not in list A,Menimbang dapatan tinjauan kampus|8|5
+ms-supplementary-c1,setuju,,Not in list A,Menimbang dapatan tinjauan kampus|4|4; Menimbang dapatan tinjauan kampus|7|4
+ms-supplementary-c1,supaya,,Not in list A,Menimbang dapatan tinjauan kampus|5|7
+ms-supplementary-c1,syaratnya,,Not in list A,Menimbang dapatan tinjauan kampus|4|3; Menimbang dapatan tinjauan kampus|7|3
+ms-supplementary-c1,syor,,Not in list A,Menimbang dapatan tinjauan kampus|5|6
+ms-supplementary-c1,tajuk,,Not in list A,Menimbang dapatan tinjauan kampus|8|0
+ms-supplementary-c1,tambah,,Not in list A,Menimbang dapatan tinjauan kampus|4|4; Menimbang dapatan tinjauan kampus|7|4
+ms-supplementary-c1,tambahan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|6|1; Menimbang dapatan tinjauan kampus|4|5; Menimbang dapatan tinjauan kampus|5|7; Menimbang dapatan tinjauan kampus|7|5; Menimbang dapatan tinjauan kampus|11|0; Membezakan andaian dan bukti|6|0; Catatan keputusan dan kenyataan awam|3|2; Catatan keputusan dan kenyataan awam|6|0
+ms-supplementary-c1,tanpa,,Not in list A,Menimbang dapatan tinjauan kampus|3|6; Menimbang dapatan tinjauan kampus|8|6
+ms-supplementary-c1,tarikh,,Not in list A,Menimbang dapatan tinjauan kampus|8|5
+ms-supplementary-c1,telah,,Not in list A,Catatan keputusan dan kenyataan awam|3|1
+ms-supplementary-c1,tempoh,,Not in list A,Menimbang dapatan tinjauan kampus|8|6
+ms-supplementary-c1,tentu,,Not in list A,Menimbang dapatan tinjauan kampus|4|6; Membezakan andaian dan bukti|3|0
+ms-supplementary-c1,tepatkah,,Not in list A,Menimbang dapatan tinjauan kampus|8|0
+ms-supplementary-c1,tertakluk,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|3|2; Menimbang dapatan tinjauan kampus|5|6
+ms-supplementary-c1,tiada,,Not in list A,Menimbang dapatan tinjauan kampus|5|7
+ms-supplementary-c1,tolak,,Not in list A,Menimbang dapatan tinjauan kampus|8|0
+ms-supplementary-c1,turut,,Not in list A,Membezakan andaian dan bukti|3|1
+ms-supplementary-c1,umum,,Not in list A,Menimbang dapatan tinjauan kampus|3|7; Menimbang dapatan tinjauan kampus|6|7
+ms-supplementary-c1,umumkan,,Not in list A,Menimbang dapatan tinjauan kampus|8|6
+ms-supplementary-c1,untuk,3,Would close gap; placement unverified,Menimbang dapatan tinjauan kampus|5|0; Menimbang dapatan tinjauan kampus|8|4
+ms-supplementary-c1,wakil,,Not in list A,Menimbang dapatan tinjauan kampus|10|1
+ms-supplementary-c1,wartawan,,Not in list A,Menimbang dapatan tinjauan kampus · Learner pack|6|1; Menimbang dapatan tinjauan kampus|11|0; Membezakan andaian dan bukti|6|0; Catatan keputusan dan kenyataan awam|6|0
+ms-supplementary-c1,wujud,,Not in list A,Menimbang dapatan tinjauan kampus|3|6; Menimbang dapatan tinjauan kampus|6|6

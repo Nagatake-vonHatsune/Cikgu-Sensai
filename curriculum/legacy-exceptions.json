@@ -1,0 +1,1868 @@
+{
+  "ms-c01|ledger|awak": {
+    "unit": "ms-c01",
+    "check": "ledger",
+    "term": "awak",
+    "reasons": [
+      "First assigned chapter 2; used in chapter 1."
+    ],
+    "evidence": [
+      {
+        "source": "Greetings · Learner pack|4|1",
+        "text": "Khabar baik. Awak pula?"
+      }
+    ]
+  },
+  "ms-c01|ledger|malam": {
+    "unit": "ms-c01",
+    "check": "ledger",
+    "term": "malam",
+    "reasons": [
+      "First assigned chapter 4; used in chapter 1."
+    ],
+    "evidence": [
+      {
+        "source": "Greetings · Learner pack|3|2",
+        "text": "malam"
+      }
+    ]
+  },
+  "ms-c01|ledger|pagi": {
+    "unit": "ms-c01",
+    "check": "ledger",
+    "term": "pagi",
+    "reasons": [
+      "First assigned chapter 4; used in chapter 1."
+    ],
+    "evidence": [
+      {
+        "source": "Greetings · Learner pack|3|0",
+        "text": "pagi"
+      }
+    ]
+  },
+  "ms-c01|ledger|petang": {
+    "unit": "ms-c01",
+    "check": "ledger",
+    "term": "petang",
+    "reasons": [
+      "First assigned chapter 4; used in chapter 1."
+    ],
+    "evidence": [
+      {
+        "source": "Greetings · Learner pack|3|1",
+        "text": "petang"
+      }
+    ]
+  },
+  "ms-c01|ledger|saya": {
+    "unit": "ms-c01",
+    "check": "ledger",
+    "term": "saya",
+    "reasons": [
+      "First assigned chapter 2; used in chapter 1."
+    ],
+    "evidence": [
+      {
+        "source": "Greetings · Learner pack|4|2",
+        "text": "Saya pun baik. Terima kasih."
+      }
+    ]
+  },
+  "ms-c02a|ledger|dari mana": {
+    "unit": "ms-c02a",
+    "check": "ledger",
+    "term": "dari mana",
+    "reasons": [
+      "First assigned chapter 7; used in chapter 2."
+    ],
+    "evidence": [
+      {
+        "source": "Introductions · Learner pack|4|1",
+        "text": "Saya Farah. Emi dari mana?"
+      }
+    ]
+  },
+  "ms-c02a|ledger|sekarang": {
+    "unit": "ms-c02a",
+    "check": "ledger",
+    "term": "sekarang",
+    "reasons": [
+      "First assigned chapter 4; used in chapter 2."
+    ],
+    "evidence": [
+      {
+        "source": "Introductions · Learner pack|4|2",
+        "text": "Saya dari Jepun. Sekarang saya tinggal di PJ."
+      }
+    ]
+  },
+  "ms-c03a|ledger|nak": {
+    "unit": "ms-c03a",
+    "check": "ledger",
+    "term": "nak",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Counting and quantities · Learner pack|4|0",
+        "text": "Nak berapa tiket?"
+      }
+    ]
+  },
+  "ms-c03a|ledger|tiket": {
+    "unit": "ms-c03a",
+    "check": "ledger",
+    "term": "tiket",
+    "reasons": [
+      "First assigned chapter 4; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Counting and quantities · Learner pack|4|0",
+        "text": "Nak berapa tiket?"
+      },
+      {
+        "source": "Counting and quantities · Learner pack|4|1",
+        "text": "Dua belas tiket."
+      }
+    ]
+  },
+  "ms-c03a|register|nak": {
+    "unit": "ms-c03a",
+    "check": "register",
+    "term": "nak",
+    "reasons": [
+      "Standard mahu has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Counting and quantities · Learner pack|4|0",
+        "text": "Nak berapa tiket?"
+      }
+    ]
+  },
+  "ms-c03a|register|saja": {
+    "unit": "ms-c03a",
+    "check": "register",
+    "term": "saja",
+    "reasons": [
+      "Standard sahaja has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Counting and quantities · Learner pack|4|3",
+        "text": "Bukan, dua belas saja."
+      }
+    ]
+  },
+  "ms-c03b|ledger|air": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "air",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Ringgit and sen · Learner pack|4|0",
+        "text": "Air ini berapa?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|ambil": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "ambil",
+    "reasons": [
+      "First assigned chapter 4; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|3|7",
+        "text": "Kalau ambil dua epal dan pisang, semua tujuh ringgit?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|beg": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "beg",
+    "reasons": [
+      "First assigned chapter 8; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|4|0",
+        "text": "Ya, betul. Nak beg?"
+      },
+      {
+        "source": "Beli buah di pasar|4|1",
+        "text": "Tak nak, saya ada beg."
+      },
+      {
+        "source": "Beli buah di pasar|6|0",
+        "text": "____. Nak beg sekali?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|besar": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "besar",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|5|5",
+        "text": "Kalau satu besar dan satu kecil, sama harga?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|biji": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "biji",
+    "reasons": [
+      "First assigned chapter 8; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar · Learner pack|3|1",
+        "text": "sebiji"
+      },
+      {
+        "source": "Beli buah di pasar · Learner pack|4|2",
+        "text": "Ada. Nak berapa biji?"
+      },
+      {
+        "source": "Beli buah di pasar · Learner pack|4|3",
+        "text": "Dua biji. Berapa harga satu?"
+      },
+      {
+        "source": "Beli buah di pasar · Learner pack|6|0",
+        "text": "Anda jual epal RM2 sebiji dan pisang RM3 setandan."
+      },
+      {
+        "source": "Beli buah di pasar|3|2",
+        "text": "Ada. Nak berapa biji?"
+      },
+      {
+        "source": "Beli buah di pasar|3|3",
+        "text": "Dua biji. Berapa harga satu?"
+      },
+      {
+        "source": "Beli buah di pasar|5|2",
+        "text": "Tiga ringgit sebiji. Nak berapa?"
+      },
+      {
+        "source": "Beli buah di pasar|7|1",
+        "text": "Anda jual epal RM2 sebiji dan pisang RM3 setandan."
+      },
+      {
+        "source": "Jumlah buah|3|0",
+        "text": "Satu biji epal. Dua biji epal."
+      },
+      {
+        "source": "Pesanan buah|3|0",
+        "text": "Nak dua biji epal merah."
+      },
+      {
+        "source": "Pesanan buah|3|1",
+        "text": "Boleh beli dua biji epal merah untuk saya?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|buka": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "buka",
+    "reasons": [
+      "First assigned chapter 4; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|6|3",
+        "text": "Esok buka pukul ____?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|hari ini": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "hari ini",
+    "reasons": [
+      "First assigned chapter 4; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|5|0",
+        "text": "Nak buah apa hari ini?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|hijau": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "hijau",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|4|5",
+        "text": "Ya. Boleh campur epal hijau lain kali?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|kalau": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "kalau",
+    "reasons": [
+      "First assigned chapter 7; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|3|7",
+        "text": "Kalau ambil dua epal dan pisang, semua tujuh ringgit?"
+      },
+      {
+        "source": "Beli buah di pasar|5|5",
+        "text": "Kalau satu besar dan satu kecil, sama harga?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|kecil": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "kecil",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|3|6",
+        "text": "Ada. Pisang ni tiga ringgit setandan kecil."
+      },
+      {
+        "source": "Beli buah di pasar|5|4",
+        "text": "Manis. Yang kecil masam sikit."
+      },
+      {
+        "source": "Beli buah di pasar|5|5",
+        "text": "Kalau satu besar dan satu kecil, sama harga?"
+      },
+      {
+        "source": "Beli buah di pasar|5|6",
+        "text": "Yang kecil dua ringgit. Semua lima ringgit."
+      },
+      {
+        "source": "Beli buah di pasar|5|7",
+        "text": "Saya ada empat ringgit saja. Dua yang kecil boleh?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|lain": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "lain",
+    "reasons": [
+      "First assigned chapter 6; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|3|4",
+        "text": "Satu dua ringgit. Nak buah lain?"
+      },
+      {
+        "source": "Beli buah di pasar|4|5",
+        "text": "Ya. Boleh campur epal hijau lain kali?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|macam mana": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "macam mana",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|4|2",
+        "text": "Nak bayar macam mana?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|manis": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "manis",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|5|3",
+        "text": "Saya nak dua ____. Yang ini manis tak?"
+      },
+      {
+        "source": "Beli buah di pasar|5|4",
+        "text": "Manis. Yang kecil masam sikit."
+      }
+    ]
+  },
+  "ms-c03b|ledger|masam": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "masam",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|5|4",
+        "text": "Manis. Yang kecil masam sikit."
+      }
+    ]
+  },
+  "ms-c03b|ledger|merah": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "merah",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar · Learner pack|4|1",
+        "text": "Nak epal. Epal merah ada?"
+      },
+      {
+        "source": "Beli buah di pasar · Learner pack|6|1",
+        "text": "Epal merah tinggal satu."
+      },
+      {
+        "source": "Beli buah di pasar|3|1",
+        "text": "Nak epal. Epal merah ada?"
+      },
+      {
+        "source": "Beli buah di pasar|9|0",
+        "text": "Epal merah tinggal satu."
+      },
+      {
+        "source": "Jumlah buah|6|0",
+        "text": "Epal merah tinggal satu."
+      },
+      {
+        "source": "Pesanan buah|3|0",
+        "text": "Nak dua biji epal merah."
+      },
+      {
+        "source": "Pesanan buah|3|1",
+        "text": "Boleh beli dua biji epal merah untuk saya?"
+      },
+      {
+        "source": "Pesanan buah|6|0",
+        "text": "Epal merah tinggal satu."
+      }
+    ]
+  },
+  "ms-c03b|ledger|nak": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "nak",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar · Learner pack|4|0",
+        "text": "Nak buah apa?"
+      },
+      {
+        "source": "Beli buah di pasar · Learner pack|4|1",
+        "text": "Nak epal. Epal merah ada?"
+      },
+      {
+        "source": "Beli buah di pasar · Learner pack|4|2",
+        "text": "Ada. Nak berapa biji?"
+      },
+      {
+        "source": "Beli buah di pasar · Learner pack|5|0",
+        "text": "Saya nak dua ____ epal."
+      },
+      {
+        "source": "Beli buah di pasar|3|0",
+        "text": "Nak buah apa?"
+      },
+      {
+        "source": "Beli buah di pasar|3|1",
+        "text": "Nak epal. Epal merah ada?"
+      },
+      {
+        "source": "Beli buah di pasar|3|2",
+        "text": "Ada. Nak berapa biji?"
+      },
+      {
+        "source": "Beli buah di pasar|3|4",
+        "text": "Satu dua ringgit. Nak buah lain?"
+      },
+      {
+        "source": "Beli buah di pasar|3|5",
+        "text": "Pisang ada? Saya nak sikit saja."
+      },
+      {
+        "source": "Beli buah di pasar|4|0",
+        "text": "Ya, betul. Nak beg?"
+      },
+      {
+        "source": "Beli buah di pasar|4|1",
+        "text": "Tak nak, saya ada beg."
+      },
+      {
+        "source": "Beli buah di pasar|4|2",
+        "text": "Nak bayar macam mana?"
+      },
+      {
+        "source": "Beli buah di pasar|5|0",
+        "text": "Nak buah apa hari ini?"
+      },
+      {
+        "source": "Beli buah di pasar|5|1",
+        "text": "Nak mangga. Berapa ____ satu?"
+      },
+      {
+        "source": "Beli buah di pasar|5|2",
+        "text": "Tiga ringgit sebiji. Nak berapa?"
+      },
+      {
+        "source": "Beli buah di pasar|5|3",
+        "text": "Saya nak dua ____. Yang ini manis tak?"
+      },
+      {
+        "source": "Beli buah di pasar|6|0",
+        "text": "____. Nak beg sekali?"
+      },
+      {
+        "source": "Beli buah di pasar|6|1",
+        "text": "Tak nak. Ini duit."
+      },
+      {
+        "source": "Beli buah di pasar|6|4",
+        "text": "Pukul lapan. Nak datang lagi?"
+      },
+      {
+        "source": "Beli buah di pasar|6|5",
+        "text": "Ya, saya nak beli untuk kawan."
+      },
+      {
+        "source": "Jumlah buah|4|0",
+        "text": "Saya nak dua ____ epal."
+      },
+      {
+        "source": "Pesanan buah|3|0",
+        "text": "Nak dua biji epal merah."
+      }
+    ]
+  },
+  "ms-c03b|ledger|pukul": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "pukul",
+    "reasons": [
+      "First assigned chapter 4; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|6|3",
+        "text": "Esok buka pukul ____?"
+      },
+      {
+        "source": "Beli buah di pasar|6|4",
+        "text": "Pukul lapan. Nak datang lagi?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|sama": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "sama",
+    "reasons": [
+      "First assigned chapter 6; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|5|5",
+        "text": "Kalau satu besar dan satu kecil, sama harga?"
+      }
+    ]
+  },
+  "ms-c03b|ledger|semua": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "semua",
+    "reasons": [
+      "First assigned chapter 8; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|3|7",
+        "text": "Kalau ambil dua epal dan pisang, semua tujuh ringgit?"
+      },
+      {
+        "source": "Beli buah di pasar|5|6",
+        "text": "Yang kecil dua ringgit. Semua lima ringgit."
+      }
+    ]
+  },
+  "ms-c03b|ledger|sikit": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "sikit",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|3|5",
+        "text": "Pisang ada? Saya nak sikit saja."
+      },
+      {
+        "source": "Beli buah di pasar|5|4",
+        "text": "Manis. Yang kecil masam sikit."
+      }
+    ]
+  },
+  "ms-c03b|ledger|yang": {
+    "unit": "ms-c03b",
+    "check": "ledger",
+    "term": "yang",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|5|3",
+        "text": "Saya nak dua ____. Yang ini manis tak?"
+      },
+      {
+        "source": "Beli buah di pasar|5|4",
+        "text": "Manis. Yang kecil masam sikit."
+      },
+      {
+        "source": "Beli buah di pasar|5|6",
+        "text": "Yang kecil dua ringgit. Semua lima ringgit."
+      },
+      {
+        "source": "Beli buah di pasar|5|7",
+        "text": "Saya ada empat ringgit saja. Dua yang kecil boleh?"
+      },
+      {
+        "source": "Pesanan buah|3|2",
+        "text": "Beli yang itu."
+      }
+    ]
+  },
+  "ms-c03b|register|macam mana": {
+    "unit": "ms-c03b",
+    "check": "register",
+    "term": "macam mana",
+    "reasons": [
+      "Standard bagaimana has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|4|2",
+        "text": "Nak bayar macam mana?"
+      }
+    ]
+  },
+  "ms-c03b|register|nak": {
+    "unit": "ms-c03b",
+    "check": "register",
+    "term": "nak",
+    "reasons": [
+      "Standard mahu has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar · Learner pack|4|0",
+        "text": "Nak buah apa?"
+      },
+      {
+        "source": "Beli buah di pasar · Learner pack|4|1",
+        "text": "Nak epal. Epal merah ada?"
+      },
+      {
+        "source": "Beli buah di pasar · Learner pack|4|2",
+        "text": "Ada. Nak berapa biji?"
+      },
+      {
+        "source": "Beli buah di pasar · Learner pack|5|0",
+        "text": "Saya nak dua ____ epal."
+      },
+      {
+        "source": "Beli buah di pasar|3|0",
+        "text": "Nak buah apa?"
+      },
+      {
+        "source": "Beli buah di pasar|3|1",
+        "text": "Nak epal. Epal merah ada?"
+      },
+      {
+        "source": "Beli buah di pasar|3|2",
+        "text": "Ada. Nak berapa biji?"
+      },
+      {
+        "source": "Beli buah di pasar|3|4",
+        "text": "Satu dua ringgit. Nak buah lain?"
+      },
+      {
+        "source": "Beli buah di pasar|3|5",
+        "text": "Pisang ada? Saya nak sikit saja."
+      },
+      {
+        "source": "Beli buah di pasar|4|0",
+        "text": "Ya, betul. Nak beg?"
+      },
+      {
+        "source": "Beli buah di pasar|4|1",
+        "text": "Tak nak, saya ada beg."
+      },
+      {
+        "source": "Beli buah di pasar|4|2",
+        "text": "Nak bayar macam mana?"
+      },
+      {
+        "source": "Beli buah di pasar|5|0",
+        "text": "Nak buah apa hari ini?"
+      },
+      {
+        "source": "Beli buah di pasar|5|1",
+        "text": "Nak mangga. Berapa ____ satu?"
+      },
+      {
+        "source": "Beli buah di pasar|5|2",
+        "text": "Tiga ringgit sebiji. Nak berapa?"
+      },
+      {
+        "source": "Beli buah di pasar|5|3",
+        "text": "Saya nak dua ____. Yang ini manis tak?"
+      },
+      {
+        "source": "Beli buah di pasar|6|0",
+        "text": "____. Nak beg sekali?"
+      },
+      {
+        "source": "Beli buah di pasar|6|1",
+        "text": "Tak nak. Ini duit."
+      },
+      {
+        "source": "Beli buah di pasar|6|4",
+        "text": "Pukul lapan. Nak datang lagi?"
+      },
+      {
+        "source": "Beli buah di pasar|6|5",
+        "text": "Ya, saya nak beli untuk kawan."
+      },
+      {
+        "source": "Jumlah buah|4|0",
+        "text": "Saya nak dua ____ epal."
+      },
+      {
+        "source": "Pesanan buah|3|0",
+        "text": "Nak dua biji epal merah."
+      }
+    ]
+  },
+  "ms-c03b|register|ni": {
+    "unit": "ms-c03b",
+    "check": "register",
+    "term": "ni",
+    "reasons": [
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|3|6",
+        "text": "Ada. Pisang ni tiga ringgit setandan kecil."
+      }
+    ]
+  },
+  "ms-c03b|register|saja": {
+    "unit": "ms-c03b",
+    "check": "register",
+    "term": "saja",
+    "reasons": [
+      "Standard sahaja has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|3|5",
+        "text": "Pisang ada? Saya nak sikit saja."
+      },
+      {
+        "source": "Beli buah di pasar|5|7",
+        "text": "Saya ada empat ringgit saja. Dua yang kecil boleh?"
+      }
+    ]
+  },
+  "ms-c03b|register|sikit": {
+    "unit": "ms-c03b",
+    "check": "register",
+    "term": "sikit",
+    "reasons": [
+      "Standard sedikit has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|3|5",
+        "text": "Pisang ada? Saya nak sikit saja."
+      },
+      {
+        "source": "Beli buah di pasar|5|4",
+        "text": "Manis. Yang kecil masam sikit."
+      }
+    ]
+  },
+  "ms-c03b|register|tak": {
+    "unit": "ms-c03b",
+    "check": "register",
+    "term": "tak",
+    "reasons": [
+      "Standard tidak has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Beli buah di pasar|4|1",
+        "text": "Tak nak, saya ada beg."
+      },
+      {
+        "source": "Beli buah di pasar|5|3",
+        "text": "Saya nak dua ____. Yang ini manis tak?"
+      },
+      {
+        "source": "Beli buah di pasar|6|1",
+        "text": "Tak nak. Ini duit."
+      }
+    ]
+  },
+  "ms-c03c|ledger|guna": {
+    "unit": "ms-c03c",
+    "check": "ledger",
+    "term": "guna",
+    "reasons": [
+      "First assigned chapter 4; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Order and floors · Learner pack|4|1",
+        "text": "Ada tiga. Guna pintu kedua."
+      }
+    ]
+  },
+  "ms-c03c|ledger|pintu": {
+    "unit": "ms-c03c",
+    "check": "ledger",
+    "term": "pintu",
+    "reasons": [
+      "First assigned chapter 7; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Order and floors · Learner pack|4|0",
+        "text": "Ada berapa pintu?"
+      },
+      {
+        "source": "Order and floors · Learner pack|4|1",
+        "text": "Ada tiga. Guna pintu kedua."
+      },
+      {
+        "source": "Order and floors · Learner pack|4|2",
+        "text": "Yang ini pintu pertama?"
+      },
+      {
+        "source": "Order and floors · Learner pack|4|3",
+        "text": "Ya. Pintu selepas itu pintu kedua."
+      },
+      {
+        "source": "Order and floors · Learner pack|5|0",
+        "text": "Pintu nombor satu ialah pintu ____."
+      },
+      {
+        "source": "Order and floors · Learner pack|5|1",
+        "text": "Pintu selepas pintu kedua ialah pintu ____."
+      }
+    ]
+  },
+  "ms-c03c|ledger|tingkat": {
+    "unit": "ms-c03c",
+    "check": "ledger",
+    "term": "tingkat",
+    "reasons": [
+      "First assigned chapter 7; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Order and floors · Learner pack|3|4",
+        "text": "tingkat"
+      }
+    ]
+  },
+  "ms-c03c|ledger|yang": {
+    "unit": "ms-c03c",
+    "check": "ledger",
+    "term": "yang",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 3."
+    ],
+    "evidence": [
+      {
+        "source": "Order and floors · Learner pack|4|2",
+        "text": "Yang ini pintu pertama?"
+      }
+    ]
+  },
+  "ms-c04a|ledger|atau": {
+    "unit": "ms-c04a",
+    "check": "ledger",
+    "term": "atau",
+    "reasons": [
+      "First assigned chapter 5; used in chapter 4."
+    ],
+    "evidence": [
+      {
+        "source": "Clock time · Learner pack|4|2",
+        "text": "Pagi atau petang?"
+      }
+    ]
+  },
+  "ms-c04b|register|saja": {
+    "unit": "ms-c04b",
+    "check": "register",
+    "term": "saja",
+    "reasons": [
+      "Standard sahaja has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Frequency and routines · Learner pack|4|1",
+        "text": "Tak selalu. Dua kali seminggu saja."
+      }
+    ]
+  },
+  "ms-c04b|register|tak": {
+    "unit": "ms-c04b",
+    "check": "register",
+    "term": "tak",
+    "reasons": [
+      "Standard tidak has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Frequency and routines · Learner pack|4|1",
+        "text": "Tak selalu. Dua kali seminggu saja."
+      }
+    ]
+  },
+  "ms-c05|ledger|atas": {
+    "unit": "ms-c05",
+    "check": "ledger",
+    "term": "atas",
+    "reasons": [
+      "First assigned chapter 7; used in chapter 5."
+    ],
+    "evidence": [
+      {
+        "source": "Size and shape · Learner pack|4|2",
+        "text": "Yang di atas rak tinggi itu?"
+      }
+    ]
+  },
+  "ms-c05|ledger|bawah": {
+    "unit": "ms-c05",
+    "check": "ledger",
+    "term": "bawah",
+    "reasons": [
+      "First assigned chapter 7; used in chapter 5."
+    ],
+    "evidence": [
+      {
+        "source": "Size and shape · Learner pack|4|3",
+        "text": "Ya, bukan buku tebal di bawah."
+      }
+    ]
+  },
+  "ms-c05|ledger|kalau": {
+    "unit": "ms-c05",
+    "check": "ledger",
+    "term": "kalau",
+    "reasons": [
+      "First assigned chapter 7; used in chapter 5."
+    ],
+    "evidence": [
+      {
+        "source": "Taste and colour · Learner pack|4|3",
+        "text": "Kalau begitu, saya nak yang manis."
+      }
+    ]
+  },
+  "ms-c05|ledger|yang mana": {
+    "unit": "ms-c05",
+    "check": "ledger",
+    "term": "yang mana",
+    "reasons": [
+      "First assigned chapter 6; used in chapter 5."
+    ],
+    "evidence": [
+      {
+        "source": "Taste and colour · Learner pack|4|0",
+        "text": "Nak sos yang mana?"
+      },
+      {
+        "source": "Size and shape · Learner pack|4|0",
+        "text": "Nak buku yang mana?"
+      }
+    ]
+  },
+  "ms-c05|register|nak": {
+    "unit": "ms-c05",
+    "check": "register",
+    "term": "nak",
+    "reasons": [
+      "Standard mahu has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Taste and colour · Learner pack|4|0",
+        "text": "Nak sos yang mana?"
+      },
+      {
+        "source": "Taste and colour · Learner pack|4|3",
+        "text": "Kalau begitu, saya nak yang manis."
+      },
+      {
+        "source": "Size and shape · Learner pack|4|0",
+        "text": "Nak buku yang mana?"
+      }
+    ]
+  },
+  "ms-c05|register|sikit": {
+    "unit": "ms-c05",
+    "check": "register",
+    "term": "sikit",
+    "reasons": [
+      "Standard sedikit has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Taste and colour · Learner pack|4|2",
+        "text": "Pedas sikit. Yang ini manis."
+      }
+    ]
+  },
+  "ms-c05|register|tak": {
+    "unit": "ms-c05",
+    "check": "register",
+    "term": "tak",
+    "reasons": [
+      "Standard tidak has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Taste and colour · Learner pack|4|1",
+        "text": "Yang merah itu pedas tak?"
+      }
+    ]
+  },
+  "ms-c06|ledger|antara": {
+    "unit": "ms-c06",
+    "check": "ledger",
+    "term": "antara",
+    "reasons": [
+      "First assigned chapter 7; used in chapter 6."
+    ],
+    "evidence": [
+      {
+        "source": "Comparisons and superlatives · Learner pack|4|2",
+        "text": "Antara tiga buku ini, yang mana paling kelakar?"
+      }
+    ]
+  },
+  "ms-c06|register|tapi": {
+    "unit": "ms-c06",
+    "check": "register",
+    "term": "tapi",
+    "reasons": [
+      "Standard tetapi has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Comparisons and superlatives · Learner pack|4|1",
+        "text": "Ya. Tapi buku B lebih kelakar."
+      }
+    ]
+  },
+  "ms-c07|register|nak": {
+    "unit": "ms-c07",
+    "check": "register",
+    "term": "nak",
+    "reasons": [
+      "Standard mahu has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Asking where · Learner pack|4|3",
+        "text": "Tak jauh. Saya pun nak pergi ke sana."
+      },
+      {
+        "source": "Asking where · Learner pack|5|1",
+        "text": "Saya nak pergi ____ bank."
+      },
+      {
+        "source": "Di, ke and dari|3|1",
+        "text": "Saya nak pergi ke Pasar Seni."
+      },
+      {
+        "source": "Di, ke and dari|4|2",
+        "text": "Saya nak pergi ____ kelas."
+      },
+      {
+        "source": "Di, ke and dari|5|1",
+        "text": "anda di mana? Nak pergi ke mana? Dari mana?"
+      }
+    ]
+  },
+  "ms-c07|register|tak": {
+    "unit": "ms-c07",
+    "check": "register",
+    "term": "tak",
+    "reasons": [
+      "Standard tidak has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Asking where · Learner pack|4|3",
+        "text": "Tak jauh. Saya pun nak pergi ke sana."
+      }
+    ]
+  },
+  "ms-c12|ledger|jelas": {
+    "unit": "ms-c12",
+    "check": "ledger",
+    "term": "jelas",
+    "reasons": [
+      "Ledger entry exists but has no chapter assignment."
+    ],
+    "evidence": [
+      {
+        "source": "A clear pickup message|3|3",
+        "text": "Yang mana jelas untuk minta tolong?"
+      }
+    ]
+  },
+  "ms-c12|ledger|minta tolong": {
+    "unit": "ms-c12",
+    "check": "ledger",
+    "term": "minta tolong",
+    "reasons": [
+      "Ledger entry exists but has no chapter assignment."
+    ],
+    "evidence": [
+      {
+        "source": "A clear pickup message|3|3",
+        "text": "Yang mana jelas untuk minta tolong?"
+      }
+    ]
+  },
+  "ms-c12|ledger|pesanan": {
+    "unit": "ms-c12",
+    "check": "ledger",
+    "term": "pesanan",
+    "reasons": [
+      "Ledger entry exists but has no chapter assignment."
+    ],
+    "evidence": [
+      {
+        "source": "Ambil bungkusan di lobi|5|1",
+        "text": "Maaf, lori ____ sampai. Ada nombor pesanan?"
+      }
+    ]
+  },
+  "ms-c12|ledger|unit": {
+    "unit": "ms-c12",
+    "check": "ledger",
+    "term": "unit",
+    "reasons": [
+      "Ledger entry exists but has no chapter assignment."
+    ],
+    "evidence": [
+      {
+        "source": "Ambil bungkusan di lobi · Learner pack|3|1",
+        "text": "unit"
+      },
+      {
+        "source": "Ambil bungkusan di lobi · Learner pack|4|1",
+        "text": "Nama siapa? Ada nombor unit?"
+      },
+      {
+        "source": "Ambil bungkusan di lobi · Learner pack|4|2",
+        "text": "Unit B-12. Nama saya Aki."
+      },
+      {
+        "source": "Ambil bungkusan di lobi|3|1",
+        "text": "Nama siapa? Ada nombor unit?"
+      },
+      {
+        "source": "Ambil bungkusan di lobi|3|2",
+        "text": "Unit B-12. Nama saya Aki."
+      },
+      {
+        "source": "Ambil bungkusan di lobi|3|5",
+        "text": "Yang kecil ni untuk unit B-21."
+      },
+      {
+        "source": "Ambil bungkusan di lobi|5|0",
+        "text": "Ada kotak untuk unit D-6?"
+      },
+      {
+        "source": "Ambil bungkusan di lobi|5|7",
+        "text": "Mesej dari awak dan nombor unit."
+      },
+      {
+        "source": "Mesej untuk pengawal|3|0",
+        "text": "Saya akan ambil kotak unit C-3 pukul enam."
+      },
+      {
+        "source": "Mesej untuk pengawal|3|1",
+        "text": "Boleh simpan kotak kecil untuk unit C-3 sampai pukul enam?"
+      }
+    ]
+  },
+  "ms-c12|register|dah": {
+    "unit": "ms-c12",
+    "check": "register",
+    "term": "dah",
+    "reasons": [
+      "Standard sudah has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Ambil bungkusan di lobi · Learner pack|3|2",
+        "text": "dah sampai"
+      },
+      {
+        "source": "Ambil bungkusan di lobi · Learner pack|4|0",
+        "text": "Saya nak ambil bungkusan. Dah sampai?"
+      },
+      {
+        "source": "Ambil bungkusan di lobi|3|0",
+        "text": "Saya nak ambil bungkusan. Dah sampai?"
+      },
+      {
+        "source": "Ambil bungkusan di lobi|6|4",
+        "text": "Sekarang kotak saya dah sampai ke?"
+      },
+      {
+        "source": "Dah atau belum|3|0",
+        "text": "Kotak dah sampai. Saya belum ambil."
+      }
+    ]
+  },
+  "ms-c12|register|macam tu": {
+    "unit": "ms-c12",
+    "check": "register",
+    "term": "macam tu",
+    "reasons": [
+      "Standard seperti itu has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Ambil bungkusan di lobi|6|2",
+        "text": "Kalau macam tu, saya ambil esok. Perlu tulis nama sekarang?"
+      }
+    ]
+  },
+  "ms-c12|register|nak": {
+    "unit": "ms-c12",
+    "check": "register",
+    "term": "nak",
+    "reasons": [
+      "Standard mahu has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Ambil bungkusan di lobi · Learner pack|4|0",
+        "text": "Saya nak ambil bungkusan. Dah sampai?"
+      },
+      {
+        "source": "Ambil bungkusan di lobi|3|0",
+        "text": "Saya nak ambil bungkusan. Dah sampai?"
+      },
+      {
+        "source": "Ambil bungkusan di lobi|4|3",
+        "text": "Sama. Nak ambil sekarang?"
+      },
+      {
+        "source": "Ambil bungkusan di lobi|5|3",
+        "text": "Mungkin pukul tiga. Nak tunggu atau datang lagi?"
+      }
+    ]
+  },
+  "ms-c12|register|ni": {
+    "unit": "ms-c12",
+    "check": "register",
+    "term": "ni",
+    "reasons": [
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Ambil bungkusan di lobi|3|5",
+        "text": "Yang kecil ni untuk unit B-21."
+      }
+    ]
+  },
+  "ms-c12|register|tak": {
+    "unit": "ms-c12",
+    "check": "register",
+    "term": "tak",
+    "reasons": [
+      "Standard tidak has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Ambil bungkusan di lobi|3|4",
+        "text": "Kotak kecil. Ada nama saya tak?"
+      },
+      {
+        "source": "Ambil bungkusan di lobi|4|2",
+        "text": "Ini mesejnya. Nombor sama tak?"
+      },
+      {
+        "source": "Ambil bungkusan di lobi|6|1",
+        "text": "Tak. Kami tutup pukul lima. Esok pun ____."
+      },
+      {
+        "source": "Ambil bungkusan di lobi|6|3",
+        "text": "Tak perlu. Semak nama bila ambil nanti."
+      }
+    ]
+  },
+  "ms-c12|register|tu": {
+    "unit": "ms-c12",
+    "check": "register",
+    "term": "tu",
+    "reasons": [
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Ambil bungkusan di lobi|6|2",
+        "text": "Kalau macam tu, saya ambil esok. Perlu tulis nama sekarang?"
+      }
+    ]
+  },
+  "ms-extension-a2-lunch|register|dah": {
+    "unit": "ms-extension-a2-lunch",
+    "check": "register",
+    "term": "dah",
+    "reasons": [
+      "Standard sudah has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Lunch at a Malaysian stall|5|0",
+        "text": "Maaf, mi goreng belum sampai. Dah siap?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|6|1",
+        "text": "Maaf, nasi lemak dah ____."
+      },
+      {
+        "source": "Lunch at a Malaysian stall|10|1",
+        "text": "Nasi lemak dah habis."
+      }
+    ]
+  },
+  "ms-extension-a2-lunch|register|macam mana": {
+    "unit": "ms-extension-a2-lunch",
+    "check": "register",
+    "term": "macam mana",
+    "reasons": [
+      "Standard bagaimana has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Lunch at a Malaysian stall|8|5",
+        "text": "Boleh. Ini air kosong. Nak bayar macam mana?"
+      }
+    ]
+  },
+  "ms-extension-a2-lunch|register|macam tu": {
+    "unit": "ms-extension-a2-lunch",
+    "check": "register",
+    "term": "macam tu",
+    "reasons": [
+      "Standard seperti itu has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Lunch at a Malaysian stall|6|2",
+        "text": "Kalau macam tu, ada apa ____?"
+      }
+    ]
+  },
+  "ms-extension-a2-lunch|register|nak": {
+    "unit": "ms-extension-a2-lunch",
+    "check": "register",
+    "term": "nak",
+    "reasons": [
+      "Standard mahu has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Lunch at a Malaysian stall|3|0",
+        "text": "Nak nasi ayam satu. Ada lagi?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|3|1",
+        "text": "Ada. Nak makan sini ke bungkus?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|3|2",
+        "text": "Makan sini. Kawan saya pun nak makan."
+      },
+      {
+        "source": "Lunch at a Malaysian stall|3|3",
+        "text": "Dia nak nasi ayam juga?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|3|5",
+        "text": "Ada. Nak satu pinggan?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|4|3",
+        "text": "Boleh. Kawan nak minum apa?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|4|4",
+        "text": "Dia nak air kosong. Berapa harga teh ais?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|4|7",
+        "text": "Dua ringgit. Nak tukar?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|4|9",
+        "text": "Baik. Nak ais?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|4|10",
+        "text": "Satu dengan ais, satu lagi tak nak ais."
+      },
+      {
+        "source": "Lunch at a Malaysian stall|6|0",
+        "text": "Nak nasi lemak satu. Ada lagi?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|6|5",
+        "text": "Pedas sikit. Nak cuba nasi ayam?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|6|6",
+        "text": "Ya. Kalau nak sambal asing, boleh?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|6|7",
+        "text": "____. Nak makan sini atau bungkus?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|7|0",
+        "text": "Saya nak ____. Nasi ayam berapa?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|7|1",
+        "text": "Lapan ringgit. Nak air juga?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|7|6",
+        "text": "Baik. Air kosong satu, tak nak ais."
+      },
+      {
+        "source": "Lunch at a Malaysian stall|7|7",
+        "text": "Baik. Nak sudu sekali?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|8|5",
+        "text": "Boleh. Ini air kosong. Nak bayar macam mana?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|9|1",
+        "text": "Nak nasi lemak dan air."
+      },
+      {
+        "source": "Lunch at a Malaysian stall|9|2",
+        "text": "Kawan tak nak makanan pedas."
+      },
+      {
+        "source": "Lunch at a Malaysian stall|9|3",
+        "text": "Tiba-tiba kawan nak bungkus."
+      }
+    ]
+  },
+  "ms-extension-a2-lunch|register|ni": {
+    "unit": "ms-extension-a2-lunch",
+    "check": "register",
+    "term": "ni",
+    "reasons": [
+      "Standard ini has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Lunch at a Malaysian stall|4|0",
+        "text": "Air apa yang ada hari ni?"
+      }
+    ]
+  },
+  "ms-extension-a2-lunch|register|saja": {
+    "unit": "ms-extension-a2-lunch",
+    "check": "register",
+    "term": "saja",
+    "reasons": [
+      "Standard sahaja has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Lunch at a Malaysian stall|4|6",
+        "text": "Kalau dua air kosong saja?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|4|8",
+        "text": "Ya, dua air kosong saja."
+      },
+      {
+        "source": "Lunch at a Malaysian stall|5|5",
+        "text": "Maaf, tunai atau QR saja."
+      }
+    ]
+  },
+  "ms-extension-a2-lunch|register|sikit": {
+    "unit": "ms-extension-a2-lunch",
+    "check": "register",
+    "term": "sikit",
+    "reasons": [
+      "Standard sedikit has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Lunch at a Malaysian stall|6|5",
+        "text": "Pedas sikit. Nak cuba nasi ayam?"
+      }
+    ]
+  },
+  "ms-extension-a2-lunch|register|tak": {
+    "unit": "ms-extension-a2-lunch",
+    "check": "register",
+    "term": "tak",
+    "reasons": [
+      "Standard tidak has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Lunch at a Malaysian stall|3|4",
+        "text": "Dia tak makan ayam. Ada mi goreng?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|3|6",
+        "text": "Ya. Mi tu pedas tak?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|3|7",
+        "text": "Tak pedas. Sambal ada di tepi."
+      },
+      {
+        "source": "Lunch at a Malaysian stall|4|10",
+        "text": "Satu dengan ais, satu lagi tak nak ais."
+      },
+      {
+        "source": "Lunch at a Malaysian stall|6|4",
+        "text": "Mi goreng ____ tak?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|7|4",
+        "text": "Kalau ambil air kosong, cukup tak?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|7|6",
+        "text": "Baik. Air kosong satu, tak nak ais."
+      },
+      {
+        "source": "Lunch at a Malaysian stall|9|2",
+        "text": "Kawan tak nak makanan pedas."
+      }
+    ]
+  },
+  "ms-extension-a2-lunch|register|tu": {
+    "unit": "ms-extension-a2-lunch",
+    "check": "register",
+    "term": "tu",
+    "reasons": [
+      "Standard itu has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Lunch at a Malaysian stall|3|6",
+        "text": "Ya. Mi tu pedas tak?"
+      },
+      {
+        "source": "Lunch at a Malaysian stall|6|2",
+        "text": "Kalau macam tu, ada apa ____?"
+      }
+    ]
+  },
+  "ms-supplementary-b1|register|dah": {
+    "unit": "ms-supplementary-b1",
+    "check": "register",
+    "term": "dah",
+    "reasons": [
+      "Standard sudah has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Mesej tukar giliran|3|2",
+        "text": "Kami dah tukar macam biasa."
+      }
+    ]
+  },
+  "ms-supplementary-b1|register|nak": {
+    "unit": "ms-supplementary-b1",
+    "check": "register",
+    "term": "nak",
+    "reasons": [
+      "Standard mahu has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Susun giliran di kaunter|5|1",
+        "text": "Saya nak bantu, tapi saya ada kelas ____ tengah hari."
+      },
+      {
+        "source": "Susun giliran di kaunter|5|3",
+        "text": "Sempat. Kenapa nak tukar?"
+      }
+    ]
+  },
+  "ms-supplementary-b1|register|saja": {
+    "unit": "ms-supplementary-b1",
+    "check": "register",
+    "term": "saja",
+    "reasons": [
+      "Standard sahaja has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Susun giliran di kaunter|4|5",
+        "text": "Tak perlu. Minggu ini saja."
+      },
+      {
+        "source": "Susun giliran di kaunter|6|3",
+        "text": "Boleh. Selasa minggu ini saja, betul?"
+      }
+    ]
+  },
+  "ms-supplementary-b1|register|tak": {
+    "unit": "ms-supplementary-b1",
+    "check": "register",
+    "term": "tak",
+    "reasons": [
+      "Standard tidak has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Susun giliran di kaunter · Learner pack|6|1",
+        "text": "Rakan ketiga tak dapat bantu."
+      },
+      {
+        "source": "Susun giliran di kaunter|3|5",
+        "text": "Cukup jika bas tak lewat. Ada pilihan lain?"
+      },
+      {
+        "source": "Susun giliran di kaunter|4|5",
+        "text": "Tak perlu. Minggu ini saja."
+      },
+      {
+        "source": "Susun giliran di kaunter|9|0",
+        "text": "Rakan ketiga tak dapat bantu."
+      },
+      {
+        "source": "Sebab dan akibat|6|0",
+        "text": "Rakan ketiga tak dapat bantu."
+      },
+      {
+        "source": "Mesej tukar giliran|6|0",
+        "text": "Rakan ketiga tak dapat bantu."
+      }
+    ]
+  },
+  "ms-supplementary-b1|register|tapi": {
+    "unit": "ms-supplementary-b1",
+    "check": "register",
+    "term": "tapi",
+    "reasons": [
+      "Standard tetapi has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Susun giliran di kaunter · Learner pack|4|3",
+        "text": "Saya boleh ambil giliran itu, tapi saya perlukan rehat awal."
+      },
+      {
+        "source": "Susun giliran di kaunter|3|3",
+        "text": "Saya boleh ambil giliran itu, tapi saya perlukan rehat awal."
+      },
+      {
+        "source": "Susun giliran di kaunter|5|1",
+        "text": "Saya nak bantu, tapi saya ada kelas ____ tengah hari."
+      }
+    ]
+  },
+  "ms-supplementary-b2|register|dah": {
+    "unit": "ms-supplementary-b2",
+    "check": "register",
+    "term": "dah",
+    "reasons": [
+      "Standard sudah has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Runding masa kerja pembaikan|8|2",
+        "text": "Keluarga yang dah simpan air tentu nak tahu kenapa kita tukar masa."
+      }
+    ]
+  },
+  "ms-supplementary-b2|register|nak": {
+    "unit": "ms-supplementary-b2",
+    "check": "register",
+    "term": "nak",
+    "reasons": [
+      "Standard mahu has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Runding masa kerja pembaikan|8|2",
+        "text": "Keluarga yang dah simpan air tentu nak tahu kenapa kita tukar masa."
+      }
+    ]
+  },
+  "ms-supplementary-b2|register|saja": {
+    "unit": "ms-supplementary-b2",
+    "check": "register",
+    "term": "saja",
+    "reasons": [
+      "Standard sahaja has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Runding masa kerja pembaikan|4|1",
+        "text": "Satu tangki saja yang ada. Kita boleh sediakan botol di pondok pengawal."
+      },
+      {
+        "source": "Runding masa kerja pembaikan|7|1",
+        "text": "Satu tangki saja yang ada. Kita boleh sediakan botol di pondok pengawal."
+      }
+    ]
+  },
+  "ms-supplementary-b2|register|tak": {
+    "unit": "ms-supplementary-b2",
+    "check": "register",
+    "term": "tak",
+    "reasons": [
+      "Standard tidak has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Runding masa kerja pembaikan|3|5",
+        "text": "Tak boleh. Semua tingkat guna paip yang sama."
+      },
+      {
+        "source": "Runding masa kerja pembaikan|6|5",
+        "text": "Tak boleh. Semua tingkat guna paip yang sama."
+      }
+    ]
+  },
+  "ms-supplementary-b2|register|tapi": {
+    "unit": "ms-supplementary-b2",
+    "check": "register",
+    "term": "tapi",
+    "reasons": [
+      "Standard tetapi has no earlier target-language teaching occurrence.",
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Runding masa kerja pembaikan|4|0",
+        "text": "Lobi dekat, tapi lif mungkin sesak. Boleh letak tangki di setiap blok?"
+      },
+      {
+        "source": "Runding masa kerja pembaikan|7|0",
+        "text": "Lobi dekat, tapi lif mungkin sesak. Boleh letak tangki di setiap blok?"
+      }
+    ]
+  },
+  "ms-supplementary-c1|register|tak": {
+    "unit": "ms-supplementary-c1",
+    "check": "register",
+    "term": "tak",
+    "reasons": [
+      "Spoken form lacks an explicit spoken label in prior teaching."
+    ],
+    "evidence": [
+      {
+        "source": "Menimbang dapatan tinjauan kampus|5|2",
+        "text": "Kalau sekadar sedang dinilai, pelajar masih tak tahu bagaimana mahu bersuara."
+      }
+    ]
+  }
+}
