@@ -6,7 +6,8 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 
 - **Last updated:** 11 Nov 2026, by Claude
 - **Last commit before this file:** `6b73ed7` (step 3)
-- **Step in progress:** step 4, the pilot. Approved by Sam on 11 Nov 2026; not yet started in this repository.
+- **Step in progress:** step 4, the pilot. Approved by Sam on 11 Nov 2026. ChatGPT began it but hit its usage limit before pushing anything, so step 4 starts from scratch in this repository.
+- **Snapshots:** `docs/handoff/charter-snapshot.md` and `docs/handoff/ledger-snapshot.csv`, both exported 11 Nov 2026 after the step 4 decisions below (charter includes section 6 content minimums and section 14 drill bank; ledger runs to L-1015).
 
 ## Done
 

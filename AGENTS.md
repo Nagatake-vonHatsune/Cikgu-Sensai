@@ -18,6 +18,8 @@ This repository may be worked on by ChatGPT or Claude, one at a time. These rule
 | Agreed Malay words and sentence patterns per chapter | `curriculum/reference/katakata/` (a snapshot of the Kata-Kata repository) |
 | Current state of the work | `HANDOFF.md` and `docs/STEP-*-REPORT.md` |
 
+If you cannot open Google Drive, use the dated copies in `docs/handoff/`: `charter-snapshot.md` and `ledger-snapshot.csv`. The Google versions win whenever you can read them. Whoever has Drive access refreshes the copies at a handover.
+
 A decision made only in a chat does not count. If Sam decides something, it goes into the charter, the ledger or `HANDOFF.md` before the session ends.
 
 ## Rules
