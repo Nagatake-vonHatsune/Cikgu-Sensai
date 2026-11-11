@@ -30,10 +30,13 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 
 Feedback to collect: timings per block, vocabulary load (unit 2B has 52 ledger rows), drill difficulty, and whether the fast packs fit one 45-minute session. After that, freeze the template and start step 5 (chapters 3 to 9).
 
+## Decided after step 4 (11 Nov 2026)
+
+- **No faith-specific greetings.** Sam: Assalamualaikum and Waalaikumsalam are not taught anywhere (charter section 8; ledger Rules tab). Ledger L-0009 is Retired. Both were removed from unit 1 (vocabulary, culture note, pronunciation list, teaching plan, culture-note key) and from `curriculum/malay-mentions.json`; Waalaikumsalam is not added to the ledger. Rebuilt; 31 tests pass. Ask Sam before adding any other faith-specific expression.
+
 ## Open questions for Sam
 
 - **Ledger proposals (none added):**
-  - ‹Waalaikumsalam› for chapter 1;
   - hobby nouns for chapter 2 (the ledger has none there; «badminton» is in chapter 6);
   - «sikit je» (L-0948, chapter 2), whose standard form «sedikit» is in chapter 5.
 - **Unit 2B vocabulary:** keep 52 words, or move the 14 office scene words to Block E only?
@@ -43,7 +46,7 @@ Feedback to collect: timings per block, vocabulary load (unit 2B has 52 ledger r
 
 ## Other repositories
 
-Kata-Kata (Claude Code) still needs the same ledger changes: new cards for L-0983 to L-1015, and saya and the time words moved to chapter 1. Tracked in the ledger Journal as pending.
+Kata-Kata (Claude Code) still needs the same ledger changes: new cards for L-0983 to L-1015, saya and the time words moved to chapter 1, and card ms-c01-009 (Assalamualaikum, L-0009) removed. Tracked in the ledger Journal as pending.
 
 Step 4 findings for Kata-Kata:
 - The chapter 2 scenario uses «dari mana» (ledger chapter 7) and «badminton» (chapter 6) at chapter 2.

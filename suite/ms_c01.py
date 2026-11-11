@@ -21,7 +21,7 @@ GOALS_JA = {
     'E': '初出勤のあいさつ場面を演じ、予定の変更に対応できる。',
 }
 WORDS = ['L-0001', 'L-0162', 'L-0002', 'L-0163', 'L-0003', 'L-0164', 'L-0004', 'L-0165', 'L-0005',
-         'L-0006', 'L-0028', 'L-0036', 'L-0009', 'L-0010', 'L-0011', 'L-0012', 'L-0013', 'L-0014',
+         'L-0006', 'L-0028', 'L-0036', 'L-0010', 'L-0011', 'L-0012', 'L-0013', 'L-0014',
          'L-0015', 'L-0983', 'L-0031', 'L-0032', 'L-0033', 'L-0034', 'L-0035', 'L-0016', 'L-0017',
          'L-0018', 'L-0019', 'L-0029', 'L-0030', 'L-0984', 'L-0020', 'L-0021', 'L-0022', 'L-0023',
          'L-0576', 'L-0024', 'L-0672', 'L-0025', 'L-0026', 'L-0007', 'L-0008', 'L-0027', 'L-0499']
@@ -82,8 +82,7 @@ def components(ledger):
             ('Meeting and welcome · 出会いと歓迎', [
                 ('L-0006', '«Selamat datang, Encik Kimura!»'),
                 ('L-0028', '«Saya Tanaka. Selamat berkenalan.»', dict(display='«Selamat berkenalan» (fixed phrase)')),
-                ('L-0036', '«Saya Yamada.»'),
-                ('L-0009', '«Assalamualaikum, Encik Rahman.» (between Muslims; see the culture note)')]),
+                ('L-0036', '«Saya Yamada.»')]),
             ('Asking after someone · 様子をたずねる', [
                 ('L-0010', '«Apa khabar, Puan?»'),
                 ('L-0011', '«Apa khabar, Cik Mei Ling?»'),
@@ -444,8 +443,7 @@ def components(ledger):
     # 9 · Culture and word-origin note ---------------------------------------
     culture_en = [
             '«Selamat», the first word of most greetings, comes from Arabic salāma, "wellbeing". «Selamat pagi» is a wish: may your morning be well. '
-            'The Muslim greeting «Assalamualaikum», "peace be upon you", shares the same s-l-m root; the reply is ‹Waalaikumsalam›. '
-            '«Khabar» is also Arabic and means "news", so «Apa khabar?» asks "what news?" and «Khabar baik» answers "good news".',
+                        '«Khabar» is also Arabic and means "news", so «Apa khabar?» asks "what news?" and «Khabar baik» answers "good news".',
             '«Terima kasih» joins ‹terima›, "receive", and ‹kasih›, "affection": you receive someone\'s kindness. '
             '«Tumpang tanya» pairs ‹tumpang›, "ride along", with ‹tanya›, "ask": you borrow a moment of someone\'s time.',
             'Two goodbyes depend on who moves. «Selamat jalan», "safe going", is said to the person leaving; «Selamat tinggal», "safe staying", '
@@ -460,8 +458,7 @@ def components(ledger):
         sections=[('English', culture_en),
             ('日本語', [
             'あいさつの最初の語 «Selamat» は、アラビア語の salāma（無事・平安）から来ています。«Selamat pagi» は「よい朝でありますように」という願いです。'
-            'イスラム教徒のあいさつ «Assalamualaikum»（あなたに平安を）も同じ s-l-m の語根で、返事は ‹Waalaikumsalam› です。'
-            '«Khabar» もアラビア語で「便り」の意味なので、«Apa khabar?» は「どんな便り？」、«Khabar baik» は「よい便り」です。',
+                        '«Khabar» もアラビア語で「便り」の意味なので、«Apa khabar?» は「どんな便り？」、«Khabar baik» は「よい便り」です。',
             '«Terima kasih» は ‹terima›（受け取る）と ‹kasih›（愛情）から成り、相手の好意を受け取るという意味です。'
             '«Tumpang tanya» は ‹tumpang›（相乗りする）と ‹tanya›（たずねる）で、相手の時間を少し借りる表現です。',
             '別れのあいさつは、だれが動くかで変わります。«Selamat jalan»（無事に行って）は出かける人に、«Selamat tinggal»（無事に残って）は残る人に言います。'
@@ -469,9 +466,8 @@ def components(ledger):
             '敬称も大切です。男性には «Encik»、既婚・年上の女性には «Puan»、若い女性には «Cik» を名前の前につけます。'
             '敬称だけで丁寧な「あなた」になります：«Puan pula?»。«Abang»・«Kakak»（兄・姉）は同年代の店員や運転手への親しい呼びかけ、'
             '«Pak cik»・«Mak cik»（おじさん・おばさん）は年上の人への呼びかけです。'])],
-        key=['Sources: Kata-Kata card notes ms-c01-001, 007, 008, 009, 011, 016, 019, 037 and the ledger meanings. Sam\'s own etymology notes were not available to the builder; add them here when supplied.',
-             f'English text: {english_words(culture_en)} words. Discussion prompt: which Malay greeting has no single Japanese equivalent? (Expected: «Selamat tengah hari» / «Selamat petang» split こんにちは.)',
-             'Teacher note: many Malaysians use «Assalamualaikum» only between Muslims; learners should recognise it and may answer if greeted with it.']))
+        key=['Sources: Kata-Kata card notes ms-c01-001, 007, 008, 011, 016, 019, 037 and the ledger meanings. Sam\'s own etymology notes were not available to the builder; add them here when supplied.',
+             f'English text: {english_words(culture_en)} words. Discussion prompt: which Malay greeting has no single Japanese equivalent? (Expected: «Selamat tengah hari» / «Selamat petang» split こんにちは.)']))
 
     # 10 · Chapter test and self-check ---------------------------------------
     tests = [
@@ -568,8 +564,7 @@ def components(ledger):
             ('What to listen for · 注意点', [
                 'Title before the name; no «Tanaka Encik». «pun» after the word. «Selamat jalan» from the person staying.',
                 'Final k as a catch, not a full く: «baik», «tidak». No vowel added after final consonants: «Encik», not "enchiku".',
-                'Spoken «tak» only after «tidak» has been taught, and always labelled spoken. The reply ‹Waalaikumsalam› is in a Kata-Kata note but not in the ledger: '
-                'model it orally only if asked (proposed for the ledger in the step 4 report).'])],
+                'Spoken «tak» only after «tidak» has been taught, and always labelled spoken.'])],
         key=['Answer keys are on each component\'s teacher page. This plan follows the block timings in charter section 6.',
              'All Japanese in this unit is a draft awaiting native review.']))
 
@@ -597,7 +592,7 @@ def components(ledger):
             ('3 · Read aloud in pairs · ペアで音読', [
                 '«pagi» · «petang» · «malam» · «esok»', '«Encik» · «Cik» · «Pak cik» · «Mak cik»', '«baik» · «tidak» · «maaf»',
                 '«terima kasih» · «selamat» · «lagi» · «diri»', '«sama-sama» · «hati-hati» (a repeated word is written with a hyphen)',
-                '«Assalamualaikum» · «khabar» · «Apa khabar?»']),
+                '«Selamat berkenalan» · «khabar» · «Apa khabar?»']),
             ('4 · Dictation · 書き取り', [
                 'Your teacher reads eight words. Write them.',
                 '1 ________  2 ________  3 ________  4 ________', '5 ________  6 ________  7 ________  8 ________',

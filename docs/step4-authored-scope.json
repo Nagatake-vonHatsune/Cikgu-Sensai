@@ -487,31 +487,13 @@
   "exclusion": null
  },
  "Unit 1 · Vocabulary focus|3|26": {
-  "source_text": "Assalamualaikum — Peace be upon you (Muslim greeting) · アッサラーム・アライクム（イスラム式の挨拶）  [L-0009]",
-  "target_spans": [
-   "Assalamualaikum"
-  ],
-  "mention_spans": [],
-  "kind": "vocabulary",
-  "exclusion": null
- },
- "Unit 1 · Vocabulary focus|3|27": {
-  "source_text": "   e.g. Assalamualaikum, Encik Rahman. (between Muslims; see the culture note)",
-  "target_spans": [
-   "Assalamualaikum, Encik Rahman."
-  ],
-  "mention_spans": [],
-  "kind": "vocabulary",
-  "exclusion": null
- },
- "Unit 1 · Vocabulary focus|3|28": {
   "source_text": "■ Asking after someone · 様子をたずねる",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 1 · Vocabulary focus|4|0": {
+ "Unit 1 · Vocabulary focus|3|27": {
   "source_text": "apa — what · 何  [L-0010]",
   "target_spans": [
    "apa"
@@ -520,7 +502,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|1": {
+ "Unit 1 · Vocabulary focus|3|28": {
   "source_text": "   e.g. Apa khabar, Puan?",
   "target_spans": [
    "Apa khabar, Puan?"
@@ -529,7 +511,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|2": {
+ "Unit 1 · Vocabulary focus|3|29": {
   "source_text": "khabar — news; how someone is · 便り・様子  [L-0011]",
   "target_spans": [
    "khabar"
@@ -538,7 +520,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|3": {
+ "Unit 1 · Vocabulary focus|4|0": {
   "source_text": "   e.g. Apa khabar, Cik Mei Ling?",
   "target_spans": [
    "Apa khabar, Cik Mei Ling?"
@@ -547,7 +529,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|4": {
+ "Unit 1 · Vocabulary focus|4|1": {
   "source_text": "Apa khabar? — How are you? (lit. what news?) · お元気ですか  [L-0012]",
   "target_spans": [
    "Apa khabar?"
@@ -556,7 +538,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|5": {
+ "Unit 1 · Vocabulary focus|4|2": {
   "source_text": "   e.g. Apa khabar, Encik Tanaka?",
   "target_spans": [
    "Apa khabar, Encik Tanaka?"
@@ -565,7 +547,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|6": {
+ "Unit 1 · Vocabulary focus|4|3": {
   "source_text": "baik — good, well, fine · 良い・元気  [L-0013]",
   "target_spans": [
    "baik"
@@ -574,7 +556,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|7": {
+ "Unit 1 · Vocabulary focus|4|4": {
   "source_text": "   e.g. Saya baik, terima kasih.",
   "target_spans": [
    "Saya baik, terima kasih."
@@ -583,7 +565,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|8": {
+ "Unit 1 · Vocabulary focus|4|5": {
   "source_text": "Khabar baik. — I'm fine. (lit. good news) · 元気です  [L-0014]",
   "target_spans": [
    "Khabar baik."
@@ -592,7 +574,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|9": {
+ "Unit 1 · Vocabulary focus|4|6": {
   "source_text": "   e.g. Khabar baik, terima kasih.",
   "target_spans": [
    "Khabar baik, terima kasih."
@@ -601,7 +583,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|10": {
+ "Unit 1 · Vocabulary focus|4|7": {
   "source_text": "pula — in turn; 'and you?' · 〜は？（今度は）  [L-0015]",
   "target_spans": [
    "pula"
@@ -610,7 +592,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|11": {
+ "Unit 1 · Vocabulary focus|4|8": {
   "source_text": "   e.g. Khabar baik. Encik pula?",
   "target_spans": [
    "Khabar baik. Encik pula?"
@@ -619,7 +601,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|12": {
+ "Unit 1 · Vocabulary focus|4|9": {
   "source_text": "pun — also, too (after the word) · 〜も  [L-0983]",
   "target_spans": [
    "pun"
@@ -628,7 +610,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|13": {
+ "Unit 1 · Vocabulary focus|4|10": {
   "source_text": "   e.g. Saya pun baik.",
   "target_spans": [
    "Saya pun baik."
@@ -637,14 +619,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|14": {
+ "Unit 1 · Vocabulary focus|4|11": {
   "source_text": "■ Titles · 敬称・呼びかけ",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 1 · Vocabulary focus|4|15": {
+ "Unit 1 · Vocabulary focus|4|12": {
   "source_text": "Encik — Mr (polite 'you' for a man) · 〜さん（男性）  [L-0031]",
   "target_spans": [
    "Encik"
@@ -653,7 +635,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|16": {
+ "Unit 1 · Vocabulary focus|4|13": {
   "source_text": "   e.g. Selamat pagi, Encik Rahman.",
   "target_spans": [
    "Selamat pagi, Encik Rahman."
@@ -662,7 +644,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|17": {
+ "Unit 1 · Vocabulary focus|4|14": {
   "source_text": "Puan — Mrs / Ms (polite 'you' for a married or senior woman) · 〜さん（女性）  [L-0032]",
   "target_spans": [
    "Puan"
@@ -671,7 +653,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|18": {
+ "Unit 1 · Vocabulary focus|4|15": {
   "source_text": "   e.g. Apa khabar, Puan Aini?",
   "target_spans": [
    "Apa khabar, Puan Aini?"
@@ -680,7 +662,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|19": {
+ "Unit 1 · Vocabulary focus|4|16": {
   "source_text": "Cik — Miss (young or unmarried woman) · 〜さん（若い女性）  [L-0033]",
   "target_spans": [
    "Cik"
@@ -689,7 +671,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|20": {
+ "Unit 1 · Vocabulary focus|4|17": {
   "source_text": "   e.g. Terima kasih, Cik Mei Ling.",
   "target_spans": [
    "Terima kasih, Cik Mei Ling."
@@ -698,7 +680,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|21": {
+ "Unit 1 · Vocabulary focus|4|18": {
   "source_text": "Abang / Kakak (spoken short form: Kak) — older brother / older sister (friendly address) · お兄さん／お姉さん（呼びかけ）  [L-0034]",
   "target_spans": [
    "Abang",
@@ -710,7 +692,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|22": {
+ "Unit 1 · Vocabulary focus|4|19": {
   "source_text": "   e.g. Terima kasih, Kakak.",
   "target_spans": [
    "Terima kasih, Kakak."
@@ -719,7 +701,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|23": {
+ "Unit 1 · Vocabulary focus|4|20": {
   "source_text": "Pak cik / Mak cik — uncle / auntie (older man / woman) · おじさん／おばさん  [L-0035]",
   "target_spans": [
    "Pak cik",
@@ -729,7 +711,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|24": {
+ "Unit 1 · Vocabulary focus|4|21": {
   "source_text": "   e.g. Selamat malam, Pak cik.",
   "target_spans": [
    "Selamat malam, Pak cik."
@@ -738,14 +720,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|25": {
+ "Unit 1 · Vocabulary focus|4|22": {
   "source_text": "■ Thanks, sorry, yes and no · お礼・おわび・はい・いいえ",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 1 · Vocabulary focus|4|26": {
+ "Unit 1 · Vocabulary focus|4|23": {
   "source_text": "terima kasih — thank you · ありがとう  [L-0016]",
   "target_spans": [
    "terima kasih"
@@ -754,7 +736,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|27": {
+ "Unit 1 · Vocabulary focus|4|24": {
   "source_text": "   e.g. Terima kasih, Puan.",
   "target_spans": [
    "Terima kasih, Puan."
@@ -763,7 +745,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|28": {
+ "Unit 1 · Vocabulary focus|4|25": {
   "source_text": "sama-sama — you're welcome · どういたしまして  [L-0017]",
   "target_spans": [
    "sama-sama"
@@ -772,7 +754,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|29": {
+ "Unit 1 · Vocabulary focus|4|26": {
   "source_text": "   e.g. Sama-sama, Encik.",
   "target_spans": [
    "Sama-sama, Encik."
@@ -781,7 +763,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|4|30": {
+ "Unit 1 · Vocabulary focus|4|27": {
   "source_text": "maaf — sorry; excuse me · すみません  [L-0018]",
   "target_spans": [
    "maaf"
@@ -790,7 +772,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|0": {
+ "Unit 1 · Vocabulary focus|4|28": {
   "source_text": "   e.g. Maaf, Encik Tanaka.",
   "target_spans": [
    "Maaf, Encik Tanaka."
@@ -799,7 +781,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|1": {
+ "Unit 1 · Vocabulary focus|4|29": {
   "source_text": "tumpang tanya — excuse me, may I ask · ちょっとお尋ねします  [L-0019]",
   "target_spans": [
    "tumpang tanya"
@@ -808,7 +790,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|2": {
+ "Unit 1 · Vocabulary focus|4|30": {
   "source_text": "   e.g. Maaf, Pak cik, tumpang tanya.",
   "target_spans": [
    "Maaf, Pak cik, tumpang tanya."
@@ -817,7 +799,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|3": {
+ "Unit 1 · Vocabulary focus|5|0": {
   "source_text": "ya — yes · はい  [L-0029]",
   "target_spans": [
    "ya"
@@ -826,7 +808,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|4": {
+ "Unit 1 · Vocabulary focus|5|1": {
   "source_text": "   e.g. Ya, saya Tanaka.",
   "target_spans": [
    "Ya, saya Tanaka."
@@ -835,7 +817,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|5": {
+ "Unit 1 · Vocabulary focus|5|2": {
   "source_text": "tidak — no, not (standard) · いいえ・〜ない（標準形）  [L-0030]",
   "target_spans": [
    "tidak"
@@ -844,7 +826,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|6": {
+ "Unit 1 · Vocabulary focus|5|3": {
   "source_text": "   e.g. Tidak, saya Kimura.",
   "target_spans": [
    "Tidak, saya Kimura."
@@ -853,7 +835,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|7": {
+ "Unit 1 · Vocabulary focus|5|4": {
   "source_text": "tak (spoken form of tidak) — no, not (spoken) · いいえ・〜ない（話し言葉）  [L-0030]",
   "target_spans": [
    "tak",
@@ -863,7 +845,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|8": {
+ "Unit 1 · Vocabulary focus|5|5": {
   "source_text": "   e.g. Tak, saya Kimura. (spoken)",
   "target_spans": [
    "Tak, saya Kimura."
@@ -872,7 +854,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|9": {
+ "Unit 1 · Vocabulary focus|5|6": {
   "source_text": "oh — oh (reaction) · ああ・おお  [L-0984]",
   "target_spans": [
    "oh"
@@ -881,7 +863,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|10": {
+ "Unit 1 · Vocabulary focus|5|7": {
   "source_text": "   e.g. Oh, Encik Tanaka! Selamat datang.",
   "target_spans": [
    "Oh, Encik Tanaka! Selamat datang."
@@ -890,14 +872,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|11": {
+ "Unit 1 · Vocabulary focus|5|8": {
   "source_text": "■ Taking leave · 別れのあいさつ",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 1 · Vocabulary focus|5|12": {
+ "Unit 1 · Vocabulary focus|5|9": {
   "source_text": "minta — to ask for, request · 頼む・求める  [L-0020]",
   "target_spans": [
    "minta"
@@ -906,7 +888,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|13": {
+ "Unit 1 · Vocabulary focus|5|10": {
   "source_text": "   e.g. Saya minta diri dulu.",
   "target_spans": [
    "Saya minta diri dulu."
@@ -915,7 +897,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|14": {
+ "Unit 1 · Vocabulary focus|5|11": {
   "source_text": "diri — self · 自分  [L-0021]",
   "target_spans": [
    "diri"
@@ -924,7 +906,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|15": {
+ "Unit 1 · Vocabulary focus|5|12": {
   "source_text": "   e.g. Jaga diri, Puan.",
   "target_spans": [
    "Jaga diri, Puan."
@@ -933,7 +915,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|16": {
+ "Unit 1 · Vocabulary focus|5|13": {
   "source_text": "minta diri — to take one's leave · 失礼します（退出時）  [L-0022]",
   "target_spans": [
    "minta diri"
@@ -942,7 +924,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|17": {
+ "Unit 1 · Vocabulary focus|5|14": {
   "source_text": "   e.g. Maaf, saya minta diri dulu.",
   "target_spans": [
    "Maaf, saya minta diri dulu."
@@ -951,7 +933,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|18": {
+ "Unit 1 · Vocabulary focus|5|15": {
   "source_text": "dulu — first, before others · 先に  [L-0023]",
   "target_spans": [
    "dulu"
@@ -960,7 +942,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|19": {
+ "Unit 1 · Vocabulary focus|5|16": {
   "source_text": "   e.g. Saya minta diri dulu, Encik. (standard form: dahulu)",
   "target_spans": [
    "Saya minta diri dulu, Encik."
@@ -971,7 +953,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|20": {
+ "Unit 1 · Vocabulary focus|5|17": {
   "source_text": "jumpa — to find; to meet · 見つける・会う  [L-0576]",
   "target_spans": [
    "jumpa"
@@ -980,7 +962,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|21": {
+ "Unit 1 · Vocabulary focus|5|18": {
   "source_text": "   e.g. Jumpa esok, Cik Mei Ling.",
   "target_spans": [
    "Jumpa esok, Cik Mei Ling."
@@ -989,7 +971,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|22": {
+ "Unit 1 · Vocabulary focus|5|19": {
   "source_text": "lagi — again; more · また・もっと  [L-0024]",
   "target_spans": [
    "lagi"
@@ -998,7 +980,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|23": {
+ "Unit 1 · Vocabulary focus|5|20": {
   "source_text": "   e.g. Jumpa lagi, Abang!",
   "target_spans": [
    "Jumpa lagi, Abang!"
@@ -1007,7 +989,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|24": {
+ "Unit 1 · Vocabulary focus|5|21": {
   "source_text": "jumpa lagi — See you again; see you around · またね、またお会いしましょう  [L-0672]",
   "target_spans": [
    "jumpa lagi"
@@ -1016,7 +998,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|25": {
+ "Unit 1 · Vocabulary focus|5|22": {
   "source_text": "   e.g. Terima kasih. Jumpa lagi!",
   "target_spans": [
    "Terima kasih. Jumpa lagi!"
@@ -1025,7 +1007,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|26": {
+ "Unit 1 · Vocabulary focus|5|23": {
   "source_text": "esok — tomorrow · 明日  [L-0025]",
   "target_spans": [
    "esok"
@@ -1034,7 +1016,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|27": {
+ "Unit 1 · Vocabulary focus|5|24": {
   "source_text": "   e.g. Selamat malam. Jumpa esok!",
   "target_spans": [
    "Selamat malam. Jumpa esok!"
@@ -1043,7 +1025,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|28": {
+ "Unit 1 · Vocabulary focus|5|25": {
   "source_text": "nanti — later · 後で  [L-0026]",
   "target_spans": [
    "nanti"
@@ -1052,7 +1034,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|29": {
+ "Unit 1 · Vocabulary focus|5|26": {
   "source_text": "   e.g. Jumpa nanti, Encik Rahman.",
   "target_spans": [
    "Jumpa nanti, Encik Rahman."
@@ -1061,7 +1043,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|5|30": {
+ "Unit 1 · Vocabulary focus|5|27": {
   "source_text": "Selamat jalan — Goodbye (said to the one leaving) · いってらっしゃい／お気をつけて  [L-0007]",
   "target_spans": [
    "Selamat jalan"
@@ -1070,7 +1052,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|6|0": {
+ "Unit 1 · Vocabulary focus|5|28": {
   "source_text": "   e.g. Selamat jalan, Encik Tanaka!",
   "target_spans": [
    "Selamat jalan, Encik Tanaka!"
@@ -1079,7 +1061,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|6|1": {
+ "Unit 1 · Vocabulary focus|5|29": {
   "source_text": "Selamat tinggal — Goodbye (said to the one staying) · さようなら（残る人へ）  [L-0008]",
   "target_spans": [
    "Selamat tinggal"
@@ -1088,7 +1070,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|6|2": {
+ "Unit 1 · Vocabulary focus|5|30": {
   "source_text": "   e.g. Selamat tinggal, Puan Aini.",
   "target_spans": [
    "Selamat tinggal, Puan Aini."
@@ -1097,7 +1079,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|6|3": {
+ "Unit 1 · Vocabulary focus|6|0": {
   "source_text": "jaga diri — take care of yourself · 体に気をつけて  [L-0027]",
   "target_spans": [
    "jaga diri"
@@ -1106,7 +1088,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|6|4": {
+ "Unit 1 · Vocabulary focus|6|1": {
   "source_text": "   e.g. Jaga diri, Mak cik.",
   "target_spans": [
    "Jaga diri, Mak cik."
@@ -1115,7 +1097,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|6|5": {
+ "Unit 1 · Vocabulary focus|6|2": {
   "source_text": "hati-hati — be careful · 気をつけて  [L-0499]",
   "target_spans": [
    "hati-hati"
@@ -1124,7 +1106,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 1 · Vocabulary focus|6|6": {
+ "Unit 1 · Vocabulary focus|6|3": {
   "source_text": "   e.g. Hati-hati, Encik!",
   "target_spans": [
    "Hati-hati, Encik!"
@@ -4110,18 +4092,15 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 1 · Culture and word-origin note|3|0": {
-  "source_text": "Selamat, the first word of most greetings, comes from Arabic salāma, \"wellbeing\". Selamat pagi is a wish: may your morning be well. The Muslim greeting Assalamualaikum, \"peace be upon you\", shares the same s-l-m root; the reply is Waalaikumsalam. Khabar is also Arabic and means \"news\", so Apa khabar? asks \"what news?\" and Khabar baik answers \"good news\".",
+  "source_text": "Selamat, the first word of most greetings, comes from Arabic salāma, \"wellbeing\". Selamat pagi is a wish: may your morning be well. Khabar is also Arabic and means \"news\", so Apa khabar? asks \"what news?\" and Khabar baik answers \"good news\".",
   "target_spans": [
    "Selamat",
    "Selamat pagi",
-   "Assalamualaikum",
    "Khabar",
    "Apa khabar?",
    "Khabar baik"
   ],
-  "mention_spans": [
-   "Waalaikumsalam"
-  ],
+  "mention_spans": [],
   "kind": "culture",
   "exclusion": null
  },
@@ -4177,18 +4156,15 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 1 · Culture and word-origin note|3|5": {
-  "source_text": "あいさつの最初の語 Selamat は、アラビア語の salāma（無事・平安）から来ています。Selamat pagi は「よい朝でありますように」という願いです。イスラム教徒のあいさつ Assalamualaikum（あなたに平安を）も同じ s-l-m の語根で、返事は Waalaikumsalam です。Khabar もアラビア語で「便り」の意味なので、Apa khabar? は「どんな便り？」、Khabar baik は「よい便り」です。",
+  "source_text": "あいさつの最初の語 Selamat は、アラビア語の salāma（無事・平安）から来ています。Selamat pagi は「よい朝でありますように」という願いです。Khabar もアラビア語で「便り」の意味なので、Apa khabar? は「どんな便り？」、Khabar baik は「よい便り」です。",
   "target_spans": [
    "Selamat",
    "Selamat pagi",
-   "Assalamualaikum",
    "Khabar",
    "Apa khabar?",
    "Khabar baik"
   ],
-  "mention_spans": [
-   "Waalaikumsalam"
-  ],
+  "mention_spans": [],
   "kind": "culture",
   "exclusion": null
  },
@@ -4237,26 +4213,17 @@
   "exclusion": null
  },
  "Unit 1 · Culture and word-origin note|4|0": {
-  "source_text": "Sources: Kata-Kata card notes ms-c01-001, 007, 008, 009, 011, 016, 019, 037 and the ledger meanings. Sam's own etymology notes were not available to the builder; add them here when supplied.",
+  "source_text": "Sources: Kata-Kata card notes ms-c01-001, 007, 008, 011, 016, 019, 037 and the ledger meanings. Sam's own etymology notes were not available to the builder; add them here when supplied.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 1 · Culture and word-origin note|4|1": {
-  "source_text": "English text: 191 words. Discussion prompt: which Malay greeting has no single Japanese equivalent? (Expected: Selamat tengah hari / Selamat petang split こんにちは.)",
+  "source_text": "English text: 174 words. Discussion prompt: which Malay greeting has no single Japanese equivalent? (Expected: Selamat tengah hari / Selamat petang split こんにちは.)",
   "target_spans": [
    "Selamat tengah hari",
    "Selamat petang"
-  ],
-  "mention_spans": [],
-  "kind": "key",
-  "exclusion": null
- },
- "Unit 1 · Culture and word-origin note|4|2": {
-  "source_text": "Teacher note: many Malaysians use Assalamualaikum only between Muslims; learners should recognise it and may answer if greeted with it.",
-  "target_spans": [
-   "Assalamualaikum"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -5339,14 +5306,12 @@
   "exclusion": null
  },
  "Unit 1 · Teaching plan and answer key|4|21": {
-  "source_text": "Spoken tak only after tidak has been taught, and always labelled spoken. The reply Waalaikumsalam is in a Kata-Kata note but not in the ledger: model it orally only if asked (proposed for the ledger in the step 4 report).",
+  "source_text": "Spoken tak only after tidak has been taught, and always labelled spoken.",
   "target_spans": [
    "tak",
    "tidak"
   ],
-  "mention_spans": [
-   "Waalaikumsalam"
-  ],
+  "mention_spans": [],
   "kind": "plan",
   "exclusion": null
  },
@@ -5579,9 +5544,9 @@
   "exclusion": null
  },
  "Unit 1 · Pronunciation and spelling block|3|18": {
-  "source_text": "Assalamualaikum · khabar · Apa khabar?",
+  "source_text": "Selamat berkenalan · khabar · Apa khabar?",
   "target_spans": [
-   "Assalamualaikum",
+   "Selamat berkenalan",
    "khabar",
    "Apa khabar?"
   ],
