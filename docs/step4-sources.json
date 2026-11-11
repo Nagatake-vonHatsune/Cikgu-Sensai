@@ -7,11 +7,12 @@
   "ledger": {
     "sheet_id": "1X8t3ENRVUY_NHJ3xEB7UY3OiwwUg_KUZT-ESbtiMC0o",
     "tab": "Ledger",
-    "rows": "L-0001 to L-1015 (1,015 rows)",
+    "rows": "L-0001 to L-1031 (1,031 rows)",
     "read": "Ledger!A1:T1016 through the Google Sheets connector at the start of step 4; identical, cell for cell, to docs/handoff/ledger-snapshot.csv.",
     "reference_file": "curriculum/reference/katakata/malay-ledger.csv",
-    "sha256": "d0bb4fcc9b3e3126cc0de750bb0e3302559961014bcc42ab1a066a6a838d45c1",
-    "format": "Written with LF line endings, like the step 1 snapshot, so the Git diff shows only the 8 changed and 33 new rows."
+    "sha256": "4ea16fe2d26e6b4948a1698825a1f61744b18d3624f044c908b92cfd358d538a",
+    "format": "Written with LF line endings, like the step 1 snapshot, so the Git diff shows only the 8 changed and 33 new rows.",
+    "refreshed": "11 Nov 2026 (after step 4): L-0009 retired; L-0216 sedikit, L-0473 cakap and L-0968 badminton placed in Ch2; L-1016 to L-1031 added (bahasa, Melayu, Inggeris and the Ch2 hobby word bank). Same change in docs/handoff/ledger-snapshot.csv; written by Claude to the sheet first, then to both files."
   },
   "kata_kata_chapter_files": "curriculum/reference/katakata/c01.json to c09.json are unchanged from docs/restructure-sources.json (Kata-Kata commit 0f78179)."
 }

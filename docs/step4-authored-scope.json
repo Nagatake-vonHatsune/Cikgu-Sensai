@@ -5828,7 +5828,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 2A · Vocabulary focus|0|0": {
-  "source_text": "ユニット2Aの台帳の単語40語です。代名詞、名前と質問、出身、つなぐ言葉、友達、そして Kata-Kata の場面「Sembang di pantri」の雑談のことば。例文を声に出して読みましょう。話し言葉には spoken と書いてあります。",
+  "source_text": "ユニット2Aの単語：覚える語35語（代名詞、名前と質問、出身、ことば、つなぐ言葉、友達）と、Kata-Kata の場面「Sembang di pantri」の雑談のことば12語（聞いて分かればよい）。例文を声に出して読みましょう。話し言葉には spoken と書いてあります。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
@@ -5849,7 +5849,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 2A · Vocabulary focus|2|0": {
-  "source_text": "The 40 ledger words for unit 2A: pronouns, names and questions, origin, linking words, friends, and the chat words from the Kata-Kata scene \"Sembang di pantri\". Read every example aloud. Spoken forms are marked \"spoken\".",
+  "source_text": "Unit 2A words: 35 core words to learn (pronouns, names and questions, origin, languages, linking words, friends) and 12 chat words from the Kata-Kata scene \"Sembang di pantri\" to recognise. Read every example aloud. Spoken forms are marked \"spoken\".",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
@@ -6309,13 +6309,122 @@
   "exclusion": null
  },
  "Unit 2A · Vocabulary focus|4|20": {
-  "source_text": "■ Linking words · つなぐ言葉",
+  "source_text": "■ Languages · ことば",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 2A · Vocabulary focus|4|21": {
+  "source_text": "bahasa — language (bahasa Melayu = the Malay language) · 言語（bahasa Melayu＝マレー語）  [L-1016]",
+  "target_spans": [
+   "bahasa",
+   "bahasa Melayu",
+   "bahasa Melayu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|4|22": {
+  "source_text": "   e.g. Saya cakap bahasa Jepun.",
+  "target_spans": [
+   "Saya cakap bahasa Jepun."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|4|23": {
+  "source_text": "Melayu — Malay (bahasa Melayu, orang Melayu) · マレー（bahasa Melayu＝マレー語）  [L-1017]",
+  "target_spans": [
+   "Melayu",
+   "bahasa Melayu",
+   "orang Melayu",
+   "bahasa Melayu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|4|24": {
+  "source_text": "   e.g. Saya boleh cakap bahasa Melayu.",
+  "target_spans": [
+   "Saya boleh cakap bahasa Melayu."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|4|25": {
+  "source_text": "Inggeris — English (bahasa Inggeris) · 英語（bahasa Inggeris）  [L-1018]",
+  "target_spans": [
+   "Inggeris",
+   "bahasa Inggeris",
+   "bahasa Inggeris"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|4|26": {
+  "source_text": "   e.g. Dia cakap bahasa Inggeris.",
+  "target_spans": [
+   "Dia cakap bahasa Inggeris."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|4|27": {
+  "source_text": "cakap — to speak (everyday form) · 話す・言う  [L-0473]",
+  "target_spans": [
+   "cakap"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|4|28": {
+  "source_text": "   e.g. Encik boleh cakap bahasa Melayu? (formal written form: bercakap)",
+  "target_spans": [
+   "Encik boleh cakap bahasa Melayu?"
+  ],
+  "mention_spans": [
+   "bercakap"
+  ],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|4|29": {
+  "source_text": "sedikit / sikit — a little (sikit is the spoken form) · 少し  [L-0216]",
+  "target_spans": [
+   "sedikit",
+   "sikit",
+   "sikit"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|5|0": {
+  "source_text": "   e.g. Saya boleh cakap bahasa Melayu sedikit. (sikit in speech)",
+  "target_spans": [
+   "Saya boleh cakap bahasa Melayu sedikit.",
+   "sikit"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|5|1": {
+  "source_text": "■ Linking words · つなぐ言葉",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 2A · Vocabulary focus|5|2": {
   "source_text": "dan — and · と・そして  [L-0055]",
   "target_spans": [
    "dan"
@@ -6324,7 +6433,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|4|22": {
+ "Unit 2A · Vocabulary focus|5|3": {
   "source_text": "   e.g. Encik Rahman dan Puan Aini orang Malaysia.",
   "target_spans": [
    "Encik Rahman dan Puan Aini orang Malaysia."
@@ -6333,7 +6442,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|4|23": {
+ "Unit 2A · Vocabulary focus|5|4": {
   "source_text": "juga — also, too · も  [L-0056]",
   "target_spans": [
    "juga"
@@ -6342,7 +6451,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|4|24": {
+ "Unit 2A · Vocabulary focus|5|5": {
   "source_text": "   e.g. Saya juga orang Jepun.",
   "target_spans": [
    "Saya juga orang Jepun."
@@ -6351,14 +6460,32 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|4|25": {
+ "Unit 2A · Vocabulary focus|5|6": {
+  "source_text": "dengan — with · 〜と（一緒に）  [L-0077]",
+  "target_spans": [
+   "dengan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|5|7": {
+  "source_text": "   e.g. Saya cakap bahasa Melayu dengan kawan saya.",
+  "target_spans": [
+   "Saya cakap bahasa Melayu dengan kawan saya."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|5|8": {
   "source_text": "■ Friends · 友達",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 2A · Vocabulary focus|4|26": {
+ "Unit 2A · Vocabulary focus|5|9": {
   "source_text": "kawan — friend · 友達  [L-0078]",
   "target_spans": [
    "kawan"
@@ -6367,7 +6494,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|4|27": {
+ "Unit 2A · Vocabulary focus|5|10": {
   "source_text": "   e.g. Ini kawan saya, Ali.",
   "target_spans": [
    "Ini kawan saya, Ali."
@@ -6376,7 +6503,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|4|28": {
+ "Unit 2A · Vocabulary focus|5|11": {
   "source_text": "jom — let's (spoken) · 〜しよう  [L-0075]",
   "target_spans": [
    "jom"
@@ -6385,7 +6512,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|4|29": {
+ "Unit 2A · Vocabulary focus|5|12": {
   "source_text": "   e.g. Jom, kita jumpa nanti! (spoken)",
   "target_spans": [
    "Jom, kita jumpa nanti!"
@@ -6394,7 +6521,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|4|30": {
+ "Unit 2A · Vocabulary focus|5|13": {
   "source_text": "boleh — can; okay · できる・いいよ  [L-0076]",
   "target_spans": [
    "boleh"
@@ -6403,7 +6530,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|0": {
+ "Unit 2A · Vocabulary focus|5|14": {
   "source_text": "   e.g. Jom! — Boleh!",
   "target_spans": [
    "Jom! — Boleh!"
@@ -6412,14 +6539,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|1": {
+ "Unit 2A · Vocabulary focus|5|15": {
   "source_text": "■ Chat words from \"Sembang di pantri\" (recognise) · 雑談のことば",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 2A · Vocabulary focus|5|2": {
+ "Unit 2A · Vocabulary focus|5|16": {
   "source_text": "alamak — oh no!, oops · しまった！・あらら  [L-0942]",
   "target_spans": [
    "alamak"
@@ -6428,7 +6555,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|3": {
+ "Unit 2A · Vocabulary focus|5|17": {
   "source_text": "   e.g. Alamak! Maaf, Encik.",
   "target_spans": [
    "Alamak! Maaf, Encik."
@@ -6437,7 +6564,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|4": {
+ "Unit 2A · Vocabulary focus|5|18": {
   "source_text": "wah — wow · わあ！  [L-0943]",
   "target_spans": [
    "wah"
@@ -6446,7 +6573,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|5": {
+ "Unit 2A · Vocabulary focus|5|19": {
   "source_text": "   e.g. Wah, encik orang Jepun?",
   "target_spans": [
    "Wah, encik orang Jepun?"
@@ -6455,7 +6582,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|6": {
+ "Unit 2A · Vocabulary focus|5|20": {
   "source_text": "betul ke? — really? (spoken) · 本当？  [L-0944]",
   "target_spans": [
    "betul ke?"
@@ -6464,7 +6591,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|7": {
+ "Unit 2A · Vocabulary focus|5|21": {
   "source_text": "   e.g. Kampung awak di Osaka? Betul ke? (spoken)",
   "target_spans": [
    "Kampung awak di Osaka? Betul ke?"
@@ -6473,7 +6600,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|8": {
+ "Unit 2A · Vocabulary focus|5|22": {
   "source_text": "mana ada — not at all, no way (spoken) · そんなことないよ  [L-0945]",
   "target_spans": [
    "mana ada"
@@ -6482,7 +6609,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|9": {
+ "Unit 2A · Vocabulary focus|5|23": {
   "source_text": "   e.g. Encik orang Jepun? — Mana ada! Saya orang Malaysia. (spoken)",
   "target_spans": [
    "Encik orang Jepun?",
@@ -6492,7 +6619,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|10": {
+ "Unit 2A · Vocabulary focus|5|24": {
   "source_text": "jangan risau — don't worry · 心配しないで  [L-0946]",
   "target_spans": [
    "jangan risau"
@@ -6501,7 +6628,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|11": {
+ "Unit 2A · Vocabulary focus|5|25": {
   "source_text": "   e.g. Jangan risau, Encik.",
   "target_spans": [
    "Jangan risau, Encik."
@@ -6510,7 +6637,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|12": {
+ "Unit 2A · Vocabulary focus|5|26": {
   "source_text": "lama tak jumpa — long time no see (spoken) · 久しぶり  [L-0947]",
   "target_spans": [
    "lama tak jumpa"
@@ -6519,7 +6646,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|13": {
+ "Unit 2A · Vocabulary focus|5|27": {
   "source_text": "   e.g. Lama tak jumpa! Apa khabar? (spoken)",
   "target_spans": [
    "Lama tak jumpa! Apa khabar?"
@@ -6528,7 +6655,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|14": {
+ "Unit 2A · Vocabulary focus|5|28": {
   "source_text": "kot / kut — maybe, I think (end of a sentence; spoken) · 〜かな・たぶん  [L-0949]",
   "target_spans": [
    "kot",
@@ -6538,7 +6665,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|15": {
+ "Unit 2A · Vocabulary focus|5|29": {
   "source_text": "   e.g. Dia orang Jepun, kot. (spoken)",
   "target_spans": [
    "Dia orang Jepun, kot."
@@ -6547,7 +6674,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|16": {
+ "Unit 2A · Vocabulary focus|5|30": {
   "source_text": "best — great, awesome (spoken) · 最高・すごくいい  [L-0950]",
   "target_spans": [
    "best"
@@ -6556,7 +6683,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|17": {
+ "Unit 2A · Vocabulary focus|6|0": {
   "source_text": "   e.g. Wah, best! (spoken)",
   "target_spans": [
    "Wah, best!"
@@ -6565,7 +6692,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|18": {
+ "Unit 2A · Vocabulary focus|6|1": {
   "source_text": "syok — really fun, enjoyable (spoken) · 楽しい・気持ちいい  [L-0951]",
   "target_spans": [
    "syok"
@@ -6574,7 +6701,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|19": {
+ "Unit 2A · Vocabulary focus|6|2": {
   "source_text": "   e.g. Wah, syok! (spoken)",
   "target_spans": [
    "Wah, syok!"
@@ -6583,7 +6710,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|20": {
+ "Unit 2A · Vocabulary focus|6|3": {
   "source_text": "geng — group of friends, crew (spoken) · 仲間・グループ  [L-0952]",
   "target_spans": [
    "geng"
@@ -6592,7 +6719,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|21": {
+ "Unit 2A · Vocabulary focus|6|4": {
   "source_text": "   e.g. Ini geng saya. (spoken)",
   "target_spans": [
    "Ini geng saya."
@@ -6601,7 +6728,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|22": {
+ "Unit 2A · Vocabulary focus|6|5": {
   "source_text": "tumpang lalu — excuse me, may I get past · すみません、通ります  [L-0953]",
   "target_spans": [
    "tumpang lalu"
@@ -6610,7 +6737,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|5|23": {
+ "Unit 2A · Vocabulary focus|6|6": {
   "source_text": "   e.g. Maaf, tumpang lalu.",
   "target_spans": [
    "Maaf, tumpang lalu."
@@ -6619,14 +6746,33 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|6|0": {
+ "Unit 2A · Vocabulary focus|6|7": {
+  "source_text": "sikit je — just a little (spoken) · ちょっとだけ  [L-0948]",
+  "target_spans": [
+   "sikit je"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|6|8": {
+  "source_text": "   e.g. Boleh cakap bahasa Melayu? — Sikit je. (spoken)",
+  "target_spans": [
+   "Boleh cakap bahasa Melayu?",
+   "Sikit je."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2A · Vocabulary focus|7|0": {
   "source_text": "Kata-Kata cards ms-c02-002 to ms-c02-028 (pronouns, names, origin), ms-c02-040 to 043, and Dunia cards ms-d-pejabat-sembang-01 to 12.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 2A · Vocabulary focus|6|1": {
+ "Unit 2A · Vocabulary focus|7|1": {
   "source_text": "ini (L-0985) and itu (L-0986) have no Kata-Kata card yet (pending). saya was taught in unit 1.",
   "target_spans": [
    "ini",
@@ -6637,17 +6783,22 @@
   "kind": "key",
   "exclusion": null
  },
- "Unit 2A · Vocabulary focus|6|2": {
-  "source_text": "Not listed: L-0948 sikit je. Its standard form sedikit is a chapter 5 word, and the register rule does not allow a spoken form before its standard form. Raised with Sam.",
-  "target_spans": [],
-  "mention_spans": [
-   "sikit je",
-   "sedikit"
+ "Unit 2A · Vocabulary focus|7|2": {
+  "source_text": "bahasa, Melayu, Inggeris (L-1016 to L-1018) and the Ch2 cards for cakap and sedikit are pending in Kata-Kata. Sam moved sedikit to chapter 2 on 11 Nov 2026, so the spoken sikit je (L-0948) is now taught after its standard form.",
+  "target_spans": [
+   "bahasa",
+   "Melayu",
+   "Inggeris",
+   "cakap",
+   "sedikit",
+   "sedikit",
+   "sikit je"
   ],
+  "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
- "Unit 2A · Vocabulary focus|6|3": {
+ "Unit 2A · Vocabulary focus|7|3": {
   "source_text": "Check in class: point at people (I, you, he or she, we, they); learners answer with the pronoun. Ask \"Which \"you\" for your manager?\" Expected: the title (Encik, Puan), not awak.",
   "target_spans": [
    "Encik",
@@ -7463,6 +7614,34 @@
   "kind": "drill",
   "exclusion": null
  },
+ "Unit 2A · Drill 2 · Substitution|3|10": {
+  "source_text": "Start: Saya boleh cakap bahasa Melayu sedikit.",
+  "target_spans": [
+   "Saya boleh cakap bahasa Melayu sedikit."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 2A · Drill 2 · Substitution|3|11": {
+  "source_text": "9. ( bahasa Inggeris ) → ____________________",
+  "target_spans": [
+   "bahasa Inggeris"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 2A · Drill 2 · Substitution|3|12": {
+  "source_text": "10. ( dia, bahasa Jepun ) → ____________________",
+  "target_spans": [
+   "dia",
+   "bahasa Jepun"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
  "Unit 2A · Drill 2 · Substitution|4|0": {
   "source_text": "1 Saya orang Jepun. Asal saya dari Kyoto. 2 Dia orang Jepun. Asal dia dari Kyoto. 3 Dia orang Malaysia. Asal dia dari Ipoh.",
   "target_spans": [
@@ -7490,6 +7669,16 @@
   "target_spans": [
    "Siapa nama puan?",
    "Siapa nama kawan awak?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 2A · Drill 2 · Substitution|4|3": {
+  "source_text": "9 Saya boleh cakap bahasa Inggeris sedikit. 10 Dia boleh cakap bahasa Jepun sedikit.",
+  "target_spans": [
+   "Saya boleh cakap bahasa Inggeris sedikit.",
+   "Dia boleh cakap bahasa Jepun sedikit."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -7749,6 +7938,24 @@
   "kind": "drill",
   "exclusion": null
  },
+ "Unit 2A · Drill 4 · Question and answer|3|9": {
+  "source_text": "9. ____________________ → Boleh, sedikit.",
+  "target_spans": [
+   "Boleh, sedikit."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 2A · Drill 4 · Question and answer|3|10": {
+  "source_text": "10. ____________________ → Bahasa Inggeris dan bahasa Jepun.",
+  "target_spans": [
+   "Bahasa Inggeris dan bahasa Jepun."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
  "Unit 2A · Drill 4 · Question and answer|4|0": {
   "source_text": "1 Nama saya … 2 Ya, saya orang Jepun. 3 Kampung saya di … 4 Itu Cik Mei Ling.",
   "target_spans": [
@@ -7769,6 +7976,16 @@
    "Dia siapa?",
    "Encik orang Jepun?",
    "awak"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 2A · Drill 4 · Question and answer|4|2": {
+  "source_text": "9 Encik boleh cakap bahasa Melayu? 10 Encik cakap bahasa apa?",
+  "target_spans": [
+   "Encik boleh cakap bahasa Melayu?",
+   "Encik cakap bahasa apa?"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -8153,7 +8370,7 @@
   "exclusion": null
  },
  "Unit 2A · Model conversation|0|0": {
-  "source_text": "給湯室での自己紹介（14ターン）です。ペアで読み、次に空欄版、最後に事実を変えた版を演じます。",
+  "source_text": "給湯室での自己紹介（16ターン）です。ペアで読み、次に空欄版、最後に事実を変えた版を演じます。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
@@ -8174,7 +8391,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 2A · Model conversation|2|0": {
-  "source_text": "Introductions in the pantry, in 14 turns. Read it in pairs, then the gapped version, then the variant with changed facts.",
+  "source_text": "Introductions in the pantry, in 16 turns. Read it in pairs, then the gapped version, then the variant with changed facts.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
@@ -8298,22 +8515,40 @@
   "exclusion": null
  },
  "Unit 2A · Model conversation|3|13": {
-  "source_text": "Farah: Ya! Jom, kita jumpa lagi nanti.",
+  "source_text": "Farah: Ya! Encik boleh cakap bahasa Melayu?",
   "target_spans": [
-   "Ya! Jom, kita jumpa lagi nanti."
+   "Ya! Encik boleh cakap bahasa Melayu?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 2A · Model conversation|3|14": {
+  "source_text": "Tanaka: Boleh, sedikit.",
+  "target_spans": [
+   "Boleh, sedikit."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 2A · Model conversation|3|15": {
+  "source_text": "Farah: Wah! Jom, kita jumpa lagi nanti.",
+  "target_spans": [
+   "Wah! Jom, kita jumpa lagi nanti."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 2A · Model conversation|3|16": {
   "source_text": "■ 2 · Gapped version · 空欄版",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 2A · Model conversation|3|15": {
+ "Unit 2A · Model conversation|3|17": {
   "source_text": "Farah: Selamat pagi, Encik. ___ nama encik?",
   "target_spans": [
    "Selamat pagi, Encik. ___ nama encik?"
@@ -8322,7 +8557,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|16": {
+ "Unit 2A · Model conversation|3|18": {
   "source_text": "Tanaka: Selamat pagi. ___ saya Tanaka. Cik pula?",
   "target_spans": [
    "Selamat pagi. ___ saya Tanaka. Cik pula?"
@@ -8331,7 +8566,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|17": {
+ "Unit 2A · Model conversation|3|19": {
   "source_text": "Farah: Nama saya Farah. Selamat berkenalan.",
   "target_spans": [
    "Nama saya Farah. Selamat berkenalan."
@@ -8340,7 +8575,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|18": {
+ "Unit 2A · Model conversation|3|20": {
   "source_text": "Tanaka: Selamat berkenalan, Cik Farah.",
   "target_spans": [
    "Selamat berkenalan, Cik Farah."
@@ -8349,7 +8584,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|19": {
+ "Unit 2A · Model conversation|3|21": {
   "source_text": "Farah: Encik ___ Jepun?",
   "target_spans": [
    "Encik ___ Jepun?"
@@ -8358,7 +8593,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|20": {
+ "Unit 2A · Model conversation|3|22": {
   "source_text": "Tanaka: Ya, saya orang Jepun. ___ saya dari Osaka.",
   "target_spans": [
    "Ya, saya orang Jepun. ___ saya dari Osaka."
@@ -8367,7 +8602,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|21": {
+ "Unit 2A · Model conversation|3|23": {
   "source_text": "Farah: Wah, Osaka! ___ Kumar. ___ kawan saya.",
   "target_spans": [
    "Wah, Osaka! ___ Kumar. ___ kawan saya."
@@ -8376,7 +8611,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|22": {
+ "Unit 2A · Model conversation|3|24": {
   "source_text": "Kumar: Selamat pagi. Apa khabar?",
   "target_spans": [
    "Selamat pagi. Apa khabar?"
@@ -8385,7 +8620,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|23": {
+ "Unit 2A · Model conversation|3|25": {
   "source_text": "Tanaka: Khabar baik, terima kasih. Selamat berkenalan, Encik Kumar.",
   "target_spans": [
    "Khabar baik, terima kasih. Selamat berkenalan, Encik Kumar."
@@ -8394,7 +8629,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|24": {
+ "Unit 2A · Model conversation|3|26": {
   "source_text": "Kumar: Selamat berkenalan. Kampung encik di ___ ?",
   "target_spans": [
    "Selamat berkenalan. Kampung encik di ___ ?"
@@ -8403,7 +8638,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|25": {
+ "Unit 2A · Model conversation|3|27": {
   "source_text": "Tanaka: Di Osaka. Encik pula?",
   "target_spans": [
    "Di Osaka. Encik pula?"
@@ -8412,7 +8647,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|26": {
+ "Unit 2A · Model conversation|3|28": {
   "source_text": "Kumar: Kampung saya di Ipoh. Farah ___ dari Ipoh.",
   "target_spans": [
    "Kampung saya di Ipoh. Farah ___ dari Ipoh."
@@ -8421,7 +8656,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|27": {
+ "Unit 2A · Model conversation|3|29": {
   "source_text": "Tanaka: Oh, Cik Farah ___ dari Ipoh?",
   "target_spans": [
    "Oh, Cik Farah ___ dari Ipoh?"
@@ -8430,30 +8665,48 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|28": {
-  "source_text": "Farah: Ya! ___ , kita jumpa lagi nanti.",
+ "Unit 2A · Model conversation|3|30": {
+  "source_text": "Farah: Ya! Encik boleh cakap ___ Melayu?",
   "target_spans": [
-   "Ya! ___ , kita jumpa lagi nanti."
+   "Ya! Encik boleh cakap ___ Melayu?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|3|29": {
+ "Unit 2A · Model conversation|4|0": {
+  "source_text": "Tanaka: Boleh, ___ .",
+  "target_spans": [
+   "Boleh, ___ ."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 2A · Model conversation|4|1": {
+  "source_text": "Farah: Wah! ___ , kita jumpa lagi nanti.",
+  "target_spans": [
+   "Wah! ___ , kita jumpa lagi nanti."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 2A · Model conversation|4|2": {
   "source_text": "■ 3 · Variant: changed facts · 事実を変えた版",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 2A · Model conversation|3|30": {
+ "Unit 2A · Model conversation|4|3": {
   "source_text": "Now it is 4 pm. Yuki from Sapporo meets Hafiz and Mei Ling from Penang.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "model",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 2A · Model conversation|4|0": {
+ "Unit 2A · Model conversation|4|4": {
   "source_text": "Hafiz: Selamat petang, Cik. Siapa nama cik?",
   "target_spans": [
    "Selamat petang, Cik. Siapa nama cik?"
@@ -8462,7 +8715,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|1": {
+ "Unit 2A · Model conversation|4|5": {
   "source_text": "Yuki: Selamat petang. Nama saya Yuki. Encik pula?",
   "target_spans": [
    "Selamat petang. Nama saya Yuki. Encik pula?"
@@ -8471,7 +8724,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|2": {
+ "Unit 2A · Model conversation|4|6": {
   "source_text": "Hafiz: Nama saya Hafiz. Selamat berkenalan.",
   "target_spans": [
    "Nama saya Hafiz. Selamat berkenalan."
@@ -8480,7 +8733,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|3": {
+ "Unit 2A · Model conversation|4|7": {
   "source_text": "Yuki: Selamat berkenalan, Encik Hafiz.",
   "target_spans": [
    "Selamat berkenalan, Encik Hafiz."
@@ -8489,7 +8742,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|4": {
+ "Unit 2A · Model conversation|4|8": {
   "source_text": "Hafiz: Cik orang Jepun?",
   "target_spans": [
    "Cik orang Jepun?"
@@ -8498,7 +8751,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|5": {
+ "Unit 2A · Model conversation|4|9": {
   "source_text": "Yuki: Ya, saya orang Jepun. Asal saya dari Sapporo.",
   "target_spans": [
    "Ya, saya orang Jepun. Asal saya dari Sapporo."
@@ -8507,7 +8760,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|6": {
+ "Unit 2A · Model conversation|4|10": {
   "source_text": "Hafiz: Wah, Sapporo! Itu Mei Ling. Dia kawan saya.",
   "target_spans": [
    "Wah, Sapporo! Itu Mei Ling. Dia kawan saya."
@@ -8516,7 +8769,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|7": {
+ "Unit 2A · Model conversation|4|11": {
   "source_text": "Mei Ling: Selamat petang. Apa khabar?",
   "target_spans": [
    "Selamat petang. Apa khabar?"
@@ -8525,7 +8778,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|8": {
+ "Unit 2A · Model conversation|4|12": {
   "source_text": "Yuki: Baik, terima kasih. Selamat berkenalan, Cik Mei Ling.",
   "target_spans": [
    "Baik, terima kasih. Selamat berkenalan, Cik Mei Ling."
@@ -8534,7 +8787,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|9": {
+ "Unit 2A · Model conversation|4|13": {
   "source_text": "Mei Ling: Selamat berkenalan. Kampung cik di mana?",
   "target_spans": [
    "Selamat berkenalan. Kampung cik di mana?"
@@ -8543,7 +8796,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|10": {
+ "Unit 2A · Model conversation|4|14": {
   "source_text": "Yuki: Di Sapporo. Cik pula?",
   "target_spans": [
    "Di Sapporo. Cik pula?"
@@ -8552,7 +8805,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|11": {
+ "Unit 2A · Model conversation|4|15": {
   "source_text": "Mei Ling: Kampung saya di Penang. Hafiz juga dari Penang.",
   "target_spans": [
    "Kampung saya di Penang. Hafiz juga dari Penang."
@@ -8561,7 +8814,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|12": {
+ "Unit 2A · Model conversation|4|16": {
   "source_text": "Yuki: Oh, Encik Hafiz pun dari Penang?",
   "target_spans": [
    "Oh, Encik Hafiz pun dari Penang?"
@@ -8570,16 +8823,34 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|13": {
-  "source_text": "Hafiz: Ya! Jom, kita jumpa lagi esok.",
+ "Unit 2A · Model conversation|4|17": {
+  "source_text": "Hafiz: Ya! Cik boleh cakap bahasa Melayu?",
   "target_spans": [
-   "Ya! Jom, kita jumpa lagi esok."
+   "Ya! Cik boleh cakap bahasa Melayu?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
- "Unit 2A · Model conversation|4|14": {
+ "Unit 2A · Model conversation|4|18": {
+  "source_text": "Yuki: Sikit je. (spoken)",
+  "target_spans": [
+   "Sikit je."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 2A · Model conversation|4|19": {
+  "source_text": "Hafiz: Wah, best! Jom, kita jumpa lagi esok.",
+  "target_spans": [
+   "Wah, best! Jom, kita jumpa lagi esok."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 2A · Model conversation|4|20": {
   "source_text": "Change two more facts yourselves (a name, a hometown) and play it again.",
   "target_spans": [],
   "mention_spans": [],
@@ -8587,7 +8858,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 2A · Model conversation|5|0": {
-  "source_text": "Gaps in order: Siapa, Nama, orang, Asal, Itu, Dia, di mana, juga, pun, Jom.",
+  "source_text": "Gaps in order: Siapa, Nama, orang, Asal, Itu, Dia, di mana, juga, pun, bahasa, sedikit (or sikit), Jom.",
   "target_spans": [
    "Siapa",
    "Nama",
@@ -8598,6 +8869,9 @@
    "di mana",
    "juga",
    "pun",
+   "bahasa",
+   "sedikit",
+   "sikit",
    "Jom"
   ],
   "mention_spans": [],
@@ -8605,11 +8879,13 @@
   "exclusion": null
  },
  "Unit 2A · Model conversation|5|1": {
-  "source_text": "Variant check: Selamat petang at 4 pm; Cik for Yuki; Encik for Hafiz.",
+  "source_text": "Variant check: Selamat petang at 4 pm; Cik for Yuki; Encik for Hafiz; Sikit je is the spoken answer, Boleh, sedikit the standard one.",
   "target_spans": [
    "Selamat petang",
    "Cik",
-   "Encik"
+   "Encik",
+   "Sikit je",
+   "Boleh, sedikit"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -10797,7 +11073,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 2B · Vocabulary focus|0|0": {
-  "source_text": "ユニット2Bの台帳の単語です：-kah の質問、仕事と勉強、家と家族、好きなこと、pe- の語（人）、-an の語（もの）、そして Kata-Kata の場面「Pagi di pejabat」のオフィスのことば。例文を声に出して読みましょう。",
+  "source_text": "ユニット2Bの台帳の単語です：-kah の質問、仕事と勉強、家と家族、好きなこと、pe- の語（人）、-an の語（もの）、そして Kata-Kata の場面「Pagi di pejabat」のオフィスのことば（聞いて分かればよい）と、自分で選ぶ趣味のことば。例文を声に出して読みましょう。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
@@ -10818,7 +11094,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 2B · Vocabulary focus|2|0": {
-  "source_text": "The ledger words for unit 2B: -kah questions, work and study, home and family, likes, pe- words (people), -an words (things), and the office words from the Kata-Kata scene \"Pagi di pejabat\". Read every example aloud.",
+  "source_text": "The ledger words for unit 2B: -kah questions, work and study, home and family, likes, pe- words (people), -an words (things), the office words from the Kata-Kata scene \"Pagi di pejabat\" (recognise), and a hobby word bank to choose from. Core: 37 words. Read every example aloud.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
@@ -11131,33 +11407,16 @@
   "exclusion": null
  },
  "Unit 2B · Vocabulary focus|4|4": {
-  "source_text": "   e.g. Saya tinggal di Mont Kiara.",
+  "source_text": "   e.g. Saya tinggal di Mont Kiara dengan keluarga saya. (dengan: unit 2A)",
   "target_spans": [
-   "Saya tinggal di Mont Kiara."
-  ],
-  "mention_spans": [],
-  "kind": "vocabulary",
-  "exclusion": null
- },
- "Unit 2B · Vocabulary focus|4|5": {
-  "source_text": "dengan — with · 〜と（一緒に）  [L-0077]",
-  "target_spans": [
+   "Saya tinggal di Mont Kiara dengan keluarga saya.",
    "dengan"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|6": {
-  "source_text": "   e.g. Saya tinggal dengan keluarga saya.",
-  "target_spans": [
-   "Saya tinggal dengan keluarga saya."
-  ],
-  "mention_spans": [],
-  "kind": "vocabulary",
-  "exclusion": null
- },
- "Unit 2B · Vocabulary focus|4|7": {
+ "Unit 2B · Vocabulary focus|4|5": {
   "source_text": "keluarga — family · 家族  [L-0079]",
   "target_spans": [
    "keluarga"
@@ -11166,7 +11425,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|8": {
+ "Unit 2B · Vocabulary focus|4|6": {
   "source_text": "   e.g. Keluarga saya di Jepun.",
   "target_spans": [
    "Keluarga saya di Jepun."
@@ -11175,7 +11434,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|9": {
+ "Unit 2B · Vocabulary focus|4|7": {
   "source_text": "isteri / suami — wife / husband · 妻／夫  [L-0080]",
   "target_spans": [
    "isteri",
@@ -11185,7 +11444,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|10": {
+ "Unit 2B · Vocabulary focus|4|8": {
   "source_text": "   e.g. Isteri saya orang Malaysia. / Suami saya jurutera.",
   "target_spans": [
    "Isteri saya orang Malaysia.",
@@ -11195,7 +11454,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|11": {
+ "Unit 2B · Vocabulary focus|4|9": {
   "source_text": "anak — child · 子供  [L-0081]",
   "target_spans": [
    "anak"
@@ -11204,7 +11463,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|12": {
+ "Unit 2B · Vocabulary focus|4|10": {
   "source_text": "   e.g. Encik ada anak? — Ada.",
   "target_spans": [
    "Encik ada anak?",
@@ -11214,7 +11473,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|13": {
+ "Unit 2B · Vocabulary focus|4|11": {
   "source_text": "ada — have; there is · ある・いる  [L-0057]",
   "target_spans": [
    "ada"
@@ -11223,7 +11482,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|14": {
+ "Unit 2B · Vocabulary focus|4|12": {
   "source_text": "   e.g. Saya ada anak.",
   "target_spans": [
    "Saya ada anak."
@@ -11232,14 +11491,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|15": {
+ "Unit 2B · Vocabulary focus|4|13": {
   "source_text": "■ Likes · 好きなこと",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 2B · Vocabulary focus|4|16": {
+ "Unit 2B · Vocabulary focus|4|14": {
   "source_text": "hobi — hobby · 趣味  [L-0072]",
   "target_spans": [
    "hobi"
@@ -11248,7 +11507,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|17": {
+ "Unit 2B · Vocabulary focus|4|15": {
   "source_text": "   e.g. Apa hobi encik?",
   "target_spans": [
    "Apa hobi encik?"
@@ -11257,7 +11516,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|18": {
+ "Unit 2B · Vocabulary focus|4|16": {
   "source_text": "suka — to like · 好き  [L-0073]",
   "target_spans": [
    "suka"
@@ -11266,7 +11525,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|19": {
+ "Unit 2B · Vocabulary focus|4|17": {
   "source_text": "   e.g. Saya suka masakan Malaysia.",
   "target_spans": [
    "Saya suka masakan Malaysia."
@@ -11275,7 +11534,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|20": {
+ "Unit 2B · Vocabulary focus|4|18": {
   "source_text": "main — to play · 遊ぶ・（スポーツを）する  [L-0074]",
   "target_spans": [
    "main"
@@ -11284,7 +11543,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|21": {
+ "Unit 2B · Vocabulary focus|4|19": {
   "source_text": "   e.g. Anak saya suka main dengan kawan.",
   "target_spans": [
    "Anak saya suka main dengan kawan."
@@ -11293,14 +11552,281 @@
   "kind": "vocabulary",
   "exclusion": null
  },
+ "Unit 2B · Vocabulary focus|4|20": {
+  "source_text": "■ Hobby word bank: pick your own · 趣味のことば（自分で選ぶ）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 2B · Vocabulary focus|4|21": {
+  "source_text": "muzik — music · 音楽  [L-1019]",
+  "target_spans": [
+   "muzik"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
  "Unit 2B · Vocabulary focus|4|22": {
+  "source_text": "   e.g. Saya suka muzik Jepun.",
+  "target_spans": [
+   "Saya suka muzik Jepun."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|4|23": {
+  "source_text": "lagu — song · 歌  [L-1022]",
+  "target_spans": [
+   "lagu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|4|24": {
+  "source_text": "   e.g. Saya suka lagu ini.",
+  "target_spans": [
+   "Saya suka lagu ini."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|4|25": {
+  "source_text": "karaoke — singing along to recorded music (loan from Japanese) · カラオケ  [L-1024]",
+  "target_spans": [
+   "karaoke"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|4|26": {
+  "source_text": "   e.g. Hobi saya karaoke.",
+  "target_spans": [
+   "Hobi saya karaoke."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|4|27": {
+  "source_text": "filem — film, movie · 映画  [L-1020]",
+  "target_spans": [
+   "filem"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|4|28": {
+  "source_text": "   e.g. Saya suka filem Jepun.",
+  "target_spans": [
+   "Saya suka filem Jepun."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|4|29": {
+  "source_text": "sukan — sport · スポーツ  [L-1021]",
+  "target_spans": [
+   "sukan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|4|30": {
+  "source_text": "   e.g. Apa sukan encik?",
+  "target_spans": [
+   "Apa sukan encik?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|0": {
+  "source_text": "golf — the club-and-ball sport (main golf = play golf) · ゴルフ  [L-1025]",
+  "target_spans": [
+   "golf",
+   "main golf"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|1": {
+  "source_text": "   e.g. Bos saya suka main golf.",
+  "target_spans": [
+   "Bos saya suka main golf."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|2": {
+  "source_text": "badminton — the shuttlecock sport · バドミントン  [L-0968]",
+  "target_spans": [
+   "badminton"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|3": {
+  "source_text": "   e.g. Saya suka main badminton dengan kawan.",
+  "target_spans": [
+   "Saya suka main badminton dengan kawan."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|4": {
+  "source_text": "masak — to cook (suka masak = like cooking) · 料理する  [L-1023]",
+  "target_spans": [
+   "masak",
+   "suka masak"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|5": {
+  "source_text": "   e.g. Isteri saya suka masak.",
+  "target_spans": [
+   "Isteri saya suka masak."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|6": {
+  "source_text": "kafe — café (also spelt cafe in signs and speech) · カフェ  [L-1026]",
+  "target_spans": [
+   "kafe"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|7": {
+  "source_text": "   e.g. Kafe ini best! (also spelt cafe; spoken)",
+  "target_spans": [
+   "Kafe ini best!"
+  ],
+  "mention_spans": [
+   "cafe"
+  ],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|8": {
+  "source_text": "cafe hopping — café hopping (spoken English loan) · カフェ巡り  [L-1027]",
+  "target_spans": [
+   "cafe hopping"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|9": {
+  "source_text": "   e.g. Hobi saya cafe hopping. (spoken)",
+  "target_spans": [
+   "Hobi saya cafe hopping."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|10": {
+  "source_text": "jalan-jalan — going out, travelling around for fun · 出かける・旅行する（遊びで）  [L-1028]",
+  "target_spans": [
+   "jalan-jalan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|11": {
+  "source_text": "   e.g. Saya suka jalan-jalan.",
+  "target_spans": [
+   "Saya suka jalan-jalan."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|12": {
+  "source_text": "travel — to go on trips (spoken English loan) · 旅行する  [L-1029]",
+  "target_spans": [
+   "travel"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|13": {
+  "source_text": "   e.g. Saya suka travel. (spoken; standard melancong comes in chapter 11)",
+  "target_spans": [
+   "Saya suka travel."
+  ],
+  "mention_spans": [
+   "melancong"
+  ],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|14": {
+  "source_text": "hiking — walking in the hills (spoken English loan) · ハイキング  [L-1030]",
+  "target_spans": [
+   "hiking"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|15": {
+  "source_text": "   e.g. Hobi saya hiking. (spoken; standard mendaki comes in chapter 11)",
+  "target_spans": [
+   "Hobi saya hiking."
+  ],
+  "mention_spans": [
+   "mendaki"
+  ],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|16": {
+  "source_text": "oshikatsu — supporting a favourite idol or character (Japanese loan) · 推し活  [L-1031]",
+  "target_spans": [
+   "oshikatsu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|17": {
+  "source_text": "   e.g. Hobi saya oshikatsu. (Japanese loan: supporting a favourite idol or character)",
+  "target_spans": [
+   "Hobi saya oshikatsu."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|5|18": {
   "source_text": "■ pe- words: people · pe- の語（人）",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 2B · Vocabulary focus|4|23": {
+ "Unit 2B · Vocabulary focus|5|19": {
   "source_text": "pekerja — worker, employee · 従業員  [L-0084]",
   "target_spans": [
    "pekerja"
@@ -11309,7 +11835,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|24": {
+ "Unit 2B · Vocabulary focus|5|20": {
   "source_text": "   e.g. Dia pekerja syarikat Sakura. (kerja → pekerja)",
   "target_spans": [
    "Dia pekerja syarikat Sakura.",
@@ -11321,7 +11847,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|25": {
+ "Unit 2B · Vocabulary focus|5|21": {
   "source_text": "pelajar — student · 学生  [L-0085]",
   "target_spans": [
    "pelajar"
@@ -11330,7 +11856,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|26": {
+ "Unit 2B · Vocabulary focus|5|22": {
   "source_text": "   e.g. Saya pelajar. (ajar → pelajar)",
   "target_spans": [
    "Saya pelajar.",
@@ -11342,7 +11868,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|27": {
+ "Unit 2B · Vocabulary focus|5|23": {
   "source_text": "pelawat — visitor · 訪問者  [L-0086]",
   "target_spans": [
    "pelawat"
@@ -11351,7 +11877,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|28": {
+ "Unit 2B · Vocabulary focus|5|24": {
   "source_text": "   e.g. Dia pelawat dari Jepun. (lawat → pelawat)",
   "target_spans": [
    "Dia pelawat dari Jepun.",
@@ -11363,7 +11889,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|29": {
+ "Unit 2B · Vocabulary focus|5|25": {
   "source_text": "pelancong — tourist · 観光客  [L-0087]",
   "target_spans": [
    "pelancong"
@@ -11372,7 +11898,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|4|30": {
+ "Unit 2B · Vocabulary focus|5|26": {
   "source_text": "   e.g. Mereka pelancong Jepun. (lancong → pelancong)",
   "target_spans": [
    "Mereka pelancong Jepun.",
@@ -11384,7 +11910,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|0": {
+ "Unit 2B · Vocabulary focus|5|27": {
   "source_text": "petani — farmer · 農家  [L-0088]",
   "target_spans": [
    "petani"
@@ -11393,7 +11919,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|1": {
+ "Unit 2B · Vocabulary focus|5|28": {
   "source_text": "   e.g. Keluarga dia petani. (tani → petani)",
   "target_spans": [
    "Keluarga dia petani.",
@@ -11405,7 +11931,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|2": {
+ "Unit 2B · Vocabulary focus|5|29": {
   "source_text": "pemandu — driver · 運転手  [L-0089]",
   "target_spans": [
    "pemandu"
@@ -11414,7 +11940,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|3": {
+ "Unit 2B · Vocabulary focus|5|30": {
   "source_text": "   e.g. Dia pemandu syarikat. (recognise only; pandu → pemandu)",
   "target_spans": [
    "Dia pemandu syarikat.",
@@ -11426,7 +11952,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|4": {
+ "Unit 2B · Vocabulary focus|6|0": {
   "source_text": "pengurus — manager · マネージャー  [L-0090]",
   "target_spans": [
    "pengurus"
@@ -11435,7 +11961,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|5": {
+ "Unit 2B · Vocabulary focus|6|1": {
   "source_text": "   e.g. Encik Rahman pengurus. (recognise only; urus → pengurus)",
   "target_spans": [
    "Encik Rahman pengurus.",
@@ -11447,14 +11973,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|6": {
+ "Unit 2B · Vocabulary focus|6|2": {
   "source_text": "■ -an words: things · -an の語（もの）",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 2B · Vocabulary focus|5|7": {
+ "Unit 2B · Vocabulary focus|6|3": {
   "source_text": "makanan — food · 食べ物  [L-0091]",
   "target_spans": [
    "makanan"
@@ -11463,7 +11989,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|8": {
+ "Unit 2B · Vocabulary focus|6|4": {
   "source_text": "   e.g. Saya suka makanan Malaysia. (makan → makanan)",
   "target_spans": [
    "Saya suka makanan Malaysia.",
@@ -11475,7 +12001,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|9": {
+ "Unit 2B · Vocabulary focus|6|5": {
   "source_text": "minuman — drink · 飲み物  [L-0092]",
   "target_spans": [
    "minuman"
@@ -11484,7 +12010,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|10": {
+ "Unit 2B · Vocabulary focus|6|6": {
   "source_text": "   e.g. Apa minuman encik? (minum → minuman)",
   "target_spans": [
    "Apa minuman encik?",
@@ -11496,7 +12022,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|11": {
+ "Unit 2B · Vocabulary focus|6|7": {
   "source_text": "masakan — cooking, cuisine · 料理  [L-0093]",
   "target_spans": [
    "masakan"
@@ -11505,7 +12031,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|12": {
+ "Unit 2B · Vocabulary focus|6|8": {
   "source_text": "   e.g. Isteri saya suka masakan Jepun. (masak → masakan)",
   "target_spans": [
    "Isteri saya suka masakan Jepun.",
@@ -11517,7 +12043,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|13": {
+ "Unit 2B · Vocabulary focus|6|9": {
   "source_text": "bacaan — reading material · 読み物  [L-0094]",
   "target_spans": [
    "bacaan"
@@ -11526,7 +12052,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|14": {
+ "Unit 2B · Vocabulary focus|6|10": {
   "source_text": "   e.g. Ini bacaan kelas kita. (baca → bacaan)",
   "target_spans": [
    "Ini bacaan kelas kita.",
@@ -11538,7 +12064,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|15": {
+ "Unit 2B · Vocabulary focus|6|11": {
   "source_text": "tulisan — writing, handwriting · 書いたもの・筆跡  [L-0095]",
   "target_spans": [
    "tulisan"
@@ -11547,7 +12073,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|16": {
+ "Unit 2B · Vocabulary focus|6|12": {
   "source_text": "   e.g. Ini tulisan anak saya. (tulis → tulisan)",
   "target_spans": [
    "Ini tulisan anak saya.",
@@ -11559,7 +12085,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|17": {
+ "Unit 2B · Vocabulary focus|6|13": {
   "source_text": "soalan — question · 質問  [L-0096]",
   "target_spans": [
    "soalan"
@@ -11568,7 +12094,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|18": {
+ "Unit 2B · Vocabulary focus|6|14": {
   "source_text": "   e.g. Ada soalan? (soal → soalan)",
   "target_spans": [
    "Ada soalan?",
@@ -11580,7 +12106,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|19": {
+ "Unit 2B · Vocabulary focus|6|15": {
   "source_text": "jawapan — answer · 答え  [L-0097]",
   "target_spans": [
    "jawapan"
@@ -11589,7 +12115,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|20": {
+ "Unit 2B · Vocabulary focus|6|16": {
   "source_text": "   e.g. Ini jawapan saya. (jawab → jawapan: b becomes p)",
   "target_spans": [
    "Ini jawapan saya.",
@@ -11601,7 +12127,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|21": {
+ "Unit 2B · Vocabulary focus|6|17": {
   "source_text": "latihan — practice, exercise · 練習  [L-0098]",
   "target_spans": [
    "latihan"
@@ -11610,7 +12136,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|22": {
+ "Unit 2B · Vocabulary focus|6|18": {
   "source_text": "   e.g. Ini latihan kita. (latih → latihan)",
   "target_spans": [
    "Ini latihan kita.",
@@ -11622,14 +12148,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|23": {
+ "Unit 2B · Vocabulary focus|6|19": {
   "source_text": "■ Office words from \"Pagi di pejabat\" (recognise) · オフィスのことば",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 2B · Vocabulary focus|5|24": {
+ "Unit 2B · Vocabulary focus|6|20": {
   "source_text": "komputer — computer · パソコン  [L-0523]",
   "target_spans": [
    "komputer"
@@ -11638,7 +12164,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|25": {
+ "Unit 2B · Vocabulary focus|6|21": {
   "source_text": "   e.g. Ini komputer saya.",
   "target_spans": [
    "Ini komputer saya."
@@ -11647,7 +12173,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|26": {
+ "Unit 2B · Vocabulary focus|6|22": {
   "source_text": "kertas — paper · 紙  [L-0524]",
   "target_spans": [
    "kertas"
@@ -11656,7 +12182,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|27": {
+ "Unit 2B · Vocabulary focus|6|23": {
   "source_text": "   e.g. Ini kertas encik?",
   "target_spans": [
    "Ini kertas encik?"
@@ -11665,7 +12191,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|28": {
+ "Unit 2B · Vocabulary focus|6|24": {
   "source_text": "fail — file · ファイル  [L-0525]",
   "target_spans": [
    "fail"
@@ -11674,7 +12200,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|29": {
+ "Unit 2B · Vocabulary focus|6|25": {
   "source_text": "   e.g. Fail itu di mana?",
   "target_spans": [
    "Fail itu di mana?"
@@ -11683,7 +12209,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|5|30": {
+ "Unit 2B · Vocabulary focus|6|26": {
   "source_text": "emel / e-mel — email · メール  [L-0526]",
   "target_spans": [
    "emel",
@@ -11693,7 +12219,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|0": {
+ "Unit 2B · Vocabulary focus|6|27": {
   "source_text": "   e.g. Encik ada emel? (both spellings are used)",
   "target_spans": [
    "Encik ada emel?"
@@ -11702,7 +12228,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|1": {
+ "Unit 2B · Vocabulary focus|6|28": {
   "source_text": "cetak — to print · 印刷する  [L-0527]",
   "target_spans": [
    "cetak"
@@ -11711,7 +12237,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|2": {
+ "Unit 2B · Vocabulary focus|6|29": {
   "source_text": "   e.g. Bolehkah saya cetak?",
   "target_spans": [
    "Bolehkah saya cetak?"
@@ -11720,7 +12246,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|3": {
+ "Unit 2B · Vocabulary focus|6|30": {
   "source_text": "hantar — to send · 送る  [L-0528]",
   "target_spans": [
    "hantar"
@@ -11729,7 +12255,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|4": {
+ "Unit 2B · Vocabulary focus|7|0": {
   "source_text": "   e.g. Boleh hantar emel?",
   "target_spans": [
    "Boleh hantar emel?"
@@ -11738,7 +12264,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|5": {
+ "Unit 2B · Vocabulary focus|7|1": {
   "source_text": "simpan — to save, keep · 保存する・しまう  [L-0529]",
   "target_spans": [
    "simpan"
@@ -11747,7 +12273,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|6": {
+ "Unit 2B · Vocabulary focus|7|2": {
   "source_text": "   e.g. Jangan risau, saya simpan fail itu.",
   "target_spans": [
    "Jangan risau, saya simpan fail itu."
@@ -11756,7 +12282,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|7": {
+ "Unit 2B · Vocabulary focus|7|3": {
   "source_text": "tanda tangan — signature · 署名  [L-0530]",
   "target_spans": [
    "tanda tangan"
@@ -11765,7 +12291,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|8": {
+ "Unit 2B · Vocabulary focus|7|4": {
   "source_text": "   e.g. Ini tanda tangan saya.",
   "target_spans": [
    "Ini tanda tangan saya."
@@ -11774,7 +12300,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|9": {
+ "Unit 2B · Vocabulary focus|7|5": {
   "source_text": "rakan sekerja — colleague · 同僚  [L-0531]",
   "target_spans": [
    "rakan sekerja"
@@ -11783,7 +12309,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|10": {
+ "Unit 2B · Vocabulary focus|7|6": {
   "source_text": "   e.g. Dia rakan sekerja saya.",
   "target_spans": [
    "Dia rakan sekerja saya."
@@ -11792,7 +12318,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|11": {
+ "Unit 2B · Vocabulary focus|7|7": {
   "source_text": "bos — boss (informal) · 上司  [L-0532]",
   "target_spans": [
    "bos"
@@ -11801,7 +12327,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|12": {
+ "Unit 2B · Vocabulary focus|7|8": {
   "source_text": "   e.g. Bos saya orang Jepun. (informal)",
   "target_spans": [
    "Bos saya orang Jepun."
@@ -11810,7 +12336,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|13": {
+ "Unit 2B · Vocabulary focus|7|9": {
   "source_text": "sibuk — busy · 忙しい  [L-0533]",
   "target_spans": [
    "sibuk"
@@ -11819,7 +12345,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|14": {
+ "Unit 2B · Vocabulary focus|7|10": {
   "source_text": "   e.g. Maaf, saya sibuk.",
   "target_spans": [
    "Maaf, saya sibuk."
@@ -11828,7 +12354,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|15": {
+ "Unit 2B · Vocabulary focus|7|11": {
   "source_text": "cuti — leave, holiday · 休み・休暇  [L-0534]",
   "target_spans": [
    "cuti"
@@ -11837,7 +12363,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|16": {
+ "Unit 2B · Vocabulary focus|7|12": {
   "source_text": "   e.g. Encik Rahman cuti.",
   "target_spans": [
    "Encik Rahman cuti."
@@ -11846,7 +12372,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|17": {
+ "Unit 2B · Vocabulary focus|7|13": {
   "source_text": "tanya — to ask · 尋ねる  [L-0535]",
   "target_spans": [
    "tanya"
@@ -11855,7 +12381,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|18": {
+ "Unit 2B · Vocabulary focus|7|14": {
   "source_text": "   e.g. Bolehkah saya tanya?",
   "target_spans": [
    "Bolehkah saya tanya?"
@@ -11864,7 +12390,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|19": {
+ "Unit 2B · Vocabulary focus|7|15": {
   "source_text": "jawab — to answer · 答える  [L-0536]",
   "target_spans": [
    "jawab"
@@ -11873,7 +12399,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|6|20": {
+ "Unit 2B · Vocabulary focus|7|16": {
   "source_text": "   e.g. Jawab soalan ini.",
   "target_spans": [
    "Jawab soalan ini."
@@ -11882,14 +12408,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|7|0": {
+ "Unit 2B · Vocabulary focus|8|0": {
   "source_text": "Kata-Kata cards ms-c02-015 to 017, 022, 029 to 039, 041 to 063; Dunia cards ms-d-pejabat-pagi-01 to 14.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 2B · Vocabulary focus|7|1": {
+ "Unit 2B · Vocabulary focus|8|1": {
   "source_text": "adakah (L-0988), bolehkah (L-0783) and kelas (L-0987) have no Kata-Kata card yet (pending). Roots shown as quoted roots come from Kata-Kata card notes; some (makan, baca) are chapter 4 words and are not taught here.",
   "target_spans": [
    "adakah",
@@ -11903,16 +12429,29 @@
   "kind": "key",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|7|2": {
-  "source_text": "Unit 2B has 52 ledger rows plus the -kah review of di manakah: above the usual 20 to 40, because chapter 2 holds 95 rows. The 14 office words are for recognition.",
+ "Unit 2B · Vocabulary focus|8|2": {
+  "source_text": "Load: 37 core words (plus the -kah review of di manakah), 14 office words to recognise, and 14 hobby words of which each learner keeps the few that are true for them. dengan is now taught in unit 2A. Hobby words L-1019 to L-1031 have no Kata-Kata card yet (pending); test only the hobby words a learner chose.",
   "target_spans": [
-   "di manakah"
+   "di manakah",
+   "dengan"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
- "Unit 2B · Vocabulary focus|7|3": {
+ "Unit 2B · Vocabulary focus|8|3": {
+  "source_text": "Malaysian forms: muzik, filem, sukan, kafe.",
+  "target_spans": [
+   "muzik",
+   "filem",
+   "sukan",
+   "kafe"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 2B · Vocabulary focus|8|4": {
   "source_text": "Check in class: say a root; learners give the pe- person or the -an thing. Expected: makan → makanan; ajar → pelajar.",
   "target_spans": [
    "makanan",
@@ -12242,32 +12781,50 @@
   "exclusion": null
  },
  "Unit 2B · Pattern and grammar focus|4|6": {
-  "source_text": "Explanation: suka (like) comes before a noun or a verb: suka masakan Malaysia, suka main. tidak suka = do not like. For Hobi saya ___, use your own hobby word (ask your teacher); the chapter 2 word list has no hobby nouns yet.",
+  "source_text": "6. A: Apa hobi cik?  B: Hobi saya karaoke dan jalan-jalan.",
   "target_spans": [
-   "suka",
-   "suka masakan Malaysia",
-   "suka main",
-   "tidak suka",
-   "Hobi saya ___"
+   "Apa hobi cik?",
+   "Hobi saya karaoke dan jalan-jalan."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 2B · Pattern and grammar focus|4|7": {
-  "source_text": "説明：suka（好き）は名詞や動詞の前に来ます：suka masakan Malaysia、suka main。tidak suka＝好きではない。Hobi saya ___ には自分の趣味の言葉を入れます（先生に聞きましょう）。第2章の単語にはまだ趣味の名詞がありません。",
+  "source_text": "Explanation: suka (like) comes before a noun or a verb: suka masakan Malaysia, suka main. tidak suka = do not like. For Hobi saya ___, pick a word from the hobby word bank (karaoke, golf, hiking, oshikatsu …) or ask your teacher.",
   "target_spans": [
    "suka",
    "suka masakan Malaysia",
    "suka main",
    "tidak suka",
-   "Hobi saya ___"
+   "Hobi saya ___",
+   "karaoke",
+   "golf",
+   "hiking",
+   "oshikatsu"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 2B · Pattern and grammar focus|4|8": {
+  "source_text": "説明：suka（好き）は名詞や動詞の前に来ます：suka masakan Malaysia、suka main。tidak suka＝好きではない。Hobi saya ___ には趣味のことば（karaoke、golf、hiking、oshikatsu など）から選ぶか、先生に聞きましょう。",
+  "target_spans": [
+   "suka",
+   "suka masakan Malaysia",
+   "suka main",
+   "tidak suka",
+   "Hobi saya ___",
+   "karaoke",
+   "golf",
+   "hiking",
+   "oshikatsu"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 2B · Pattern and grammar focus|4|9": {
   "source_text": "Japanese helps or misleads: In Japanese the thing you like comes first (料理が好き); in Malay it comes after suka: suka masakan. No が is needed.",
   "target_spans": [
    "suka",
@@ -12277,7 +12834,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2B · Pattern and grammar focus|4|9": {
+ "Unit 2B · Pattern and grammar focus|4|10": {
   "source_text": "日本語との比較：日本語は「料理が好き」と好きなものが先ですが、マレー語は suka のあとです：suka masakan。「が」はいりません。",
   "target_spans": [
    "suka",
@@ -12287,14 +12844,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2B · Pattern and grammar focus|4|10": {
+ "Unit 2B · Pattern and grammar focus|4|11": {
   "source_text": "■ Pattern 4 · ms-c02-f08",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 2B · Pattern and grammar focus|4|11": {
+ "Unit 2B · Pattern and grammar focus|4|12": {
   "source_text": "Pattern box: Di manakah ___ ? / Adakah ___ ? / Bolehkah ___ ?",
   "target_spans": [
    "Di manakah",
@@ -12305,7 +12862,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2B · Pattern and grammar focus|4|12": {
+ "Unit 2B · Pattern and grammar focus|4|13": {
   "source_text": "1. A: Di manakah pejabat encik?  B: Pejabat saya di Kuala Lumpur.",
   "target_spans": [
    "Di manakah pejabat encik?",
@@ -12315,7 +12872,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2B · Pattern and grammar focus|4|13": {
+ "Unit 2B · Pattern and grammar focus|4|14": {
   "source_text": "2. A: Siapakah nama encik?  B: Nama saya Tanaka.",
   "target_spans": [
    "Siapakah nama encik?",
@@ -12325,7 +12882,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2B · Pattern and grammar focus|4|14": {
+ "Unit 2B · Pattern and grammar focus|4|15": {
   "source_text": "3. A: Apakah nama syarikat puan?  B: Nama syarikat saya Sakura.",
   "target_spans": [
    "Apakah nama syarikat puan?",
@@ -12335,7 +12892,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2B · Pattern and grammar focus|4|15": {
+ "Unit 2B · Pattern and grammar focus|4|16": {
   "source_text": "4. A: Adakah encik orang Jepun?  B: Ya, saya orang Jepun.",
   "target_spans": [
    "Adakah encik orang Jepun?",
@@ -12345,7 +12902,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2B · Pattern and grammar focus|4|16": {
+ "Unit 2B · Pattern and grammar focus|4|17": {
   "source_text": "5. A: Bolehkah saya tanya?  B: Boleh.",
   "target_spans": [
    "Bolehkah saya tanya?",
@@ -12355,7 +12912,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2B · Pattern and grammar focus|4|17": {
+ "Unit 2B · Pattern and grammar focus|4|18": {
   "source_text": "6. A: Adakah Cik Mei Ling pelajar?  B: Tidak, dia jurutera.",
   "target_spans": [
    "Adakah Cik Mei Ling pelajar?",
@@ -12365,7 +12922,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2B · Pattern and grammar focus|4|18": {
+ "Unit 2B · Pattern and grammar focus|4|19": {
   "source_text": "Explanation: -kah on a question word makes a formal question, used in writing, forms and announcements: Siapakah, Apakah, di manakah. Adakah opens a formal yes/no question; answer Ya or Tidak. Bolehkah asks politely if something is possible; answer Boleh or Tidak boleh. In everyday speech a rising voice is enough: Encik orang Jepun?",
   "target_spans": [
    "Siapakah",
@@ -12383,7 +12940,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 2B · Pattern and grammar focus|4|19": {
+ "Unit 2B · Pattern and grammar focus|4|20": {
   "source_text": "説明：疑問詞に -kah をつけると、書き言葉・書類・アナウンスで使う改まった質問になります：Siapakah、Apakah、di manakah。Adakah は改まった「はい・いいえ」の質問を始め、答えは Ya か Tidak。Bolehkah は「〜してもいいですか・できますか」と丁寧にたずね、答えは Boleh か Tidak boleh。ふだんの会話では文末を上げるだけで十分です：Encik orang Jepun?",
   "target_spans": [
    "Siapakah",
@@ -12897,6 +13454,31 @@
   "kind": "drill",
   "exclusion": null
  },
+ "Unit 2B · Drill 2 · Substitution|3|12": {
+  "source_text": "Start: Hobi saya karaoke.",
+  "target_spans": [
+   "Hobi saya karaoke."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 2B · Drill 2 · Substitution|3|13": {
+  "source_text": "11. ( golf ) → ____________________",
+  "target_spans": [
+   "golf"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 2B · Drill 2 · Substitution|3|14": {
+  "source_text": "12. ( your own hobby word ) → ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
  "Unit 2B · Drill 2 · Substitution|4|0": {
   "source_text": "1 Saya tinggal di Bangsar dengan isteri saya. 2 … dengan suami saya. 3 … dengan keluarga saya. 4 … dengan anak saya.",
   "target_spans": [
@@ -12927,6 +13509,16 @@
    "Saya suka makanan Jepun.",
    "Saya suka minuman Jepun.",
    "Dia suka minuman Jepun."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 2B · Drill 2 · Substitution|4|3": {
+  "source_text": "11 Hobi saya golf. 12 Hobi saya … with any word from the hobby word bank.",
+  "target_spans": [
+   "Hobi saya golf.",
+   "Hobi saya …"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -17220,12 +17812,12 @@
   "exclusion": null
  },
  "Chapter 2 · Fast-course summary pack|4|1": {
-  "source_text": "3 · Saya orang ___ . Asal saya dari ___ .  e.g. Saya orang Jepun. Asal saya dari Osaka. / Kampung encik di mana?",
+  "source_text": "3 · Saya orang ___ . Asal saya dari ___ .  e.g. Saya orang Jepun. Asal saya dari Osaka. / Saya boleh cakap bahasa Melayu sedikit.",
   "target_spans": [
    "Saya orang",
    "Asal saya dari",
    "Saya orang Jepun. Asal saya dari Osaka.",
-   "Kampung encik di mana?"
+   "Saya boleh cakap bahasa Melayu sedikit."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -17254,11 +17846,12 @@
   "exclusion": null
  },
  "Chapter 2 · Fast-course summary pack|4|4": {
-  "source_text": "6 · Saya suka ___ .  e.g. Saya suka masakan Malaysia. / Apa hobi encik?",
+  "source_text": "6 · Saya suka ___ .  e.g. Saya suka masakan Malaysia. / Apa hobi encik? — Hobi saya karaoke. (hobby words: pick your own)",
   "target_spans": [
    "Saya suka",
    "Saya suka masakan Malaysia.",
-   "Apa hobi encik?"
+   "Apa hobi encik?",
+   "Hobi saya karaoke."
   ],
   "mention_spans": [],
   "kind": "model",

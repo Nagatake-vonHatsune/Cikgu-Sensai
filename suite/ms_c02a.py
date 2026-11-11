@@ -1,6 +1,8 @@
 """Unit 2A (chapter 2, first half): pronouns, names, origin; siapa, apa, di mana.
 
-Malay is limited to ledger rows placed in chapters 1 and 2. Patterns are
+Malay is limited to ledger rows placed in chapters 1 and 2. Since 11 Nov 2026 the unit
+also teaches languages («bahasa Melayu», «cakap», «sedikit»; Sam's decision) and takes
+«dengan» from unit 2B, so 2A and 2B carry a similar core load (35 and 37 words). Patterns are
 Kata-Kata frames ms-c02-f01, f02, f03 and f08 (f08 in its plain form; the -kah
 form follows in unit 2B). Japanese is a draft awaiting native review.
 """
@@ -23,7 +25,8 @@ GOALS_JA = {
 WORDS = ['L-0037', 'L-0038', 'L-0039', 'L-0040', 'L-0041', 'L-0042', 'L-0043', 'L-0044', 'L-0045', 'L-0046',
          'L-0047', 'L-0048', 'L-0049', 'L-0052', 'L-0053', 'L-0054', 'L-0055', 'L-0056', 'L-0058', 'L-0059',
          'L-0060', 'L-0061', 'L-0062', 'L-0063', 'L-0985', 'L-0986', 'L-0078', 'L-0075', 'L-0076',
-         'L-0942', 'L-0943', 'L-0944', 'L-0945', 'L-0946', 'L-0947', 'L-0949', 'L-0950', 'L-0951', 'L-0952', 'L-0953']
+         'L-0077', 'L-1016', 'L-1017', 'L-1018', 'L-0473', 'L-0216',
+         'L-0942', 'L-0943', 'L-0944', 'L-0945', 'L-0946', 'L-0947', 'L-0949', 'L-0950', 'L-0951', 'L-0952', 'L-0953', 'L-0948']
 G = dict(pron='ms-c02-g02', nn='ms-c02-g03', qw='ms-c02-g04', origin='ms-c02-g05', demo='ms-c02-g06', nya='ms-c02-g07',
          also='ms-c02-g13')
 
@@ -60,10 +63,10 @@ def components(ledger):
     C.append(dict(
         slug='vocabulary', type='Vocabulary', title='Vocabulary focus', block='A', minutes=10,
         grammar=[G['pron'], G['nn'], G['qw'], G['origin'], G['demo'], G['nya'], G['also']], goal=GOALS['A'],
-        explain=('ユニット2Aの台帳の単語40語です。代名詞、名前と質問、出身、つなぐ言葉、友達、そして Kata-Kata の場面「Sembang di pantri」の雑談のことば。'
+        explain=('ユニット2Aの単語：覚える語35語（代名詞、名前と質問、出身、ことば、つなぐ言葉、友達）と、Kata-Kata の場面「Sembang di pantri」の雑談のことば12語（聞いて分かればよい）。'
                  '例文を声に出して読みましょう。話し言葉には spoken と書いてあります。',
-                 'The 40 ledger words for unit 2A: pronouns, names and questions, origin, linking words, friends, and the chat words from the Kata-Kata scene '
-                 '"Sembang di pantri". Read every example aloud. Spoken forms are marked "spoken".'),
+                 'Unit 2A words: 35 core words to learn (pronouns, names and questions, origin, languages, linking words, friends) and 12 chat words '
+                 'from the Kata-Kata scene "Sembang di pantri" to recognise. Read every example aloud. Spoken forms are marked "spoken".'),
         sections=[('Words by group · 場面別の単語', vocab(ledger, [
             ('People: pronouns · 人を表す言葉', [
                 ('L-0037', '«Aku pun orang Jepun.» (spoken, close friends only)', dict(en='I, me (casual, close friends; spoken)')),
@@ -92,9 +95,16 @@ def components(ledger):
                 ('L-0062', '«Asal saya dari Osaka.»'),
                 ('L-0063', '«Kampung saya di Kyoto.»'),
                 ('L-0054', '«Saya dari Tokyo.»')]),
+            ('Languages · ことば', [
+                ('L-1016', '«Saya cakap bahasa Jepun.»'),
+                ('L-1017', '«Saya boleh cakap bahasa Melayu.»'),
+                ('L-1018', '«Dia cakap bahasa Inggeris.»'),
+                ('L-0473', '«Encik boleh cakap bahasa Melayu?» (formal written form: ‹bercakap›)', dict(en='to speak (everyday form)')),
+                ('L-0216', '«Saya boleh cakap bahasa Melayu sedikit.» («sikit» in speech)', dict(display='«sedikit» / «sikit»', en='a little («sikit» is the spoken form)'))]),
             ('Linking words · つなぐ言葉', [
                 ('L-0055', '«Encik Rahman dan Puan Aini orang Malaysia.»'),
-                ('L-0056', '«Saya juga orang Jepun.»')]),
+                ('L-0056', '«Saya juga orang Jepun.»'),
+                ('L-0077', '«Saya cakap bahasa Melayu dengan kawan saya.»')]),
             ('Friends · 友達', [
                 ('L-0078', '«Ini kawan saya, Ali.»'),
                 ('L-0075', '«Jom, kita jumpa nanti!» (spoken)', dict(en="let's (spoken)")),
@@ -110,11 +120,13 @@ def components(ledger):
                 ('L-0950', '«Wah, best!» (spoken)', dict(en='great, awesome (spoken)')),
                 ('L-0951', '«Wah, syok!» (spoken)', dict(en='really fun, enjoyable (spoken)')),
                 ('L-0952', '«Ini geng saya.» (spoken)', dict(en='group of friends, crew (spoken)')),
-                ('L-0953', '«Maaf, tumpang lalu.»')]),
+                ('L-0953', '«Maaf, tumpang lalu.»'),
+                ('L-0948', '«Boleh cakap bahasa Melayu?» — «Sikit je.» (spoken)', dict(en='just a little (spoken)'))]),
         ]))],
         key=['Kata-Kata cards ms-c02-002 to ms-c02-028 (pronouns, names, origin), ms-c02-040 to 043, and Dunia cards ms-d-pejabat-sembang-01 to 12.',
              '«ini» (L-0985) and «itu» (L-0986) have no Kata-Kata card yet (pending). «saya» was taught in unit 1.',
-             'Not listed: L-0948 ‹sikit je›. Its standard form ‹sedikit› is a chapter 5 word, and the register rule does not allow a spoken form before its standard form. Raised with Sam.',
+             '«bahasa», «Melayu», «Inggeris» (L-1016 to L-1018) and the Ch2 cards for «cakap» and «sedikit» are pending in Kata-Kata. '
+             'Sam moved «sedikit» to chapter 2 on 11 Nov 2026, so the spoken «sikit je» (L-0948) is now taught after its standard form.',
              'Check in class: point at people (I, you, he or she, we, they); learners answer with the pronoun. Ask "Which "you" for your manager?" Expected: the title («Encik», «Puan»), not «awak».']))
 
     C.append(dict(
@@ -202,10 +214,13 @@ def components(ledger):
             '3. ( Malaysia, Ipoh ) → ____________________', '4. ( «mereka» ) → ____________________',
             '5. ( «kami», «Jepun», Sapporo ) → ____________________', '6. ( «Encik» Kimura ) → ____________________',
             'Start: «Siapa nama encik?»',
-            '7. ( «puan» ) → ____________________', '8. ( «kawan awak» ) → ____________________'])],
+            '7. ( «puan» ) → ____________________', '8. ( «kawan awak» ) → ____________________',
+            'Start: «Saya boleh cakap bahasa Melayu sedikit.»',
+            '9. ( «bahasa Inggeris» ) → ____________________', '10. ( «dia», «bahasa Jepun» ) → ____________________'])],
         key=['1 «Saya orang Jepun. Asal saya dari Kyoto.» 2 «Dia orang Jepun. Asal dia dari Kyoto.» 3 «Dia orang Malaysia. Asal dia dari Ipoh.»',
              '4 «Mereka orang Malaysia. Asal mereka dari Ipoh.» 5 «Kami orang Jepun. Asal kami dari Sapporo.» 6 «Encik Kimura orang Jepun. Asal dia dari Sapporo.»',
-             '7 «Siapa nama puan?» 8 «Siapa nama kawan awak?»']))
+             '7 «Siapa nama puan?» 8 «Siapa nama kawan awak?»',
+             '9 «Saya boleh cakap bahasa Inggeris sedikit.» 10 «Dia boleh cakap bahasa Jepun sedikit.»']))
     C.append(dict(
         slug='drill-3-transformation', type='Drill', sub_type='transform', title='Drill 3 · Transformation', block='B', minutes=4,
         grammar=[G['pron'], G['qw'], G['demo'], G['nya'], G['also']], patterns=['ms-c02-f01', 'ms-c02-f02', 'ms-c02-f08'], goal=GOALS['B'],
@@ -233,9 +248,11 @@ def components(ledger):
             '3. «Kampung encik di mana?» → ____________________', '4. «Itu siapa?» (Mei Ling) → ____________________']),
             ('Part 2 · Reverse · 質問を言う', [
             '5. ____________________ → «Nama saya Rahman.»', '6. ____________________ → «Kampung saya di Kyoto.»',
-            '7. ____________________ → «Dia kawan saya.»', '8. ____________________ → «Tidak, saya orang Malaysia.»'])],
+            '7. ____________________ → «Dia kawan saya.»', '8. ____________________ → «Tidak, saya orang Malaysia.»',
+            '9. ____________________ → «Boleh, sedikit.»', '10. ____________________ → «Bahasa Inggeris dan bahasa Jepun.»'])],
         key=['1 «Nama saya …» 2 «Ya, saya orang Jepun.» 3 «Kampung saya di …» 4 «Itu Cik Mei Ling.»',
-             '5 «Siapa nama encik?» 6 «Kampung encik di mana?» 7 «Dia siapa?» 8 «Encik orang Jepun?» (any title or «awak»)']))
+             '5 «Siapa nama encik?» 6 «Kampung encik di mana?» 7 «Dia siapa?» 8 «Encik orang Jepun?» (any title or «awak»)',
+             '9 «Encik boleh cakap bahasa Melayu?» 10 «Encik cakap bahasa apa?»']))
     C.append(dict(
         slug='drill-5-question-word-choice', type='Drill', sub_type='question-word choice', title='Drill 5 · Question-word choice', block='B', minutes=3,
         grammar=[G['qw']], patterns=['ms-c02-f02', 'ms-c02-f08'], goal=GOALS['B'],
@@ -287,33 +304,36 @@ def components(ledger):
              ('Farah', '«Wah, Osaka! Itu Kumar. Dia kawan saya.»'), ('Kumar', '«Selamat pagi. Apa khabar?»'),
              ('Tanaka', '«Khabar baik, terima kasih. Selamat berkenalan, Encik Kumar.»'), ('Kumar', '«Selamat berkenalan. Kampung encik di mana?»'),
              ('Tanaka', '«Di Osaka. Encik pula?»'), ('Kumar', '«Kampung saya di Ipoh. Farah juga dari Ipoh.»'),
-             ('Tanaka', '«Oh, Cik Farah pun dari Ipoh?»'), ('Farah', '«Ya! Jom, kita jumpa lagi nanti.»')]
+             ('Tanaka', '«Oh, Cik Farah pun dari Ipoh?»'), ('Farah', '«Ya! Encik boleh cakap bahasa Melayu?»'),
+             ('Tanaka', '«Boleh, sedikit.»'), ('Farah', '«Wah! Jom, kita jumpa lagi nanti.»')]
     gapped = [('Farah', '«Selamat pagi, Encik. ___ nama encik?»'), ('Tanaka', '«Selamat pagi. ___ saya Tanaka. Cik pula?»'),
               ('Farah', '«Nama saya Farah. Selamat berkenalan.»'), ('Tanaka', '«Selamat berkenalan, Cik Farah.»'),
               ('Farah', '«Encik ___ Jepun?»'), ('Tanaka', '«Ya, saya orang Jepun. ___ saya dari Osaka.»'),
               ('Farah', '«Wah, Osaka! ___ Kumar. ___ kawan saya.»'), ('Kumar', '«Selamat pagi. Apa khabar?»'),
               ('Tanaka', '«Khabar baik, terima kasih. Selamat berkenalan, Encik Kumar.»'), ('Kumar', '«Selamat berkenalan. Kampung encik di ___ ?»'),
               ('Tanaka', '«Di Osaka. Encik pula?»'), ('Kumar', '«Kampung saya di Ipoh. Farah ___ dari Ipoh.»'),
-              ('Tanaka', '«Oh, Cik Farah ___ dari Ipoh?»'), ('Farah', '«Ya! ___ , kita jumpa lagi nanti.»')]
+              ('Tanaka', '«Oh, Cik Farah ___ dari Ipoh?»'), ('Farah', '«Ya! Encik boleh cakap ___ Melayu?»'),
+              ('Tanaka', '«Boleh, ___ .»'), ('Farah', '«Wah! ___ , kita jumpa lagi nanti.»')]
     variant = [('Hafiz', '«Selamat petang, Cik. Siapa nama cik?»'), ('Yuki', '«Selamat petang. Nama saya Yuki. Encik pula?»'),
                ('Hafiz', '«Nama saya Hafiz. Selamat berkenalan.»'), ('Yuki', '«Selamat berkenalan, Encik Hafiz.»'),
                ('Hafiz', '«Cik orang Jepun?»'), ('Yuki', '«Ya, saya orang Jepun. Asal saya dari Sapporo.»'),
                ('Hafiz', '«Wah, Sapporo! Itu Mei Ling. Dia kawan saya.»'), ('Mei Ling', '«Selamat petang. Apa khabar?»'),
                ('Yuki', '«Baik, terima kasih. Selamat berkenalan, Cik Mei Ling.»'), ('Mei Ling', '«Selamat berkenalan. Kampung cik di mana?»'),
                ('Yuki', '«Di Sapporo. Cik pula?»'), ('Mei Ling', '«Kampung saya di Penang. Hafiz juga dari Penang.»'),
-               ('Yuki', '«Oh, Encik Hafiz pun dari Penang?»'), ('Hafiz', '«Ya! Jom, kita jumpa lagi esok.»')]
+               ('Yuki', '«Oh, Encik Hafiz pun dari Penang?»'), ('Hafiz', '«Ya! Cik boleh cakap bahasa Melayu?»'),
+               ('Yuki', '«Sikit je.» (spoken)'), ('Hafiz', '«Wah, best! Jom, kita jumpa lagi esok.»')]
     C.append(dict(
         slug='model-conversation', type='Model conversation', title='Model conversation', block='B', minutes=15,
         grammar=[G['pron'], G['nn'], G['qw'], G['origin'], G['demo'], G['also']],
         patterns=['ms-c02-f01', 'ms-c02-f02', 'ms-c02-f03', 'ms-c02-f08'], goal=GOALS['B'],
-        explain=('給湯室での自己紹介（14ターン）です。ペアで読み、次に空欄版、最後に事実を変えた版を演じます。',
-                 'Introductions in the pantry, in 14 turns. Read it in pairs, then the gapped version, then the variant with changed facts.'),
+        explain=('給湯室での自己紹介（16ターン）です。ペアで読み、次に空欄版、最後に事実を変えた版を演じます。',
+                 'Introductions in the pantry, in 16 turns. Read it in pairs, then the gapped version, then the variant with changed facts.'),
         sections=[('1 · Model: the office pantry · 給湯室で', turns(model)),
                   ('2 · Gapped version · 空欄版', turns(gapped)),
                   ('3 · Variant: changed facts · 事実を変えた版', ['Now it is 4 pm. Yuki from Sapporo meets Hafiz and Mei Ling from Penang.', *turns(variant),
                     'Change two more facts yourselves (a name, a hometown) and play it again.'])],
-        key=['Gaps in order: «Siapa», «Nama», «orang», «Asal», «Itu», «Dia», «di mana», «juga», «pun», «Jom».',
-             'Variant check: «Selamat petang» at 4 pm; «Cik» for Yuki; «Encik» for Hafiz.',
+        key=['Gaps in order: «Siapa», «Nama», «orang», «Asal», «Itu», «Dia», «di mana», «juga», «pun», «bahasa», «sedikit» (or «sikit»), «Jom».',
+             'Variant check: «Selamat petang» at 4 pm; «Cik» for Yuki; «Encik» for Hafiz; «Sikit je» is the spoken answer, «Boleh, sedikit» the standard one.',
              'Point out «juga» and «pun» (both "also") and «kita» (including the listener) in «Jom, kita jumpa lagi».']))
 
     # Listening -----------------------------------------------------------

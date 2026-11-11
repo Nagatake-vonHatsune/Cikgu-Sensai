@@ -149,6 +149,16 @@ GLOSS = {
     'L-0983': dict(en='also, too (after the word: «Saya pun baik»)'),
     'L-0988': dict(en='yes/no question opener («Adakah …?» = Is it …?)'),
     'L-0783': dict(en='Can …? / May I …? (polite)', ja='「〜できますか・〜してもいいですか」（«boleh» のていねいな形）'),
+    'L-1016': dict(en='language («bahasa Melayu» = the Malay language)', ja='言語（«bahasa Melayu»＝マレー語）'),
+    'L-1017': dict(en='Malay («bahasa Melayu», «orang Melayu»)', ja='マレー（«bahasa Melayu»＝マレー語）'),
+    'L-1018': dict(en='English («bahasa Inggeris»)', ja='英語（«bahasa Inggeris»）'),
+    'L-1020': dict(en='film, movie'),
+    'L-1023': dict(en='to cook («suka masak» = like cooking)'),
+    'L-1025': dict(en='the club-and-ball sport («main golf» = play golf)'),
+    'L-1024': dict(en='singing along to recorded music (loan from Japanese)'),
+    'L-0968': dict(en='the shuttlecock sport'),
+    'L-1029': dict(en='to go on trips (spoken English loan)'),
+    'L-1030': dict(en='walking in the hills (spoken English loan)'),
 }
 
 

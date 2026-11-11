@@ -89,10 +89,10 @@ def chapter2(ledger):
             ('Key patterns · 文型', [
                 '1 · «Nama saya» ___ .  e.g. «Nama saya Tanaka.» / «Ini kawan saya. Namanya Ali.»',
                 '2 · «Siapa nama» (title)?  e.g. «Siapa nama encik?» / «Itu siapa?»',
-                '3 · «Saya orang» ___ . «Asal saya dari» ___ .  e.g. «Saya orang Jepun. Asal saya dari Osaka.» / «Kampung encik di mana?»',
+                '3 · «Saya orang» ___ . «Asal saya dari» ___ .  e.g. «Saya orang Jepun. Asal saya dari Osaka.» / «Saya boleh cakap bahasa Melayu sedikit.»',
                 '4 · «Saya kerja di» ___ .  e.g. «Saya kerja di syarikat Jepun. Saya jurutera.» / «Saya belajar di Universiti Malaya.»',
                 '5 · «Saya tinggal di» ___ .  e.g. «Saya tinggal di Mont Kiara.» / «Saya tinggal dengan keluarga saya.»',
-                '6 · «Saya suka» ___ .  e.g. «Saya suka masakan Malaysia.» / «Apa hobi encik?»',
+                '6 · «Saya suka» ___ .  e.g. «Saya suka masakan Malaysia.» / «Apa hobi encik?» — «Hobi saya karaoke.» (hobby words: pick your own)',
                 '7 · «Di manakah» / «Adakah» / «Bolehkah» ___ ?  e.g. «Di manakah pejabat encik?» / «Bolehkah saya tanya?»',
                 'Remember: two nouns make a sentence (no "is"); the owner comes after the thing («nama saya»); use a title, not «awak», with seniors.',
                 '名詞を並べるだけで文になります。持ち主はもののあと（«nama saya»）。目上の人には «awak» ではなく敬称を使います。'], 'model'),

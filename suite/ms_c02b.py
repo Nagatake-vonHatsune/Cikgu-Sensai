@@ -4,9 +4,10 @@ pe- and -an; the -kah forms, adakah and bolehkah. Includes the writing block
 
 Malay is limited to ledger rows placed in chapters 1 and 2. Patterns are
 Kata-Kata frames ms-c02-f04 to f08, plus a word-building box for pe- and -an
-(grammar points ms-c02-g10 and g11; not a Kata-Kata frame). The ledger has no
-hobby nouns at chapter 2 (Kata-Kata's own example, badminton, is placed in
-chapter 6), so «Hobi saya ___» is completed with the learner's own word.
+(grammar points ms-c02-g10 and g11; not a Kata-Kata frame). Since 11 Nov 2026 the
+unit has a hobby word bank (L-0968 badminton and L-1019 to L-1031, Sam's list):
+each learner picks the words that are true for them; it is not tested as core.
+«dengan» moved to unit 2A, so 2A and 2B carry a similar core load (35 and 37).
 Japanese is a draft awaiting native review.
 """
 from . import vocab, malay_words, english_words, pattern, turns
@@ -27,11 +28,13 @@ GOALS_JA = {
 }
 WRITING_GOAL = 'I can fill in a self-introduction form and write a short self-introduction.'
 WORDS = ['L-0050', 'L-0051', 'L-0988', 'L-0783', 'L-0057', 'L-0064', 'L-0065', 'L-0066', 'L-0067', 'L-0068',
-         'L-0069', 'L-0070', 'L-0071', 'L-0072', 'L-0073', 'L-0074', 'L-0077', 'L-0079', 'L-0080', 'L-0081',
+         'L-0069', 'L-0070', 'L-0071', 'L-0072', 'L-0073', 'L-0074', 'L-0079', 'L-0080', 'L-0081',
          'L-0082', 'L-0083', 'L-0084', 'L-0085', 'L-0086', 'L-0087', 'L-0088', 'L-0089', 'L-0090', 'L-0091',
          'L-0092', 'L-0093', 'L-0094', 'L-0095', 'L-0096', 'L-0097', 'L-0098', 'L-0987',
          'L-0523', 'L-0524', 'L-0525', 'L-0526', 'L-0527', 'L-0528', 'L-0529', 'L-0530', 'L-0531', 'L-0532',
-         'L-0533', 'L-0534', 'L-0535', 'L-0536']
+         'L-0533', 'L-0534', 'L-0535', 'L-0536',
+         'L-0968', 'L-1019', 'L-1020', 'L-1021', 'L-1022', 'L-1023', 'L-1024', 'L-1025', 'L-1026', 'L-1027',
+         'L-1028', 'L-1029', 'L-1030', 'L-1031']
 G = dict(place='ms-c02-g08', like='ms-c02-g09', pe='ms-c02-g10', an='ms-c02-g11', kah='ms-c02-g12', fam='ms-c02-g14',
          nn='ms-c02-g03', qw='ms-c02-g04', pron='ms-c02-g02', nya='ms-c02-g07')
 ALL = [G['place'], G['like'], G['pe'], G['an'], G['kah'], G['fam']]
@@ -68,9 +71,10 @@ def components(ledger):
         slug='vocabulary', type='Vocabulary', title='Vocabulary focus', block='A', minutes=10,
         grammar=ALL, goal=GOALS['A'],
         explain=('ユニット2Bの台帳の単語です：-kah の質問、仕事と勉強、家と家族、好きなこと、pe- の語（人）、-an の語（もの）、'
-                 'そして Kata-Kata の場面「Pagi di pejabat」のオフィスのことば。例文を声に出して読みましょう。',
+                 'そして Kata-Kata の場面「Pagi di pejabat」のオフィスのことば（聞いて分かればよい）と、自分で選ぶ趣味のことば。例文を声に出して読みましょう。',
                  'The ledger words for unit 2B: -kah questions, work and study, home and family, likes, pe- words (people), -an words (things), '
-                 'and the office words from the Kata-Kata scene "Pagi di pejabat". Read every example aloud.'),
+                 'the office words from the Kata-Kata scene "Pagi di pejabat" (recognise), and a hobby word bank to choose from. '
+                 'Core: 37 words. Read every example aloud.'),
         sections=[('Words by group · 場面別の単語', vocab(ledger, [
             ('Formal and polite questions · 丁寧な質問', [
                 ('L-0050', '«Siapakah nama encik?»', dict(display='«Siapakah»')),
@@ -90,8 +94,7 @@ def components(ledger):
                 ('L-0987', '«Saya suka kelas ini.»')]),
             ('Home and family · 家と家族', [
                 ('L-0070', '«Rumah saya di Bangsar.»'),
-                ('L-0071', '«Saya tinggal di Mont Kiara.»'),
-                ('L-0077', '«Saya tinggal dengan keluarga saya.»'),
+                ('L-0071', '«Saya tinggal di Mont Kiara dengan keluarga saya.» («dengan»: unit 2A)'),
                 ('L-0079', '«Keluarga saya di Jepun.»'),
                 ('L-0080', '«Isteri saya orang Malaysia.» / «Suami saya jurutera.»', dict(display='«isteri» / «suami»')),
                 ('L-0081', '«Encik ada anak?» — «Ada.»'),
@@ -100,6 +103,21 @@ def components(ledger):
                 ('L-0072', '«Apa hobi encik?»'),
                 ('L-0073', '«Saya suka masakan Malaysia.»'),
                 ('L-0074', '«Anak saya suka main dengan kawan.»')]),
+            ('Hobby word bank: pick your own · 趣味のことば（自分で選ぶ）', [
+                ('L-1019', '«Saya suka muzik Jepun.»'),
+                ('L-1022', '«Saya suka lagu ini.»'),
+                ('L-1024', '«Hobi saya karaoke.»'),
+                ('L-1020', '«Saya suka filem Jepun.»'),
+                ('L-1021', '«Apa sukan encik?»'),
+                ('L-1025', '«Bos saya suka main golf.»'),
+                ('L-0968', '«Saya suka main badminton dengan kawan.»'),
+                ('L-1023', '«Isteri saya suka masak.»'),
+                ('L-1026', '«Kafe ini best!» (also spelt ‹cafe›; spoken)'),
+                ('L-1027', '«Hobi saya cafe hopping.» (spoken)'),
+                ('L-1028', '«Saya suka jalan-jalan.»'),
+                ('L-1029', '«Saya suka travel.» (spoken; standard ‹melancong› comes in chapter 11)'),
+                ('L-1030', '«Hobi saya hiking.» (spoken; standard ‹mendaki› comes in chapter 11)'),
+                ('L-1031', '«Hobi saya oshikatsu.» (Japanese loan: supporting a favourite idol or character)')]),
             ('pe- words: people · pe- の語（人）', [
                 ('L-0084', '«Dia pekerja syarikat Sakura.» (‹kerja› → «pekerja»)'),
                 ('L-0085', '«Saya pelajar.» (‹ajar› → «pelajar»)'),
@@ -136,7 +154,9 @@ def components(ledger):
         key=['Kata-Kata cards ms-c02-015 to 017, 022, 029 to 039, 041 to 063; Dunia cards ms-d-pejabat-pagi-01 to 14.',
              '«adakah» (L-0988), «bolehkah» (L-0783) and «kelas» (L-0987) have no Kata-Kata card yet (pending). '
              'Roots shown as quoted roots come from Kata-Kata card notes; some (‹makan›, ‹baca›) are chapter 4 words and are not taught here.',
-             'Unit 2B has 52 ledger rows plus the -kah review of «di manakah»: above the usual 20 to 40, because chapter 2 holds 95 rows. The 14 office words are for recognition.',
+             'Load: 37 core words (plus the -kah review of «di manakah»), 14 office words to recognise, and 14 hobby words of which each learner keeps the few that are true for them. '
+             '«dengan» is now taught in unit 2A. Hobby words L-1019 to L-1031 have no Kata-Kata card yet (pending); test only the hobby words a learner chose.',
+             'Malaysian forms: «muzik», «filem», «sukan», «kafe».',
              'Check in class: say a root; learners give the pe- person or the -an thing. Expected: ‹makan› → «makanan»; ‹ajar› → «pelajar».']))
 
     C.append(dict(
@@ -174,11 +194,12 @@ def components(ledger):
                 'A: «Puan suka makanan Jepun?»  B: «Ya, saya suka makanan Jepun.»',
                 'A: «Anak encik suka main?»  B: «Ya, dia suka main dengan kawan.»',
                 'A: «Awak suka kelas ini?»  B: «Ya, saya suka kelas ini!»',
-                'A: «Isteri encik suka minuman Malaysia?»  B: «Tidak, dia tidak suka.»'],
+                'A: «Isteri encik suka minuman Malaysia?»  B: «Tidak, dia tidak suka.»',
+                'A: «Apa hobi cik?»  B: «Hobi saya karaoke dan jalan-jalan.»'],
                 '«suka» (like) comes before a noun or a verb: «suka masakan Malaysia», «suka main». «tidak suka» = do not like. '
-                'For «Hobi saya ___», use your own hobby word (ask your teacher); the chapter 2 word list has no hobby nouns yet.',
+                'For «Hobi saya ___», pick a word from the hobby word bank («karaoke», «golf», «hiking», «oshikatsu» …) or ask your teacher.',
                 '«suka»（好き）は名詞や動詞の前に来ます：«suka masakan Malaysia»、«suka main»。«tidak suka»＝好きではない。'
-                '«Hobi saya ___» には自分の趣味の言葉を入れます（先生に聞きましょう）。第2章の単語にはまだ趣味の名詞がありません。',
+                '«Hobi saya ___» には趣味のことば（«karaoke»、«golf»、«hiking»、«oshikatsu» など）から選ぶか、先生に聞きましょう。',
                 'In Japanese the thing you like comes first (料理が好き); in Malay it comes after «suka»: «suka masakan». No が is needed.',
                 '日本語は「料理が好き」と好きなものが先ですが、マレー語は «suka» のあとです：«suka masakan»。「が」はいりません。'),
             pattern(4, 'ms-c02-f08', '«Di manakah» ___ ? / «Adakah» ___ ? / «Bolehkah» ___ ?', [
@@ -242,10 +263,13 @@ def components(ledger):
             '5. ( «dia» ) → ____________________', '6. ( «mereka» ) → ____________________',
             'Start: «Saya suka masakan Malaysia.»',
             '7. ( «makanan» ) → ____________________', '8. ( «Jepun» ) → ____________________',
-            '9. ( «minuman» ) → ____________________', '10. ( «dia» ) → ____________________'])],
+            '9. ( «minuman» ) → ____________________', '10. ( «dia» ) → ____________________',
+            'Start: «Hobi saya karaoke.»',
+            '11. ( «golf» ) → ____________________', '12. ( your own hobby word ) → ____________________'])],
         key=['1 «Saya tinggal di Bangsar dengan isteri saya.» 2 «… dengan suami saya.» 3 «… dengan keluarga saya.» 4 «… dengan anak saya.»',
              '5 «Dia tinggal di Bangsar dengan anaknya.» (or «anak dia») 6 «Mereka tinggal di Bangsar dengan anak mereka.»',
-             '7 «Saya suka makanan Malaysia.» 8 «Saya suka makanan Jepun.» 9 «Saya suka minuman Jepun.» 10 «Dia suka minuman Jepun.»']))
+             '7 «Saya suka makanan Malaysia.» 8 «Saya suka makanan Jepun.» 9 «Saya suka minuman Jepun.» 10 «Dia suka minuman Jepun.»',
+             '11 «Hobi saya golf.» 12 «Hobi saya …» with any word from the hobby word bank.']))
     C.append(dict(
         slug='drill-3-transformation', type='Drill', sub_type='transform', title='Drill 3 · Transformation', block='B', minutes=4,
         grammar=[G['kah'], G['pe'], G['nya'], G['like']], patterns=['ms-c02-f04', 'ms-c02-f07', 'ms-c02-f08'], goal=GOALS['B'],
