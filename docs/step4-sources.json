@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-11",
+  "charter": {
+    "url": "https://docs.google.com/document/d/1d-uiYfQixReMUlPAcUEJ6R4onWOh-4Aa9urr14DL2lw",
+    "read": "Read in full through the Google Drive connector at the start of step 4. Content matches docs/handoff/charter-snapshot.md (formatting differences only)."
+  },
+  "ledger": {
+    "sheet_id": "1X8t3ENRVUY_NHJ3xEB7UY3OiwwUg_KUZT-ESbtiMC0o",
+    "tab": "Ledger",
+    "rows": "L-0001 to L-1015 (1,015 rows)",
+    "read": "Ledger!A1:T1016 through the Google Sheets connector at the start of step 4; identical, cell for cell, to docs/handoff/ledger-snapshot.csv.",
+    "reference_file": "curriculum/reference/katakata/malay-ledger.csv",
+    "sha256": "d0bb4fcc9b3e3126cc0de750bb0e3302559961014bcc42ab1a066a6a838d45c1",
+    "format": "Written with LF line endings, like the step 1 snapshot, so the Git diff shows only the 8 changed and 33 new rows."
+  },
+  "kata_kata_chapter_files": "curriculum/reference/katakata/c01.json to c09.json are unchanged from docs/restructure-sources.json (Kata-Kata commit 0f78179)."
+}

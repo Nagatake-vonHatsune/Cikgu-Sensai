@@ -8,12 +8,13 @@ from catalogue import make_catalogue
 
 def main():
  s=(ROOT/'dist/bank.js').read_text();lessons=json.loads(s[14:s.index(';\nconst bankPDF=')]);groups=json.loads((ROOT/'dist/chapters.js').read_text()[len('const chapters='):-1]);catalogue=make_catalogue(lessons,groups)
- result=run_checks(lessons,catalogue);proposals=read_json(ROOT/'docs/step3-charter-source.json')['list_a'];coverage={}
+ authored=read_json(ROOT/'docs/step4-authored-scope.json') if (ROOT/'docs/step4-authored-scope.json').exists() else None
+ result=run_checks(lessons,catalogue,authored_scope=authored);proposals=read_json(ROOT/'docs/step3-charter-source.json')['list_a'];coverage={}
  for r in proposals:
   for t in r['term'].replace(' / ', ', ').split(', '):coverage[t]=r['chapter']
  gaps=[]
  for e in sorted(result['ledger_gaps'].values(),key=lambda x:(x['unit'],x['term'])):
-  proposed=coverage.get(e['term']);ch=next((s['chapter'] for s in collect_segments(lessons,catalogue,read_json(ROOT/'curriculum/malay-text-scope.json')) if s['unit']==e['unit']),None)
+  proposed=coverage.get(e['term']);ch=next((s['chapter'] for s in collect_segments(lessons,catalogue,{'lines':{**read_json(ROOT/'curriculum/malay-text-scope.json')['lines'],**(authored or {})}}) if s['unit']==e['unit']),None)
   status='Not in list A' if proposed is None else 'Would close gap; placement unverified' if ch is None else 'Would close gap at this chapter' if proposed<=ch else 'Would add term, but later than this use'
   gaps.append({'unit':e['unit'],'term':e['term'],'list_a_chapter':proposed,'coverage':status,'sources':'; '.join(x['source'] for x in e['evidence'])})
  result['ledger_gap_coverage']=gaps

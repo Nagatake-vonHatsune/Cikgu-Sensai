@@ -5,7 +5,7 @@ Manis. Yang kecil masam sikit.|Kalau satu besar dan satu kecil, sama harga?
 Yang kecil dua ringgit. Semua lima ringgit.|Saya ada empat ringgit saja. Dua yang kecil boleh?
 [Boleh]. Nak beg sekali?|Tak nak. Ini duit.
 Empat ringgit, cukup. Ada lagi?|Esok buka pukul [berapa]?
-Pukul lapan. Nak datang lagi?|Ya, saya nak beli untuk kawan.
+Pukul lapan. Nak beli lagi?|Ya, saya nak beli untuk kawan.
 Baik, jumpa esok.|Terima kasih.
 @ Meet at a campus gate
 Where are you now?|I’m outside the shop. Which [gate] do we need?

@@ -22,7 +22,7 @@ class LanguageChecksTests(unittest.TestCase):
   r=self.checker.inspect([self.seg('ceritanya',6)]);self.assertEqual({x['term'] for x in r['ledger_gaps'].values()},{'cerita'})
   r=self.checker.inspect([self.seg('sebiji',3)]);self.assertTrue(any(x['check']=='ledger' and x['term']=='biji' for x in r['violations'].values()))
  def test_gap_is_not_ledger_violation(self):
-  r=self.checker.inspect([self.seg('epal',3)]);self.assertTrue(r['ledger_gaps']);self.assertFalse(r['violations'])
+  r=self.checker.inspect([self.seg('lucu',3)]);self.assertTrue(r['ledger_gaps']);self.assertFalse(r['violations'])
   r=self.checker.inspect([self.seg('biji',3)]);self.assertTrue(r['violations']);self.assertFalse(r['ledger_gaps'])
  def test_register_requires_order_and_label(self):
   r=self.checker.inspect([self.seg('nak'),self.seg('mahu',kind='vocabulary')]);self.assertTrue(any(x['check']=='register' for x in r['violations'].values()))
@@ -50,13 +50,28 @@ class LanguageChecksTests(unittest.TestCase):
    with self.assertRaisesRegex(ValueError,'New Malay violations'):
     run_checks([],{'components':[],'test_items':[]})
   # A new missing word is deliberately non-blocking under Sam's step 3 policy.
-  with patch('language_checks.collect_segments',return_value=[self.seg('epal',1)]):
+  with patch('language_checks.collect_segments',return_value=[self.seg('lucu',4,unit='ms-c04a')]):
    result=run_checks([],{'components':[],'test_items':[]})
    self.assertTrue(result['ledger_gaps'])
  def test_no_content_or_reference_edits(self):
-  files=['curriculum/malay-course.txt','curriculum/foundation.txt','curriculum/foundation-guided.txt','curriculum/advanced.txt','curriculum/guided.txt','conversations.py','curriculum.py','course.py']
-  files += [str(p.relative_to(ROOT)) for p in (ROOT/'curriculum/reference/katakata').iterdir()]
+  # Legacy lesson sources and the Kata-Kata chapter files are unchanged. Step 4
+  # changed exactly one legacy line (3B, ledger L-1006) and refreshed the ledger.
+  files=['curriculum/malay-course.txt','curriculum/foundation.txt','curriculum/advanced.txt','curriculum/guided.txt','conversations.py','curriculum.py']
+  files += [str(p.relative_to(ROOT)) for p in (ROOT/'curriculum/reference/katakata').glob('*.json')]
   for f in files:
    original=subprocess.check_output(['git','show','c067e225eabe51e3bfc7020bd2800f9bdaf5a5b4:'+f],cwd=ROOT)
    self.assertEqual(original,(ROOT/f).read_bytes(),f)
+  original=subprocess.check_output(['git','show','c067e225eabe51e3bfc7020bd2800f9bdaf5a5b4:curriculum/foundation-guided.txt'],cwd=ROOT,text=True).splitlines()
+  changed=[(a,b) for a,b in zip(original,(ROOT/'curriculum/foundation-guided.txt').read_text().splitlines()) if a!=b]
+  self.assertEqual(changed,[('Pukul lapan. Nak datang lagi?|Ya, saya nak beli untuk kawan.','Pukul lapan. Nak beli lagi?|Ya, saya nak beli untuk kawan.')])
+ def test_unplaced_phrase_does_not_hide_placed_words(self):
+  # 'encik pula' is an unplaced Hanashishou row; Encik and pula are chapter 1 words.
+  r=self.checker.inspect([self.seg('Khabar baik. Encik pula?',1)]);self.assertFalse(r['violations']);self.assertFalse(r['ledger_gaps'])
+ def test_mentions_skip_ledger_but_not_malaysian_form(self):
+  s=self.seg('makan',2,kind='mention');self.assertFalse(self.checker.inspect([s])['violations'])
+  s=self.seg('nomor',2,kind='mention');self.assertTrue(self.checker.inspect([s])['violations'])
+ def test_reauthored_units_block_gaps(self):
+  with patch('language_checks.collect_segments',return_value=[self.seg('lucu',1,unit='ms-c01')]):
+   with self.assertRaisesRegex(ValueError,'not in the ledger'):
+    run_checks([],{'components':[],'test_items':[]})
 if __name__=='__main__':unittest.main()

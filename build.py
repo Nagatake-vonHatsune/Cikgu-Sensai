@@ -27,33 +27,72 @@ lesson("Tell a colleague you will be late","Japanese","B1","Writing",["到着予
 from curriculum import load_batch
 load_batch(lesson)
 
-from course import add_course
-chapters=add_course(lessons,lesson)
+from suite import Ledger, build_suite, paginate, authored_scope, component_words
+ledger=Ledger()
+suite_lessons,suite_units=build_suite(ledger)
 
-from catalogue import make_catalogue
-from language_checks import run_checks
-catalogue=make_catalogue(lessons,chapters)
-run_checks(lessons,catalogue)
-(root/"dist/catalogue.js").write_text("const catalogue="+json.dumps(catalogue,ensure_ascii=False)+";\n")
+from course import add_course
+chapters=add_course(lessons,lesson,suite_units)
+lessons.extend(suite_lessons)
 
 from fontTools import subset
 from fontTools.ttLib import TTFont
 from tempfile import TemporaryDirectory
+LEGACY_CSS="@font-face{font-family:Body;src:url(body.otf)}*{font-family:Body;color:#151515}body{font-size:18pt;line-height:1.42}small{font-size:12pt}h1{font-size:27pt}h2{font-size:21pt;border-bottom:1pt solid black}p{margin:0 0 12pt}"
+# Step 4 suites carry more text per sheet; a smaller face keeps tables on one page.
+COMPACT_CSS="@font-face{font-family:Body;src:url(body.otf)}*{font-family:Body;color:#151515}body{font-size:12.5pt;line-height:1.36}small{font-size:8pt}h1{font-size:19pt;margin:0 0 3pt}h2{font-size:14.5pt;border-bottom:1pt solid black;margin:4pt 0 7pt}p{margin:0 0 4.5pt}p.h{font-weight:bold;margin-top:7pt}.ms{color:#0b4a7a}.mn{font-style:italic}"
+RECT=fitz.Rect(46,42,550,796)
+import re
+def marked_html(line):
+    # Step 4 suites: Malay target text in blue, Kata-Kata root mentions in italics.
+    text=html.escape(line)
+    text=re.sub(r"«([^«»]*)»",r'<span class="ms">\1</span>',text)
+    return re.sub(r"‹([^‹›]*)›",r'<span class="mn">\1</span>',text)
+def markup(item,label,lines,raw=None):
+    if item.get("style")=="compact":
+        shown=raw if raw is not None else [html.escape(line) for line in lines]
+        shown=[marked_html(x) for x in raw] if raw is not None else shown
+        body="".join(('<p class="h">' if line.startswith("■ ") else "<p>")+text+"</p>" for line,text in zip(lines,shown))
+        return f'<small>{html.escape(item["header"])}</small><h1>{html.escape(item["title"])}</h1><h2>{html.escape(label)}</h2>{body}',COMPACT_CSS
+    body="".join("<p>"+html.escape(line)+"</p>" for line in lines)
+    return f'<small>Cikgu, Sensai! / {item["lang"]} · {item["level"]}</small><h1>{item["title"]}</h1><h2>{label}</h2>{body}',LEGACY_CSS
 with TemporaryDirectory() as tmp:
     font=TTFont("/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",fontNumber=0)
-    sub=subset.Subsetter(); sub.populate(text=json.dumps(lessons,ensure_ascii=False)+"Cikgu, Sensai! · /"); sub.subset(font); font.save(tmp+"/body.otf")
+    sub=subset.Subsetter(); sub.populate(text=json.dumps(lessons,ensure_ascii=False)+"Cikgu, Sensai! · /()0123456789"); sub.subset(font); font.save(tmp+"/body.otf")
+    archive=fitz.Archive(tmp)
+    scratch=fitz.open()
+    def fits(item,label,lines):
+        page=scratch.new_page(width=595.28,height=841.89)
+        text,css=markup(item,label,lines)
+        space,scale=page.insert_htmlbox(RECT,text,css=css,archive=archive,scale_low=1)
+        scratch.delete_page(-1)
+        return space>=0
+    for item in suite_lessons:paginate(item,fits)
+    scope=authored_scope(suite_lessons,ledger)
+    for item in suite_lessons:component_words(item,ledger,suite_units)
+
+    from catalogue import make_catalogue
+    from language_checks import run_checks
+    catalogue=make_catalogue(lessons,chapters)
+    run_checks(lessons,catalogue,authored_scope=scope)
+    # Developer copy of the generated scope, so tools/check_report.py can re-run the checks.
+    (root/"docs/step4-authored-scope.json").write_text(json.dumps(scope,ensure_ascii=False,indent=1)+"\n")
+    (root/"dist/catalogue.js").write_text("const catalogue="+json.dumps(catalogue,ensure_ascii=False)+";\n")
+
     doc=fitz.open()
     for item in lessons:
-        for page in item["pages"]:
+        for page_no,page in enumerate(item["pages"]):
             page["index"]=len(doc)
             p=doc.new_page(width=595.28,height=841.89)
-            lines="".join("<p>"+html.escape(line)+"</p>" for line in page["lines"])
-            markup=f'<small>Cikgu, Sensai! / {item["lang"]} · {item["level"]}</small><h1>{item["title"]}</h1><h2>{page["label"]}</h2>{lines}'
-            space,scale=p.insert_htmlbox(fitz.Rect(46,42,550,796),markup,css="@font-face{font-family:Body;src:url(body.otf)}*{font-family:Body;color:#151515}body{font-size:18pt;line-height:1.42}small{font-size:12pt}h1{font-size:27pt}h2{font-size:21pt;border-bottom:1pt solid black}p{margin:0 0 12pt}",archive=fitz.Archive(tmp),scale_low=1)
+            raw=[x for x,k in item["_raw"][page_no]] if "_raw" in item else None
+            text,css=markup(item,page["label"],page["lines"],raw)
+            space,scale=p.insert_htmlbox(RECT,text,css=css,archive=archive,scale_low=1)
             assert space>=0,(item["title"],page)
+    for item in suite_lessons:del item["_raw"]
     raw=doc.tobytes(garbage=4,deflate=True)
 (root/"dist/bank.js").write_text("const lessons="+json.dumps(lessons,ensure_ascii=False)+";\nconst bankPDF='"+base64.b64encode(raw).decode()+"';")
 (root/"dist/chapters.js").write_text("const chapters="+json.dumps(chapters,ensure_ascii=False)+";")
+print(f"Built {len(lessons)} packs ({len(suite_lessons)} step 4 suite components), {len(doc)} pages, all fit-checked.")
 
 # Keep the downloadable offline copy in sync with the deployed chapter guide.
 # Preserve the existing archive layout (source files plus dist/index.html).
@@ -61,7 +100,7 @@ from zipfile import ZipFile, ZIP_DEFLATED
 archive_path=root/"dist/Cikgu-Sensai-offline.zip"
 with ZipFile(archive_path,"w",ZIP_DEFLATED) as offline:
     files=list(root.glob("*.py"))+[root/"README.md",root/"wrangler.json"]
-    for folder in ("curriculum","dist","tools"):
+    for folder in ("curriculum","dist","tools","suite"):
         files.extend((root/folder).rglob("*"))
     for path in sorted(set(files)):
         if path.is_file() and path!=archive_path and "__pycache__" not in path.parts:

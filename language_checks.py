@@ -19,6 +19,8 @@ REGISTER={'nak':'mahu','tak':'tidak','dah':'sudah','ni':'ini','tu':'itu','sikit'
 ROOTS=set('berat bersih belok belakang belas belum beli besar bebas beliau berus merah meja meter mesyuarat mereka mendung menu belanja menang'.split())
 PROPER=set('a b c d emi farah osaka jepun pj shah alam kl sentral pasar seni aki mei qr rm am pm'.split())
 NUMBERS=set('sifar kosong satu dua tiga empat lima enam tujuh lapan sembilan sepuluh sebelas belas puluh ratus ribu juta'.split())
+PROPER_FILE='curriculum/malay-proper-nouns.json'
+MENTIONS_FILE='curriculum/malay-mentions.json'
 def tokens(s):return re.findall(r"[a-z]+(?:[-'][a-z]+)*",s.lower())
 def norm(s):return ' '.join(tokens(s))
 def read_json(path):return json.loads(Path(path).read_text())
@@ -42,7 +44,12 @@ class Checker:
      self.cards.setdefault(norm(v),[]).append(c)
      if c['affix_tag'] in ['chunk','chunk*','lex'] or c.get('recognise_only'):self.chunks.append((norm(v),n))
   self.roots=ROOTS|set(read_json(self.root/'curriculum/malay-roots.json')['roots'])
+  # Names of people, places and organisations are not vocabulary (step 4 list).
+  names=read_json(self.root/PROPER_FILE)['names'] if (self.root/PROPER_FILE).exists() else []
+  self.proper=PROPER|{t for name in names for t in tokens(name)}
   self.maxlen=max(len(t.split()) for t in self.entries)
+ def compositional(self,term,parts):
+  return all(r['_chapter'] is None for r in self.entries[term]) and all(t in self.entries for t in parts)
  def known_by(self,term,ch):
   return any(r['_chapter'] is not None and r['_chapter']<=ch for r in self.entries.get(term,[]))
  def noun(self,t):return any(c['pos'] in ['n','noun','counter','num'] for c in self.cards.get(t,[])) or any(r['POS'] in ['n','noun','counter'] for r in self.entries.get(t,[]))
@@ -74,6 +81,9 @@ class Checker:
    if ch is None:unplaced.add(s['unit'])
    for bad,good in INDONESIAN.items():
     if bad in ts:add(violations,s,'malaysian-form',bad,'Charter-listed form; use '+good)
+   # A mention (root or standard form quoted from a Kata-Kata note) is not taught
+   # vocabulary: only the Malaysian-form check applies; its allow-list is checked by the suite builder.
+   if s['kind']=='mention':continue
    for spoken,standard in REGISTER.items():
     if re.search(r'(?<!\w)'+re.escape(spoken)+r'(?!\w)',text):
      if (seq,standard) not in seen_standard:add(violations,s,'register',spoken,'Standard '+standard+' has no earlier target-language teaching occurrence.')
@@ -82,7 +92,7 @@ class Checker:
    exempt=set()
    for phrase,first in self.chunks:
     if ch is not None and first<=ch and re.search(r'(?<!\w)'+re.escape(phrase)+r'(?!\w)',text):exempt.update(tokens(phrase))
-   for w in set(ts)-PROPER:
+   for w in set(ts)-self.proper:
     if ch is not None and w not in exempt:
      early=[]
      if ch<3 and w.startswith('ke') and w[2:] in NUMBERS:early.append('ke- ordinal before chapter 3')
@@ -98,10 +108,13 @@ class Checker:
      if ch is not None and ch<11 and re.match(r'^me[^aeiou\W]',affix_base):add(violations,s,'affix',w,'me- shaped form before chapter 11; no taught chunk or root exemption.')
    i=0
    while i<len(ts):
-    if ts[i] in PROPER:i+=1;continue
+    if ts[i] in self.proper:i+=1;continue
     matched=None
     for size in range(min(self.maxlen,len(ts)-i),0,-1):
      term=' '.join(ts[i:i+size])
+     # An unplaced multi-word row (e.g. a Hanashishou phrase "encik pula") does not
+     # override placed single words it is built from; match the words instead.
+     if term in self.entries and size>1 and self.compositional(term,ts[i:i+size]):continue
      if term in self.entries:matched=(term,size);break
     term,size=matched if matched else (ts[i],1)
     deriv=self.derivation(term,ch) if size==1 else None
@@ -127,12 +140,13 @@ class Checker:
 def collect_segments(lessons,catalogue,scope):
  by_title={l['title']:l for l in lessons};segments=[];seen=set();scope_errors=[]
  for c in catalogue['components']:
-  if c['language']!='Malay' or c['component_type']=='Teaching plan':continue
+  if c['language']!='Malay' or (c['component_type']=='Teaching plan' and not c.get('authored')):continue
   # A2 extension stays separate from the Stage 1 sequence in both linked chapters.
-  unit='ms-extension-a2-lunch' if c['source_title']=='Lunch at a Malaysian stall' else c['unit_id'] or c['chapter_id'] or 'ms-supplementary-'+c['level'].lower()
+  unit='ms-extension-a2-lunch' if c['source_title']=='Lunch at a Malaysian stall' else c.get('check_unit') or c['unit_id'] or c['chapter_id'] or 'ms-supplementary-'+c['level'].lower()
   chapter=None if unit=='ms-extension-a2-lunch' else chapter_id(c['chapter_id'])
   l=by_title[c['source_title']]
-  for pi in c['page_indices']:
+  # Step 4 suites mark every Malay span, so their explainers, keys and plans are checked too.
+  for pi in c.get('check_indices',c['page_indices']):
    for li,line in enumerate(l['pages'][pi]['lines']):
     source=f'{l["title"]}|{pi}|{li}'
     if (unit,source) in seen:continue
@@ -141,6 +155,9 @@ def collect_segments(lessons,catalogue,scope):
     for t in entry['target_spans']:
      if t not in line:raise ValueError('Target span not in source: '+source)
      segments.append({'unit':unit,'chapter':chapter,'source':source,'source_text':line,'kind':entry['kind'],'text':t})
+    for t in entry.get('mention_spans',[]):
+     if t not in line:raise ValueError('Mention span not in source: '+source)
+     segments.append({'unit':unit,'chapter':chapter,'source':source,'source_text':line,'kind':'mention','text':t})
  for item in catalogue['test_items']:
   c=next(c for c in catalogue['components'] if c['id']==item['component_id'])
   if c['language']!='Malay':continue
@@ -152,7 +169,7 @@ def collect_segments(lessons,catalogue,scope):
    if not entry or entry['source_text']!=value:scope_errors.append(source);continue
    for t in entry['target_spans']:
     if t not in value:raise ValueError('Invalid test target span')
-    segments.append({'unit':c['unit_id'] or c['chapter_id'],'chapter':chapter_id(c['chapter_id']),'source':source,'source_text':value,'kind':'test','text':t})
+    segments.append({'unit':c.get('check_unit') or c['unit_id'] or c['chapter_id'],'chapter':chapter_id(c['chapter_id']),'source':source,'source_text':value,'kind':'test','text':t})
  if scope_errors:raise ValueError('Unreviewed Malay target/rubric scope: '+', '.join(scope_errors))
  return segments
 
@@ -188,11 +205,20 @@ def ratchet(current,root=ROOT):
  validate_baseline(current,current,retired)
  return len(current)
 
-def run_checks(lessons,catalogue,root=ROOT):
+def run_checks(lessons,catalogue,root=ROOT,authored_scope=None):
+ """authored_scope: scope entries generated from step 4 markup (every Malay span marked)."""
  root=Path(root);scope=read_json(root/'curriculum/malay-text-scope.json')
+ if authored_scope:
+  clash=scope['lines'].keys()&authored_scope.keys()
+  if clash:raise ValueError('Authored scope collides with the reviewed scope file: '+', '.join(sorted(clash)))
+  scope={**scope,'lines':{**scope['lines'],**authored_scope}}
  result=Checker(root).inspect(collect_segments(lessons,catalogue,scope))
  baseline=read_json(root/EXCEPTIONS);remaining=ratchet(baseline,root)
  missing=sorted(result['violations'].keys()-baseline.keys())
- print(f'Malay checks: {remaining} legacy exceptions remaining; {len(result["violations"])} current unit/check/term violations; {len(result["ledger_gaps"])} unit/term ledger gaps (non-blocking).')
+ print(f'Malay checks: {remaining} legacy exceptions remaining; {len(result["violations"])} current unit/check/term violations; {len(result["ledger_gaps"])} unit/term ledger gaps (non-blocking outside re-authored units).')
  if missing:raise ValueError('New Malay violations:\n'+'\n'.join(missing))
+ # Re-authored units are ledger-only: a word missing from the ledger blocks them.
+ retired=set(read_json(root/'curriculum/reauthored-units.json'))
+ blocked=sorted(k for k,e in result['ledger_gaps'].items() if e['unit'] in retired)
+ if blocked:raise ValueError('Re-authored units use words that are not in the ledger:\n'+'\n'.join(blocked))
  return result

@@ -18,8 +18,8 @@ The existing A2 lunch extension remains linked from 3B and 5 at its original lev
 Read [the step 1 report](docs/STEP-1-REPORT.md) and
 [the per-unit issues log](docs/restructure-issues.md). The matching CSV contains
 source locations and quoted evidence. Japanese text awaits native-speaker review.
-Step 2 adds the component catalogue below. Step 3 affix/register/ledger enforcement
-has not started.
+Step 2 adds the component catalogue below. Step 3 adds the language checks; step 4 the pilot suites.
+
 
 To reproduce the audit, obtain Kata-Kata at the exact revision recorded in
 `docs/restructure-sources.json`, then run
@@ -55,5 +55,20 @@ reference snapshot to make the check pass without Sam's approval.
 
 `python tools/check_report.py` regenerates developer-only reports under `docs`.
 It never writes exceptions. Read [the step 3 report](docs/STEP-3-REPORT.md) and
-[complete inventory](docs/STEP-3-INVENTORY.md). Section 13 list A is coverage
-metadata only, not authorised vocabulary. No step 4 content has been written.
+[complete inventory](docs/STEP-3-INVENTORY.md). Section 13 list A is now in the ledger.
+
+
+## Charter step 4: pilot suites (units 1, 2A, 2B and the chapter 1 and 2 fast packs)
+
+The pilot content lives in `suite/` (one Python module per unit, plus `fast.py`). Mark
+every Malay target span `«…»`; quote a root or standard form from a Kata-Kata note as
+`‹…›` and list it with its source in `curriculum/malay-mentions.json`. Unmarked text
+must be Japanese or English: the build fails if it contains a ledger word. Names go in
+`curriculum/malay-proper-nouns.json`. Pages are paginated by measurement; teacher keys
+may run to several pages.
+
+Re-authored units (`curriculum/reauthored-units.json`) are ledger-only: a word missing
+from the ledger fails the build there. `tests/test_step4_suite.py` checks the charter
+section 6 minimums and section 14 drills. PDF previews: MuPDF's rasteriser garbles this
+CJK subset on screen, so render previews with poppler (`pdftoppm`); the PDF itself is
+correct. See [the step 4 report](docs/STEP-4-REPORT.md).

@@ -71,3 +71,20 @@ revision in `docs/restructure-sources.json`. No reference repository is edited.
 `curriculum/malay-roots.json` records Sam's five root classifications. The audit
 uses these classifications without adding terms to the ledger or enabling the
 step 3 affix guard.
+
+## Step 4 additions
+
+Authored components (`authored: true`) take every tag from `suite/`, not from inference:
+`sub_type`, `skills`, `block`, `time_minutes`, `grammar_points`, `pattern_ids`,
+`word_ids` (traced from every marked Malay span), `course_path` (`full` or `fast`),
+`can_do_goal`, and `prerequisites` with `chapters`, `units`, `grammar_points` and
+`word_ids` (words placed in an earlier chapter or unit). `key_indices` may list several
+pages; `check_indices` lists every page the language checks read. Fast-course packs
+have `component_type` "Fast-course pack" and no unit.
+
+Drill sub-types add `question-word choice` and `question-word set` to the step 2 list.
+Test items (54) are generated from `suite/` and validated by `validate_test_item`;
+`prerequisite_items` also matches items from earlier units of the same chapter. The
+word registry adds ledger rows with no Kata-Kata chapter card, keyed by their Dunia card
+ID or their ledger ID. Pilot grammar points are `ms-c01-g02` to `g08` and `ms-c02-g02`
+to `g14`.
