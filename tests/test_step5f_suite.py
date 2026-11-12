@@ -1,11 +1,11 @@
-"""Step 5f chapter 8: charter section 6 and 14 minimums for unit 8 (penjodoh bilangan) and the chapter 8 fast pack.
+"""Step 5f and 5g chapter 8: charter section 6 and 14 minimums for unit 8 (penjodoh bilangan) and the chapter 8 fast pack.
 
-Checks the authored source and the built page bank: the ledger partition recomputed from the ledger (35 core
-entries and 11 Dunia "Beli baju" recognition entries; the counter cards placed in earlier chapters are revision), the
-component minimums, the cumulative question words with «berapa» and a counter, real item-by-item answer keys, word
-tags on every test item, and the chapter 8 Malay rules («seekor», «sebiji» and «sebuah» as whole words only; «satu» +
-counter as the productive form; the counter dropped in everyday speech marked as such; spoken forms labelled; no
-faith-specific expressions; nothing placed after chapter 8).
+Checks the authored source and the built page bank: the ledger partition recomputed from the ledger (41 core
+entries, including the six rows Sam approved on 12 Nov 2026, and 11 Dunia "Beli baju" recognition entries; the counter
+cards placed in earlier chapters are revision), the component minimums, the cumulative question words with «berapa»
+and a counter, real item-by-item answer keys, word tags on every test item, and the chapter 8 Malay rules («se-» with
+every counter beside «satu» + counter; the counter dropped in everyday speech marked as such; spoken forms labelled;
+the register Sam confirmed on 12 Nov 2026; no faith-specific expressions; nothing placed after chapter 8).
 """
 import json
 import re
@@ -44,8 +44,9 @@ def ch8_placed(rows):
 
 
 def ch8_core(rows):
-    """First placed in chapter 8 and carrying a chapter 8 card."""
-    return {lid for lid in ch8_placed(rows) if first_chapter(rows[lid]) == 8 and has_c08_card(rows[lid])}
+    """First placed in chapter 8 and carrying a chapter 8 card, or one of the rows added on 12 Nov 2026 ('Ch8 (pending)')."""
+    return {lid for lid in ch8_placed(rows) if first_chapter(rows[lid]) == 8
+            and (has_c08_card(rows[lid]) or 'Ch8 (pending)' in rows[lid]['Kata-Kata place'])}
 
 
 def ch8_recognition(rows):
@@ -93,12 +94,15 @@ class Chapter8Minimums(unittest.TestCase):
     def test_ledger_partition(self):
         rows = self.ledger.rows
         placed = ch8_placed(rows)
-        # The ledger copy places 54 rows in chapter 8: 35 first-placed core, 11 Dunia "Beli baju" words (primes Ch8)
-        # whose only chapter is 8 and carry no chapter 8 card, and 8 rows placed in earlier chapters that also have
-        # a chapter 8 card (orang, surat, payung, buku, kaki, buah, ikan, kertas).
-        self.assertEqual(len(placed), 54)
+        # The ledger copy places 60 rows in chapter 8: 41 first-placed core (35 with a chapter 8 card, plus the six rows
+        # Sam approved on 12 Nov 2026: L-1064 to L-1069), 11 Dunia "Beli baju" words (primes Ch8) whose only chapter is 8
+        # and carry no chapter 8 card, and 8 rows placed in earlier chapters that also have a chapter 8 card
+        # (orang, surat, payung, buku, kaki, buah, ikan, kertas).
+        self.assertEqual(len(placed), 60)
         core_all = ch8_core(rows)
-        self.assertEqual(len(core_all), 35)
+        self.assertEqual(len(core_all), 41)
+        self.assertEqual({rows[x]['Malay'] for x in core_all if int(x[2:]) >= 1064},
+                         {'nasi lemak', 'gerai', 'tambah', 'buah (penjodoh bilangan)', 'pisang goreng / goreng pisang', 'keropok lekor'})
         rec_all = ch8_recognition(rows)
         self.assertEqual(len(rec_all), 11)
         carried = placed - core_all - rec_all
@@ -114,9 +118,11 @@ class Chapter8Minimums(unittest.TestCase):
         for lid in rec:
             self.assertIn('Dunia · Beli baju (primes Ch8)', rows[lid]['Kata-Kata place'])
         groups = dict(self.cfg['core_groups'])
-        self.assertEqual(list(groups), ['Classifiers', 'Containers and portions', 'The things counted', 'All, please and takeaway'])
+        self.assertEqual(list(groups), ['Classifiers', 'Containers and portions', 'The things counted', 'At the «gerai»',
+                                        'All, please and takeaway'])
         self.assertEqual({k: len(v) for k, v in groups.items()},
-                         {'Classifiers': 13, 'Containers and portions': 7, 'The things counted': 12, 'All, please and takeaway': 3})
+                         {'Classifiers': 14, 'Containers and portions': 7, 'The things counted': 12, 'At the «gerai»': 5,
+                          'All, please and takeaway': 3})
         self.assertEqual([lid for ids in groups.values() for lid in ids], core)
         # «baju» is both a Dunia word and a chapter 8 card: core, not recognition.
         self.assertIn('L-0500', core)
@@ -128,15 +134,25 @@ class Chapter8Minimums(unittest.TestCase):
         for lid in rev:
             r = rows[lid]
             self.assertLessEqual(first_chapter(r), 7, lid)
-        # Counter cards the ledger placed earlier are revision with a new use (orang, buah), not new core.
+        # «orang» (counter) is revision with a new use; «buah» as a counter is now its own core row (L-1067), «buah» as fruit
+        # (L-0514) stays revision.
         for lid in ('L-0058', 'L-0514'):
             self.assertIn(lid, rev)
         self.assertEqual(rows['L-0058']['Malay'], 'orang')
         self.assertEqual(rows['L-0514']['Malay'], 'buah')
-        # «kaki» (counter: umbrellas on the Kata-Kata card) is not taught as a counter: the ledger only has "foot, leg".
+        self.assertEqual(rows['L-1067']['Malay'], 'buah (penjodoh bilangan)')
+        self.assertEqual(rows['L-1067']['POS'], 'classifier')
+        self.assertIn('L-1067', core)
+        self.assertNotIn('L-0514', core)
+        # «kaki» as a counter is not added (Sam, 12 Nov 2026: too rare): it is not core and is not used as a counter.
         self.assertNotIn('L-0488', core)
+        self.assertEqual(rows['L-0488']['Meaning (EN)'], 'foot, leg')
         mw = self.marked_words()
-        self.assertFalse([1 for a, b in zip(mw, mw[1:]) if b == 'kaki' and a in ('satu', 'dua', 'tiga', 'seekor')])
+        self.assertFalse([1 for a, b in zip(mw, mw[1:]) if b == 'kaki' and a in ('satu', 'dua', 'tiga', 'seekor', 'sekaki')])
+        # Sam's other answers of 12 Nov 2026, as they stand in the ledger copy.
+        self.assertEqual(rows['L-0592']['Review status'], 'Retired')
+        self.assertTrue(rows['L-0931']['Meaning (JA)'].startswith('ママック（'))
+        self.assertIn('pisang goreng follows', rows['L-1068']['Sam\'s notes'] if False else rows['L-1068']["Sam's notes"])
         # The whole ledger words.
         for lid, word in (('L-0360', 'seekor'), ('L-0361', 'sebiji'), ('L-0362', 'sebuah')):
             self.assertEqual(rows[lid]['Malay'], word)
@@ -179,9 +195,11 @@ class Chapter8Minimums(unittest.TestCase):
         for lid in ('L-0937', 'L-0213'):
             self.assertIn('spoken', next(x for x in entries if f'[{lid}]' in x))
         orang = next(x for x in entries if '[L-0058]' in x)
-        buah = next(x for x in entries if '[L-0514]' in x)
+        buah = next(x for x in entries if '[L-1067]' in x)
         self.assertIn('counter', orang)
         self.assertIn('counter', buah)
+        self.assertIn('«seorang»', orang)
+        self.assertIn('At the «gerai»', txt)
         for l in self.by_unit[self.u]:
             self.assertIn('Japanese awaiting native review', l['header'])
             self.assertTrue(l['suite']['grammar_points'], l['title'])
@@ -198,36 +216,91 @@ class Chapter8Minimums(unittest.TestCase):
         self.assertEqual(ids, [f'ms-c08-f0{n}' for n in range(1, 6)])
         self.assertEqual(l['suite']['pattern_ids'], ids)
         body = ' '.join(self.lines(l))
-        for w in ('«Saya mahu»', 'number', 'counter', '«seekor»', '«sebiji»', '«sebuah»', '«satu»', '«Berapa»', '«berapa»',
-                  '«semua»', '«Tolong bungkus»', '«Makan sini atau bungkus?»', '«tapau»', '«ekor»', '«biji»', '«batang»', '«helai»',
-                  '«kuntum»', '«pasang»', '«orang»', '«buah»', 'everyday speech'):
+        for w in ('«Saya mahu»', 'number', 'counter', '«seekor»', '«sebiji»', '«sebuah»', '‹se-›', '«sehelai»', '«satu»', '«Berapa»',
+                  '«berapa»', '«semua»', '«Tolong bungkus»', '«Tambah»', '«Makan sini atau bungkus?»', '«tapau»', '«ekor»',
+                  '«biji»', '«batang»', '«helai»', '«kuntum»', '«pasang»', '«orang»', '«buah»', '«gerai»', '«goreng pisang»',
+                  'everyday speech'):
             self.assertIn(w, body, w)
         # Pattern 3 asks with «berapa» + a counter and the Japanese bridge names 何 + counter.
         p3 = ' '.join(self.lines(l, 'Pattern 3'))
         self.assertIn('Berapa biji telur?', p3)
         self.assertIn('何個', p3)
 
-    def test_whole_se_words_only(self):
-        """Sam: «seekor», «sebiji», «sebuah» are whole ledger words; productive se- is not drilled. «satu» + counter is."""
+    def test_se_with_every_counter(self):
+        """Sam, 12 Nov 2026: ‹se-› + any counter is normal Malay and is the chapter 8 pattern. Every counter is taught with
+        its ‹se-› form beside «satu» + counter."""
         words = self.marked_words()
-        for w in words:
+        fused = {'seekor', 'sebiji', 'sebuah', 'sebatang', 'sehelai', 'sekeping', 'sepucuk', 'sekuntum', 'sepasang', 'seulas',
+                 'senaskhah', 'sebungkus', 'secawan', 'sepinggan', 'semangkuk', 'sebotol', 'setin', 'sekotak', 'seorang'}
+        for w in sorted(fused):
+            self.assertIn(w, words, f'«{w}» is never used as Malay')
+        # Every ledger counter taught here (ekor ... kotak, orang) has its fused form used in the unit and its form named
+        # in its vocabulary entry.
+        v = self.lines(self.comp('Vocabulary'))
+        for lid, se in ms_c08.SE.items():
+            entry = next(x for x in v if f'[{lid}]' in x)
+            self.assertIn(f'«{se}»', entry, lid)
+        # Fused forms of the counters, and no other fused form, appear; none comes from a word that is not a counter.
+        for w in set(words):
             m = re.fullmatch(r'se(' + '|'.join(COUNTERS) + ')', w)
-            if m and w not in WHOLE:
-                self.fail(f'fused counter «{w}» used as Malay: only seekor, sebiji and sebuah are taught')
-        for w in WHOLE:
-            self.assertGreaterEqual(words.count(w), 3, w)
-        # «satu» + counter is used throughout.
+            if m:
+                self.assertIn(w, fused, w)
+        # «satu» + counter is used just as much.
         n = sum(1 for a, b in zip(words, words[1:]) if a == 'satu' and b in COUNTERS)
         self.assertGreaterEqual(n, 10)
-        # Fused forms heard in speech are named only as mentions (with a Kata-Kata source), never as taught words.
-        text = ' '.join(self.all_lines())
-        self.assertIn('‹sebatang›', text)
-        self.assertIn('‹sehelai›', text)
+        # The three whole ledger words are used at least three times each.
+        for w in WHOLE:
+            self.assertGreaterEqual(words.count(w), 3, w)
+        # ‹se-› is shown with a drill for each direction: «satu» + counter -> ‹se-› + counter and back.
+        tr = ' '.join(self.lines(self.comp('Drill', 'transform')))
+        self.assertIn('Say it with ‹se-›', tr)
+        self.assertIn('Say it with «satu» and the counter', tr)
+        # «sebatang» and «sehelai» are no longer mentions: they are taught forms.
         mentions = json.loads((ROOT / 'curriculum/malay-mentions.json').read_text())['mentions']
-        self.assertIn('ms-c08-005', mentions['sebatang'])
-        self.assertIn('ms-c08-006', mentions['sehelai'])
+        self.assertNotIn('sebatang', mentions)
+        self.assertNotIn('sehelai', mentions)
+        self.assertIn('ms-c08-f02', mentions['se'])
+        text = ' '.join(self.all_lines())
+        self.assertNotIn('‹sebatang›', text)
+        self.assertNotIn('‹sehelai›', text)
         notes = ' '.join(self.cfg['teacher_notes'])
-        self.assertIn('«satu» + counter is the productive form', notes)
+        self.assertIn('«se-»' if False else '‹se-› + any counter is normal Malay', notes)
+
+    def test_se_forms_pass_the_language_checks(self):
+        """No ledger gap or violation for ‹se-› + a ledger counter: the existing derivation rule covers them (see the 5g report)."""
+        from language_checks import Checker
+        checker = Checker()
+        forms = sorted(self.cfg['vocab_opts'] and {ms_c08.SE[k] for k in ms_c08.SE} | {'seorang', 'seekor', 'sebiji', 'sebuah'})
+        segs = [{'unit': 'x', 'source': 'x', 'text': f, 'chapter': 8, 'kind': 'model', 'source_text': f} for f in forms]
+        result = checker.inspect(segs)
+        self.assertFalse(result['violations'])
+        self.assertFalse(result['ledger_gaps'])
+        derived = {d['term'] for d in result['derivations']}
+        self.assertTrue({'sehelai', 'sebatang', 'secawan', 'sebungkus', 'sekotak', 'seorang'} <= derived)
+
+    def test_gerai_scene_and_register(self):
+        """The gerai scene Sam suggested, and the register he confirmed on 12 Nov 2026."""
+        text = ' '.join(self.all_lines())
+        for frag in ('Sebungkus nasi lemak', 'dua keping pisang goreng', 'Tambah satu lagi', 'Ada keropok lekor?'):
+            self.assertIn(frag, text, frag)
+        self.assertGreaterEqual(text.count('goreng pisang'), 3)
+        v = self.lines(self.comp('Vocabulary'))
+        pisang = next(x for x in v if '[L-1068]' in x)
+        self.assertIn('standard', pisang)
+        self.assertIn('everyday', pisang)
+        for lid in ('L-0348', 'L-0352'):
+            entry = next(x for x in v if f'[{lid}]' in x)
+            self.assertIn('formal counter, mostly seen in writing', entry, lid)
+        self.assertIn('everyday speech', next(x for x in v if '[L-0937]' in x))
+        notes = ' '.join(self.cfg['teacher_notes'])
+        self.assertIn('«pucuk» and «naskhah» are formal counters, mostly seen in writing', notes)
+        self.assertIn('«tapau» is everyday speech', notes)
+        # Unit 7: «sesak» is standard, «jam» is everyday speech.
+        from suite import ms_c07
+        self.assertIn('standard', ms_c07.VOCAB_OPTS['L-0620']['en'])
+        self.assertIn('«sesak» is standard and «jam» is everyday speech', ' '.join(ms_c07.CFG['teacher_notes']))
+        # «kaki» as a counter and "nasi lemak" are handled as Sam decided.
+        self.assertNotIn('‹nasi lemak›', text)
 
     def test_counter_dropped_is_everyday_speech(self):
         """Earlier units say «dua epal» and «Mi goreng satu»; this unit shows the counter form beside them."""
@@ -243,7 +316,7 @@ class Chapter8Minimums(unittest.TestCase):
         self.assertIn('everyday speech', culture)
         self.assertIn('Both forms are right', culture)
         # The careful form is what the task and the writing model use.
-        self.assertIn('Satu pinggan mi goreng', self.cfg['task_key'])
+        self.assertIn('Sepinggan mi goreng', self.cfg['task_key'])
         notes = ' '.join(self.cfg['teacher_notes'])
         self.assertIn('«dua epal»', notes)
         self.assertIn('«Mi goreng satu»', notes)
@@ -322,20 +395,23 @@ class Chapter8Minimums(unittest.TestCase):
         # Market: 2 fish at 8, 10 eggs at 0.50, 1 chicken at 14 = 35; paid 50, change 15.
         self.assertEqual(2 * 8 + 10 * 0.5 + 14, 35)
         dlg = ' '.join(s for _, s in self.cfg['dialogue'])
-        for frag in ('Lapan ringgit seekor', 'lima puluh sen sebiji', 'empat belas ringgit seekor', 'tiga puluh lima ringgit',
+        for frag in ('lapan ringgit seekor', 'lima puluh sen sebiji', 'empat belas ringgit seekor', 'tiga puluh lima ringgit',
                      'lima puluh ringgit', 'lima belas ringgit'):
             self.assertIn(frag, dlg, frag)
         # Stationery: 3 pens at 2, 2 boxes of tissues at 4, 10 sheets at 0.50 = 19; paid 20, change 1.
         self.assertEqual(3 * 2 + 2 * 4 + 10 * 0.5, 19)
         var = ' '.join(s for _, s in self.cfg['variant'])
-        for frag in ('Dua ringgit satu batang', 'empat ringgit satu kotak', 'lima puluh sen satu helai', 'sembilan belas ringgit',
+        for frag in ('Dua ringgit sebatang', 'empat ringgit sekotak', 'lima puluh sen sehelai', 'sembilan belas ringgit',
                      'satu ringgit'):
             self.assertIn(frag, var, frag)
         # Flowers: 8 at 5 = 40; paid 50, change 10. Mamak: 3 roti canai + 2 teh tarik = 14.50; paid 20, change 5.50.
         self.assertEqual(8 * 5, 40)
         self.assertEqual(20 - 14.5, 5.5)
         lis = ' '.join(s for _, s in self.cfg['listening'])
-        for frag in ('empat puluh ringgit', 'sepuluh ringgit', 'empat belas ringgit lima puluh sen', 'lima ringgit lima puluh sen'):
+        # Gerai: 1 nasi lemak at 3, then 2 + 1 pisang goreng at 1 each, 1 keropok lekor at 5, 1 teh tarik at 3.50 = 14.50.
+        self.assertEqual(3 + 3 * 1 + 5 + 3.5, 14.5)
+        for frag in ('empat puluh ringgit', 'sepuluh ringgit', 'empat belas ringgit lima puluh sen', 'lima ringgit lima puluh sen',
+                     'tiga ringgit sebungkus', 'satu ringgit sekeping', 'Lima ringgit sebungkus'):
             self.assertIn(frag, lis, frag)
         # Task: 1 mi goreng 6 + 1 teh tarik 3.50 + 3 roti canai at 2.50 = 17; two more teh tarik = 24; paid 30, change 6.
         self.assertEqual(6 + 3.5 + 3 * 2.5, 17)
@@ -343,9 +419,12 @@ class Chapter8Minimums(unittest.TestCase):
         key = self.cfg['task_key']
         for frag in ('tujuh belas ringgit', 'dua puluh empat ringgit', 'Baki enam ringgit'):
             self.assertIn(frag, key, frag)
-        # Price board: 3 flowers = 15; 2 fish + 1 chicken = 30.
-        self.assertEqual(3 * 5, 15)
-        self.assertEqual(2 * 8 + 14, 30)
+        # Price board at the gerai: 4 pisang goreng = 4; 2 nasi lemak + 1 teh tarik = 9.50.
+        self.assertEqual(4 * 1, 4)
+        self.assertEqual(2 * 3 + 3.5, 9.5)
+        board = ' '.join(self.cfg['reading'])
+        for frag in ('RM3 sebungkus', 'RM1 sekeping', 'RM5 sebungkus', 'RM3.50 secawan'):
+            self.assertIn(frag, board, frag)
 
     def test_japanese_has_no_leftover_english(self):
         """Japanese cells are full translations: Latin letters appear only inside marked Malay, ids or product names."""
@@ -402,9 +481,8 @@ class Chapter8Minimums(unittest.TestCase):
                             self.assertRegex(line, label, (l['title'], line))
                 # Nothing faith-specific, no food rules.
                 self.assertNotRegex(line.lower(), r'assalam|waalaikum|insya|alhamdulillah|bismillah|halal|haram|puasa|solat|sembahyang|azan|khutbah|ibadat|doa\b')
-        # «nasi lemak» (Kata-Kata scenario, not in the ledger) appears only as a mention.
-        for line in self.all_lines():
-            self.assertNotRegex(line, r'«[^»]*nasi lemak[^»]*»')
+        # «nasi lemak» is a ledger word since 12 Nov 2026 (L-1064) and is used as Malay.
+        self.assertTrue([line for line in self.all_lines() if re.search(r'«[^»]*nasi lemak[^»]*»', line)])
 
     def test_sam_rules_and_scene_facts(self):
         """Practice stalls and prices are fictional; the culture note names its sources."""
@@ -412,7 +490,7 @@ class Chapter8Minimums(unittest.TestCase):
         self.assertIn('fictional', everything)
         notes = self.comp('Culture note')
         sources = ' '.join(self.lines(notes) + notes['key'])
-        for name in ('ms-c08-043', '-005 («batang»', "Sam's brief", 'L-0937', 'fictional'):
+        for name in ('ms-c08-043', '-005 («batang»', "Sam's brief", 'L-0937', 'L-1068', 'L-1069', 'fictional'):
             self.assertIn(name, sources, name)
         culture = ' '.join(self.lines(notes, 'English'))
         # No law, price list or percentage is stated as a fact about the real country.

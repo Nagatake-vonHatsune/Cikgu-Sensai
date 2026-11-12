@@ -1,12 +1,12 @@
 """Unit 7: places and directions (ke, di + position words, jalan terus / kemudian belok, berapa jauh, berapa lama, naik, turun, jangan).
 
-62 core ledger entries in five themed groups. The ledger places 64 rows in chapter 7 ("Ch7" or "Ch7 (pending)"):
-the 53 rows as handed over, the five places-of-worship rows Sam approved on 12 Nov 2026 (L-1054 to L-1058: gereja, kuil,
+62 core ledger entries in five themed groups. The ledger places 63 live rows in chapter 7 ("Ch7" or "Ch7 (pending)"):
+the 52 rows as handed over (L-0592 is Retired, Sam, 12 Nov 2026), the five places-of-worship rows Sam approved on 12 Nov 2026 (L-1054 to L-1058: gereja, kuil,
 tokong, gurdwara, surau, to go with L-0337 masjid), «sesak» (L-0620, placed in chapter 7 on 12 Nov 2026) and the five rows
-Sam approved on the step 5e review (L-1059 to L-1063: kilometer, terus, tangga, jangan, sebulan). Two are not new core:
-L-0592 «pintu masuk» is a duplicate of L-0330 «pintu masuk / pintu keluar» (reported, not counted twice), and L-0304
-«depan / hadapan» is «depan», which chapter 4 already taught (L-0173; «hadapan» is the formal form, from the Kata-Kata card
-note). 64 - 2 = 62.
+Sam approved on the step 5e review (L-1059 to L-1063: kilometer, terus, tangga, jangan, sebulan). One is not new core:
+L-0304 «depan / hadapan» is «depan», which chapter 4 already taught (L-0173; «hadapan» is the formal form, from the
+Kata-Kata card note). L-0592 «pintu masuk» was a duplicate of L-0330 «pintu masuk / pintu keluar» and is now Retired.
+63 - 1 = 62.
 «jalan lurus» is not used for directions (Sam, 12 Nov 2026): Malaysians say «terus», «jalan terus», «pergi terus» or
 «terus depan». «lurus» (L-0318) is only the adjective "straight" for a road or line. «jam» (traffic, spoken) is taught beside
 «sesak» so that «kalau tidak jam / sesak» is not read as the hour. «tumpang tanya» (L-0019, chapter 1) returns as revision.
@@ -217,8 +217,8 @@ VOCAB_OPTS = {
     'L-0341': {'en': 'if, when (a condition: «Kalau jauh, naik teksi.»)'},
     'L-0342': {'display': '«jam» (spoken)', 'en': 'heavy traffic (spoken; «jam» is also an hour, chapter 4); say «kalau tidak jam / sesak»',
                'ja': '渋滞（話し言葉。«jam» には「時間」の意味もある、第4章）；«kalau tidak jam / sesak» と言う'},
-    'L-0620': {'en': 'crowded, jammed (of traffic); beside spoken «jam»: «kalau tidak jam / sesak»',
-               'ja': '混んでいる・渋滞している；話し言葉の «jam» と並べて «kalau tidak jam / sesak»'},
+    'L-0620': {'en': 'crowded, jammed (of traffic); standard; beside spoken «jam»: «kalau tidak jam / sesak»',
+               'ja': '混んでいる・渋滞している；標準の語；話し言葉の «jam» と並べて «kalau tidak jam / sesak»'},
     'L-1059': {'en': 'kilometre (for longer distances; «meter» for short ones)',
                'ja': 'キロメートル（長い距離。短い距離は «meter»）'},
     'L-1060': {'en': 'straight on, straight ahead («jalan terus», «pergi terus», «terus depan»)',
@@ -546,7 +546,7 @@ CFG = dict(
                     'Sam\'s decision of 12 Nov 2026 (ledger Journal rows 66 and 67): «masjid», «gereja», «kuil», «tokong», «gurdwara» and «surau» as one even-handed set of landmarks; '
                     'Sam\'s decision of 12 Nov 2026 (ledger Journal rows 68 to 70): «terus» / «jalan terus» / «pergi terus» / «terus depan» for going straight on, «lurus» only as the adjective, and «kalau tidak jam / sesak» for traffic; '
                     'left-hand traffic and its British-era origin: SAYS Malaysia, "Why Do M\'sians Drive On The Left Side Of The Road While Most Countries Drive On The Right?", Malay Mail, 29 June 2015, a primer on driving in Malaysia, and WorldAtlas, "Countries That Drive on the Left", all seen in search summaries only (Rank 3; the Road Transport Act 1987 text was not read); '
-                    'religious groups in the 2020 census: Sinar Daily, "Malaysia\'s population now stands at 32.4 mil, 63.5 per cent Muslims", reporting the Department of Statistics Malaysia key findings, seen in a search summary (Rank 3; the DOSM religion table itself was not opened, so no percentage is given in the note). '
+                    'religious groups in the 2020 census: Sinar Daily, "Malaysia\'s population now stands at 32.4 mil, 63.5 per cent Muslims", reporting the Department of Statistics Malaysia key findings, seen in a search summary (Rank 3; the DOSM religion table itself was not opened, so no percentage is given in the note). Sam, 12 Nov 2026: keep the left-hand traffic and 2020 census sentences. '
                     'The note makes no claim about any real route, distance or place; the practice routes are fictional.',
     culture_prompt='How do you give directions in Japanese: with a landmark or with a road name? Which of the six landmarks would you meet on your own street?',
     quiz_words=['L-0310', 'L-0312', 'L-0319', 'L-1060', 'L-0322', 'L-0328'],
@@ -576,10 +576,10 @@ CFG = dict(
     teacher_notes=['Load: 62 core words in five groups (position words 13; distance, time and direction 11; turning and moving 11; landmarks and transport 23; compass points 4). Suggested order: Block A position words and the distance, time and direction words; Block B the turning and moving words and the route pattern; Block C the landmarks and transport (the six places of worship together, as one set of landmarks) and the compass points; Block D and E recycle them. If the pilot shows 62 is too many for one unit, the natural cut is A/B: position, distance, direction and turning words first; landmarks, transport and compass points second.',
                    'Going straight on (Sam, 12 Nov 2026): say «terus», «jalan terus», «pergi terus» or «terus depan». «jalan lurus» is not used for directions; if a learner says it, give the Malay form and move on. «lurus» (L-0318) is only the adjective "straight" for a road or line: «Jalan ini lurus.» The Kata-Kata card ms-c07-024 and its frame still teach «jalan lurus»; they are being fixed there.',
                    '«ke» is now taught. Earlier chapters used «pergi kerja» and «balik rumah» and mentioned ‹ke› only to explain why it was not used. Show «pergi ke pejabat» and «balik ke rumah» as the standard written form and the earlier forms as everyday speech: both are right.',
-                   'Traffic (Sam, 12 Nov 2026): say «kalau tidak jam / sesak» so that «jam» (traffic, spoken) is not read as «jam» (hour, chapter 4). «sesak» (L-0620) is a core word beside «jam» (L-0342). «satu jam» is still an hour.',
+                   'Traffic (Sam, 12 Nov 2026): say «kalau tidak jam / sesak» so that «jam» (traffic, spoken) is not read as «jam» (hour, chapter 4). «sesak» (L-0620) is a core word beside «jam» (L-0342); «sesak» is standard and «jam» is everyday speech (Sam, 12 Nov 2026). «satu jam» is still an hour.',
                    'Places of worship (Sam, 12 Nov 2026): «masjid», «gereja», «kuil», «tokong», «gurdwara» and «surau» are one set, used as plain landmarks. Show no bias: rotate them evenly in examples and drills, never single one out, and do not add worship, dress or etiquette content. The spelling «gurdwara» is confirmed. There is no separate word for a Buddhist temple; «tokong» stays.',
-                   'Ledger notes: L-0592 «pintu masuk» duplicates L-0330 «pintu masuk / pintu keluar» and is not counted twice. L-0304 «depan / hadapan» is «depan», taught in chapter 4 (L-0173); «hadapan» is the formal form. «hospital» and «kapal terbang» were placed as recognition words in chapters 5 and 4, so they are revision here. «tumpang tanya» (L-0019) is chapter 1 revision, used to start a question to a stranger.',
-                   'New in step 5f (Sam, 12 Nov 2026): «kilometer» (long distances; «meter» for short ones), «terus», «tangga», «jangan» and «sebulan». «sebulan» is a whole word, like «seminggu sekali» in chapter 4; do not drill making new ‹se-› words. «jangan» is only used with root verbs («Jangan belok kiri.»). «tengok» is everyday speech for "to look"; the standard word is not in the ledger.',
+                   'Ledger notes: L-0592 «pintu masuk» is Retired as a duplicate of L-0330 «pintu masuk / pintu keluar» (Sam, 12 Nov 2026). L-0304 «depan / hadapan» is «depan», taught in chapter 4 (L-0173); «hadapan» is the formal form. «hospital» and «kapal terbang» were placed as recognition words in chapters 5 and 4, so they are revision here. «tumpang tanya» (L-0019) is chapter 1 revision, used to start a question to a stranger.',
+                   'New in step 5f (Sam, 12 Nov 2026): «kilometer» (long distances; «meter» for short ones), «terus», «tangga», «jangan» and «sebulan». «sebulan» is a whole word, like «seminggu sekali» in chapter 4; this unit does not drill making ‹se-› words (chapter 8 teaches ‹se-› with every counter). «jangan» is only used with root verbs («Jangan belok kiri.»). «tengok» is everyday speech for "to look"; the standard word is not in the ledger.',
                    'Do not use words placed after chapter 7 (the rest of the ledger from chapter 8 and 9). The Kata-Kata chapter 7 scene uses several words outside the ledger, a rail line, a ride-hailing service and real shopping-centre names, so the scenes here use a bank, a station and an office instead. All routes, distances, rents and times are fictional.',
                    '"Di ruang tamu", "Telefon baru" and "Lintas jalan" are for recognition. The phone words are labels (no passwords or accounts are asked for); the road words are labels, not safety rules.',
                    'Cumulative question words now include «ke mana», «dari mana», «berapa jauh» and «berapa lama» (chapters 1 to 7). The writing block for unit 7 (directions by message) is the separate 45-minute block that follows this unit.'],

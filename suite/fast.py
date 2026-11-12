@@ -526,8 +526,8 @@ PACKS.append(dict(
 
 
 # Step 5f: chapter 8 fast course (single 45-minute class), a digest of unit 8.
-C8_WORDS = ['L-0343', 'L-0344', 'L-0345', 'L-0346', 'L-0350', 'L-0353', 'L-0354', 'L-0355', 'L-0357', 'L-0359',
-            'L-0360', 'L-0361', 'L-0362', 'L-0364', 'L-0365', 'L-0366', 'L-0370', 'L-0374', 'L-0375', 'L-0376']
+C8_WORDS = ['L-0343', 'L-0344', 'L-0345', 'L-0346', 'L-0347', 'L-0350', 'L-0353', 'L-0354', 'L-0357', 'L-0359',
+            'L-0360', 'L-0361', 'L-0362', 'L-1064', 'L-1065', 'L-1066', 'L-1068', 'L-0374', 'L-0375', 'L-0376']
 
 
 def chapter8(ledger):
@@ -549,44 +549,44 @@ def chapter8(ledger):
         grammar=['ms-c08-g02', 'ms-c08-g03', 'ms-c08-g04', 'ms-c08-g05', 'ms-c08-g06'],
         patterns=['ms-c08-f01', 'ms-c08-f02', 'ms-c08-f03', 'ms-c08-f04', 'ms-c08-f05'],
         goal='Order and count things with the right classifier, ask how many and how much, and order food to eat here or take away.',
-        explain=('第8章速習：45分で基本の20語、数＋助数詞＋名詞、«seekor»・«sebiji»・«sebuah»、«Berapa biji?»、«Tolong bungkus»・«Makan sini atau bungkus?» を練習し、残りは Kata-Kata で自習します。日本語は未監修です。',
-                 'Chapter 8 in one 45-minute session: 20 core words, number + counter + noun, «seekor», «sebiji» and «sebuah», «Berapa biji?», «Tolong bungkus» and «Makan sini atau bungkus?»; then self-study in Kata-Kata. All stalls, prices and names are fictional.'),
+        explain=('第8章速習：45分で基本の20語、数＋助数詞＋名詞、‹se-› ＋助数詞（«sehelai»・«secawan»）、«Berapa biji?»、«Tolong bungkus»・«Makan sini atau bungkus?»・«Tambah satu lagi» を練習し、残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 8 in one 45-minute session: 20 core words, number + counter + noun, ‹se-› + counter («sehelai», «secawan»), «Berapa biji?», «Tolong bungkus», «Makan sini atau bungkus?» and «Tambah satu lagi»; then self-study in Kata-Kata. All stalls, prices and names are fictional.'),
         sections=[
             ('Can-do goals · できること', [
                 'I can say how many of something I want with a number, a counter and the noun. / 数・助数詞・名詞でほしい数が言える。',
-                'I can use «seekor», «sebiji» and «sebuah», and «satu» + counter for the rest. / «seekor»・«sebiji»・«sebuah» と、ほかは «satu» ＋ 助数詞が使える。',
+                'I can say "one" with ‹se-› and a counter («sehelai», «secawan») or with «satu» and the counter. / 「1」を ‹se-› ＋助数詞（«sehelai»・«secawan»）か «satu» ＋助数詞で言える。',
                 'I can ask «Berapa biji?» and the price of one and of everything. / «Berapa biji?» と、1つと全部の値段がたずねられる。',
-                'I can order «Tolong bungkus …» and answer «Makan sini atau bungkus?». / «Tolong bungkus …» と注文し、«Makan sini atau bungkus?» に答えられる。'], 'opener'),
+                'I can order «Tolong bungkus …», add «Tambah satu lagi» and answer «Makan sini atau bungkus?». / «Tolong bungkus …» と注文し、«Tambah satu lagi» で追加し、«Makan sini atau bungkus?» に答えられる。'], 'opener'),
             ('Core words · 基本の20語', core(ledger, C8_WORDS) +
-             ['The full unit also teaches the other counters («keping», «pucuk», «kuntum», «ulas», «naskhah»), the bowls, tins and boxes, and the things counted.'], 'vocabulary'),
+             ['The full unit also teaches the other counters («pucuk», «kuntum», «ulas», «naskhah»), the plates, bowls and tins, «keropok lekor», and the things counted. Every counter has a ‹se-› form: «sehelai», «sebatang», «sekeping», «sepasang», «sebungkus», «secawan», «sebotol», «sekotak».'], 'vocabulary'),
             ('Key patterns · 文型', [
                 '1 · «Saya mahu» (number) (counter) (noun).  e.g. «Saya mahu dua ekor ikan.» / «Saya mahu tiga batang pen.»',
-                '2 · «seekor» / «sebiji» / «sebuah» (noun). / «satu» (counter) (noun).  e.g. «Saya ada seekor kucing.» / «Satu helai baju, tolong.»',
+                '2 · ‹se-› + (counter) (noun). / «satu» (counter) (noun).  e.g. «Sehelai baju, tolong.» / «Satu helai baju, tolong.»',
                 '3 · «Berapa» (counter) (noun)?  e.g. «Berapa biji telur?» / «Sepuluh biji.»',
-                '4 · (price) «ringgit» «satu» (counter).  e.g. «Berapa harga semua?» / «Lima ringgit satu kuntum.»',
-                '5 · «Tolong bungkus» (number) (food). / «Makan sini atau bungkus?»  e.g. «Makan sini atau bungkus?» / «Tolong bungkus dua roti canai.»',
-                'Remember: the counter sits between the number and the noun and never changes. Only «seekor», «sebiji» and «sebuah» are fused with «satu»; use «satu» + counter for every other. At a stall people often drop the counter («dua teh tarik»): that is everyday speech.',
-                '助数詞は数と名詞のあいだに置き、形は変わりません。«satu» とひとつになるのは «seekor»・«sebiji»・«sebuah» だけで、ほかは «satu» ＋ 助数詞です。屋台では助数詞を落として «dua teh tarik» と言うこともあり、これは日常の話し言葉です。'], 'model'),
+                '4 · (price) «ringgit» ‹se-› (counter).  e.g. «Bunga ini berapa sekuntum?» / «Lima ringgit sekuntum.»',
+                '5 · «Tolong bungkus» (number) (food). / «Makan sini atau bungkus?» / «Tambah satu lagi.»  e.g. «Makan sini atau bungkus?» / «Sebungkus nasi lemak, tolong. Tambah satu lagi.»',
+                'Remember: the counter sits between the number and the noun and never changes. For "one", ‹se-› + counter and «satu» + counter are both right: «sehelai baju» = «satu helai baju». At a stall people often drop the counter («dua teh tarik»): that is everyday speech.',
+                '助数詞は数と名詞のあいだに置き、形は変わりません。「1」は ‹se-› ＋助数詞でも «satu» ＋助数詞でも正しく、«sehelai baju» = «satu helai baju» です。屋台では助数詞を落として «dua teh tarik» と言うこともあり、これは日常の話し言葉です。'], 'model'),
             ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
             ('Task · タスク', [
                 'A: You are at a «mamak» stall (fictional). Order one plate of «mi goreng» and one «teh tarik» to eat here and three «roti canai» to take away. Ask the total.',
                 'B: You work at the stall. Ask «Makan sini atau bungkus?», repeat the order and give the total (invented prices).',
-                'Change of plan: A says «Dua orang kawan datang. Dua cawan teh tarik lagi, tolong.» B gives the new total.',
-                'A：ママックの店で、ミー・ゴレン1皿とテ・タリック1杯は店内、ロティ・チャナイ3枚は持ち帰りで注文し、合計をたずねます。変更：Aが «Dua orang kawan datang. Dua cawan teh tarik lagi, tolong.» と言い、Bが新しい合計を言います。'], 'task'),
+                'Change of plan: A says «Dua orang kawan datang. Tambah dua cawan teh tarik, tolong.» B gives the new total.',
+                'A：ママックの店で、ミー・ゴレン1皿とテ・タリック1杯は店内、ロティ・チャナイ3枚は持ち帰りで注文し、合計をたずねます。変更：Aが «Dua orang kawan datang. Tambah dua cawan teh tarik, tolong.» と言い、Bが新しい合計を言います。'], 'task'),
             ('Self-check · できるチェック', [
                 '☐ 1. Say "I want two fish.": ____________________',
-                '☐ 2. Say "One cat.": ____________________',
+                '☐ 2. Say "One shirt." with ‹se-›: ____________________',
                 '☐ 3. Ask "How many eggs?": ____________________',
                 '☐ 4. Ask "How much for everything?": ____________________',
                 '☐ 5. Say "Please wrap three «roti canai».": ____________________'], 'test'),
             ('Self-study guide · 自習ガイド', [
                 'Before the session: Kata-Kata Sedia Kelas c08 (13 cards, frames ms-c08-f01 and ms-c08-f02).',
-                'After the session: all 43 Kata-Kata chapter 8 cards (ms-c08-001 to ms-c08-043) and frames ms-c08-f01 to ms-c08-f05 in the frame drill and Susun Ayat; the Kata-Kata scenario uses ‹nasi lemak›, which is not in the ledger, so the fast pack uses «roti canai».',
+                'After the session: all 43 Kata-Kata chapter 8 cards (ms-c08-001 to ms-c08-043) and frames ms-c08-f01 to ms-c08-f05 in the frame drill and Susun Ayat; the Kata-Kata scenario "Morning market and takeaway" uses «nasi lemak», which is now a ledger word (L-1064).',
                 'Dunia scene (recognise only): "Beli baju" (11 words).',
                 'Optional full-course Cikgu Sensai unit: unit 8 (counters).',
                 'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',
                 '授業後：第8章のカードと Dunia の場面を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
-        key=['Self-check: 1 «Saya mahu dua ekor ikan.» 2 «Seekor kucing.» (or «Satu ekor kucing.») 3 «Berapa biji telur?» '
+        key=['Self-check: 1 «Saya mahu dua ekor ikan.» 2 «Sehelai baju.» (or «Satu helai baju.») 3 «Berapa biji telur?» '
              '4 «Berapa harga semua?» 5 «Tolong bungkus tiga roti canai.»',
              'Session plan (45 min): 0–5 recall chapter 7 (ask the way to the market); 5–15 core words by theme; 15–25 patterns 1 to 5; '
              '25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',

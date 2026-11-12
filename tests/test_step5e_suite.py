@@ -76,18 +76,21 @@ class Chapter7Minimums(unittest.TestCase):
         placed = ch7_rows(rows)
         # 53 rows from the ledger as handed over, plus the five rows Sam approved on 12 Nov 2026 (L-1054 to L-1058),
         # «sesak» (L-0620, placed in chapter 7 on 12 Nov 2026) and the five rows of the step 5e review (L-1059 to L-1063).
-        self.assertEqual(len(placed), 64)
-        self.assertEqual(len({lid for lid in placed if int(lid[2:]) < 1054 and lid != 'L-0620'}), 53)
+        # L-0592 «pintu masuk» was Retired on 12 Nov 2026 (Sam), so 63 live rows remain.
+        self.assertEqual(len(placed), 63)
+        self.assertNotIn('L-0592', placed)
+        self.assertEqual(len({lid for lid in placed if int(lid[2:]) < 1054 and lid != 'L-0620'}), 52)
         self.assertEqual({lid for lid in placed if int(lid[2:]) >= 1054},
                          {'L-1054', 'L-1055', 'L-1056', 'L-1057', 'L-1058', 'L-1059', 'L-1060', 'L-1061', 'L-1062', 'L-1063'})
         self.assertIn('L-0620', placed)
-        # Two are not new core: the duplicate «pintu masuk» row and «depan» (taught in chapter 4).
+        # One is not new core: «depan» (taught in chapter 4). The duplicate «pintu masuk» row is Retired.
         self.assertEqual(rows['L-0592']['Malay'], 'pintu masuk')
+        self.assertEqual(rows['L-0592']['Review status'], 'Retired')
         self.assertIn('pintu masuk', rows['L-0330']['Malay'])
         self.assertEqual(rows['L-0304']['Malay'], 'depan / hadapan')
         self.assertEqual(rows['L-0173']['Malay'], 'depan')
         self.assertEqual(rows['L-0173']['Kata-Kata place'], 'Ch4')
-        core_all = placed - {'L-0592', 'L-0304'}
+        core_all = placed - {'L-0304'}
         self.assertEqual(len(core_all), 62)
         core = self.cfg['core']
         self.assertEqual(len(core), len(set(core)))

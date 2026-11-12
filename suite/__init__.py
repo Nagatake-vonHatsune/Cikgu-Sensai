@@ -106,7 +106,7 @@ GRAMMAR.extend([
 
 GRAMMAR.extend([
     dict(id='ms-c08-g02', chapter_id='ms-c08', label='Number + counter + noun: dua ekor ikan; the counter never changes'),
-    dict(id='ms-c08-g03', chapter_id='ms-c08', label='The whole words seekor, sebiji, sebuah; satu + counter for the rest'),
+    dict(id='ms-c08-g03', chapter_id='ms-c08', label='se- + counter for "one" (sehelai, secawan, seekor) beside satu + counter'),
     dict(id='ms-c08-g04', chapter_id='ms-c08', label='Berapa + counter: how many (Berapa biji telur?)'),
     dict(id='ms-c08-g05', chapter_id='ms-c08', label='Price per counter and the total: lima ringgit satu kuntum; semua'),
     dict(id='ms-c08-g06', chapter_id='ms-c08', label='Ordering: tolong, Makan sini atau bungkus?; containers and portions'),
@@ -226,6 +226,11 @@ GLOSS = {
     'L-1051': dict(en='rent («sewa … setiap bulan» = rent every month)', ja='家賃・賃貸料（«sewa … setiap bulan»＝毎月の家賃）'),
     'L-1060': dict(en='straight on («jalan terus», «pergi terus», «terus depan»)', ja='まっすぐ（«jalan terus»・«pergi terus»・«terus depan»）'),
     'L-1063': dict(en='per month, a month («tiga ribu ringgit sebulan»)', ja='月に・1か月（«tiga ribu ringgit sebulan»）'),
+    'L-1064': dict(en='a rice dish: rice cooked in coconut milk, with sambal and other sides', ja='ナシレマ（ココナッツミルクで炊いたご飯。サンバルなどが付く）'),
+    'L-1066': dict(en='to add; more («Tambah satu lagi.» = one more)', ja='追加する・もう一つ（«Tambah satu lagi.»＝もう一つ追加）'),
+    'L-1067': dict(en='counter for large objects, buildings, vehicles and books («dua buah kereta»)', ja='大きな物・建物・乗り物・本などを数える助数詞（«dua buah kereta»）'),
+    'L-1068': dict(en='banana fritters (standard «pisang goreng»; everyday «goreng pisang»)', ja='揚げバナナ（標準は «pisang goreng»、日常は «goreng pisang»）'),
+    'L-1069': dict(en='a chewy fish-sausage snack (a Terengganu speciality)', ja='魚のすり身のソーセージ状のおやつ（トレンガヌ名物）'),
     'L-1052': dict(en='room («bilik tidur» = bedroom, «bilik air» = bathroom)', ja='部屋（«bilik tidur»＝寝室、«bilik air»＝浴室）'),
 }
 

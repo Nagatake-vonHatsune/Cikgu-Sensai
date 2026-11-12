@@ -193,7 +193,7 @@ VOCAB_OPTS = {
     'L-1050': {'en': 'because (answers «kenapa» like «sebab»)'},
     'L-0224': {'en': 'less sweet (less sugar)'},
     'L-0940': {'display': '«tak apa» (spoken)'},
-    'L-0931': {'en': '«mamak» stall (Indian-Muslim eatery, often open late)', 'ja': 'ママッ（インド系ムスリムの大衆食堂、深夜営業も多い）'},
+    'L-0931': {'en': '«mamak» stall (Indian-Muslim eatery, often open late)', 'ja': 'ママック（インド系ムスリムの大衆食堂、深夜営業も多い）'},
     'L-0935': {'en': '«roti canai» (flaky flatbread eaten with curry)'},
     'L-0941': {'en': 'to count; «Kira!» = the bill, please'},
     'L-0930': {'en': 'like, similar to (spoken)'},
