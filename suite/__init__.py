@@ -273,10 +273,10 @@ def turns(script):
 
 
 def load_units():
-    from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, ms_c07, ms_c08, ms_c09, fast
+    from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, ms_c07, ms_c08, ms_c09, fast, stage1
     return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT,
                        ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT, ms_c06.UNIT, ms_c07.UNIT, ms_c08.UNIT, ms_c09.UNIT,
-                       *fast.PACKS] if u]
+                       *fast.PACKS, stage1.UNIT] if u]
 
 
 SKILLS = {'Opener': ['speaking'], 'Vocabulary': ['vocabulary'], 'Pattern and grammar': ['grammar'],

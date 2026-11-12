@@ -104,7 +104,7 @@ def make_catalogue(lessons, groups):
     placements=[]
     for gi,g in enumerate(groups):
         g['genre']=GENRES.get(g['genre'],g['genre'])
-        for u in g.get('units',[{'label':None,'items':g['items']} ])+([{'label':None,'items':g['fast_items']}] if g.get('fast_items') else []):
+        for u in g.get('units',[{'label':None,'items':g['items']} ])+([{'label':None,'items':g['fast_items']}] if g.get('fast_items') else [])+([{'label':None,'items':g['stage_items']}] if g.get('stage_items') else []):
             for title in u['items']:
                 cid=f'ms-c{gi+1:02}' if gi<9 else 'ms-c12' if g.get('sequence')=='future' else None
                 uid=(cid+re.sub(r'\d','',u['label']).lower()) if cid and u['label'] else None
@@ -146,7 +146,7 @@ def make_catalogue(lessons, groups):
     for c in chapters:
         c['fast_pack_ids']=[x['id'] for x in components if x['chapter_id']==c['id'] and x.get('fast')]
     tests=json.loads((ROOT/'curriculum/test-items.json').read_text())+[t for l in lessons if l.get('suite') for t in l['suite']['tests']]
-    extra_blocks={'pronunciation':'ms-c01-pronunciation-block','writing-2b':'ms-c02b-writing-block','review-3a':'ms-c03a-review-block','writing-3c':'ms-c03c-writing-block','review-4b':'ms-c04b-review-block','writing-5':'ms-c05-writing-block','review-6':'ms-c06-review-block','writing-7':'ms-c07-writing-block'}
+    extra_blocks={'pronunciation':'ms-c01-pronunciation-block','writing-2b':'ms-c02b-writing-block','review-3a':'ms-c03a-review-block','writing-3c':'ms-c03c-writing-block','review-4b':'ms-c04b-review-block','writing-5':'ms-c05-writing-block','review-6':'ms-c06-review-block','writing-7':'ms-c07-writing-block','review':'ms-stage1-review'}
     return {'schema_version':1,'review_status':'draft','component_types':TYPES+['Fast-course pack'],'chapters':chapters,'components':components,
         'component_slots':slots,'test_items':tests, 'scenes':scenes,
         'additional_blocks':[{'id':'ms-stage1-'+name,'after_unit':unit,'minutes':45,

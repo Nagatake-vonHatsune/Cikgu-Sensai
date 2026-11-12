@@ -84,7 +84,9 @@ def add_course(lessons, lesson, suite_units=()):
     # Keep every existing worksheet and its wording; only regroup the menu.
     old={g["title"]:g for g in groups}
     authored={u["label"]:u for u in suite_units if u.get("label")}
-    fast={u["chapter_id"]:u for u in suite_units if not u.get("label")}
+    fast={u["chapter_id"]:u for u in suite_units if not u.get("label") and not u.get("stage")}
+    # The stage review and the A1 stage test (step 5h) close Stage 1; they are listed with chapter 9, after unit 9.
+    stage={u["chapter_id"]:u["titles"] for u in suite_units if u.get("stage")}
     stage1=[]
     for number,(title,genre,placements) in enumerate(MALAY_CHAPTERS,1):
         units=[]
@@ -100,10 +102,11 @@ def add_course(lessons, lesson, suite_units=()):
             units.append(dict(label=label,items=items))
         cid=f"ms-c{number:02}"
         fast_items=fast[cid]["titles"] if cid in fast else []
+        stage_items=stage.get(cid,[])
         pilot=all(u["label"] in authored for u in units)
         stage1.append(dict(title=f"Chapter {number} · {title}",genre=genre,lang="Malay",level="A1",
-            goal=" ".join(goals),items=list(dict.fromkeys([t for unit in units for t in unit["items"]]+fast_items)),
-            units=units,fast_items=fast_items,sequence="stage1",
+            goal=" ".join(goals),items=list(dict.fromkeys([t for unit in units for t in unit["items"]]+fast_items+stage_items)),
+            units=units,fast_items=fast_items,stage_items=stage_items,sequence="stage1",
             authored_units=[dict(unit_id=authored[u["label"]]["unit_id"],blocks=authored[u["label"]]["blocks"]) for u in units if u["label"] in authored],
             status=("Step 5g chapter 9 suite · draft for pilot" if number==9 else "Step 5f chapter 8 suite · draft for pilot" if number==8 else "Step 5e chapter 7 suite · draft for pilot" if number==7 else "Step 5d chapter 6 suite · draft for pilot" if number==6 else "Step 5c chapter 5 suite · draft for pilot" if number==5 else "Step 5b chapter 4 suite · draft for pilot" if number==4 else "Step 5a chapter 3 suite · draft for pilot" if number==3 else "Step 4 pilot suite · draft for Sam to teach and review") if pilot else "Restructure only · existing content awaiting audit corrections"))
     future=old["Ambil bungkusan di lobi"]
