@@ -126,14 +126,14 @@ LISTENING=[
 ('Tanaka','Saya beli satu mangga sahaja. Saya bayar tunai dengan sepuluh ringgit.'),
 ('Penjual','Baik. Ini mangga encik. Ini baki encik, satu ringgit lima puluh sen.'),
 ('Tanaka','Terima kasih. Boleh saya tanya? Boleh bayar dengan kad juga?'),
-('Penjual','Boleh. Bayar dengan kad atau tunai. Untuk mangga ini, jumlah sama.'),
+('Penjual','Boleh bayar dengan kad. Boleh bayar tunai. Untuk mangga ini, jumlah lapan ringgit lima puluh sen.'),
 ('Tanaka','Kawan saya suka epal. Berapa harga dua epal untuk kawan saya?'),
 ('Penjual','Satu epal dua ringgit. Dua epal empat ringgit. Ini bukan harga mangga.'),
 ('Tanaka','Ya. Saya ada dua belas ringgit. Dua epal empat ringgit, saya cukup wang?'),
 ('Penjual','Ya, cukup. Wang encik dua belas ringgit. Jumlah empat ringgit sahaja.'),
 ('Tanaka','Saya beli dua epal. Saya bayar dengan kad. Baki tunai saya sama.'),
 ('Penjual','Betul. Encik bayar dengan kad, bukan tunai. Terima kasih.'),
-('Tanaka','Terima kasih. Harga mangga dan harga epal tidak sama. Saya mahu epal.')]
+('Tanaka','Terima kasih. Harga mangga lapan ringgit, harga epal dua ringgit. Saya beli epal.')]
 CULTURE=[
 'The everyday classroom distinction between «wang» and «duit» deserves careful handling. '
 'Kata-Kata card ms-c03-022 describes «wang» as the standard word for money and «duit» as an everyday word. '
