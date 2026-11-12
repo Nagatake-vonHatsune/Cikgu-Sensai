@@ -4,15 +4,20 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 
 ## Current state
 
-- **Last updated:** 12 Nov 2026, Claude: step 5h, the last Stage 1 batch (unit 9 follow-ups, the stage review block, the A1 stage test in two versions, the Kata-Kata clean-up list). Details in `docs/STEP-5h-report.md`.
+- **Last updated:** 12 Nov 2026, Claude: step 5i, the Stage 1 follow-ups (Sam's answers to the step 5h questions). Details in `docs/STEP-5i-report.md`.
 - **Stage 1 is complete and awaits Sam's pilot:** chapters 1 to 9 (units 1, 2A, 2B, 3A, 3B, 3C, 4A, 4B, 5, 6, 7, 8, 9 and the nine fast packs), the review blocks after 3A, 4B and 6, the writing blocks after 2B, 3C, 5 and 7, the pronunciation block, the **stage review** after unit 9 and the **A1 stage test** (versions A and B). **Do not start Stage 2 (chapters 10 to 18) before Sam says so.**
-- **Most recent approved scope:** step 5h only. Sam authorised it on 12 Nov 2026 and pre-approved publication to main when the checks pass.
-- **Last commit on main:** the commit that updates this file (it follows `9beefa7` the Kata-Kata clean-up list, `0e46450` test version B and the teacher sheets, `9c22b46` test version A, `3a567c3` the stage review, `ec3a8f1` the unit 9 follow-ups). Build and all 149 tests pass. The session branch `claude/stage-1-final-batch-7e9zv2` was pushed to the same commit as main.
-- **Stage close source:** `suite/stage1.py` (unit `ms-stage1`: the review block, the test builders, the scripts and administration sheets, `item_map`, `stage_record`), `suite/stage1_test_a.py` and `suite/stage1_test_b.py` (test data). Tests: `tests/test_step5h_stage1.py`. The stage components are listed with chapter 9 (`stage_items` in `course.py` and `dist/chapters.js`) and registered as re-authored unit `ms-stage1`.
-- **Unit 9 now:** 37 core words in six groups (Sam's L-1076 to L-1083 added: the roots «buat», «panggil», «cuci», «larang»; «tuan rumah», «mari»; «ibu», «adik»), 33 recognition, 74 revision; 20 scored test items. Festival notes follow Sam's 12 Nov decisions (both «Tahun Baru Cina» and «Tahun Baharu Cina»; Kaamatan in Sabah and Labuan; the Gawai dates; the six greetings, with ‹Selamat Pesta Kaamatan› quoted as "not yet sourced" because «pesta» is not a ledger word; «angpau»; one Christmas sentence).
-- **Ledger:** both copies and the hash match the sheet, L-0001 to L-1083 (Journal rows to 86). No ledger row was added or changed in step 5h by me.
-- **Catalogue:** a `stages` record `ms-stage1` (CEFR A1, completion flag `stage1_complete`, label "Malay A1 · Stage 1 complete", pass rule, item-to-chapter map) for the charter's "CEFR label shown in the Evaluator"; chapters carry `stage_id`. Test items may now have the sub-type `writing` (stage test only).
-- **Proposed, awaiting Sam:** the pass mark (48 of 80, 10 of 20 per section); one or two extra blocks for the test; the `writing` sub-type; more chapter 6 weight in the test; ledger rows «pesta», «perhatian», «hingga», «tolak», «tarik»; a source for «Selamat Pesta Kaamatan»; the proposals in `docs/kata-kata-cleanup.md`.
+- **Most recent approved scope:** step 5i only (Sam authorised it on 12 Nov 2026 and pre-approved publication to main when the checks pass).
+- **Last commit on main:** the commit that updates this file (it follows `55db51d` the A1 test changes and `a52c6a0` the ledger and unit 9 changes). Build and all 153 tests pass. The session branch `claude/nifty-edison-3lz6o9` is at the same commit as main.
+- **Stage close source:** `suite/stage1.py` (unit `ms-stage1`: the review block, the test builders, scripts, administration sheet, `item_map`, `compulsory_codes`, `stage_record`), `suite/stage1_test_a.py` and `suite/stage1_test_b.py` (test data). Tests: `tests/test_step5h_stage1.py`.
+- **Unit 9 now:** **42 core words** in six groups (18 «di-» verbs; 4 roots; «oleh», «pada», «tadi», «siap»; 9 signs and notices, now with «perhatian», «hingga», «tolak», «tarik»; 5 for a party and an open house, now with «pesta»; 2 family), 33 recognition, 74 revision. «Selamat Pesta Kaamatan» is taught (sourced: Bernama, 30 May 2026); the formal «Selamat Menyambut Pesta Kaamatan» is a ‹…› mention only.
+- **Ledger:** both copies and the hash match the sheet, L-0001 to L-1088 (Journal rows to 89). L-1084 to L-1088 are Ch9 (pending); KD4 check not yet run.
+- **Charter decisions by Sam, 12 Nov 2026 (ledger Journal row 89 and the charter):**
+  1. **Pass mark:** 48 of 80 with at least 10 of 20 in each section (recorded as Sam's decision in the administration sheet and the catalogue's `pass_rule`).
+  2. **Class time:** the A1 test takes two extra 45-minute blocks (written papers, then speaking); the Stage 1 plan is **76 blocks** (the charter says about 57.5 hours; 76 × 45 minutes is 57.0, see question 1 in the report). `catalogue.py` `hour_budget.class_blocks` is 76.
+  3. **`writing` is an accepted test-item type** (stage test only). This is a charter decision; `catalogue.py` accepts it and `docs/DATA-MODEL.md` says so.
+  4. **Chapter 6 is compulsory in both test versions:** listening item L5 («lebih … daripada», «paling») and speaking card 2, which the examiner always uses (the second card is chosen from cards 1, 3 and 4). To keep sections at 20 marks, one earlier listening item per version was removed; the listening paper is five tasks, ten items.
+- **Catalogue:** a `stages` record `ms-stage1` (CEFR A1, completion flag `stage1_complete`, label "Malay A1 · Stage 1 complete", pass rule, `compulsory_items`, item-to-chapter map); chapters carry `stage_id`.
+- **Proposed, awaiting Sam:** the proposals in `docs/kata-kata-cleanup.md`; the answers to the five questions at the end of `docs/STEP-5i-report.md` (hours 57 or 57.5; the removed listening item; card 2; the Kaamatan and Gawai greetings in the test).
 
 ## Done
 
@@ -30,6 +35,7 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 | 5f | Unit 7 follow-ups («terus» not «jalan lurus»; «sesak»; five new ledger rows; «tumpang tanya» as revision; 62 core), the unit 7 writing block (directions by message), chapter 8 (unit 8: 35 core in four groups, 11 Dunia recognition «Beli baju», «seekor» / «sebiji» / «sebuah» as whole words, «berapa» with a counter) and its fast pack | `docs/STEP-5f-report.md` |
 | 5g | Unit 8 follow-ups («se-» with every counter, the «gerai» scene, six new ledger rows, register labels; 41 core), six festival ledger rows, chapter 9 (unit 9: 29 core in four groups, 33 Dunia recognition including a general «rumah terbuka» scene with a note for each festival, the «di-» rule, `siapa` + `oleh`) and its fast pack | `docs/STEP-5g-report.md` |
 | 5h | Unit 9 follow-ups (Sam's eight chapter 9 rows; 37 core; festival notes), the stage review block (a new colleague's first week; all 54 frames return; can-do self-check), the A1 stage test (versions A and B, four sections of 20 marks, keys, scripts, administration sheet, catalogue Stage 1 record) and the Kata-Kata clean-up list | `docs/STEP-5h-report.md` |
+| 5i | Stage 1 follow-ups: ledger rows L-1084 to L-1088 (unit 9 is 42 core), «Selamat Pesta Kaamatan» sourced, pass mark 48 of 80, 76 blocks, `writing` accepted, compulsory chapter 6 comparison item and card in both A1 test versions, door signs / notices / «hingga» in unit 9 and the test reading paper | `docs/STEP-5i-report.md` |
 
 ## How step 4 works (for the next builder)
 
@@ -134,11 +140,18 @@ Sam asked for a targeted fix after Claude's review of step 5a. Word lists, the 3
 - **Writing new Malay for the stage close:** check every «…» span first with `Ledger().checker.inspect` at chapter 9 (as `test_only_ledger_words_from_chapters_1_to_9` does); words not in the ledger were avoided and are proposed in the report.
 - **Kata-Kata:** `docs/kata-kata-cleanup.md` replaces the scattered Kata-Kata lists; a test fails if a ledger row whose action names Kata-Kata is missing from it.
 
+## Step 5i: Stage 1 follow-ups (12 Nov 2026, Claude)
+
+- **Environment.** As in steps 5e to 5h: `pip install pymupdf fonttools`, `apt-get update` then `apt-get install fonts-noto-cjk`, `git fetch --unshallow`. The Sheets connector's `get_values` for the whole ledger is saved to a file; write both copies with the `csv` module (LF and CRLF) and check first that the old copies regenerate byte for byte. `main` moved twice during the session (only `docs/stage-2-plan.md`); each push was fetched, rebased and re-tested. The session branch was force-pushed to the main commit after the rebase.
+- **Core rule for new chapter 9 rows:** a ledger row placed exactly "Ch9 (pending)" is core in unit 9 (`ch9_core` in `tests/test_step5g_suite.py` recomputes the 42 from the ledger).
+- **Adding a test item without changing the 20 marks:** a listening item may be flagged `compulsory='comparison'` in the version data; `suite/stage1.compulsory_codes` and the administration sheet's item map pick it up. Remember the unit tests expect 10 listening items and four speaking cards.
+- **Reading section words:** «TOLAK», «TARIK», «PERHATIAN:», «hingga» and the festival greeting are in both versions' reading texts (`tests.StageTest.test_signs_and_notices_in_the_reading_paper`). English prose that names a Malay proper noun or festival must mark it («Gerai Siti», «Kaamatan»), or the build stops.
+
 ## Next: Sam's pilot, then the projects below (each needs Sam's go-ahead)
 
-1. **Sam's answers** to the questions at the end of `docs/STEP-5h-report.md` and his pilot of Stage 1 (timings, load, the review blocks, the stage review, one version of the A1 test).
+1. **Sam's answers** to the questions at the end of `docs/STEP-5i-report.md` and his pilot of Stage 1 (timings, load, the review blocks, the stage review, one version of the A1 test).
 2. **The Kata-Kata clean-up session** (Claude Code, in the Kata-Kata repository). Brief: `docs/kata-kata-cleanup.md`. Afterwards refresh `curriculum/reference/katakata/c01.json` to `c09.json` and the ledger card-ID column.
-3. **The Kamus Dewan check** of every ledger row marked "Not yet checked" (at least L-0983 to L-1083).
+3. **The Kamus Dewan check** of every ledger row marked "Not yet checked" (at least L-0983 to L-1088).
 4. **The Japanese native review** of all Japanese in Cikgu Sensai (every sheet is marked draft).
 5. **Stage 2 (chapters 10 to 18, A2)** waits for Sam's go-ahead. Do not start it before then.
 
