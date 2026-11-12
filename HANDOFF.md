@@ -4,10 +4,15 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 
 ## Current state
 
-- **Last updated:** 11 Nov 2026, by Claude
-- **Last commit before this file:** `0ee337f` (step 4 pilot). This file is updated in the commit after it.
-- **Step in progress:** step 4 is **built and stopped for Sam's review**. Sam teaches units 1, 2A and 2B (and the fast packs, if used), then gives feedback. The suite template is frozen only after that (charter section 10). Do not start step 5 (chapters 3 to 9) until Sam approves.
-- **Snapshots:** `docs/handoff/charter-snapshot.md` and `docs/handoff/ledger-snapshot.csv`, exported 11 Nov 2026. At step 4 start both matched the live Google versions (charter: formatting differences only; ledger: identical, L-0001 to L-1015).
+- **Last updated:** 12 Nov 2026, Step 5a recovery work.
+- **Most recent approved scope:** Chapter 3 only (units 3A, 3B, 3C and the 45-minute fast pack). Publication to main was pre-authorised by Sam provided the build and tests pass; chapter 4 waits for his pilot feedback.
+- **Previous main baseline:** 6247d6d (or later if an independent change occurred).
+- **Chapter 3 source:** suite/ms_c03a.py, suite/ms_c03b.py, suite/ms_c03c.py and suite/chapter3_common.py. The quick summary is appended in suite/fast.py. Detailed evidence is in docs/STEP-5a-report.md.
+- **Words:** 25/24/24 new core (73 total); 5/11/8 Dunia recognition (24 total); 6/8/9 previous-chapter revision entries (23 presentations). Every ledger entry is used exactly once as new core or recognition; slash variants count once. None is introduced as new vocabulary without an assigned ledger row.
+- **Quality controls:** The reauthored unit registry now covers ms-c03a, ms-c03b, ms-c03c and ms-c03-fast. Chapter 3 target language is marked and checked by the original strict ledger, register, affix and Malaysian-language guards. Chapter 3 legacy exception keys were removed (79 -> 44). Generated PDF assets and all Python tests must pass together, with full Git history.
+- **Source preservation:** Superseded chapter 3 packs are removed from the active catalogue; their source files remain in curriculum. Unrelated linked resources are preserved.
+- **Unverified:** Japanese draft pending native review; pending Kamus Dewan verification on L-0983 to L-1031; in-person timing and usage feedback. All classroom prices, numbers and dimensions are invented.
+- **Never start chapter 4** until Sam supplies chapter 3 pilot feedback and explicitly authorises the next batch.
 
 ## Done
 
@@ -18,6 +23,8 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 | 3 | Build checks (ledger, register, affix, Malaysian form) with a frozen, shrink-only exception baseline of 86 keys | `docs/STEP-3-REPORT.md` |
 | 4 | Pilot: full 11-component suites for units 1, 2A, 2B (plus pronunciation and writing blocks) and fast packs for chapters 1 and 2; all section 6 minimums and section 14 drills met and tested; baseline 86 → 79 | `docs/STEP-4-REPORT.md` |
 
+| 5a | Chapter 3 (3A, 3B, 3C) and its one-session fast pack, with 73 unique core and 24 recognition entries; source and printed packs tested in the step-5a gate; no chapter 4 | docs/STEP-5a-report.md |
+
 ## How step 4 works (for the next builder)
 
 - Pilot content is in `suite/` (`ms_c01.py`, `ms_c02a.py`, `ms_c02b.py`, `fast.py`). Malay target text is marked `«…»`. Roots and standard forms quoted from Kata-Kata notes are marked `‹…›` and listed with their source in `curriculum/malay-mentions.json`. Names go in `curriculum/malay-proper-nouns.json`.
@@ -26,7 +33,17 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 - Builds are not byte-reproducible: the PDF inside `bank.js` changes IDs on every build. Commit the build you tested, and compare the lesson JSON, not the bytes.
 - Preview PDFs with poppler (`pdftoppm`). PyMuPDF's rasteriser garbles this font subset on screen; the PDF itself is fine.
 
-## Next: Sam's review of the pilot
+## Next: Sam's pilot of chapter 3
+
+Sam approved Step 5a publication to main once checks pass. Do not revisit word load, the three-unit split, recognition-only Dunia items or retirement of the superseded chapter 3 packs. Collect chapter 3 pilot feedback on unit timings, drills, fictional numerical practice and the fast pack. Chapter 4 remains on hold.
+
+### Current builder notes for Step 5a
+
+The authored source is in suite/chapter3_common.py, suite/ms_c03a.py, suite/ms_c03b.py, suite/ms_c03c.py and suite/fast.py. The three vocabulary groups are separate and test-new-vocabulary only draws from core entries. The 3A review block and 3C writing block are registered in the catalogue.
+
+The GitHub Actions Step-5a verify workflow on the recovery branch builds with the full history and runs the entire test suite; successful runs commit generated dist assets and the authored scope to the branch. Verify that the *final* commit is pushed to main and confirm Cloudflare deployment from the hosting pipeline. No build should be promoted without successful checks.
+
+## Legacy notes: Sam's review of the original step 4 pilot
 
 Feedback to collect: timings per block, vocabulary load (core words: unit 1 44, 2A 35, 2B 37; recognition and hobby words listed separately), drill difficulty, and whether the fast packs fit one 45-minute session. After that, freeze the template and start step 5 (chapters 3 to 9).
 
