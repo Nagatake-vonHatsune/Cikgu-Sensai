@@ -250,8 +250,9 @@ class Chapter6Minimums(unittest.TestCase):
         body = ' '.join(self.lines(plan))
         self.assertIn('Sedia Kelas c06', body)
         self.assertIn('0–5', body)
-        # The review block after unit 6 (Stage 1 plan) is a separate commit (step 5e Part 1).
-        self.assertFalse(any(l['suite']['block'] == 'Skills' for l in self.by_unit[self.u]))
+        # The review block after unit 6 (Stage 1 plan) is written in step 5e Part 1: 'ms-c06-review-block'.
+        blocks = [l for l in self.by_unit[self.u] if l['suite']['block'] == 'Skills']
+        self.assertEqual([l['suite']['id'] for l in blocks], ['ms-c06-review-block'])
 
     def test_chapter6_malay_rules(self):
         label = re.compile(r'spoken|speech|話し言葉|口語', re.I)
@@ -348,6 +349,26 @@ class Chapter6Minimums(unittest.TestCase):
         core_text = ' '.join(self.lines(l, 'Core words'))
         self.assertIn('Whole words to learn as they are', core_text)
         self.assertIn('«sekali»', core_text)
+
+    def test_review_block_after_unit_6(self):
+        """Stage 1 plan: a 45-minute review block after unit 6, covering chapters 1 to 6, registered in the catalogue."""
+        l = next(x for x in self.by_unit[self.u] if x['suite']['id'] == 'ms-c06-review-block')
+        self.assertIn('Chapters 1 to 6', l['title'])
+        self.assertEqual(l['suite']['time_minutes'], 45)
+        self.assertEqual(l['suite']['block'], 'Skills')
+        txt = ' '.join(self.lines(l))
+        # One question or sentence for every chapter from 1 to 6, and a peer check for each.
+        for w in ('Selamat pagi', 'tinggal di mana', 'Berapa sewa', 'pukul berapa', 'Kenapa', 'pilih yang mana'):
+            self.assertIn(w, txt, w)
+        for ch in ('chapter 3', 'chapter 4', 'chapter 5', 'chapter 6', 'chapters 1 and 2'):
+            self.assertIn(ch, txt, ch)
+        self.assertNotRegex(txt.lower(), r'kurang suku')
+        self.assertTrue(any(x.startswith('Model:') for x in l['key']))
+        chapters = json.loads((ROOT / 'dist/chapters.js').read_text()[len('const chapters='):-1])
+        catalogue = make_catalogue(bank(), chapters)
+        block = next(b for b in catalogue['additional_blocks'] if b['id'] == 'ms-stage1-review-6')
+        self.assertEqual(block['component_ids'], ['ms-c06-review-block'])
+        self.assertEqual(block['status'], 'pilot draft')
 
     def test_legacy_retirement_and_catalogue(self):
         built = {x['title'] for x in bank()}

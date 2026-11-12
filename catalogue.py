@@ -146,7 +146,7 @@ def make_catalogue(lessons, groups):
     for c in chapters:
         c['fast_pack_ids']=[x['id'] for x in components if x['chapter_id']==c['id'] and x.get('fast')]
     tests=json.loads((ROOT/'curriculum/test-items.json').read_text())+[t for l in lessons if l.get('suite') for t in l['suite']['tests']]
-    extra_blocks={'pronunciation':'ms-c01-pronunciation-block','writing-2b':'ms-c02b-writing-block','review-3a':'ms-c03a-review-block','writing-3c':'ms-c03c-writing-block','review-4b':'ms-c04b-review-block','writing-5':'ms-c05-writing-block'}
+    extra_blocks={'pronunciation':'ms-c01-pronunciation-block','writing-2b':'ms-c02b-writing-block','review-3a':'ms-c03a-review-block','writing-3c':'ms-c03c-writing-block','review-4b':'ms-c04b-review-block','writing-5':'ms-c05-writing-block','review-6':'ms-c06-review-block'}
     return {'schema_version':1,'review_status':'draft','component_types':TYPES+['Fast-course pack'],'chapters':chapters,'components':components,
         'component_slots':slots,'test_items':tests, 'scenes':scenes,
         'additional_blocks':[{'id':'ms-stage1-'+name,'after_unit':unit,'minutes':45,
