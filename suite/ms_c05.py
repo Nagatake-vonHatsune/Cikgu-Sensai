@@ -233,7 +233,7 @@ P = [
      '«yang» は「〜なもの」。«yang biru» は青いものです。相手が名詞を分かっていれば省けます：«Saya mahu yang hitam.» «atau» は選択肢を出します。«mahu» は「欲しい・〜したい」で、話し言葉では «nak» も聞きます。',
      '«yang biru» works like the 青いの in 青いのをください: it points at one thing among several. For a plain description the bare adjective is enough («payung biru»).',
      '«yang biru» は「青いのをください」の「青いの」に近く、いくつかの中から一つを指します。ただ描写するだけなら形容詞だけで十分です（«payung biru»）。'),
-    ('ms-c05-f04', '«Saya rasa» ___ . / «Kenapa» (= «mengapa», «apa sebab») ___ ? «Sebab» (or «kerana») ___ .', [
+    ('ms-c05-f04, ms-c05-f06', '«Saya rasa» ___ . / «Kenapa» (= «mengapa», «apa sebab») ___ ? «Sebab» (or «kerana») ___ .', [
         'A: «Encik rasa bagaimana hari ini?» B: «Saya rasa penat.»',
         'A: «Kenapa encik penat?» B: «Sebab semalam saya tidur lewat.»',
         'A: «Kenapa awak tidak makan?» B: «Sebab saya belum lapar.»',
@@ -345,10 +345,10 @@ CFG = dict(
     recall=['Without notes, from chapter 4: say what time it is now, answer «Sudah makan?» and say one thing you do every week. / 第4章の復習：今の時刻を言い、«Sudah makan?» に答え、毎週することを一つ言いましょう。',
             'Recall prompt: «Pukul berapa sekarang?» «Sudah makan?» «Encik main badminton setiap minggu?»'],
     recall_key='e.g. «Sekarang pukul satu suku.» «Belum.» / «Sudah.» «Ya, saya main setiap hari Sabtu.»',
-    patterns=P, pattern_ids=['ms-c05-f01', 'ms-c05-f02', 'ms-c05-f03', 'ms-c05-f04', 'ms-c05-f05'],
+    patterns=P, pattern_ids=['ms-c05-f01', 'ms-c05-f02', 'ms-c05-f03', 'ms-c05-f04', 'ms-c05-f05', 'ms-c05-f06'],
     pattern_keys=['Pattern 1: if a learner says «bukan manis», model «tidak manis» and ask "Is it a noun or a description?"',
                   'Pattern 2: «macam mana» and «tapi» are spoken forms; accept them in pair work once «bagaimana» and «tetapi» have been practised.',
-                  'Pattern 4: Kata-Kata has had a frame for «Kenapa …? Sebab …» since its clean-up (ms-c05-f06); it is taught here inside this pattern, which stays tagged ms-c05-f04, and the stage review brings f06 back. «Kenapa», «mengapa» and «apa sebab» are one question; accept «sebab» or «kerana» as the answer.',
+                  'Pattern 4 covers Kata-Kata frames f04 and f06 together (f06 is the «Kenapa …? Sebab …» frame from the Kata-Kata clean-up), so it is tagged with both; the stage review brings f06 back. «Kenapa», «mengapa» and «apa sebab» are one question; accept «sebab» or «kerana» as the answer.',
                   'Pattern 5: do not let learners build other sentences with ‹kurang› (chapter 6).'],
     dialogue=DIALOGUE, variant=VARIANT,
     drills={

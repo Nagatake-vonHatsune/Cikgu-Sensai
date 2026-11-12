@@ -175,7 +175,7 @@ P = [
      '«paling» は形容詞の前に付いて「一番〜」の意味です：«paling murah»、«paling ramai»。台帳には一語で同じ意味の語が四つあります：«termurah»（一番安い）、«terbesar»（一番大きい）、«terbaik»（一番良い）、«tercantik»（一番きれい）。この四つは一語としてそのまま覚えます。ほかは «paling» で作ります。«yang terbaik» は「一番良いもの」です。',
      "Japanese 一番 is also a word in front of the adjective (一番安い = «paling murah»), so the order matches. «termurah» is one word, like 最安.",
      '日本語の「一番」も形容詞の前に来るので、語順は同じです（一番安い＝«paling murah»）。«termurah» は「最安」のような一語です。'),
-    ('ms-c06-f05', '«Yang mana» («lebih») ___ ? / (noun) «yang mana»? / «Saya pilih» «yang» ___ .', [
+    ('ms-c06-f05, ms-c06-f07', '«Yang mana» («lebih») ___ ? / (noun) «yang mana»? / «Saya pilih» «yang» ___ .', [
         'A: «Yang mana lebih selesa?» B: «Kondo D lebih selesa.»',
         'A: «Encik suka kondo yang mana?» B: «Saya suka kondo yang baru.»',
         'A: «Yang mana encik pilih?» B: «Saya pilih yang ini.»',
@@ -294,11 +294,11 @@ CFG = dict(
     recall=['Without notes, from chapter 5: describe a drink (taste, hot or cold) and answer «Kenapa …?» with «Sebab …». / 第5章の復習：飲み物の味と温度を言い、«Kenapa …?» に «Sebab …» で答えましょう。',
             'Recall prompt: «Bagaimana rasa teh tarik?» «Panas atau sejuk?» «Kenapa encik penat?»'],
     recall_key='e.g. «Manis, tetapi sedap.» «Sejuk, kurang manis.» «Sebab semalam saya balik lewat.»',
-    patterns=P, pattern_ids=['ms-c06-f01', 'ms-c06-f02', 'ms-c06-f03', 'ms-c06-f04', 'ms-c06-f05', 'ms-c06-f06'],
+    patterns=P, pattern_ids=['ms-c06-f01', 'ms-c06-f02', 'ms-c06-f03', 'ms-c06-f04', 'ms-c06-f05', 'ms-c06-f06', 'ms-c06-f07'],
     pattern_keys=['Pattern 1 covers Kata-Kata frames f01 and f02 together; if a learner puts «daripada» before the adjective, model «lebih besar daripada kondo B» again and tap the order.',
                   'Pattern 2: «setinggi» and «semahal» are whole words. If a learner invents another word of this kind, say it is understood but ask for «sama besar dengan» instead; the building rule comes later.',
                   'Pattern 3: «paling murah» and «termurah» mean the same. Accept either; only the four ledger words are taught as whole words.',
-                  'Pattern 4: «yang mana» stands where the answer will stand; learners answer with the noun or with «yang ini» / «yang itu».',
+                  'Pattern 4 covers Kata-Kata frames f05 and f07 («Saya pilih ___.») together, so it is tagged with both. «yang mana» stands where the answer will stand; learners answer with the noun or with «yang ini» / «yang itu».',
                   'Pattern 5: «terlalu» is the one that carries a complaint; «sangat» does not. Ask: "Is it good or a problem?"'],
     dialogue=DIALOGUE, variant=VARIANT,
     drills={

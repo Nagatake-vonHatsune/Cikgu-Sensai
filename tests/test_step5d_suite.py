@@ -146,9 +146,9 @@ class Chapter6Minimums(unittest.TestCase):
             for label in ('Explanation:', '説明：', 'Japanese helps or misleads:', '日本語との比較：'):
                 self.assertTrue(any(x.startswith(label) for x in lines), (title, label))
         ids = [t.split(' · ')[1] for t, _, _ in l['sections']]
-        self.assertEqual(ids, ['ms-c06-f01, ms-c06-f02', 'ms-c06-f03', 'ms-c06-f04', 'ms-c06-f05', 'ms-c06-f06'])
-        # All six Kata-Kata frames are covered.
-        self.assertEqual(l['suite']['pattern_ids'], [f'ms-c06-f0{n}' for n in range(1, 7)])
+        self.assertEqual(ids, ['ms-c06-f01, ms-c06-f02', 'ms-c06-f03', 'ms-c06-f04', 'ms-c06-f05, ms-c06-f07', 'ms-c06-f06'])
+        # All seven Kata-Kata frames are covered (f07 «Saya pilih» inside pattern 4 since the Kata-Kata clean-up).
+        self.assertEqual(l['suite']['pattern_ids'], [f'ms-c06-f0{n}' for n in range(1, 8)])
         body = ' '.join(self.lines(l))
         for w in ('«lebih»', '«kurang»', '«daripada»', '«sama»', '«dengan»', '«setinggi»', '«semahal»', '«paling»', '«termurah»',
                   '«terbesar»', '«terbaik»', '«tercantik»', '«yang mana»', '«pilih»', '«sangat»', '«amat»', '«terlalu»', '«sekali»'):

@@ -45449,7 +45449,7 @@
   "exclusion": null
  },
  "Unit 5 · Pattern and grammar focus|4|13": {
-  "source_text": "■ Pattern 4 · ms-c05-f04",
+  "source_text": "■ Pattern 4 · ms-c05-f04, ms-c05-f06",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
@@ -45741,7 +45741,7 @@
   "exclusion": null
  },
  "Unit 5 · Pattern and grammar focus|6|4": {
-  "source_text": "Pattern 4: Kata-Kata has had a frame for Kenapa …? Sebab … since its clean-up (ms-c05-f06); it is taught here inside this pattern, which stays tagged ms-c05-f04, and the stage review brings f06 back. Kenapa, mengapa and apa sebab are one question; accept sebab or kerana as the answer.",
+  "source_text": "Pattern 4 covers Kata-Kata frames f04 and f06 together (f06 is the Kenapa …? Sebab … frame from the Kata-Kata clean-up), so it is tagged with both; the stage review brings f06 back. Kenapa, mengapa and apa sebab are one question; accept sebab or kerana as the answer.",
   "target_spans": [
    "Kenapa …? Sebab …",
    "Kenapa",
@@ -49265,7 +49265,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 5 · Teaching plan and answer key|3|2": {
-  "source_text": "After Block D: the Kata-Kata chapter 5 deck with spaced review, frames ms-c05-f01, ms-c05-f02, ms-c05-f03, ms-c05-f04, ms-c05-f05 in the frame drill and Susun Ayat; about 3 hours of self-study for this unit (planning figure).",
+  "source_text": "After Block D: the Kata-Kata chapter 5 deck with spaced review, frames ms-c05-f01, ms-c05-f02, ms-c05-f03, ms-c05-f04, ms-c05-f05, ms-c05-f06 in the frame drill and Susun Ayat; about 3 hours of self-study for this unit (planning figure).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -52028,7 +52028,7 @@
   "exclusion": null
  },
  "Unit 6 · Pattern and grammar focus|5|1": {
-  "source_text": "■ Pattern 4 · ms-c06-f05",
+  "source_text": "■ Pattern 4 · ms-c06-f05, ms-c06-f07",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
@@ -52342,8 +52342,9 @@
   "exclusion": null
  },
  "Unit 6 · Pattern and grammar focus|7|5": {
-  "source_text": "Pattern 4: yang mana stands where the answer will stand; learners answer with the noun or with yang ini / yang itu.",
+  "source_text": "Pattern 4 covers Kata-Kata frames f05 and f07 (Saya pilih ___.) together, so it is tagged with both. yang mana stands where the answer will stand; learners answer with the noun or with yang ini / yang itu.",
   "target_spans": [
+   "Saya pilih ___.",
    "yang mana",
    "yang ini",
    "yang itu"
@@ -55942,7 +55943,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 6 · Teaching plan and answer key|3|2": {
-  "source_text": "After Block D: the Kata-Kata chapter 6 deck with spaced review, frames ms-c06-f01, ms-c06-f02, ms-c06-f03, ms-c06-f04, ms-c06-f05, ms-c06-f06 in the frame drill and Susun Ayat; about 3 hours of self-study for this unit (planning figure).",
+  "source_text": "After Block D: the Kata-Kata chapter 6 deck with spaced review, frames ms-c06-f01, ms-c06-f02, ms-c06-f03, ms-c06-f04, ms-c06-f05, ms-c06-f06, ms-c06-f07 in the frame drill and Susun Ayat; about 3 hours of self-study for this unit (planning figure).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",

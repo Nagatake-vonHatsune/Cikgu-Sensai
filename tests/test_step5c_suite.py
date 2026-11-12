@@ -134,7 +134,9 @@ class Chapter5Minimums(unittest.TestCase):
             for label in ('Explanation:', '説明：', 'Japanese helps or misleads:', '日本語との比較：'):
                 self.assertTrue(any(x.startswith(label) for x in lines), (title, label))
         ids = [t.split(' · ')[1] for t, _, _ in l['sections']]
-        self.assertEqual(ids, ['ms-c05-f01', 'ms-c05-f02', 'ms-c05-f03', 'ms-c05-f04', 'ms-c05-f05'])
+        self.assertEqual(ids, ['ms-c05-f01', 'ms-c05-f02', 'ms-c05-f03', 'ms-c05-f04, ms-c05-f06', 'ms-c05-f05'])
+        # All six Kata-Kata frames are tagged (f06 «Kenapa / Mengapa» inside pattern 4 since the Kata-Kata clean-up).
+        self.assertEqual(l['suite']['pattern_ids'], [f'ms-c05-f0{n}' for n in range(1, 7)])
         body = ' '.join(self.lines(l))
         for w in ('«yang»', '«atau»', '«tetapi»', '«bagaimana»', '«macam mana»', '«kenapa»', '«sebab»', '«mahu»'):
             self.assertIn(w, body, w)
