@@ -237,13 +237,13 @@ LISTENING = [
 ]
 
 CULTURE = [
-    '«Kondo» is the everyday Malaysian word for a condominium: a block of homes with shared areas. It is a headword in Kamus Dewan (the ledger\'s check). The owners of a condominium together form a management body that looks after the shared areas, under Malaysia\'s Strata Management Act 2013, so talking about a «kondo» often means talking about the whole building too: is it «bersih», «sunyi» or «bising»?',
+    '«Kondo» is the everyday Malaysian word for a condominium: a block of homes with shared areas. Kamus Dewan lists it as a headword (the ledger\'s check). In Peninsular Malaysia and Labuan, the Strata Management Act 2013 sets out who looks after those shared areas: first a joint management body of the owners and later, once strata titles are issued, a management corporation. So talking about a «kondo» often means talking about the whole building too: is it «bersih», «sunyi» or «bising»?',
     'The Klang Valley, the urban area around Kuala Lumpur, has a rail network that includes LRT, MRT, monorail and KTM Komuter lines, so «stesen» is a word you read on signs and hear on the platform. When you say where you live or work, a station is an easy thing to describe: «Stesen sangat ramai pukul lapan.»',
     "Kata-Kata's card notes show how some comparing words are made. «setinggi» is ‹se-› + «tinggi» and «semahal» is ‹se-› + «mahal»; «terbaik» comes from «baik» with ‹ter-›. Learn them as whole words for now. For other adjectives, say «sama … dengan» or «paling». «bersih» is a root word that only looks like a ber- word.",
     "Two small words change meaning. After an adjective, «sekali» means \"very\" («cantik sekali»); it is the same word as \"once\" in chapter 4. «baru» is \"new\" here and \"just\" in chapter 4. In the Kata-Kata scene the agent says «Kondo B kurang besar»: «kurang» with an adjective means \"less\" or \"not so\".",
 ]
 CULTURE_JA = [
-    '«Kondo» は、マレーシアで日常的に使う「コンドミニアム」の言葉で、共用部分のある集合住宅を指します。Kamus Dewan に見出し語として載っています（台帳の確認）。コンドミニアムの所有者はみなで管理組合をつくり、共用部分の世話をします。これはマレーシアの Strata Management Act 2013 に基づいています。そのため «kondo» の話は建物全体の話にもなりがちです：«bersih» か、«sunyi» か、«bising» か。',
+    '«Kondo» は、マレーシアで日常的に使う「コンドミニアム」の言葉で、共用部分のある集合住宅を指します。Kamus Dewan に見出し語として載っています（台帳の確認）。半島マレーシアとラブアンでは、Strata Management Act 2013 が共用部分の管理者を定めています：最初は所有者による共同管理組織、分譲登記が発行されたあとは管理法人です。そのため «kondo» の話は建物全体の話にもなりがちです：«bersih» か、«sunyi» か、«bising» か。',
     'クランバレー（クアラルンプール周辺の都市圏）には LRT、MRT、モノレール、KTM Komuter などの鉄道網があるので、«stesen» は標識で目にし、ホームで耳にする言葉です。住んでいる場所や職場を話すとき、駅は説明しやすい題材です：«Stesen sangat ramai pukul lapan.»',
     'Kata-Kata のカード注記から、比べる言葉のでき方が分かります。«setinggi» は ‹se-› + «tinggi»、«semahal» は ‹se-› + «mahal» で、«terbaik» は «baik» に ‹ter-› が付いた形です。今は一語としてそのまま覚えましょう。ほかの形容詞には «sama … dengan» か «paling» を使います。«bersih» は接頭辞の付いた語に見えるだけの、語根の単語です。',
     '二つの小さな語は意味が変わります。形容詞のあとの «sekali» は「とても」の意味です（«cantik sekali»）。第4章の「一度」と同じ語です。«baru» はここでは「新しい」、第4章では「〜したばかり」です。Kata-Kata の場面で不動産担当者は «Kondo B kurang besar» と言います。形容詞の前の «kurang» は「より少ない」「あまり〜ない」の意味です。',
@@ -413,7 +413,7 @@ CFG = dict(
     culture=CULTURE, culture_ja=CULTURE_JA,
     culture_sources='Kata-Kata chapter 6 cards ms-c06-005, -006, -008, -014, -021 and -031 (notes: ‹se-› + «tinggi», ‹se-› + «mahal», «cantik sekali», «baik» → «terbaik», «baru», a root word that only looks like a ber- word) and scenario ms-c06-s01 to s08; '
                     'ledger L-0294 («kondo», KD4 check "Headword"); '
-                    'Strata Management Act 2013 (Act 757): Wikipedia, "Strata Management Act 2013", and the municipal pages on joint management bodies and management corporations (MBSA and MBS) seen in a search summary; the Act itself was not opened (Rank 3, one Rank 2 local-government page); '
+                    'Strata Management Act 2013 (Act 757; applies to Peninsular Malaysia and Labuan; joint management body, then management corporation once strata titles are issued): Wikipedia, "Strata Management Act 2013", PropertyGuru Malaysia and Low Partners guides, and the Shah Alam city council (MBSA) page on joint management bodies and management corporations, all seen in search summaries; the Act itself was not opened (Rank 3, one Rank 2 local-government page); '
                     'Klang Valley rail network: Wikipedia, "Klang Valley Integrated Transit System" and "RapidKL" seen in a search summary (Rank 3; line names and opening dates differ between sources, so none is given). '
                     'The note makes no claim about prices, rents or neighbourhoods; the practice prices are fictional.',
     culture_prompt='How do you compare two homes in Japanese? Which comparing words in Malay come before the adjective («lebih», «paling», «sangat», «terlalu») and which come after («daripada», «dengan», «sekali»)?',

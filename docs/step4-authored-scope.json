@@ -54714,7 +54714,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 6 · Culture and usage note|3|0": {
-  "source_text": "Kondo is the everyday Malaysian word for a condominium: a block of homes with shared areas. It is a headword in Kamus Dewan (the ledger's check). The owners of a condominium together form a management body that looks after the shared areas, under Malaysia's Strata Management Act 2013, so talking about a kondo often means talking about the whole building too: is it bersih, sunyi or bising?",
+  "source_text": "Kondo is the everyday Malaysian word for a condominium: a block of homes with shared areas. Kamus Dewan lists it as a headword (the ledger's check). In Peninsular Malaysia and Labuan, the Strata Management Act 2013 sets out who looks after those shared areas: first a joint management body of the owners and later, once strata titles are issued, a management corporation. So talking about a kondo often means talking about the whole building too: is it bersih, sunyi or bising?",
   "target_spans": [
    "Kondo",
    "kondo",
@@ -54778,7 +54778,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 6 · Culture and usage note|3|5": {
-  "source_text": "Kondo は、マレーシアで日常的に使う「コンドミニアム」の言葉で、共用部分のある集合住宅を指します。Kamus Dewan に見出し語として載っています（台帳の確認）。コンドミニアムの所有者はみなで管理組合をつくり、共用部分の世話をします。これはマレーシアの Strata Management Act 2013 に基づいています。そのため kondo の話は建物全体の話にもなりがちです：bersih か、sunyi か、bising か。",
+  "source_text": "Kondo は、マレーシアで日常的に使う「コンドミニアム」の言葉で、共用部分のある集合住宅を指します。Kamus Dewan に見出し語として載っています（台帳の確認）。半島マレーシアとラブアンでは、Strata Management Act 2013 が共用部分の管理者を定めています：最初は所有者による共同管理組織、分譲登記が発行されたあとは管理法人です。そのため kondo の話は建物全体の話にもなりがちです：bersih か、sunyi か、bising か。",
   "target_spans": [
    "Kondo",
    "kondo",
@@ -54835,14 +54835,14 @@
   "exclusion": null
  },
  "Unit 6 · Culture and usage note|4|0": {
-  "source_text": "English note: 228 words. The Japanese is a full translation (draft).",
+  "source_text": "English note: 242 words. The Japanese is a full translation (draft).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 6 · Culture and usage note|4|1": {
-  "source_text": "Sources: Kata-Kata chapter 6 cards ms-c06-005, -006, -008, -014, -021 and -031 (notes: se- + tinggi, se- + mahal, cantik sekali, baik → terbaik, baru, a root word that only looks like a ber- word) and scenario ms-c06-s01 to s08; ledger L-0294 (kondo, KD4 check \"Headword\"); Strata Management Act 2013 (Act 757): Wikipedia, \"Strata Management Act 2013\", and the municipal pages on joint management bodies and management corporations (MBSA and MBS) seen in a search summary; the Act itself was not opened (Rank 3, one Rank 2 local-government page); Klang Valley rail network: Wikipedia, \"Klang Valley Integrated Transit System\" and \"RapidKL\" seen in a search summary (Rank 3; line names and opening dates differ between sources, so none is given). The note makes no claim about prices, rents or neighbourhoods; the practice prices are fictional.",
+  "source_text": "Sources: Kata-Kata chapter 6 cards ms-c06-005, -006, -008, -014, -021 and -031 (notes: se- + tinggi, se- + mahal, cantik sekali, baik → terbaik, baru, a root word that only looks like a ber- word) and scenario ms-c06-s01 to s08; ledger L-0294 (kondo, KD4 check \"Headword\"); Strata Management Act 2013 (Act 757; applies to Peninsular Malaysia and Labuan; joint management body, then management corporation once strata titles are issued): Wikipedia, \"Strata Management Act 2013\", PropertyGuru Malaysia and Low Partners guides, and the Shah Alam city council (MBSA) page on joint management bodies and management corporations, all seen in search summaries; the Act itself was not opened (Rank 3, one Rank 2 local-government page); Klang Valley rail network: Wikipedia, \"Klang Valley Integrated Transit System\" and \"RapidKL\" seen in a search summary (Rank 3; line names and opening dates differ between sources, so none is given). The note makes no claim about prices, rents or neighbourhoods; the practice prices are fictional.",
   "target_spans": [
    "tinggi",
    "mahal",

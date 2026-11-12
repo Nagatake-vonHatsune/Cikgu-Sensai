@@ -4,18 +4,21 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 
 ## Current state
 
-- **Last updated:** 12 Nov 2026, Claude: step 5c, chapter 5 (unit 5, its writing block and the fast pack). Details in `docs/STEP-5c-report.md`.
-- **Most recent approved scope:** chapter 5 only. Sam authorised it on 12 Nov 2026 and pre-approved publication to main when the checks pass. Chapter 4 (step 5b) is complete and Sam's answers to its questions are applied (see below).
-- **Last commit on main:** the commit that updates this file after the "Sam's answers applied" commit that follows `476cd55`. Build and all 62 tests pass.
-- **Chapter 5 source:** `suite/chapter5_common.py` (generalised from the chapter 4 helper), `suite/ms_c05.py`; the fast pack is `chapter5` in `suite/fast.py`. Tests: `tests/test_step5c_suite.py`.
-- **Words:** 63 core in one unit, six themed groups (tastes 9; colours 12; size and shape 8; feelings and states 13; hot, cold, food and drink 10; question and linking words 11). The brief said 58: «seronok» (L-0455) and «tawar» (L-0520) are also placed in chapter 5 and were only recognition words in 4A and 3B, so they are core here (Sam: "more is ok"), and «kuah», «mengapa» and «kerana» were added to the ledger on 12 Nov. Dunia recognition 50 by scene ("Masak nasi goreng" 15, "Di klinik" 12, "Gambar bayi" 12, "Lepak di kedai mamak" 11). Revision 23 in two labelled groups (chapters 1 to 3; chapter 4), including «sedikit» and «kosong». The test recomputes both sets from the ledger.
-- **Question words now:** apa, siapa, di mana, -kah, adakah, bolehkah, berapa, bila, pukul berapa, hari apa, **bagaimana (spoken macam mana)** and **kenapa = mengapa = apa sebab, answered with sebab or kerana (mainly)**. The tense markers return in a "Markers with adjectives" drill.
-- **Legacy:** Taste and colour and Size and shape are retired from the catalogue (source kept); «Lunch at a Malaysian stall» stays linked from chapter 5. Legacy exceptions 41 → 34. Re-authored units now include ms-c05 and ms-c05-fast.
-- **Unverified:** all Malay example sentences (mine, ledger-checked only; list in the report), usage statements in the culture note, the mamak note (Wikipedia only), MetMalaysia for the climate line, Kamus Dewan for L-1008, L-1009 and L-1048 to L-1050, Japanese (draft). All prices and situations are fictional.
-- **Sam's answers to the step 5c questions (12 Nov 2026)** are in `docs/STEP-5c-report.md` ("Sam's answers"): «jingga» and «oren» are both correct; the culture note may say who runs a mamak stall (no food rules or religious expressions); «hospital» replaces «rumah sakit» (L-0416 retired; L-0336 placed in the Di klinik scene); «kuah» added (L-1048); «kenapa», «mengapa» (L-1049) and «apa sebab» are equivalents answered with «sebab» or «kerana» (L-1050); no split of chapter 5 (two teaching routes in the plan); chapter 4 opener fixed.
-- **Ledger (step 5c, Journal rows 57 to 62):** L-1048 to L-1050 added; the repo copies and hash are refreshed (1,050 rows). L-1009's Meaning (EN) now reads "why (same as mengapa and apa sebab)" (set by Claude in the sheet, Journal row 63, and in both repo copies).
-- **Chapter 3 and chapter 4** still await Sam's pilot feedback; the only change to chapter 4 in step 5c is the Japanese opener line.
-- **Chapter 6 waits for Sam's explicit go-ahead.** Do not start it until he gives it.
+- **Last updated:** 12 Nov 2026, Claude: step 5d, chapter 6 (unit 6 and the fast pack). Details in `docs/STEP-5d-report.md`.
+- **Most recent approved scope:** chapter 6 only. Sam authorised it on 12 Nov 2026 and pre-approved publication to main when the checks pass. Chapters 4 and 5 (steps 5b, 5c) are complete and Sam's answers to their questions are applied.
+- **Last commit on main:** the commit that updates this file (it follows `bd2420e`, the chapter 6 fast pack, and `79e76af`, unit 6). Build and all 75 tests pass.
+- **Chapter 6 source:** `suite/chapter6_common.py` (generalised from the chapter 5 helper), `suite/ms_c06.py`; the fast pack is `chapter6` in `suite/fast.py`. Tests: `tests/test_step5d_suite.py`.
+- **Words:** 32 core in one unit, six themed groups (comparing and equal 6; the most 5; very and too 3; choosing 3; describing places and things 13; places 2). The ledger places 34 rows in chapter 6; «sekali» and «baru» are also placed in chapter 4, so they are revision with a note on the new meanings (very after an adjective; new). Dunia recognition 14 ("Main badminton"). Revision 25. The test recomputes both sets from the ledger. «termurah», «terbesar», «terbaik», «tercantik», «setinggi» and «semahal» are taught as whole ledger words; no drill builds new ter- or se- words (productive ter- is chapter 16).
+- **Question words now:** apa, siapa, di mana, -kah, adakah, bolehkah, berapa, bila, pukul berapa, hari apa, bagaimana (spoken macam mana), kenapa = mengapa = apa sebab (answered with sebab or kerana) and **yang mana** (answered with the noun or «Saya pilih …»). The markers return in "Markers with comparisons".
+- **Scene:** choosing a condo with an agent, the new condo and the station (listening), a condo listing. The Kata-Kata scenario's «dekat», «jauh» and LRT are chapter 7 or outside the ledger, so the scene compares size, price, noise, age and comfort. No «sewa», «bilik», «tengok» or «luas» (not placed or not in the ledger; proposed in the report).
+- **Legacy:** "Comparisons and superlatives" is retired from the catalogue (source kept). Legacy exceptions 34 → 32. Re-authored units now include ms-c06 and ms-c06-fast.
+- **Not written:** the review block after unit 6 (Stage 1 plan). The brief named unit 6 and the fast pack only; Sam decides (question 6 in the report).
+- **Unverified:** all Malay example sentences (mine, ledger-checked only; list in the report), «senang» as the spoken form of «mudah» (Kamus Dewan not checked), the Strata Management Act and Klang Valley rail lines in the culture note (secondary sources, statute not read), Japanese (draft). All prices, condo labels and situations are fictional.
+- **Ledger:** unchanged in step 5d (1,050 rows). Proposed, awaiting Sam: «sewa», «bilik», «luas», moving «tengok» (L-0577) to chapter 6, and a Meaning edit for L-0188 «sekali».
+- **Chapters 3, 4 and 5** still await Sam's pilot feedback.
+- **Chapter 7 waits for Sam's explicit go-ahead.** Do not start it until he gives it.
+- **Sam's answers to the step 5c questions (12 Nov 2026)** are recorded in `docs/STEP-5c-report.md` ("Sam's answers"): both «jingga» and «oren»; the culture note may say who runs a mamak stall; «hospital» replaces «rumah sakit»; «kuah», «mengapa» and «kerana» added; «kenapa» = «mengapa» = «apa sebab»; chapter 5 not split.
+- **Ledger (step 5c, Journal rows 57 to 63):** L-1048 to L-1050 added, L-0416 retired, L-0336 and L-1009 updated; the repo copies and hash are refreshed (1,050 rows, unchanged by step 5d).
 - **Sam's answers to the step 5b questions (12 Nov 2026)** are recorded in `docs/STEP-5b-report.md` (last section): «hari bulan» for the day of the month and «tarikh» for the full date; the working-week line for KL and Selangor; split approved; «jam tiga» allowed if explained; ‹ke› shown in explainers only; proposed ledger rows approved. Second round: «Hari bulan sebelas» (hari bulan first); Kedah, Kelantan and Terengganu have a Friday and Saturday weekend and Johor returned to Saturday and Sunday on 1 Jan 2025; «Hari ini hari bulan apa?» can be heard as the weekday or the date.
 - **Ledger (done, Journal rows 50 to 56):** L-1032 to L-1047 added; L-1045 retired as a duplicate of L-0702 «hujung minggu»; L-0614 «sarapan» placed in Ch4. Kata-Kata still needs cards for these words.
 - **Charter snapshot** `docs/handoff/charter-snapshot.md` was refreshed on 12 Nov 2026 from the live Google Doc (one added sentence in section 8: no faith-specific greetings; ask Sam before any other faith-specific expression).
@@ -31,6 +34,7 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 | 5a | Chapter 3 (3A, 3B, 3C) and its one-session fast pack, with 73 unique core and 24 recognition entries; source and printed packs tested in the step-5a gate; no chapter 4 | docs/STEP-5a-report.md |
 | 5b | Chapter 4 (4A, 4B) and its fast pack: 71 core, 55 Dunia recognition by scene, timeline drill, review block after 4B; legacy chapter 4 packs retired | `docs/STEP-5b-report.md` |
 | 5c | Chapter 5 (unit 5, writing block) and its fast pack: 63 core in six groups, 50 Dunia recognition by scene, «bagaimana» and «kenapa» / «mengapa» / «apa sebab» with «sebab» / «kerana» added to the question words, markers drill; legacy chapter 5 packs retired | `docs/STEP-5c-report.md` |
+| 5d | Chapter 6 (unit 6) and its fast pack: 32 core in six groups, 14 Dunia recognition, «yang mana» added to the question words, markers drill with comparisons, six whole ter-/se- words; legacy chapter 6 pack retired | `docs/STEP-5d-report.md` |
 
 ## How step 4 works (for the next builder)
 
@@ -81,12 +85,22 @@ Sam asked for a targeted fix after Claude's review of step 5a. Word lists, the 3
 - **Mentions added** to `curriculum/malay-mentions.json`: ‹teh O›, ‹jambu›, ‹rumah sakit›, ‹lebih›, ‹paling›, ‹kurang›, ‹daripada›, each with its source. «mengapa» is on the root allow-list (`curriculum/malay-roots.json`).
 - **Kata-Kata findings:** frame f03 uses «baju» (Ch8); the scenario uses «nasi lemak», «sambalnya» and «kedai mamak»; card ms-c05-008 «sedikit» is still a chapter 5 card; no cards or frame for «kenapa», «mengapa», «sebab», «kerana», «kuah», «kelakar»; the Dunia "Di klinik" card should say «hospital», not «rumah sakit» (details in the report).
 
-## Next: Sam's feedback, then chapter 6 only on his go-ahead
+## Step 5d: chapter 6 (12 Nov 2026, Claude)
 
-1. Answer the questions at the end of `docs/STEP-5c-report.md` (the five proposed rows still waiting, the Kamus Dewan check, which teaching route worked).
-2. Kata-Kata (Claude Code) adds cards for L-1032 to L-1044, L-1046, L-1047, L-0614 and L-0702 (chapter 4) and for L-1008, L-1009, L-1048, L-1049, L-1050 and L-0688 (chapter 5), a frame for the "why" set, and swaps «rumah sakit» for «hospital» in the Dunia "Di klinik" scene; the Kamus Dewan check covers L-0983 to L-1050.
-3. Chapter 3, 4 and 5 pilot feedback: timings, drill load, the fast packs.
-4. **Chapter 6 waits for Sam's go-ahead.** The chapter 6 words «lebih», «paling», «kurang», «daripada», «sangat», «amat», «terlalu» and «sama» are placed there; the unit 5 teacher notes already tell teachers not to anticipate them.
+- **One unit.** Unit 6 (13-unit plan), five blocks and no extra block. 32 core words in six themed groups; the teacher notes give the A/B cut if the pilot shows 32 is too many (comparing, equal and most first; very, too, choosing and describing words second).
+- **Malay rules applied:** standard first («mudah», «tetapi») with «senang» and «tapi» marked spoken; whole ter- and se- words only («termurah», «terbesar», «terbaik», «tercantik», «setinggi», «semahal»; a test fails if a new one appears); «paling» + adjective and «sama … dengan» are the productive forms; «sekali» (very) goes after an adjective, «sangat»/«amat»/«terlalu» before it; root verbs only; no word from chapter 7 or later (no «dekat», «jauh», «ke», «kedai», «sini», «tengok»).
+- **Scenes:** the condo choice (model conversation, task, listing, writing), the Monday talk (listening), the "Main badminton" Dunia scene for Block E (recognition only). The 14 Dunia words include body parts; they are labels, no injuries or advice.
+- **Culture note:** «kondo», the Strata Management Act 2013 (secondary sources; scope Peninsular Malaysia and Labuan), the Klang Valley rail network (no lines or dates), Kata-Kata word notes. Sources are in the teacher key and the report.
+- **Helper:** `chapter6_common.py` is `chapter5_common.py` with these differences: `GRAMMAR6`, «yang mana» in the question-word set, a single Dunia scene, "Markers with comparisons", the unit id `ms-c06`. Use it as the starting point for chapter 7.
+- **Mentions added** to `curriculum/malay-mentions.json`: ‹ter› (Kata-Kata affix tag and card ms-c06-014 note), ‹dekat› and ‹jauh› (ledger, chapter 7); ‹se› gained cards ms-c06-005 and -006. E, F and G added as proper-noun condo labels.
+- **Kata-Kata findings:** its scenario uses «dekat», «jauh» and LRT; frames f03 and f04 show open se- and ter- slots; card ms-c06-002 «kurang» has a "minus in telling time" note against Sam's 6 Nov decision; ledger L-0188 lacks "very" (details in the report).
+
+## Next: Sam's feedback, then chapter 7 only on his go-ahead
+
+1. Answer the questions at the end of `docs/STEP-5d-report.md` (ledger rows «sewa», «bilik», «luas»; «tengok»; L-0188; «senang»; se- and ter- words; the review block after unit 6; the pilot).
+2. Kata-Kata (Claude Code) adds the cards and frame changes listed in the step 5b, 5c and 5d reports (including cards for L-1032 to L-1050 and L-0614, L-0702, L-0688, the "why" frame, «hospital» in "Di klinik", and the chapter 6 findings above); the Kamus Dewan check covers L-0983 to L-1050.
+3. Chapter 3, 4, 5 and 6 pilot feedback: timings, drill load, the fast packs.
+4. **Chapter 7 waits for Sam's go-ahead.** The chapter 7 words «ke», «dekat», «jauh», «dari mana», «kedai», «sini», «sana» and «tingkat» are placed there; the unit 6 teacher notes already tell teachers not to anticipate them. The charter's chapter 7 question words are ke mana, dari mana, berapa jauh and berapa lama.
 
 ## Earlier: Sam's pilot of chapter 3
 
