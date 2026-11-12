@@ -11,6 +11,12 @@ The A1 stage test is a summative test in the Irodori / JF Standard style: tasks 
 stage1_test_b.py), with the listening scripts, the administration sheet (timing, materials, scoring, the pass mark and
 the item map) and the Stage 1 record for the catalogue (CEFR A1, the completion label).
 
+Sam's decisions of 12 Nov 2026 (step 5h questions 1 to 4, built in step 5i): pass mark 48 of 80 with at least 10 of 20 in each
+section; the test takes two extra 45-minute blocks (written papers, then speaking), so the Stage 1 plan is 76 blocks; the
+test-item sub-type `writing` is accepted; and chapter 6 is compulsory in both versions, in two places: one listening item on
+«lebih … daripada» and «paling» (the compulsory comparison item, `compulsory='comparison'` in the data, listening L5) and
+speaking card 2, which the examiner may not skip (cards 1, 3 and 4 are alternatives for the second card).
+
 Rules (as in every unit): Malaysian standard Malay, standard forms first; only ledger words placed in chapters 1 to 9 (the
 build fails on anything else because ms-stage1 is a re-authored unit); no productive ber- or me-; no faith-specific
 greeting. All names, places, prices, numbers and times are fictional. All Japanese is a draft awaiting native review.
@@ -353,6 +359,7 @@ def review_component():
 # --- The A1 stage test ------------------------------------------------------------------------------------------------
 
 SECTION_MARKS = 20
+CARD_COMPULSORY = 2  # speaking card 2 (chapter 6: comparing) is always used; cards 1, 3 and 4 are the alternatives for card two
 TIMING = {'listening': 12, 'reading': 15, 'writing': 18, 'speaking': 7}
 TEST_GOALS = {
     'listening': ('I can understand short announcements and everyday conversations about people, food, prices, times and '
@@ -397,6 +404,19 @@ def item_map(version):
     return out
 
 
+def compulsory_codes(version):
+    """Codes of the items that every learner must sit because they carry the chapter 6 comparison check: the listening item
+    flagged `compulsory`, the reading item on price comparison (R, every learner sits the whole paper), and speaking card 2."""
+    v = version; out = []; n = 0
+    for task in v['listening']:
+        for it in task['items']:
+            n += 1
+            if it.get('compulsory'):
+                out.append(f'{v["label"]}-L{n}')
+    out.append(f'{v["label"]}-S2.{CARD_COMPULSORY}')
+    return out
+
+
 def test_components(v):
     V = v['label']; low = V.lower(); out = []
     fiction = ('All names, shops, prices, times and places are fictional.', '名前、店、値段、時刻、場所はすべて架空です。')
@@ -427,7 +447,8 @@ def test_components(v):
             n += 1; code = f'L{n}'
             item = _test_item(code, 'listening', it); tests.append(item)
             lines.append(item['prompt']); lines.append('________________________________________')
-            key.append(f'{code}: {it["a"]}')
+            key.append(f'{code}: {it["a"]}' + (' [Compulsory comparison item, chapter 6: «lebih … daripada», «paling». Every learner sits it; '
+                                               'it checks that Stage 1 comparing is understood by ear.]' if it.get('compulsory') else ''))
         sections.append((f'Task {t} · {task["title"]}', lines))
     comp('listening', 'listening', 'Listening', TIMING['listening'], sections, key,
          ('A1 段階テストの聞く問題です。先生が台本を2回読みます。台本は先生用キーにあります。日本語は未監修です。',
@@ -474,8 +495,8 @@ def test_components(v):
     intro = _test_item('S1', 'speaking', sp['intro']); tests.append(intro)
     sections = [('Before you speak', [
         f'About {TIMING["speaking"]} minutes for each learner, {SECTION_MARKS} marks: the self-introduction (8) and two role-play '
-        'cards (6 each). The examiner chooses card 1 or 2, and card 3 or 4. / 一人約7分、20点：自己紹介（8点）と'
-        'ロールカード二枚（各6点）。試験官がカード1か2、カード3か4を選びます。']),
+        'cards (6 each). Card 2 (comparing) is always used; the examiner chooses the other card from cards 1, 3 and 4. / '
+        '一人約7分、20点：自己紹介（8点）とロールカード二枚（各6点）。カード2（比べる）は必ず使い、もう一枚は試験官がカード1・3・4から選びます。']),
         ('Part 1 · Self-introduction · 自己紹介', [intro['prompt']])]
     key.append('S1 examiner: ' + ' '.join(sp['intro']['examiner']))
     key.append('S1 rubric (8): ' + sp['intro']['a'])
@@ -486,10 +507,11 @@ def test_components(v):
                   ja=f'{card["ja_title"]}：' + ''.join(f'（{i}）{x}' for i, x in enumerate(card['tasks_ja'], 1)),
                   a=card['a'], marks=card['marks'], ch=card['ch'], words=card['words'])
         item = _test_item(code, 'speaking', it); tests.append(item)
-        cards.append('■ ' + card['title'] + ' · ' + card['ja_title'])
+        cards.append('■ ' + card['title'] + ' · ' + card['ja_title'] + (' (always used · 必ず使う)' if c == CARD_COMPULSORY else ''))
         cards.extend(f'☐ {en} / {ja}' for en, ja in zip(card['tasks'], card['tasks_ja']))
         key.append(f'{code} examiner: ' + ' '.join(card['examiner']))
-        key.append(f'{code} rubric (6): ' + card['a'])
+        key.append(f'{code} rubric (6): ' + card['a'] + (' [Compulsory card: it is the chapter 6 check for production. The examiner always uses it '
+                                                         'and chooses the second card from cards 1, 3 and 4.]' if c == CARD_COMPULSORY else ''))
     sections.append(('Part 2 · Role-play cards · ロールカード', [
         'Read your card, then talk with the examiner without a script. The examiner will change one thing. / カードを読み、'
         '台本なしで試験官と話します。試験官が途中で一つ変更します。', *cards]))
@@ -541,7 +563,9 @@ def admin_component():
     maps = []
     for v in VERSIONS:
         lines = [f'■ Version {v["label"]}: item, marks, chapters whose can-do goals it tests']
-        lines += [f'{code} · {m} · ch {_chapters(ch)}' for code, _, m, ch in item_map(v)]
+        comp = compulsory_codes(v)
+        lines += [f'{code} · {m} · ch {_chapters(ch)}' + (' · compulsory (chapter 6)' if code in comp else '')
+                  for code, _, m, ch in item_map(v)]
         lines.append(f'■ Version {v["label"]}: chapter, its can-do goal, the items that test it')
         for n in range(1, 10):
             codes = [code for code, _, _, ch in item_map(v) if n in ch]
@@ -553,6 +577,8 @@ def admin_component():
             'with tasks that have a real outcome, in the Irodori and JF Standard way: understand an announcement, act on a '
             'sign, fill in a form, order and pay, ask the way. / A1 段階テストは第1段階（第1〜9章）のまとめのテストです。'
             '憲章の「できること」を CEFR A1 で、実際の目的のある課題で確かめます（いろどり・JF スタンダードの方法）。',
+            'Chapter 6 (comparing) is compulsory in both versions: one listening item on «lebih … daripada» and «paling» (L5), and '
+            'speaking card 2, which is always used. / 第6章（比べる）はどちらのバージョンでも必須です：聞く問題の1問（L5）と、必ず使うスピーキングのカード2。',
             'Two parallel versions, A and B, with the same sections, tasks, marks and chapter spread. Use A for the main sitting; '
             'use B for a second group, a re-sit or the next course. Do not give both versions to one learner in the same week. / '
             '同じ構成のバージョンAとBがあります。本試験はA、別のグループ・再試験・次の講座はBを使います。',
@@ -560,9 +586,11 @@ def admin_component():
             'to revisit. A pass means the learner has met the Stage 1 goals at A1 as this course defines them; it is not an '
             'official CEFR certificate. / 合格は、この講座の定める A1 の第1段階の目標を達成したという意味で、公式の CEFR 証明ではありません。']),
         ('Timing · 時間', [
-            f'Written paper, one 45-minute block: listening {TIMING["listening"]} minutes, reading {TIMING["reading"]}, writing '
-            f'{TIMING["writing"]}. Collect each paper before the next one.',
-            f'Speaking: about {TIMING["speaking"]} minutes for each learner, one at a time or in pairs, in a second block (six '
+            'The test takes two extra 45-minute blocks (Sam, 12 Nov 2026), which brings the Stage 1 plan to 76 blocks (the charter gives '
+            'the hours). / テストには45分のブロックが2つ加わり（Sam、2026年11月12日）、第1段階は全76ブロックになります。',
+            f'Block 1, the written papers: listening {TIMING["listening"]} minutes, reading {TIMING["reading"]}, writing '
+            f'{TIMING["writing"]} (45 minutes in all). Collect each paper before the next one.',
+            f'Block 2, speaking: about {TIMING["speaking"]} minutes for each learner, one at a time or in pairs (six '
             'learners fill about 45 minutes). The others can do the stage review self-check or Kata-Kata review meanwhile.',
             'Do the stage review block before the test, in an earlier class.']),
         ('Materials · 準備するもの', [
@@ -576,13 +604,15 @@ def admin_component():
             'speed. Learners answer in English or Japanese, or in Malay where the question asks for it.',
             'Reading and writing: learners work alone without notes or dictionaries. Answer questions about the instructions only.',
             'Speaking: greet the learner first («Selamat pagi. Apa khabar?»; not marked). Part 1, the self-introduction, then the two follow-up questions. '
-            'Part 2: choose card 1 or 2, then card 3 or 4; give 30 seconds to read the card; play your part from the key and '
+            'Part 2: always card 2 (comparing), then one of cards 1, 3 and 4 (change it from learner to learner so that the cards '
+            'cannot be learnt by heart); give 30 seconds to read the card; play your part from the key and '
             'bring in the change of plan halfway. Mark with the rubric straight after each part.']),
         ('Scoring and pass mark · 採点と合格基準', [
             f'Four sections of {SECTION_MARKS} marks: {TOTAL} in all. Listening and reading: one mark for each fact in the key. '
             'Writing and speaking: the rubric in each key (content, language, accuracy or interaction).',
             f'Pass: {PASS_TOTAL} or more out of {TOTAL} (60 per cent), and at least {PASS_SECTION} out of {SECTION_MARKS} in every '
-            'section. / 合格：80点中48点以上（60％）、かつ各セクション20点中10点以上。',
+            'section. This is Sam\'s decision of 12 Nov 2026; it is not taken from a JF, Irodori or CEFR document. / '
+            '合格：80点中48点以上（60％）、かつ各セクション20点中10点以上。これはSamの決定（2026年11月12日）で、JF・いろどり・CEFRの基準ではありません。',
             f'A pass is recorded as "{COMPLETION_LABEL}" (CEFR A1). "Not yet": go back to the chapters of the items that were '
             'missed (item map below), then sit the other version.',
             'Accept any natural answer with the same meaning. In listening and reading, a spelling slip that does not change the '
@@ -598,8 +628,8 @@ def admin_component():
     ]
     return dict(slug='test-admin', type='Teaching plan', title='A1 stage test · Administration sheet (teacher)', block='Stage test',
                 minutes=None, sections=sections,
-                key=['The pass mark (60 per cent overall, half of each section) is a proposal for Sam; it is not taken from a JF or '
-                     'CEFR document. The item maps are generated from the item data, so they always match the papers.',
+                key=['The pass mark (60 per cent overall, half of each section) is Sam\'s decision of 12 Nov 2026; it is not taken from a '
+                     'JF or CEFR document. The item maps are generated from the item data, so they always match the papers.',
                      'Answer keys: on each paper. Listening scripts: on the scripts sheet and in the listening keys.'],
                 explain=('A1 段階テストの実施要領（先生用）：時間、準備、手順、採点と合格基準、問題と章の対応表、結果記入表。日本語は未監修です。',
                          'How to run the A1 stage test: timing, materials, procedure, scoring and the pass mark, the item maps and a '
@@ -622,7 +652,8 @@ def stage_record(components):
             scripts_id='ms-stage1-test-scripts' if 'ms-stage1-test-scripts' in ids else None,
             administration_id='ms-stage1-test-admin' if 'ms-stage1-test-admin' in ids else None,
             section_marks=SECTION_MARKS, total_marks=TOTAL, timing_minutes=TIMING,
-            pass_rule=dict(total_min=PASS_TOTAL, section_min=PASS_SECTION, status='proposal for Sam'),
+            pass_rule=dict(total_min=PASS_TOTAL, section_min=PASS_SECTION, status="Sam's decision, 12 Nov 2026"),
+            compulsory_items={v['label']: compulsory_codes(v) for v in VERSIONS},
             item_chapters={iid: [f'ms-c{c:02}' for c in ch] for v in VERSIONS for iid, _, ch in item_ids(v)}),
         completion=dict(flag='stage1_complete', label=COMPLETION_LABEL, cefr='A1',
                         rule='pass the A1 stage test (either version) by the pass rule',

@@ -163,7 +163,7 @@ def make_catalogue(lessons, groups):
             {'language':'Malay','chapter_ids':[c['id'] for c in chapters],'grammar_sequence':[x['id'] for x in grammar],
              'word_ids':list(words),'pattern_ids':list(patterns),'first_language_notes':[],
              'scene_chapter_map':[{'scene_id':c['scene_ids'][0],'chapter_id':c['id']} for c in chapters],
-             'hour_budget':{'class_blocks':74,'block_minutes':45,'status':'provisional'},'review_status':'draft'},
+             'hour_budget':{'class_blocks':76,'block_minutes':45,'status':'provisional','note':'Stage 1 plan of 12 Nov 2026: 74 blocks plus 2 for the A1 stage test (written papers, then speaking)'},'review_status':'draft'},
             *[{'language':lang,'chapter_ids':[],'grammar_sequence':[],'word_ids':[],'pattern_ids':[],
                'first_language_notes':[],'scene_chapter_map':[],'hour_budget':None,'review_status':'draft',
                'status':'Supplementary legacy packs; language-specific syllabus not yet authored'} for lang in ['English','Japanese']]],

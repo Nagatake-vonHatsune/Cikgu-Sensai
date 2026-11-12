@@ -88001,27 +88001,34 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Listening|3|15": {
-  "source_text": "L5. Is it morning, afternoon or evening? Where does she live? / 朝ですか、午後ですか、夜ですか。女性はどこに住んでいますか。 [2 marks]",
+  "source_text": "■ Task 3 · Choosing a stall · 屋台選び",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "test",
+  "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Listening|3|16": {
-  "source_text": "________________________________________",
+  "source_text": "Two colleagues decide where to have lunch. / 二人の同僚が昼ごはんの場所を決めます。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Listening|3|17": {
-  "source_text": "■ Task 3 · At a food stall · 屋台で",
+  "source_text": "L5. Which stall is closer? Which dish does Aini say is the tastiest, and at which stall? / どちらの屋台が近いですか。アイニさんはどの料理が一番おいしいと言っていますか。どの屋台のですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "heading",
+  "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Listening|3|18": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Version A · Listening|4|0": {
   "source_text": "A man orders lunch at a gerai. / 男性が屋台で昼ごはんを注文します。",
   "target_spans": [
    "gerai"
@@ -88030,22 +88037,8 @@
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|3|19": {
-  "source_text": "L6. What food does he order? Write each number and counter in Malay. / 何を注文しましたか。数と助数詞をマレー語で書きましょう。 [2 marks]",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "test",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Stage 1 · A1 stage test · Version A · Listening|4|0": {
-  "source_text": "________________________________________",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "test",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Stage 1 · A1 stage test · Version A · Listening|4|1": {
-  "source_text": "L7. How does he want his tea? Does he eat there or take the food away? / お茶はどのように頼みましたか。店で食べますか、持ち帰りですか。 [2 marks]",
+  "source_text": "L6. What food does he order? Write each number and counter in Malay. / 何を注文しましたか。数と助数詞をマレー語で書きましょう。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -88059,7 +88052,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Listening|4|3": {
-  "source_text": "L8. How much is everything, and how much change does he get? / 全部でいくらですか。おつりはいくらですか。 [2 marks]",
+  "source_text": "L7. How does he want his tea? Does he eat there or take the food away? / お茶はどのように頼みましたか。店で食べますか、持ち帰りですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -88073,13 +88066,27 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Listening|4|5": {
-  "source_text": "■ Task 4 · Directions on the phone · 電話で道案内",
+  "source_text": "L8. How much is everything, and how much change does he get? / 全部でいくらですか。おつりはいくらですか。 [2 marks]",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Version A · Listening|4|6": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Version A · Listening|4|7": {
+  "source_text": "■ Task 5 · Directions on the phone · 電話で道案内",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version A · Listening|4|6": {
+ "Stage 1 · A1 stage test · Version A · Listening|4|8": {
   "source_text": "Puan Aini phones Encik Tanaka, who is on his way to a café. / アイニさんが、カフェに向かう田中さんに電話します。",
   "target_spans": [
    "Puan",
@@ -88089,28 +88096,28 @@
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|4|7": {
+ "Stage 1 · A1 stage test · Version A · Listening|4|9": {
   "source_text": "L9. How does he get from the station to the café? / 駅からカフェまでどう行きますか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version A · Listening|4|8": {
+ "Stage 1 · A1 stage test · Version A · Listening|4|10": {
   "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version A · Listening|4|9": {
+ "Stage 1 · A1 stage test · Version A · Listening|4|11": {
   "source_text": "L10. Where is the café, and how long is the walk? / カフェはどこにありますか。歩いて何分ですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version A · Listening|4|10": {
+ "Stage 1 · A1 stage test · Version A · Listening|4|12": {
   "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
@@ -88244,22 +88251,72 @@
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Version A · Listening|5|15": {
-  "source_text": "L5: morning (Selamat pagi) (1); Subang Jaya (1)",
-  "target_spans": [
-   "Selamat pagi"
-  ],
-  "mention_spans": [],
-  "kind": "key",
-  "exclusion": null
- },
- "Stage 1 · A1 stage test · Version A · Listening|5|16": {
-  "source_text": "Task 3 · At a food stall · 屋台で · the teacher reads twice:",
+  "source_text": "Task 3 · Choosing a stall · 屋台選び · the teacher reads twice:",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
+ "Stage 1 · A1 stage test · Version A · Listening|5|16": {
+  "source_text": "Aini: Kita makan di Gerai Siti atau Gerai Kumar?",
+  "target_spans": [
+   "Kita makan di Gerai Siti atau Gerai Kumar?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
  "Stage 1 · A1 stage test · Version A · Listening|5|17": {
+  "source_text": "Tanaka: Gerai Siti lebih dekat daripada Gerai Kumar.",
+  "target_spans": [
+   "Gerai Siti lebih dekat daripada Gerai Kumar."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Version A · Listening|5|18": {
+  "source_text": "Aini: Tetapi nasi lemak di Gerai Kumar paling sedap.",
+  "target_spans": [
+   "Tetapi nasi lemak di Gerai Kumar paling sedap."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Version A · Listening|5|19": {
+  "source_text": "Tanaka: Baik. Kita makan di Gerai Kumar.",
+  "target_spans": [
+   "Baik. Kita makan di Gerai Kumar."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Version A · Listening|5|20": {
+  "source_text": "L5: Gerai Siti is closer than Gerai Kumar (lebih dekat daripada) (1); the nasi lemak at Gerai Kumar is the tastiest (paling sedap) (1) [Compulsory comparison item, chapter 6: lebih … daripada, paling. Every learner sits it; it checks that Stage 1 comparing is understood by ear.]",
+  "target_spans": [
+   "Gerai Siti",
+   "Gerai Kumar",
+   "lebih dekat daripada",
+   "nasi lemak",
+   "Gerai Kumar",
+   "paling sedap",
+   "lebih … daripada",
+   "paling"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Version A · Listening|5|21": {
+  "source_text": "Task 4 · At a food stall · 屋台で · the teacher reads twice:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Version A · Listening|5|22": {
   "source_text": "Stall holder: Selamat tengah hari, encik. Mahu makan apa?",
   "target_spans": [
    "Selamat tengah hari, encik. Mahu makan apa?"
@@ -88268,7 +88325,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|5|18": {
+ "Stage 1 · A1 stage test · Version A · Listening|5|23": {
   "source_text": "Kumar: Saya mahu dua keping roti canai dan sebiji telur.",
   "target_spans": [
    "Saya mahu dua keping roti canai dan sebiji telur."
@@ -88277,7 +88334,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|5|19": {
+ "Stage 1 · A1 stage test · Version A · Listening|5|24": {
   "source_text": "Stall holder: Minum apa?",
   "target_spans": [
    "Minum apa?"
@@ -88286,7 +88343,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|5|20": {
+ "Stage 1 · A1 stage test · Version A · Listening|5|25": {
   "source_text": "Kumar: Secawan teh tarik, kurang manis.",
   "target_spans": [
    "Secawan teh tarik, kurang manis."
@@ -88295,7 +88352,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|5|21": {
+ "Stage 1 · A1 stage test · Version A · Listening|5|26": {
   "source_text": "Stall holder: Makan sini atau bungkus?",
   "target_spans": [
    "Makan sini atau bungkus?"
@@ -88304,7 +88361,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|5|22": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|0": {
   "source_text": "Kumar: Makan sini. Berapa harga semua?",
   "target_spans": [
    "Makan sini. Berapa harga semua?"
@@ -88313,7 +88370,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|5|23": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|1": {
   "source_text": "Stall holder: Roti canai satu ringgit lima puluh sen sekeping. Semua enam ringgit.",
   "target_spans": [
    "Roti canai satu ringgit lima puluh sen sekeping. Semua enam ringgit."
@@ -88322,7 +88379,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|5|24": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|2": {
   "source_text": "Kumar: Ini sepuluh ringgit.",
   "target_spans": [
    "Ini sepuluh ringgit."
@@ -88331,7 +88388,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|5|25": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|3": {
   "source_text": "Stall holder: Baki empat ringgit. Terima kasih!",
   "target_spans": [
    "Baki empat ringgit. Terima kasih!"
@@ -88340,7 +88397,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|5|26": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|4": {
   "source_text": "L6: dua keping roti canai (1); sebiji telur (1)",
   "target_spans": [
    "dua keping roti canai",
@@ -88350,7 +88407,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|5|27": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|5": {
   "source_text": "L7: less sweet (kurang manis) (1); he eats there (makan sini) (1)",
   "target_spans": [
    "kurang manis",
@@ -88360,7 +88417,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|5|28": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|6": {
   "source_text": "L8: RM6 (enam ringgit) (1); RM4 change (baki empat ringgit) (1)",
   "target_spans": [
    "enam ringgit",
@@ -88370,14 +88427,14 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|6|0": {
-  "source_text": "Task 4 · Directions on the phone · 電話で道案内 · the teacher reads twice:",
+ "Stage 1 · A1 stage test · Version A · Listening|6|7": {
+  "source_text": "Task 5 · Directions on the phone · 電話で道案内 · the teacher reads twice:",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version A · Listening|6|1": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|8": {
   "source_text": "Aini: Encik Tanaka, encik di mana sekarang?",
   "target_spans": [
    "Encik Tanaka, encik di mana sekarang?"
@@ -88386,7 +88443,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|6|2": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|9": {
   "source_text": "Tanaka: Saya di stesen. Kafe itu di mana?",
   "target_spans": [
    "Saya di stesen. Kafe itu di mana?"
@@ -88395,7 +88452,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|6|3": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|10": {
   "source_text": "Aini: Keluar dari stesen, jalan terus, kemudian belok kanan di lampu isyarat. Kafe di sebelah bank.",
   "target_spans": [
    "Keluar dari stesen, jalan terus, kemudian belok kanan di lampu isyarat. Kafe di sebelah bank."
@@ -88404,7 +88461,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|6|4": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|11": {
   "source_text": "Tanaka: Berapa jauh dari stesen?",
   "target_spans": [
    "Berapa jauh dari stesen?"
@@ -88413,7 +88470,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|6|5": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|12": {
   "source_text": "Aini: Dekat. Lebih kurang lima minit jalan kaki. Jumpa pukul tiga, ya!",
   "target_spans": [
    "Dekat. Lebih kurang lima minit jalan kaki. Jumpa pukul tiga, ya!"
@@ -88422,21 +88479,21 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Listening|6|6": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|13": {
   "source_text": "L9: straight on (1); then right at the traffic lights (1)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version A · Listening|6|7": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|14": {
   "source_text": "L10: next to the bank (1); about five minutes on foot (1)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version A · Listening|6|8": {
+ "Stage 1 · A1 stage test · Version A · Listening|6|15": {
   "source_text": "Section total: 20 marks. The pass mark and the item map are on the administration sheet.",
   "target_spans": [],
   "mention_spans": [],
@@ -88503,16 +88560,21 @@
   "exclusion": null
  },
  "test:ms-stage1-test-a-listening-05|prompt": {
-  "source_text": "L5. Is it morning, afternoon or evening? Where does she live? / 朝ですか、午後ですか、夜ですか。女性はどこに住んでいますか。 [2 marks]",
+  "source_text": "L5. Which stall is closer? Which dish does Aini say is the tastiest, and at which stall? / どちらの屋台が近いですか。アイニさんはどの料理が一番おいしいと言っていますか。どの屋台のですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-stage1-test-a-listening-05|answer_key": {
-  "source_text": "morning (Selamat pagi) (1); Subang Jaya (1)",
+  "source_text": "Gerai Siti is closer than Gerai Kumar (lebih dekat daripada) (1); the nasi lemak at Gerai Kumar is the tastiest (paling sedap) (1)",
   "target_spans": [
-   "Selamat pagi"
+   "Gerai Siti",
+   "Gerai Kumar",
+   "lebih dekat daripada",
+   "nasi lemak",
+   "Gerai Kumar",
+   "paling sedap"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -88679,16 +88741,25 @@
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Version A · Reading|3|7": {
-  "source_text": "C Dilarang merokok",
+  "source_text": "C TOLAK",
   "target_spans": [
-   "Dilarang merokok"
+   "TOLAK"
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Version A · Reading|3|8": {
-  "source_text": "D Sila tunggu di sini",
+  "source_text": "D TARIK",
+  "target_spans": [
+   "TARIK"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Version A · Reading|3|9": {
+  "source_text": "E Sila tunggu di sini",
   "target_spans": [
    "Sila tunggu di sini"
   ],
@@ -88696,19 +88767,10 @@
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version A · Reading|3|9": {
-  "source_text": "E Keluar",
+ "Stage 1 · A1 stage test · Version A · Reading|3|10": {
+  "source_text": "F Keluar",
   "target_spans": [
    "Keluar"
-  ],
-  "mention_spans": [],
-  "kind": "test",
-  "exclusion": null
- },
- "Stage 1 · A1 stage test · Version A · Reading|3|10": {
-  "source_text": "F Lif",
-  "target_spans": [
-   "Lif"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -88729,7 +88791,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Reading|3|13": {
-  "source_text": "R2. Which sign tells you not to go in, and which one asks you to wait? / 入ってはいけないという掲示はどれですか。待つように頼んでいる掲示はどれですか。 [2 marks]",
+  "source_text": "R2. Which sign is on a door that you pull? Which sign tells you not to go in? / 引いて開けるドアの表示はどれですか。入ってはいけないという掲示はどれですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -88893,9 +88955,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Reading|4|7": {
-  "source_text": "Selamat pagi, Encik Tanaka. Esok kita jumpa di bank pukul sepuluh pagi, ya. Bank itu di sebelah pejabat pos. Dari stesen, jalan terus, kemudian belok kiri. Tolong bawa pasport encik. Terima kasih! Aini",
+  "source_text": "Selamat pagi, Encik Tanaka, dan Selamat Pesta Kaamatan! Esok kita jumpa di bank pukul sepuluh pagi, ya. Bank itu di sebelah pejabat pos. Dari stesen, jalan terus, kemudian belok kiri. Tolong bawa pasport encik. Terima kasih! Aini",
   "target_spans": [
-   "Selamat pagi, Encik Tanaka. Esok kita jumpa di bank pukul sepuluh pagi, ya. Bank itu di sebelah pejabat pos. Dari stesen, jalan terus, kemudian belok kiri. Tolong bawa pasport encik. Terima kasih! Aini"
+   "Selamat pagi, Encik Tanaka, dan Selamat Pesta Kaamatan! Esok kita jumpa di bank pukul sepuluh pagi, ya. Bank itu di sebelah pejabat pos. Dari stesen, jalan terus, kemudian belok kiri. Tolong bawa pasport encik. Terima kasih! Aini"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -88930,7 +88992,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Reading|4|12": {
-  "source_text": "R8. Who wrote the message, and at what time of day? / 誰がメッセージを書きましたか。一日のいつごろですか。 [2 marks]",
+  "source_text": "R8. At what time of day was the message written? Which festival does the greeting mention? / メッセージは一日のいつごろ書かれましたか。挨拶はどのお祭りについてですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -88958,18 +89020,18 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Reading|4|16": {
-  "source_text": "Klinik dibuka pada pukul lapan pagi dan ditutup pada pukul sepuluh malam.",
+  "source_text": "PERHATIAN: Klinik ditutup hingga hari Rabu.",
   "target_spans": [
-   "Klinik dibuka pada pukul lapan pagi dan ditutup pada pukul sepuluh malam."
+   "PERHATIAN: Klinik ditutup hingga hari Rabu."
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Version A · Reading|4|17": {
-  "source_text": "Pada hari Ahad, klinik ditutup.",
+  "source_text": "Klinik dibuka dari pukul lapan pagi hingga pukul sepuluh malam.",
   "target_spans": [
-   "Pada hari Ahad, klinik ditutup."
+   "Klinik dibuka dari pukul lapan pagi hingga pukul sepuluh malam."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -88994,7 +89056,7 @@
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Version A · Reading|4|20": {
-  "source_text": "R9. Can you see the doctor at nine at night on Sunday? Why? / 日曜日の夜9時に診てもらえますか。なぜですか。 [2 marks]",
+  "source_text": "R9. It is Tuesday. When can you next see the doctor, and until what time is the clinic open on that day? / 今日は火曜日です。次に診てもらえるのはいつですか。その日は何時まで開いていますか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -89007,14 +89069,14 @@
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version A · Reading|4|22": {
+ "Stage 1 · A1 stage test · Version A · Reading|5|0": {
   "source_text": "R10. What is not allowed inside the clinic, and what do you do when you arrive? / クリニックの中で禁止されていることは何ですか。着いたら何をしますか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version A · Reading|5|0": {
+ "Stage 1 · A1 stage test · Version A · Reading|5|1": {
   "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
@@ -89022,7 +89084,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Reading|6|0": {
-  "source_text": "R1: B Tandas (1); E Keluar (1)",
+  "source_text": "R1: B Tandas (1); F Keluar (1)",
   "target_spans": [
    "Tandas",
    "Keluar"
@@ -89032,10 +89094,10 @@
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Version A · Reading|6|1": {
-  "source_text": "R2: A Dilarang masuk (1); D Sila tunggu di sini (1)",
+  "source_text": "R2: D TARIK (1); A Dilarang masuk (1)",
   "target_spans": [
-   "Dilarang masuk",
-   "Sila tunggu di sini"
+   "TARIK",
+   "Dilarang masuk"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -89079,18 +89141,21 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Reading|6|7": {
-  "source_text": "R8: Aini (1); in the morning (Selamat pagi) (1)",
+  "source_text": "R8: in the morning (Selamat pagi) (1); the Kaamatan festival (Selamat Pesta Kaamatan) (1)",
   "target_spans": [
-   "Selamat pagi"
+   "Selamat pagi",
+   "Kaamatan",
+   "Selamat Pesta Kaamatan"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Version A · Reading|6|8": {
-  "source_text": "R9: No (1); the clinic is closed on Sunday (Pada hari Ahad, klinik ditutup) (1)",
+  "source_text": "R9: on Wednesday (ditutup hingga hari Rabu) (1); until ten at night (hingga pukul sepuluh malam) (1)",
   "target_spans": [
-   "Pada hari Ahad, klinik ditutup"
+   "ditutup hingga hari Rabu",
+   "hingga pukul sepuluh malam"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -89118,7 +89183,7 @@
   "exclusion": null
  },
  "test:ms-stage1-test-a-reading-01|answer_key": {
-  "source_text": "B Tandas (1); E Keluar (1)",
+  "source_text": "B Tandas (1); F Keluar (1)",
   "target_spans": [
    "Tandas",
    "Keluar"
@@ -89128,17 +89193,17 @@
   "exclusion": null
  },
  "test:ms-stage1-test-a-reading-02|prompt": {
-  "source_text": "R2. Which sign tells you not to go in, and which one asks you to wait? / 入ってはいけないという掲示はどれですか。待つように頼んでいる掲示はどれですか。 [2 marks]",
+  "source_text": "R2. Which sign is on a door that you pull? Which sign tells you not to go in? / 引いて開けるドアの表示はどれですか。入ってはいけないという掲示はどれですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-stage1-test-a-reading-02|answer_key": {
-  "source_text": "A Dilarang masuk (1); D Sila tunggu di sini (1)",
+  "source_text": "D TARIK (1); A Dilarang masuk (1)",
   "target_spans": [
-   "Dilarang masuk",
-   "Sila tunggu di sini"
+   "TARIK",
+   "Dilarang masuk"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -89232,32 +89297,35 @@
   "exclusion": null
  },
  "test:ms-stage1-test-a-reading-08|prompt": {
-  "source_text": "R8. Who wrote the message, and at what time of day? / 誰がメッセージを書きましたか。一日のいつごろですか。 [2 marks]",
+  "source_text": "R8. At what time of day was the message written? Which festival does the greeting mention? / メッセージは一日のいつごろ書かれましたか。挨拶はどのお祭りについてですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-stage1-test-a-reading-08|answer_key": {
-  "source_text": "Aini (1); in the morning (Selamat pagi) (1)",
+  "source_text": "in the morning (Selamat pagi) (1); the Kaamatan festival (Selamat Pesta Kaamatan) (1)",
   "target_spans": [
-   "Selamat pagi"
+   "Selamat pagi",
+   "Kaamatan",
+   "Selamat Pesta Kaamatan"
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-stage1-test-a-reading-09|prompt": {
-  "source_text": "R9. Can you see the doctor at nine at night on Sunday? Why? / 日曜日の夜9時に診てもらえますか。なぜですか。 [2 marks]",
+  "source_text": "R9. It is Tuesday. When can you next see the doctor, and until what time is the clinic open on that day? / 今日は火曜日です。次に診てもらえるのはいつですか。その日は何時まで開いていますか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-stage1-test-a-reading-09|answer_key": {
-  "source_text": "No (1); the clinic is closed on Sunday (Pada hari Ahad, klinik ditutup) (1)",
+  "source_text": "on Wednesday (ditutup hingga hari Rabu) (1); until ten at night (hingga pukul sepuluh malam) (1)",
   "target_spans": [
-   "Pada hari Ahad, klinik ditutup"
+   "ditutup hingga hari Rabu",
+   "hingga pukul sepuluh malam"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -89647,7 +89715,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Speaking|3|2": {
-  "source_text": "About 7 minutes for each learner, 20 marks: the self-introduction (8) and two role-play cards (6 each). The examiner chooses card 1 or 2, and card 3 or 4. / 一人約7分、20点：自己紹介（8点）とロールカード二枚（各6点）。試験官がカード1か2、カード3か4を選びます。",
+  "source_text": "About 7 minutes for each learner, 20 marks: the self-introduction (8) and two role-play cards (6 each). Card 2 (comparing) is always used; the examiner chooses the other card from cards 1, 3 and 4. / 一人約7分、20点：自己紹介（8点）とロールカード二枚（各6点）。カード2（比べる）は必ず使い、もう一枚は試験官がカード1・3・4から選びます。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -89717,7 +89785,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version A · Speaking|3|11": {
-  "source_text": "■ Card 2 · Buying fruit · カード2・果物を買う",
+  "source_text": "■ Card 2 · Buying fruit · カード2・果物を買う (always used · 必ず使う)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -89865,7 +89933,7 @@
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Version A · Speaking|5|5": {
-  "source_text": "S2.2 rubric (6): Task 3: asks the price per piece (Berapa harga sebiji?) 1; compares (Yang mana lebih manis?) 1; buys with a number + biji and checks the change 1. Language 2: sebiji / … biji and the price right 2, partly 1. Change of plan 1: buys oranges instead. Model: Berapa harga epal sebiji? Yang mana lebih manis, epal atau oren? Saya mahu empat biji oren.",
+  "source_text": "S2.2 rubric (6): Task 3: asks the price per piece (Berapa harga sebiji?) 1; compares (Yang mana lebih manis?) 1; buys with a number + biji and checks the change 1. Language 2: sebiji / … biji and the price right 2, partly 1. Change of plan 1: buys oranges instead. Model: Berapa harga epal sebiji? Yang mana lebih manis, epal atau oren? Saya mahu empat biji oren. [Compulsory card: it is the chapter 6 check for production. The examiner always uses it and chooses the second card from cards 1, 3 and 4.]",
   "target_spans": [
    "Berapa harga sebiji?",
    "Yang mana lebih manis?",
@@ -90199,27 +90267,34 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Listening|3|15": {
-  "source_text": "L5. Is it morning, afternoon or evening? What is her hobby? / 朝ですか、午後ですか、夜ですか。女性の趣味は何ですか。 [2 marks]",
+  "source_text": "■ Task 3 · Choosing how to go · 行き方選び",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "test",
+  "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Listening|3|16": {
-  "source_text": "________________________________________",
+  "source_text": "Two colleagues decide how to get to the bank. / 二人の同僚が銀行への行き方を決めます。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Listening|3|17": {
-  "source_text": "■ Task 3 · At a food stall · 屋台で",
+  "source_text": "L5. Which is quicker, the taxi or the bus? Which way of going does Mei Ling say is the cheapest? / タクシーとバスではどちらが速いですか。メイリンさんはどの行き方が一番安いと言っていますか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "heading",
+  "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Listening|3|18": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Version B · Listening|4|0": {
   "source_text": "A woman orders breakfast at a gerai. / 女性が屋台で朝ごはんを注文します。",
   "target_spans": [
    "gerai"
@@ -90228,56 +90303,56 @@
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|4|0": {
+ "Stage 1 · A1 stage test · Version B · Listening|4|1": {
   "source_text": "L6. What food does she order? Write each number and counter in Malay. / 何を注文しましたか。数と助数詞をマレー語で書きましょう。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Listening|4|1": {
-  "source_text": "________________________________________",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "test",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Stage 1 · A1 stage test · Version B · Listening|4|2": {
-  "source_text": "L7. How does she want her coffee? Does she eat there or take the food away? / コーヒーはどのように頼みましたか。店で食べますか、持ち帰りですか。 [2 marks]",
+  "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Listening|4|3": {
-  "source_text": "________________________________________",
+  "source_text": "L7. How does she want her coffee? Does she eat there or take the food away? / コーヒーはどのように頼みましたか。店で食べますか、持ち帰りですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Listening|4|4": {
-  "source_text": "L8. How much is everything, and how much change does she get? / 全部でいくらですか。おつりはいくらですか。 [2 marks]",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "test",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Stage 1 · A1 stage test · Version B · Listening|4|5": {
   "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
+ "Stage 1 · A1 stage test · Version B · Listening|4|5": {
+  "source_text": "L8. How much is everything, and how much change does she get? / 全部でいくらですか。おつりはいくらですか。 [2 marks]",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
  "Stage 1 · A1 stage test · Version B · Listening|4|6": {
-  "source_text": "■ Task 4 · Directions on the phone · 電話で道案内",
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Version B · Listening|4|7": {
+  "source_text": "■ Task 5 · Directions on the phone · 電話で道案内",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Listening|4|7": {
+ "Stage 1 · A1 stage test · Version B · Listening|4|8": {
   "source_text": "Mei Ling phones Encik Yamada, who is on his way to a kedai mamak. / メイリンさんが、ママックの店に向かう山田さんに電話します。",
   "target_spans": [
    "Encik",
@@ -90287,7 +90362,7 @@
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|4|8": {
+ "Stage 1 · A1 stage test · Version B · Listening|4|9": {
   "source_text": "L9. How does he get from the post office to the kedai mamak? / 郵便局からママックの店までどう行きますか。 [2 marks]",
   "target_spans": [
    "kedai mamak"
@@ -90296,14 +90371,14 @@
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|4|9": {
+ "Stage 1 · A1 stage test · Version B · Listening|4|10": {
   "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Listening|4|10": {
+ "Stage 1 · A1 stage test · Version B · Listening|4|11": {
   "source_text": "L10. Where is the kedai mamak, and how far is it? / ママックの店はどこにありますか。どのくらい遠いですか。 [2 marks]",
   "target_spans": [
    "kedai mamak"
@@ -90312,7 +90387,7 @@
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|4|11": {
+ "Stage 1 · A1 stage test · Version B · Listening|4|12": {
   "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
@@ -90445,23 +90520,68 @@
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Version B · Listening|5|15": {
-  "source_text": "L5: afternoon (Selamat petang) (1); cooking (masak) (1)",
-  "target_spans": [
-   "Selamat petang",
-   "masak"
-  ],
-  "mention_spans": [],
-  "kind": "key",
-  "exclusion": null
- },
- "Stage 1 · A1 stage test · Version B · Listening|5|16": {
-  "source_text": "Task 3 · At a food stall · 屋台で · the teacher reads twice:",
+  "source_text": "Task 3 · Choosing how to go · 行き方選び · the teacher reads twice:",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
+ "Stage 1 · A1 stage test · Version B · Listening|5|16": {
+  "source_text": "Mei Ling: Kita pergi ke bank naik bas, naik teksi atau jalan kaki?",
+  "target_spans": [
+   "Kita pergi ke bank naik bas, naik teksi atau jalan kaki?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
  "Stage 1 · A1 stage test · Version B · Listening|5|17": {
+  "source_text": "Yamada: Teksi lebih cepat daripada bas.",
+  "target_spans": [
+   "Teksi lebih cepat daripada bas."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Version B · Listening|5|18": {
+  "source_text": "Mei Ling: Tetapi jalan kaki paling murah. Bank dekat.",
+  "target_spans": [
+   "Tetapi jalan kaki paling murah. Bank dekat."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Version B · Listening|5|19": {
+  "source_text": "Yamada: Baik. Kita jalan kaki.",
+  "target_spans": [
+   "Baik. Kita jalan kaki."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Version B · Listening|5|20": {
+  "source_text": "L5: the taxi is quicker than the bus (lebih cepat daripada) (1); on foot is the cheapest (jalan kaki paling murah) (1) [Compulsory comparison item, chapter 6: lebih … daripada, paling. Every learner sits it; it checks that Stage 1 comparing is understood by ear.]",
+  "target_spans": [
+   "lebih cepat daripada",
+   "jalan kaki paling murah",
+   "lebih … daripada",
+   "paling"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Version B · Listening|5|21": {
+  "source_text": "Task 4 · At a food stall · 屋台で · the teacher reads twice:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Version B · Listening|5|22": {
   "source_text": "Stall holder: Selamat pagi, puan. Mahu makan apa?",
   "target_spans": [
    "Selamat pagi, puan. Mahu makan apa?"
@@ -90470,7 +90590,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|5|18": {
+ "Stage 1 · A1 stage test · Version B · Listening|5|23": {
   "source_text": "Nora: Saya mahu sepinggan nasi goreng dan dua keping pisang goreng.",
   "target_spans": [
    "Saya mahu sepinggan nasi goreng dan dua keping pisang goreng."
@@ -90479,7 +90599,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|5|19": {
+ "Stage 1 · A1 stage test · Version B · Listening|5|24": {
   "source_text": "Stall holder: Minum apa?",
   "target_spans": [
    "Minum apa?"
@@ -90488,7 +90608,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|5|20": {
+ "Stage 1 · A1 stage test · Version B · Listening|5|25": {
   "source_text": "Nora: Secawan kopi, ais sedikit.",
   "target_spans": [
    "Secawan kopi, ais sedikit."
@@ -90497,7 +90617,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|5|21": {
+ "Stage 1 · A1 stage test · Version B · Listening|5|26": {
   "source_text": "Stall holder: Makan sini atau bungkus?",
   "target_spans": [
    "Makan sini atau bungkus?"
@@ -90506,7 +90626,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|5|22": {
+ "Stage 1 · A1 stage test · Version B · Listening|5|27": {
   "source_text": "Nora: Bungkus. Berapa harga semua?",
   "target_spans": [
    "Bungkus. Berapa harga semua?"
@@ -90515,7 +90635,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|5|23": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|0": {
   "source_text": "Stall holder: Nasi goreng lima ringgit lima puluh sen. Semua lapan ringgit lima puluh sen.",
   "target_spans": [
    "Nasi goreng lima ringgit lima puluh sen. Semua lapan ringgit lima puluh sen."
@@ -90524,7 +90644,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|5|24": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|1": {
   "source_text": "Nora: Ini sepuluh ringgit.",
   "target_spans": [
    "Ini sepuluh ringgit."
@@ -90533,7 +90653,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|5|25": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|2": {
   "source_text": "Stall holder: Baki satu ringgit lima puluh sen. Terima kasih!",
   "target_spans": [
    "Baki satu ringgit lima puluh sen. Terima kasih!"
@@ -90542,7 +90662,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|5|26": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|3": {
   "source_text": "L6: sepinggan nasi goreng (1); dua keping pisang goreng (1)",
   "target_spans": [
    "sepinggan nasi goreng",
@@ -90552,7 +90672,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|5|27": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|4": {
   "source_text": "L7: with a little ice (ais sedikit) (1); she takes it away (bungkus) (1)",
   "target_spans": [
    "ais sedikit",
@@ -90562,7 +90682,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|6|0": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|5": {
   "source_text": "L8: RM8.50 (lapan ringgit lima puluh sen) (1); RM1.50 change (baki satu ringgit lima puluh sen) (1)",
   "target_spans": [
    "lapan ringgit lima puluh sen",
@@ -90572,14 +90692,14 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|6|1": {
-  "source_text": "Task 4 · Directions on the phone · 電話で道案内 · the teacher reads twice:",
+ "Stage 1 · A1 stage test · Version B · Listening|6|6": {
+  "source_text": "Task 5 · Directions on the phone · 電話で道案内 · the teacher reads twice:",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Listening|6|2": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|7": {
   "source_text": "Mei Ling: Encik Yamada, encik di mana sekarang?",
   "target_spans": [
    "Encik Yamada, encik di mana sekarang?"
@@ -90588,7 +90708,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|6|3": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|8": {
   "source_text": "Yamada: Saya di pejabat pos. Kedai mamak itu di mana?",
   "target_spans": [
    "Saya di pejabat pos. Kedai mamak itu di mana?"
@@ -90597,7 +90717,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|6|4": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|9": {
   "source_text": "Mei Ling: Dari pejabat pos, jalan terus, kemudian belok kiri di simpang kedua. Kedai mamak di antara bank dan klinik.",
   "target_spans": [
    "Dari pejabat pos, jalan terus, kemudian belok kiri di simpang kedua. Kedai mamak di antara bank dan klinik."
@@ -90606,7 +90726,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|6|5": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|10": {
   "source_text": "Yamada: Berapa jauh dari sini?",
   "target_spans": [
    "Berapa jauh dari sini?"
@@ -90615,7 +90735,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|6|6": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|11": {
   "source_text": "Mei Ling: Lebih kurang tiga ratus meter. Jumpa pukul satu, ya!",
   "target_spans": [
    "Lebih kurang tiga ratus meter. Jumpa pukul satu, ya!"
@@ -90624,21 +90744,21 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Listening|6|7": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|12": {
   "source_text": "L9: straight on (1); then left at the second junction (1)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Listening|6|8": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|13": {
   "source_text": "L10: between the bank and the clinic (1); about three hundred metres (1)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Listening|6|9": {
+ "Stage 1 · A1 stage test · Version B · Listening|6|14": {
   "source_text": "Section total: 20 marks. The pass mark and the item map are on the administration sheet.",
   "target_spans": [],
   "mention_spans": [],
@@ -90704,17 +90824,17 @@
   "exclusion": null
  },
  "test:ms-stage1-test-b-listening-05|prompt": {
-  "source_text": "L5. Is it morning, afternoon or evening? What is her hobby? / 朝ですか、午後ですか、夜ですか。女性の趣味は何ですか。 [2 marks]",
+  "source_text": "L5. Which is quicker, the taxi or the bus? Which way of going does Mei Ling say is the cheapest? / タクシーとバスではどちらが速いですか。メイリンさんはどの行き方が一番安いと言っていますか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-stage1-test-b-listening-05|answer_key": {
-  "source_text": "afternoon (Selamat petang) (1); cooking (masak) (1)",
+  "source_text": "the taxi is quicker than the bus (lebih cepat daripada) (1); on foot is the cheapest (jalan kaki paling murah) (1)",
   "target_spans": [
-   "Selamat petang",
-   "masak"
+   "lebih cepat daripada",
+   "jalan kaki paling murah"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -90860,7 +90980,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Reading|3|4": {
-  "source_text": "Fictional signs (A to F):",
+  "source_text": "Fictional signs (A to G):",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -90903,9 +91023,9 @@
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Version B · Reading|3|9": {
-  "source_text": "E Dilarang masuk",
+  "source_text": "E TOLAK",
   "target_spans": [
-   "Dilarang masuk"
+   "TOLAK"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -90921,41 +91041,50 @@
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Version B · Reading|3|11": {
+  "source_text": "G TARIK",
+  "target_spans": [
+   "TARIK"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Version B · Reading|3|12": {
   "source_text": "R1. Which sign shows the stairs, and which one shows the toilet? / 階段を示す掲示はどれですか。トイレを示す掲示はどれですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Reading|3|12": {
-  "source_text": "________________________________________",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "test",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Stage 1 · A1 stage test · Version B · Reading|3|13": {
-  "source_text": "R2. You want to have a drink here. Which sign says you may not? Which sign tells you to take a number? / ここで飲み物を飲みたいです。それができないという掲示はどれですか。番号札を取るように言っている掲示はどれですか。 [2 marks]",
+  "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Reading|3|14": {
-  "source_text": "________________________________________",
+  "source_text": "R2. You want to have a drink here. Which sign says you may not? Which sign is on a door that you push? / ここで飲み物を飲みたいです。それができないという掲示はどれですか。押して開けるドアの表示はどれですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Reading|3|15": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Version B · Reading|3|16": {
   "source_text": "■ Part 2 · A price board · 果物屋の値段表",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Reading|3|16": {
+ "Stage 1 · A1 stage test · Version B · Reading|3|17": {
   "source_text": "Fictional price board at Gerai buah Ali:",
   "target_spans": [
    "Gerai buah Ali"
@@ -90964,7 +91093,7 @@
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Reading|3|17": {
+ "Stage 1 · A1 stage test · Version B · Reading|3|18": {
   "source_text": "Epal · RM1.50 sebiji",
   "target_spans": [
    "Epal · RM1.50 sebiji"
@@ -90973,7 +91102,7 @@
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Reading|3|18": {
+ "Stage 1 · A1 stage test · Version B · Reading|3|19": {
   "source_text": "Oren · RM1.20 sebiji",
   "target_spans": [
    "Oren · RM1.20 sebiji"
@@ -90982,7 +91111,7 @@
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Reading|3|19": {
+ "Stage 1 · A1 stage test · Version B · Reading|3|20": {
   "source_text": "Mangga · RM3.00 sebiji",
   "target_spans": [
    "Mangga · RM3.00 sebiji"
@@ -90991,146 +91120,146 @@
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Reading|3|20": {
+ "Stage 1 · A1 stage test · Version B · Reading|3|21": {
   "source_text": "R3. You buy three apples. How much do you pay? / りんごを3個買います。いくら払いますか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Reading|3|21": {
-  "source_text": "________________________________________",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "test",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Stage 1 · A1 stage test · Version B · Reading|3|22": {
-  "source_text": "R4. Which fruit is the most expensive for one piece? Is an orange cheaper than an apple? / 一つあたり一番高い果物はどれですか。オレンジはりんごより安いですか。 [2 marks]",
+  "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Reading|4|0": {
-  "source_text": "________________________________________",
+  "source_text": "R4. Which fruit is the most expensive for one piece? Is an orange cheaper than an apple? / 一つあたり一番高い果物はどれですか。オレンジはりんごより安いですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Reading|4|1": {
-  "source_text": "R5. You have RM20. You buy two mangoes and five oranges. How much change do you get? / 20リンギ持っています。マンゴーを2個、オレンジを5個買います。おつりはいくらですか。 [2 marks]",
+  "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Reading|4|2": {
-  "source_text": "________________________________________",
+  "source_text": "R5. You have RM20. You buy two mangoes and five oranges. How much change do you get? / 20リンギ持っています。マンゴーを2個、オレンジを5個買います。おつりはいくらですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Reading|4|3": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Version B · Reading|4|4": {
   "source_text": "■ Part 3 · A message from a friend · 友人からのメッセージ",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Reading|4|4": {
+ "Stage 1 · A1 stage test · Version B · Reading|4|5": {
   "source_text": "A fictional WhatsApp message:",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Reading|4|5": {
-  "source_text": "Selamat petang, Encik Yamada. Jamuan hari Jumaat di rumah saya, pukul tujuh malam. Rumah saya di Bangsar, di belakang sekolah. Dari stesen, lebih kurang sepuluh minit naik teksi. Tolong bawa dua botol air. Jumpa hari Jumaat! Mei Ling",
+ "Stage 1 · A1 stage test · Version B · Reading|4|6": {
+  "source_text": "Selamat petang, Encik Yamada, dan Selamat Hari Gawai! Jamuan hari Jumaat di rumah saya, pukul tujuh malam. Rumah saya di Bangsar, di belakang sekolah. Dari stesen, lebih kurang sepuluh minit naik teksi. Tolong bawa dua botol air. Jumpa hari Jumaat! Mei Ling",
   "target_spans": [
-   "Selamat petang, Encik Yamada. Jamuan hari Jumaat di rumah saya, pukul tujuh malam. Rumah saya di Bangsar, di belakang sekolah. Dari stesen, lebih kurang sepuluh minit naik teksi. Tolong bawa dua botol air. Jumpa hari Jumaat! Mei Ling"
+   "Selamat petang, Encik Yamada, dan Selamat Hari Gawai! Jamuan hari Jumaat di rumah saya, pukul tujuh malam. Rumah saya di Bangsar, di belakang sekolah. Dari stesen, lebih kurang sepuluh minit naik teksi. Tolong bawa dua botol air. Jumpa hari Jumaat! Mei Ling"
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Reading|4|6": {
+ "Stage 1 · A1 stage test · Version B · Reading|4|7": {
   "source_text": "R6. When and where is the party? / 会はいつ、どこですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Reading|4|7": {
-  "source_text": "________________________________________",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "test",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Stage 1 · A1 stage test · Version B · Reading|4|8": {
-  "source_text": "R7. How do you get there from the station, and what must you bring? / 駅からどう行きますか。何を持っていく必要がありますか。 [2 marks]",
+  "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Reading|4|9": {
-  "source_text": "________________________________________",
+  "source_text": "R7. How do you get there from the station, and what must you bring? / 駅からどう行きますか。何を持っていく必要がありますか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Reading|4|10": {
-  "source_text": "R8. Who wrote the message, and at what time of day? / 誰がメッセージを書きましたか。一日のいつごろですか。 [2 marks]",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "test",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Stage 1 · A1 stage test · Version B · Reading|4|11": {
   "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
+ "Stage 1 · A1 stage test · Version B · Reading|4|11": {
+  "source_text": "R8. At what time of day was the message written? Which festival does the greeting mention? / メッセージは一日のいつごろ書かれましたか。挨拶はどのお祭りについてですか。 [2 marks]",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
  "Stage 1 · A1 stage test · Version B · Reading|4|12": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Version B · Reading|4|13": {
   "source_text": "■ Part 4 · A notice at a bank · 銀行の掲示",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Reading|4|13": {
+ "Stage 1 · A1 stage test · Version B · Reading|4|14": {
   "source_text": "A fictional notice:",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Reading|4|14": {
-  "source_text": "Bank dibuka pada pukul sembilan setengah pagi dan ditutup pada pukul empat petang.",
-  "target_spans": [
-   "Bank dibuka pada pukul sembilan setengah pagi dan ditutup pada pukul empat petang."
-  ],
-  "mention_spans": [],
-  "kind": "test",
-  "exclusion": null
- },
  "Stage 1 · A1 stage test · Version B · Reading|4|15": {
-  "source_text": "Pada hari Sabtu dan Ahad, bank ditutup.",
+  "source_text": "PERHATIAN: Bank ditutup hingga hari Isnin.",
   "target_spans": [
-   "Pada hari Sabtu dan Ahad, bank ditutup."
+   "PERHATIAN: Bank ditutup hingga hari Isnin."
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Version B · Reading|4|16": {
+  "source_text": "Bank dibuka dari pukul sembilan setengah pagi hingga pukul empat petang.",
+  "target_spans": [
+   "Bank dibuka dari pukul sembilan setengah pagi hingga pukul empat petang."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Version B · Reading|4|17": {
   "source_text": "Dilarang merokok.",
   "target_spans": [
    "Dilarang merokok."
@@ -91139,7 +91268,7 @@
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Reading|4|17": {
+ "Stage 1 · A1 stage test · Version B · Reading|4|18": {
   "source_text": "Sila tunggu di sini.",
   "target_spans": [
    "Sila tunggu di sini."
@@ -91148,28 +91277,14 @@
   "kind": "test",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Reading|4|18": {
-  "source_text": "R9. Can you go to the bank at ten on Saturday morning? Why? / 土曜日の午前10時に銀行へ行けますか。なぜですか。 [2 marks]",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "test",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Stage 1 · A1 stage test · Version B · Reading|4|19": {
-  "source_text": "________________________________________",
+  "source_text": "R9. It is Saturday. When can you next go to the bank, and until what time is it open on that day? / 今日は土曜日です。次に銀行へ行けるのはいつですか。その日は何時まで開いていますか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Reading|4|20": {
-  "source_text": "R10. What is not allowed, and what are you asked to do? / 禁止されていることは何ですか。何をするように言われていますか。 [2 marks]",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "test",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Stage 1 · A1 stage test · Version B · Reading|4|21": {
   "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
@@ -91177,6 +91292,20 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Reading|5|0": {
+  "source_text": "R10. What is not allowed, and what are you asked to do? / 禁止されていることは何ですか。何をするように言われていますか。 [2 marks]",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Version B · Reading|5|1": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Version B · Reading|6|0": {
   "source_text": "R1: F Tangga (1); C Tandas (1)",
   "target_spans": [
    "Tangga",
@@ -91186,24 +91315,24 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Reading|5|1": {
-  "source_text": "R2: B Dilarang makan dan minum (1); D Sila ambil nombor (1)",
+ "Stage 1 · A1 stage test · Version B · Reading|6|1": {
+  "source_text": "R2: B Dilarang makan dan minum (1); E TOLAK (1)",
   "target_spans": [
    "Dilarang makan dan minum",
-   "Sila ambil nombor"
+   "TOLAK"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Reading|5|2": {
+ "Stage 1 · A1 stage test · Version B · Reading|6|2": {
   "source_text": "R3: RM4.50 (3 × RM1.50) (2; 1 if the working is right but the total is wrong)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Reading|5|3": {
+ "Stage 1 · A1 stage test · Version B · Reading|6|3": {
   "source_text": "R4: mangga (RM3.00) (1); yes, RM1.20 against RM1.50 (1)",
   "target_spans": [
    "mangga"
@@ -91212,53 +91341,56 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Reading|5|4": {
+ "Stage 1 · A1 stage test · Version B · Reading|6|4": {
   "source_text": "R5: RM8.00 (RM20.00 − (2 × RM3.00 + 5 × RM1.20) = RM20.00 − RM12.00) (2; 1 if the working is right but the answer is wrong)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Reading|5|5": {
+ "Stage 1 · A1 stage test · Version B · Reading|6|5": {
   "source_text": "R6: Friday at seven in the evening (1); at Mei Ling's home in Bangsar, behind the school (1)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Reading|5|6": {
+ "Stage 1 · A1 stage test · Version B · Reading|6|6": {
   "source_text": "R7: about ten minutes by taxi (1); two bottles of water (1)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Reading|5|7": {
-  "source_text": "R8: Mei Ling (1); in the afternoon (Selamat petang) (1)",
+ "Stage 1 · A1 stage test · Version B · Reading|6|7": {
+  "source_text": "R8: in the afternoon (Selamat petang) (1); the Gawai festival (Selamat Hari Gawai) (1)",
   "target_spans": [
-   "Selamat petang"
+   "Selamat petang",
+   "Gawai",
+   "Selamat Hari Gawai"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Reading|5|8": {
-  "source_text": "R9: No (1); the bank is closed on Saturday and Sunday (Pada hari Sabtu dan Ahad, bank ditutup) (1)",
+ "Stage 1 · A1 stage test · Version B · Reading|6|8": {
+  "source_text": "R9: on Monday (ditutup hingga hari Isnin) (1); until four in the afternoon (hingga pukul empat petang) (1)",
   "target_spans": [
-   "Pada hari Sabtu dan Ahad, bank ditutup"
+   "ditutup hingga hari Isnin",
+   "hingga pukul empat petang"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Reading|5|9": {
+ "Stage 1 · A1 stage test · Version B · Reading|6|9": {
   "source_text": "R10: smoking (1); wait here (1)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Version B · Reading|5|10": {
+ "Stage 1 · A1 stage test · Version B · Reading|6|10": {
   "source_text": "Section total: 20 marks. The pass mark and the item map are on the administration sheet.",
   "target_spans": [],
   "mention_spans": [],
@@ -91283,17 +91415,17 @@
   "exclusion": null
  },
  "test:ms-stage1-test-b-reading-02|prompt": {
-  "source_text": "R2. You want to have a drink here. Which sign says you may not? Which sign tells you to take a number? / ここで飲み物を飲みたいです。それができないという掲示はどれですか。番号札を取るように言っている掲示はどれですか。 [2 marks]",
+  "source_text": "R2. You want to have a drink here. Which sign says you may not? Which sign is on a door that you push? / ここで飲み物を飲みたいです。それができないという掲示はどれですか。押して開けるドアの表示はどれですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-stage1-test-b-reading-02|answer_key": {
-  "source_text": "B Dilarang makan dan minum (1); D Sila ambil nombor (1)",
+  "source_text": "B Dilarang makan dan minum (1); E TOLAK (1)",
   "target_spans": [
    "Dilarang makan dan minum",
-   "Sila ambil nombor"
+   "TOLAK"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -91372,32 +91504,35 @@
   "exclusion": null
  },
  "test:ms-stage1-test-b-reading-08|prompt": {
-  "source_text": "R8. Who wrote the message, and at what time of day? / 誰がメッセージを書きましたか。一日のいつごろですか。 [2 marks]",
+  "source_text": "R8. At what time of day was the message written? Which festival does the greeting mention? / メッセージは一日のいつごろ書かれましたか。挨拶はどのお祭りについてですか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-stage1-test-b-reading-08|answer_key": {
-  "source_text": "Mei Ling (1); in the afternoon (Selamat petang) (1)",
+  "source_text": "in the afternoon (Selamat petang) (1); the Gawai festival (Selamat Hari Gawai) (1)",
   "target_spans": [
-   "Selamat petang"
+   "Selamat petang",
+   "Gawai",
+   "Selamat Hari Gawai"
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-stage1-test-b-reading-09|prompt": {
-  "source_text": "R9. Can you go to the bank at ten on Saturday morning? Why? / 土曜日の午前10時に銀行へ行けますか。なぜですか。 [2 marks]",
+  "source_text": "R9. It is Saturday. When can you next go to the bank, and until what time is it open on that day? / 今日は土曜日です。次に銀行へ行けるのはいつですか。その日は何時まで開いていますか。 [2 marks]",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-stage1-test-b-reading-09|answer_key": {
-  "source_text": "No (1); the bank is closed on Saturday and Sunday (Pada hari Sabtu dan Ahad, bank ditutup) (1)",
+  "source_text": "on Monday (ditutup hingga hari Isnin) (1); until four in the afternoon (hingga pukul empat petang) (1)",
   "target_spans": [
-   "Pada hari Sabtu dan Ahad, bank ditutup"
+   "ditutup hingga hari Isnin",
+   "hingga pukul empat petang"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -91788,7 +91923,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Speaking|3|2": {
-  "source_text": "About 7 minutes for each learner, 20 marks: the self-introduction (8) and two role-play cards (6 each). The examiner chooses card 1 or 2, and card 3 or 4. / 一人約7分、20点：自己紹介（8点）とロールカード二枚（各6点）。試験官がカード1か2、カード3か4を選びます。",
+  "source_text": "About 7 minutes for each learner, 20 marks: the self-introduction (8) and two role-play cards (6 each). Card 2 (comparing) is always used; the examiner chooses the other card from cards 1, 3 and 4. / 一人約7分、20点：自己紹介（8点）とロールカード二枚（各6点）。カード2（比べる）は必ず使い、もう一枚は試験官がカード1・3・4から選びます。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -91859,7 +91994,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Version B · Speaking|3|11": {
-  "source_text": "■ Card 2 · Buying a shirt · カード2・シャツを買う",
+  "source_text": "■ Card 2 · Buying a shirt · カード2・シャツを買う (always used · 必ず使う)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -92007,7 +92142,7 @@
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Version B · Speaking|5|5": {
-  "source_text": "S2.2 rubric (6): Task 3: Berapa harga baju ini sehelai? 1; Baju ini terlalu besar. Ada yang lebih kecil? 1; Saya mahu dua helai. 1. Language 2: terlalu, lebih and the counter helai right 2, partly 1. Change of plan 1: answers in a sentence (Baik, saya mahu yang merah. or Tidak, terima kasih.). Model: as in the task lines.",
+  "source_text": "S2.2 rubric (6): Task 3: Berapa harga baju ini sehelai? 1; Baju ini terlalu besar. Ada yang lebih kecil? 1; Saya mahu dua helai. 1. Language 2: terlalu, lebih and the counter helai right 2, partly 1. Change of plan 1: answers in a sentence (Baik, saya mahu yang merah. or Tidak, terima kasih.). Model: as in the task lines. [Compulsory card: it is the chapter 6 check for production. The examiner always uses it and chooses the second card from cards 1, 3 and 4.]",
   "target_spans": [
    "Berapa harga baju ini sehelai?",
    "Baju ini terlalu besar. Ada yang lebih kecil?",
@@ -92054,7 +92189,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Speaking|5|9": {
+ "Stage 1 · A1 stage test · Version B · Speaking|6|0": {
   "source_text": "S2.4 rubric (6): Task 3: Surat ini ditulis oleh siapa? 1; Bungkusan sudah dihantar? 1; Bungkusan saya hantar petang ini. 1. Language 2: the di- verb with oleh, sudah / belum right 2, partly 1. Change of plan 1: says when he or she will go instead (Baik, saya akan hantar esok pagi.). Model: as in the task lines.",
   "target_spans": [
    "Surat ini ditulis oleh siapa?",
@@ -92070,7 +92205,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Version B · Speaking|6|0": {
+ "Stage 1 · A1 stage test · Version B · Speaking|6|1": {
   "source_text": "Section total: 20 marks. The pass mark and the item map are on the administration sheet.",
   "target_spans": [],
   "mention_spans": [],
@@ -92332,13 +92467,63 @@
   "exclusion": null
  },
  "Stage 1 · A1 stage test · Listening scripts (teacher)|3|13": {
-  "source_text": "■ Version A · Task 3 · At a food stall · 屋台で",
+  "source_text": "■ Version A · Task 3 · Choosing a stall · 屋台選び",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Listening scripts (teacher)|3|14": {
+  "source_text": "Two colleagues decide where to have lunch. / 二人の同僚が昼ごはんの場所を決めます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|3|15": {
+  "source_text": "Aini: Kita makan di Gerai Siti atau Gerai Kumar?",
+  "target_spans": [
+   "Kita makan di Gerai Siti atau Gerai Kumar?"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|3|16": {
+  "source_text": "Tanaka: Gerai Siti lebih dekat daripada Gerai Kumar.",
+  "target_spans": [
+   "Gerai Siti lebih dekat daripada Gerai Kumar."
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|3|17": {
+  "source_text": "Aini: Tetapi nasi lemak di Gerai Kumar paling sedap.",
+  "target_spans": [
+   "Tetapi nasi lemak di Gerai Kumar paling sedap."
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|3|18": {
+  "source_text": "Tanaka: Baik. Kita makan di Gerai Kumar.",
+  "target_spans": [
+   "Baik. Kita makan di Gerai Kumar."
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|3|19": {
+  "source_text": "■ Version A · Task 4 · At a food stall · 屋台で",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|3|20": {
   "source_text": "A man orders lunch at a gerai. / 男性が屋台で昼ごはんを注文します。",
   "target_spans": [
    "gerai"
@@ -92347,7 +92532,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|3|15": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|3|21": {
   "source_text": "Stall holder: Selamat tengah hari, encik. Mahu makan apa?",
   "target_spans": [
    "Selamat tengah hari, encik. Mahu makan apa?"
@@ -92356,7 +92541,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|3|16": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|3|22": {
   "source_text": "Kumar: Saya mahu dua keping roti canai dan sebiji telur.",
   "target_spans": [
    "Saya mahu dua keping roti canai dan sebiji telur."
@@ -92365,7 +92550,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|3|17": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|3|23": {
   "source_text": "Stall holder: Minum apa?",
   "target_spans": [
    "Minum apa?"
@@ -92374,7 +92559,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|3|18": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|3|24": {
   "source_text": "Kumar: Secawan teh tarik, kurang manis.",
   "target_spans": [
    "Secawan teh tarik, kurang manis."
@@ -92383,7 +92568,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|3|19": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|3|25": {
   "source_text": "Stall holder: Makan sini atau bungkus?",
   "target_spans": [
    "Makan sini atau bungkus?"
@@ -92392,7 +92577,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|3|20": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|3|26": {
   "source_text": "Kumar: Makan sini. Berapa harga semua?",
   "target_spans": [
    "Makan sini. Berapa harga semua?"
@@ -92401,7 +92586,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|3|21": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|3|27": {
   "source_text": "Stall holder: Roti canai satu ringgit lima puluh sen sekeping. Semua enam ringgit.",
   "target_spans": [
    "Roti canai satu ringgit lima puluh sen sekeping. Semua enam ringgit."
@@ -92410,7 +92595,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|3|22": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|0": {
   "source_text": "Kumar: Ini sepuluh ringgit.",
   "target_spans": [
    "Ini sepuluh ringgit."
@@ -92419,7 +92604,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|3|23": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|1": {
   "source_text": "Stall holder: Baki empat ringgit. Terima kasih!",
   "target_spans": [
    "Baki empat ringgit. Terima kasih!"
@@ -92428,14 +92613,14 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|3|24": {
-  "source_text": "■ Version A · Task 4 · Directions on the phone · 電話で道案内",
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|2": {
+  "source_text": "■ Version A · Task 5 · Directions on the phone · 電話で道案内",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|3|25": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|3": {
   "source_text": "Puan Aini phones Encik Tanaka, who is on his way to a café. / アイニさんが、カフェに向かう田中さんに電話します。",
   "target_spans": [
    "Puan",
@@ -92445,7 +92630,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|3|26": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|4": {
   "source_text": "Aini: Encik Tanaka, encik di mana sekarang?",
   "target_spans": [
    "Encik Tanaka, encik di mana sekarang?"
@@ -92454,7 +92639,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|0": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|5": {
   "source_text": "Tanaka: Saya di stesen. Kafe itu di mana?",
   "target_spans": [
    "Saya di stesen. Kafe itu di mana?"
@@ -92463,7 +92648,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|1": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|6": {
   "source_text": "Aini: Keluar dari stesen, jalan terus, kemudian belok kanan di lampu isyarat. Kafe di sebelah bank.",
   "target_spans": [
    "Keluar dari stesen, jalan terus, kemudian belok kanan di lampu isyarat. Kafe di sebelah bank."
@@ -92472,7 +92657,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|2": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|7": {
   "source_text": "Tanaka: Berapa jauh dari stesen?",
   "target_spans": [
    "Berapa jauh dari stesen?"
@@ -92481,7 +92666,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|3": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|8": {
   "source_text": "Aini: Dekat. Lebih kurang lima minit jalan kaki. Jumpa pukul tiga, ya!",
   "target_spans": [
    "Dekat. Lebih kurang lima minit jalan kaki. Jumpa pukul tiga, ya!"
@@ -92490,28 +92675,28 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|4": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|9": {
   "source_text": "■ Version B · バージョンB",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|5": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|10": {
   "source_text": "■ Version B · Task 1 · Two announcements · 二つのお知らせ",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|6": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|11": {
   "source_text": "You hear an announcement in a bookshop, then one in your office. / 本屋のお知らせと、事務所のお知らせを聞きます。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|7": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|12": {
   "source_text": "Shop announcement: Selamat malam. Kedai buku ini akan ditutup pada pukul sembilan setengah malam. Hari ini ada diskaun lima belas peratus untuk semua buku.",
   "target_spans": [
    "Selamat malam. Kedai buku ini akan ditutup pada pukul sembilan setengah malam. Hari ini ada diskaun lima belas peratus untuk semua buku."
@@ -92520,7 +92705,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|8": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|13": {
   "source_text": "Office announcement: Selamat petang, semua. Jamuan hari Jumaat mula pukul empat petang, bukan pukul lima. Jamuan di dapur di tingkat dua.",
   "target_spans": [
    "Selamat petang, semua. Jamuan hari Jumaat mula pukul empat petang, bukan pukul lima. Jamuan di dapur di tingkat dua."
@@ -92529,14 +92714,14 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|9": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|14": {
   "source_text": "■ Version B · Task 2 · Meeting a new neighbour · 新しい隣人に会う",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|10": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|15": {
   "source_text": "Encik Yamada meets a new neighbour in the lobby of his condo. / 山田さんがコンドミニアムのロビーで新しい隣人に会います。",
   "target_spans": [
    "Encik"
@@ -92545,7 +92730,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|11": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|16": {
   "source_text": "Yamada: Selamat petang. Nama saya Yamada. Siapa nama cik?",
   "target_spans": [
    "Selamat petang. Nama saya Yamada. Siapa nama cik?"
@@ -92554,7 +92739,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|12": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|17": {
   "source_text": "Devi: Nama saya Devi. Saya orang Malaysia. Asal saya dari Penang.",
   "target_spans": [
    "Nama saya Devi. Saya orang Malaysia. Asal saya dari Penang."
@@ -92563,7 +92748,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|13": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|18": {
   "source_text": "Yamada: Cik kerja di mana?",
   "target_spans": [
    "Cik kerja di mana?"
@@ -92572,7 +92757,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|14": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|19": {
   "source_text": "Devi: Saya guru. Saya kerja di sekolah di Petaling Jaya.",
   "target_spans": [
    "Saya guru. Saya kerja di sekolah di Petaling Jaya."
@@ -92581,7 +92766,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|15": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|20": {
   "source_text": "Yamada: Cik tinggal di kondo ini?",
   "target_spans": [
    "Cik tinggal di kondo ini?"
@@ -92590,7 +92775,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|16": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|21": {
   "source_text": "Devi: Ya, di tingkat lima. Hobi saya masak. Encik pula?",
   "target_spans": [
    "Ya, di tingkat lima. Hobi saya masak. Encik pula?"
@@ -92599,7 +92784,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|17": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|22": {
   "source_text": "Yamada: Hobi saya golf. Jumpa lagi, Cik Devi!",
   "target_spans": [
    "Hobi saya golf. Jumpa lagi, Cik Devi!"
@@ -92608,14 +92793,64 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|18": {
-  "source_text": "■ Version B · Task 3 · At a food stall · 屋台で",
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|23": {
+  "source_text": "■ Version B · Task 3 · Choosing how to go · 行き方選び",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|19": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|4|24": {
+  "source_text": "Two colleagues decide how to get to the bank. / 二人の同僚が銀行への行き方を決めます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|0": {
+  "source_text": "Mei Ling: Kita pergi ke bank naik bas, naik teksi atau jalan kaki?",
+  "target_spans": [
+   "Kita pergi ke bank naik bas, naik teksi atau jalan kaki?"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|1": {
+  "source_text": "Yamada: Teksi lebih cepat daripada bas.",
+  "target_spans": [
+   "Teksi lebih cepat daripada bas."
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|2": {
+  "source_text": "Mei Ling: Tetapi jalan kaki paling murah. Bank dekat.",
+  "target_spans": [
+   "Tetapi jalan kaki paling murah. Bank dekat."
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|3": {
+  "source_text": "Yamada: Baik. Kita jalan kaki.",
+  "target_spans": [
+   "Baik. Kita jalan kaki."
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|4": {
+  "source_text": "■ Version B · Task 4 · At a food stall · 屋台で",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|5": {
   "source_text": "A woman orders breakfast at a gerai. / 女性が屋台で朝ごはんを注文します。",
   "target_spans": [
    "gerai"
@@ -92624,7 +92859,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|20": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|6": {
   "source_text": "Stall holder: Selamat pagi, puan. Mahu makan apa?",
   "target_spans": [
    "Selamat pagi, puan. Mahu makan apa?"
@@ -92633,7 +92868,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|21": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|7": {
   "source_text": "Nora: Saya mahu sepinggan nasi goreng dan dua keping pisang goreng.",
   "target_spans": [
    "Saya mahu sepinggan nasi goreng dan dua keping pisang goreng."
@@ -92642,7 +92877,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|22": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|8": {
   "source_text": "Stall holder: Minum apa?",
   "target_spans": [
    "Minum apa?"
@@ -92651,7 +92886,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|23": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|9": {
   "source_text": "Nora: Secawan kopi, ais sedikit.",
   "target_spans": [
    "Secawan kopi, ais sedikit."
@@ -92660,7 +92895,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|24": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|10": {
   "source_text": "Stall holder: Makan sini atau bungkus?",
   "target_spans": [
    "Makan sini atau bungkus?"
@@ -92669,7 +92904,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|4|25": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|11": {
   "source_text": "Nora: Bungkus. Berapa harga semua?",
   "target_spans": [
    "Bungkus. Berapa harga semua?"
@@ -92678,7 +92913,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|5|0": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|12": {
   "source_text": "Stall holder: Nasi goreng lima ringgit lima puluh sen. Semua lapan ringgit lima puluh sen.",
   "target_spans": [
    "Nasi goreng lima ringgit lima puluh sen. Semua lapan ringgit lima puluh sen."
@@ -92687,7 +92922,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|5|1": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|13": {
   "source_text": "Nora: Ini sepuluh ringgit.",
   "target_spans": [
    "Ini sepuluh ringgit."
@@ -92696,7 +92931,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|5|2": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|14": {
   "source_text": "Stall holder: Baki satu ringgit lima puluh sen. Terima kasih!",
   "target_spans": [
    "Baki satu ringgit lima puluh sen. Terima kasih!"
@@ -92705,14 +92940,14 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|5|3": {
-  "source_text": "■ Version B · Task 4 · Directions on the phone · 電話で道案内",
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|15": {
+  "source_text": "■ Version B · Task 5 · Directions on the phone · 電話で道案内",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|5|4": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|16": {
   "source_text": "Mei Ling phones Encik Yamada, who is on his way to a kedai mamak. / メイリンさんが、ママックの店に向かう山田さんに電話します。",
   "target_spans": [
    "Encik",
@@ -92722,7 +92957,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|5|5": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|17": {
   "source_text": "Mei Ling: Encik Yamada, encik di mana sekarang?",
   "target_spans": [
    "Encik Yamada, encik di mana sekarang?"
@@ -92731,7 +92966,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|5|6": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|18": {
   "source_text": "Yamada: Saya di pejabat pos. Kedai mamak itu di mana?",
   "target_spans": [
    "Saya di pejabat pos. Kedai mamak itu di mana?"
@@ -92740,7 +92975,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|5|7": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|19": {
   "source_text": "Mei Ling: Dari pejabat pos, jalan terus, kemudian belok kiri di simpang kedua. Kedai mamak di antara bank dan klinik.",
   "target_spans": [
    "Dari pejabat pos, jalan terus, kemudian belok kiri di simpang kedua. Kedai mamak di antara bank dan klinik."
@@ -92749,7 +92984,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|5|8": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|20": {
   "source_text": "Yamada: Berapa jauh dari sini?",
   "target_spans": [
    "Berapa jauh dari sini?"
@@ -92758,7 +92993,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Listening scripts (teacher)|5|9": {
+ "Stage 1 · A1 stage test · Listening scripts (teacher)|5|21": {
   "source_text": "Mei Ling: Lebih kurang tiga ratus meter. Jumpa pukul satu, ya!",
   "target_spans": [
    "Lebih kurang tiga ratus meter. Jumpa pukul satu, ya!"
@@ -92817,98 +93052,108 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|3|1": {
+  "source_text": "Chapter 6 (comparing) is compulsory in both versions: one listening item on lebih … daripada and paling (L5), and speaking card 2, which is always used. / 第6章（比べる）はどちらのバージョンでも必須です：聞く問題の1問（L5）と、必ず使うスピーキングのカード2。",
+  "target_spans": [
+   "lebih … daripada",
+   "paling"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|3|2": {
   "source_text": "Two parallel versions, A and B, with the same sections, tasks, marks and chapter spread. Use A for the main sitting; use B for a second group, a re-sit or the next course. Do not give both versions to one learner in the same week. / 同じ構成のバージョンAとBがあります。本試験はA、別のグループ・再試験・次の講座はBを使います。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|3|2": {
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|3|3": {
   "source_text": "The test is summative but kept low-stakes in spirit (charter rule 9): the result tells the learner which can-do goals to revisit. A pass means the learner has met the Stage 1 goals at A1 as this course defines them; it is not an official CEFR certificate. / 合格は、この講座の定める A1 の第1段階の目標を達成したという意味で、公式の CEFR 証明ではありません。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|3|3": {
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|3|4": {
   "source_text": "■ Timing · 時間",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|3|4": {
-  "source_text": "Written paper, one 45-minute block: listening 12 minutes, reading 15, writing 18. Collect each paper before the next one.",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "plan",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|3|5": {
-  "source_text": "Speaking: about 7 minutes for each learner, one at a time or in pairs, in a second block (six learners fill about 45 minutes). The others can do the stage review self-check or Kata-Kata review meanwhile.",
+  "source_text": "The test takes two extra 45-minute blocks (Sam, 12 Nov 2026), which brings the Stage 1 plan to 76 blocks (the charter gives the hours). / テストには45分のブロックが2つ加わり（Sam、2026年11月12日）、第1段階は全76ブロックになります。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|3|6": {
-  "source_text": "Do the stage review block before the test, in an earlier class.",
+  "source_text": "Block 1, the written papers: listening 12 minutes, reading 15, writing 18 (45 minutes in all). Collect each paper before the next one.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|3|7": {
-  "source_text": "■ Materials · 準備するもの",
+  "source_text": "Block 2, speaking: about 7 minutes for each learner, one at a time or in pairs (six learners fill about 45 minutes). The others can do the stage review self-check or Kata-Kata review meanwhile.",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "heading",
+  "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|3|8": {
-  "source_text": "For each learner: the listening, reading and writing papers of the version you use (without the teacher keys).",
+  "source_text": "Do the stage review block before the test, in an earlier class.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|3|9": {
-  "source_text": "For the speaking test: the speaking sheet, with the four role-play cards cut apart; the teacher key with the examiner's lines and the rubric.",
+  "source_text": "■ Materials · 準備するもの",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "plan",
+  "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|3|10": {
-  "source_text": "For the teacher: the listening scripts sheet, the four teacher keys, this sheet and one result sheet per learner. No audio is needed: the teacher reads the scripts.",
+  "source_text": "For each learner: the listening, reading and writing papers of the version you use (without the teacher keys).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|3|11": {
-  "source_text": "■ Running the test · 実施の手順",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "heading",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|3|12": {
-  "source_text": "Listening: read the instructions, give one minute to read the questions, then read each text twice at a natural speed. Learners answer in English or Japanese, or in Malay where the question asks for it.",
+  "source_text": "For the speaking test: the speaking sheet, with the four role-play cards cut apart; the teacher key with the examiner's lines and the rubric.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|3|13": {
-  "source_text": "Reading and writing: learners work alone without notes or dictionaries. Answer questions about the instructions only.",
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|3|12": {
+  "source_text": "For the teacher: the listening scripts sheet, the four teacher keys, this sheet and one result sheet per learner. No audio is needed: the teacher reads the scripts.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|0": {
-  "source_text": "Speaking: greet the learner first (Selamat pagi. Apa khabar?; not marked). Part 1, the self-introduction, then the two follow-up questions. Part 2: choose card 1 or 2, then card 3 or 4; give 30 seconds to read the card; play your part from the key and bring in the change of plan halfway. Mark with the rubric straight after each part.",
+  "source_text": "Listening: read the instructions, give one minute to read the questions, then read each text twice at a natural speed. Learners answer in English or Japanese, or in Malay where the question asks for it.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|4|1": {
+  "source_text": "Reading and writing: learners work alone without notes or dictionaries. Answer questions about the instructions only.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|4|2": {
+  "source_text": "Speaking: greet the learner first (Selamat pagi. Apa khabar?; not marked). Part 1, the self-introduction, then the two follow-up questions. Part 2: always card 2 (comparing), then one of cards 1, 3 and 4 (change it from learner to learner so that the cards cannot be learnt by heart); give 30 seconds to read the card; play your part from the key and bring in the change of plan halfway. Mark with the rubric straight after each part.",
   "target_spans": [
    "Selamat pagi. Apa khabar?"
   ],
@@ -92916,637 +93161,637 @@
   "kind": "plan",
   "exclusion": null
  },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|4|1": {
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|4|3": {
   "source_text": "■ Scoring and pass mark · 採点と合格基準",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|4|2": {
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|4|4": {
   "source_text": "Four sections of 20 marks: 80 in all. Listening and reading: one mark for each fact in the key. Writing and speaking: the rubric in each key (content, language, accuracy or interaction).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|4|3": {
-  "source_text": "Pass: 48 or more out of 80 (60 per cent), and at least 10 out of 20 in every section. / 合格：80点中48点以上（60％）、かつ各セクション20点中10点以上。",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "plan",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|4|4": {
-  "source_text": "A pass is recorded as \"Malay A1 · Stage 1 complete\" (CEFR A1). \"Not yet\": go back to the chapters of the items that were missed (item map below), then sit the other version.",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "plan",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|5": {
-  "source_text": "Accept any natural answer with the same meaning. In listening and reading, a spelling slip that does not change the meaning loses no mark. No half marks.",
+  "source_text": "Pass: 48 or more out of 80 (60 per cent), and at least 10 out of 20 in every section. This is Sam's decision of 12 Nov 2026; it is not taken from a JF, Irodori or CEFR document. / 合格：80点中48点以上（60％）、かつ各セクション20点中10点以上。これはSamの決定（2026年11月12日）で、JF・いろどり・CEFRの基準ではありません。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|6": {
-  "source_text": "■ Item map · Version A · 問題と章の対応",
+  "source_text": "A pass is recorded as \"Malay A1 · Stage 1 complete\" (CEFR A1). \"Not yet\": go back to the chapters of the items that were missed (item map below), then sit the other version.",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "heading",
+  "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|7": {
-  "source_text": "■ Version A: item, marks, chapters whose can-do goals it tests",
+  "source_text": "Accept any natural answer with the same meaning. In listening and reading, a spelling slip that does not change the meaning loses no mark. No half marks.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|8": {
-  "source_text": "A-L1 · 2 · ch 3, 4, 9",
+  "source_text": "■ Item map · Version A · 問題と章の対応",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "plan",
+  "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|9": {
-  "source_text": "A-L2 · 2 · ch 4, 7",
+  "source_text": "■ Version A: item, marks, chapters whose can-do goals it tests",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|10": {
-  "source_text": "A-L3 · 2 · ch 1, 2",
+  "source_text": "A-L1 · 2 · ch 3, 4, 9",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|11": {
-  "source_text": "A-L4 · 2 · ch 2",
+  "source_text": "A-L2 · 2 · ch 4, 7",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|12": {
-  "source_text": "A-L5 · 2 · ch 1, 2",
+  "source_text": "A-L3 · 2 · ch 1, 2",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|13": {
-  "source_text": "A-L6 · 2 · ch 8",
+  "source_text": "A-L4 · 2 · ch 2",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|14": {
-  "source_text": "A-L7 · 2 · ch 5, 8",
+  "source_text": "A-L5 · 2 · ch 6 · compulsory (chapter 6)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|15": {
-  "source_text": "A-L8 · 2 · ch 3",
+  "source_text": "A-L6 · 2 · ch 8",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|16": {
-  "source_text": "A-L9 · 2 · ch 7",
+  "source_text": "A-L7 · 2 · ch 5, 8",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|17": {
-  "source_text": "A-L10 · 2 · ch 4, 7",
+  "source_text": "A-L8 · 2 · ch 3",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|4|18": {
-  "source_text": "A-R1 · 2 · ch 7",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "plan",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|4|19": {
-  "source_text": "A-R2 · 2 · ch 9",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "plan",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|4|20": {
-  "source_text": "A-R3 · 2 · ch 3, 8",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "plan",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|4|21": {
-  "source_text": "A-R4 · 2 · ch 6",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "plan",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|4|22": {
-  "source_text": "A-R5 · 2 · ch 3",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "plan",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Stage 1 · A1 stage test · Administration sheet (teacher)|4|23": {
-  "source_text": "A-R6 · 2 · ch 4, 7",
+  "source_text": "A-L9 · 2 · ch 7",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|0": {
-  "source_text": "A-R7 · 2 · ch 3, 7",
+  "source_text": "A-L10 · 2 · ch 4, 7",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|1": {
-  "source_text": "A-R8 · 2 · ch 1",
+  "source_text": "A-R1 · 2 · ch 7",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|2": {
-  "source_text": "A-R9 · 2 · ch 4, 9",
+  "source_text": "A-R2 · 2 · ch 9",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|3": {
-  "source_text": "A-R10 · 2 · ch 9",
+  "source_text": "A-R3 · 2 · ch 3, 8",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|4": {
-  "source_text": "A-W1 · 10 · ch 2, 3, 4",
+  "source_text": "A-R4 · 2 · ch 6",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|5": {
-  "source_text": "A-W2 · 10 · ch 1, 4, 7, 8",
+  "source_text": "A-R5 · 2 · ch 3",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|6": {
-  "source_text": "A-S1 · 8 · ch 1, 2, 4, 5",
+  "source_text": "A-R6 · 2 · ch 4, 7",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|7": {
-  "source_text": "A-S2.1 · 6 · ch 3, 5, 8",
+  "source_text": "A-R7 · 2 · ch 3, 7",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|8": {
-  "source_text": "A-S2.2 · 6 · ch 3, 6, 8",
+  "source_text": "A-R8 · 2 · ch 1, 9",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|9": {
-  "source_text": "A-S2.3 · 6 · ch 1, 3, 7",
+  "source_text": "A-R9 · 2 · ch 4, 9",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|10": {
-  "source_text": "A-S2.4 · 6 · ch 4, 5, 9",
+  "source_text": "A-R10 · 2 · ch 9",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|11": {
-  "source_text": "■ Version A: chapter, its can-do goal, the items that test it",
+  "source_text": "A-W1 · 10 · ch 2, 3, 4",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|12": {
-  "source_text": "Ch 1 · Greet by time of day, use titles, ask after someone, take leave: A-L3, A-L5, A-R8, A-W2, A-S1, A-S2.3",
+  "source_text": "A-W2 · 10 · ch 1, 4, 7, 8",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|13": {
-  "source_text": "Ch 2 · Introduce yourself (name, origin, work, home, hobby) and ask the same of others: A-L3, A-L4, A-L5, A-W1, A-S1",
+  "source_text": "A-S1 · 8 · ch 1, 2, 4, 5",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|14": {
-  "source_text": "Ch 3 · Ask and pay a price, check change, give age and phone number, say which one in a sequence: A-L1, A-L8, A-R3, A-R5, A-R7, A-W1, A-S2.1, A-S2.2, A-S2.3",
+  "source_text": "A-S2.1 · 6 · ch 3, 5, 8",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|15": {
-  "source_text": "Ch 4 · Tell the time and day, describe a routine, say what is done, not yet done or under way: A-L1, A-L2, A-L10, A-R6, A-R9, A-W1, A-W2, A-S1, A-S2.4",
+  "source_text": "A-S2.2 · 6 · ch 3, 6, 8 · compulsory (chapter 6)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|16": {
-  "source_text": "Ch 5 · Describe food, objects and feelings, and choose between items: A-L7, A-S1, A-S2.1, A-S2.4",
+  "source_text": "A-S2.3 · 6 · ch 1, 3, 7",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|17": {
-  "source_text": "Ch 6 · Compare two options, say two things are equal, pick the best of three: A-R4, A-S2.2",
+  "source_text": "A-S2.4 · 6 · ch 4, 5, 9",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|18": {
-  "source_text": "Ch 7 · Ask where something is, follow and give a route, name transport: A-L2, A-L9, A-L10, A-R1, A-R6, A-R7, A-W2, A-S2.3",
+  "source_text": "■ Version A: chapter, its can-do goal, the items that test it",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|19": {
-  "source_text": "Ch 8 · Order and count things with the right classifier: A-L6, A-L7, A-R3, A-W2, A-S2.1, A-S2.2",
+  "source_text": "Ch 1 · Greet by time of day, use titles, ask after someone, take leave: A-L3, A-R8, A-W2, A-S1, A-S2.3",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|20": {
-  "source_text": "Ch 9 · Read signs and notices, say what was done and by whom: A-L1, A-R2, A-R9, A-R10, A-S2.4",
+  "source_text": "Ch 2 · Introduce yourself (name, origin, work, home, hobby) and ask the same of others: A-L3, A-L4, A-W1, A-S1",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|21": {
-  "source_text": "■ Item map · Version B · 問題と章の対応",
+  "source_text": "Ch 3 · Ask and pay a price, check change, give age and phone number, say which one in a sequence: A-L1, A-L8, A-R3, A-R5, A-R7, A-W1, A-S2.1, A-S2.2, A-S2.3",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "heading",
+  "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|22": {
-  "source_text": "■ Version B: item, marks, chapters whose can-do goals it tests",
+  "source_text": "Ch 4 · Tell the time and day, describe a routine, say what is done, not yet done or under way: A-L1, A-L2, A-L10, A-R6, A-R9, A-W1, A-W2, A-S1, A-S2.4",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|5|23": {
-  "source_text": "B-L1 · 2 · ch 3, 4, 9",
+  "source_text": "Ch 5 · Describe food, objects and feelings, and choose between items: A-L7, A-S1, A-S2.1, A-S2.4",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|5|24": {
+  "source_text": "Ch 6 · Compare two options, say two things are equal, pick the best of three: A-L5, A-R4, A-S2.2",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|5|25": {
+  "source_text": "Ch 7 · Ask where something is, follow and give a route, name transport: A-L2, A-L9, A-L10, A-R1, A-R6, A-R7, A-W2, A-S2.3",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|0": {
-  "source_text": "B-L2 · 2 · ch 4, 7",
+  "source_text": "Ch 8 · Order and count things with the right classifier: A-L6, A-L7, A-R3, A-W2, A-S2.1, A-S2.2",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|1": {
-  "source_text": "B-L3 · 2 · ch 1, 2",
+  "source_text": "Ch 9 · Read signs and notices, say what was done and by whom: A-L1, A-R2, A-R8, A-R9, A-R10, A-S2.4",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|2": {
-  "source_text": "B-L4 · 2 · ch 2",
+  "source_text": "■ Item map · Version B · 問題と章の対応",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "plan",
+  "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|3": {
-  "source_text": "B-L5 · 2 · ch 1, 2",
+  "source_text": "■ Version B: item, marks, chapters whose can-do goals it tests",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|4": {
-  "source_text": "B-L6 · 2 · ch 8",
+  "source_text": "B-L1 · 2 · ch 3, 4, 9",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|5": {
-  "source_text": "B-L7 · 2 · ch 5, 8",
+  "source_text": "B-L2 · 2 · ch 4, 7",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|6": {
-  "source_text": "B-L8 · 2 · ch 3",
+  "source_text": "B-L3 · 2 · ch 1, 2",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|7": {
-  "source_text": "B-L9 · 2 · ch 3, 7",
+  "source_text": "B-L4 · 2 · ch 2",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|8": {
-  "source_text": "B-L10 · 2 · ch 3, 7",
+  "source_text": "B-L5 · 2 · ch 6 · compulsory (chapter 6)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|9": {
-  "source_text": "B-R1 · 2 · ch 7",
+  "source_text": "B-L6 · 2 · ch 8",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|10": {
-  "source_text": "B-R2 · 2 · ch 9",
+  "source_text": "B-L7 · 2 · ch 5, 8",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|11": {
-  "source_text": "B-R3 · 2 · ch 3, 8",
+  "source_text": "B-L8 · 2 · ch 3",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|12": {
-  "source_text": "B-R4 · 2 · ch 6",
+  "source_text": "B-L9 · 2 · ch 3, 7",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|13": {
-  "source_text": "B-R5 · 2 · ch 3, 8",
+  "source_text": "B-L10 · 2 · ch 3, 7",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|14": {
-  "source_text": "B-R6 · 2 · ch 4, 7",
+  "source_text": "B-R1 · 2 · ch 7",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|15": {
-  "source_text": "B-R7 · 2 · ch 7, 8",
+  "source_text": "B-R2 · 2 · ch 9",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|16": {
-  "source_text": "B-R8 · 2 · ch 1",
+  "source_text": "B-R3 · 2 · ch 3, 8",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|17": {
-  "source_text": "B-R9 · 2 · ch 4, 9",
+  "source_text": "B-R4 · 2 · ch 6",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|18": {
-  "source_text": "B-R10 · 2 · ch 9",
+  "source_text": "B-R5 · 2 · ch 3, 8",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|19": {
-  "source_text": "B-W1 · 10 · ch 2, 3, 4",
+  "source_text": "B-R6 · 2 · ch 4, 7",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|20": {
-  "source_text": "B-W2 · 10 · ch 1, 4, 8, 9",
+  "source_text": "B-R7 · 2 · ch 7, 8",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|21": {
-  "source_text": "B-S1 · 8 · ch 1, 2, 4, 5",
+  "source_text": "B-R8 · 2 · ch 1, 9",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|22": {
-  "source_text": "B-S2.1 · 6 · ch 3, 5, 8",
+  "source_text": "B-R9 · 2 · ch 4, 9",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|23": {
-  "source_text": "B-S2.2 · 6 · ch 3, 5, 6, 8",
+  "source_text": "B-R10 · 2 · ch 9",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|24": {
-  "source_text": "B-S2.3 · 6 · ch 4, 7",
+  "source_text": "B-W1 · 10 · ch 2, 3, 4",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|25": {
-  "source_text": "B-S2.4 · 6 · ch 4, 9",
+  "source_text": "B-W2 · 10 · ch 1, 4, 8, 9",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|26": {
-  "source_text": "■ Version B: chapter, its can-do goal, the items that test it",
+  "source_text": "B-S1 · 8 · ch 1, 2, 4, 5",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|27": {
-  "source_text": "Ch 1 · Greet by time of day, use titles, ask after someone, take leave: B-L3, B-L5, B-R8, B-W2, B-S1",
+  "source_text": "B-S2.1 · 6 · ch 3, 5, 8",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|6|28": {
-  "source_text": "Ch 2 · Introduce yourself (name, origin, work, home, hobby) and ask the same of others: B-L3, B-L4, B-L5, B-W1, B-S1",
+  "source_text": "B-S2.2 · 6 · ch 3, 5, 6, 8 · compulsory (chapter 6)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|6|29": {
+  "source_text": "B-S2.3 · 6 · ch 4, 7",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|0": {
-  "source_text": "Ch 3 · Ask and pay a price, check change, give age and phone number, say which one in a sequence: B-L1, B-L8, B-L9, B-L10, B-R3, B-R5, B-W1, B-S2.1, B-S2.2",
+  "source_text": "B-S2.4 · 6 · ch 4, 9",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|1": {
-  "source_text": "Ch 4 · Tell the time and day, describe a routine, say what is done, not yet done or under way: B-L1, B-L2, B-R6, B-R9, B-W1, B-W2, B-S1, B-S2.3, B-S2.4",
+  "source_text": "■ Version B: chapter, its can-do goal, the items that test it",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|2": {
-  "source_text": "Ch 5 · Describe food, objects and feelings, and choose between items: B-L7, B-S1, B-S2.1, B-S2.2",
+  "source_text": "Ch 1 · Greet by time of day, use titles, ask after someone, take leave: B-L3, B-R8, B-W2, B-S1",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|3": {
-  "source_text": "Ch 6 · Compare two options, say two things are equal, pick the best of three: B-R4, B-S2.2",
+  "source_text": "Ch 2 · Introduce yourself (name, origin, work, home, hobby) and ask the same of others: B-L3, B-L4, B-W1, B-S1",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|4": {
-  "source_text": "Ch 7 · Ask where something is, follow and give a route, name transport: B-L2, B-L9, B-L10, B-R1, B-R6, B-R7, B-S2.3",
+  "source_text": "Ch 3 · Ask and pay a price, check change, give age and phone number, say which one in a sequence: B-L1, B-L8, B-L9, B-L10, B-R3, B-R5, B-W1, B-S2.1, B-S2.2",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|5": {
-  "source_text": "Ch 8 · Order and count things with the right classifier: B-L6, B-L7, B-R3, B-R5, B-R7, B-W2, B-S2.1, B-S2.2",
+  "source_text": "Ch 4 · Tell the time and day, describe a routine, say what is done, not yet done or under way: B-L1, B-L2, B-R6, B-R9, B-W1, B-W2, B-S1, B-S2.3, B-S2.4",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|6": {
-  "source_text": "Ch 9 · Read signs and notices, say what was done and by whom: B-L1, B-R2, B-R9, B-R10, B-W2, B-S2.4",
+  "source_text": "Ch 5 · Describe food, objects and feelings, and choose between items: B-L7, B-S1, B-S2.1, B-S2.2",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|7": {
-  "source_text": "■ After the test · テストのあと",
+  "source_text": "Ch 6 · Compare two options, say two things are equal, pick the best of three: B-L5, B-R4, B-S2.2",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "heading",
+  "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|8": {
-  "source_text": "Go over the answers in the next class. Errors return as practice, not as red crosses (charter rule 9).",
+  "source_text": "Ch 7 · Ask where something is, follow and give a route, name transport: B-L2, B-L9, B-L10, B-R1, B-R6, B-R7, B-S2.3",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|9": {
-  "source_text": "Fill in a result sheet for each learner on paper. Cikgu Sensai keeps no learner records.",
+  "source_text": "Ch 8 · Order and count things with the right classifier: B-L6, B-L7, B-R3, B-R5, B-R7, B-W2, B-S2.1, B-S2.2",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|10": {
-  "source_text": "■ Result sheet",
+  "source_text": "Ch 9 · Read signs and notices, say what was done and by whom: B-L1, B-R2, B-R8, B-R9, B-R10, B-W2, B-S2.4",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|11": {
-  "source_text": "Name: ______________________   Version: A / B   Date: __________",
+  "source_text": "■ After the test · テストのあと",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "plan",
+  "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|12": {
-  "source_text": "Listening __ / 20   Reading __ / 20   Writing __ / 20   Speaking __ / 20",
+  "source_text": "Go over the answers in the next class. Errors return as practice, not as red crosses (charter rule 9).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|13": {
-  "source_text": "Total __ / 80   ☐ Malay A1 · Stage 1 complete (pass)   ☐ Not yet",
+  "source_text": "Fill in a result sheet for each learner on paper. Cikgu Sensai keeps no learner records.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|7|14": {
+  "source_text": "■ Result sheet",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|7|15": {
+  "source_text": "Name: ______________________   Version: A / B   Date: __________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|7|16": {
+  "source_text": "Listening __ / 20   Reading __ / 20   Writing __ / 20   Speaking __ / 20",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|7|17": {
+  "source_text": "Total __ / 80   ☐ Malay A1 · Stage 1 complete (pass)   ☐ Not yet",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · A1 stage test · Administration sheet (teacher)|7|18": {
   "source_text": "Chapters to revisit: ______________________",
   "target_spans": [],
   "mention_spans": [],
@@ -93554,7 +93799,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · A1 stage test · Administration sheet (teacher)|8|0": {
-  "source_text": "The pass mark (60 per cent overall, half of each section) is a proposal for Sam; it is not taken from a JF or CEFR document. The item maps are generated from the item data, so they always match the papers.",
+  "source_text": "The pass mark (60 per cent overall, half of each section) is Sam's decision of 12 Nov 2026; it is not taken from a JF or CEFR document. The item maps are generated from the item data, so they always match the papers.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",

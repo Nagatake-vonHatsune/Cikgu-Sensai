@@ -51,7 +51,7 @@ tests. Guided practice has not been relabelled as testing. When authored, each
 item must provide:
 
 - `id`, `chapter_id`, `component_id` referencing its Test component;
-- `sub_type`: words, grammar, listening, reading or speaking; writing for the A1 stage test only (step 5h);
+- `sub_type`: words, grammar, listening, reading or speaking; writing for the A1 stage test only (step 5h; Sam accepted it on 12 Nov 2026 and it is a charter decision);
 - `grammar_points` and `word_ids`: arrays of IDs actually tested, not incidental
   prompt vocabulary; at least one array must be non-empty;
 - `prompt`, `answer_key`, `review_status`.

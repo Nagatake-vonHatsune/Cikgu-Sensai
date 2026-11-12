@@ -301,7 +301,7 @@ class StageTest(unittest.TestCase):
         board = ' '.join(a['reading'][1]['text'])
         for price in ('RM1.50 sekeping', 'RM2.00 secawan', 'RM5.00 sepinggan', 'RM1.80 secawan', 'RM1.00 sebotol', 'RM3.50 sebungkus'):
             self.assertIn(price, board)
-        script = ' '.join(line for _, line in a['listening'][2]['script'])
+        script = ' '.join(line for t in a['listening'] if 'food stall' in t['title'] for _, line in t['script'])
         self.assertIn('Semua enam ringgit', script)
         self.assertIn('Baki empat ringgit', script)
 
@@ -314,9 +314,73 @@ class StageTest(unittest.TestCase):
         board = ' '.join(b['reading'][1]['text'])
         for price in ('Epal · RM1.50 sebiji', 'Oren · RM1.20 sebiji', 'Mangga · RM3.00 sebiji'):
             self.assertIn(price, board)
-        script = ' '.join(line for _, line in b['listening'][2]['script'])
+        script = ' '.join(line for t in b['listening'] if 'food stall' in t['title'] for _, line in t['script'])
         self.assertIn('Semua lapan ringgit lima puluh sen', script)
         self.assertIn('Baki satu ringgit lima puluh sen', script)
+
+    def test_chapter_6_is_compulsory_in_both_versions(self):
+        """Sam, 12 Nov 2026 (step 5h question 4): one compulsory comparison item in both versions (listening L5, «lebih …
+        daripada» and «paling»), and speaking card 2 is always used."""
+        for version in stage1.VERSIONS:
+            v = version['label']
+            flagged = [(t['title'], it) for t in version['listening'] for it in t['items'] if it.get('compulsory')]
+            self.assertEqual(len(flagged), 1, v)
+            title, item = flagged[0]
+            self.assertEqual(item['ch'], [6])
+            self.assertEqual(item['marks'], 2)
+            self.assertEqual(stage1.compulsory_codes(version), [f'{v}-L5', f'{v}-S2.2'])
+            # The item sits in the listening paper, its script has both forms, and the key gives both facts.
+            task = next(t for t in version['listening'] if any(i.get('compulsory') for i in t['items']))
+            script = ' '.join(line for _, line in task['script'])
+            self.assertIn(' lebih ', script); self.assertIn(' daripada ', script); self.assertIn(' paling ', script)
+            self.assertEqual(len(task['items']), 1)
+            self.assertEqual(item['a'].count('(1)'), 2)
+            self.assertIn('«lebih', item['a']); self.assertIn('paling', item['a'])
+            listening = self.comp(v, 'listening')
+            self.assertIn(f'{v}-L5'.split('-')[1] + ': ', ' '.join(listening['key']))
+            self.assertIn('Compulsory comparison item', ' '.join(listening['key']))
+            # Item-to-chapter mapping: chapter 6 is tested by L5, R4 and card 2 (S2.2) in both versions.
+            imap = {code: ch for code, _, _, ch in stage1.item_map(version)}
+            self.assertEqual({c for c, ch in imap.items() if 6 in ch}, {f'{v}-L5', f'{v}-R4', f'{v}-S2.2'})
+            # Section totals stay at 20 marks with ten listening items.
+            self.assertEqual(sum(1 for c in imap if '-L' in c), 10)
+            # Speaking card 2 is the comparison card and is marked compulsory on the sheet and in the key.
+            card2 = version['speaking']['cards'][stage1.CARD_COMPULSORY - 1]
+            self.assertIn(6, card2['ch'])
+            sheet = ' '.join(self.lines(self.comp(v, 'speaking')))
+            self.assertIn('always used', sheet)
+            self.assertIn('Compulsory card', ' '.join(self.comp(v, 'speaking')['key']))
+            self.assertIn('Card 2 (comparing) is always used', sheet)
+        admin = ' '.join(self.lines(self.mine['ms-stage1-test-admin']))
+        self.assertIn('Chapter 6 (comparing) is compulsory in both versions', admin)
+        self.assertIn('A-L5 · 2 · ch 6 · compulsory (chapter 6)', admin)
+        self.assertIn('B-S2.2 ', admin)
+
+    def test_pass_mark_and_blocks_are_sams_decisions(self):
+        rec = make_catalogue(bank(), chapters_js())['stages'][0]
+        self.assertEqual(rec['stage_test']['pass_rule'], dict(total_min=48, section_min=10, status="Sam's decision, 12 Nov 2026"))
+        self.assertEqual(rec['stage_test']['compulsory_items'], {'A': ['A-L5', 'A-S2.2'], 'B': ['B-L5', 'B-S2.2']})
+        admin = ' '.join(self.lines(self.mine['ms-stage1-test-admin']))
+        self.assertIn('two extra 45-minute blocks', admin)
+        self.assertIn('76 blocks', admin)
+        self.assertIn('Block 1, the written papers', admin)
+        self.assertIn('Block 2, speaking', admin)
+        import catalogue as cat
+        self.assertIn("'class_blocks':76", Path(cat.__file__).read_text())
+        self.assertNotIn("'class_blocks':74", Path(cat.__file__).read_text())
+
+    def test_signs_and_notices_in_the_reading_paper(self):
+        """Sam, 12 Nov 2026: «tolak», «tarik», «perhatian», «hingga» and «Selamat Pesta Kaamatan» are used in the reading
+        section (the Gawai greeting is the parallel in version B)."""
+        for version in stage1.VERSIONS:
+            text = ' '.join(' '.join(p['text']) for p in version['reading'])
+            for sign in ('«TOLAK»', '«TARIK»', '«PERHATIAN:', ' hingga '):
+                self.assertIn(sign, text, (version['label'], sign))
+            questions = ' '.join(it['q'] + ' ' + it['a'] for p in version['reading'] for it in p['items'])
+            self.assertTrue('TOLAK' in questions or 'TARIK' in questions, version['label'])
+            self.assertIn('hingga', questions)
+        self.assertIn('Selamat Pesta Kaamatan', ' '.join(' '.join(p['text']) for p in stage1.VERSION_A['reading']))
+        self.assertIn('Selamat Hari Gawai', ' '.join(' '.join(p['text']) for p in stage1.VERSION_B['reading']))
 
     def test_versions_are_parallel(self):
         a, b = stage1.VERSION_A, stage1.VERSION_B
@@ -346,7 +410,8 @@ class StageTest(unittest.TestCase):
                      'Item map · Version B', 'Result sheet'):
             self.assertIn(part, ' '.join(n for n, _, _ in admin['sections']) + body, part)
         self.assertIn('48 or more out of 80 (60 per cent), and at least 10 out of 20 in every section', body)
-        self.assertIn('proposal for Sam', body)
+        self.assertIn('Sam\'s decision of 12 Nov 2026', body)
+        self.assertNotIn('proposal for Sam', body)
         self.assertIn('not an official CEFR certificate', body)
         self.assertIn('keeps no learner records', body)
         # The item map lists every item and every chapter with its can-do goal, for both versions.
