@@ -22,7 +22,7 @@ class CatalogueTests(unittest.TestCase):
                  'Counting and quantities · Learner pack','Counting and quantities · Teaching plan',
                  'Ringgit and sen · Learner pack','Ringgit and sen · Teaching plan',
                  'Order and floors · Learner pack','Order and floors · Teaching plan',
-                 'Beli buah di pasar'}
+                 'Beli buah di pasar','Jumlah buah','Pesanan buah'}
         expected=[l for l in old if l['title'] not in retired]
         legacy=[l for l in self.lessons if not l.get('suite')]
         strip=lambda ls:[{k:v for k,v in l.items()} | {'pages':[{k:v for k,v in p.items() if k!='index'} for p in l['pages']]} for l in ls]
