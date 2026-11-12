@@ -54,8 +54,8 @@ P=[
 'A: «Ini kali kedua encik di Malaysia?» B: «Ya, kali kedua.»',
 'A: «Ini kali ketiga encik di Malaysia?» B: «Bukan, kali kedua.»',
 'A: «Ini kali kesepuluh encik di Malaysia?» B: «Ya, kali kesepuluh.»'],
-'«pertama» is the usual first; other ordinals use «ke-» plus a number. «kali» counts occasions.',
-'最初は通常 «pertama»、その後の序数は «ke-» と数字です。«kali» は回数。',
+'«pertama» is the usual first; other ordinals use the ordinal prefix plus a number. «kali» counts occasions.',
+'最初は通常 «pertama»、その後の序数は序数の接頭辞と数字です。«kali» は回数。',
 'Malay and Japanese both distinguish cardinal and ordinal numbers; the affix differs.',
 '基数と序数の区別は共通ですが、マレー語では接頭辞が使われます。'),
 ('ms-c03-f05','«Diskaun» ___ «peratus».',[
