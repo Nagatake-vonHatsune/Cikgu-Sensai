@@ -30678,7 +30678,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4A · Chapter opener|3|13": {
-  "source_text": "After class: the chapter 4 cards and the Dunia scenes \"Hujan petang\" and \"Cuti ke pantai\". / 授業後：第4章のカードと Dunia の場面 \"Hujan petang\" and \"Cuti ke pantai\"。",
+  "source_text": "After class: the chapter 4 cards and the Dunia scenes \"Hujan petang\" and \"Cuti ke pantai\". / 授業後：第4章のカードと Dunia の場面 「Hujan petang」「Cuti ke pantai」。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -36327,7 +36327,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4B · Chapter opener|3|13": {
-  "source_text": "After class: the chapter 4 cards and the Dunia scenes \"Satu hari Encik Tanaka\" and \"Bangun pagi\". / 授業後：第4章のカードと Dunia の場面 \"Satu hari Encik Tanaka\" and \"Bangun pagi\"。",
+  "source_text": "After class: the chapter 4 cards and the Dunia scenes \"Satu hari Encik Tanaka\" and \"Bangun pagi\". / 授業後：第4章のカードと Dunia の場面 「Satu hari Encik Tanaka」「Bangun pagi」。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -42672,7 +42672,7 @@
   "exclusion": null
  },
  "Unit 5 · Vocabulary focus|3|24": {
-  "source_text": "jingga (spoken: oren) — orange (the colour) · オレンジ色  [L-0227]",
+  "source_text": "jingga / oren — orange (the colour; both forms are used) · オレンジ色  [L-0227]",
   "target_spans": [
    "jingga",
    "oren"
@@ -42682,10 +42682,10 @@
   "exclusion": null
  },
  "Unit 5 · Vocabulary focus|3|25": {
-  "source_text": "   e.g. Payung saya jingga. (spoken: oren)",
+  "source_text": "   e.g. Payung saya jingga. / Payung saya oren.",
   "target_spans": [
    "Payung saya jingga.",
-   "oren"
+   "Payung saya oren."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -43417,13 +43417,31 @@
   "exclusion": null
  },
  "Unit 5 · Vocabulary focus|6|14": {
+  "source_text": "kuah — gravy, sauce · ソース・汁（カレーなどのたれ）  [L-1048]",
+  "target_spans": [
+   "kuah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 5 · Vocabulary focus|6|15": {
+  "source_text": "   e.g. Roti canai dengan kuah.",
+  "target_spans": [
+   "Roti canai dengan kuah."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 5 · Vocabulary focus|6|16": {
   "source_text": "■ Core words · Question and linking words · 学習する",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 5 · Vocabulary focus|6|15": {
+ "Unit 5 · Vocabulary focus|6|17": {
   "source_text": "bagaimana — how · どう・どのように  [L-0210]",
   "target_spans": [
    "bagaimana"
@@ -43432,7 +43450,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|16": {
+ "Unit 5 · Vocabulary focus|6|18": {
   "source_text": "   e.g. Bagaimana rasa mi goreng ini?",
   "target_spans": [
    "Bagaimana rasa mi goreng ini?"
@@ -43441,7 +43459,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|17": {
+ "Unit 5 · Vocabulary focus|6|19": {
   "source_text": "macam mana (spoken) — how (spoken form of bagaimana) · どう（口語）  [L-0211]",
   "target_spans": [
    "macam mana",
@@ -43451,7 +43469,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|18": {
+ "Unit 5 · Vocabulary focus|6|20": {
   "source_text": "   e.g. Macam mana? Sedap? (spoken; standard bagaimana)",
   "target_spans": [
    "Macam mana? Sedap?",
@@ -43461,17 +43479,19 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|19": {
-  "source_text": "kenapa — why · なぜ・どうして  [L-1009]",
+ "Unit 5 · Vocabulary focus|6|21": {
+  "source_text": "kenapa — why (same as mengapa and apa sebab) · なぜ・どうして  [L-1009]",
   "target_spans": [
-   "kenapa"
+   "kenapa",
+   "mengapa",
+   "apa sebab"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|20": {
-  "source_text": "   e.g. Kenapa encik penat?",
+ "Unit 5 · Vocabulary focus|6|22": {
+  "source_text": "   e.g. Kenapa encik penat? (everyday)",
   "target_spans": [
    "Kenapa encik penat?"
   ],
@@ -43479,8 +43499,30 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|21": {
-  "source_text": "sebab — because; the reason (the answer to kenapa) · 理由、〜なので  [L-0688]",
+ "Unit 5 · Vocabulary focus|6|23": {
+  "source_text": "mengapa — why (same as kenapa and apa sebab) · なぜ・どうして  [L-1049]",
+  "target_spans": [
+   "mengapa",
+   "kenapa",
+   "apa sebab"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 5 · Vocabulary focus|6|24": {
+  "source_text": "   e.g. Mengapa encik penat? (same meaning as kenapa; also Apa sebab encik penat?)",
+  "target_spans": [
+   "Mengapa encik penat?",
+   "kenapa",
+   "Apa sebab encik penat?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 5 · Vocabulary focus|6|25": {
+  "source_text": "sebab — because; the reason (an answer to kenapa) · 理由、〜なので  [L-0688]",
   "target_spans": [
    "sebab",
    "kenapa"
@@ -43489,7 +43531,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|22": {
+ "Unit 5 · Vocabulary focus|6|26": {
   "source_text": "   e.g. Kenapa lambat? Sebab hujan.",
   "target_spans": [
    "Kenapa lambat?",
@@ -43499,7 +43541,28 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|23": {
+ "Unit 5 · Vocabulary focus|6|27": {
+  "source_text": "kerana — because (answers kenapa like sebab) · 〜から・〜ので  [L-1050]",
+  "target_spans": [
+   "kerana",
+   "kenapa",
+   "sebab"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 5 · Vocabulary focus|6|28": {
+  "source_text": "   e.g. Kerana hujan. (same use as sebab)",
+  "target_spans": [
+   "Kerana hujan.",
+   "sebab"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 5 · Vocabulary focus|6|29": {
   "source_text": "yang — the one that is; which · 〜の（もの）・〜な  [L-0212]",
   "target_spans": [
    "yang"
@@ -43508,7 +43571,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|24": {
+ "Unit 5 · Vocabulary focus|6|30": {
   "source_text": "   e.g. Saya mahu payung yang biru.",
   "target_spans": [
    "Saya mahu payung yang biru."
@@ -43517,7 +43580,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|25": {
+ "Unit 5 · Vocabulary focus|7|0": {
   "source_text": "atau — or · または  [L-0214]",
   "target_spans": [
    "atau"
@@ -43526,7 +43589,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|26": {
+ "Unit 5 · Vocabulary focus|7|1": {
   "source_text": "   e.g. Panas atau sejuk?",
   "target_spans": [
    "Panas atau sejuk?"
@@ -43535,7 +43598,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|27": {
+ "Unit 5 · Vocabulary focus|7|2": {
   "source_text": "tetapi / tapi (spoken) — but (spoken tapi) · でも  [L-0215]",
   "target_spans": [
    "tetapi",
@@ -43546,7 +43609,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|28": {
+ "Unit 5 · Vocabulary focus|7|3": {
   "source_text": "   e.g. Sedap, tetapi pedas. (spoken: Sedap, tapi pedas.)",
   "target_spans": [
    "Sedap, tetapi pedas.",
@@ -43556,7 +43619,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|29": {
+ "Unit 5 · Vocabulary focus|7|4": {
   "source_text": "mahu / nak (spoken) — to want (spoken nak) · 欲しい・〜したい  [L-0213]",
   "target_spans": [
    "mahu",
@@ -43567,7 +43630,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|6|30": {
+ "Unit 5 · Vocabulary focus|7|5": {
   "source_text": "   e.g. Saya mahu teh tarik. (spoken: Saya nak teh tarik.)",
   "target_spans": [
    "Saya mahu teh tarik.",
@@ -43577,7 +43640,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|0": {
+ "Unit 5 · Vocabulary focus|7|6": {
   "source_text": "banyak — a lot, many · たくさん  [L-0217]",
   "target_spans": [
    "banyak"
@@ -43586,7 +43649,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|1": {
+ "Unit 5 · Vocabulary focus|7|7": {
   "source_text": "   e.g. Hari ini saya ada banyak kerja.",
   "target_spans": [
    "Hari ini saya ada banyak kerja."
@@ -43595,21 +43658,21 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|2": {
+ "Unit 5 · Vocabulary focus|7|8": {
   "source_text": "■ Dunia · To recognise · 聞いて分かる",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 5 · Vocabulary focus|7|3": {
+ "Unit 5 · Vocabulary focus|7|9": {
   "source_text": "■ Dunia · To recognise · \"Masak nasi goreng\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 5 · Vocabulary focus|7|4": {
+ "Unit 5 · Vocabulary focus|7|10": {
   "source_text": "dapur — kitchen; stove · 台所・コンロ  [L-0456]",
   "target_spans": [
    "dapur"
@@ -43618,7 +43681,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|5": {
+ "Unit 5 · Vocabulary focus|7|11": {
   "source_text": "   e.g. Dapur ini kecil.",
   "target_spans": [
    "Dapur ini kecil."
@@ -43627,7 +43690,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|6": {
+ "Unit 5 · Vocabulary focus|7|12": {
   "source_text": "peti sejuk — fridge · 冷蔵庫  [L-0457]",
   "target_spans": [
    "peti sejuk"
@@ -43636,7 +43699,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|7": {
+ "Unit 5 · Vocabulary focus|7|13": {
   "source_text": "   e.g. Air ada di peti sejuk.",
   "target_spans": [
    "Air ada di peti sejuk."
@@ -43645,7 +43708,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|8": {
+ "Unit 5 · Vocabulary focus|7|14": {
   "source_text": "kuali — wok, frying pan · 中華鍋  [L-0458]",
   "target_spans": [
    "kuali"
@@ -43654,7 +43717,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|9": {
+ "Unit 5 · Vocabulary focus|7|15": {
   "source_text": "   e.g. Kuali ini besar.",
   "target_spans": [
    "Kuali ini besar."
@@ -43663,7 +43726,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|10": {
+ "Unit 5 · Vocabulary focus|7|16": {
   "source_text": "periuk — pot · 鍋  [L-0459]",
   "target_spans": [
    "periuk"
@@ -43672,7 +43735,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|11": {
+ "Unit 5 · Vocabulary focus|7|17": {
   "source_text": "   e.g. Periuk ini panas, hati-hati!",
   "target_spans": [
    "Periuk ini panas, hati-hati!"
@@ -43681,7 +43744,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|12": {
+ "Unit 5 · Vocabulary focus|7|18": {
   "source_text": "pisau — knife · 包丁・ナイフ  [L-0460]",
   "target_spans": [
    "pisau"
@@ -43690,7 +43753,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|13": {
+ "Unit 5 · Vocabulary focus|7|19": {
   "source_text": "   e.g. Saya mahu pisau yang kecil.",
   "target_spans": [
    "Saya mahu pisau yang kecil."
@@ -43699,7 +43762,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|14": {
+ "Unit 5 · Vocabulary focus|7|20": {
   "source_text": "sudu — spoon · スプーン  [L-0461]",
   "target_spans": [
    "sudu"
@@ -43708,7 +43771,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|15": {
+ "Unit 5 · Vocabulary focus|7|21": {
   "source_text": "   e.g. Sudu dan garpu ada di dapur.",
   "target_spans": [
    "Sudu dan garpu ada di dapur."
@@ -43717,7 +43780,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|16": {
+ "Unit 5 · Vocabulary focus|7|22": {
   "source_text": "garpu — fork · フォーク  [L-0462]",
   "target_spans": [
    "garpu"
@@ -43726,7 +43789,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|17": {
+ "Unit 5 · Vocabulary focus|7|23": {
   "source_text": "   e.g. Saya mahu garpu satu.",
   "target_spans": [
    "Saya mahu garpu satu."
@@ -43735,7 +43798,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|18": {
+ "Unit 5 · Vocabulary focus|7|24": {
   "source_text": "potong — to cut · 切る  [L-0463]",
   "target_spans": [
    "potong"
@@ -43744,7 +43807,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|19": {
+ "Unit 5 · Vocabulary focus|7|25": {
   "source_text": "   e.g. Saya potong bawang.",
   "target_spans": [
    "Saya potong bawang."
@@ -43753,7 +43816,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|20": {
+ "Unit 5 · Vocabulary focus|7|26": {
   "source_text": "goreng — to fry; fried · 揚げる・炒める  [L-0464]",
   "target_spans": [
    "goreng"
@@ -43762,7 +43825,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|21": {
+ "Unit 5 · Vocabulary focus|7|27": {
   "source_text": "   e.g. Saya goreng nasi. / Mi goreng ini sedap.",
   "target_spans": [
    "Saya goreng nasi.",
@@ -43772,7 +43835,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|22": {
+ "Unit 5 · Vocabulary focus|7|28": {
   "source_text": "rebus — to boil · 茹でる  [L-0465]",
   "target_spans": [
    "rebus"
@@ -43781,7 +43844,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|23": {
+ "Unit 5 · Vocabulary focus|7|29": {
   "source_text": "   e.g. Saya rebus air.",
   "target_spans": [
    "Saya rebus air."
@@ -43790,7 +43853,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|24": {
+ "Unit 5 · Vocabulary focus|7|30": {
   "source_text": "basuh — to wash · 洗う  [L-0466]",
   "target_spans": [
    "basuh"
@@ -43799,7 +43862,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|25": {
+ "Unit 5 · Vocabulary focus|8|0": {
   "source_text": "   e.g. Basuh kuali ini dulu.",
   "target_spans": [
    "Basuh kuali ini dulu."
@@ -43808,7 +43871,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|26": {
+ "Unit 5 · Vocabulary focus|8|1": {
   "source_text": "garam — salt · 塩  [L-0467]",
   "target_spans": [
    "garam"
@@ -43817,7 +43880,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|27": {
+ "Unit 5 · Vocabulary focus|8|2": {
   "source_text": "   e.g. Saya mahu garam sedikit.",
   "target_spans": [
    "Saya mahu garam sedikit."
@@ -43826,7 +43889,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|28": {
+ "Unit 5 · Vocabulary focus|8|3": {
   "source_text": "gula — sugar · 砂糖  [L-0468]",
   "target_spans": [
    "gula"
@@ -43835,7 +43898,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|29": {
+ "Unit 5 · Vocabulary focus|8|4": {
   "source_text": "   e.g. Teh ini tidak ada gula.",
   "target_spans": [
    "Teh ini tidak ada gula."
@@ -43844,7 +43907,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|7|30": {
+ "Unit 5 · Vocabulary focus|8|5": {
   "source_text": "minyak — oil · 油  [L-0469]",
   "target_spans": [
    "minyak"
@@ -43853,7 +43916,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|0": {
+ "Unit 5 · Vocabulary focus|8|6": {
   "source_text": "   e.g. Minyak ini panas.",
   "target_spans": [
    "Minyak ini panas."
@@ -43862,7 +43925,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|1": {
+ "Unit 5 · Vocabulary focus|8|7": {
   "source_text": "bawang — onion · 玉ねぎ  [L-0470]",
   "target_spans": [
    "bawang"
@@ -43871,7 +43934,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|2": {
+ "Unit 5 · Vocabulary focus|8|8": {
   "source_text": "   e.g. Saya mahu bawang merah.",
   "target_spans": [
    "Saya mahu bawang merah."
@@ -43880,14 +43943,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|3": {
+ "Unit 5 · Vocabulary focus|8|9": {
   "source_text": "■ Dunia · To recognise · \"Di klinik\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 5 · Vocabulary focus|8|4": {
+ "Unit 5 · Vocabulary focus|8|10": {
   "source_text": "klinik — clinic · クリニック  [L-0406]",
   "target_spans": [
    "klinik"
@@ -43896,7 +43959,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|5": {
+ "Unit 5 · Vocabulary focus|8|11": {
   "source_text": "   e.g. Saya pergi klinik petang ini.",
   "target_spans": [
    "Saya pergi klinik petang ini."
@@ -43905,7 +43968,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|6": {
+ "Unit 5 · Vocabulary focus|8|12": {
   "source_text": "doktor — doctor · 医者  [L-0407]",
   "target_spans": [
    "doktor"
@@ -43914,7 +43977,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|7": {
+ "Unit 5 · Vocabulary focus|8|13": {
   "source_text": "   e.g. Doktor ada petang ini?",
   "target_spans": [
    "Doktor ada petang ini?"
@@ -43923,7 +43986,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|8": {
+ "Unit 5 · Vocabulary focus|8|14": {
   "source_text": "ubat — medicine · 薬  [L-0408]",
   "target_spans": [
    "ubat"
@@ -43932,7 +43995,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|9": {
+ "Unit 5 · Vocabulary focus|8|15": {
   "source_text": "   e.g. Ubat ini untuk saya.",
   "target_spans": [
    "Ubat ini untuk saya."
@@ -43941,7 +44004,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|10": {
+ "Unit 5 · Vocabulary focus|8|16": {
   "source_text": "demam — fever · 熱  [L-0409]",
   "target_spans": [
    "demam"
@@ -43950,7 +44013,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|11": {
+ "Unit 5 · Vocabulary focus|8|17": {
   "source_text": "   e.g. Anak saya demam.",
   "target_spans": [
    "Anak saya demam."
@@ -43959,7 +44022,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|12": {
+ "Unit 5 · Vocabulary focus|8|18": {
   "source_text": "batuk — cough · 咳  [L-0410]",
   "target_spans": [
    "batuk"
@@ -43968,7 +44031,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|13": {
+ "Unit 5 · Vocabulary focus|8|19": {
   "source_text": "   e.g. Saya batuk.",
   "target_spans": [
    "Saya batuk."
@@ -43977,7 +44040,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|14": {
+ "Unit 5 · Vocabulary focus|8|20": {
   "source_text": "selsema / selesema — a cold · 風邪  [L-0411]",
   "target_spans": [
    "selsema / selesema"
@@ -43986,7 +44049,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|15": {
+ "Unit 5 · Vocabulary focus|8|21": {
   "source_text": "   e.g. Saya selsema.",
   "target_spans": [
    "Saya selsema."
@@ -43995,7 +44058,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|16": {
+ "Unit 5 · Vocabulary focus|8|22": {
   "source_text": "kepala — head · 頭  [L-0412]",
   "target_spans": [
    "kepala"
@@ -44004,7 +44067,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|17": {
+ "Unit 5 · Vocabulary focus|8|23": {
   "source_text": "   e.g. Kepala saya sakit.",
   "target_spans": [
    "Kepala saya sakit."
@@ -44013,7 +44076,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|18": {
+ "Unit 5 · Vocabulary focus|8|24": {
   "source_text": "sakit kepala — headache · 頭痛  [L-0413]",
   "target_spans": [
    "sakit kepala"
@@ -44022,7 +44085,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|19": {
+ "Unit 5 · Vocabulary focus|8|25": {
   "source_text": "   e.g. Saya sakit kepala.",
   "target_spans": [
    "Saya sakit kepala."
@@ -44031,7 +44094,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|20": {
+ "Unit 5 · Vocabulary focus|8|26": {
   "source_text": "perut — stomach · お腹  [L-0414]",
   "target_spans": [
    "perut"
@@ -44040,7 +44103,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|21": {
+ "Unit 5 · Vocabulary focus|8|27": {
   "source_text": "   e.g. Perut saya sakit.",
   "target_spans": [
    "Perut saya sakit."
@@ -44049,7 +44112,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|22": {
+ "Unit 5 · Vocabulary focus|8|28": {
   "source_text": "tekak — throat · 喉  [L-0415]",
   "target_spans": [
    "tekak"
@@ -44058,7 +44121,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|23": {
+ "Unit 5 · Vocabulary focus|8|29": {
   "source_text": "   e.g. Tekak saya sakit.",
   "target_spans": [
    "Tekak saya sakit."
@@ -44067,27 +44130,25 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|24": {
-  "source_text": "rumah sakit — hospital (in Malaysia people usually say hospital, a chapter 7 word) · 病院  [L-0416]",
+ "Unit 5 · Vocabulary focus|8|30": {
+  "source_text": "hospital — hospital · 病院  [L-0336]",
   "target_spans": [
-   "rumah sakit"
-  ],
-  "mention_spans": [
    "hospital"
-  ],
-  "kind": "vocabulary",
-  "exclusion": null
- },
- "Unit 5 · Vocabulary focus|8|25": {
-  "source_text": "   e.g. Dia di rumah sakit.",
-  "target_spans": [
-   "Dia di rumah sakit."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|26": {
+ "Unit 5 · Vocabulary focus|9|0": {
+  "source_text": "   e.g. Dia di hospital.",
+  "target_spans": [
+   "Dia di hospital."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 5 · Vocabulary focus|9|1": {
   "source_text": "rehat — to rest · 休む  [L-0417]",
   "target_spans": [
    "rehat"
@@ -44096,7 +44157,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|27": {
+ "Unit 5 · Vocabulary focus|9|2": {
   "source_text": "   e.g. Saya mahu rehat.",
   "target_spans": [
    "Saya mahu rehat."
@@ -44105,14 +44166,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|28": {
+ "Unit 5 · Vocabulary focus|9|3": {
   "source_text": "■ Dunia · To recognise · \"Gambar bayi\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 5 · Vocabulary focus|8|29": {
+ "Unit 5 · Vocabulary focus|9|4": {
   "source_text": "bayi — baby · 赤ちゃん  [L-0919]",
   "target_spans": [
    "bayi"
@@ -44121,7 +44182,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|8|30": {
+ "Unit 5 · Vocabulary focus|9|5": {
   "source_text": "   e.g. Bayi itu tidur.",
   "target_spans": [
    "Bayi itu tidur."
@@ -44130,7 +44191,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|0": {
+ "Unit 5 · Vocabulary focus|9|6": {
   "source_text": "comel — cute · かわいい  [L-0920]",
   "target_spans": [
    "comel"
@@ -44139,7 +44200,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|1": {
+ "Unit 5 · Vocabulary focus|9|7": {
   "source_text": "   e.g. Anak encik comel!",
   "target_spans": [
    "Anak encik comel!"
@@ -44148,7 +44209,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|2": {
+ "Unit 5 · Vocabulary focus|9|8": {
   "source_text": "tembam — chubby (cheeks, face) · ぽっちゃりした・ふっくらした  [L-0921]",
   "target_spans": [
    "tembam"
@@ -44157,7 +44218,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|3": {
+ "Unit 5 · Vocabulary focus|9|9": {
   "source_text": "   e.g. Pipi bayi itu tembam.",
   "target_spans": [
    "Pipi bayi itu tembam."
@@ -44166,7 +44227,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|4": {
+ "Unit 5 · Vocabulary focus|9|10": {
   "source_text": "muka — face · 顔  [L-0922]",
   "target_spans": [
    "muka"
@@ -44175,7 +44236,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|5": {
+ "Unit 5 · Vocabulary focus|9|11": {
   "source_text": "   e.g. Muka bayi itu merah.",
   "target_spans": [
    "Muka bayi itu merah."
@@ -44184,7 +44245,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|6": {
+ "Unit 5 · Vocabulary focus|9|12": {
   "source_text": "hidung — nose · 鼻  [L-0923]",
   "target_spans": [
    "hidung"
@@ -44193,7 +44254,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|7": {
+ "Unit 5 · Vocabulary focus|9|13": {
   "source_text": "   e.g. Hidung dia kecil.",
   "target_spans": [
    "Hidung dia kecil."
@@ -44202,7 +44263,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|8": {
+ "Unit 5 · Vocabulary focus|9|14": {
   "source_text": "mulut — mouth · 口  [L-0924]",
   "target_spans": [
    "mulut"
@@ -44211,7 +44272,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|9": {
+ "Unit 5 · Vocabulary focus|9|15": {
   "source_text": "   e.g. Mulut bayi itu kecil.",
   "target_spans": [
    "Mulut bayi itu kecil."
@@ -44220,7 +44281,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|10": {
+ "Unit 5 · Vocabulary focus|9|16": {
   "source_text": "telinga — ear · 耳  [L-0925]",
   "target_spans": [
    "telinga"
@@ -44229,7 +44290,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|11": {
+ "Unit 5 · Vocabulary focus|9|17": {
   "source_text": "   e.g. Telinga saya sakit.",
   "target_spans": [
    "Telinga saya sakit."
@@ -44238,7 +44299,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|12": {
+ "Unit 5 · Vocabulary focus|9|18": {
   "source_text": "pipi — cheek · ほお  [L-0926]",
   "target_spans": [
    "pipi"
@@ -44247,7 +44308,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|13": {
+ "Unit 5 · Vocabulary focus|9|19": {
   "source_text": "   e.g. Pipi dia merah.",
   "target_spans": [
    "Pipi dia merah."
@@ -44256,7 +44317,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|14": {
+ "Unit 5 · Vocabulary focus|9|20": {
   "source_text": "rambut — hair (on the head) · 髪  [L-0927]",
   "target_spans": [
    "rambut"
@@ -44265,7 +44326,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|15": {
+ "Unit 5 · Vocabulary focus|9|21": {
   "source_text": "   e.g. Rambut dia hitam.",
   "target_spans": [
    "Rambut dia hitam."
@@ -44274,7 +44335,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|16": {
+ "Unit 5 · Vocabulary focus|9|22": {
   "source_text": "jari — finger · 指  [L-0928]",
   "target_spans": [
    "jari"
@@ -44283,7 +44344,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|17": {
+ "Unit 5 · Vocabulary focus|9|23": {
   "source_text": "   e.g. Jari dia kecil.",
   "target_spans": [
    "Jari dia kecil."
@@ -44292,7 +44353,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|18": {
+ "Unit 5 · Vocabulary focus|9|24": {
   "source_text": "senyum — to smile; a smile · ほほえむ・笑顔  [L-0929]",
   "target_spans": [
    "senyum"
@@ -44301,7 +44362,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|19": {
+ "Unit 5 · Vocabulary focus|9|25": {
   "source_text": "   e.g. Bayi itu senyum.",
   "target_spans": [
    "Bayi itu senyum."
@@ -44310,7 +44371,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|20": {
+ "Unit 5 · Vocabulary focus|9|26": {
   "source_text": "macam — like, similar to (spoken) · 〜みたい・〜のような  [L-0930]",
   "target_spans": [
    "macam"
@@ -44319,7 +44380,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|21": {
+ "Unit 5 · Vocabulary focus|9|27": {
   "source_text": "   e.g. Muka dia macam muka saya. (spoken)",
   "target_spans": [
    "Muka dia macam muka saya."
@@ -44328,23 +44389,24 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|22": {
+ "Unit 5 · Vocabulary focus|9|28": {
   "source_text": "■ Dunia · To recognise · \"Lepak di kedai mamak\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 5 · Vocabulary focus|9|23": {
-  "source_text": "mamak — a casual eatery, often open late · ママッ（深夜まで開いていることも多い大衆食堂）  [L-0931]",
+ "Unit 5 · Vocabulary focus|9|29": {
+  "source_text": "mamak — mamak stall (Indian-Muslim eatery, often open late) · ママッ（インド系ムスリムの大衆食堂、深夜営業も多い）  [L-0931]",
   "target_spans": [
+   "mamak",
    "mamak"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|24": {
+ "Unit 5 · Vocabulary focus|9|30": {
   "source_text": "   e.g. Jom makan di mamak!",
   "target_spans": [
    "Jom makan di mamak!"
@@ -44353,7 +44415,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|25": {
+ "Unit 5 · Vocabulary focus|10|0": {
   "source_text": "lepak — to hang out, chill · ぶらぶらする・だべる  [L-0932]",
   "target_spans": [
    "lepak"
@@ -44362,7 +44424,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|26": {
+ "Unit 5 · Vocabulary focus|10|1": {
   "source_text": "   e.g. Hujung minggu saya lepak dengan kawan.",
   "target_spans": [
    "Hujung minggu saya lepak dengan kawan."
@@ -44371,7 +44433,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|27": {
+ "Unit 5 · Vocabulary focus|10|2": {
   "source_text": "sembang — to chat · おしゃべりする  [L-0933]",
   "target_spans": [
    "sembang"
@@ -44380,7 +44442,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|28": {
+ "Unit 5 · Vocabulary focus|10|3": {
   "source_text": "   e.g. Kami sembang sampai malam.",
   "target_spans": [
    "Kami sembang sampai malam."
@@ -44389,7 +44451,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|29": {
+ "Unit 5 · Vocabulary focus|10|4": {
   "source_text": "teh tarik — pulled milk tea · テ・タリッ（泡立てたミルクティー）  [L-0934]",
   "target_spans": [
    "teh tarik"
@@ -44398,7 +44460,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|9|30": {
+ "Unit 5 · Vocabulary focus|10|5": {
   "source_text": "   e.g. Teh tarik satu, ya.",
   "target_spans": [
    "Teh tarik satu, ya."
@@ -44407,7 +44469,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|0": {
+ "Unit 5 · Vocabulary focus|10|6": {
   "source_text": "roti canai — roti canai (flaky flatbread eaten with curry) · ロティ・チャナイ（カレーで食べる薄焼きパン）  [L-0935]",
   "target_spans": [
    "roti canai",
@@ -44417,7 +44479,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|1": {
+ "Unit 5 · Vocabulary focus|10|7": {
   "source_text": "   e.g. Roti canai dua.",
   "target_spans": [
    "Roti canai dua."
@@ -44426,7 +44488,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|2": {
+ "Unit 5 · Vocabulary focus|10|8": {
   "source_text": "kopi O — black coffee (with sugar) · ブラックコーヒー（砂糖入り）  [L-0936]",
   "target_spans": [
    "kopi O"
@@ -44435,7 +44497,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|3": {
+ "Unit 5 · Vocabulary focus|10|9": {
   "source_text": "   e.g. Kopi O panas satu.",
   "target_spans": [
    "Kopi O panas satu."
@@ -44444,7 +44506,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|4": {
+ "Unit 5 · Vocabulary focus|10|10": {
   "source_text": "tapau — to take away (food) · 持ち帰りにする  [L-0937]",
   "target_spans": [
    "tapau"
@@ -44453,7 +44515,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|5": {
+ "Unit 5 · Vocabulary focus|10|11": {
   "source_text": "   e.g. Saya mahu tapau.",
   "target_spans": [
    "Saya mahu tapau."
@@ -44462,7 +44524,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|6": {
+ "Unit 5 · Vocabulary focus|10|12": {
   "source_text": "makan sini — to eat here (dine in) · 店内で食べる  [L-0938]",
   "target_spans": [
    "makan sini"
@@ -44471,7 +44533,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|7": {
+ "Unit 5 · Vocabulary focus|10|13": {
   "source_text": "   e.g. Makan sini atau tapau?",
   "target_spans": [
    "Makan sini atau tapau?"
@@ -44480,7 +44542,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|8": {
+ "Unit 5 · Vocabulary focus|10|14": {
   "source_text": "boleh tahan — not bad, pretty good · なかなかいい・けっこういける  [L-0939]",
   "target_spans": [
    "boleh tahan"
@@ -44489,7 +44551,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|9": {
+ "Unit 5 · Vocabulary focus|10|15": {
   "source_text": "   e.g. Mi goreng ini boleh tahan.",
   "target_spans": [
    "Mi goreng ini boleh tahan."
@@ -44498,7 +44560,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|10": {
+ "Unit 5 · Vocabulary focus|10|16": {
   "source_text": "tak apa (spoken) — never mind, it's OK · 大丈夫・気にしないで  [L-0940]",
   "target_spans": [
    "tak apa"
@@ -44507,7 +44569,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|11": {
+ "Unit 5 · Vocabulary focus|10|17": {
   "source_text": "   e.g. Tak apa, saya tunggu. (spoken)",
   "target_spans": [
    "Tak apa, saya tunggu."
@@ -44516,7 +44578,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|12": {
+ "Unit 5 · Vocabulary focus|10|18": {
   "source_text": "kira — to count; Kira! = the bill, please · 数える・（店で）お会計  [L-0941]",
   "target_spans": [
    "kira",
@@ -44526,7 +44588,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|13": {
+ "Unit 5 · Vocabulary focus|10|19": {
   "source_text": "   e.g. Abang, kira!",
   "target_spans": [
    "Abang, kira!"
@@ -44535,21 +44597,21 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|14": {
+ "Unit 5 · Vocabulary focus|10|20": {
   "source_text": "■ Revision · 復習 (not new, not tested as new vocabulary)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 5 · Vocabulary focus|10|15": {
+ "Unit 5 · Vocabulary focus|10|21": {
   "source_text": "■ Revision · 復習 · Chapters 1 to 3",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 5 · Vocabulary focus|10|16": {
+ "Unit 5 · Vocabulary focus|10|22": {
   "source_text": "sedikit / sikit (spoken) — a little (sikit is the spoken form) · 少し  [L-0216]",
   "target_spans": [
    "sedikit",
@@ -44560,7 +44622,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|17": {
+ "Unit 5 · Vocabulary focus|10|23": {
   "source_text": "   e.g. Pedas sedikit. (spoken: Pedas sikit.)",
   "target_spans": [
    "Pedas sedikit.",
@@ -44570,7 +44632,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|18": {
+ "Unit 5 · Vocabulary focus|10|24": {
   "source_text": "kosong / sifar — zero, empty · ゼロ  [L-0099]",
   "target_spans": [
    "kosong",
@@ -44580,7 +44642,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|19": {
+ "Unit 5 · Vocabulary focus|10|25": {
   "source_text": "   e.g. Air kosong (chapter 3: kosong = zero, empty)",
   "target_spans": [
    "Air kosong",
@@ -44590,7 +44652,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|20": {
+ "Unit 5 · Vocabulary focus|10|26": {
   "source_text": "berapa — how many, how much · いくつ・いくら  [L-0116]",
   "target_spans": [
    "berapa"
@@ -44599,7 +44661,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|21": {
+ "Unit 5 · Vocabulary focus|10|27": {
   "source_text": "   e.g. Berapa harga teh tarik?",
   "target_spans": [
    "Berapa harga teh tarik?"
@@ -44608,7 +44670,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|22": {
+ "Unit 5 · Vocabulary focus|10|28": {
   "source_text": "harga — price · 値段  [L-0117]",
   "target_spans": [
    "harga"
@@ -44617,7 +44679,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|23": {
+ "Unit 5 · Vocabulary focus|10|29": {
   "source_text": "   e.g. Harga mi goreng enam ringgit lima puluh sen.",
   "target_spans": [
    "Harga mi goreng enam ringgit lima puluh sen."
@@ -44626,7 +44688,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|24": {
+ "Unit 5 · Vocabulary focus|10|30": {
   "source_text": "mahal — expensive · 高い（値段）  [L-0121]",
   "target_spans": [
    "mahal"
@@ -44635,7 +44697,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|25": {
+ "Unit 5 · Vocabulary focus|11|0": {
   "source_text": "   e.g. Mangga ini mahal.",
   "target_spans": [
    "Mangga ini mahal."
@@ -44644,7 +44706,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|26": {
+ "Unit 5 · Vocabulary focus|11|1": {
   "source_text": "murah — cheap · 安い  [L-0122]",
   "target_spans": [
    "murah"
@@ -44653,7 +44715,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|27": {
+ "Unit 5 · Vocabulary focus|11|2": {
   "source_text": "   e.g. Pisang ini murah.",
   "target_spans": [
    "Pisang ini murah."
@@ -44662,7 +44724,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|28": {
+ "Unit 5 · Vocabulary focus|11|3": {
   "source_text": "tinggi — tall, high · 高い（背・高さ）  [L-0144]",
   "target_spans": [
    "tinggi"
@@ -44671,7 +44733,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|29": {
+ "Unit 5 · Vocabulary focus|11|4": {
   "source_text": "   e.g. Bos saya tinggi.",
   "target_spans": [
    "Bos saya tinggi."
@@ -44680,7 +44742,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|10|30": {
+ "Unit 5 · Vocabulary focus|11|5": {
   "source_text": "berat — heavy; weight · 重い・重さ  [L-0145]",
   "target_spans": [
    "berat"
@@ -44689,7 +44751,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|0": {
+ "Unit 5 · Vocabulary focus|11|6": {
   "source_text": "   e.g. Bungkusan ini berat?",
   "target_spans": [
    "Bungkusan ini berat?"
@@ -44698,7 +44760,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|1": {
+ "Unit 5 · Vocabulary focus|11|7": {
   "source_text": "panjang — long · 長い  [L-0146]",
   "target_spans": [
    "panjang"
@@ -44707,7 +44769,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|2": {
+ "Unit 5 · Vocabulary focus|11|8": {
   "source_text": "   e.g. Surat itu panjang.",
   "target_spans": [
    "Surat itu panjang."
@@ -44716,7 +44778,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|3": {
+ "Unit 5 · Vocabulary focus|11|9": {
   "source_text": "lebar — wide · 幅が広い  [L-0147]",
   "target_spans": [
    "lebar"
@@ -44725,7 +44787,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|4": {
+ "Unit 5 · Vocabulary focus|11|10": {
   "source_text": "   e.g. Kertas ini lebar.",
   "target_spans": [
    "Kertas ini lebar."
@@ -44734,7 +44796,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|5": {
+ "Unit 5 · Vocabulary focus|11|11": {
   "source_text": "pisang — banana · バナナ  [L-1004]",
   "target_spans": [
    "pisang"
@@ -44743,7 +44805,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|6": {
+ "Unit 5 · Vocabulary focus|11|12": {
   "source_text": "   e.g. Pisang ini manis.",
   "target_spans": [
    "Pisang ini manis."
@@ -44752,7 +44814,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|7": {
+ "Unit 5 · Vocabulary focus|11|13": {
   "source_text": "mangga — mango · マンゴー  [L-1005]",
   "target_spans": [
    "mangga"
@@ -44761,7 +44823,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|8": {
+ "Unit 5 · Vocabulary focus|11|14": {
   "source_text": "   e.g. Mangga ini besar.",
   "target_spans": [
    "Mangga ini besar."
@@ -44770,7 +44832,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|9": {
+ "Unit 5 · Vocabulary focus|11|15": {
   "source_text": "cili — chilli · 唐辛子  [L-0517]",
   "target_spans": [
    "cili"
@@ -44779,7 +44841,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|10": {
+ "Unit 5 · Vocabulary focus|11|16": {
   "source_text": "   e.g. Cili ini merah.",
   "target_spans": [
    "Cili ini merah."
@@ -44788,7 +44850,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|11": {
+ "Unit 5 · Vocabulary focus|11|17": {
   "source_text": "segar — fresh · 新鮮  [L-0518]",
   "target_spans": [
    "segar"
@@ -44797,7 +44859,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|12": {
+ "Unit 5 · Vocabulary focus|11|18": {
   "source_text": "   e.g. Ikan ini segar.",
   "target_spans": [
    "Ikan ini segar."
@@ -44806,7 +44868,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|13": {
+ "Unit 5 · Vocabulary focus|11|19": {
   "source_text": "bukan — not (for nouns) · 〜ではない  [L-0130]",
   "target_spans": [
    "bukan"
@@ -44815,7 +44877,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|14": {
+ "Unit 5 · Vocabulary focus|11|20": {
   "source_text": "   e.g. Ini bukan teh. Ini kopi. (bukan for nouns; tidak for adjectives)",
   "target_spans": [
    "Ini bukan teh. Ini kopi.",
@@ -44826,14 +44888,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|15": {
+ "Unit 5 · Vocabulary focus|11|21": {
   "source_text": "■ Revision · 復習 · Chapter 4",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 5 · Vocabulary focus|11|16": {
+ "Unit 5 · Vocabulary focus|11|22": {
   "source_text": "hujan — rain · 雨  [L-0434]",
   "target_spans": [
    "hujan"
@@ -44842,7 +44904,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|17": {
+ "Unit 5 · Vocabulary focus|11|23": {
   "source_text": "   e.g. Hari ini hujan.",
   "target_spans": [
    "Hari ini hujan."
@@ -44851,7 +44913,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|18": {
+ "Unit 5 · Vocabulary focus|11|24": {
   "source_text": "cuaca — weather · 天気  [L-0431]",
   "target_spans": [
    "cuaca"
@@ -44860,7 +44922,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|19": {
+ "Unit 5 · Vocabulary focus|11|25": {
   "source_text": "   e.g. Cuaca hari ini panas.",
   "target_spans": [
    "Cuaca hari ini panas."
@@ -44869,7 +44931,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|20": {
+ "Unit 5 · Vocabulary focus|11|26": {
   "source_text": "lambat — late, slow · 遅い  [L-0207]",
   "target_spans": [
    "lambat"
@@ -44878,7 +44940,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|21": {
+ "Unit 5 · Vocabulary focus|11|27": {
   "source_text": "   e.g. Maaf, saya lambat.",
   "target_spans": [
    "Maaf, saya lambat."
@@ -44887,7 +44949,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|22": {
+ "Unit 5 · Vocabulary focus|11|28": {
   "source_text": "lewat — late · 遅れて・遅い  [L-1047]",
   "target_spans": [
    "lewat"
@@ -44896,7 +44958,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|23": {
+ "Unit 5 · Vocabulary focus|11|29": {
   "source_text": "   e.g. Semalam saya balik lewat.",
   "target_spans": [
    "Semalam saya balik lewat."
@@ -44905,7 +44967,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|24": {
+ "Unit 5 · Vocabulary focus|11|30": {
   "source_text": "sudah / dah (spoken) — already, done (standard sudah; spoken dah) · もう〜した  [L-0193]",
   "target_spans": [
    "sudah",
@@ -44917,7 +44979,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|25": {
+ "Unit 5 · Vocabulary focus|12|0": {
   "source_text": "   e.g. Sudah kenyang? (spoken: Dah kenyang?)",
   "target_spans": [
    "Sudah kenyang?",
@@ -44927,7 +44989,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|26": {
+ "Unit 5 · Vocabulary focus|12|1": {
   "source_text": "belum — not yet · まだ〜していない  [L-0194]",
   "target_spans": [
    "belum"
@@ -44936,7 +44998,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|27": {
+ "Unit 5 · Vocabulary focus|12|2": {
   "source_text": "   e.g. Belum lapar.",
   "target_spans": [
    "Belum lapar."
@@ -44945,7 +45007,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|28": {
+ "Unit 5 · Vocabulary focus|12|3": {
   "source_text": "masih — still · まだ（〜している）  [L-0191]",
   "target_spans": [
    "masih"
@@ -44954,7 +45016,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|29": {
+ "Unit 5 · Vocabulary focus|12|4": {
   "source_text": "   e.g. Dia masih penat.",
   "target_spans": [
    "Dia masih penat."
@@ -44963,7 +45025,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|11|30": {
+ "Unit 5 · Vocabulary focus|12|5": {
   "source_text": "payung — umbrella · 傘  [L-0437]",
   "target_spans": [
    "payung"
@@ -44972,7 +45034,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 5 · Vocabulary focus|12|0": {
+ "Unit 5 · Vocabulary focus|12|6": {
   "source_text": "   e.g. Payung saya biru.",
   "target_spans": [
    "Payung saya biru."
@@ -44982,7 +45044,7 @@
   "exclusion": null
  },
  "Unit 5 · Vocabulary focus|13|0": {
-  "source_text": "60 new core entries, 50 Dunia recognition entries and 23 revision entries.",
+  "source_text": "63 new core entries, 50 Dunia recognition entries and 23 revision entries.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
@@ -45391,11 +45453,14 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 5 · Pattern and grammar focus|4|14": {
-  "source_text": "Pattern box: Saya rasa ___ . / Kenapa ___ ? Sebab ___ .",
+  "source_text": "Pattern box: Saya rasa ___ . / Kenapa (= mengapa, apa sebab) ___ ? Sebab (or kerana) ___ .",
   "target_spans": [
    "Saya rasa",
    "Kenapa",
-   "Sebab"
+   "mengapa",
+   "apa sebab",
+   "Sebab",
+   "kerana"
   ],
   "mention_spans": [],
   "kind": "model",
@@ -45432,9 +45497,9 @@
   "exclusion": null
  },
  "Unit 5 · Pattern and grammar focus|4|18": {
-  "source_text": "4. A: Kenapa bos marah? B: Sebab saya lambat.",
+  "source_text": "4. A: Apa sebab bos marah? B: Sebab saya lambat.",
   "target_spans": [
-   "Kenapa bos marah?",
+   "Apa sebab bos marah?",
    "Sebab saya lambat."
   ],
   "mention_spans": [],
@@ -45452,59 +45517,81 @@
   "exclusion": null
  },
  "Unit 5 · Pattern and grammar focus|4|20": {
-  "source_text": "Explanation: rasa before an adjective means \"feel\": Saya rasa penat. Kenapa …? asks for a reason and Sebab … gives it: sebab comes first, then the reason.",
+  "source_text": "6. A: Mengapa awak lambat? B: Kerana hujan.",
   "target_spans": [
-   "rasa",
-   "Saya rasa penat.",
-   "Kenapa …?",
-   "Sebab …",
-   "sebab"
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 5 · Pattern and grammar focus|4|21": {
-  "source_text": "説明：形容詞の前の rasa は「感じる」：Saya rasa penat. Kenapa …? は理由をたずね、Sebab … で答えます。sebab が先、理由があとに来ます。",
-  "target_spans": [
-   "rasa",
-   "Saya rasa penat.",
-   "Kenapa …?",
-   "Sebab …",
-   "sebab"
+   "Mengapa awak lambat?",
+   "Kerana hujan."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 5 · Pattern and grammar focus|5|0": {
-  "source_text": "Japanese helps or misleads: Japanese puts the reason first and から after it (疲れたから). Malay does the reverse: Sebab comes first and the reason follows. kenapa ≈ どうして／なぜ.",
+  "source_text": "Explanation: rasa before an adjective means \"feel\": Saya rasa penat. Kenapa, mengapa and apa sebab all ask \"why\" and are interchangeable: kenapa is the everyday one. Answer with sebab or kerana, mainly; the reason follows the word.",
   "target_spans": [
-   "Sebab",
-   "kenapa"
+   "rasa",
+   "Saya rasa penat.",
+   "Kenapa",
+   "mengapa",
+   "apa sebab",
+   "kenapa",
+   "sebab",
+   "kerana"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 5 · Pattern and grammar focus|5|1": {
-  "source_text": "日本語との比較：日本語は理由を先に言い、あとに「から」を付けます（疲れたから）。マレー語は逆で、Sebab が先に来て理由があとに続きます。kenapa ≈ どうして・なぜ。",
+  "source_text": "説明：形容詞の前の rasa は「感じる」：Saya rasa penat. Kenapa・mengapa・apa sebab はどれも「なぜ」で、言い換えられます（日常でよく使うのは kenapa）。答えは主に sebab か kerana で、理由はそのあとに続きます。",
   "target_spans": [
-   "Sebab",
-   "kenapa"
+   "rasa",
+   "Saya rasa penat.",
+   "Kenapa",
+   "mengapa",
+   "apa sebab",
+   "kenapa",
+   "sebab",
+   "kerana"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 5 · Pattern and grammar focus|5|2": {
+  "source_text": "Japanese helps or misleads: Japanese puts the reason first and から after it (疲れたから). Malay does the reverse: Sebab (or kerana) comes first and the reason follows. kenapa ≈ どうして・なぜ; mengapa and apa sebab say the same thing.",
+  "target_spans": [
+   "Sebab",
+   "kerana",
+   "kenapa",
+   "mengapa",
+   "apa sebab"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 5 · Pattern and grammar focus|5|3": {
+  "source_text": "日本語との比較：日本語は理由を先に言い、あとに「から」を付けます（疲れたから）。マレー語は逆で、Sebab（または kerana）が先に来て理由があとに続きます。kenapa ≈ どうして・なぜで、mengapa と apa sebab も同じ意味です。",
+  "target_spans": [
+   "Sebab",
+   "kerana",
+   "kenapa",
+   "mengapa",
+   "apa sebab"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 5 · Pattern and grammar focus|5|4": {
   "source_text": "■ Pattern 5 · ms-c05-f05",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 5 · Pattern and grammar focus|5|3": {
+ "Unit 5 · Pattern and grammar focus|5|5": {
   "source_text": "Pattern box: Saya mahu ___ , kurang manis, ais sedikit. / Panas atau sejuk?",
   "target_spans": [
    "Saya mahu",
@@ -45516,7 +45603,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 5 · Pattern and grammar focus|5|4": {
+ "Unit 5 · Pattern and grammar focus|5|6": {
   "source_text": "1. A: Encik mahu minum apa? B: Saya mahu teh tarik, kurang manis.",
   "target_spans": [
    "Encik mahu minum apa?",
@@ -45526,7 +45613,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 5 · Pattern and grammar focus|5|5": {
+ "Unit 5 · Pattern and grammar focus|5|7": {
   "source_text": "2. A: Panas atau sejuk? B: Sejuk. Ais sedikit.",
   "target_spans": [
    "Panas atau sejuk?",
@@ -45536,7 +45623,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 5 · Pattern and grammar focus|5|6": {
+ "Unit 5 · Pattern and grammar focus|5|8": {
   "source_text": "3. A: Makan sini atau tapau? B: Makan sini.",
   "target_spans": [
    "Makan sini atau tapau?",
@@ -45546,7 +45633,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 5 · Pattern and grammar focus|5|7": {
+ "Unit 5 · Pattern and grammar focus|5|9": {
   "source_text": "4. A: Mi goreng ini pedas? B: Pedas sedikit, tetapi sedap.",
   "target_spans": [
    "Mi goreng ini pedas?",
@@ -45556,7 +45643,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 5 · Pattern and grammar focus|5|8": {
+ "Unit 5 · Pattern and grammar focus|5|10": {
   "source_text": "5. A: Ada apa lagi? B: Air kosong satu, ya.",
   "target_spans": [
    "Ada apa lagi?",
@@ -45566,7 +45653,17 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 5 · Pattern and grammar focus|5|9": {
+ "Unit 5 · Pattern and grammar focus|5|11": {
+  "source_text": "6. A: Roti canai, dengan kuah? B: Ya, kuah banyak.",
+  "target_spans": [
+   "Roti canai, dengan kuah?",
+   "Ya, kuah banyak."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 5 · Pattern and grammar focus|5|12": {
   "source_text": "Explanation: An order is built in a fixed order: the drink, how sweet it is, hot or cold, and how much ice. kurang manis is a fixed phrase for less sugar; use it only for ordering. air kosong is plain water.",
   "target_spans": [
    "kurang manis",
@@ -45576,7 +45673,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 5 · Pattern and grammar focus|5|10": {
+ "Unit 5 · Pattern and grammar focus|5|13": {
   "source_text": "説明：注文は決まった順番で組み立てます：飲み物、甘さ、温度（熱い・冷たい）、氷の量。kurang manis は砂糖控えめを頼む決まった言い方で、注文のときだけ使います。air kosong はお水です。",
   "target_spans": [
    "kurang manis",
@@ -45586,7 +45683,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 5 · Pattern and grammar focus|5|11": {
+ "Unit 5 · Pattern and grammar focus|5|14": {
   "source_text": "Japanese helps or misleads: It matches the way you customise a drink in Japan (甘さ控えめ、氷少なめ): same slots, same order. Do not build kurang into other sentences yet; comparing things comes in chapter 6.",
   "target_spans": [],
   "mention_spans": [
@@ -45595,7 +45692,7 @@
   "kind": "model",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 5 · Pattern and grammar focus|5|12": {
+ "Unit 5 · Pattern and grammar focus|5|15": {
   "source_text": "日本語との比較：日本で飲み物をカスタムする言い方（甘さ控えめ、氷少なめ）と同じ項目・同じ順番です。kurang を他の文に広げるのは待ちましょう。比較は第6章で学びます。",
   "target_spans": [],
   "mention_spans": [
@@ -45641,9 +45738,14 @@
   "exclusion": null
  },
  "Unit 5 · Pattern and grammar focus|6|4": {
-  "source_text": "Pattern 4: there is no Kata-Kata frame yet for Kenapa …? Sebab …; it is taught here with ms-c05-f04 (see the report).",
+  "source_text": "Pattern 4: there is no Kata-Kata frame yet for Kenapa …? Sebab …; it is taught here with ms-c05-f04 (see the report). Kenapa, mengapa and apa sebab are one question; accept sebab or kerana as the answer.",
   "target_spans": [
-   "Kenapa …? Sebab …"
+   "Kenapa …? Sebab …",
+   "Kenapa",
+   "mengapa",
+   "apa sebab",
+   "sebab",
+   "kerana"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -46399,10 +46501,12 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 5 · Drill 5 · Question-word choice|4|1": {
-  "source_text": "1 Bagaimana 2 Kenapa 3 Apa 4 Berapa 5 Bila 6 Siapa 7 Di mana 8 Bolehkah",
+  "source_text": "1 Bagaimana 2 Kenapa (also Mengapa, Apa sebab) 3 Apa 4 Berapa 5 Bila 6 Siapa 7 Di mana 8 Bolehkah",
   "target_spans": [
    "Bagaimana",
    "Kenapa",
+   "Mengapa",
+   "Apa sebab",
    "Apa",
    "Berapa",
    "Bila",
@@ -46760,7 +46864,7 @@
   "exclusion": null
  },
  "Unit 5 · Cumulative question-word drill|3|0": {
-  "source_text": "Chapters 1 to 5: apa / siapa / di mana / Siapakah (-kah) / Apakah (-kah) / di manakah (-kah) / Adakah / Bolehkah / berapa / bila / pukul berapa / hari apa / bagaimana (spoken: macam mana) / kenapa (answer: sebab)",
+  "source_text": "Chapters 1 to 5: apa / siapa / di mana / Siapakah (-kah) / Apakah (-kah) / di manakah (-kah) / Adakah / Bolehkah / berapa / bila / pukul berapa / hari apa / bagaimana (spoken: macam mana) / kenapa (= mengapa, apa sebab; answer: sebab or kerana)",
   "target_spans": [
    "apa",
    "siapa",
@@ -46777,23 +46881,32 @@
    "bagaimana",
    "macam mana",
    "kenapa",
-   "sebab"
+   "mengapa",
+   "apa sebab",
+   "sebab",
+   "kerana"
   ],
   "mention_spans": [],
   "kind": "drill",
   "exclusion": null
  },
  "Unit 5 · Cumulative question-word drill|3|1": {
-  "source_text": "New in chapter 5: bagaimana (how; spoken macam mana), kenapa (why) with the answer sebab (because). / 第5章で増えた疑問語：bagaimana（どう；口語 macam mana）、kenapa（なぜ）と答えの sebab（〜から）。",
+  "source_text": "New in chapter 5: bagaimana (how; spoken macam mana), kenapa (why; the same as mengapa and apa sebab) with the answers sebab and kerana (because). / 第5章で増えた疑問語：bagaimana（どう；口語 macam mana）、kenapa（なぜ；mengapa・apa sebab と同じ）と答えの sebab・kerana（〜から）。",
   "target_spans": [
    "bagaimana",
    "macam mana",
    "kenapa",
+   "mengapa",
+   "apa sebab",
    "sebab",
+   "kerana",
    "bagaimana",
    "macam mana",
    "kenapa",
-   "sebab"
+   "mengapa",
+   "apa sebab",
+   "sebab",
+   "kerana"
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -46893,10 +47006,13 @@
   "exclusion": null
  },
  "Unit 5 · Cumulative question-word drill|3|12": {
-  "source_text": "11. Ask why a colleague is late. (kenapa; the answer starts with sebab)",
+  "source_text": "11. Ask why a colleague is late. (kenapa; also mengapa or apa sebab; the answer starts with sebab or kerana)",
   "target_spans": [
    "kenapa",
-   "sebab"
+   "mengapa",
+   "apa sebab",
+   "sebab",
+   "kerana"
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -46944,12 +47060,15 @@
   "exclusion": null
  },
  "Unit 5 · Cumulative question-word drill|4|4": {
-  "source_text": "10 Bagaimana rasa mi goreng ini? (spoken: Macam mana rasa mi goreng ini?) 11 Kenapa awak lambat? Sebab hujan.",
+  "source_text": "10 Bagaimana rasa mi goreng ini? (spoken: Macam mana rasa mi goreng ini?) 11 Kenapa awak lambat? / Mengapa awak lambat? / Apa sebab awak lambat? Sebab hujan. / Kerana hujan.",
   "target_spans": [
    "Bagaimana rasa mi goreng ini?",
    "Macam mana rasa mi goreng ini?",
    "Kenapa awak lambat?",
-   "Sebab hujan."
+   "Mengapa awak lambat?",
+   "Apa sebab awak lambat?",
+   "Sebab hujan.",
+   "Kerana hujan."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -47267,9 +47386,9 @@
   "exclusion": null
  },
  "Unit 5 · Model conversation|4|2": {
-  "source_text": "Aini: Roti canai dua. Makan sini.",
+  "source_text": "Aini: Roti canai dua, dengan kuah. Makan sini.",
   "target_spans": [
-   "Roti canai dua. Makan sini."
+   "Roti canai dua, dengan kuah. Makan sini."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -47793,9 +47912,9 @@
   "exclusion": null
  },
  "Unit 5 · Reading and writing · A mamak menu|3|7": {
-  "source_text": "Roti canai  RM 2.00",
+  "source_text": "Roti canai (dengan kuah)  RM 2.00",
   "target_spans": [
-   "Roti canai  RM 2.00"
+   "Roti canai (dengan kuah)  RM 2.00"
   ],
   "mention_spans": [],
   "kind": "reading",
@@ -47885,21 +48004,23 @@
   "exclusion": null
  },
  "Unit 5 · Reading and writing · A mamak menu|3|18": {
+  "source_text": "7. What comes with the roti canai?",
+  "target_spans": [
+   "roti canai"
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 5 · Reading and writing · A mamak menu|3|19": {
   "source_text": "■ Write · 書く",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 5 · Reading and writing · A mamak menu|3|19": {
-  "source_text": "Write your order and a friend's order from the menu: drinks (hot or cold, how sweet) and one dish. / メニューから、自分と友達の注文（飲み物の温度と甘さ、料理一つ）を書きましょう。",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "reading",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Unit 5 · Reading and writing · A mamak menu|3|20": {
-  "source_text": "________________________________________",
+  "source_text": "Write your order and a friend's order from the menu: drinks (hot or cold, how sweet) and one dish. / メニューから、自分と友達の注文（飲み物の温度と甘さ、料理一つ）を書きましょう。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
@@ -47919,13 +48040,21 @@
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
+ "Unit 5 · Reading and writing · A mamak menu|3|23": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
  "Unit 5 · Reading and writing · A mamak menu|4|0": {
-  "source_text": "Reading: 1. RM 2.50 / 2. air kosong / 3. mi goreng / 4. RM 2.80 / 5. kurang manis / 6. Saya mahu teh tarik, kurang manis, dan roti canai satu.",
+  "source_text": "Reading: 1. RM 2.50 / 2. air kosong / 3. mi goreng / 4. RM 2.80 / 5. kurang manis / 6. Saya mahu teh tarik, kurang manis, dan roti canai satu. / 7. kuah",
   "target_spans": [
    "air kosong",
    "mi goreng",
    "kurang manis",
-   "Saya mahu teh tarik, kurang manis, dan roti canai satu."
+   "Saya mahu teh tarik, kurang manis, dan roti canai satu.",
+   "kuah"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -48141,16 +48270,16 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 5 · Culture and usage note|3|0": {
-  "source_text": "A drink order at a mamak stall is built in a short sequence: the drink, how sweet it is, and hot or cold with a little ice: teh tarik, kurang manis, ais sedikit. The Kata-Kata scene and the ledger add the rest: makan sini or tapau (take away), and Kira! when you want the bill. A mamak stall is a casual eatery that is often open late, so it is also where people lepak and sembang after work.",
+  "source_text": "A mamak stall is a casual eatery, traditionally run by Indian-Muslim families and often open late, so it is also where people lepak and sembang after work. Use the word for the stall, not for a person. A drink order is built in a short sequence: the drink, how sweet it is, and hot or cold with a little ice: teh tarik, kurang manis, ais sedikit. The Kata-Kata scene and the ledger add the rest: makan sini or tapau (take away), Kira! for the bill, and roti canai dengan kuah (with gravy).",
   "target_spans": [
    "mamak",
+   "lepak",
+   "sembang",
    "teh tarik, kurang manis, ais sedikit",
    "makan sini",
    "tapau",
    "Kira!",
-   "mamak",
-   "lepak",
-   "sembang"
+   "roti canai dengan kuah"
   ],
   "mention_spans": [],
   "kind": "culture",
@@ -48209,16 +48338,16 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 5 · Culture and usage note|3|5": {
-  "source_text": "mamak の店での飲み物の注文は、短い順番で組み立てます：飲み物、甘さ、熱い・冷たい、そして氷を少し：teh tarik, kurang manis, ais sedikit。Kata-Kata の場面と台帳には、ほかに makan sini（店内で食べる）か tapau（持ち帰り）、お会計のときの Kira! があります。mamak は気軽な食堂で、遅くまで開いていることも多く、仕事のあとに lepak（ぶらぶらする）や sembang（おしゃべり）をする場所でもあります。",
+  "source_text": "mamak の店は気軽な食堂で、昔からインド系ムスリムの家族が営むことが多く、遅くまで開いていることもあるので、仕事のあとに lepak（ぶらぶらする）や sembang（おしゃべり）をする場所でもあります。この語は店に使い、人には使いません。飲み物の注文は、短い順番で組み立てます：飲み物、甘さ、熱い・冷たい、そして氷を少し：teh tarik, kurang manis, ais sedikit。Kata-Kata の場面と台帳には、ほかに makan sini（店内で食べる）か tapau（持ち帰り）、お会計の Kira!、そして roti canai dengan kuah（カレーなどのたれ付き）があります。",
   "target_spans": [
    "mamak",
+   "lepak",
+   "sembang",
    "teh tarik, kurang manis, ais sedikit",
    "makan sini",
    "tapau",
    "Kira!",
-   "mamak",
-   "lepak",
-   "sembang"
+   "roti canai dengan kuah"
   ],
   "mention_spans": [],
   "kind": "culture",
@@ -48270,21 +48399,25 @@
   "exclusion": null
  },
  "Unit 5 · Culture and usage note|4|0": {
-  "source_text": "English note: 226 words. The Japanese is a full translation (draft).",
+  "source_text": "English note: 240 words. The Japanese is a full translation (draft).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 5 · Culture and usage note|4|1": {
-  "source_text": "Sources: Kata-Kata chapter 5 scenario \"At the mamak\" (ms-c05-s01 to s11), frame ms-c05-f05 and cards ms-c05-004, -005, -025, -054 and -055; ledger L-0931, L-0936, L-0937, L-0938 and L-0941 (mamak, kopi O, tapau, makan sini, Kira!); CIA World Factbook, Malaysia, \"Flag description\" (red, white, blue and yellow); Encyclopaedia Britannica, Malaysia, \"Climate\" (hot and humid all year; not checked against MetMalaysia). No faith-specific, dated or legal facts in this note.",
+  "source_text": "Sources: Kata-Kata chapter 5 scenario \"At the mamak\" (ms-c05-s01 to s11), frame ms-c05-f05 and cards ms-c05-004, -005, -025, -054 and -055; ledger L-0931, L-0936, L-0937, L-0938, L-0941 and L-1048 (mamak, kopi O, tapau, makan sini, Kira!, kuah); Wikipedia, \"Mamak stall\" and \"Mamak people\" (stalls serve Tamil Muslim-derived food and are run by that community; the word is best kept for the stall, not for people; Rank 3, not checked against a primary source); CIA World Factbook, Malaysia, \"Flag description\" (red, white, blue and yellow); Encyclopaedia Britannica, Malaysia, \"Climate\" (hot and humid all year; not checked against MetMalaysia). The note names the community that traditionally runs mamak stalls (Sam approved this on 12 Nov 2026); it has no food rules, religious expressions, dated or legal facts.",
   "target_spans": [
    "mamak",
    "mamak",
    "kopi O",
    "tapau",
    "makan sini",
-   "Kira!"
+   "Kira!",
+   "kuah",
+   "Mamak",
+   "Mamak",
+   "mamak"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -48688,9 +48821,10 @@
   "exclusion": null
  },
  "Unit 5 · Unit test and self-check|5|14": {
-  "source_text": "G2: Sebab hujan.",
+  "source_text": "G2: Sebab hujan. or Kerana hujan.",
   "target_spans": [
-   "Sebab hujan."
+   "Sebab hujan.",
+   "Kerana hujan."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -48988,9 +49122,10 @@
   "exclusion": null
  },
  "test:ms-c05-test-15|answer_key": {
-  "source_text": "Sebab hujan.",
+  "source_text": "Sebab hujan. or Kerana hujan.",
   "target_spans": [
-   "Sebab hujan."
+   "Sebab hujan.",
+   "Kerana hujan."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -49386,22 +49521,22 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 5 · Teaching plan and answer key|4|15": {
-  "source_text": "Load: 60 core words in six groups. Teach one or two groups per block and keep recycling them; the Dunia words are for recognition only.",
+  "source_text": "Load: 63 core words in six groups. Route 1 (whole unit): tastes and the question and linking words in Block A; colours, size and shape in Block B; feelings and states, hot, cold, food and drink in Blocks C and D; Block E recycles all of them in the Dunia scenes. Route 2 (A/B in the pilot): split the same plan into two halves, Blocks A and B on tastes, the question and linking words, hot, cold, food and drink and ordering, then Blocks C and D on colours, size and shape and feelings. Note which route needs fewer repeats. The Dunia words are for recognition only.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 5 · Teaching plan and answer key|4|16": {
-  "source_text": "Standard first: mahu, tetapi, bagaimana, jingga. The spoken forms nak, tapi, macam mana and oren are marked spoken; accept them in pair work once the standard form is on the board.",
+  "source_text": "Standard first: mahu, tetapi, bagaimana. The spoken forms nak, tapi and macam mana are marked spoken; accept them in pair work once the standard form is on the board. jingga and oren are both correct for orange (Sam, 12 Nov 2026).",
   "target_spans": [
    "mahu",
    "tetapi",
    "bagaimana",
-   "jingga",
    "nak",
    "tapi",
    "macam mana",
+   "jingga",
    "oren"
   ],
   "mention_spans": [],
@@ -49432,12 +49567,19 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 5 · Teaching plan and answer key|4|19": {
-  "source_text": "rasa is a noun (taste: Bagaimana rasa …?) and a verb (to feel: Saya rasa penat.). tawar is \"bland\" here; learners met it as \"to bargain\" in chapter 3. seronok and tawar were recognition words earlier and are core here because the ledger places them in chapter 5.",
+ "Unit 5 · Teaching plan and answer key|5|0": {
+  "source_text": "rasa is a noun (taste: Bagaimana rasa …?) and a verb (to feel: Saya rasa penat.). Kenapa, mengapa and apa sebab are equivalents (Sam, 12 Nov 2026); answer with sebab or kerana, mainly. Use kenapa in everyday talk and let learners hear mengapa as the same question. tawar is \"bland\" here; learners met it as \"to bargain\" in chapter 3. seronok and tawar were recognition words earlier and are core here because the ledger places them in chapter 5.",
   "target_spans": [
    "rasa",
    "Bagaimana rasa …?",
    "Saya rasa penat.",
+   "Kenapa",
+   "mengapa",
+   "apa sebab",
+   "sebab",
+   "kerana",
+   "kenapa",
+   "mengapa",
    "tawar",
    "seronok",
    "tawar"
@@ -49446,30 +49588,32 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 5 · Teaching plan and answer key|5|0": {
-  "source_text": "Clinic scene: symptoms only (demam, batuk, sakit kepala, perut, tekak). Do not teach diagnoses, medicines or doses. The ledger word rumah sakit is recognition only; in Malaysia people usually say hospital (chapter 7).",
+ "Unit 5 · Teaching plan and answer key|5|1": {
+  "source_text": "Clinic scene: symptoms only (demam, batuk, sakit kepala, perut, tekak). Do not teach diagnoses, medicines or doses. hospital is the recognition word for the hospital here and a taught word in chapter 7; the Indonesian-leaning rumah sakit is not taught (Sam, 12 Nov 2026).",
   "target_spans": [
    "demam",
    "batuk",
    "sakit kepala",
    "perut",
    "tekak",
-   "rumah sakit"
+   "hospital"
   ],
   "mention_spans": [
-   "hospital"
+   "rumah sakit"
   ],
   "kind": "plan",
   "exclusion": null
  },
- "Unit 5 · Teaching plan and answer key|5|1": {
-  "source_text": "No food rules or religious expressions are taught in this unit. Ask Sam before adding any.",
-  "target_spans": [],
+ "Unit 5 · Teaching plan and answer key|5|2": {
+  "source_text": "No food rules or religious expressions are taught in this unit. Ask Sam before adding any. The culture note says who traditionally runs a mamak stall, as Sam approved on 12 Nov 2026.",
+  "target_spans": [
+   "mamak"
+  ],
   "mention_spans": [],
   "kind": "plan",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
- "Unit 5 · Teaching plan and answer key|5|2": {
+ "Unit 5 · Teaching plan and answer key|5|3": {
   "source_text": "Dunia words from the four scenes are for recognition in Block E only.",
   "target_spans": [],
   "mention_spans": [],
@@ -49611,10 +49755,11 @@
   "exclusion": null
  },
  "Unit 5 · Writing block · A short description|3|10": {
-  "source_text": "☐ tetapi joins two contrasting ideas; sebab comes before the reason.",
+  "source_text": "☐ tetapi joins two contrasting ideas; sebab (or kerana) comes before the reason.",
   "target_spans": [
    "tetapi",
-   "sebab"
+   "sebab",
+   "kerana"
   ],
   "mention_spans": [],
   "kind": "reading",
@@ -52490,11 +52635,15 @@
   "exclusion": null
  },
  "Chapter 5 · Fast-course summary pack|4|5": {
-  "source_text": "Remember: the adjective comes after the noun and never changes; tidak goes before an adjective, bukan before a noun. sebab comes before the reason. kurang manis is a fixed ordering phrase; comparing things comes in chapter 6.",
+  "source_text": "Remember: the adjective comes after the noun and never changes; tidak goes before an adjective, bukan before a noun. sebab (or kerana) comes before the reason; kenapa, mengapa and apa sebab all mean \"why\". kurang manis is a fixed ordering phrase; comparing things comes in chapter 6.",
   "target_spans": [
    "tidak",
    "bukan",
    "sebab",
+   "kerana",
+   "kenapa",
+   "mengapa",
+   "apa sebab",
    "kurang manis"
   ],
   "mention_spans": [],
@@ -52502,11 +52651,15 @@
   "exclusion": null
  },
  "Chapter 5 · Fast-course summary pack|4|6": {
-  "source_text": "形容詞は名詞のあとに置き、形は変わりません。否定は形容詞の前に tidak、名詞の前に bukan。sebab は理由の前に置きます。kurang manis は注文の決まった言い方で、比べる言い方は第6章で学びます。",
+  "source_text": "形容詞は名詞のあとに置き、形は変わりません。否定は形容詞の前に tidak、名詞の前に bukan。sebab（または kerana）は理由の前に置き、kenapa・mengapa・apa sebab はどれも「なぜ」です。kurang manis は注文の決まった言い方で、比べる言い方は第6章で学びます。",
   "target_spans": [
    "tidak",
    "bukan",
    "sebab",
+   "kerana",
+   "kenapa",
+   "mengapa",
+   "apa sebab",
    "kurang manis"
   ],
   "mention_spans": [],
@@ -52634,7 +52787,7 @@
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 5 · Fast-course summary pack|4|21": {
+ "Chapter 5 · Fast-course summary pack|5|0": {
   "source_text": "Change of plan: the mi goreng is finished. Choose roti canai or nasi, then order for a friend who wants a hot drink.",
   "target_spans": [
    "mi goreng",
@@ -52645,7 +52798,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 5 · Fast-course summary pack|5|0": {
+ "Chapter 5 · Fast-course summary pack|5|1": {
   "source_text": "A：mamak の店で、甘さ控えめ・氷少なめの冷たい飲み物を注文し、mi goreng の味をたずねます。変更：mi goreng が売り切れ。別の料理を選び、友達の熱い飲み物も頼みます。",
   "target_spans": [
    "mamak",
@@ -52656,96 +52809,99 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 5 · Fast-course summary pack|5|1": {
+ "Chapter 5 · Fast-course summary pack|5|2": {
   "source_text": "■ Self-check · できるチェック",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 5 · Fast-course summary pack|5|2": {
+ "Chapter 5 · Fast-course summary pack|5|3": {
   "source_text": "☐ 1. Say \"This tea is sweet.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 5 · Fast-course summary pack|5|3": {
+ "Chapter 5 · Fast-course summary pack|5|4": {
   "source_text": "☐ 2. Ask how this coffee tastes: ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 5 · Fast-course summary pack|5|4": {
+ "Chapter 5 · Fast-course summary pack|5|5": {
   "source_text": "☐ 3. Say you are tired because you got home late yesterday: ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 5 · Fast-course summary pack|5|5": {
+ "Chapter 5 · Fast-course summary pack|5|6": {
   "source_text": "☐ 4. Say you want the blue umbrella: ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 5 · Fast-course summary pack|5|6": {
+ "Chapter 5 · Fast-course summary pack|5|7": {
   "source_text": "☐ 5. Order a tea, less sweet, cold, with a little ice: ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 5 · Fast-course summary pack|5|7": {
+ "Chapter 5 · Fast-course summary pack|5|8": {
   "source_text": "■ Self-study guide · 自習ガイド",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 5 · Fast-course summary pack|5|8": {
+ "Chapter 5 · Fast-course summary pack|5|9": {
   "source_text": "Before the session: Kata-Kata Sedia Kelas c05 (23 cards, frames ms-c05-f01 and ms-c05-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 5 · Fast-course summary pack|5|9": {
-  "source_text": "After the session: all 58 Kata-Kata chapter 5 cards (ms-c05-001 to ms-c05-058; ms-c05-008 sedikit is chapter 2 revision) plus the ledger words kenapa, sebab and kelakar, which have no chapter 5 card yet; frames ms-c05-f01 to ms-c05-f05 in the frame drill and Susun Ayat.",
+ "Chapter 5 · Fast-course summary pack|5|10": {
+  "source_text": "After the session: all 58 Kata-Kata chapter 5 cards (ms-c05-001 to ms-c05-058; ms-c05-008 sedikit is chapter 2 revision) plus the ledger words kenapa, mengapa, sebab, kerana, kuah and kelakar, which have no chapter 5 card yet; frames ms-c05-f01 to ms-c05-f05 in the frame drill and Susun Ayat.",
   "target_spans": [
    "sedikit",
    "kenapa",
+   "mengapa",
    "sebab",
+   "kerana",
+   "kuah",
    "kelakar"
   ],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": null
  },
- "Chapter 5 · Fast-course summary pack|5|10": {
+ "Chapter 5 · Fast-course summary pack|5|11": {
   "source_text": "Dunia scenes (recognise only): \"Masak nasi goreng\", \"Di klinik\", \"Gambar bayi\" and \"Lepak di kedai mamak\".",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 5 · Fast-course summary pack|5|11": {
+ "Chapter 5 · Fast-course summary pack|5|12": {
   "source_text": "Optional full-course Cikgu Sensai unit: unit 5 (adjectives, with its writing block).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 5 · Fast-course summary pack|5|12": {
+ "Chapter 5 · Fast-course summary pack|5|13": {
   "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 5 · Fast-course summary pack|5|13": {
+ "Chapter 5 · Fast-course summary pack|5|14": {
   "source_text": "授業後：第5章のカードと Dunia の4場面を復習しましょう。自習の目安は約9〜10時間です。",
   "target_spans": [],
   "mention_spans": [],

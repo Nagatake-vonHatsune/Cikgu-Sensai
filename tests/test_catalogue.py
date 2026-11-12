@@ -78,5 +78,5 @@ class CatalogueTests(unittest.TestCase):
         with ZipFile(ROOT/'dist/Cikgu-Sensai-offline.zip') as z:
             self.assertFalse(any('restructure-issues.' in n for n in z.namelist()))
         roots=json.loads((ROOT/'curriculum/malay-roots.json').read_text())['roots']
-        self.assertEqual(set(roots),{'beri','mesej','memang','mesti','beritahu'})
+        self.assertEqual(set(roots),{'beri','mesej','memang','mesti','beritahu','mengapa'})
 if __name__=='__main__': unittest.main()

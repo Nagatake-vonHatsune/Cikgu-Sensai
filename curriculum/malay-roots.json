@@ -4,8 +4,9 @@
     "mesej",
     "memang",
     "mesti",
-    "beritahu"
+    "beritahu",
+    "mengapa"
   ],
-  "authority": "Sam, chat instruction, 2026-11-11",
+  "authority": "Sam, chat instruction, 2026-11-11; mengapa added 2026-11-12 (Sam: kenapa, mengapa and apa sebab are equivalents; ledger L-1049)",
   "note": "Root classifications only; no ledger addition."
 }

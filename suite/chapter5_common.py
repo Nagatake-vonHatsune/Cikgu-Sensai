@@ -22,7 +22,7 @@ GRAMMAR5 = {
 QUESTIONS = ['«apa»', '«siapa»', '«di mana»', '«Siapakah» (-kah)', '«Apakah» (-kah)',
              '«di manakah» (-kah)', '«Adakah»', '«Bolehkah»', '«berapa»',
              '«bila»', '«pukul berapa»', '«hari apa»',
-             '«bagaimana» (spoken: «macam mana»)', '«kenapa» (answer: «sebab»)']
+             '«bagaimana» (spoken: «macam mana»)', '«kenapa» (= «mengapa», «apa sebab»; answer: «sebab» or «kerana»)']
 
 DUNIA_SCENES = ('Masak nasi goreng', 'Di klinik', 'Gambar bayi', 'Lepak di kedai mamak')
 
@@ -140,7 +140,7 @@ def components(ledger, cfg):
     add('drill-question-word-set', 'Drill', 'Cumulative question-word drill', 'D', 5, [
         ('Cumulative set · これまでの疑問語', [
             'Chapters 1 to 5: ' + ' / '.join(QUESTIONS),
-            'New in chapter 5: «bagaimana» (how; spoken «macam mana»), «kenapa» (why) with the answer «sebab» (because). / 第5章で増えた疑問語：«bagaimana»（どう；口語 «macam mana»）、«kenapa»（なぜ）と答えの «sebab»（〜から）。',
+            'New in chapter 5: «bagaimana» (how; spoken «macam mana»), «kenapa» (why; the same as «mengapa» and «apa sebab») with the answers «sebab» and «kerana» (because). / 第5章で増えた疑問語：«bagaimana»（どう；口語 «macam mana»）、«kenapa»（なぜ；«mengapa»・«apa sebab» と同じ）と答えの «sebab»・«kerana»（〜から）。',
             *numbered(cfg['question_tasks'])])],
         ['Model questions in order:', *cfg['question_keys']],
         ('第1章から第5章までの疑問語をすべて使って質問します。',

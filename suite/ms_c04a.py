@@ -217,6 +217,7 @@ CFG = dict(
     core_groups=[('Telling the time', CLOCK), ('Days and dates', DAYS + ['L-1032']), ('Months', MONTHS), ('How often and when', FREQ)],
     grammar=['clock', 'days', 'frequency', 'when'], examples=EXAMPLES,
     dunia_list='"Hujan petang" and "Cuti ke pantai"',
+    dunia_list_ja='「Hujan petang」「Cuti ke pantai」',
     goals={'A': 'I can tell the time, name the days and say how often I do something.',
            'B': 'I can ask and answer when something happens with «bila», «hari apa» and «pukul berapa».',
            'C': 'I can understand a class timetable and arrange a weekly activity.',

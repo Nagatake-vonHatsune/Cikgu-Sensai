@@ -1,7 +1,8 @@
 """Unit 5: adjectives (tastes, colours, sizes, feelings, hot and cold, food and drink), «bagaimana», «kenapa» and «sebab».
 
-60 core ledger entries in six themed groups (the 58 placed in chapter 5, plus «seronok» and «tawar», which
-the ledger places in chapter 5 although 4A and 3B only showed them as Dunia recognition words);
+63 core ledger entries in six themed groups (the 61 placed in chapter 5 only, plus «seronok» and «tawar», which
+the ledger places in chapter 5 although 4A and 3B only showed them as Dunia recognition words; «kuah», «mengapa»
+and «kerana» were added to the ledger on Sam's instruction on 12 Nov 2026);
 50 Dunia recognition entries in four scenes ("Masak nasi goreng", "Di klinik", "Gambar bayi",
 "Lepak di kedai mamak"); words from chapters 1 to 4 that return here are listed as revision.
 All prices, names and situations are fictional. Japanese is a draft awaiting native review.
@@ -14,14 +15,14 @@ COLOURS = ['L-0225', 'L-0226', 'L-0227', 'L-0228', 'L-0229', 'L-0230', 'L-0231',
 SIZES = ['L-0237', 'L-0238', 'L-0239', 'L-0240', 'L-0241', 'L-0242', 'L-0243', 'L-0244']
 FEELINGS = ['L-0245', 'L-0246', 'L-0247', 'L-0248', 'L-0249', 'L-0250', 'L-0251', 'L-0252', 'L-0253',
             'L-0254', 'L-0255', 'L-0455', 'L-1008']
-FOOD = ['L-0256', 'L-0257', 'L-0258', 'L-0259', 'L-0260', 'L-0261', 'L-0262', 'L-0263', 'L-0264']
-LINKS = ['L-0210', 'L-0211', 'L-1009', 'L-0688', 'L-0212', 'L-0214', 'L-0215', 'L-0213', 'L-0217']
+FOOD = ['L-0256', 'L-0257', 'L-0258', 'L-0259', 'L-0260', 'L-0261', 'L-0262', 'L-0263', 'L-0264', 'L-1048']
+LINKS = ['L-0210', 'L-0211', 'L-1009', 'L-1049', 'L-0688', 'L-1050', 'L-0212', 'L-0214', 'L-0215', 'L-0213', 'L-0217']
 CORE = TASTES + COLOURS + SIZES + FEELINGS + FOOD + LINKS
 
 NASI = ['L-0456', 'L-0457', 'L-0458', 'L-0459', 'L-0460', 'L-0461', 'L-0462', 'L-0463', 'L-0464', 'L-0465',
         'L-0466', 'L-0467', 'L-0468', 'L-0469', 'L-0470']
 KLINIK = ['L-0406', 'L-0407', 'L-0408', 'L-0409', 'L-0410', 'L-0411', 'L-0412', 'L-0413', 'L-0414', 'L-0415',
-          'L-0416', 'L-0417']
+          'L-0336', 'L-0417']
 BAYI = ['L-0919', 'L-0920', 'L-0921', 'L-0922', 'L-0923', 'L-0924', 'L-0925', 'L-0926', 'L-0927', 'L-0928',
         'L-0929', 'L-0930']
 MAMAK = ['L-0931', 'L-0932', 'L-0933', 'L-0934', 'L-0935', 'L-0936', 'L-0937', 'L-0938', 'L-0939', 'L-0940',
@@ -44,7 +45,7 @@ EXAMPLES = {
     # Colours
     'L-0225': '«Warna apa?» «Warna biru.»',
     'L-0226': '«Cili ini merah.»',
-    'L-0227': '«Payung saya jingga.» (spoken: «oren»)',
+    'L-0227': '«Payung saya jingga.» / «Payung saya oren.»',
     'L-0228': '«Pisang ini kuning.»',
     'L-0229': '«Mangga ini hijau.»',
     'L-0230': '«Langit hari ini biru.»',
@@ -90,7 +91,10 @@ EXAMPLES = {
     # Question and linking words
     'L-0210': '«Bagaimana rasa mi goreng ini?»',
     'L-0211': '«Macam mana? Sedap?» (spoken; standard «bagaimana»)',
-    'L-1009': '«Kenapa encik penat?»',
+    'L-1009': '«Kenapa encik penat?» (everyday)',
+    'L-1049': '«Mengapa encik penat?» (same meaning as «kenapa»; also «Apa sebab encik penat?»)',
+    'L-1050': '«Kerana hujan.» (same use as «sebab»)',
+    'L-1048': '«Roti canai dengan kuah.»',
     'L-0688': '«Kenapa lambat?» «Sebab hujan.»',
     'L-0212': '«Saya mahu payung yang biru.»',
     'L-0214': '«Panas atau sejuk?»',
@@ -124,7 +128,7 @@ EXAMPLES = {
     'L-0413': '«Saya sakit kepala.»',
     'L-0414': '«Perut saya sakit.»',
     'L-0415': '«Tekak saya sakit.»',
-    'L-0416': '«Dia di rumah sakit.»',
+    'L-0336': '«Dia di hospital.»',
     'L-0417': '«Saya mahu rehat.»',
     # Dunia · Gambar bayi (recognition)
     'L-0919': '«Bayi itu tidur.»',
@@ -180,15 +184,16 @@ VOCAB_OPTS = {
     'L-0211': {'display': '«macam mana» (spoken)', 'en': 'how (spoken form of «bagaimana»)'},
     'L-0213': {'display': '«mahu» / «nak» (spoken)', 'en': 'to want (spoken «nak»)'},
     'L-0215': {'display': '«tetapi» / «tapi» (spoken)', 'en': 'but (spoken «tapi»)'},
-    'L-0227': {'display': '«jingga» (spoken: «oren»)', 'en': 'orange (the colour)'},
+    'L-0227': {'display': '«jingga» / «oren»', 'en': 'orange (the colour; both forms are used)'},
     'L-0261': {'display': '«teh» / «kopi»'},
     'L-0520': {'en': 'bland, unsweetened (in chapter 3: to bargain)'},
-    'L-1009': {'en': 'why'},
-    'L-0688': {'en': 'because; the reason (the answer to «kenapa»)'},
+    'L-1009': {'en': 'why (same as «mengapa» and «apa sebab»)'},
+    'L-0688': {'en': 'because; the reason (an answer to «kenapa»)'},
+    'L-1049': {'en': 'why (same as «kenapa» and «apa sebab»)'},
+    'L-1050': {'en': 'because (answers «kenapa» like «sebab»)'},
     'L-0224': {'en': 'less sweet (less sugar)'},
-    'L-0416': {'en': 'hospital (in Malaysia people usually say ‹hospital›, a chapter 7 word)'},
     'L-0940': {'display': '«tak apa» (spoken)'},
-    'L-0931': {'en': 'a casual eatery, often open late', 'ja': 'ママッ（深夜まで開いていることも多い大衆食堂）'},
+    'L-0931': {'en': '«mamak» stall (Indian-Muslim eatery, often open late)', 'ja': 'ママッ（インド系ムスリムの大衆食堂、深夜営業も多い）'},
     'L-0935': {'en': '«roti canai» (flaky flatbread eaten with curry)'},
     'L-0941': {'en': 'to count; «Kira!» = the bill, please'},
     'L-0930': {'en': 'like, similar to (spoken)'},
@@ -228,22 +233,24 @@ P = [
      '«yang» は「〜なもの」。«yang biru» は青いものです。相手が名詞を分かっていれば省けます：«Saya mahu yang hitam.» «atau» は選択肢を出します。«mahu» は「欲しい・〜したい」で、話し言葉では «nak» も聞きます。',
      '«yang biru» works like the 青いの in 青いのをください: it points at one thing among several. For a plain description the bare adjective is enough («payung biru»).',
      '«yang biru» は「青いのをください」の「青いの」に近く、いくつかの中から一つを指します。ただ描写するだけなら形容詞だけで十分です（«payung biru»）。'),
-    ('ms-c05-f04', '«Saya rasa» ___ . / «Kenapa» ___ ? «Sebab» ___ .', [
+    ('ms-c05-f04', '«Saya rasa» ___ . / «Kenapa» (= «mengapa», «apa sebab») ___ ? «Sebab» (or «kerana») ___ .', [
         'A: «Encik rasa bagaimana hari ini?» B: «Saya rasa penat.»',
         'A: «Kenapa encik penat?» B: «Sebab semalam saya tidur lewat.»',
         'A: «Kenapa awak tidak makan?» B: «Sebab saya belum lapar.»',
-        'A: «Kenapa bos marah?» B: «Sebab saya lambat.»',
-        'A: «Kenapa encik gembira?» B: «Sebab hari ini hari cuti.»'],
-     '«rasa» before an adjective means "feel": «Saya rasa penat.» «Kenapa …?» asks for a reason and «Sebab …» gives it: «sebab» comes first, then the reason.',
-     '形容詞の前の «rasa» は「感じる」：«Saya rasa penat.» «Kenapa …?» は理由をたずね、«Sebab …» で答えます。«sebab» が先、理由があとに来ます。',
-     'Japanese puts the reason first and から after it (疲れたから). Malay does the reverse: «Sebab» comes first and the reason follows. «kenapa» ≈ どうして／なぜ.',
-     '日本語は理由を先に言い、あとに「から」を付けます（疲れたから）。マレー語は逆で、«Sebab» が先に来て理由があとに続きます。«kenapa» ≈ どうして・なぜ。'),
+        'A: «Apa sebab bos marah?» B: «Sebab saya lambat.»',
+        'A: «Kenapa encik gembira?» B: «Sebab hari ini hari cuti.»',
+        'A: «Mengapa awak lambat?» B: «Kerana hujan.»'],
+     '«rasa» before an adjective means "feel": «Saya rasa penat.» «Kenapa», «mengapa» and «apa sebab» all ask "why" and are interchangeable: «kenapa» is the everyday one. Answer with «sebab» or «kerana», mainly; the reason follows the word.',
+     '形容詞の前の «rasa» は「感じる」：«Saya rasa penat.» «Kenapa»・«mengapa»・«apa sebab» はどれも「なぜ」で、言い換えられます（日常でよく使うのは «kenapa»）。答えは主に «sebab» か «kerana» で、理由はそのあとに続きます。',
+     'Japanese puts the reason first and から after it (疲れたから). Malay does the reverse: «Sebab» (or «kerana») comes first and the reason follows. «kenapa» ≈ どうして・なぜ; «mengapa» and «apa sebab» say the same thing.',
+     '日本語は理由を先に言い、あとに「から」を付けます（疲れたから）。マレー語は逆で、«Sebab»（または «kerana»）が先に来て理由があとに続きます。«kenapa» ≈ どうして・なぜで、«mengapa» と «apa sebab» も同じ意味です。'),
     ('ms-c05-f05', '«Saya mahu» ___ , «kurang manis», «ais sedikit». / «Panas atau sejuk?»', [
         'A: «Encik mahu minum apa?» B: «Saya mahu teh tarik, kurang manis.»',
         'A: «Panas atau sejuk?» B: «Sejuk. Ais sedikit.»',
         'A: «Makan sini atau tapau?» B: «Makan sini.»',
         'A: «Mi goreng ini pedas?» B: «Pedas sedikit, tetapi sedap.»',
-        'A: «Ada apa lagi?» B: «Air kosong satu, ya.»'],
+        'A: «Ada apa lagi?» B: «Air kosong satu, ya.»',
+        'A: «Roti canai, dengan kuah?» B: «Ya, kuah banyak.»'],
      'An order is built in a fixed order: the drink, how sweet it is, hot or cold, and how much ice. «kurang manis» is a fixed phrase for less sugar; use it only for ordering. «air kosong» is plain water.',
      '注文は決まった順番で組み立てます：飲み物、甘さ、温度（熱い・冷たい）、氷の量。«kurang manis» は砂糖控えめを頼む決まった言い方で、注文のときだけ使います。«air kosong» はお水です。',
      'It matches the way you customise a drink in Japan (甘さ控えめ、氷少なめ): same slots, same order. Do not build ‹kurang› into other sentences yet; comparing things comes in chapter 6.',
@@ -271,7 +278,7 @@ VARIANT = [
     ('Rashid', 'Panas atau sejuk?'),
     ('Aini', 'Panas, ya. Tidak mahu ais.'),
     ('Rashid', 'Puan mahu makan apa?'),
-    ('Aini', 'Roti canai dua. Makan sini.'),
+    ('Aini', 'Roti canai dua, dengan kuah. Makan sini.'),
     ('Rashid', 'Baik, puan. Roti canai kami nipis dan sedap.'),
     ('Aini', 'Baik, terima kasih.'),
     ('Rashid (later)', 'Bagaimana rasa roti canai itu, puan?'),
@@ -299,13 +306,13 @@ LISTENING = [
 ]
 
 CULTURE = [
-    'A drink order at a «mamak» stall is built in a short sequence: the drink, how sweet it is, and hot or cold with a little ice: «teh tarik, kurang manis, ais sedikit». The Kata-Kata scene and the ledger add the rest: «makan sini» or «tapau» (take away), and «Kira!» when you want the bill. A «mamak» stall is a casual eatery that is often open late, so it is also where people «lepak» and «sembang» after work.',
+    'A «mamak» stall is a casual eatery, traditionally run by Indian-Muslim families and often open late, so it is also where people «lepak» and «sembang» after work. Use the word for the stall, not for a person. A drink order is built in a short sequence: the drink, how sweet it is, and hot or cold with a little ice: «teh tarik, kurang manis, ais sedikit». The Kata-Kata scene and the ledger add the rest: «makan sini» or «tapau» (take away), «Kira!» for the bill, and «roti canai dengan kuah» (with gravy).',
     'Drink names are short. Kata-Kata notes that ‹teh O› is tea without milk, and the ledger lists «kopi O» as black coffee with sugar, so «kurang manis» is how you ask for less sugar. «Air kosong» is plain water; Kata-Kata links «kosong» to the chapter 3 word for zero and empty.',
     'Colour words are easy to meet on the street. The national flag, the Jalur Gemilang, is red, white, blue and yellow: «merah», «putih», «biru» and «kuning». Pink is «merah jambu», literally "‹jambu›-fruit red" (Kata-Kata card ms-c05-025). «Yang» lets you point at one thing among several: «yang merah» is "the red one" (card ms-c05-004).',
     'Malaysia is hot and humid throughout the year, so «panas» and «sejuk» are everyday words for the weather as well as for drinks. At the counter you will often hear «nak» for «mahu» («Saya nak teh tarik»); Kata-Kata marks «nak» as spoken (card ms-c05-005).',
 ]
 CULTURE_JA = [
-    '«mamak» の店での飲み物の注文は、短い順番で組み立てます：飲み物、甘さ、熱い・冷たい、そして氷を少し：«teh tarik, kurang manis, ais sedikit»。Kata-Kata の場面と台帳には、ほかに «makan sini»（店内で食べる）か «tapau»（持ち帰り）、お会計のときの «Kira!» があります。«mamak» は気軽な食堂で、遅くまで開いていることも多く、仕事のあとに «lepak»（ぶらぶらする）や «sembang»（おしゃべり）をする場所でもあります。',
+    '«mamak» の店は気軽な食堂で、昔からインド系ムスリムの家族が営むことが多く、遅くまで開いていることもあるので、仕事のあとに «lepak»（ぶらぶらする）や «sembang»（おしゃべり）をする場所でもあります。この語は店に使い、人には使いません。飲み物の注文は、短い順番で組み立てます：飲み物、甘さ、熱い・冷たい、そして氷を少し：«teh tarik, kurang manis, ais sedikit»。Kata-Kata の場面と台帳には、ほかに «makan sini»（店内で食べる）か «tapau»（持ち帰り）、お会計の «Kira!»、そして «roti canai dengan kuah»（カレーなどのたれ付き）があります。',
     '飲み物の名前は短いです。Kata-Kata の注記では ‹teh O› はミルクなしの紅茶で、台帳では «kopi O» が砂糖入りのブラックコーヒーとされているので、砂糖を減らしたいときは «kurang manis» と言います。«Air kosong» はお水です。Kata-Kata は «kosong» を第3章の「ゼロ・空」の語とつなげています。',
     '色の言葉は街でよく目にします。国旗 Jalur Gemilang は赤・白・青・黄色：«merah»、«putih»、«biru»、«kuning» です。ピンクは «merah jambu» で、直訳すると「‹jambu›（果物）の赤」です（Kata-Kata カード ms-c05-025）。«Yang» は複数の中から一つを指します：«yang merah» は「赤いもの」です（カード ms-c05-004）。',
     'マレーシアは一年を通して暑くて湿度が高いので、«panas» と «sejuk» は飲み物だけでなく天気の話でも毎日使う言葉です。カウンターでは «mahu» の代わりに «nak» をよく聞きます（«Saya nak teh tarik»）。Kata-Kata は «nak» を話し言葉としています（カード ms-c05-005）。',
@@ -341,7 +348,7 @@ CFG = dict(
     patterns=P, pattern_ids=['ms-c05-f01', 'ms-c05-f02', 'ms-c05-f03', 'ms-c05-f04', 'ms-c05-f05'],
     pattern_keys=['Pattern 1: if a learner says «bukan manis», model «tidak manis» and ask "Is it a noun or a description?"',
                   'Pattern 2: «macam mana» and «tapi» are spoken forms; accept them in pair work once «bagaimana» and «tetapi» have been practised.',
-                  'Pattern 4: there is no Kata-Kata frame yet for «Kenapa …? Sebab …»; it is taught here with ms-c05-f04 (see the report).',
+                  'Pattern 4: there is no Kata-Kata frame yet for «Kenapa …? Sebab …»; it is taught here with ms-c05-f04 (see the report). «Kenapa», «mengapa» and «apa sebab» are one question; accept «sebab» or «kerana» as the answer.',
                   'Pattern 5: do not let learners build other sentences with ‹kurang› (chapter 6).'],
     dialogue=DIALOGUE, variant=VARIANT,
     drills={
@@ -383,7 +390,7 @@ CFG = dict(
                       '5 «Saya penat sebab ada banyak kerja.» 6 «Saya mahu yang kuning.» 7 «Bagaimana rasa teh ini?» 8 «Saya mahu teh.»'],
         'question and answer': ['1 «Manis.» 2 «Sebab ada banyak kerja.» 3 «Sejuk.» 4 «Yang hitam.»',
                                 '5 «Kenapa encik lambat?» 6 «Warna apa?» 7 «Bagaimana rasa mi goreng ini?» 8 «Berapa harga teh tarik?»'],
-        'question-word choice': ['1 «Bagaimana» 2 «Kenapa» 3 «Apa» 4 «Berapa» 5 «Bila» 6 «Siapa» 7 «Di mana» 8 «Bolehkah»'],
+        'question-word choice': ['1 «Bagaimana» 2 «Kenapa» (also «Mengapa», «Apa sebab») 3 «Apa» 4 «Berapa» 5 «Bila» 6 «Siapa» 7 «Di mana» 8 «Bolehkah»'],
     },
     short_dialogues=[
         ('Encik mahu minum apa?', 'Teh tarik, kurang manis.', 'ordering at a «mamak» stall'),
@@ -407,11 +414,11 @@ CFG = dict(
                     'Ask politely whether you may have plain water. («Bolehkah»)', 'Ask the price of a «teh tarik». («berapa»)',
                     'Ask when lunch is. («bila»)', 'Ask what time lunch starts. («pukul berapa»)',
                     'Ask what day the class is. («hari apa»)', 'Ask how the «mi goreng» tastes. («bagaimana»; spoken «macam mana»)',
-                    'Ask why a colleague is late. («kenapa»; the answer starts with «sebab»)'],
+                    'Ask why a colleague is late. («kenapa»; also «mengapa» or «apa sebab»; the answer starts with «sebab» or «kerana»)'],
     question_keys=['1 «Apa khabar?» 2 «Siapa mahu minuman sejuk?» 3 «Di mana awak?» / «Di manakah awak?»',
                    '4 «Adakah makanan ini pedas?» 5 «Bolehkah saya minta air kosong?» 6 «Berapa harga teh tarik?»',
                    '7 «Bila makan tengah hari?» 8 «Makan tengah hari mula pukul berapa?» 9 «Kelas kita hari apa?»',
-                   '10 «Bagaimana rasa mi goreng ini?» (spoken: «Macam mana rasa mi goreng ini?») 11 «Kenapa awak lambat?» «Sebab hujan.»'],
+                   '10 «Bagaimana rasa mi goreng ini?» (spoken: «Macam mana rasa mi goreng ini?») 11 «Kenapa awak lambat?» / «Mengapa awak lambat?» / «Apa sebab awak lambat?» «Sebab hujan.» / «Kerana hujan.»'],
     listening=LISTENING,
     listening_context='On Monday morning «Puan» Aini asks «Encik» Tanaka about his weekend. / 月曜の朝、アイニ先生が田中さんに週末のことをたずねます。',
     listening_before=['Predict: which food and drink words will Tanaka use? Write three guesses. / 田中さんが使いそうな食べ物・飲み物の語を三つ予想しましょう。',
@@ -443,15 +450,15 @@ CFG = dict(
              '«Kopi O  RM 2.00»',
              '«Air kosong  RM 1.00»',
              '«Makanan»',
-             '«Roti canai  RM 2.00»',
+             '«Roti canai (dengan kuah)  RM 2.00»',
              '«Mi goreng (pedas)  RM 6.50»',
              '«Nasi putih  RM 2.00»',
              '«Teh dan kopi: kurang manis, boleh.»'],
     read_questions=['How much is a hot «teh tarik»?', 'Which drink costs RM 1.00?', 'Which dish is marked spicy?',
                     'You want an iced «teh tarik». How much is it?', 'What can you say if you want less sugar?',
-                    'Order in Malay: a «teh tarik», less sweet, and one «roti canai».'],
+                    'Order in Malay: a «teh tarik», less sweet, and one «roti canai».', 'What comes with the «roti canai»?'],
     read_answers=['RM 2.50', '«air kosong»', '«mi goreng»', 'RM 2.80', '«kurang manis»',
-                  '«Saya mahu teh tarik, kurang manis, dan roti canai satu.»'],
+                  '«Saya mahu teh tarik, kurang manis, dan roti canai satu.»', '«kuah»'],
     write_instruction='Write your order and a friend\'s order from the menu: drinks (hot or cold, how sweet) and one dish. / メニューから、自分と友達の注文（飲み物の温度と甘さ、料理一つ）を書きましょう。',
     write_model='«Saya mahu teh tarik, sejuk, kurang manis. Kawan saya mahu kopi O, panas. Kami mahu roti canai dua dan mi goreng satu. Makan sini.»',
     writing_type='form',
@@ -470,15 +477,16 @@ CFG = dict(
     task_key='«Encik mahu minum apa?» — «Teh tarik, kurang manis. Sejuk, ais sedikit.» — «Mi goreng ini pedas?» — «Pedas sedikit.» — «Ada yang tidak pedas?» — Change: «Mi goreng sudah habis. Roti canai atau nasi putih?» — «Roti canai, ya.» — «Kawan saya mahu kopi O, panas.»',
     culture=CULTURE, culture_ja=CULTURE_JA,
     culture_sources='Kata-Kata chapter 5 scenario "At the «mamak»" (ms-c05-s01 to s11), frame ms-c05-f05 and cards ms-c05-004, -005, -025, -054 and -055; '
-                    'ledger L-0931, L-0936, L-0937, L-0938 and L-0941 («mamak», «kopi O», «tapau», «makan sini», «Kira!»); '
+                    'ledger L-0931, L-0936, L-0937, L-0938, L-0941 and L-1048 («mamak», «kopi O», «tapau», «makan sini», «Kira!», «kuah»); '
+                    'Wikipedia, "«Mamak» stall" and "«Mamak» people" (stalls serve Tamil Muslim-derived food and are run by that community; the word is best kept for the stall, not for people; Rank 3, not checked against a primary source); '
                     'CIA World Factbook, Malaysia, "Flag description" (red, white, blue and yellow); '
                     'Encyclopaedia Britannica, Malaysia, "Climate" (hot and humid all year; not checked against MetMalaysia). '
-                    'No faith-specific, dated or legal facts in this note.',
+                    'The note names the community that traditionally runs «mamak» stalls (Sam approved this on 12 Nov 2026); it has no food rules, religious expressions, dated or legal facts.',
     culture_prompt='What do you say in Japan to customise a drink (sugar, ice)? Which of those slots does Malay put in the same order?',
     quiz_words=['L-0220', 'L-0225', 'L-0243', 'L-0251', 'L-0252', 'L-0228', 'L-0247'],
     quiz_meanings=['sour', 'colour', 'thin', 'full (after eating)', 'thirsty', 'yellow', 'angry'],
     grammar_quiz=[('Complete with the right word: «Saya mahu payung ___ biru.»', '«yang»', ['yang', 'mahu', 'payung']),
-                  ('Answer «Kenapa encik lambat?» with the reason "it is raining".', '«Sebab hujan.»', ['kenapa', 'sebab', 'hujan'])],
+                  ('Answer «Kenapa encik lambat?» with the reason "it is raining".', '«Sebab hujan.» or «Kerana hujan.»', ['kenapa', 'sebab', 'kerana', 'hujan'])],
     test_reading=['Fictional message: «Encik Tanaka, saya penat hari ini. Saya mahu teh tarik, kurang manis. Mi goreng di mamak itu pedas sedikit, tetapi sedap. Jom lepak petang ini! Aini»'],
     reading_quiz=[('How does Aini feel today?', 'tired («penat»)', ['penat']),
                   ('What drink does she want, and how sweet?', '«teh tarik», less sweet', ['teh', 'kurang manis']),
@@ -496,13 +504,13 @@ CFG = dict(
           'D_preview': 'chapter 6 Kata-Kata set (comparatives); the writing block for unit 5 comes first if time allows.',
           'E_recall': 'order a drink: sweetness, hot or cold, ice.',
           'E_variation': 'the dish is finished, or the friend wants something that is not spicy.'},
-    teacher_notes=['Load: 60 core words in six groups. Teach one or two groups per block and keep recycling them; the Dunia words are for recognition only.',
-                   'Standard first: «mahu», «tetapi», «bagaimana», «jingga». The spoken forms «nak», «tapi», «macam mana» and «oren» are marked spoken; accept them in pair work once the standard form is on the board.',
+    teacher_notes=['Load: 63 core words in six groups. Route 1 (whole unit): tastes and the question and linking words in Block A; colours, size and shape in Block B; feelings and states, hot, cold, food and drink in Blocks C and D; Block E recycles all of them in the Dunia scenes. Route 2 (A/B in the pilot): split the same plan into two halves, Blocks A and B on tastes, the question and linking words, hot, cold, food and drink and ordering, then Blocks C and D on colours, size and shape and feelings. Note which route needs fewer repeats. The Dunia words are for recognition only.',
+                   'Standard first: «mahu», «tetapi», «bagaimana». The spoken forms «nak», «tapi» and «macam mana» are marked spoken; accept them in pair work once the standard form is on the board. «jingga» and «oren» are both correct for orange (Sam, 12 Nov 2026).',
                    '«tidak» negates adjectives and verbs; «bukan» negates nouns (chapter 3). Ask: "Is it a noun or a description?"',
                    'No comparatives or superlatives (chapter 6): do not teach ‹lebih›, ‹paling› or ‹kurang› … ‹daripada›. «kurang manis» is a fixed ordering phrase only.',
-                   '«rasa» is a noun (taste: «Bagaimana rasa …?») and a verb (to feel: «Saya rasa penat.»). «tawar» is "bland" here; learners met it as "to bargain" in chapter 3. «seronok» and «tawar» were recognition words earlier and are core here because the ledger places them in chapter 5.',
-                   'Clinic scene: symptoms only («demam», «batuk», «sakit kepala», «perut», «tekak»). Do not teach diagnoses, medicines or doses. The ledger word «rumah sakit» is recognition only; in Malaysia people usually say ‹hospital› (chapter 7).',
-                   'No food rules or religious expressions are taught in this unit. Ask Sam before adding any.',
+                   '«rasa» is a noun (taste: «Bagaimana rasa …?») and a verb (to feel: «Saya rasa penat.»). «Kenapa», «mengapa» and «apa sebab» are equivalents (Sam, 12 Nov 2026); answer with «sebab» or «kerana», mainly. Use «kenapa» in everyday talk and let learners hear «mengapa» as the same question. «tawar» is "bland" here; learners met it as "to bargain" in chapter 3. «seronok» and «tawar» were recognition words earlier and are core here because the ledger places them in chapter 5.',
+                   'Clinic scene: symptoms only («demam», «batuk», «sakit kepala», «perut», «tekak»). Do not teach diagnoses, medicines or doses. «hospital» is the recognition word for the hospital here and a taught word in chapter 7; the Indonesian-leaning ‹rumah sakit› is not taught (Sam, 12 Nov 2026).',
+                   'No food rules or religious expressions are taught in this unit. Ask Sam before adding any. The culture note says who traditionally runs a «mamak» stall, as Sam approved on 12 Nov 2026.',
                    'Dunia words from the four scenes are for recognition in Block E only.'],
     extra=dict(slug='writing-block', title='Writing block · A short description',
                goal='I can write four to six sentences describing a drink, a dish or a day, using adjectives, «tetapi» and «sebab».',
@@ -515,7 +523,7 @@ CFG = dict(
                      'Part 3 (15 min): rewrite your text after the questions, adding one adjective for colour or size.',
                      'パート1：飲み物・料理・場所を選び、4〜6文で描写（色・大きさ・味・温度）。«tetapi» と «sebab» を一回ずつ。パート2：交換して音読し、«Bagaimana …?»・«Kenapa …?» で質問。パート3：質問を受けて、色か大きさの形容詞を一つ足して書き直す。'],
                check=['☐ Each adjective comes after its noun and does not change.', '☐ «tidak» (not «bukan») stands before an adjective.',
-                      '☐ «tetapi» joins two contrasting ideas; «sebab» comes before the reason.',
+                      '☐ «tetapi» joins two contrasting ideas; «sebab» (or «kerana») comes before the reason.',
                       '☐ Standard forms («mahu», «tetapi») are used in writing; spoken forms are not.'],
                answer='«Hari Sabtu saya makan mi goreng di mamak. Mi goreng itu pedas, tetapi sedap. Teh tarik saya sejuk dan kurang manis. Saya kenyang dan gembira sebab makanan sedap.»',
                sub_type='composition', skills=['writing', 'reading'], grammar=['ms-c05-g02', 'ms-c05-g05']),

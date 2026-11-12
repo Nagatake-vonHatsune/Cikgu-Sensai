@@ -54,7 +54,7 @@ def components(ledger, cfg):
                                             'Write one question for Tanya Cikgu before you look at the new words. / 新しい単語を見る前に、Tanya Cikgu への質問を一つ書きましょう。']),
         ('Classroom and home learning · 授業と自習', [
             'Before class: Kata-Kata Sedia Kelas c04 (24 cards, frames ms-c04-f01 and ms-c04-f02). / 授業前：Kata-Kata Sedia Kelas c04（カード24枚、文型 f01・f02）。',
-            f'After class: the chapter 4 cards and the Dunia scenes {cfg["dunia_list"]}. / 授業後：第4章のカードと Dunia の場面 {cfg["dunia_list"]}。',
+            f'After class: the chapter 4 cards and the Dunia scenes {cfg["dunia_list"]}. / 授業後：第4章のカードと Dunia の場面 {cfg.get("dunia_list_ja", cfg["dunia_list"])}。',
             'Self-study planning figure: about three hours for this full-course unit. / 自習の目安：このユニットで約3時間。'])],
         ['Recall is retrieval practice, not a score. Let learners try without notes first, then check together.',
          'Recall answers: ' + cfg['recall_key']],

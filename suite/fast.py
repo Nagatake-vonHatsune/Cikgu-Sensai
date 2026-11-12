@@ -334,8 +334,8 @@ def chapter5(ledger):
                 '3 · «Saya mahu» ___ «yang» ___ .  e.g. «Saya mahu payung yang biru.» / «Panas atau sejuk?» «Sejuk.»',
                 '4 · «Saya rasa» ___ . «Kenapa» ___ ? «Sebab» ___ .  e.g. «Saya rasa penat.» / «Kenapa lambat?» «Sebab hujan.»',
                 '5 · «Saya mahu» ___ , «kurang manis», «ais sedikit».  e.g. «Saya mahu teh tarik, kurang manis.» / «Air kosong satu, ya.»',
-                'Remember: the adjective comes after the noun and never changes; «tidak» goes before an adjective, «bukan» before a noun. «sebab» comes before the reason. «kurang manis» is a fixed ordering phrase; comparing things comes in chapter 6.',
-                '形容詞は名詞のあとに置き、形は変わりません。否定は形容詞の前に «tidak»、名詞の前に «bukan»。«sebab» は理由の前に置きます。«kurang manis» は注文の決まった言い方で、比べる言い方は第6章で学びます。'], 'model'),
+                'Remember: the adjective comes after the noun and never changes; «tidak» goes before an adjective, «bukan» before a noun. «sebab» (or «kerana») comes before the reason; «kenapa», «mengapa» and «apa sebab» all mean "why". «kurang manis» is a fixed ordering phrase; comparing things comes in chapter 6.',
+                '形容詞は名詞のあとに置き、形は変わりません。否定は形容詞の前に «tidak»、名詞の前に «bukan»。«sebab»（または «kerana»）は理由の前に置き、«kenapa»・«mengapa»・«apa sebab» はどれも「なぜ」です。«kurang manis» は注文の決まった言い方で、比べる言い方は第6章で学びます。'], 'model'),
             ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
             ('Task · タスク', [
                 'A: You are at a «mamak» stall. Order a cold drink, less sweet, with a little ice, and ask how the «mi goreng» tastes.',
@@ -350,7 +350,7 @@ def chapter5(ledger):
                 '☐ 5. Order a tea, less sweet, cold, with a little ice: ____________________'], 'test'),
             ('Self-study guide · 自習ガイド', [
                 'Before the session: Kata-Kata Sedia Kelas c05 (23 cards, frames ms-c05-f01 and ms-c05-f02).',
-                'After the session: all 58 Kata-Kata chapter 5 cards (ms-c05-001 to ms-c05-058; ms-c05-008 «sedikit» is chapter 2 revision) plus the ledger words «kenapa», «sebab» and «kelakar», which have no chapter 5 card yet; frames ms-c05-f01 to ms-c05-f05 in the frame drill and Susun Ayat.',
+                'After the session: all 58 Kata-Kata chapter 5 cards (ms-c05-001 to ms-c05-058; ms-c05-008 «sedikit» is chapter 2 revision) plus the ledger words «kenapa», «mengapa», «sebab», «kerana», «kuah» and «kelakar», which have no chapter 5 card yet; frames ms-c05-f01 to ms-c05-f05 in the frame drill and Susun Ayat.',
                 'Dunia scenes (recognise only): "Masak nasi goreng", "Di klinik", "Gambar bayi" and "Lepak di kedai mamak".',
                 'Optional full-course Cikgu Sensai unit: unit 5 (adjectives, with its writing block).',
                 'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',

@@ -60,15 +60,21 @@ class Chapter5Minimums(unittest.TestCase):
     def test_ledger_partition(self):
         rows = self.ledger.rows
         core_all = ch5_core_ids(rows)
-        # 58 entries are placed in chapter 5 and nowhere earlier; «seronok» (L-0455) and «tawar» (L-0520) are
+        # 61 entries are placed in chapter 5 and nowhere earlier: the 58 of the first count plus «kuah», «mengapa»
+        # and «kerana», added on Sam's instruction on 12 Nov 2026. «seronok» (L-0455) and «tawar» (L-0520) are
         # also placed in chapter 5 but were only Dunia recognition words in 4A and 3B, so they are taught here.
-        self.assertEqual(len(core_all), 60)
+        self.assertEqual(len(core_all), 63)
         self.assertEqual(len([l for l in core_all if re.match(r'(Ch ?5|Dunia)', rows[l]['Kata-Kata place'])
-                              and rows[l]['Kata-Kata place'].startswith('Ch')]), 58)
+                              and rows[l]['Kata-Kata place'].startswith('Ch')]), 61)
+        self.assertTrue({'L-1048', 'L-1049', 'L-1050'} <= core_all)
         self.assertEqual({'L-0455', 'L-0520'}, {l for l in core_all if rows[l]['Kata-Kata place'].startswith('Dunia')})
         rec_all = {lid for lid, r in rows.items() if r['Kata-Kata place'].startswith('Dunia')
                    and 'primes Ch5' in r['Kata-Kata place']} - core_all
         self.assertEqual(len(rec_all), 50)
+        # «hospital» replaces «rumah sakit» in the clinic scene (Sam, 12 Nov 2026); the retired row is not used.
+        self.assertIn('L-0336', rec_all)
+        self.assertNotIn('L-0416', rec_all)
+        self.assertEqual(rows['L-0416']['Review status'], 'Retired')
         core = self.cfg['core']
         rec = [lid for _, ids in self.cfg['recognition'] for lid in ids]
         self.assertEqual(len(core), len(set(core)))
@@ -236,7 +242,7 @@ class Chapter5Minimums(unittest.TestCase):
 
     def test_chapter5_malay_rules(self):
         label = re.compile(r'spoken|speech|話し言葉|口語', re.I)
-        spoken_words = {'nak', 'tapi', 'sikit', 'dah', 'tak', 'oren', 'macam', 'tengah'}
+        spoken_words = {'nak', 'tapi', 'sikit', 'dah', 'tak', 'macam', 'tengah'}
         everything = [l for l in self.by_unit[self.u] + self.by_unit['ms-c05-fast']]
         for l in everything:
             lines = [x for _, items, _ in l['sections'] for x in items] + l['key']
@@ -258,6 +264,39 @@ class Chapter5Minimums(unittest.TestCase):
                 # No religious expressions and no medicine instructions.
                 self.assertNotRegex(line.lower(), r'assalam|waalaikum|insya|alhamdulillah|bismillah|halal|haram|doa\b|puasa')
                 self.assertNotRegex(line.lower(), r'\b\d+\s*(mg|ml|tablet|pil)\b')
+
+    def test_sam_decisions_12_nov(self):
+        """Sam's answers to the step 5c report: both orange words, why-words, kuah, hospital, the mamak note."""
+        v = ' '.join(self.lines(self.comp('Vocabulary')))
+        # «jingga» and «oren» are both correct: neither is labelled spoken.
+        self.assertIn('«jingga» / «oren»', v)
+        self.assertNotIn('spoken: «oren»', v)
+        everything = ' '.join(x for l in self.by_unit[self.u] + self.by_unit['ms-c05-fast']
+                              for _, items, _ in l['sections'] for x in items + l['key'])
+        self.assertNotRegex(everything, r'(?i)«[^»]*rumah sakit')  # not taught; named only as a ‹mention› in the teacher notes
+        self.assertIn('«Dia di hospital.»', v)
+        self.assertIn('«kuah»', ' '.join(self.lines(self.comp('Reading and writing'))) + ' '.join(self.comp('Reading and writing')['key']))
+        self.assertIn('«Roti canai dengan kuah.»', v)
+        # Kenapa, mengapa and apa sebab are equivalents; the answers are sebab or kerana.
+        p4 = ' '.join(x for t, xs, _ in self.comp('Pattern and grammar')['sections'] if 'f04' in t for x in xs)
+        for w in ('«Kenapa', '«mengapa»', '«apa sebab»', '«Mengapa awak lambat?»', '«Apa sebab bos marah?»', '«Kerana hujan.»', '«Sebab'):
+            self.assertIn(w, p4, w)
+        qset = ' '.join(self.lines(self.comp('Drill', 'question-word set')))
+        for w in ('«mengapa»', '«apa sebab»', '«kerana»'):
+            self.assertIn(w, qset, w)
+        # The culture note names who traditionally runs a mamak stall (Sam approved it).
+        culture = ' '.join(self.lines(self.comp('Culture note'), 'English'))
+        self.assertIn('Indian-Muslim', culture)
+        self.assertNotRegex(culture.lower(), r'halal|haram|pork|prayer')
+
+    def test_earlier_openers_have_no_leftover_english(self):
+        """Units 4A and 4B had an English "and" in the Japanese opener line; chapter 5 keeps a separate Japanese list."""
+        for unit in ('ms-c04a', 'ms-c04b', 'ms-c05'):
+            opener = next(l for l in self.by_unit[unit] if l['suite']['component_type'] == 'Opener')
+            for line in self.lines(opener):
+                if line.startswith('After class'):
+                    ja = line.split(' / ')[-1]
+                    self.assertNotRegex(ja, r'\band\b', (unit, ja))
 
     def test_fast_pack(self):
         self.assertIn('ms-c05-fast', self.by_unit)

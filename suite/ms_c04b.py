@@ -229,6 +229,7 @@ CFG = dict(
                      'Practise the questions and answers aloud first, then read the explanation. '
                      'Looking ahead (not tested): in writing you will often see ‹ke› ("to") before a place: «pergi» ‹ke› «pejabat», «balik» ‹ke› «rumah». You will learn ‹ke› in chapter 7; for now «pergi kerja» and «balik rumah» are what people say.'),
     dunia_list='"Satu hari Encik Tanaka" and "Bangun pagi"',
+    dunia_list_ja='「Satu hari Encik Tanaka」「Bangun pagi」',
     goals={'A': 'I can describe my daily routine with times and say what I have done, am doing and will do.',
            'B': 'I can ask and answer «Sudah …?» questions and use «belum», «masih» and «pernah».',
            'C': 'I can follow a description of someone\'s day and reply to a message about a changed meeting.',
