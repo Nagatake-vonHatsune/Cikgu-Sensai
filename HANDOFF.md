@@ -2,7 +2,17 @@
 
 Update this file at the end of every session. The next builder (ChatGPT or Claude) starts here, after the charter and `AGENTS.md`.
 
-## Current state
+## Latest session: Stage 2, Batch 1 planning (12 Nov 2026, ChatGPT)
+
+- **Authorised scope:** Sam explicitly authorised the Stage 2 plan and word lists, planning only, and pre-approved publishing `docs/stage-2-plan.md` to main. This supersedes the older “wait for go-ahead” wording for planning only. No Stage 2 suites, ledger writes or checker implementation are authorised.
+- **Completed:** all six sections of `docs/stage-2-plan.md`: 11 teaching units; 67 blocks / 50.25 hours; nine fast packs; 235 proposed core forms (53 existing unplaced rows, 182 proposed new forms); chapter 18 review-only; chapter affix gates; can-do refinements; inspected Hanashishou links; cross-tool build order and seven questions for Sam.
+- **Sources reconciled:** started at `bb72bc5`; preserved concurrent Stage 1 commits `a52c6a0`, `55db51d`, `9d719e8`, and the docs-only hours correction `a4099cf`. Read the updated handoff and `docs/STEP-5i-report.md`. Final ledger copy has L-0001–L-1088; no ledger file was changed by this planning session. The current Google Doc was read and rechecked; Japanese remains draft.
+- **Publication:** sections 1–5 were saved as separate main commits, most recently `3e2c1ac83fc9d1ceebb4c55627fe0e733182dc86`. The final commit is the one containing this note and completed section 6; see its Git history for the exact SHA. Shell push lacked credentials, so commits used the connected GitHub service with current-file/branch checks. No external repository was edited.
+- **Validation:** final full-history build and 153 tests pass against updated main (335 packs, 2,139 pages fit-checked). This is docs-only validation, not approval of proposed Malay/Japanese. Generated PDF/archive changes were excluded. Existing core IDs, uniqueness, prior placements and totals were checked separately.
+- **Half-done work:** none within this planning batch. Dictionary/native review, proposed family mappings, stage-aware checkers, c10–c18, scene adaptations and A2 assessment are future work, not partially built features.
+- **Next and stop point:** Claude reviews the plan with Sam. Sam answers the seven questions at the end of section 6; any approved vocabulary/placement decision must then be recorded in the ledger Journal before a separately authorised ledger session. Do not write Stage 2 rows or suites on the strength of this plan alone. Stage 1 pilot and step 5i questions remain as below.
+
+## Stage 1 state at the step 5i handoff
 
 - **Last updated:** 12 Nov 2026, Claude: step 5i, the Stage 1 follow-ups (Sam's answers to the step 5h questions). Details in `docs/STEP-5i-report.md`.
 - **Stage 1 is complete and awaits Sam's pilot:** chapters 1 to 9 (units 1, 2A, 2B, 3A, 3B, 3C, 4A, 4B, 5, 6, 7, 8, 9 and the nine fast packs), the review blocks after 3A, 4B and 6, the writing blocks after 2B, 3C, 5 and 7, the pronunciation block, the **stage review** after unit 9 and the **A1 stage test** (versions A and B). **Do not start Stage 2 (chapters 10 to 18) before Sam says so.**
