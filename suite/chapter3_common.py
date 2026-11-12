@@ -5,6 +5,34 @@ list and are never tested as new core vocabulary. Japanese remains draft.
 """
 from . import vocab, pattern, turns, english_words
 
+import re
+
+# Annotate previously unmarked chapter 3 Malay examples in English rubrics,
+# glossary explanations and exercise cues. Every resulting «…» span still
+# passes the regular ledger, register, affix and Malaysian-form checks.
+# Neither the source ledger nor the checker rules are loosened.
+SCENE_TITLES = ('Ke bank dan pejabat pos', 'Pasar pagi')
+
+
+def mark_ch3(raw, ledger):
+    from . import ENGLISH_HOMOGRAPHS
+    if not isinstance(raw, str):
+        return raw
+    candidates = [term for term in ledger.checker.entries
+                  if ledger.checker.known_by(term, 3)
+                  and term not in ENGLISH_HOMOGRAPHS
+                  and term != 'ke']
+    # Longest exact ledger phrase wins. This never introduces a new word.
+    terms = sorted(candidates, key=lambda x: (-len(x), x))
+    rx = re.compile(r'(?<![a-z-])(?:' + '|'.join(re.escape(t) for t in terms)
+                    + r')(?![a-z-])', re.IGNORECASE)
+    keep = re.compile(r'(«[^«»]*»|‹[^‹›]*›|Ke bank dan pejabat pos|Pasar pagi)', re.IGNORECASE)
+    bits = keep.split(raw)
+    return ''.join(part if keep.fullmatch(part) else
+                   rx.sub(lambda m: '«' + m.group(0) + '»', part)
+                   for part in bits)
+
+
 GRAMMAR3 = {
     'numbers': 'ms-c03-g02',
     'age_phone': 'ms-c03-g03',
@@ -52,7 +80,7 @@ def components(ledger, cfg):
 
     ex = cfg['examples']
     def entries(ids):
-        return [(lid, ex[lid]) for lid in ids]
+        return [(lid, ex[lid], cfg.get("vocab_opts", {}).get(lid, {})) for lid in ids]
     add('vocabulary', 'Vocabulary', 'Vocabulary focus', 'A', 10, [
         ('Core words · 新しい基本語', vocab(ledger, [
             (cfg['core_heading'] + ' · 学習する', entries(cfg['core']))])),
@@ -83,7 +111,7 @@ def components(ledger, cfg):
     drill = cfg['drills']
     drill_specs = [
         ('drill-1-pattern-table','repeat','Drill 1 · Pattern table','Read the numbered combinations aloud.', drill['repeat']),
-        ('drill-2-substitution','substitute','Drill 2 · Substitution','Replace the cued slot; say the complete answer.',drill['substitute']),
+        ('drill-2-substitution','substitute','Drill 2 · Substitution','Replace the indicated part; say the complete answer.',drill['substitute']),
         ('drill-3-transformation','transform','Drill 3 · Transformation','Transform the statement according to the instruction.',drill['transform']),
         ('drill-4-question-answer','question and answer','Drill 4 · Question and answer','Answer, then reverse the question and answer roles.',drill['qa']),
         ('drill-5-question-word-choice','question-word choice','Drill 5 · Question-word choice','Select from the cumulative question words taught through chapter 3.',drill['choice']),
@@ -270,8 +298,8 @@ def unit_dict(cfg):
         title_prefix='Unit '+label,header='Unit '+label+' (ms-c03'+label[-1].lower()+')',
         menu_title='Chapter 3 · Numbers and money',genre='Shopping and money',
         goal=cfg['unit_goal'], blocks=cfg['goals'], prerequisites=['ms-c01','ms-c02'],
-        prerequisite_units=[('ms-c03a' if label in ('3B','3C') else ''),
-                            ('ms-c03b' if label=='3C' else '')] if label != '3A' else [],
+        prerequisite_units=(['ms-c03a'] if label == '3B' else
+                            ['ms-c03a','ms-c03b'] if label == '3C' else []),
         prereq_grammar=['ms-c02-g03','ms-c02-g04','ms-c02-g12'],
         word_scope=cfg['core']+cfg['recognition']+cfg['revision'],
         components=lambda ledger:components(ledger,cfg))
