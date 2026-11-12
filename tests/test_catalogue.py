@@ -24,7 +24,8 @@ class CatalogueTests(unittest.TestCase):
                  'Order and floors · Learner pack','Order and floors · Teaching plan',
                  'Beli buah di pasar','Beli buah di pasar · Learner pack','Beli buah di pasar · Teaching plan','Jumlah buah','Pesanan buah',
                  # Step 5b retires the legacy chapter 4 packs superseded by units 4A and 4B.
-                 'Clock time · Learner pack','Clock time · Teaching plan','Dates and days · Learner pack','Dates and days · Teaching plan'}
+                 'Clock time · Learner pack','Clock time · Teaching plan','Dates and days · Learner pack','Dates and days · Teaching plan',
+                 'Frequency and routines · Learner pack','Frequency and routines · Teaching plan'}
         expected=[l for l in old if l['title'] not in retired]
         legacy=[l for l in self.lessons if not l.get('suite')]
         strip=lambda ls:[{k:v for k,v in l.items()} | {'pages':[{k:v for k,v in p.items() if k!='index'} for p in l['pages']]} for l in ls]

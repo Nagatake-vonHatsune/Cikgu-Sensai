@@ -7,7 +7,7 @@ MALAY_CHAPTERS = [
     ("Greetings", "Social encounters", [("1", [])]),
     ("Pronouns and self-introduction", "Social encounters", [("2A", []), ("2B", [])]),
     ("Numbers and money", "Transactions", [("3A", []), ("3B", []), ("3C", [])]),
-    ("Time and routines", "Schedules", [("4A", []), ("4B", ["Frequency and routines"])]),
+    ("Time and routines", "Schedules", [("4A", []), ("4B", [])]),
     ("Adjectives", "Description", [("5", ["Taste and colour", "Size and shape"])]),
     ("Comparatives and superlatives", "Choices and opinions", [("6", ["Comparisons and superlatives"])]),
     ("Directions and locations", "Wayfinding", [("7", ["Asking where", "Directions and orientation"])]),
@@ -16,7 +16,7 @@ MALAY_CHAPTERS = [
 ]
 
 RETIRED = {"Greetings", "Introductions", "Counting and quantities", "Ringgit and sen", "Order and floors",
-           "Clock time", "Dates and days"}  # superseded by the authored suites for units 1 to 4A
+           "Clock time", "Dates and days", "Frequency and routines"}  # superseded by the authored suites for units 1 to 4B
 
 def add_course(lessons, lesson, suite_units=()):
     folder=Path(__file__).with_name("curriculum")

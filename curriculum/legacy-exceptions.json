@@ -1,34 +1,4 @@
 {
-  "ms-c04b|register|saja": {
-    "unit": "ms-c04b",
-    "check": "register",
-    "term": "saja",
-    "reasons": [
-      "Standard sahaja has no earlier target-language teaching occurrence.",
-      "Spoken form lacks an explicit spoken label in prior teaching."
-    ],
-    "evidence": [
-      {
-        "source": "Frequency and routines · Learner pack|4|1",
-        "text": "Tak selalu. Dua kali seminggu saja."
-      }
-    ]
-  },
-  "ms-c04b|register|tak": {
-    "unit": "ms-c04b",
-    "check": "register",
-    "term": "tak",
-    "reasons": [
-      "Standard tidak has no earlier target-language teaching occurrence.",
-      "Spoken form lacks an explicit spoken label in prior teaching."
-    ],
-    "evidence": [
-      {
-        "source": "Frequency and routines · Learner pack|4|1",
-        "text": "Tak selalu. Dua kali seminggu saja."
-      }
-    ]
-  },
   "ms-c05|ledger|atas": {
     "unit": "ms-c05",
     "check": "ledger",
