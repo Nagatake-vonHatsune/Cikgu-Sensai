@@ -155,7 +155,8 @@ CULTURE_JA=['«wang» は標準的な「お金」、«duit» は日常語です�
 CFG=dict(
  label='3B',unit_goal='Ask for a fictional price, pay with cash or card and check the correct change.',
  core=CORE,recognition=RECOG,revision=REV,grammar=['prices','transactions'],
- examples=EXAMPLES,core_heading='Prices, money and payment',dunia_title='Pasar pagi',
+ examples=EXAMPLES,vocab_opts={'L-0120': {'display':'«wang» / «duit» (everyday)', 'en':'money (standard vs everyday)'},
+                               'L-1000': {'display':'«sahaja» / «saja» (spoken)', 'en':'only (standard / spoken)'}},core_heading='Prices, money and payment',dunia_title='Pasar pagi',
  goals={'A':'I can ask a price and say an amount in ringgit and sen.',
         'B':'I can pay with cash or card and confirm the change.',
         'C':'I can understand a short market transaction and read a price list.',
