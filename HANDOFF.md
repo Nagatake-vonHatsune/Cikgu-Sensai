@@ -4,15 +4,15 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 
 ## Current state
 
-- **Last updated:** 12 Nov 2026, Claude's review fixes to chapter 3 (see "Chapter 3 review fixes" below).
-- **Most recent approved scope:** Chapter 3 only (units 3A, 3B, 3C and the 45-minute fast pack). Publication to main was pre-authorised by Sam provided the build and tests pass; chapter 4 waits for his pilot feedback.
-- **Previous main baseline:** 6247d6d (or later if an independent change occurred).
-- **Chapter 3 source:** suite/ms_c03a.py, suite/ms_c03b.py, suite/ms_c03c.py and suite/chapter3_common.py. The quick summary is appended in suite/fast.py. Detailed evidence is in docs/STEP-5a-report.md.
-- **Words:** 25/24/24 new core (73 total); 5/11/8 Dunia recognition (24 total); 6/8/9 previous-chapter revision entries (23 presentations). Every ledger entry is used exactly once as new core or recognition; slash variants count once. None is introduced as new vocabulary without an assigned ledger row.
-- **Quality controls:** The reauthored unit registry now covers ms-c03a, ms-c03b, ms-c03c and ms-c03-fast. Chapter 3 target language is marked and checked by the original strict ledger, register, affix and Malaysian-language guards. Chapter 3 legacy exception keys were removed (79 -> 44). Generated PDF assets and all Python tests must pass together, with full Git history.
-- **Source preservation:** Superseded chapter 3 packs are removed from the active catalogue; their source files remain in curriculum. Unrelated linked resources are preserved.
-- **Unverified:** Japanese draft pending native review; pending Kamus Dewan verification on L-0983 to L-1031; in-person timing and usage feedback. All classroom prices, numbers and dimensions are invented.
-- **Never start chapter 4** until Sam supplies chapter 3 pilot feedback and explicitly authorises the next batch.
+- **Last updated:** 12 Nov 2026, Claude: step 5b, chapter 4 (units 4A, 4B and the fast pack). Details in `docs/STEP-5b-report.md`.
+- **Most recent approved scope:** chapter 4 only. Sam authorised it on 12 Nov 2026 without waiting for chapter 3 pilot feedback (this replaced the earlier "never start chapter 4" line) and pre-approved publication to main when the checks pass.
+- **Last commit on main:** the commit that adds `docs/STEP-5b-report.md` (after `8fee84c`). Build and all 48 tests pass at each step 5b commit.
+- **Chapter 4 source:** `suite/chapter4_common.py`, `suite/ms_c04a.py`, `suite/ms_c04b.py`; the fast pack is `chapter4` in `suite/fast.py`. Tests: `tests/test_step5b_suite.py`.
+- **Words:** 27/27 new core (54, every chapter 4 ledger entry once); Dunia recognition by scene, 25 in 4A (Hujan petang, Cuti ke pantai) and 30 in 4B (Satu hari Encik Tanaka, Bangun pagi); revision in labelled groups (pagi, tengah hari, petang, malam, selepas, sebelum and other chapter 1 to 3 words; 4A words in 4B).
+- **Legacy:** Clock time, Dates and days, and Frequency and routines are retired from the catalogue (source kept). Legacy exceptions 44 → 41. Re-authored units now include ms-c04a, ms-c04b and ms-c04-fast.
+- **Unverified:** «hari bulan» for dates; usage statements in the culture notes; «pergi kerja» / «balik rumah» without «ke»; Japanese (draft); Kamus Dewan check for L-0983 to L-1031. All times and schedules in the units are fictional.
+- **Chapter 3** (step 5a and the review fixes) is unchanged and still awaits Sam's pilot feedback.
+- **Chapter 5 waits for Sam's explicit go-ahead.** Do not start it until he gives it.
 
 ## Done
 
@@ -22,8 +22,8 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 | 2 | Catalogue: chapter records, 11 component types, tags, test-item contract | `docs/STEP-2-REPORT.md` |
 | 3 | Build checks (ledger, register, affix, Malaysian form) with a frozen, shrink-only exception baseline of 86 keys | `docs/STEP-3-REPORT.md` |
 | 4 | Pilot: full 11-component suites for units 1, 2A, 2B (plus pronunciation and writing blocks) and fast packs for chapters 1 and 2; all section 6 minimums and section 14 drills met and tested; baseline 86 → 79 | `docs/STEP-4-REPORT.md` |
-
 | 5a | Chapter 3 (3A, 3B, 3C) and its one-session fast pack, with 73 unique core and 24 recognition entries; source and printed packs tested in the step-5a gate; no chapter 4 | docs/STEP-5a-report.md |
+| 5b | Chapter 4 (4A, 4B) and its fast pack: 54 core, 55 Dunia recognition by scene, timeline drill, review block after 4B; legacy chapter 4 packs retired | `docs/STEP-5b-report.md` |
 
 ## How step 4 works (for the next builder)
 
@@ -31,6 +31,7 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 - Unmarked ledger Malay fails the build, and so does any ledger gap in a unit listed in `curriculum/reauthored-units.json`.
 - `tests/test_step4_suite.py` encodes the charter section 6 minimums. Reuse it for chapters 3 to 9.
 - Builds are not byte-reproducible: the PDF inside `bank.js` changes IDs on every build. Commit the build you tested, and compare the lesson JSON, not the bytes.
+- A fresh cloud container needs `pip install pymupdf fonttools`, `apt-get install fonts-noto-cjk` and `git fetch --unshallow` before `python3 build.py` will run.
 - Preview PDFs with poppler (`pdftoppm`). PyMuPDF's rasteriser garbles this font subset on screen; the PDF itself is fine.
 
 ## Chapter 3 review fixes (12 Nov 2026, Claude)
@@ -54,9 +55,24 @@ Sam asked for a targeted fix after Claude's review of step 5a. Word lists, the 3
 - **Answer keys are real answers,** item by item.
 - **Affixed nouns taught as labels:** if a ledger word is formal or written (like the ke-…-an measurement nouns), say so and show the everyday spoken form beside it.
 
-## Next: Sam's pilot of chapter 3
+## Step 5b: chapter 4 (12 Nov 2026, Claude)
 
-Sam approved Step 5a publication to main once checks pass. Do not revisit word load, the three-unit split, recognition-only Dunia items or retirement of the superseded chapter 3 packs. Collect chapter 3 pilot feedback on unit timings, drills, fictional numerical practice and the fast pack. Chapter 4 remains on hold.
+- **Split.** 4A: clock, days and dates, frequency, «bila». 4B: tense and aspect markers, root routine verbs, the working day. «masa», «waktu», «depan» and «lepas» moved to 4B to reach 27/27 (reasons in the report); «tidak pernah» stays in 4A with the frequency scale.
+- **Malay rules applied:** «pukul» for clock time with «pagi», «tengah hari», «petang», «malam»; «pukul empat suku», «pukul dua setengah»; :45 said in minutes; no «kurang suku» (ledger Journal, 6 Nov). «jam» for duration. Standard first: «dah» after «sudah», «tengah» after «sedang», both marked spoken; «balik» beside «pulang». Root verbs only. «ke», «kopi», «nasi», «mahu», «kedai» are placed after chapter 4, so scenes use «pergi kerja», «balik rumah», «sampai di …», «makanan».
+- **Helper:** `chapter4_common.py` is a generalised copy of the chapter 3 helper. Differences: no automatic «…» marking (every Malay span is marked by hand), explicit word tags per test item, Dunia groups per scene, several revision groups, an optional timeline drill, and an optional extra block. Use it as the starting point for chapter 5 onward.
+- **Culture notes:** 4A covers the 12-hour clock in speech, Malaysian Standard Time (UTC+8 since 1 Jan 1982) and the 45-hour week under the Employment Act (from 1 Jan 2023), with sources in the report. 4B covers «Sudah makan?», «belum» versus «tidak», and the spoken forms. Nothing religious; the state differences in the weekend are left out (Sam's rule).
+- **Mentions added** to `curriculum/malay-mentions.json`: ‹biasa› (card ms-c04-030), ‹kurang suku› (named in teacher notes only so it is not taught), ‹ke› (to explain why it is not used).
+- **Kata-Kata findings:** its c04 frames and scenario use «kopi», «ke», «durian», «kedai mamak», «nasi kandar» and «di sana» before their chapters (see the report).
+
+## Next: Sam's feedback, then chapter 5 only on his go-ahead
+
+1. Sam answers the step 5b questions (dates and «hari bulan», the working-week line, the split, «jam» for clock time, routines without «ke», and the proposed ledger rows).
+2. Chapter 3 and chapter 4 pilot feedback: timings, drill load, the fast packs.
+3. **Chapter 5 waits for Sam's go-ahead.**
+
+## Earlier: Sam's pilot of chapter 3
+
+Sam approved Step 5a publication to main once checks pass. Do not revisit word load, the three-unit split, recognition-only Dunia items or retirement of the superseded chapter 3 packs. Collect chapter 3 pilot feedback on unit timings, drills, fictional numerical practice and the fast pack. (Chapter 4 was later authorised without waiting for this feedback; see step 5b.)
 
 ### Current builder notes for Step 5a
 
