@@ -56270,7 +56270,7 @@
   "exclusion": null
  },
  "Unit 6 · Teaching plan and answer key|5|1": {
-  "source_text": "The Kata-Kata scene uses dekat, jauh and the abbreviation LRT, which are outside chapters 1 to 6 (dekat and jauh are chapter 7), so the scene here compares rent, rooms, size, noise, age and comfort. sewa (rent), bilik (room) and luas (spacious) were added to the ledger at the request of Sam (12 Nov 2026) for these scenes. The rent is said per month with setiap bulan; sebulan, which the ledger gloss of sewa mentions, is not itself a ledger word, so it is not used. menyewa (to rent) waits for chapter 11. Do not add words from chapter 7 or later to the condo scenes.",
+  "source_text": "The Kata-Kata scene uses dekat, jauh and the abbreviation LRT, which are outside chapters 1 to 6 (dekat and jauh are chapter 7), so the scene here compares rent, rooms, size, noise, age and comfort. sewa (rent), bilik (room) and luas (spacious) were added to the ledger at the request of Sam (12 Nov 2026) for these scenes. The rent is said per month with setiap bulan; sebulan, which the ledger gloss of sewa mentions, is a chapter 7 word (L-1063), so it is not used here. menyewa (to rent) waits for chapter 11. Do not add words from chapter 7 or later to the condo scenes.",
   "target_spans": [
    "sewa",
    "bilik",
@@ -56600,15 +56600,17 @@
   "exclusion": null
  },
  "Unit 7 · Chapter opener|3|1": {
-  "source_text": "Block B: I can give and follow a route with jalan lurus, kemudian belok kiri or kanan and a landmark, and ask Berapa jauh? and Berapa lama?. / jalan lurus・kemudian belok kiri/kanan・目印で道順を言ったり聞いたりでき、Berapa jauh?・Berapa lama? とたずねられる。",
+  "source_text": "Block B: I can give and follow a route with jalan terus, kemudian belok kiri or kanan, say jangan belok and name a landmark, and ask Berapa jauh? and Berapa lama?. / jalan terus・kemudian belok kiri/kanan・目印で道順を言ったり聞いたりでき、jangan belok と言え、Berapa jauh?・Berapa lama? とたずねられる。",
   "target_spans": [
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok kiri",
    "kanan",
+   "jangan belok",
    "Berapa jauh?",
    "Berapa lama?",
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok kiri/kanan",
+   "jangan belok",
    "Berapa jauh?",
    "Berapa lama?"
   ],
@@ -57163,31 +57165,73 @@
   "exclusion": null
  },
  "Unit 7 · Vocabulary focus|4|13": {
-  "source_text": "lurus — straight · まっすぐ  [L-0318]",
+  "source_text": "lurus — straight (of a road or line); for directions say terus · まっすぐな（道や線の形）；道案内では terus と言う  [L-0318]",
   "target_spans": [
-   "lurus"
+   "lurus",
+   "terus",
+   "terus"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
  "Unit 7 · Vocabulary focus|4|14": {
-  "source_text": "   e.g. Jalan lurus, ya.",
+  "source_text": "   e.g. Jalan ini lurus.",
   "target_spans": [
-   "Jalan lurus, ya."
+   "Jalan ini lurus."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
  "Unit 7 · Vocabulary focus|4|15": {
+  "source_text": "kilometer — kilometre (for longer distances; meter for short ones) · キロメートル（長い距離。短い距離は meter）  [L-1059]",
+  "target_spans": [
+   "kilometer",
+   "meter",
+   "meter"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|4|16": {
+  "source_text": "   e.g. Hospital lebih kurang dua kilometer dari sini.",
+  "target_spans": [
+   "Hospital lebih kurang dua kilometer dari sini."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|4|17": {
+  "source_text": "sebulan — per month, a month (Tiga ribu ringgit sebulan.); taught as a whole word · 1か月につき・月に（Tiga ribu ringgit sebulan.）；ひとかたまりの語として学ぶ  [L-1063]",
+  "target_spans": [
+   "sebulan",
+   "Tiga ribu ringgit sebulan.",
+   "Tiga ribu ringgit sebulan."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|4|18": {
+  "source_text": "   e.g. Sewa kondo itu tiga ribu ringgit sebulan.",
+  "target_spans": [
+   "Sewa kondo itu tiga ribu ringgit sebulan."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|4|19": {
   "source_text": "■ Core words · Turning and moving · 学習する",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Vocabulary focus|4|16": {
+ "Unit 7 · Vocabulary focus|4|20": {
   "source_text": "belok — to turn · 曲がる  [L-0319]",
   "target_spans": [
    "belok"
@@ -57196,7 +57240,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|17": {
+ "Unit 7 · Vocabulary focus|4|21": {
   "source_text": "   e.g. Belok kiri di simpang.",
   "target_spans": [
    "Belok kiri di simpang."
@@ -57205,7 +57249,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|18": {
+ "Unit 7 · Vocabulary focus|4|22": {
   "source_text": "kemudian — then, after that · それから  [L-0320]",
   "target_spans": [
    "kemudian"
@@ -57214,16 +57258,16 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|19": {
-  "source_text": "   e.g. Jalan lurus, kemudian belok kanan.",
+ "Unit 7 · Vocabulary focus|4|23": {
+  "source_text": "   e.g. Jalan terus, kemudian belok kanan.",
   "target_spans": [
-   "Jalan lurus, kemudian belok kanan."
+   "Jalan terus, kemudian belok kanan."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|20": {
+ "Unit 7 · Vocabulary focus|4|24": {
   "source_text": "jalan — road; to walk, to go · 道；歩く  [L-0321]",
   "target_spans": [
    "jalan"
@@ -57232,17 +57276,17 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|21": {
-  "source_text": "   e.g. Jalan ini panjang. (road) / Jalan lurus. (to go)",
+ "Unit 7 · Vocabulary focus|4|25": {
+  "source_text": "   e.g. Jalan ini panjang. (road) / Jalan terus. (to go)",
   "target_spans": [
    "Jalan ini panjang.",
-   "Jalan lurus."
+   "Jalan terus."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|22": {
+ "Unit 7 · Vocabulary focus|4|26": {
   "source_text": "jalan kaki — on foot, walk · 歩いて  [L-0322]",
   "target_spans": [
    "jalan kaki"
@@ -57251,7 +57295,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|23": {
+ "Unit 7 · Vocabulary focus|4|27": {
   "source_text": "   e.g. Saya jalan kaki ke stesen.",
   "target_spans": [
    "Saya jalan kaki ke stesen."
@@ -57260,7 +57304,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|24": {
+ "Unit 7 · Vocabulary focus|4|28": {
   "source_text": "naik — to go up; to ride, take (a bus, train, taxi) · 上がる；乗る  [L-0323]",
   "target_spans": [
    "naik"
@@ -57269,7 +57313,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|25": {
+ "Unit 7 · Vocabulary focus|5|0": {
   "source_text": "   e.g. Saya naik bas ke pejabat. / Naik lif ke tingkat tiga.",
   "target_spans": [
    "Saya naik bas ke pejabat.",
@@ -57279,7 +57323,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|26": {
+ "Unit 7 · Vocabulary focus|5|1": {
   "source_text": "turun — to go down; to get off · 下りる；降りる  [L-0324]",
   "target_spans": [
    "turun"
@@ -57288,7 +57332,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|27": {
+ "Unit 7 · Vocabulary focus|5|2": {
   "source_text": "   e.g. Turun di stesen ini.",
   "target_spans": [
    "Turun di stesen ini."
@@ -57297,7 +57341,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|28": {
+ "Unit 7 · Vocabulary focus|5|3": {
   "source_text": "masuk — to enter · 入る  [L-0325]",
   "target_spans": [
    "masuk"
@@ -57306,7 +57350,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|29": {
+ "Unit 7 · Vocabulary focus|5|4": {
   "source_text": "   e.g. Masuk di pintu depan.",
   "target_spans": [
    "Masuk di pintu depan."
@@ -57315,7 +57359,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|4|30": {
+ "Unit 7 · Vocabulary focus|5|5": {
   "source_text": "keluar — to exit, go out · 出る  [L-0326]",
   "target_spans": [
    "keluar"
@@ -57324,7 +57368,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|0": {
+ "Unit 7 · Vocabulary focus|5|6": {
   "source_text": "   e.g. Keluar di pintu belakang.",
   "target_spans": [
    "Keluar di pintu belakang."
@@ -57333,7 +57377,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|1": {
+ "Unit 7 · Vocabulary focus|5|7": {
   "source_text": "kalau — if, when (a condition: Kalau jauh, naik teksi.) · もし  [L-0341]",
   "target_spans": [
    "kalau",
@@ -57343,7 +57387,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|2": {
+ "Unit 7 · Vocabulary focus|5|8": {
   "source_text": "   e.g. Kalau jauh, naik teksi.",
   "target_spans": [
    "Kalau jauh, naik teksi."
@@ -57352,14 +57396,58 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|3": {
+ "Unit 7 · Vocabulary focus|5|9": {
+  "source_text": "terus — straight on, straight ahead (jalan terus, pergi terus, terus depan) · まっすぐ（jalan terus・pergi terus・terus depan）  [L-1060]",
+  "target_spans": [
+   "terus",
+   "jalan terus",
+   "pergi terus",
+   "terus depan",
+   "jalan terus",
+   "pergi terus",
+   "terus depan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|5|10": {
+  "source_text": "   e.g. Jalan terus, kemudian belok kanan.",
+  "target_spans": [
+   "Jalan terus, kemudian belok kanan."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|5|11": {
+  "source_text": "jangan — do not (before a verb: Jangan belok kiri.) · 〜しないで（動詞の前：Jangan belok kiri.）  [L-1062]",
+  "target_spans": [
+   "jangan",
+   "Jangan belok kiri.",
+   "Jangan belok kiri."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|5|12": {
+  "source_text": "   e.g. Jangan belok kiri di sini.",
+  "target_spans": [
+   "Jangan belok kiri di sini."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|5|13": {
   "source_text": "■ Core words · Landmarks and transport · 学習する",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Vocabulary focus|5|4": {
+ "Unit 7 · Vocabulary focus|5|14": {
   "source_text": "simpang — junction · 交差点  [L-0327]",
   "target_spans": [
    "simpang"
@@ -57368,7 +57456,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|5": {
+ "Unit 7 · Vocabulary focus|5|15": {
   "source_text": "   e.g. Bank di simpang itu.",
   "target_spans": [
    "Bank di simpang itu."
@@ -57377,7 +57465,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|6": {
+ "Unit 7 · Vocabulary focus|5|16": {
   "source_text": "lampu isyarat — traffic light · 信号  [L-0328]",
   "target_spans": [
    "lampu isyarat"
@@ -57386,7 +57474,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|7": {
+ "Unit 7 · Vocabulary focus|5|17": {
   "source_text": "   e.g. Belok kanan di lampu isyarat.",
   "target_spans": [
    "Belok kanan di lampu isyarat."
@@ -57395,7 +57483,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|8": {
+ "Unit 7 · Vocabulary focus|5|18": {
   "source_text": "bulatan — roundabout · ロータリー  [L-0329]",
   "target_spans": [
    "bulatan"
@@ -57404,7 +57492,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|9": {
+ "Unit 7 · Vocabulary focus|5|19": {
   "source_text": "   e.g. Belok kiri selepas bulatan.",
   "target_spans": [
    "Belok kiri selepas bulatan."
@@ -57413,7 +57501,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|10": {
+ "Unit 7 · Vocabulary focus|5|20": {
   "source_text": "lintasan — crossing (lintasan pejalan kaki = pedestrian crossing) · 横断箇所（lintasan pejalan kaki＝歩行者用横断歩道）  [L-1015]",
   "target_spans": [
    "lintasan",
@@ -57424,7 +57512,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|11": {
+ "Unit 7 · Vocabulary focus|5|21": {
   "source_text": "   e.g. Lintasan pejalan kaki di depan stesen.",
   "target_spans": [
    "Lintasan pejalan kaki di depan stesen."
@@ -57433,7 +57521,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|12": {
+ "Unit 7 · Vocabulary focus|5|22": {
   "source_text": "pintu masuk / pintu keluar — entrance / exit · 入口／出口  [L-0330]",
   "target_spans": [
    "pintu masuk",
@@ -57443,7 +57531,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|13": {
+ "Unit 7 · Vocabulary focus|5|23": {
   "source_text": "   e.g. Pintu masuk di depan, pintu keluar di belakang.",
   "target_spans": [
    "Pintu masuk di depan, pintu keluar di belakang."
@@ -57452,7 +57540,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|14": {
+ "Unit 7 · Vocabulary focus|5|24": {
   "source_text": "tingkat — floor, level · 階  [L-0331]",
   "target_spans": [
    "tingkat"
@@ -57461,7 +57549,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|15": {
+ "Unit 7 · Vocabulary focus|5|25": {
   "source_text": "   e.g. Pejabat saya di tingkat tiga.",
   "target_spans": [
    "Pejabat saya di tingkat tiga."
@@ -57470,7 +57558,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|16": {
+ "Unit 7 · Vocabulary focus|5|26": {
   "source_text": "lif — lift · エレベーター  [L-0332]",
   "target_spans": [
    "lif"
@@ -57479,7 +57567,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|17": {
+ "Unit 7 · Vocabulary focus|5|27": {
   "source_text": "   e.g. Lif di sebelah tandas.",
   "target_spans": [
    "Lif di sebelah tandas."
@@ -57488,7 +57576,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|18": {
+ "Unit 7 · Vocabulary focus|5|28": {
   "source_text": "tandas — toilet · トイレ  [L-0333]",
   "target_spans": [
    "tandas"
@@ -57497,7 +57585,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|19": {
+ "Unit 7 · Vocabulary focus|6|0": {
   "source_text": "   e.g. Tandas di tingkat dua.",
   "target_spans": [
    "Tandas di tingkat dua."
@@ -57506,7 +57594,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|20": {
+ "Unit 7 · Vocabulary focus|6|1": {
   "source_text": "tempat — place · 場所  [L-1010]",
   "target_spans": [
    "tempat"
@@ -57515,7 +57603,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|21": {
+ "Unit 7 · Vocabulary focus|6|2": {
   "source_text": "   e.g. Tempat ini sunyi dan bersih.",
   "target_spans": [
    "Tempat ini sunyi dan bersih."
@@ -57524,7 +57612,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|22": {
+ "Unit 7 · Vocabulary focus|6|3": {
   "source_text": "kedai — shop · 店  [L-0334]",
   "target_spans": [
    "kedai"
@@ -57533,7 +57621,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|23": {
+ "Unit 7 · Vocabulary focus|6|4": {
   "source_text": "   e.g. Ada kedai di tingkat satu.",
   "target_spans": [
    "Ada kedai di tingkat satu."
@@ -57542,7 +57630,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|24": {
+ "Unit 7 · Vocabulary focus|6|5": {
   "source_text": "bank — bank · 銀行  [L-0335]",
   "target_spans": [
    "bank"
@@ -57551,7 +57639,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|25": {
+ "Unit 7 · Vocabulary focus|6|6": {
   "source_text": "   e.g. Bank di depan stesen.",
   "target_spans": [
    "Bank di depan stesen."
@@ -57560,7 +57648,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|26": {
+ "Unit 7 · Vocabulary focus|6|7": {
   "source_text": "masjid — mosque (a place of worship; here only a landmark) · モスク（礼拝の場。ここでは目印として使うだけ）  [L-0337]",
   "target_spans": [
    "masjid"
@@ -57569,7 +57657,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|27": {
+ "Unit 7 · Vocabulary focus|6|8": {
   "source_text": "   e.g. Stesen di belakang masjid.",
   "target_spans": [
    "Stesen di belakang masjid."
@@ -57578,7 +57666,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|5|28": {
+ "Unit 7 · Vocabulary focus|6|9": {
   "source_text": "gereja — church (a place of worship; here only a landmark) · 教会（礼拝の場。ここでは目印として使うだけ）  [L-1054]",
   "target_spans": [
    "gereja"
@@ -57587,7 +57675,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|0": {
+ "Unit 7 · Vocabulary focus|6|10": {
   "source_text": "   e.g. Kedai itu di sebelah gereja.",
   "target_spans": [
    "Kedai itu di sebelah gereja."
@@ -57596,7 +57684,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|1": {
+ "Unit 7 · Vocabulary focus|6|11": {
   "source_text": "kuil — Hindu temple (here only a landmark) · ヒンドゥー教寺院（ここでは目印として使うだけ）  [L-1055]",
   "target_spans": [
    "kuil"
@@ -57605,7 +57693,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|2": {
+ "Unit 7 · Vocabulary focus|6|12": {
   "source_text": "   e.g. Bank di seberang kuil.",
   "target_spans": [
    "Bank di seberang kuil."
@@ -57614,7 +57702,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|3": {
+ "Unit 7 · Vocabulary focus|6|13": {
   "source_text": "tokong — Chinese temple (here only a landmark) · 中国寺院（廟）（ここでは目印として使うだけ）  [L-1056]",
   "target_spans": [
    "tokong"
@@ -57623,7 +57711,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|4": {
+ "Unit 7 · Vocabulary focus|6|14": {
   "source_text": "   e.g. Pasar di depan tokong.",
   "target_spans": [
    "Pasar di depan tokong."
@@ -57632,7 +57720,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|5": {
+ "Unit 7 · Vocabulary focus|6|15": {
   "source_text": "gurdwara — Sikh temple (here only a landmark) · シク教寺院（ここでは目印として使うだけ）  [L-1057]",
   "target_spans": [
    "gurdwara"
@@ -57641,7 +57729,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|6": {
+ "Unit 7 · Vocabulary focus|6|16": {
   "source_text": "   e.g. Sekolah di sebelah gurdwara.",
   "target_spans": [
    "Sekolah di sebelah gurdwara."
@@ -57650,7 +57738,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|7": {
+ "Unit 7 · Vocabulary focus|6|17": {
   "source_text": "surau — a small prayer hall (here only a landmark) · スラウ、小さな礼拝所（ここでは目印として使うだけ）  [L-1058]",
   "target_spans": [
    "surau"
@@ -57659,7 +57747,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|8": {
+ "Unit 7 · Vocabulary focus|6|18": {
   "source_text": "   e.g. Kondo saya dekat dengan surau.",
   "target_spans": [
    "Kondo saya dekat dengan surau."
@@ -57668,7 +57756,25 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|9": {
+ "Unit 7 · Vocabulary focus|6|19": {
+  "source_text": "tangga — stairs · 階段  [L-1061]",
+  "target_spans": [
+   "tangga"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|6|20": {
+  "source_text": "   e.g. Naik tangga ke tingkat dua.",
+  "target_spans": [
+   "Naik tangga ke tingkat dua."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|6|21": {
   "source_text": "kereta — car · 車  [L-0338]",
   "target_spans": [
    "kereta"
@@ -57677,7 +57783,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|10": {
+ "Unit 7 · Vocabulary focus|6|22": {
   "source_text": "   e.g. Kereta saya di bawah.",
   "target_spans": [
    "Kereta saya di bawah."
@@ -57686,7 +57792,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|11": {
+ "Unit 7 · Vocabulary focus|6|23": {
   "source_text": "bas / teksi — bus / taxi · バス／タクシー  [L-0339]",
   "target_spans": [
    "bas",
@@ -57696,7 +57802,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|12": {
+ "Unit 7 · Vocabulary focus|6|24": {
   "source_text": "   e.g. Saya naik bas, tetapi esok saya naik teksi.",
   "target_spans": [
    "Saya naik bas, tetapi esok saya naik teksi."
@@ -57705,7 +57811,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|13": {
+ "Unit 7 · Vocabulary focus|6|25": {
   "source_text": "kereta api — train · 電車  [L-0340]",
   "target_spans": [
    "kereta api"
@@ -57714,7 +57820,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|14": {
+ "Unit 7 · Vocabulary focus|6|26": {
   "source_text": "   e.g. Saya naik kereta api ke Ipoh.",
   "target_spans": [
    "Saya naik kereta api ke Ipoh."
@@ -57723,18 +57829,20 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|15": {
-  "source_text": "jam (spoken) — heavy traffic (spoken; jam is also an hour, chapter 4) · 渋滞（話し言葉。jam には「時間」の意味もある、第4章）  [L-0342]",
+ "Unit 7 · Vocabulary focus|7|0": {
+  "source_text": "jam (spoken) — heavy traffic (spoken; jam is also an hour, chapter 4); say kalau tidak jam / sesak · 渋滞（話し言葉。jam には「時間」の意味もある、第4章）；kalau tidak jam / sesak と言う  [L-0342]",
   "target_spans": [
    "jam",
    "jam",
-   "jam"
+   "kalau tidak jam / sesak",
+   "jam",
+   "kalau tidak jam / sesak"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|16": {
+ "Unit 7 · Vocabulary focus|7|1": {
   "source_text": "   e.g. Pagi Isnin selalu jam. (spoken)",
   "target_spans": [
    "Pagi Isnin selalu jam."
@@ -57743,14 +57851,36 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|17": {
+ "Unit 7 · Vocabulary focus|7|2": {
+  "source_text": "sesak — crowded, jammed (of traffic); beside spoken jam: kalau tidak jam / sesak · 混んでいる・渋滞している；話し言葉の jam と並べて kalau tidak jam / sesak  [L-0620]",
+  "target_spans": [
+   "sesak",
+   "jam",
+   "kalau tidak jam / sesak",
+   "jam",
+   "kalau tidak jam / sesak"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|7|3": {
+  "source_text": "   e.g. Kalau tidak sesak, lima belas minit.",
+  "target_spans": [
+   "Kalau tidak sesak, lima belas minit."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|7|4": {
   "source_text": "■ Core words · Compass points · 学習する",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Vocabulary focus|6|18": {
+ "Unit 7 · Vocabulary focus|7|5": {
   "source_text": "utara — north · 北  [L-1011]",
   "target_spans": [
    "utara"
@@ -57759,7 +57889,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|19": {
+ "Unit 7 · Vocabulary focus|7|6": {
   "source_text": "   e.g. Sekolah di utara stesen.",
   "target_spans": [
    "Sekolah di utara stesen."
@@ -57768,7 +57898,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|20": {
+ "Unit 7 · Vocabulary focus|7|7": {
   "source_text": "selatan — south · 南  [L-1012]",
   "target_spans": [
    "selatan"
@@ -57777,7 +57907,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|21": {
+ "Unit 7 · Vocabulary focus|7|8": {
   "source_text": "   e.g. Pasar di selatan stesen.",
   "target_spans": [
    "Pasar di selatan stesen."
@@ -57786,7 +57916,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|22": {
+ "Unit 7 · Vocabulary focus|7|9": {
   "source_text": "timur — east · 東  [L-1013]",
   "target_spans": [
    "timur"
@@ -57795,7 +57925,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|23": {
+ "Unit 7 · Vocabulary focus|7|10": {
   "source_text": "   e.g. Bank di timur stesen.",
   "target_spans": [
    "Bank di timur stesen."
@@ -57804,7 +57934,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|24": {
+ "Unit 7 · Vocabulary focus|7|11": {
   "source_text": "barat — west · 西  [L-1014]",
   "target_spans": [
    "barat"
@@ -57813,7 +57943,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|6|25": {
+ "Unit 7 · Vocabulary focus|7|12": {
   "source_text": "   e.g. Hospital di barat stesen.",
   "target_spans": [
    "Hospital di barat stesen."
@@ -57822,14 +57952,21 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|0": {
+ "Unit 7 · Vocabulary focus|7|13": {
+  "source_text": "■ Dunia · To recognise · 聞いて分かる",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 7 · Vocabulary focus|7|14": {
   "source_text": "■ Dunia · To recognise · \"Di ruang tamu\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Vocabulary focus|7|1": {
+ "Unit 7 · Vocabulary focus|7|15": {
   "source_text": "ruang tamu — living room · リビング・客間  [L-0564]",
   "target_spans": [
    "ruang tamu"
@@ -57838,7 +57975,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|2": {
+ "Unit 7 · Vocabulary focus|7|16": {
   "source_text": "   e.g. Telefon saya di ruang tamu.",
   "target_spans": [
    "Telefon saya di ruang tamu."
@@ -57847,7 +57984,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|3": {
+ "Unit 7 · Vocabulary focus|7|17": {
   "source_text": "pintu — door · ドア  [L-0565]",
   "target_spans": [
    "pintu"
@@ -57856,7 +57993,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|4": {
+ "Unit 7 · Vocabulary focus|7|18": {
   "source_text": "   e.g. Pintu di sebelah kiri.",
   "target_spans": [
    "Pintu di sebelah kiri."
@@ -57865,7 +58002,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|5": {
+ "Unit 7 · Vocabulary focus|7|19": {
   "source_text": "tingkap — window · 窓  [L-0566]",
   "target_spans": [
    "tingkap"
@@ -57874,7 +58011,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|6": {
+ "Unit 7 · Vocabulary focus|7|20": {
   "source_text": "   e.g. Tingkap di belakang kerusi.",
   "target_spans": [
    "Tingkap di belakang kerusi."
@@ -57883,7 +58020,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|7": {
+ "Unit 7 · Vocabulary focus|7|21": {
   "source_text": "meja — table · テーブル・机  [L-0567]",
   "target_spans": [
    "meja"
@@ -57892,7 +58029,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|8": {
+ "Unit 7 · Vocabulary focus|7|22": {
   "source_text": "   e.g. Telefon saya di atas meja.",
   "target_spans": [
    "Telefon saya di atas meja."
@@ -57901,7 +58038,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|9": {
+ "Unit 7 · Vocabulary focus|7|23": {
   "source_text": "kerusi — chair · 椅子  [L-0568]",
   "target_spans": [
    "kerusi"
@@ -57910,7 +58047,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|10": {
+ "Unit 7 · Vocabulary focus|7|24": {
   "source_text": "   e.g. Kerusi di sebelah meja.",
   "target_spans": [
    "Kerusi di sebelah meja."
@@ -57919,7 +58056,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|11": {
+ "Unit 7 · Vocabulary focus|7|25": {
   "source_text": "lampu — lamp, light · 電灯・ランプ  [L-0569]",
   "target_spans": [
    "lampu"
@@ -57928,7 +58065,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|12": {
+ "Unit 7 · Vocabulary focus|7|26": {
   "source_text": "   e.g. Lampu di atas meja.",
   "target_spans": [
    "Lampu di atas meja."
@@ -57937,7 +58074,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|13": {
+ "Unit 7 · Vocabulary focus|7|27": {
   "source_text": "kipas — fan · 扇風機  [L-0570]",
   "target_spans": [
    "kipas"
@@ -57946,7 +58083,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|14": {
+ "Unit 7 · Vocabulary focus|7|28": {
   "source_text": "   e.g. Hari ini panas. Buka kipas.",
   "target_spans": [
    "Hari ini panas. Buka kipas."
@@ -57955,7 +58092,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|15": {
+ "Unit 7 · Vocabulary focus|8|0": {
   "source_text": "lantai — floor · 床  [L-0571]",
   "target_spans": [
    "lantai"
@@ -57964,7 +58101,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|16": {
+ "Unit 7 · Vocabulary focus|8|1": {
   "source_text": "   e.g. Lantai ini bersih.",
   "target_spans": [
    "Lantai ini bersih."
@@ -57973,7 +58110,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|17": {
+ "Unit 7 · Vocabulary focus|8|2": {
   "source_text": "dinding — wall · 壁  [L-0572]",
   "target_spans": [
    "dinding"
@@ -57982,7 +58119,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|18": {
+ "Unit 7 · Vocabulary focus|8|3": {
   "source_text": "   e.g. Jam di dinding.",
   "target_spans": [
    "Jam di dinding."
@@ -57991,7 +58128,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|19": {
+ "Unit 7 · Vocabulary focus|8|4": {
   "source_text": "telefon — phone · 電話  [L-0573]",
   "target_spans": [
    "telefon"
@@ -58000,7 +58137,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|20": {
+ "Unit 7 · Vocabulary focus|8|5": {
   "source_text": "   e.g. Telefon di atas meja.",
   "target_spans": [
    "Telefon di atas meja."
@@ -58009,7 +58146,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|21": {
+ "Unit 7 · Vocabulary focus|8|6": {
   "source_text": "letak — to put, place · 置く  [L-0574]",
   "target_spans": [
    "letak"
@@ -58018,7 +58155,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|22": {
+ "Unit 7 · Vocabulary focus|8|7": {
   "source_text": "   e.g. Letak telefon di atas meja.",
   "target_spans": [
    "Letak telefon di atas meja."
@@ -58027,7 +58164,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|23": {
+ "Unit 7 · Vocabulary focus|8|8": {
   "source_text": "cari — to look for · 探す  [L-0575]",
   "target_spans": [
    "cari"
@@ -58036,7 +58173,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|24": {
+ "Unit 7 · Vocabulary focus|8|9": {
   "source_text": "   e.g. Saya cari telefon saya.",
   "target_spans": [
    "Saya cari telefon saya."
@@ -58045,7 +58182,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|25": {
+ "Unit 7 · Vocabulary focus|8|10": {
   "source_text": "tengok — to look, to watch (everyday speech) · 見る（日常の話し言葉）  [L-0577]",
   "target_spans": [
    "tengok"
@@ -58054,7 +58191,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|26": {
+ "Unit 7 · Vocabulary focus|8|11": {
   "source_text": "   e.g. Tengok, telefon saya di bawah kerusi!",
   "target_spans": [
    "Tengok, telefon saya di bawah kerusi!"
@@ -58063,14 +58200,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|27": {
+ "Unit 7 · Vocabulary focus|8|12": {
   "source_text": "■ Dunia · To recognise · \"Telefon baru\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Vocabulary focus|7|28": {
+ "Unit 7 · Vocabulary focus|8|13": {
   "source_text": "telefon bimbit — mobile phone · 携帯電話  [L-0578]",
   "target_spans": [
    "telefon bimbit"
@@ -58079,7 +58216,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|29": {
+ "Unit 7 · Vocabulary focus|8|14": {
   "source_text": "   e.g. Telefon bimbit saya baru.",
   "target_spans": [
    "Telefon bimbit saya baru."
@@ -58088,7 +58225,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|7|30": {
+ "Unit 7 · Vocabulary focus|8|15": {
   "source_text": "aplikasi — app · アプリ  [L-0579]",
   "target_spans": [
    "aplikasi"
@@ -58097,7 +58234,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|0": {
+ "Unit 7 · Vocabulary focus|8|16": {
   "source_text": "   e.g. Aplikasi ini bagus.",
   "target_spans": [
    "Aplikasi ini bagus."
@@ -58106,7 +58243,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|1": {
+ "Unit 7 · Vocabulary focus|8|17": {
   "source_text": "muat turun — to download · ダウンロードする  [L-0580]",
   "target_spans": [
    "muat turun"
@@ -58115,7 +58252,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|2": {
+ "Unit 7 · Vocabulary focus|8|18": {
   "source_text": "   e.g. Muat turun aplikasi ini.",
   "target_spans": [
    "Muat turun aplikasi ini."
@@ -58124,7 +58261,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|3": {
+ "Unit 7 · Vocabulary focus|8|19": {
   "source_text": "kata laluan — password · パスワード  [L-0581]",
   "target_spans": [
    "kata laluan"
@@ -58133,7 +58270,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|4": {
+ "Unit 7 · Vocabulary focus|8|20": {
   "source_text": "   e.g. Kata laluan saya panjang.",
   "target_spans": [
    "Kata laluan saya panjang."
@@ -58142,7 +58279,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|5": {
+ "Unit 7 · Vocabulary focus|8|21": {
   "source_text": "bateri — battery · バッテリー・電池  [L-0582]",
   "target_spans": [
    "bateri"
@@ -58151,7 +58288,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|6": {
+ "Unit 7 · Vocabulary focus|8|22": {
   "source_text": "   e.g. Bateri telefon saya habis.",
   "target_spans": [
    "Bateri telefon saya habis."
@@ -58160,7 +58297,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|7": {
+ "Unit 7 · Vocabulary focus|8|23": {
   "source_text": "cas — to charge (a battery) · 充電する  [L-0583]",
   "target_spans": [
    "cas"
@@ -58169,7 +58306,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|8": {
+ "Unit 7 · Vocabulary focus|8|24": {
   "source_text": "   e.g. Saya cas telefon bimbit di pejabat.",
   "target_spans": [
    "Saya cas telefon bimbit di pejabat."
@@ -58178,7 +58315,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|9": {
+ "Unit 7 · Vocabulary focus|8|25": {
   "source_text": "skrin — screen · 画面  [L-0584]",
   "target_spans": [
    "skrin"
@@ -58187,7 +58324,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|10": {
+ "Unit 7 · Vocabulary focus|8|26": {
   "source_text": "   e.g. Skrin telefon ini besar.",
   "target_spans": [
    "Skrin telefon ini besar."
@@ -58196,7 +58333,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|11": {
+ "Unit 7 · Vocabulary focus|8|27": {
   "source_text": "tekan — to press, tap · 押す・タップする  [L-0585]",
   "target_spans": [
    "tekan"
@@ -58205,7 +58342,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|12": {
+ "Unit 7 · Vocabulary focus|8|28": {
   "source_text": "   e.g. Tekan di sini.",
   "target_spans": [
    "Tekan di sini."
@@ -58214,7 +58351,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|13": {
+ "Unit 7 · Vocabulary focus|8|29": {
   "source_text": "internet — internet · インターネット  [L-0586]",
   "target_spans": [
    "internet"
@@ -58223,7 +58360,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|14": {
+ "Unit 7 · Vocabulary focus|8|30": {
   "source_text": "   e.g. Internet di sini cepat.",
   "target_spans": [
    "Internet di sini cepat."
@@ -58232,7 +58369,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|15": {
+ "Unit 7 · Vocabulary focus|9|0": {
   "source_text": "talian — line, connection · 回線  [L-0587]",
   "target_spans": [
    "talian"
@@ -58241,7 +58378,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|16": {
+ "Unit 7 · Vocabulary focus|9|1": {
   "source_text": "   e.g. Talian telefon rosak.",
   "target_spans": [
    "Talian telefon rosak."
@@ -58250,7 +58387,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|17": {
+ "Unit 7 · Vocabulary focus|9|2": {
   "source_text": "rosak — broken, out of order · 壊れた・故障した  [L-0588]",
   "target_spans": [
    "rosak"
@@ -58259,7 +58396,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|18": {
+ "Unit 7 · Vocabulary focus|9|3": {
   "source_text": "   e.g. Lif rosak hari ini.",
   "target_spans": [
    "Lif rosak hari ini."
@@ -58268,7 +58405,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|19": {
+ "Unit 7 · Vocabulary focus|9|4": {
   "source_text": "kamera — camera · カメラ  [L-0589]",
   "target_spans": [
    "kamera"
@@ -58277,7 +58414,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|20": {
+ "Unit 7 · Vocabulary focus|9|5": {
   "source_text": "   e.g. Kamera telefon ini bagus.",
   "target_spans": [
    "Kamera telefon ini bagus."
@@ -58286,14 +58423,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|21": {
+ "Unit 7 · Vocabulary focus|9|6": {
   "source_text": "■ Dunia · To recognise · \"Lintas jalan\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Vocabulary focus|8|22": {
+ "Unit 7 · Vocabulary focus|9|7": {
   "source_text": "motosikal — motorcycle · バイク  [L-0489]",
   "target_spans": [
    "motosikal"
@@ -58302,7 +58439,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|23": {
+ "Unit 7 · Vocabulary focus|9|8": {
   "source_text": "   e.g. Motosikal itu di luar.",
   "target_spans": [
    "Motosikal itu di luar."
@@ -58311,7 +58448,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|24": {
+ "Unit 7 · Vocabulary focus|9|9": {
   "source_text": "lori — lorry, truck · トラック  [L-0490]",
   "target_spans": [
    "lori"
@@ -58320,7 +58457,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|25": {
+ "Unit 7 · Vocabulary focus|9|10": {
   "source_text": "   e.g. Lori itu besar.",
   "target_spans": [
    "Lori itu besar."
@@ -58329,7 +58466,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|26": {
+ "Unit 7 · Vocabulary focus|9|11": {
   "source_text": "basikal — bicycle · 自転車  [L-0491]",
   "target_spans": [
    "basikal"
@@ -58338,7 +58475,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|27": {
+ "Unit 7 · Vocabulary focus|9|12": {
   "source_text": "   e.g. Basikal saya baru.",
   "target_spans": [
    "Basikal saya baru."
@@ -58347,7 +58484,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|28": {
+ "Unit 7 · Vocabulary focus|9|13": {
   "source_text": "lintas — to cross · 渡る  [L-0492]",
   "target_spans": [
    "lintas"
@@ -58356,7 +58493,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|29": {
+ "Unit 7 · Vocabulary focus|9|14": {
   "source_text": "   e.g. Lintas jalan di lintasan pejalan kaki.",
   "target_spans": [
    "Lintas jalan di lintasan pejalan kaki."
@@ -58365,7 +58502,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|8|30": {
+ "Unit 7 · Vocabulary focus|9|15": {
   "source_text": "tempat letak kereta — car park · 駐車場  [L-0493]",
   "target_spans": [
    "tempat letak kereta"
@@ -58374,7 +58511,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|0": {
+ "Unit 7 · Vocabulary focus|9|16": {
   "source_text": "   e.g. Tempat letak kereta di bawah.",
   "target_spans": [
    "Tempat letak kereta di bawah."
@@ -58383,7 +58520,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|1": {
+ "Unit 7 · Vocabulary focus|9|17": {
   "source_text": "pejalan kaki — pedestrian · 歩行者  [L-0494]",
   "target_spans": [
    "pejalan kaki"
@@ -58392,7 +58529,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|2": {
+ "Unit 7 · Vocabulary focus|9|18": {
   "source_text": "   e.g. Pejalan kaki tunggu di lampu isyarat.",
   "target_spans": [
    "Pejalan kaki tunggu di lampu isyarat."
@@ -58401,7 +58538,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|3": {
+ "Unit 7 · Vocabulary focus|9|19": {
   "source_text": "jejantas — pedestrian bridge · 歩道橋  [L-0495]",
   "target_spans": [
    "jejantas"
@@ -58410,7 +58547,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|4": {
+ "Unit 7 · Vocabulary focus|9|20": {
   "source_text": "   e.g. Jejantas di depan stesen.",
   "target_spans": [
    "Jejantas di depan stesen."
@@ -58419,7 +58556,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|5": {
+ "Unit 7 · Vocabulary focus|9|21": {
   "source_text": "bahaya — danger, dangerous · 危ない  [L-0498]",
   "target_spans": [
    "bahaya"
@@ -58428,7 +58565,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|6": {
+ "Unit 7 · Vocabulary focus|9|22": {
   "source_text": "   e.g. Jalan ini bahaya.",
   "target_spans": [
    "Jalan ini bahaya."
@@ -58437,21 +58574,21 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|7": {
+ "Unit 7 · Vocabulary focus|9|23": {
   "source_text": "■ Revision · 復習 (not new, not tested as new vocabulary)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Vocabulary focus|9|8": {
+ "Unit 7 · Vocabulary focus|9|24": {
   "source_text": "■ Revision · 復習 · Chapter 1 · politeness and finding",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Vocabulary focus|9|9": {
+ "Unit 7 · Vocabulary focus|9|25": {
   "source_text": "maaf — sorry; excuse me · すみません  [L-0018]",
   "target_spans": [
    "maaf"
@@ -58460,7 +58597,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|10": {
+ "Unit 7 · Vocabulary focus|9|26": {
   "source_text": "   e.g. Maaf, bank di mana?",
   "target_spans": [
    "Maaf, bank di mana?"
@@ -58469,7 +58606,25 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|11": {
+ "Unit 7 · Vocabulary focus|9|27": {
+  "source_text": "tumpang tanya — excuse me, may I ask (to start a question to a stranger) · すみません、ちょっとおたずねします（見知らぬ人に声をかける）  [L-0019]",
+  "target_spans": [
+   "tumpang tanya"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|9|28": {
+  "source_text": "   e.g. Maaf, tumpang tanya, bank di mana?",
+  "target_spans": [
+   "Maaf, tumpang tanya, bank di mana?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 7 · Vocabulary focus|9|29": {
   "source_text": "terima kasih — thank you · ありがとう  [L-0016]",
   "target_spans": [
    "terima kasih"
@@ -58478,7 +58633,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|12": {
+ "Unit 7 · Vocabulary focus|10|0": {
   "source_text": "   e.g. Terima kasih, cik.",
   "target_spans": [
    "Terima kasih, cik."
@@ -58487,7 +58642,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|13": {
+ "Unit 7 · Vocabulary focus|10|1": {
   "source_text": "sama-sama — you're welcome · どういたしまして  [L-0017]",
   "target_spans": [
    "sama-sama"
@@ -58496,7 +58651,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|14": {
+ "Unit 7 · Vocabulary focus|10|2": {
   "source_text": "   e.g. Sama-sama, encik.",
   "target_spans": [
    "Sama-sama, encik."
@@ -58505,7 +58660,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|15": {
+ "Unit 7 · Vocabulary focus|10|3": {
   "source_text": "hati-hati — be careful · 気をつけて  [L-0499]",
   "target_spans": [
    "hati-hati"
@@ -58514,7 +58669,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|16": {
+ "Unit 7 · Vocabulary focus|10|4": {
   "source_text": "   e.g. Hati-hati di jalan!",
   "target_spans": [
    "Hati-hati di jalan!"
@@ -58523,7 +58678,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|17": {
+ "Unit 7 · Vocabulary focus|10|5": {
   "source_text": "jumpa — to find; to meet · 見つける・会う  [L-0576]",
   "target_spans": [
    "jumpa"
@@ -58532,7 +58687,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|18": {
+ "Unit 7 · Vocabulary focus|10|6": {
   "source_text": "   e.g. Saya jumpa telefon saya!",
   "target_spans": [
    "Saya jumpa telefon saya!"
@@ -58541,14 +58696,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|19": {
+ "Unit 7 · Vocabulary focus|10|7": {
   "source_text": "■ Revision · 復習 · Chapters 2 and 3 · places, home and numbers",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Vocabulary focus|9|20": {
+ "Unit 7 · Vocabulary focus|10|8": {
   "source_text": "pejabat — office · 事務所・オフィス  [L-0064]",
   "target_spans": [
    "pejabat"
@@ -58557,7 +58712,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|21": {
+ "Unit 7 · Vocabulary focus|10|9": {
   "source_text": "   e.g. Pejabat saya dekat dengan stesen.",
   "target_spans": [
    "Pejabat saya dekat dengan stesen."
@@ -58566,7 +58721,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|22": {
+ "Unit 7 · Vocabulary focus|10|10": {
   "source_text": "rumah — house, home · 家  [L-0070]",
   "target_spans": [
    "rumah"
@@ -58575,7 +58730,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|23": {
+ "Unit 7 · Vocabulary focus|10|11": {
   "source_text": "   e.g. Rumah saya di utara stesen.",
   "target_spans": [
    "Rumah saya di utara stesen."
@@ -58584,7 +58739,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|24": {
+ "Unit 7 · Vocabulary focus|10|12": {
   "source_text": "sekolah — school · 学校  [L-0067]",
   "target_spans": [
    "sekolah"
@@ -58593,7 +58748,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|25": {
+ "Unit 7 · Vocabulary focus|10|13": {
   "source_text": "   e.g. Sekolah di seberang jalan.",
   "target_spans": [
    "Sekolah di seberang jalan."
@@ -58602,7 +58757,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|26": {
+ "Unit 7 · Vocabulary focus|10|14": {
   "source_text": "kerja — work; to work (pergi kerja is everyday speech; pergi ke pejabat is the standard form) · 仕事・働く  [L-0065]",
   "target_spans": [
    "kerja",
@@ -58613,7 +58768,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|27": {
+ "Unit 7 · Vocabulary focus|10|15": {
   "source_text": "   e.g. Saya pergi kerja pukul tujuh.",
   "target_spans": [
    "Saya pergi kerja pukul tujuh."
@@ -58622,7 +58777,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|28": {
+ "Unit 7 · Vocabulary focus|10|16": {
   "source_text": "tinggal — to live (reside); to stay · 住む  [L-0071]",
   "target_spans": [
    "tinggal"
@@ -58631,7 +58786,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|9|29": {
+ "Unit 7 · Vocabulary focus|10|17": {
   "source_text": "   e.g. Saya tinggal di kondo.",
   "target_spans": [
    "Saya tinggal di kondo."
@@ -58640,7 +58795,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|0": {
+ "Unit 7 · Vocabulary focus|10|18": {
   "source_text": "ada — have; there is · ある・いる  [L-0057]",
   "target_spans": [
    "ada"
@@ -58649,7 +58804,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|1": {
+ "Unit 7 · Vocabulary focus|10|19": {
   "source_text": "   e.g. Ada kedai di tingkat satu.",
   "target_spans": [
    "Ada kedai di tingkat satu."
@@ -58658,7 +58813,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|2": {
+ "Unit 7 · Vocabulary focus|10|20": {
   "source_text": "di mana / di manakah — where · どこ  [L-0052]",
   "target_spans": [
    "di mana / di manakah"
@@ -58667,7 +58822,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|3": {
+ "Unit 7 · Vocabulary focus|10|21": {
   "source_text": "   e.g. Tandas di mana?",
   "target_spans": [
    "Tandas di mana?"
@@ -58676,7 +58831,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|4": {
+ "Unit 7 · Vocabulary focus|10|22": {
   "source_text": "pasar — market · 市場  [L-0512]",
   "target_spans": [
    "pasar"
@@ -58685,7 +58840,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|5": {
+ "Unit 7 · Vocabulary focus|10|23": {
   "source_text": "   e.g. Pasar di sebelah tokong.",
   "target_spans": [
    "Pasar di sebelah tokong."
@@ -58694,7 +58849,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|6": {
+ "Unit 7 · Vocabulary focus|10|24": {
   "source_text": "pejabat pos — post office · 郵便局  [L-0425]",
   "target_spans": [
    "pejabat pos"
@@ -58703,7 +58858,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|7": {
+ "Unit 7 · Vocabulary focus|10|25": {
   "source_text": "   e.g. Pejabat pos di tingkat satu.",
   "target_spans": [
    "Pejabat pos di tingkat satu."
@@ -58712,7 +58867,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|8": {
+ "Unit 7 · Vocabulary focus|10|26": {
   "source_text": "sentimeter / meter — centimetre / metre · センチ／メートル  [L-0152]",
   "target_spans": [
    "sentimeter / meter"
@@ -58721,7 +58876,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|9": {
+ "Unit 7 · Vocabulary focus|10|27": {
   "source_text": "   e.g. Lebih kurang tiga ratus meter.",
   "target_spans": [
    "Lebih kurang tiga ratus meter."
@@ -58730,7 +58885,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|10": {
+ "Unit 7 · Vocabulary focus|10|28": {
   "source_text": "sahaja / saja — only (standard sahaja; spoken saja) · 〜だけ  [L-1000]",
   "target_spans": [
    "sahaja / saja",
@@ -58741,7 +58896,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|11": {
+ "Unit 7 · Vocabulary focus|10|29": {
   "source_text": "   e.g. Dekat sahaja. (spoken: saja)",
   "target_spans": [
    "Dekat sahaja.",
@@ -58751,7 +58906,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|12": {
+ "Unit 7 · Vocabulary focus|10|30": {
   "source_text": "selepas — after · 〜の後  [L-1001]",
   "target_spans": [
    "selepas"
@@ -58760,7 +58915,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|13": {
+ "Unit 7 · Vocabulary focus|11|0": {
   "source_text": "   e.g. Belok kiri selepas bulatan.",
   "target_spans": [
    "Belok kiri selepas bulatan."
@@ -58769,14 +58924,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|14": {
+ "Unit 7 · Vocabulary focus|11|1": {
   "source_text": "■ Revision · 復習 · Chapter 4 · going, coming and time",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Vocabulary focus|10|15": {
+ "Unit 7 · Vocabulary focus|11|2": {
   "source_text": "pergi — to go · 行く  [L-0201]",
   "target_spans": [
    "pergi"
@@ -58785,7 +58940,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|16": {
+ "Unit 7 · Vocabulary focus|11|3": {
   "source_text": "   e.g. Saya pergi ke bank.",
   "target_spans": [
    "Saya pergi ke bank."
@@ -58794,7 +58949,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|17": {
+ "Unit 7 · Vocabulary focus|11|4": {
   "source_text": "balik / pulang — to go back, return home (balik rumah everyday; balik ke rumah standard) · 帰る  [L-0202]",
   "target_spans": [
    "balik / pulang",
@@ -58805,7 +58960,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|18": {
+ "Unit 7 · Vocabulary focus|11|5": {
   "source_text": "   e.g. Saya balik ke rumah pukul enam. (everyday speech: Saya balik rumah.)",
   "target_spans": [
    "Saya balik ke rumah pukul enam.",
@@ -58815,7 +58970,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|19": {
+ "Unit 7 · Vocabulary focus|11|6": {
   "source_text": "datang — to come · 来る  [L-1006]",
   "target_spans": [
    "datang"
@@ -58824,7 +58979,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|20": {
+ "Unit 7 · Vocabulary focus|11|7": {
   "source_text": "   e.g. Mereka datang dari pasar.",
   "target_spans": [
    "Mereka datang dari pasar."
@@ -58833,7 +58988,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|21": {
+ "Unit 7 · Vocabulary focus|11|8": {
   "source_text": "sampai — to arrive; until · 着く；〜まで  [L-0203]",
   "target_spans": [
    "sampai"
@@ -58842,16 +58997,16 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|22": {
-  "source_text": "   e.g. Jalan lurus sampai bulatan.",
+ "Unit 7 · Vocabulary focus|11|9": {
+  "source_text": "   e.g. Jalan terus sampai bulatan.",
   "target_spans": [
-   "Jalan lurus sampai bulatan."
+   "Jalan terus sampai bulatan."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|23": {
+ "Unit 7 · Vocabulary focus|11|10": {
   "source_text": "minit — minute · 分  [L-0159]",
   "target_spans": [
    "minit"
@@ -58860,7 +59015,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|24": {
+ "Unit 7 · Vocabulary focus|11|11": {
   "source_text": "   e.g. Lebih kurang dua puluh minit.",
   "target_spans": [
    "Lebih kurang dua puluh minit."
@@ -58869,7 +59024,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|25": {
+ "Unit 7 · Vocabulary focus|11|12": {
   "source_text": "jam — hour (a length of time), clock · 〜時間；時計  [L-0158]",
   "target_spans": [
    "jam"
@@ -58878,7 +59033,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|26": {
+ "Unit 7 · Vocabulary focus|11|13": {
   "source_text": "   e.g. Satu jam naik bas.",
   "target_spans": [
    "Satu jam naik bas."
@@ -58887,7 +59042,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|27": {
+ "Unit 7 · Vocabulary focus|11|14": {
   "source_text": "tunggu — to wait · 待つ  [L-0496]",
   "target_spans": [
    "tunggu"
@@ -58896,7 +59051,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|10|28": {
+ "Unit 7 · Vocabulary focus|11|15": {
   "source_text": "   e.g. Saya tunggu bas di sini.",
   "target_spans": [
    "Saya tunggu bas di sini."
@@ -58905,7 +59060,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|0": {
+ "Unit 7 · Vocabulary focus|11|16": {
   "source_text": "depan / hadapan — front (hadapan is the more formal word); in chapter 4: next, minggu depan · 前（hadapan は改まった言い方）；第4章では「次の」（minggu depan）  [L-0173]",
   "target_spans": [
    "depan",
@@ -58919,7 +59074,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|1": {
+ "Unit 7 · Vocabulary focus|11|17": {
   "source_text": "   e.g. Bank di depan stesen.",
   "target_spans": [
    "Bank di depan stesen."
@@ -58928,7 +59083,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|2": {
+ "Unit 7 · Vocabulary focus|11|18": {
   "source_text": "setiap — every · 毎〜  [L-0182]",
   "target_spans": [
    "setiap"
@@ -58937,7 +59092,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|3": {
+ "Unit 7 · Vocabulary focus|11|19": {
   "source_text": "   e.g. Setiap pagi saya naik bas.",
   "target_spans": [
    "Setiap pagi saya naik bas."
@@ -58946,7 +59101,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|4": {
+ "Unit 7 · Vocabulary focus|11|20": {
   "source_text": "kapal terbang — aeroplane · 飛行機  [L-0449]",
   "target_spans": [
    "kapal terbang"
@@ -58955,7 +59110,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|5": {
+ "Unit 7 · Vocabulary focus|11|21": {
   "source_text": "   e.g. Saya naik kapal terbang ke Penang.",
   "target_spans": [
    "Saya naik kapal terbang ke Penang."
@@ -58964,14 +59119,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|6": {
+ "Unit 7 · Vocabulary focus|11|22": {
   "source_text": "■ Revision · 復習 · Chapter 5 · places, wanting and reasons",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Vocabulary focus|11|7": {
+ "Unit 7 · Vocabulary focus|11|23": {
   "source_text": "hospital — hospital · 病院  [L-0336]",
   "target_spans": [
    "hospital"
@@ -58980,7 +59135,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|8": {
+ "Unit 7 · Vocabulary focus|11|24": {
   "source_text": "   e.g. Hospital di belakang stesen.",
   "target_spans": [
    "Hospital di belakang stesen."
@@ -58989,7 +59144,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|9": {
+ "Unit 7 · Vocabulary focus|11|25": {
   "source_text": "klinik — clinic · クリニック  [L-0406]",
   "target_spans": [
    "klinik"
@@ -58998,7 +59153,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|10": {
+ "Unit 7 · Vocabulary focus|11|26": {
   "source_text": "   e.g. Klinik di sebelah bank.",
   "target_spans": [
    "Klinik di sebelah bank."
@@ -59007,7 +59162,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|11": {
+ "Unit 7 · Vocabulary focus|11|27": {
   "source_text": "mahu / nak (spoken) — to want (spoken nak) · 欲しい・〜したい  [L-0213]",
   "target_spans": [
    "mahu",
@@ -59018,7 +59173,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|12": {
+ "Unit 7 · Vocabulary focus|11|28": {
   "source_text": "   e.g. Saya mahu pergi ke stesen.",
   "target_spans": [
    "Saya mahu pergi ke stesen."
@@ -59027,7 +59182,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|13": {
+ "Unit 7 · Vocabulary focus|12|0": {
   "source_text": "atau — or · または  [L-0214]",
   "target_spans": [
    "atau"
@@ -59036,7 +59191,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|14": {
+ "Unit 7 · Vocabulary focus|12|1": {
   "source_text": "   e.g. Kiri atau kanan?",
   "target_spans": [
    "Kiri atau kanan?"
@@ -59045,7 +59200,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|15": {
+ "Unit 7 · Vocabulary focus|12|2": {
   "source_text": "tetapi / tapi (spoken) — but (spoken tapi) · でも  [L-0215]",
   "target_spans": [
    "tetapi",
@@ -59056,7 +59211,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|16": {
+ "Unit 7 · Vocabulary focus|12|3": {
   "source_text": "   e.g. Dekat, tetapi jalan ini bahaya.",
   "target_spans": [
    "Dekat, tetapi jalan ini bahaya."
@@ -59065,7 +59220,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|17": {
+ "Unit 7 · Vocabulary focus|12|4": {
   "source_text": "sebab — Reason; because · 理由、〜なので  [L-0688]",
   "target_spans": [
    "sebab"
@@ -59074,7 +59229,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|18": {
+ "Unit 7 · Vocabulary focus|12|5": {
   "source_text": "   e.g. Saya naik teksi sebab jauh.",
   "target_spans": [
    "Saya naik teksi sebab jauh."
@@ -59083,7 +59238,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|19": {
+ "Unit 7 · Vocabulary focus|12|6": {
   "source_text": "banyak — a lot, many · たくさん  [L-0217]",
   "target_spans": [
    "banyak"
@@ -59092,7 +59247,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|20": {
+ "Unit 7 · Vocabulary focus|12|7": {
   "source_text": "   e.g. Terima kasih banyak!",
   "target_spans": [
    "Terima kasih banyak!"
@@ -59101,14 +59256,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|21": {
+ "Unit 7 · Vocabulary focus|12|8": {
   "source_text": "■ Revision · 復習 · Chapter 6 · comparing and describing",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Vocabulary focus|11|22": {
+ "Unit 7 · Vocabulary focus|12|9": {
   "source_text": "lama — old (things; chapter 6); long (time; chapter 7: Berapa lama?) · 古い；長い（時間）  [L-0284]",
   "target_spans": [
    "lama",
@@ -59118,7 +59273,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|23": {
+ "Unit 7 · Vocabulary focus|12|10": {
   "source_text": "   e.g. Berapa lama? (a long time; in chapter 6: Komputer saya lama, old)",
   "target_spans": [
    "Berapa lama?",
@@ -59128,7 +59283,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|24": {
+ "Unit 7 · Vocabulary focus|12|11": {
   "source_text": "stesen — station · 駅  [L-0295]",
   "target_spans": [
    "stesen"
@@ -59137,7 +59292,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|25": {
+ "Unit 7 · Vocabulary focus|12|12": {
   "source_text": "   e.g. Stesen dekat dengan kondo saya.",
   "target_spans": [
    "Stesen dekat dengan kondo saya."
@@ -59146,7 +59301,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|26": {
+ "Unit 7 · Vocabulary focus|12|13": {
   "source_text": "kondo — condominium · マンション  [L-0294]",
   "target_spans": [
    "kondo"
@@ -59155,7 +59310,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|11|27": {
+ "Unit 7 · Vocabulary focus|12|14": {
   "source_text": "   e.g. Kondo saya di tingkat lima.",
   "target_spans": [
    "Kondo saya di tingkat lima."
@@ -59164,7 +59319,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|12|0": {
+ "Unit 7 · Vocabulary focus|12|15": {
   "source_text": "bilik — room (bilik tidur = bedroom, bilik air = bathroom) · 部屋（bilik tidur＝寝室、bilik air＝浴室）  [L-1052]",
   "target_spans": [
    "bilik",
@@ -59177,7 +59332,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|12|1": {
+ "Unit 7 · Vocabulary focus|12|16": {
   "source_text": "   e.g. Bilik air di sebelah lif.",
   "target_spans": [
    "Bilik air di sebelah lif."
@@ -59186,7 +59341,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|12|2": {
+ "Unit 7 · Vocabulary focus|12|17": {
   "source_text": "cepat — quick, fast · 速い・早く  [L-0497]",
   "target_spans": [
    "cepat"
@@ -59195,7 +59350,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|12|3": {
+ "Unit 7 · Vocabulary focus|12|18": {
   "source_text": "   e.g. Kereta api cepat.",
   "target_spans": [
    "Kereta api cepat."
@@ -59204,7 +59359,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|12|4": {
+ "Unit 7 · Vocabulary focus|12|19": {
   "source_text": "ramai — crowded, many (people) · 混んでいる・人が多い  [L-0289]",
   "target_spans": [
    "ramai"
@@ -59213,7 +59368,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|12|5": {
+ "Unit 7 · Vocabulary focus|12|20": {
   "source_text": "   e.g. Stesen ramai pukul lapan.",
   "target_spans": [
    "Stesen ramai pukul lapan."
@@ -59222,7 +59377,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|12|6": {
+ "Unit 7 · Vocabulary focus|12|21": {
   "source_text": "lebih — more · もっと・より  [L-0265]",
   "target_spans": [
    "lebih"
@@ -59231,7 +59386,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|12|7": {
+ "Unit 7 · Vocabulary focus|12|22": {
   "source_text": "   e.g. Bank lebih dekat daripada stesen.",
   "target_spans": [
    "Bank lebih dekat daripada stesen."
@@ -59240,7 +59395,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|12|8": {
+ "Unit 7 · Vocabulary focus|12|23": {
   "source_text": "paling — most · 一番  [L-0274]",
   "target_spans": [
    "paling"
@@ -59249,7 +59404,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|12|9": {
+ "Unit 7 · Vocabulary focus|12|24": {
   "source_text": "   e.g. Yang mana paling dekat?",
   "target_spans": [
    "Yang mana paling dekat?"
@@ -59258,7 +59413,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|12|10": {
+ "Unit 7 · Vocabulary focus|12|25": {
   "source_text": "yang mana — which one, which (in pintu keluar yang mana?) · どれ  [L-0279]",
   "target_spans": [
    "yang mana",
@@ -59268,7 +59423,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 7 · Vocabulary focus|12|11": {
+ "Unit 7 · Vocabulary focus|12|26": {
   "source_text": "   e.g. Pintu keluar yang mana?",
   "target_spans": [
    "Pintu keluar yang mana?"
@@ -59278,7 +59433,7 @@
   "exclusion": null
  },
  "Unit 7 · Vocabulary focus|13|0": {
-  "source_text": "56 new core entries, 33 Dunia recognition entries and 43 revision entries.",
+  "source_text": "62 new core entries, 33 Dunia recognition entries and 44 revision entries.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
@@ -59620,22 +59775,25 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Pattern and grammar focus|4|4": {
-  "source_text": "Pattern box: Jalan lurus, kemudian belok kiri / kanan di (landmark).",
+  "source_text": "Pattern box: Jalan terus, kemudian belok kiri / kanan di (landmark). / Jangan belok kiri / kanan.",
   "target_spans": [
-   "Jalan lurus, kemudian belok",
+   "Jalan terus, kemudian belok",
    "kiri",
    "kanan",
-   "di"
+   "di",
+   "Jangan belok",
+   "kiri",
+   "kanan"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 7 · Pattern and grammar focus|4|5": {
-  "source_text": "1. A: Maaf, stesen di mana? B: Jalan lurus, kemudian belok kanan di lampu isyarat.",
+  "source_text": "1. A: Maaf, tumpang tanya, stesen di mana? B: Jalan terus, kemudian belok kanan di lampu isyarat.",
   "target_spans": [
-   "Maaf, stesen di mana?",
-   "Jalan lurus, kemudian belok kanan di lampu isyarat."
+   "Maaf, tumpang tanya, stesen di mana?",
+   "Jalan terus, kemudian belok kanan di lampu isyarat."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -59652,111 +59810,131 @@
   "exclusion": null
  },
  "Unit 7 · Pattern and grammar focus|4|7": {
-  "source_text": "3. A: Kedai itu di mana? B: Jalan lurus sampai bulatan, kemudian belok kiri.",
+  "source_text": "3. A: Kedai itu di mana? B: Jalan terus sampai bulatan, kemudian belok kiri.",
   "target_spans": [
    "Kedai itu di mana?",
-   "Jalan lurus sampai bulatan, kemudian belok kiri."
+   "Jalan terus sampai bulatan, kemudian belok kiri."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 7 · Pattern and grammar focus|4|8": {
-  "source_text": "4. A: Hospital di mana? B: Jalan lurus. Hospital di seberang gereja.",
+  "source_text": "4. A: Hospital di mana? B: Terus depan. Hospital di seberang gereja.",
   "target_spans": [
    "Hospital di mana?",
-   "Jalan lurus. Hospital di seberang gereja."
+   "Terus depan. Hospital di seberang gereja."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 7 · Pattern and grammar focus|4|9": {
-  "source_text": "5. A: Pasar di mana? B: Belok kanan selepas tokong. Pasar di sebelah kiri.",
+  "source_text": "5. A: Pasar di mana? B: Pergi terus. Jangan belok di lampu isyarat. Pasar di sebelah kiri, selepas tokong.",
   "target_spans": [
    "Pasar di mana?",
-   "Belok kanan selepas tokong. Pasar di sebelah kiri."
+   "Pergi terus. Jangan belok di lampu isyarat. Pasar di sebelah kiri, selepas tokong."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 7 · Pattern and grammar focus|4|10": {
-  "source_text": "6. A: Tandas di mana? B: Naik lif ke tingkat dua, kemudian belok kiri.",
+  "source_text": "6. A: Tandas di mana? B: Naik tangga ke tingkat dua, kemudian belok kiri.",
   "target_spans": [
    "Tandas di mana?",
-   "Naik lif ke tingkat dua, kemudian belok kiri."
+   "Naik tangga ke tingkat dua, kemudian belok kiri."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 7 · Pattern and grammar focus|4|11": {
-  "source_text": "Explanation: A route is a list of short steps joined by kemudian (then): Jalan lurus, kemudian belok kanan di lampu isyarat. belok is the verb to turn, kiri or kanan says which way, and di names the landmark where you do it. jalan is the road and also the verb to go on foot. For up, down, in and out use naik, turun, masuk and keluar.",
+  "source_text": "Explanation: A route is a list of short steps joined by kemudian (then): Jalan terus, kemudian belok kanan di lampu isyarat. terus means straight on: jalan terus, pergi terus or terus depan (straight ahead). belok is the verb to turn, kiri or kanan says which way, and di names the landmark where you do it. Jangan before a verb means do not: Jangan belok kiri. jalan is the road and also the verb to go on foot. For up, down, in and out use naik, turun, masuk and keluar: naik tangga is to go up the stairs. lurus only describes a straight road or line (Jalan ini lurus.); it is not used to say go straight on.",
   "target_spans": [
    "kemudian",
-   "Jalan lurus, kemudian belok kanan di lampu isyarat.",
+   "Jalan terus, kemudian belok kanan di lampu isyarat.",
+   "terus",
+   "jalan terus",
+   "pergi terus",
+   "terus depan",
    "belok",
    "kiri",
    "kanan",
    "di",
+   "Jangan",
+   "Jangan belok kiri.",
    "jalan",
    "naik",
    "turun",
    "masuk",
-   "keluar"
+   "keluar",
+   "naik tangga",
+   "lurus",
+   "Jalan ini lurus."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 7 · Pattern and grammar focus|4|12": {
-  "source_text": "説明：道順は短い手順を kemudian（それから）でつなぎます：Jalan lurus, kemudian belok kanan di lampu isyarat. belok は「曲がる」、kiri か kanan で方向を言い、di のあとに曲がる目印を置きます。jalan は「道」でも「歩く・進む」でもあります。上る・下りる・入る・出るには naik・turun・masuk・keluar を使います。",
+  "source_text": "説明：道順は短い手順を kemudian（それから）でつなぎます：Jalan terus, kemudian belok kanan di lampu isyarat. terus は「まっすぐ」で、jalan terus・pergi terus・terus depan（まっすぐ前）と言います。belok は「曲がる」、kiri か kanan で方向を言い、di のあとに曲がる目印を置きます。動詞の前の jangan は「〜しないで」の意味です：Jangan belok kiri. jalan は「道」でも「歩く・進む」でもあります。上る・下りる・入る・出るには naik・turun・masuk・keluar を使い、naik tangga は階段を上ることです。lurus は道や線の形（まっすぐな）を表すだけで、「まっすぐ進む」の意味では使いません：Jalan ini lurus.",
   "target_spans": [
    "kemudian",
-   "Jalan lurus, kemudian belok kanan di lampu isyarat.",
+   "Jalan terus, kemudian belok kanan di lampu isyarat.",
+   "terus",
+   "jalan terus",
+   "pergi terus",
+   "terus depan",
    "belok",
    "kiri",
    "kanan",
    "di",
+   "jangan",
+   "Jangan belok kiri.",
    "jalan",
    "naik",
    "turun",
    "masuk",
-   "keluar"
+   "keluar",
+   "naik tangga",
+   "lurus",
+   "Jalan ini lurus."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|4|13": {
-  "source_text": "Japanese helps or misleads: Japanese joins steps with て (まっすぐ行って、曲がって); Malay keeps each verb plain and adds kemudian, or just a comma. The landmark comes after di, not before を.",
+ "Unit 7 · Pattern and grammar focus|5|0": {
+  "source_text": "Japanese helps or misleads: Japanese joins steps with て (まっすぐ行って、曲がって); Malay keeps each verb plain and adds kemudian, or just a comma. The landmark comes after di, not before を. A Japanese \"do not\" ends the verb (曲がらないで); Malay puts jangan first.",
   "target_spans": [
    "kemudian",
-   "di"
+   "di",
+   "jangan"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|4|14": {
-  "source_text": "日本語との比較：日本語は「まっすぐ行って、曲がって」と動詞を「て」でつなぎますが、マレー語は動詞の形を変えずに kemudian かコンマでつなぎます。目印は di のあとに置きます。",
+ "Unit 7 · Pattern and grammar focus|5|1": {
+  "source_text": "日本語との比較：日本語は「まっすぐ行って、曲がって」と動詞を「て」でつなぎますが、マレー語は動詞の形を変えずに kemudian かコンマでつなぎます。目印は di のあとに置きます。日本語の「曲がらないで」は動詞の終わりで禁止を表しますが、マレー語は jangan を動詞の前に置きます。",
   "target_spans": [
    "kemudian",
-   "di"
+   "di",
+   "jangan"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|4|15": {
+ "Unit 7 · Pattern and grammar focus|5|2": {
   "source_text": "■ Pattern 4 · ms-c07-f04",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Pattern and grammar focus|4|16": {
+ "Unit 7 · Pattern and grammar focus|5|3": {
   "source_text": "Pattern box: Berapa jauh (place) dari sini? / Lebih kurang (distance).",
   "target_spans": [
    "Berapa jauh",
@@ -59767,7 +59945,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|4|17": {
+ "Unit 7 · Pattern and grammar focus|5|4": {
   "source_text": "1. A: Berapa jauh stesen dari sini? B: Lebih kurang lima ratus meter.",
   "target_spans": [
    "Berapa jauh stesen dari sini?",
@@ -59777,7 +59955,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|5|0": {
+ "Unit 7 · Pattern and grammar focus|5|5": {
   "source_text": "2. A: Jauh dari sini? B: Tidak jauh. Dekat sahaja.",
   "target_spans": [
    "Jauh dari sini?",
@@ -59787,7 +59965,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|5|1": {
+ "Unit 7 · Pattern and grammar focus|5|6": {
   "source_text": "3. A: Bank dekat dengan pejabat? B: Ya, dekat. Jalan kaki lebih kurang dua minit.",
   "target_spans": [
    "Bank dekat dengan pejabat?",
@@ -59797,89 +59975,84 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|5|2": {
-  "source_text": "4. A: Berapa jauh hospital dari kondo? B: Lebih kurang seribu meter.",
+ "Unit 7 · Pattern and grammar focus|5|7": {
+  "source_text": "4. A: Berapa jauh hospital dari kondo? B: Lebih kurang dua kilometer.",
   "target_spans": [
    "Berapa jauh hospital dari kondo?",
-   "Lebih kurang seribu meter."
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 7 · Pattern and grammar focus|5|3": {
-  "source_text": "5. A: Rumah awak jauh dari pejabat? B: Jauh. Kalau jalan kaki, lebih kurang satu jam.",
-  "target_spans": [
-   "Rumah awak jauh dari pejabat?",
-   "Jauh. Kalau jalan kaki, lebih kurang satu jam."
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 7 · Pattern and grammar focus|5|4": {
-  "source_text": "6. A: Sekolah dekat atau jauh? B: Dekat. Lebih kurang tiga ratus meter.",
-  "target_spans": [
-   "Sekolah dekat atau jauh?",
-   "Dekat. Lebih kurang tiga ratus meter."
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 7 · Pattern and grammar focus|5|5": {
-  "source_text": "Explanation: berapa jauh asks how far; answer with lebih kurang (about) and a distance in meter. dekat (near) goes with dengan (dekat dengan stesen); jauh (far) goes with dari (jauh dari sini). Say tidak jauh for not far. kalau (if) starts a condition: Kalau jauh, naik teksi.",
-  "target_spans": [
-   "berapa jauh",
-   "lebih kurang",
-   "meter",
-   "dekat",
-   "dengan",
-   "dekat dengan stesen",
-   "jauh",
-   "dari",
-   "jauh dari sini",
-   "tidak jauh",
-   "kalau",
-   "Kalau jauh, naik teksi."
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 7 · Pattern and grammar focus|5|6": {
-  "source_text": "説明：berapa jauh は「どのくらい遠いか」で、lebih kurang（約）と meter の距離で答えます。dekat（近い）は dengan と、jauh（遠い）は dari と使います：dekat dengan stesen、jauh dari sini。遠くないときは tidak jauh と言います。kalau（もし）は条件を始めます：Kalau jauh, naik teksi.",
-  "target_spans": [
-   "berapa jauh",
-   "lebih kurang",
-   "meter",
-   "dekat",
-   "dengan",
-   "jauh",
-   "dari",
-   "dekat dengan stesen",
-   "jauh dari sini",
-   "tidak jauh",
-   "kalau",
-   "Kalau jauh, naik teksi."
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 7 · Pattern and grammar focus|5|7": {
-  "source_text": "Japanese helps or misleads: Japanese says 駅に近い / 駅から遠い with different particles (に・から); Malay likewise uses dengan and dari. 約 comes first in Malay: lebih kurang before the number.",
-  "target_spans": [
-   "dengan",
-   "dari",
-   "lebih kurang"
+   "Lebih kurang dua kilometer."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 7 · Pattern and grammar focus|5|8": {
-  "source_text": "日本語との比較：日本語は「駅に近い」「駅から遠い」と助詞を使い分けますが、マレー語も dengan と dari を使い分けます。「約」にあたる lebih kurang は数字の前に置きます。",
+  "source_text": "5. A: Rumah awak jauh dari pejabat? B: Jauh. Lebih kurang sepuluh kilometer. Saya naik kereta api.",
+  "target_spans": [
+   "Rumah awak jauh dari pejabat?",
+   "Jauh. Lebih kurang sepuluh kilometer. Saya naik kereta api."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 7 · Pattern and grammar focus|5|9": {
+  "source_text": "6. A: Berapa sewa kondo itu sebulan? B: Tiga ribu ringgit sebulan. Kondo itu dekat dengan stesen.",
+  "target_spans": [
+   "Berapa sewa kondo itu sebulan?",
+   "Tiga ribu ringgit sebulan. Kondo itu dekat dengan stesen."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 7 · Pattern and grammar focus|5|10": {
+  "source_text": "Explanation: berapa jauh asks how far; answer with lebih kurang (about) and a distance in meter or, for a longer distance, kilometer. dekat (near) goes with dengan (dekat dengan stesen); jauh (far) goes with dari (jauh dari sini). Say tidak jauh for not far. kalau (if) starts a condition: Kalau jauh, naik teksi. sebulan (per month, a month) comes after the amount: tiga ribu ringgit sebulan. It is one whole word; do not build other words like it.",
+  "target_spans": [
+   "berapa jauh",
+   "lebih kurang",
+   "meter",
+   "kilometer",
+   "dekat",
+   "dengan",
+   "dekat dengan stesen",
+   "jauh",
+   "dari",
+   "jauh dari sini",
+   "tidak jauh",
+   "kalau",
+   "Kalau jauh, naik teksi.",
+   "sebulan",
+   "tiga ribu ringgit sebulan"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 7 · Pattern and grammar focus|5|11": {
+  "source_text": "説明：berapa jauh は「どのくらい遠いか」で、lebih kurang（約）と meter、長い距離なら kilometer で答えます。dekat（近い）は dengan と、jauh（遠い）は dari と使います：dekat dengan stesen、jauh dari sini。遠くないときは tidak jauh と言います。kalau（もし）は条件を始めます：Kalau jauh, naik teksi. sebulan（1か月につき）は金額のあとに置きます：tiga ribu ringgit sebulan。ひとかたまりの語で、同じ形の語を自分で作ることはしません。",
+  "target_spans": [
+   "berapa jauh",
+   "lebih kurang",
+   "meter",
+   "kilometer",
+   "dekat",
+   "dengan",
+   "jauh",
+   "dari",
+   "dekat dengan stesen",
+   "jauh dari sini",
+   "tidak jauh",
+   "kalau",
+   "Kalau jauh, naik teksi.",
+   "sebulan",
+   "tiga ribu ringgit sebulan"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 7 · Pattern and grammar focus|5|12": {
+  "source_text": "Japanese helps or misleads: Japanese says 駅に近い / 駅から遠い with different particles (に・から); Malay likewise uses dengan and dari. 約 comes first in Malay: lebih kurang before the number. 月3000リンギット is amount first, then the period, in both languages.",
   "target_spans": [
    "dengan",
    "dari",
@@ -59889,14 +60062,25 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|5|9": {
+ "Unit 7 · Pattern and grammar focus|6|0": {
+  "source_text": "日本語との比較：日本語は「駅に近い」「駅から遠い」と助詞を使い分けますが、マレー語も dengan と dari を使い分けます。「約」にあたる lebih kurang は数字の前に置きます。「月3,000リンギット」のように、金額が先で期間があとに来る点は両言語で同じです。",
+  "target_spans": [
+   "dengan",
+   "dari",
+   "lebih kurang"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 7 · Pattern and grammar focus|6|1": {
   "source_text": "■ Pattern 5 · ms-c07-f05",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Pattern and grammar focus|5|10": {
+ "Unit 7 · Pattern and grammar focus|6|2": {
   "source_text": "Pattern box: Berapa lama ke (place)? / Lebih kurang (number) minit naik (transport).",
   "target_spans": [
    "Berapa lama ke",
@@ -59908,7 +60092,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|5|11": {
+ "Unit 7 · Pattern and grammar focus|6|3": {
   "source_text": "1. A: Berapa lama ke pejabat? B: Lebih kurang dua puluh minit naik bas.",
   "target_spans": [
    "Berapa lama ke pejabat?",
@@ -59918,7 +60102,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|5|12": {
+ "Unit 7 · Pattern and grammar focus|6|4": {
   "source_text": "2. A: Berapa lama jalan kaki ke stesen? B: Lebih kurang sepuluh minit.",
   "target_spans": [
    "Berapa lama jalan kaki ke stesen?",
@@ -59928,27 +60112,27 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|5|13": {
-  "source_text": "3. A: Berapa lama ke sekolah naik kereta? B: Lebih kurang lima belas minit, kalau tidak jam.",
+ "Unit 7 · Pattern and grammar focus|6|5": {
+  "source_text": "3. A: Berapa lama ke sekolah naik kereta? B: Lebih kurang lima belas minit, kalau tidak jam / sesak.",
   "target_spans": [
    "Berapa lama ke sekolah naik kereta?",
-   "Lebih kurang lima belas minit, kalau tidak jam."
+   "Lebih kurang lima belas minit, kalau tidak jam / sesak."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|5|14": {
-  "source_text": "4. A: Berapa lama ke hospital naik teksi? B: Lebih kurang sepuluh minit. Kalau jam, lebih lama.",
+ "Unit 7 · Pattern and grammar focus|6|6": {
+  "source_text": "4. A: Berapa lama ke hospital naik teksi? B: Lebih kurang sepuluh minit. Kalau jam / sesak, lebih lama.",
   "target_spans": [
    "Berapa lama ke hospital naik teksi?",
-   "Lebih kurang sepuluh minit. Kalau jam, lebih lama."
+   "Lebih kurang sepuluh minit. Kalau jam / sesak, lebih lama."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|5|15": {
+ "Unit 7 · Pattern and grammar focus|6|7": {
   "source_text": "5. A: Encik naik apa ke pejabat? B: Saya naik kereta api, kemudian jalan kaki.",
   "target_spans": [
    "Encik naik apa ke pejabat?",
@@ -59958,7 +60142,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|5|16": {
+ "Unit 7 · Pattern and grammar focus|6|8": {
   "source_text": "6. A: Berapa lama encik tunggu bas? B: Lebih kurang lima minit.",
   "target_spans": [
    "Berapa lama encik tunggu bas?",
@@ -59968,8 +60152,8 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|5|17": {
-  "source_text": "Explanation: berapa lama asks how long; the answer is lebih kurang with minit or jam (hour, chapter 4). naik takes the vehicle: naik bas, naik teksi, naik kereta api. You get off with turun: Turun di stesen. Walking is jalan kaki. In speech jam also means heavy traffic: Kalau jam, lebih lama. (satu jam is an hour.)",
+ "Unit 7 · Pattern and grammar focus|6|9": {
+  "source_text": "Explanation: berapa lama asks how long; the answer is lebih kurang with minit or jam (hour, chapter 4). naik takes the vehicle: naik bas, naik teksi, naik kereta api. You get off with turun: Turun di stesen. Walking is jalan kaki. In speech jam also means heavy traffic, so kalau tidak jam could be heard as an hour; pair it with sesak (crowded, jammed): kalau tidak jam / sesak. (satu jam is an hour.)",
   "target_spans": [
    "berapa lama",
    "lebih kurang",
@@ -59983,15 +60167,17 @@
    "Turun di stesen.",
    "jalan kaki",
    "jam",
-   "Kalau jam, lebih lama.",
+   "kalau tidak jam",
+   "sesak",
+   "kalau tidak jam / sesak",
    "satu jam"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|6|0": {
-  "source_text": "説明：berapa lama は「どのくらい時間がかかるか」で、lebih kurang と minit か jam（時間、第4章）で答えます。乗り物は naik のあとに置きます：naik bas、naik teksi、naik kereta api。降りるのは turun です：Turun di stesen. 歩くのは jalan kaki です。話し言葉では jam に「渋滞」の意味もあります：Kalau jam, lebih lama.（satu jam は「一時間」）",
+ "Unit 7 · Pattern and grammar focus|6|10": {
+  "source_text": "説明：berapa lama は「どのくらい時間がかかるか」で、lebih kurang と minit か jam（時間、第4章）で答えます。乗り物は naik のあとに置きます：naik bas、naik teksi、naik kereta api。降りるのは turun です：Turun di stesen. 歩くのは jalan kaki です。話し言葉では jam に「渋滞」の意味もあり、kalau tidak jam は「一時間」と聞き違えられるので、sesak（混んでいる・渋滞している）と並べて kalau tidak jam / sesak と言います。（satu jam は「一時間」）",
   "target_spans": [
    "berapa lama",
    "lebih kurang",
@@ -60005,28 +60191,34 @@
    "Turun di stesen.",
    "jalan kaki",
    "jam",
-   "Kalau jam, lebih lama.",
+   "kalau tidak jam",
+   "sesak",
+   "kalau tidak jam / sesak",
    "satu jam"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|6|1": {
-  "source_text": "Japanese helps or misleads: Japanese uses 乗る for all vehicles (バスに乗る); Malay naik also means to go up, and the vehicle follows with no particle. 降りる ≈ turun.",
+ "Unit 7 · Pattern and grammar focus|6|11": {
+  "source_text": "Japanese helps or misleads: Japanese uses 乗る for all vehicles (バスに乗る); Malay naik also means to go up, and the vehicle follows with no particle. 降りる ≈ turun. Japanese 渋滞 is one word; Malay has two, spoken jam and sesak.",
   "target_spans": [
    "naik",
-   "turun"
+   "turun",
+   "jam",
+   "sesak"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
- "Unit 7 · Pattern and grammar focus|6|2": {
-  "source_text": "日本語との比較：日本語の「乗る」にあたる naik は「上がる」の意味もあり、乗り物は助詞なしでそのあとに来ます。「降りる」は turun です。",
+ "Unit 7 · Pattern and grammar focus|6|12": {
+  "source_text": "日本語との比較：日本語の「乗る」にあたる naik は「上がる」の意味もあり、乗り物は助詞なしでそのあとに来ます。「降りる」は turun です。日本語の「渋滞」は一語ですが、マレー語では話し言葉の jam と sesak の二つがあります。",
   "target_spans": [
    "naik",
-   "turun"
+   "turun",
+   "jam",
+   "sesak"
   ],
   "mention_spans": [],
   "kind": "model",
@@ -60390,6 +60582,26 @@
   "kind": "drill",
   "exclusion": null
  },
+ "Unit 7 · Drill 2 · Substitution|3|10": {
+  "source_text": "9. Hospital lebih kurang dua kilometer dari sini. (cue: tiga)",
+  "target_spans": [
+   "Hospital lebih kurang dua kilometer dari sini.",
+   "tiga"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 7 · Drill 2 · Substitution|3|11": {
+  "source_text": "10. Naik tangga ke tingkat dua. (cue: tiga)",
+  "target_spans": [
+   "Naik tangga ke tingkat dua.",
+   "tiga"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
  "Unit 7 · Drill 2 · Substitution|4|0": {
   "source_text": "Answers in order:",
   "target_spans": [],
@@ -60416,6 +60628,16 @@
    "Sekolah dekat dengan stesen.",
    "Lebih kurang sepuluh minit naik kereta api.",
    "Sekolah di selatan stesen."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 7 · Drill 2 · Substitution|4|3": {
+  "source_text": "9 Hospital lebih kurang tiga kilometer dari sini. 10 Naik tangga ke tingkat tiga.",
+  "target_spans": [
+   "Hospital lebih kurang tiga kilometer dari sini.",
+   "Naik tangga ke tingkat tiga."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -60503,10 +60725,10 @@
   "exclusion": null
  },
  "Unit 7 · Drill 3 · Transformation|3|6": {
-  "source_text": "5. Join the two steps with kemudian: Jalan lurus. Belok kanan.",
+  "source_text": "5. Join the two steps with kemudian: Jalan terus. Belok kanan.",
   "target_spans": [
    "kemudian",
-   "Jalan lurus.",
+   "Jalan terus.",
    "Belok kanan."
   ],
   "mention_spans": [],
@@ -60542,6 +60764,15 @@
   "kind": "drill",
   "exclusion": null
  },
+ "Unit 7 · Drill 3 · Transformation|3|10": {
+  "source_text": "9. Say it as a \"do not\": Belok kiri di sini.",
+  "target_spans": [
+   "Belok kiri di sini."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
  "Unit 7 · Drill 3 · Transformation|4|0": {
   "source_text": "Answers in order:",
   "target_spans": [],
@@ -60563,12 +60794,13 @@
   "exclusion": null
  },
  "Unit 7 · Drill 3 · Transformation|4|2": {
-  "source_text": "5 Jalan lurus, kemudian belok kanan. 6 Stesen tidak jauh dari sini. 7 Kalau jauh, saya naik teksi. 8 Saya balik ke rumah.",
+  "source_text": "5 Jalan terus, kemudian belok kanan. 6 Stesen tidak jauh dari sini. 7 Kalau jauh, saya naik teksi. 8 Saya balik ke rumah. 9 Jangan belok kiri di sini.",
   "target_spans": [
-   "Jalan lurus, kemudian belok kanan.",
+   "Jalan terus, kemudian belok kanan.",
    "Stesen tidak jauh dari sini.",
    "Kalau jauh, saya naik teksi.",
-   "Saya balik ke rumah."
+   "Saya balik ke rumah.",
+   "Jangan belok kiri di sini."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -60688,6 +60920,24 @@
   "kind": "drill",
   "exclusion": null
  },
+ "Unit 7 · Drill 4 · Question and answer|3|10": {
+  "source_text": "9. You hear: Lebih kurang dua kilometer. Ask the question.",
+  "target_spans": [
+   "Lebih kurang dua kilometer."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 7 · Drill 4 · Question and answer|3|11": {
+  "source_text": "10. You hear: Tiga ribu ringgit sebulan. Ask the question.",
+  "target_spans": [
+   "Tiga ribu ringgit sebulan."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
  "Unit 7 · Drill 4 · Question and answer|4|0": {
   "source_text": "Answers in order:",
   "target_spans": [],
@@ -60716,6 +60966,18 @@
    "Awak datang dari mana?",
    "Jauh dari sini?",
    "Berapa jauh?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 7 · Drill 4 · Question and answer|4|3": {
+  "source_text": "9 Berapa jauh hospital dari sini? (or Berapa jauh?) 10 Berapa sewa sebulan? (or Berapa sewa?)",
+  "target_spans": [
+   "Berapa jauh hospital dari sini?",
+   "Berapa jauh?",
+   "Berapa sewa sebulan?",
+   "Berapa sewa?"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -60824,10 +61086,10 @@
   "exclusion": null
  },
  "Unit 7 · Drill 5 · Question-word choice|3|8": {
-  "source_text": "7. ___ encik tidak naik bas? → Sebab jam.",
+  "source_text": "7. ___ encik tidak naik bas? → Sebab jalan sesak.",
   "target_spans": [
    "___ encik tidak naik bas?",
-   "Sebab jam."
+   "Sebab jalan sesak."
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -60864,14 +61126,15 @@
   "exclusion": null
  },
  "Unit 7 · Drill 5 · Question-word choice|4|2": {
-  "source_text": "6 Pukul berapa (or Bila) 7 Kenapa (also Mengapa, Apa sebab; jam in the answer is spoken, heavy traffic) 8 Yang mana",
+  "source_text": "6 Pukul berapa (or Bila) 7 Kenapa (also Mengapa, Apa sebab; the answer sebab jalan sesak, or spoken sebab jam) 8 Yang mana",
   "target_spans": [
    "Pukul berapa",
    "Bila",
    "Kenapa",
    "Mengapa",
    "Apa sebab",
-   "jam",
+   "sebab jalan sesak",
+   "sebab jam",
    "Yang mana"
   ],
   "mention_spans": [],
@@ -61550,18 +61813,18 @@
   "exclusion": null
  },
  "Unit 7 · Model conversation|3|1": {
-  "source_text": "Tanaka: Selamat pagi, cik. Maaf, bank di mana?",
+  "source_text": "Tanaka: Selamat pagi, cik. Maaf, tumpang tanya, bank di mana?",
   "target_spans": [
-   "Selamat pagi, cik. Maaf, bank di mana?"
+   "Selamat pagi, cik. Maaf, tumpang tanya, bank di mana?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 7 · Model conversation|3|2": {
-  "source_text": "Siti: Encik jalan lurus, kemudian belok kanan di lampu isyarat.",
+  "source_text": "Siti: Encik jalan terus, kemudian belok kanan di lampu isyarat. Jangan belok kiri.",
   "target_spans": [
-   "Encik jalan lurus, kemudian belok kanan di lampu isyarat."
+   "Encik jalan terus, kemudian belok kanan di lampu isyarat. Jangan belok kiri."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -61613,9 +61876,9 @@
   "exclusion": null
  },
  "Unit 7 · Model conversation|3|8": {
-  "source_text": "Siti: Lebih kurang dua puluh minit, kalau tidak jam.",
+  "source_text": "Siti: Lebih kurang dua puluh minit, kalau tidak sesak.",
   "target_spans": [
-   "Lebih kurang dua puluh minit, kalau tidak jam."
+   "Lebih kurang dua puluh minit, kalau tidak sesak."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -61681,9 +61944,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Model conversation|3|16": {
-  "source_text": "Siti: Encik jalan lurus, kemudian belok kanan di lampu isyarat.",
+  "source_text": "Siti: Encik jalan terus, kemudian belok kanan di lampu isyarat. Jangan belok kiri.",
   "target_spans": [
-   "Encik jalan lurus, kemudian belok kanan di lampu isyarat."
+   "Encik jalan terus, kemudian belok kanan di lampu isyarat. Jangan belok kiri."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -61729,9 +61992,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Model conversation|3|22": {
-  "source_text": "Siti: Lebih kurang dua puluh minit, kalau tidak jam.",
+  "source_text": "Siti: Lebih kurang dua puluh minit, kalau tidak sesak.",
   "target_spans": [
-   "Lebih kurang dua puluh minit, kalau tidak jam."
+   "Lebih kurang dua puluh minit, kalau tidak sesak."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -61788,18 +62051,18 @@
   "exclusion": null
  },
  "Unit 7 · Model conversation|3|29": {
-  "source_text": "Aini: Selamat petang, encik. Maaf, pasar di mana?",
+  "source_text": "Aini: Selamat petang, encik. Maaf, tumpang tanya, pasar di mana?",
   "target_spans": [
-   "Selamat petang, encik. Maaf, pasar di mana?"
+   "Selamat petang, encik. Maaf, tumpang tanya, pasar di mana?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 7 · Model conversation|3|30": {
-  "source_text": "Rahman: Puan belok kiri di simpang, kemudian jalan lurus.",
+  "source_text": "Rahman: Puan belok kiri di simpang, kemudian pergi terus.",
   "target_spans": [
-   "Puan belok kiri di simpang, kemudian jalan lurus."
+   "Puan belok kiri di simpang, kemudian pergi terus."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -61842,18 +62105,18 @@
   "exclusion": null
  },
  "Unit 7 · Model conversation|4|4": {
-  "source_text": "Aini: Hospital jauh dari sini. Berapa lama ke sana naik teksi?",
+  "source_text": "Aini: Hospital jauh dari sini. Berapa jauh, encik?",
   "target_spans": [
-   "Hospital jauh dari sini. Berapa lama ke sana naik teksi?"
+   "Hospital jauh dari sini. Berapa jauh, encik?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 7 · Model conversation|4|5": {
-  "source_text": "Rahman: Lebih kurang lima belas minit, kalau tidak jam.",
+  "source_text": "Rahman: Lebih kurang tujuh kilometer. Naik teksi lebih kurang lima belas minit, kalau jalan tidak sesak.",
   "target_spans": [
-   "Lebih kurang lima belas minit, kalau tidak jam."
+   "Lebih kurang tujuh kilometer. Naik teksi lebih kurang lima belas minit, kalau jalan tidak sesak."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -61903,9 +62166,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Model conversation|5|1": {
-  "source_text": "Turn 2: Selamat pagi, cik. Maaf, bank di mana?",
+  "source_text": "Turn 2: Selamat pagi, cik. Maaf, tumpang tanya, bank di mana?",
   "target_spans": [
-   "Selamat pagi, cik. Maaf, bank di mana?"
+   "Selamat pagi, cik. Maaf, tumpang tanya, bank di mana?"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -61993,9 +62256,9 @@
   "exclusion": null
  },
  "Unit 7 · Listening focus · Encik Tanaka|3|1": {
-  "source_text": "Predict: which route words will Aini use? Write three guesses (for example lurus, belok, sebelah). / アイニ先生が使いそうな道案内の言葉を三つ予想しましょう。",
+  "source_text": "Predict: which route words will Aini use? Write three guesses (for example terus, belok, sebelah). / アイニ先生が使いそうな道案内の言葉を三つ予想しましょう。",
   "target_spans": [
-   "lurus",
+   "terus",
    "belok",
    "sebelah"
   ],
@@ -62032,7 +62295,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Listening focus · Encik Tanaka|3|6": {
-  "source_text": "3. How far does he go straight on after the roundabout?",
+  "source_text": "3. How far does he go straight on after the roundabout, and which way must he not turn?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
@@ -62046,35 +62309,35 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Listening focus · Encik Tanaka|3|8": {
-  "source_text": "5. Which floor is the office on, and how does he go up?",
+  "source_text": "5. Which floor is the office on, and how can he go up?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Listening focus · Encik Tanaka|3|9": {
-  "source_text": "6. How long is the walk from the station?",
+  "source_text": "6. How long is the walk from the station, and why does Aini say not to take a taxi?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Listening focus · Encik Tanaka|3|10": {
-  "source_text": "7. Will Tanaka take a taxi?",
+  "source_text": "7. Where does Tanaka come from this morning, how far is it and how does he come?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Listening focus · Encik Tanaka|3|11": {
-  "source_text": "8. Where does he come from this morning?",
+  "source_text": "8. How long is the train ride, and is the train late?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Listening focus · Encik Tanaka|3|12": {
-  "source_text": "9. How long is the train ride, and is the train late?",
+  "source_text": "9. How much is the rent of a condo near the station?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
@@ -62095,11 +62358,11 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Listening focus · Encik Tanaka|3|15": {
-  "source_text": "Tell your partner the way from the station to your home or office: jalan lurus, kemudian belok and one landmark. / 駅から自分の家や職場までの道を、jalan lurus・kemudian belok・目印を一つ使って話しましょう。",
+  "source_text": "Tell your partner the way from the station to your home or office: jalan terus, kemudian belok and one landmark. / 駅から自分の家や職場までの道を、jalan terus・kemudian belok・目印を一つ使って話しましょう。",
   "target_spans": [
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok",
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok"
   ],
   "mention_spans": [],
@@ -62139,9 +62402,9 @@
   "exclusion": null
  },
  "Unit 7 · Listening focus · Encik Tanaka|4|4": {
-  "source_text": "Aini: Dari pintu keluar, encik jalan lurus. Kemudian belok kiri di bulatan.",
+  "source_text": "Aini: Dari pintu keluar, encik jalan terus. Kemudian belok kiri di bulatan.",
   "target_spans": [
-   "Dari pintu keluar, encik jalan lurus. Kemudian belok kiri di bulatan."
+   "Dari pintu keluar, encik jalan terus. Kemudian belok kiri di bulatan."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -62157,9 +62420,9 @@
   "exclusion": null
  },
  "Unit 7 · Listening focus · Encik Tanaka|4|6": {
-  "source_text": "Aini: Jalan lurus lebih kurang tiga ratus meter. Pejabat saya di sebelah gereja.",
+  "source_text": "Aini: Jalan terus lebih kurang tiga ratus meter. Jangan belok kanan. Pejabat saya di sebelah gereja.",
   "target_spans": [
-   "Jalan lurus lebih kurang tiga ratus meter. Pejabat saya di sebelah gereja."
+   "Jalan terus lebih kurang tiga ratus meter. Jangan belok kanan. Pejabat saya di sebelah gereja."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -62175,9 +62438,9 @@
   "exclusion": null
  },
  "Unit 7 · Listening focus · Encik Tanaka|4|8": {
-  "source_text": "Aini: Di tingkat tiga. Naik lif, kemudian belok kanan. Pejabat saya yang pertama.",
+  "source_text": "Aini: Di tingkat tiga. Naik lif atau naik tangga, kemudian belok kanan. Pejabat saya yang pertama.",
   "target_spans": [
-   "Di tingkat tiga. Naik lif, kemudian belok kanan. Pejabat saya yang pertama."
+   "Di tingkat tiga. Naik lif atau naik tangga, kemudian belok kanan. Pejabat saya yang pertama."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -62193,36 +62456,36 @@
   "exclusion": null
  },
  "Unit 7 · Listening focus · Encik Tanaka|4|10": {
-  "source_text": "Aini: Lebih kurang sepuluh minit. Kalau jauh, encik naik teksi.",
+  "source_text": "Aini: Lebih kurang sepuluh minit. Jangan naik teksi pagi ini, jalan sesak.",
   "target_spans": [
-   "Lebih kurang sepuluh minit. Kalau jauh, encik naik teksi."
+   "Lebih kurang sepuluh minit. Jangan naik teksi pagi ini, jalan sesak."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 7 · Listening focus · Encik Tanaka|4|11": {
-  "source_text": "Tanaka: Saya jalan kaki sahaja. Pagi ini tidak panas.",
+  "source_text": "Tanaka: Baik, saya jalan kaki sahaja.",
   "target_spans": [
-   "Saya jalan kaki sahaja. Pagi ini tidak panas."
+   "Baik, saya jalan kaki sahaja."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 7 · Listening focus · Encik Tanaka|4|12": {
-  "source_text": "Aini: Baik. Encik datang dari mana pagi ini?",
+  "source_text": "Aini: Encik datang dari mana pagi ini?",
   "target_spans": [
-   "Baik. Encik datang dari mana pagi ini?"
+   "Encik datang dari mana pagi ini?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 7 · Listening focus · Encik Tanaka|4|13": {
-  "source_text": "Tanaka: Dari kondo kawan saya. Kondo kawan saya jauh, tetapi kereta api cepat.",
+  "source_text": "Tanaka: Dari kondo kawan saya. Jauh, lebih kurang dua puluh kilometer, tetapi kereta api cepat.",
   "target_spans": [
-   "Dari kondo kawan saya. Kondo kawan saya jauh, tetapi kereta api cepat."
+   "Dari kondo kawan saya. Jauh, lebih kurang dua puluh kilometer, tetapi kereta api cepat."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -62247,15 +62510,33 @@
   "exclusion": null
  },
  "Unit 7 · Listening focus · Encik Tanaka|4|16": {
-  "source_text": "Aini: Betul! Saya tunggu di tingkat tiga.",
+  "source_text": "Aini: Encik mahu kondo dekat pejabat?",
   "target_spans": [
-   "Betul! Saya tunggu di tingkat tiga."
+   "Encik mahu kondo dekat pejabat?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 7 · Listening focus · Encik Tanaka|4|17": {
+  "source_text": "Tanaka: Ya, puan. Berapa sewa sebulan?",
+  "target_spans": [
+   "Ya, puan. Berapa sewa sebulan?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 7 · Listening focus · Encik Tanaka|4|18": {
+  "source_text": "Aini: Lebih kurang tiga ribu ringgit sebulan. Mahal, tetapi dekat dengan stesen.",
+  "target_spans": [
+   "Lebih kurang tiga ribu ringgit sebulan. Mahal, tetapi dekat dengan stesen."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 7 · Listening focus · Encik Tanaka|4|19": {
   "source_text": "Tanaka: Terima kasih, puan. Jumpa nanti!",
   "target_spans": [
    "Terima kasih, puan. Jumpa nanti!"
@@ -62264,14 +62545,25 @@
   "kind": "key",
   "exclusion": null
  },
- "Unit 7 · Listening focus · Encik Tanaka|4|18": {
-  "source_text": "Answers: 1. at the station, at the exit / 2. he turns left / 3. about 300 metres / 4. a church / 5. the third floor; by lift, then right / 6. about ten minutes / 7. no, he walks / 8. from his friend's condo, by train / 9. about 40 minutes; no, it is not late",
-  "target_spans": [],
+ "Unit 7 · Listening focus · Encik Tanaka|4|20": {
+  "source_text": "Aini: Sama-sama. Saya tunggu di tingkat tiga.",
+  "target_spans": [
+   "Sama-sama. Saya tunggu di tingkat tiga."
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
- "Unit 7 · Listening focus · Encik Tanaka|4|19": {
+ "Unit 7 · Listening focus · Encik Tanaka|4|21": {
+  "source_text": "Answers: 1. at the station, at the exit / 2. he turns left / 3. about 300 metres; not right / 4. a church / 5. the third floor; by lift or by the stairs, then right / 6. about ten minutes; the road is jammed (sesak) / 7. from his friend's condo, about 20 kilometres, by train / 8. about 40 minutes; no, it is not late / 9. about RM 3,000 a month",
+  "target_spans": [
+   "sesak"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 7 · Listening focus · Encik Tanaka|4|22": {
   "source_text": "Do not hand out the script before the second listening.",
   "target_spans": [],
   "mention_spans": [],
@@ -62359,9 +62651,9 @@
   "exclusion": null
  },
  "Unit 7 · Reading and writing · A building directory|3|6": {
-  "source_text": "Lif di sebelah kanan.",
+  "source_text": "Lif di sebelah kanan. Tangga di sebelah kiri.",
   "target_spans": [
-   "Lif di sebelah kanan."
+   "Lif di sebelah kanan. Tangga di sebelah kiri."
   ],
   "mention_spans": [],
   "kind": "reading",
@@ -62426,21 +62718,21 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Reading and writing · A building directory|3|15": {
+  "source_text": "8. On which side are the stairs?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 7 · Reading and writing · A building directory|3|16": {
   "source_text": "■ Write · 書く",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Reading and writing · A building directory|3|16": {
-  "source_text": "Write a message to a friend who is visiting you: how to come from the station to your home or office in three or four sentences. / 訪ねてくる友だちに、駅から自分の家や職場までの道を3〜4文でメッセージに書きましょう。",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "reading",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Unit 7 · Reading and writing · A building directory|3|17": {
-  "source_text": "________________________________________",
+  "source_text": "Write a message to a friend who is visiting you: how to come from the station to your home or office in three or four sentences. / 訪ねてくる友だちに、駅から自分の家や職場までの道を3〜4文でメッセージに書きましょう。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
@@ -62460,23 +62752,31 @@
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
+ "Unit 7 · Reading and writing · A building directory|3|20": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
  "Unit 7 · Reading and writing · A building directory|4|0": {
-  "source_text": "Reading: 1. at the bottom (bawah) / 2. floor 1 / 3. a surau and the toilets / 4. floor 3 / 5. on the right (di sebelah kanan) / 6. at the back (di belakang) / 7. Kedai di tingkat satu.",
+  "source_text": "Reading: 1. at the bottom (bawah) / 2. floor 1 / 3. a surau and the toilets / 4. floor 3 / 5. on the right (di sebelah kanan) / 6. at the back (di belakang) / 7. Kedai di tingkat satu. / 8. on the left (di sebelah kiri)",
   "target_spans": [
    "bawah",
    "surau",
    "di sebelah kanan",
    "di belakang",
-   "Kedai di tingkat satu."
+   "Kedai di tingkat satu.",
+   "di sebelah kiri"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 7 · Reading and writing · A building directory|4|1": {
-  "source_text": "Model writing: Dari stesen, jalan lurus lebih kurang tiga ratus meter. Belok kiri di lampu isyarat. Kondo saya di sebelah kanan, di depan bank. Naik lif ke tingkat lima.",
+  "source_text": "Model writing: Dari stesen, jalan terus lebih kurang tiga ratus meter. Belok kiri di lampu isyarat. Kondo saya di sebelah kanan, di depan bank. Naik lif ke tingkat lima.",
   "target_spans": [
-   "Dari stesen, jalan lurus lebih kurang tiga ratus meter. Belok kiri di lampu isyarat. Kondo saya di sebelah kanan, di depan bank. Naik lif ke tingkat lima."
+   "Dari stesen, jalan terus lebih kurang tiga ratus meter. Belok kiri di lampu isyarat. Kondo saya di sebelah kanan, di depan bank. Naik lif ke tingkat lima."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -62555,9 +62855,9 @@
   "exclusion": null
  },
  "Unit 7 · Task · Asking the way to the hospital|3|5": {
-  "source_text": "Give the route with jalan lurus, kemudian belok and a landmark.",
+  "source_text": "Give the route with jalan terus, kemudian belok and a landmark.",
   "target_spans": [
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok"
   ],
   "mention_spans": [],
@@ -62565,9 +62865,9 @@
   "exclusion": null
  },
  "Unit 7 · Task · Asking the way to the hospital|3|6": {
-  "source_text": "Bは近所の人です。駅から：まっすぐ300メートル、信号を左、病院は右側でグルドワラの向かい。約800メートル、歩いて約15分、バスなら5分。jalan lurus・kemudian belok・目印で道を教えます。",
+  "source_text": "Bは近所の人です。駅から：まっすぐ300メートル、信号を左、病院は右側でグルドワラの向かい。約800メートル、歩いて約15分、バスなら5分。jalan terus・kemudian belok・目印で道を教えます。",
   "target_spans": [
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok"
   ],
   "mention_spans": [],
@@ -62620,9 +62920,9 @@
   "exclusion": null
  },
  "Unit 7 · Task · Asking the way to the hospital|3|12": {
-  "source_text": "☐ B gives the route with jalan lurus, kemudian belok and a landmark.",
+  "source_text": "☐ B gives the route with jalan terus, kemudian belok and a landmark.",
   "target_spans": [
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok"
   ],
   "mention_spans": [],
@@ -62639,15 +62939,16 @@
   "exclusion": null
  },
  "Unit 7 · Task · Asking the way to the hospital|4|0": {
-  "source_text": "Possible exchange: Maaf, hospital di mana? — Jalan lurus lebih kurang tiga ratus meter, kemudian belok kiri di lampu isyarat. Hospital di sebelah kanan, di seberang gurdwara. — Berapa jauh dari sini? — Lebih kurang lapan ratus meter. — Berapa lama jalan kaki? — Lebih kurang lima belas minit. Naik bas lima minit. — Change: Hari ini jam. Bas lambat. — Kalau jalan kaki, berapa lama? — Lebih kurang lima belas minit. — Baik, saya jalan kaki. Terima kasih!",
+  "source_text": "Possible exchange: Maaf, tumpang tanya, hospital di mana? — Jalan terus lebih kurang tiga ratus meter, kemudian belok kiri di lampu isyarat. Hospital di sebelah kanan, di seberang gurdwara. — Berapa jauh dari sini? — Lebih kurang lapan ratus meter. — Berapa lama jalan kaki? — Lebih kurang lima belas minit. Naik bas lima minit. — Change: Hari ini jam. Bas lambat. (or Hari ini jalan sesak.) — Kalau jalan kaki, berapa lama? — Lebih kurang lima belas minit. — Baik, saya jalan kaki. Terima kasih!",
   "target_spans": [
-   "Maaf, hospital di mana?",
-   "Jalan lurus lebih kurang tiga ratus meter, kemudian belok kiri di lampu isyarat. Hospital di sebelah kanan, di seberang gurdwara.",
+   "Maaf, tumpang tanya, hospital di mana?",
+   "Jalan terus lebih kurang tiga ratus meter, kemudian belok kiri di lampu isyarat. Hospital di sebelah kanan, di seberang gurdwara.",
    "Berapa jauh dari sini?",
    "Lebih kurang lapan ratus meter.",
    "Berapa lama jalan kaki?",
    "Lebih kurang lima belas minit. Naik bas lima minit.",
    "Hari ini jam. Bas lambat.",
+   "Hari ini jalan sesak.",
    "Kalau jalan kaki, berapa lama?",
    "Lebih kurang lima belas minit.",
    "Baik, saya jalan kaki. Terima kasih!"
@@ -62732,7 +63033,7 @@
   "exclusion": null
  },
  "Unit 7 · Culture and usage note|3|3": {
-  "source_text": "Kata-Kata's card notes explain some words. lebih kurang is literally \"more-less\"; kereta api is \"fire carriage\"; bulatan comes from bulat (round); belok is a root word, not a ber- form; hadapan is the more formal depan. In speech jam has a third meaning: heavy traffic.",
+  "source_text": "Kata-Kata's card notes explain some words. lebih kurang is literally \"more-less\"; kereta api is \"fire carriage\"; bulatan comes from bulat (round); belok is a root word, not a ber- form; hadapan is the more formal depan. To say straight on, Malaysians use terus, jalan terus, pergi terus or terus depan; lurus describes a straight road or line. In speech jam has a third meaning, heavy traffic, so it is paired with sesak: kalau tidak jam / sesak.",
   "target_spans": [
    "lebih kurang",
    "kereta api",
@@ -62740,7 +63041,14 @@
    "belok",
    "hadapan",
    "depan",
-   "jam"
+   "terus",
+   "jalan terus",
+   "pergi terus",
+   "terus depan",
+   "lurus",
+   "jam",
+   "sesak",
+   "kalau tidak jam / sesak"
   ],
   "mention_spans": [
    "bulat"
@@ -62796,7 +63104,7 @@
   "exclusion": null
  },
  "Unit 7 · Culture and usage note|3|8": {
-  "source_text": "Kata-Kata のカード注記が、いくつかの語のなりたちを説明しています。lebih kurang は文字どおり「もっと・より少ない」、kereta api は「火の車」、bulatan は bulat（丸い）から、belok は語根の単語で接頭辞の付いた形ではなく、hadapan は depan の改まった形です。話し言葉の jam には「渋滞」という三つ目の意味もあります。",
+  "source_text": "Kata-Kata のカード注記が、いくつかの語のなりたちを説明しています。lebih kurang は文字どおり「もっと・より少ない」、kereta api は「火の車」、bulatan は bulat（丸い）から、belok は語根の単語で接頭辞の付いた形ではなく、hadapan は depan の改まった形です。「まっすぐ進む」はマレーシアでは terus・jalan terus・pergi terus・terus depan と言い、lurus は道や線の形を表します。話し言葉の jam には「渋滞」という三つ目の意味もあるので、sesak と並べて kalau tidak jam / sesak と言います。",
   "target_spans": [
    "lebih kurang",
    "kereta api",
@@ -62804,7 +63112,14 @@
    "belok",
    "hadapan",
    "depan",
-   "jam"
+   "terus",
+   "jalan terus",
+   "pergi terus",
+   "terus depan",
+   "lurus",
+   "jam",
+   "sesak",
+   "kalau tidak jam / sesak"
   ],
   "mention_spans": [
    "bulat"
@@ -62813,14 +63128,14 @@
   "exclusion": null
  },
  "Unit 7 · Culture and usage note|4|0": {
-  "source_text": "English note: 210 words. The Japanese is a full translation (draft).",
+  "source_text": "English note: 241 words. The Japanese is a full translation (draft).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Culture and usage note|4|1": {
-  "source_text": "Sources: Kata-Kata chapter 7 cards ms-c07-009 (hadapan more formal), -023 (lebih kurang, lit. more-less), -025 (belok, a root word, not a ber- form), -035 (bulat → bulatan), -046 (kereta api, lit. fire carriage), -049 (jam, third meaning) and the Sedia Kelas list; ledger L-0296 and Sam's brief of 12 Nov 2026 (the earlier forms pergi kerja and balik rumah as everyday speech; pergi ke pejabat and balik ke rumah as the standard written form); Sam's decision of 12 Nov 2026 (ledger Journal rows 66 and 67): masjid, gereja, kuil, tokong, gurdwara and surau as one even-handed set of landmarks; left-hand traffic and its British-era origin: SAYS Malaysia, \"Why Do M'sians Drive On The Left Side Of The Road While Most Countries Drive On The Right?\", Malay Mail, 29 June 2015, a primer on driving in Malaysia, and WorldAtlas, \"Countries That Drive on the Left\", all seen in search summaries only (Rank 3; the Road Transport Act 1987 text was not read); religious groups in the 2020 census: Sinar Daily, \"Malaysia's population now stands at 32.4 mil, 63.5 per cent Muslims\", reporting the Department of Statistics Malaysia key findings, seen in a search summary (Rank 3; the DOSM religion table itself was not opened, so no percentage is given in the note). The note makes no claim about any real route, distance or place; the practice routes are fictional.",
+  "source_text": "Sources: Kata-Kata chapter 7 cards ms-c07-009 (hadapan more formal), -023 (lebih kurang, lit. more-less), -025 (belok, a root word, not a ber- form), -035 (bulat → bulatan), -046 (kereta api, lit. fire carriage), -049 (jam, third meaning) and the Sedia Kelas list; ledger L-0296 and Sam's brief of 12 Nov 2026 (the earlier forms pergi kerja and balik rumah as everyday speech; pergi ke pejabat and balik ke rumah as the standard written form); Sam's decision of 12 Nov 2026 (ledger Journal rows 66 and 67): masjid, gereja, kuil, tokong, gurdwara and surau as one even-handed set of landmarks; Sam's decision of 12 Nov 2026 (ledger Journal rows 68 to 70): terus / jalan terus / pergi terus / terus depan for going straight on, lurus only as the adjective, and kalau tidak jam / sesak for traffic; left-hand traffic and its British-era origin: SAYS Malaysia, \"Why Do M'sians Drive On The Left Side Of The Road While Most Countries Drive On The Right?\", Malay Mail, 29 June 2015, a primer on driving in Malaysia, and WorldAtlas, \"Countries That Drive on the Left\", all seen in search summaries only (Rank 3; the Road Transport Act 1987 text was not read); religious groups in the 2020 census: Sinar Daily, \"Malaysia's population now stands at 32.4 mil, 63.5 per cent Muslims\", reporting the Department of Statistics Malaysia key findings, seen in a search summary (Rank 3; the DOSM religion table itself was not opened, so no percentage is given in the note). The note makes no claim about any real route, distance or place; the practice routes are fictional.",
   "target_spans": [
    "hadapan",
    "lebih kurang",
@@ -62837,7 +63152,13 @@
    "kuil",
    "tokong",
    "gurdwara",
-   "surau"
+   "surau",
+   "terus",
+   "jalan terus",
+   "pergi terus",
+   "terus depan",
+   "lurus",
+   "kalau tidak jam / sesak"
   ],
   "mention_spans": [
    "bulat"
@@ -62902,28 +63223,28 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Unit test and self-check|3|3": {
-  "source_text": "L3. How far is the straight stretch, and what is next to the office?",
+  "source_text": "L3. How far is the straight stretch, which way must he not turn, and what is next to the office?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Unit test and self-check|3|4": {
-  "source_text": "L4. Which floor is the office on, and how does he go up?",
+  "source_text": "L4. Which floor is the office on, and how can he go up?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Unit test and self-check|3|5": {
-  "source_text": "L5. How long is the walk from the station, and when does Aini suggest a taxi?",
+  "source_text": "L5. How long is the walk from the station, and why does Aini say not to take a taxi?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Unit test and self-check|3|6": {
-  "source_text": "L6. How long is his train ride, and is the train late?",
+  "source_text": "L6. How much is the rent of a condo near the station, per month?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -62958,7 +63279,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Unit test and self-check|3|11": {
-  "source_text": "V4. Write the Malay for: straight",
+  "source_text": "V4. Write the Malay for: straight on (in directions)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -63011,9 +63332,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Unit test and self-check|3|18": {
-  "source_text": "Fictional message: Encik Tanaka, kondo saya dekat dengan stesen. Dari stesen, jalan lurus lebih kurang tiga ratus meter. Belok kiri di bulatan. Kondo saya di sebelah kuil, di depan bank. Saya di tingkat lima. Naik lif. Jumpa nanti! Aini",
+  "source_text": "Fictional message: Encik Tanaka, kondo saya dekat dengan stesen. Dari stesen, jalan terus lebih kurang tiga ratus meter. Belok kiri di bulatan. Kondo saya di sebelah kuil, di depan bank. Saya di tingkat lima. Naik lif. Jumpa nanti! Aini",
   "target_spans": [
-   "Encik Tanaka, kondo saya dekat dengan stesen. Dari stesen, jalan lurus lebih kurang tiga ratus meter. Belok kiri di bulatan. Kondo saya di sebelah kuil, di depan bank. Saya di tingkat lima. Naik lif. Jumpa nanti! Aini"
+   "Encik Tanaka, kondo saya dekat dengan stesen. Dari stesen, jalan terus lebih kurang tiga ratus meter. Belok kiri di bulatan. Kondo saya di sebelah kuil, di depan bank. Saya di tingkat lima. Naik lif. Jumpa nanti! Aini"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -63055,23 +63376,16 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Unit test and self-check|3|24": {
-  "source_text": "S1. Ask your partner the way to a place in your town: where it is, how far and how long. Your partner gives a route with jalan lurus, kemudian belok and one landmark.",
+  "source_text": "S1. Ask your partner the way to a place in your town: where it is, how far and how long. Your partner gives a route with jalan terus, kemudian belok and one landmark.",
   "target_spans": [
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok"
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
- "Unit 7 · Unit test and self-check|3|25": {
-  "source_text": "■ I can · 自己評価",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "heading",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Unit 7 · Unit test and self-check|3|26": {
+ "Unit 7 · Unit test and self-check|4|0": {
   "source_text": "☐ I can say where something is with di and a position word, and where I am going and coming from with ke and dari. / di と位置を表す語でものの場所を言い、ke・dari で行き先と出発点を言える。",
   "target_spans": [
    "di",
@@ -63085,16 +63399,18 @@
   "kind": "test",
   "exclusion": null
  },
- "Unit 7 · Unit test and self-check|4|0": {
-  "source_text": "☐ I can give and follow a route with jalan lurus, kemudian belok kiri or kanan and a landmark, and ask Berapa jauh? and Berapa lama?. / jalan lurus・kemudian belok kiri/kanan・目印で道順を言ったり聞いたりでき、Berapa jauh?・Berapa lama? とたずねられる。",
+ "Unit 7 · Unit test and self-check|4|1": {
+  "source_text": "☐ I can give and follow a route with jalan terus, kemudian belok kiri or kanan, say jangan belok and name a landmark, and ask Berapa jauh? and Berapa lama?. / jalan terus・kemudian belok kiri/kanan・目印で道順を言ったり聞いたりでき、jangan belok と言え、Berapa jauh?・Berapa lama? とたずねられる。",
   "target_spans": [
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok kiri",
    "kanan",
+   "jangan belok",
    "Berapa jauh?",
    "Berapa lama?",
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok kiri/kanan",
+   "jangan belok",
    "Berapa jauh?",
    "Berapa lama?"
   ],
@@ -63102,14 +63418,14 @@
   "kind": "test",
   "exclusion": null
  },
- "Unit 7 · Unit test and self-check|4|1": {
+ "Unit 7 · Unit test and self-check|4|2": {
   "source_text": "☐ I can follow directions to an office and read a building directory. / オフィスまでの道案内が分かり、ビルの案内板が読める。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Unit test and self-check|4|2": {
+ "Unit 7 · Unit test and self-check|4|3": {
   "source_text": "☐ I can recognise words for the living room, the new phone and crossing the road in the Kata-Kata Dunia scenes and say where things are. / Kata-Kata の Dunia の場面で、リビング・新しいスマートフォン・道路の横断の語を聞いて分かり、ものの場所を言える。",
   "target_spans": [],
   "mention_spans": [],
@@ -63126,45 +63442,45 @@
   "exclusion": null
  },
  "Unit 7 · Unit test and self-check|5|1": {
-  "source_text": "L2: Teacher reads: Dari pintu keluar, encik jalan lurus. Kemudian belok kiri di bulatan. Answer: he turns left at the roundabout",
+  "source_text": "L2: Teacher reads: Dari pintu keluar, encik jalan terus. Kemudian belok kiri di bulatan. Answer: he turns left at the roundabout",
   "target_spans": [
-   "Dari pintu keluar, encik jalan lurus. Kemudian belok kiri di bulatan."
+   "Dari pintu keluar, encik jalan terus. Kemudian belok kiri di bulatan."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 7 · Unit test and self-check|5|2": {
-  "source_text": "L3: Teacher reads: Jalan lurus lebih kurang tiga ratus meter. Pejabat saya di sebelah gereja. Answer: about 300 metres; next to a church",
+  "source_text": "L3: Teacher reads: Jalan terus lebih kurang tiga ratus meter. Jangan belok kanan. Pejabat saya di sebelah gereja. Answer: about 300 metres, not right; next to a church",
   "target_spans": [
-   "Jalan lurus lebih kurang tiga ratus meter. Pejabat saya di sebelah gereja."
+   "Jalan terus lebih kurang tiga ratus meter. Jangan belok kanan. Pejabat saya di sebelah gereja."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 7 · Unit test and self-check|5|3": {
-  "source_text": "L4: Teacher reads: Di tingkat tiga. Naik lif, kemudian belok kanan. Pejabat saya yang pertama. Answer: third floor; lift, then turn right",
+  "source_text": "L4: Teacher reads: Di tingkat tiga. Naik lif atau naik tangga, kemudian belok kanan. Pejabat saya yang pertama. Answer: third floor; lift or stairs, then turn right",
   "target_spans": [
-   "Di tingkat tiga. Naik lif, kemudian belok kanan. Pejabat saya yang pertama."
+   "Di tingkat tiga. Naik lif atau naik tangga, kemudian belok kanan. Pejabat saya yang pertama."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 7 · Unit test and self-check|5|4": {
-  "source_text": "L5: Teacher reads: Lebih kurang sepuluh minit. Kalau jauh, encik naik teksi. Answer: about ten minutes; a taxi if it is far",
+  "source_text": "L5: Teacher reads: Lebih kurang sepuluh minit. Jangan naik teksi pagi ini, jalan sesak. Answer: about ten minutes; do not take a taxi, the road is jammed",
   "target_spans": [
-   "Lebih kurang sepuluh minit. Kalau jauh, encik naik teksi."
+   "Lebih kurang sepuluh minit. Jangan naik teksi pagi ini, jalan sesak."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 7 · Unit test and self-check|5|5": {
-  "source_text": "L6: Teacher reads: Lebih kurang empat puluh minit. Kereta api tidak lambat. Answer: about forty minutes; the train is not late",
+  "source_text": "L6: Teacher reads: Lebih kurang tiga ribu ringgit sebulan. Mahal, tetapi dekat dengan stesen. Answer: about RM 3,000 a month",
   "target_spans": [
-   "Lebih kurang empat puluh minit. Kereta api tidak lambat."
+   "Lebih kurang tiga ribu ringgit sebulan. Mahal, tetapi dekat dengan stesen."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -63198,9 +63514,9 @@
   "exclusion": null
  },
  "Unit 7 · Unit test and self-check|5|9": {
-  "source_text": "V4: lurus",
+  "source_text": "V4: terus",
   "target_spans": [
-   "lurus"
+   "terus"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -63235,9 +63551,9 @@
   "exclusion": null
  },
  "Unit 7 · Unit test and self-check|5|13": {
-  "source_text": "G2: Jalan lurus, kemudian belok kiri di lampu isyarat.",
+  "source_text": "G2: Jalan terus, kemudian belok kiri di lampu isyarat.",
   "target_spans": [
-   "Jalan lurus, kemudian belok kiri di lampu isyarat."
+   "Jalan terus, kemudian belok kiri di lampu isyarat."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -63282,12 +63598,12 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Unit test and self-check|5|19": {
-  "source_text": "S1: Check: di mana, berapa jauh and berapa lama are all asked; jalan lurus, kemudian belok kiri/kanan di and a landmark in the route; the position word comes right after di.",
+  "source_text": "S1: Check: di mana, berapa jauh and berapa lama are all asked; jalan terus, kemudian belok kiri/kanan di and a landmark in the route; the position word comes right after di.",
   "target_spans": [
    "di mana",
    "berapa jauh",
    "berapa lama",
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok kiri/kanan di",
    "di"
   ],
@@ -63326,73 +63642,73 @@
   "exclusion": null
  },
  "test:ms-c07-test-02|answer_key": {
-  "source_text": "Teacher reads: Dari pintu keluar, encik jalan lurus. Kemudian belok kiri di bulatan. Answer: he turns left at the roundabout",
+  "source_text": "Teacher reads: Dari pintu keluar, encik jalan terus. Kemudian belok kiri di bulatan. Answer: he turns left at the roundabout",
   "target_spans": [
-   "Dari pintu keluar, encik jalan lurus. Kemudian belok kiri di bulatan."
+   "Dari pintu keluar, encik jalan terus. Kemudian belok kiri di bulatan."
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c07-test-03|prompt": {
-  "source_text": "L3. How far is the straight stretch, and what is next to the office?",
+  "source_text": "L3. How far is the straight stretch, which way must he not turn, and what is next to the office?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c07-test-03|answer_key": {
-  "source_text": "Teacher reads: Jalan lurus lebih kurang tiga ratus meter. Pejabat saya di sebelah gereja. Answer: about 300 metres; next to a church",
+  "source_text": "Teacher reads: Jalan terus lebih kurang tiga ratus meter. Jangan belok kanan. Pejabat saya di sebelah gereja. Answer: about 300 metres, not right; next to a church",
   "target_spans": [
-   "Jalan lurus lebih kurang tiga ratus meter. Pejabat saya di sebelah gereja."
+   "Jalan terus lebih kurang tiga ratus meter. Jangan belok kanan. Pejabat saya di sebelah gereja."
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c07-test-04|prompt": {
-  "source_text": "L4. Which floor is the office on, and how does he go up?",
+  "source_text": "L4. Which floor is the office on, and how can he go up?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c07-test-04|answer_key": {
-  "source_text": "Teacher reads: Di tingkat tiga. Naik lif, kemudian belok kanan. Pejabat saya yang pertama. Answer: third floor; lift, then turn right",
+  "source_text": "Teacher reads: Di tingkat tiga. Naik lif atau naik tangga, kemudian belok kanan. Pejabat saya yang pertama. Answer: third floor; lift or stairs, then turn right",
   "target_spans": [
-   "Di tingkat tiga. Naik lif, kemudian belok kanan. Pejabat saya yang pertama."
+   "Di tingkat tiga. Naik lif atau naik tangga, kemudian belok kanan. Pejabat saya yang pertama."
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c07-test-05|prompt": {
-  "source_text": "L5. How long is the walk from the station, and when does Aini suggest a taxi?",
+  "source_text": "L5. How long is the walk from the station, and why does Aini say not to take a taxi?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c07-test-05|answer_key": {
-  "source_text": "Teacher reads: Lebih kurang sepuluh minit. Kalau jauh, encik naik teksi. Answer: about ten minutes; a taxi if it is far",
+  "source_text": "Teacher reads: Lebih kurang sepuluh minit. Jangan naik teksi pagi ini, jalan sesak. Answer: about ten minutes; do not take a taxi, the road is jammed",
   "target_spans": [
-   "Lebih kurang sepuluh minit. Kalau jauh, encik naik teksi."
+   "Lebih kurang sepuluh minit. Jangan naik teksi pagi ini, jalan sesak."
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c07-test-06|prompt": {
-  "source_text": "L6. How long is his train ride, and is the train late?",
+  "source_text": "L6. How much is the rent of a condo near the station, per month?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c07-test-06|answer_key": {
-  "source_text": "Teacher reads: Lebih kurang empat puluh minit. Kereta api tidak lambat. Answer: about forty minutes; the train is not late",
+  "source_text": "Teacher reads: Lebih kurang tiga ribu ringgit sebulan. Mahal, tetapi dekat dengan stesen. Answer: about RM 3,000 a month",
   "target_spans": [
-   "Lebih kurang empat puluh minit. Kereta api tidak lambat."
+   "Lebih kurang tiga ribu ringgit sebulan. Mahal, tetapi dekat dengan stesen."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -63447,16 +63763,16 @@
   "exclusion": null
  },
  "test:ms-c07-test-10|prompt": {
-  "source_text": "V4. Write the Malay for: straight",
+  "source_text": "V4. Write the Malay for: straight on (in directions)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c07-test-10|answer_key": {
-  "source_text": "lurus",
+  "source_text": "terus",
   "target_spans": [
-   "lurus"
+   "terus"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -63521,9 +63837,9 @@
   "exclusion": null
  },
  "test:ms-c07-test-14|answer_key": {
-  "source_text": "Jalan lurus, kemudian belok kiri di lampu isyarat.",
+  "source_text": "Jalan terus, kemudian belok kiri di lampu isyarat.",
   "target_spans": [
-   "Jalan lurus, kemudian belok kiri di lampu isyarat."
+   "Jalan terus, kemudian belok kiri di lampu isyarat."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -63605,9 +63921,9 @@
   "exclusion": null
  },
  "test:ms-c07-test-20|prompt": {
-  "source_text": "S1. Ask your partner the way to a place in your town: where it is, how far and how long. Your partner gives a route with jalan lurus, kemudian belok and one landmark.",
+  "source_text": "S1. Ask your partner the way to a place in your town: where it is, how far and how long. Your partner gives a route with jalan terus, kemudian belok and one landmark.",
   "target_spans": [
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok"
   ],
   "mention_spans": [],
@@ -63615,12 +63931,12 @@
   "exclusion": null
  },
  "test:ms-c07-test-20|answer_key": {
-  "source_text": "Check: di mana, berapa jauh and berapa lama are all asked; jalan lurus, kemudian belok kiri/kanan di and a landmark in the route; the position word comes right after di.",
+  "source_text": "Check: di mana, berapa jauh and berapa lama are all asked; jalan terus, kemudian belok kiri/kanan di and a landmark in the route; the position word comes right after di.",
   "target_spans": [
    "di mana",
    "berapa jauh",
    "berapa lama",
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok kiri/kanan di",
    "di"
   ],
@@ -63747,11 +64063,12 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Teaching plan and answer key|3|12": {
-  "source_text": "Goal: I can give and follow a route with jalan lurus, kemudian belok kiri or kanan and a landmark, and ask Berapa jauh? and Berapa lama?.",
+  "source_text": "Goal: I can give and follow a route with jalan terus, kemudian belok kiri or kanan, say jangan belok and name a landmark, and ask Berapa jauh? and Berapa lama?.",
   "target_spans": [
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok kiri",
    "kanan",
+   "jangan belok",
    "Berapa jauh?",
    "Berapa lama?"
   ],
@@ -63874,7 +64191,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Teaching plan and answer key|4|6": {
-  "source_text": "35–45 Preview: chapter 8 Kata-Kata set (counters); chapter 8 waits for Sam's go-ahead, so use the mixed review from Block D.",
+  "source_text": "35–45 Preview: chapter 8 Kata-Kata set (counters); the writing block for unit 7 (directions by message) is written in the next commit of this step.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -63895,9 +64212,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Teaching plan and answer key|4|9": {
-  "source_text": "0–5 Recall: give a route from the door to another room with lurus, kemudian belok and a landmark.",
+  "source_text": "0–5 Recall: give a route from the door to another room with terus, kemudian belok and a landmark.",
   "target_spans": [
-   "lurus",
+   "terus",
    "kemudian belok"
   ],
   "mention_spans": [],
@@ -63944,13 +64261,29 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Teaching plan and answer key|4|15": {
-  "source_text": "Load: 56 core words in five groups (position words 13; distance and direction 9; turning and moving 9; landmarks and transport 21; compass points 4). Suggested order: Block A position words and the distance and direction words; Block B the turning and moving words and the route pattern; Block C the landmarks and transport (the six places of worship together, as one set of landmarks) and the compass points; Block D and E recycle them. If the pilot shows 56 is too many for one unit, the natural cut is A/B: position, distance, direction and turning words first; landmarks, transport and compass points second.",
+  "source_text": "Load: 62 core words in five groups (position words 13; distance, time and direction 11; turning and moving 11; landmarks and transport 23; compass points 4). Suggested order: Block A position words and the distance, time and direction words; Block B the turning and moving words and the route pattern; Block C the landmarks and transport (the six places of worship together, as one set of landmarks) and the compass points; Block D and E recycle them. If the pilot shows 62 is too many for one unit, the natural cut is A/B: position, distance, direction and turning words first; landmarks, transport and compass points second.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Teaching plan and answer key|4|16": {
+  "source_text": "Going straight on (Sam, 12 Nov 2026): say terus, jalan terus, pergi terus or terus depan. jalan lurus is not used for directions; if a learner says it, give the Malay form and move on. lurus (L-0318) is only the adjective \"straight\" for a road or line: Jalan ini lurus. The Kata-Kata card ms-c07-024 and its frame still teach jalan lurus; they are being fixed there.",
+  "target_spans": [
+   "terus",
+   "jalan terus",
+   "pergi terus",
+   "terus depan",
+   "jalan lurus",
+   "lurus",
+   "Jalan ini lurus.",
+   "jalan lurus"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 7 · Teaching plan and answer key|5|0": {
   "source_text": "ke is now taught. Earlier chapters used pergi kerja and balik rumah and mentioned ke only to explain why it was not used. Show pergi ke pejabat and balik ke rumah as the standard written form and the earlier forms as everyday speech: both are right.",
   "target_spans": [
    "ke",
@@ -63965,8 +64298,22 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 7 · Teaching plan and answer key|5|0": {
-  "source_text": "Places of worship (Sam, 12 Nov 2026): masjid, gereja, kuil, tokong, gurdwara and surau are one set, used as plain landmarks. Show no bias: rotate them evenly in examples and drills, never single one out, and do not add worship, dress or etiquette content. A separate word for a Buddhist temple was offered and not selected; ask Sam whether one should be named apart from tokong.",
+ "Unit 7 · Teaching plan and answer key|5|1": {
+  "source_text": "Traffic (Sam, 12 Nov 2026): say kalau tidak jam / sesak so that jam (traffic, spoken) is not read as jam (hour, chapter 4). sesak (L-0620) is a core word beside jam (L-0342). satu jam is still an hour.",
+  "target_spans": [
+   "kalau tidak jam / sesak",
+   "jam",
+   "jam",
+   "sesak",
+   "jam",
+   "satu jam"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 7 · Teaching plan and answer key|5|2": {
+  "source_text": "Places of worship (Sam, 12 Nov 2026): masjid, gereja, kuil, tokong, gurdwara and surau are one set, used as plain landmarks. Show no bias: rotate them evenly in examples and drills, never single one out, and do not add worship, dress or etiquette content. The spelling gurdwara is confirmed. There is no separate word for a Buddhist temple; tokong stays.",
   "target_spans": [
    "masjid",
    "gereja",
@@ -63974,14 +64321,15 @@
    "tokong",
    "gurdwara",
    "surau",
+   "gurdwara",
    "tokong"
   ],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": null
  },
- "Unit 7 · Teaching plan and answer key|5|1": {
-  "source_text": "Ledger notes: L-0592 pintu masuk duplicates L-0330 pintu masuk / pintu keluar and is not counted twice. L-0304 depan / hadapan is depan, taught in chapter 4 (L-0173); hadapan is the formal form. hospital and kapal terbang were placed as recognition words in chapters 5 and 4, so they are revision here.",
+ "Unit 7 · Teaching plan and answer key|5|3": {
+  "source_text": "Ledger notes: L-0592 pintu masuk duplicates L-0330 pintu masuk / pintu keluar and is not counted twice. L-0304 depan / hadapan is depan, taught in chapter 4 (L-0173); hadapan is the formal form. hospital and kapal terbang were placed as recognition words in chapters 5 and 4, so they are revision here. tumpang tanya (L-0019) is chapter 1 revision, used to start a question to a stranger.",
   "target_spans": [
    "pintu masuk",
    "pintu masuk / pintu keluar",
@@ -63989,40 +64337,50 @@
    "depan",
    "hadapan",
    "hospital",
-   "kapal terbang"
+   "kapal terbang",
+   "tumpang tanya"
   ],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": null
  },
- "Unit 7 · Teaching plan and answer key|5|2": {
-  "source_text": "jam (spoken) is heavy traffic; jam as an hour is chapter 4. tengok is everyday speech for \"to look\"; the standard word is not in the ledger. Kalau tidak jam means \"if the traffic is light\".",
+ "Unit 7 · Teaching plan and answer key|5|4": {
+  "source_text": "New in step 5f (Sam, 12 Nov 2026): kilometer (long distances; meter for short ones), terus, tangga, jangan and sebulan. sebulan is a whole word, like seminggu sekali in chapter 4; do not drill making new se- words. jangan is only used with root verbs (Jangan belok kiri.). tengok is everyday speech for \"to look\"; the standard word is not in the ledger.",
   "target_spans": [
-   "jam",
-   "jam",
-   "tengok",
-   "Kalau tidak jam"
+   "kilometer",
+   "meter",
+   "terus",
+   "tangga",
+   "jangan",
+   "sebulan",
+   "sebulan",
+   "seminggu sekali",
+   "jangan",
+   "Jangan belok kiri.",
+   "tengok"
   ],
-  "mention_spans": [],
+  "mention_spans": [
+   "se-"
+  ],
   "kind": "plan",
   "exclusion": null
  },
- "Unit 7 · Teaching plan and answer key|5|3": {
-  "source_text": "Do not use words placed after chapter 7 (the rest of the ledger from chapter 8 and 9). The Kata-Kata chapter 7 scene uses several words outside the ledger, a rail line, a ride-hailing service and real shopping-centre names, so the scenes here use a bank, a station and an office instead. All routes, distances and times are fictional.",
+ "Unit 7 · Teaching plan and answer key|5|5": {
+  "source_text": "Do not use words placed after chapter 7 (the rest of the ledger from chapter 8 and 9). The Kata-Kata chapter 7 scene uses several words outside the ledger, a rail line, a ride-hailing service and real shopping-centre names, so the scenes here use a bank, a station and an office instead. All routes, distances, rents and times are fictional.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Teaching plan and answer key|5|4": {
+ "Unit 7 · Teaching plan and answer key|5|6": {
   "source_text": "\"Di ruang tamu\", \"Telefon baru\" and \"Lintas jalan\" are for recognition. The phone words are labels (no passwords or accounts are asked for); the road words are labels, not safety rules.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 7 · Teaching plan and answer key|5|5": {
-  "source_text": "Cumulative question words now include ke mana, dari mana, berapa jauh and berapa lama (chapters 1 to 7). The writing block for unit 7 (directions by message) is not written; Sam decides.",
+ "Unit 7 · Teaching plan and answer key|5|7": {
+  "source_text": "Cumulative question words now include ke mana, dari mana, berapa jauh and berapa lama (chapters 1 to 7). The writing block for unit 7 (directions by message) follows in a separate commit.",
   "target_spans": [
    "ke mana",
    "dari mana",
@@ -67877,12 +68235,12 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 7 · Fast-course summary pack|0|0": {
-  "source_text": "第7章速習：45分で基本の20語、ke・dari、di と位置の語、jalan lurus, kemudian belok、Berapa jauh?・Berapa lama? を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
+  "source_text": "第7章速習：45分で基本の20語、ke・dari、di と位置の語、jalan terus, kemudian belok、Berapa jauh?・Berapa lama? を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
   "target_spans": [
    "ke",
    "dari",
    "di",
-   "jalan lurus, kemudian belok",
+   "jalan terus, kemudian belok",
    "Berapa jauh?",
    "Berapa lama?"
   ],
@@ -67905,12 +68263,12 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 7 · Fast-course summary pack|2|0": {
-  "source_text": "Chapter 7 in one 45-minute session: 20 core words, ke and dari, di with position words, jalan lurus, kemudian belok, Berapa jauh? and Berapa lama?; then self-study in Kata-Kata. All places, routes and times are fictional.",
+  "source_text": "Chapter 7 in one 45-minute session: 20 core words, ke and dari, di with position words, jalan terus, kemudian belok, Berapa jauh? and Berapa lama?; then self-study in Kata-Kata. All places, routes and times are fictional.",
   "target_spans": [
    "ke",
    "dari",
    "di",
-   "jalan lurus, kemudian belok",
+   "jalan terus, kemudian belok",
    "Berapa jauh?",
    "Berapa lama?"
   ],
@@ -67941,12 +68299,12 @@
   "exclusion": null
  },
  "Chapter 7 · Fast-course summary pack|3|2": {
-  "source_text": "I can give and follow a route with jalan lurus, kemudian belok kiri or kanan. / jalan lurus・kemudian belok kiri/kanan で道順を言ったり聞いたりできる。",
+  "source_text": "I can give and follow a route with jalan terus, kemudian belok kiri or kanan. / jalan terus・kemudian belok kiri/kanan で道順を言ったり聞いたりできる。",
   "target_spans": [
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok kiri",
    "kanan",
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok kiri/kanan"
   ],
   "mention_spans": [],
@@ -68092,9 +68450,15 @@
   "exclusion": null
  },
  "Chapter 7 · Fast-course summary pack|3|18": {
-  "source_text": "lurus — straight · まっすぐ  [L-0318]",
+  "source_text": "terus — straight on (jalan terus, pergi terus, terus depan) · まっすぐ（jalan terus・pergi terus・terus depan）  [L-1060]",
   "target_spans": [
-   "lurus"
+   "terus",
+   "jalan terus",
+   "pergi terus",
+   "terus depan",
+   "jalan terus",
+   "pergi terus",
+   "terus depan"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -68189,13 +68553,13 @@
   "exclusion": null
  },
  "Chapter 7 · Fast-course summary pack|4|2": {
-  "source_text": "3 · Jalan lurus, kemudian belok kiri / kanan di (landmark).  e.g. Jalan lurus, kemudian belok kanan di lampu isyarat. / Belok kiri di simpang.",
+  "source_text": "3 · Jalan terus, kemudian belok kiri / kanan di (landmark).  e.g. Jalan terus, kemudian belok kanan di lampu isyarat. / Belok kiri di simpang.",
   "target_spans": [
-   "Jalan lurus, kemudian belok",
+   "Jalan terus, kemudian belok",
    "kiri",
    "kanan",
    "di",
-   "Jalan lurus, kemudian belok kanan di lampu isyarat.",
+   "Jalan terus, kemudian belok kanan di lampu isyarat.",
    "Belok kiri di simpang."
   ],
   "mention_spans": [],
@@ -68268,18 +68632,18 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 7 · Fast-course summary pack|4|8": {
-  "source_text": "Tanaka: Maaf, cik. Bank di mana?",
+  "source_text": "Tanaka: Maaf, tumpang tanya, bank di mana?",
   "target_spans": [
-   "Maaf, cik. Bank di mana?"
+   "Maaf, tumpang tanya, bank di mana?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Chapter 7 · Fast-course summary pack|4|9": {
-  "source_text": "Siti: Jalan lurus, kemudian belok kanan di lampu isyarat.",
+  "source_text": "Siti: Jalan terus, kemudian belok kanan di lampu isyarat.",
   "target_spans": [
-   "Jalan lurus, kemudian belok kanan di lampu isyarat."
+   "Jalan terus, kemudian belok kanan di lampu isyarat."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -68372,9 +68736,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 7 · Fast-course summary pack|4|20": {
-  "source_text": "B: You live nearby. Give the route with jalan lurus, kemudian belok and a landmark (invented distances).",
+  "source_text": "B: You live nearby. Give the route with jalan terus, kemudian belok and a landmark (invented distances).",
   "target_spans": [
-   "jalan lurus",
+   "jalan terus",
    "kemudian belok"
   ],
   "mention_spans": [],
@@ -68458,13 +68822,19 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 7 · Fast-course summary pack|5|10": {
-  "source_text": "After the session: all 49 Kata-Kata chapter 7 cards (ms-c07-001 to ms-c07-049) and frames ms-c07-f01 to ms-c07-f05 in the frame drill and Susun Ayat; the words for the places of worship (gereja, kuil, tokong, gurdwara, surau) have no card yet.",
+  "source_text": "After the session: all 49 Kata-Kata chapter 7 cards (ms-c07-001 to ms-c07-049) and frames ms-c07-f01 to ms-c07-f05 in the frame drill and Susun Ayat; the words for the places of worship (gereja, kuil, tokong, gurdwara, surau) and the words added in step 5f (kilometer, terus, tangga, jangan, sebulan) have no card yet; card ms-c07-024 still teaches jalan lurus, which is not used for directions.",
   "target_spans": [
    "gereja",
    "kuil",
    "tokong",
    "gurdwara",
-   "surau"
+   "surau",
+   "kilometer",
+   "terus",
+   "tangga",
+   "jangan",
+   "sebulan",
+   "jalan lurus"
   ],
   "mention_spans": [],
   "kind": "opener",
@@ -68499,11 +68869,11 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 7 · Fast-course summary pack|6|0": {
-  "source_text": "Self-check: 1 Saya pergi ke bank. 2 Bank di depan stesen. 3 Jalan lurus, kemudian belok kiri di lampu isyarat. 4 Berapa jauh stesen dari sini? 5 Berapa lama ke pejabat naik bas?",
+  "source_text": "Self-check: 1 Saya pergi ke bank. 2 Bank di depan stesen. 3 Jalan terus, kemudian belok kiri di lampu isyarat. 4 Berapa jauh stesen dari sini? 5 Berapa lama ke pejabat naik bas?",
   "target_spans": [
    "Saya pergi ke bank.",
    "Bank di depan stesen.",
-   "Jalan lurus, kemudian belok kiri di lampu isyarat.",
+   "Jalan terus, kemudian belok kiri di lampu isyarat.",
    "Berapa jauh stesen dari sini?",
    "Berapa lama ke pejabat naik bas?"
   ],

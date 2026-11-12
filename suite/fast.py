@@ -450,13 +450,13 @@ PACKS.append(dict(
 
 # Step 5e: chapter 7 fast course (single 45-minute class), a digest of unit 7.
 C7_WORDS = ['L-0296', 'L-0297', 'L-0298', 'L-0302', 'L-0303', 'L-0305', 'L-0310', 'L-0312', 'L-0313', 'L-0314',
-            'L-0315', 'L-0316', 'L-0317', 'L-0318', 'L-0319', 'L-0320', 'L-0322', 'L-0323', 'L-0328', 'L-0331']
+            'L-0315', 'L-0316', 'L-0317', 'L-1060', 'L-0319', 'L-0320', 'L-0322', 'L-0323', 'L-0328', 'L-0331']
 
 
 def chapter7(ledger):
     dialogue = [
-        ('Tanaka', '«Maaf, cik. Bank di mana?»'),
-        ('Siti', '«Jalan lurus, kemudian belok kanan di lampu isyarat.»'),
+        ('Tanaka', '«Maaf, tumpang tanya, bank di mana?»'),
+        ('Siti', '«Jalan terus, kemudian belok kanan di lampu isyarat.»'),
         ('Tanaka', '«Berapa jauh dari sini?»'),
         ('Siti', '«Tidak jauh. Lebih kurang lima ratus meter.»'),
         ('Tanaka', '«Bank di sebelah kiri atau kanan?»'),
@@ -472,20 +472,20 @@ def chapter7(ledger):
         grammar=['ms-c07-g02', 'ms-c07-g03', 'ms-c07-g04', 'ms-c07-g05', 'ms-c07-g06'],
         patterns=['ms-c07-f01', 'ms-c07-f02', 'ms-c07-f03', 'ms-c07-f04', 'ms-c07-f05'],
         goal='Say where places are, ask for and give directions, and talk about distance, time and transport.',
-        explain=('第7章速習：45分で基本の20語、«ke»・«dari»、«di» と位置の語、«jalan lurus, kemudian belok»、«Berapa jauh?»・«Berapa lama?» を練習し、残りは Kata-Kata で自習します。日本語は未監修です。',
-                 'Chapter 7 in one 45-minute session: 20 core words, «ke» and «dari», «di» with position words, «jalan lurus, kemudian belok», «Berapa jauh?» and «Berapa lama?»; then self-study in Kata-Kata. All places, routes and times are fictional.'),
+        explain=('第7章速習：45分で基本の20語、«ke»・«dari»、«di» と位置の語、«jalan terus, kemudian belok»、«Berapa jauh?»・«Berapa lama?» を練習し、残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 7 in one 45-minute session: 20 core words, «ke» and «dari», «di» with position words, «jalan terus, kemudian belok», «Berapa jauh?» and «Berapa lama?»; then self-study in Kata-Kata. All places, routes and times are fictional.'),
         sections=[
             ('Can-do goals · できること', [
                 'I can say where I am going and where I come from with «ke» and «dari». / «ke»・«dari» で行き先と出発点を言える。',
                 'I can say where something is with «di» and a position word. / «di» と位置の語でものの場所を言える。',
-                'I can give and follow a route with «jalan lurus», «kemudian belok kiri» or «kanan». / «jalan lurus»・«kemudian belok kiri/kanan» で道順を言ったり聞いたりできる。',
+                'I can give and follow a route with «jalan terus», «kemudian belok kiri» or «kanan». / «jalan terus»・«kemudian belok kiri/kanan» で道順を言ったり聞いたりできる。',
                 'I can ask «Berapa jauh?» and «Berapa lama?» and answer with «lebih kurang». / «Berapa jauh?»・«Berapa lama?» とたずね、«lebih kurang» で答えられる。'], 'opener'),
             ('Core words · 基本の20語', core(ledger, C7_WORDS) +
              ['«depan» (front) is a chapter 4 word; «hadapan» is its formal form. The full unit also teaches the landmarks, transport and compass words.'], 'vocabulary'),
             ('Key patterns · 文型', [
                 '1 · «Saya pergi ke» (place). / «pergi ke mana?» / «datang dari mana?»  e.g. «Saya pergi ke pejabat.» / «Puan datang dari mana?»',
                 '2 · (place) «di» (position word) (landmark).  e.g. «Bank di depan stesen.» / «Tandas di sebelah lif.»',
-                '3 · «Jalan lurus, kemudian belok» «kiri» / «kanan» «di» (landmark).  e.g. «Jalan lurus, kemudian belok kanan di lampu isyarat.» / «Belok kiri di simpang.»',
+                '3 · «Jalan terus, kemudian belok» «kiri» / «kanan» «di» (landmark).  e.g. «Jalan terus, kemudian belok kanan di lampu isyarat.» / «Belok kiri di simpang.»',
                 '4 · «Berapa jauh» (place) «dari sini?» / «Lebih kurang» (distance).  e.g. «Berapa jauh stesen dari sini?» / «Lebih kurang lima ratus meter.»',
                 '5 · «Berapa lama ke» (place)? / «Lebih kurang» (number) «minit naik» (transport).  e.g. «Berapa lama ke pejabat?» / «Lebih kurang dua puluh minit naik bas.»',
                 'Remember: «ke» goes before the place you go to, «di» before the place you are at, «dari» before the place you come from. The position word comes straight after «di». «pergi kerja» and «balik rumah» are everyday speech; «pergi ke pejabat» and «balik ke rumah» are the standard forms.',
@@ -493,7 +493,7 @@ def chapter7(ledger):
             ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
             ('Task · タスク', [
                 'A: You are at the station (fictional). Ask B the way to the hospital: where it is, how far and how long on foot.',
-                'B: You live nearby. Give the route with «jalan lurus», «kemudian belok» and a landmark (invented distances).',
+                'B: You live nearby. Give the route with «jalan terus», «kemudian belok» and a landmark (invented distances).',
                 'Change of plan: B says «Hari ini jam. Bas lambat.» A asks «Kalau jalan kaki, berapa lama?» and decides.',
                 'A：駅にいる旅行者。病院への道、距離、歩いて何分かをたずねます。変更：Bが «Hari ini jam. Bas lambat.» と言い、Aは «Kalau jalan kaki, berapa lama?» とたずねて決めます。'], 'task'),
             ('Self-check · できるチェック', [
@@ -504,12 +504,12 @@ def chapter7(ledger):
                 '☐ 5. Ask "How long does it take to the office by bus?": ____________________'], 'test'),
             ('Self-study guide · 自習ガイド', [
                 'Before the session: Kata-Kata Sedia Kelas c07 (27 cards, frames ms-c07-f01 and ms-c07-f02).',
-                'After the session: all 49 Kata-Kata chapter 7 cards (ms-c07-001 to ms-c07-049) and frames ms-c07-f01 to ms-c07-f05 in the frame drill and Susun Ayat; the words for the places of worship («gereja», «kuil», «tokong», «gurdwara», «surau») have no card yet.',
+                'After the session: all 49 Kata-Kata chapter 7 cards (ms-c07-001 to ms-c07-049) and frames ms-c07-f01 to ms-c07-f05 in the frame drill and Susun Ayat; the words for the places of worship («gereja», «kuil», «tokong», «gurdwara», «surau») and the words added in step 5f («kilometer», «terus», «tangga», «jangan», «sebulan») have no card yet; card ms-c07-024 still teaches «jalan lurus», which is not used for directions.',
                 'Dunia scenes (recognise only): "Di ruang tamu", "Telefon baru" and "Lintas jalan" (33 words).',
                 'Optional full-course Cikgu Sensai unit: unit 7 (locations and directions).',
                 'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',
                 '授業後：第7章のカードと Dunia の場面を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
-        key=['Self-check: 1 «Saya pergi ke bank.» 2 «Bank di depan stesen.» 3 «Jalan lurus, kemudian belok kiri di lampu isyarat.» '
+        key=['Self-check: 1 «Saya pergi ke bank.» 2 «Bank di depan stesen.» 3 «Jalan terus, kemudian belok kiri di lampu isyarat.» '
              '4 «Berapa jauh stesen dari sini?» 5 «Berapa lama ke pejabat naik bas?»',
              'Session plan (45 min): 0–5 recall chapter 6 (compare two homes, «Yang mana …?»); 5–15 core words by theme; 15–25 patterns 1 to 5; '
              '25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',

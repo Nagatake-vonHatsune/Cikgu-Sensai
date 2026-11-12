@@ -33,7 +33,7 @@ BM_NOTE = ('No Malay explainer for Stage 1 units: explainers and rubrics are in 
 # English words that are spelt like a ledger entry. Unmarked use of these is
 # allowed; anything else in the ledger must be marked «…» or ‹…›.
 ENGLISH_HOMOGRAPHS = {'main', 'oh', 'pun', 'best', 'bank', 'hotel', 'menu', 'fail', 'golf', 'set', 'unit',
-                      'april', 'september', 'november', 'hospital', 'internet'}  # month names (ledger L-1036, L-1041, L-1043)
+                      'april', 'september', 'november', 'hospital', 'internet', 'kilometer'}  # month names (ledger L-1036, L-1041, L-1043)
 
 # Grammar points taught in the pilot (IDs extend the step 2 chapter points).
 GRAMMAR = [
@@ -99,9 +99,9 @@ GRAMMAR.extend([
 GRAMMAR.extend([
     dict(id='ms-c07-g02', chapter_id='ms-c07', label='Going and coming: ke, ke mana, dari mana; pergi ke and balik ke'),
     dict(id='ms-c07-g03', chapter_id='ms-c07', label='Position words with di: di depan, di sebelah, di antara; sini, situ, sana; compass points'),
-    dict(id='ms-c07-g04', chapter_id='ms-c07', label='Route directions: jalan lurus, kemudian belok kiri or kanan di, naik, turun, masuk, keluar'),
-    dict(id='ms-c07-g05', chapter_id='ms-c07', label='Distance: dekat, jauh, berapa jauh, lebih kurang; kalau'),
-    dict(id='ms-c07-g06', chapter_id='ms-c07', label='Duration and transport: berapa lama, naik bas, kereta api, jalan kaki; jam (traffic)'),
+    dict(id='ms-c07-g04', chapter_id='ms-c07', label='Route directions: jalan terus, kemudian belok kiri or kanan di, jangan belok, naik, turun, masuk, keluar'),
+    dict(id='ms-c07-g05', chapter_id='ms-c07', label='Distance: dekat, jauh, berapa jauh, lebih kurang, kilometer; kalau; sebulan'),
+    dict(id='ms-c07-g06', chapter_id='ms-c07', label='Duration and transport: berapa lama, naik bas, kereta api, jalan kaki; jam / sesak (traffic)'),
 ])
 
 
@@ -216,6 +216,8 @@ GLOSS = {
     'L-0215': dict(en='but (spoken «tapi»)'),
     'L-1009': dict(en='why'),
     'L-1051': dict(en='rent («sewa … setiap bulan» = rent every month)', ja='家賃・賃貸料（«sewa … setiap bulan»＝毎月の家賃）'),
+    'L-1060': dict(en='straight on («jalan terus», «pergi terus», «terus depan»)', ja='まっすぐ（«jalan terus»・«pergi terus»・«terus depan»）'),
+    'L-1063': dict(en='per month, a month («tiga ribu ringgit sebulan»)', ja='月に・1か月（«tiga ribu ringgit sebulan»）'),
     'L-1052': dict(en='room («bilik tidur» = bedroom, «bilik air» = bathroom)', ja='部屋（«bilik tidur»＝寝室、«bilik air»＝浴室）'),
 }
 
