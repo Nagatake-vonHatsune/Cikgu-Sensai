@@ -72,8 +72,8 @@ P=[
 'A: «Berapa kepanjangan rumah ini?» B: «Sepuluh meter.»',
 'A: «Berapa kelebaran rumah ini?» B: «Lima meter.»',
 'A: «Berapa kedalaman ini?» B: «Dua meter.»'],
-'ke-...-an forms measurement nouns from certain adjectives; use the attested ledger forms.',
-'ke-...-an で一部の形容詞から寸法の名詞を作ります。台帳の語だけを使います。',
+'paired prefix and suffix forms measurement nouns from certain adjectives; use the attested ledger forms.',
+'paired prefix and suffix で一部の形容詞から寸法の名詞を作ります。台帳の語だけを使います。',
 'Japanese uses different length and height nouns. Do not generalise this affix to every adjective.',
 '日本語の高さ・長さ・幅に当たりますが、接辞をすべての形容詞に拡張しないでください。'),
 ('ms-c03-f06','Fractions and decimals: «setengah», «suku», «perpuluhan».',[
@@ -140,7 +140,7 @@ CULTURE=[
 'Kata-Kata card ms-c03-044 gives «dua perpuluhan lima» for a 2.5 decimal, and card ms-c03-045 gives a fifty-percent example. '
 'These are card notes, not a claim about how every merchant speaks. This unit does not yet introduce classifier rules, which belong to chapter 8.',
 'The measurement vocabulary gives a useful introduction to the attested nouns «ketinggian», «kepanjangan», «kelebaran» and «kedalaman». '
-'They are recorded as chapter 3 terms. Avoid telling students that any adjective can be changed with ke-...-an: this lesson only practises the listed forms. '
+'They are recorded as chapter 3 terms. Avoid telling students that any adjective can be changed with paired prefix and suffix: this lesson only practises the listed forms. '
 'In the writing task, ask for a clear unit after each number and for an explicitly fictional price when a price appears. '
 'This prevents learners from confusing metres with centimetres and full prices with discounted prices. '
 'The Japanese notes are still draft translations and require native review.']
@@ -243,7 +243,7 @@ CFG=dict(
  speaking_test='Ask about an ordinal visit, a fraction and one measurement with units.',
  speaking_key='Check «pertama» versus «kedua», a correct fraction and stated units.',
  teacher_notes=['Do not introduce chapter 8 productive classifiers.',
-                'Keep ke-...-an restricted to attested chapter 3 measure nouns.',
+                'Keep paired prefix and suffix restricted to attested chapter 3 measure nouns.',
                 'All quantities and prices are expressly fictional.'],
  extra=dict(slug='writing-block',title='Writing block · Fictional order and measurement sheet',
             goal='I can write a clear simple order or measurement list with quantities and units.',
