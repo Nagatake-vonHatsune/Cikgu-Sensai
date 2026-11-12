@@ -67875,5 +67875,656 @@
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|0|0": {
+  "source_text": "第7章速習：45分で基本の20語、ke・dari、di と位置の語、jalan lurus, kemudian belok、Berapa jauh?・Berapa lama? を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
+  "target_spans": [
+   "ke",
+   "dari",
+   "di",
+   "jalan lurus, kemudian belok",
+   "Berapa jauh?",
+   "Berapa lama?"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|2|0": {
+  "source_text": "Chapter 7 in one 45-minute session: 20 core words, ke and dari, di with position words, jalan lurus, kemudian belok, Berapa jauh? and Berapa lama?; then self-study in Kata-Kata. All places, routes and times are fictional.",
+  "target_spans": [
+   "ke",
+   "dari",
+   "di",
+   "jalan lurus, kemudian belok",
+   "Berapa jauh?",
+   "Berapa lama?"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|0": {
+  "source_text": "I can say where I am going and where I come from with ke and dari. / ke・dari で行き先と出発点を言える。",
+  "target_spans": [
+   "ke",
+   "dari",
+   "ke",
+   "dari"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|1": {
+  "source_text": "I can say where something is with di and a position word. / di と位置の語でものの場所を言える。",
+  "target_spans": [
+   "di",
+   "di"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|2": {
+  "source_text": "I can give and follow a route with jalan lurus, kemudian belok kiri or kanan. / jalan lurus・kemudian belok kiri/kanan で道順を言ったり聞いたりできる。",
+  "target_spans": [
+   "jalan lurus",
+   "kemudian belok kiri",
+   "kanan",
+   "jalan lurus",
+   "kemudian belok kiri/kanan"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|3": {
+  "source_text": "I can ask Berapa jauh? and Berapa lama? and answer with lebih kurang. / Berapa jauh?・Berapa lama? とたずね、lebih kurang で答えられる。",
+  "target_spans": [
+   "Berapa jauh?",
+   "Berapa lama?",
+   "lebih kurang",
+   "Berapa jauh?",
+   "Berapa lama?",
+   "lebih kurang"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|4": {
+  "source_text": "■ Core words · 基本の20語",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|3|5": {
+  "source_text": "ke — to (direction) · 〜へ  [L-0296]",
+  "target_spans": [
+   "ke"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|6": {
+  "source_text": "ke mana — where to · どこへ  [L-0297]",
+  "target_spans": [
+   "ke mana"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|7": {
+  "source_text": "dari mana — where from · どこから  [L-0298]",
+  "target_spans": [
+   "dari mana"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|8": {
+  "source_text": "kiri — left · 左  [L-0302]",
+  "target_spans": [
+   "kiri"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|9": {
+  "source_text": "kanan — right · 右  [L-0303]",
+  "target_spans": [
+   "kanan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|10": {
+  "source_text": "belakang — behind, back · 後ろ  [L-0305]",
+  "target_spans": [
+   "belakang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|11": {
+  "source_text": "sebelah — next to, beside · 隣  [L-0310]",
+  "target_spans": [
+   "sebelah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|12": {
+  "source_text": "seberang — across, opposite side · 向かい側  [L-0312]",
+  "target_spans": [
+   "seberang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|13": {
+  "source_text": "dekat — near · 近い  [L-0313]",
+  "target_spans": [
+   "dekat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|14": {
+  "source_text": "jauh — far · 遠い  [L-0314]",
+  "target_spans": [
+   "jauh"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|15": {
+  "source_text": "berapa jauh — how far · どのくらい遠い  [L-0315]",
+  "target_spans": [
+   "berapa jauh"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|16": {
+  "source_text": "berapa lama — how long · どのくらいの時間  [L-0316]",
+  "target_spans": [
+   "berapa lama"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|17": {
+  "source_text": "lebih kurang — approximately · 約・だいたい  [L-0317]",
+  "target_spans": [
+   "lebih kurang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|18": {
+  "source_text": "lurus — straight · まっすぐ  [L-0318]",
+  "target_spans": [
+   "lurus"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|19": {
+  "source_text": "belok — to turn · 曲がる  [L-0319]",
+  "target_spans": [
+   "belok"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|20": {
+  "source_text": "kemudian — then, after that · それから  [L-0320]",
+  "target_spans": [
+   "kemudian"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|21": {
+  "source_text": "jalan kaki — on foot, walk · 歩いて  [L-0322]",
+  "target_spans": [
+   "jalan kaki"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|22": {
+  "source_text": "naik — to go up; to ride (transport) · 上がる；乗る  [L-0323]",
+  "target_spans": [
+   "naik"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|23": {
+  "source_text": "lampu isyarat — traffic light · 信号  [L-0328]",
+  "target_spans": [
+   "lampu isyarat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|24": {
+  "source_text": "tingkat — floor, level · 階  [L-0331]",
+  "target_spans": [
+   "tingkat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|3|25": {
+  "source_text": "depan (front) is a chapter 4 word; hadapan is its formal form. The full unit also teaches the landmarks, transport and compass words.",
+  "target_spans": [
+   "depan",
+   "hadapan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|0": {
+  "source_text": "1 · Saya pergi ke (place). / pergi ke mana? / datang dari mana?  e.g. Saya pergi ke pejabat. / Puan datang dari mana?",
+  "target_spans": [
+   "Saya pergi ke",
+   "pergi ke mana?",
+   "datang dari mana?",
+   "Saya pergi ke pejabat.",
+   "Puan datang dari mana?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|1": {
+  "source_text": "2 · (place) di (position word) (landmark).  e.g. Bank di depan stesen. / Tandas di sebelah lif.",
+  "target_spans": [
+   "di",
+   "Bank di depan stesen.",
+   "Tandas di sebelah lif."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|2": {
+  "source_text": "3 · Jalan lurus, kemudian belok kiri / kanan di (landmark).  e.g. Jalan lurus, kemudian belok kanan di lampu isyarat. / Belok kiri di simpang.",
+  "target_spans": [
+   "Jalan lurus, kemudian belok",
+   "kiri",
+   "kanan",
+   "di",
+   "Jalan lurus, kemudian belok kanan di lampu isyarat.",
+   "Belok kiri di simpang."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|3": {
+  "source_text": "4 · Berapa jauh (place) dari sini? / Lebih kurang (distance).  e.g. Berapa jauh stesen dari sini? / Lebih kurang lima ratus meter.",
+  "target_spans": [
+   "Berapa jauh",
+   "dari sini?",
+   "Lebih kurang",
+   "Berapa jauh stesen dari sini?",
+   "Lebih kurang lima ratus meter."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|4": {
+  "source_text": "5 · Berapa lama ke (place)? / Lebih kurang (number) minit naik (transport).  e.g. Berapa lama ke pejabat? / Lebih kurang dua puluh minit naik bas.",
+  "target_spans": [
+   "Berapa lama ke",
+   "Lebih kurang",
+   "minit naik",
+   "Berapa lama ke pejabat?",
+   "Lebih kurang dua puluh minit naik bas."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|5": {
+  "source_text": "Remember: ke goes before the place you go to, di before the place you are at, dari before the place you come from. The position word comes straight after di. pergi kerja and balik rumah are everyday speech; pergi ke pejabat and balik ke rumah are the standard forms.",
+  "target_spans": [
+   "ke",
+   "di",
+   "dari",
+   "di",
+   "pergi kerja",
+   "balik rumah",
+   "pergi ke pejabat",
+   "balik ke rumah"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|6": {
+  "source_text": "ke は行き先の前、di はいる場所の前、dari は出発点の前に置きます。位置の語は di のすぐあとに来ます。pergi kerja・balik rumah は日常の話し言葉で、pergi ke pejabat・balik ke rumah が標準の形です。",
+  "target_spans": [
+   "ke",
+   "di",
+   "dari",
+   "di",
+   "pergi kerja",
+   "balik rumah",
+   "pergi ke pejabat",
+   "balik ke rumah"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|7": {
+  "source_text": "■ Model conversation · 会話 (fictional)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|4|8": {
+  "source_text": "Tanaka: Maaf, cik. Bank di mana?",
+  "target_spans": [
+   "Maaf, cik. Bank di mana?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|9": {
+  "source_text": "Siti: Jalan lurus, kemudian belok kanan di lampu isyarat.",
+  "target_spans": [
+   "Jalan lurus, kemudian belok kanan di lampu isyarat."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|10": {
+  "source_text": "Tanaka: Berapa jauh dari sini?",
+  "target_spans": [
+   "Berapa jauh dari sini?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|11": {
+  "source_text": "Siti: Tidak jauh. Lebih kurang lima ratus meter.",
+  "target_spans": [
+   "Tidak jauh. Lebih kurang lima ratus meter."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|12": {
+  "source_text": "Tanaka: Bank di sebelah kiri atau kanan?",
+  "target_spans": [
+   "Bank di sebelah kiri atau kanan?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|13": {
+  "source_text": "Siti: Di sebelah kanan, di seberang kedai.",
+  "target_spans": [
+   "Di sebelah kanan, di seberang kedai."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|14": {
+  "source_text": "Tanaka: Pejabat saya jauh. Berapa lama ke sana naik bas?",
+  "target_spans": [
+   "Pejabat saya jauh. Berapa lama ke sana naik bas?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|15": {
+  "source_text": "Siti: Lebih kurang dua puluh minit.",
+  "target_spans": [
+   "Lebih kurang dua puluh minit."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|16": {
+  "source_text": "Tanaka: Terima kasih banyak, cik!",
+  "target_spans": [
+   "Terima kasih banyak, cik!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|17": {
+  "source_text": "Siti: Sama-sama, encik.",
+  "target_spans": [
+   "Sama-sama, encik."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|4|18": {
+  "source_text": "■ Task · タスク",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|4|19": {
+  "source_text": "A: You are at the station (fictional). Ask B the way to the hospital: where it is, how far and how long on foot.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|4|20": {
+  "source_text": "B: You live nearby. Give the route with jalan lurus, kemudian belok and a landmark (invented distances).",
+  "target_spans": [
+   "jalan lurus",
+   "kemudian belok"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|5|0": {
+  "source_text": "Change of plan: B says Hari ini jam. Bas lambat. A asks Kalau jalan kaki, berapa lama? and decides.",
+  "target_spans": [
+   "Hari ini jam. Bas lambat.",
+   "Kalau jalan kaki, berapa lama?"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|5|1": {
+  "source_text": "A：駅にいる旅行者。病院への道、距離、歩いて何分かをたずねます。変更：Bが Hari ini jam. Bas lambat. と言い、Aは Kalau jalan kaki, berapa lama? とたずねて決めます。",
+  "target_spans": [
+   "Hari ini jam. Bas lambat.",
+   "Kalau jalan kaki, berapa lama?"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|5|2": {
+  "source_text": "■ Self-check · できるチェック",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|5|3": {
+  "source_text": "☐ 1. Say \"I am going to the bank.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|5|4": {
+  "source_text": "☐ 2. Say \"The bank is in front of the station.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|5|5": {
+  "source_text": "☐ 3. Say \"Go straight, then turn left at the traffic lights.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|5|6": {
+  "source_text": "☐ 4. Ask \"How far is the station from here?\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|5|7": {
+  "source_text": "☐ 5. Ask \"How long does it take to the office by bus?\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|5|8": {
+  "source_text": "■ Self-study guide · 自習ガイド",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|5|9": {
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c07 (27 cards, frames ms-c07-f01 and ms-c07-f02).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|5|10": {
+  "source_text": "After the session: all 49 Kata-Kata chapter 7 cards (ms-c07-001 to ms-c07-049) and frames ms-c07-f01 to ms-c07-f05 in the frame drill and Susun Ayat; the words for the places of worship (gereja, kuil, tokong, gurdwara, surau) have no card yet.",
+  "target_spans": [
+   "gereja",
+   "kuil",
+   "tokong",
+   "gurdwara",
+   "surau"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|5|11": {
+  "source_text": "Dunia scenes (recognise only): \"Di ruang tamu\", \"Telefon baru\" and \"Lintas jalan\" (33 words).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|5|12": {
+  "source_text": "Optional full-course Cikgu Sensai unit: unit 7 (locations and directions).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|5|13": {
+  "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|5|14": {
+  "source_text": "授業後：第7章のカードと Dunia の場面を復習しましょう。自習の目安は約9〜10時間です。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 7 · Fast-course summary pack|6|0": {
+  "source_text": "Self-check: 1 Saya pergi ke bank. 2 Bank di depan stesen. 3 Jalan lurus, kemudian belok kiri di lampu isyarat. 4 Berapa jauh stesen dari sini? 5 Berapa lama ke pejabat naik bas?",
+  "target_spans": [
+   "Saya pergi ke bank.",
+   "Bank di depan stesen.",
+   "Jalan lurus, kemudian belok kiri di lampu isyarat.",
+   "Berapa jauh stesen dari sini?",
+   "Berapa lama ke pejabat naik bas?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|6|1": {
+  "source_text": "Session plan (45 min): 0–5 recall chapter 6 (compare two homes, Yang mana …?); 5–15 core words by theme; 15–25 patterns 1 to 5; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.",
+  "target_spans": [
+   "Yang mana …?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Chapter 7 · Fast-course summary pack|6|2": {
+  "source_text": "Same content and ledger limits as unit 7. All Japanese is a draft awaiting native review.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
  }
 }

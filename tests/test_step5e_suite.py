@@ -349,6 +349,36 @@ class Chapter7Minimums(unittest.TestCase):
         opener = next(l for l in self.by_unit[self.u] if l['suite']['component_type'] == 'Opener')
         self.assertIn('Sedia Kelas c07 (27 cards, frames ms-c07-f01 and ms-c07-f02)', ' '.join(self.lines(opener)))
 
+    def test_fast_pack(self):
+        self.assertIn('ms-c07-fast', self.by_unit)
+        l = self.by_unit['ms-c07-fast'][0]
+        self.assertEqual(l['suite']['course_path'], 'fast')
+        core = [x for x in self.lines(l, 'Core words') if re.search(r'\[L-\d{4}\]$', x)]
+        self.assertTrue(15 <= len(core) <= 20)
+        self.assertTrue(set(fast.C7_WORDS) <= set(self.cfg['core']))
+        labels = ' '.join(n for n, _, _ in l['sections'])
+        for part in ('Can-do', 'Core words', 'Key patterns', 'Model conversation', 'Task', 'Self-check', 'Self-study'):
+            self.assertIn(part, labels)
+        for line in self.lines(l, 'Key patterns'):
+            if re.match(r'^\d · ', line):
+                self.assertEqual(line.split('e.g.')[1].count(' / '), 1, line)
+        self.assertTrue(10 <= len(self.lines(l, 'Model conversation')) <= 16)
+        n_check = sum(x.startswith('☐') for x in self.lines(l, 'Self-check'))
+        self.assertEqual(n_check, 5)
+        self.assertTrue(all(f'{i} «' in l['key'][0] for i in range(1, n_check + 1)))
+        page = {x['title']: x for x in bank()}[l['title']]
+        count = len(page['pages']) - 3 - page.get('key_pages', 1)
+        self.assertTrue(2 <= count <= 4, count)
+        chapters = json.loads((ROOT / 'dist/chapters.js').read_text()[len('const chapters='):-1])
+        ch7 = next(c for c in chapters if c['title'].startswith('Chapter 7'))
+        self.assertIn(l['title'], ch7['fast_items'])
+        self.assertEqual(ch7['status'], 'Step 5e chapter 7 suite · draft for pilot')
+        guide = ' '.join(self.lines(l, 'Self-study'))
+        self.assertIn('Sedia Kelas c07', guide)
+        for scene in SCENES:
+            self.assertIn(scene, guide)
+        self.assertIn('ms-c07-001 to ms-c07-049', guide)
+
     def test_legacy_retirement_and_catalogue(self):
         built = {x['title'] for x in bank()}
         for name in ('Asking where', 'Directions and orientation', 'Di, ke and dari'):
@@ -365,7 +395,8 @@ class Chapter7Minimums(unittest.TestCase):
         self.assertEqual(len(exceptions), 30)
         self.assertFalse([k for k, e in exceptions.items() if e['unit'] in (self.u, 'ms-c07-fast')])
         reauthored = json.loads((ROOT / 'curriculum/reauthored-units.json').read_text())
-        self.assertIn(self.u, reauthored)
+        for unit in (self.u, 'ms-c07-fast'):
+            self.assertIn(unit, reauthored)
         # The writing block for unit 7 is still a slot with no component.
         block = next(b for b in catalogue['additional_blocks'] if b['id'] == 'ms-stage1-writing-7')
         self.assertEqual(block['component_ids'], [])
