@@ -15,7 +15,7 @@ class CatalogueTests(unittest.TestCase):
         cls.groups=json.loads((ROOT/'dist/chapters.js').read_text()[len('const chapters='):-1])
         cls.data=make_catalogue(cls.lessons,cls.groups)
     def test_preserved_content(self):
-        # Step 4 retires the legacy unit 1 and 2A packs and rewrites one 3B line; steps 5a and 5b retire chapter 3 and 4 packs
+        # Step 4 retires the legacy unit 1 and 2A packs and rewrites one 3B line; steps 5a, 5b and 5c retire chapter 3, 4 and 5 packs
         # (ledger L-1006 action). Every other legacy page is unchanged.
         old=bank(subprocess.check_output(['git','show','b42e307f6f1594f7e15e68536ee2bb60bc7b1a4b:dist/bank.js'],cwd=ROOT,text=True))
         retired={'Greetings · Learner pack','Greetings · Teaching plan','Introductions · Learner pack','Introductions · Teaching plan',
@@ -25,7 +25,10 @@ class CatalogueTests(unittest.TestCase):
                  'Beli buah di pasar','Beli buah di pasar · Learner pack','Beli buah di pasar · Teaching plan','Jumlah buah','Pesanan buah',
                  # Step 5b retires the legacy chapter 4 packs superseded by units 4A and 4B.
                  'Clock time · Learner pack','Clock time · Teaching plan','Dates and days · Learner pack','Dates and days · Teaching plan',
-                 'Frequency and routines · Learner pack','Frequency and routines · Teaching plan'}
+                 'Frequency and routines · Learner pack','Frequency and routines · Teaching plan',
+                 # Step 5c retires the legacy chapter 5 packs superseded by unit 5.
+                 'Taste and colour · Learner pack','Taste and colour · Teaching plan',
+                 'Size and shape · Learner pack','Size and shape · Teaching plan'}
         expected=[l for l in old if l['title'] not in retired]
         legacy=[l for l in self.lessons if not l.get('suite')]
         strip=lambda ls:[{k:v for k,v in l.items()} | {'pages':[{k:v for k,v in p.items() if k!='index'} for p in l['pages']]} for l in ls]
