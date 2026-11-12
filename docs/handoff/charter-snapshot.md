@@ -1,4 +1,4 @@
-<!-- Snapshot of the Google Doc charter (master: https://docs.google.com/document/d/1d-uiYfQixReMUlPAcUEJ6R4onWOh-4Aa9urr14DL2lw), exported 2026-11-11. For builders without Drive access. If you can open the Google Doc, it wins. -->
+<!-- Snapshot of the Google Doc charter (master: https://docs.google.com/document/d/1d-uiYfQixReMUlPAcUEJ6R4onWOh-4Aa9urr14DL2lw), exported 2026-11-11, refreshed 2026-11-12 (the faith-expression sentence in section 8, Malay form rules, added). For builders without Drive access. If you can open the Google Doc, it wins. -->
 
 # **Unified Curriculum Charter: Cikgu Sensai, Kata-Kata, Hanashishou (v0.1)**
 
@@ -535,7 +535,7 @@ Keep the IDs Kata-Kata already uses, and extend them.
 
 * **Register.** Standard forms are taught first (mahu, tidak, sudah). Colloquial forms (nak, tak, dah) are shown beside them from chapter 1, marked "spoken". A dialogue may use a spoken form only after its standard form has been taught. Chapter 17 teaches the spoken system as a whole.
 
-* **Malaysian standard, never Indonesian.** All Malay follows Malaysian usage as recorded by Dewan Bahasa dan Pustaka in Kamus Dewan. Indonesian forms are errors even where they look close: nombor not nomor, bas not bis, epal not apel, selepas not setelah, beza not beda, kereta not mobil, tandas not toilet or WC, tiket not karcis, kedai not toko, wang or duit not uang. When a word's Malaysian status is unsure, flag it for Sam and the Kamus Dewan check; do not guess.
+* **Malaysian standard, never Indonesian.** All Malay follows Malaysian usage as recorded by Dewan Bahasa dan Pustaka in Kamus Dewan. Indonesian forms are errors even where they look close: nombor not nomor, bas not bis, epal not apel, selepas not setelah, beza not beda, kereta not mobil, tandas not toilet or WC, tiket not karcis, kedai not toko, wang or duit not uang. When a word's Malaysian status is unsure, flag it for Sam and the Kamus Dewan check; do not guess. Greetings used within one religion (Assalamualaikum, Waalaikumsalam) are not taught anywhere: not as vocabulary, in culture notes, drills or pronunciation lists (Sam, 11 Nov 2026). Ask Sam before adding any other faith-specific expression.
 
 ### **Quality and constraints**
 
