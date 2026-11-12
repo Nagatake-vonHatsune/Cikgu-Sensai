@@ -4,24 +4,26 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 
 ## Current state
 
-- **Last updated:** 12 Nov 2026, Claude: step 5d, chapter 6 (unit 6 and the fast pack). Details in `docs/STEP-5d-report.md`.
-- **Most recent approved scope:** chapter 6 only. Sam authorised it on 12 Nov 2026 and pre-approved publication to main when the checks pass. Chapters 4 and 5 (steps 5b, 5c) are complete and Sam's answers to their questions are applied.
-- **Last commit on main:** the commit that updates this file (it follows `bd2420e`, the chapter 6 fast pack, and `79e76af`, unit 6). Build and all 75 tests pass.
-- **Chapter 6 source:** `suite/chapter6_common.py` (generalised from the chapter 5 helper), `suite/ms_c06.py`; the fast pack is `chapter6` in `suite/fast.py`. Tests: `tests/test_step5d_suite.py`.
-- **Words:** 32 core in one unit, six themed groups (comparing and equal 6; the most 5; very and too 3; choosing 3; describing places and things 13; places 2). The ledger places 34 rows in chapter 6; «sekali» and «baru» are also placed in chapter 4, so they are revision with a note on the new meanings (very after an adjective; new). Dunia recognition 14 ("Main badminton"). Revision 25. The test recomputes both sets from the ledger. «termurah», «terbesar», «terbaik», «tercantik», «setinggi» and «semahal» are taught as whole ledger words; no drill builds new ter- or se- words (productive ter- is chapter 16).
-- **Question words now:** apa, siapa, di mana, -kah, adakah, bolehkah, berapa, bila, pukul berapa, hari apa, bagaimana (spoken macam mana), kenapa = mengapa = apa sebab (answered with sebab or kerana) and **yang mana** (answered with the noun or «Saya pilih …»). The markers return in "Markers with comparisons".
-- **Scene:** choosing a condo with an agent, the new condo and the station (listening), a condo listing. The Kata-Kata scenario's «dekat», «jauh» and LRT are chapter 7 or outside the ledger, so the scene compares size, price, noise, age and comfort. No «sewa», «bilik», «tengok» or «luas» (not placed or not in the ledger; proposed in the report).
-- **Legacy:** "Comparisons and superlatives" is retired from the catalogue (source kept). Legacy exceptions 34 → 32. Re-authored units now include ms-c06 and ms-c06-fast.
-- **Not written:** the review block after unit 6 (Stage 1 plan). The brief named unit 6 and the fast pack only; Sam decides (question 6 in the report).
-- **Unverified:** all Malay example sentences (mine, ledger-checked only; list in the report), «senang» as the spoken form of «mudah» (Kamus Dewan not checked), the Strata Management Act and Klang Valley rail lines in the culture note (secondary sources, statute not read), Japanese (draft). All prices, condo labels and situations are fictional.
-- **Ledger:** unchanged in step 5d (1,050 rows). Proposed, awaiting Sam: «sewa», «bilik», «luas», moving «tengok» (L-0577) to chapter 6, and a Meaning edit for L-0188 «sekali».
-- **Chapters 3, 4 and 5** still await Sam's pilot feedback.
-- **Chapter 7 waits for Sam's explicit go-ahead.** Do not start it until he gives it.
-- **Sam's answers to the step 5c questions (12 Nov 2026)** are recorded in `docs/STEP-5c-report.md` ("Sam's answers"): both «jingga» and «oren»; the culture note may say who runs a mamak stall; «hospital» replaces «rumah sakit»; «kuah», «mengapa» and «kerana» added; «kenapa» = «mengapa» = «apa sebab»; chapter 5 not split.
-- **Ledger (step 5c, Journal rows 57 to 63):** L-1048 to L-1050 added, L-0416 retired, L-0336 and L-1009 updated; the repo copies and hash are refreshed (1,050 rows, unchanged by step 5d).
-- **Sam's answers to the step 5b questions (12 Nov 2026)** are recorded in `docs/STEP-5b-report.md` (last section): «hari bulan» for the day of the month and «tarikh» for the full date; the working-week line for KL and Selangor; split approved; «jam tiga» allowed if explained; ‹ke› shown in explainers only; proposed ledger rows approved. Second round: «Hari bulan sebelas» (hari bulan first); Kedah, Kelantan and Terengganu have a Friday and Saturday weekend and Johor returned to Saturday and Sunday on 1 Jan 2025; «Hari ini hari bulan apa?» can be heard as the weekday or the date.
-- **Ledger (done, Journal rows 50 to 56):** L-1032 to L-1047 added; L-1045 retired as a duplicate of L-0702 «hujung minggu»; L-0614 «sarapan» placed in Ch4. Kata-Kata still needs cards for these words.
-- **Charter snapshot** `docs/handoff/charter-snapshot.md` was refreshed on 12 Nov 2026 from the live Google Doc (one added sentence in section 8: no faith-specific greetings; ask Sam before any other faith-specific expression).
+- **Last updated:** 12 Nov 2026, Claude: step 5e, the unit 6 follow-ups, the review block after unit 6, and chapter 7 (unit 7 and the fast pack). Details in `docs/STEP-5e-report.md`.
+- **Most recent approved scope:** step 5e only. Sam authorised it on 12 Nov 2026 and pre-approved publication to main when the checks pass. Chapters 4 to 6 (steps 5b to 5d) are complete.
+- **Last commit on main:** the commit that updates this file (it follows `6d49e03`, the chapter 7 fast pack; `4d4a4d6` unit 7; `b628ff3` review block; `c43f7e2` unit 6 follow-ups). Build and all 91 tests pass.
+- **Chapter 7 source:** `suite/chapter7_common.py` (generalised from the chapter 6 helper), `suite/ms_c07.py`; the fast pack is `chapter7` in `suite/fast.py`. Tests: `tests/test_step5e_suite.py`.
+- **Words, unit 7:** 56 core in five themed groups (position words 13; distance and direction 9; turning and moving 9; landmarks and transport 21; compass points 4). The ledger places 53 rows in chapter 7; with the five rows added in this step it is 58, less L-0592 (duplicate «pintu masuk» of L-0330) and L-0304 («depan», already L-0173 in chapter 4). Dunia recognition 33 ("Di ruang tamu" 13, "Telefon baru" 12, "Lintas jalan" 8). Revision 43 (including «hospital», «kapal terbang», «bilik», «lama», «depan»). The test recomputes all sets from the ledger.
+- **Words, unit 6 after the follow-ups:** 35 core («sewa», «bilik», «luas» added), 14 recognition, 30 revision. «senang» is marked spoken beside «mudah».
+- **Question words now:** apa, siapa, di mana, -kah, adakah, bolehkah, berapa, bila, pukul berapa, hari apa, bagaimana (macam mana), kenapa = mengapa = apa sebab, yang mana, and **ke mana, dari mana, berapa jauh, berapa lama**.
+- **Scene:** asking the way to a bank and the bus, a phone call giving directions to an office (listening), a building directory (reading), asking the way to the hospital (task). All routes, distances and times are fictional.
+- **«ke» is taught.** «pergi ke pejabat» and «balik ke rumah» are the standard form; «pergi kerja» and «balik rumah» are everyday speech (tested on every line).
+- **Places of worship (Sam, in the session):** «masjid» (L-0337) plus new rows L-1054 «gereja», L-1055 «kuil», L-1056 «tokong», L-1057 «gurdwara» and L-1058 «surau» are one even-handed set of plain landmarks, used evenly (tested). No worship, dress or etiquette content. «vihara» was offered and not chosen.
+- **Review block after unit 6:** written (`ms-c06-review-block`, chapters 1 to 6, registered as `ms-stage1-review-6`). Review blocks after 3A, 4B and 6 are now all written.
+- **Legacy:** "Asking where", "Directions and orientation" and the grammar pack "Di, ke and dari" are retired from the catalogue (source kept; the last had «kampus» and «tren», not in the ledger). Legacy exceptions 32 → 30. Re-authored units now include ms-c07 and ms-c07-fast.
+- **Not written:** the writing block after unit 7 ("directions by message", Stage 1 plan); Sam decides (question 6 in the report).
+- **Unverified:** all Malay example sentences (mine, ledger-checked only), «gurdwara» spelling and the Kamus Dewan status of L-1054 to L-1058, «jam» (traffic) and «tengok» as spoken, the left-hand-traffic and census sentences in the unit 7 culture note (secondary sources), Japanese (draft). All places, routes, distances and times are fictional.
+- **Ledger (sheet, by Claude in this and the previous session):** L-1051 to L-1053 (Journal rows 64, 65), the L-0285 note, L-1054 to L-1058 and Journal rows 66 and 67. Both repo copies and the hash in `docs/step4-sources.json` match the sheet (1,058 rows).
+- **Proposed, awaiting Sam:** «kilometer», «sebulan», «tumpang tanya», «terus», «jangan», «tangga»; retire L-0592; merge L-0304 into L-0173; a Meaning edit for L-0188 «sekali».
+- **Chapter 8 waits for Sam's explicit go-ahead.** Do not start it until he gives it. Chapters 3 to 7 still await Sam's pilot feedback.
+- **Sam's answers to the step 5d questions (12 Nov 2026):** the three ledger rows added; «senang» spoken; only the six whole ter- and se- words until chapter 16; keep the Strata Management Act and rail-network note; «sekali» (Q3) updated by Claude if Sam confirms. Questions 2 («tengok») and 7 (pilot) remain open.
+- **Sam's answers to the step 5c questions (12 Nov 2026)** are in `docs/STEP-5c-report.md` ("Sam's answers"). **Sam's answers to the step 5b questions** are in `docs/STEP-5b-report.md` (last section).
+- **Charter snapshot** `docs/handoff/charter-snapshot.md` was refreshed on 12 Nov 2026 from the live Google Doc.
 
 ## Done
 
@@ -35,6 +37,7 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 | 5b | Chapter 4 (4A, 4B) and its fast pack: 71 core, 55 Dunia recognition by scene, timeline drill, review block after 4B; legacy chapter 4 packs retired | `docs/STEP-5b-report.md` |
 | 5c | Chapter 5 (unit 5, writing block) and its fast pack: 63 core in six groups, 50 Dunia recognition by scene, «bagaimana» and «kenapa» / «mengapa» / «apa sebab» with «sebab» / «kerana» added to the question words, markers drill; legacy chapter 5 packs retired | `docs/STEP-5c-report.md` |
 | 5d | Chapter 6 (unit 6) and its fast pack: 32 core in six groups, 14 Dunia recognition, «yang mana» added to the question words, markers drill with comparisons, six whole ter-/se- words; legacy chapter 6 pack retired | `docs/STEP-5d-report.md` |
+| 5e | Unit 6 follow-ups («sewa», «bilik», «luas»; 35 core), review block after unit 6, chapter 7 (unit 7: 56 core in five groups, 33 Dunia recognition by scene) and its fast pack; «ke» taught; places of worship as an even-handed landmark set (five ledger rows); «ke mana», «dari mana», «berapa jauh», «berapa lama» added to the question words; legacy chapter 7 packs retired | `docs/STEP-5e-report.md` |
 
 ## How step 4 works (for the next builder)
 
@@ -95,12 +98,25 @@ Sam asked for a targeted fix after Claude's review of step 5a. Word lists, the 3
 - **Mentions added** to `curriculum/malay-mentions.json`: ‹ter› (Kata-Kata affix tag and card ms-c06-014 note), ‹dekat› and ‹jauh› (ledger, chapter 7); ‹se› gained cards ms-c06-005 and -006. E, F and G added as proper-noun condo labels.
 - **Kata-Kata findings:** its scenario uses «dekat», «jauh» and LRT; frames f03 and f04 show open se- and ter- slots; card ms-c06-002 «kurang» has a "minus in telling time" note against Sam's 6 Nov decision; ledger L-0188 lacks "very" (details in the report).
 
-## Next: Sam's feedback, then chapter 7 only on his go-ahead
+## Step 5e: unit 6 follow-ups, review block, chapter 7 (12 Nov 2026, Claude)
 
-1. Answer the questions at the end of `docs/STEP-5d-report.md` (ledger rows «sewa», «bilik», «luas»; «tengok»; L-0188; «senang»; se- and ter- words; the review block after unit 6; the pilot).
-2. Kata-Kata (Claude Code) adds the cards and frame changes listed in the step 5b, 5c and 5d reports (including cards for L-1032 to L-1050 and L-0614, L-0702, L-0688, the "why" frame, «hospital» in "Di klinik", and the chapter 6 findings above); the Kamus Dewan check covers L-0983 to L-1050.
-3. Chapter 3, 4, 5 and 6 pilot feedback: timings, drill load, the fast packs.
-4. **Chapter 7 waits for Sam's go-ahead.** The chapter 7 words «ke», «dekat», «jauh», «dari mana», «kedai», «sini», «sana» and «tingkat» are placed there; the unit 6 teacher notes already tell teachers not to anticipate them. The charter's chapter 7 question words are ke mana, dari mana, berapa jauh and berapa lama.
+- **Environment.** A fresh cloud container needs `apt-get update` before `apt-get install fonts-noto-cjk` (otherwise the package is not found), as well as `pip install pymupdf fonttools` and `git fetch --unshallow`. The Google Sheet and Doc connectors work from the session; `get_values` on the whole ledger is too large for the reply and is saved to a file, which can be turned into the CSV with the `csv` module (LF for `malay-ledger.csv`, CRLF for `ledger-snapshot.csv`; the earlier copies match byte for byte).
+- **Unit 6 follow-ups.** 35 core words; rent is «setiap bulan» (not in the ledger: «sebulan»); fast pack swaps «susah», «cantik», «stesen» for «sewa», «bilik», «luas». `GLOSS` entries for L-1051 and L-1052 in `suite/__init__.py` keep the fast-pack word list marked (it prints the ledger meaning, which contains unmarked Malay). ‹menyewa› is a mention with its ledger source.
+- **Review block.** `extra` in `suite/ms_c06.py` (`kind='review'` in `chapter6_common.py`); `catalogue.py` maps `review-6`.
+- **Unit 7.** One unit, five blocks, no extra block. Teacher notes give the A/B cut (position, distance, direction and turning words first; landmarks, transport and compass points second). Duplicates: L-0592 is not core (duplicate of L-0330); L-0304 is not core (revision via L-0173 «depan»; «hadapan» is the formal form said in the entry).
+- **Malay rules applied:** «ke» taught with the earlier forms as everyday speech; standard first; «jam» (traffic) and «tengok» labelled; no ber- or me- verbs; nothing placed after chapter 7; places of worship rotated evenly and tested; Japanese is a full translation.
+- **Helper:** `chapter7_common.py` is `chapter6_common.py` with: `GRAMMAR7`, four more question words, "Markers with places and routes", three Dunia scenes, the opener's Sedia Kelas c07 text (27 cards), unit id `ms-c07`, genre "Wayfinding", prerequisites ms-c01 to ms-c06. Use it as the starting point for chapter 8.
+- **Mentions added** to `curriculum/malay-mentions.json`: ‹menyewa› (ledger L-1051 note) and ‹bulat› (Kata-Kata card ms-c07-035). «internet» was added to the English homographs in `suite/__init__.py`.
+- **Layout.** The pack-fit check can pass while the final PDF render fails on a dense page (a pattern page overflowed once). If `build.py` stops at `assert space>=0`, shorten the longest explanation on that page.
+- **Legacy.** `course.py`: "Asking where", "Directions and orientation" in `RETIRED`; "Di, ke and dari" in `superseded` (removed from the bank, source in `build.py`). `tests/test_catalogue.py` lists the retired titles.
+- **Kata-Kata findings.** Its scenario uses «tumpang tanya», LRT, Grab, Pavilion, KLCC and «tak» before «tidak»; ms-c07-036 is shared by L-0330 and L-0592; ms-c07-009 «depan» duplicates ms-c04-019; hospital and kapal terbang are chapter 7 cards placed in chapters 5 and 4; no cards exist for L-1051 to L-1058 (details in the report).
+
+## Next: Sam's feedback, then chapter 8 only on his go-ahead
+
+1. Answer the questions at the end of `docs/STEP-5e-report.md` (the «gurdwara» spelling and the five rows; duplicates L-0592 and L-0304; the retired "Di, ke and dari" pack; proposed words; «hospital» and «kapal terbang»; the writing block after unit 7; the culture note; the pilot).
+2. Kata-Kata (Claude Code) adds the cards and frame changes listed in the step 5b to 5e reports (including cards for L-1032 to L-1058 and L-0614, L-0702, L-0688, the "why" frame, «hospital» in "Di klinik", and the chapter 6 and 7 findings above); the Kamus Dewan check covers L-0983 to L-1058.
+3. Chapter 3 to 7 pilot feedback: timings, drill load, the fast packs, the review blocks after 3A, 4B and 6.
+4. **Chapter 8 (Penjodoh bilangan) waits for Sam's go-ahead.** Words placed in chapter 8 (for example «tolong», «baju», «butang») stay out of the chapter 7 scenes; the unit 7 teacher notes say so. Chapter 8's cumulative question word is «berapa» with a counter.
 
 ## Earlier: Sam's pilot of chapter 3
 
