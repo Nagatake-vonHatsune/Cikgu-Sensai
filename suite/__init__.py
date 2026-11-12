@@ -88,6 +88,14 @@ GRAMMAR.extend([
     dict(id='ms-c05-g06', chapter_id='ms-c05', label='Wanting and ordering: mahu, kurang manis, ais sedikit'),
 ])
 
+GRAMMAR.extend([
+    dict(id='ms-c06-g02', chapter_id='ms-c06', label='Comparing with lebih and kurang ... daripada'),
+    dict(id='ms-c06-g03', chapter_id='ms-c06', label='Equal with sama ... dengan; the whole words setinggi and semahal'),
+    dict(id='ms-c06-g04', chapter_id='ms-c06', label='The most with paling; the whole words termurah, terbesar, terbaik, tercantik'),
+    dict(id='ms-c06-g05', chapter_id='ms-c06', label='Very and too: sangat, amat, terlalu, sekali after an adjective'),
+    dict(id='ms-c06-g06', chapter_id='ms-c06', label='Choosing: yang mana, pilih, lain; describing places'),
+])
+
 
 # Product and feature names, not Malay text (removed before the unmarked-Malay guard only).
 PRODUCT_NAMES = ['Cikgu, Sensai!', 'Cikgu Sensai', 'Sedia Kelas', 'Tanya Cikgu', 'Kata-Kata', 'Dunia', 'Jambatan',
@@ -95,7 +103,8 @@ PRODUCT_NAMES = ['Cikgu, Sensai!', 'Cikgu Sensai', 'Sedia Kelas', 'Tanya Cikgu',
                  # Kata-Kata Dunia scene titles (names of scenes, quoted as titles)
                  'Sembang di pantri', 'Pagi di pejabat', 'Ke bank dan pejabat pos', 'Pasar pagi',
                  'Satu hari Encik Tanaka', 'Hujan petang', 'Cuti ke pantai', 'Bangun pagi',
-                 'Masak nasi goreng', 'Di klinik', 'Gambar bayi', 'Lepak di kedai mamak']
+                 'Masak nasi goreng', 'Di klinik', 'Gambar bayi', 'Lepak di kedai mamak',
+                 'Main badminton']
 
 
 def strip(s):
@@ -225,9 +234,9 @@ def turns(script):
 
 
 def load_units():
-    from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, fast
+    from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, fast
     return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT,
-                       ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT,
+                       ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT, ms_c06.UNIT,
                        *fast.PACKS] if u]
 
 

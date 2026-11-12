@@ -49791,6 +49791,6312 @@
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
+ "Unit 6 · Chapter opener|0|0": {
+  "source_text": "ユニットの目標と場面を確認し、前の章の表現を思い出してから新しい内容に進みます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|2|0": {
+  "source_text": "Read the unit goals and the setting, recall earlier language without notes, then move on to the new material.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|3|0": {
+  "source_text": "Block A: I can compare two things with lebih or kurang and daripada, and say they are the same with sama … dengan. / lebih・kurang と daripada で二つを比べ、sama … dengan で同じだと言える。",
+  "target_spans": [
+   "lebih",
+   "kurang",
+   "daripada",
+   "sama … dengan",
+   "lebih",
+   "kurang",
+   "daripada",
+   "sama … dengan"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Unit 6 · Chapter opener|3|1": {
+  "source_text": "Block B: I can say which is the most with paling, use sangat and terlalu, and ask and answer Yang mana …? with pilih. / paling で一番を言い、sangat・terlalu を使い、Yang mana …? と pilih でたずねて答えられる。",
+  "target_spans": [
+   "paling",
+   "sangat",
+   "terlalu",
+   "Yang mana …?",
+   "pilih",
+   "paling",
+   "sangat",
+   "terlalu",
+   "Yang mana …?",
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Unit 6 · Chapter opener|3|2": {
+  "source_text": "Block C: I can follow a talk about a new home and use a short listing to choose a condo. / 新しい住まいについての話が分かり、短い物件リストを見てコンドを選べる。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|3|3": {
+  "source_text": "Block D: I can check comparing words, sangat and terlalu, and place words in a short test. / 比べる言葉・sangat・terlalu・場所の語を短いテストで確認できる。",
+  "target_spans": [
+   "sangat",
+   "terlalu",
+   "sangat",
+   "terlalu"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Unit 6 · Chapter opener|3|4": {
+  "source_text": "Block E: I can recognise words for the game, the court and the body in the Kata-Kata Dunia scene \"Main badminton\" and compare two players. / Kata-Kata の Dunia の場面「Main badminton」で、試合・コート・体の語を聞いて分かり、二人の選手を比べられる。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|3|5": {
+  "source_text": "■ Setting and recall · 場面と復習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|3|6": {
+  "source_text": "A new home: Encik Tanaka compares condos with Cik Mei Ling, then talks about his new condo and his station at the office.",
+  "target_spans": [
+   "Encik",
+   "Cik"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Unit 6 · Chapter opener|3|7": {
+  "source_text": "新しい住まい：田中さんがメイリンさんとコンドを比べ、そのあと新しいコンドと職場の駅について話します。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|3|8": {
+  "source_text": "Without notes, from chapter 5: describe a drink (taste, hot or cold) and answer Kenapa …? with Sebab …. / 第5章の復習：飲み物の味と温度を言い、Kenapa …? に Sebab … で答えましょう。",
+  "target_spans": [
+   "Kenapa …?",
+   "Sebab …",
+   "Kenapa …?",
+   "Sebab …"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Unit 6 · Chapter opener|3|9": {
+  "source_text": "Recall prompt: Bagaimana rasa teh tarik? Panas atau sejuk? Kenapa encik penat?",
+  "target_spans": [
+   "Bagaimana rasa teh tarik?",
+   "Panas atau sejuk?",
+   "Kenapa encik penat?"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Unit 6 · Chapter opener|3|10": {
+  "source_text": "Write one question for Tanya Cikgu before you look at the new words. / 新しい単語を見る前に、Tanya Cikgu への質問を一つ書きましょう。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|3|11": {
+  "source_text": "■ Classroom and home learning · 授業と自習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|3|12": {
+  "source_text": "Before class: Kata-Kata Sedia Kelas c06 (16 cards, frames ms-c06-f01 and ms-c06-f02). / 授業前：Kata-Kata Sedia Kelas c06（カード16枚、文型 f01・f02）。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|3|13": {
+  "source_text": "After class: the chapter 6 cards and the Dunia scene \"Main badminton\". / 授業後：第6章のカードと Dunia の場面 「Main badminton」。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|3|14": {
+  "source_text": "Self-study planning figure: about three hours for this full-course unit. / 自習の目安：このユニットで約3時間。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|4|0": {
+  "source_text": "Recall is retrieval practice, not a score. Let learners try without notes first, then check together.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Chapter opener|4|1": {
+  "source_text": "Recall answers: e.g. Manis, tetapi sedap. Sejuk, kurang manis. Sebab semalam saya balik lewat.",
+  "target_spans": [
+   "Manis, tetapi sedap.",
+   "Sejuk, kurang manis.",
+   "Sebab semalam saya balik lewat."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|0|0": {
+  "source_text": "基本語は覚えて使います。Dunia の場面の語は聞いて分かれば十分です。復習語は前の章で学んだ語です。日本語訳は未監修です。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|2|0": {
+  "source_text": "Learn and use the core words; recognise the Dunia scene words; the revision words come from earlier chapters.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|3|0": {
+  "source_text": "■ Core words · Comparing and equal · 学習する",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|3|1": {
+  "source_text": "lebih — more · もっと・より  [L-0265]",
+  "target_spans": [
+   "lebih"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|2": {
+  "source_text": "   e.g. Kondo A lebih besar daripada kondo B.",
+  "target_spans": [
+   "Kondo A lebih besar daripada kondo B."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|3": {
+  "source_text": "kurang — less · より少ない  [L-0266]",
+  "target_spans": [
+   "kurang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|4": {
+  "source_text": "   e.g. Kondo B kurang besar daripada kondo A.",
+  "target_spans": [
+   "Kondo B kurang besar daripada kondo A."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|5": {
+  "source_text": "daripada — than · 〜より  [L-0267]",
+  "target_spans": [
+   "daripada"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|6": {
+  "source_text": "   e.g. Teh ini lebih manis daripada kopi itu.",
+  "target_spans": [
+   "Teh ini lebih manis daripada kopi itu."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|7": {
+  "source_text": "sama — same; sama + adjective + dengan = as … as · 同じ  [L-0268]",
+  "target_spans": [
+   "sama",
+   "sama",
+   "dengan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|8": {
+  "source_text": "   e.g. Harga kondo A dan kondo D sama. / Kondo B sama besar dengan kondo C.",
+  "target_spans": [
+   "Harga kondo A dan kondo D sama.",
+   "Kondo B sama besar dengan kondo C."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|9": {
+  "source_text": "setinggi — as tall as (a whole word; se- + tinggi in the Kata-Kata note) · 同じくらい高い  [L-0269]",
+  "target_spans": [
+   "setinggi",
+   "tinggi"
+  ],
+  "mention_spans": [
+   "se-"
+  ],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|10": {
+  "source_text": "   e.g. Anak saya sudah setinggi saya.",
+  "target_spans": [
+   "Anak saya sudah setinggi saya."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|11": {
+  "source_text": "semahal — as expensive as (a whole word; se- + mahal in the Kata-Kata note) · 同じくらい高価  [L-0270]",
+  "target_spans": [
+   "semahal",
+   "mahal"
+  ],
+  "mention_spans": [
+   "se-"
+  ],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|12": {
+  "source_text": "   e.g. Pisang hari ini semahal mangga!",
+  "target_spans": [
+   "Pisang hari ini semahal mangga!"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|13": {
+  "source_text": "■ Core words · The most · 学習する",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|3|14": {
+  "source_text": "paling — most · 一番  [L-0274]",
+  "target_spans": [
+   "paling"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|15": {
+  "source_text": "   e.g. Kondo C paling murah.",
+  "target_spans": [
+   "Kondo C paling murah."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|16": {
+  "source_text": "termurah — cheapest (a whole word; the same as paling murah) · 一番安い  [L-0275]",
+  "target_spans": [
+   "termurah",
+   "paling murah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|17": {
+  "source_text": "   e.g. Kondo C termurah.",
+  "target_spans": [
+   "Kondo C termurah."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|18": {
+  "source_text": "terbesar — biggest (a whole word; the same as paling besar) · 一番大きい  [L-0276]",
+  "target_spans": [
+   "terbesar",
+   "paling besar"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|19": {
+  "source_text": "   e.g. Kondo A terbesar.",
+  "target_spans": [
+   "Kondo A terbesar."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|20": {
+  "source_text": "terbaik — best (a whole word, from baik; the same as paling baik) · 最高・一番良い  [L-0277]",
+  "target_spans": [
+   "terbaik",
+   "baik",
+   "paling baik"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|21": {
+  "source_text": "   e.g. Kondo D yang terbaik!",
+  "target_spans": [
+   "Kondo D yang terbaik!"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|22": {
+  "source_text": "tercantik — most beautiful (a whole word; the same as paling cantik) · 一番きれい  [L-0278]",
+  "target_spans": [
+   "tercantik",
+   "paling cantik"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|23": {
+  "source_text": "   e.g. Pantai di pulau itu yang tercantik.",
+  "target_spans": [
+   "Pantai di pulau itu yang tercantik."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|24": {
+  "source_text": "■ Core words · Very and too · 学習する",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|3|25": {
+  "source_text": "sangat — very (before adjective) · とても  [L-0271]",
+  "target_spans": [
+   "sangat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|26": {
+  "source_text": "   e.g. Kondo ini sangat selesa.",
+  "target_spans": [
+   "Kondo ini sangat selesa."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|3|27": {
+  "source_text": "amat — very (formal; sangat is the everyday word) · 非常に  [L-0272]",
+  "target_spans": [
+   "amat",
+   "sangat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|0": {
+  "source_text": "   e.g. Saya amat gembira hari ini. (formal)",
+  "target_spans": [
+   "Saya amat gembira hari ini."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|1": {
+  "source_text": "terlalu — too, excessively (more than you want) · 〜すぎる  [L-0273]",
+  "target_spans": [
+   "terlalu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|2": {
+  "source_text": "   e.g. Mi goreng ini terlalu pedas.",
+  "target_spans": [
+   "Mi goreng ini terlalu pedas."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|3": {
+  "source_text": "■ Core words · Choosing · 学習する",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|4|4": {
+  "source_text": "yang mana — which one, which (in kondo yang mana?) · どれ  [L-0279]",
+  "target_spans": [
+   "yang mana",
+   "kondo yang mana?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|5": {
+  "source_text": "   e.g. Encik suka kondo yang mana?",
+  "target_spans": [
+   "Encik suka kondo yang mana?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|6": {
+  "source_text": "pilih — to choose · 選ぶ  [L-0280]",
+  "target_spans": [
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|7": {
+  "source_text": "   e.g. Saya pilih kondo D.",
+  "target_spans": [
+   "Saya pilih kondo D."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|8": {
+  "source_text": "lain — other, different · 他の・違う  [L-0281]",
+  "target_spans": [
+   "lain"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|9": {
+  "source_text": "   e.g. Ada kondo lain?",
+  "target_spans": [
+   "Ada kondo lain?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|10": {
+  "source_text": "■ Core words · Describing places and things · 学習する",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|4|11": {
+  "source_text": "cantik — beautiful, pretty · きれい  [L-0282]",
+  "target_spans": [
+   "cantik"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|12": {
+  "source_text": "   e.g. Pantai itu cantik.",
+  "target_spans": [
+   "Pantai itu cantik."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|13": {
+  "source_text": "bagus — good, great · 良い・すごい  [L-0283]",
+  "target_spans": [
+   "bagus"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|14": {
+  "source_text": "   e.g. Filem itu bagus!",
+  "target_spans": [
+   "Filem itu bagus!"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|15": {
+  "source_text": "lama — old (things); in chapter 7: long (time) · 古い；長い（時間）  [L-0284]",
+  "target_spans": [
+   "lama"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|16": {
+  "source_text": "   e.g. Komputer saya lama. (old; in chapter 7 lama also means a long time)",
+  "target_spans": [
+   "Komputer saya lama.",
+   "lama"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|17": {
+  "source_text": "mudah / senang (spoken) — easy (standard mudah; spoken senang) · 簡単  [L-0285]",
+  "target_spans": [
+   "mudah",
+   "senang",
+   "mudah",
+   "senang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|18": {
+  "source_text": "   e.g. Soalan ini mudah. (spoken: Soalan ini senang.)",
+  "target_spans": [
+   "Soalan ini mudah.",
+   "Soalan ini senang."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|19": {
+  "source_text": "susah — difficult · 難しい  [L-0286]",
+  "target_spans": [
+   "susah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|20": {
+  "source_text": "   e.g. Soalan itu susah.",
+  "target_spans": [
+   "Soalan itu susah."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|21": {
+  "source_text": "cepat — fast, quick · 速い・早く  [L-0497]",
+  "target_spans": [
+   "cepat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|22": {
+  "source_text": "   e.g. Komputer baru lebih cepat.",
+  "target_spans": [
+   "Komputer baru lebih cepat."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|23": {
+  "source_text": "perlahan — slow · 遅い（速度）  [L-0287]",
+  "target_spans": [
+   "perlahan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|24": {
+  "source_text": "   e.g. Komputer saya perlahan.",
+  "target_spans": [
+   "Komputer saya perlahan."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|25": {
+  "source_text": "selesa — comfortable · 快適  [L-0288]",
+  "target_spans": [
+   "selesa"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|26": {
+  "source_text": "   e.g. Katil ini selesa.",
+  "target_spans": [
+   "Katil ini selesa."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|27": {
+  "source_text": "ramai — crowded, many (people) · 混んでいる・人が多い  [L-0289]",
+  "target_spans": [
+   "ramai"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|28": {
+  "source_text": "   e.g. Pasar hari Sabtu ramai.",
+  "target_spans": [
+   "Pasar hari Sabtu ramai."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|29": {
+  "source_text": "sunyi — quiet · 静か  [L-0290]",
+  "target_spans": [
+   "sunyi"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|4|30": {
+  "source_text": "   e.g. Pantai hari Isnin sunyi.",
+  "target_spans": [
+   "Pantai hari Isnin sunyi."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|0": {
+  "source_text": "bising — noisy · うるさい  [L-0291]",
+  "target_spans": [
+   "bising"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|1": {
+  "source_text": "   e.g. Kafe itu bising.",
+  "target_spans": [
+   "Kafe itu bising."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|2": {
+  "source_text": "bersih — clean · きれい（清潔）  [L-0292]",
+  "target_spans": [
+   "bersih"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|3": {
+  "source_text": "   e.g. Dapur kondo A bersih.",
+  "target_spans": [
+   "Dapur kondo A bersih."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|4": {
+  "source_text": "kotor — dirty · 汚い  [L-0293]",
+  "target_spans": [
+   "kotor"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|5": {
+  "source_text": "   e.g. Bilik air kondo itu kotor.",
+  "target_spans": [
+   "Bilik air kondo itu kotor."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|6": {
+  "source_text": "■ Core words · Places · 学習する",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|5|7": {
+  "source_text": "kondo — condominium · マンション  [L-0294]",
+  "target_spans": [
+   "kondo"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|8": {
+  "source_text": "   e.g. Saya tinggal di kondo.",
+  "target_spans": [
+   "Saya tinggal di kondo."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|9": {
+  "source_text": "stesen — station · 駅  [L-0295]",
+  "target_spans": [
+   "stesen"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|10": {
+  "source_text": "   e.g. Stesen pagi ini ramai.",
+  "target_spans": [
+   "Stesen pagi ini ramai."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|11": {
+  "source_text": "■ Dunia · To recognise · 聞いて分かる",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|5|12": {
+  "source_text": "■ Dunia · To recognise · \"Main badminton\" · 聞いて分かればよい",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|5|13": {
+  "source_text": "raket — racket · ラケット  [L-0969]",
+  "target_spans": [
+   "raket"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|14": {
+  "source_text": "   e.g. Raket saya baru dan ringan.",
+  "target_spans": [
+   "Raket saya baru dan ringan."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|15": {
+  "source_text": "gelanggang — court (for sport) · コート（競技場）  [L-0970]",
+  "target_spans": [
+   "gelanggang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|16": {
+  "source_text": "   e.g. Gelanggang ini besar dan bersih.",
+  "target_spans": [
+   "Gelanggang ini besar dan bersih."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|17": {
+  "source_text": "skor — score · 点数・スコア  [L-0971]",
+  "target_spans": [
+   "skor"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|18": {
+  "source_text": "   e.g. Skor kita sama!",
+  "target_spans": [
+   "Skor kita sama!"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|19": {
+  "source_text": "lompat — to jump · 跳ぶ  [L-0972]",
+  "target_spans": [
+   "lompat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|20": {
+  "source_text": "   e.g. Dia lompat tinggi!",
+  "target_spans": [
+   "Dia lompat tinggi!"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|21": {
+  "source_text": "kalah — to lose (a game) · 負ける  [L-0973]",
+  "target_spans": [
+   "kalah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|22": {
+  "source_text": "   e.g. Hari ini kami kalah.",
+  "target_spans": [
+   "Hari ini kami kalah."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|23": {
+  "source_text": "juara — champion · 優勝者・チャンピオン  [L-0974]",
+  "target_spans": [
+   "juara"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|24": {
+  "source_text": "   e.g. Dia juara badminton.",
+  "target_spans": [
+   "Dia juara badminton."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|25": {
+  "source_text": "peluh — sweat · 汗  [L-0975]",
+  "target_spans": [
+   "peluh"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|26": {
+  "source_text": "   e.g. Peluh saya banyak, sebab hari ini panas.",
+  "target_spans": [
+   "Peluh saya banyak, sebab hari ini panas."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|27": {
+  "source_text": "tangan — hand · 手  [L-0976]",
+  "target_spans": [
+   "tangan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|28": {
+  "source_text": "   e.g. Tangan saya penat.",
+  "target_spans": [
+   "Tangan saya penat."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|29": {
+  "source_text": "lengan — arm · 腕  [L-0977]",
+  "target_spans": [
+   "lengan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|5|30": {
+  "source_text": "   e.g. Lengan dia panjang.",
+  "target_spans": [
+   "Lengan dia panjang."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|0": {
+  "source_text": "bahu — shoulder · 肩  [L-0978]",
+  "target_spans": [
+   "bahu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|1": {
+  "source_text": "   e.g. Bahu saya sakit.",
+  "target_spans": [
+   "Bahu saya sakit."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|2": {
+  "source_text": "siku — elbow · ひじ  [L-0979]",
+  "target_spans": [
+   "siku"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|3": {
+  "source_text": "   e.g. Siku saya tidak sakit hari ini.",
+  "target_spans": [
+   "Siku saya tidak sakit hari ini."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|4": {
+  "source_text": "lutut — knee · ひざ  [L-0980]",
+  "target_spans": [
+   "lutut"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|5": {
+  "source_text": "   e.g. Lutut saya masih sakit.",
+  "target_spans": [
+   "Lutut saya masih sakit."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|6": {
+  "source_text": "pinggang — waist, lower back · 腰  [L-0981]",
+  "target_spans": [
+   "pinggang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|7": {
+  "source_text": "   e.g. Pinggang saya sakit selepas main.",
+  "target_spans": [
+   "Pinggang saya sakit selepas main."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|8": {
+  "source_text": "menang — to win (kalah is the opposite: to lose) · 勝つ（反対は kalah）  [L-0982]",
+  "target_spans": [
+   "menang",
+   "kalah",
+   "kalah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|9": {
+  "source_text": "   e.g. Kawan saya menang hari ini.",
+  "target_spans": [
+   "Kawan saya menang hari ini."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|10": {
+  "source_text": "■ Revision · 復習 (not new, not tested as new vocabulary)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|6|11": {
+  "source_text": "■ Revision · 復習 · Chapter 4 · a new meaning in chapter 6",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|6|12": {
+  "source_text": "baru — new (chapter 6); just (chapter 4: baru sampai) · 〜したばかり；新しい  [L-0195]",
+  "target_spans": [
+   "baru",
+   "baru sampai"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|13": {
+  "source_text": "   e.g. Kondo D baru. (new; in chapter 4: just, Saya baru sampai.)",
+  "target_spans": [
+   "Kondo D baru.",
+   "Saya baru sampai."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|14": {
+  "source_text": "sekali — very, after an adjective (chapter 6); once (chapter 4) · とても（形容詞のあと、第6章）；一回（第4章）  [L-0188]",
+  "target_spans": [
+   "sekali"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|15": {
+  "source_text": "   e.g. Cantik sekali! (very, after an adjective; in chapter 4: seminggu sekali, once a week)",
+  "target_spans": [
+   "Cantik sekali!",
+   "seminggu sekali"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|16": {
+  "source_text": "■ Revision · 復習 · Chapter 5 · adjectives and linking words that return",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|6|17": {
+  "source_text": "besar — big · 大きい  [L-0237]",
+  "target_spans": [
+   "besar"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|18": {
+  "source_text": "   e.g. Kondo A besar.",
+  "target_spans": [
+   "Kondo A besar."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|19": {
+  "source_text": "kecil — small · 小さい  [L-0238]",
+  "target_spans": [
+   "kecil"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|20": {
+  "source_text": "   e.g. Kondo C kecil.",
+  "target_spans": [
+   "Kondo C kecil."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|21": {
+  "source_text": "panas — hot · 熱い・暑い  [L-0256]",
+  "target_spans": [
+   "panas"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|22": {
+  "source_text": "   e.g. Hari ini panas.",
+  "target_spans": [
+   "Hari ini panas."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|23": {
+  "source_text": "sejuk — cold · 冷たい・寒い  [L-0257]",
+  "target_spans": [
+   "sejuk"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|24": {
+  "source_text": "   e.g. Air ini sejuk.",
+  "target_spans": [
+   "Air ini sejuk."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|25": {
+  "source_text": "manis — sweet · 甘い  [L-0218]",
+  "target_spans": [
+   "manis"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|26": {
+  "source_text": "   e.g. Teh ini manis.",
+  "target_spans": [
+   "Teh ini manis."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|27": {
+  "source_text": "pahit — bitter · 苦い  [L-0222]",
+  "target_spans": [
+   "pahit"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|28": {
+  "source_text": "   e.g. Kopi ini pahit.",
+  "target_spans": [
+   "Kopi ini pahit."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|6|29": {
+  "source_text": "pedas — spicy (chilli hot) · 辛い  [L-0221]",
+  "target_spans": [
+   "pedas"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|0": {
+  "source_text": "   e.g. Mi goreng ini pedas.",
+  "target_spans": [
+   "Mi goreng ini pedas."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|1": {
+  "source_text": "sedap — delicious · おいしい  [L-0223]",
+  "target_spans": [
+   "sedap"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|2": {
+  "source_text": "   e.g. Mi goreng ini sedap!",
+  "target_spans": [
+   "Mi goreng ini sedap!"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|3": {
+  "source_text": "penat — tired · 疲れた  [L-0249]",
+  "target_spans": [
+   "penat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|4": {
+  "source_text": "   e.g. Saya penat hari ini.",
+  "target_spans": [
+   "Saya penat hari ini."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|5": {
+  "source_text": "tetapi / tapi (spoken) — but (spoken tapi) · でも  [L-0215]",
+  "target_spans": [
+   "tetapi",
+   "tapi",
+   "tapi"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|6": {
+  "source_text": "   e.g. Kondo C murah, tetapi kecil.",
+  "target_spans": [
+   "Kondo C murah, tetapi kecil."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|7": {
+  "source_text": "yang — the one that is; which · 〜の（もの）・〜な  [L-0212]",
+  "target_spans": [
+   "yang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|8": {
+  "source_text": "   e.g. Saya mahu yang biru.",
+  "target_spans": [
+   "Saya mahu yang biru."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|9": {
+  "source_text": "atau — or · または  [L-0214]",
+  "target_spans": [
+   "atau"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|10": {
+  "source_text": "   e.g. Kondo A atau kondo B?",
+  "target_spans": [
+   "Kondo A atau kondo B?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|11": {
+  "source_text": "sebab — because; the reason (an answer to kenapa) · 理由、〜なので  [L-0688]",
+  "target_spans": [
+   "sebab",
+   "kenapa"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|12": {
+  "source_text": "   e.g. Kenapa lambat? Sebab hujan.",
+  "target_spans": [
+   "Kenapa lambat?",
+   "Sebab hujan."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|13": {
+  "source_text": "kenapa — why (same as mengapa and apa sebab) · なぜ・どうして  [L-1009]",
+  "target_spans": [
+   "kenapa",
+   "mengapa",
+   "apa sebab"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|14": {
+  "source_text": "   e.g. Kenapa encik tidak suka kondo C?",
+  "target_spans": [
+   "Kenapa encik tidak suka kondo C?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|15": {
+  "source_text": "■ Revision · 復習 · Chapters 1 to 3",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|7|16": {
+  "source_text": "mahal — expensive · 高い（値段）  [L-0121]",
+  "target_spans": [
+   "mahal"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|17": {
+  "source_text": "   e.g. Kondo A mahal.",
+  "target_spans": [
+   "Kondo A mahal."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|18": {
+  "source_text": "murah — cheap · 安い  [L-0122]",
+  "target_spans": [
+   "murah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|19": {
+  "source_text": "   e.g. Kondo C murah.",
+  "target_spans": [
+   "Kondo C murah."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|20": {
+  "source_text": "tinggi — tall, high · 高い（背・高さ）  [L-0144]",
+  "target_spans": [
+   "tinggi"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|21": {
+  "source_text": "   e.g. Bos saya tinggi.",
+  "target_spans": [
+   "Bos saya tinggi."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|22": {
+  "source_text": "panjang — long · 長い  [L-0146]",
+  "target_spans": [
+   "panjang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|23": {
+  "source_text": "   e.g. Surat itu panjang.",
+  "target_spans": [
+   "Surat itu panjang."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|24": {
+  "source_text": "berat — heavy; weight · 重い・重さ  [L-0145]",
+  "target_spans": [
+   "berat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|25": {
+  "source_text": "   e.g. Bungkusan ini berat.",
+  "target_spans": [
+   "Bungkusan ini berat."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|26": {
+  "source_text": "harga — price · 値段  [L-0117]",
+  "target_spans": [
+   "harga"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|27": {
+  "source_text": "   e.g. Harga kondo D tiga ribu dua ratus ringgit.",
+  "target_spans": [
+   "Harga kondo D tiga ribu dua ratus ringgit."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|28": {
+  "source_text": "tinggal — to live (reside); to stay · 住む  [L-0071]",
+  "target_spans": [
+   "tinggal"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|29": {
+  "source_text": "   e.g. Saya tinggal di Mont Kiara.",
+  "target_spans": [
+   "Saya tinggal di Mont Kiara."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|7|30": {
+  "source_text": "pejabat — office · 事務所・オフィス  [L-0064]",
+  "target_spans": [
+   "pejabat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|8|0": {
+  "source_text": "   e.g. Pejabat saya di Mont Kiara.",
+  "target_spans": [
+   "Pejabat saya di Mont Kiara."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|8|1": {
+  "source_text": "badminton — the shuttlecock sport · バドミントン  [L-0968]",
+  "target_spans": [
+   "badminton"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|8|2": {
+  "source_text": "   e.g. Saya main badminton setiap hari Sabtu.",
+  "target_spans": [
+   "Saya main badminton setiap hari Sabtu."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 6 · Vocabulary focus|9|0": {
+  "source_text": "32 new core entries, 14 Dunia recognition entries and 25 revision entries.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|9|1": {
+  "source_text": "Dunia words are for recognition in Block E. The unit test never treats them as new vocabulary.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|9|2": {
+  "source_text": "Revision words were taught earlier; they are listed so learners can see them reused, not counted as new.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Vocabulary focus|9|3": {
+  "source_text": "A slash variant under one ledger ID counts as one entry; spoken forms are marked \"spoken\".",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Pattern and grammar focus|0|0": {
+  "source_text": "まず質問と答えを声に出して練習し、そのあとで説明を読みます。日本語との比較は未監修です。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Pattern and grammar focus|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Pattern and grammar focus|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Pattern and grammar focus|2|0": {
+  "source_text": "Practise the questions and answers aloud first, then read the explanation.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Pattern and grammar focus|3|0": {
+  "source_text": "Pattern box: (A) lebih (adjective) daripada (B). / (A) kurang (adjective) daripada (B).",
+  "target_spans": [
+   "lebih",
+   "daripada",
+   "kurang",
+   "daripada"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|1": {
+  "source_text": "1. A: Kondo A lebih besar daripada kondo B? B: Ya, kondo A lebih besar.",
+  "target_spans": [
+   "Kondo A lebih besar daripada kondo B?",
+   "Ya, kondo A lebih besar."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|2": {
+  "source_text": "2. A: Kondo A atau kondo B lebih mahal? B: Kondo A lebih mahal daripada kondo B.",
+  "target_spans": [
+   "Kondo A atau kondo B lebih mahal?",
+   "Kondo A lebih mahal daripada kondo B."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|3": {
+  "source_text": "3. A: Teh ini lebih manis daripada kopi itu? B: Tidak, teh ini kurang manis.",
+  "target_spans": [
+   "Teh ini lebih manis daripada kopi itu?",
+   "Tidak, teh ini kurang manis."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|4": {
+  "source_text": "4. A: Komputer baru lebih cepat daripada komputer lama? B: Ya, lebih cepat sedikit.",
+  "target_spans": [
+   "Komputer baru lebih cepat daripada komputer lama?",
+   "Ya, lebih cepat sedikit."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|5": {
+  "source_text": "5. A: Hari ini lebih panas daripada semalam? B: Ya, semalam hujan.",
+  "target_spans": [
+   "Hari ini lebih panas daripada semalam?",
+   "Ya, semalam hujan."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|6": {
+  "source_text": "6. A: Soalan ini kurang susah daripada soalan semalam? B: Ya, soalan ini lebih mudah.",
+  "target_spans": [
+   "Soalan ini kurang susah daripada soalan semalam?",
+   "Ya, soalan ini lebih mudah."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|7": {
+  "source_text": "Explanation: lebih goes before the adjective and means \"more\" or \"-er\": lebih besar. daripada introduces the thing you compare with: lebih besar daripada kondo B. When both people know the other thing you can leave daripada out: Kondo B lebih murah. kurang before an adjective means \"less\" or \"not so\": kurang besar. The adjective itself never changes. sedikit after the adjective makes the difference small: lebih cepat sedikit.",
+  "target_spans": [
+   "lebih",
+   "lebih besar",
+   "daripada",
+   "lebih besar daripada kondo B",
+   "daripada",
+   "Kondo B lebih murah.",
+   "kurang",
+   "kurang besar",
+   "sedikit",
+   "lebih cepat sedikit"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|8": {
+  "source_text": "説明：lebih は形容詞の前に置き「もっと」「〜より」の意味です：lebih besar。daripada は比べる相手を導きます：lebih besar daripada kondo B。相手が分かっていれば daripada は省けます：Kondo B lebih murah. 形容詞の前の kurang は「より少ない・あまり〜ない」：kurang besar。形容詞の形は変わりません。形容詞のあとに sedikit を付けると、差が小さいことを表します：lebih cepat sedikit。",
+  "target_spans": [
+   "lebih",
+   "lebih besar",
+   "daripada",
+   "lebih besar daripada kondo B",
+   "daripada",
+   "Kondo B lebih murah.",
+   "kurang",
+   "kurang besar",
+   "sedikit",
+   "lebih cepat sedikit"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|9": {
+  "source_text": "Japanese helps or misleads: Japanese puts the standard first (Bより大きい). Malay puts it last: A lebih besar daripada B. Japanese adjectives change form (大きい / 大きくない), Malay adjectives never do; lebih and kurang are separate words in front.",
+  "target_spans": [
+   "lebih besar daripada",
+   "lebih",
+   "kurang"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|10": {
+  "source_text": "日本語との比較：日本語は比べる相手を先に言います（Bより大きい）。マレー語は最後です：A lebih besar daripada B。日本語の形容詞は形が変わります（大きい／大きくない）が、マレー語の形容詞は変わらず、lebih と kurang は前に置く別の語です。",
+  "target_spans": [
+   "lebih besar daripada",
+   "lebih",
+   "kurang"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|11": {
+  "source_text": "■ Pattern 2 · ms-c06-f03",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Pattern and grammar focus|3|12": {
+  "source_text": "Pattern box: (A) sama (adjective) dengan (B). / (A) setinggi (B). / (A) semahal (B).",
+  "target_spans": [
+   "sama",
+   "dengan",
+   "setinggi",
+   "semahal"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|13": {
+  "source_text": "1. A: Kondo D semahal kondo A? B: Ya, harga kondo D dan kondo A sama.",
+  "target_spans": [
+   "Kondo D semahal kondo A?",
+   "Ya, harga kondo D dan kondo A sama."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|14": {
+  "source_text": "2. A: Anak encik sudah setinggi encik? B: Ya, sekarang dia setinggi saya.",
+  "target_spans": [
+   "Anak encik sudah setinggi encik?",
+   "Ya, sekarang dia setinggi saya."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|15": {
+  "source_text": "3. A: Kondo B sama besar dengan kondo C? B: Tidak, kondo C lebih kecil.",
+  "target_spans": [
+   "Kondo B sama besar dengan kondo C?",
+   "Tidak, kondo C lebih kecil."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|16": {
+  "source_text": "4. A: Pisang hari ini semahal mangga? B: Ya, harga pisang dan mangga sama.",
+  "target_spans": [
+   "Pisang hari ini semahal mangga?",
+   "Ya, harga pisang dan mangga sama."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|17": {
+  "source_text": "5. A: Bilik air ini sama bersih dengan bilik air itu? B: Tidak, bilik air itu lebih bersih.",
+  "target_spans": [
+   "Bilik air ini sama bersih dengan bilik air itu?",
+   "Tidak, bilik air itu lebih bersih."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|3|18": {
+  "source_text": "6. A: Kopi ini sama pahit dengan kopi itu? B: Ya, sama pahit.",
+  "target_spans": [
+   "Kopi ini sama pahit dengan kopi itu?",
+   "Ya, sama pahit."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|0": {
+  "source_text": "Explanation: sama + adjective + dengan says two things are equal, as … as: sama besar dengan kondo C. The adjective sits between sama and dengan. setinggi (as tall as) and semahal (as expensive as) are single ledger words: learn them as whole words. For every other adjective use sama … dengan. Building new words like these is a later chapter, so do not make new ones yet.",
+  "target_spans": [
+   "sama",
+   "dengan",
+   "sama besar dengan kondo C",
+   "sama",
+   "dengan",
+   "setinggi",
+   "semahal",
+   "sama … dengan"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|1": {
+  "source_text": "説明：sama + 形容詞 + dengan は「〜と同じくらい〜」です：sama besar dengan kondo C。形容詞は sama と dengan の間に入ります。setinggi（同じくらい高い）と semahal（同じくらい高価）は台帳の一語なので、そのまま覚えます。ほかの形容詞には sama … dengan を使います。この形の新しい語を作るのはあとの章なので、まだ作りません。",
+  "target_spans": [
+   "sama",
+   "dengan",
+   "sama besar dengan kondo C",
+   "sama",
+   "dengan",
+   "setinggi",
+   "semahal",
+   "sama … dengan"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|2": {
+  "source_text": "Japanese helps or misleads: Japanese says Bと同じくらい高い: dengan (と) comes last in Malay, after the adjective: sama tinggi dengan B. The whole words setinggi and semahal need no dengan and no sama.",
+  "target_spans": [
+   "dengan",
+   "sama tinggi dengan",
+   "setinggi",
+   "semahal",
+   "dengan",
+   "sama"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|3": {
+  "source_text": "日本語との比較：日本語は「Bと同じくらい高い」と言います。マレー語の dengan（と）は最後で、形容詞のあとです：sama tinggi dengan B。setinggi と semahal は一語で、sama も dengan も要りません。",
+  "target_spans": [
+   "dengan",
+   "sama tinggi dengan",
+   "setinggi",
+   "semahal",
+   "sama",
+   "dengan"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|4": {
+  "source_text": "■ Pattern 3 · ms-c06-f04",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Pattern and grammar focus|4|5": {
+  "source_text": "Pattern box: (A) paling (adjective). / (A) termurah / terbesar / terbaik / tercantik.",
+  "target_spans": [
+   "paling",
+   "termurah",
+   "terbesar",
+   "terbaik",
+   "tercantik"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|6": {
+  "source_text": "1. A: Siapa paling tinggi di pejabat? B: Bos saya paling tinggi.",
+  "target_spans": [
+   "Siapa paling tinggi di pejabat?",
+   "Bos saya paling tinggi."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|7": {
+  "source_text": "2. A: Kondo C paling murah? B: Ya, kondo C termurah.",
+  "target_spans": [
+   "Kondo C paling murah?",
+   "Ya, kondo C termurah."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|8": {
+  "source_text": "3. A: Kondo A paling besar? B: Ya, kondo A terbesar.",
+  "target_spans": [
+   "Kondo A paling besar?",
+   "Ya, kondo A terbesar."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|9": {
+  "source_text": "4. A: Kondo D terbaik? B: Ya, kondo D yang terbaik.",
+  "target_spans": [
+   "Kondo D terbaik?",
+   "Ya, kondo D yang terbaik."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|10": {
+  "source_text": "5. A: Pantai di pulau itu cantik? B: Cantik sekali! Itu pantai yang tercantik.",
+  "target_spans": [
+   "Pantai di pulau itu cantik?",
+   "Cantik sekali! Itu pantai yang tercantik."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|11": {
+  "source_text": "6. A: Bila stesen paling ramai? B: Pukul lapan pagi stesen paling ramai.",
+  "target_spans": [
+   "Bila stesen paling ramai?",
+   "Pukul lapan pagi stesen paling ramai."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|12": {
+  "source_text": "Explanation: paling before any adjective means \"the most\": paling murah, paling ramai. Four ledger words say the same in one word: termurah (cheapest), terbesar (biggest), terbaik (best), tercantik (most beautiful). Learn these four as whole words. paling is the way to make the rest. yang terbaik means \"the best one\".",
+  "target_spans": [
+   "paling",
+   "paling murah",
+   "paling ramai",
+   "termurah",
+   "terbesar",
+   "terbaik",
+   "tercantik",
+   "paling",
+   "yang terbaik"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|13": {
+  "source_text": "説明：paling は形容詞の前に付いて「一番〜」の意味です：paling murah、paling ramai。台帳には一語で同じ意味の語が四つあります：termurah（一番安い）、terbesar（一番大きい）、terbaik（一番良い）、tercantik（一番きれい）。この四つは一語としてそのまま覚えます。ほかは paling で作ります。yang terbaik は「一番良いもの」です。",
+  "target_spans": [
+   "paling",
+   "paling murah",
+   "paling ramai",
+   "termurah",
+   "terbesar",
+   "terbaik",
+   "tercantik",
+   "paling",
+   "yang terbaik"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|4|14": {
+  "source_text": "Japanese helps or misleads: Japanese 一番 is also a word in front of the adjective (一番安い = paling murah), so the order matches. termurah is one word, like 最安.",
+  "target_spans": [
+   "paling murah",
+   "termurah"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|0": {
+  "source_text": "日本語との比較：日本語の「一番」も形容詞の前に来るので、語順は同じです（一番安い＝paling murah）。termurah は「最安」のような一語です。",
+  "target_spans": [
+   "paling murah",
+   "termurah"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|1": {
+  "source_text": "■ Pattern 4 · ms-c06-f05",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Pattern and grammar focus|5|2": {
+  "source_text": "Pattern box: Yang mana (lebih) ___ ? / (noun) yang mana? / Saya pilih yang ___ .",
+  "target_spans": [
+   "Yang mana",
+   "lebih",
+   "yang mana",
+   "Saya pilih",
+   "yang"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|3": {
+  "source_text": "1. A: Yang mana lebih selesa? B: Kondo D lebih selesa.",
+  "target_spans": [
+   "Yang mana lebih selesa?",
+   "Kondo D lebih selesa."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|4": {
+  "source_text": "2. A: Encik suka kondo yang mana? B: Saya suka kondo yang baru.",
+  "target_spans": [
+   "Encik suka kondo yang mana?",
+   "Saya suka kondo yang baru."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|5": {
+  "source_text": "3. A: Yang mana encik pilih? B: Saya pilih yang ini.",
+  "target_spans": [
+   "Yang mana encik pilih?",
+   "Saya pilih yang ini."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|6": {
+  "source_text": "4. A: Teh tarik atau kopi O, yang mana lebih manis? B: Teh tarik lebih manis.",
+  "target_spans": [
+   "Teh tarik atau kopi O, yang mana lebih manis?",
+   "Teh tarik lebih manis."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|7": {
+  "source_text": "5. A: Komputer yang mana lebih cepat? B: Yang baru.",
+  "target_spans": [
+   "Komputer yang mana lebih cepat?",
+   "Yang baru."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|8": {
+  "source_text": "6. A: Yang mana paling murah? B: Yang itu paling murah.",
+  "target_spans": [
+   "Yang mana paling murah?",
+   "Yang itu paling murah."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|9": {
+  "source_text": "Explanation: yang mana means \"which one\" and stands where the answer will stand: Yang mana lebih selesa? Kondo D. After a noun it means \"which …\": kondo yang mana. pilih is \"to choose\": Saya pilih yang ini. lain means \"other\": Ada kondo lain? yang ini is \"this one\", yang itu is \"that one\".",
+  "target_spans": [
+   "yang mana",
+   "Yang mana lebih selesa?",
+   "Kondo D.",
+   "kondo yang mana",
+   "pilih",
+   "Saya pilih yang ini.",
+   "lain",
+   "Ada kondo lain?",
+   "yang ini",
+   "yang itu"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|10": {
+  "source_text": "説明：yang mana は「どれ」で、答えが入る位置に置きます：Yang mana lebih selesa? Kondo D. 名詞のあとでは「どの〜」：kondo yang mana。pilih は「選ぶ」：Saya pilih yang ini. lain は「他の」：Ada kondo lain? yang ini は「これ」、yang itu は「それ」です。",
+  "target_spans": [
+   "yang mana",
+   "Yang mana lebih selesa?",
+   "Kondo D.",
+   "kondo yang mana",
+   "pilih",
+   "Saya pilih yang ini.",
+   "lain",
+   "Ada kondo lain?",
+   "yang ini",
+   "yang itu"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|11": {
+  "source_text": "Japanese helps or misleads: Japanese separates どれ (three or more) from どちら (two); Malay uses yang mana for both. pilih is one plain verb, like 選ぶ.",
+  "target_spans": [
+   "yang mana",
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|12": {
+  "source_text": "日本語との比較：日本語はどれ（3つ以上）とどちら（2つ）を使い分けますが、マレー語はどちらも yang mana です。pilih は「選ぶ」にあたる普通の動詞です。",
+  "target_spans": [
+   "yang mana",
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|13": {
+  "source_text": "■ Pattern 5 · ms-c06-f06",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Pattern and grammar focus|5|14": {
+  "source_text": "Pattern box: (noun) sangat / amat / terlalu (adjective). / (adjective) sekali.",
+  "target_spans": [
+   "sangat",
+   "amat",
+   "terlalu",
+   "sekali"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|15": {
+  "source_text": "1. A: Kondo ini selesa? B: Ya, sangat selesa.",
+  "target_spans": [
+   "Kondo ini selesa?",
+   "Ya, sangat selesa."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|16": {
+  "source_text": "2. A: Kafe itu bising? B: Ya, bising sekali.",
+  "target_spans": [
+   "Kafe itu bising?",
+   "Ya, bising sekali."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|17": {
+  "source_text": "3. A: Mi goreng ini pedas? B: Terlalu pedas untuk saya.",
+  "target_spans": [
+   "Mi goreng ini pedas?",
+   "Terlalu pedas untuk saya."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|18": {
+  "source_text": "4. A: Bagaimana pantai itu? B: Cantik sekali!",
+  "target_spans": [
+   "Bagaimana pantai itu?",
+   "Cantik sekali!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|19": {
+  "source_text": "5. A: Encik suka kondo C? B: Tidak. Kondo C terlalu kecil.",
+  "target_spans": [
+   "Encik suka kondo C?",
+   "Tidak. Kondo C terlalu kecil."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|20": {
+  "source_text": "6. A: Bagaimana pejabat baru? B: Pejabat baru amat selesa.",
+  "target_spans": [
+   "Bagaimana pejabat baru?",
+   "Pejabat baru amat selesa."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|5|21": {
+  "source_text": "Explanation: sangat goes before an adjective and means \"very\": sangat selesa. sekali goes after it and means the same: bising sekali. amat is also \"very\", but formal. terlalu means \"too\": more than is good. Compare sangat panas (very hot) with terlalu panas (too hot to enjoy).",
+  "target_spans": [
+   "sangat",
+   "sangat selesa",
+   "sekali",
+   "bising sekali",
+   "amat",
+   "terlalu",
+   "sangat panas",
+   "terlalu panas"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|6|0": {
+  "source_text": "説明：sangat は形容詞の前に置き「とても」：sangat selesa。sekali は形容詞のあとに置いて同じ意味です：bising sekali。amat も「とても」ですが、改まった言い方です。terlalu は「〜すぎる」で、よくない程度を表します。sangat panas（とても暑い）と terlalu panas（暑すぎる）を比べましょう。",
+  "target_spans": [
+   "sangat",
+   "sangat selesa",
+   "sekali",
+   "bising sekali",
+   "amat",
+   "terlalu",
+   "sangat panas",
+   "terlalu panas"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|6|1": {
+  "source_text": "Japanese helps or misleads: 「暑すぎる」has すぎる attached to the adjective stem; in Malay terlalu is a separate word in front, and the adjective does not change: terlalu panas. とても ≈ sangat.",
+  "target_spans": [
+   "terlalu",
+   "terlalu panas",
+   "sangat"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|6|2": {
+  "source_text": "日本語との比較：「暑すぎる」は形容詞の語幹に「すぎる」が付きますが、マレー語の terlalu は前に置く別の語で、形容詞は変わりません：terlalu panas。とても ≈ sangat です。",
+  "target_spans": [
+   "terlalu",
+   "terlalu panas",
+   "sangat"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|7|0": {
+  "source_text": "Model each A line; learners answer as B, then swap. Explain the rule only after they have used the pattern.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Pattern and grammar focus|7|1": {
+  "source_text": "Pattern IDs are the Kata-Kata chapter 6 frames (frames f01 and f02 share pattern 1). Explanations and Japanese comparisons are drafts.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Pattern and grammar focus|7|2": {
+  "source_text": "Pattern 1 covers Kata-Kata frames f01 and f02 together; if a learner puts daripada before the adjective, model lebih besar daripada kondo B again and tap the order.",
+  "target_spans": [
+   "daripada",
+   "lebih besar daripada kondo B"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|7|3": {
+  "source_text": "Pattern 2: setinggi and semahal are whole words. If a learner invents another word of this kind, say it is understood but ask for sama besar dengan instead; the building rule comes later.",
+  "target_spans": [
+   "setinggi",
+   "semahal",
+   "sama besar dengan"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|7|4": {
+  "source_text": "Pattern 3: paling murah and termurah mean the same. Accept either; only the four ledger words are taught as whole words.",
+  "target_spans": [
+   "paling murah",
+   "termurah"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|7|5": {
+  "source_text": "Pattern 4: yang mana stands where the answer will stand; learners answer with the noun or with yang ini / yang itu.",
+  "target_spans": [
+   "yang mana",
+   "yang ini",
+   "yang itu"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Pattern and grammar focus|7|6": {
+  "source_text": "Pattern 5: terlalu is the one that carries a complaint; sangat does not. Ask: \"Is it good or a problem?\"",
+  "target_spans": [
+   "terlalu",
+   "sangat"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 1 · Pattern table|0|0": {
+  "source_text": "番号順に口で練習し、ペアで役を交代します。答えは先生用キーにあります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 1 · Pattern table|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 1 · Pattern table|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 1 · Pattern table|2|0": {
+  "source_text": "Practise aloud in numbered order and swap roles. Answers are in the teacher key.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 1 · Pattern table|3|0": {
+  "source_text": "Read every combination aloud, then cover the line and say it again. / すべての組み合わせを声に出して読み、次に隠して言います。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 1 · Pattern table|3|1": {
+  "source_text": "■ Practice · 練習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 1 · Pattern table|3|2": {
+  "source_text": "Frame: Kondo [A / B / C / D] [lebih / kurang] [besar / mahal / sunyi / bersih] daripada kondo [B / A / C / D]",
+  "target_spans": [
+   "Kondo",
+   "lebih",
+   "kurang",
+   "besar",
+   "mahal",
+   "sunyi",
+   "bersih",
+   "daripada",
+   "kondo"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 1 · Pattern table|3|3": {
+  "source_text": "1. Kondo A lebih besar daripada kondo B.",
+  "target_spans": [
+   "Kondo A lebih besar daripada kondo B."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 1 · Pattern table|3|4": {
+  "source_text": "2. Kondo A lebih mahal daripada kondo B.",
+  "target_spans": [
+   "Kondo A lebih mahal daripada kondo B."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 1 · Pattern table|3|5": {
+  "source_text": "3. Kondo B kurang besar daripada kondo A.",
+  "target_spans": [
+   "Kondo B kurang besar daripada kondo A."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 1 · Pattern table|3|6": {
+  "source_text": "4. Kondo B kurang mahal daripada kondo A.",
+  "target_spans": [
+   "Kondo B kurang mahal daripada kondo A."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 1 · Pattern table|3|7": {
+  "source_text": "5. Kondo D lebih sunyi daripada kondo C.",
+  "target_spans": [
+   "Kondo D lebih sunyi daripada kondo C."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 1 · Pattern table|3|8": {
+  "source_text": "6. Kondo D lebih bersih daripada kondo C.",
+  "target_spans": [
+   "Kondo D lebih bersih daripada kondo C."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 1 · Pattern table|3|9": {
+  "source_text": "7. Kondo C kurang sunyi daripada kondo D.",
+  "target_spans": [
+   "Kondo C kurang sunyi daripada kondo D."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 1 · Pattern table|3|10": {
+  "source_text": "8. Kondo C kurang bersih daripada kondo D.",
+  "target_spans": [
+   "Kondo C kurang bersih daripada kondo D."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 1 · Pattern table|4|0": {
+  "source_text": "Answers in order:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 1 · Pattern table|4|1": {
+  "source_text": "Read each line twice. The adjective never changes; lebih or kurang goes before it and daripada comes after it.",
+  "target_spans": [
+   "lebih",
+   "kurang",
+   "daripada"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 1 · Pattern table|4|2": {
+  "source_text": "lebih more, kurang less, daripada than.",
+  "target_spans": [
+   "lebih",
+   "kurang",
+   "daripada"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 2 · Substitution|0|0": {
+  "source_text": "番号順に口で練習し、ペアで役を交代します。答えは先生用キーにあります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 2 · Substitution|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 2 · Substitution|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 2 · Substitution|2|0": {
+  "source_text": "Practise aloud in numbered order and swap roles. Answers are in the teacher key.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 2 · Substitution|3|0": {
+  "source_text": "Replace one part with the cue and say the whole sentence. / キューで一か所を入れ替え、文全体を言います。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 2 · Substitution|3|1": {
+  "source_text": "■ Practice · 練習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 2 · Substitution|3|2": {
+  "source_text": "1. Kondo A lebih besar daripada kondo B. (cue: mahal)",
+  "target_spans": [
+   "Kondo A lebih besar daripada kondo B.",
+   "mahal"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 2 · Substitution|3|3": {
+  "source_text": "2. Kondo A lebih mahal daripada kondo B. (cue: kurang)",
+  "target_spans": [
+   "Kondo A lebih mahal daripada kondo B.",
+   "kurang"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 2 · Substitution|3|4": {
+  "source_text": "3. Komputer baru lebih cepat daripada komputer lama. (cue: bagus)",
+  "target_spans": [
+   "Komputer baru lebih cepat daripada komputer lama.",
+   "bagus"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 2 · Substitution|3|5": {
+  "source_text": "4. Kondo D sama besar dengan kondo A. (cue: bersih)",
+  "target_spans": [
+   "Kondo D sama besar dengan kondo A.",
+   "bersih"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 2 · Substitution|3|6": {
+  "source_text": "5. Kondo C paling murah. (cue: besar)",
+  "target_spans": [
+   "Kondo C paling murah.",
+   "besar"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 2 · Substitution|3|7": {
+  "source_text": "6. Teh itu terlalu pahit. (cue: manis)",
+  "target_spans": [
+   "Teh itu terlalu pahit.",
+   "manis"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 2 · Substitution|3|8": {
+  "source_text": "7. Kondo ini sangat selesa. (cue: amat)",
+  "target_spans": [
+   "Kondo ini sangat selesa.",
+   "amat"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 2 · Substitution|3|9": {
+  "source_text": "8. Yang mana lebih murah? (cue: selesa)",
+  "target_spans": [
+   "Yang mana lebih murah?",
+   "selesa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 2 · Substitution|4|0": {
+  "source_text": "Answers in order:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 2 · Substitution|4|1": {
+  "source_text": "1 Kondo A lebih mahal daripada kondo B. 2 Kondo A kurang mahal daripada kondo B. 3 Komputer baru lebih bagus daripada komputer lama. 4 Kondo D sama bersih dengan kondo A.",
+  "target_spans": [
+   "Kondo A lebih mahal daripada kondo B.",
+   "Kondo A kurang mahal daripada kondo B.",
+   "Komputer baru lebih bagus daripada komputer lama.",
+   "Kondo D sama bersih dengan kondo A."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 2 · Substitution|4|2": {
+  "source_text": "5 Kondo C paling besar. 6 Teh itu terlalu manis. 7 Kondo ini amat selesa. 8 Yang mana lebih selesa?",
+  "target_spans": [
+   "Kondo C paling besar.",
+   "Teh itu terlalu manis.",
+   "Kondo ini amat selesa.",
+   "Yang mana lebih selesa?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 3 · Transformation|0|0": {
+  "source_text": "番号順に口で練習し、ペアで役を交代します。答えは先生用キーにあります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 3 · Transformation|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 3 · Transformation|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 3 · Transformation|2|0": {
+  "source_text": "Practise aloud in numbered order and swap roles. Answers are in the teacher key.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 3 · Transformation|3|0": {
+  "source_text": "Change the sentence as the cue says. / キューのとおりに文を変えます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 3 · Transformation|3|1": {
+  "source_text": "■ Practice · 練習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 3 · Transformation|3|2": {
+  "source_text": "1. Turn it round with kurang: Kondo A lebih besar daripada kondo B.",
+  "target_spans": [
+   "kurang",
+   "Kondo A lebih besar daripada kondo B."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 3 · Transformation|3|3": {
+  "source_text": "2. Say they are equal: Kondo D besar. Kondo A besar.",
+  "target_spans": [
+   "Kondo D besar.",
+   "Kondo A besar."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 3 · Transformation|3|4": {
+  "source_text": "3. Say it with paling: Kondo C termurah.",
+  "target_spans": [
+   "paling",
+   "Kondo C termurah."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 3 · Transformation|3|5": {
+  "source_text": "4. Say it with a whole word: Kondo A paling besar.",
+  "target_spans": [
+   "Kondo A paling besar."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 3 · Transformation|3|6": {
+  "source_text": "5. Add \"too\": Kondo C kecil.",
+  "target_spans": [
+   "Kondo C kecil."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 3 · Transformation|3|7": {
+  "source_text": "6. Make it a question with yang mana: Kondo A lebih mahal.",
+  "target_spans": [
+   "yang mana",
+   "Kondo A lebih mahal."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 3 · Transformation|3|8": {
+  "source_text": "7. Make it negative: Kondo B sama besar dengan kondo A.",
+  "target_spans": [
+   "Kondo B sama besar dengan kondo A."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 3 · Transformation|3|9": {
+  "source_text": "8. Say \"very\" after the adjective: Kondo D selesa.",
+  "target_spans": [
+   "Kondo D selesa."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 3 · Transformation|4|0": {
+  "source_text": "Answers in order:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 3 · Transformation|4|1": {
+  "source_text": "1 Kondo B kurang besar daripada kondo A. 2 Kondo D sama besar dengan kondo A. 3 Kondo C paling murah. 4 Kondo A terbesar.",
+  "target_spans": [
+   "Kondo B kurang besar daripada kondo A.",
+   "Kondo D sama besar dengan kondo A.",
+   "Kondo C paling murah.",
+   "Kondo A terbesar."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 3 · Transformation|4|2": {
+  "source_text": "5 Kondo C terlalu kecil. 6 Yang mana lebih mahal? 7 Kondo B tidak sama besar dengan kondo A. 8 Kondo D selesa sekali.",
+  "target_spans": [
+   "Kondo C terlalu kecil.",
+   "Yang mana lebih mahal?",
+   "Kondo B tidak sama besar dengan kondo A.",
+   "Kondo D selesa sekali."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 4 · Question and answer|0|0": {
+  "source_text": "番号順に口で練習し、ペアで役を交代します。答えは先生用キーにあります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 4 · Question and answer|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 4 · Question and answer|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 4 · Question and answer|2|0": {
+  "source_text": "Practise aloud in numbered order and swap roles. Answers are in the teacher key.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 4 · Question and answer|3|0": {
+  "source_text": "Items 1 to 4: answer with the cue. Items 5 to 8: you hear the answer; ask the question. / 1〜4はキューで答え、5〜8は答えに合う質問を作ります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 4 · Question and answer|3|1": {
+  "source_text": "■ Practice · 練習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 4 · Question and answer|3|2": {
+  "source_text": "1. Kondo A atau kondo B lebih mahal? (cue: A)",
+  "target_spans": [
+   "Kondo A atau kondo B lebih mahal?"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 4 · Question and answer|3|3": {
+  "source_text": "2. Yang mana paling murah? (cue: kondo C)",
+  "target_spans": [
+   "Yang mana paling murah?",
+   "kondo C"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 4 · Question and answer|3|4": {
+  "source_text": "3. Stesen sunyi pukul lapan? (cue: no, very crowded)",
+  "target_spans": [
+   "Stesen sunyi pukul lapan?"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 4 · Question and answer|3|5": {
+  "source_text": "4. Mi goreng ini pedas? (cue: too spicy)",
+  "target_spans": [
+   "Mi goreng ini pedas?"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 4 · Question and answer|3|6": {
+  "source_text": "5. You hear: Kondo D yang terbaik. Ask the question.",
+  "target_spans": [
+   "Kondo D yang terbaik."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 4 · Question and answer|3|7": {
+  "source_text": "6. You hear: Saya pilih yang ini. Ask the question.",
+  "target_spans": [
+   "Saya pilih yang ini."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 4 · Question and answer|3|8": {
+  "source_text": "7. You hear: Pukul lapan stesen paling ramai. Ask the question.",
+  "target_spans": [
+   "Pukul lapan stesen paling ramai."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 4 · Question and answer|3|9": {
+  "source_text": "8. You hear: Sebab kondo itu terlalu bising. Ask the question.",
+  "target_spans": [
+   "Sebab kondo itu terlalu bising."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 4 · Question and answer|4|0": {
+  "source_text": "Answers in order:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 4 · Question and answer|4|1": {
+  "source_text": "1 Kondo A lebih mahal. 2 Kondo C paling murah. 3 Tidak, stesen sangat ramai. 4 Ya, terlalu pedas.",
+  "target_spans": [
+   "Kondo A lebih mahal.",
+   "Kondo C paling murah.",
+   "Tidak, stesen sangat ramai.",
+   "Ya, terlalu pedas."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 4 · Question and answer|4|2": {
+  "source_text": "5 Yang mana terbaik? (or Kondo yang mana terbaik?) 6 Encik pilih yang mana? 7 Bila stesen paling ramai? 8 Kenapa encik tidak suka kondo itu?",
+  "target_spans": [
+   "Yang mana terbaik?",
+   "Kondo yang mana terbaik?",
+   "Encik pilih yang mana?",
+   "Bila stesen paling ramai?",
+   "Kenapa encik tidak suka kondo itu?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 5 · Question-word choice|0|0": {
+  "source_text": "番号順に口で練習し、ペアで役を交代します。答えは先生用キーにあります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 5 · Question-word choice|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 5 · Question-word choice|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 5 · Question-word choice|2|0": {
+  "source_text": "Practise aloud in numbered order and swap roles. Answers are in the teacher key.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 5 · Question-word choice|3|0": {
+  "source_text": "Fill the gap with a question word taught so far (chapters 1 to 6). / 第1〜6章で学んだ疑問語から選んで入れます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 5 · Question-word choice|3|1": {
+  "source_text": "■ Practice · 練習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 5 · Question-word choice|3|2": {
+  "source_text": "1. ___ lebih selesa, kondo A atau kondo D? → Kondo D.",
+  "target_spans": [
+   "___ lebih selesa, kondo A atau kondo D?",
+   "Kondo D."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 5 · Question-word choice|3|3": {
+  "source_text": "2. ___ harga kondo D? → Tiga ribu dua ratus ringgit.",
+  "target_spans": [
+   "___ harga kondo D?",
+   "Tiga ribu dua ratus ringgit."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 5 · Question-word choice|3|4": {
+  "source_text": "3. ___ encik tinggal? → Di Mont Kiara.",
+  "target_spans": [
+   "___ encik tinggal?",
+   "Di Mont Kiara."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 5 · Question-word choice|3|5": {
+  "source_text": "4. ___ stesen paling ramai? → Pukul lapan pagi.",
+  "target_spans": [
+   "___ stesen paling ramai?",
+   "Pukul lapan pagi."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 5 · Question-word choice|3|6": {
+  "source_text": "5. ___ kondo D? → Sunyi dan bersih.",
+  "target_spans": [
+   "___ kondo D?",
+   "Sunyi dan bersih."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 5 · Question-word choice|3|7": {
+  "source_text": "6. ___ encik tidak suka kondo C? → Sebab terlalu kecil.",
+  "target_spans": [
+   "___ encik tidak suka kondo C?",
+   "Sebab terlalu kecil."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 5 · Question-word choice|3|8": {
+  "source_text": "7. ___ pilih kondo D? → Encik Tanaka.",
+  "target_spans": [
+   "___ pilih kondo D?",
+   "Encik Tanaka."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 5 · Question-word choice|3|9": {
+  "source_text": "8. ___ itu? → Itu stesen.",
+  "target_spans": [
+   "___ itu?",
+   "Itu stesen."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 5 · Question-word choice|4|0": {
+  "source_text": "Answers in order:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 5 · Question-word choice|4|1": {
+  "source_text": "1 Yang mana 2 Berapa 3 Di mana 4 Bila 5 Bagaimana 6 Kenapa (also Mengapa, Apa sebab) 7 Siapa 8 Apa",
+  "target_spans": [
+   "Yang mana",
+   "Berapa",
+   "Di mana",
+   "Bila",
+   "Bagaimana",
+   "Kenapa",
+   "Mengapa",
+   "Apa sebab",
+   "Siapa",
+   "Apa"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 6 · Short dialogues|0|0": {
+  "source_text": "二行の会話を読み、自分で三行目を加えます。役を交代します。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 6 · Short dialogues|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 6 · Short dialogues|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 6 · Short dialogues|2|0": {
+  "source_text": "Read the two lines and add a third that fits. Swap roles.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 6 · Short dialogues|3|0": {
+  "source_text": "Dialogue 1 · choosing a condo",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 6 · Short dialogues|3|1": {
+  "source_text": "A: Kondo A atau kondo B lebih besar?  B: Kondo A lebih besar.  A: ____________________",
+  "target_spans": [
+   "Kondo A atau kondo B lebih besar?",
+   "Kondo A lebih besar."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 6 · Short dialogues|3|2": {
+  "source_text": "Dialogue 2 · in a cafe",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 6 · Short dialogues|3|3": {
+  "source_text": "A: Kafe ini bising, ya?  B: Ya, terlalu bising.  A: ____________________",
+  "target_spans": [
+   "Kafe ini bising, ya?",
+   "Ya, terlalu bising."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 6 · Short dialogues|3|4": {
+  "source_text": "Dialogue 3 · choosing a notebook",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 6 · Short dialogues|3|5": {
+  "source_text": "A: Encik pilih yang mana?  B: Saya pilih yang ini.  A: ____________________",
+  "target_spans": [
+   "Encik pilih yang mana?",
+   "Saya pilih yang ini."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 6 · Short dialogues|3|6": {
+  "source_text": "Dialogue 4 · at the office on Monday",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 6 · Short dialogues|3|7": {
+  "source_text": "A: Stesen pagi ini ramai?  B: Ya, sangat ramai!  A: ____________________",
+  "target_spans": [
+   "Stesen pagi ini ramai?",
+   "Ya, sangat ramai!"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 6 · Short dialogues|4|0": {
+  "source_text": "Any third line that answers B naturally is correct. Possible third lines:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Drill 6 · Short dialogues|4|1": {
+  "source_text": "1 Kondo yang mana lebih murah? 2 Kita pergi sekarang?",
+  "target_spans": [
+   "Kondo yang mana lebih murah?",
+   "Kita pergi sekarang?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Drill 6 · Short dialogues|4|2": {
+  "source_text": "3 Buku itu lebih mahal? 4 Pukul berapa kita pergi?",
+  "target_spans": [
+   "Buku itu lebih mahal?",
+   "Pukul berapa kita pergi?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|0|0": {
+  "source_text": "第4章の sudah・belum・masih・akan を、第6章の比べる言い方と組み合わせて言います。",
+  "target_spans": [
+   "sudah",
+   "belum",
+   "masih",
+   "akan"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Markers with comparisons|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Markers with comparisons|2|0": {
+  "source_text": "Combine the chapter 4 markers with comparisons: lebih and the adjective never change, only the marker does.",
+  "target_spans": [
+   "lebih"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|3|0": {
+  "source_text": "Say each sentence again with the marker or time cue in brackets. lebih and the adjective never change; only the marker does. / かっこ内のマーカーか時の言葉を付けて言い直します。lebih と形容詞は変わらず、前に付く語だけが変わります。",
+  "target_spans": [
+   "lebih",
+   "lebih"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|3|1": {
+  "source_text": "■ Say it with the marker · マーカーを付けて言う",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Markers with comparisons|3|2": {
+  "source_text": "1. Kondo A lebih mahal. (marker: masih)",
+  "target_spans": [
+   "Kondo A lebih mahal.",
+   "masih"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|3|3": {
+  "source_text": "2. Stesen ramai. (time cue: pukul lapan, marker: sudah)",
+  "target_spans": [
+   "Stesen ramai.",
+   "pukul lapan",
+   "sudah"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|3|4": {
+  "source_text": "3. Cuaca lebih panas. (time cue: esok, marker: akan)",
+  "target_spans": [
+   "Cuaca lebih panas.",
+   "esok",
+   "akan"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|3|5": {
+  "source_text": "4. Kondo ini sunyi. (marker: masih)",
+  "target_spans": [
+   "Kondo ini sunyi.",
+   "masih"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|3|6": {
+  "source_text": "5. Komputer saya lebih cepat. (time cue: semalam)",
+  "target_spans": [
+   "Komputer saya lebih cepat.",
+   "semalam"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|3|7": {
+  "source_text": "6. Kondo C kotor. (marker: masih)",
+  "target_spans": [
+   "Kondo C kotor.",
+   "masih"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|3|8": {
+  "source_text": "7. Answer Sudah pilih? (marker: belum)",
+  "target_spans": [
+   "Sudah pilih?",
+   "belum"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|3|9": {
+  "source_text": "8. Bilik air ini bersih. (time cue: nanti, marker: akan)",
+  "target_spans": [
+   "Bilik air ini bersih.",
+   "nanti",
+   "akan"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|3|10": {
+  "source_text": "■ Japanese bridge · 日本語との橋渡し",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Markers with comparisons|3|11": {
+  "source_text": "masih lebih mahal ≈ まだ高い · sudah ramai ≈ もう混んでいる · akan lebih panas ≈ もっと暑くなる · belum pilih ≈ まだ選んでいない",
+  "target_spans": [
+   "masih lebih mahal",
+   "sudah ramai",
+   "akan lebih panas",
+   "belum pilih"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|3|12": {
+  "source_text": "Japanese changes the adjective (高い / 高かった); Malay keeps mahal and changes only the marker or the time word. / 日本語は形容詞が変わりますが、マレー語は mahal のままで、前の語だけが変わります。",
+  "target_spans": [
+   "mahal",
+   "mahal"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|4|0": {
+  "source_text": "Answers in order:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Markers with comparisons|4|1": {
+  "source_text": "1 Kondo A masih lebih mahal. 2 Pukul lapan stesen sudah ramai. 3 Esok cuaca akan lebih panas. 4 Kondo ini masih sunyi.",
+  "target_spans": [
+   "Kondo A masih lebih mahal.",
+   "Pukul lapan stesen sudah ramai.",
+   "Esok cuaca akan lebih panas.",
+   "Kondo ini masih sunyi."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Markers with comparisons|4|2": {
+  "source_text": "5 Semalam komputer saya lebih cepat. 6 Kondo C masih kotor. 7 Belum. Saya belum pilih. 8 Nanti bilik air ini akan bersih.",
+  "target_spans": [
+   "Semalam komputer saya lebih cepat.",
+   "Kondo C masih kotor.",
+   "Belum. Saya belum pilih.",
+   "Nanti bilik air ini akan bersih."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|0|0": {
+  "source_text": "第1章から第6章までの疑問語をすべて使って質問します。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Cumulative question-word drill|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Cumulative question-word drill|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Cumulative question-word drill|2|0": {
+  "source_text": "Ask questions with every question word taught so far, including yang mana.",
+  "target_spans": [
+   "yang mana"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|0": {
+  "source_text": "Chapters 1 to 6: apa / siapa / di mana / Siapakah (-kah) / Apakah (-kah) / di manakah (-kah) / Adakah / Bolehkah / berapa / bila / pukul berapa / hari apa / bagaimana (spoken: macam mana) / kenapa (= mengapa, apa sebab; answer: sebab or kerana) / yang mana",
+  "target_spans": [
+   "apa",
+   "siapa",
+   "di mana",
+   "Siapakah",
+   "Apakah",
+   "di manakah",
+   "Adakah",
+   "Bolehkah",
+   "berapa",
+   "bila",
+   "pukul berapa",
+   "hari apa",
+   "bagaimana",
+   "macam mana",
+   "kenapa",
+   "mengapa",
+   "apa sebab",
+   "sebab",
+   "kerana",
+   "yang mana"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|1": {
+  "source_text": "New in chapter 6: yang mana (which one) with the verb pilih (to choose) in the answer: Yang mana encik pilih? Saya pilih yang ini. Chapter 5 added bagaimana (how; spoken macam mana) and kenapa (why; the same as mengapa and apa sebab) with the answers sebab and kerana. / 第6章で増えた疑問語：yang mana（どれ）。答えには pilih（選ぶ）を使います：Yang mana encik pilih? Saya pilih yang ini. 第5章の bagaimana（どう）と kenapa（なぜ）も引き続き使います。",
+  "target_spans": [
+   "yang mana",
+   "pilih",
+   "Yang mana encik pilih?",
+   "Saya pilih yang ini.",
+   "bagaimana",
+   "macam mana",
+   "kenapa",
+   "mengapa",
+   "apa sebab",
+   "sebab",
+   "kerana",
+   "yang mana",
+   "pilih",
+   "Yang mana encik pilih?",
+   "Saya pilih yang ini.",
+   "bagaimana",
+   "kenapa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|2": {
+  "source_text": "1. Ask a colleague how they are. (apa)",
+  "target_spans": [
+   "apa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|3": {
+  "source_text": "2. Ask who is the tallest in the office. (siapa)",
+  "target_spans": [
+   "siapa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|4": {
+  "source_text": "3. Ask where your colleague lives. (di mana)",
+  "target_spans": [
+   "di mana"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|5": {
+  "source_text": "4. Ask formally whether the condo is quiet. (Adakah)",
+  "target_spans": [
+   "Adakah"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|6": {
+  "source_text": "5. Ask politely whether you may choose the other condo. (Bolehkah)",
+  "target_spans": [
+   "Bolehkah"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|7": {
+  "source_text": "6. Ask the price of the condo. (berapa)",
+  "target_spans": [
+   "berapa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|8": {
+  "source_text": "7. Ask when the station is busiest. (bila)",
+  "target_spans": [
+   "bila"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|9": {
+  "source_text": "8. Ask what time you leave for work. (pukul berapa)",
+  "target_spans": [
+   "pukul berapa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|10": {
+  "source_text": "9. Ask what day your colleague goes to the office. (hari apa)",
+  "target_spans": [
+   "hari apa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|11": {
+  "source_text": "10. Ask how the new condo is. (bagaimana; spoken macam mana)",
+  "target_spans": [
+   "bagaimana",
+   "macam mana"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|12": {
+  "source_text": "11. Ask why a colleague does not like condo C. (kenapa; also mengapa or apa sebab; the answer starts with sebab or kerana)",
+  "target_spans": [
+   "kenapa",
+   "mengapa",
+   "apa sebab",
+   "sebab",
+   "kerana"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|3|13": {
+  "source_text": "12. Ask a friend which condo they like. (yang mana)",
+  "target_spans": [
+   "yang mana"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|4|0": {
+  "source_text": "Model questions in order:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Cumulative question-word drill|4|1": {
+  "source_text": "1 Apa khabar? 2 Siapa paling tinggi di pejabat? 3 Awak tinggal di mana? / Di manakah awak tinggal?",
+  "target_spans": [
+   "Apa khabar?",
+   "Siapa paling tinggi di pejabat?",
+   "Awak tinggal di mana?",
+   "Di manakah awak tinggal?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|4|2": {
+  "source_text": "4 Adakah kondo itu sunyi? 5 Bolehkah saya pilih kondo yang lain? 6 Berapa harga kondo itu?",
+  "target_spans": [
+   "Adakah kondo itu sunyi?",
+   "Bolehkah saya pilih kondo yang lain?",
+   "Berapa harga kondo itu?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|4|3": {
+  "source_text": "7 Bila stesen paling ramai? 8 Pukul berapa kita pergi kerja? 9 Hari apa awak pergi pejabat?",
+  "target_spans": [
+   "Bila stesen paling ramai?",
+   "Pukul berapa kita pergi kerja?",
+   "Hari apa awak pergi pejabat?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|4|4": {
+  "source_text": "10 Bagaimana kondo baru? (spoken: Macam mana kondo baru?) 11 Kenapa awak tidak suka kondo C? / Mengapa awak tidak suka kondo C? / Apa sebab awak tidak suka kondo C? Sebab terlalu bising. / Kerana terlalu bising.",
+  "target_spans": [
+   "Bagaimana kondo baru?",
+   "Macam mana kondo baru?",
+   "Kenapa awak tidak suka kondo C?",
+   "Mengapa awak tidak suka kondo C?",
+   "Apa sebab awak tidak suka kondo C?",
+   "Sebab terlalu bising.",
+   "Kerana terlalu bising."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Cumulative question-word drill|4|5": {
+  "source_text": "12 Awak suka kondo yang mana? / Kondo yang mana awak suka?",
+  "target_spans": [
+   "Awak suka kondo yang mana?",
+   "Kondo yang mana awak suka?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|0|0": {
+  "source_text": "会話を読み、空所版を埋め、条件を変えた版を台本なしで話します。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Model conversation|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Model conversation|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Model conversation|2|0": {
+  "source_text": "Read the model, fill the gaps, then perform the changed-facts version without the script.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Model conversation|3|0": {
+  "source_text": "Mei Ling: Selamat petang, Encik Tanaka. Encik suka kondo yang mana?",
+  "target_spans": [
+   "Selamat petang, Encik Tanaka. Encik suka kondo yang mana?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|1": {
+  "source_text": "Tanaka: Kondo A lebih besar daripada kondo B, tetapi kondo A lebih mahal.",
+  "target_spans": [
+   "Kondo A lebih besar daripada kondo B, tetapi kondo A lebih mahal."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|2": {
+  "source_text": "Mei Ling: Ya. Kondo B kurang besar, tetapi kondo B lebih sunyi.",
+  "target_spans": [
+   "Ya. Kondo B kurang besar, tetapi kondo B lebih sunyi."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|3": {
+  "source_text": "Tanaka: Kondo C pula?",
+  "target_spans": [
+   "Kondo C pula?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|4": {
+  "source_text": "Mei Ling: Kondo C paling murah, tetapi terlalu kecil.",
+  "target_spans": [
+   "Kondo C paling murah, tetapi terlalu kecil."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|5": {
+  "source_text": "Tanaka: Harga kondo A dan kondo D sama?",
+  "target_spans": [
+   "Harga kondo A dan kondo D sama?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|6": {
+  "source_text": "Mei Ling: Ya, kondo D semahal kondo A. Tetapi kondo D baru dan sangat selesa.",
+  "target_spans": [
+   "Ya, kondo D semahal kondo A. Tetapi kondo D baru dan sangat selesa."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|7": {
+  "source_text": "Tanaka: Kondo D bising?",
+  "target_spans": [
+   "Kondo D bising?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|8": {
+  "source_text": "Mei Ling: Tidak, encik. Kondo D sunyi dan bersih.",
+  "target_spans": [
+   "Tidak, encik. Kondo D sunyi dan bersih."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|9": {
+  "source_text": "Tanaka: Bagus sekali! Kondo D yang terbaik.",
+  "target_spans": [
+   "Bagus sekali! Kondo D yang terbaik."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|10": {
+  "source_text": "Mei Ling: Encik pilih yang mana?",
+  "target_spans": [
+   "Encik pilih yang mana?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|11": {
+  "source_text": "Tanaka: Saya pilih kondo D. Terima kasih, Cik Mei Ling!",
+  "target_spans": [
+   "Saya pilih kondo D. Terima kasih, Cik Mei Ling!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|12": {
+  "source_text": "Mei Ling: Sama-sama, Encik Tanaka.",
+  "target_spans": [
+   "Sama-sama, Encik Tanaka."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|13": {
+  "source_text": "■ Gapped form · 空所",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Model conversation|3|14": {
+  "source_text": "Mei Ling: Selamat petang, Encik Tanaka. Encik suka kondo yang mana?",
+  "target_spans": [
+   "Selamat petang, Encik Tanaka. Encik suka kondo yang mana?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|15": {
+  "source_text": "Tanaka: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Model conversation|3|16": {
+  "source_text": "Mei Ling: Ya. Kondo B kurang besar, tetapi kondo B lebih sunyi.",
+  "target_spans": [
+   "Ya. Kondo B kurang besar, tetapi kondo B lebih sunyi."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|17": {
+  "source_text": "Tanaka: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Model conversation|3|18": {
+  "source_text": "Mei Ling: Kondo C paling murah, tetapi terlalu kecil.",
+  "target_spans": [
+   "Kondo C paling murah, tetapi terlalu kecil."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|19": {
+  "source_text": "Tanaka: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Model conversation|3|20": {
+  "source_text": "Mei Ling: Ya, kondo D semahal kondo A. Tetapi kondo D baru dan sangat selesa.",
+  "target_spans": [
+   "Ya, kondo D semahal kondo A. Tetapi kondo D baru dan sangat selesa."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|21": {
+  "source_text": "Tanaka: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Model conversation|3|22": {
+  "source_text": "Mei Ling: Tidak, encik. Kondo D sunyi dan bersih.",
+  "target_spans": [
+   "Tidak, encik. Kondo D sunyi dan bersih."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|23": {
+  "source_text": "Tanaka: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Model conversation|3|24": {
+  "source_text": "Mei Ling: Encik pilih yang mana?",
+  "target_spans": [
+   "Encik pilih yang mana?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|25": {
+  "source_text": "Tanaka: Saya pilih kondo D. Terima kasih, Cik Mei Ling!",
+  "target_spans": [
+   "Saya pilih kondo D. Terima kasih, Cik Mei Ling!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|26": {
+  "source_text": "Mei Ling: Sama-sama, Encik Tanaka.",
+  "target_spans": [
+   "Sama-sama, Encik Tanaka."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|27": {
+  "source_text": "■ Changed facts variant · 情報を変更",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Model conversation|3|28": {
+  "source_text": "Mei Ling: Selamat pagi, Puan Aini. Puan suka kondo yang mana?",
+  "target_spans": [
+   "Selamat pagi, Puan Aini. Puan suka kondo yang mana?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|29": {
+  "source_text": "Aini: Kondo E lebih cantik daripada kondo F, tetapi kondo E lebih bising.",
+  "target_spans": [
+   "Kondo E lebih cantik daripada kondo F, tetapi kondo E lebih bising."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|3|30": {
+  "source_text": "Mei Ling: Ya. Kondo F kurang cantik, tetapi kondo F lebih bersih.",
+  "target_spans": [
+   "Ya. Kondo F kurang cantik, tetapi kondo F lebih bersih."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|4|0": {
+  "source_text": "Aini: Kondo G pula?",
+  "target_spans": [
+   "Kondo G pula?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|4|1": {
+  "source_text": "Mei Ling: Kondo G paling besar, tetapi kondo G lama.",
+  "target_spans": [
+   "Kondo G paling besar, tetapi kondo G lama."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|4|2": {
+  "source_text": "Aini: Harga kondo F dan kondo G sama?",
+  "target_spans": [
+   "Harga kondo F dan kondo G sama?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|4|3": {
+  "source_text": "Mei Ling: Ya, kondo G semahal kondo F. Kondo G sangat selesa dan sunyi.",
+  "target_spans": [
+   "Ya, kondo G semahal kondo F. Kondo G sangat selesa dan sunyi."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|4|4": {
+  "source_text": "Aini: Dapur kondo G bersih?",
+  "target_spans": [
+   "Dapur kondo G bersih?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|4|5": {
+  "source_text": "Mei Ling: Bersih sekali, puan. Bilik air pun bersih.",
+  "target_spans": [
+   "Bersih sekali, puan. Bilik air pun bersih."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|4|6": {
+  "source_text": "Aini: Bagus! Kondo G yang terbaik.",
+  "target_spans": [
+   "Bagus! Kondo G yang terbaik."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|4|7": {
+  "source_text": "Mei Ling: Puan pilih yang mana?",
+  "target_spans": [
+   "Puan pilih yang mana?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|4|8": {
+  "source_text": "Aini: Saya pilih kondo G. Terima kasih, Cik Mei Ling.",
+  "target_spans": [
+   "Saya pilih kondo G. Terima kasih, Cik Mei Ling."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|4|9": {
+  "source_text": "Mei Ling: Sama-sama, Puan Aini.",
+  "target_spans": [
+   "Sama-sama, Puan Aini."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|5|0": {
+  "source_text": "The model has 13 turns. Gaps: turns 2, 4, 6, 8, 10.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Model conversation|5|1": {
+  "source_text": "Turn 2: Kondo A lebih besar daripada kondo B, tetapi kondo A lebih mahal.",
+  "target_spans": [
+   "Kondo A lebih besar daripada kondo B, tetapi kondo A lebih mahal."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|5|2": {
+  "source_text": "Turn 4: Kondo C pula?",
+  "target_spans": [
+   "Kondo C pula?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|5|3": {
+  "source_text": "Turn 6: Harga kondo A dan kondo D sama?",
+  "target_spans": [
+   "Harga kondo A dan kondo D sama?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|5|4": {
+  "source_text": "Turn 8: Kondo D bising?",
+  "target_spans": [
+   "Kondo D bising?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|5|5": {
+  "source_text": "Turn 10: Bagus sekali! Kondo D yang terbaik.",
+  "target_spans": [
+   "Bagus sekali! Kondo D yang terbaik."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Model conversation|5|6": {
+  "source_text": "Then perform the changed-facts variant without the script, changing one more fact of your own.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|0|0": {
+  "source_text": "先生が台本を2回読みます。音声ファイルはありません。質問を先に読んでから聞きます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|2|0": {
+  "source_text": "The teacher reads the script twice; read the questions first, listen for the details, then shadow.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|0": {
+  "source_text": "On Monday morning Puan Aini asks Encik Tanaka about his new condo and his way to work. / 月曜の朝、アイニ先生が田中さんに新しいコンドと通勤についてたずねます。",
+  "target_spans": [
+   "Puan",
+   "Encik"
+  ],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|1": {
+  "source_text": "Predict: which comparing words will Tanaka use about his old and new condo? Write three guesses. / 田中さんが古いコンドと新しいコンドについて使いそうな比べる言葉を三つ予想しましょう。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|2": {
+  "source_text": "Read the nine questions below before the first listening. / 1回目の前に下の9つの質問を読みます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|3": {
+  "source_text": "■ While listening · 聞きながら",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|4": {
+  "source_text": "1. How is Tanaka's new condo?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|5": {
+  "source_text": "2. What was wrong with the old condo?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|6": {
+  "source_text": "3. How is the new condo's price compared with his friend's condo?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|7": {
+  "source_text": "4. What time does he go to work?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|8": {
+  "source_text": "5. When is the station the busiest?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|9": {
+  "source_text": "6. Is the station at seven busier or quieter than at eight?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|10": {
+  "source_text": "7. Why does he not leave earlier?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|11": {
+  "source_text": "8. Is the station quieter in the afternoon?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|12": {
+  "source_text": "9. Does he like the new condo?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|13": {
+  "source_text": "■ After listening · 聞いたあと",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|14": {
+  "source_text": "Compare answers, then shadow lines 2, 4 and 10 after the teacher. / 答えを比べ、2・4・10行目をシャドーイングします。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|3|15": {
+  "source_text": "Tell your partner about your own home or office: two comparing words and one terlalu or sangat. / 自分の家や職場について、比べる言葉を二つと terlalu か sangat を一つ使って話しましょう。",
+  "target_spans": [
+   "terlalu",
+   "sangat",
+   "terlalu",
+   "sangat"
+  ],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|0": {
+  "source_text": "The teacher reads the script twice at natural speed. No audio file.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|1": {
+  "source_text": "Teacher-read script:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|2": {
+  "source_text": "Aini: Selamat pagi, Encik Tanaka. Bagaimana kondo baru encik?",
+  "target_spans": [
+   "Selamat pagi, Encik Tanaka. Bagaimana kondo baru encik?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|3": {
+  "source_text": "Tanaka: Sangat selesa, Puan Aini! Kondo baru lebih besar daripada kondo lama, dan lebih bersih.",
+  "target_spans": [
+   "Sangat selesa, Puan Aini! Kondo baru lebih besar daripada kondo lama, dan lebih bersih."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|4": {
+  "source_text": "Aini: Kondo lama bising?",
+  "target_spans": [
+   "Kondo lama bising?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|5": {
+  "source_text": "Tanaka: Ya, kondo lama terlalu bising. Kondo baru sunyi sekali.",
+  "target_spans": [
+   "Ya, kondo lama terlalu bising. Kondo baru sunyi sekali."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|6": {
+  "source_text": "Aini: Harga kondo baru mahal?",
+  "target_spans": [
+   "Harga kondo baru mahal?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|7": {
+  "source_text": "Tanaka: Mahal sedikit. Kondo baru semahal kondo kawan saya, tetapi kondo kawan saya lebih kecil.",
+  "target_spans": [
+   "Mahal sedikit. Kondo baru semahal kondo kawan saya, tetapi kondo kawan saya lebih kecil."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|8": {
+  "source_text": "Aini: Kondo kawan encik cantik?",
+  "target_spans": [
+   "Kondo kawan encik cantik?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|9": {
+  "source_text": "Tanaka: Cantik, tetapi kondo saya lebih bersih. Dapur kondo baru bersih sekali!",
+  "target_spans": [
+   "Cantik, tetapi kondo saya lebih bersih. Dapur kondo baru bersih sekali!"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|10": {
+  "source_text": "Aini: Encik pergi kerja pukul berapa sekarang?",
+  "target_spans": [
+   "Encik pergi kerja pukul berapa sekarang?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|11": {
+  "source_text": "Tanaka: Pukul tujuh. Pagi ini stesen sangat ramai! Pukul lapan stesen paling ramai.",
+  "target_spans": [
+   "Pukul tujuh. Pagi ini stesen sangat ramai! Pukul lapan stesen paling ramai."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|12": {
+  "source_text": "Aini: Kenapa encik tidak pergi lebih awal?",
+  "target_spans": [
+   "Kenapa encik tidak pergi lebih awal?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|13": {
+  "source_text": "Tanaka: Sebab pagi saya masih penat! Tetapi stesen pukul tujuh lebih sunyi daripada pukul lapan.",
+  "target_spans": [
+   "Sebab pagi saya masih penat! Tetapi stesen pukul tujuh lebih sunyi daripada pukul lapan."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|14": {
+  "source_text": "Aini: Petang pun ramai?",
+  "target_spans": [
+   "Petang pun ramai?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|15": {
+  "source_text": "Tanaka: Petang lebih sunyi, tetapi saya balik lewat.",
+  "target_spans": [
+   "Petang lebih sunyi, tetapi saya balik lewat."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|16": {
+  "source_text": "Aini: Encik suka kondo baru?",
+  "target_spans": [
+   "Encik suka kondo baru?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|17": {
+  "source_text": "Tanaka: Suka sekali! Kondo baru yang terbaik.",
+  "target_spans": [
+   "Suka sekali! Kondo baru yang terbaik."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|18": {
+  "source_text": "Answers: 1. very comfortable, bigger and cleaner than the old one / 2. it was too noisy / 3. the same price, but the friend's condo is smaller / 4. seven o'clock / 5. at eight o'clock / 6. quieter at seven / 7. he is still tired in the morning / 8. yes, quieter in the afternoon / 9. yes, very much; the new condo is the best",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Listening focus · Encik Tanaka|4|19": {
+  "source_text": "Do not hand out the script before the second listening.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|0|0": {
+  "source_text": "短い実用文を読んで質問に答え、自分でも短く書きます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|2|0": {
+  "source_text": "Read a short practical text, answer the questions, then write your own.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|0": {
+  "source_text": "Fictional message from an agent to a customer (all names and prices are invented):",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|1": {
+  "source_text": "Encik Tanaka,",
+  "target_spans": [
+   "Encik Tanaka,"
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|2": {
+  "source_text": "Kondo A: besar, baru. RM 3,200 setiap bulan.",
+  "target_spans": [
+   "Kondo A: besar, baru. RM 3,200 setiap bulan."
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|3": {
+  "source_text": "Kondo B: kecil, sunyi, bersih. RM 2,400 setiap bulan.",
+  "target_spans": [
+   "Kondo B: kecil, sunyi, bersih. RM 2,400 setiap bulan."
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|4": {
+  "source_text": "Kondo C: lama, bising. RM 1,800 setiap bulan.",
+  "target_spans": [
+   "Kondo C: lama, bising. RM 1,800 setiap bulan."
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|5": {
+  "source_text": "Kondo D: besar, baru, sunyi, selesa. RM 3,200 setiap bulan.",
+  "target_spans": [
+   "Kondo D: besar, baru, sunyi, selesa. RM 3,200 setiap bulan."
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|6": {
+  "source_text": "Encik pilih yang mana?",
+  "target_spans": [
+   "Encik pilih yang mana?"
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|7": {
+  "source_text": "Mei Ling",
+  "target_spans": [
+   "Mei Ling"
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|8": {
+  "source_text": "■ Questions · 質問",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|9": {
+  "source_text": "1. Which condo is the cheapest?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|10": {
+  "source_text": "2. Which two condos cost the same?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|11": {
+  "source_text": "3. Which condo is big and quiet?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|12": {
+  "source_text": "4. Which condo is noisy?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|13": {
+  "source_text": "5. Is condo B smaller or bigger than condo A?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|14": {
+  "source_text": "6. What does Mei Ling ask at the end?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|15": {
+  "source_text": "7. Say in Malay that condo D is bigger than condo B.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|16": {
+  "source_text": "■ Write · 書く",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|17": {
+  "source_text": "Write three sentences to Mei Ling: compare two condos, say which is the cheapest or the best, and say which you choose. / メイリンさんに3文で返信しましょう：二つのコンドを比べ、一番安いか一番良いものを言い、どれを選ぶかを書きます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|18": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|19": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|3|20": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Reading and writing · A condo listing|4|0": {
+  "source_text": "Reading: 1. condo C / 2. condos A and D / 3. condo D / 4. condo C / 5. smaller (kecil) / 6. which condo he chooses (Encik pilih yang mana?) / 7. Kondo D lebih besar daripada kondo B.",
+  "target_spans": [
+   "kecil",
+   "Encik pilih yang mana?",
+   "Kondo D lebih besar daripada kondo B."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Reading and writing · A condo listing|4|1": {
+  "source_text": "Model writing: Kondo D lebih besar daripada kondo B. Kondo C paling murah, tetapi terlalu bising. Saya pilih kondo D.",
+  "target_spans": [
+   "Kondo D lebih besar daripada kondo B. Kondo C paling murah, tetapi terlalu bising. Saya pilih kondo D."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Reading and writing · A condo listing|4|2": {
+  "source_text": "All times, dates and names in the text are fictional.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Task · Choosing a condo|0|0": {
+  "source_text": "役割カードを見て台本なしで話し、途中で予定が変わります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Task · Choosing a condo|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Task · Choosing a condo|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Task · Choosing a condo|2|0": {
+  "source_text": "Use the role cards without a script; deal with the change of plan halfway through.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Task · Choosing a condo|3|0": {
+  "source_text": "You are a customer (fictional). You want a quiet, clean condo and you do not want to pay too much.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Task · Choosing a condo|3|1": {
+  "source_text": "Ask B to compare the condos on the listing, say which one is the most expensive and which is the cheapest, and choose one.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Task · Choosing a condo|3|2": {
+  "source_text": "Aはお客さんです。静かできれいなコンドを探していて、高すぎるのは困ります。Bにリストのコンドを比べてもらい、一番高いものと一番安いものをたずね、一つ選びます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Task · Choosing a condo|3|3": {
+  "source_text": "■ Role card B · Bのカード",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Task · Choosing a condo|3|4": {
+  "source_text": "You are the agent Cik Mei Ling (use the listing from the reading sheet). Compare the condos and answer A's questions with lebih, paling and sangat.",
+  "target_spans": [
+   "Cik",
+   "lebih",
+   "paling",
+   "sangat"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Unit 6 · Task · Choosing a condo|3|5": {
+  "source_text": "Say when a condo is too noisy or too small.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Task · Choosing a condo|3|6": {
+  "source_text": "Bは不動産担当者のメイリンさんです。読み物のリストを使い、lebih・paling・sangat で比べて答えます。うるさすぎる、小さすぎるコンドもそう伝えます。",
+  "target_spans": [
+   "lebih",
+   "paling",
+   "sangat"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Unit 6 · Task · Choosing a condo|3|7": {
+  "source_text": "■ Change of plan · 予定変更",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Task · Choosing a condo|3|8": {
+  "source_text": "A chooses condo B, but B says: Orang lain sudah ambil kondo B. A must choose again with Yang mana …? and pilih.",
+  "target_spans": [
+   "Orang lain sudah ambil kondo B.",
+   "Yang mana …?",
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Unit 6 · Task · Choosing a condo|3|9": {
+  "source_text": "Aがコンドを一つ選びますが、Bが Orang lain sudah ambil kondo B. と伝えます。Aは Yang mana …? と pilih を使ってもう一度選びます。",
+  "target_spans": [
+   "Orang lain sudah ambil kondo B.",
+   "Yang mana …?",
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Unit 6 · Task · Choosing a condo|3|10": {
+  "source_text": "■ Success criteria · できる基準",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Task · Choosing a condo|3|11": {
+  "source_text": "☐ A asks which condo is the cheapest and which is the most expensive, and B answers with paling.",
+  "target_spans": [
+   "paling"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Unit 6 · Task · Choosing a condo|3|12": {
+  "source_text": "☐ A uses lebih … daripada or terlalu to explain a choice.",
+  "target_spans": [
+   "lebih … daripada",
+   "terlalu"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Unit 6 · Task · Choosing a condo|3|13": {
+  "source_text": "☐ After the change, A asks Yang mana …? and says Saya pilih ….",
+  "target_spans": [
+   "Yang mana …?",
+   "Saya pilih …"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Unit 6 · Task · Choosing a condo|4|0": {
+  "source_text": "Possible exchange: Kondo yang mana paling murah? — Kondo C paling murah, tetapi kondo C bising. — Kondo yang mana paling mahal? — Kondo A dan kondo D. — Kondo B lebih kecil daripada kondo A, tetapi lebih sunyi. — Saya pilih kondo B. — Change: Orang lain sudah ambil kondo B. — Ada kondo lain yang sunyi? Yang mana paling sunyi? — Kondo D paling sunyi dan sangat selesa. — Baik, saya pilih kondo D.",
+  "target_spans": [
+   "Kondo yang mana paling murah?",
+   "Kondo C paling murah, tetapi kondo C bising.",
+   "Kondo yang mana paling mahal?",
+   "Kondo A dan kondo D.",
+   "Kondo B lebih kecil daripada kondo A, tetapi lebih sunyi.",
+   "Saya pilih kondo B.",
+   "Orang lain sudah ambil kondo B.",
+   "Ada kondo lain yang sunyi? Yang mana paling sunyi?",
+   "Kondo D paling sunyi dan sangat selesa.",
+   "Baik, saya pilih kondo D."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Task · Choosing a condo|4|1": {
+  "source_text": "All schedules on the cards are fictional. Learners may swap in their real week if they wish.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Culture and usage note|0|0": {
+  "source_text": "マレーシアで場所や物を比べて話すときの言い方について読みます。語の成り立ちは Kata-Kata のカード注記だけを使っています。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Culture and usage note|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Culture and usage note|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Culture and usage note|2|0": {
+  "source_text": "Read about comparing places and things in Malaysia. Word-building notes come only from Kata-Kata card notes.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Culture and usage note|3|0": {
+  "source_text": "Kondo is the everyday Malaysian word for a condominium: a block of homes with shared areas. It is a headword in Kamus Dewan (the ledger's check). The owners of a condominium together form a management body that looks after the shared areas, under Malaysia's Strata Management Act 2013, so talking about a kondo often means talking about the whole building too: is it bersih, sunyi or bising?",
+  "target_spans": [
+   "Kondo",
+   "kondo",
+   "bersih",
+   "sunyi",
+   "bising"
+  ],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 6 · Culture and usage note|3|1": {
+  "source_text": "The Klang Valley, the urban area around Kuala Lumpur, has a rail network that includes LRT, MRT, monorail and KTM Komuter lines, so stesen is a word you read on signs and hear on the platform. When you say where you live or work, a station is an easy thing to describe: Stesen sangat ramai pukul lapan.",
+  "target_spans": [
+   "stesen",
+   "Stesen sangat ramai pukul lapan."
+  ],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 6 · Culture and usage note|3|2": {
+  "source_text": "Kata-Kata's card notes show how some comparing words are made. setinggi is se- + tinggi and semahal is se- + mahal; terbaik comes from baik with ter-. Learn them as whole words for now. For other adjectives, say sama … dengan or paling. bersih is a root word that only looks like a ber- word.",
+  "target_spans": [
+   "setinggi",
+   "tinggi",
+   "semahal",
+   "mahal",
+   "terbaik",
+   "baik",
+   "sama … dengan",
+   "paling",
+   "bersih"
+  ],
+  "mention_spans": [
+   "se-",
+   "se-",
+   "ter-"
+  ],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 6 · Culture and usage note|3|3": {
+  "source_text": "Two small words change meaning. After an adjective, sekali means \"very\" (cantik sekali); it is the same word as \"once\" in chapter 4. baru is \"new\" here and \"just\" in chapter 4. In the Kata-Kata scene the agent says Kondo B kurang besar: kurang with an adjective means \"less\" or \"not so\".",
+  "target_spans": [
+   "sekali",
+   "cantik sekali",
+   "baru",
+   "Kondo B kurang besar",
+   "kurang"
+  ],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 6 · Culture and usage note|3|4": {
+  "source_text": "■ 日本語",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Culture and usage note|3|5": {
+  "source_text": "Kondo は、マレーシアで日常的に使う「コンドミニアム」の言葉で、共用部分のある集合住宅を指します。Kamus Dewan に見出し語として載っています（台帳の確認）。コンドミニアムの所有者はみなで管理組合をつくり、共用部分の世話をします。これはマレーシアの Strata Management Act 2013 に基づいています。そのため kondo の話は建物全体の話にもなりがちです：bersih か、sunyi か、bising か。",
+  "target_spans": [
+   "Kondo",
+   "kondo",
+   "bersih",
+   "sunyi",
+   "bising"
+  ],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 6 · Culture and usage note|3|6": {
+  "source_text": "クランバレー（クアラルンプール周辺の都市圏）には LRT、MRT、モノレール、KTM Komuter などの鉄道網があるので、stesen は標識で目にし、ホームで耳にする言葉です。住んでいる場所や職場を話すとき、駅は説明しやすい題材です：Stesen sangat ramai pukul lapan.",
+  "target_spans": [
+   "stesen",
+   "Stesen sangat ramai pukul lapan."
+  ],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 6 · Culture and usage note|3|7": {
+  "source_text": "Kata-Kata のカード注記から、比べる言葉のでき方が分かります。setinggi は se- + tinggi、semahal は se- + mahal で、terbaik は baik に ter- が付いた形です。今は一語としてそのまま覚えましょう。ほかの形容詞には sama … dengan か paling を使います。bersih は接頭辞の付いた語に見えるだけの、語根の単語です。",
+  "target_spans": [
+   "setinggi",
+   "tinggi",
+   "semahal",
+   "mahal",
+   "terbaik",
+   "baik",
+   "sama … dengan",
+   "paling",
+   "bersih"
+  ],
+  "mention_spans": [
+   "se-",
+   "se-",
+   "ter-"
+  ],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 6 · Culture and usage note|3|8": {
+  "source_text": "二つの小さな語は意味が変わります。形容詞のあとの sekali は「とても」の意味です（cantik sekali）。第4章の「一度」と同じ語です。baru はここでは「新しい」、第4章では「〜したばかり」です。Kata-Kata の場面で不動産担当者は Kondo B kurang besar と言います。形容詞の前の kurang は「より少ない」「あまり〜ない」の意味です。",
+  "target_spans": [
+   "sekali",
+   "cantik sekali",
+   "baru",
+   "Kondo B kurang besar",
+   "kurang"
+  ],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 6 · Culture and usage note|4|0": {
+  "source_text": "English note: 228 words. The Japanese is a full translation (draft).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Culture and usage note|4|1": {
+  "source_text": "Sources: Kata-Kata chapter 6 cards ms-c06-005, -006, -008, -014, -021 and -031 (notes: se- + tinggi, se- + mahal, cantik sekali, baik → terbaik, baru, a root word that only looks like a ber- word) and scenario ms-c06-s01 to s08; ledger L-0294 (kondo, KD4 check \"Headword\"); Strata Management Act 2013 (Act 757): Wikipedia, \"Strata Management Act 2013\", and the municipal pages on joint management bodies and management corporations (MBSA and MBS) seen in a search summary; the Act itself was not opened (Rank 3, one Rank 2 local-government page); Klang Valley rail network: Wikipedia, \"Klang Valley Integrated Transit System\" and \"RapidKL\" seen in a search summary (Rank 3; line names and opening dates differ between sources, so none is given). The note makes no claim about prices, rents or neighbourhoods; the practice prices are fictional.",
+  "target_spans": [
+   "tinggi",
+   "mahal",
+   "cantik sekali",
+   "baik",
+   "terbaik",
+   "baru",
+   "kondo"
+  ],
+  "mention_spans": [
+   "se-",
+   "se-"
+  ],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Culture and usage note|4|2": {
+  "source_text": "Discussion prompt for the teacher: How do you compare two homes in Japanese? Which comparing words in Malay come before the adjective (lebih, paling, sangat, terlalu) and which come after (daripada, dengan, sekali)?",
+  "target_spans": [
+   "lebih",
+   "paling",
+   "sangat",
+   "terlalu",
+   "daripada",
+   "dengan",
+   "sekali"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|0|0": {
+  "source_text": "聞く・語彙・文型・読むの19問と話す課題1つです。間違いは次の授業で練習します。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|2|0": {
+  "source_text": "19 low-stakes items plus one speaking task and an \"I can\" self-check.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|0": {
+  "source_text": "The teacher reads 6 lines from the listening script.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|1": {
+  "source_text": "L1. How is Tanaka's new condo?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|2": {
+  "source_text": "L2. What was wrong with the old condo?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|3": {
+  "source_text": "L3. How is the new condo's price compared with his friend's?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|4": {
+  "source_text": "L4. How is the station at eight?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|5": {
+  "source_text": "L5. When is the station quieter, at seven or at eight?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|6": {
+  "source_text": "L6. Does he like the new condo?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|7": {
+  "source_text": "■ Words and grammar · 語彙と文型",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|8": {
+  "source_text": "V1. Write the Malay for: comfortable",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|9": {
+  "source_text": "V2. Write the Malay for: dirty",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|10": {
+  "source_text": "V3. Write the Malay for: crowded",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|11": {
+  "source_text": "V4. Write the Malay for: to choose",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|12": {
+  "source_text": "V5. Write the Malay for: cheapest",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|13": {
+  "source_text": "V6. Write the Malay for: too (excessively)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|14": {
+  "source_text": "G1. Complete: Kondo A ___ besar ___ kondo B. (A is bigger than B)",
+  "target_spans": [
+   "Kondo A ___ besar ___ kondo B."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|3|15": {
+  "source_text": "G2. Say that condo C is the cheapest in two ways.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|16": {
+  "source_text": "G3. Choose sangat or terlalu: Mi goreng ini ___ pedas. Saya tidak boleh makan.",
+  "target_spans": [
+   "sangat",
+   "terlalu",
+   "Mi goreng ini ___ pedas. Saya tidak boleh makan."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|3|17": {
+  "source_text": "■ Reading · 読む",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|18": {
+  "source_text": "Fictional message: Puan Aini, kondo C paling murah, tetapi kondo C terlalu bising. Kondo D lebih mahal, tetapi kondo D sangat sunyi dan bersih. Puan pilih yang mana? Mei Ling",
+  "target_spans": [
+   "Puan Aini, kondo C paling murah, tetapi kondo C terlalu bising. Kondo D lebih mahal, tetapi kondo D sangat sunyi dan bersih. Puan pilih yang mana? Mei Ling"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|3|19": {
+  "source_text": "R1. Which condo is the cheapest?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|20": {
+  "source_text": "R2. What is wrong with condo C?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|21": {
+  "source_text": "R3. Which condo is quiet and clean?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|22": {
+  "source_text": "R4. What does Mei Ling ask at the end?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|23": {
+  "source_text": "■ Speaking · 話す",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|3|24": {
+  "source_text": "S1. Compare two places you know (a station, a cafe or a home) in three sentences: one with lebih … daripada, one with paling and one with terlalu or sangat. Your partner asks Yang mana …? and you choose with pilih.",
+  "target_spans": [
+   "lebih … daripada",
+   "paling",
+   "terlalu",
+   "sangat",
+   "Yang mana …?",
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|4|0": {
+  "source_text": "☐ I can compare two things with lebih or kurang and daripada, and say they are the same with sama … dengan. / lebih・kurang と daripada で二つを比べ、sama … dengan で同じだと言える。",
+  "target_spans": [
+   "lebih",
+   "kurang",
+   "daripada",
+   "sama … dengan",
+   "lebih",
+   "kurang",
+   "daripada",
+   "sama … dengan"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|4|1": {
+  "source_text": "☐ I can say which is the most with paling, use sangat and terlalu, and ask and answer Yang mana …? with pilih. / paling で一番を言い、sangat・terlalu を使い、Yang mana …? と pilih でたずねて答えられる。",
+  "target_spans": [
+   "paling",
+   "sangat",
+   "terlalu",
+   "Yang mana …?",
+   "pilih",
+   "paling",
+   "sangat",
+   "terlalu",
+   "Yang mana …?",
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|4|2": {
+  "source_text": "☐ I can follow a talk about a new home and use a short listing to choose a condo. / 新しい住まいについての話が分かり、短い物件リストを見てコンドを選べる。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|4|3": {
+  "source_text": "☐ I can recognise words for the game, the court and the body in the Kata-Kata Dunia scene \"Main badminton\" and compare two players. / Kata-Kata の Dunia の場面「Main badminton」で、試合・コート・体の語を聞いて分かり、二人の選手を比べられる。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|5|0": {
+  "source_text": "L1: Teacher reads: Sangat selesa, Puan Aini! Kondo baru lebih besar daripada kondo lama, dan lebih bersih. Answer: very comfortable; bigger and cleaner",
+  "target_spans": [
+   "Sangat selesa, Puan Aini! Kondo baru lebih besar daripada kondo lama, dan lebih bersih."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|1": {
+  "source_text": "L2: Teacher reads: Ya, kondo lama terlalu bising. Kondo baru sunyi sekali. Answer: too noisy; the new one is very quiet",
+  "target_spans": [
+   "Ya, kondo lama terlalu bising. Kondo baru sunyi sekali."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|2": {
+  "source_text": "L3: Teacher reads: Mahal sedikit. Kondo baru semahal kondo kawan saya, tetapi kondo kawan saya lebih kecil. Answer: the same price, the friend's is smaller",
+  "target_spans": [
+   "Mahal sedikit. Kondo baru semahal kondo kawan saya, tetapi kondo kawan saya lebih kecil."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|3": {
+  "source_text": "L4: Teacher reads: Pukul tujuh. Pagi ini stesen sangat ramai! Pukul lapan stesen paling ramai. Answer: very crowded; busiest at eight",
+  "target_spans": [
+   "Pukul tujuh. Pagi ini stesen sangat ramai! Pukul lapan stesen paling ramai."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|4": {
+  "source_text": "L5: Teacher reads: Sebab pagi saya masih penat! Tetapi stesen pukul tujuh lebih sunyi daripada pukul lapan. Answer: quieter at seven than at eight",
+  "target_spans": [
+   "Sebab pagi saya masih penat! Tetapi stesen pukul tujuh lebih sunyi daripada pukul lapan."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|5": {
+  "source_text": "L6: Teacher reads: Suka sekali! Kondo baru yang terbaik. Answer: yes; the new condo is the best",
+  "target_spans": [
+   "Suka sekali! Kondo baru yang terbaik."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|6": {
+  "source_text": "V1: selesa",
+  "target_spans": [
+   "selesa"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|7": {
+  "source_text": "V2: kotor",
+  "target_spans": [
+   "kotor"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|8": {
+  "source_text": "V3: ramai",
+  "target_spans": [
+   "ramai"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|9": {
+  "source_text": "V4: pilih",
+  "target_spans": [
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|10": {
+  "source_text": "V5: termurah",
+  "target_spans": [
+   "termurah"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|11": {
+  "source_text": "V6: terlalu",
+  "target_spans": [
+   "terlalu"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|12": {
+  "source_text": "G1: lebih … daripada",
+  "target_spans": [
+   "lebih … daripada"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|13": {
+  "source_text": "G2: Kondo C paling murah. / Kondo C termurah.",
+  "target_spans": [
+   "Kondo C paling murah.",
+   "Kondo C termurah."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|14": {
+  "source_text": "G3: terlalu",
+  "target_spans": [
+   "terlalu"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|15": {
+  "source_text": "R1: condo C",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|5|16": {
+  "source_text": "R2: it is too noisy",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|5|17": {
+  "source_text": "R3: condo D",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|5|18": {
+  "source_text": "R4: which one Aini chooses",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Unit test and self-check|5|19": {
+  "source_text": "S1: Check: lebih before the adjective and daripada before the second thing; paling before the adjective; terlalu or sangat before the adjective; Saya pilih … to answer Yang mana …?.",
+  "target_spans": [
+   "lebih",
+   "daripada",
+   "paling",
+   "terlalu",
+   "sangat",
+   "Saya pilih …",
+   "Yang mana …?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 6 · Unit test and self-check|5|20": {
+  "source_text": "19 scored items and one speaking task. Low-stakes: go over mistakes in the next class.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "test:ms-c06-test-01|prompt": {
+  "source_text": "L1. How is Tanaka's new condo?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-01|answer_key": {
+  "source_text": "Teacher reads: Sangat selesa, Puan Aini! Kondo baru lebih besar daripada kondo lama, dan lebih bersih. Answer: very comfortable; bigger and cleaner",
+  "target_spans": [
+   "Sangat selesa, Puan Aini! Kondo baru lebih besar daripada kondo lama, dan lebih bersih."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-02|prompt": {
+  "source_text": "L2. What was wrong with the old condo?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-02|answer_key": {
+  "source_text": "Teacher reads: Ya, kondo lama terlalu bising. Kondo baru sunyi sekali. Answer: too noisy; the new one is very quiet",
+  "target_spans": [
+   "Ya, kondo lama terlalu bising. Kondo baru sunyi sekali."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-03|prompt": {
+  "source_text": "L3. How is the new condo's price compared with his friend's?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-03|answer_key": {
+  "source_text": "Teacher reads: Mahal sedikit. Kondo baru semahal kondo kawan saya, tetapi kondo kawan saya lebih kecil. Answer: the same price, the friend's is smaller",
+  "target_spans": [
+   "Mahal sedikit. Kondo baru semahal kondo kawan saya, tetapi kondo kawan saya lebih kecil."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-04|prompt": {
+  "source_text": "L4. How is the station at eight?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-04|answer_key": {
+  "source_text": "Teacher reads: Pukul tujuh. Pagi ini stesen sangat ramai! Pukul lapan stesen paling ramai. Answer: very crowded; busiest at eight",
+  "target_spans": [
+   "Pukul tujuh. Pagi ini stesen sangat ramai! Pukul lapan stesen paling ramai."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-05|prompt": {
+  "source_text": "L5. When is the station quieter, at seven or at eight?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-05|answer_key": {
+  "source_text": "Teacher reads: Sebab pagi saya masih penat! Tetapi stesen pukul tujuh lebih sunyi daripada pukul lapan. Answer: quieter at seven than at eight",
+  "target_spans": [
+   "Sebab pagi saya masih penat! Tetapi stesen pukul tujuh lebih sunyi daripada pukul lapan."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-06|prompt": {
+  "source_text": "L6. Does he like the new condo?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-06|answer_key": {
+  "source_text": "Teacher reads: Suka sekali! Kondo baru yang terbaik. Answer: yes; the new condo is the best",
+  "target_spans": [
+   "Suka sekali! Kondo baru yang terbaik."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-07|prompt": {
+  "source_text": "V1. Write the Malay for: comfortable",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-07|answer_key": {
+  "source_text": "selesa",
+  "target_spans": [
+   "selesa"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-08|prompt": {
+  "source_text": "V2. Write the Malay for: dirty",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-08|answer_key": {
+  "source_text": "kotor",
+  "target_spans": [
+   "kotor"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-09|prompt": {
+  "source_text": "V3. Write the Malay for: crowded",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-09|answer_key": {
+  "source_text": "ramai",
+  "target_spans": [
+   "ramai"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-10|prompt": {
+  "source_text": "V4. Write the Malay for: to choose",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-10|answer_key": {
+  "source_text": "pilih",
+  "target_spans": [
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-11|prompt": {
+  "source_text": "V5. Write the Malay for: cheapest",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-11|answer_key": {
+  "source_text": "termurah",
+  "target_spans": [
+   "termurah"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-12|prompt": {
+  "source_text": "V6. Write the Malay for: too (excessively)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-12|answer_key": {
+  "source_text": "terlalu",
+  "target_spans": [
+   "terlalu"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-13|prompt": {
+  "source_text": "G1. Complete: Kondo A ___ besar ___ kondo B. (A is bigger than B)",
+  "target_spans": [
+   "Kondo A ___ besar ___ kondo B."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-13|answer_key": {
+  "source_text": "lebih … daripada",
+  "target_spans": [
+   "lebih … daripada"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-14|prompt": {
+  "source_text": "G2. Say that condo C is the cheapest in two ways.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-14|answer_key": {
+  "source_text": "Kondo C paling murah. / Kondo C termurah.",
+  "target_spans": [
+   "Kondo C paling murah.",
+   "Kondo C termurah."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-15|prompt": {
+  "source_text": "G3. Choose sangat or terlalu: Mi goreng ini ___ pedas. Saya tidak boleh makan.",
+  "target_spans": [
+   "sangat",
+   "terlalu",
+   "Mi goreng ini ___ pedas. Saya tidak boleh makan."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-15|answer_key": {
+  "source_text": "terlalu",
+  "target_spans": [
+   "terlalu"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-16|prompt": {
+  "source_text": "R1. Which condo is the cheapest?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-16|answer_key": {
+  "source_text": "condo C",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-17|prompt": {
+  "source_text": "R2. What is wrong with condo C?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-17|answer_key": {
+  "source_text": "it is too noisy",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-18|prompt": {
+  "source_text": "R3. Which condo is quiet and clean?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-18|answer_key": {
+  "source_text": "condo D",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-19|prompt": {
+  "source_text": "R4. What does Mei Ling ask at the end?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-19|answer_key": {
+  "source_text": "which one Aini chooses",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-20|prompt": {
+  "source_text": "S1. Compare two places you know (a station, a cafe or a home) in three sentences: one with lebih … daripada, one with paling and one with terlalu or sangat. Your partner asks Yang mana …? and you choose with pilih.",
+  "target_spans": [
+   "lebih … daripada",
+   "paling",
+   "terlalu",
+   "sangat",
+   "Yang mana …?",
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c06-test-20|answer_key": {
+  "source_text": "Check: lebih before the adjective and daripada before the second thing; paling before the adjective; terlalu or sangat before the adjective; Saya pilih … to answer Yang mana …?.",
+  "target_spans": [
+   "lebih",
+   "daripada",
+   "paling",
+   "terlalu",
+   "sangat",
+   "Saya pilih …",
+   "Yang mana …?"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|0|0": {
+  "source_text": "先生用：45分×5ブロックの進め方、注意点、宿題です。答えは各シートのキーにあります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|2|0": {
+  "source_text": "Teacher plan: five 45-minute blocks with timings, what to listen for and homework. Answers are on each sheet.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|0": {
+  "source_text": "Before Block A: Kata-Kata Sedia Kelas c06 (16 cards, frames ms-c06-f01 and ms-c06-f02).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|1": {
+  "source_text": "Before Block E: Kata-Kata Dunia scene \"Main badminton\"; learners only need to recognise the scene words.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|2": {
+  "source_text": "After Block D: the Kata-Kata chapter 6 deck with spaced review, frames ms-c06-f01, ms-c06-f02, ms-c06-f03, ms-c06-f04, ms-c06-f05, ms-c06-f06 in the frame drill and Susun Ayat; about 3 hours of self-study for this unit (planning figure).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|3": {
+  "source_text": "Hanashishou starts at A2, so there is no Hanashishou scene for this unit. Listening uses the teacher-read script.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|4": {
+  "source_text": "■ Block A · Words and patterns (45 min)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|5": {
+  "source_text": "Goal: I can compare two things with lebih or kurang and daripada, and say they are the same with sama … dengan.",
+  "target_spans": [
+   "lebih",
+   "kurang",
+   "daripada",
+   "sama … dengan"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|3|6": {
+  "source_text": "0–5 Recall: chapter 5 (taste, hot or cold, Kenapa …? Sebab …) from the opener prompts.",
+  "target_spans": [
+   "Kenapa …? Sebab …"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|3|7": {
+  "source_text": "5–10 Tanya Cikgu questions from Kata-Kata.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|8": {
+  "source_text": "10–20 Vocabulary focus: core words first; Dunia and revision words are only pointed out.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|9": {
+  "source_text": "20–40 Pattern focus: patterns 1 and 2, question and answer first, rule second; teach the first two word groups and the describing words in Blocks A and B, not all in one sitting.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|10": {
+  "source_text": "40–45 First substitutions (Drill 2, items 1 to 3).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|11": {
+  "source_text": "■ Block B · Drills and conversation (45 min)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|12": {
+  "source_text": "Goal: I can say which is the most with paling, use sangat and terlalu, and ask and answer Yang mana …? with pilih.",
+  "target_spans": [
+   "paling",
+   "sangat",
+   "terlalu",
+   "Yang mana …?",
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|3|13": {
+  "source_text": "0–5 Recall: two things in the room: Yang mana lebih besar? round the class.",
+  "target_spans": [
+   "Yang mana lebih besar?"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|3|14": {
+  "source_text": "5–25 Drill ladder in order: pattern table, substitution, transformation, question and answer, question-word choice, short dialogues, then the markers drill.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|15": {
+  "source_text": "25–40 Model conversation, gapped form, then the changed-facts variant.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|16": {
+  "source_text": "40–45 Pair rehearsal without the script.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|17": {
+  "source_text": "■ Block C · Listening and task (45 min)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|18": {
+  "source_text": "Goal: I can follow a talk about a new home and use a short listing to choose a condo.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|19": {
+  "source_text": "0–5 Recall: learners compare two drinks or two foods from last week: lebih manis, kurang pedas.",
+  "target_spans": [
+   "lebih manis",
+   "kurang pedas"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|3|20": {
+  "source_text": "5–20 Listening: read the questions, two readings, check, then shadow three lines.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|3|21": {
+  "source_text": "20–30 Reading and writing.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|4|0": {
+  "source_text": "30–45 Task with role cards; announce the change of plan halfway.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|4|1": {
+  "source_text": "■ Block D · Review and test (45 min)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|4|2": {
+  "source_text": "Goal: I can check comparing words, sangat and terlalu, and place words in a short test.",
+  "target_spans": [
+   "sangat",
+   "terlalu"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|4|3": {
+  "source_text": "0–15 Mixed review: cumulative question-word drill (chapters 1 to 6, including yang mana), then the markers drill with new cues.",
+  "target_spans": [
+   "yang mana"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|4|4": {
+  "source_text": "15–25 Unit test (low-stakes).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|4|5": {
+  "source_text": "25–35 Self-check and feedback.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|4|6": {
+  "source_text": "35–45 Preview: chapter 7 Kata-Kata set (places and directions); the review block after unit 6 is not yet written, so use the mixed review from Block D.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|4|7": {
+  "source_text": "■ Block E · Dunia scene (45 min)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|4|8": {
+  "source_text": "Goal: I can recognise words for the game, the court and the body in the Kata-Kata Dunia scene \"Main badminton\" and compare two players.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|4|9": {
+  "source_text": "0–5 Recall: compare two condos with lebih, paling and terlalu.",
+  "target_spans": [
+   "lebih",
+   "paling",
+   "terlalu"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|4|10": {
+  "source_text": "5–15 Kata-Kata Dunia scene \"Main badminton\" as listening (teacher reads, learners point to pictures or words).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|4|11": {
+  "source_text": "15–30 Role-play of the scene in pairs.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|4|12": {
+  "source_text": "30–40 Free variation: two players compare height and speed (a pair role-play), then they change who wins.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|4|13": {
+  "source_text": "40–45 Culture and usage note discussion.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|4|14": {
+  "source_text": "■ What to listen for · 注意点",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|4|15": {
+  "source_text": "Load: 32 core words in six groups. Suggested order: Block A the comparing and equal words, paling and the four whole words; Block B sangat, terlalu, choosing words and the describing words; Block C and D recycle them in the condo listing, the listening and the test; Block E recycles the comparing words in \"Main badminton\". If the pilot shows 32 is too many for one unit, the natural cut is A/B: comparing, equal and most first; very, too, choosing and the describing words second.",
+  "target_spans": [
+   "paling",
+   "sangat",
+   "terlalu"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|4|16": {
+  "source_text": "sekali and baru were taught in chapter 4 with other meanings (sekali once, baru just). Chapter 6 adds sekali = very after an adjective and baru = new. They are revision with a note (the ledger places them in chapters 4 and 6).",
+  "target_spans": [
+   "sekali",
+   "baru",
+   "sekali",
+   "baru",
+   "sekali",
+   "baru"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|4|17": {
+  "source_text": "termurah, terbesar, terbaik, tercantik, setinggi and semahal are taught as whole ledger words. Do not drill making new ter- or se- words: productive ter- is chapter 16. paling + adjective is the way to make a new superlative, and sama … dengan the way to say equal.",
+  "target_spans": [
+   "termurah",
+   "terbesar",
+   "terbaik",
+   "tercantik",
+   "setinggi",
+   "semahal",
+   "paling",
+   "sama … dengan"
+  ],
+  "mention_spans": [
+   "ter-",
+   "se-",
+   "ter-"
+  ],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|5|0": {
+  "source_text": "Standard first: mudah (standard) and senang (spoken) are shown together; accept both. [UNVERIFIED] Whether Kamus Dewan marks senang as spoken is not checked (see the report). senang is also heard in a different meaning (\"at ease\"); that is not taught here.",
+  "target_spans": [
+   "mudah",
+   "senang",
+   "senang",
+   "senang"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|5|1": {
+  "source_text": "The Kata-Kata scene uses dekat, jauh and the abbreviation LRT, which are outside chapters 1 to 6 (dekat and jauh are chapter 7), so the scene here compares size, price, noise, age and comfort. Rents: the word for rent is not in the ledger (proposed in the report); the listing says setiap bulan beside the price. Do not add words from chapter 7 or later to the condo scenes.",
+  "target_spans": [
+   "setiap bulan"
+  ],
+  "mention_spans": [
+   "dekat",
+   "jauh",
+   "dekat",
+   "jauh"
+  ],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|5|2": {
+  "source_text": "terlalu is \"too\" and carries a complaint; sangat is \"very\" and does not. amat is the formal \"very\"; it fits a letter or a speech more than a chat.",
+  "target_spans": [
+   "terlalu",
+   "sangat",
+   "amat"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|5|3": {
+  "source_text": "\"Main badminton\" is for recognition. The body words (lengan, bahu, siku, lutut, pinggang) are labels in a sports scene: no injuries, advice or medicine. kurang before a noun is not taught.",
+  "target_spans": [
+   "lengan",
+   "bahu",
+   "siku",
+   "lutut",
+   "pinggang",
+   "kurang"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|5|4": {
+  "source_text": "Cumulative question words now include yang mana (chapters 1 to 6). Chapter 5 words bagaimana and kenapa (= mengapa = apa sebab, answered with sebab or kerana) return in drill 5 and in the listening.",
+  "target_spans": [
+   "yang mana",
+   "bagaimana",
+   "kenapa",
+   "mengapa",
+   "apa sebab",
+   "sebab",
+   "kerana"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 6 · Teaching plan and answer key|6|0": {
+  "source_text": "Answer keys are on each component. Japanese text awaits native review.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 6 · Teaching plan and answer key|6|1": {
+  "source_text": "Standard forms first; spoken forms are labelled. No productive ber- or me- verbs (root verbs only).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
  "Chapter 1 · Fast-course summary pack|0|0": {
   "source_text": "速習コース用：第1章を45分1回で学び、残りは Kata-Kata で自習します。目標、基本の20語、文型、会話、タスク、チェック、自習ガイドがあります。",
   "target_spans": [],

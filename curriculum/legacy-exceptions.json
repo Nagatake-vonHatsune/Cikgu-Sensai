@@ -1,33 +1,4 @@
 {
-  "ms-c06|ledger|antara": {
-    "unit": "ms-c06",
-    "check": "ledger",
-    "term": "antara",
-    "reasons": [
-      "First assigned chapter 7; used in chapter 6."
-    ],
-    "evidence": [
-      {
-        "source": "Comparisons and superlatives · Learner pack|4|2",
-        "text": "Antara tiga buku ini, yang mana paling kelakar?"
-      }
-    ]
-  },
-  "ms-c06|register|tapi": {
-    "unit": "ms-c06",
-    "check": "register",
-    "term": "tapi",
-    "reasons": [
-      "Standard tetapi has no earlier target-language teaching occurrence.",
-      "Spoken form lacks an explicit spoken label in prior teaching."
-    ],
-    "evidence": [
-      {
-        "source": "Comparisons and superlatives · Learner pack|4|1",
-        "text": "Ya. Tapi buku B lebih kelakar."
-      }
-    ]
-  },
   "ms-c07|register|nak": {
     "unit": "ms-c07",
     "check": "register",
