@@ -152,10 +152,10 @@ def components(ledger):
                 ('L-0536', '«Jawab soalan ini.»')]),
         ]))],
         key=['Kata-Kata cards ms-c02-015 to 017, 022, 029 to 039, 041 to 063; Dunia cards ms-d-pejabat-pagi-01 to 14.',
-             '«adakah» (L-0988), «bolehkah» (L-0783) and «kelas» (L-0987) have no Kata-Kata card yet (pending). '
+             '«adakah» (L-0988), «bolehkah» (L-0783) and «kelas» (L-0987) now have Kata-Kata chapter 2 cards (ms-c02-070, -065, -069). '
              'Roots shown as quoted roots come from Kata-Kata card notes; some (‹makan›, ‹baca›) are chapter 4 words and are not taught here.',
              'Load: 37 core words (plus the -kah review of «di manakah»), 14 office words to recognise, and 14 hobby words of which each learner keeps the few that are true for them. '
-             '«dengan» is now taught in unit 2A. Hobby words L-1019 to L-1031 have no Kata-Kata card yet (pending); test only the hobby words a learner chose.',
+             '«dengan» is now taught in unit 2A. Hobby words L-1019 to L-1031 now have Kata-Kata chapter 2 cards (ms-c02-074 to ms-c02-086); test only the hobby words a learner chose.',
              'Malaysian forms: «muzik», «filem», «sukan», «kafe».',
              'Check in class: say a root; learners give the pe- person or the -an thing. Expected: ‹makan› → «makanan»; ‹ajar› → «pelajar».']))
 

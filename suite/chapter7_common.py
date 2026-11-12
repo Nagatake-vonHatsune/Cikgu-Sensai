@@ -8,7 +8,7 @@ Generalised from chapter6_common (itself from chapter5_common, chapter4_common a
 No new ledger words are introduced. Dunia items are recognition only and never
 tested as new vocabulary. All Japanese is a draft awaiting native review.
 """
-from . import vocab, pattern, english_words
+from . import vocab, pattern, english_words, sedia_cards
 
 GRAMMAR7 = {
     'go': 'ms-c07-g02',
@@ -53,7 +53,7 @@ def components(ledger, cfg):
         ('Setting and recall · 場面と復習', [cfg['setting'], cfg['setting_ja'], *cfg['recall'],
                                             'Write one question for Tanya Cikgu before you look at the new words. / 新しい単語を見る前に、Tanya Cikgu への質問を一つ書きましょう。']),
         ('Classroom and home learning · 授業と自習', [
-            'Before class: Kata-Kata Sedia Kelas c07 (27 cards, frames ms-c07-f01 and ms-c07-f02). / 授業前：Kata-Kata Sedia Kelas c07（カード27枚、文型 f01・f02）。',
+            f'Before class: Kata-Kata Sedia Kelas c07 ({sedia_cards(7)} cards, frames ms-c07-f01 and ms-c07-f02). / 授業前：Kata-Kata Sedia Kelas c07（カード{sedia_cards(7)}枚、文型 f01・f02）。',
             f'After class: the chapter 7 cards and the Dunia scenes {cfg["dunia_list"]}. / 授業後：第7章のカードと Dunia の場面 {cfg.get("dunia_list_ja", cfg["dunia_list"])}。',
             'Self-study planning figure: about three hours for this full-course unit. / 自習の目安：このユニットで約3時間。'])],
         ['Recall is retrieval practice, not a score. Let learners try without notes first, then check together.',
@@ -251,7 +251,7 @@ def components(ledger, cfg):
     plan = cfg['plan']
     add('teaching-plan', 'Teaching plan', 'Teaching plan and answer key', 'All', None, [
         ('Before and after · 授業の前後', [
-            'Before Block A: Kata-Kata Sedia Kelas c07 (27 cards, frames ms-c07-f01 and ms-c07-f02).',
+            f'Before Block A: Kata-Kata Sedia Kelas c07 ({sedia_cards(7)} cards, frames ms-c07-f01 and ms-c07-f02).',
             f'Before Block E: Kata-Kata Dunia scenes {cfg["dunia_list"]}; learners only need to recognise the scene words.',
             'After Block D: the Kata-Kata chapter 7 deck with spaced review, frames ' + ', '.join(fid) +
             ' in the frame drill and Susun Ayat; about 3 hours of self-study for this unit (planning figure).',

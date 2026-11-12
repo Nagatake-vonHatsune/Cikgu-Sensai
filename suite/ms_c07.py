@@ -1,12 +1,13 @@
 """Unit 7: places and directions (ke, di + position words, jalan terus / kemudian belok, berapa jauh, berapa lama, naik, turun, jangan).
 
-62 core ledger entries in five themed groups. The ledger places 63 live rows in chapter 7 ("Ch7" or "Ch7 (pending)"):
-the 52 rows as handed over (L-0592 is Retired, Sam, 12 Nov 2026), the five places-of-worship rows Sam approved on 12 Nov 2026 (L-1054 to L-1058: gereja, kuil,
+62 core ledger entries in five themed groups. The ledger (Kata-Kata 34710c6) places 62 live rows in chapter 7 ("Ch7"; the cells
+no longer say "(pending)"): the 51 rows as handed over (L-0592 is Retired, Sam, 12 Nov 2026; L-0304 is no longer in chapter 7, see below), the five places-of-worship rows Sam approved on 12 Nov 2026 (L-1054 to L-1058: gereja, kuil,
 tokong, gurdwara, surau, to go with L-0337 masjid), «sesak» (L-0620, placed in chapter 7 on 12 Nov 2026) and the five rows
-Sam approved on the step 5e review (L-1059 to L-1063: kilometer, terus, tangga, jangan, sebulan). One is not new core:
-L-0304 «depan / hadapan» is «depan», which chapter 4 already taught (L-0173; «hadapan» is the formal form, from the
-Kata-Kata card note). L-0592 «pintu masuk» was a duplicate of L-0330 «pintu masuk / pintu keluar» and is now Retired.
-63 - 1 = 62.
+Sam approved on the step 5e review (L-1059 to L-1063: kilometer, terus, tangga, jangan, sebulan). L-0304 «depan / hadapan»
+was a chapter 7 row until the Kata-Kata clean-up; Kata-Kata merged its card into the chapter 4 card of «depan» (ms-c04-019,
+L-0173; «hadapan» is the formal form) and the ledger now places it in chapter 4 ("one card with L-0173; reviewed in Ch7"), so
+unit 7 only reviews it. L-0592 «pintu masuk» was a duplicate of L-0330 «pintu masuk / pintu keluar» and is now Retired.
+Before the clean-up: 63 placed - 1 not new core = 62; now 62 placed, all new core.
 «jalan lurus» is not used for directions (Sam, 12 Nov 2026): Malaysians say «terus», «jalan terus», «pergi terus» or
 «terus depan». «lurus» (L-0318) is only the adjective "straight" for a road or line. «jam» (traffic, spoken) is taught beside
 «sesak» so that «kalau tidak jam / sesak» is not read as the hour. «tumpang tanya» (L-0019, chapter 1) returns as revision.
@@ -541,7 +542,7 @@ CFG = dict(
              '☐ After the change, A asks «Kalau jalan kaki, berapa lama?» and says how they will go.'],
     task_key='«Maaf, tumpang tanya, hospital di mana?» — «Jalan terus lebih kurang tiga ratus meter, kemudian belok kiri di lampu isyarat. Hospital di sebelah kanan, di seberang gurdwara.» — «Berapa jauh dari sini?» — «Lebih kurang lapan ratus meter.» — «Berapa lama jalan kaki?» — «Lebih kurang lima belas minit. Naik bas lima minit.» — Change: «Hari ini jam. Bas lambat.» (or «Hari ini jalan sesak.») — «Kalau jalan kaki, berapa lama?» — «Lebih kurang lima belas minit.» — «Baik, saya jalan kaki. Terima kasih!»',
     culture=CULTURE, culture_ja=CULTURE_JA,
-    culture_sources='Kata-Kata chapter 7 cards ms-c07-009 («hadapan» more formal), -023 («lebih kurang», lit. more-less), -025 («belok», a root word, not a ber- form), -035 (‹bulat› → «bulatan»), -046 («kereta api», lit. fire carriage), -049 («jam», third meaning) and the Sedia Kelas list; '
+    culture_sources='Kata-Kata chapter 7 cards ms-c04-019 («depan» / «hadapan» more formal; the chapter 7 card ms-c07-009 was merged into it in the clean-up), ms-c07-023 («lebih kurang», lit. more-less), -025 («belok», a root word, not a ber- form), -035 (‹bulat› → «bulatan»), -046 («kereta api», lit. fire carriage), -049 («jam», third meaning) and the Sedia Kelas list; '
                     'ledger L-0296 and Sam\'s brief of 12 Nov 2026 (the earlier forms «pergi kerja» and «balik rumah» as everyday speech; «pergi ke pejabat» and «balik ke rumah» as the standard written form); '
                     'Sam\'s decision of 12 Nov 2026 (ledger Journal rows 66 and 67): «masjid», «gereja», «kuil», «tokong», «gurdwara» and «surau» as one even-handed set of landmarks; '
                     'Sam\'s decision of 12 Nov 2026 (ledger Journal rows 68 to 70): «terus» / «jalan terus» / «pergi terus» / «terus depan» for going straight on, «lurus» only as the adjective, and «kalau tidak jam / sesak» for traffic; '

@@ -12,6 +12,7 @@ import re
 import unittest
 from pathlib import Path
 
+from tests import katakata_ref
 from suite import Ledger, build_suite, malay_words, english_words
 from suite import ms_c08, fast
 from catalogue import make_catalogue
@@ -44,9 +45,9 @@ def ch8_placed(rows):
 
 
 def ch8_core(rows):
-    """First placed in chapter 8 and carrying a chapter 8 card, or one of the rows added on 12 Nov 2026 ('Ch8 (pending)')."""
-    return {lid for lid in ch8_placed(rows) if first_chapter(rows[lid]) == 8
-            and (has_c08_card(rows[lid]) or 'Ch8 (pending)' in rows[lid]['Kata-Kata place'])}
+    """First placed in chapter 8 and carrying a chapter 8 card. Since the Kata-Kata clean-up (34710c6) every row added
+    on 12 Nov 2026 (L-1064 to L-1069) has its card, and no place cell says "(pending)" any more."""
+    return {lid for lid in ch8_placed(rows) if first_chapter(rows[lid]) == 8 and has_c08_card(rows[lid])}
 
 
 def ch8_recognition(rows):
@@ -94,11 +95,13 @@ class Chapter8Minimums(unittest.TestCase):
     def test_ledger_partition(self):
         rows = self.ledger.rows
         placed = ch8_placed(rows)
-        # The ledger copy places 60 rows in chapter 8: 41 first-placed core (35 with a chapter 8 card, plus the six rows
-        # Sam approved on 12 Nov 2026: L-1064 to L-1069), 11 Dunia "Beli baju" words (primes Ch8) whose only chapter is 8
-        # and carry no chapter 8 card, and 8 rows placed in earlier chapters that also have a chapter 8 card
-        # (orang, surat, payung, buku, kaki, buah, ikan, kertas).
-        self.assertEqual(len(placed), 60)
+        # The ledger copy (Kata-Kata 34710c6) places 58 rows in chapter 8: 41 first-placed core (35 with a chapter 8 card,
+        # plus the six rows Sam approved on 12 Nov 2026: L-1064 to L-1069, now with their cards), 11 Dunia "Beli baju" words
+        # (primes Ch8) whose only chapter is 8 and carry no chapter 8 card, and 6 rows placed in earlier chapters that also
+        # have a chapter 8 card (orang, surat, payung, buku, ikan, kertas). It was 60 before the clean-up: «kaki» (L-0488)
+        # lost its counter card (Sam: not a counter) and the fruit «buah» (L-0514) lost its card, which was re-pointed to the
+        # counter row L-1067, so neither is placed in chapter 8 any more.
+        self.assertEqual(len(placed), 58)
         core_all = ch8_core(rows)
         self.assertEqual(len(core_all), 41)
         self.assertEqual({rows[x]['Malay'] for x in core_all if int(x[2:]) >= 1064},
@@ -107,7 +110,9 @@ class Chapter8Minimums(unittest.TestCase):
         self.assertEqual(len(rec_all), 11)
         carried = placed - core_all - rec_all
         self.assertEqual({rows[x]['Malay'] for x in carried},
-                         {'orang', 'surat', 'payung', 'buku', 'kaki', 'buah', 'ikan', 'kertas'})
+                         {'orang', 'surat', 'payung', 'buku', 'ikan', 'kertas'})
+        self.assertNotIn('L-0488', placed)
+        self.assertNotIn('L-0514', placed)
         core = self.cfg['core']
         self.assertEqual(len(core), len(set(core)))
         self.assertEqual(set(core), core_all)
@@ -518,7 +523,9 @@ class Chapter8Minimums(unittest.TestCase):
                     ja = line.split(' / ')[-1]
                     self.assertNotRegex(ja, r'\band\b', (unit, ja))
         opener = next(l for l in self.by_unit[self.u] if l['suite']['component_type'] == 'Opener')
-        self.assertIn('Sedia Kelas c08 (13 cards, frames ms-c08-f01 and ms-c08-f02)', ' '.join(self.lines(opener)))
+        self.assertIn(f'Sedia Kelas c08 ({katakata_ref.sedia_count(8)} cards, frames ms-c08-f01 and ms-c08-f02)', ' '.join(self.lines(opener)))
+        # Every chapter's opener count is the real Sedia Kelas size in the pinned file, in English and Japanese.
+        self.assertIn(f'（カード{katakata_ref.sedia_count(8)}枚、文型 f01・f02）', ' '.join(self.lines(opener)))
 
     def test_fast_pack(self):
         self.assertIn('ms-c08-fast', self.by_unit)
@@ -547,7 +554,7 @@ class Chapter8Minimums(unittest.TestCase):
         guide = ' '.join(self.lines(l, 'Self-study'))
         self.assertIn('Sedia Kelas c08', guide)
         self.assertIn(CLOTHES, guide)
-        self.assertIn('ms-c08-001 to ms-c08-043', guide)
+        self.assertIn(f'all {katakata_ref.card_count(8)} Kata-Kata chapter 8 cards (ms-c08-001 to ms-c08-{katakata_ref.last_own_card(8):03}', guide)
 
     def test_catalogue_and_registration(self):
         chapters = json.loads((ROOT / 'dist/chapters.js').read_text()[len('const chapters='):-1])

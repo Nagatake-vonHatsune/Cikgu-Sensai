@@ -1,7 +1,7 @@
 """Step 5h: the Stage 1 close. The unit 9 follow-ups are tested in test_step5g_suite; this file tests the stage review block
 (after unit 9) and the A1 stage test.
 
-Stage review: one integrated scenario that needs all nine chapters, all 54 Kata-Kata frames of chapters 1 to 9 back in the block
+Stage review: one integrated scenario that needs all nine chapters, all 56 Kata-Kata frames of chapters 1 to 9 back in the block
 (charter rule 7, spaced return), a can-do self-check for every Stage 1 goal, registration in the catalogue, natural standard
 Malay with no spoken forms unlabelled and «jalan terus» (not «jalan lurus»).
 """
@@ -69,7 +69,10 @@ class StageReview(unittest.TestCase):
         frames = []
         for n in range(1, 10):
             frames += [f['id'] for f in json.loads((ROOT / f'curriculum/reference/katakata/c{n:02}.json').read_text())['frames']]
-        self.assertEqual(len(frames), 54)
+        # 54 before the Kata-Kata clean-up (34710c6); the clean-up added ms-c05-f06 (Kenapa / Mengapa) and ms-c06-f07 (Saya pilih).
+        self.assertEqual(len(frames), 56)
+        self.assertIn('ms-c05-f06', frames)
+        self.assertIn('ms-c06-f07', frames)
         self.assertEqual(set(stage1.FRAME_RETURNS), set(frames))
         self.assertEqual(set(self.review['suite']['pattern_ids']), set(frames))
         body = ' '.join(self.lines(self.review))
@@ -459,14 +462,65 @@ class StageTest(unittest.TestCase):
 
 
 class KataKataCleanup(unittest.TestCase):
-    def test_every_ledger_action_for_kata_kata_is_listed(self):
+    """The Kata-Kata clean-up brief (docs/kata-kata-cleanup.md) was carried out in the Kata-Kata repository and ended at
+    Kata-Kata 34710c6 (report docs/CLEANUP-2026-11-12.md there). The ledger copy synced from the sheet at the end of the
+    clean-up shows the result: the actions are done, so this test now checks that nothing is left open for Kata-Kata,
+    apart from the items the Kata-Kata report itself leaves open."""
+
+    # Open actions that remain in the ledger after the clean-up, none of them a Kata-Kata change (Kata-Kata report,
+    # "Not done, unverified or for another session"): Kamus Dewan checks, "refresh Cikgu Sensai snapshot" (this sync does it;
+    # the sheet cells are Sam's to clear), Hanashishou work, and rows Sam retired.
+    ALLOWED_OPEN = [
+        r'KD4 check( \([^)]*\))?(; refresh Cikgu Sensai snapshot)?',
+        r'refresh Cikgu Sensai snapshot',
+        r'KD4 check; Cikgu Sensai: rewrite the 3B line that uses it',
+        r'remove from Cikgu Sensai unit 1 \(vocabulary, culture note, pronunciation, teaching plan\)',
+        r'Hanashishou: map the daily-life card to L-0330',
+        r'Hanashishou root-word rule: .*',
+        r'Retired: use L-0336 hospital \(Sam 12 Nov\)',
+        r'Duplicate of L-0702 \(hujung minggu\); use L-0702',
+    ]
+
+    def rows(self):
         import csv
+        return list(csv.DictReader((ROOT / 'curriculum/reference/katakata/malay-ledger.csv').open(encoding='utf-8', newline='')))
+
+    def test_no_open_kata_kata_action_is_left(self):
+        import re
+        rows = self.rows()
+        self.assertEqual(len(rows), 1088)
+        self.assertEqual([r['ID'] for r in rows if 'kata-kata' in r['Action (open)'].lower()], [])
+        # Every remaining open action is one of the known kinds; a new kind (for example "Add ... card" without the words
+        # Kata-Kata) fails here and has to be looked at.
+        for r in rows:
+            action = r['Action (open)'].strip()
+            if action:
+                self.assertTrue(any(re.fullmatch(p, action) for p in self.ALLOWED_OPEN), (r['ID'], action))
+        # No place cell says "(pending)" any more, and the scene rename (Sam, Journal row 80) is in the place column.
+        self.assertFalse([r['ID'] for r in rows if 'pending' in r['Kata-Kata place'].lower()])
+        self.assertFalse([r['ID'] for r in rows if 'Hari Raya' in r['Kata-Kata place']])
+
+    def test_every_card_listed_in_the_brief_now_exists(self):
+        import re
         doc = (ROOT / 'docs/kata-kata-cleanup.md').read_text()
-        rows = list(csv.DictReader((ROOT / 'curriculum/reference/katakata/malay-ledger.csv').open()))
-        named = [r['ID'] for r in rows if 'kata-kata' in r['Action (open)'].lower()]
-        self.assertEqual(len(named), 121)
-        for lid in named:
-            self.assertIn(lid, doc, lid)
+        rows = {r['ID']: r for r in self.rows()}
+        new = re.findall(r'^\| (L-\d{4}) \|', doc, re.M)
+        self.assertEqual(len(new), 112)  # the brief's "New cards" tables
+        cards = {c['id'] for n in range(1, 10)
+                 for c in json.loads((ROOT / f'curriculum/reference/katakata/c{n:02}.json').read_text())['cards']}
+        for lid in new:
+            ids = [x.strip() for x in rows[lid]['Kata-Kata (card IDs)'].split(',') if x.strip()]
+            self.assertTrue(ids, lid)
+            for card in ids:
+                if card.startswith('ms-c'):
+                    self.assertIn(card, cards, (lid, card))
+        # Every chapter card the ledger points at is in the pinned files.
+        for lid, r in rows.items():
+            for card in re.findall(r'ms-c\d\d-\d{3}', r['Kata-Kata (card IDs)']):
+                self.assertIn(card, cards, (lid, card))
+
+    def test_the_brief_still_names_the_decisions(self):
+        doc = (ROOT / 'docs/kata-kata-cleanup.md').read_text()
         for must in ('ms-c01-009', 'L-0592', 'L-0330', 'ms-c07-024', 'jalan terus', 'kurang suku', 'Rumah terbuka Hari Raya',
-                     'Hanashishou mappings', 'Do not edit the Kata-Kata repository'):
+                     'Hanashishou mappings', 'Do not edit the Kata-Kata repository', 'Kata-Kata 34710c6'):
             self.assertIn(must, doc, must)

@@ -2,7 +2,7 @@
 45-minute session per chapter, then self-study in Kata-Kata). Same chapter
 content and ledger limits as the full-course units. Japanese is a draft.
 """
-from . import core, turns
+from . import core, turns, sedia_cards, pack_cards, last_card
 
 C1_WORDS = ['L-0002', 'L-0003', 'L-0004', 'L-0005', 'L-0006', 'L-0028', 'L-0012', 'L-0014', 'L-0015', 'L-0983',
             'L-0016', 'L-0017', 'L-0018', 'L-0019', 'L-0031', 'L-0032', 'L-0033', 'L-0022', 'L-0672', 'L-0025']
@@ -52,7 +52,7 @@ def chapter1(ledger):
                 '☐ 3. Someone says «Terima kasih.» You answer: ____________',
                 '☐ 4. Take your leave until tomorrow: ____________________'], 'test'),
             ('Self-study guide · 自習ガイド', [
-                'Before the session: Kata-Kata Sedia Kelas c01 (23 cards, frames ms-c01-f01 and f02).',
+                f'Before the session: Kata-Kata Sedia Kelas c01 ({sedia_cards(1)} cards, frames ms-c01-f01 and f02).',
                 'After the session: the whole Kata-Kata chapter 1 deck with daily spaced review; frames ms-c01-f01 to f05 in the frame drill and Susun Ayat; '
                 'the chapter 1 scenario "First day at the office".',
                 'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Chapter 1 has no Dunia scene yet. Hanashishou starts at A2.',
@@ -107,7 +107,7 @@ def chapter2(ledger):
                 '☐ 3. Formal: «___ encik tinggal di Bangsar?» — «Ya.»',
                 '☐ 4. "We", including the listener: ________'], 'test'),
             ('Self-study guide · 自習ガイド', [
-                'Before the session: Kata-Kata Sedia Kelas c02 (27 cards, frames ms-c02-f01 and f02).',
+                f'Before the session: Kata-Kata Sedia Kelas c02 ({sedia_cards(2)} cards, frames ms-c02-f01 and f02).',
                 'After the session: the whole Kata-Kata chapter 2 deck with daily spaced review; frames ms-c02-f01 to f08 in the frame drill and Susun Ayat; '
                 'the Dunia scenes "Sembang di pantri" and "Pagi di pejabat".',
                 'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',
@@ -191,7 +191,7 @@ def chapter3(ledger):
                 '☐ 5. Say the second visit: ____________________'], 'test'),
             ('Self-study guide · 自習ガイド', [
                 'Before class: Kata-Kata Sedia Kelas c03; prioritise cards ms-c03-001 to ms-c03-018.',
-                'After class: complete all 56 Kata-Kata chapter 3 cards (ms-c03-001 to ms-c03-056), plus 17 approved Ch3 ledger entries without cards.',
+                f'After class: complete all {pack_cards(3)} Kata-Kata chapter 3 cards (ms-c03-001 to ms-c03-{last_card(3):03}), including the 17 new cards for the approved Ch3 ledger entries.',
                 'Practise Kata-Kata frames ms-c03-f01 to f07 in the frame drill and Susun Ayat.',
                 'Dunia scenes: "Pasar pagi" (11 recognise-only words) and "Ke bank dan pejabat pos" (13 recognise-only words).',
                 'Optional full-course Cikgu Sensai units 3A (numbers, age, digits), 3B (money), and 3C (ordinals and measures).',
@@ -271,8 +271,8 @@ def chapter4(ledger):
                 '☐ 4. Say you will go home at 7: ____________________',
                 '☐ 5. Say you play «badminton» every Saturday: ____________________'], 'test'),
             ('Self-study guide · 自習ガイド', [
-                'Before the session: Kata-Kata Sedia Kelas c04 (24 cards, frames ms-c04-f01 and ms-c04-f02).',
-                'After the session: all 56 Kata-Kata chapter 4 cards (ms-c04-001 to ms-c04-056; «pagi», «tengah hari», «petang» and «malam» are chapter 1 revision) plus the ledger words «datang» and «bila», which have no card yet; frames ms-c04-f01 to ms-c04-f07 in the frame drill and Susun Ayat.',
+                f'Before the session: Kata-Kata Sedia Kelas c04 ({sedia_cards(4)} cards, frames ms-c04-f01 and ms-c04-f02).',
+                f'After the session: all {pack_cards(4)} Kata-Kata chapter 4 cards (ms-c04-001 to ms-c04-{last_card(4):03}; cards ms-c04-008 to -011, «pagi», «tengah hari», «petang» and «malam», now belong to chapter 1 and are revision here), including the new cards for «datang» and «bila»; frames ms-c04-f01 to ms-c04-f07 in the frame drill and Susun Ayat.',
                 'Dunia scenes (recognise only): "Hujan petang" and "Cuti ke pantai" (unit 4A), "Satu hari Encik Tanaka" and "Bangun pagi" (unit 4B).',
                 'Optional full-course Cikgu Sensai units: 4A (time, days, frequency) and 4B (routine and tense markers, timeline drill).',
                 'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',
@@ -349,8 +349,8 @@ def chapter5(ledger):
                 '☐ 4. Say you want the blue umbrella: ____________________',
                 '☐ 5. Order a tea, less sweet, cold, with a little ice: ____________________'], 'test'),
             ('Self-study guide · 自習ガイド', [
-                'Before the session: Kata-Kata Sedia Kelas c05 (23 cards, frames ms-c05-f01 and ms-c05-f02).',
-                'After the session: all 58 Kata-Kata chapter 5 cards (ms-c05-001 to ms-c05-058; ms-c05-008 «sedikit» is chapter 2 revision) plus the ledger words «kenapa», «mengapa», «sebab», «kerana», «kuah» and «kelakar», which have no chapter 5 card yet; frames ms-c05-f01 to ms-c05-f05 in the frame drill and Susun Ayat.',
+                f'Before the session: Kata-Kata Sedia Kelas c05 ({sedia_cards(5)} cards, frames ms-c05-f01 and ms-c05-f02).',
+                f'After the session: all {pack_cards(5)} Kata-Kata chapter 5 cards (ms-c05-001 to ms-c05-{last_card(5):03}; ms-c05-008 «sedikit» now belongs to chapter 2 and is revision here), including the new cards for «kenapa», «mengapa», «sebab», «kerana», «kuah» and «kelakar»; frames ms-c05-f01 to ms-c05-f06 in the frame drill and Susun Ayat (f06 is the «kenapa» / «mengapa» frame).',
                 'Dunia scenes (recognise only): "Masak nasi goreng", "Di klinik", "Gambar bayi" and "Lepak di kedai mamak".',
                 'Optional full-course Cikgu Sensai unit: unit 5 (adjectives, with its writing block).',
                 'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',
@@ -426,8 +426,8 @@ def chapter6(ledger):
                 '☐ 4. Say "This condo is too noisy.": ____________________',
                 '☐ 5. Ask "Which condo do you choose?": ____________________'], 'test'),
             ('Self-study guide · 自習ガイド', [
-                'Before the session: Kata-Kata Sedia Kelas c06 (16 cards, frames ms-c06-f01 and ms-c06-f02).',
-                'After the session: all 34 Kata-Kata chapter 6 cards (ms-c06-001 to ms-c06-034; «sewa», «bilik» and «luas» have no card yet; ms-c06-008 «sekali» and ms-c06-021 «baru» are chapter 4 words with new meanings) and frames ms-c06-f01 to ms-c06-f06 in the frame drill and Susun Ayat.',
+                f'Before the session: Kata-Kata Sedia Kelas c06 ({sedia_cards(6)} cards, frames ms-c06-f01 and ms-c06-f02).',
+                f'After the session: all {pack_cards(6)} Kata-Kata chapter 6 cards (ms-c06-001 to ms-c06-{last_card(6):03}, including the new cards for «sewa», «bilik» and «luas»; ms-c06-008 «sekali» and ms-c06-021 «baru» are chapter 4 words with new meanings) and frames ms-c06-f01 to ms-c06-f07 in the frame drill and Susun Ayat (f07 is «Saya pilih ___»).',
                 'Dunia scene (recognise only): "Main badminton" (14 words).',
                 'Optional full-course Cikgu Sensai unit: unit 6 (comparing and choosing).',
                 'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',
@@ -503,8 +503,8 @@ def chapter7(ledger):
                 '☐ 4. Ask "How far is the station from here?": ____________________',
                 '☐ 5. Ask "How long does it take to the office by bus?": ____________________'], 'test'),
             ('Self-study guide · 自習ガイド', [
-                'Before the session: Kata-Kata Sedia Kelas c07 (27 cards, frames ms-c07-f01 and ms-c07-f02).',
-                'After the session: all 49 Kata-Kata chapter 7 cards (ms-c07-001 to ms-c07-049) and frames ms-c07-f01 to ms-c07-f05 in the frame drill and Susun Ayat; the words for the places of worship («gereja», «kuil», «tokong», «gurdwara», «surau») and the words added in step 5f («kilometer», «terus», «tangga», «jangan», «sebulan») have no card yet; card ms-c07-024 still teaches «jalan lurus», which is not used for directions.',
+                f'Before the session: Kata-Kata Sedia Kelas c07 ({sedia_cards(7)} cards, frames ms-c07-f01 and ms-c07-f02).',
+                f'After the session: all {pack_cards(7)} Kata-Kata chapter 7 cards (ms-c07-001 to ms-c07-{last_card(7):03}; ms-c07-009 «depan» is now one card with chapter 4, ms-c04-019) and frames ms-c07-f01 to ms-c07-f05 in the frame drill and Susun Ayat; the places of worship («gereja», «kuil», «tokong», «gurdwara», «surau») and the words added in step 5f («kilometer», «terus», «tangga», «jangan», «sebulan») now have their cards, and directions are «jalan terus», «pergi terus» and «terus depan».',
                 'Dunia scenes (recognise only): "Di ruang tamu", "Telefon baru" and "Lintas jalan" (33 words).',
                 'Optional full-course Cikgu Sensai unit: unit 7 (locations and directions).',
                 'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',
@@ -580,8 +580,8 @@ def chapter8(ledger):
                 '☐ 4. Ask "How much for everything?": ____________________',
                 '☐ 5. Say "Please wrap three «roti canai».": ____________________'], 'test'),
             ('Self-study guide · 自習ガイド', [
-                'Before the session: Kata-Kata Sedia Kelas c08 (13 cards, frames ms-c08-f01 and ms-c08-f02).',
-                'After the session: all 43 Kata-Kata chapter 8 cards (ms-c08-001 to ms-c08-043) and frames ms-c08-f01 to ms-c08-f05 in the frame drill and Susun Ayat; the Kata-Kata scenario "Morning market and takeaway" uses «nasi lemak», which is now a ledger word (L-1064).',
+                f'Before the session: Kata-Kata Sedia Kelas c08 ({sedia_cards(8)} cards, frames ms-c08-f01 and ms-c08-f02).',
+                f'After the session: all {pack_cards(8)} Kata-Kata chapter 8 cards (ms-c08-001 to ms-c08-{last_card(8):03}; ms-c08-010 was removed in the Kata-Kata clean-up) and frames ms-c08-f01 to ms-c08-f05 in the frame drill and Susun Ayat; the Kata-Kata scenario "Morning market and takeaway" uses «nasi lemak», which is a chapter 8 ledger word (L-1064) with its own card.',
                 'Dunia scene (recognise only): "Beli baju" (11 words).',
                 'Optional full-course Cikgu Sensai unit: unit 8 (counters).',
                 'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',
@@ -657,8 +657,8 @@ def chapter9(ledger):
                 '☐ 4. Say "The office is closed at six.": ____________________',
                 '☐ 5. Read the sign "No entry.": ____________________'], 'test'),
             ('Self-study guide · 自習ガイド', [
-                'Before the session: Kata-Kata Sedia Kelas c09 (12 cards, frames ms-c09-f01 and ms-c09-f02).',
-                'After the session: all 30 Kata-Kata chapter 9 cards (ms-c09-001 to ms-c09-030) and frames ms-c09-f01 to ms-c09-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario "The office «jamuan»" matches this pack.',
+                f'Before the session: Kata-Kata Sedia Kelas c09 ({sedia_cards(9)} cards, frames ms-c09-f01 and ms-c09-f02).',
+                f'After the session: all {pack_cards(9)} Kata-Kata chapter 9 cards (ms-c09-001 to ms-c09-{last_card(9):03}; ms-c09-028 «pinggan» was merged into ms-c08-016) and frames ms-c09-f01 to ms-c09-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario "The office «jamuan»" matches this pack.',
                 'Dunia scenes (recognise only): "Rumah terbuka" (19 words, a general open house with festival words) and "Simpulan bahasa harian" (14 idioms; never drilled).',
                 'Optional full-course Cikgu Sensai unit: unit 9 (the passive «di-», signs and notices), with a culture note for each festival. The stage review and the A1 test come next and wait for Sam.',
                 'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',

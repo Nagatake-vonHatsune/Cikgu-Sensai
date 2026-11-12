@@ -25,6 +25,29 @@ from pathlib import Path
 from language_checks import Checker, norm, tokens
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def katakata_pack(n):
+    """Kata-Kata chapter file n (curriculum/reference/katakata/c0n.json, pinned in docs/step4-sources.json)."""
+    return json.loads((ROOT / f'curriculum/reference/katakata/c{n:02}.json').read_text(encoding='utf-8'))
+
+
+def sedia_cards(n):
+    """Number of cards in Kata-Kata's Sedia Kelas list for chapter n. Always read from the pinned file: the clean-up
+    (Kata-Kata 34710c6) changed every chapter's count, so a hand-typed number goes stale."""
+    return len(katakata_pack(n)['sedia_kelas']['cards'])
+
+
+def last_card(n):
+    """Highest card number of chapter n's own cards (ids ms-c0n-NNN; some numbers are gaps after moves and merges)."""
+    return max(int(c['id'][-3:]) for c in katakata_pack(n)['cards'] if c['id'].startswith(f'ms-c{n:02}-'))
+
+
+def pack_cards(n):
+    """Number of cards in the chapter n pack of Kata-Kata (cards of the chapter, not Sedia Kelas)."""
+    return len(katakata_pack(n)['cards'])
+
+
 TARGET = re.compile(r'«([^«»‹›]+)»')
 MENTION = re.compile(r'‹([^«»‹›]+)›')
 JA_DRAFT = '（日本語は下書きです。ネイティブ・スピーカーの確認待ち）'

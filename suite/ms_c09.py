@@ -565,7 +565,7 @@ CFG = dict(
         title='Culture note · Open houses in Malaysia',
         en=FESTIVAL_EN, ja=FESTIVAL_JA,
         sources='the festival words are ledger rows L-0537 to L-0549 (the Raya words, with their glosses) and L-1070 to L-1075 (Sam approved the six rows on 12 Nov 2026); «pesta» is L-1084 (Sam approved on 12 Nov 2026); '
-                'the Raya details are the ledger glosses and the Kata-Kata Dunia scene "Rumah terbuka Hari Raya"; '
+                'the Raya details are the ledger glosses and the Kata-Kata Dunia scene "Rumah terbuka" (renamed from "Rumah terbuka Hari Raya" in the Kata-Kata clean-up); '
                 'open houses as a Malaysian custom open to other communities: EMGS Connect, "You\'ve been invited to an Open House: «Hari Raya» Traditions", and Arab News, "Malaysia\'s \'Open House\' ensures all are welcome on Eid", both seen in search summaries only; '
                 'Chinese New Year open houses and red packets: EMGS Connect, "Chinese New Year in Malaysia", and Malay Mail, 10 Feb 2026 (MCA open house), seen in search summaries only; '
                 '«Deepavali» open houses for all Malaysians: Malay Mail, 8 Nov 2026, "Eat, mingle, celebrate: five «Deepavali» open houses from Brickfields to Ipoh for all Malaysians" and a Malay Mail piece on a family open house, seen in search summaries only; '

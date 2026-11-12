@@ -6,7 +6,7 @@ also teaches languages («bahasa Melayu», «cakap», «sedikit»; Sam's decisio
 Kata-Kata frames ms-c02-f01, f02, f03 and f08 (f08 in its plain form; the -kah
 form follows in unit 2B). Japanese is a draft awaiting native review.
 """
-from . import vocab, malay_words, english_words, pattern, turns
+from . import vocab, malay_words, english_words, pattern, turns, sedia_cards
 
 GOALS = {
     'A': 'I can say my name and nationality and ask other people theirs.',
@@ -53,7 +53,7 @@ def components(ledger):
                 'ノートを見ずに、時間に合ったあいさつをして様子をたずねましょう。相手は答えて質問を返します。',
                 'Then: write one Tanya Cikgu question about chapter 2: ____________________']),
             ('Self-study · 自習', [
-                'Before class: Kata-Kata Sedia Kelas set c02 (27 cards, frames ms-c02-f01 and f02).',
+                f'Before class: Kata-Kata Sedia Kelas set c02 ({sedia_cards(2)} cards, frames ms-c02-f01 and f02).',
                 'After class: the chapter 2 cards for this unit and the Dunia scene "Sembang di pantri". Planning figure: about 3 hours per unit.',
                 '授業前：Sedia Kelas c02。授業後：このユニットのカードと Dunia「Sembang di pantri」。目安は1ユニット約3時間。'])],
         key=['Expected recall: 1 «Selamat pagi, Puan Aini. Apa khabar?» 2 «Selamat tengah hari, Encik Rahman. Apa khabar?» '
@@ -124,8 +124,8 @@ def components(ledger):
                 ('L-0948', '«Boleh cakap bahasa Melayu?» — «Sikit je.» (spoken)', dict(en='just a little (spoken)'))]),
         ]))],
         key=['Kata-Kata cards ms-c02-002 to ms-c02-028 (pronouns, names, origin), ms-c02-040 to 043, and Dunia cards ms-d-pejabat-sembang-01 to 12.',
-             '«ini» (L-0985) and «itu» (L-0986) have no Kata-Kata card yet (pending). «saya» was taught in unit 1.',
-             '«bahasa», «Melayu», «Inggeris» (L-1016 to L-1018) and the Ch2 cards for «cakap» and «sedikit» are pending in Kata-Kata. '
+             '«ini» (L-0985) and «itu» (L-0986) now have Kata-Kata chapter 2 cards (ms-c02-067 and ms-c02-068). «saya» was taught in unit 1.',
+             '«bahasa», «Melayu», «Inggeris» (L-1016 to L-1018) and the Ch2 cards for «cakap» (ms-c02-064) and «sedikit» (card ms-c05-008, placed in chapter 2 since the clean-up) now exist in Kata-Kata. '
              'Sam moved «sedikit» to chapter 2 on 11 Nov 2026, so the spoken «sikit je» (L-0948) is now taught after its standard form.',
              'Check in class: point at people (I, you, he or she, we, they); learners answer with the pronoun. Ask "Which "you" for your manager?" Expected: the title («Encik», «Puan»), not «awak».']))
 
@@ -503,7 +503,7 @@ def components(ledger):
                  'For the teacher: timings for the five 45-minute blocks, prompts, expected answers and Kata-Kata homework.'),
         sections=[
             ('Before and after · 授業の前後', [
-                'Before Block A: Kata-Kata Sedia Kelas c02 (27 cards; frames ms-c02-f01, f02). Collect Tanya Cikgu questions.',
+                f'Before Block A: Kata-Kata Sedia Kelas c02 ({sedia_cards(2)} cards; frames ms-c02-f01, f02). Collect Tanya Cikgu questions.',
                 'After Block B: the unit 2A cards with spaced review. Before Block E: the Dunia scene "Sembang di pantri".',
                 'After Block D: Kata-Kata cards for unit 2B (work, home, family, pe- and -an). Planning figure: about 3 hours of Kata-Kata for this unit.',
                 'Hanashishou starts at A2: no link yet. Audio: teacher-read scripts only.']),

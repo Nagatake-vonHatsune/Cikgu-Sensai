@@ -21,8 +21,9 @@ source locations and quoted evidence. Japanese text awaits native-speaker review
 Step 2 adds the component catalogue below. Step 3 adds the language checks; step 4 the pilot suites.
 
 
-To reproduce the audit, obtain Kata-Kata at the exact revision recorded in
-`docs/restructure-sources.json`, then run
+To reproduce the original restructure audit (not the current files), obtain Kata-Kata at the
+revision recorded in `docs/restructure-sources.json` (0f78179; the current snapshot is 34710c6,
+see `docs/step4-sources.json`), then run
 `python tools/restructure_audit.py /path/to/katakata` before `python build.py`.
 The audit reports issues only and never edits the reference repository or lesson text.
 `build.py` regenerates bank.js, chapters.js and the downloadable offline ZIP.

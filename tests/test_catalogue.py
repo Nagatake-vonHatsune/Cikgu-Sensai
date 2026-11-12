@@ -40,10 +40,16 @@ class CatalogueTests(unittest.TestCase):
         strip=lambda ls:[{k:v for k,v in l.items()} | {'pages':[{k:v for k,v in p.items() if k!='index'} for p in l['pages']]} for l in ls]
         self.assertEqual(strip(expected),strip(legacy))
     def test_pinned_sources(self):
-        manifest=json.loads((ROOT/'docs/restructure-sources.json').read_text())
-        for p in (ROOT/'curriculum/reference/katakata').glob('*.json'):
-            self.assertEqual(hashlib.sha256(p.read_bytes()).hexdigest(),manifest['files']['content/ms/kelas/'+p.name])
-        # The ledger was refreshed from the Google Sheet for step 4 (docs/step4-sources.json).
+        # The Kata-Kata chapter files are the ones at Kata-Kata commit 34710c6 (end of the 12 Nov 2026
+        # clean-up), pinned in docs/step4-sources.json. docs/restructure-sources.json keeps the older
+        # Stage 1 baseline (0f78179) as a record only.
+        sources=json.loads((ROOT/'docs/step4-sources.json').read_text())
+        self.assertEqual(sources['kata_kata_commit'],'34710c6')
+        files=sorted((ROOT/'curriculum/reference/katakata').glob('c*.json'))
+        self.assertEqual([p.name for p in files],['c0%d.json'%i for i in range(1,10)])
+        for p in files:
+            self.assertEqual(hashlib.sha256(p.read_bytes()).hexdigest(),sources['kata_kata_chapter_sha256']['content/ms/kelas/'+p.name],p.name)
+        # The ledger copies are Kata-Kata content/ledger/malay-ledger.csv at 34710c6, synced from the sheet at the end of the clean-up.
         ledger=ROOT/'curriculum/reference/katakata/malay-ledger.csv'
         self.assertEqual(hashlib.sha256(ledger.read_bytes()).hexdigest(),json.loads((ROOT/'docs/step4-sources.json').read_text())['ledger']['sha256'])
         import csv, io

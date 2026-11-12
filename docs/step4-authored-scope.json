@@ -189,7 +189,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 1 · Chapter opener|4|0": {
-  "source_text": "Before class: Kata-Kata Sedia Kelas set c01 (23 cards, frames ms-c01-f01 and f02).",
+  "source_text": "Before class: Kata-Kata Sedia Kelas set c01 (26 cards, frames ms-c01-f01 and f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -1116,7 +1116,7 @@
   "exclusion": null
  },
  "Unit 1 · Vocabulary focus|7|0": {
-  "source_text": "Kata-Kata cards: ms-c01-001 to ms-c01-038. saya is card ms-c02-001; pagi, tengah hari, petang, malam are cards ms-c04-008 to 011. All five were placed in chapter 1 on 11 Nov 2026; the Kata-Kata move is pending.",
+  "source_text": "Kata-Kata cards: ms-c01-001 to ms-c01-040 (card ms-c01-009, a faith-specific greeting, was removed in the Kata-Kata clean-up; such greetings are not taught). saya is card ms-c02-001; pagi, tengah hari, petang, malam are cards ms-c04-008 to 011. All five were placed in chapter 1 on 11 Nov 2026 and moved to Kata-Kata chapter 1 in the clean-up (Kata-Kata 34710c6; chapters 2 and 4 review them).",
   "target_spans": [
    "saya",
    "pagi",
@@ -1129,7 +1129,7 @@
   "exclusion": null
  },
  "Unit 1 · Vocabulary focus|7|1": {
-  "source_text": "pun (L-0983) and oh (L-0984) have no Kata-Kata card yet (pending).",
+  "source_text": "pun (L-0983) and oh (L-0984) now have Kata-Kata chapter 1 cards (ms-c01-039 and ms-c01-040).",
   "target_spans": [
    "pun",
    "oh"
@@ -4981,7 +4981,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 1 · Teaching plan and answer key|3|0": {
-  "source_text": "Before Block A: learners do Kata-Kata Sedia Kelas c01 (23 cards; frames ms-c01-f01, f02) and send Tanya Cikgu questions.",
+  "source_text": "Before Block A: learners do Kata-Kata Sedia Kelas c01 (26 cards; frames ms-c01-f01, f02) and send Tanya Cikgu questions.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -5787,7 +5787,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 2A · Chapter opener|3|20": {
-  "source_text": "Before class: Kata-Kata Sedia Kelas set c02 (27 cards, frames ms-c02-f01 and f02).",
+  "source_text": "Before class: Kata-Kata Sedia Kelas set c02 (29 cards, frames ms-c02-f01 and f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -6773,7 +6773,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 2A · Vocabulary focus|7|1": {
-  "source_text": "ini (L-0985) and itu (L-0986) have no Kata-Kata card yet (pending). saya was taught in unit 1.",
+  "source_text": "ini (L-0985) and itu (L-0986) now have Kata-Kata chapter 2 cards (ms-c02-067 and ms-c02-068). saya was taught in unit 1.",
   "target_spans": [
    "ini",
    "itu",
@@ -6784,7 +6784,7 @@
   "exclusion": null
  },
  "Unit 2A · Vocabulary focus|7|2": {
-  "source_text": "bahasa, Melayu, Inggeris (L-1016 to L-1018) and the Ch2 cards for cakap and sedikit are pending in Kata-Kata. Sam moved sedikit to chapter 2 on 11 Nov 2026, so the spoken sikit je (L-0948) is now taught after its standard form.",
+  "source_text": "bahasa, Melayu, Inggeris (L-1016 to L-1018) and the Ch2 cards for cakap (ms-c02-064) and sedikit (card ms-c05-008, placed in chapter 2 since the clean-up) now exist in Kata-Kata. Sam moved sedikit to chapter 2 on 11 Nov 2026, so the spoken sikit je (L-0948) is now taught after its standard form.",
   "target_spans": [
    "bahasa",
    "Melayu",
@@ -10574,7 +10574,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 2A · Teaching plan and answer key|3|0": {
-  "source_text": "Before Block A: Kata-Kata Sedia Kelas c02 (27 cards; frames ms-c02-f01, f02). Collect Tanya Cikgu questions.",
+  "source_text": "Before Block A: Kata-Kata Sedia Kelas c02 (29 cards; frames ms-c02-f01, f02). Collect Tanya Cikgu questions.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -12416,7 +12416,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 2B · Vocabulary focus|8|1": {
-  "source_text": "adakah (L-0988), bolehkah (L-0783) and kelas (L-0987) have no Kata-Kata card yet (pending). Roots shown as quoted roots come from Kata-Kata card notes; some (makan, baca) are chapter 4 words and are not taught here.",
+  "source_text": "adakah (L-0988), bolehkah (L-0783) and kelas (L-0987) now have Kata-Kata chapter 2 cards (ms-c02-070, -065, -069). Roots shown as quoted roots come from Kata-Kata card notes; some (makan, baca) are chapter 4 words and are not taught here.",
   "target_spans": [
    "adakah",
    "bolehkah",
@@ -12430,7 +12430,7 @@
   "exclusion": null
  },
  "Unit 2B · Vocabulary focus|8|2": {
-  "source_text": "Load: 37 core words (plus the -kah review of di manakah), 14 office words to recognise, and 14 hobby words of which each learner keeps the few that are true for them. dengan is now taught in unit 2A. Hobby words L-1019 to L-1031 have no Kata-Kata card yet (pending); test only the hobby words a learner chose.",
+  "source_text": "Load: 37 core words (plus the -kah review of di manakah), 14 office words to recognise, and 14 hobby words of which each learner keeps the few that are true for them. dengan is now taught in unit 2A. Hobby words L-1019 to L-1031 now have Kata-Kata chapter 2 cards (ms-c02-074 to ms-c02-086); test only the hobby words a learner chose.",
   "target_spans": [
    "di manakah",
    "dengan"
@@ -30671,7 +30671,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4A · Chapter opener|3|12": {
-  "source_text": "Before class: Kata-Kata Sedia Kelas c04 (24 cards, frames ms-c04-f01 and ms-c04-f02). / 授業前：Kata-Kata Sedia Kelas c04（カード24枚、文型 f01・f02）。",
+  "source_text": "Before class: Kata-Kata Sedia Kelas c04 (26 cards, frames ms-c04-f01 and ms-c04-f02). / 授業前：Kata-Kata Sedia Kelas c04（カード26枚、文型 f01・f02）。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -31452,7 +31452,7 @@
   "exclusion": null
  },
  "Unit 4A · Vocabulary focus|5|18": {
-  "source_text": "sekali — once · 一回  [L-0188]",
+  "source_text": "sekali — once; very (after an adjective) · 一回；とても（後置）  [L-0188]",
   "target_spans": [
    "sekali"
   ],
@@ -35854,7 +35854,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4A · Teaching plan and answer key|3|0": {
-  "source_text": "Before Block A: Kata-Kata Sedia Kelas c04 (24 cards, frames ms-c04-f01 and ms-c04-f02).",
+  "source_text": "Before Block A: Kata-Kata Sedia Kelas c04 (26 cards, frames ms-c04-f01 and ms-c04-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -36320,7 +36320,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4B · Chapter opener|3|12": {
-  "source_text": "Before class: Kata-Kata Sedia Kelas c04 (24 cards, frames ms-c04-f01 and ms-c04-f02). / 授業前：Kata-Kata Sedia Kelas c04（カード24枚、文型 f01・f02）。",
+  "source_text": "Before class: Kata-Kata Sedia Kelas c04 (26 cards, frames ms-c04-f01 and ms-c04-f02). / 授業前：Kata-Kata Sedia Kelas c04（カード26枚、文型 f01・f02）。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -36862,9 +36862,12 @@
   "exclusion": null
  },
  "Unit 4B · Vocabulary focus|4|22": {
-  "source_text": "depan — next (time); front · 次の；前  [L-0173]",
+  "source_text": "depan / hadapan — next (time); front (hadapan is the formal word) · 次の；前（hadapan は改まった言い方）  [L-0173]",
   "target_spans": [
-   "depan"
+   "depan",
+   "hadapan",
+   "hadapan",
+   "hadapan"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -36915,7 +36918,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|28": {
+ "Unit 4B · Vocabulary focus|5|0": {
   "source_text": "lambat — late, slow · 遅い  [L-0207]",
   "target_spans": [
    "lambat"
@@ -36924,7 +36927,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|0": {
+ "Unit 4B · Vocabulary focus|5|1": {
   "source_text": "   e.g. Maaf, saya lambat.",
   "target_spans": [
    "Maaf, saya lambat."
@@ -36933,7 +36936,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|1": {
+ "Unit 4B · Vocabulary focus|5|2": {
   "source_text": "lewat — late · 遅れて・遅い  [L-1047]",
   "target_spans": [
    "lewat"
@@ -36942,7 +36945,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|2": {
+ "Unit 4B · Vocabulary focus|5|3": {
   "source_text": "   e.g. Malam ini saya balik lewat. (lewat and lambat both mean late; lambat also means slow)",
   "target_spans": [
    "Malam ini saya balik lewat.",
@@ -36954,7 +36957,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|3": {
+ "Unit 4B · Vocabulary focus|5|4": {
   "source_text": "mesyuarat — meeting · 会議  [L-0208]",
   "target_spans": [
    "mesyuarat"
@@ -36963,7 +36966,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|4": {
+ "Unit 4B · Vocabulary focus|5|5": {
   "source_text": "   e.g. Mesyuarat mula pukul tiga dan habis pukul lima.",
   "target_spans": [
    "Mesyuarat mula pukul tiga dan habis pukul lima."
@@ -36972,7 +36975,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|5": {
+ "Unit 4B · Vocabulary focus|5|6": {
   "source_text": "hujung minggu — Weekend · 週末  [L-0702]",
   "target_spans": [
    "hujung minggu"
@@ -36981,7 +36984,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|6": {
+ "Unit 4B · Vocabulary focus|5|7": {
   "source_text": "   e.g. Hujung minggu saya main badminton.",
   "target_spans": [
    "Hujung minggu saya main badminton."
@@ -36990,21 +36993,21 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|7": {
+ "Unit 4B · Vocabulary focus|5|8": {
   "source_text": "■ Dunia · To recognise · 聞いて分かる",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|5|8": {
+ "Unit 4B · Vocabulary focus|5|9": {
   "source_text": "■ Dunia · To recognise · \"Satu hari Encik Tanaka\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|5|9": {
+ "Unit 4B · Vocabulary focus|5|10": {
   "source_text": "duduk — to sit · 座る  [L-0471]",
   "target_spans": [
    "duduk"
@@ -37013,7 +37016,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|10": {
+ "Unit 4B · Vocabulary focus|5|11": {
   "source_text": "   e.g. Saya duduk dan tunggu.",
   "target_spans": [
    "Saya duduk dan tunggu."
@@ -37022,7 +37025,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|11": {
+ "Unit 4B · Vocabulary focus|5|12": {
   "source_text": "dengar — to listen, hear · 聞く  [L-0472]",
   "target_spans": [
    "dengar"
@@ -37031,7 +37034,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|12": {
+ "Unit 4B · Vocabulary focus|5|13": {
   "source_text": "   e.g. Saya dengar muzik setiap pagi.",
   "target_spans": [
    "Saya dengar muzik setiap pagi."
@@ -37040,7 +37043,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|13": {
+ "Unit 4B · Vocabulary focus|5|14": {
   "source_text": "baca — to read · 読む  [L-0474]",
   "target_spans": [
    "baca"
@@ -37049,7 +37052,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|14": {
+ "Unit 4B · Vocabulary focus|5|15": {
   "source_text": "   e.g. Saya baca e-mel dulu.",
   "target_spans": [
    "Saya baca e-mel dulu."
@@ -37058,7 +37061,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|15": {
+ "Unit 4B · Vocabulary focus|5|16": {
   "source_text": "tulis — to write · 書く  [L-0475]",
   "target_spans": [
    "tulis"
@@ -37067,7 +37070,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|16": {
+ "Unit 4B · Vocabulary focus|5|17": {
   "source_text": "   e.g. Saya tulis e-mel untuk bos.",
   "target_spans": [
    "Saya tulis e-mel untuk bos."
@@ -37076,7 +37079,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|17": {
+ "Unit 4B · Vocabulary focus|5|18": {
   "source_text": "faham — to understand · わかる  [L-0476]",
   "target_spans": [
    "faham"
@@ -37085,7 +37088,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|18": {
+ "Unit 4B · Vocabulary focus|5|19": {
   "source_text": "   e.g. Encik faham? Faham.",
   "target_spans": [
    "Encik faham?",
@@ -37095,7 +37098,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|19": {
+ "Unit 4B · Vocabulary focus|5|20": {
   "source_text": "tahu — to know · 知っている  [L-0477]",
   "target_spans": [
    "tahu"
@@ -37104,7 +37107,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|20": {
+ "Unit 4B · Vocabulary focus|5|21": {
   "source_text": "   e.g. Maaf, saya tidak tahu.",
   "target_spans": [
    "Maaf, saya tidak tahu."
@@ -37113,7 +37116,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|21": {
+ "Unit 4B · Vocabulary focus|5|22": {
   "source_text": "ingat — to remember · 覚えている  [L-0478]",
   "target_spans": [
    "ingat"
@@ -37122,7 +37125,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|22": {
+ "Unit 4B · Vocabulary focus|5|23": {
   "source_text": "   e.g. Encik ingat nama saya?",
   "target_spans": [
    "Encik ingat nama saya?"
@@ -37131,7 +37134,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|23": {
+ "Unit 4B · Vocabulary focus|5|24": {
   "source_text": "lupa — to forget · 忘れる  [L-0479]",
   "target_spans": [
    "lupa"
@@ -37140,7 +37143,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|24": {
+ "Unit 4B · Vocabulary focus|5|25": {
   "source_text": "   e.g. Alamak, saya lupa!",
   "target_spans": [
    "Alamak, saya lupa!"
@@ -37149,7 +37152,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|25": {
+ "Unit 4B · Vocabulary focus|5|26": {
   "source_text": "guna — to use · 使う  [L-0480]",
   "target_spans": [
    "guna"
@@ -37158,7 +37161,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|26": {
+ "Unit 4B · Vocabulary focus|5|27": {
   "source_text": "   e.g. Saya guna komputer setiap hari.",
   "target_spans": [
    "Saya guna komputer setiap hari."
@@ -37167,7 +37170,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|27": {
+ "Unit 4B · Vocabulary focus|5|28": {
   "source_text": "ambil — to take · 取る  [L-0481]",
   "target_spans": [
    "ambil"
@@ -37176,7 +37179,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|28": {
+ "Unit 4B · Vocabulary focus|5|29": {
   "source_text": "   e.g. Saya ambil fail ini, ya.",
   "target_spans": [
    "Saya ambil fail ini, ya."
@@ -37185,7 +37188,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|29": {
+ "Unit 4B · Vocabulary focus|5|30": {
   "source_text": "bagi — to give · あげる  [L-0482]",
   "target_spans": [
    "bagi"
@@ -37194,7 +37197,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|30": {
+ "Unit 4B · Vocabulary focus|6|0": {
   "source_text": "   e.g. Saya bagi buku ini untuk anak saya.",
   "target_spans": [
    "Saya bagi buku ini untuk anak saya."
@@ -37203,7 +37206,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|0": {
+ "Unit 4B · Vocabulary focus|6|1": {
   "source_text": "bawa — to bring, carry · 持っていく  [L-0483]",
   "target_spans": [
    "bawa"
@@ -37212,7 +37215,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|1": {
+ "Unit 4B · Vocabulary focus|6|2": {
   "source_text": "   e.g. Saya bawa makanan dari rumah.",
   "target_spans": [
    "Saya bawa makanan dari rumah."
@@ -37221,7 +37224,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|2": {
+ "Unit 4B · Vocabulary focus|6|3": {
   "source_text": "buka — to open · 開ける  [L-0484]",
   "target_spans": [
    "buka"
@@ -37230,7 +37233,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|3": {
+ "Unit 4B · Vocabulary focus|6|4": {
   "source_text": "   e.g. Pejabat buka pukul sembilan.",
   "target_spans": [
    "Pejabat buka pukul sembilan."
@@ -37239,7 +37242,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|4": {
+ "Unit 4B · Vocabulary focus|6|5": {
   "source_text": "tutup — to close; to switch off · 閉める・消す  [L-0485]",
   "target_spans": [
    "tutup"
@@ -37248,7 +37251,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|5": {
+ "Unit 4B · Vocabulary focus|6|6": {
   "source_text": "   e.g. Pasar tutup pukul satu tengah hari.",
   "target_spans": [
    "Pasar tutup pukul satu tengah hari."
@@ -37257,7 +37260,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|6": {
+ "Unit 4B · Vocabulary focus|6|7": {
   "source_text": "kemas — to tidy · 片付ける  [L-0486]",
   "target_spans": [
    "kemas"
@@ -37266,7 +37269,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|7": {
+ "Unit 4B · Vocabulary focus|6|8": {
   "source_text": "   e.g. Saya kemas rumah hari Sabtu.",
   "target_spans": [
    "Saya kemas rumah hari Sabtu."
@@ -37275,7 +37278,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|8": {
+ "Unit 4B · Vocabulary focus|6|9": {
   "source_text": "buku — book · 本  [L-0487]",
   "target_spans": [
    "buku"
@@ -37284,7 +37287,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|9": {
+ "Unit 4B · Vocabulary focus|6|10": {
   "source_text": "   e.g. Saya baca buku sebelum tidur.",
   "target_spans": [
    "Saya baca buku sebelum tidur."
@@ -37293,7 +37296,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|10": {
+ "Unit 4B · Vocabulary focus|6|11": {
   "source_text": "kaki — foot, leg · 足  [L-0488]",
   "target_spans": [
    "kaki"
@@ -37302,7 +37305,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|11": {
+ "Unit 4B · Vocabulary focus|6|12": {
   "source_text": "   e.g. Kaki saya basah.",
   "target_spans": [
    "Kaki saya basah."
@@ -37311,14 +37314,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|12": {
+ "Unit 4B · Vocabulary focus|6|13": {
   "source_text": "■ Dunia · To recognise · \"Bangun pagi\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|6|13": {
+ "Unit 4B · Vocabulary focus|6|14": {
   "source_text": "katil — bed · ベッド  [L-0551]",
   "target_spans": [
    "katil"
@@ -37327,7 +37330,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|14": {
+ "Unit 4B · Vocabulary focus|6|15": {
   "source_text": "   e.g. Saya masih di katil.",
   "target_spans": [
    "Saya masih di katil."
@@ -37336,7 +37339,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|15": {
+ "Unit 4B · Vocabulary focus|6|16": {
   "source_text": "bantal — pillow · 枕  [L-0552]",
   "target_spans": [
    "bantal"
@@ -37345,7 +37348,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|16": {
+ "Unit 4B · Vocabulary focus|6|17": {
   "source_text": "   e.g. Ada bantal lagi?",
   "target_spans": [
    "Ada bantal lagi?"
@@ -37354,7 +37357,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|17": {
+ "Unit 4B · Vocabulary focus|6|18": {
   "source_text": "selimut — blanket · 毛布  [L-0553]",
   "target_spans": [
    "selimut"
@@ -37363,7 +37366,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|18": {
+ "Unit 4B · Vocabulary focus|6|19": {
   "source_text": "   e.g. Selimut ini untuk anak saya.",
   "target_spans": [
    "Selimut ini untuk anak saya."
@@ -37372,7 +37375,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|19": {
+ "Unit 4B · Vocabulary focus|6|20": {
   "source_text": "jam loceng — alarm clock · 目覚まし時計  [L-0554]",
   "target_spans": [
    "jam loceng"
@@ -37381,7 +37384,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|20": {
+ "Unit 4B · Vocabulary focus|6|21": {
   "source_text": "   e.g. Jam loceng saya pukul enam.",
   "target_spans": [
    "Jam loceng saya pukul enam."
@@ -37390,7 +37393,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|21": {
+ "Unit 4B · Vocabulary focus|6|22": {
   "source_text": "bilik air — bathroom · 浴室・トイレ  [L-0555]",
   "target_spans": [
    "bilik air"
@@ -37399,7 +37402,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|22": {
+ "Unit 4B · Vocabulary focus|6|23": {
   "source_text": "   e.g. Bilik air di mana?",
   "target_spans": [
    "Bilik air di mana?"
@@ -37408,7 +37411,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|23": {
+ "Unit 4B · Vocabulary focus|6|24": {
   "source_text": "cermin — mirror · 鏡  [L-0556]",
   "target_spans": [
    "cermin"
@@ -37417,7 +37420,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|24": {
+ "Unit 4B · Vocabulary focus|6|25": {
   "source_text": "   e.g. Ada cermin di bilik air.",
   "target_spans": [
    "Ada cermin di bilik air."
@@ -37426,7 +37429,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|25": {
+ "Unit 4B · Vocabulary focus|6|26": {
   "source_text": "gigi — teeth · 歯  [L-0557]",
   "target_spans": [
    "gigi"
@@ -37435,7 +37438,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|26": {
+ "Unit 4B · Vocabulary focus|6|27": {
   "source_text": "   e.g. Gosok gigi dulu!",
   "target_spans": [
    "Gosok gigi dulu!"
@@ -37444,7 +37447,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|27": {
+ "Unit 4B · Vocabulary focus|6|28": {
   "source_text": "berus gigi — toothbrush · 歯ブラシ  [L-0558]",
   "target_spans": [
    "berus gigi"
@@ -37453,7 +37456,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|28": {
+ "Unit 4B · Vocabulary focus|6|29": {
   "source_text": "   e.g. Ini berus gigi anak saya.",
   "target_spans": [
    "Ini berus gigi anak saya."
@@ -37462,7 +37465,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|29": {
+ "Unit 4B · Vocabulary focus|6|30": {
   "source_text": "ubat gigi — toothpaste · 歯磨き粉  [L-0559]",
   "target_spans": [
    "ubat gigi"
@@ -37471,7 +37474,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|30": {
+ "Unit 4B · Vocabulary focus|7|0": {
   "source_text": "   e.g. Ubat gigi sudah habis.",
   "target_spans": [
    "Ubat gigi sudah habis."
@@ -37480,7 +37483,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|0": {
+ "Unit 4B · Vocabulary focus|7|1": {
   "source_text": "gosok — to brush, rub; to iron · 磨く・こする  [L-0560]",
   "target_spans": [
    "gosok"
@@ -37489,7 +37492,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|1": {
+ "Unit 4B · Vocabulary focus|7|2": {
   "source_text": "   e.g. Saya gosok gigi sebelum tidur.",
   "target_spans": [
    "Saya gosok gigi sebelum tidur."
@@ -37498,7 +37501,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|2": {
+ "Unit 4B · Vocabulary focus|7|3": {
   "source_text": "sabun — soap · 石けん  [L-0561]",
   "target_spans": [
    "sabun"
@@ -37507,7 +37510,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|3": {
+ "Unit 4B · Vocabulary focus|7|4": {
   "source_text": "   e.g. Ada sabun?",
   "target_spans": [
    "Ada sabun?"
@@ -37516,7 +37519,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|4": {
+ "Unit 4B · Vocabulary focus|7|5": {
   "source_text": "tuala — towel · タオル  [L-0562]",
   "target_spans": [
    "tuala"
@@ -37525,7 +37528,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|5": {
+ "Unit 4B · Vocabulary focus|7|6": {
   "source_text": "   e.g. Tuala saya basah.",
   "target_spans": [
    "Tuala saya basah."
@@ -37534,7 +37537,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|6": {
+ "Unit 4B · Vocabulary focus|7|7": {
   "source_text": "pakai — to wear; to use · 着る・使う  [L-0563]",
   "target_spans": [
    "pakai"
@@ -37543,7 +37546,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|7": {
+ "Unit 4B · Vocabulary focus|7|8": {
   "source_text": "   e.g. Saya pakai jam.",
   "target_spans": [
    "Saya pakai jam."
@@ -37552,21 +37555,21 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|8": {
+ "Unit 4B · Vocabulary focus|7|9": {
   "source_text": "■ Revision · 復習 (not new, not tested as new vocabulary)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|7|9": {
+ "Unit 4B · Vocabulary focus|7|10": {
   "source_text": "■ Revision · 復習 · Chapters 1 to 3",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|7|10": {
+ "Unit 4B · Vocabulary focus|7|11": {
   "source_text": "selepas — after · 〜の後  [L-1001]",
   "target_spans": [
    "selepas"
@@ -37575,7 +37578,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|11": {
+ "Unit 4B · Vocabulary focus|7|12": {
   "source_text": "   e.g. Selepas kerja, saya main badminton.",
   "target_spans": [
    "Selepas kerja, saya main badminton."
@@ -37584,7 +37587,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|12": {
+ "Unit 4B · Vocabulary focus|7|13": {
   "source_text": "sebelum — before · 〜の前  [L-1002]",
   "target_spans": [
    "sebelum"
@@ -37593,7 +37596,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|13": {
+ "Unit 4B · Vocabulary focus|7|14": {
   "source_text": "   e.g. Sebelum tidur, saya mandi.",
   "target_spans": [
    "Sebelum tidur, saya mandi."
@@ -37602,7 +37605,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|14": {
+ "Unit 4B · Vocabulary focus|7|15": {
   "source_text": "kerja — work; to work (spoken) · 仕事・働く  [L-0065]",
   "target_spans": [
    "kerja"
@@ -37611,7 +37614,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|15": {
+ "Unit 4B · Vocabulary focus|7|16": {
   "source_text": "   e.g. Hari ini saya kerja di rumah.",
   "target_spans": [
    "Hari ini saya kerja di rumah."
@@ -37620,7 +37623,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|16": {
+ "Unit 4B · Vocabulary focus|7|17": {
   "source_text": "rumah — house, home · 家  [L-0070]",
   "target_spans": [
    "rumah"
@@ -37629,7 +37632,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|17": {
+ "Unit 4B · Vocabulary focus|7|18": {
   "source_text": "   e.g. Saya di rumah sekarang.",
   "target_spans": [
    "Saya di rumah sekarang."
@@ -37638,7 +37641,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|18": {
+ "Unit 4B · Vocabulary focus|7|19": {
   "source_text": "pejabat — office · 事務所・オフィス  [L-0064]",
   "target_spans": [
    "pejabat"
@@ -37647,7 +37650,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|19": {
+ "Unit 4B · Vocabulary focus|7|20": {
   "source_text": "   e.g. Pejabat saya di KL.",
   "target_spans": [
    "Pejabat saya di KL."
@@ -37656,7 +37659,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|20": {
+ "Unit 4B · Vocabulary focus|7|21": {
   "source_text": "jom — let's (spoken) · 〜しよう  [L-0075]",
   "target_spans": [
    "jom"
@@ -37665,7 +37668,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|21": {
+ "Unit 4B · Vocabulary focus|7|22": {
   "source_text": "   e.g. Jom makan!",
   "target_spans": [
    "Jom makan!"
@@ -37674,7 +37677,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|22": {
+ "Unit 4B · Vocabulary focus|7|23": {
   "source_text": "makanan — food · 食べ物  [L-0091]",
   "target_spans": [
    "makanan"
@@ -37683,7 +37686,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|23": {
+ "Unit 4B · Vocabulary focus|7|24": {
   "source_text": "   e.g. Jom beli makanan.",
   "target_spans": [
    "Jom beli makanan."
@@ -37692,7 +37695,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|24": {
+ "Unit 4B · Vocabulary focus|7|25": {
   "source_text": "nanti — later · 後で  [L-0026]",
   "target_spans": [
    "nanti"
@@ -37701,7 +37704,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|25": {
+ "Unit 4B · Vocabulary focus|7|26": {
   "source_text": "   e.g. Jumpa nanti!",
   "target_spans": [
    "Jumpa nanti!"
@@ -37710,14 +37713,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|26": {
+ "Unit 4B · Vocabulary focus|7|27": {
   "source_text": "■ Revision · 復習 · Unit 4A",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|7|27": {
+ "Unit 4B · Vocabulary focus|7|28": {
   "source_text": "sekarang — now · 今  [L-0161]",
   "target_spans": [
    "sekarang"
@@ -37726,7 +37729,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|28": {
+ "Unit 4B · Vocabulary focus|7|29": {
   "source_text": "   e.g. Sekarang saya sedang makan.",
   "target_spans": [
    "Sekarang saya sedang makan."
@@ -37735,7 +37738,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|29": {
+ "Unit 4B · Vocabulary focus|7|30": {
   "source_text": "semalam — yesterday · 昨日  [L-0170]",
   "target_spans": [
    "semalam"
@@ -37744,7 +37747,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|30": {
+ "Unit 4B · Vocabulary focus|8|0": {
   "source_text": "   e.g. Semalam saya balik lambat.",
   "target_spans": [
    "Semalam saya balik lambat."
@@ -37753,7 +37756,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|8|0": {
+ "Unit 4B · Vocabulary focus|8|1": {
   "source_text": "biasanya — usually · 普段は  [L-0184]",
   "target_spans": [
    "biasanya"
@@ -37762,7 +37765,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|8|1": {
+ "Unit 4B · Vocabulary focus|8|2": {
   "source_text": "   e.g. Biasanya saya bangun pukul enam.",
   "target_spans": [
    "Biasanya saya bangun pukul enam."
@@ -37771,7 +37774,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|8|2": {
+ "Unit 4B · Vocabulary focus|8|3": {
   "source_text": "bila — when · いつ  [L-1007]",
   "target_spans": [
    "bila"
@@ -37780,7 +37783,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|8|3": {
+ "Unit 4B · Vocabulary focus|8|4": {
   "source_text": "   e.g. Bila encik balik?",
   "target_spans": [
    "Bila encik balik?"
@@ -37789,7 +37792,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|8|4": {
+ "Unit 4B · Vocabulary focus|8|5": {
   "source_text": "lusa — the day after tomorrow · あさって  [L-0172]",
   "target_spans": [
    "lusa"
@@ -37798,7 +37801,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|8|5": {
+ "Unit 4B · Vocabulary focus|8|6": {
   "source_text": "   e.g. Lusa saya akan cuti.",
   "target_spans": [
    "Lusa saya akan cuti."
@@ -41715,7 +41718,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4B · Teaching plan and answer key|3|0": {
-  "source_text": "Before Block A: Kata-Kata Sedia Kelas c04 (24 cards, frames ms-c04-f01 and ms-c04-f02).",
+  "source_text": "Before Block A: Kata-Kata Sedia Kelas c04 (26 cards, frames ms-c04-f01 and ms-c04-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -42389,7 +42392,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 5 · Chapter opener|3|12": {
-  "source_text": "Before class: Kata-Kata Sedia Kelas c05 (23 cards, frames ms-c05-f01 and ms-c05-f02). / 授業前：Kata-Kata Sedia Kelas c05（カード23枚、文型 f01・f02）。",
+  "source_text": "Before class: Kata-Kata Sedia Kelas c05 (27 cards, frames ms-c05-f01 and ms-c05-f02). / 授業前：Kata-Kata Sedia Kelas c05（カード27枚、文型 f01・f02）。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -45738,7 +45741,7 @@
   "exclusion": null
  },
  "Unit 5 · Pattern and grammar focus|6|4": {
-  "source_text": "Pattern 4: there is no Kata-Kata frame yet for Kenapa …? Sebab …; it is taught here with ms-c05-f04 (see the report). Kenapa, mengapa and apa sebab are one question; accept sebab or kerana as the answer.",
+  "source_text": "Pattern 4: Kata-Kata has had a frame for Kenapa …? Sebab … since its clean-up (ms-c05-f06); it is taught here inside this pattern, which stays tagged ms-c05-f04, and the stage review brings f06 back. Kenapa, mengapa and apa sebab are one question; accept sebab or kerana as the answer.",
   "target_spans": [
    "Kenapa …? Sebab …",
    "Kenapa",
@@ -49248,7 +49251,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 5 · Teaching plan and answer key|3|0": {
-  "source_text": "Before Block A: Kata-Kata Sedia Kelas c05 (23 cards, frames ms-c05-f01 and ms-c05-f02).",
+  "source_text": "Before Block A: Kata-Kata Sedia Kelas c05 (27 cards, frames ms-c05-f01 and ms-c05-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -49941,7 +49944,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 6 · Chapter opener|3|12": {
-  "source_text": "Before class: Kata-Kata Sedia Kelas c06 (16 cards, frames ms-c06-f01 and ms-c06-f02). / 授業前：Kata-Kata Sedia Kelas c06（カード16枚、文型 f01・f02）。",
+  "source_text": "Before class: Kata-Kata Sedia Kelas c06 (22 cards, frames ms-c06-f01 and ms-c06-f02). / 授業前：Kata-Kata Sedia Kelas c06（カード22枚、文型 f01・f02）。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -55925,7 +55928,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 6 · Teaching plan and answer key|3|0": {
-  "source_text": "Before Block A: Kata-Kata Sedia Kelas c06 (16 cards, frames ms-c06-f01 and ms-c06-f02).",
+  "source_text": "Before Block A: Kata-Kata Sedia Kelas c06 (22 cards, frames ms-c06-f01 and ms-c06-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -56701,7 +56704,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Chapter opener|3|12": {
-  "source_text": "Before class: Kata-Kata Sedia Kelas c07 (27 cards, frames ms-c07-f01 and ms-c07-f02). / 授業前：Kata-Kata Sedia Kelas c07（カード27枚、文型 f01・f02）。",
+  "source_text": "Before class: Kata-Kata Sedia Kelas c07 (28 cards, frames ms-c07-f01 and ms-c07-f02). / 授業前：Kata-Kata Sedia Kelas c07（カード28枚、文型 f01・f02）。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -63135,8 +63138,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Culture and usage note|4|1": {
-  "source_text": "Sources: Kata-Kata chapter 7 cards ms-c07-009 (hadapan more formal), -023 (lebih kurang, lit. more-less), -025 (belok, a root word, not a ber- form), -035 (bulat → bulatan), -046 (kereta api, lit. fire carriage), -049 (jam, third meaning) and the Sedia Kelas list; ledger L-0296 and Sam's brief of 12 Nov 2026 (the earlier forms pergi kerja and balik rumah as everyday speech; pergi ke pejabat and balik ke rumah as the standard written form); Sam's decision of 12 Nov 2026 (ledger Journal rows 66 and 67): masjid, gereja, kuil, tokong, gurdwara and surau as one even-handed set of landmarks; Sam's decision of 12 Nov 2026 (ledger Journal rows 68 to 70): terus / jalan terus / pergi terus / terus depan for going straight on, lurus only as the adjective, and kalau tidak jam / sesak for traffic; left-hand traffic and its British-era origin: SAYS Malaysia, \"Why Do M'sians Drive On The Left Side Of The Road While Most Countries Drive On The Right?\", Malay Mail, 29 June 2015, a primer on driving in Malaysia, and WorldAtlas, \"Countries That Drive on the Left\", all seen in search summaries only (Rank 3; the Road Transport Act 1987 text was not read); religious groups in the 2020 census: Sinar Daily, \"Malaysia's population now stands at 32.4 mil, 63.5 per cent Muslims\", reporting the Department of Statistics Malaysia key findings, seen in a search summary (Rank 3; the DOSM religion table itself was not opened, so no percentage is given in the note). Sam, 12 Nov 2026: keep the left-hand traffic and 2020 census sentences. The note makes no claim about any real route, distance or place; the practice routes are fictional.",
+  "source_text": "Sources: Kata-Kata chapter 7 cards ms-c04-019 (depan / hadapan more formal; the chapter 7 card ms-c07-009 was merged into it in the clean-up), ms-c07-023 (lebih kurang, lit. more-less), -025 (belok, a root word, not a ber- form), -035 (bulat → bulatan), -046 (kereta api, lit. fire carriage), -049 (jam, third meaning) and the Sedia Kelas list; ledger L-0296 and Sam's brief of 12 Nov 2026 (the earlier forms pergi kerja and balik rumah as everyday speech; pergi ke pejabat and balik ke rumah as the standard written form); Sam's decision of 12 Nov 2026 (ledger Journal rows 66 and 67): masjid, gereja, kuil, tokong, gurdwara and surau as one even-handed set of landmarks; Sam's decision of 12 Nov 2026 (ledger Journal rows 68 to 70): terus / jalan terus / pergi terus / terus depan for going straight on, lurus only as the adjective, and kalau tidak jam / sesak for traffic; left-hand traffic and its British-era origin: SAYS Malaysia, \"Why Do M'sians Drive On The Left Side Of The Road While Most Countries Drive On The Right?\", Malay Mail, 29 June 2015, a primer on driving in Malaysia, and WorldAtlas, \"Countries That Drive on the Left\", all seen in search summaries only (Rank 3; the Road Transport Act 1987 text was not read); religious groups in the 2020 census: Sinar Daily, \"Malaysia's population now stands at 32.4 mil, 63.5 per cent Muslims\", reporting the Department of Statistics Malaysia key findings, seen in a search summary (Rank 3; the DOSM religion table itself was not opened, so no percentage is given in the note). Sam, 12 Nov 2026: keep the left-hand traffic and 2020 census sentences. The note makes no claim about any real route, distance or place; the practice routes are fictional.",
   "target_spans": [
+   "depan",
    "hadapan",
    "lebih kurang",
    "belok",
@@ -63973,7 +63977,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 7 · Teaching plan and answer key|3|0": {
-  "source_text": "Before Block A: Kata-Kata Sedia Kelas c07 (27 cards, frames ms-c07-f01 and ms-c07-f02).",
+  "source_text": "Before Block A: Kata-Kata Sedia Kelas c07 (28 cards, frames ms-c07-f01 and ms-c07-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -64738,7 +64742,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 8 · Chapter opener|3|12": {
-  "source_text": "Before class: Kata-Kata Sedia Kelas c08 (13 cards, frames ms-c08-f01 and ms-c08-f02). / 授業前：Kata-Kata Sedia Kelas c08（カード13枚、文型 f01・f02）。",
+  "source_text": "Before class: Kata-Kata Sedia Kelas c08 (14 cards, frames ms-c08-f01 and ms-c08-f02). / 授業前：Kata-Kata Sedia Kelas c08（カード14枚、文型 f01・f02）。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -71394,7 +71398,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 8 · Teaching plan and answer key|3|0": {
-  "source_text": "Before Block A: Kata-Kata Sedia Kelas c08 (13 cards, frames ms-c08-f01 and ms-c08-f02).",
+  "source_text": "Before Block A: Kata-Kata Sedia Kelas c08 (14 cards, frames ms-c08-f01 and ms-c08-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -71749,7 +71753,7 @@
   "exclusion": null
  },
  "Unit 8 · Teaching plan and answer key|5|1": {
-  "source_text": "Counter cards in the Kata-Kata chapter 8 deck that the ledger placed earlier: orang (card ms-c08-001, ledger chapter 2) and kaki (card ms-c08-010, \"counter: umbrellas\"). kaki as a counter is not added to the ledger (Sam: too rare). The counter buah is now ledger row L-1067; buah as fruit stays L-0514.",
+  "source_text": "Counter cards in the Kata-Kata chapter 8 deck that the ledger placed earlier: orang (card ms-c08-001, ledger chapter 2, now with the counter sense in its note). The Kata-Kata card ms-c08-010 kaki (counter: umbrellas) was removed in the clean-up because kaki is not a counter (Sam: too rare). The counter buah is ledger row L-1067 and its card now points there; buah as fruit stays L-0514.",
   "target_spans": [
    "orang",
    "kaki",
@@ -71960,7 +71964,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 9 · Chapter opener|3|12": {
-  "source_text": "Before class: Kata-Kata Sedia Kelas c09 (12 cards, frames ms-c09-f01 and ms-c09-f02). / 授業前：Kata-Kata Sedia Kelas c09（カード12枚、文型 f01・f02）。",
+  "source_text": "Before class: Kata-Kata Sedia Kelas c09 (16 cards, frames ms-c09-f01 and ms-c09-f02). / 授業前：Kata-Kata Sedia Kelas c09（カード16枚、文型 f01・f02）。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -78978,7 +78982,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 9 · Culture note · Open houses in Malaysia|5|1": {
-  "source_text": "Sources: the festival words are ledger rows L-0537 to L-0549 (the Raya words, with their glosses) and L-1070 to L-1075 (Sam approved the six rows on 12 Nov 2026); pesta is L-1084 (Sam approved on 12 Nov 2026); the Raya details are the ledger glosses and the Kata-Kata Dunia scene \"Rumah terbuka Hari Raya\"; open houses as a Malaysian custom open to other communities: EMGS Connect, \"You've been invited to an Open House: Hari Raya Traditions\", and Arab News, \"Malaysia's 'Open House' ensures all are welcome on Eid\", both seen in search summaries only; Chinese New Year open houses and red packets: EMGS Connect, \"Chinese New Year in Malaysia\", and Malay Mail, 10 Feb 2026 (MCA open house), seen in search summaries only; Deepavali open houses for all Malaysians: Malay Mail, 8 Nov 2026, \"Eat, mingle, celebrate: five Deepavali open houses from Brickfields to Ipoh for all Malaysians\" and a Malay Mail piece on a family open house, seen in search summaries only; Tahun Baru Cina everyday and Tahun Baharu Cina official: Sam's decision of 12 Nov 2026 (ledger L-1070 and Journal), citing the federal public-holiday list (the federal list of public holidays for 2027 on ecentral.my, seen again in a search summary in step 5h) and Education Ministry notices; angpau is the Malay spelling, \"ang pow\" the common English-press spelling: Sam, 12 Nov 2026 (ledger L-1075); Gawai on 1 June, gazetted on 25 September 1964 and first celebrated on 1 June 1965: Sam, citing The Borneo Post and the New Straits Times; seen again in step 5h in search summaries of The Borneo Post and Free Malaysia Today (1 June 2026); Kaamatan on 30 and 31 May in Sabah and Labuan: Sam (ledger L-1074, citing officeholidays.com), seen again in step 5h in search summaries of officeholidays.com; greetings: Sam's decision (ledger Journal, 12 Nov 2026); Selamat Pesta Kaamatan: Bernama radio news, 30 May 2026, quoting a minister who greeted everyone celebrating with Selamat Pesta Kaamatan and Hari Gawai (ledger L-1074 note and Journal row 87), and the formal Selamat Menyambut Pesta Kaamatan as reported by RTM and The Vibes (Journal row 87; neither report was opened in this session); Christmas: general knowledge, no source retrieved. The Wikipedia pages could not be fetched in this session. The note makes no claim about any religious belief or rule.",
+  "source_text": "Sources: the festival words are ledger rows L-0537 to L-0549 (the Raya words, with their glosses) and L-1070 to L-1075 (Sam approved the six rows on 12 Nov 2026); pesta is L-1084 (Sam approved on 12 Nov 2026); the Raya details are the ledger glosses and the Kata-Kata Dunia scene \"Rumah terbuka\" (renamed from \"Rumah terbuka Hari Raya\" in the Kata-Kata clean-up); open houses as a Malaysian custom open to other communities: EMGS Connect, \"You've been invited to an Open House: Hari Raya Traditions\", and Arab News, \"Malaysia's 'Open House' ensures all are welcome on Eid\", both seen in search summaries only; Chinese New Year open houses and red packets: EMGS Connect, \"Chinese New Year in Malaysia\", and Malay Mail, 10 Feb 2026 (MCA open house), seen in search summaries only; Deepavali open houses for all Malaysians: Malay Mail, 8 Nov 2026, \"Eat, mingle, celebrate: five Deepavali open houses from Brickfields to Ipoh for all Malaysians\" and a Malay Mail piece on a family open house, seen in search summaries only; Tahun Baru Cina everyday and Tahun Baharu Cina official: Sam's decision of 12 Nov 2026 (ledger L-1070 and Journal), citing the federal public-holiday list (the federal list of public holidays for 2027 on ecentral.my, seen again in a search summary in step 5h) and Education Ministry notices; angpau is the Malay spelling, \"ang pow\" the common English-press spelling: Sam, 12 Nov 2026 (ledger L-1075); Gawai on 1 June, gazetted on 25 September 1964 and first celebrated on 1 June 1965: Sam, citing The Borneo Post and the New Straits Times; seen again in step 5h in search summaries of The Borneo Post and Free Malaysia Today (1 June 2026); Kaamatan on 30 and 31 May in Sabah and Labuan: Sam (ledger L-1074, citing officeholidays.com), seen again in step 5h in search summaries of officeholidays.com; greetings: Sam's decision (ledger Journal, 12 Nov 2026); Selamat Pesta Kaamatan: Bernama radio news, 30 May 2026, quoting a minister who greeted everyone celebrating with Selamat Pesta Kaamatan and Hari Gawai (ledger L-1074 note and Journal row 87), and the formal Selamat Menyambut Pesta Kaamatan as reported by RTM and The Vibes (Journal row 87; neither report was opened in this session); Christmas: general knowledge, no source retrieved. The Wikipedia pages could not be fetched in this session. The note makes no claim about any religious belief or rule.",
   "target_spans": [
    "pesta",
    "Hari Raya",
@@ -79854,7 +79858,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 9 · Teaching plan and answer key|3|0": {
-  "source_text": "Before Block A: Kata-Kata Sedia Kelas c09 (12 cards, frames ms-c09-f01 and ms-c09-f02).",
+  "source_text": "Before Block A: Kata-Kata Sedia Kelas c09 (16 cards, frames ms-c09-f01 and ms-c09-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -80873,7 +80877,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 1 · Fast-course summary pack|5|3": {
-  "source_text": "Before the session: Kata-Kata Sedia Kelas c01 (23 cards, frames ms-c01-f01 and f02).",
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c01 (26 cards, frames ms-c01-f01 and f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -81483,7 +81487,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 2 · Fast-course summary pack|5|7": {
-  "source_text": "Before the session: Kata-Kata Sedia Kelas c02 (27 cards, frames ms-c02-f01 and f02).",
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c02 (29 cards, frames ms-c02-f01 and f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -82094,7 +82098,7 @@
   "exclusion": null
  },
  "Chapter 3 · Fast-course summary pack|5|1": {
-  "source_text": "After class: complete all 56 Kata-Kata chapter 3 cards (ms-c03-001 to ms-c03-056), plus 17 approved Ch3 ledger entries without cards.",
+  "source_text": "After class: complete all 73 Kata-Kata chapter 3 cards (ms-c03-001 to ms-c03-073), including the 17 new cards for the approved Ch3 ledger entries.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -82762,14 +82766,14 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 4 · Fast-course summary pack|5|10": {
-  "source_text": "Before the session: Kata-Kata Sedia Kelas c04 (24 cards, frames ms-c04-f01 and ms-c04-f02).",
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c04 (26 cards, frames ms-c04-f01 and ms-c04-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 4 · Fast-course summary pack|5|11": {
-  "source_text": "After the session: all 56 Kata-Kata chapter 4 cards (ms-c04-001 to ms-c04-056; pagi, tengah hari, petang and malam are chapter 1 revision) plus the ledger words datang and bila, which have no card yet; frames ms-c04-f01 to ms-c04-f07 in the frame drill and Susun Ayat.",
+  "source_text": "After the session: all 71 Kata-Kata chapter 4 cards (ms-c04-001 to ms-c04-075; cards ms-c04-008 to -011, pagi, tengah hari, petang and malam, now belong to chapter 1 and are revision here), including the new cards for datang and bila; frames ms-c04-f01 to ms-c04-f07 in the frame drill and Susun Ayat.",
   "target_spans": [
    "pagi",
    "tengah hari",
@@ -83406,14 +83410,14 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 5 · Fast-course summary pack|5|9": {
-  "source_text": "Before the session: Kata-Kata Sedia Kelas c05 (23 cards, frames ms-c05-f01 and ms-c05-f02).",
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c05 (27 cards, frames ms-c05-f01 and ms-c05-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 5 · Fast-course summary pack|5|10": {
-  "source_text": "After the session: all 58 Kata-Kata chapter 5 cards (ms-c05-001 to ms-c05-058; ms-c05-008 sedikit is chapter 2 revision) plus the ledger words kenapa, mengapa, sebab, kerana, kuah and kelakar, which have no chapter 5 card yet; frames ms-c05-f01 to ms-c05-f05 in the frame drill and Susun Ayat.",
+  "source_text": "After the session: all 63 Kata-Kata chapter 5 cards (ms-c05-001 to ms-c05-064; ms-c05-008 sedikit now belongs to chapter 2 and is revision here), including the new cards for kenapa, mengapa, sebab, kerana, kuah and kelakar; frames ms-c05-f01 to ms-c05-f06 in the frame drill and Susun Ayat (f06 is the kenapa / mengapa frame).",
   "target_spans": [
    "sedikit",
    "kenapa",
@@ -83421,7 +83425,9 @@
    "sebab",
    "kerana",
    "kuah",
-   "kelakar"
+   "kelakar",
+   "kenapa",
+   "mengapa"
   ],
   "mention_spans": [],
   "kind": "opener",
@@ -84088,20 +84094,21 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 6 · Fast-course summary pack|5|13": {
-  "source_text": "Before the session: Kata-Kata Sedia Kelas c06 (16 cards, frames ms-c06-f01 and ms-c06-f02).",
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c06 (22 cards, frames ms-c06-f01 and ms-c06-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 6 · Fast-course summary pack|5|14": {
-  "source_text": "After the session: all 34 Kata-Kata chapter 6 cards (ms-c06-001 to ms-c06-034; sewa, bilik and luas have no card yet; ms-c06-008 sekali and ms-c06-021 baru are chapter 4 words with new meanings) and frames ms-c06-f01 to ms-c06-f06 in the frame drill and Susun Ayat.",
+  "source_text": "After the session: all 37 Kata-Kata chapter 6 cards (ms-c06-001 to ms-c06-037, including the new cards for sewa, bilik and luas; ms-c06-008 sekali and ms-c06-021 baru are chapter 4 words with new meanings) and frames ms-c06-f01 to ms-c06-f07 in the frame drill and Susun Ayat (f07 is Saya pilih ___).",
   "target_spans": [
    "sewa",
    "bilik",
    "luas",
    "sekali",
-   "baru"
+   "baru",
+   "Saya pilih ___"
   ],
   "mention_spans": [],
   "kind": "opener",
@@ -84748,15 +84755,16 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 7 · Fast-course summary pack|5|9": {
-  "source_text": "Before the session: Kata-Kata Sedia Kelas c07 (27 cards, frames ms-c07-f01 and ms-c07-f02).",
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c07 (28 cards, frames ms-c07-f01 and ms-c07-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 7 · Fast-course summary pack|5|10": {
-  "source_text": "After the session: all 49 Kata-Kata chapter 7 cards (ms-c07-001 to ms-c07-049) and frames ms-c07-f01 to ms-c07-f05 in the frame drill and Susun Ayat; the words for the places of worship (gereja, kuil, tokong, gurdwara, surau) and the words added in step 5f (kilometer, terus, tangga, jangan, sebulan) have no card yet; card ms-c07-024 still teaches jalan lurus, which is not used for directions.",
+  "source_text": "After the session: all 65 Kata-Kata chapter 7 cards (ms-c07-001 to ms-c07-066; ms-c07-009 depan is now one card with chapter 4, ms-c04-019) and frames ms-c07-f01 to ms-c07-f05 in the frame drill and Susun Ayat; the places of worship (gereja, kuil, tokong, gurdwara, surau) and the words added in step 5f (kilometer, terus, tangga, jangan, sebulan) now have their cards, and directions are jalan terus, pergi terus and terus depan.",
   "target_spans": [
+   "depan",
    "gereja",
    "kuil",
    "tokong",
@@ -84767,7 +84775,9 @@
    "tangga",
    "jangan",
    "sebulan",
-   "jalan lurus"
+   "jalan terus",
+   "pergi terus",
+   "terus depan"
   ],
   "mention_spans": [],
   "kind": "opener",
@@ -85426,14 +85436,14 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 8 · Fast-course summary pack|5|11": {
-  "source_text": "Before the session: Kata-Kata Sedia Kelas c08 (13 cards, frames ms-c08-f01 and ms-c08-f02).",
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c08 (14 cards, frames ms-c08-f01 and ms-c08-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 8 · Fast-course summary pack|5|12": {
-  "source_text": "After the session: all 43 Kata-Kata chapter 8 cards (ms-c08-001 to ms-c08-043) and frames ms-c08-f01 to ms-c08-f05 in the frame drill and Susun Ayat; the Kata-Kata scenario \"Morning market and takeaway\" uses nasi lemak, which is now a ledger word (L-1064).",
+  "source_text": "After the session: all 47 Kata-Kata chapter 8 cards (ms-c08-001 to ms-c08-048; ms-c08-010 was removed in the Kata-Kata clean-up) and frames ms-c08-f01 to ms-c08-f05 in the frame drill and Susun Ayat; the Kata-Kata scenario \"Morning market and takeaway\" uses nasi lemak, which is a chapter 8 ledger word (L-1064) with its own card.",
   "target_spans": [
    "nasi lemak"
   ],
@@ -86095,15 +86105,16 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 9 · Fast-course summary pack|5|8": {
-  "source_text": "Before the session: Kata-Kata Sedia Kelas c09 (12 cards, frames ms-c09-f01 and ms-c09-f02).",
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c09 (16 cards, frames ms-c09-f01 and ms-c09-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 9 · Fast-course summary pack|5|9": {
-  "source_text": "After the session: all 30 Kata-Kata chapter 9 cards (ms-c09-001 to ms-c09-030) and frames ms-c09-f01 to ms-c09-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"The office jamuan\" matches this pack.",
+  "source_text": "After the session: all 42 Kata-Kata chapter 9 cards (ms-c09-001 to ms-c09-043; ms-c09-028 pinggan was merged into ms-c08-016) and frames ms-c09-f01 to ms-c09-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"The office jamuan\" matches this pack.",
   "target_spans": [
+   "pinggan",
    "jamuan"
   ],
   "mention_spans": [],
@@ -86572,6 +86583,33 @@
   "exclusion": null
  },
  "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|3": {
+  "source_text": "Kimura: Baik, saya pilih mi goreng.",
+  "target_spans": [
+   "Baik, saya pilih mi goreng."
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|4": {
+  "source_text": "Aini: Kenapa encik tidak pilih nasi lemak?",
+  "target_spans": [
+   "Kenapa encik tidak pilih nasi lemak?"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|5": {
+  "source_text": "Kimura: Sebab nasi lemak lebih mahal.",
+  "target_spans": [
+   "Sebab nasi lemak lebih mahal."
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|6": {
   "source_text": "Stall holder (屋台の人): Makan sini atau bungkus?",
   "target_spans": [
    "Makan sini atau bungkus?"
@@ -86580,7 +86618,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|4": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|7": {
   "source_text": "Kimura: Makan sini. Saya mahu sepinggan mi goreng dan secawan teh tarik.",
   "target_spans": [
    "Makan sini. Saya mahu sepinggan mi goreng dan secawan teh tarik."
@@ -86589,7 +86627,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|5": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|8": {
   "source_text": "Aini: Saya mahu nasi lemak dan teh tarik, kurang manis, ais sedikit. Kami mahu dua keping pisang goreng juga.",
   "target_spans": [
    "Saya mahu nasi lemak dan teh tarik, kurang manis, ais sedikit. Kami mahu dua keping pisang goreng juga."
@@ -86598,7 +86636,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|6": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|9": {
   "source_text": "Aini: Tolong bungkus pisang goreng untuk Encik Rahman juga.",
   "target_spans": [
    "Tolong bungkus pisang goreng untuk Encik Rahman juga."
@@ -86607,7 +86645,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|7": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|10": {
   "source_text": "Stall holder (屋台の人): Berapa keping, puan?",
   "target_spans": [
    "Berapa keping, puan?"
@@ -86616,7 +86654,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|8": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|11": {
   "source_text": "Aini: Tiga keping.",
   "target_spans": [
    "Tiga keping."
@@ -86625,7 +86663,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|9": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|12": {
   "source_text": "Stall holder (屋台の人): Baik. Pisang goreng lima puluh sen sekeping.",
   "target_spans": [
    "Baik. Pisang goreng lima puluh sen sekeping."
@@ -86634,7 +86672,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|10": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|13": {
   "source_text": "Kimura: Mi goreng ini sedap. Tetapi teh tarik ini terlalu manis!",
   "target_spans": [
    "Mi goreng ini sedap. Tetapi teh tarik ini terlalu manis!"
@@ -86643,7 +86681,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|11": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|14": {
   "source_text": "Aini: Kopi kurang manis daripada teh tarik. Kopi di sini sama sedap dengan teh tarik.",
   "target_spans": [
    "Kopi kurang manis daripada teh tarik. Kopi di sini sama sedap dengan teh tarik."
@@ -86652,7 +86690,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|12": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|15": {
   "source_text": "Kimura: Yang mana lebih murah, kopi atau teh tarik?",
   "target_spans": [
    "Yang mana lebih murah, kopi atau teh tarik?"
@@ -86661,7 +86699,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|13": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|16": {
   "source_text": "Aini: Kopi. Kopi di gerai ini yang termurah.",
   "target_spans": [
    "Kopi. Kopi di gerai ini yang termurah."
@@ -86670,7 +86708,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|14": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|17": {
   "source_text": "Kimura: Berapa harga semua?",
   "target_spans": [
    "Berapa harga semua?"
@@ -86679,7 +86717,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|15": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|18": {
   "source_text": "Stall holder (屋台の人): Harganya tujuh belas ringgit lima puluh sen.",
   "target_spans": [
    "Harganya tujuh belas ringgit lima puluh sen."
@@ -86688,7 +86726,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|16": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|19": {
   "source_text": "Kimura: Ini dua puluh ringgit.",
   "target_spans": [
    "Ini dua puluh ringgit."
@@ -86697,7 +86735,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|17": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|20": {
   "source_text": "Stall holder (屋台の人): Baki dua ringgit lima puluh sen. Terima kasih!",
   "target_spans": [
    "Baki dua ringgit lima puluh sen. Terima kasih!"
@@ -86706,14 +86744,14 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|18": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|21": {
   "source_text": "■ Wednesday · 9.30 a.m. · the meeting day (chapter 4) / 水曜日・午前9時30分・会議の日（第4章）",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|19": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|22": {
   "source_text": "Kimura: Pukul berapa sekarang?",
   "target_spans": [
    "Pukul berapa sekarang?"
@@ -86722,7 +86760,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|20": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|23": {
   "source_text": "Aini: Sekarang pukul sembilan setengah. Mesyuarat mula pukul sepuluh dan habis pukul sebelas.",
   "target_spans": [
    "Sekarang pukul sembilan setengah. Mesyuarat mula pukul sepuluh dan habis pukul sebelas."
@@ -86731,7 +86769,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|21": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|24": {
   "source_text": "Kimura: Encik Rahman di mana?",
   "target_spans": [
    "Encik Rahman di mana?"
@@ -86740,7 +86778,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|22": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|25": {
   "source_text": "Aini: Dia masih di stesen. Dia lambat sedikit hari ini.",
   "target_spans": [
    "Dia masih di stesen. Dia lambat sedikit hari ini."
@@ -86749,7 +86787,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|23": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|26": {
   "source_text": "Aini: Encik sudah sarapan?",
   "target_spans": [
    "Encik sudah sarapan?"
@@ -86758,7 +86796,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|24": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|27": {
   "source_text": "Kimura: Belum. Saya sedang tulis e-mel. Saya akan makan selepas mesyuarat.",
   "target_spans": [
    "Belum. Saya sedang tulis e-mel. Saya akan makan selepas mesyuarat."
@@ -86767,7 +86805,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|25": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|0": {
   "source_text": "Aini: Encik pergi kerja naik apa?",
   "target_spans": [
    "Encik pergi kerja naik apa?"
@@ -86776,7 +86814,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|26": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|1": {
   "source_text": "Kimura: Saya pergi kerja naik bas setiap hari.",
   "target_spans": [
    "Saya pergi kerja naik bas setiap hari."
@@ -86785,7 +86823,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|5|27": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|2": {
   "source_text": "Aini: Encik pernah pergi ke Penang?",
   "target_spans": [
    "Encik pernah pergi ke Penang?"
@@ -86794,7 +86832,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|0": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|3": {
   "source_text": "Kimura: Belum pernah. Saya akan pergi ke Penang pada bulan depan.",
   "target_spans": [
    "Belum pernah. Saya akan pergi ke Penang pada bulan depan."
@@ -86803,14 +86841,14 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|1": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|4": {
   "source_text": "■ Thursday · 2 p.m. · the way to the bank (chapter 7) / 木曜日・午後2時・銀行への道（第7章）",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|2": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|5": {
   "source_text": "Rahman: Encik mahu pergi ke mana?",
   "target_spans": [
    "Encik mahu pergi ke mana?"
@@ -86819,7 +86857,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|3": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|6": {
   "source_text": "Kimura: Saya mahu pergi ke bank. Bank di mana?",
   "target_spans": [
    "Saya mahu pergi ke bank. Bank di mana?"
@@ -86828,7 +86866,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|4": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|7": {
   "source_text": "Rahman: Bank di sebelah pejabat pos. Jalan terus, kemudian belok kiri di lampu isyarat.",
   "target_spans": [
    "Bank di sebelah pejabat pos. Jalan terus, kemudian belok kiri di lampu isyarat."
@@ -86837,7 +86875,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|5": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|8": {
   "source_text": "Kimura: Berapa jauh bank dari sini?",
   "target_spans": [
    "Berapa jauh bank dari sini?"
@@ -86846,7 +86884,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|6": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|9": {
   "source_text": "Rahman: Lebih kurang lima ratus meter.",
   "target_spans": [
    "Lebih kurang lima ratus meter."
@@ -86855,7 +86893,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|7": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|10": {
   "source_text": "Kimura: Berapa lama ke bank?",
   "target_spans": [
    "Berapa lama ke bank?"
@@ -86864,7 +86902,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|8": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|11": {
   "source_text": "Rahman: Lebih kurang lima minit jalan kaki.",
   "target_spans": [
    "Lebih kurang lima minit jalan kaki."
@@ -86873,7 +86911,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|9": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|12": {
   "source_text": "Kimura: Stesen pula? Berapa lama ke stesen?",
   "target_spans": [
    "Stesen pula? Berapa lama ke stesen?"
@@ -86882,7 +86920,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|10": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|13": {
   "source_text": "Rahman: Stesen jauh. Lebih kurang sepuluh minit naik teksi.",
   "target_spans": [
    "Stesen jauh. Lebih kurang sepuluh minit naik teksi."
@@ -86891,7 +86929,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|11": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|14": {
   "source_text": "■ Friday · 5 p.m. · the office jamuan (chapters 9 and 1) / 金曜日・午後5時・事務所の jamuan（第9・1章）",
   "target_spans": [
    "jamuan",
@@ -86901,7 +86939,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|12": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|15": {
   "source_text": "Kimura: Wah, banyak makanan! Kek ini dibuat oleh siapa?",
   "target_spans": [
    "Wah, banyak makanan! Kek ini dibuat oleh siapa?"
@@ -86910,7 +86948,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|13": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|16": {
   "source_text": "Aini: Kek itu dibuat oleh isteri Encik Rahman.",
   "target_spans": [
    "Kek itu dibuat oleh isteri Encik Rahman."
@@ -86919,7 +86957,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|14": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|17": {
   "source_text": "Kimura: Nasi lemak ini dibeli di mana?",
   "target_spans": [
    "Nasi lemak ini dibeli di mana?"
@@ -86928,7 +86966,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|15": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|18": {
   "source_text": "Aini: Dibeli di gerai dekat stesen.",
   "target_spans": [
    "Dibeli di gerai dekat stesen."
@@ -86937,7 +86975,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|16": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|19": {
   "source_text": "Rahman: Pinggan sudah dicuci?",
   "target_spans": [
    "Pinggan sudah dicuci?"
@@ -86946,7 +86984,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|17": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|20": {
   "source_text": "Aini: Belum.",
   "target_spans": [
    "Belum."
@@ -86955,7 +86993,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|18": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|21": {
   "source_text": "Kimura: Baik. Pinggan saya bawa ke dapur.",
   "target_spans": [
    "Baik. Pinggan saya bawa ke dapur."
@@ -86964,7 +87002,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|19": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|22": {
   "source_text": "Aini: Terima kasih. Pejabat ditutup pada pukul enam.",
   "target_spans": [
    "Terima kasih. Pejabat ditutup pada pukul enam."
@@ -86973,7 +87011,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|20": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|23": {
   "source_text": "Kimura: Papan tanda itu apa?",
   "target_spans": [
    "Papan tanda itu apa?"
@@ -86982,7 +87020,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|21": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|24": {
   "source_text": "Aini: Dilarang makan dan minum di bilik mesyuarat.",
   "target_spans": [
    "Dilarang makan dan minum di bilik mesyuarat."
@@ -86991,7 +87029,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|22": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|25": {
   "source_text": "Kimura: Baik. Saya minta diri dulu. Jumpa hari Isnin!",
   "target_spans": [
    "Baik. Saya minta diri dulu. Jumpa hari Isnin!"
@@ -87000,7 +87038,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|23": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|26": {
   "source_text": "Aini: Selamat jalan, Encik Kimura. Selamat hujung minggu!",
   "target_spans": [
    "Selamat jalan, Encik Kimura. Selamat hujung minggu!"
@@ -87009,21 +87047,14 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|24": {
-  "source_text": "■ Your turn · Role cards (15 min) · ロールカード（15分）",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "heading",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|6|25": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|0": {
   "source_text": "■ Role card A · Aのカード",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|0": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|1": {
   "source_text": "You are a new colleague in your first week (use your own name or Encik Kimura's). With your partner, go through the five days without the script, one day at a time: / あなたは最初の週の新しい同僚です（自分の名前か木村さんの名前で）。台本なしで、一日ずつ五日間を進めます：",
   "target_spans": [
    "Encik"
@@ -87032,56 +87063,56 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|1": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|2": {
   "source_text": "Monday: greet B, introduce yourself and ask one question about B; give your age and phone number for the form. / 月曜日：Bにあいさつして自己紹介し、Bに一つ質問します。書類のために年齢と電話番号を言います。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|2": {
-  "source_text": "Tuesday: ask how a dish tastes, compare two dishes, order for two people with counters, and check the total. / 火曜日：料理の味をたずね、二つを比べ、二人分を助数詞で注文し、合計を確かめます。",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "task",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|3": {
-  "source_text": "Wednesday: ask the time and when the meeting starts and ends; say one thing you have not done yet. / 水曜日：時刻と会議の開始・終了時刻をたずね、まだしていないことを一つ言います。",
+  "source_text": "Tuesday: ask how a dish tastes, compare two dishes, choose one and say why, order for two people with counters, and check the total. / 火曜日：料理の味をたずね、二つを比べ、一つを選んで理由を言い、二人分を助数詞で注文し、合計を確かめます。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|4": {
-  "source_text": "Thursday: ask the way to the bank, how far it is and how long it takes; repeat the route. / 木曜日：銀行への道、距離、かかる時間をたずね、道順を繰り返します。",
+  "source_text": "Wednesday: ask the time and when the meeting starts and ends; say one thing you have not done yet. / 水曜日：時刻と会議の開始・終了時刻をたずね、まだしていないことを一つ言います。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|5": {
-  "source_text": "Friday: ask who made one dish and where one was bought, offer to help, read a sign, and take leave. / 金曜日：料理を誰が作ったか、どこで買ったかをたずね、手伝いを申し出て、掲示を読み、別れのあいさつをします。",
+  "source_text": "Thursday: ask the way to the bank, how far it is and how long it takes; repeat the route. / 木曜日：銀行への道、距離、かかる時間をたずね、道順を繰り返します。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|6": {
-  "source_text": "■ Role card B · Bのカード",
+  "source_text": "Friday: ask who made one dish and where one was bought, offer to help, read a sign, and take leave. / 金曜日：料理を誰が作ったか、どこで買ったかをたずね、手伝いを申し出て、掲示を読み、別れのあいさつをします。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|7": {
-  "source_text": "You are a colleague who has worked here for a year. Answer A in full sentences, using fictional details of your own (names, prices, times, places). Ask A at least one question each day. / あなたはここで一年働いている同僚です。架空の情報（名前、値段、時刻、場所）を使って、Aに完全な文で答えます。毎日少なくとも一つAに質問します。",
+  "source_text": "■ Role card B · Bのカード",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|8": {
+  "source_text": "You are a colleague who has worked here for a year. Answer A in full sentences, using fictional details of your own (names, prices, times, places). Ask A at least one question each day. / あなたはここで一年働いている同僚です。架空の情報（名前、値段、時刻、場所）を使って、Aに完全な文で答えます。毎日少なくとも一つAに質問します。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|9": {
   "source_text": "Tuesday: you are also the stall holder: ask Makan sini atau bungkus? and give the total. / 火曜日：屋台の人の役もします。Makan sini atau bungkus? とたずね、合計を言います。",
   "target_spans": [
    "Makan sini atau bungkus?",
@@ -87091,7 +87122,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|9": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|10": {
   "source_text": "Friday: you organised the jamuan: say who made, bought and brought the food. / 金曜日：あなたは jamuan の幹事です。誰が作り、買い、持ってきたかを言います。",
   "target_spans": [
    "jamuan",
@@ -87101,14 +87132,14 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|10": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|11": {
   "source_text": "■ Change of plan · 予定変更",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|11": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|12": {
   "source_text": "On Wednesday, B says: Maaf, mesyuarat mula pukul dua petang, bukan pukul sepuluh. A asks where the meeting is and says what he or she will do in the morning instead (with akan). / 水曜日にBが Maaf, mesyuarat mula pukul dua petang, bukan pukul sepuluh. と言います。Aは会議の場所をたずね、代わりに午前中にすることを akan で言います。",
   "target_spans": [
    "Maaf, mesyuarat mula pukul dua petang, bukan pukul sepuluh.",
@@ -87120,35 +87151,35 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|7|12": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|0": {
   "source_text": "■ Success criteria · できる基準",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|0": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|1": {
   "source_text": "☐ Every day has at least one question and one full answer, with no notes.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|1": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|2": {
   "source_text": "☐ Titles come before names; the greeting fits the time of day (chapters 1 and 2).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|2": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|3": {
   "source_text": "☐ Prices, the age and the phone number are said correctly (chapter 3).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|3": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|4": {
   "source_text": "☐ pukul for clock times; sudah, belum, akan fit the time (chapter 4).",
   "target_spans": [
    "pukul",
@@ -87160,18 +87191,20 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|4": {
-  "source_text": "☐ Adjectives follow the noun; one comparison with lebih, sama … dengan or paling (chapters 5 and 6).",
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|5": {
+  "source_text": "☐ Adjectives follow the noun; one comparison with lebih, sama … dengan or paling; one choice with Saya pilih … and one reason with Kenapa …? Sebab … (chapters 5 and 6).",
   "target_spans": [
    "lebih",
    "sama … dengan",
-   "paling"
+   "paling",
+   "Saya pilih …",
+   "Kenapa …? Sebab …"
   ],
   "mention_spans": [],
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|5": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|6": {
   "source_text": "☐ The route uses jalan terus, belok kiri / kanan di … and a position word (chapter 7).",
   "target_spans": [
    "jalan terus",
@@ -87181,7 +87214,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|6": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|7": {
   "source_text": "☐ Every order has a number and a counter, or se- + counter (chapter 8).",
   "target_spans": [],
   "mention_spans": [
@@ -87190,7 +87223,7 @@
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|7": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|8": {
   "source_text": "☐ One sentence with a di- verb and oleh, and one sign read correctly (chapter 9).",
   "target_spans": [
    "di-",
@@ -87200,21 +87233,21 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|8": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|9": {
   "source_text": "■ Read and write (10 min) · 読む・書く（10分）",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|9": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|10": {
   "source_text": "Fictional notice board in the lobby of the office building (all times and places are invented):",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|10": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|11": {
   "source_text": "Pejabat dibuka pada pukul sembilan pagi dan ditutup pada pukul enam petang.",
   "target_spans": [
    "Pejabat dibuka pada pukul sembilan pagi dan ditutup pada pukul enam petang."
@@ -87223,7 +87256,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|11": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|12": {
   "source_text": "Pada hari Sabtu dan Ahad, pejabat ditutup.",
   "target_spans": [
    "Pada hari Sabtu dan Ahad, pejabat ditutup."
@@ -87232,7 +87265,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|12": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|13": {
   "source_text": "Tandas di tingkat dua, di sebelah lif.",
   "target_spans": [
    "Tandas di tingkat dua, di sebelah lif."
@@ -87241,7 +87274,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|13": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|14": {
   "source_text": "Tempat letak kereta di tingkat bawah. Ketinggian dua meter.",
   "target_spans": [
    "Tempat letak kereta di tingkat bawah. Ketinggian dua meter."
@@ -87250,7 +87283,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|14": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|15": {
   "source_text": "Kedai di tingkat bawah: diskaun sepuluh peratus pada hari Jumaat.",
   "target_spans": [
    "Kedai di tingkat bawah: diskaun sepuluh peratus pada hari Jumaat."
@@ -87259,7 +87292,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|15": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|16": {
   "source_text": "Dilarang merokok.",
   "target_spans": [
    "Dilarang merokok."
@@ -87268,7 +87301,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|16": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|17": {
   "source_text": "Jamuan pada hari Jumaat, pukul lima petang, di dapur.",
   "target_spans": [
    "Jamuan pada hari Jumaat, pukul lima petang, di dapur."
@@ -87277,42 +87310,42 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|17": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|18": {
   "source_text": "1. When does the office open and close? / 事務所は何時に開き、何時に閉まりますか。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|18": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|19": {
   "source_text": "2. Can you go to the office on Saturday? / 土曜日に事務所へ行けますか。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|19": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|20": {
   "source_text": "3. Where is the toilet? / トイレはどこですか。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|20": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|21": {
   "source_text": "4. Your car is 2.5 metres tall. Can you use the car park? / 車の高さは2.5メートルです。駐車場を使えますか。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|21": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|22": {
   "source_text": "5. What does the shop offer, and on which day? / 店は何曜日に何をしていますか。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|22": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|23": {
   "source_text": "6. When and where is the jamuan? / jamuan はいつ、どこですか。",
   "target_spans": [
    "jamuan",
@@ -87322,7 +87355,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|8|23": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|0": {
   "source_text": "Friday, 4.45 p.m. You are Encik Kimura and you are still at the bank. Write a WhatsApp message to Puan Aini in four to six sentences: greet her, say where you are, say what time you will arrive, say what you will bring with a counter, ask one question in the passive, and sign off. / 金曜日の午後4時45分。あなたは木村さんで、まだ銀行にいます。アイニさんに WhatsApp のメッセージを4〜6文で書きましょう：あいさつ、今いる場所、着く時刻、助数詞を使って持っていくもの、受け身の質問を一つ、結びのあいさつ。",
   "target_spans": [
    "Encik",
@@ -87331,13 +87364,6 @@
   "mention_spans": [],
   "kind": "task",
   "exclusion": null
- },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|0": {
-  "source_text": "________________________________________",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "task",
-  "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|1": {
   "source_text": "________________________________________",
@@ -87354,27 +87380,34 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|3": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|4": {
   "source_text": "■ Can-do self-check · Stage 1 (5 min) · 第1段階の自己評価（5分）",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|4": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|5": {
   "source_text": "Tick what you can do now without notes. Circle anything you want to practise again; your teacher will bring it back. / ノートなしで今できることにチェックしましょう。もう一度練習したいものには丸を付けましょう。先生があとで取り上げます。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|5": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|6": {
   "source_text": "■ Chapter 1 · Greet by time of day, use titles, ask after someone, take leave",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|6": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|7": {
   "source_text": "☐ I can greet someone by the time of day and put a title (Encik, Puan, Cik) before the name. / 時間帯に合ったあいさつをし、名前の前に敬称（Encik・Puan・Cik）を付けられる。",
   "target_spans": [
    "Encik",
@@ -87388,7 +87421,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|7": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|8": {
   "source_text": "☐ I can ask how someone is and answer (Apa khabar? Khabar baik.). / 相手の調子をたずね、答えられる（Apa khabar? Khabar baik.）。",
   "target_spans": [
    "Apa khabar?",
@@ -87400,7 +87433,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|8": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|9": {
   "source_text": "☐ I can say sorry, ask politely for attention (Maaf, tumpang tanya.) and take leave. / あやまり、ていねいに声をかけ（Maaf, tumpang tanya.）、別れのあいさつができる。",
   "target_spans": [
    "Maaf, tumpang tanya.",
@@ -87410,21 +87443,21 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|9": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|10": {
   "source_text": "■ Chapter 2 · Introduce yourself (name, origin, work, home, hobby) and ask the same of others",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|10": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|11": {
   "source_text": "☐ I can say my name, where I am from, where I work or study, where I live and my hobby. / 名前、出身、仕事や勉強の場所、住んでいる所、趣味を言える。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|11": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|12": {
   "source_text": "☐ I can ask someone the same things (Siapa nama …?, di mana, -kah). / 同じことを相手にたずねられる（Siapa nama …?・di mana・-kah）。",
   "target_spans": [
    "Siapa nama …?",
@@ -87436,28 +87469,28 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|12": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|13": {
   "source_text": "■ Chapter 3 · Ask and pay a price, check change, give age and phone number, say which one in a sequence",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|13": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|14": {
   "source_text": "☐ I can ask a price, pay, and check my change. / 値段をたずね、払い、おつりを確かめられる。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|14": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|15": {
   "source_text": "☐ I can give my age and my phone number. / 年齢と電話番号を言える。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|15": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|0": {
   "source_text": "☐ I can say which one in a sequence (pertama, kedua) and read a discount or a measurement on a sign. / 順番（pertama・kedua）を言い、掲示の割引や寸法を読める。",
   "target_spans": [
    "pertama",
@@ -87469,28 +87502,28 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|16": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|1": {
   "source_text": "■ Chapter 4 · Tell the time and day, describe a routine, say what is done, not yet done or under way",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|9|17": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|2": {
   "source_text": "☐ I can tell the time and the day, and say when something starts and ends. / 時刻と曜日を言い、何かが始まる時刻と終わる時刻を言える。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|0": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|3": {
   "source_text": "☐ I can describe my routine and say how often I do things. / 日課と、どのくらいの頻度でするかを言える。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|1": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|4": {
   "source_text": "☐ I can say what is done, not yet done, under way or planned (sudah, belum, sedang, akan). / もう済んだこと、まだのこと、している最中のこと、予定を言える（sudah・belum・sedang・akan）。",
   "target_spans": [
    "sudah",
@@ -87506,21 +87539,21 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|2": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|5": {
   "source_text": "■ Chapter 5 · Describe food, objects and feelings, and choose between items",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|3": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|6": {
   "source_text": "☐ I can describe food, things and how I feel. / 食べ物や物、自分の気持ちを説明できる。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|4": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|7": {
   "source_text": "☐ I can ask how something is and choose the one I want with yang. / どうかをたずね、yang を使ってほしいものを選べる。",
   "target_spans": [
    "yang",
@@ -87530,63 +87563,78 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|5": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|8": {
+  "source_text": "☐ I can ask why and give a reason (Kenapa …? Sebab …). / 理由をたずね、理由を言える（Kenapa …?・Sebab …）。",
+  "target_spans": [
+   "Kenapa …?",
+   "Sebab …",
+   "Kenapa …?",
+   "Sebab …"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|9": {
   "source_text": "■ Chapter 6 · Compare two options, say two things are equal, pick the best of three",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|6": {
-  "source_text": "☐ I can compare two options and say that two things are the same. / 二つを比べ、二つが同じだと言える。",
-  "target_spans": [],
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|10": {
+  "source_text": "☐ I can compare two options, say that two things are the same and say which one I choose (Saya pilih …). / 二つを比べ、二つが同じだと言い、どちらを選ぶかを言える（Saya pilih …）。",
+  "target_spans": [
+   "Saya pilih …",
+   "Saya pilih …"
+  ],
   "mention_spans": [],
   "kind": "task",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|7": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|11": {
   "source_text": "☐ I can pick the best of three and say that something is too much. / 三つの中から一番を選び、「〜すぎる」と言える。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|8": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|12": {
   "source_text": "■ Chapter 7 · Ask where something is, follow and give a route, name transport",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|9": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|13": {
   "source_text": "☐ I can ask where something is and say where it is. / 物や場所がどこにあるかをたずね、答えられる。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|10": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|14": {
   "source_text": "☐ I can follow and give a short route, and ask how far and how long. / 短い道順を聞いて分かり、説明でき、距離と時間をたずねられる。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|11": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|15": {
   "source_text": "☐ I can say how I get somewhere (by bus, by taxi, on foot). / 交通手段（バス、タクシー、徒歩）を言える。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|12": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|16": {
   "source_text": "■ Chapter 8 · Order and count things with the right classifier",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|13": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|0": {
   "source_text": "☐ I can order and count things with the right counter, and say se- + counter for \"one\". / 正しい助数詞で注文し数えられ、「一つ」を se-＋助数詞で言える。",
   "target_spans": [],
   "mention_spans": [
@@ -87596,21 +87644,21 @@
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|14": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|1": {
   "source_text": "☐ I can ask how many and say a price per item. / いくつかをたずね、一つあたりの値段を言える。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|15": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|2": {
   "source_text": "■ Chapter 9 · Read signs and notices, say what was done and by whom",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|16": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|3": {
   "source_text": "☐ I can read common signs and notices (Dilarang …, Sila …, opening hours). / よくある掲示や案内（Dilarang …・Sila …・営業時間）を読める。",
   "target_spans": [
    "Dilarang …",
@@ -87622,7 +87670,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|10|17": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|4": {
   "source_text": "☐ I can say what was done and by whom (dibuat oleh …), and what is done or not yet done. / 何がされたか、誰がしたか（dibuat oleh …）、もう済んだかまだかを言える。",
   "target_spans": [
    "dibuat oleh …",
@@ -87632,14 +87680,14 @@
   "kind": "task",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|0": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|0": {
   "source_text": "Timing: recall 5, model 10, role cards 15, read and write 10, self-check 5 (45 minutes). The block comes after unit 9 and before the A1 stage test; it is not marked.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|1": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|1": {
   "source_text": "Recall answers: e.g. 1 Selamat petang, Encik Tanaka. 2 Saya tinggal di Bangsar. Hobi saya masak. 3 Nombor telefon saya kosong satu dua, tiga empat lima, enam tujuh lapan sembilan. 4 Saya mula kerja pukul sembilan. Saya minum kopi setiap pagi. 5 Nasi goreng itu sedap, tetapi pedas. 6 Teh tarik lebih manis daripada kopi. 7 Stesen di sebelah bank. 8 Dua cawan teh dan sepinggan mi goreng, tolong. 9 Dilarang merokok. / Dilarang makan dan minum.",
   "target_spans": [
    "Selamat petang, Encik Tanaka.",
@@ -87657,7 +87705,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|2": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|2": {
   "source_text": "Reading: 1. at nine in the morning; at six in the evening / 2. No: it is closed on Saturday and Sunday (ditutup) / 3. on the second floor, next to the lift / 4. No: the height is two metres (Ketinggian dua meter) / 5. ten per cent off, on Friday / 6. Friday, five in the afternoon, in the kitchen",
   "target_spans": [
    "ditutup",
@@ -87667,7 +87715,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|3": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|3": {
   "source_text": "Model message: Selamat petang, Puan Aini. Maaf, saya masih di bank. Saya akan sampai pukul lima suku. Saya bawa sekotak kuih untuk jamuan. Kek sudah dipotong? Jumpa nanti!",
   "target_spans": [
    "Selamat petang, Puan Aini. Maaf, saya masih di bank. Saya akan sampai pukul lima suku. Saya bawa sekotak kuih untuk jamuan. Kek sudah dipotong? Jumpa nanti!"
@@ -87676,7 +87724,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|4": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|4": {
   "source_text": "Possible role-card exchange (Wednesday, after the change of plan): Maaf, mesyuarat mula pukul dua petang, bukan pukul sepuluh. — Mesyuarat di mana? — Di bilik mesyuarat di tingkat tiga. — Baik. Pagi ini saya akan pergi ke bank.",
   "target_spans": [
    "Maaf, mesyuarat mula pukul dua petang, bukan pukul sepuluh.",
@@ -87688,7 +87736,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|5": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|5": {
   "source_text": "Tuesday prices add up: mi goreng RM5.00, nasi lemak RM6.00, two teh tarik RM4.00, five pieces of pisang goreng RM2.50 = RM17.50; RM20.00 − RM17.50 = RM2.50 change. All prices are fictional.",
   "target_spans": [
    "mi goreng",
@@ -87700,14 +87748,14 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|6": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|6": {
   "source_text": "Spaced return (charter rule 7): every Kata-Kata frame of chapters 1 to 9 comes back in this block. Where each one is:",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|7": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|7": {
   "source_text": "Ch 1: f01 Selamat pagi, Puan Aini · f02 Apa khabar? · f03 Khabar baik, terima kasih. Encik pula? · f04 Maaf, tumpang tanya. · f05 Saya minta diri dulu. Jumpa hari Isnin!",
   "target_spans": [
    "Selamat pagi, Puan Aini",
@@ -87720,7 +87768,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|8": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|8": {
   "source_text": "Ch 2: f01 Nama saya Kimura Kenji. · f02 Maaf, siapa nama puan? · f03 Saya orang Jepun. Asal saya dari Osaka. · f04 Saya kerja di sini. Saya pengurus pejabat ini. · f05 Saya belajar bahasa Melayu di Bangsar · f06 Saya tinggal di Mont Kiara. · f07 Hobi saya golf. Saya juga suka masak. · f08 Di manakah tandas?",
   "target_spans": [
    "Nama saya Kimura Kenji.",
@@ -87736,7 +87784,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|11|9": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|9": {
   "source_text": "Ch 3: f01 Berapa harga semua? · f02 Harganya tujuh belas ringgit lima puluh sen. · f03 Umur saya tiga puluh lima tahun. · f04 Ini kali pertama saya di Malaysia. · f05 diskaun sepuluh peratus · f06 Ketinggian dua meter. · f07 Nombor telefon saya kosong satu dua",
   "target_spans": [
    "Berapa harga semua?",
@@ -87751,7 +87799,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|0": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|13|0": {
   "source_text": "Ch 4: f01 Sekarang pukul sembilan setengah. · f02 Saya pergi kerja naik bas setiap hari. · f03 Dia masih di stesen. · f04 Saya akan makan selepas mesyuarat. · f05 Encik sudah sarapan? · f06 Belum pernah. · f07 Mesyuarat mula pukul sepuluh dan habis pukul sebelas.",
   "target_spans": [
    "Sekarang pukul sembilan setengah.",
@@ -87766,34 +87814,36 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|1": {
-  "source_text": "Ch 5: f01 Mi goreng ini sedap. · f02 Sedap, tetapi pedas sedikit. · f03 Saya mahu yang tidak pedas. · f04 Saya rasa lapar. · f05 teh tarik, kurang manis, ais sedikit",
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|13|1": {
+  "source_text": "Ch 5: f01 Mi goreng ini sedap. · f02 Sedap, tetapi pedas sedikit. · f03 Saya mahu yang tidak pedas. · f04 Saya rasa lapar. · f05 teh tarik, kurang manis, ais sedikit · f06 Kenapa encik tidak pilih nasi lemak?",
   "target_spans": [
    "Mi goreng ini sedap.",
    "Sedap, tetapi pedas sedikit.",
    "Saya mahu yang tidak pedas.",
    "Saya rasa lapar.",
-   "teh tarik, kurang manis, ais sedikit"
+   "teh tarik, kurang manis, ais sedikit",
+   "Kenapa encik tidak pilih nasi lemak?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|2": {
-  "source_text": "Ch 6: f01 Mi goreng lebih murah daripada nasi lemak · f02 Kopi kurang manis daripada teh tarik. · f03 Kopi di sini sama sedap dengan teh tarik. · f04 Nasi lemak di gerai ini paling sedap. · f05 Yang mana lebih murah, kopi atau teh tarik? · f06 teh tarik ini terlalu manis!",
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|13|2": {
+  "source_text": "Ch 6: f01 Mi goreng lebih murah daripada nasi lemak · f02 Kopi kurang manis daripada teh tarik. · f03 Kopi di sini sama sedap dengan teh tarik. · f04 Nasi lemak di gerai ini paling sedap. · f05 Yang mana lebih murah, kopi atau teh tarik? · f06 teh tarik ini terlalu manis! · f07 Baik, saya pilih mi goreng.",
   "target_spans": [
    "Mi goreng lebih murah daripada nasi lemak",
    "Kopi kurang manis daripada teh tarik.",
    "Kopi di sini sama sedap dengan teh tarik.",
    "Nasi lemak di gerai ini paling sedap.",
    "Yang mana lebih murah, kopi atau teh tarik?",
-   "teh tarik ini terlalu manis!"
+   "teh tarik ini terlalu manis!",
+   "Baik, saya pilih mi goreng."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|3": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|13|3": {
   "source_text": "Ch 7: f01 Encik mahu pergi ke mana? · f02 Bank di sebelah pejabat pos. · f03 Jalan terus, kemudian belok kiri di lampu isyarat. · f04 Berapa jauh bank dari sini? · f05 Lebih kurang sepuluh minit naik teksi.",
   "target_spans": [
    "Encik mahu pergi ke mana?",
@@ -87806,7 +87856,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|4": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|13|4": {
   "source_text": "Ch 8: f01 Kami mahu dua keping pisang goreng juga. · f02 sepinggan mi goreng dan secawan teh tarik · f03 Berapa keping, puan? · f04 Pisang goreng lima puluh sen sekeping. · f05 Tolong bungkus pisang goreng",
   "target_spans": [
    "Kami mahu dua keping pisang goreng juga.",
@@ -87819,7 +87869,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|5": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|13|5": {
   "source_text": "Ch 9: f01 Kek itu dibuat oleh isteri Encik Rahman. · f02 Dibeli di gerai dekat stesen. · f03 Pinggan sudah dicuci? · f04 Pejabat ditutup pada pukul enam. · f05 Dilarang makan dan minum di bilik mesyuarat. · f06 Pinggan saya bawa ke dapur.",
   "target_spans": [
    "Kek itu dibuat oleh isteri Encik Rahman.",
@@ -87833,7 +87883,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|6": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|13|6": {
   "source_text": "ms-c07-f03 is said Jalan terus, kemudian belok … (Sam, 12 Nov 2026: the old wording of the frame is not used). Ketinggian and diskaun … peratus appear as written labels on the notice board, as in unit 3C.",
   "target_spans": [
    "Jalan terus, kemudian belok …",
@@ -87844,7 +87894,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|7": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|13|7": {
   "source_text": "What to listen for: titles before names; pukul for the clock; the adjective after the noun; a counter with every number; oleh after a di- verb. Spoken forms are not needed; if a learner says nak, tak or dah, accept them and say the standard form back. Errors go on the board as practice for the A1 test preparation, not as red crosses.",
   "target_spans": [
    "pukul",
@@ -87858,7 +87908,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|12|8": {
+ "Stage 1 · Stage review · A new colleague's first week in Kuala Lumpur|13|8": {
   "source_text": "Use the self-check to choose what to revise before the A1 stage test. No marks or learner records are kept by Cikgu Sensai; the learner keeps the sheet.",
   "target_spans": [],
   "mention_spans": [],

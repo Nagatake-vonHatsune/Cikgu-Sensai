@@ -1,6 +1,8 @@
 """Unit 4B: the daily routine and the tense and aspect markers.
 
-31 core ledger entries (27, plus sarapan, sekejap, hujung minggu and lewat approved by Sam on 12 Nov 2026); 30 Dunia recognition entries ("Satu hari Encik Tanaka", "Bangun pagi");
+31 core ledger entries (27, plus sarapan, sekejap, hujung minggu and lewat approved by Sam on 12 Nov 2026; the entry for
+«depan» (L-0173) also covers L-0304 «depan / hadapan», which is the same Kata-Kata card and has been placed in chapter 4
+since the Kata-Kata clean-up, so the 31 entries cover 32 live ledger rows); 30 Dunia recognition entries ("Satu hari Encik Tanaka", "Bangun pagi");
 chapter 1 to 3 words and unit 4A words reused here are listed as revision. Root verbs only
 (no ber- or me-). All times are fictional. Japanese is a draft awaiting native review.
 """
@@ -100,6 +102,10 @@ EXAMPLES = {
 VOCAB_OPTS = {
     'L-0193': {'display': '«sudah» / «dah» (spoken)', 'en': 'already, done (standard «sudah»; spoken «dah»)'},
     'L-0614': {'en': 'breakfast; to have breakfast'},
+    # L-0304 «depan / hadapan» is the same Kata-Kata card (ms-c04-019) and is placed in Ch4 since the clean-up (Kata-Kata 34710c6):
+    # one entry teaches both ledger rows.
+    'L-0173': {'display': '«depan» / «hadapan»', 'en': 'next (time); front («hadapan» is the formal word)',
+               'ja': '次の；前（«hadapan» は改まった言い方）'},
     'L-0190': {'display': '«tengah» (spoken)', 'en': 'in the middle of (spoken form of «sedang»)'},
     'L-0202': {'display': '«balik» / «pulang»', 'en': 'to go back, return home («balik» everyday; «pulang» also common in writing)'},
 }

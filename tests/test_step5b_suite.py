@@ -35,14 +35,21 @@ def bank():
     return json.loads(raw.split('const lessons=')[1].split(';\nconst bankPDF=')[0])
 
 
+def place_parts(place):
+    """The semicolon-separated parts of a "Kata-Kata place" cell. Notes in brackets are dropped first, so a note such as
+    "(one card with L-0173; reviewed in Ch7)" is neither split nor read as a placement."""
+    return [p.strip() for p in re.sub(r'\([^)]*\)', '', place).split(';') if p.strip()]
+
+
 def ch4_core_ids(rows):
-    """Ledger rows placed in chapter 4 as taught words (not 'reused in Ch4', not Dunia-only)."""
+    """Live ledger rows placed in chapter 4 as taught words. Since the Kata-Kata clean-up (34710c6) the cells no longer
+    say "(pending)"; a bracketed note such as "(reviewed in Ch7)" does not change the placement. Not Dunia-only rows,
+    and not rows that are only reviewed here (their first part is another chapter)."""
     out = set()
     for lid, r in rows.items():
         if r['Review status'] == 'Retired':
             continue
-        parts = [p.strip() for p in r['Kata-Kata place'].split(';')]
-        if any(re.fullmatch(r'Ch ?4( \(pending\))?', p) for p in parts):
+        if any(re.fullmatch(r'Ch ?4', p) for p in place_parts(r['Kata-Kata place'])):
             out.add(lid)
     return out
 
@@ -71,10 +78,21 @@ class Chapter4Minimums(unittest.TestCase):
     def test_ledger_partition(self):
         rows = self.ledger.rows
         core_all = ch4_core_ids(rows)
+        bank_lines = [line for l in self.by_unit['ms-c04b'] for line in self.lines(l)] if 'ms-c04b' in self.by_unit else []
         rec_all = {lid for lid, r in rows.items() if r['Kata-Kata place'].startswith('Dunia')
                    and 'primes Ch4' in r['Kata-Kata place']} - core_all
         # 54 from the step 5b ledger, plus 17 approved by Sam on 12 Nov 2026: L-1032 to L-1044, L-1046, L-1047,
-        # L-0614 sarapan and L-0702 hujung minggu (L-1045 was a duplicate of L-0702 and is retired).
+        # L-0614 sarapan and L-0702 hujung minggu (L-1045 was a duplicate of L-0702 and is retired) = 71 teaching entries.
+        # After the Kata-Kata clean-up (34710c6) the ledger places L-0304 «depan / hadapan» in chapter 4 too, as "one card
+        # with L-0173": 72 live rows, but one card. The 4B entry for «depan» shows «depan» / «hadapan» and so teaches both.
+        self.assertEqual(len(core_all), 72)
+        self.assertEqual(rows['L-0304']['Kata-Kata (card IDs)'], rows['L-0173']['Kata-Kata (card IDs)'])
+        self.assertIn('one card with L-0173', rows['L-0304']['Kata-Kata place'])
+        same_card = {'L-0304'}
+        self.assertTrue(same_card <= core_all)
+        dep = [x for x in bank_lines if '[L-0173]' in x]
+        self.assertTrue(dep and 'hadapan' in dep[0], dep)
+        core_all = core_all - same_card
         self.assertEqual(len(core_all), 71)
         self.assertEqual(len(rec_all), 55)
         reused = {'L-0162', 'L-0163', 'L-0164', 'L-0165', 'L-1001', 'L-1002'}

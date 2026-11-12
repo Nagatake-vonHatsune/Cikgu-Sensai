@@ -13,6 +13,7 @@ import re
 import unittest
 from pathlib import Path
 
+from tests import katakata_ref
 from suite import Ledger, build_suite, malay_words, english_words
 from suite import ms_c09, fast
 from catalogue import make_catalogue
@@ -48,10 +49,11 @@ NEW_CH9 = {f'L-{i:04d}' for i in range(1076, 1089)}
 
 
 def ch9_core(rows):
-    """First placed in chapter 9 and carrying a chapter 9 card, or one of the chapter 9 rows Sam approved on 12 Nov 2026
-    (L-1076 to L-1083, and L-1084 to L-1088 from step 5i, placed "Ch9 (pending)" until Kata-Kata adds their cards)."""
+    """First placed in chapter 9 and carrying a chapter 9 card. Since the Kata-Kata clean-up (34710c6) the chapter 9 rows Sam
+    approved on 12 Nov 2026 (L-1076 to L-1083, and L-1084 to L-1088 from step 5i) have their cards and are placed "Ch9"
+    (no "(pending)")."""
     return {lid for lid in ch9_placed(rows) if first_chapter(rows[lid]) == 9 and 'primes Ch9' not in rows[lid]['Kata-Kata place']
-            and (has_c09_card(rows[lid]) or rows[lid]['Kata-Kata place'] == 'Ch9 (pending)')}
+            and has_c09_card(rows[lid])}
 
 
 def ch9_recognition(rows):
@@ -110,12 +112,20 @@ class Chapter9Minimums(unittest.TestCase):
                           'pesta', 'perhatian', 'hingga', 'tolak', 'tarik'})
         rec_all = ch9_recognition(rows)
         # 27 Dunia entries in the ledger as handed over (Rumah terbuka Hari Raya 13, Simpulan bahasa harian 14) plus Sam's six
-        # festival words of 12 Nov 2026 (L-1070 to L-1075).
+        # festival words of 12 Nov 2026 (L-1070 to L-1075). After the Kata-Kata clean-up (34710c6) the scene is the general
+        # "Rumah terbuka" (Sam, Journal row 80): the 13 Raya rows (L-0537 to L-0549) and the 6 festival rows share one
+        # place cell, "Dunia · Rumah terbuka (primes Ch9)", without "Hari Raya" and without "(pending)".
         self.assertEqual(len(rec_all), 33)
-        raya = {lid for lid in rec_all if 'Rumah terbuka Hari Raya' in rows[lid]['Kata-Kata place']}
+        scene = {lid for lid in rec_all if rows[lid]['Kata-Kata place'] == 'Dunia · Rumah terbuka (primes Ch9)'}
+        self.assertFalse(any('Hari Raya' in rows[lid]['Kata-Kata place'] for lid in rows), 'renamed scene')
+        self.assertFalse(any('pending' in r['Kata-Kata place'] for r in rows.values()))
+        festival = {f'L-{i:04d}' for i in range(1070, 1076)}
+        raya = scene - festival
         simpulan = {lid for lid in rec_all if 'Simpulan bahasa harian' in rows[lid]['Kata-Kata place']}
-        festival = {lid for lid in rec_all if 'Rumah terbuka (primes Ch9; pending)' in rows[lid]['Kata-Kata place']}
+        self.assertEqual(raya, {f'L-{i:04d}' for i in range(537, 550)})
+        self.assertTrue(festival <= scene)
         self.assertEqual((len(raya), len(simpulan), len(festival)), (13, 14, 6))
+        self.assertEqual(scene | simpulan, rec_all)
         self.assertEqual({rows[x]['Malay'] for x in festival},
                          {'Tahun Baru Cina / Tahun Baharu Cina', 'Deepavali', 'Krismas', 'Gawai', 'Kaamatan', 'angpau'})
         carried = placed - core_all - rec_all
@@ -524,9 +534,15 @@ class Chapter9Minimums(unittest.TestCase):
             if line.startswith('After class'):
                 ja = line.split(' / ')[-1]
                 self.assertNotRegex(ja, r'\band\b', ja)
-        self.assertIn('Sedia Kelas c09 (12 cards, frames ms-c09-f01 and ms-c09-f02)', ' '.join(self.lines(opener)))
+        self.assertIn(f'Sedia Kelas c09 ({katakata_ref.sedia_count(9)} cards, frames ms-c09-f01 and ms-c09-f02)', ' '.join(self.lines(opener)))
+        # Every chapter's opener count is the real Sedia Kelas size in the pinned file, in English and Japanese.
+        self.assertIn(f'（カード{katakata_ref.sedia_count(9)}枚、文型 f01・f02）', ' '.join(self.lines(opener)))
         sk = json.loads((ROOT / 'curriculum/reference/katakata/c09.json').read_text())['sedia_kelas']
-        self.assertEqual(len(sk['cards']), 12)
+        # 12 cards before the Kata-Kata clean-up; 16 at 34710c6 (four new chapter 9 cards in the list, and the review card
+        # ms-c08-16 «pinggan» in place of the merged ms-c09-028). The opener text must say what the file says.
+        self.assertEqual(len(sk['cards']), katakata_ref.sedia_count(9))
+        self.assertEqual(len(sk['cards']), 16)
+        self.assertEqual(len(set(sk['cards'])), 16)
         self.assertEqual(sk['frames'], ['ms-c09-f01', 'ms-c09-f02'])
 
     def test_fast_pack(self):
@@ -559,7 +575,7 @@ class Chapter9Minimums(unittest.TestCase):
         self.assertIn('Rumah terbuka', guide)
         self.assertIn('Simpulan bahasa harian', guide)
         self.assertIn('never drilled', guide)
-        self.assertIn('ms-c09-001 to ms-c09-030', guide)
+        self.assertIn(f'all {katakata_ref.card_count(9)} Kata-Kata chapter 9 cards (ms-c09-001 to ms-c09-{katakata_ref.last_own_card(9):03}', guide)
         # The fast pack keeps the same di- rule: only the two productive examples, both from ledger verbs.
         body = ' '.join(self.lines(l, 'Key patterns'))
         self.assertIn('«digoreng»', body)

@@ -1,5 +1,7 @@
 # Kata-Kata clean-up list (brief for a separate Kata-Kata session)
 
+**Status (12 Nov 2026): done.** The Kata-Kata session carried out this list and ended at **Kata-Kata 34710c6** (its report is `docs/CLEANUP-2026-11-12.md` in the Kata-Kata repository). Cikgu Sensai then took over the result: `curriculum/reference/katakata/c01.json` to `c09.json` and both ledger copies are the Kata-Kata files at 34710c6 (`docs/step4-sources.json`). The text below is kept as the original brief, so some of its sentences ("pending", "proposal", "Hari Raya" scene name) describe the state before the clean-up. Items the Kata-Kata report leaves open: Kamus Dewan checks (gurdwara, angpau, Tahun Baru / Baharu Cina and the rest of L-0983 to L-1088), the Hanashishou mapping of L-0592 to L-0330, and the native Japanese review.
+
 **Written:** 12 Nov 2026, Claude, step 5h (the last Stage 1 batch). **Do not edit the Kata-Kata repository from Cikgu Sensai.**
 This file is the brief for a Kata-Kata session (Claude Code, in the Kata-Kata repository). It is one consolidated,
 deduplicated list of every Kata-Kata change found while building Cikgu Sensai chapters 1 to 9 (steps 3 to 5h).

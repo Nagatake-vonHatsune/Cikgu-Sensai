@@ -11,6 +11,7 @@ import re
 import unittest
 from pathlib import Path
 
+from tests import katakata_ref
 from suite import Ledger, build_suite, malay_words, english_words
 from suite import ms_c06, fast
 from catalogue import make_catalogue
@@ -313,7 +314,9 @@ class Chapter6Minimums(unittest.TestCase):
                     ja = line.split(' / ')[-1]
                     self.assertNotRegex(ja, r'\band\b', (unit, ja))
         opener = next(l for l in self.by_unit[self.u] if l['suite']['component_type'] == 'Opener')
-        self.assertIn('Sedia Kelas c06 (16 cards, frames ms-c06-f01 and ms-c06-f02)', ' '.join(self.lines(opener)))
+        self.assertIn(f'Sedia Kelas c06 ({katakata_ref.sedia_count(6)} cards, frames ms-c06-f01 and ms-c06-f02)', ' '.join(self.lines(opener)))
+        # Every chapter's opener count is the real Sedia Kelas size in the pinned file, in English and Japanese.
+        self.assertIn(f'（カード{katakata_ref.sedia_count(6)}枚、文型 f01・f02）', ' '.join(self.lines(opener)))
 
     def test_fast_pack(self):
         self.assertIn('ms-c06-fast', self.by_unit)
@@ -344,7 +347,7 @@ class Chapter6Minimums(unittest.TestCase):
         guide = ' '.join(self.lines(l, 'Self-study'))
         self.assertIn('Sedia Kelas c06', guide)
         self.assertIn('Main badminton', guide)
-        self.assertIn('ms-c06-001 to ms-c06-034', guide)
+        self.assertIn(f'all {katakata_ref.card_count(6)} Kata-Kata chapter 6 cards (ms-c06-001 to ms-c06-{katakata_ref.last_own_card(6):03}', guide)
         # The whole-word note and the two re-used chapter 4 words are in the core list.
         core_text = ' '.join(self.lines(l, 'Core words'))
         self.assertIn('Whole words to learn as they are', core_text)

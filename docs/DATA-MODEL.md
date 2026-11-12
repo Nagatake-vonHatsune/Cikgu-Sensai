@@ -66,8 +66,10 @@ supply real prerequisite mappings, tests and their independent keys.
 
 ## Reference integrity and roots
 
-The nine JSON files and ledger CSV are byte-identical upstream snapshots at the
-revision in `docs/restructure-sources.json`. No reference repository is edited.
+The nine JSON files and ledger CSV are byte-identical upstream snapshots. Since the
+Kata-Kata clean-up they are the Kata-Kata files at commit 34710c6 (hashes and notes in
+`docs/step4-sources.json`); `docs/restructure-sources.json` keeps the older revision
+(0f78179) that the restructure audit was run against. No reference repository is edited.
 `curriculum/malay-roots.json` records Sam's five root classifications. The audit
 uses these classifications without adding terms to the ledger or enabling the
 step 3 affix guard.

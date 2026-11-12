@@ -63,8 +63,11 @@ CANDO = {
          'もう済んだこと、まだのこと、している最中のこと、予定を言える（«sudah»・«belum»・«sedang»・«akan»）。')],
     5: [('I can describe food, things and how I feel.', '食べ物や物、自分の気持ちを説明できる。'),
         ('I can ask how something is and choose the one I want with «yang».',
-         'どうかをたずね、«yang» を使ってほしいものを選べる。')],
-    6: [('I can compare two options and say that two things are the same.', '二つを比べ、二つが同じだと言える。'),
+         'どうかをたずね、«yang» を使ってほしいものを選べる。'),
+        ('I can ask why and give a reason («Kenapa …?» «Sebab …»).',
+         '理由をたずね、理由を言える（«Kenapa …?»・«Sebab …»）。')],
+    6: [('I can compare two options, say that two things are the same and say which one I choose («Saya pilih …»).',
+         '二つを比べ、二つが同じだと言い、どちらを選ぶかを言える（«Saya pilih …»）。'),
         ('I can pick the best of three and say that something is too much.', '三つの中から一番を選び、「〜すぎる」と言える。')],
     7: [('I can ask where something is and say where it is.', '物や場所がどこにあるかをたずね、答えられる。'),
         ('I can follow and give a short route, and ask how far and how long.',
@@ -139,6 +142,9 @@ SCENES = [
         ('Aini', 'Sedap, tetapi pedas sedikit.'),
         ('Kimura', 'Saya mahu yang tidak pedas. Mi goreng lebih murah daripada nasi lemak?'),
         ('Aini', 'Ya, mi goreng lebih murah. Mi goreng di sini juga sedap.'),
+        ('Kimura', 'Baik, saya pilih mi goreng.'),
+        ('Aini', 'Kenapa encik tidak pilih nasi lemak?'),
+        ('Kimura', 'Sebab nasi lemak lebih mahal.'),
         ('Stall holder', 'Makan sini atau bungkus?'),
         ('Kimura', 'Makan sini. Saya mahu sepinggan mi goreng dan secawan teh tarik.'),
         ('Aini', 'Saya mahu nasi lemak dan teh tarik, kurang manis, ais sedikit. Kami mahu dua keping pisang goreng juga.'),
@@ -222,8 +228,8 @@ ROLE_A = ['You are a new colleague in your first week (use your own name or «En
           '台本なしで、一日ずつ五日間を進めます：',
           'Monday: greet B, introduce yourself and ask one question about B; give your age and phone number for the form. / '
           '月曜日：Bにあいさつして自己紹介し、Bに一つ質問します。書類のために年齢と電話番号を言います。',
-          'Tuesday: ask how a dish tastes, compare two dishes, order for two people with counters, and check the total. / '
-          '火曜日：料理の味をたずね、二つを比べ、二人分を助数詞で注文し、合計を確かめます。',
+          'Tuesday: ask how a dish tastes, compare two dishes, choose one and say why, order for two people with counters, and check the total. / '
+          '火曜日：料理の味をたずね、二つを比べ、一つを選んで理由を言い、二人分を助数詞で注文し、合計を確かめます。',
           'Wednesday: ask the time and when the meeting starts and ends; say one thing you have not done yet. / '
           '水曜日：時刻と会議の開始・終了時刻をたずね、まだしていないことを一つ言います。',
           'Thursday: ask the way to the bank, how far it is and how long it takes; repeat the route. / '
@@ -244,7 +250,7 @@ SUCCESS = ['☐ Every day has at least one question and one full answer, with no
            '☐ Titles come before names; the greeting fits the time of day (chapters 1 and 2).',
            '☐ Prices, the age and the phone number are said correctly (chapter 3).',
            '☐ «pukul» for clock times; «sudah», «belum», «akan» fit the time (chapter 4).',
-           '☐ Adjectives follow the noun; one comparison with «lebih», «sama … dengan» or «paling» (chapters 5 and 6).',
+           '☐ Adjectives follow the noun; one comparison with «lebih», «sama … dengan» or «paling»; one choice with «Saya pilih …» and one reason with «Kenapa …? Sebab …» (chapters 5 and 6).',
            '☐ The route uses «jalan terus», «belok kiri / kanan di …» and a position word (chapter 7).',
            '☐ Every order has a number and a counter, or ‹se-› + counter (chapter 8).',
            '☐ One sentence with a «di-» verb and «oleh», and one sign read correctly (chapter 9).']
@@ -269,9 +275,11 @@ FRAME_RETURNS = {
     'ms-c05-f01': 'Mi goreng ini sedap.', 'ms-c05-f02': 'Sedap, tetapi pedas sedikit.',
     'ms-c05-f03': 'Saya mahu yang tidak pedas.', 'ms-c05-f04': 'Saya rasa lapar.',
     'ms-c05-f05': 'teh tarik, kurang manis, ais sedikit',
+    'ms-c05-f06': 'Kenapa encik tidak pilih nasi lemak?',
     'ms-c06-f01': 'Mi goreng lebih murah daripada nasi lemak', 'ms-c06-f02': 'Kopi kurang manis daripada teh tarik.',
     'ms-c06-f03': 'Kopi di sini sama sedap dengan teh tarik.', 'ms-c06-f04': 'Nasi lemak di gerai ini paling sedap.',
     'ms-c06-f05': 'Yang mana lebih murah, kopi atau teh tarik?', 'ms-c06-f06': 'teh tarik ini terlalu manis!',
+    'ms-c06-f07': 'Baik, saya pilih mi goreng.',
     'ms-c07-f01': 'Encik mahu pergi ke mana?', 'ms-c07-f02': 'Bank di sebelah pejabat pos.',
     'ms-c07-f03': 'Jalan terus, kemudian belok kiri di lampu isyarat.', 'ms-c07-f04': 'Berapa jauh bank dari sini?',
     'ms-c07-f05': 'Lebih kurang sepuluh minit naik teksi.',

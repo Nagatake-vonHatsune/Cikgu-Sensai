@@ -348,7 +348,7 @@ CFG = dict(
     patterns=P, pattern_ids=['ms-c05-f01', 'ms-c05-f02', 'ms-c05-f03', 'ms-c05-f04', 'ms-c05-f05'],
     pattern_keys=['Pattern 1: if a learner says «bukan manis», model «tidak manis» and ask "Is it a noun or a description?"',
                   'Pattern 2: «macam mana» and «tapi» are spoken forms; accept them in pair work once «bagaimana» and «tetapi» have been practised.',
-                  'Pattern 4: there is no Kata-Kata frame yet for «Kenapa …? Sebab …»; it is taught here with ms-c05-f04 (see the report). «Kenapa», «mengapa» and «apa sebab» are one question; accept «sebab» or «kerana» as the answer.',
+                  'Pattern 4: Kata-Kata has had a frame for «Kenapa …? Sebab …» since its clean-up (ms-c05-f06); it is taught here inside this pattern, which stays tagged ms-c05-f04, and the stage review brings f06 back. «Kenapa», «mengapa» and «apa sebab» are one question; accept «sebab» or «kerana» as the answer.',
                   'Pattern 5: do not let learners build other sentences with ‹kurang› (chapter 6).'],
     dialogue=DIALOGUE, variant=VARIANT,
     drills={

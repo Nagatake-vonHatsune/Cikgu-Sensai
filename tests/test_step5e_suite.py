@@ -17,6 +17,7 @@ import re
 import unittest
 from pathlib import Path
 
+from tests import katakata_ref
 from suite import Ledger, build_suite, malay_words, english_words
 from suite import ms_c07, fast
 from catalogue import make_catalogue
@@ -76,21 +77,26 @@ class Chapter7Minimums(unittest.TestCase):
         placed = ch7_rows(rows)
         # 53 rows from the ledger as handed over, plus the five rows Sam approved on 12 Nov 2026 (L-1054 to L-1058),
         # «sesak» (L-0620, placed in chapter 7 on 12 Nov 2026) and the five rows of the step 5e review (L-1059 to L-1063).
-        # L-0592 «pintu masuk» was Retired on 12 Nov 2026 (Sam), so 63 live rows remain.
-        self.assertEqual(len(placed), 63)
+        # L-0592 «pintu masuk» was Retired on 12 Nov 2026 (Sam), so 63 live rows remained at step 5i. After the Kata-Kata
+        # clean-up (34710c6) the ledger places L-0304 «depan / hadapan» in chapter 4 ("one card with L-0173"; Ch7 only
+        # reviews it), so 62 live rows start with Ch7 and every one of them is new core in unit 7.
+        self.assertEqual(len(placed), 62)
         self.assertNotIn('L-0592', placed)
-        self.assertEqual(len({lid for lid in placed if int(lid[2:]) < 1054 and lid != 'L-0620'}), 52)
+        self.assertNotIn('L-0304', placed)
+        self.assertEqual(len({lid for lid in placed if int(lid[2:]) < 1054 and lid != 'L-0620'}), 51)
         self.assertEqual({lid for lid in placed if int(lid[2:]) >= 1054},
                          {'L-1054', 'L-1055', 'L-1056', 'L-1057', 'L-1058', 'L-1059', 'L-1060', 'L-1061', 'L-1062', 'L-1063'})
         self.assertIn('L-0620', placed)
-        # One is not new core: «depan» (taught in chapter 4). The duplicate «pintu masuk» row is Retired.
+        # «depan» is not new core here: it is a chapter 4 card that unit 7 reviews. The duplicate «pintu masuk» row is Retired.
         self.assertEqual(rows['L-0592']['Malay'], 'pintu masuk')
         self.assertEqual(rows['L-0592']['Review status'], 'Retired')
         self.assertIn('pintu masuk', rows['L-0330']['Malay'])
         self.assertEqual(rows['L-0304']['Malay'], 'depan / hadapan')
         self.assertEqual(rows['L-0173']['Malay'], 'depan')
-        self.assertEqual(rows['L-0173']['Kata-Kata place'], 'Ch4')
-        core_all = placed - {'L-0304'}
+        self.assertEqual(rows['L-0173']['Kata-Kata place'], 'Ch4 (reviewed in Ch7)')
+        self.assertEqual(rows['L-0304']['Kata-Kata place'], 'Ch4 (one card with L-0173; reviewed in Ch7)')
+        self.assertEqual(rows['L-0304']['Kata-Kata (card IDs)'], rows['L-0173']['Kata-Kata (card IDs)'])
+        core_all = set(placed)
         self.assertEqual(len(core_all), 62)
         core = self.cfg['core']
         self.assertEqual(len(core), len(set(core)))
@@ -428,7 +434,9 @@ class Chapter7Minimums(unittest.TestCase):
                     ja = line.split(' / ')[-1]
                     self.assertNotRegex(ja, r'\band\b', (unit, ja))
         opener = next(l for l in self.by_unit[self.u] if l['suite']['component_type'] == 'Opener')
-        self.assertIn('Sedia Kelas c07 (27 cards, frames ms-c07-f01 and ms-c07-f02)', ' '.join(self.lines(opener)))
+        self.assertIn(f'Sedia Kelas c07 ({katakata_ref.sedia_count(7)} cards, frames ms-c07-f01 and ms-c07-f02)', ' '.join(self.lines(opener)))
+        # Every chapter's opener count is the real Sedia Kelas size in the pinned file, in English and Japanese.
+        self.assertIn(f'（カード{katakata_ref.sedia_count(7)}枚、文型 f01・f02）', ' '.join(self.lines(opener)))
 
     def test_fast_pack(self):
         self.assertIn('ms-c07-fast', self.by_unit)
@@ -458,7 +466,7 @@ class Chapter7Minimums(unittest.TestCase):
         self.assertIn('Sedia Kelas c07', guide)
         for scene in SCENES:
             self.assertIn(scene, guide)
-        self.assertIn('ms-c07-001 to ms-c07-049', guide)
+        self.assertIn(f'all {katakata_ref.card_count(7)} Kata-Kata chapter 7 cards (ms-c07-001 to ms-c07-{katakata_ref.last_own_card(7):03}', guide)
 
     def test_legacy_retirement_and_catalogue(self):
         built = {x['title'] for x in bank()}

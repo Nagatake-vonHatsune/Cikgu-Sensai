@@ -4,7 +4,7 @@ Malay is limited to ledger rows placed in chapter 1 (45 rows, ledger refreshed
 11 Nov 2026). Kata-Kata frames ms-c01-f01 to f05 are the patterns. Japanese is
 a draft awaiting native review.
 """
-from . import vocab, malay_words, english_words, pattern, turns
+from . import vocab, malay_words, english_words, pattern, turns, sedia_cards
 
 GOALS = {
     'A': 'I can greet people at the right time of day and use the right title.',
@@ -54,7 +54,7 @@ def components(ledger):
                 '前のレッスンはありません。授業前に Kata-Kata（Sedia Kelas c01）でこの課の単語を見ています。',
                 'ノートを閉じて、覚えているあいさつを全部言いましょう。朝8時と夜9時のあいさつはどれですか。']),
             ('Self-study · 自習', [
-                'Before class: Kata-Kata Sedia Kelas set c01 (23 cards, frames ms-c01-f01 and f02).',
+                f'Before class: Kata-Kata Sedia Kelas set c01 ({sedia_cards(1)} cards, frames ms-c01-f01 and f02).',
                 'After class: the whole Kata-Kata chapter 1 deck with spaced review. Planning figure: about 3 hours of Kata-Kata per unit.',
                 '授業前：Kata-Kata の Sedia Kelas c01。授業後：第1章のカード全部を復習。目安は1ユニット約3時間。']),
         ],
@@ -121,9 +121,9 @@ def components(ledger):
                 ('L-0027', '«Jaga diri, Mak cik.»'),
                 ('L-0499', '«Hati-hati, Encik!»')]),
         ]))],
-        key=['Kata-Kata cards: ms-c01-001 to ms-c01-038. «saya» is card ms-c02-001; «pagi», «tengah hari», «petang», «malam» are cards ms-c04-008 to 011. '
-             'All five were placed in chapter 1 on 11 Nov 2026; the Kata-Kata move is pending.',
-             '«pun» (L-0983) and «oh» (L-0984) have no Kata-Kata card yet (pending).',
+        key=['Kata-Kata cards: ms-c01-001 to ms-c01-040 (card ms-c01-009, a faith-specific greeting, was removed in the Kata-Kata clean-up; such greetings are not taught). «saya» is card ms-c02-001; «pagi», «tengah hari», «petang», «malam» are cards ms-c04-008 to 011. '
+             'All five were placed in chapter 1 on 11 Nov 2026 and moved to Kata-Kata chapter 1 in the clean-up (Kata-Kata 34710c6; chapters 2 and 4 review them).',
+             '«pun» (L-0983) and «oh» (L-0984) now have Kata-Kata chapter 1 cards (ms-c01-039 and ms-c01-040).',
              'Check in class: say a time (8 am, 1 pm, 5 pm, 9 pm); learners answer with the greeting. Say a person (young woman, older man); learners give the title.',
              'Expected: 8 am «Selamat pagi»; 1 pm «Selamat tengah hari»; 5 pm «Selamat petang»; 9 pm «Selamat malam»; young woman «Cik»; older man «Pak cik».']))
 
@@ -520,7 +520,7 @@ def components(ledger):
                  'For the teacher: timings for the five 45-minute blocks and the pronunciation block, prompts, expected answers and Kata-Kata homework.'),
         sections=[
             ('Before and after · 授業の前後', [
-                'Before Block A: learners do Kata-Kata Sedia Kelas c01 (23 cards; frames ms-c01-f01, f02) and send Tanya Cikgu questions.',
+                f'Before Block A: learners do Kata-Kata Sedia Kelas c01 ({sedia_cards(1)} cards; frames ms-c01-f01, f02) and send Tanya Cikgu questions.',
                 'After Block B: the whole chapter 1 deck with spaced review. After Block D: preview Sedia Kelas c02 (chapter 2).',
                 'Self-study planning figure: about 3 hours of Kata-Kata for this unit. Hanashishou starts at A2; there is no A1 scene yet.',
                 'Audio: teacher-read scripts only (charter section 11).']),

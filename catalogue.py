@@ -92,7 +92,7 @@ def make_catalogue(lessons, groups):
             'recycled_items':{'word_ids':[],'pattern_ids':[], 'status':'not yet selected',
                 'planned_pattern_returns':[{'pattern_id':f['id'],'destinations':[f'ms-c{k:02}' for k in (n+1,n+3) if k<=9]+['ms-stage1-review']} for f in p['frames']]},
             'scene_ids':[f'scene-a1-ms-origin-{n:02}'],'kata_kata_set':{'pack_id':p['id'],'sedia_kelas':p['sedia_kelas'],
-                'source_url':f'https://github.com/Nagatake-vonHatsune/katakata/blob/0f78179034552f85d4c0d7ac4cb9e185f8b8ac8a/content/ms/kelas/c{n:02}.json'},
+                'source_url':f'https://github.com/Nagatake-vonHatsune/katakata/blob/34710c6a766c63278610864c46db87d78194dc05/content/ms/kelas/c{n:02}.json'},
             'hanashishou_scene_ids':[], 'self_study_hours':{'full':3*len(units),'fast':[9,10],'status':'provisional planning estimate'},
             'review_status':'draft','sequence':'stage1','stage_id':'ms-stage1',
             'prerequisites':[f'ms-c{k:02}' for k in range(1,n)] if n<=2 else [],
@@ -168,7 +168,7 @@ def make_catalogue(lessons, groups):
                'first_language_notes':[],'scene_chapter_map':[],'hour_budget':None,'review_status':'draft',
                'status':'Supplementary legacy packs; language-specific syllabus not yet authored'} for lang in ['English','Japanese']]],
         'grammar_registry':grammar,'word_registry':words,'pattern_registry':patterns,
-        'source_manifest':'docs/restructure-sources.json', 'future_chapters':[{'id':'ms-c12','level':'A2','status':'Stage 2, not yet active'}]}
+        'source_manifest':'docs/restructure-sources.json', 'source_manifest_current':'docs/step4-sources.json', 'future_chapters':[{'id':'ms-c12','level':'A2','status':'Stage 2, not yet active'}]}
 
 def authored_component(l,body,g,u):
     """Step 4 suite component: tags come from the authored metadata, not inferred."""

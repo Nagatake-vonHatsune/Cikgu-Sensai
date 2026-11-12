@@ -1,12 +1,14 @@
 """Unit 8: penjodoh bilangan, classifiers (number + counter + noun, ‹se-› + counter, berapa + counter, price per counter,
 «Tolong bungkus», «Makan sini atau bungkus?», «Tambah satu lagi»).
 
-41 core ledger entries in five groups. The ledger copy places 60 rows in chapter 8: 41 first placed in chapter 8 (34 rows
+41 core ledger entries in five groups. The ledger copy (Kata-Kata 34710c6) places 58 rows in chapter 8: 41 first placed in chapter 8 (34 rows
 L-0343 to L-0376, «baju» L-0500, and the six rows Sam approved on 12 Nov 2026: L-1064 «nasi lemak», L-1065 «gerai»,
 L-1066 «tambah», L-1067 «buah» (classifier), L-1068 «pisang goreng / goreng pisang», L-1069 «keropok lekor») and 11
-Dunia recognition words that prime chapter 8 ("Beli baju"). The 8 rows that carry a chapter 8 card but were placed
-earlier are revision: «orang» (L-0058), «surat» (L-0426), «payung» (L-0437), «buku» (L-0487), «kaki» (L-0488), «buah»
-as fruit (L-0514), «ikan» (L-0515) and «kertas» (L-0524).
+Dunia recognition words that prime chapter 8 ("Beli baju"). The 6 rows that carry a chapter 8 card but were placed
+earlier are revision: «orang» (L-0058), «surat» (L-0426), «payung» (L-0437), «buku» (L-0487), «ikan» (L-0515) and
+«kertas» (L-0524). The count was 60 before the Kata-Kata clean-up: «kaki» (L-0488) lost its counter card and the fruit
+«buah» (L-0514) lost its card to the counter row L-1067, so neither is placed in chapter 8 any more (both stay revision
+or Dunia words with their earlier places).
 Sam, 12 Nov 2026: ‹se-› + any counter is normal Malay and is the chapter 8 pattern, so every counter is taught and drilled
 with ‹se-› beside «satu» + counter («sehelai baju» = «satu helai baju»). «seekor», «sebiji» and «sebuah» are also whole
 ledger words. «kaki» as a counter is not added. «pucuk» and «naskhah» are formal counters seen mostly in writing; «tapau»
@@ -531,7 +533,7 @@ CFG = dict(
                    '‹se-› + any counter is normal Malay and is the chapter 8 pattern (Sam, 12 Nov 2026; this corrects the step 5f brief). Teach and drill it with every counter, beside «satu» + counter: «sehelai baju» = «satu helai baju». Accept both as right. ‹se-› means "one" only. «seekor», «sebiji» and «sebuah» are also whole ledger words (L-0360 to L-0362).',
                    'Earlier units deliberately avoided counters. Unit 3B has «dua epal» and unit 5 has «Mi goreng satu» and «roti canai dua»; these are everyday speech and stay as they are. This unit shows the counter form beside them: «dua biji epal», «sepinggan mi goreng». Do not correct the earlier units.',
                    'Register (Sam, 12 Nov 2026): «pucuk» and «naskhah» are formal counters, mostly seen in writing; «tapau» is everyday speech; «nak» is spoken for «mahu». «pisang goreng» is standard and «goreng pisang» is the everyday name (ledger L-1068). Do not mark «goreng pisang» as an error.',
-                   'Counter cards in the Kata-Kata chapter 8 deck that the ledger placed earlier: «orang» (card ms-c08-001, ledger chapter 2) and «kaki» (card ms-c08-010, "counter: umbrellas"). «kaki» as a counter is not added to the ledger (Sam: too rare). The counter «buah» is now ledger row L-1067; «buah» as fruit stays L-0514.',
+                   'Counter cards in the Kata-Kata chapter 8 deck that the ledger placed earlier: «orang» (card ms-c08-001, ledger chapter 2, now with the counter sense in its note). The Kata-Kata card ms-c08-010 «kaki» (counter: umbrellas) was removed in the clean-up because «kaki» is not a counter (Sam: too rare). The counter «buah» is ledger row L-1067 and its card now points there; «buah» as fruit stays L-0514.',
                    'Scenes: a fish, egg and chicken stall at a morning market, a flower stall, a «gerai» («nasi lemak», «pisang goreng», «keropok lekor», «teh tarik») and a «mamak» stall. All stalls, prices and names are fictional. No food rules or religious expressions are taught; ask Sam before adding any.',
                    '"Beli baju" is for recognition. The clothes words are labels; the size and fit sentences («Saiz berapa?», «Baju ini ketat.», «Boleh saya cuba baju ini?») are chunks to recognise and say, not new grammar.',
                    'Cumulative question words now include «berapa» with a counter (chapters 1 to 8). Chapter 9 adds no new question word; «siapa» returns in the passive.'],

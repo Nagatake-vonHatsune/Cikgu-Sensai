@@ -1,4 +1,4 @@
-import copy,json,subprocess,unittest
+import copy,hashlib,json,subprocess,unittest
 from pathlib import Path
 from language_checks import Checker,collect_segments,validate_baseline,ratchet,ROOT,INDONESIAN
 from catalogue import make_catalogue
@@ -54,13 +54,20 @@ class LanguageChecksTests(unittest.TestCase):
    result=run_checks([],{'components':[],'test_items':[]})
    self.assertTrue(result['ledger_gaps'])
  def test_no_content_or_reference_edits(self):
-  # Legacy lesson sources and the Kata-Kata chapter files are unchanged. Step 4
-  # changed exactly one legacy line (3B, ledger L-1006) and refreshed the ledger.
+  # Legacy lesson sources are unchanged. Step 4 changed exactly one legacy line (3B, ledger
+  # L-1006) and refreshed the ledger.
   files=['curriculum/malay-course.txt','curriculum/foundation.txt','curriculum/advanced.txt','curriculum/guided.txt','conversations.py','curriculum.py']
-  files += [str(p.relative_to(ROOT)) for p in (ROOT/'curriculum/reference/katakata').glob('*.json')]
   for f in files:
    original=subprocess.check_output(['git','show','c067e225eabe51e3bfc7020bd2800f9bdaf5a5b4:'+f],cwd=ROOT)
    self.assertEqual(original,(ROOT/f).read_bytes(),f)
+  # The Kata-Kata chapter files are no longer the 0f78179 baseline: they were refreshed to Kata-Kata
+  # 34710c6 (the end of the 12 Nov 2026 clean-up) and are edited only by copying them from there.
+  # Pinned in docs/step4-sources.json; no Cikgu Sensai edit may change them.
+  sources=json.loads((ROOT/'docs/step4-sources.json').read_text())
+  self.assertEqual(sources['kata_kata_commit'],'34710c6')
+  for i in range(1,10):
+   name='c%02d.json'%i
+   self.assertEqual(hashlib.sha256((ROOT/'curriculum/reference/katakata'/name).read_bytes()).hexdigest(),sources['kata_kata_chapter_sha256']['content/ms/kelas/'+name],name)
   original=subprocess.check_output(['git','show','c067e225eabe51e3bfc7020bd2800f9bdaf5a5b4:curriculum/foundation-guided.txt'],cwd=ROOT,text=True).splitlines()
   changed=[(a,b) for a,b in zip(original,(ROOT/'curriculum/foundation-guided.txt').read_text().splitlines()) if a!=b]
   self.assertEqual(changed,[('Pukul lapan. Nak datang lagi?|Ya, saya nak beli untuk kawan.','Pukul lapan. Nak beli lagi?|Ya, saya nak beli untuk kawan.')])
