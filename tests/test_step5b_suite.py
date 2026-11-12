@@ -39,6 +39,8 @@ def ch4_core_ids(rows):
     """Ledger rows placed in chapter 4 as taught words (not 'reused in Ch4', not Dunia-only)."""
     out = set()
     for lid, r in rows.items():
+        if r['Review status'] == 'Retired':
+            continue
         parts = [p.strip() for p in r['Kata-Kata place'].split(';')]
         if any(re.fullmatch(r'Ch ?4( \(pending\))?', p) for p in parts):
             out.add(lid)
@@ -71,7 +73,9 @@ class Chapter4Minimums(unittest.TestCase):
         core_all = ch4_core_ids(rows)
         rec_all = {lid for lid, r in rows.items() if r['Kata-Kata place'].startswith('Dunia')
                    and 'primes Ch4' in r['Kata-Kata place']} - core_all
-        self.assertEqual(len(core_all), 54)
+        # 54 from the step 5b ledger, plus 17 approved by Sam on 12 Nov 2026: L-1032 to L-1044, L-1046, L-1047,
+        # L-0614 sarapan and L-0702 hujung minggu (L-1045 was a duplicate of L-0702 and is retired).
+        self.assertEqual(len(core_all), 71)
         self.assertEqual(len(rec_all), 55)
         reused = {'L-0162', 'L-0163', 'L-0164', 'L-0165', 'L-1001', 'L-1002'}
         self.assertFalse(core_all & reused)
@@ -81,10 +85,10 @@ class Chapter4Minimums(unittest.TestCase):
         self.assertEqual(len(rec), len(set(rec)))
         self.assertTrue(set(core) <= core_all)
         self.assertTrue(set(rec) <= rec_all)
-        self.assertEqual(len(self.cfg[0]['core']), 27)
+        self.assertEqual(len(self.cfg[0]['core']), 40)
         self.assertEqual(sum(len(ids) for _, ids in self.cfg[0]['recognition']), 25)
         if len(self.cfg) == 2:
-            self.assertEqual(len(self.cfg[1]['core']), 27)
+            self.assertEqual(len(self.cfg[1]['core']), 31)
             self.assertEqual(set(core), core_all)
             self.assertEqual(set(rec), rec_all)
         for c in self.cfg:
@@ -248,9 +252,14 @@ class Chapter4Minimums(unittest.TestCase):
         """Dates use «hari bulan berapa»; «jam» for clock time is explained; ‹ke› appears only as a mention in explainers and notes."""
         p4a = ' '.join(self.lines(self.comp('ms-c04a', 'Pattern and grammar')))
         self.assertIn('«Hari ini hari bulan berapa?»', p4a)
+        self.assertIn('«Hari bulan sebelas.»', p4a)
+        self.assertIn('«Apa tarikh hari ini?»', p4a)
+        self.assertNotRegex(p4a, r'«[^»]*(?:satu|dua|tiga|empat|lima|enam|tujuh|lapan|sembilan|puluh|belas|sebelas) hari bulan')
         self.assertIn('«Hari ini hari apa?»', p4a)
         self.assertIn('«jam tiga»', p4a)
-        self.assertIn('Monday to Friday', ' '.join(self.lines(self.comp('ms-c04a', 'Culture note'))))
+        culture = ' '.join(self.lines(self.comp('ms-c04a', 'Culture note')))
+        for fact in ('Monday to Friday', 'Kedah, Kelantan and Terengganu', 'Johor'):
+            self.assertIn(fact, culture)
         if 'ms-c04b' in self.new:
             explain = ' '.join(x for _, xs in self.comp('ms-c04b', 'Pattern and grammar')['explainers'] for x in xs)
             self.assertIn('‹ke›', explain)

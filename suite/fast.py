@@ -249,7 +249,7 @@ def chapter4(ledger):
              ['Spoken forms: «dah» for «sudah», «tengah» for «sedang». Revision: «pagi», «tengah hari», «petang», «malam» (chapter 1); «suku», «setengah» (chapter 3).'], 'vocabulary'),
             ('Key patterns · 文型', [
                 '1 · «Pukul berapa sekarang?» «Sekarang pukul» ___ .  e.g. «Sekarang pukul empat suku petang.» / «Sekarang pukul dua setengah.»',
-                '2 · «Hari ini hari apa?»  e.g. «Hari ini hari Isnin.» / «Semalam hari Ahad.»',
+                '2 · «Hari ini hari apa?» «Hari ini hari bulan berapa?»  e.g. «Hari ini hari Khamis.» / «Hari bulan sebelas.»',
                 '3 · «Saya» ___ «setiap» ___ .  e.g. «Saya main badminton setiap hari Sabtu.» / «Kadang-kadang saya masak.»',
                 '4 · «Bila» ___ ?  e.g. «Bila kelas encik?» «Hari Selasa.» / «Kelas berapa jam?» «Dua jam.»',
                 '5 · «Sudah» ___ ? «Sudah.» «Belum.»  e.g. «Sudah makan?» «Belum.» / «Bos sudah datang?» «Sudah.»',

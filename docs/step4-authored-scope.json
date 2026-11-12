@@ -31095,13 +31095,255 @@
   "exclusion": null
  },
  "Unit 4A · Vocabulary focus|4|9": {
+  "source_text": "tarikh — date (day and month) · 日付  [L-1032]",
+  "target_spans": [
+   "tarikh"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|10": {
+  "source_text": "   e.g. Apa tarikh hari ini? Sebelas November.",
+  "target_spans": [
+   "Apa tarikh hari ini?",
+   "Sebelas November."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|11": {
+  "source_text": "■ Core words · Months · 学習する",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|4|12": {
+  "source_text": "Januari — January · 1月  [L-1033]",
+  "target_spans": [
+   "Januari"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|13": {
+  "source_text": "   e.g. Kelas kita mula lima Januari.",
+  "target_spans": [
+   "Kelas kita mula lima Januari."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|14": {
+  "source_text": "Februari — February · 2月  [L-1034]",
+  "target_spans": [
+   "Februari"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|15": {
+  "source_text": "   e.g. Biasanya Februari ada dua puluh lapan hari.",
+  "target_spans": [
+   "Biasanya Februari ada dua puluh lapan hari."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|16": {
+  "source_text": "Mac — March · 3月  [L-1035]",
+  "target_spans": [
+   "Mac"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|17": {
+  "source_text": "   e.g. Saya cuti bulan Mac.",
+  "target_spans": [
+   "Saya cuti bulan Mac."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|18": {
+  "source_text": "April — April · 4月  [L-1036]",
+  "target_spans": [
+   "April"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|19": {
+  "source_text": "   e.g. Mesyuarat kita tiga April.",
+  "target_spans": [
+   "Mesyuarat kita tiga April."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|20": {
+  "source_text": "Mei — May · 5月  [L-1037]",
+  "target_spans": [
+   "Mei"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|21": {
+  "source_text": "   e.g. Bulan Mei saya sibuk.",
+  "target_spans": [
+   "Bulan Mei saya sibuk."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|22": {
+  "source_text": "Jun — June · 6月  [L-1038]",
+  "target_spans": [
+   "Jun"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|23": {
+  "source_text": "   e.g. Saya balik Jepun bulan Jun.",
+  "target_spans": [
+   "Saya balik Jepun bulan Jun."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|24": {
+  "source_text": "Julai — July · 7月  [L-1039]",
+  "target_spans": [
+   "Julai"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|25": {
+  "source_text": "   e.g. Hari ini satu Julai.",
+  "target_spans": [
+   "Hari ini satu Julai."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|26": {
+  "source_text": "Ogos — August · 8月  [L-1040]",
+  "target_spans": [
+   "Ogos"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|27": {
+  "source_text": "   e.g. Kami cuti di pulau bulan Ogos.",
+  "target_spans": [
+   "Kami cuti di pulau bulan Ogos."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|28": {
+  "source_text": "September — September · 9月  [L-1041]",
+  "target_spans": [
+   "September"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|29": {
+  "source_text": "   e.g. Kelas habis bulan September.",
+  "target_spans": [
+   "Kelas habis bulan September."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|30": {
+  "source_text": "Oktober — October · 10月  [L-1042]",
+  "target_spans": [
+   "Oktober"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|0": {
+  "source_text": "   e.g. Bulan Oktober saya akan cuti.",
+  "target_spans": [
+   "Bulan Oktober saya akan cuti."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|1": {
+  "source_text": "November — November · 11月  [L-1043]",
+  "target_spans": [
+   "November"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|2": {
+  "source_text": "   e.g. Hari ini sebelas November.",
+  "target_spans": [
+   "Hari ini sebelas November."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|3": {
+  "source_text": "Disember — December · 12月  [L-1044]",
+  "target_spans": [
+   "Disember"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|4": {
+  "source_text": "   e.g. Saya cuti dua minggu bulan Disember.",
+  "target_spans": [
+   "Saya cuti dua minggu bulan Disember."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|5": {
   "source_text": "■ Core words · How often and when · 学習する",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Vocabulary focus|4|10": {
+ "Unit 4A · Vocabulary focus|5|6": {
   "source_text": "setiap — every · 毎〜  [L-0182]",
   "target_spans": [
    "setiap"
@@ -31110,7 +31352,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|11": {
+ "Unit 4A · Vocabulary focus|5|7": {
   "source_text": "   e.g. Saya belajar bahasa Melayu setiap hari.",
   "target_spans": [
    "Saya belajar bahasa Melayu setiap hari."
@@ -31119,7 +31361,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|12": {
+ "Unit 4A · Vocabulary focus|5|8": {
   "source_text": "selalu — always, often · いつも  [L-0183]",
   "target_spans": [
    "selalu"
@@ -31128,7 +31370,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|13": {
+ "Unit 4A · Vocabulary focus|5|9": {
   "source_text": "   e.g. Encik Tanaka selalu sibuk.",
   "target_spans": [
    "Encik Tanaka selalu sibuk."
@@ -31137,7 +31379,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|14": {
+ "Unit 4A · Vocabulary focus|5|10": {
   "source_text": "biasanya — usually · 普段は  [L-0184]",
   "target_spans": [
    "biasanya"
@@ -31146,7 +31388,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|15": {
+ "Unit 4A · Vocabulary focus|5|11": {
   "source_text": "   e.g. Biasanya saya kerja di pejabat.",
   "target_spans": [
    "Biasanya saya kerja di pejabat."
@@ -31155,7 +31397,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|16": {
+ "Unit 4A · Vocabulary focus|5|12": {
   "source_text": "kadang-kadang — sometimes · 時々  [L-0185]",
   "target_spans": [
    "kadang-kadang"
@@ -31164,7 +31406,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|17": {
+ "Unit 4A · Vocabulary focus|5|13": {
   "source_text": "   e.g. Kadang-kadang saya masak.",
   "target_spans": [
    "Kadang-kadang saya masak."
@@ -31173,7 +31415,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|18": {
+ "Unit 4A · Vocabulary focus|5|14": {
   "source_text": "jarang — rarely · めったに〜ない  [L-0186]",
   "target_spans": [
    "jarang"
@@ -31182,7 +31424,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|19": {
+ "Unit 4A · Vocabulary focus|5|15": {
   "source_text": "   e.g. Saya jarang main golf.",
   "target_spans": [
    "Saya jarang main golf."
@@ -31191,7 +31433,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|20": {
+ "Unit 4A · Vocabulary focus|5|16": {
   "source_text": "tidak pernah — never · 一度も〜ない  [L-0187]",
   "target_spans": [
    "tidak pernah"
@@ -31200,7 +31442,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|21": {
+ "Unit 4A · Vocabulary focus|5|17": {
   "source_text": "   e.g. Dia tidak pernah masak.",
   "target_spans": [
    "Dia tidak pernah masak."
@@ -31209,7 +31451,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|22": {
+ "Unit 4A · Vocabulary focus|5|18": {
   "source_text": "sekali — once · 一回  [L-0188]",
   "target_spans": [
    "sekali"
@@ -31218,7 +31460,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|23": {
+ "Unit 4A · Vocabulary focus|5|19": {
   "source_text": "   e.g. Saya beli buah di pasar seminggu sekali.",
   "target_spans": [
    "Saya beli buah di pasar seminggu sekali."
@@ -31227,7 +31469,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|24": {
+ "Unit 4A · Vocabulary focus|5|20": {
   "source_text": "bila — when · いつ  [L-1007]",
   "target_spans": [
    "bila"
@@ -31236,7 +31478,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|25": {
+ "Unit 4A · Vocabulary focus|5|21": {
   "source_text": "   e.g. Bila kelas encik?",
   "target_spans": [
    "Bila kelas encik?"
@@ -31245,21 +31487,21 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|26": {
+ "Unit 4A · Vocabulary focus|5|22": {
   "source_text": "■ Dunia · To recognise · 聞いて分かる",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Vocabulary focus|4|27": {
+ "Unit 4A · Vocabulary focus|5|23": {
   "source_text": "■ Dunia · To recognise · \"Hujan petang\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Vocabulary focus|4|28": {
+ "Unit 4A · Vocabulary focus|5|24": {
   "source_text": "cuaca — weather · 天気  [L-0431]",
   "target_spans": [
    "cuaca"
@@ -31268,7 +31510,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|29": {
+ "Unit 4A · Vocabulary focus|5|25": {
   "source_text": "   e.g. Cuaca hari ini cerah.",
   "target_spans": [
    "Cuaca hari ini cerah."
@@ -31277,7 +31519,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|4|30": {
+ "Unit 4A · Vocabulary focus|5|26": {
   "source_text": "cerah — sunny, bright · 晴れ  [L-0432]",
   "target_spans": [
    "cerah"
@@ -31286,7 +31528,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|0": {
+ "Unit 4A · Vocabulary focus|5|27": {
   "source_text": "   e.g. Pagi ini cerah.",
   "target_spans": [
    "Pagi ini cerah."
@@ -31295,7 +31537,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|1": {
+ "Unit 4A · Vocabulary focus|5|28": {
   "source_text": "mendung — cloudy, overcast · 曇り  [L-0433]",
   "target_spans": [
    "mendung"
@@ -31304,7 +31546,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|2": {
+ "Unit 4A · Vocabulary focus|5|29": {
   "source_text": "   e.g. Petang ini mendung.",
   "target_spans": [
    "Petang ini mendung."
@@ -31313,7 +31555,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|3": {
+ "Unit 4A · Vocabulary focus|5|30": {
   "source_text": "hujan — rain · 雨  [L-0434]",
   "target_spans": [
    "hujan"
@@ -31322,7 +31564,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|4": {
+ "Unit 4A · Vocabulary focus|6|0": {
   "source_text": "   e.g. Biasanya hujan pukul empat petang.",
   "target_spans": [
    "Biasanya hujan pukul empat petang."
@@ -31331,7 +31573,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|5": {
+ "Unit 4A · Vocabulary focus|6|1": {
   "source_text": "ribut — storm · 嵐  [L-0435]",
   "target_spans": [
    "ribut"
@@ -31340,7 +31582,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|6": {
+ "Unit 4A · Vocabulary focus|6|2": {
   "source_text": "   e.g. Malam ini ada ribut.",
   "target_spans": [
    "Malam ini ada ribut."
@@ -31349,7 +31591,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|7": {
+ "Unit 4A · Vocabulary focus|6|3": {
   "source_text": "angin — wind · 風  [L-0436]",
   "target_spans": [
    "angin"
@@ -31358,7 +31600,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|8": {
+ "Unit 4A · Vocabulary focus|6|4": {
   "source_text": "   e.g. Ada angin petang ini.",
   "target_spans": [
    "Ada angin petang ini."
@@ -31367,7 +31609,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|9": {
+ "Unit 4A · Vocabulary focus|6|5": {
   "source_text": "payung — umbrella · 傘  [L-0437]",
   "target_spans": [
    "payung"
@@ -31376,7 +31618,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|10": {
+ "Unit 4A · Vocabulary focus|6|6": {
   "source_text": "   e.g. Ada payung?",
   "target_spans": [
    "Ada payung?"
@@ -31385,7 +31627,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|11": {
+ "Unit 4A · Vocabulary focus|6|7": {
   "source_text": "basah — wet · 濡れた  [L-0438]",
   "target_spans": [
    "basah"
@@ -31394,7 +31636,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|12": {
+ "Unit 4A · Vocabulary focus|6|8": {
   "source_text": "   e.g. Kaki saya basah.",
   "target_spans": [
    "Kaki saya basah."
@@ -31403,7 +31645,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|13": {
+ "Unit 4A · Vocabulary focus|6|9": {
   "source_text": "kering — dry · 乾いた  [L-0439]",
   "target_spans": [
    "kering"
@@ -31412,7 +31654,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|14": {
+ "Unit 4A · Vocabulary focus|6|10": {
   "source_text": "   e.g. Hari ini kering, tidak ada hujan.",
   "target_spans": [
    "Hari ini kering, tidak ada hujan."
@@ -31421,7 +31663,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|15": {
+ "Unit 4A · Vocabulary focus|6|11": {
   "source_text": "matahari — sun · 太陽  [L-0440]",
   "target_spans": [
    "matahari"
@@ -31430,7 +31672,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|16": {
+ "Unit 4A · Vocabulary focus|6|12": {
   "source_text": "   e.g. Pagi ini ada matahari.",
   "target_spans": [
    "Pagi ini ada matahari."
@@ -31439,7 +31681,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|17": {
+ "Unit 4A · Vocabulary focus|6|13": {
   "source_text": "langit — sky · 空  [L-0441]",
   "target_spans": [
    "langit"
@@ -31448,7 +31690,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|18": {
+ "Unit 4A · Vocabulary focus|6|14": {
   "source_text": "   e.g. Langit mendung petang ini.",
   "target_spans": [
    "Langit mendung petang ini."
@@ -31457,7 +31699,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|19": {
+ "Unit 4A · Vocabulary focus|6|15": {
   "source_text": "mata — eye · 目  [L-0442]",
   "target_spans": [
    "mata"
@@ -31466,7 +31708,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|20": {
+ "Unit 4A · Vocabulary focus|6|16": {
   "source_text": "   e.g. Buka mata!",
   "target_spans": [
    "Buka mata!"
@@ -31475,14 +31717,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|21": {
+ "Unit 4A · Vocabulary focus|6|17": {
   "source_text": "■ Dunia · To recognise · \"Cuti ke pantai\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Vocabulary focus|5|22": {
+ "Unit 4A · Vocabulary focus|6|18": {
   "source_text": "pantai — beach · 海辺・ビーチ  [L-0443]",
   "target_spans": [
    "pantai"
@@ -31491,7 +31733,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|23": {
+ "Unit 4A · Vocabulary focus|6|19": {
   "source_text": "   e.g. Hari Sabtu kami di pantai.",
   "target_spans": [
    "Hari Sabtu kami di pantai."
@@ -31500,7 +31742,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|24": {
+ "Unit 4A · Vocabulary focus|6|20": {
   "source_text": "laut — sea · 海  [L-0444]",
   "target_spans": [
    "laut"
@@ -31509,7 +31751,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|25": {
+ "Unit 4A · Vocabulary focus|6|21": {
   "source_text": "   e.g. Kami suka laut.",
   "target_spans": [
    "Kami suka laut."
@@ -31518,7 +31760,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|26": {
+ "Unit 4A · Vocabulary focus|6|22": {
   "source_text": "pulau — island · 島  [L-0445]",
   "target_spans": [
    "pulau"
@@ -31527,7 +31769,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|27": {
+ "Unit 4A · Vocabulary focus|6|23": {
   "source_text": "   e.g. Kami cuti di pulau.",
   "target_spans": [
    "Kami cuti di pulau."
@@ -31536,7 +31778,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|28": {
+ "Unit 4A · Vocabulary focus|6|24": {
   "source_text": "pasir — sand · 砂  [L-0446]",
   "target_spans": [
    "pasir"
@@ -31545,7 +31787,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|29": {
+ "Unit 4A · Vocabulary focus|6|25": {
   "source_text": "   e.g. Kaki saya ada pasir.",
   "target_spans": [
    "Kaki saya ada pasir."
@@ -31554,7 +31796,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|5|30": {
+ "Unit 4A · Vocabulary focus|6|26": {
   "source_text": "hotel — hotel · ホテル  [L-0447]",
   "target_spans": [
    "hotel"
@@ -31563,7 +31805,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|0": {
+ "Unit 4A · Vocabulary focus|6|27": {
   "source_text": "   e.g. Hotel ini seratus ringgit satu malam.",
   "target_spans": [
    "Hotel ini seratus ringgit satu malam."
@@ -31572,7 +31814,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|1": {
+ "Unit 4A · Vocabulary focus|6|28": {
   "source_text": "tiket — ticket · チケット・切符  [L-0448]",
   "target_spans": [
    "tiket"
@@ -31581,7 +31823,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|2": {
+ "Unit 4A · Vocabulary focus|6|29": {
   "source_text": "   e.g. Tiket saya untuk hari Jumaat.",
   "target_spans": [
    "Tiket saya untuk hari Jumaat."
@@ -31590,7 +31832,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|3": {
+ "Unit 4A · Vocabulary focus|6|30": {
   "source_text": "kapal terbang — aeroplane · 飛行機  [L-0449]",
   "target_spans": [
    "kapal terbang"
@@ -31599,7 +31841,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|4": {
+ "Unit 4A · Vocabulary focus|7|0": {
   "source_text": "   e.g. Kapal terbang pukul tujuh pagi.",
   "target_spans": [
    "Kapal terbang pukul tujuh pagi."
@@ -31608,7 +31850,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|5": {
+ "Unit 4A · Vocabulary focus|7|1": {
   "source_text": "lapangan terbang — airport · 空港  [L-0450]",
   "target_spans": [
    "lapangan terbang"
@@ -31617,7 +31859,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|6": {
+ "Unit 4A · Vocabulary focus|7|2": {
   "source_text": "   e.g. Kami di lapangan terbang sekarang.",
   "target_spans": [
    "Kami di lapangan terbang sekarang."
@@ -31626,7 +31868,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|7": {
+ "Unit 4A · Vocabulary focus|7|3": {
   "source_text": "tempah — to book, reserve · 予約する  [L-0451]",
   "target_spans": [
    "tempah"
@@ -31635,7 +31877,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|8": {
+ "Unit 4A · Vocabulary focus|7|4": {
   "source_text": "   e.g. Saya tempah hotel untuk dua malam.",
   "target_spans": [
    "Saya tempah hotel untuk dua malam."
@@ -31644,7 +31886,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|9": {
+ "Unit 4A · Vocabulary focus|7|5": {
   "source_text": "peta — map · 地図  [L-0452]",
   "target_spans": [
    "peta"
@@ -31653,7 +31895,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|10": {
+ "Unit 4A · Vocabulary focus|7|6": {
   "source_text": "   e.g. Ada peta pulau ini?",
   "target_spans": [
    "Ada peta pulau ini?"
@@ -31662,7 +31904,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|11": {
+ "Unit 4A · Vocabulary focus|7|7": {
   "source_text": "ambil gambar — to take a photo · 写真を撮る  [L-0453]",
   "target_spans": [
    "ambil gambar"
@@ -31671,7 +31913,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|12": {
+ "Unit 4A · Vocabulary focus|7|8": {
   "source_text": "   e.g. Jom ambil gambar!",
   "target_spans": [
    "Jom ambil gambar!"
@@ -31680,7 +31922,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|13": {
+ "Unit 4A · Vocabulary focus|7|9": {
   "source_text": "cenderamata — souvenir · お土産  [L-0454]",
   "target_spans": [
    "cenderamata"
@@ -31689,7 +31931,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|14": {
+ "Unit 4A · Vocabulary focus|7|10": {
   "source_text": "   e.g. Saya beli cenderamata untuk kawan pejabat.",
   "target_spans": [
    "Saya beli cenderamata untuk kawan pejabat."
@@ -31698,7 +31940,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|15": {
+ "Unit 4A · Vocabulary focus|7|11": {
   "source_text": "seronok — fun, enjoyable · 楽しい  [L-0455]",
   "target_spans": [
    "seronok"
@@ -31707,7 +31949,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|16": {
+ "Unit 4A · Vocabulary focus|7|12": {
   "source_text": "   e.g. Cuti ini seronok!",
   "target_spans": [
    "Cuti ini seronok!"
@@ -31716,14 +31958,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|17": {
+ "Unit 4A · Vocabulary focus|7|13": {
   "source_text": "■ Revision · 復習 (not new, not tested as new vocabulary)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Vocabulary focus|6|18": {
+ "Unit 4A · Vocabulary focus|7|14": {
   "source_text": "■ Revision · 復習 · Chapters 1 to 3 (times of day, fractions, kali, berapa, cuti)",
   "target_spans": [
    "kali",
@@ -31734,7 +31976,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|19": {
+ "Unit 4A · Vocabulary focus|7|15": {
   "source_text": "pagi — morning · 朝  [L-0162]",
   "target_spans": [
    "pagi"
@@ -31743,7 +31985,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|20": {
+ "Unit 4A · Vocabulary focus|7|16": {
   "source_text": "   e.g. pukul tujuh pagi",
   "target_spans": [
    "pukul tujuh pagi"
@@ -31752,7 +31994,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|21": {
+ "Unit 4A · Vocabulary focus|7|17": {
   "source_text": "tengah hari — midday · 昼  [L-0163]",
   "target_spans": [
    "tengah hari"
@@ -31761,7 +32003,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|22": {
+ "Unit 4A · Vocabulary focus|7|18": {
   "source_text": "   e.g. pukul satu tengah hari",
   "target_spans": [
    "pukul satu tengah hari"
@@ -31770,7 +32012,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|23": {
+ "Unit 4A · Vocabulary focus|7|19": {
   "source_text": "petang — afternoon, early evening · 午後・夕方  [L-0164]",
   "target_spans": [
    "petang"
@@ -31779,7 +32021,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|24": {
+ "Unit 4A · Vocabulary focus|7|20": {
   "source_text": "   e.g. pukul empat petang",
   "target_spans": [
    "pukul empat petang"
@@ -31788,7 +32030,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|25": {
+ "Unit 4A · Vocabulary focus|7|21": {
   "source_text": "malam — night · 夜  [L-0165]",
   "target_spans": [
    "malam"
@@ -31797,7 +32039,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|26": {
+ "Unit 4A · Vocabulary focus|7|22": {
   "source_text": "   e.g. pukul sembilan malam",
   "target_spans": [
    "pukul sembilan malam"
@@ -31806,7 +32048,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|27": {
+ "Unit 4A · Vocabulary focus|7|23": {
   "source_text": "esok — tomorrow · 明日  [L-0025]",
   "target_spans": [
    "esok"
@@ -31815,7 +32057,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|28": {
+ "Unit 4A · Vocabulary focus|7|24": {
   "source_text": "   e.g. Jumpa esok!",
   "target_spans": [
    "Jumpa esok!"
@@ -31824,7 +32066,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|29": {
+ "Unit 4A · Vocabulary focus|7|25": {
   "source_text": "setengah / separuh — half · 半分  [L-0138]",
   "target_spans": [
    "setengah / separuh"
@@ -31833,7 +32075,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|6|30": {
+ "Unit 4A · Vocabulary focus|7|26": {
   "source_text": "   e.g. pukul dua setengah (2:30)",
   "target_spans": [
    "pukul dua setengah"
@@ -31842,7 +32084,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|7|0": {
+ "Unit 4A · Vocabulary focus|7|27": {
   "source_text": "suku — quarter · 4分の1  [L-0139]",
   "target_spans": [
    "suku"
@@ -31851,7 +32093,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|7|1": {
+ "Unit 4A · Vocabulary focus|7|28": {
   "source_text": "   e.g. pukul empat suku (4:15)",
   "target_spans": [
    "pukul empat suku"
@@ -31860,7 +32102,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|7|2": {
+ "Unit 4A · Vocabulary focus|7|29": {
   "source_text": "kali — time(s), occurrence · 回  [L-0133]",
   "target_spans": [
    "kali"
@@ -31869,7 +32111,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|7|3": {
+ "Unit 4A · Vocabulary focus|7|30": {
   "source_text": "   e.g. dua kali seminggu",
   "target_spans": [
    "dua kali seminggu"
@@ -31878,7 +32120,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|7|4": {
+ "Unit 4A · Vocabulary focus|8|0": {
   "source_text": "berapa — how many, how much · いくつ・いくら  [L-0116]",
   "target_spans": [
    "berapa"
@@ -31887,7 +32129,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|7|5": {
+ "Unit 4A · Vocabulary focus|8|1": {
   "source_text": "   e.g. Pukul berapa sekarang?",
   "target_spans": [
    "Pukul berapa sekarang?"
@@ -31896,7 +32138,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|7|6": {
+ "Unit 4A · Vocabulary focus|8|2": {
   "source_text": "cuti — leave, holiday · 休み・休暇  [L-0534]",
   "target_spans": [
    "cuti"
@@ -31905,7 +32147,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|7|7": {
+ "Unit 4A · Vocabulary focus|8|3": {
   "source_text": "   e.g. Hari Ahad saya cuti.",
   "target_spans": [
    "Hari Ahad saya cuti."
@@ -31914,28 +32156,28 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4A · Vocabulary focus|8|0": {
-  "source_text": "27 new core entries, 25 Dunia recognition entries and 10 revision entries.",
+ "Unit 4A · Vocabulary focus|9|0": {
+  "source_text": "40 new core entries, 25 Dunia recognition entries and 10 revision entries.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Vocabulary focus|8|1": {
+ "Unit 4A · Vocabulary focus|9|1": {
   "source_text": "Dunia words are for recognition in Block E. The unit test never treats them as new vocabulary.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Vocabulary focus|8|2": {
+ "Unit 4A · Vocabulary focus|9|2": {
   "source_text": "Revision words were taught earlier; they are listed so learners can see them reused, not counted as new.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Vocabulary focus|8|3": {
+ "Unit 4A · Vocabulary focus|9|3": {
   "source_text": "A slash variant under one ledger ID counts as one entry; spoken forms are marked \"spoken\".",
   "target_spans": [],
   "mention_spans": [],
@@ -32094,94 +32336,87 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4A · Pattern and grammar focus|3|11": {
-  "source_text": "Pattern box: Hari ini hari apa? / Hari ini hari ___ . / Hari ini hari bulan berapa?",
+  "source_text": "Pattern box: Hari ini hari apa? / Hari ini hari bulan berapa? / Apa tarikh hari ini?",
   "target_spans": [
    "Hari ini hari apa?",
-   "Hari ini hari",
-   "Hari ini hari bulan berapa?"
+   "Hari ini hari bulan berapa?",
+   "Apa tarikh hari ini?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 4A · Pattern and grammar focus|3|12": {
-  "source_text": "1. A: Hari ini hari apa? B: Hari ini hari Isnin.",
+  "source_text": "1. A: Hari ini hari apa? B: Hari ini hari Khamis.",
   "target_spans": [
    "Hari ini hari apa?",
-   "Hari ini hari Isnin."
+   "Hari ini hari Khamis."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 4A · Pattern and grammar focus|3|13": {
-  "source_text": "2. A: Semalam hari apa? B: Semalam hari Ahad.",
+  "source_text": "2. A: Semalam hari apa? B: Semalam hari Rabu.",
   "target_spans": [
    "Semalam hari apa?",
-   "Semalam hari Ahad."
+   "Semalam hari Rabu."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 4A · Pattern and grammar focus|3|14": {
-  "source_text": "3. A: Lusa hari apa? B: Lusa hari Rabu.",
+  "source_text": "3. A: Lusa hari apa? B: Lusa hari Sabtu.",
   "target_spans": [
    "Lusa hari apa?",
-   "Lusa hari Rabu."
+   "Lusa hari Sabtu."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 4A · Pattern and grammar focus|3|15": {
-  "source_text": "4. A: Hari ini hari bulan berapa? B: Sebelas hari bulan.",
+  "source_text": "4. A: Hari ini hari bulan berapa? B: Hari bulan sebelas.",
   "target_spans": [
    "Hari ini hari bulan berapa?",
-   "Sebelas hari bulan."
+   "Hari bulan sebelas."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 4A · Pattern and grammar focus|3|16": {
-  "source_text": "5. A: Kelmarin hari bulan berapa? B: Sembilan hari bulan.",
+  "source_text": "5. A: Apa tarikh hari ini? B: Sebelas November.",
   "target_spans": [
-   "Kelmarin hari bulan berapa?",
-   "Sembilan hari bulan."
+   "Apa tarikh hari ini?",
+   "Sebelas November."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 4A · Pattern and grammar focus|3|17": {
-  "source_text": "Explanation: Put hari before the name of the day: hari Isnin. Hari apa? asks the day of the week. Hari ini hari bulan berapa? asks the day of the month, and the answer is a number + hari bulan: sebelas hari bulan (the 11th). Days around today: kelmarin, semalam, hari ini, esok, lusa.",
+  "source_text": "6. A: Apa tarikh kelas pertama? B: Lima Januari.",
   "target_spans": [
-   "hari",
-   "hari Isnin",
-   "Hari apa?",
-   "Hari ini hari bulan berapa?",
-   "hari bulan",
-   "sebelas hari bulan",
-   "kelmarin",
-   "semalam",
-   "hari ini",
-   "esok",
-   "lusa"
+   "Apa tarikh kelas pertama?",
+   "Lima Januari."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 4A · Pattern and grammar focus|3|18": {
-  "source_text": "説明：曜日の名前の前に hari を置きます：hari Isnin。Hari apa? は曜日をたずねます。Hari ini hari bulan berapa? は「何日」をたずね、数＋hari bulan で答えます：sebelas hari bulan（11日）。今日の前後：kelmarin（おととい）、semalam（昨日）、hari ini（今日）、esok（明日）、lusa（あさって）。",
+  "source_text": "Explanation: Put hari before the name of the day: hari Isnin. Hari apa? asks the day of the week. Hari ini hari bulan berapa? asks the day of the month: answer hari bulan + the number, hari bulan sebelas (the 11th). Apa tarikh hari ini? asks the full date: the day, then the month, sebelas November. Days around today: kelmarin, semalam, hari ini, esok, lusa.",
   "target_spans": [
    "hari",
    "hari Isnin",
    "Hari apa?",
    "Hari ini hari bulan berapa?",
    "hari bulan",
-   "sebelas hari bulan",
+   "hari bulan sebelas",
+   "Apa tarikh hari ini?",
+   "sebelas November",
    "kelmarin",
    "semalam",
    "hari ini",
@@ -32193,9 +32428,20 @@
   "exclusion": null
  },
  "Unit 4A · Pattern and grammar focus|4|0": {
-  "source_text": "Japanese helps or misleads: Malay has one word each for おととい (kelmarin) and あさって (lusa), as Japanese does and English does not. The day names are not built from 月・火・水, so learn them as words.",
+  "source_text": "説明：曜日の名前の前に hari を置きます：hari Isnin。Hari apa? は曜日をたずねます。Hari ini hari bulan berapa? は「何日」をたずね、hari bulan＋数で答えます：hari bulan sebelas（11日）。Apa tarikh hari ini? は日付全体をたずね、日、月の順で答えます：sebelas November（11月11日）。今日の前後：kelmarin（おととい）、semalam（昨日）、hari ini（今日）、esok（明日）、lusa（あさって）。",
   "target_spans": [
+   "hari",
+   "hari Isnin",
+   "Hari apa?",
+   "Hari ini hari bulan berapa?",
+   "hari bulan",
+   "hari bulan sebelas",
+   "Apa tarikh hari ini?",
+   "sebelas November",
    "kelmarin",
+   "semalam",
+   "hari ini",
+   "esok",
    "lusa"
   ],
   "mention_spans": [],
@@ -32203,23 +32449,39 @@
   "exclusion": null
  },
  "Unit 4A · Pattern and grammar focus|4|1": {
-  "source_text": "日本語との比較：おととい（kelmarin）とあさって（lusa）にそれぞれ一語あるのは日本語と同じで、英語とは違います。曜日の名前は月・火・水のような組み立てではないので、単語として覚えます。",
+  "source_text": "Japanese helps or misleads: Malay has one word each for おととい (kelmarin) and あさって (lusa), as Japanese does and English does not. The day names are not built from 月・火・水, so learn them as words. Dates go day first, then month (sebelas November), the reverse of 11月11日; most month names are close to English (Januari, Ogos = August).",
   "target_spans": [
    "kelmarin",
-   "lusa"
+   "lusa",
+   "sebelas November",
+   "Januari",
+   "Ogos"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 4A · Pattern and grammar focus|4|2": {
+  "source_text": "日本語との比較：おととい（kelmarin）とあさって（lusa）にそれぞれ一語あるのは日本語と同じで、英語とは違います。曜日の名前は月・火・水のような組み立てではないので、単語として覚えます。日付は日、月の順（sebelas November）で、11月11日とは逆です。月の名前の多くは英語に近い語です（Januari、Ogos＝8月）。",
+  "target_spans": [
+   "kelmarin",
+   "lusa",
+   "sebelas November",
+   "Januari",
+   "Ogos"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|3": {
   "source_text": "■ Pattern 3 · ms-c04-f02",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Pattern and grammar focus|4|3": {
+ "Unit 4A · Pattern and grammar focus|4|4": {
   "source_text": "Pattern box: Saya ___ setiap ___ . / Saya [selalu / biasanya / kadang-kadang / jarang / tidak pernah] ___ .",
   "target_spans": [
    "Saya",
@@ -32235,7 +32497,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|4": {
+ "Unit 4A · Pattern and grammar focus|4|5": {
   "source_text": "1. A: Encik main badminton? B: Ya, setiap hari Sabtu.",
   "target_spans": [
    "Encik main badminton?",
@@ -32245,7 +32507,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|5": {
+ "Unit 4A · Pattern and grammar focus|4|6": {
   "source_text": "2. A: Puan selalu masak? B: Kadang-kadang sahaja.",
   "target_spans": [
    "Puan selalu masak?",
@@ -32255,7 +32517,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|6": {
+ "Unit 4A · Pattern and grammar focus|4|7": {
   "source_text": "3. A: Encik selalu kerja di rumah? B: Jarang. Biasanya saya kerja di pejabat.",
   "target_spans": [
    "Encik selalu kerja di rumah?",
@@ -32265,7 +32527,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|7": {
+ "Unit 4A · Pattern and grammar focus|4|8": {
   "source_text": "4. A: Cik Farah belajar bahasa Jepun? B: Ya, seminggu sekali, hari Rabu.",
   "target_spans": [
    "Cik Farah belajar bahasa Jepun?",
@@ -32275,7 +32537,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|8": {
+ "Unit 4A · Pattern and grammar focus|4|9": {
   "source_text": "5. A: Awak main golf? B: Tidak pernah.",
   "target_spans": [
    "Awak main golf?",
@@ -32285,7 +32547,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|9": {
+ "Unit 4A · Pattern and grammar focus|4|10": {
   "source_text": "Explanation: A frequency word goes before the verb (Saya selalu masak) or, for biasanya and kadang-kadang, often at the start. setiap + time comes after the activity: setiap hari, setiap hari Sabtu. For a count use sekali or a number + kali: seminggu sekali, dua kali seminggu.",
   "target_spans": [
    "Saya selalu masak",
@@ -32303,7 +32565,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|10": {
+ "Unit 4A · Pattern and grammar focus|4|11": {
   "source_text": "説明：頻度の語は動詞の前（Saya selalu masak）、biasanya・kadang-kadang は文頭にもよく来ます。setiap＋時は活動のあと：setiap hari、setiap hari Sabtu。回数は sekali か 数＋kali：seminggu sekali（週に一回）、dua kali seminggu（週に二回）。",
   "target_spans": [
    "Saya selalu masak",
@@ -32321,7 +32583,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|11": {
+ "Unit 4A · Pattern and grammar focus|4|12": {
   "source_text": "Japanese helps or misleads: 毎日・いつも・時々 map closely to setiap hari, selalu, kadang-kadang. Watch tidak pernah: it means \"never\" as a habit, not 〜しない once.",
   "target_spans": [
    "setiap hari",
@@ -32333,7 +32595,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|12": {
+ "Unit 4A · Pattern and grammar focus|4|13": {
   "source_text": "日本語との比較：毎日・いつも・時々 は setiap hari・selalu・kadang-kadang にほぼ対応します。tidak pernah は習慣として「一度も〜ない」で、一回だけ「しない」という意味ではありません。",
   "target_spans": [
    "setiap hari",
@@ -32345,14 +32607,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|13": {
+ "Unit 4A · Pattern and grammar focus|4|14": {
   "source_text": "■ Pattern 4 · ms-c04-f01",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Pattern and grammar focus|4|14": {
+ "Unit 4A · Pattern and grammar focus|4|15": {
   "source_text": "Pattern box: Bila ___ ? / Berapa jam? (pukul = clock time, jam = how long)",
   "target_spans": [
    "Bila",
@@ -32364,7 +32626,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|15": {
+ "Unit 4A · Pattern and grammar focus|5|0": {
   "source_text": "1. A: Bila kelas encik? B: Hari Selasa, pukul tujuh setengah malam.",
   "target_spans": [
    "Bila kelas encik?",
@@ -32374,7 +32636,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|16": {
+ "Unit 4A · Pattern and grammar focus|5|1": {
   "source_text": "2. A: Kelas berapa jam? B: Dua jam.",
   "target_spans": [
    "Kelas berapa jam?",
@@ -32384,7 +32646,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|17": {
+ "Unit 4A · Pattern and grammar focus|5|2": {
   "source_text": "3. A: Bila kita main badminton? B: Hari Sabtu ini, pukul lapan pagi.",
   "target_spans": [
    "Bila kita main badminton?",
@@ -32394,7 +32656,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|18": {
+ "Unit 4A · Pattern and grammar focus|5|3": {
   "source_text": "4. A: Encik main berapa jam? B: Biasanya satu jam setengah.",
   "target_spans": [
    "Encik main berapa jam?",
@@ -32404,7 +32666,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|4|19": {
+ "Unit 4A · Pattern and grammar focus|5|4": {
   "source_text": "5. A: Bila encik cuti? B: Dua minggu lagi.",
   "target_spans": [
    "Bila encik cuti?",
@@ -32414,7 +32676,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|5|0": {
+ "Unit 4A · Pattern and grammar focus|5|5": {
   "source_text": "Explanation: bila asks \"when?\" and is answered with a day, a date or a time. Pukul berapa? asks only for the clock time. pukul tiga is three o'clock; tiga jam is three hours. In casual speech many people also say jam tiga for three o'clock: that is fine too, but this course practises pukul tiga.",
   "target_spans": [
    "bila",
@@ -32428,7 +32690,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|5|1": {
+ "Unit 4A · Pattern and grammar focus|5|6": {
   "source_text": "説明：bila は「いつ」で、曜日・日付・時刻で答えます。Pukul berapa? は時刻だけをたずねます。pukul tiga は3時、tiga jam は3時間です。くだけた会話では3時を jam tiga と言う人も多く、それも正しいですが、このコースでは pukul tiga を練習します。",
   "target_spans": [
    "bila",
@@ -32442,7 +32704,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|5|2": {
+ "Unit 4A · Pattern and grammar focus|5|7": {
   "source_text": "Japanese helps or misleads: いつ = bila. Japanese separates 時 and 時間 with a suffix; Malay uses two different words in two positions: pukul tiga (before) and tiga jam (after).",
   "target_spans": [
    "bila",
@@ -32453,7 +32715,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 4A · Pattern and grammar focus|5|3": {
+ "Unit 4A · Pattern and grammar focus|5|8": {
   "source_text": "日本語との比較：いつ＝bila。日本語は「時」と「時間」を語尾で区別しますが、マレー語は別の語を別の位置に置きます：pukul tiga（前）と tiga jam（後）。",
   "target_spans": [
    "bila",
@@ -32490,11 +32752,12 @@
   "exclusion": null
  },
  "Unit 4A · Pattern and grammar focus|6|3": {
-  "source_text": "Pattern 2: hari apa asks the weekday; hari bulan berapa asks the day of the month (number + hari bulan). Month names come once their ledger rows are added.",
+  "source_text": "Pattern 2: hari apa asks the weekday; hari bulan berapa asks the day of the month (hari bulan + number); tarikh is the full date, day before month.",
   "target_spans": [
    "hari apa",
    "hari bulan berapa",
-   "hari bulan"
+   "hari bulan",
+   "tarikh"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -33080,6 +33343,24 @@
   "kind": "drill",
   "exclusion": null
  },
+ "Unit 4A · Drill 4 · Question and answer|3|10": {
+  "source_text": "9. Apa tarikh hari ini? (cue: 11 November)",
+  "target_spans": [
+   "Apa tarikh hari ini?"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 4 · Question and answer|3|11": {
+  "source_text": "10. Hari ini hari bulan berapa? (cue: the 11th)",
+  "target_spans": [
+   "Hari ini hari bulan berapa?"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
  "Unit 4A · Drill 4 · Question and answer|4|0": {
   "source_text": "Answers in order:",
   "target_spans": [],
@@ -33108,6 +33389,16 @@
    "Bila kelas encik?",
    "Berapa jam?",
    "Berapa kali seminggu?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 4 · Question and answer|4|3": {
+  "source_text": "9 Sebelas November. 10 Hari bulan sebelas.",
+  "target_spans": [
+   "Sebelas November.",
+   "Hari bulan sebelas."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -33345,10 +33636,10 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4A · Drill 6 · Short dialogues|3|7": {
-  "source_text": "A: Hari ini hari bulan berapa?  B: Dua puluh hari bulan.  A: ____________________",
+  "source_text": "A: Hari ini hari bulan berapa?  B: Hari bulan dua puluh.  A: ____________________",
   "target_spans": [
    "Hari ini hari bulan berapa?",
-   "Dua puluh hari bulan."
+   "Hari bulan dua puluh."
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -34268,18 +34559,18 @@
   "exclusion": null
  },
  "Unit 4A · Listening focus · Encik Tanaka|4|17": {
-  "source_text": "Aini: Bulan ini, dua puluh empat hari bulan.",
+  "source_text": "Aini: Bulan ini, hari bulan dua puluh empat.",
   "target_spans": [
-   "Bulan ini, dua puluh empat hari bulan."
+   "Bulan ini, hari bulan dua puluh empat."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 4A · Listening focus · Encik Tanaka|4|18": {
-  "source_text": "Tanaka: Dua puluh empat hari bulan. Terima kasih, puan. Jumpa esok!",
+  "source_text": "Tanaka: Hari bulan dua puluh empat. Terima kasih, puan. Jumpa esok!",
   "target_spans": [
-   "Dua puluh empat hari bulan. Terima kasih, puan. Jumpa esok!"
+   "Hari bulan dua puluh empat. Terima kasih, puan. Jumpa esok!"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -34398,77 +34689,79 @@
   "exclusion": null
  },
  "Unit 4A · Reading and writing · A class timetable|3|7": {
+  "source_text": "Tarikh mula kelas: lima Januari.",
+  "target_spans": [
+   "Tarikh mula kelas: lima Januari."
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|8": {
   "source_text": "■ Questions · 質問",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Reading and writing · A class timetable|3|8": {
+ "Unit 4A · Reading and writing · A class timetable|3|9": {
   "source_text": "1. On which two weekdays are there morning classes?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Reading and writing · A class timetable|3|9": {
+ "Unit 4A · Reading and writing · A class timetable|3|10": {
   "source_text": "2. How long is the Saturday class?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Reading and writing · A class timetable|3|10": {
+ "Unit 4A · Reading and writing · A class timetable|3|11": {
   "source_text": "3. On which days is there no class?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Reading and writing · A class timetable|3|11": {
+ "Unit 4A · Reading and writing · A class timetable|3|12": {
   "source_text": "4. What time is the Thursday class?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Reading and writing · A class timetable|3|12": {
+ "Unit 4A · Reading and writing · A class timetable|3|13": {
   "source_text": "5. How often is there no Saturday class?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Reading and writing · A class timetable|3|13": {
+ "Unit 4A · Reading and writing · A class timetable|3|14": {
   "source_text": "6. Write in Malay: \"The Tuesday class is at 7.30 p.m.\"",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Reading and writing · A class timetable|3|14": {
-  "source_text": "■ Write · 書く",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "heading",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Unit 4A · Reading and writing · A class timetable|3|15": {
-  "source_text": "Write your week in three or four lines: two activities with a day and a time, and one with a frequency word. Fictional times are fine. / 自分の一週間を3〜4行で書きましょう。",
+  "source_text": "7. On what date do the classes start?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4A · Reading and writing · A class timetable|3|16": {
-  "source_text": "________________________________________",
+  "source_text": "■ Write · 書く",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "reading",
+  "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4A · Reading and writing · A class timetable|3|17": {
-  "source_text": "________________________________________",
+  "source_text": "Write your week in three or four lines: two activities with a day and a time, and one with a frequency word. Fictional times are fine. / 自分の一週間を3〜4行で書きましょう。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
@@ -34481,10 +34774,25 @@
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
+ "Unit 4A · Reading and writing · A class timetable|3|19": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|20": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
  "Unit 4A · Reading and writing · A class timetable|4|0": {
-  "source_text": "Reading: 1. Monday and Wednesday / 2. three hours / 3. Friday and Sunday / 4. 7.30 p.m. / 5. once a month / 6. Kelas hari Selasa pukul tujuh setengah malam.",
+  "source_text": "Reading: 1. Monday and Wednesday / 2. three hours / 3. Friday and Sunday / 4. 7.30 p.m. / 5. once a month / 6. Kelas hari Selasa pukul tujuh setengah malam. / 7. 5 January (lima Januari)",
   "target_spans": [
-   "Kelas hari Selasa pukul tujuh setengah malam."
+   "Kelas hari Selasa pukul tujuh setengah malam.",
+   "lima Januari"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -34735,11 +35043,13 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4A · Culture and usage note|3|3": {
-  "source_text": "In Kuala Lumpur and Selangor most offices work Monday to Friday, and Saturday and Sunday are the weekend. In Peninsular Malaysia the Employment Act 1955 limits normal working hours to 45 a week; the limit came down from 48 hours on 1 January 2023.",
-  "target_spans": [],
+  "source_text": "In Kuala Lumpur and Selangor most offices work Monday to Friday, and the weekend (hujung minggu) is Saturday and Sunday. Kedah, Kelantan and Terengganu have a Friday and Saturday weekend instead; Johor moved back to Saturday and Sunday on 1 January 2025. In Peninsular Malaysia the Employment Act 1955 limits normal working hours to 45 a week; the limit came down from 48 hours on 1 January 2023.",
+  "target_spans": [
+   "hujung minggu"
+  ],
   "mention_spans": [],
   "kind": "culture",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 4A · Culture and usage note|3|4": {
   "source_text": "■ 日本語",
@@ -34791,28 +35101,30 @@
   "kind": "culture",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Culture and usage note|3|8": {
-  "source_text": "クアラルンプールとセランゴール州では、ほとんどの職場が月曜日から金曜日まで働き、土曜日と日曜日が週末です。マレー半島では、1955年雇用法により通常の労働時間は週45時間までと決められています。この上限は2023年1月1日に48時間から引き下げられました。",
-  "target_spans": [],
+ "Unit 4A · Culture and usage note|4|0": {
+  "source_text": "クアラルンプールとセランゴール州では、ほとんどの職場が月曜日から金曜日まで働き、週末（hujung minggu）は土曜日と日曜日です。ケダ州、クランタン州、トレンガヌ州では金曜日と土曜日が週末です。ジョホール州は2025年1月1日に土曜日・日曜日の週末に戻りました。マレー半島では、1955年雇用法により通常の労働時間は週45時間までと決められています。この上限は2023年1月1日に48時間から引き下げられました。",
+  "target_spans": [
+   "hujung minggu"
+  ],
   "mention_spans": [],
   "kind": "culture",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
- "Unit 4A · Culture and usage note|4|0": {
-  "source_text": "English note: 251 words. The Japanese is a full translation (draft).",
+ "Unit 4A · Culture and usage note|5|0": {
+  "source_text": "English note: 275 words. The Japanese is a full translation (draft).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Culture and usage note|4|1": {
-  "source_text": "Sources: Kata-Kata cards ms-c04-030 and ms-c04-034 (word-building); Malaysian Standard Time Act 1981 and the 1982 change (see docs/STEP-5b-report.md for the references checked); the Saturday and Sunday weekend in Selangor and Kuala Lumpur (The Star, 9 Dec 2013); Employment Act 1955 as amended by the Employment (Amendment) Act 2022, in force 1 January 2023 (Department of Labour Peninsular Malaysia).",
+ "Unit 4A · Culture and usage note|5|1": {
+  "source_text": "Sources: Kata-Kata cards ms-c04-030 and ms-c04-034 (word-building); Malaysian Standard Time Act 1981 and the 1982 change (see docs/STEP-5b-report.md for the references checked); the Saturday and Sunday weekend in Selangor and Kuala Lumpur (The Star, 9 Dec 2013); Friday and Saturday in Kedah, Kelantan and Terengganu and Johor's return to Saturday and Sunday on 1 Jan 2025 (Bernama and The Star, 7 Oct 2024; Malay Mail, 18 Jan 2025); Employment Act 1955 as amended by the Employment (Amendment) Act 2022, in force 1 January 2023 (Department of Labour Peninsular Malaysia).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4A · Culture and usage note|4|2": {
+ "Unit 4A · Culture and usage note|5|2": {
   "source_text": "Discussion prompt for the teacher: What time is it in Japan now? How do people in your office say the time: 12-hour or 24-hour?",
   "target_spans": [],
   "mention_spans": [],
@@ -34925,14 +35237,14 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4A · Unit test and self-check|3|11": {
-  "source_text": "V5. Write the Malay for: Thursday",
+  "source_text": "V5. Write the Malay for: the date (day and month)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4A · Unit test and self-check|3|12": {
-  "source_text": "V6. Write the Malay for: when?",
+  "source_text": "V6. Write the Malay for: August",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -35095,9 +35407,9 @@
   "exclusion": null
  },
  "Unit 4A · Unit test and self-check|5|4": {
-  "source_text": "L5: Teacher reads: Bulan ini, dua puluh empat hari bulan. Answer: the 24th",
+  "source_text": "L5: Teacher reads: Bulan ini, hari bulan dua puluh empat. Answer: the 24th",
   "target_spans": [
-   "Bulan ini, dua puluh empat hari bulan."
+   "Bulan ini, hari bulan dua puluh empat."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -35140,18 +35452,18 @@
   "exclusion": null
  },
  "Unit 4A · Unit test and self-check|5|9": {
-  "source_text": "V5: Khamis",
+  "source_text": "V5: tarikh",
   "target_spans": [
-   "Khamis"
+   "tarikh"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 4A · Unit test and self-check|5|10": {
-  "source_text": "V6: bila",
+  "source_text": "V6: Ogos",
   "target_spans": [
-   "bila"
+   "Ogos"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -35295,9 +35607,9 @@
   "exclusion": null
  },
  "test:ms-c04a-test-05|answer_key": {
-  "source_text": "Teacher reads: Bulan ini, dua puluh empat hari bulan. Answer: the 24th",
+  "source_text": "Teacher reads: Bulan ini, hari bulan dua puluh empat. Answer: the 24th",
   "target_spans": [
-   "Bulan ini, dua puluh empat hari bulan."
+   "Bulan ini, hari bulan dua puluh empat."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -35368,32 +35680,32 @@
   "exclusion": null
  },
  "test:ms-c04a-test-10|prompt": {
-  "source_text": "V5. Write the Malay for: Thursday",
+  "source_text": "V5. Write the Malay for: the date (day and month)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c04a-test-10|answer_key": {
-  "source_text": "Khamis",
+  "source_text": "tarikh",
   "target_spans": [
-   "Khamis"
+   "tarikh"
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c04a-test-11|prompt": {
-  "source_text": "V6. Write the Malay for: when?",
+  "source_text": "V6. Write the Malay for: August",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c04a-test-11|answer_key": {
-  "source_text": "bila",
+  "source_text": "Ogos",
   "target_spans": [
-   "bila"
+   "Ogos"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -35833,11 +36145,15 @@
   "exclusion": null
  },
  "Unit 4A · Teaching plan and answer key|4|15": {
-  "source_text": "Dates (Sam, 12 Nov 2026): Hari ini hari bulan berapa? asks the day of the month (Sebelas hari bulan.); Hari ini hari apa? asks the weekday. The noun for the full date and the month names are approved but wait for their ledger rows; until then, give the day of the month only.",
+  "source_text": "Dates (Sam, 12 Nov 2026): Hari ini hari apa? asks the weekday; Hari ini hari bulan berapa? asks the day of the month (Hari bulan sebelas., hari bulan first); Apa tarikh hari ini? asks the full date (Sebelas November.). Sam notes that Hari ini hari bulan apa? is also heard and can be taken as the weekday or the date depending on the listener; teach the two clear questions and accept either answer to it.",
   "target_spans": [
+   "Hari ini hari apa?",
    "Hari ini hari bulan berapa?",
-   "Sebelas hari bulan.",
-   "Hari ini hari apa?"
+   "Hari bulan sebelas.",
+   "hari bulan",
+   "Apa tarikh hari ini?",
+   "Sebelas November.",
+   "Hari ini hari bulan apa?"
   ],
   "mention_spans": [],
   "kind": "plan",
@@ -36466,13 +36782,50 @@
   "exclusion": null
  },
  "Unit 4B · Vocabulary focus|4|13": {
+  "source_text": "sarapan — breakfast; to have breakfast · 朝食  [L-0614]",
+  "target_spans": [
+   "sarapan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4B · Vocabulary focus|4|14": {
+  "source_text": "   e.g. Saya sarapan pukul tujuh. / Sudah sarapan?",
+  "target_spans": [
+   "Saya sarapan pukul tujuh.",
+   "Sudah sarapan?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4B · Vocabulary focus|4|15": {
+  "source_text": "sekejap — a moment, briefly · ちょっとの間  [L-1046]",
+  "target_spans": [
+   "sekejap"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4B · Vocabulary focus|4|16": {
+  "source_text": "   e.g. Tunggu sekejap, ya.",
+  "target_spans": [
+   "Tunggu sekejap, ya."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4B · Vocabulary focus|4|17": {
   "source_text": "■ Core words · The working day · 学習する",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|4|14": {
+ "Unit 4B · Vocabulary focus|4|18": {
   "source_text": "masa — time (general) · 時間（一般）  [L-0155]",
   "target_spans": [
    "masa"
@@ -36481,7 +36834,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|15": {
+ "Unit 4B · Vocabulary focus|4|19": {
   "source_text": "   e.g. Encik ada masa petang ini?",
   "target_spans": [
    "Encik ada masa petang ini?"
@@ -36490,7 +36843,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|16": {
+ "Unit 4B · Vocabulary focus|4|20": {
   "source_text": "waktu — time period, set time · 時間帯・時刻  [L-0156]",
   "target_spans": [
    "waktu"
@@ -36499,7 +36852,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|17": {
+ "Unit 4B · Vocabulary focus|4|21": {
   "source_text": "   e.g. Waktu pejabat pukul sembilan pagi sampai pukul enam petang.",
   "target_spans": [
    "Waktu pejabat pukul sembilan pagi sampai pukul enam petang."
@@ -36508,7 +36861,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|18": {
+ "Unit 4B · Vocabulary focus|4|22": {
   "source_text": "depan — next (time); front · 次の；前  [L-0173]",
   "target_spans": [
    "depan"
@@ -36517,7 +36870,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|19": {
+ "Unit 4B · Vocabulary focus|4|23": {
   "source_text": "   e.g. Saya cuti minggu depan.",
   "target_spans": [
    "Saya cuti minggu depan."
@@ -36526,7 +36879,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|20": {
+ "Unit 4B · Vocabulary focus|4|24": {
   "source_text": "lepas — last (time); after · 先〜；〜の後  [L-0174]",
   "target_spans": [
    "lepas"
@@ -36535,7 +36888,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|21": {
+ "Unit 4B · Vocabulary focus|4|25": {
   "source_text": "   e.g. Minggu lepas saya sibuk.",
   "target_spans": [
    "Minggu lepas saya sibuk."
@@ -36544,7 +36897,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|22": {
+ "Unit 4B · Vocabulary focus|4|26": {
   "source_text": "awal — early · 早い  [L-0206]",
   "target_spans": [
    "awal"
@@ -36553,7 +36906,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|23": {
+ "Unit 4B · Vocabulary focus|4|27": {
   "source_text": "   e.g. Hari ini saya sampai awal.",
   "target_spans": [
    "Hari ini saya sampai awal."
@@ -36562,7 +36915,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|24": {
+ "Unit 4B · Vocabulary focus|4|28": {
   "source_text": "lambat — late, slow · 遅い  [L-0207]",
   "target_spans": [
    "lambat"
@@ -36571,7 +36924,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|25": {
+ "Unit 4B · Vocabulary focus|5|0": {
   "source_text": "   e.g. Maaf, saya lambat.",
   "target_spans": [
    "Maaf, saya lambat."
@@ -36580,7 +36933,28 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|26": {
+ "Unit 4B · Vocabulary focus|5|1": {
+  "source_text": "lewat — late · 遅れて・遅い  [L-1047]",
+  "target_spans": [
+   "lewat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4B · Vocabulary focus|5|2": {
+  "source_text": "   e.g. Malam ini saya balik lewat. (lewat and lambat both mean late; lambat also means slow)",
+  "target_spans": [
+   "Malam ini saya balik lewat.",
+   "lewat",
+   "lambat",
+   "lambat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4B · Vocabulary focus|5|3": {
   "source_text": "mesyuarat — meeting · 会議  [L-0208]",
   "target_spans": [
    "mesyuarat"
@@ -36589,7 +36963,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|4|27": {
+ "Unit 4B · Vocabulary focus|5|4": {
   "source_text": "   e.g. Mesyuarat mula pukul tiga dan habis pukul lima.",
   "target_spans": [
    "Mesyuarat mula pukul tiga dan habis pukul lima."
@@ -36598,14 +36972,39 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|0": {
+ "Unit 4B · Vocabulary focus|5|5": {
+  "source_text": "hujung minggu — Weekend · 週末  [L-0702]",
+  "target_spans": [
+   "hujung minggu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4B · Vocabulary focus|5|6": {
+  "source_text": "   e.g. Hujung minggu saya main badminton.",
+  "target_spans": [
+   "Hujung minggu saya main badminton."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4B · Vocabulary focus|5|7": {
+  "source_text": "■ Dunia · To recognise · 聞いて分かる",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4B · Vocabulary focus|5|8": {
   "source_text": "■ Dunia · To recognise · \"Satu hari Encik Tanaka\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|5|1": {
+ "Unit 4B · Vocabulary focus|5|9": {
   "source_text": "duduk — to sit · 座る  [L-0471]",
   "target_spans": [
    "duduk"
@@ -36614,7 +37013,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|2": {
+ "Unit 4B · Vocabulary focus|5|10": {
   "source_text": "   e.g. Saya duduk dan tunggu.",
   "target_spans": [
    "Saya duduk dan tunggu."
@@ -36623,7 +37022,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|3": {
+ "Unit 4B · Vocabulary focus|5|11": {
   "source_text": "dengar — to listen, hear · 聞く  [L-0472]",
   "target_spans": [
    "dengar"
@@ -36632,7 +37031,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|4": {
+ "Unit 4B · Vocabulary focus|5|12": {
   "source_text": "   e.g. Saya dengar muzik setiap pagi.",
   "target_spans": [
    "Saya dengar muzik setiap pagi."
@@ -36641,7 +37040,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|5": {
+ "Unit 4B · Vocabulary focus|5|13": {
   "source_text": "baca — to read · 読む  [L-0474]",
   "target_spans": [
    "baca"
@@ -36650,7 +37049,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|6": {
+ "Unit 4B · Vocabulary focus|5|14": {
   "source_text": "   e.g. Saya baca e-mel dulu.",
   "target_spans": [
    "Saya baca e-mel dulu."
@@ -36659,7 +37058,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|7": {
+ "Unit 4B · Vocabulary focus|5|15": {
   "source_text": "tulis — to write · 書く  [L-0475]",
   "target_spans": [
    "tulis"
@@ -36668,7 +37067,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|8": {
+ "Unit 4B · Vocabulary focus|5|16": {
   "source_text": "   e.g. Saya tulis e-mel untuk bos.",
   "target_spans": [
    "Saya tulis e-mel untuk bos."
@@ -36677,7 +37076,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|9": {
+ "Unit 4B · Vocabulary focus|5|17": {
   "source_text": "faham — to understand · わかる  [L-0476]",
   "target_spans": [
    "faham"
@@ -36686,7 +37085,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|10": {
+ "Unit 4B · Vocabulary focus|5|18": {
   "source_text": "   e.g. Encik faham? Faham.",
   "target_spans": [
    "Encik faham?",
@@ -36696,7 +37095,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|11": {
+ "Unit 4B · Vocabulary focus|5|19": {
   "source_text": "tahu — to know · 知っている  [L-0477]",
   "target_spans": [
    "tahu"
@@ -36705,7 +37104,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|12": {
+ "Unit 4B · Vocabulary focus|5|20": {
   "source_text": "   e.g. Maaf, saya tidak tahu.",
   "target_spans": [
    "Maaf, saya tidak tahu."
@@ -36714,7 +37113,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|13": {
+ "Unit 4B · Vocabulary focus|5|21": {
   "source_text": "ingat — to remember · 覚えている  [L-0478]",
   "target_spans": [
    "ingat"
@@ -36723,7 +37122,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|14": {
+ "Unit 4B · Vocabulary focus|5|22": {
   "source_text": "   e.g. Encik ingat nama saya?",
   "target_spans": [
    "Encik ingat nama saya?"
@@ -36732,7 +37131,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|15": {
+ "Unit 4B · Vocabulary focus|5|23": {
   "source_text": "lupa — to forget · 忘れる  [L-0479]",
   "target_spans": [
    "lupa"
@@ -36741,7 +37140,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|16": {
+ "Unit 4B · Vocabulary focus|5|24": {
   "source_text": "   e.g. Alamak, saya lupa!",
   "target_spans": [
    "Alamak, saya lupa!"
@@ -36750,7 +37149,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|17": {
+ "Unit 4B · Vocabulary focus|5|25": {
   "source_text": "guna — to use · 使う  [L-0480]",
   "target_spans": [
    "guna"
@@ -36759,7 +37158,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|18": {
+ "Unit 4B · Vocabulary focus|5|26": {
   "source_text": "   e.g. Saya guna komputer setiap hari.",
   "target_spans": [
    "Saya guna komputer setiap hari."
@@ -36768,7 +37167,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|19": {
+ "Unit 4B · Vocabulary focus|5|27": {
   "source_text": "ambil — to take · 取る  [L-0481]",
   "target_spans": [
    "ambil"
@@ -36777,7 +37176,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|20": {
+ "Unit 4B · Vocabulary focus|5|28": {
   "source_text": "   e.g. Saya ambil fail ini, ya.",
   "target_spans": [
    "Saya ambil fail ini, ya."
@@ -36786,7 +37185,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|21": {
+ "Unit 4B · Vocabulary focus|5|29": {
   "source_text": "bagi — to give · あげる  [L-0482]",
   "target_spans": [
    "bagi"
@@ -36795,7 +37194,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|22": {
+ "Unit 4B · Vocabulary focus|5|30": {
   "source_text": "   e.g. Saya bagi buku ini untuk anak saya.",
   "target_spans": [
    "Saya bagi buku ini untuk anak saya."
@@ -36804,7 +37203,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|23": {
+ "Unit 4B · Vocabulary focus|6|0": {
   "source_text": "bawa — to bring, carry · 持っていく  [L-0483]",
   "target_spans": [
    "bawa"
@@ -36813,7 +37212,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|24": {
+ "Unit 4B · Vocabulary focus|6|1": {
   "source_text": "   e.g. Saya bawa makanan dari rumah.",
   "target_spans": [
    "Saya bawa makanan dari rumah."
@@ -36822,7 +37221,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|25": {
+ "Unit 4B · Vocabulary focus|6|2": {
   "source_text": "buka — to open · 開ける  [L-0484]",
   "target_spans": [
    "buka"
@@ -36831,7 +37230,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|26": {
+ "Unit 4B · Vocabulary focus|6|3": {
   "source_text": "   e.g. Pejabat buka pukul sembilan.",
   "target_spans": [
    "Pejabat buka pukul sembilan."
@@ -36840,7 +37239,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|27": {
+ "Unit 4B · Vocabulary focus|6|4": {
   "source_text": "tutup — to close; to switch off · 閉める・消す  [L-0485]",
   "target_spans": [
    "tutup"
@@ -36849,7 +37248,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|28": {
+ "Unit 4B · Vocabulary focus|6|5": {
   "source_text": "   e.g. Pasar tutup pukul satu tengah hari.",
   "target_spans": [
    "Pasar tutup pukul satu tengah hari."
@@ -36858,7 +37257,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|29": {
+ "Unit 4B · Vocabulary focus|6|6": {
   "source_text": "kemas — to tidy · 片付ける  [L-0486]",
   "target_spans": [
    "kemas"
@@ -36867,7 +37266,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|30": {
+ "Unit 4B · Vocabulary focus|6|7": {
   "source_text": "   e.g. Saya kemas rumah hari Sabtu.",
   "target_spans": [
    "Saya kemas rumah hari Sabtu."
@@ -36876,7 +37275,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|5|31": {
+ "Unit 4B · Vocabulary focus|6|8": {
   "source_text": "buku — book · 本  [L-0487]",
   "target_spans": [
    "buku"
@@ -36885,7 +37284,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|0": {
+ "Unit 4B · Vocabulary focus|6|9": {
   "source_text": "   e.g. Saya baca buku sebelum tidur.",
   "target_spans": [
    "Saya baca buku sebelum tidur."
@@ -36894,7 +37293,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|1": {
+ "Unit 4B · Vocabulary focus|6|10": {
   "source_text": "kaki — foot, leg · 足  [L-0488]",
   "target_spans": [
    "kaki"
@@ -36903,7 +37302,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|2": {
+ "Unit 4B · Vocabulary focus|6|11": {
   "source_text": "   e.g. Kaki saya basah.",
   "target_spans": [
    "Kaki saya basah."
@@ -36912,14 +37311,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|3": {
+ "Unit 4B · Vocabulary focus|6|12": {
   "source_text": "■ Dunia · To recognise · \"Bangun pagi\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|6|4": {
+ "Unit 4B · Vocabulary focus|6|13": {
   "source_text": "katil — bed · ベッド  [L-0551]",
   "target_spans": [
    "katil"
@@ -36928,7 +37327,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|5": {
+ "Unit 4B · Vocabulary focus|6|14": {
   "source_text": "   e.g. Saya masih di katil.",
   "target_spans": [
    "Saya masih di katil."
@@ -36937,7 +37336,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|6": {
+ "Unit 4B · Vocabulary focus|6|15": {
   "source_text": "bantal — pillow · 枕  [L-0552]",
   "target_spans": [
    "bantal"
@@ -36946,7 +37345,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|7": {
+ "Unit 4B · Vocabulary focus|6|16": {
   "source_text": "   e.g. Ada bantal lagi?",
   "target_spans": [
    "Ada bantal lagi?"
@@ -36955,7 +37354,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|8": {
+ "Unit 4B · Vocabulary focus|6|17": {
   "source_text": "selimut — blanket · 毛布  [L-0553]",
   "target_spans": [
    "selimut"
@@ -36964,7 +37363,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|9": {
+ "Unit 4B · Vocabulary focus|6|18": {
   "source_text": "   e.g. Selimut ini untuk anak saya.",
   "target_spans": [
    "Selimut ini untuk anak saya."
@@ -36973,7 +37372,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|10": {
+ "Unit 4B · Vocabulary focus|6|19": {
   "source_text": "jam loceng — alarm clock · 目覚まし時計  [L-0554]",
   "target_spans": [
    "jam loceng"
@@ -36982,7 +37381,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|11": {
+ "Unit 4B · Vocabulary focus|6|20": {
   "source_text": "   e.g. Jam loceng saya pukul enam.",
   "target_spans": [
    "Jam loceng saya pukul enam."
@@ -36991,7 +37390,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|12": {
+ "Unit 4B · Vocabulary focus|6|21": {
   "source_text": "bilik air — bathroom · 浴室・トイレ  [L-0555]",
   "target_spans": [
    "bilik air"
@@ -37000,7 +37399,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|13": {
+ "Unit 4B · Vocabulary focus|6|22": {
   "source_text": "   e.g. Bilik air di mana?",
   "target_spans": [
    "Bilik air di mana?"
@@ -37009,7 +37408,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|14": {
+ "Unit 4B · Vocabulary focus|6|23": {
   "source_text": "cermin — mirror · 鏡  [L-0556]",
   "target_spans": [
    "cermin"
@@ -37018,7 +37417,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|15": {
+ "Unit 4B · Vocabulary focus|6|24": {
   "source_text": "   e.g. Ada cermin di bilik air.",
   "target_spans": [
    "Ada cermin di bilik air."
@@ -37027,7 +37426,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|16": {
+ "Unit 4B · Vocabulary focus|6|25": {
   "source_text": "gigi — teeth · 歯  [L-0557]",
   "target_spans": [
    "gigi"
@@ -37036,7 +37435,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|17": {
+ "Unit 4B · Vocabulary focus|6|26": {
   "source_text": "   e.g. Gosok gigi dulu!",
   "target_spans": [
    "Gosok gigi dulu!"
@@ -37045,7 +37444,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|18": {
+ "Unit 4B · Vocabulary focus|6|27": {
   "source_text": "berus gigi — toothbrush · 歯ブラシ  [L-0558]",
   "target_spans": [
    "berus gigi"
@@ -37054,7 +37453,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|19": {
+ "Unit 4B · Vocabulary focus|6|28": {
   "source_text": "   e.g. Ini berus gigi anak saya.",
   "target_spans": [
    "Ini berus gigi anak saya."
@@ -37063,7 +37462,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|20": {
+ "Unit 4B · Vocabulary focus|6|29": {
   "source_text": "ubat gigi — toothpaste · 歯磨き粉  [L-0559]",
   "target_spans": [
    "ubat gigi"
@@ -37072,7 +37471,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|21": {
+ "Unit 4B · Vocabulary focus|6|30": {
   "source_text": "   e.g. Ubat gigi sudah habis.",
   "target_spans": [
    "Ubat gigi sudah habis."
@@ -37081,7 +37480,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|22": {
+ "Unit 4B · Vocabulary focus|7|0": {
   "source_text": "gosok — to brush, rub; to iron · 磨く・こする  [L-0560]",
   "target_spans": [
    "gosok"
@@ -37090,7 +37489,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|23": {
+ "Unit 4B · Vocabulary focus|7|1": {
   "source_text": "   e.g. Saya gosok gigi sebelum tidur.",
   "target_spans": [
    "Saya gosok gigi sebelum tidur."
@@ -37099,7 +37498,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|24": {
+ "Unit 4B · Vocabulary focus|7|2": {
   "source_text": "sabun — soap · 石けん  [L-0561]",
   "target_spans": [
    "sabun"
@@ -37108,7 +37507,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|25": {
+ "Unit 4B · Vocabulary focus|7|3": {
   "source_text": "   e.g. Ada sabun?",
   "target_spans": [
    "Ada sabun?"
@@ -37117,7 +37516,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|26": {
+ "Unit 4B · Vocabulary focus|7|4": {
   "source_text": "tuala — towel · タオル  [L-0562]",
   "target_spans": [
    "tuala"
@@ -37126,7 +37525,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|27": {
+ "Unit 4B · Vocabulary focus|7|5": {
   "source_text": "   e.g. Tuala saya basah.",
   "target_spans": [
    "Tuala saya basah."
@@ -37135,7 +37534,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|28": {
+ "Unit 4B · Vocabulary focus|7|6": {
   "source_text": "pakai — to wear; to use · 着る・使う  [L-0563]",
   "target_spans": [
    "pakai"
@@ -37144,7 +37543,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|6|29": {
+ "Unit 4B · Vocabulary focus|7|7": {
   "source_text": "   e.g. Saya pakai jam.",
   "target_spans": [
    "Saya pakai jam."
@@ -37153,14 +37552,21 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|0": {
+ "Unit 4B · Vocabulary focus|7|8": {
+  "source_text": "■ Revision · 復習 (not new, not tested as new vocabulary)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4B · Vocabulary focus|7|9": {
   "source_text": "■ Revision · 復習 · Chapters 1 to 3",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|7|1": {
+ "Unit 4B · Vocabulary focus|7|10": {
   "source_text": "selepas — after · 〜の後  [L-1001]",
   "target_spans": [
    "selepas"
@@ -37169,7 +37575,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|2": {
+ "Unit 4B · Vocabulary focus|7|11": {
   "source_text": "   e.g. Selepas kerja, saya main badminton.",
   "target_spans": [
    "Selepas kerja, saya main badminton."
@@ -37178,7 +37584,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|3": {
+ "Unit 4B · Vocabulary focus|7|12": {
   "source_text": "sebelum — before · 〜の前  [L-1002]",
   "target_spans": [
    "sebelum"
@@ -37187,7 +37593,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|4": {
+ "Unit 4B · Vocabulary focus|7|13": {
   "source_text": "   e.g. Sebelum tidur, saya mandi.",
   "target_spans": [
    "Sebelum tidur, saya mandi."
@@ -37196,7 +37602,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|5": {
+ "Unit 4B · Vocabulary focus|7|14": {
   "source_text": "kerja — work; to work (spoken) · 仕事・働く  [L-0065]",
   "target_spans": [
    "kerja"
@@ -37205,7 +37611,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|6": {
+ "Unit 4B · Vocabulary focus|7|15": {
   "source_text": "   e.g. Hari ini saya kerja di rumah.",
   "target_spans": [
    "Hari ini saya kerja di rumah."
@@ -37214,7 +37620,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|7": {
+ "Unit 4B · Vocabulary focus|7|16": {
   "source_text": "rumah — house, home · 家  [L-0070]",
   "target_spans": [
    "rumah"
@@ -37223,7 +37629,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|8": {
+ "Unit 4B · Vocabulary focus|7|17": {
   "source_text": "   e.g. Saya di rumah sekarang.",
   "target_spans": [
    "Saya di rumah sekarang."
@@ -37232,7 +37638,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|9": {
+ "Unit 4B · Vocabulary focus|7|18": {
   "source_text": "pejabat — office · 事務所・オフィス  [L-0064]",
   "target_spans": [
    "pejabat"
@@ -37241,7 +37647,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|10": {
+ "Unit 4B · Vocabulary focus|7|19": {
   "source_text": "   e.g. Pejabat saya di KL.",
   "target_spans": [
    "Pejabat saya di KL."
@@ -37250,7 +37656,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|11": {
+ "Unit 4B · Vocabulary focus|7|20": {
   "source_text": "jom — let's (spoken) · 〜しよう  [L-0075]",
   "target_spans": [
    "jom"
@@ -37259,7 +37665,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|12": {
+ "Unit 4B · Vocabulary focus|7|21": {
   "source_text": "   e.g. Jom makan!",
   "target_spans": [
    "Jom makan!"
@@ -37268,7 +37674,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|13": {
+ "Unit 4B · Vocabulary focus|7|22": {
   "source_text": "makanan — food · 食べ物  [L-0091]",
   "target_spans": [
    "makanan"
@@ -37277,7 +37683,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|14": {
+ "Unit 4B · Vocabulary focus|7|23": {
   "source_text": "   e.g. Jom beli makanan.",
   "target_spans": [
    "Jom beli makanan."
@@ -37286,7 +37692,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|15": {
+ "Unit 4B · Vocabulary focus|7|24": {
   "source_text": "nanti — later · 後で  [L-0026]",
   "target_spans": [
    "nanti"
@@ -37295,7 +37701,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|16": {
+ "Unit 4B · Vocabulary focus|7|25": {
   "source_text": "   e.g. Jumpa nanti!",
   "target_spans": [
    "Jumpa nanti!"
@@ -37304,14 +37710,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|17": {
+ "Unit 4B · Vocabulary focus|7|26": {
   "source_text": "■ Revision · 復習 · Unit 4A",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|7|18": {
+ "Unit 4B · Vocabulary focus|7|27": {
   "source_text": "sekarang — now · 今  [L-0161]",
   "target_spans": [
    "sekarang"
@@ -37320,7 +37726,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|19": {
+ "Unit 4B · Vocabulary focus|7|28": {
   "source_text": "   e.g. Sekarang saya sedang makan.",
   "target_spans": [
    "Sekarang saya sedang makan."
@@ -37329,7 +37735,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|20": {
+ "Unit 4B · Vocabulary focus|7|29": {
   "source_text": "semalam — yesterday · 昨日  [L-0170]",
   "target_spans": [
    "semalam"
@@ -37338,7 +37744,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|21": {
+ "Unit 4B · Vocabulary focus|7|30": {
   "source_text": "   e.g. Semalam saya balik lambat.",
   "target_spans": [
    "Semalam saya balik lambat."
@@ -37347,7 +37753,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|22": {
+ "Unit 4B · Vocabulary focus|8|0": {
   "source_text": "biasanya — usually · 普段は  [L-0184]",
   "target_spans": [
    "biasanya"
@@ -37356,7 +37762,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|23": {
+ "Unit 4B · Vocabulary focus|8|1": {
   "source_text": "   e.g. Biasanya saya bangun pukul enam.",
   "target_spans": [
    "Biasanya saya bangun pukul enam."
@@ -37365,7 +37771,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|24": {
+ "Unit 4B · Vocabulary focus|8|2": {
   "source_text": "bila — when · いつ  [L-1007]",
   "target_spans": [
    "bila"
@@ -37374,7 +37780,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|25": {
+ "Unit 4B · Vocabulary focus|8|3": {
   "source_text": "   e.g. Bila encik balik?",
   "target_spans": [
    "Bila encik balik?"
@@ -37383,7 +37789,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|26": {
+ "Unit 4B · Vocabulary focus|8|4": {
   "source_text": "lusa — the day after tomorrow · あさって  [L-0172]",
   "target_spans": [
    "lusa"
@@ -37392,7 +37798,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|7|27": {
+ "Unit 4B · Vocabulary focus|8|5": {
   "source_text": "   e.g. Lusa saya akan cuti.",
   "target_spans": [
    "Lusa saya akan cuti."
@@ -37401,28 +37807,28 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 4B · Vocabulary focus|8|0": {
-  "source_text": "27 new core entries, 30 Dunia recognition entries and 13 revision entries.",
+ "Unit 4B · Vocabulary focus|9|0": {
+  "source_text": "31 new core entries, 30 Dunia recognition entries and 13 revision entries.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|8|1": {
+ "Unit 4B · Vocabulary focus|9|1": {
   "source_text": "Dunia words are for recognition in Block E. The unit test never treats them as new vocabulary.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|8|2": {
+ "Unit 4B · Vocabulary focus|9|2": {
   "source_text": "Revision words were taught earlier; they are listed so learners can see them reused, not counted as new.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 4B · Vocabulary focus|8|3": {
+ "Unit 4B · Vocabulary focus|9|3": {
   "source_text": "A slash variant under one ledger ID counts as one entry; spoken forms are marked \"spoken\".",
   "target_spans": [],
   "mention_spans": [],
@@ -38837,10 +39243,10 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4B · Drill 6 · Short dialogues|3|3": {
-  "source_text": "A: Encik sudah sampai?  B: Belum. Saya akan sampai lima minit lagi.  A: ____________________",
+  "source_text": "A: Encik sudah sampai?  B: Belum. Tunggu sekejap, lima minit lagi.  A: ____________________",
   "target_spans": [
    "Encik sudah sampai?",
-   "Belum. Saya akan sampai lima minit lagi."
+   "Belum. Tunggu sekejap, lima minit lagi."
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -39872,9 +40278,9 @@
   "exclusion": null
  },
  "Unit 4B · Listening focus · Encik Tanaka|4|3": {
-  "source_text": "Tanaka: Biasanya saya bangun pukul enam pagi. Saya mandi, dan pukul tujuh setengah saya pergi kerja.",
+  "source_text": "Tanaka: Biasanya saya bangun pukul enam pagi. Saya mandi, sarapan, dan pukul tujuh setengah saya pergi kerja.",
   "target_spans": [
-   "Biasanya saya bangun pukul enam pagi. Saya mandi, dan pukul tujuh setengah saya pergi kerja."
+   "Biasanya saya bangun pukul enam pagi. Saya mandi, sarapan, dan pukul tujuh setengah saya pergi kerja."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -39989,18 +40395,18 @@
   "exclusion": null
  },
  "Unit 4B · Listening focus · Encik Tanaka|4|16": {
-  "source_text": "Aini: Hari Sabtu ini encik sibuk?",
+  "source_text": "Aini: Hujung minggu ini encik sibuk?",
   "target_spans": [
-   "Hari Sabtu ini encik sibuk?"
+   "Hujung minggu ini encik sibuk?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 4B · Listening focus · Encik Tanaka|4|17": {
-  "source_text": "Tanaka: Ya. Saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah.",
+  "source_text": "Tanaka: Ya. Hari Sabtu saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah.",
   "target_spans": [
-   "Ya. Saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah."
+   "Ya. Hari Sabtu saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -40034,9 +40440,10 @@
   "exclusion": null
  },
  "Unit 4B · Listening focus · Encik Tanaka|4|21": {
-  "source_text": "Answers: 1. 6 a.m. / 2. he showers (mandi) / 3. 8.15; office hours start at 9 / 4. office friends, at 1 p.m. / 5. 10 p.m. (late) / 6. 6.30 p.m. / 7. no, this is his first time / 8. badminton at 8 a.m., then tidy the house",
+  "source_text": "Answers: 1. 6 a.m. / 2. he showers and has breakfast (mandi, sarapan) / 3. 8.15; office hours start at 9 / 4. office friends, at 1 p.m. / 5. 10 p.m. (late) / 6. 6.30 p.m. / 7. no, this is his first time / 8. badminton at 8 a.m., then tidy the house",
   "target_spans": [
    "mandi",
+   "sarapan",
    "badminton"
   ],
   "mention_spans": [],
@@ -40813,9 +41220,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 4B · Unit test and self-check|5|0": {
-  "source_text": "L1: Teacher reads: Biasanya saya bangun pukul enam pagi. Saya mandi, dan pukul tujuh setengah saya pergi kerja. Answer: 6 a.m.",
+  "source_text": "L1: Teacher reads: Biasanya saya bangun pukul enam pagi. Saya mandi, sarapan, dan pukul tujuh setengah saya pergi kerja. Answer: 6 a.m.",
   "target_spans": [
-   "Biasanya saya bangun pukul enam pagi. Saya mandi, dan pukul tujuh setengah saya pergi kerja."
+   "Biasanya saya bangun pukul enam pagi. Saya mandi, sarapan, dan pukul tujuh setengah saya pergi kerja."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -40849,9 +41256,9 @@
   "exclusion": null
  },
  "Unit 4B · Unit test and self-check|5|4": {
-  "source_text": "L5: Teacher reads: Ya. Saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah. Answer: badminton at 8 a.m., then tidy the house",
+  "source_text": "L5: Teacher reads: Ya. Hari Sabtu saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah. Answer: badminton at 8 a.m., then tidy the house",
   "target_spans": [
-   "Ya. Saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah.",
+   "Ya. Hari Sabtu saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah.",
    "badminton"
   ],
   "mention_spans": [],
@@ -40991,9 +41398,9 @@
   "exclusion": null
  },
  "test:ms-c04b-test-01|answer_key": {
-  "source_text": "Teacher reads: Biasanya saya bangun pukul enam pagi. Saya mandi, dan pukul tujuh setengah saya pergi kerja. Answer: 6 a.m.",
+  "source_text": "Teacher reads: Biasanya saya bangun pukul enam pagi. Saya mandi, sarapan, dan pukul tujuh setengah saya pergi kerja. Answer: 6 a.m.",
   "target_spans": [
-   "Biasanya saya bangun pukul enam pagi. Saya mandi, dan pukul tujuh setengah saya pergi kerja."
+   "Biasanya saya bangun pukul enam pagi. Saya mandi, sarapan, dan pukul tujuh setengah saya pergi kerja."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -41055,9 +41462,9 @@
   "exclusion": null
  },
  "test:ms-c04b-test-05|answer_key": {
-  "source_text": "Teacher reads: Ya. Saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah. Answer: badminton at 8 a.m., then tidy the house",
+  "source_text": "Teacher reads: Ya. Hari Sabtu saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah. Answer: badminton at 8 a.m., then tidy the house",
   "target_spans": [
-   "Ya. Saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah.",
+   "Ya. Hari Sabtu saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah.",
    "badminton"
   ],
   "mention_spans": [],
@@ -43971,11 +44378,12 @@
   "exclusion": null
  },
  "Chapter 4 · Fast-course summary pack|4|1": {
-  "source_text": "2 · Hari ini hari apa?  e.g. Hari ini hari Isnin. / Semalam hari Ahad.",
+  "source_text": "2 · Hari ini hari apa? Hari ini hari bulan berapa?  e.g. Hari ini hari Khamis. / Hari bulan sebelas.",
   "target_spans": [
    "Hari ini hari apa?",
-   "Hari ini hari Isnin.",
-   "Semalam hari Ahad."
+   "Hari ini hari bulan berapa?",
+   "Hari ini hari Khamis.",
+   "Hari bulan sebelas."
   ],
   "mention_spans": [],
   "kind": "model",

@@ -1,6 +1,6 @@
 """Unit 4B: the daily routine and the tense and aspect markers.
 
-27 core ledger entries; 30 Dunia recognition entries ("Satu hari Encik Tanaka", "Bangun pagi");
+31 core ledger entries (27, plus sarapan, sekejap, hujung minggu and lewat approved by Sam on 12 Nov 2026); 30 Dunia recognition entries ("Satu hari Encik Tanaka", "Bangun pagi");
 chapter 1 to 3 words and unit 4A words reused here are listed as revision. Root verbs only
 (no ber- or me-). All times are fictional. Japanese is a draft awaiting native review.
 """
@@ -8,8 +8,8 @@ from .chapter4_common import unit_dict
 
 MARKERS = ['L-0189', 'L-0190', 'L-0191', 'L-0192', 'L-0193', 'L-0194', 'L-0195', 'L-0196']
 ROUTINE = ['L-0197', 'L-0198', 'L-0199', 'L-0550', 'L-0200', 'L-0201', 'L-0202', 'L-0203',
-           'L-0496', 'L-1006', 'L-0204', 'L-0205']
-WORKDAY = ['L-0155', 'L-0156', 'L-0173', 'L-0174', 'L-0206', 'L-0207', 'L-0208']
+           'L-0496', 'L-1006', 'L-0204', 'L-0205', 'L-0614', 'L-1046']
+WORKDAY = ['L-0155', 'L-0156', 'L-0173', 'L-0174', 'L-0206', 'L-0207', 'L-1047', 'L-0208', 'L-0702']
 CORE = MARKERS + ROUTINE + WORKDAY
 HARI = ['L-0471', 'L-0472', 'L-0474', 'L-0475', 'L-0476', 'L-0477', 'L-0478', 'L-0479', 'L-0480',
         'L-0481', 'L-0482', 'L-0483', 'L-0484', 'L-0485', 'L-0486', 'L-0487', 'L-0488']
@@ -46,6 +46,10 @@ EXAMPLES = {
     'L-0206': '«Hari ini saya sampai awal.»',
     'L-0207': '«Maaf, saya lambat.»',
     'L-0208': '«Mesyuarat mula pukul tiga dan habis pukul lima.»',
+    'L-0614': '«Saya sarapan pukul tujuh.» / «Sudah sarapan?»',
+    'L-1046': '«Tunggu sekejap, ya.»',
+    'L-1047': '«Malam ini saya balik lewat.» («lewat» and «lambat» both mean late; «lambat» also means slow)',
+    'L-0702': '«Hujung minggu saya main badminton.»',
     # Dunia · Satu hari Encik Tanaka (recognition)
     'L-0471': '«Saya duduk dan tunggu.»',
     'L-0472': '«Saya dengar muzik setiap pagi.»',
@@ -95,6 +99,7 @@ EXAMPLES = {
 }
 VOCAB_OPTS = {
     'L-0193': {'display': '«sudah» / «dah» (spoken)', 'en': 'already, done (standard «sudah»; spoken «dah»)'},
+    'L-0614': {'en': 'breakfast; to have breakfast'},
     'L-0190': {'display': '«tengah» (spoken)', 'en': 'in the middle of (spoken form of «sedang»)'},
     'L-0202': {'display': '«balik» / «pulang»', 'en': 'to go back, return home («balik» everyday; «pulang» also common in writing)'},
 }
@@ -178,7 +183,7 @@ VARIANT = [
 
 LISTENING = [
     ('Aini', 'Encik Tanaka, encik bangun pukul berapa setiap hari?'),
-    ('Tanaka', 'Biasanya saya bangun pukul enam pagi. Saya mandi, dan pukul tujuh setengah saya pergi kerja.'),
+    ('Tanaka', 'Biasanya saya bangun pukul enam pagi. Saya mandi, sarapan, dan pukul tujuh setengah saya pergi kerja.'),
     ('Aini', 'Encik sampai di pejabat pukul berapa?'),
     ('Tanaka', 'Pukul lapan suku. Saya selalu sampai awal. Waktu pejabat mula pukul sembilan.'),
     ('Aini', 'Encik makan tengah hari dengan siapa?'),
@@ -191,8 +196,8 @@ LISTENING = [
     ('Tanaka', 'Pukul sebelas. Sebelum tidur, saya baca buku.'),
     ('Aini', 'Encik pernah belajar bahasa Melayu sebelum kelas ini?'),
     ('Tanaka', 'Belum pernah. Ini kali pertama.'),
-    ('Aini', 'Hari Sabtu ini encik sibuk?'),
-    ('Tanaka', 'Ya. Saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah.'),
+    ('Aini', 'Hujung minggu ini encik sibuk?'),
+    ('Tanaka', 'Ya. Hari Sabtu saya akan main badminton pukul lapan pagi. Selepas itu, saya akan kemas rumah.'),
     ('Aini', 'Sekarang pukul berapa?'),
     ('Tanaka', 'Sekarang pukul sembilan malam. Kelas kita belum habis?'),
     ('Aini', 'Belum! Setengah jam lagi.'),
@@ -284,7 +289,7 @@ CFG = dict(
     },
     short_dialogues=[
         ('Sudah makan?', 'Belum. Saya masih ada kerja.', 'lunchtime at the office'),
-        ('Encik sudah sampai?', 'Belum. Saya akan sampai lima minit lagi.', 'meeting a colleague'),
+        ('Encik sudah sampai?', 'Belum. Tunggu sekejap, lima minit lagi.', 'meeting a colleague'),
         ('Encik pernah main badminton di Malaysia?', 'Belum pernah.', 'small talk after work'),
         ('Mesyuarat sudah mula?', 'Sudah. Mula pukul tiga.', 'arriving late to a meeting')],
     short_keys=['1 «Jom makan!» or «Nanti kita makan, ya.» 2 «Baik, saya tunggu.»',
@@ -318,7 +323,7 @@ CFG = dict(
                       'Who does he usually eat lunch with, and at what time?', 'Last week, what time did he often get home?',
                       'What time did he get home yesterday?', 'Has he studied Malay before this class?',
                       'What will he do this Saturday?'],
-    listen_answers=['6 a.m.', 'he showers («mandi»)', '8.15; office hours start at 9',
+    listen_answers=['6 a.m.', 'he showers and has breakfast («mandi», «sarapan»)', '8.15; office hours start at 9',
                     'office friends, at 1 p.m.', '10 p.m. (late)', '6.30 p.m.', 'no, this is his first time',
                     '«badminton» at 8 a.m., then tidy the house'],
     listening_after=['Compare answers, then shadow lines 2, 8 and 16 after the teacher. / 答えを比べ、2・8・16行目をシャドーイングします。',

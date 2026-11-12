@@ -1,6 +1,6 @@
 """Unit 4A: telling the time, days, dates and frequency.
 
-27 core ledger entries; 25 Dunia recognition entries ("Hujan petang", "Cuti ke pantai");
+40 core ledger entries (27, plus tarikh and the twelve months approved by Sam on 12 Nov 2026); 25 Dunia recognition entries ("Hujan petang", "Cuti ke pantai");
 chapter 1 to 3 words reused here are listed as revision. All times, dates and
 schedules are fictional. Japanese is a draft awaiting native review.
 """
@@ -9,8 +9,10 @@ from .chapter4_common import unit_dict
 CLOCK = ['L-0157', 'L-0158', 'L-0159', 'L-0160', 'L-0161']
 DAYS = ['L-0166', 'L-0167', 'L-0168', 'L-0169', 'L-0170', 'L-0171', 'L-0172',
         'L-0175', 'L-0176', 'L-0177', 'L-0178', 'L-0179', 'L-0180', 'L-0181']
+MONTHS = ['L-1033', 'L-1034', 'L-1035', 'L-1036', 'L-1037', 'L-1038', 'L-1039', 'L-1040',
+          'L-1041', 'L-1042', 'L-1043', 'L-1044']
 FREQ = ['L-0182', 'L-0183', 'L-0184', 'L-0185', 'L-0186', 'L-0187', 'L-0188', 'L-1007']
-CORE = CLOCK + DAYS + FREQ
+CORE = CLOCK + DAYS + ['L-1032'] + MONTHS + FREQ
 HUJAN = ['L-0431', 'L-0432', 'L-0433', 'L-0434', 'L-0435', 'L-0436', 'L-0437', 'L-0438',
          'L-0439', 'L-0440', 'L-0441', 'L-0442']
 PANTAI = ['L-0443', 'L-0444', 'L-0445', 'L-0446', 'L-0447', 'L-0448', 'L-0449', 'L-0450',
@@ -45,6 +47,19 @@ EXAMPLES = {
     'L-0187': '«Dia tidak pernah masak.»',
     'L-0188': '«Saya beli buah di pasar seminggu sekali.»',
     'L-1007': '«Bila kelas encik?»',
+    'L-1032': '«Apa tarikh hari ini?» «Sebelas November.»',
+    'L-1033': '«Kelas kita mula lima Januari.»',
+    'L-1034': '«Biasanya Februari ada dua puluh lapan hari.»',
+    'L-1035': '«Saya cuti bulan Mac.»',
+    'L-1036': '«Mesyuarat kita tiga April.»',
+    'L-1037': '«Bulan Mei saya sibuk.»',
+    'L-1038': '«Saya balik Jepun bulan Jun.»',
+    'L-1039': '«Hari ini satu Julai.»',
+    'L-1040': '«Kami cuti di pulau bulan Ogos.»',
+    'L-1041': '«Kelas habis bulan September.»',
+    'L-1042': '«Bulan Oktober saya akan cuti.»',
+    'L-1043': '«Hari ini sebelas November.»',
+    'L-1044': '«Saya cuti dua minggu bulan Disember.»',
     # Dunia · Hujan petang (recognition)
     'L-0431': '«Cuaca hari ini cerah.»',
     'L-0432': '«Pagi ini cerah.»',
@@ -96,16 +111,17 @@ P = [
      '«pukul» は時の数字の前に置きます。分は «suku»（15分）、«setengah»（30分）、または分の数（45分なら «empat puluh lima minit»）で言います。時間帯がはっきりしないときは «pagi»・«tengah hari»・«petang»・«malam» を付けます。',
      'Like 〜時, «pukul» marks clock time, but it comes before the number. The part of the day works like 午前・午後, but it goes at the end: «pukul empat petang» = 午後4時.',
      '「〜時」と同じく時刻を表しますが、«pukul» は数字の前に来ます。時間帯は午前・午後に似ていますが、最後に置きます：«pukul empat petang»＝午後4時。'),
-    ('ms-c04-f01', '«Hari ini hari apa?» / «Hari ini hari» ___ . / «Hari ini hari bulan berapa?»', [
-        'A: «Hari ini hari apa?» B: «Hari ini hari Isnin.»',
-        'A: «Semalam hari apa?» B: «Semalam hari Ahad.»',
-        'A: «Lusa hari apa?» B: «Lusa hari Rabu.»',
-        'A: «Hari ini hari bulan berapa?» B: «Sebelas hari bulan.»',
-        'A: «Kelmarin hari bulan berapa?» B: «Sembilan hari bulan.»'],
-     'Put «hari» before the name of the day: «hari Isnin». «Hari apa?» asks the day of the week. «Hari ini hari bulan berapa?» asks the day of the month, and the answer is a number + «hari bulan»: «sebelas hari bulan» (the 11th). Days around today: «kelmarin», «semalam», «hari ini», «esok», «lusa».',
-     '曜日の名前の前に «hari» を置きます：«hari Isnin»。«Hari apa?» は曜日をたずねます。«Hari ini hari bulan berapa?» は「何日」をたずね、数＋«hari bulan» で答えます：«sebelas hari bulan»（11日）。今日の前後：«kelmarin»（おととい）、«semalam»（昨日）、«hari ini»（今日）、«esok»（明日）、«lusa»（あさって）。',
-     'Malay has one word each for おととい («kelmarin») and あさって («lusa»), as Japanese does and English does not. The day names are not built from 月・火・水, so learn them as words.',
-     'おととい（«kelmarin»）とあさって（«lusa»）にそれぞれ一語あるのは日本語と同じで、英語とは違います。曜日の名前は月・火・水のような組み立てではないので、単語として覚えます。'),
+    ('ms-c04-f01', '«Hari ini hari apa?» / «Hari ini hari bulan berapa?» / «Apa tarikh hari ini?»', [
+        'A: «Hari ini hari apa?» B: «Hari ini hari Khamis.»',
+        'A: «Semalam hari apa?» B: «Semalam hari Rabu.»',
+        'A: «Lusa hari apa?» B: «Lusa hari Sabtu.»',
+        'A: «Hari ini hari bulan berapa?» B: «Hari bulan sebelas.»',
+        'A: «Apa tarikh hari ini?» B: «Sebelas November.»',
+        'A: «Apa tarikh kelas pertama?» B: «Lima Januari.»'],
+     'Put «hari» before the name of the day: «hari Isnin». «Hari apa?» asks the day of the week. «Hari ini hari bulan berapa?» asks the day of the month: answer «hari bulan» + the number, «hari bulan sebelas» (the 11th). «Apa tarikh hari ini?» asks the full date: the day, then the month, «sebelas November». Days around today: «kelmarin», «semalam», «hari ini», «esok», «lusa».',
+     '曜日の名前の前に «hari» を置きます：«hari Isnin»。«Hari apa?» は曜日をたずねます。«Hari ini hari bulan berapa?» は「何日」をたずね、«hari bulan»＋数で答えます：«hari bulan sebelas»（11日）。«Apa tarikh hari ini?» は日付全体をたずね、日、月の順で答えます：«sebelas November»（11月11日）。今日の前後：«kelmarin»（おととい）、«semalam»（昨日）、«hari ini»（今日）、«esok»（明日）、«lusa»（あさって）。',
+     'Malay has one word each for おととい («kelmarin») and あさって («lusa»), as Japanese does and English does not. The day names are not built from 月・火・水, so learn them as words. Dates go day first, then month («sebelas November»), the reverse of 11月11日; most month names are close to English («Januari», «Ogos» = August).',
+     'おととい（«kelmarin»）とあさって（«lusa»）にそれぞれ一語あるのは日本語と同じで、英語とは違います。曜日の名前は月・火・水のような組み立てではないので、単語として覚えます。日付は日、月の順（«sebelas November»）で、11月11日とは逆です。月の名前の多くは英語に近い語です（«Januari»、«Ogos»＝8月）。'),
     ('ms-c04-f02', '«Saya» ___ «setiap» ___ . / «Saya» [«selalu» / «biasanya» / «kadang-kadang» / «jarang» / «tidak pernah»] ___ .', [
         'A: «Encik main badminton?» B: «Ya, setiap hari Sabtu.»',
         'A: «Puan selalu masak?» B: «Kadang-kadang sahaja.»',
@@ -173,8 +189,8 @@ LISTENING = [
     ('Tanaka', 'Sabtu ini, pukul sepuluh pagi. Baik.'),
     ('Aini', 'Satu lagi, encik. Sebulan sekali, tidak ada kelas hari Sabtu.'),
     ('Tanaka', 'Bila, puan?'),
-    ('Aini', 'Bulan ini, dua puluh empat hari bulan.'),
-    ('Tanaka', 'Dua puluh empat hari bulan. Terima kasih, puan. Jumpa esok!'),
+    ('Aini', 'Bulan ini, hari bulan dua puluh empat.'),
+    ('Tanaka', 'Hari bulan dua puluh empat. Terima kasih, puan. Jumpa esok!'),
     ('Aini', 'Sama-sama. Jumpa esok, Encik Tanaka.'),
 ]
 
@@ -183,14 +199,14 @@ CULTURE = [
     'Quarters and halves come from chapter 3: «pukul empat suku» is 4:15 and «pukul dua setengah» is 2:30. For 4:45, say the minutes: «pukul empat empat puluh lima minit». In casual talk you may also hear «jam» used for the clock time; in this course «pukul» is for the clock and «jam» for how long.',
     'Two card notes in Kata-Kata show how frequency words are built: «seminggu sekali» (once a week) is ‹se-› (one) + «minggu», then «sekali» (card ms-c04-034), and «biasanya» is ‹biasa› (usual) + «-nya» (card ms-c04-030).',
     'All of Malaysia keeps one time, Malaysian Standard Time (UTC+8). Until the end of 1981 Peninsular Malaysia was half an hour behind Sabah and Sarawak; on 1 January 1982 it moved its clocks forward 30 minutes so the whole country shares one time. Malaysia is one hour behind Japan, so 9 a.m. in Tokyo is 8 a.m. in Kuala Lumpur.',
-    'In Kuala Lumpur and Selangor most offices work Monday to Friday, and Saturday and Sunday are the weekend. In Peninsular Malaysia the Employment Act 1955 limits normal working hours to 45 a week; the limit came down from 48 hours on 1 January 2023.',
+    'In Kuala Lumpur and Selangor most offices work Monday to Friday, and the weekend («hujung minggu») is Saturday and Sunday. Kedah, Kelantan and Terengganu have a Friday and Saturday weekend instead; Johor moved back to Saturday and Sunday on 1 January 2025. In Peninsular Malaysia the Employment Act 1955 limits normal working hours to 45 a week; the limit came down from 48 hours on 1 January 2023.',
 ]
 CULTURE_JA = [
     '日常会話では、ほとんどのマレーシア人は12時間制で時刻を言い、時間帯を付け加えます：«pukul tujuh pagi»（午前7時）、«pukul satu tengah hari»（午後1時）、«pukul empat petang»（午後4時）、«pukul sembilan malam»（午後9時）。«petang» は午後から日没ごろまでで、暗くなると «malam» です。'
     '15分と30分は第3章の語を使います：«pukul empat suku» は4時15分、«pukul dua setengah» は2時30分です。4時45分は分の数で言います：«pukul empat empat puluh lima minit»。くだけた会話では時刻に «jam» を使う人もいますが、このコースでは時刻は «pukul»、かかる時間は «jam» で言います。',
     'Kata-Kata のカード注記に、頻度の語の成り立ちが二つあります：«seminggu sekali»（週に一回）は ‹se-›（一つ）＋«minggu»、そのあとに «sekali»（カード ms-c04-034）。«biasanya» は ‹biasa›（ふつうの）＋«-nya»（カード ms-c04-030）です。',
     'マレーシア全土は一つの時刻、マレーシア標準時（UTC+8）を使っています。1981年末まで、マレー半島はサバ州・サラワク州より30分遅れていましたが、1982年1月1日に時計を30分進め、国全体が同じ時刻になりました。マレーシアは日本より1時間遅いので、東京の午前9時はクアラルンプールの午前8時です。',
-    'クアラルンプールとセランゴール州では、ほとんどの職場が月曜日から金曜日まで働き、土曜日と日曜日が週末です。マレー半島では、1955年雇用法により通常の労働時間は週45時間までと決められています。この上限は2023年1月1日に48時間から引き下げられました。',
+    'クアラルンプールとセランゴール州では、ほとんどの職場が月曜日から金曜日まで働き、週末（«hujung minggu»）は土曜日と日曜日です。ケダ州、クランタン州、トレンガヌ州では金曜日と土曜日が週末です。ジョホール州は2025年1月1日に土曜日・日曜日の週末に戻りました。マレー半島では、1955年雇用法により通常の労働時間は週45時間までと決められています。この上限は2023年1月1日に48時間から引き下げられました。',
 ]
 
 CFG = dict(
@@ -198,7 +214,7 @@ CFG = dict(
     unit_goal='Tell the time, name the days and dates, and say when and how often things happen.',
     core=CORE, recognition=[('Hujan petang', HUJAN), ('Cuti ke pantai', PANTAI)],
     revision=[('Chapters 1 to 3 (times of day, fractions, «kali», «berapa», «cuti»)', REV)],
-    core_groups=[('Telling the time', CLOCK), ('Days and dates', DAYS), ('How often and when', FREQ)],
+    core_groups=[('Telling the time', CLOCK), ('Days and dates', DAYS + ['L-1032']), ('Months', MONTHS), ('How often and when', FREQ)],
     grammar=['clock', 'days', 'frequency', 'when'], examples=EXAMPLES,
     dunia_list='"Hujan petang" and "Cuti ke pantai"',
     goals={'A': 'I can tell the time, name the days and say how often I do something.',
@@ -218,7 +234,7 @@ CFG = dict(
     recall_key='e.g. «Lapan ringgit lima puluh sen.» «Umur saya tiga puluh lima tahun.» «Kosong satu dua, tiga empat lima.»',
     patterns=P, pattern_ids=['ms-c04-f01', 'ms-c04-f02'],
     pattern_keys=['Pattern 1: check the order «pukul» + number + part of day; correct «tiga pukul» to «pukul tiga».',
-                  'Pattern 2: «hari apa» asks the weekday; «hari bulan berapa» asks the day of the month (number + «hari bulan»). Month names come once their ledger rows are added.',
+                  'Pattern 2: «hari apa» asks the weekday; «hari bulan berapa» asks the day of the month («hari bulan» + number); «tarikh» is the full date, day before month.',
                   'Pattern 4: if a learner answers «Bila?» with only a clock time, accept it; then ask «Hari apa?»'],
     dialogue=DIALOGUE, variant=VARIANT,
     drills={
@@ -250,7 +266,9 @@ CFG = dict(
                                 'You hear: «Sekarang pukul empat suku petang.» Ask the question.',
                                 'You hear: «Hari Sabtu.» Ask the question with «bila».',
                                 'You hear: «Dua jam.» Ask the question.',
-                                'You hear: «Seminggu sekali.» Ask how many times a week.'],
+                                'You hear: «Seminggu sekali.» Ask how many times a week.',
+                                '«Apa tarikh hari ini?» (cue: 11 November)',
+                                '«Hari ini hari bulan berapa?» (cue: the 11th)'],
         'question-word choice': ['«___ khabar, puan?» → «Khabar baik.»',
                                  '«___ nama cikgu kita?» → «Puan Aini.»',
                                  '«Encik tinggal ___?» → «Di Bangsar.»',
@@ -269,14 +287,15 @@ CFG = dict(
         'transform': ['1 «Pukul berapa sekarang?» 2 «Hari ini hari apa?» 3 «Bila kelas encik?» 4 «Saya tidak pernah main golf.»',
                       '5 «Semalam hari Ahad.» 6 «Lusa hari Rabu.» 7 «dua jam» 8 «pukul sembilan setengah malam»'],
         'question and answer': ['1 «Sekarang pukul lapan setengah pagi.» 2 «Hari ini hari Khamis.» 3 «Hari Selasa, pukul tujuh malam.» 4 «Jarang.» or «Saya jarang masak.»',
-                                '5 «Pukul berapa sekarang?» 6 «Bila …?» e.g. «Bila kelas encik?» 7 «Berapa jam?» 8 «Berapa kali seminggu?»'],
+                                '5 «Pukul berapa sekarang?» 6 «Bila …?» e.g. «Bila kelas encik?» 7 «Berapa jam?» 8 «Berapa kali seminggu?»',
+                                '9 «Sebelas November.» 10 «Hari bulan sebelas.»'],
         'question-word choice': ['1 «Apa» 2 «Siapa» 3 «di mana» 4 «Berapa» 5 «Bila» 6 «Pukul berapa» 7 «apa» 8 «Bolehkah»'],
     },
     short_dialogues=[
         ('Pukul berapa sekarang?', 'Pukul lima suku.', 'at the end of the working day'),
         ('Bila kita jumpa?', 'Hari Jumaat, pukul satu tengah hari.', 'planning lunch with a colleague'),
         ('Encik selalu main golf?', 'Tidak. Saya jarang main.', 'small talk on Monday morning'),
-        ('Hari ini hari bulan berapa?', 'Dua puluh hari bulan.', 'filling in a form at a counter')],
+        ('Hari ini hari bulan berapa?', 'Hari bulan dua puluh.', 'filling in a form at a counter')],
     short_keys=['1 «Oh, terima kasih.» or «Jom balik!»… (any natural closing) 2 «Baik. Jumpa hari Jumaat!»',
                 '3 «Saya pun jarang main.» 4 «Terima kasih.»'],
     question_tasks=['Ask a colleague how they are. («apa»)', 'Ask who the new teacher is. («siapa»)',
@@ -313,13 +332,15 @@ CFG = dict(
              '«Selasa dan Khamis: pukul tujuh setengah malam (dua jam)»',
              '«Sabtu: pukul sepuluh pagi (tiga jam)»',
              '«Jumaat dan Ahad: tidak ada kelas»',
-             '«Sebulan sekali, tidak ada kelas hari Sabtu.»'],
+             '«Sebulan sekali, tidak ada kelas hari Sabtu.»',
+             '«Tarikh mula kelas: lima Januari.»'],
     read_questions=['On which two weekdays are there morning classes?', 'How long is the Saturday class?',
                     'On which days is there no class?', 'What time is the Thursday class?',
                     'How often is there no Saturday class?',
-                    'Write in Malay: "The Tuesday class is at 7.30 p.m."'],
+                    'Write in Malay: "The Tuesday class is at 7.30 p.m."',
+                    'On what date do the classes start?'],
     read_answers=['Monday and Wednesday', 'three hours', 'Friday and Sunday', '7.30 p.m.', 'once a month',
-                  '«Kelas hari Selasa pukul tujuh setengah malam.»'],
+                  '«Kelas hari Selasa pukul tujuh setengah malam.»', '5 January («lima Januari»)'],
     write_instruction='Write your week in three or four lines: two activities with a day and a time, and one with a frequency word. Fictional times are fine. / 自分の一週間を3〜4行で書きましょう。',
     write_model='«Saya belajar bahasa Melayu setiap hari Selasa, pukul tujuh setengah malam. Saya main badminton seminggu sekali, hari Sabtu pagi. Saya jarang masak. Hari Ahad saya di rumah.»',
     writing_type='note',
@@ -338,11 +359,11 @@ CFG = dict(
     task_key='«Bila awak boleh main?» — «Hari Sabtu, pukul sembilan pagi.» — «Kita main setiap hari Sabtu, dua jam.» Change: «Sabtu ini saya tidak boleh. Hari Ahad pagi boleh?» — «Boleh. Pukul sembilan pagi, ya.»',
     culture=CULTURE, culture_ja=CULTURE_JA,
     culture_sources='Kata-Kata cards ms-c04-030 and ms-c04-034 (word-building); Malaysian Standard Time Act 1981 and the 1982 change '
-                    '(see docs/STEP-5b-report.md for the references checked); the Saturday and Sunday weekend in Selangor and Kuala Lumpur (The Star, 9 Dec 2013); Employment Act 1955 as amended by the Employment (Amendment) Act 2022, '
+                    '(see docs/STEP-5b-report.md for the references checked); the Saturday and Sunday weekend in Selangor and Kuala Lumpur (The Star, 9 Dec 2013); Friday and Saturday in Kedah, Kelantan and Terengganu and Johor\'s return to Saturday and Sunday on 1 Jan 2025 (Bernama and The Star, 7 Oct 2024; Malay Mail, 18 Jan 2025); Employment Act 1955 as amended by the Employment (Amendment) Act 2022, '
                     'in force 1 January 2023 (Department of Labour Peninsular Malaysia).',
     culture_prompt='What time is it in Japan now? How do people in your office say the time: 12-hour or 24-hour?',
-    quiz_words=['L-0172', 'L-0171', 'L-0182', 'L-0186', 'L-0178', 'L-1007'],
-    quiz_meanings=['the day after tomorrow', 'the day before yesterday', 'every', 'rarely', 'Thursday', 'when?'],
+    quiz_words=['L-0172', 'L-0171', 'L-0182', 'L-0186', 'L-1032', 'L-1040'],
+    quiz_meanings=['the day after tomorrow', 'the day before yesterday', 'every', 'rarely', 'the date (day and month)', 'August'],
     grammar_quiz=[('Say 4.15 p.m. in Malay.', '«pukul empat suku petang»', ['pukul', 'suku', 'petang']),
                   ('Choose «pukul» or «jam»: «Kelas saya tiga ___.» (The class is three hours.)', '«jam»', ['jam', 'pukul'])],
     test_reading=['Fictional message: «Kelas badminton setiap hari Rabu, pukul lapan malam. Satu kelas satu jam setengah. Minggu ini tidak ada kelas hari Rabu; kelas hari Khamis, pukul lapan malam.»'],
@@ -364,7 +385,7 @@ CFG = dict(
           'E_variation': 'the weather changes (it starts to rain), or a holiday flight moves to another day.'},
     teacher_notes=['«pukul» before the number for clock time; «jam» after the number for how long.',
                    'Do not teach ‹kurang suku›. For :45 say the minutes: «pukul empat empat puluh lima minit» (Sam, ledger Journal).',
-                   'Dates (Sam, 12 Nov 2026): «Hari ini hari bulan berapa?» asks the day of the month («Sebelas hari bulan.»); «Hari ini hari apa?» asks the weekday. The noun for the full date and the month names are approved but wait for their ledger rows; until then, give the day of the month only.',
+                   'Dates (Sam, 12 Nov 2026): «Hari ini hari apa?» asks the weekday; «Hari ini hari bulan berapa?» asks the day of the month («Hari bulan sebelas.», «hari bulan» first); «Apa tarikh hari ini?» asks the full date («Sebelas November.»). Sam notes that «Hari ini hari bulan apa?» is also heard and can be taken as the weekday or the date depending on the listener; teach the two clear questions and accept either answer to it.',
                    'Use only root verbs from chapters 2 to 4 («main», «kerja», «belajar», «masak»). Daily-routine verbs come in unit 4B.',
                    'Dunia words from "Hujan petang" and "Cuti ke pantai" are for recognition in Block E only.'],
 )

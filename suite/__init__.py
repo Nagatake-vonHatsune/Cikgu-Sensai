@@ -32,7 +32,8 @@ BM_NOTE = ('No Malay explainer for Stage 1 units: explainers and rubrics are in 
            '(Sam, 11 Nov 2026). Select 日本語 or English.')
 # English words that are spelt like a ledger entry. Unmarked use of these is
 # allowed; anything else in the ledger must be marked «…» or ‹…›.
-ENGLISH_HOMOGRAPHS = {'main', 'oh', 'pun', 'best', 'bank', 'hotel', 'menu', 'fail', 'golf', 'set', 'unit'}
+ENGLISH_HOMOGRAPHS = {'main', 'oh', 'pun', 'best', 'bank', 'hotel', 'menu', 'fail', 'golf', 'set', 'unit',
+                      'april', 'september', 'november'}  # month names (ledger L-1036, L-1041, L-1043)
 
 # Grammar points taught in the pilot (IDs extend the step 2 chapter points).
 GRAMMAR = [
@@ -125,7 +126,8 @@ class Ledger:
                     d = self.checker.derivation(term, 9)
                     rows = self.checker.entries.get(d[0]) if d else None
                 if rows:
-                    found.extend(rows); i += size; break
+                    # A retired row (e.g. a duplicate) is never traced as a taught word.
+                    found.extend(r for r in rows if r['Review status'] != 'Retired'); i += size; break
             else:
                 i += 1
         return found
@@ -136,7 +138,8 @@ class Ledger:
             rows = self.checker.entries.get(norm(t))
             if not rows:
                 raise ValueError('Tagged word not in ledger: ' + t)
-            out.append(self.word_id(rows[0]))
+            live = [r for r in rows if r['Review status'] != 'Retired'] or rows
+            out.append(self.word_id(live[0]))
         return list(dict.fromkeys(out))
 
 
