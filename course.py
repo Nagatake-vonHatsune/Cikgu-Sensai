@@ -116,5 +116,6 @@ def add_course(lessons, lesson, suite_units=()):
     titles={l["title"] for l in lessons}|{t for u in suite_units for t in u["titles"]}
     missing={t for group in groups for t in group["items"]}-titles
     assert not missing, sorted(missing)
-    assert titles=={t for group in groups for t in group["items"]}
+    extras=titles-{t for group in groups for t in group["items"]}
+    assert not extras, sorted(extras)
     return groups
