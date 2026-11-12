@@ -84992,5 +84992,672 @@
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|0|0": {
+  "source_text": "第9章速習：45分で基本の20語、di- の受け身と oleh、sudah・belum ＋ di-、dibuka・ditutup ＋ pada pukul、Dilarang …・Sila … を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
+  "target_spans": [
+   "di-",
+   "oleh",
+   "sudah",
+   "belum",
+   "di-",
+   "dibuka",
+   "ditutup",
+   "pada pukul",
+   "Dilarang …",
+   "Sila …"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|2|0": {
+  "source_text": "Chapter 9 in one 45-minute session: 20 core words, the passive di- and oleh, sudah / belum + a di- verb, dibuka / ditutup + pada pukul, Dilarang … and Sila …; then self-study in Kata-Kata. All names, notices and times are fictional.",
+  "target_spans": [
+   "di-",
+   "oleh",
+   "sudah",
+   "belum",
+   "di-",
+   "dibuka",
+   "ditutup",
+   "pada pukul",
+   "Dilarang …",
+   "Sila …"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|0": {
+  "source_text": "I can say what was done with a di- verb and say who did it with oleh. / di- の動詞で「されたこと」を言い、oleh で誰がしたかを言える。",
+  "target_spans": [
+   "di-",
+   "oleh",
+   "di-",
+   "oleh"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|1": {
+  "source_text": "I can say a thing is sudah or belum done. / sudah・belum でもう・まだを言える。",
+  "target_spans": [
+   "sudah",
+   "belum",
+   "sudah",
+   "belum"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|2": {
+  "source_text": "I can say when a shop or office is dibuka or ditutup with pada pukul. / pada pukul で店や事務所の開く・閉まる時刻を言える。",
+  "target_spans": [
+   "dibuka",
+   "ditutup",
+   "pada pukul",
+   "pada pukul"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|3": {
+  "source_text": "I can read Dilarang … and Sila … on signs and notices. / 掲示の Dilarang …・Sila … が読める。",
+  "target_spans": [
+   "Dilarang …",
+   "Sila …",
+   "Dilarang …",
+   "Sila …"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|4": {
+  "source_text": "■ Core words · 基本の20語",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|3|5": {
+  "source_text": "oleh — by (agent) · 〜によって  [L-0377]",
+  "target_spans": [
+   "oleh"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|6": {
+  "source_text": "pada — at, on (time) · 〜に（時間）  [L-0378]",
+  "target_spans": [
+   "pada"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|7": {
+  "source_text": "tadi — earlier (today) · さっき  [L-0379]",
+  "target_spans": [
+   "tadi"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|8": {
+  "source_text": "siap — ready, done · できた・完了  [L-0405]",
+  "target_spans": [
+   "siap"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|9": {
+  "source_text": "dibuat — made · 作られた  [L-0380]",
+  "target_spans": [
+   "dibuat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|10": {
+  "source_text": "dibeli — bought · 買われた  [L-0381]",
+  "target_spans": [
+   "dibeli"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|11": {
+  "source_text": "dimakan — eaten · 食べられた  [L-0383]",
+  "target_spans": [
+   "dimakan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|12": {
+  "source_text": "diminum — drunk · 飲まれた  [L-0384]",
+  "target_spans": [
+   "diminum"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|13": {
+  "source_text": "dibuka — opened; open · 開けられた・営業中  [L-0387]",
+  "target_spans": [
+   "dibuka"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|14": {
+  "source_text": "ditutup — closed · 閉められた・休業  [L-0388]",
+  "target_spans": [
+   "ditutup"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|15": {
+  "source_text": "dibayar — paid · 支払われた  [L-0389]",
+  "target_spans": [
+   "dibayar"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|16": {
+  "source_text": "dihantar — sent, delivered · 送られた・届けられた  [L-0390]",
+  "target_spans": [
+   "dihantar"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|17": {
+  "source_text": "dibawa — brought, carried · 持ってこられた  [L-0395]",
+  "target_spans": [
+   "dibawa"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|18": {
+  "source_text": "dilarang — forbidden, prohibited · 禁止  [L-0397]",
+  "target_spans": [
+   "dilarang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|19": {
+  "source_text": "Dilarang masuk — No entry · 立入禁止  [L-0398]",
+  "target_spans": [
+   "Dilarang masuk"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|20": {
+  "source_text": "Dilarang makan dan minum — No eating or drinking · 飲食禁止  [L-0399]",
+  "target_spans": [
+   "Dilarang makan dan minum"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|21": {
+  "source_text": "sila — please (polite instruction) · 〜してください（丁寧）  [L-0401]",
+  "target_spans": [
+   "sila"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|22": {
+  "source_text": "papan tanda — signboard · 看板  [L-0402]",
+  "target_spans": [
+   "papan tanda"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|23": {
+  "source_text": "kek — cake · ケーキ  [L-0403]",
+  "target_spans": [
+   "kek"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|24": {
+  "source_text": "jamuan — feast, party with food · パーティー・会食  [L-0404]",
+  "target_spans": [
+   "jamuan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|3|25": {
+  "source_text": "The full unit also teaches the other di- verbs (dijual, dibaca, ditulis, diambil, dipanggil, dimasak, dicuci, disewa), the sign Dilarang merokok (to recognise only), the general rumah terbuka scene with a note for each festival, and 14 idioms to recognise.",
+  "target_spans": [
+   "di-",
+   "dijual",
+   "dibaca",
+   "ditulis",
+   "diambil",
+   "dipanggil",
+   "dimasak",
+   "dicuci",
+   "disewa",
+   "Dilarang merokok",
+   "rumah terbuka"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|0": {
+  "source_text": "1 · ___ dibuat oleh ___.  e.g. Kek ini dibuat oleh isteri saya. / Kek ini dibuat oleh siapa?",
+  "target_spans": [
+   "dibuat oleh",
+   "Kek ini dibuat oleh isteri saya.",
+   "Kek ini dibuat oleh siapa?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|1": {
+  "source_text": "2 · ___ di-(verb) di ___.  e.g. Nasi lemak ini dibeli di gerai. / Dibeli di mana?",
+  "target_spans": [
+   "di-",
+   "di",
+   "Nasi lemak ini dibeli di gerai.",
+   "Dibeli di mana?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|2": {
+  "source_text": "3 · ___ sudah / belum di-(verb).  e.g. Teh tarik sudah diminum. / Harga belum dibayar.",
+  "target_spans": [
+   "sudah",
+   "belum",
+   "di-",
+   "Teh tarik sudah diminum.",
+   "Harga belum dibayar."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|3": {
+  "source_text": "4 · Kedai ini dibuka / ditutup pada pukul ___.  e.g. Pejabat dibuka pada pukul sembilan. / Pejabat ditutup pada pukul enam.",
+  "target_spans": [
+   "Kedai ini",
+   "dibuka",
+   "ditutup",
+   "pada",
+   "pukul",
+   "Pejabat dibuka pada pukul sembilan.",
+   "Pejabat ditutup pada pukul enam."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|4": {
+  "source_text": "5 · Dilarang ___. / Sila ___.  e.g. Dilarang masuk. / Sila masuk.",
+  "target_spans": [
+   "Dilarang",
+   "Sila",
+   "Dilarang masuk.",
+   "Sila masuk."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|5": {
+  "source_text": "Remember: a di- verb is the root with di- in front, and the thing comes first. You can make one from any root verb you know: digoreng, dipilih. If you did it yourself, drop di- and put the doer in front of the verb: Pinggan saya bawa ke dapur. A sign leaves out the doer.",
+  "target_spans": [
+   "di-",
+   "di-",
+   "digoreng",
+   "dipilih",
+   "di-",
+   "Pinggan saya bawa ke dapur."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|6": {
+  "source_text": "di- の動詞は語根の前に di- を付けた形で、物が先に来ます。知っている動詞の語根なら何にでも付けられます：digoreng・dipilih。自分でするときは di- をはずして、動作主を動詞の前に置きます：Pinggan saya bawa ke dapur. 掲示は動作主を言いません。",
+  "target_spans": [
+   "di-",
+   "di-",
+   "digoreng",
+   "dipilih",
+   "di-",
+   "Pinggan saya bawa ke dapur."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|7": {
+  "source_text": "■ Model conversation · 会話 (fictional)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|4|8": {
+  "source_text": "Aini: Kek ini dibuat oleh siapa?",
+  "target_spans": [
+   "Kek ini dibuat oleh siapa?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|9": {
+  "source_text": "Tanaka: Dibuat oleh isteri saya.",
+  "target_spans": [
+   "Dibuat oleh isteri saya."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|10": {
+  "source_text": "Aini: Sedap sekali! Nasi lemak ini dibeli di mana?",
+  "target_spans": [
+   "Sedap sekali! Nasi lemak ini dibeli di mana?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|11": {
+  "source_text": "Rahman: Dibeli di gerai pagi tadi.",
+  "target_spans": [
+   "Dibeli di gerai pagi tadi."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|12": {
+  "source_text": "Mei Ling: Teh tarik sudah diminum semua.",
+  "target_spans": [
+   "Teh tarik sudah diminum semua."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|13": {
+  "source_text": "Tanaka: Pinggan sudah dicuci?",
+  "target_spans": [
+   "Pinggan sudah dicuci?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|14": {
+  "source_text": "Aini: Belum. Pejabat ditutup pada pukul enam.",
+  "target_spans": [
+   "Belum. Pejabat ditutup pada pukul enam."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|15": {
+  "source_text": "Tanaka: Pinggan saya bawa ke dapur.",
+  "target_spans": [
+   "Pinggan saya bawa ke dapur."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|16": {
+  "source_text": "Aini: Terima kasih, Encik Tanaka.",
+  "target_spans": [
+   "Terima kasih, Encik Tanaka."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|17": {
+  "source_text": "Tanaka: Sama-sama.",
+  "target_spans": [
+   "Sama-sama."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|18": {
+  "source_text": "■ Task · タスク",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|4|19": {
+  "source_text": "A: You organise an office jamuan (fictional). The cake was made by Mei Ling, the nasi lemak was bought by Rahman, the teh tarik was brought by Tanaka and the plates are not washed yet. Answer B in the passive.",
+  "target_spans": [
+   "jamuan",
+   "nasi lemak",
+   "teh tarik"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|20": {
+  "source_text": "B: You are a guest. Ask who made the cake, where the nasi lemak was bought, who brought the teh tarik and whether the plates are washed.",
+  "target_spans": [
+   "nasi lemak",
+   "teh tarik"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|4|21": {
+  "source_text": "Change of plan: A says Maaf, teh tarik belum dibuat. Pejabat ditutup pada pukul enam. B asks about the time and offers to buy it.",
+  "target_spans": [
+   "Maaf, teh tarik belum dibuat. Pejabat ditutup pada pukul enam."
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|5|0": {
+  "source_text": "A：事務所の jamuan（架空）の幹事で、ケーキはメイリンが作り、nasi lemak はラーマンが買い、teh tarik は田中さんが持ってきて、お皿はまだ洗っていません。受け身で答えます。B：客として、ケーキ・nasi lemak・teh tarik・お皿について受け身でたずねます。変更：Aが Maaf, teh tarik belum dibuat. Pejabat ditutup pada pukul enam. と言い、Bは時刻をたずねて、買ってくると申し出ます。",
+  "target_spans": [
+   "jamuan",
+   "nasi lemak",
+   "teh tarik",
+   "nasi lemak",
+   "teh tarik",
+   "Maaf, teh tarik belum dibuat. Pejabat ditutup pada pukul enam."
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|5|1": {
+  "source_text": "■ Self-check · できるチェック",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|5|2": {
+  "source_text": "☐ 1. Say \"This cake was made by my wife.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|5|3": {
+  "source_text": "☐ 2. Ask \"Who made this cake?\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|5|4": {
+  "source_text": "☐ 3. Say \"The tea has been drunk.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|5|5": {
+  "source_text": "☐ 4. Say \"The office is closed at six.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|5|6": {
+  "source_text": "☐ 5. Read the sign \"No entry.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|5|7": {
+  "source_text": "■ Self-study guide · 自習ガイド",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|5|8": {
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c09 (12 cards, frames ms-c09-f01 and ms-c09-f02).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|5|9": {
+  "source_text": "After the session: all 30 Kata-Kata chapter 9 cards (ms-c09-001 to ms-c09-030) and frames ms-c09-f01 to ms-c09-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"The office jamuan\" matches this pack.",
+  "target_spans": [
+   "jamuan"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|5|10": {
+  "source_text": "Dunia scenes (recognise only): \"Rumah terbuka\" (19 words, a general open house with festival words) and \"Simpulan bahasa harian\" (14 idioms; never drilled).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|5|11": {
+  "source_text": "Optional full-course Cikgu Sensai unit: unit 9 (the passive di-, signs and notices), with a culture note for each festival. The stage review and the A1 test come next and wait for Sam.",
+  "target_spans": [
+   "di-"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|5|12": {
+  "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|5|13": {
+  "source_text": "授業後：第9章のカードと Dunia の場面を復習しましょう。自習の目安は約9〜10時間です。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 9 · Fast-course summary pack|6|0": {
+  "source_text": "Self-check: 1 Kek ini dibuat oleh isteri saya. 2 Kek ini dibuat oleh siapa? 3 Teh tarik sudah diminum. 4 Pejabat ditutup pada pukul enam. 5 Dilarang masuk.",
+  "target_spans": [
+   "Kek ini dibuat oleh isteri saya.",
+   "Kek ini dibuat oleh siapa?",
+   "Teh tarik sudah diminum.",
+   "Pejabat ditutup pada pukul enam.",
+   "Dilarang masuk."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|6|1": {
+  "source_text": "Session plan (45 min): 0–5 recall chapter 8 (order at a gerai); 5–15 core words by theme; 15–25 patterns 1 to 5; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.",
+  "target_spans": [
+   "gerai"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Chapter 9 · Fast-course summary pack|6|2": {
+  "source_text": "Same content and ledger limits as unit 9. All Japanese is a draft awaiting native review.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
  }
 }

@@ -600,3 +600,80 @@ PACKS.append(dict(
     course_path='fast', prerequisites=['ms-c01', 'ms-c02', 'ms-c03', 'ms-c04', 'ms-c05', 'ms-c06', 'ms-c07'], prerequisite_units=[],
     prereq_grammar=['ms-c03-g04', 'ms-c04-g06', 'ms-c05-g06'],
     word_scope=C8_WORDS, components=chapter8))
+
+
+# Step 5g: chapter 9 fast course (single 45-minute class), a digest of unit 9.
+C9_WORDS = ['L-0377', 'L-0378', 'L-0379', 'L-0405', 'L-0380', 'L-0381', 'L-0383', 'L-0384', 'L-0387', 'L-0388',
+            'L-0389', 'L-0390', 'L-0395', 'L-0397', 'L-0398', 'L-0399', 'L-0401', 'L-0402', 'L-0403', 'L-0404']
+
+
+def chapter9(ledger):
+    dialogue = [
+        ('Aini', '«Kek ini dibuat oleh siapa?»'),
+        ('Tanaka', '«Dibuat oleh isteri saya.»'),
+        ('Aini', '«Sedap sekali! Nasi lemak ini dibeli di mana?»'),
+        ('Rahman', '«Dibeli di gerai pagi tadi.»'),
+        ('Mei Ling', '«Teh tarik sudah diminum semua.»'),
+        ('Tanaka', '«Pinggan sudah dicuci?»'),
+        ('Aini', '«Belum. Pejabat ditutup pada pukul enam.»'),
+        ('Tanaka', '«Pinggan saya bawa ke dapur.»'),
+        ('Aini', '«Terima kasih, Encik Tanaka.»'),
+        ('Tanaka', '«Sama-sama.»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=['ms-c09-g02', 'ms-c09-g03', 'ms-c09-g04', 'ms-c09-g05', 'ms-c09-g06'],
+        patterns=['ms-c09-f01', 'ms-c09-f02', 'ms-c09-f03', 'ms-c09-f04', 'ms-c09-f05'],
+        goal='Read signs and notices, and say what was done and by whom with the passive «di-».',
+        explain=('第9章速習：45分で基本の20語、«di-» の受け身と «oleh»、«sudah»・«belum» ＋ «di-»、«dibuka»・«ditutup» ＋ «pada pukul»、«Dilarang …»・«Sila …» を練習し、残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 9 in one 45-minute session: 20 core words, the passive «di-» and «oleh», «sudah» / «belum» + a «di-» verb, «dibuka» / «ditutup» + «pada pukul», «Dilarang …» and «Sila …»; then self-study in Kata-Kata. All names, notices and times are fictional.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can say what was done with a «di-» verb and say who did it with «oleh». / «di-» の動詞で「されたこと」を言い、«oleh» で誰がしたかを言える。',
+                'I can say a thing is «sudah» or «belum» done. / «sudah»・«belum» でもう・まだを言える。',
+                'I can say when a shop or office is «dibuka» or «ditutup» with «pada pukul». / «pada pukul» で店や事務所の開く・閉まる時刻を言える。',
+                'I can read «Dilarang …» and «Sila …» on signs and notices. / 掲示の «Dilarang …»・«Sila …» が読める。'], 'opener'),
+            ('Core words · 基本の20語', core(ledger, C9_WORDS) +
+             ['The full unit also teaches the other «di-» verbs («dijual», «dibaca», «ditulis», «diambil», «dipanggil», «dimasak», «dicuci», «disewa»), the sign «Dilarang merokok» (to recognise only), the general «rumah terbuka» scene with a note for each festival, and 14 idioms to recognise.'], 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · ___ «dibuat oleh» ___.  e.g. «Kek ini dibuat oleh isteri saya.» / «Kek ini dibuat oleh siapa?»',
+                '2 · ___ «di-»(verb) «di» ___.  e.g. «Nasi lemak ini dibeli di gerai.» / «Dibeli di mana?»',
+                '3 · ___ «sudah» / «belum» «di-»(verb).  e.g. «Teh tarik sudah diminum.» / «Harga belum dibayar.»',
+                '4 · «Kedai ini» «dibuka» / «ditutup» «pada» «pukul» ___.  e.g. «Pejabat dibuka pada pukul sembilan.» / «Pejabat ditutup pada pukul enam.»',
+                '5 · «Dilarang» ___. / «Sila» ___.  e.g. «Dilarang masuk.» / «Sila masuk.»',
+                'Remember: a «di-» verb is the root with «di-» in front, and the thing comes first. You can make one from any root verb you know: «digoreng», «dipilih». If you did it yourself, drop «di-» and put the doer in front of the verb: «Pinggan saya bawa ke dapur.» A sign leaves out the doer.',
+                '«di-» の動詞は語根の前に «di-» を付けた形で、物が先に来ます。知っている動詞の語根なら何にでも付けられます：«digoreng»・«dipilih»。自分でするときは «di-» をはずして、動作主を動詞の前に置きます：«Pinggan saya bawa ke dapur.» 掲示は動作主を言いません。'], 'model'),
+            ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: You organise an office «jamuan» (fictional). The cake was made by Mei Ling, the «nasi lemak» was bought by Rahman, the «teh tarik» was brought by Tanaka and the plates are not washed yet. Answer B in the passive.',
+                'B: You are a guest. Ask who made the cake, where the «nasi lemak» was bought, who brought the «teh tarik» and whether the plates are washed.',
+                'Change of plan: A says «Maaf, teh tarik belum dibuat. Pejabat ditutup pada pukul enam.» B asks about the time and offers to buy it.',
+                'A：事務所の «jamuan»（架空）の幹事で、ケーキはメイリンが作り、«nasi lemak» はラーマンが買い、«teh tarik» は田中さんが持ってきて、お皿はまだ洗っていません。受け身で答えます。B：客として、ケーキ・«nasi lemak»・«teh tarik»・お皿について受け身でたずねます。変更：Aが «Maaf, teh tarik belum dibuat. Pejabat ditutup pada pukul enam.» と言い、Bは時刻をたずねて、買ってくると申し出ます。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say "This cake was made by my wife.": ____________________',
+                '☐ 2. Ask "Who made this cake?": ____________________',
+                '☐ 3. Say "The tea has been drunk.": ____________________',
+                '☐ 4. Say "The office is closed at six.": ____________________',
+                '☐ 5. Read the sign "No entry.": ____________________'], 'test'),
+            ('Self-study guide · 自習ガイド', [
+                'Before the session: Kata-Kata Sedia Kelas c09 (12 cards, frames ms-c09-f01 and ms-c09-f02).',
+                'After the session: all 30 Kata-Kata chapter 9 cards (ms-c09-001 to ms-c09-030) and frames ms-c09-f01 to ms-c09-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario "The office «jamuan»" matches this pack.',
+                'Dunia scenes (recognise only): "Rumah terbuka" (19 words, a general open house with festival words) and "Simpulan bahasa harian" (14 idioms; never drilled).',
+                'Optional full-course Cikgu Sensai unit: unit 9 (the passive «di-», signs and notices), with a culture note for each festival. The stage review and the A1 test come next and wait for Sam.',
+                'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',
+                '授業後：第9章のカードと Dunia の場面を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
+        key=['Self-check: 1 «Kek ini dibuat oleh isteri saya.» 2 «Kek ini dibuat oleh siapa?» 3 «Teh tarik sudah diminum.» '
+             '4 «Pejabat ditutup pada pukul enam.» 5 «Dilarang masuk.»',
+             'Session plan (45 min): 0–5 recall chapter 8 (order at a «gerai»); 5–15 core words by theme; 15–25 patterns 1 to 5; '
+             '25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',
+             'Same content and ledger limits as unit 9. All Japanese is a draft awaiting native review.'])]
+
+
+PACKS.append(dict(
+    chapter_id='ms-c09', check_unit='ms-c09-fast', id_prefix='ms-c09-fast',
+    title_prefix='Chapter 9', header='Chapter 9 fast course (ms-c09)',
+    menu_title='Chapter 9 · Passive di-', genre='Social life',
+    course_path='fast', prerequisites=['ms-c01', 'ms-c02', 'ms-c03', 'ms-c04', 'ms-c05', 'ms-c06', 'ms-c07', 'ms-c08'], prerequisite_units=[],
+    prereq_grammar=['ms-c03-g04', 'ms-c04-g06', 'ms-c05-g06'],
+    word_scope=C9_WORDS, components=chapter9))

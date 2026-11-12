@@ -454,6 +454,42 @@ class Chapter9Minimums(unittest.TestCase):
         self.assertEqual(len(sk['cards']), 12)
         self.assertEqual(sk['frames'], ['ms-c09-f01', 'ms-c09-f02'])
 
+    def test_fast_pack(self):
+        self.assertIn('ms-c09-fast', self.by_unit)
+        l = self.by_unit['ms-c09-fast'][0]
+        self.assertEqual(l['suite']['course_path'], 'fast')
+        core = [x for x in self.lines(l, 'Core words') if re.search(r'\[L-\d{4}\]$', x)]
+        self.assertTrue(15 <= len(core) <= 20)
+        self.assertEqual(len(fast.C9_WORDS), len(set(fast.C9_WORDS)))
+        self.assertTrue(set(fast.C9_WORDS) <= set(self.cfg['core']))
+        labels = ' '.join(n for n, _, _ in l['sections'])
+        for part in ('Can-do', 'Core words', 'Key patterns', 'Model conversation', 'Task', 'Self-check', 'Self-study'):
+            self.assertIn(part, labels)
+        patterns = [x for x in self.lines(l, 'Key patterns') if re.match(r'^\d · ', x)]
+        self.assertEqual(len(patterns), 5)
+        for line in patterns:
+            self.assertEqual(line.split('e.g.')[1].count(' / '), 1, line)
+        self.assertTrue(10 <= len(self.lines(l, 'Model conversation')) <= 16)
+        n_check = sum(x.startswith('☐') for x in self.lines(l, 'Self-check'))
+        self.assertEqual(n_check, 5)
+        self.assertTrue(all(f'{i} «' in l['key'][0] for i in range(1, n_check + 1)))
+        page = {x['title']: x for x in bank()}[l['title']]
+        count = len(page['pages']) - 3 - page.get('key_pages', 1)
+        self.assertTrue(2 <= count <= 4, count)
+        chapters = json.loads((ROOT / 'dist/chapters.js').read_text()[len('const chapters='):-1])
+        ch9 = next(c for c in chapters if c['title'].startswith('Chapter 9'))
+        self.assertIn(l['title'], ch9['fast_items'])
+        guide = ' '.join(self.lines(l, 'Self-study'))
+        self.assertIn('Sedia Kelas c09', guide)
+        self.assertIn('Rumah terbuka', guide)
+        self.assertIn('Simpulan bahasa harian', guide)
+        self.assertIn('never drilled', guide)
+        self.assertIn('ms-c09-001 to ms-c09-030', guide)
+        # The fast pack keeps the same di- rule: only the two productive examples, both from ledger verbs.
+        body = ' '.join(self.lines(l, 'Key patterns'))
+        self.assertIn('«digoreng»', body)
+        self.assertIn('Pinggan saya bawa ke dapur', body)
+
     def test_catalogue_and_registration(self):
         chapters = json.loads((ROOT / 'dist/chapters.js').read_text()[len('const chapters='):-1])
         ch9 = next(c for c in chapters if c['title'].startswith('Chapter 9'))
@@ -467,7 +503,8 @@ class Chapter9Minimums(unittest.TestCase):
         self.assertEqual(len(exceptions), 30)
         self.assertFalse([k for k, e in exceptions.items() if e['unit'] in (self.u, 'ms-c09-fast')])
         reauthored = json.loads((ROOT / 'curriculum/reauthored-units.json').read_text())
-        self.assertIn(self.u, reauthored)
+        for unit in (self.u, 'ms-c09-fast'):
+            self.assertIn(unit, reauthored)
         # Chapter 8 is untouched by registration.
         self.assertIn('ms-c08', reauthored)
 
