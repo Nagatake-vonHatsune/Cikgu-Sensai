@@ -59,6 +59,17 @@ GRAMMAR = [
 ]
 
 
+GRAMMAR.extend([
+    dict(id='ms-c03-g02', chapter_id='ms-c03', label='Numbers through one million: cardinal building blocks'),
+    dict(id='ms-c03-g03', chapter_id='ms-c03', label='Age with umur and tahun; telephone digit sequences'),
+    dict(id='ms-c03-g04', chapter_id='ms-c03', label='Asking and giving fictional prices in ringgit and sen'),
+    dict(id='ms-c03-g05', chapter_id='ms-c03', label='ke- ordinals and kali; irregular first'),
+    dict(id='ms-c03-g06', chapter_id='ms-c03', label='Fractions, decimals, percentages'),
+    dict(id='ms-c03-g07', chapter_id='ms-c03', label='ke-an measurement nouns and units'),
+    dict(id='ms-c03-g08', chapter_id='ms-c03', label='Payments, totals, cash, card and change'),
+])
+
+
 # Product and feature names, not Malay text (removed before the unmarked-Malay guard only).
 PRODUCT_NAMES = ['Cikgu, Sensai!', 'Cikgu Sensai', 'Sedia Kelas', 'Tanya Cikgu', 'Kata-Kata', 'Dunia', 'Jambatan',
                  'Susun Ayat', 'Hanashishou', 'Teacher Desk',
@@ -186,8 +197,10 @@ def turns(script):
 
 
 def load_units():
-    from . import ms_c01, ms_c02a, ms_c02b, fast
-    return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT, *fast.PACKS] if u]
+    from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, fast
+    return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT,
+                       ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT,
+                       *fast.PACKS] if u]
 
 
 SKILLS = {'Opener': ['speaking'], 'Vocabulary': ['vocabulary'], 'Pattern and grammar': ['grammar'],
