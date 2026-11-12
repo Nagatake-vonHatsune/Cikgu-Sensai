@@ -391,3 +391,17 @@ class StageTest(unittest.TestCase):
         for title in ('Stage 1 · A1 stage test · Version A · Listening', 'Stage 1 · A1 stage test · Version B · Speaking',
                       'Stage 1 · A1 stage test · Administration sheet (teacher)'):
             self.assertIn(title, ch9['stage_items'])
+
+
+class KataKataCleanup(unittest.TestCase):
+    def test_every_ledger_action_for_kata_kata_is_listed(self):
+        import csv
+        doc = (ROOT / 'docs/kata-kata-cleanup.md').read_text()
+        rows = list(csv.DictReader((ROOT / 'curriculum/reference/katakata/malay-ledger.csv').open()))
+        named = [r['ID'] for r in rows if 'kata-kata' in r['Action (open)'].lower()]
+        self.assertEqual(len(named), 116)
+        for lid in named:
+            self.assertIn(lid, doc, lid)
+        for must in ('ms-c01-009', 'L-0592', 'L-0330', 'ms-c07-024', 'jalan terus', 'kurang suku', 'Rumah terbuka Hari Raya',
+                     'Hanashishou mappings', 'Do not edit the Kata-Kata repository'):
+            self.assertIn(must, doc, must)
