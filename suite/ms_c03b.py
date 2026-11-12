@@ -131,7 +131,7 @@ LISTENING=[
 ('Penjual','Satu epal dua ringgit. Dua epal empat ringgit. Ini bukan harga mangga.'),
 ('Tanaka','Ya. Saya ada dua belas ringgit. Dua epal empat ringgit, saya cukup wang?'),
 ('Penjual','Ya, cukup. Wang encik dua belas ringgit. Jumlah empat ringgit sahaja.'),
-('Tanaka','Saya beli dua epal. Saya bayar dengan kad. Baki tunai saya sama.'),
+('Tanaka','Saya beli dua epal. Saya bayar dengan kad. Duit tunai saya dua belas ringgit.'),
 ('Penjual','Betul. Encik bayar dengan kad, bukan tunai. Terima kasih.'),
 ('Tanaka','Terima kasih. Harga mangga lapan ringgit, harga epal dua ringgit. Saya beli epal.')]
 CULTURE=[
