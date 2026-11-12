@@ -119,7 +119,7 @@ VARIANT=[
 ('Penjual','Sama-sama. Selamat jalan.')]
 LISTENING=[
 ('Penjual','Harga mangga ini lapan ringgit lima puluh sen. Ini harga untuk satu mangga.'),
-('Tanaka','Saya ada sepuluh ringgit. Saya mahu satu mangga. Berapa baki saya?'),
+('Tanaka','Saya ada sepuluh ringgit. Saya beli satu mangga. Berapa baki saya?'),
 ('Penjual','Baki satu ringgit lima puluh sen. Jumlah lapan ringgit lima puluh sen.'),
 ('Tanaka','Harga pisang itu empat ringgit. Harga epal ini dua ringgit. Betul?'),
 ('Penjual','Ya. Harga pisang empat ringgit, dan harga epal dua ringgit.'),
