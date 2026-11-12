@@ -124,10 +124,10 @@ LISTENING = [
 ('Tanaka','Ya. Kosong satu dua, tiga empat lima enam. Bukan kosong satu tiga.'),
 ('Aini','Terima kasih. Saya ada borang untuk kelas ini. Nama encik Tanaka, bukan Yuki.'),
 ('Tanaka','Ya. Nama saya Tanaka. Yuki kawan saya. Dia ada nombor telefon juga.'),
-('Aini','Berapa nombor telefon dia? Encik boleh cakap satu nombor pada satu kali?'),
-('Tanaka','Boleh. Kosong satu lima, dua tiga empat lima. Satu nombor pada satu kali.'),
+('Aini','Berapa nombor telefon dia? Encik boleh cakap nombor telefon dia?'),
+('Tanaka','Boleh. Kosong satu lima, dua tiga empat lima. Nombor telefon dia kosong satu lima.'),
 ('Aini','Baik. Ini nombor telefon Yuki. Umur dia dua puluh sembilan tahun.'),
-('Tanaka','Terima kasih, puan. Nombor telefon saya dan nombor telefon Yuki tidak sama.'),
+('Tanaka','Terima kasih, puan. Nombor telefon saya kosong satu dua. Nombor telefon Yuki kosong satu lima.'),
 ('Aini','Ya. Satu nombor untuk encik, satu nombor untuk Yuki. Terima kasih.')]
 
 CULTURE = [
