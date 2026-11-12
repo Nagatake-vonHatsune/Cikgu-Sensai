@@ -470,4 +470,41 @@ Read Kata-Kata `tools/affix-guard.mjs` and `tools/check-content.mjs` at `0f78179
 
 These were retrieved through web-search excerpts; direct PRPM page opens timed out or returned errors. **Do not mark a full KD4 review complete or invent page references.** A row-by-row check, spelling/valency review and Japanese native review remain before approved publication of teaching material. No legal, clinic, transport, price or institutional fact is asserted by the fictional scenes in this plan.
 
-**Checkpoint:** sections 1–3 complete; sections 4–6 follow.
+
+## 4. Charter can-do goals and proposed refinements
+
+These preserve the charter's sequence and functions. The measurable task limits are teaching proposals for pilot review, not externally validated CEFR thresholds. Japanese translations are complete drafts for native review. Use an optional fictional persona for personal background and health tasks.
+
+| Ch | Charter draft goal | Proposed learner-facing goal | 日本語（母語話者の確認待ち） | Reason for refinement / evidence to collect |
+| --- | --- | --- | --- | --- |
+| 10 | Retell your day and your background in full sentences | I can describe my usual day and background in four to six connected sentences and answer two follow-up questions. | 普段の一日と自分の背景について、つながりのある4〜6文で話し、追加の質問二つに答えられます。 | Makes “full sentences” observable without requiring advanced narrative. Routines in 10A, background in 10B; marital/family details can be fictional or omitted. |
+| 11 | Say who does what; switch between active and the di- passive from chapter 9 | I can explain who does an office task and what happens to the object, using an appropriate active or passive sentence. | 職場の作業を誰がするか、その対象がどうなるかを、適切な能動文または受動文で説明できます。 | Tests meaning and roles, not prefix substitution alone. Only transitive verbs take the paired transformation. The hobby extension uses active verbs without artificial passive counterparts. |
+| 12 | Ask someone to do something for you; report a repair or delivery | I can make a clear request about a parcel or repair, give the place and time, and confirm the agreed next step. | 荷物や修理について、場所と時間を伝えて明確に頼み、合意した次の対応を確認できます。 | Gives the exchange a checkable outcome. Parcel work in 12A, repair/contact in 12B; selected -kan/-i families serve that outcome. |
+| 13 | Give and understand rules, permission, need and advice | I can ask permission, explain a need, and distinguish a prohibition from advice or something not yet done in a simple health-related exchange. | 健康に関する簡単なやり取りで、許可を求め、必要なことを説明し、禁止・助言・まだ終わっていないことを区別できます。 | Avoids conflating “not allowed”, “should not” and “not yet”. Assess language comprehension using fictional instructions, not medical knowledge. |
+| 14 | Explain why, set a condition, tell a short sequence of events | I can give a reason, set one condition, and describe three steps in a plan; I can explain a simple purpose or contrast when needed. | 理由を述べ、条件を一つ示し、計画の三つの手順を説明できます。必要に応じて、簡単な目的や対比も説明できます。 | Preserves all five connector functions but does not force five connectors into every utterance. Separate short tasks provide the evidence. |
+| 15 | Describe a person or lost item precisely; ask why and when | I can identify a person or missing item with two useful details and a short yang clause, then ask questions that distinguish it from another possibility. | 役に立つ特徴二つと短い yang の節を使って人や紛失物を特定し、別の候補と区別するための質問ができます。 | Makes specificity the task. Why/when and the other question words are retrieval, not new grammar. Use fictional people and belongings. |
+| 16 | Report a mishap, apologise, make a complaint politely | I can explain a small mishap, state what happened and where, apologise if appropriate, and ask for one practical next step. | 小さなトラブルについて、何がどこで起きたかを説明し、必要なら謝り、具体的な次の対応を一つ頼めます。 | Separates reporting from taking blame; avoids forcing an apology for someone else's fault. Contrast accidental events and resultant states with superlatives. |
+| 17 | Follow natural spoken Malay; invite, accept and refuse without offence | I can recognise the taught spoken forms, choose a suitable standard or spoken response, and invite, accept or decline with a reason or alternative. | 学んだ話し言葉の形を聞き取り、場面に合う標準形または話し言葉で返答し、誘う・受ける・理由や代案を添えて断ることができます。 | “Without offence” cannot be guaranteed by a language test. Assess contextual appropriateness and successful communication. No requirement to imitate slang or add lah. |
+| 18 | Pass the A2 exit tasks; set up Hanashishou at band 1 | I can complete the course's integrated daily-life, office, home, health and social tasks, identify what I need to practise, and start an appropriately tagged band 1 scene. | このコースの日常生活・職場・住まい・健康・交流を組み合わせた課題を終え、自分に必要な練習を確認し、適切な章タグのあるバンド1の場面を始められます。 | Replaces a circular “pass the test” goal with demonstrated tasks and next action. Hanashishou's recognition/self-rating result is not proof of spoken accuracy (SPEC.md §6.4). |
+
+### One outcome per block, to carry into the eventual teaching plans
+
+A = guided pattern use; B = controlled exchange; C = information/task outcome; D = check and repair; E = transfer to a changed scene. Each cell below is read as “I can …”. The section 1 timings apply.
+
+| Unit | A | B | C | D | E |
+| --- | --- | --- | --- | --- | --- |
+| 10A | state a routine with a taught ber- verb | ask and answer about routines | extract a colleague's daily activities | correct a routine description | explain a changed workday |
+| 10B | give two background details | exchange background questions | identify a neighbour from a short introduction | check my own introduction | introduce myself to a different neighbour |
+| 11A | identify actor and object | change a suitable active sentence to passive | identify who completed an office task | correct reversed actor/object roles | report a different completed task |
+| 11B | use the selected meN- spelling families | ask what a colleague is doing | confirm an action and its deadline | correct a chosen verb form | explain a new work or weekend activity |
+| 12A | make a selected -kan request | request and confirm a parcel action | identify and collect the correct parcel | check the details of a collection message | resolve a wrong-label change of plan |
+| 12B | use a selected -i/request family | request contact or a repair | agree a visit time and location | check a repair message for missing details | reschedule a repair visit |
+| 13 | distinguish need, advice and prohibition | ask permission and clarify a rule | interpret a fictional clinic instruction | correct a negation/modal misunderstanding | ask for clarification in a changed situation |
+| 14 | connect two ideas with a reason or condition | explain a purpose or contrast | sequence a simple plan | check connector meaning | rearrange the plan when a condition changes |
+| 15 | attach a short description with yang | ask discriminating questions | identify the correct item | check description accuracy | identify an item after one detail changes |
+| 16 | distinguish an accident/state from a superlative | report a mishap and respond | agree one practical next action | correct an unclear incident report | handle a different small mishap |
+| 17 | match spoken forms to standard meanings | select a suitable invitation response | arrange or decline a social plan | explain a register choice | respond to a changed invitation with an alternative |
+
+Assessment must accept more than one natural Malaysian answer when it achieves the task. Do not penalise an appropriate standard form because the model uses a spoken form. Every full Japanese explainer and answer-key note must translate its English counterpart fully; no shortened Japanese summaries or residual English prose.
+
+**Checkpoint:** sections 1–4 complete; sections 5–6 follow.
