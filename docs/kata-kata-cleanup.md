@@ -7,7 +7,7 @@ deduplicated list of every Kata-Kata change found while building Cikgu Sensai ch
 **Sources merged:** the "Findings for Kata-Kata" sections of `docs/STEP-4-REPORT.md` and `docs/STEP-5b-report.md` to
 `docs/STEP-5g-report.md` (steps 1 to 3 and 5a recorded no Kata-Kata finding beyond "cards for pending ledger rows";
 5h's own findings are added here), the Kata-Kata notes in `HANDOFF.md`, and every ledger row whose "Action (open)" names
-Kata-Kata (116 rows in the ledger copy of 12 Nov 2026, L-0001 to L-1083, regenerated from the sheet in step 5h).
+Kata-Kata (121 rows in the ledger copy of 12 Nov 2026, L-0001 to L-1088, regenerated from the sheet in step 5i; step 5h had 116 rows to L-1083).
 
 **Rules for the Kata-Kata session (from the charter and Sam's decisions):**
 
@@ -35,7 +35,7 @@ Kata-Kata (116 rows in the ledger copy of 12 Nov 2026, L-0001 to L-1083, regener
 | 8 | 6 | 0 | 0 | 7 cards | 1 |
 | 9 | 14 (8 + 6 Dunia) | 0 | 0 | 2 (frame f06, card -028) | 2 |
 
-New cards: 107 ledger rows (every row whose open action is "Add … card"). Hanashishou: one mapping (L-0592 → L-0330).
+New cards: 112 ledger rows (every row whose open action is "Add … card"). Hanashishou: one mapping (L-0592 → L-0330).
 
 ---
 
@@ -328,6 +328,11 @@ traffic is everyday speech, Sam 12 Nov).
 | L-1081 | mari | come; let's (Mari makan = come and eat) | Ch9 (pending) |  |
 | L-1082 | ibu | mother | Ch9 (pending) |  |
 | L-1083 | adik | younger brother or sister | Ch9 (pending) |  |
+| L-1084 | pesta | festival; feast (Pesta Kaamatan) | Ch9 (pending) | Sam, 12 Nov 2026 (step 5i): for «Selamat Pesta Kaamatan» and festival notices |
+| L-1085 | perhatian | attention; Attention! (on notices) | Ch9 (pending) | Whole word for signs and notices (PERHATIAN); no other form is built from it (per-…-an is Stage 3) |
+| L-1086 | hingga | until (formal; sampai is everyday) | Ch9 (pending) | «Ditutup hingga …», «Isnin hingga Jumaat»; the card should say «sampai» (L-0203) is the everyday word |
+| L-1087 | tolak | push (TOLAK on doors) | Ch9 (pending) | Door signs |
+| L-1088 | tarik | pull (TARIK on doors) | Ch9 (pending) | Door signs; the root is also inside «tarik duit» (L-0424) and «teh tarik» (L-0934) |
 
 The four roots («buat», «panggil», «cuci», «larang») are named in the notes of ms-c09-004, -016, -018 and -021; their own
 cards let learners say the active sentence («Isteri saya buat kek ini.»). «mari» is standard; «jom» (Ch1) is the spoken
@@ -346,8 +351,9 @@ equivalent («Mari makan» / «Jom makan»).
   rename (Sam or a session with sheet access). The charter table already says "Rumah terbuka (general open house)".
 - **What the festival cards say** (Sam's decisions, 12 Nov 2026):
   - greetings: «Selamat Hari Raya», «Selamat Tahun Baru Cina» (no «Hari»), «Selamat Hari Deepavali», «Selamat Hari
-    Krismas», «Selamat Hari Gawai», and «Selamat Pesta Kaamatan» (from usage, **not yet sourced**; «pesta» is not a ledger
-    word, so it needs a ledger row before it becomes a card). No faith-specific greeting; the Kadazandusun and Iban
+    Krismas», «Selamat Hari Gawai», and «Selamat Pesta Kaamatan» (**sourced** in step 5i: Bernama radio news, 30 May 2026, quoting a minister; «pesta» is
+    ledger row L-1084; the fuller formal «Selamat Menyambut Pesta Kaamatan» is reported by RTM and The Vibes, Journal
+    row 87, and contains a me- verb, so it is a quotation only, never a card on its own before chapter 11). No faith-specific greeting; the Kadazandusun and Iban
     greetings are not Malay and are not added;
   - L-1070: both «Tahun Baru Cina» (everyday) and «Tahun Baharu Cina» (official: federal public-holiday list, Education
     Ministry);
@@ -370,4 +376,4 @@ equivalent («Mari makan» / «Jom makan»).
 - L-0537 to L-0549: the scene name in "Kata-Kata place" (see chapter 9).
 - L-1070 «Tahun Baru Cina / Tahun Baharu Cina»: its open action still asks "KD4 check (Tahun Baru Cina or Tahun Baharu
   Cina?)"; Sam has decided to teach both, so only the Kamus Dewan headword check remains.
-- The Kamus Dewan check ("Not yet checked") for L-0983 to L-1083 is a separate project (see `HANDOFF.md`).
+- The Kamus Dewan check ("Not yet checked") for L-0983 to L-1088 is a separate project (see `HANDOFF.md`).

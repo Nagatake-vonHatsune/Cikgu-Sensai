@@ -1,7 +1,7 @@
 """Step 5g chapter 9: charter section 6 and 14 minimums for unit 9 (the passive di-, signs and notices) and the chapter 9
 fast pack.
 
-Checks the authored source and the built page bank: the ledger partition recomputed from the ledger (29 core entries;
+Checks the authored source and the built page bank: the ledger partition recomputed from the ledger (42 core entries;
 33 Dunia recognition entries in two scenes, the general «rumah terbuka» scene with Sam's six festival words and the
 "Simpulan bahasa harian" idioms, which are never drilled), the component minimums, the cumulative question words with
 «siapa» + «oleh», real item-by-item answer keys, word tags on every test item, the «di-» rule (the ledger forms plus
@@ -44,12 +44,12 @@ def ch9_placed(rows):
     return {lid for lid, r in rows.items() if r['Review status'] != 'Retired' and re.search(r'Ch\s*9\b', r['Kata-Kata place'])}
 
 
-NEW_CH9 = {f'L-{i:04d}' for i in range(1076, 1084)}
+NEW_CH9 = {f'L-{i:04d}' for i in range(1076, 1089)}
 
 
 def ch9_core(rows):
     """First placed in chapter 9 and carrying a chapter 9 card, or one of the chapter 9 rows Sam approved on 12 Nov 2026
-    (L-1076 to L-1083, placed "Ch9 (pending)" until Kata-Kata adds their cards)."""
+    (L-1076 to L-1083, and L-1084 to L-1088 from step 5i, placed "Ch9 (pending)" until Kata-Kata adds their cards)."""
     return {lid for lid in ch9_placed(rows) if first_chapter(rows[lid]) == 9 and 'primes Ch9' not in rows[lid]['Kata-Kata place']
             and (has_c09_card(rows[lid]) or rows[lid]['Kata-Kata place'] == 'Ch9 (pending)')}
 
@@ -101,12 +101,13 @@ class Chapter9Minimums(unittest.TestCase):
         rows = self.ledger.rows
         placed = ch9_placed(rows)
         core_all = ch9_core(rows)
-        # 37 core entries: L-0377 to L-0405 and Sam's eight rows L-1076 to L-1083. «pinggan» (L-0355) carries a chapter 9 card
+        # 42 core entries: L-0377 to L-0405, Sam's eight rows L-1076 to L-1083 and his five rows L-1084 to L-1088 (step 5i). «pinggan» (L-0355) carries a chapter 9 card
         # but was placed in chapter 8.
-        self.assertEqual(len(core_all), 37)
+        self.assertEqual(len(core_all), 42)
         self.assertEqual(core_all, {f'L-{i:04d}' for i in range(377, 406)} | NEW_CH9)
         self.assertEqual({rows[x]['Malay'] for x in NEW_CH9},
-                         {'buat', 'panggil', 'cuci', 'larang', 'tuan rumah', 'mari', 'ibu', 'adik'})
+                         {'buat', 'panggil', 'cuci', 'larang', 'tuan rumah', 'mari', 'ibu', 'adik',
+                          'pesta', 'perhatian', 'hingga', 'tolak', 'tarik'})
         rec_all = ch9_recognition(rows)
         # 27 Dunia entries in the ledger as handed over (Rumah terbuka Hari Raya 13, Simpulan bahasa harian 14) plus Sam's six
         # festival words of 12 Nov 2026 (L-1070 to L-1075).
@@ -129,7 +130,7 @@ class Chapter9Minimums(unittest.TestCase):
         groups = dict(self.cfg['core_groups'])
         self.assertEqual(list(groups), ['«di-» verbs', 'Roots for the «di-» rule', '«oleh», «pada», «tadi», «siap»',
                                         'Signs and notices', 'A party and an open house', 'Family'])
-        self.assertEqual([len(v) for v in groups.values()], [18, 4, 4, 5, 4, 2])
+        self.assertEqual([len(v) for v in groups.values()], [18, 4, 4, 9, 5, 2])
         self.assertEqual([lid for ids in groups.values() for lid in ids], core)
         # The 18 «di-» rows are the ledger's di- forms.
         self.assertEqual([rows[x]['Malay'] for x in ms_c09.DI_VERBS], SECTION_VERBS)
@@ -266,6 +267,33 @@ class Chapter9Minimums(unittest.TestCase):
         # «jom» is the spoken equivalent of «mari», and is labelled.
         self.assertIn('«Jom makan»', ' '.join(self.cfg['festival_notes']['en']))
 
+    def test_step5i_signs_and_notices_in_use(self):
+        """Sam, 12 Nov 2026: «pesta», «perhatian», «hingga», «tolak», «tarik» are core and used naturally: door signs, a
+        PERHATIAN notice, «Ditutup hingga …» and «Selamat Pesta Kaamatan»."""
+        used = []
+        for l in self.by_unit[self.u]:
+            if l['suite']['component_type'] == 'Vocabulary':
+                continue
+            used += [x for _, items, _ in l['sections'] for x in items] + l['key']
+            used += [t['prompt'] + ' ' + t['answer_key'] for t in l['suite']['tests']]
+        text = ' | '.join(used)
+        spans = ' | '.join(span for line in used for span in re.findall(r'«([^»]*)»', line))
+        for sign in ('«TOLAK»', '«TARIK»', '«PERHATIAN: Bilik mesyuarat ditutup hingga hari Isnin.»', 'Ditutup hingga hari Isnin.',
+                     'Dibuka Isnin hingga Jumaat', 'Selamat Pesta Kaamatan'):
+            self.assertIn(sign, text, sign)
+        for w in ('pesta', 'perhatian', 'hingga', 'tolak', 'tarik'):
+            self.assertRegex(spans.lower(), r'(?<![a-z])' + w + r'(?![a-z])', w)
+        # The test reading item asks about «hingga» and is tagged with the notice words.
+        tests = self.comp('Test')['suite']['tests']
+        tagged = {w for t in tests for w in t['word_ids']}
+        for lid in ('L-1085', 'L-1086'):
+            self.assertIn(self.ledger.word_id(self.ledger.row(lid)), tagged, lid)
+        # «hingga» is the written word, «sampai» the spoken one, and the pattern page says so.
+        pat = ' '.join(self.lines(self.comp('Pattern and grammar')))
+        self.assertIn('in speech say «sampai»', pat)
+        # No other word is built from «perhatian» (the per-…-an pattern is not taught).
+        self.assertNotRegex(text.lower(), r'memperhatikan|perhatikan|diperhatikan')
+
     def test_idioms_are_recognition_only(self):
         """Sam: the idioms are for recognition; list them with plain meanings and do not drill them as core."""
         idioms = [self.ledger.row(lid)['Malay'] for lid in ms_c09.SIMPULAN]
@@ -391,8 +419,13 @@ class Chapter9Minimums(unittest.TestCase):
         self.assertIn('not Malay', borneo)
         # Greetings are built from ledger words; there are no new greeting rows and no faith-specific greeting.
         for g in ('Selamat Hari Raya', '«Selamat Tahun Baru Cina» (no «Hari»)', 'Selamat Hari Deepavali', 'Selamat Hari Krismas',
-                  'Selamat Hari Gawai', '‹Selamat Pesta Kaamatan› (from usage; not yet sourced)'):
+                  'Selamat Hari Gawai', '«Selamat Pesta Kaamatan»'):
             self.assertIn(g, intro)
+        # Step 5i: «Selamat Pesta Kaamatan» is sourced (Bernama, 30 May 2026); the formal form is only a quotation.
+        self.assertIn('‹Selamat Menyambut Pesta Kaamatan›', intro)
+        self.assertIn('Bernama, 30 May 2026', intro)
+        self.assertNotIn('not yet sourced', ' '.join(self.all_lines()))
+        self.assertNotIn('‹Selamat Pesta Kaamatan›', ' '.join(self.all_lines()))
         self.assertNotIn('Selamat Hari Tahun', ' '.join(self.all_lines()))
         self.assertNotIn('Selamat Hari Kaamatan', ' '.join(self.all_lines()))
         # Sam, 12 Nov 2026: both spellings, Labuan, the Gawai dates, «angpau» as the Malay spelling, one Christmas sentence.
@@ -407,7 +440,7 @@ class Chapter9Minimums(unittest.TestCase):
         # Sources are named, honestly.
         src = fn['sources']
         for name in ('EMGS Connect', 'Arab News', 'Malay Mail', 'The Borneo Post', 'search summaries only', 'New Straits Times',
-                     'Free Malaysia Today', 'officeholidays.com', 'ecentral.my', 'not yet sourced',
+                     'Free Malaysia Today', 'officeholidays.com', 'ecentral.my', 'Bernama radio news, 30 May 2026',
                      'Wikipedia pages could not be fetched', 'no source retrieved', 'L-1070 to L-1075'):
             self.assertIn(name, src, name)
         # No figure, price or percentage is stated about the real country.

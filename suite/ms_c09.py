@@ -1,9 +1,10 @@
 """Unit 9: the passive di-, signs and notices (___ dibuat oleh ___, ___ sudah / belum di-(verb), ___ di-(verb) di ___,
 pada pukul, Dilarang ___, Sila ___).
 
-37 core ledger entries in six groups, recomputed from the ledger by the test: the 29 rows first placed in chapter 9 that
-carry a chapter 9 card (L-0377 to L-0405) and the 8 chapter 9 rows Sam approved on 12 Nov 2026 (L-1076 to L-1083: the roots
-«buat», «panggil», «cuci», «larang» for the «di-» rule; «tuan rumah» and «mari» for the open house; «ibu», «adik»). «pinggan»
+42 core ledger entries in six groups, recomputed from the ledger by the test: the 29 rows first placed in chapter 9 that
+carry a chapter 9 card (L-0377 to L-0405) and the 13 chapter 9 rows Sam approved on 12 Nov 2026 (L-1076 to L-1083: the roots
+«buat», «panggil», «cuci», «larang» for the «di-» rule; «tuan rumah» and «mari» for the open house; «ibu», «adik»; and, in
+step 5i, L-1084 to L-1088: «pesta», «perhatian», «hingga», «tolak», «tarik» for festival greetings, notices and door signs). «pinggan»
 (L-0355) also carries a chapter 9 card but was placed in chapter 8, so it is revision. 33 Dunia recognition entries: the 13 "Rumah terbuka Hari Raya" words, now taught as a general «rumah terbuka»
 (open house) scene; the 6 festival words Sam approved on 12 Nov 2026 (L-1070 to L-1075: Tahun Baru Cina, Deepavali,
 Krismas, Gawai, Kaamatan, angpau); and the 14 "Simpulan bahasa harian" idioms, which are recognition only and never drilled.
@@ -19,8 +20,8 @@ from .chapter9_common import unit_dict
 DI_VERBS = ['L-0380', 'L-0381', 'L-0382', 'L-0383', 'L-0384', 'L-0385', 'L-0386', 'L-0387', 'L-0388', 'L-0389', 'L-0390',
             'L-0391', 'L-0392', 'L-0393', 'L-0394', 'L-0395', 'L-0396', 'L-0397']
 LITTLE = ['L-0377', 'L-0378', 'L-0379', 'L-0405']
-SIGNS = ['L-0398', 'L-0399', 'L-0400', 'L-0401', 'L-0402']
-PARTY = ['L-0403', 'L-0404', 'L-1080', 'L-1081']
+SIGNS = ['L-0398', 'L-0399', 'L-0400', 'L-0401', 'L-0402', 'L-1085', 'L-1086', 'L-1087', 'L-1088']
+PARTY = ['L-0403', 'L-0404', 'L-1080', 'L-1081', 'L-1084']
 DI_ROOTS = ['L-1076', 'L-1077', 'L-1078', 'L-1079']
 FAMILY = ['L-1082', 'L-1083']
 CORE = DI_VERBS + DI_ROOTS + LITTLE + SIGNS + PARTY + FAMILY
@@ -76,11 +77,16 @@ EXAMPLES = {
     'L-0400': '«Dilarang merokok.» (a sign to recognise only)',
     'L-0401': '«Sila masuk.» / «Sila duduk.»',
     'L-0402': '«Papan tanda ini di depan pintu.»',
+    'L-1085': '«PERHATIAN: Pejabat ditutup hingga hari Isnin.»',
+    'L-1086': '«Ditutup hingga hari Isnin.» / «Dibuka Isnin hingga Jumaat.»',
+    'L-1087': '«TOLAK» (on a door)',
+    'L-1088': '«TARIK» (on a door)',
     # A party
     'L-0403': '«Kek ini sedap.»',
     'L-0404': '«Jamuan di pejabat pada pukul lima petang.»',
     'L-1080': '«Rendang ini dimasak oleh tuan rumah.»',
     'L-1081': '«Mari makan!» (spoken: «Jom makan!»)',
+    'L-1084': '«Selamat Pesta Kaamatan!»',
     # Family
     'L-1082': '«Kuih ini dibuat oleh ibu saya.»',
     'L-1083': '«Angpau ini untuk adik saya.»',
@@ -102,7 +108,7 @@ EXAMPLES = {
     'L-1071': '«Selamat Hari Deepavali!»',
     'L-1072': '«Selamat Hari Krismas!»',
     'L-1073': '«Selamat Hari Gawai!»',
-    'L-1074': '«Kaamatan pada bulan Mei.»',
+    'L-1074': '«Pesta Kaamatan pada bulan Mei.»',
     'L-1075': '«Angpau merah ini untuk anak saya.»',
     # Dunia · Simpulan bahasa harian (recognition; never drilled)
     'L-0954': '«Kawan saya kepala batu.»',
@@ -233,8 +239,16 @@ VOCAB_OPTS.update({
     'L-1071': {'en': 'the Hindu festival of lights («Selamat Hari Deepavali»)', 'ja': 'ヒンドゥー教の光のお祭り（«Selamat Hari Deepavali»）'},
     'L-1072': {'en': 'Christmas («Selamat Hari Krismas»)', 'ja': 'クリスマス（«Selamat Hari Krismas»）'},
     'L-1073': {'en': 'the Dayak harvest festival of Sarawak, also called «Gawai Dayak» («Selamat Hari Gawai»)', 'ja': 'サラワク州のダヤク族の収穫祭、ガワイ・ダヤクともいう（«Selamat Hari Gawai»）'},
-    'L-1074': {'en': 'the harvest festival of Sabah and Labuan (greeting from usage, not yet sourced: ‹Selamat Pesta Kaamatan›)',
-               'ja': 'サバ州とラブアンの収穫祭（使われている挨拶、出典未確認：‹Selamat Pesta Kaamatan›）'},
+    'L-1074': {'en': 'the harvest festival of Sabah and Labuan; the greeting is «Selamat Pesta Kaamatan»',
+               'ja': 'サバ州とラブアンの収穫祭；挨拶は «Selamat Pesta Kaamatan»'},
+    'L-1084': {'en': 'festival, feast: «Pesta Kaamatan» (the «Kaamatan» festival), «Selamat Pesta Kaamatan»',
+               'ja': 'お祭り・祭典：«Pesta Kaamatan»（カアマタン祭）、«Selamat Pesta Kaamatan»'},
+    'L-1085': {'en': 'attention; the heading of a notice, often in capitals: «PERHATIAN: Kedai ditutup hingga hari Isnin.» (learn it as one whole word)',
+               'ja': '注意・お知らせ；掲示の見出し（大文字が多い）：«PERHATIAN: Kedai ditutup hingga hari Isnin.»（一語まるごと覚える）'},
+    'L-1086': {'en': 'until (formal, on notices and timetables): «Dibuka Isnin hingga Jumaat.»; in speech people say «sampai»',
+               'ja': '〜まで（掲示や時刻表で使う改まった語）：«Dibuka Isnin hingga Jumaat.»；話すときは «sampai»'},
+    'L-1087': {'en': 'push (the sign on a door: «TOLAK»)', 'ja': '押す（ドアの表示：«TOLAK»）'},
+    'L-1088': {'en': 'pull (the sign on a door: «TARIK»)', 'ja': '引く（ドアの表示：«TARIK»）'},
     'L-1075': {'en': 'a red packet with money, given at Chinese New Year (the Malay spelling; English-language newspapers often write "ang pow")',
                'ja': '旧正月に渡す、お金入りの赤い封筒（マレー語のつづり。英字紙では英語式のつづりで書かれることが多い）'},
     'L-1080': {'en': 'host (of a gathering or a house): «Terima kasih, tuan rumah.»', 'ja': '主催者・（家の）主人：«Terima kasih, tuan rumah.»'},
@@ -291,11 +305,11 @@ P = [
         'A: «Papan tanda ini apa?» B: «Dilarang masuk.»',
         'A: «Boleh makan di sini?» B: «Tidak boleh. Dilarang makan dan minum.»',
         'A: «Boleh masuk?» B: «Boleh. Sila masuk.»',
-        'A: «Boleh duduk di sini?» B: «Boleh. Sila duduk.»',
         'A: «Kenapa pintu itu ditutup?» B: «Sebab dilarang masuk.»',
-        'A: «Papan tanda itu di mana?» B: «Papan tanda itu di depan pintu.»'],
-     "Signs and notices use «Dilarang» (forbidden) in front of what is not allowed: «Dilarang masuk.» (No entry.) «Dilarang makan dan minum.» (No eating or drinking.) «Dilarang merokok.» (No smoking) is a sign to recognise only. «Sila» (please) in front of a verb is a polite instruction: «Sila masuk.» «Sila duduk.» A sign leaves out the doer: it says what is forbidden or welcome, not who must do it. A «papan tanda» is the signboard itself.",
-     "掲示や案内では、してはいけないことの前に «Dilarang»（禁止）を置きます：«Dilarang masuk.»（立入禁止）、«Dilarang makan dan minum.»（飲食禁止）。«Dilarang merokok.»（禁煙）は見て分かればよい掲示です。動詞の前の «Sila»（どうぞ）は丁寧な指示です：«Sila masuk.»、«Sila duduk.» 掲示は動作主をはぶき、禁止か歓迎かだけを書きます。«papan tanda» は看板そのものです。",
+        'A: «Pintu ini tolak atau tarik?» B: «Tarik, bukan tolak.»',
+        'A: «Kedai itu dibuka bila?» B: «Ditutup hingga hari Isnin. Perhatian di pintu.»'],
+     "Signs and notices use «Dilarang» (forbidden) in front of what is not allowed: «Dilarang masuk.» (No entry.) «Dilarang makan dan minum.» (No eating or drinking.) «Dilarang merokok.» (No smoking) is a sign to recognise only. «Sila» (please) in front of a verb is a polite instruction: «Sila masuk.» «Sila duduk.» A sign leaves out the doer: it says what is forbidden or welcome, not who must do it. A «papan tanda» is the signboard itself. A door says «TOLAK» (push) or «TARIK» (pull). A notice often opens with «PERHATIAN» (attention), then gives the news: «Ditutup hingga hari Isnin.» «hingga» (until) is the written word on notices and timetables («Dibuka Isnin hingga Jumaat»); in speech say «sampai».",
+     "掲示や案内では、してはいけないことの前に «Dilarang»（禁止）を置きます：«Dilarang masuk.»（立入禁止）、«Dilarang makan dan minum.»（飲食禁止）。«Dilarang merokok.»（禁煙）は見て分かればよい掲示です。動詞の前の «Sila»（どうぞ）は丁寧な指示です：«Sila masuk.»、«Sila duduk.» 掲示は動作主をはぶき、禁止か歓迎かだけを書きます。«papan tanda» は看板そのものです。ドアには «TOLAK»（押す）か «TARIK»（引く）と書いてあります。掲示は «PERHATIAN»（注意）で始まり、そのあとに知らせが続くことが多いです：«Ditutup hingga hari Isnin.» «hingga»（〜まで）は掲示や時刻表で使う書き言葉で、話すときは «sampai» を使います。",
      'Japanese signs say 立入禁止 and 禁煙 with nouns; Malay uses the passive «Dilarang» + a verb. «Sila» is like どうぞ + verb, or ください in a notice (ご自由にお取りください).',
      '日本語の掲示は「立入禁止」「禁煙」のように名詞で書きますが、マレー語は受け身の «Dilarang» ＋動詞です。«Sila» は「どうぞ」＋動詞にあたり、掲示の「ご自由にお取りください」の「ください」に近い言い方です。'),
 ]
@@ -348,19 +362,19 @@ LISTENING = [
 
 CULTURE = [
     'The Malay passive is neutral and very common. «Kek ini dibuat oleh isteri saya» puts the cake first and the doer after «oleh». When the doer does not matter, it is simply left out: «Pejabat ditutup pada pukul enam.» Japanese 受身 often carries a feeling of being affected; the Malay «di-» passive does not. It is how people talk about food, shops, mail and rules every day.',
-    'Signs and notices use the same form without saying who: «Dilarang masuk» (no entry), «Dilarang makan dan minum». «Sila» before a verb is a polite instruction: «Sila masuk». «Dilarang merokok» is a sign to recognise only; the Kata-Kata card note says it contains a ‹me-› verb.',
+    'Signs and notices use the same form without saying who: «Dilarang masuk» (no entry), «Dilarang makan dan minum». «Sila» before a verb is a polite instruction: «Sila masuk». «Dilarang merokok» is a sign to recognise only; the Kata-Kata card note says it contains a ‹me-› verb. Doors say «TOLAK» or «TARIK», and a notice may begin «PERHATIAN» and end «Ditutup hingga …».',
     "Kata-Kata's card notes name the roots: «dibuat» is ‹di-› + «buat», «dicuci» is ‹di-› + «cuci» (wash), «dipanggil» comes from «panggil» (call) and «dilarang» from «larang» (forbid). In everyday speech the roots work alone: «Saya cuci pinggan.» The note on «jamuan» says ‹jamu› (treat a guest) → «jamuan». With a root verb you already know, you can make a new one: «digoreng», «dipilih», «ditunggu».",
     'When you do something yourself, the doer goes straight in front of the verb and «di-» drops away: «Pinggan saya bawa ke dapur.» («Kek saya beli.») This is Kata-Kata frame f06. In the open-house scene of Block E, the notes for each festival are on a separate sheet.',
 ]
 CULTURE_JA = [
     'マレー語の受け身は中立で、とてもよく使われます。«Kek ini dibuat oleh isteri saya» はケーキを先に出し、動作主を «oleh» のあとに置きます。動作主が大事でないときは、単にはぶきます：«Pejabat ditutup pada pukul enam.» 日本語の受身には「影響を受けた」気持ちがこもることがよくありますが、マレー語の «di-» にはありません。食べ物、店、郵便、決まりごとを毎日の会話で話すときの言い方です。',
-    '掲示や案内も、誰がするかを言わずに同じ形を使います：«Dilarang masuk»（立入禁止）、«Dilarang makan dan minum»。動詞の前の «Sila» は丁寧な指示です：«Sila masuk»。«Dilarang merokok» は見て分かればよい掲示で、Kata-Kata のカード注記によると ‹me-› の動詞を含みます。',
+    '掲示や案内も、誰がするかを言わずに同じ形を使います：«Dilarang masuk»（立入禁止）、«Dilarang makan dan minum»。動詞の前の «Sila» は丁寧な指示です：«Sila masuk»。«Dilarang merokok» は見て分かればよい掲示で、Kata-Kata のカード注記によると ‹me-› の動詞を含みます。ドアには «TOLAK» か «TARIK» と書かれ、掲示は «PERHATIAN» で始まり «Ditutup hingga …» で終わることがあります。',
     'Kata-Kata のカード注記が語根を示しています：«dibuat» は ‹di-› ＋ «buat»、«dicuci» は ‹di-› ＋ «cuci»（洗う）、«dipanggil» は «panggil»（呼ぶ）、«dilarang» は «larang»（禁じる）から来ています。日常会話では語根だけでも使います：«Saya cuci pinggan.»«jamuan» の注記には ‹jamu›（客をもてなす）→ «jamuan» とあります。すでに知っている動詞の語根から、新しい語を作れます：«digoreng»、«dipilih»、«ditunggu»。',
     '自分でするときは、動作主を動詞の直前に置き、«di-» は付けません：«Pinggan saya bawa ke dapur.»（«Kek saya beli.»）。これは Kata-Kata の文型 f06 です。ブロックEの «rumah terbuka» の場面で出てくる行事ごとのメモは、別のシートにあります。',
 ]
 
 FESTIVAL_EN = [
-    'A «rumah terbuka» (open house) is a gathering where the host («tuan rumah») welcomes relatives, friends, neighbours and colleagues during a festival, and people of other communities are often invited too. Guests hear «Jemput masuk» and «Mari makan» (spoken: «Jom makan»). It is culture, not a lesson in belief. Greetings: «Selamat Hari Raya», «Selamat Tahun Baru Cina» (no «Hari»), «Selamat Hari Deepavali», «Selamat Hari Krismas», «Selamat Hari Gawai», and ‹Selamat Pesta Kaamatan› (from usage; not yet sourced).',
+    'A «rumah terbuka» (open house) is a gathering where the host («tuan rumah») welcomes relatives, friends, neighbours and colleagues during a festival, and people of other communities are often invited too. Guests hear «Jemput masuk» and «Mari makan» (spoken: «Jom makan»). It is culture, not a lesson in belief. Greetings: «Selamat Hari Raya», «Selamat Tahun Baru Cina» (no «Hari»), «Selamat Hari Deepavali», «Selamat Hari Krismas», «Selamat Hari Gawai» and «Selamat Pesta Kaamatan» (Bernama, 30 May 2026). The fuller formal greeting is ‹Selamat Menyambut Pesta Kaamatan› (a ‹me-› verb, shown only as a quotation).',
     '«Hari Raya» (the festival at the end of Ramadan): Kata-Kata lists «ketupat», «rendang» and «kuih» as the food, «duit raya» as the money gift for children, «pelita» as oil lamps, «baju Melayu» as the men\'s outfit and «balik kampung» for going back to your hometown. «Maaf zahir dan batin» asks forgiveness for past wrongs.',
     '«Tahun Baru Cina» (Chinese New Year) is the everyday name; «Tahun Baharu Cina» is the official one, in the federal public-holiday list. Open houses are widely held, and guides list «angpau» (red packets with money; English-language newspapers often write "ang pow") among the customs.',
     '«Deepavali» (the Hindu festival of lights): newspapers list «Deepavali» open houses for all Malaysians, with families welcoming Malay and Chinese friends and neighbours.',
@@ -368,7 +382,7 @@ FESTIVAL_EN = [
     '«Gawai» (Sarawak, 1 June) and «Kaamatan» (Sabah and Labuan, 30 and 31 May) are harvest festivals and public holidays there. «Gawai» was gazetted as a holiday on 25 September 1964 and first celebrated on 1 June 1965. The communities\' own greetings are not Malay, so they are not taught here.',
 ]
 FESTIVAL_JA = [
-    '«rumah terbuka»（オープンハウス）は、行事のときに主催者（«tuan rumah»）が親戚、友人、近所の人、同僚を迎える集まりで、別の民族の人もよく招かれます。客は «Jemput masuk»・«Mari makan»（話し言葉：«Jom makan»）と声をかけられます。これは文化の紹介であり、信仰の授業ではありません。挨拶：«Selamat Hari Raya»、«Selamat Tahun Baru Cina»（«Hari» は付けない）、«Selamat Hari Deepavali»、«Selamat Hari Krismas»、«Selamat Hari Gawai»、そして ‹Selamat Pesta Kaamatan›（使われている形。出典未確認）。',
+    '«rumah terbuka»（オープンハウス）は、行事のときに主催者（«tuan rumah»）が親戚、友人、近所の人、同僚を迎える集まりで、別の民族の人もよく招かれます。客は «Jemput masuk»・«Mari makan»（話し言葉：«Jom makan»）と声をかけられます。これは文化の紹介であり、信仰の授業ではありません。挨拶：«Selamat Hari Raya»、«Selamat Tahun Baru Cina»（«Hari» は付けない）、«Selamat Hari Deepavali»、«Selamat Hari Krismas»、«Selamat Hari Gawai»、«Selamat Pesta Kaamatan»（ベルナマ通信、2026年5月30日）。より改まった形は ‹Selamat Menyambut Pesta Kaamatan›（‹me-› の動詞を含むため、引用として示すだけ）。',
     '«Hari Raya»（断食明けのお祭り）：Kata-Kata は、食べ物として «ketupat»・«rendang»・«kuih»、子どもへの贈り物として «duit raya»、«pelita» は灯油ランプ、男性の装いとして «baju Melayu»、故郷へ帰ることを «balik kampung» と挙げています。«Maaf zahir dan batin» は、これまでの非礼の許しを願う言葉です。',
     '«Tahun Baru Cina»（旧正月）は日常の呼び方で、«Tahun Baharu Cina» は連邦の祝日一覧にある公式の呼び方です。オープンハウスが広く開かれ、ガイドは «angpau»（お金入りの赤い封筒。英字紙では英語式のつづりで書かれることが多い）を習慣のひとつに挙げています。',
     '«Deepavali»（ヒンドゥー教の光のお祭り）：新聞はすべてのマレーシア人に開かれたディーパバリのオープンハウスを紹介し、家族がマレー系や中華系の友人や近所の人を迎える様子も報じています。',
@@ -408,7 +422,7 @@ CFG = dict(
                   'Pattern 2: «di» before a place is the preposition; «di-» stuck to the verb makes the passive. Write both on the board. Let learners try «digoreng», «dipilih», «ditunggu» and «dijemput» from roots they know; correct only roots that are not verbs. A quick active-to-passive check: «Gerai itu jual kuih.» → «Kuih dijual di gerai itu.» «Saya hantar surat itu.» → «Surat itu dihantar.»',
                   'Pattern 3: «sudah» and «belum» go before the «di-» verb; the chapter 4 markers («masih», «akan», «baru») take the same place. The «saya» + verb form («Pinggan saya bawa ke dapur») has no «di-»; accept it as the natural way to say "I will do it".',
                   'Pattern 4: «dibuka» and «ditutup» with «pada» and a time. Accept «dibuka pukul sembilan» in speech; a notice keeps «pada». In everyday speech people also use the plain roots: «Kedai buka pukul sembilan.» «Kedai tutup pukul enam.»',
-                  'Pattern 5: signs. «Dilarang merokok» is for recognition only. Let learners read the signs in the reading text aloud as if they were a guard.'],
+                  'Pattern 5: signs. «Dilarang merokok» is for recognition only. Let learners read the signs in the reading text aloud as if they were a guard. «TOLAK» and «TARIK» are the door signs: have learners say which way a door opens before they touch it. «PERHATIAN» is a whole word at the head of a notice (do not build other words from «perhatian»; word-building with affixes is later). «hingga» is the formal word on notices («Ditutup hingga hari Isnin.»); «sampai» (chapter 4) is what people say.'],
     dialogue=DIALOGUE, variant=VARIANT, gap_turns=(1, 3, 5, 7, 8),
     drills={
         'repeat_frame': 'Frame: ___ «dibuat oleh» ___ / ___ «sudah» «di-»(verb)',
@@ -508,21 +522,25 @@ CFG = dict(
                          'What does the sign say?'],
     reading_title='Reading and writing · A notice board',
     reading=['Fictional notice board in the lobby of an office (all names, times and notices are invented):',
+             '«TOLAK» (on the glass door of the lobby) and «TARIK» (on the door to the meeting room)',
              '«Pejabat dibuka pada pukul sembilan pagi.»',
              '«Pejabat ditutup pada pukul enam petang.»',
              '«Pada hari Sabtu dan Ahad, pejabat ditutup.»',
+             '«PERHATIAN: Bilik mesyuarat ditutup hingga hari Isnin.»',
              '«Dilarang makan dan minum di bilik mesyuarat.»',
              '«Dilarang merokok.»',
              '«Sila ambil nombor.»',
              '«Jamuan pada hari Jumaat, pukul lima petang. Kek dan kuih dibawa oleh semua orang.»'],
     read_questions=['At what time is the office opened?', 'At what time is it closed?', 'Is the office open on Sunday?',
                     'Where is eating and drinking forbidden?', 'What should you take, according to the notice?',
-                    'On what day is the «jamuan», and at what time?', 'Say in Malay: "The shop is closed at seven."'],
+                    'On what day is the «jamuan», and at what time?', 'Say in Malay: "The shop is closed at seven."',
+                    'Which door do you push, and which do you pull?', 'Until when is the meeting room closed?'],
     read_answers=['at nine in the morning', 'at six in the evening', 'No: it is closed on Saturday and Sunday («ditutup»)',
                   'in the meeting room', 'a number («Sila ambil nombor»)', 'Friday, at five in the afternoon',
-                  '«Kedai ditutup pada pukul tujuh.»'],
-    write_instruction='Write a notice for an office door or wall in three or four lines: when it opens or closes, one «Dilarang», and one «Sila». / 事務所のドアか壁に貼る掲示を3〜4行で書きましょう（開く・閉まる時刻、«Dilarang» を1つ、«Sila» を1つ）。',
-    write_model='«Pejabat dibuka pada pukul sembilan pagi. Pejabat ditutup pada pukul enam petang. Dilarang makan dan minum. Sila ambil nombor.»',
+                  '«Kedai ditutup pada pukul tujuh.»', 'push the lobby door («TOLAK»); pull the meeting-room door («TARIK»)',
+                  'until Monday («hingga hari Isnin»)'],
+    write_instruction='Write a notice for an office door or wall in three or four lines: begin with «PERHATIAN», say when it opens or closes (you may use «hingga»), then one «Dilarang» and one «Sila». / 事務所のドアか壁に貼る掲示を3〜4行で書きましょう（«PERHATIAN» で始め、開く・閉まる時刻を書き（«hingga» を使ってもよい）、«Dilarang» を1つ、«Sila» を1つ）。',
+    write_model='«PERHATIAN: Pejabat dibuka pada pukul sembilan pagi. Pejabat ditutup pada pukul enam petang. Pejabat ditutup hingga hari Isnin. Dilarang makan dan minum. Sila ambil nombor.»',
     writing_type='notice',
     task_title='Task · Who made it? Who has it been done by?',
     role_a=['You organise the office «jamuan» (fictional). Your list: the cake was made by Mei Ling; the «nasi lemak» was bought by Rahman at the «gerai»; the «teh tarik» was brought by Tanaka; the plates are not washed yet.',
@@ -546,7 +564,7 @@ CFG = dict(
     festival_notes=dict(
         title='Culture note · Open houses in Malaysia',
         en=FESTIVAL_EN, ja=FESTIVAL_JA,
-        sources='the festival words are ledger rows L-0537 to L-0549 (the Raya words, with their glosses) and L-1070 to L-1075 (Sam approved the six rows on 12 Nov 2026); '
+        sources='the festival words are ledger rows L-0537 to L-0549 (the Raya words, with their glosses) and L-1070 to L-1075 (Sam approved the six rows on 12 Nov 2026); «pesta» is L-1084 (Sam approved on 12 Nov 2026); '
                 'the Raya details are the ledger glosses and the Kata-Kata Dunia scene "Rumah terbuka Hari Raya"; '
                 'open houses as a Malaysian custom open to other communities: EMGS Connect, "You\'ve been invited to an Open House: «Hari Raya» Traditions", and Arab News, "Malaysia\'s \'Open House\' ensures all are welcome on Eid", both seen in search summaries only; '
                 'Chinese New Year open houses and red packets: EMGS Connect, "Chinese New Year in Malaysia", and Malay Mail, 10 Feb 2026 (MCA open house), seen in search summaries only; '
@@ -555,7 +573,7 @@ CFG = dict(
                 '«angpau» is the Malay spelling, "ang pow" the common English-press spelling: Sam, 12 Nov 2026 (ledger L-1075); '
                 '«Gawai» on 1 June, gazetted on 25 September 1964 and first celebrated on 1 June 1965: Sam, citing The Borneo Post and the New Straits Times; seen again in step 5h in search summaries of The Borneo Post and Free Malaysia Today (1 June 2026); '
                 '«Kaamatan» on 30 and 31 May in Sabah and Labuan: Sam (ledger L-1074, citing officeholidays.com), seen again in step 5h in search summaries of officeholidays.com; '
-                'greetings: Sam\'s decision (ledger Journal, 12 Nov 2026); ‹Selamat Pesta Kaamatan› is from usage and not yet sourced; '
+                'greetings: Sam\'s decision (ledger Journal, 12 Nov 2026); «Selamat Pesta Kaamatan»: Bernama radio news, 30 May 2026, quoting a minister who greeted everyone celebrating with «Selamat Pesta Kaamatan» and «Hari Gawai» (ledger L-1074 note and Journal row 87), and the formal ‹Selamat Menyambut Pesta Kaamatan› as reported by RTM and The Vibes (Journal row 87; neither report was opened in this session); '
                 'Christmas: general knowledge, no source retrieved. The Wikipedia pages could not be fetched in this session. The note makes no claim about any religious belief or rule.',
         prompt='Are there open houses in Japan, or a custom of inviting people to your home at New Year or Obon? How is a Malaysian open house different?'),
     quiz_words=['L-0380', 'L-0388', 'L-0397', 'L-0401', 'L-0402', 'L-0404'],
@@ -564,8 +582,8 @@ CFG = dict(
                   ('Make it passive and add "not yet": «Mei Ling bayar harga.»', '«Harga belum dibayar oleh Mei Ling.»', ['belum', 'dibayar', 'oleh']),
                   ('Write the sign: "No entry."', '«Dilarang masuk.»', ['dilarang', 'masuk']),
                   ('Make it passive: «Ibu saya buat kek ini.»', '«Kek ini dibuat oleh ibu saya.»', ['buat', 'dibuat', 'oleh', 'ibu'])],
-    test_reading=['Fictional notice: «Pejabat ditutup pada pukul enam petang. Dilarang makan dan minum di bilik mesyuarat. Jamuan pada pukul lima petang. Kek dibawa oleh Mei Ling. Sila ambil pinggan.»'],
-    reading_quiz=[('At what time is the office closed?', 'six in the evening', ['ditutup', 'pada', 'pukul']),
+    test_reading=['Fictional notice: «PERHATIAN: Pejabat ditutup hingga hari Isnin. Dilarang makan dan minum di bilik mesyuarat. Jamuan pada pukul lima petang. Kek dibawa oleh Mei Ling. Sila ambil pinggan.»'],
+    reading_quiz=[('Until when is the office closed?', 'until Monday', ['ditutup', 'hingga', 'perhatian']),
                   ('Where is eating and drinking forbidden?', 'in the meeting room', ['dilarang', 'bilik']),
                   ('Who brought the cake?', 'Mei Ling', ['dibawa', 'oleh', 'kek']),
                   ('What does the notice ask you to take?', 'a plate', ['sila', 'ambil', 'pinggan'])],
@@ -581,11 +599,11 @@ CFG = dict(
           'D_preview': 'the stage review and the A1 test come after this unit and wait for Sam; point learners to the Kata-Kata review of all nine chapters.',
           'E_recall': 'read two signs aloud and say who made the cake.',
           'E_variation': 'a pair role-play of a general open house: the «tuan rumah» chooses a festival from the notes, says «Jemput masuk» and «Mari makan», and says who made each dish («Rendang ini dimasak oleh ibu saya.»); the guest says the greeting and thanks the host; change the festival and the food.'},
-    teacher_notes=['Load: 37 core words in six groups («di-» verbs 18; the roots «buat», «panggil», «cuci», «larang» 4; «oleh», «pada», «tadi», «siap» 4; signs and notices 5; a party and an open house: «kek», «jamuan», «tuan rumah», «mari» 4; family: «ibu», «adik» 2), plus 33 Dunia recognition words (the general «rumah terbuka» scene 19, the idioms 14). Suggested order: Block A the «di-» verbs in two lots with their roots, and «oleh», «pada», «tadi», «siap»; Block B the signs, the party words and the drills; Block C the notice board and the party; Block D and E recycle them. If the pilot shows 29 is too many, the natural cut is A/B: «dibuat», «dibeli», «dimakan», «diminum», «dibuka», «ditutup», «dibayar», «dihantar», «dilarang», «oleh», «pada», «tadi», «siap», «sila» and the signs first; «dibaca», «ditulis», «diambil», «dipanggil», «dimasak», «dicuci», «dibawa», «disewa», «dijual», «kek», «jamuan» second. The roots «buat», «panggil», «cuci», «larang» go with their «di-» forms; «tuan rumah» and «mari» go with Block E; «ibu» and «adik» can wait for Block C.',
+    teacher_notes=['Load: 42 core words in six groups («di-» verbs 18; the roots «buat», «panggil», «cuci», «larang» 4; «oleh», «pada», «tadi», «siap» 4; signs and notices 9, including «perhatian», «hingga», «tolak», «tarik»; a party and an open house: «kek», «jamuan», «tuan rumah», «mari», «pesta» 5; family: «ibu», «adik» 2), plus 33 Dunia recognition words (the general «rumah terbuka» scene 19, the idioms 14). Suggested order: Block A the «di-» verbs in two lots with their roots, and «oleh», «pada», «tadi», «siap»; Block B the signs, the party words and the drills; Block C the notice board and the party; Block D and E recycle them. If the pilot shows 42 is too many, the natural cut is A/B: «dibuat», «dibeli», «dimakan», «diminum», «dibuka», «ditutup», «dibayar», «dihantar», «dilarang», «oleh», «pada», «tadi», «siap», «sila» and the signs first; «dibaca», «ditulis», «diambil», «dipanggil», «dimasak», «dicuci», «dibawa», «disewa», «dijual», «kek», «jamuan» second. The roots «buat», «panggil», «cuci», «larang» go with their «di-» forms; «tuan rumah», «mari» and «pesta» go with Block E; «tolak», «tarik», «perhatian» and «hingga» go with the signs in Block B; «ibu» and «adik» can wait for Block C.',
                    'The point of the chapter is «di-» + a root the learner already knows. The 18 ledger forms are core. Other «di-» + verb forms are taught as the rule («digoreng», «dipilih», «ditunggu», «dijemput», «ditanya»): the language checks accept «di-» + any ledger word placed in chapters 1 to 9 and do not look at its part of speech, so check by hand that the root is a verb. «buat», «panggil», «cuci» and «larang» are ledger words since 12 Nov 2026 (Sam), so each «di-» form now has its root in the unit, and the transformation drill makes «Kuih ini dibuat oleh ibu saya.» from «Ibu saya buat kuih ini.» «larang» is mostly met inside «dilarang». The active sentences use ledger root verbs only (no ‹me-› or ‹ber-›; the ‹me-› forms of these roots wait for chapter 11).',
                    'The «saya» + verb form («Pinggan saya bawa ke dapur.») is Kata-Kata frame f06. It is taught inside pattern 3 as the natural way to say "I will do it"; accept it and do not ask for «oleh saya».',
                    '«Dilarang merokok» is a sign to recognise only (Kata-Kata card ms-c09-024: it contains a ‹me-› verb). No other sign in this unit uses ‹me-› or ‹ber-›.',
-                   'Open-house scene (Sam, 12 Nov 2026): the old "Rumah terbuka Hari Raya" scene is now a general «rumah terbuka» scene. The 13 Raya words stay as recognition; the festival-specific ones («maaf zahir dan batin», «duit raya», «ketupat», «pelita») appear in the «Hari Raya» note, as culture, not as a religious lesson. Six festival words were added with Sam\'s approval (L-1070 to L-1075), and «tuan rumah» and «mari» (L-1080, L-1081) for the host and «Mari makan» («Jom makan» is the spoken form). Greetings (Sam, 12 Nov 2026): «Selamat Hari Raya», «Selamat Tahun Baru Cina» (no «Hari»), «Selamat Hari Deepavali», «Selamat Hari Krismas», «Selamat Hari Gawai» and ‹Selamat Pesta Kaamatan› (from usage, not yet sourced, so it is shown as a quoted form, not as a ledger phrase). Teach both «Tahun Baru Cina» (everyday) and «Tahun Baharu Cina» (official). No faith-specific greeting is taught. Every factual statement in the festival notes has a named source in the key.',
+                   'Open-house scene (Sam, 12 Nov 2026): the old "Rumah terbuka Hari Raya" scene is now a general «rumah terbuka» scene. The 13 Raya words stay as recognition; the festival-specific ones («maaf zahir dan batin», «duit raya», «ketupat», «pelita») appear in the «Hari Raya» note, as culture, not as a religious lesson. Six festival words were added with Sam\'s approval (L-1070 to L-1075), and «tuan rumah» and «mari» (L-1080, L-1081) for the host and «Mari makan» («Jom makan» is the spoken form). Greetings (Sam, 12 Nov 2026): «Selamat Hari Raya», «Selamat Tahun Baru Cina» (no «Hari»), «Selamat Hari Deepavali», «Selamat Hari Krismas», «Selamat Hari Gawai» and «Selamat Pesta Kaamatan» (sourced: Bernama, 30 May 2026; «pesta» is ledger row L-1084). Show the fuller formal ‹Selamat Menyambut Pesta Kaamatan› only as a quotation: it contains a ‹me-› verb. Teach both «Tahun Baru Cina» (everyday) and «Tahun Baharu Cina» (official). No faith-specific greeting is taught. Every factual statement in the festival notes has a named source in the key.',
                    'The 14 idioms in "Simpulan bahasa harian" are for recognition. Give the plain meaning and one example; do not drill them, do not test them as new vocabulary, and do not ask learners to produce them.',
                    'Practice offices, notices, names and times are fictional. No productive ‹ber-› or ‹me-› (chapters 10 and 11). The stage review and the A1 test come after this unit and wait for Sam\'s go-ahead.',
                    'Cumulative question words now include «siapa» with «oleh» (chapters 1 to 9). Chapter 9 adds no new question word.'],

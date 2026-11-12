@@ -635,7 +635,7 @@ def chapter9(ledger):
                 'I can say when a shop or office is «dibuka» or «ditutup» with «pada pukul». / «pada pukul» で店や事務所の開く・閉まる時刻を言える。',
                 'I can read «Dilarang …» and «Sila …» on signs and notices. / 掲示の «Dilarang …»・«Sila …» が読める。'], 'opener'),
             ('Core words · 基本の20語', core(ledger, C9_WORDS) +
-             ['The full unit also teaches the other «di-» verbs («dijual», «dibaca», «ditulis», «diambil», «dipanggil», «dimasak», «dicuci», «disewa»), the sign «Dilarang merokok» (to recognise only), the general «rumah terbuka» scene with a note for each festival, and 14 idioms to recognise.'], 'vocabulary'),
+             ['The full unit also teaches the other «di-» verbs («dijual», «dibaca», «ditulis», «diambil», «dipanggil», «dimasak», «dicuci», «disewa»), the sign «Dilarang merokok» (to recognise only), the door signs «TOLAK» and «TARIK», the notice words «PERHATIAN» and «hingga», the greeting «Selamat Pesta Kaamatan», the general «rumah terbuka» scene with a note for each festival, and 14 idioms to recognise.'], 'vocabulary'),
             ('Key patterns · 文型', [
                 '1 · ___ «dibuat oleh» ___.  e.g. «Kek ini dibuat oleh isteri saya.» / «Kek ini dibuat oleh siapa?»',
                 '2 · ___ «di-»(verb) «di» ___.  e.g. «Nasi lemak ini dibeli di gerai.» / «Dibeli di mana?»',

@@ -399,7 +399,7 @@ class KataKataCleanup(unittest.TestCase):
         doc = (ROOT / 'docs/kata-kata-cleanup.md').read_text()
         rows = list(csv.DictReader((ROOT / 'curriculum/reference/katakata/malay-ledger.csv').open()))
         named = [r['ID'] for r in rows if 'kata-kata' in r['Action (open)'].lower()]
-        self.assertEqual(len(named), 116)
+        self.assertEqual(len(named), 121)
         for lid in named:
             self.assertIn(lid, doc, lid)
         for must in ('ms-c01-009', 'L-0592', 'L-0330', 'ms-c07-024', 'jalan terus', 'kurang suku', 'Rumah terbuka Hari Raya',
