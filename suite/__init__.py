@@ -112,6 +112,14 @@ GRAMMAR.extend([
     dict(id='ms-c08-g06', chapter_id='ms-c08', label='Ordering: tolong, Makan sini atau bungkus?; containers and portions'),
 ])
 
+GRAMMAR.extend([
+    dict(id='ms-c09-g02', chapter_id='ms-c09', label='The passive di- + a root verb: dibuat, dibeli, digoreng; the thing comes first'),
+    dict(id='ms-c09-g03', chapter_id='ms-c09', label='The doer with oleh: dibuat oleh siapa?; leaving the doer out'),
+    dict(id='ms-c09-g04', chapter_id='ms-c09', label='sudah / belum + di- verb; the doer before the verb without di- (Pinggan saya bawa)'),
+    dict(id='ms-c09-g05', chapter_id='ms-c09', label='Hours on signs: dibuka / ditutup pada pukul ___; pada and tadi'),
+    dict(id='ms-c09-g06', chapter_id='ms-c09', label='Signs and notices: Dilarang ___, Sila ___, papan tanda'),
+])
+
 
 # Product and feature names, not Malay text (removed before the unmarked-Malay guard only).
 PRODUCT_NAMES = ['Cikgu, Sensai!', 'Cikgu Sensai', 'Sedia Kelas', 'Tanya Cikgu', 'Kata-Kata', 'Dunia', 'Jambatan',
@@ -120,7 +128,8 @@ PRODUCT_NAMES = ['Cikgu, Sensai!', 'Cikgu Sensai', 'Sedia Kelas', 'Tanya Cikgu',
                  'Sembang di pantri', 'Pagi di pejabat', 'Ke bank dan pejabat pos', 'Pasar pagi',
                  'Satu hari Encik Tanaka', 'Hujan petang', 'Cuti ke pantai', 'Bangun pagi',
                  'Masak nasi goreng', 'Di klinik', 'Gambar bayi', 'Lepak di kedai mamak',
-                 'Main badminton', 'Di ruang tamu', 'Telefon baru', 'Lintas jalan', 'Beli baju']
+                 'Main badminton', 'Di ruang tamu', 'Telefon baru', 'Lintas jalan', 'Beli baju',
+                 'Rumah terbuka Hari Raya', 'Rumah terbuka', 'Simpulan bahasa harian']
 
 
 def strip(s):
@@ -259,9 +268,9 @@ def turns(script):
 
 
 def load_units():
-    from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, ms_c07, ms_c08, fast
+    from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, ms_c07, ms_c08, ms_c09, fast
     return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT,
-                       ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT, ms_c06.UNIT, ms_c07.UNIT, ms_c08.UNIT,
+                       ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT, ms_c06.UNIT, ms_c07.UNIT, ms_c08.UNIT, ms_c09.UNIT,
                        *fast.PACKS] if u]
 
 

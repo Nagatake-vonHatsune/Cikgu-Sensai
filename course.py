@@ -105,7 +105,7 @@ def add_course(lessons, lesson, suite_units=()):
             goal=" ".join(goals),items=list(dict.fromkeys([t for unit in units for t in unit["items"]]+fast_items)),
             units=units,fast_items=fast_items,sequence="stage1",
             authored_units=[dict(unit_id=authored[u["label"]]["unit_id"],blocks=authored[u["label"]]["blocks"]) for u in units if u["label"] in authored],
-            status=("Step 5f chapter 8 suite · draft for pilot" if number==8 else "Step 5e chapter 7 suite · draft for pilot" if number==7 else "Step 5d chapter 6 suite · draft for pilot" if number==6 else "Step 5c chapter 5 suite · draft for pilot" if number==5 else "Step 5b chapter 4 suite · draft for pilot" if number==4 else "Step 5a chapter 3 suite · draft for pilot" if number==3 else "Step 4 pilot suite · draft for Sam to teach and review") if pilot else "Restructure only · existing content awaiting audit corrections"))
+            status=("Step 5g chapter 9 suite · draft for pilot" if number==9 else "Step 5f chapter 8 suite · draft for pilot" if number==8 else "Step 5e chapter 7 suite · draft for pilot" if number==7 else "Step 5d chapter 6 suite · draft for pilot" if number==6 else "Step 5c chapter 5 suite · draft for pilot" if number==5 else "Step 5b chapter 4 suite · draft for pilot" if number==4 else "Step 5a chapter 3 suite · draft for pilot" if number==3 else "Step 4 pilot suite · draft for Sam to teach and review") if pilot else "Restructure only · existing content awaiting audit corrections"))
     future=old["Ambil bungkusan di lobi"]
     future.update(title="Chapter 12 · Ambil bungkusan di lobi",sequence="future",status="Stage 2, not yet active")
     supplementary=[]

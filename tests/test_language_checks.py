@@ -50,7 +50,7 @@ class LanguageChecksTests(unittest.TestCase):
    with self.assertRaisesRegex(ValueError,'New Malay violations'):
     run_checks([],{'components':[],'test_items':[]})
   # A new missing word is deliberately non-blocking under Sam's step 3 policy.
-  with patch('language_checks.collect_segments',return_value=[self.seg('lucu',9,unit='ms-c09')]):
+  with patch('language_checks.collect_segments',return_value=[self.seg('lucu',10,unit='ms-c10')]):
    result=run_checks([],{'components':[],'test_items':[]})
    self.assertTrue(result['ledger_gaps'])
  def test_no_content_or_reference_edits(self):
