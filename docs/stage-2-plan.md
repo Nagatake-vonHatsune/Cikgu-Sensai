@@ -70,4 +70,355 @@ At two blocks a week this is 33.5 teaching weeks, before holidays or extra asses
 
 **Fast course:** exactly one 2–4-page, 45-minute summary pack for each chapter c10–c18, even where the full chapter has two units: **9 blocks / 6.75 hours**. Chapters 10–17 select 15–20 words from that chapter's approved core, key patterns with two examples each, one conversation, task, self-check and exact home sets. Chapter 18 instead recycles 15–20 previously taught words, gives a review task and directs the learner to the separate full assessment. A 45-minute review pack is not the complete four-skill test. Provisional home budget: 9–10 hours per chapter, 81–90 hours total. The fast course does not confer completion by attendance alone.
 
-**Checkpoint:** section 1 complete; sections 2–6 follow in subsequent commits.
+
+## 2. Proposed core word lists and ledger reconciliation
+
+**Counting rule:** one distinct taught surface form or lexical chunk is one item, not one root family. Thus baiki and membaiki are two taught forms of one family, while a previously taught root is revision. This convention yields **235 core forms: 53 existing unplaced rows and 182 proposed new rows**, across 11 units. It is not a claim of 235 unrelated lexemes. Sam must decide whether derived forms become individual rows or approved family mappings before any writes; no future L-ID is reserved here.
+
+Existing-row meanings below are copied from the ledger, including its draft Japanese and band assignments. Those bands describe the source deck, not an automatic difficulty rating for the proposed unit. For example mendaki is band 3 there but explicitly deferred to chapter 11 by Sam. Proposed forms are selected for familiar, short A2 tasks; their existing higher-band scenes must not be unlocked wholesale. All NEW rows and their translations remain proposals pending dictionary and native review; the targeted dictionary checks in section 3 are not a check of every entry.
+
+The section 1 split keeps each unit at 20–40 new forms. Ordinary combinations of known words can be used without new phrase rows; the exceptional proposed chunks here have a specific lexical or pragmatic purpose. Do not create additional rows for every conjugated-looking combination, polite request, pronoun suffix or sentence.
+
+### Unit 10A
+
+| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
+| --- | --- | --- | --- |
+| bekerja | to work | 働く | NEW row proposed; no L-ID allocated |
+| berjalan | to walk | 歩く | NEW row proposed; no L-ID allocated |
+| bercakap | to speak | 話す | NEW row proposed; no L-ID allocated |
+| bermain | to play | 遊ぶ・スポーツをする | NEW row proposed; no L-ID allocated |
+| berehat | to rest | 休む | NEW row proposed; no L-ID allocated |
+| bersenam | to exercise | 運動する | NEW row proposed; no L-ID allocated |
+| berenang | to swim | 泳ぐ | NEW row proposed; no L-ID allocated |
+| berlari | to run | 走る | NEW row proposed; no L-ID allocated |
+| berbasikal | to cycle | 自転車に乗る | NEW row proposed; no L-ID allocated |
+| berjumpa | to meet | 会う | NEW row proposed; no L-ID allocated |
+| berbual | to chat | おしゃべりする | NEW row proposed; no L-ID allocated |
+| beratur | to queue | 列に並ぶ | NEW row proposed; no L-ID allocated |
+| bersarapan | to have breakfast | 朝食をとる | NEW row proposed; no L-ID allocated |
+| bermula | to begin | 始まる | NEW row proposed; no L-ID allocated |
+| berhenti | to stop | 止まる・やめる | NEW row proposed; no L-ID allocated |
+| bersiap | To get ready | 準備する、したくする | L-0807 existing, unplaced; office · band 3 |
+| bersedia | To be ready or prepared (standard form of "sedia") | 準備ができている（「sedia」の標準形） | L-0916 existing, unplaced; tutorial · band 3 |
+| tempat kerja | Workplace | 職場 | L-0657 existing, unplaced; home-condo · band 1 |
+| berlatih | to practise | 練習する | NEW row proposed; no L-ID allocated |
+| rutin | routine | 日課 | NEW row proposed; no L-ID allocated |
+
+**Count: 20 proposed new-to-course core forms: 3 existing unplaced ledger rows + 17 proposed new rows.**
+
+### Unit 10B
+
+| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
+| --- | --- | --- | --- |
+| berumur | to be aged | 〜歳である | NEW row proposed; no L-ID allocated |
+| berkahwin | to be married / get married | 結婚している・結婚する | NEW row proposed; no L-ID allocated |
+| berkeluarga | to have a family | 家庭を持つ | NEW row proposed; no L-ID allocated |
+| berasal | to originate / come from | 〜の出身である | NEW row proposed; no L-ID allocated |
+| bernama | to be named | 〜という名前である | NEW row proposed; no L-ID allocated |
+| bersekolah | to attend school | 学校に通う | NEW row proposed; no L-ID allocated |
+| berkawan | to be friends | 友達になる・付き合う | NEW row proposed; no L-ID allocated |
+| berjiran | To live as neighbours (hidup berjiran = neighbourly living) | 隣同士で暮らす（hidup berjiran＝近所付き合い） | L-0779 existing, unplaced; home-condo · band 3 |
+| berpindah | to move home | 引っ越す | NEW row proposed; no L-ID allocated |
+| bercuti | to be on leave / holiday | 休暇をとる | NEW row proposed; no L-ID allocated |
+| berniaga | to trade / run a business | 商売をする | NEW row proposed; no L-ID allocated |
+| berbelanja | to spend money / shop | お金を使う・買い物をする | NEW row proposed; no L-ID allocated |
+| berkumpul | to gather | 集まる | NEW row proposed; no L-ID allocated |
+| berkenalan | To get to know someone; to be introduced | 知り合いになる、自己紹介し合う | L-0781 existing, unplaced; home-condo · band 3 |
+| berminat | to be interested | 興味がある | NEW row proposed; no L-ID allocated |
+| berpakaian | to wear clothes / be dressed | 服を着ている | NEW row proposed; no L-ID allocated |
+| jiran | Neighbour | 隣人、近所の人 | L-0660 existing, unplaced; home-condo · band 1 |
+| sepupu | Cousin | いとこ | L-0714 existing, unplaced; social · band 1 |
+| pengalaman | experience | 経験 | NEW row proposed; no L-ID allocated |
+| berdua | the two together | 二人で | NEW row proposed; no L-ID allocated |
+
+**Count: 20 proposed new-to-course core forms: 4 existing unplaced ledger rows + 16 proposed new rows.**
+
+### Unit 11A
+
+| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
+| --- | --- | --- | --- |
+| membeli | to buy | 買う | NEW row proposed; no L-ID allocated |
+| membaca | to read | 読む | NEW row proposed; no L-ID allocated |
+| menulis | to write | 書く | NEW row proposed; no L-ID allocated |
+| memasak | to cook | 料理する | NEW row proposed; no L-ID allocated |
+| mengambil | to take / collect | 取る・受け取る | NEW row proposed; no L-ID allocated |
+| membuat | to make / do | 作る・する | NEW row proposed; no L-ID allocated |
+| membuka | to open | 開ける | NEW row proposed; no L-ID allocated |
+| menutup | to close | 閉める | NEW row proposed; no L-ID allocated |
+| membawa | to bring / carry | 持ってくる・運ぶ | NEW row proposed; no L-ID allocated |
+| membayar | to pay | 支払う | NEW row proposed; no L-ID allocated |
+| mencari | to look for | 探す | NEW row proposed; no L-ID allocated |
+| mencuci | to wash | 洗う | NEW row proposed; no L-ID allocated |
+| memanggil | to call someone | 人を呼ぶ | NEW row proposed; no L-ID allocated |
+| menghantar | to send / deliver | 送る・届ける | NEW row proposed; no L-ID allocated |
+| menerima | to receive | 受け取る | NEW row proposed; no L-ID allocated |
+| menjawab | to answer | 答える | NEW row proposed; no L-ID allocated |
+| melihat | to see | 見る | NEW row proposed; no L-ID allocated |
+| mendengar | to hear / listen | 聞く | NEW row proposed; no L-ID allocated |
+| menunggu | to wait | 待つ | NEW row proposed; no L-ID allocated |
+| menjual | to sell | 売る | NEW row proposed; no L-ID allocated |
+
+**Count: 20 proposed new-to-course core forms: 0 existing unplaced ledger rows + 20 proposed new rows.**
+
+### Unit 11B
+
+| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
+| --- | --- | --- | --- |
+| menyewa | to rent as tenant | 借りる | NEW row proposed; no L-ID allocated |
+| melancong | to travel for leisure | 旅行する | NEW row proposed; no L-ID allocated |
+| mendaki | To hike; to climb (a hill) | （山を）登る、ハイキングする | L-0865 existing, unplaced; social · band 3 |
+| menyapu | to sweep | 掃く | NEW row proposed; no L-ID allocated |
+| menyimpan | To keep, to store (standard form of "simpan") | 保管する、取っておく（「simpan」の標準形） | L-0792 existing, unplaced; home-condo · band 3 |
+| menyemak | To check; to review | 確認する、目を通す | L-0819 existing, unplaced; office · band 3 |
+| menukar | to change / exchange | 替える・交換する | NEW row proposed; no L-ID allocated |
+| mengira | to count / calculate | 数える・計算する | NEW row proposed; no L-ID allocated |
+| mengisi | to fill | 記入する・入れる | NEW row proposed; no L-ID allocated |
+| memilih | to choose | 選ぶ | NEW row proposed; no L-ID allocated |
+| meminjam | to borrow | 借りる | NEW row proposed; no L-ID allocated |
+| memesan | to order goods / food | 注文する | NEW row proposed; no L-ID allocated |
+| menolong | to help | 手伝う・助ける | NEW row proposed; no L-ID allocated |
+| mengajar | to teach | 教える | NEW row proposed; no L-ID allocated |
+| mengecat | to paint | ペンキを塗る | NEW row proposed; no L-ID allocated |
+| mengepos | to post / mail | 郵送する | NEW row proposed; no L-ID allocated |
+| draf | A draft | 下書き | L-0680 existing, unplaced; office · band 2 |
+| slaid | Slide (in a presentation) | スライド | L-0696 existing, unplaced; office · band 2 |
+| tarikh akhir | Deadline (formal, written) | 締め切り（あらたまった書き言葉） | L-0849 existing, unplaced; office · band 4 |
+| rancangan | A plan | 計画、予定 | L-0684 existing, unplaced; office · band 1 |
+| semak | check / review (request) | 確認してください | NEW row proposed; no L-ID allocated |
+| mesej | message | メッセージ | NEW row proposed; no L-ID allocated |
+
+**Count: 22 proposed new-to-course core forms: 7 existing unplaced ledger rows + 15 proposed new rows.**
+
+### Unit 12A
+
+| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
+| --- | --- | --- | --- |
+| hantarkan | send / deliver for someone (request) | 送ってあげる・届けてください | NEW row proposed; no L-ID allocated |
+| simpankan | keep for someone (request) | 預かってください | NEW row proposed; no L-ID allocated |
+| ambilkan | get for someone (request) | 取ってきてください | NEW row proposed; no L-ID allocated |
+| belikan | buy for someone (request) | 買ってきてください | NEW row proposed; no L-ID allocated |
+| bawakan | bring for someone (request) | 持ってきてください | NEW row proposed; no L-ID allocated |
+| tutupkan | close for someone (request) | 閉めてください | NEW row proposed; no L-ID allocated |
+| bukakan | open for someone (request) | 開けてください | NEW row proposed; no L-ID allocated |
+| letakkan | put / place (request) | 置いてください | NEW row proposed; no L-ID allocated |
+| pulangkan | return something (request) | 返してください | NEW row proposed; no L-ID allocated |
+| berikan | give (request) | 渡してください | NEW row proposed; no L-ID allocated |
+| tunjukkan | show (request) | 見せてください | NEW row proposed; no L-ID allocated |
+| pastikan | To make sure | 確かめる、必ず〜するようにする | L-0743 existing, unplaced; daily-life · band 3 |
+| pengawal | Security guard | 警備員 | L-0595 existing, unplaced; daily-life · band 2 |
+| unit | Unit; flat (in a condo) | 部屋、住戸 | L-0654 existing, unplaced; home-condo · band 1 |
+| pejabat pengurusan | The (condo) management office | 管理事務所 | L-0650 existing, unplaced; home-condo · band 2 |
+| pondok pengawal | Guardhouse | 守衛所、警備員室 | L-0658 existing, unplaced; home-condo · band 2 |
+| pemilik | Owner | 所有者、オーナー | L-0662 existing, unplaced; home-condo · band 2 |
+| label | label | ラベル | NEW row proposed; no L-ID allocated |
+| penerima | recipient | 受取人 | NEW row proposed; no L-ID allocated |
+| nombor penjejakan | tracking number | 追跡番号 | NEW row proposed; no L-ID allocated |
+| lobi | lobby | ロビー | NEW row proposed; no L-ID allocated |
+| koyak | torn | 破れた | NEW row proposed; no L-ID allocated |
+
+**Count: 22 proposed new-to-course core forms: 6 existing unplaced ledger rows + 16 proposed new rows.**
+
+### Unit 12B
+
+| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
+| --- | --- | --- | --- |
+| baiki | repair (request) | 修理してください | NEW row proposed; no L-ID allocated |
+| membaiki | to repair | 修理する | NEW row proposed; no L-ID allocated |
+| hubungi | contact (request) | 連絡してください | NEW row proposed; no L-ID allocated |
+| menghubungi | To contact | 連絡する | L-0789 existing, unplaced; home-condo · band 3 |
+| tempahan | booking / reservation | 予約 | NEW row proposed; no L-ID allocated |
+| isikan | fill in / put in (request) | 記入してください・入れてください | NEW row proposed; no L-ID allocated |
+| kosongkan | empty / clear (request) | 空にしてください | NEW row proposed; no L-ID allocated |
+| hidupkan | switch on (request) | つけてください | NEW row proposed; no L-ID allocated |
+| matikan | switch off (request) | 消してください | NEW row proposed; no L-ID allocated |
+| bersihkan | clean (request) | きれいにしてください | NEW row proposed; no L-ID allocated |
+| kebocoran | A leak | 水漏れ、漏れ | L-0651 existing, unplaced; home-condo · band 2 |
+| juruteknik | Technician | 技術者、修理の人 | L-0652 existing, unplaced; home-condo · band 2 |
+| paip | Pipe | 配管、パイプ | L-0661 existing, unplaced; home-condo · band 1 |
+| siling | Ceiling | 天井 | L-0649 existing, unplaced; home-condo · band 1 |
+| kontraktor | Contractor | 工事業者、請負業者 | L-0665 existing, unplaced; home-condo · band 2 |
+| slot | Time slot (a booked period of time) | 時間帯、枠 | L-0655 existing, unplaced; home-condo · band 2 |
+| kerosakan | damage / fault | 故障・破損 | NEW row proposed; no L-ID allocated |
+| aduan | complaint / problem report | 苦情・問題の報告 | NEW row proposed; no L-ID allocated |
+| gantikan | replace (request) | 交換してください | NEW row proposed; no L-ID allocated |
+| perlahankan | To lower (the voice); to slow down | （声を）小さくする、ゆっくりにする | L-0871 existing, unplaced; social · band 3 |
+
+**Count: 20 proposed new-to-course core forms: 8 existing unplaced ledger rows + 12 proposed new rows.**
+
+### Unit 13
+
+| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
+| --- | --- | --- | --- |
+| perlu | need / necessary | 必要である | NEW row proposed; no L-ID allocated |
+| patut | should / advisable | 〜したほうがよい | NEW row proposed; no L-ID allocated |
+| wajib | compulsory | 義務である・必須の | NEW row proposed; no L-ID allocated |
+| dibenarkan | allowed | 許可されている | NEW row proposed; no L-ID allocated |
+| larangan | prohibition | 禁止 | NEW row proposed; no L-ID allocated |
+| kebenaran | permission | 許可 | NEW row proposed; no L-ID allocated |
+| nasihat | advice | 助言 | NEW row proposed; no L-ID allocated |
+| alahan | Allergy | アレルギー | L-0633 existing, unplaced; health · band 2 |
+| simptom | Symptom | 症状 | L-0634 existing, unplaced; health · band 2 |
+| sakit tekak | Sore throat | のどの痛み | L-0631 existing, unplaced; health · band 1 |
+| temu janji | Appointment | 予約、約束 | L-0638 existing, unplaced; health · band 2 |
+| farmasi | pharmacy | 薬局 | NEW row proposed; no L-ID allocated |
+| dos | dose | 用量 | NEW row proposed; no L-ID allocated |
+| arahan | instruction | 指示 | NEW row proposed; no L-ID allocated |
+| kesihatan | health | 健康 | NEW row proposed; no L-ID allocated |
+| rawatan | treatment | 治療 | NEW row proposed; no L-ID allocated |
+| elakkan | avoid (request) | 避けてください | NEW row proposed; no L-ID allocated |
+| sesuai | suitable | 適している | NEW row proposed; no L-ID allocated |
+| risiko | risk | 危険性 | NEW row proposed; no L-ID allocated |
+| kecemasan | emergency | 緊急事態 | NEW row proposed; no L-ID allocated |
+| penyambut tetamu | Receptionist | 受付係 | L-0627 existing, unplaced; health · band 2 |
+| bila perlu | When needed | 必要なときに | L-0636 existing, unplaced; health · band 2 |
+| mesti | must | 〜しなければならない | NEW row proposed; no L-ID allocated |
+
+**Count: 23 proposed new-to-course core forms: 6 existing unplaced ledger rows + 17 proposed new rows.**
+
+### Unit 14
+
+| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
+| --- | --- | --- | --- |
+| supaya | so that | 〜するために・〜するように | NEW row proposed; no L-ID allocated |
+| walaupun | although / even though | 〜だけれども | NEW row proposed; no L-ID allocated |
+| jika | if | もし〜なら | NEW row proposed; no L-ID allocated |
+| apabila | when | 〜するとき | NEW row proposed; no L-ID allocated |
+| sambil | while doing | 〜しながら | NEW row proposed; no L-ID allocated |
+| sehingga | until | 〜まで | NEW row proposed; no L-ID allocated |
+| selagi | as long as / while still | 〜している限り | NEW row proposed; no L-ID allocated |
+| namun | however (written) | しかし（書き言葉） | NEW row proposed; no L-ID allocated |
+| oleh itu | therefore | そのため | NEW row proposed; no L-ID allocated |
+| sebaliknya | instead / conversely | その反対に・代わりに | NEW row proposed; no L-ID allocated |
+| akhirnya | finally | 最後に・ついに | NEW row proposed; no L-ID allocated |
+| mula-mula | first / at first | 最初に | NEW row proposed; no L-ID allocated |
+| seterusnya | next | 次に | NEW row proposed; no L-ID allocated |
+| semasa | during / when | 〜の間に | NEW row proposed; no L-ID allocated |
+| sejak | since | 〜以来 | NEW row proposed; no L-ID allocated |
+| tujuan | purpose | 目的 | NEW row proposed; no L-ID allocated |
+| alasan | reason / excuse | 理由・言い訳 | NEW row proposed; no L-ID allocated |
+| pilihan | choice | 選択肢 | NEW row proposed; no L-ID allocated |
+| keputusan | decision / result | 決定・結果 | NEW row proposed; no L-ID allocated |
+| perubahan | change | 変更・変化 | NEW row proposed; no L-ID allocated |
+| jadi | so / therefore | だから・そのため | NEW row proposed; no L-ID allocated |
+
+**Count: 21 proposed new-to-course core forms: 0 existing unplaced ledger rows + 21 proposed new rows.**
+
+### Unit 15
+
+| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
+| --- | --- | --- | --- |
+| hilang | lost / missing | なくなった | NEW row proposed; no L-ID allocated |
+| ciri | feature | 特徴 | NEW row proposed; no L-ID allocated |
+| berjalur | striped | しま模様の | NEW row proposed; no L-ID allocated |
+| berbintik | spotted | 斑点のある | NEW row proposed; no L-ID allocated |
+| berzip | having a zip | ファスナー付きの | NEW row proposed; no L-ID allocated |
+| berlengan | having sleeves | 袖のある | NEW row proposed; no L-ID allocated |
+| pemegang | handle | 取っ手 | NEW row proposed; no L-ID allocated |
+| tali | strap / cord | ひも・ストラップ | NEW row proposed; no L-ID allocated |
+| poket | pocket | ポケット | NEW row proposed; no L-ID allocated |
+| dompet | wallet | 財布 | NEW row proposed; no L-ID allocated |
+| beg tangan | Hand luggage (also: handbag) | 手荷物、ハンドバッグ | L-0623 existing, unplaced; daily-life · band 2 |
+| kulit | Leather; also skin | 革；皮膚 | L-0618 existing, unplaced; daily-life · band 2 |
+| tanda harga | Price tag | 値札 | L-0622 existing, unplaced; daily-life · band 2 |
+| nombor plat | Car number plate | 車のナンバー（ナンバープレート） | L-0591 existing, unplaced; daily-life · band 2 |
+| bentuk | shape | 形 | NEW row proposed; no L-ID allocated |
+| bulat | round | 丸い | NEW row proposed; no L-ID allocated |
+| segi empat | quadrilateral / four-sided shape | 四角形 | NEW row proposed; no L-ID allocated |
+| segi tiga | triangle | 三角形 | NEW row proposed; no L-ID allocated |
+| jalur | stripe | しま | NEW row proposed; no L-ID allocated |
+| zip | zip / zipper | ファスナー | NEW row proposed; no L-ID allocated |
+| seperti | like / such as | 〜のような | NEW row proposed; no L-ID allocated |
+
+**Count: 21 proposed new-to-course core forms: 4 existing unplaced ledger rows + 17 proposed new rows.**
+
+### Unit 16
+
+| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
+| --- | --- | --- | --- |
+| terjatuh | to fall accidentally | うっかり落ちる・転ぶ | NEW row proposed; no L-ID allocated |
+| tertinggal | To be left behind by accident | （うっかり）置き忘れる | L-0619 existing, unplaced; daily-life · band 2 |
+| terlupa | To forget (by accident) | うっかり忘れる | L-0644 existing, unplaced; health · band 2 |
+| tertidur | to fall asleep unintentionally | うっかり寝てしまう | NEW row proposed; no L-ID allocated |
+| terlepas | To miss (a bus, a chance) | （バスやチャンスを）逃す、乗り遅れる | L-0621 existing, unplaced; daily-life · band 2 |
+| tersilap | To be mistaken; to get something wrong (by accident) | 間違える、間違いが起きる（うっかり） | L-0752 existing, unplaced; daily-life · band 3 |
+| tertumpah | to spill accidentally | こぼれてしまう | NEW row proposed; no L-ID allocated |
+| terlanggar | to bump into accidentally | うっかりぶつかる | NEW row proposed; no L-ID allocated |
+| terkunci | locked / accidentally locked | 鍵がかかっている・かかってしまう | NEW row proposed; no L-ID allocated |
+| tercedera | injured | けがをする | NEW row proposed; no L-ID allocated |
+| tergelincir | to slip | 滑る | NEW row proposed; no L-ID allocated |
+| terbakar | burnt / on fire | 燃える・焼ける | NEW row proposed; no L-ID allocated |
+| terputus | cut off / disconnected | 切れてしまう・途切れる | NEW row proposed; no L-ID allocated |
+| tersangkut | Stuck (in traffic or somewhere) | （渋滞などで）身動きがとれない | L-0875 existing, unplaced; social · band 3 |
+| tidak sengaja | By accident; not on purpose | うっかり、わざとではなく | L-0758 existing, unplaced; daily-life · band 4 |
+| kemalangan | accident | 事故 | NEW row proposed; no L-ID allocated |
+| kecederaan | injury | けが | NEW row proposed; no L-ID allocated |
+| luka | wound | 傷 | NEW row proposed; no L-ID allocated |
+| lebam | bruise | あざ | NEW row proposed; no L-ID allocated |
+| bengkak | swollen | 腫れた | NEW row proposed; no L-ID allocated |
+| licin | slippery | 滑りやすい | NEW row proposed; no L-ID allocated |
+| pecah | broken / shattered | 割れた | NEW row proposed; no L-ID allocated |
+| tumpah | spill / spilled | こぼれる | NEW row proposed; no L-ID allocated |
+| ganti | To replace; to stand in for someone | 代わりをする、代わる | L-0698 existing, unplaced; office · band 2 |
+
+**Count: 24 proposed new-to-course core forms: 7 existing unplaced ledger rows + 17 proposed new rows.**
+
+### Unit 17
+
+| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
+| --- | --- | --- | --- |
+| kat | at / in (spoken, standard di) | 〜で・〜に（話し言葉） | NEW row proposed; no L-ID allocated; spoken |
+| kan | confirmation-seeking particle (spoken) | 〜でしょう・〜よね（話し言葉） | NEW row proposed; no L-ID allocated; spoken |
+| lah | discourse particle (spoken, tone-dependent) | 語調を調整する助詞（話し言葉・文脈による） | NEW row proposed; no L-ID allocated; spoken |
+| ajak | To invite along; to ask someone to come (informal) | （気軽に）誘う | L-0689 existing, unplaced; office · band 1 |
+| sudi | To be willing; glad to (polite) | 喜んで〜する（ていねい） | L-0828 existing, unplaced; office · band 3 |
+| lapang | Free (not busy) | 手が空いている、暇な | L-0656 existing, unplaced; home-condo · band 2 |
+| setuju | agree | 賛成する | NEW row proposed; no L-ID allocated |
+| menolak | decline / reject | 断る | NEW row proposed; no L-ID allocated |
+| pelawaan | invitation | 誘い | NEW row proposed; no L-ID allocated |
+| cadangan | suggestion | 提案 | NEW row proposed; no L-ID allocated |
+| segan | hesitant / shy | 遠慮する・気が引ける | NEW row proposed; no L-ID allocated |
+| sayangnya | what a pity | 残念なことに | NEW row proposed; no L-ID allocated |
+| malangnya | Unfortunately | 残念ながら、あいにく | L-0787 existing, unplaced; home-condo · band 3 |
+| lain kali | another time | また今度 | NEW row proposed; no L-ID allocated |
+| tidak mengapa | it is all right / never mind | 大丈夫・かまわない | NEW row proposed; no L-ID allocated |
+| macam tu | like that (spoken, standard seperti itu) | そんなふうに（話し言葉） | NEW row proposed; no L-ID allocated; spoken |
+| tak tahan | Can't handle; can't stand (informal) | 耐えられない、苦手だ（くだけた言い方） | L-0690 existing, unplaced; office · band 2; spoken |
+| set | "Deal!" / "Agreed!" (everyday speech) | 「決まり！」（日常の話し言葉） | L-0703 existing, unplaced; social · band 1; spoken |
+| belanja | To treat someone (pay for them) | おごる、ごちそうする | L-0717 existing, unplaced; social · band 2 |
+| singgah | To drop in; to stop by | 立ち寄る | L-0748 existing, unplaced; daily-life · band 3 |
+| ni | this (spoken, standard ini) | これ・この（話し言葉） | NEW row proposed; no L-ID allocated; spoken |
+| tu | that (spoken, standard itu) | それ・その（話し言葉） | NEW row proposed; no L-ID allocated; spoken |
+
+**Count: 22 proposed new-to-course core forms: 8 existing unplaced ledger rows + 14 proposed new rows.**
+
+### Chapter 18: no new core list
+
+Reuse the approved chapters 10–17 inventory and Stage 1 dependencies. Its fast pack selects 15–20 revision forms across the five themes; the full test does not introduce unknown words. Core 0, recognition 0, revision selected by the assessment item map.
+
+### Revision · 復習, recognition and deferred candidates
+
+These are deliberately outside the new-core totals. A teacher may activate recognition vocabulary for production without pretending it is a new lexical introduction. The final suites must list only revision items actually used in their scenes, following the unit 7/8 standard.
+
+| Chapter | Minimum revision anchor set (existing ledger rows) | Recognition / scope decision |
+| --- | --- | --- |
+| 10 | kerja L-0065; jalan L-0321; cakap L-0473; main L-0074; belajar L-0069; hujung minggu L-0702 | belajar is an existing whole-word exception, not NEW. L-1045 duplicates hujung minggu and must not supply another core item. No new recognition pool proposed. |
+| 11 | baca L-0474; tulis L-0475; ambil L-0481; buat L-1076; masak L-1023; sewa L-1051; cuci L-1078; panggil L-1077 | Deferred forms: memasak/membuat in 11A; menyewa/melancong/mendaki in 11B. menaiki and other -i families wait for 12 or later. |
+| 12 | tolong L-0375; bungkusan L-0430; kotak L-0359; pintu L-0565; simpan L-0529; isi L-0420; chapter 11 menghantar, menyimpan, menyemak, mesej | L-0608 nombor tracking: optional spoken recognition only, after new standard nombor penjejakan; existing row, not core. L-0666 lobi lif can be understood compositionally after lobi; no duplicate core count. |
+| 13 | tidak/tak L-0030; bukan L-0130; belum L-0194; jangan L-1062; boleh L-0076; rehat L-0417; dilarang L-0397 | mesti is on the root allow-list but has no exact ledger row: genuinely NEW, not permission supplied by that allow-list. No diagnosis or dosage advice is authored. |
+| 14 | kerana L-1050; sebab L-0688; kalau L-0341; sebelum L-1002; selepas L-1001; tetapi/tapi L-0215 | These are already taught, so the new work is connecting clauses. jadi has no exact row and is proposed here, not silently assumed earlier. |
+| 15 | yang L-0212; kenapa L-1009; bila L-1007; yang mana L-0279; corak L-0511; chapter 12 pemilik | pemiliknya is revision via -nya, not a new word. All earlier question words return. No accidental ter- introduced a chapter early. |
+| 16 | termurah L-0275; terbaik L-0277; maaf L-0018; chapter 12 aduan/kerosakan; chapter 13 symptom terms | Contrast superlatives with event/state ter-. Other ter- meanings and idioms wait; do not infer meaning merely from a prefix. |
+| 17 | tidak/tak L-0030; mahu/nak L-0213; sudah/dah L-0193; sedikit/sikit L-0216; sahaja/saja L-1000; tetapi/tapi L-0215; macam mana L-0211; pun L-0983; jom L-0075; jemput L-0541; betul ke? L-0944 | These spoken forms and chunks are systematised, not counted new. ni/tu are NEW rows even though the register checker already names them. Other regional forms are excluded. |
+| 18 | All earlier chapters as required by the item map | No vocabulary inflation to meet a teaching-unit minimum. |
+
+**Core totals by chapter:** 10 = 40; 11 = 42; 12 = 42; 13 = 23; 14 = 21; 15 = 21; 16 = 24; 17 = 22; 18 = 0. Total 235. Optional new-to-course recognition: one existing row, L-0608, at chapter 12; never tested as new core. Revision counts will follow actual scene usage, not an invented total before authoring.
+
+### Existing parcel pack: move and re-author, not relabel
+
+Read `curriculum/foundation.txt` and `curriculum/foundation-guided.txt`, “Ambil bungkusan di lobi”. Its existing dialogue leads with nak/dah and includes tak/ni, unplaced vocabulary, and jadi/perlu before their proposed chapters. Plan a chapter 12 adaptation whose standard model begins “Saya mahu ambil bungkusan. Sudah sampai?” and uses the learned request forms. Use “Boleh tunjukkan mesej?” rather than the later modal perlu; omit jadi until chapter 14; use ini rather than ni; use baik instead of adding elok solely for one line. semak and mesej enter 11B; lobi, unit, pengawal, label and koyak enter 12A. Keep the wrong-unit/torn-label change of plan and a clear successful collection outcome. Fictional condo procedures only.
+
+The exact legacy script is not approved for chapter 12 just because its title is linked. Remove or revise every out-of-scope line in both ordinary and guided versions, then retire the superseded listing while preserving provenance. No migration happens in this planning batch.
+
+**Selection exclusions:** no religious expressions or ceremonies, no blanket import of higher-band Hanashishou vocabulary, no Indonesian substitutions, no new etymologies. Existing rows such as L-0853 akad nikah and L-0643 puasa are not proposed; any religious scene requires Sam's separate decision. Medical vocabulary is for reporting and understanding professional instructions, not treatment guidance.
+
+**Checkpoint:** sections 1–2 complete; sections 3–6 follow.
