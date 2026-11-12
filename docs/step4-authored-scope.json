@@ -75894,5 +75894,648 @@
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|0|0": {
+  "source_text": "第8章速習：45分で基本の20語、数＋助数詞＋名詞、seekor・sebiji・sebuah、Berapa biji?、Tolong bungkus・Makan sini atau bungkus? を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
+  "target_spans": [
+   "seekor",
+   "sebiji",
+   "sebuah",
+   "Berapa biji?",
+   "Tolong bungkus",
+   "Makan sini atau bungkus?"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|2|0": {
+  "source_text": "Chapter 8 in one 45-minute session: 20 core words, number + counter + noun, seekor, sebiji and sebuah, Berapa biji?, Tolong bungkus and Makan sini atau bungkus?; then self-study in Kata-Kata. All stalls, prices and names are fictional.",
+  "target_spans": [
+   "seekor",
+   "sebiji",
+   "sebuah",
+   "Berapa biji?",
+   "Tolong bungkus",
+   "Makan sini atau bungkus?"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|0": {
+  "source_text": "I can say how many of something I want with a number, a counter and the noun. / 数・助数詞・名詞でほしい数が言える。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|3|1": {
+  "source_text": "I can use seekor, sebiji and sebuah, and satu + counter for the rest. / seekor・sebiji・sebuah と、ほかは satu ＋ 助数詞が使える。",
+  "target_spans": [
+   "seekor",
+   "sebiji",
+   "sebuah",
+   "satu",
+   "seekor",
+   "sebiji",
+   "sebuah",
+   "satu"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|2": {
+  "source_text": "I can ask Berapa biji? and the price of one and of everything. / Berapa biji? と、1つと全部の値段がたずねられる。",
+  "target_spans": [
+   "Berapa biji?",
+   "Berapa biji?"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|3": {
+  "source_text": "I can order Tolong bungkus … and answer Makan sini atau bungkus?. / Tolong bungkus … と注文し、Makan sini atau bungkus? に答えられる。",
+  "target_spans": [
+   "Tolong bungkus …",
+   "Makan sini atau bungkus?",
+   "Tolong bungkus …",
+   "Makan sini atau bungkus?"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|4": {
+  "source_text": "■ Core words · 基本の20語",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|3|5": {
+  "source_text": "ekor — counter: animals (lit. tail) · 〜匹・〜頭・〜羽  [L-0343]",
+  "target_spans": [
+   "ekor"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|6": {
+  "source_text": "biji — counter: small round things (lit. seed) · 〜個  [L-0344]",
+  "target_spans": [
+   "biji"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|7": {
+  "source_text": "batang — counter: long thin things (lit. stem) · 〜本  [L-0345]",
+  "target_spans": [
+   "batang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|8": {
+  "source_text": "helai — counter: thin sheets, clothing, hair (lit. strand) · 〜枚・〜本（髪）  [L-0346]",
+  "target_spans": [
+   "helai"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|9": {
+  "source_text": "pasang — counter: pairs · 〜足・〜組  [L-0350]",
+  "target_spans": [
+   "pasang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|10": {
+  "source_text": "bungkus — counter: packets, takeaway packs; to wrap · 〜包み；包む・持ち帰り  [L-0353]",
+  "target_spans": [
+   "bungkus"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|11": {
+  "source_text": "cawan — counter: cups · 〜杯  [L-0354]",
+  "target_spans": [
+   "cawan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|12": {
+  "source_text": "pinggan — counter: plates · 〜皿  [L-0355]",
+  "target_spans": [
+   "pinggan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|13": {
+  "source_text": "botol — counter: bottles · 〜本（瓶）  [L-0357]",
+  "target_spans": [
+   "botol"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|14": {
+  "source_text": "kotak — counter: boxes · 〜箱  [L-0359]",
+  "target_spans": [
+   "kotak"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|15": {
+  "source_text": "seekor — one (animal) · 1匹  [L-0360]",
+  "target_spans": [
+   "seekor"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|16": {
+  "source_text": "sebiji — one (small round thing) · 1個  [L-0361]",
+  "target_spans": [
+   "sebiji"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|17": {
+  "source_text": "sebuah — one (large / general object) · 1台・1軒  [L-0362]",
+  "target_spans": [
+   "sebuah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|18": {
+  "source_text": "ayam — chicken · 鶏  [L-0364]",
+  "target_spans": [
+   "ayam"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|19": {
+  "source_text": "telur — egg · 卵  [L-0365]",
+  "target_spans": [
+   "telur"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|20": {
+  "source_text": "pen — pen · ペン  [L-0366]",
+  "target_spans": [
+   "pen"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|21": {
+  "source_text": "bunga — flower · 花  [L-0370]",
+  "target_spans": [
+   "bunga"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|22": {
+  "source_text": "semua — all, everything · 全部  [L-0374]",
+  "target_spans": [
+   "semua"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|23": {
+  "source_text": "tolong — please (help me) · 〜してください  [L-0375]",
+  "target_spans": [
+   "tolong"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|24": {
+  "source_text": "Makan sini atau bungkus? — Eat here or take away? · 店内ですか、持ち帰りですか  [L-0376]",
+  "target_spans": [
+   "Makan sini atau bungkus?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|3|25": {
+  "source_text": "The full unit also teaches the other counters (keping, pucuk, kuntum, ulas, naskhah), the bowls, tins and boxes, and the things counted.",
+  "target_spans": [
+   "keping",
+   "pucuk",
+   "kuntum",
+   "ulas",
+   "naskhah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|0": {
+  "source_text": "1 · Saya mahu (number) (counter) (noun).  e.g. Saya mahu dua ekor ikan. / Saya mahu tiga batang pen.",
+  "target_spans": [
+   "Saya mahu",
+   "Saya mahu dua ekor ikan.",
+   "Saya mahu tiga batang pen."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|1": {
+  "source_text": "2 · seekor / sebiji / sebuah (noun). / satu (counter) (noun).  e.g. Saya ada seekor kucing. / Satu helai baju, tolong.",
+  "target_spans": [
+   "seekor",
+   "sebiji",
+   "sebuah",
+   "satu",
+   "Saya ada seekor kucing.",
+   "Satu helai baju, tolong."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|2": {
+  "source_text": "3 · Berapa (counter) (noun)?  e.g. Berapa biji telur? / Sepuluh biji.",
+  "target_spans": [
+   "Berapa",
+   "Berapa biji telur?",
+   "Sepuluh biji."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|3": {
+  "source_text": "4 · (price) ringgit satu (counter).  e.g. Berapa harga semua? / Lima ringgit satu kuntum.",
+  "target_spans": [
+   "ringgit",
+   "satu",
+   "Berapa harga semua?",
+   "Lima ringgit satu kuntum."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|4": {
+  "source_text": "5 · Tolong bungkus (number) (food). / Makan sini atau bungkus?  e.g. Makan sini atau bungkus? / Tolong bungkus dua roti canai.",
+  "target_spans": [
+   "Tolong bungkus",
+   "Makan sini atau bungkus?",
+   "Makan sini atau bungkus?",
+   "Tolong bungkus dua roti canai."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|5": {
+  "source_text": "Remember: the counter sits between the number and the noun and never changes. Only seekor, sebiji and sebuah are fused with satu; use satu + counter for every other. At a stall people often drop the counter (dua teh tarik): that is everyday speech.",
+  "target_spans": [
+   "seekor",
+   "sebiji",
+   "sebuah",
+   "satu",
+   "satu",
+   "dua teh tarik"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|6": {
+  "source_text": "助数詞は数と名詞のあいだに置き、形は変わりません。satu とひとつになるのは seekor・sebiji・sebuah だけで、ほかは satu ＋ 助数詞です。屋台では助数詞を落として dua teh tarik と言うこともあり、これは日常の話し言葉です。",
+  "target_spans": [
+   "satu",
+   "seekor",
+   "sebiji",
+   "sebuah",
+   "satu",
+   "dua teh tarik"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|7": {
+  "source_text": "■ Model conversation · 会話 (fictional)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|4|8": {
+  "source_text": "Ali: Selamat pagi, encik. Encik mahu apa?",
+  "target_spans": [
+   "Selamat pagi, encik. Encik mahu apa?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|9": {
+  "source_text": "Tanaka: Ikan ini berapa seekor?",
+  "target_spans": [
+   "Ikan ini berapa seekor?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|10": {
+  "source_text": "Ali: Lapan ringgit seekor. Telur lima puluh sen sebiji.",
+  "target_spans": [
+   "Lapan ringgit seekor. Telur lima puluh sen sebiji."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|11": {
+  "source_text": "Tanaka: Saya mahu dua ekor ikan dan sepuluh biji telur.",
+  "target_spans": [
+   "Saya mahu dua ekor ikan dan sepuluh biji telur."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|12": {
+  "source_text": "Ali: Ayam juga? Ayam besar, empat belas ringgit seekor.",
+  "target_spans": [
+   "Ayam juga? Ayam besar, empat belas ringgit seekor."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|13": {
+  "source_text": "Tanaka: Ya, seekor ayam. Berapa harga semua?",
+  "target_spans": [
+   "Ya, seekor ayam. Berapa harga semua?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|14": {
+  "source_text": "Ali: Semua tiga puluh lima ringgit.",
+  "target_spans": [
+   "Semua tiga puluh lima ringgit."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|15": {
+  "source_text": "Tanaka: Tolong bungkus ikan dan ayam, ya.",
+  "target_spans": [
+   "Tolong bungkus ikan dan ayam, ya."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|16": {
+  "source_text": "Ali: Baik. Terima kasih, encik.",
+  "target_spans": [
+   "Baik. Terima kasih, encik."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|17": {
+  "source_text": "Tanaka: Sama-sama, Pak cik.",
+  "target_spans": [
+   "Sama-sama, Pak cik."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|18": {
+  "source_text": "■ Task · タスク",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|4|19": {
+  "source_text": "A: You are at a mamak stall (fictional). Order one plate of mi goreng and one teh tarik to eat here and three roti canai to take away. Ask the total.",
+  "target_spans": [
+   "mamak",
+   "mi goreng",
+   "teh tarik",
+   "roti canai"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|20": {
+  "source_text": "B: You work at the stall. Ask Makan sini atau bungkus?, repeat the order and give the total (invented prices).",
+  "target_spans": [
+   "Makan sini atau bungkus?"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|4|21": {
+  "source_text": "Change of plan: A says Dua orang kawan datang. Dua cawan teh tarik lagi, tolong. B gives the new total.",
+  "target_spans": [
+   "Dua orang kawan datang. Dua cawan teh tarik lagi, tolong."
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|5|0": {
+  "source_text": "A：ママックの店で、ミー・ゴレン1皿とテ・タリック1杯は店内、ロティ・チャナイ3枚は持ち帰りで注文し、合計をたずねます。変更：Aが Dua orang kawan datang. Dua cawan teh tarik lagi, tolong. と言い、Bが新しい合計を言います。",
+  "target_spans": [
+   "Dua orang kawan datang. Dua cawan teh tarik lagi, tolong."
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|5|1": {
+  "source_text": "■ Self-check · できるチェック",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|5|2": {
+  "source_text": "☐ 1. Say \"I want two fish.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|5|3": {
+  "source_text": "☐ 2. Say \"One cat.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|5|4": {
+  "source_text": "☐ 3. Ask \"How many eggs?\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|5|5": {
+  "source_text": "☐ 4. Ask \"How much for everything?\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|5|6": {
+  "source_text": "☐ 5. Say \"Please wrap three roti canai.\": ____________________",
+  "target_spans": [
+   "roti canai"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|5|7": {
+  "source_text": "■ Self-study guide · 自習ガイド",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|5|8": {
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c08 (13 cards, frames ms-c08-f01 and ms-c08-f02).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|5|9": {
+  "source_text": "After the session: all 43 Kata-Kata chapter 8 cards (ms-c08-001 to ms-c08-043) and frames ms-c08-f01 to ms-c08-f05 in the frame drill and Susun Ayat; the Kata-Kata scenario uses nasi lemak, which is not in the ledger, so the fast pack uses roti canai.",
+  "target_spans": [
+   "roti canai"
+  ],
+  "mention_spans": [
+   "nasi lemak"
+  ],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|5|10": {
+  "source_text": "Dunia scene (recognise only): \"Beli baju\" (11 words).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|5|11": {
+  "source_text": "Optional full-course Cikgu Sensai unit: unit 8 (counters).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|5|12": {
+  "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|5|13": {
+  "source_text": "授業後：第8章のカードと Dunia の場面を復習しましょう。自習の目安は約9〜10時間です。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|6|0": {
+  "source_text": "Self-check: 1 Saya mahu dua ekor ikan. 2 Seekor kucing. (or Satu ekor kucing.) 3 Berapa biji telur? 4 Berapa harga semua? 5 Tolong bungkus tiga roti canai.",
+  "target_spans": [
+   "Saya mahu dua ekor ikan.",
+   "Seekor kucing.",
+   "Satu ekor kucing.",
+   "Berapa biji telur?",
+   "Berapa harga semua?",
+   "Tolong bungkus tiga roti canai."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Chapter 8 · Fast-course summary pack|6|1": {
+  "source_text": "Session plan (45 min): 0–5 recall chapter 7 (ask the way to the market); 5–15 core words by theme; 15–25 patterns 1 to 5; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 8 · Fast-course summary pack|6|2": {
+  "source_text": "Same content and ledger limits as unit 8. All Japanese is a draft awaiting native review.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
  }
 }

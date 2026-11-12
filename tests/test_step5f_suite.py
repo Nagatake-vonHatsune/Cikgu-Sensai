@@ -13,7 +13,7 @@ import unittest
 from pathlib import Path
 
 from suite import Ledger, build_suite, malay_words, english_words
-from suite import ms_c08
+from suite import ms_c08, fast
 from catalogue import make_catalogue
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -76,7 +76,7 @@ class Chapter8Minimums(unittest.TestCase):
 
     def all_lines(self, units=None):
         out = []
-        for u in units or [self.u]:
+        for u in units or [self.u, 'ms-c08-fast']:
             for l in self.by_unit[u]:
                 out += [x for _, items, _ in l['sections'] for x in items] + l['key']
                 for t in l['suite']['tests']:
@@ -388,7 +388,7 @@ class Chapter8Minimums(unittest.TestCase):
 
     def test_chapter8_malay_rules(self):
         label = re.compile(r'spoken|speech|話し言葉|口語', re.I)
-        everything = self.by_unit[self.u]
+        everything = self.by_unit[self.u] + self.by_unit.get('ms-c08-fast', [])
         for l in everything:
             lines = [x for _, items, _ in l['sections'] for x in items] + l['key']
             for line in lines:
@@ -442,6 +442,35 @@ class Chapter8Minimums(unittest.TestCase):
         opener = next(l for l in self.by_unit[self.u] if l['suite']['component_type'] == 'Opener')
         self.assertIn('Sedia Kelas c08 (13 cards, frames ms-c08-f01 and ms-c08-f02)', ' '.join(self.lines(opener)))
 
+    def test_fast_pack(self):
+        self.assertIn('ms-c08-fast', self.by_unit)
+        l = self.by_unit['ms-c08-fast'][0]
+        self.assertEqual(l['suite']['course_path'], 'fast')
+        core = [x for x in self.lines(l, 'Core words') if re.search(r'\[L-\d{4}\]$', x)]
+        self.assertTrue(15 <= len(core) <= 20)
+        self.assertTrue(set(fast.C8_WORDS) <= set(self.cfg['core']))
+        labels = ' '.join(n for n, _, _ in l['sections'])
+        for part in ('Can-do', 'Core words', 'Key patterns', 'Model conversation', 'Task', 'Self-check', 'Self-study'):
+            self.assertIn(part, labels)
+        for line in self.lines(l, 'Key patterns'):
+            if re.match(r'^\d · ', line):
+                self.assertEqual(line.split('e.g.')[1].count(' / '), 1, line)
+        self.assertTrue(10 <= len(self.lines(l, 'Model conversation')) <= 16)
+        n_check = sum(x.startswith('☐') for x in self.lines(l, 'Self-check'))
+        self.assertEqual(n_check, 5)
+        self.assertTrue(all(f'{i} «' in l['key'][0] for i in range(1, n_check + 1)))
+        page = {x['title']: x for x in bank()}[l['title']]
+        count = len(page['pages']) - 3 - page.get('key_pages', 1)
+        self.assertTrue(2 <= count <= 4, count)
+        chapters = json.loads((ROOT / 'dist/chapters.js').read_text()[len('const chapters='):-1])
+        ch8 = next(c for c in chapters if c['title'].startswith('Chapter 8'))
+        self.assertIn(l['title'], ch8['fast_items'])
+        self.assertEqual(ch8['status'], 'Step 5f chapter 8 suite · draft for pilot')
+        guide = ' '.join(self.lines(l, 'Self-study'))
+        self.assertIn('Sedia Kelas c08', guide)
+        self.assertIn(CLOTHES, guide)
+        self.assertIn('ms-c08-001 to ms-c08-043', guide)
+
     def test_catalogue_and_registration(self):
         chapters = json.loads((ROOT / 'dist/chapters.js').read_text()[len('const chapters='):-1])
         ch8 = next(c for c in chapters if c['title'].startswith('Chapter 8'))
@@ -452,9 +481,10 @@ class Chapter8Minimums(unittest.TestCase):
         self.assertTrue(all(c['chapter_id'] == 'ms-c08' and c['review_status'] == 'draft' for c in mine))
         exceptions = json.loads((ROOT / 'curriculum/legacy-exceptions.json').read_text())
         self.assertEqual(len(exceptions), 30)
-        self.assertFalse([k for k, e in exceptions.items() if e['unit'] == self.u])
+        self.assertFalse([k for k, e in exceptions.items() if e['unit'] in (self.u, 'ms-c08-fast')])
         reauthored = json.loads((ROOT / 'curriculum/reauthored-units.json').read_text())
-        self.assertIn(self.u, reauthored)
+        for unit in (self.u, 'ms-c08-fast'):
+            self.assertIn(unit, reauthored)
         # Chapter 7 is untouched: its writing block is registered.
         block = next(b for b in catalogue['additional_blocks'] if b['id'] == 'ms-stage1-writing-7')
         self.assertEqual(block['component_ids'], ['ms-c07-writing-block'])
