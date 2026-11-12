@@ -192,7 +192,7 @@ Stage 1 is Sam's nine chapters, unchanged in order and scope. Kata-Kata already 
 | 6 | 34 | Main badminton | Comparisons and superlatives | sama and se-, sangat, terlalu, ter- |
 | 7 | 49 | Lintas jalan, Di ruang tamu, Telefon baru | Asking where, Directions and orientation | Transport, distance and duration |
 | 8 | 43 | Beli baju | None | The whole chapter |
-| 9 | 30 | Rumah terbuka Hari Raya, Simpulan bahasa harian | None | The whole chapter |
+| 9 | 30 | Rumah terbuka (general open house), Simpulan bahasa harian | None | The whole chapter |
 
 Cikgu Sensai currently runs these units in a different order (location and directions before adjectives) and labels units 10 to 13 as A2 by position alone. Under this charter all nine chapters are A1, in Sam's order.
 
