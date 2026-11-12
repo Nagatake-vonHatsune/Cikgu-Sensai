@@ -128,3 +128,85 @@ PACKS = [
          course_path='fast', prerequisites=['ms-c01'], prerequisite_units=[], prereq_grammar=['ms-c01-g02', 'ms-c01-g04'],
          word_scope=C2_WORDS, components=chapter2),
 ]
+
+
+# Step 5a: chapter 3 fast course (single 45-minute class).
+# Only a digest of the same chapter 3 words and patterns, not an extra word set.
+C3_WORDS = ['L-0099', 'L-0100', 'L-0101', 'L-0109', 'L-0116', 'L-0117',
+            'L-0118', 'L-0119', 'L-0120', 'L-0123', 'L-0125', 'L-0127',
+            'L-0131', 'L-0132', 'L-0134', 'L-0135', 'L-0138', 'L-0143',
+            'L-0148', 'L-0154']
+
+
+def chapter3(ledger):
+    dialogue = [
+        ('Aini', '«Selamat pagi, Encik Tanaka. Berapa umur encik?»'),
+        ('Tanaka', '«Umur saya tiga puluh lima tahun.»'),
+        ('Aini', '«Nombor telefon encik?»'),
+        ('Tanaka', '«Kosong satu dua, tiga empat lima enam.»'),
+        ('Aini', '«Berapa harga mangga ini?»'),
+        ('Tanaka', '«Harganya lapan ringgit lima puluh sen.»'),
+        ('Aini', '«Saya bayar tunai. Ini sepuluh ringgit.»'),
+        ('Tanaka', '«Baki satu ringgit lima puluh sen.»'),
+        ('Aini', '«Diskaun dua puluh peratus?»'),
+        ('Tanaka', '«Bukan, harga ini lapan ringgit lima puluh sen.»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=['ms-c03-g02','ms-c03-g03','ms-c03-g04','ms-c03-g05','ms-c03-g06','ms-c03-g07'],
+        patterns=['ms-c03-f01','ms-c03-f02','ms-c03-f03','ms-c03-f04','ms-c03-f05','ms-c03-f06','ms-c03-f07'],
+        goal='Use numbers for ages, phone digits, fictional prices, ordinal positions and basic fractions or measures.',
+        explain=('第3章速習：45分で主要20語と文型を練習します。価格と電話番号は架空のものです。日本語は未監修です。',
+                 'Chapter 3 in one 45-minute lesson: 20 priority words, key patterns, a conversation, a practical task and self-study. All numerical practice prices and phone numbers are fictional.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can ask and give an age and a fictional telephone number.',
+                'I can ask and pay a fictional price in ringgit and sen, and verify change.',
+                'I can distinguish first, second, and third, and recognise fractions and percentages.',
+                'I can recognise basic measurements in metres or kilograms.'], 'opener'),
+            ('Core words · 基本の20語', core(ledger,C3_WORDS), 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · «Berapa harga» ___ ?  e.g. «Berapa harga epal?» / «Berapa harga pisang?»',
+                '2 · «Harganya» ___ «ringgit» ___ «sen».  e.g. «Harganya dua ringgit lima puluh sen.» / «Harganya lapan ringgit.»',
+                '3 · «Berapa umur» ___ ?  e.g. «Berapa umur encik?» / «Berapa umur puan?»',
+                '4 · «Nombor telefon saya» ___ .  e.g. «Nombor telefon saya kosong satu dua.» / «Nombor telefon saya kosong satu tiga.»',
+                '5 · «Ini kali» ___ .  e.g. «Ini kali pertama saya di Malaysia.» / «Ini kali kedua saya di Malaysia.»',
+                '6 · «Diskaun» ___ «peratus».  e.g. «Diskaun sepuluh peratus.» / «Diskaun dua puluh peratus.»',
+                '7 · «Ketinggian» ___ «meter».  e.g. «Ketinggian tiga meter.» / «Ketinggian lima meter.»',
+                'Fraction reminder: «setengah» (half), «suku» (quarter), «tiga suku» (three quarters).',
+                'Price amounts, ordinal forms, fractions and measurement nouns are part of the full chapter.'], 'model'),
+            ('Model conversation · 会話 (fictional figures)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: A customer. Ask the fictional mango price (RM8.50), pay RM10 cash and confirm the change.',
+                'B: A seller. Answer, calculate change and ask A to repeat the amount.',
+                'Change of plan: A asks about a different fruit priced at RM4.00 and pays with a card.',
+                'Extra pair prompt: ask a fictional age and fictitious telephone digits; read them back.',
+                '目標：値段をたずね、支払い、お釣りを確認。途中で品物と支払方法を変えます。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say 35 years old: ____________________',
+                '☐ 2. Ask the price of «mangga»: ____________________',
+                '☐ 3. Pay RM10 for RM8.50. State the change: ____________________',
+                '☐ 4. Say a 20 percent discount: ____________________',
+                '☐ 5. Say the second visit: ____________________'], 'test'),
+            ('Self-study guide · 自習ガイド', [
+                'Before class: Kata-Kata Sedia Kelas c03; prioritise cards ms-c03-001 to ms-c03-018.',
+                'After class: complete all 56 Kata-Kata chapter 3 cards (ms-c03-001 to ms-c03-056), plus 17 approved Ch3 ledger entries without cards.',
+                'Practise Kata-Kata frames ms-c03-f01 to f07 in the frame drill and Susun Ayat.',
+                'Dunia scenes: "Pasar pagi" (11 recognise-only words) and "Ke bank dan pejabat pos" (13 recognise-only words).',
+                'Optional full-course Cikgu Sensai units 3A (numbers, age, digits), 3B (money), and 3C (ordinals and measures).',
+                'Expected independent study: about 9 to 10 hours, a provisional planning figure. Hanashishou starts at A2.',
+                '授業後：第3章のカードと二つのDunia場面を復習してください。自習約9〜10時間（目安）。'], 'opener')],
+        key=['Self-check: 1 «Umur saya tiga puluh lima tahun.» 2 «Berapa harga mangga?» '
+             '3 «Satu ringgit lima puluh sen.» 4 «Diskaun dua puluh peratus.» 5 «Ini kali kedua saya di Malaysia.»',
+             '45-minute session: 0–5 review, 5–15 words, 15–25 patterns, 25–35 conversation, 35–45 task and self-check.',
+             'All practice amounts and phone numbers are invented. Japanese awaits native speaker review.'])]
+
+
+PACKS.append(dict(
+    chapter_id='ms-c03', check_unit='ms-c03-fast', id_prefix='ms-c03-fast',
+    title_prefix='Chapter 3', header='Chapter 3 fast course (ms-c03)',
+    menu_title='Chapter 3 · Numbers and money', genre='Shopping and money',
+    course_path='fast', prerequisites=['ms-c01','ms-c02'], prerequisite_units=[],
+    prereq_grammar=['ms-c02-g03','ms-c02-g04','ms-c02-g12'],
+    word_scope=C3_WORDS, components=chapter3))
