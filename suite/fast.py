@@ -291,3 +291,81 @@ PACKS.append(dict(
     course_path='fast', prerequisites=['ms-c01', 'ms-c02', 'ms-c03'], prerequisite_units=[],
     prereq_grammar=['ms-c01-g02', 'ms-c03-g02', 'ms-c03-g06'],
     word_scope=C4_WORDS, components=chapter4))
+
+
+# Step 5c: chapter 5 fast course (single 45-minute class), a digest of unit 5.
+C5_WORDS = ['L-0209', 'L-0210', 'L-1009', 'L-0688', 'L-0212', 'L-0214', 'L-0215', 'L-0213',
+            'L-0218', 'L-0221', 'L-0223', 'L-0224', 'L-0226', 'L-0230', 'L-0237', 'L-0238',
+            'L-0249', 'L-0250', 'L-0256', 'L-0257']
+
+
+def chapter5(ledger):
+    dialogue = [
+        ('Aini', '«Encik Tanaka, encik rasa bagaimana hari ini?»'),
+        ('Tanaka', '«Saya penat, tetapi gembira.»'),
+        ('Aini', '«Kenapa encik penat?»'),
+        ('Tanaka', '«Sebab semalam saya balik lewat. Saya belum makan. Saya lapar!»'),
+        ('Aini', '«Jom makan di mamak!»'),
+        ('Tanaka', '«Baik! Puan Aini mahu makan apa?»'),
+        ('Aini', '«Roti canai. Encik mahu teh atau kopi?»'),
+        ('Tanaka', '«Teh tarik, kurang manis. Sejuk, ais sedikit.»'),
+        ('Aini', '«Mi goreng di mamak itu pedas, tetapi sedap.»'),
+        ('Tanaka', '«Saya mahu mi goreng yang tidak pedas.»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=['ms-c05-g02', 'ms-c05-g03', 'ms-c05-g04', 'ms-c05-g05', 'ms-c05-g06'],
+        patterns=['ms-c05-f01', 'ms-c05-f02', 'ms-c05-f03', 'ms-c05-f04', 'ms-c05-f05'],
+        goal='Describe food, drink and feelings with adjectives, ask how and why, and order a drink the way you like it.',
+        explain=('第5章速習：45分で基本の20語、形容詞の使い方、«Bagaimana …?»・«Kenapa …?»、飲み物の注文を練習し、残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 5 in one 45-minute session: 20 core words, adjectives after the noun, «Bagaimana …?» and «Kenapa …?» with «sebab», and ordering a drink; then self-study in Kata-Kata. All prices and situations are fictional.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can describe food, drink, colours and sizes with an adjective after the noun. / 名詞のあとに形容詞を置いて、食べ物・飲み物・色・大きさを描写できる。',
+                'I can say how I feel and ask «Kenapa …?» and answer with «Sebab …». / 気分を言い、«Kenapa …?» とたずね、«Sebab …» で答えられる。',
+                'I can ask «Bagaimana rasa …?» and answer with «…, tetapi …». / «Bagaimana rasa …?» とたずね、«…, tetapi …» で答えられる。',
+                'I can order a drink: how sweet, hot or cold, and ice. / 飲み物の甘さ・温度・氷を言って注文できる。'], 'opener'),
+            ('Core words · 基本の20語', core(ledger, C5_WORDS) +
+             ['Spoken forms: «nak» for «mahu», «tapi» for «tetapi», «macam mana» for «bagaimana». Revision: «sedikit» (chapter 2), «kosong» in «air kosong» (chapter 3).'], 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · (noun) «ini» (adjective).  e.g. «Teh ini manis.» / «Cili itu merah.»',
+                '2 · «Bagaimana rasa» ___ ? ___ , «tetapi» ___ .  e.g. «Bagaimana rasa mi goreng ini?» «Sedap, tetapi pedas.» / «Bagaimana rasa kopi ini?» «Pahit.»',
+                '3 · «Saya mahu» ___ «yang» ___ .  e.g. «Saya mahu payung yang biru.» / «Panas atau sejuk?» «Sejuk.»',
+                '4 · «Saya rasa» ___ . «Kenapa» ___ ? «Sebab» ___ .  e.g. «Saya rasa penat.» / «Kenapa lambat?» «Sebab hujan.»',
+                '5 · «Saya mahu» ___ , «kurang manis», «ais sedikit».  e.g. «Saya mahu teh tarik, kurang manis.» / «Air kosong satu, ya.»',
+                'Remember: the adjective comes after the noun and never changes; «tidak» goes before an adjective, «bukan» before a noun. «sebab» comes before the reason. «kurang manis» is a fixed ordering phrase; comparing things comes in chapter 6.',
+                '形容詞は名詞のあとに置き、形は変わりません。否定は形容詞の前に «tidak»、名詞の前に «bukan»。«sebab» は理由の前に置きます。«kurang manis» は注文の決まった言い方で、比べる言い方は第6章で学びます。'], 'model'),
+            ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: You are at a «mamak» stall. Order a cold drink, less sweet, with a little ice, and ask how the «mi goreng» tastes.',
+                'B: You work at the stall. Ask hot or cold, answer about taste, and say the total (invented price).',
+                'Change of plan: the «mi goreng» is finished. Choose «roti canai» or «nasi», then order for a friend who wants a hot drink.',
+                'A：«mamak» の店で、甘さ控えめ・氷少なめの冷たい飲み物を注文し、«mi goreng» の味をたずねます。変更：«mi goreng» が売り切れ。別の料理を選び、友達の熱い飲み物も頼みます。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say "This tea is sweet.": ____________________',
+                '☐ 2. Ask how this coffee tastes: ____________________',
+                '☐ 3. Say you are tired because you got home late yesterday: ____________________',
+                '☐ 4. Say you want the blue umbrella: ____________________',
+                '☐ 5. Order a tea, less sweet, cold, with a little ice: ____________________'], 'test'),
+            ('Self-study guide · 自習ガイド', [
+                'Before the session: Kata-Kata Sedia Kelas c05 (23 cards, frames ms-c05-f01 and ms-c05-f02).',
+                'After the session: all 58 Kata-Kata chapter 5 cards (ms-c05-001 to ms-c05-058; ms-c05-008 «sedikit» is chapter 2 revision) plus the ledger words «kenapa», «sebab» and «kelakar», which have no chapter 5 card yet; frames ms-c05-f01 to ms-c05-f05 in the frame drill and Susun Ayat.',
+                'Dunia scenes (recognise only): "Masak nasi goreng", "Di klinik", "Gambar bayi" and "Lepak di kedai mamak".',
+                'Optional full-course Cikgu Sensai unit: unit 5 (adjectives, with its writing block).',
+                'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',
+                '授業後：第5章のカードと Dunia の4場面を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
+        key=['Self-check: 1 «Teh ini manis.» 2 «Bagaimana rasa kopi ini?» 3 «Saya penat sebab semalam saya balik lewat.» '
+             '4 «Saya mahu payung yang biru.» 5 «Saya mahu teh, kurang manis. Sejuk, ais sedikit.»',
+             'Session plan (45 min): 0–5 recall chapter 4 («Sudah makan?», the time); 5–15 core words by theme; 15–25 patterns 1 to 5; '
+             '25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',
+             'Same content and ledger limits as unit 5. All Japanese is a draft awaiting native review.'])]
+
+
+PACKS.append(dict(
+    chapter_id='ms-c05', check_unit='ms-c05-fast', id_prefix='ms-c05-fast',
+    title_prefix='Chapter 5', header='Chapter 5 fast course (ms-c05)',
+    menu_title='Chapter 5 · Adjectives', genre='Describing and choosing',
+    course_path='fast', prerequisites=['ms-c01', 'ms-c02', 'ms-c03', 'ms-c04'], prerequisite_units=[],
+    prereq_grammar=['ms-c02-g03', 'ms-c02-g04', 'ms-c04-g06'],
+    word_scope=C5_WORDS, components=chapter5))

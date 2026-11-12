@@ -195,6 +195,9 @@ GLOSS = {
     'L-1030': dict(en='walking in the hills (spoken English loan)'),
     'L-0193': dict(en='already, done (standard «sudah»; spoken «dah»)'),
     'L-0202': dict(en='to go back, return home («balik» everyday; «pulang» also common in writing)'),
+    'L-0213': dict(en='to want (spoken «nak»)'),
+    'L-0215': dict(en='but (spoken «tapi»)'),
+    'L-1009': dict(en='why'),
 }
 
 

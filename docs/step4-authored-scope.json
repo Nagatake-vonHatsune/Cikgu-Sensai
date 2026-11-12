@@ -52144,5 +52144,641 @@
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|0|0": {
+  "source_text": "第5章速習：45分で基本の20語、形容詞の使い方、Bagaimana …?・Kenapa …?、飲み物の注文を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
+  "target_spans": [
+   "Bagaimana …?",
+   "Kenapa …?"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|2|0": {
+  "source_text": "Chapter 5 in one 45-minute session: 20 core words, adjectives after the noun, Bagaimana …? and Kenapa …? with sebab, and ordering a drink; then self-study in Kata-Kata. All prices and situations are fictional.",
+  "target_spans": [
+   "Bagaimana …?",
+   "Kenapa …?",
+   "sebab"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|0": {
+  "source_text": "I can describe food, drink, colours and sizes with an adjective after the noun. / 名詞のあとに形容詞を置いて、食べ物・飲み物・色・大きさを描写できる。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|3|1": {
+  "source_text": "I can say how I feel and ask Kenapa …? and answer with Sebab …. / 気分を言い、Kenapa …? とたずね、Sebab … で答えられる。",
+  "target_spans": [
+   "Kenapa …?",
+   "Sebab …",
+   "Kenapa …?",
+   "Sebab …"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|2": {
+  "source_text": "I can ask Bagaimana rasa …? and answer with …, tetapi …. / Bagaimana rasa …? とたずね、…, tetapi … で答えられる。",
+  "target_spans": [
+   "Bagaimana rasa …?",
+   "…, tetapi …",
+   "Bagaimana rasa …?",
+   "…, tetapi …"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|3": {
+  "source_text": "I can order a drink: how sweet, hot or cold, and ice. / 飲み物の甘さ・温度・氷を言って注文できる。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|3|4": {
+  "source_text": "■ Core words · 基本の20語",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|3|5": {
+  "source_text": "rasa — taste; to feel · 味；感じる  [L-0209]",
+  "target_spans": [
+   "rasa"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|6": {
+  "source_text": "bagaimana — how · どう・どのように  [L-0210]",
+  "target_spans": [
+   "bagaimana"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|7": {
+  "source_text": "kenapa — why · なぜ・どうして  [L-1009]",
+  "target_spans": [
+   "kenapa"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|8": {
+  "source_text": "sebab — Reason; because · 理由、〜なので  [L-0688]",
+  "target_spans": [
+   "sebab"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|9": {
+  "source_text": "yang — the one that is; which · 〜の（もの）・〜な  [L-0212]",
+  "target_spans": [
+   "yang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|10": {
+  "source_text": "atau — or · または  [L-0214]",
+  "target_spans": [
+   "atau"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|11": {
+  "source_text": "tetapi / tapi — but (spoken tapi) · でも  [L-0215]",
+  "target_spans": [
+   "tetapi / tapi",
+   "tapi"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|12": {
+  "source_text": "mahu / nak — to want (spoken nak) · 欲しい・〜したい  [L-0213]",
+  "target_spans": [
+   "mahu / nak",
+   "nak"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|13": {
+  "source_text": "manis — sweet · 甘い  [L-0218]",
+  "target_spans": [
+   "manis"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|14": {
+  "source_text": "pedas — spicy (chilli hot) · 辛い  [L-0221]",
+  "target_spans": [
+   "pedas"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|15": {
+  "source_text": "sedap — delicious · おいしい  [L-0223]",
+  "target_spans": [
+   "sedap"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|16": {
+  "source_text": "kurang manis — less sweet (less sugar) · 甘さ控えめ  [L-0224]",
+  "target_spans": [
+   "kurang manis"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|17": {
+  "source_text": "merah — red · 赤  [L-0226]",
+  "target_spans": [
+   "merah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|18": {
+  "source_text": "biru — blue · 青  [L-0230]",
+  "target_spans": [
+   "biru"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|19": {
+  "source_text": "besar — big · 大きい  [L-0237]",
+  "target_spans": [
+   "besar"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|20": {
+  "source_text": "kecil — small · 小さい  [L-0238]",
+  "target_spans": [
+   "kecil"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|21": {
+  "source_text": "penat — tired · 疲れた  [L-0249]",
+  "target_spans": [
+   "penat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|22": {
+  "source_text": "lapar — hungry · お腹が空いた  [L-0250]",
+  "target_spans": [
+   "lapar"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|23": {
+  "source_text": "panas — hot · 熱い・暑い  [L-0256]",
+  "target_spans": [
+   "panas"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|24": {
+  "source_text": "sejuk — cold · 冷たい・寒い  [L-0257]",
+  "target_spans": [
+   "sejuk"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|3|25": {
+  "source_text": "Spoken forms: nak for mahu, tapi for tetapi, macam mana for bagaimana. Revision: sedikit (chapter 2), kosong in air kosong (chapter 3).",
+  "target_spans": [
+   "nak",
+   "mahu",
+   "tapi",
+   "tetapi",
+   "macam mana",
+   "bagaimana",
+   "sedikit",
+   "kosong",
+   "air kosong"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|0": {
+  "source_text": "1 · (noun) ini (adjective).  e.g. Teh ini manis. / Cili itu merah.",
+  "target_spans": [
+   "ini",
+   "Teh ini manis.",
+   "Cili itu merah."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|1": {
+  "source_text": "2 · Bagaimana rasa ___ ? ___ , tetapi ___ .  e.g. Bagaimana rasa mi goreng ini? Sedap, tetapi pedas. / Bagaimana rasa kopi ini? Pahit.",
+  "target_spans": [
+   "Bagaimana rasa",
+   "tetapi",
+   "Bagaimana rasa mi goreng ini?",
+   "Sedap, tetapi pedas.",
+   "Bagaimana rasa kopi ini?",
+   "Pahit."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|2": {
+  "source_text": "3 · Saya mahu ___ yang ___ .  e.g. Saya mahu payung yang biru. / Panas atau sejuk? Sejuk.",
+  "target_spans": [
+   "Saya mahu",
+   "yang",
+   "Saya mahu payung yang biru.",
+   "Panas atau sejuk?",
+   "Sejuk."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|3": {
+  "source_text": "4 · Saya rasa ___ . Kenapa ___ ? Sebab ___ .  e.g. Saya rasa penat. / Kenapa lambat? Sebab hujan.",
+  "target_spans": [
+   "Saya rasa",
+   "Kenapa",
+   "Sebab",
+   "Saya rasa penat.",
+   "Kenapa lambat?",
+   "Sebab hujan."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|4": {
+  "source_text": "5 · Saya mahu ___ , kurang manis, ais sedikit.  e.g. Saya mahu teh tarik, kurang manis. / Air kosong satu, ya.",
+  "target_spans": [
+   "Saya mahu",
+   "kurang manis",
+   "ais sedikit",
+   "Saya mahu teh tarik, kurang manis.",
+   "Air kosong satu, ya."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|5": {
+  "source_text": "Remember: the adjective comes after the noun and never changes; tidak goes before an adjective, bukan before a noun. sebab comes before the reason. kurang manis is a fixed ordering phrase; comparing things comes in chapter 6.",
+  "target_spans": [
+   "tidak",
+   "bukan",
+   "sebab",
+   "kurang manis"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|6": {
+  "source_text": "形容詞は名詞のあとに置き、形は変わりません。否定は形容詞の前に tidak、名詞の前に bukan。sebab は理由の前に置きます。kurang manis は注文の決まった言い方で、比べる言い方は第6章で学びます。",
+  "target_spans": [
+   "tidak",
+   "bukan",
+   "sebab",
+   "kurang manis"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|7": {
+  "source_text": "■ Model conversation · 会話 (fictional)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|4|8": {
+  "source_text": "Aini: Encik Tanaka, encik rasa bagaimana hari ini?",
+  "target_spans": [
+   "Encik Tanaka, encik rasa bagaimana hari ini?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|9": {
+  "source_text": "Tanaka: Saya penat, tetapi gembira.",
+  "target_spans": [
+   "Saya penat, tetapi gembira."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|10": {
+  "source_text": "Aini: Kenapa encik penat?",
+  "target_spans": [
+   "Kenapa encik penat?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|11": {
+  "source_text": "Tanaka: Sebab semalam saya balik lewat. Saya belum makan. Saya lapar!",
+  "target_spans": [
+   "Sebab semalam saya balik lewat. Saya belum makan. Saya lapar!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|12": {
+  "source_text": "Aini: Jom makan di mamak!",
+  "target_spans": [
+   "Jom makan di mamak!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|13": {
+  "source_text": "Tanaka: Baik! Puan Aini mahu makan apa?",
+  "target_spans": [
+   "Baik! Puan Aini mahu makan apa?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|14": {
+  "source_text": "Aini: Roti canai. Encik mahu teh atau kopi?",
+  "target_spans": [
+   "Roti canai. Encik mahu teh atau kopi?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|15": {
+  "source_text": "Tanaka: Teh tarik, kurang manis. Sejuk, ais sedikit.",
+  "target_spans": [
+   "Teh tarik, kurang manis. Sejuk, ais sedikit."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|16": {
+  "source_text": "Aini: Mi goreng di mamak itu pedas, tetapi sedap.",
+  "target_spans": [
+   "Mi goreng di mamak itu pedas, tetapi sedap."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|17": {
+  "source_text": "Tanaka: Saya mahu mi goreng yang tidak pedas.",
+  "target_spans": [
+   "Saya mahu mi goreng yang tidak pedas."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|18": {
+  "source_text": "■ Task · タスク",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|4|19": {
+  "source_text": "A: You are at a mamak stall. Order a cold drink, less sweet, with a little ice, and ask how the mi goreng tastes.",
+  "target_spans": [
+   "mamak",
+   "mi goreng"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|4|20": {
+  "source_text": "B: You work at the stall. Ask hot or cold, answer about taste, and say the total (invented price).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|4|21": {
+  "source_text": "Change of plan: the mi goreng is finished. Choose roti canai or nasi, then order for a friend who wants a hot drink.",
+  "target_spans": [
+   "mi goreng",
+   "roti canai",
+   "nasi"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|5|0": {
+  "source_text": "A：mamak の店で、甘さ控えめ・氷少なめの冷たい飲み物を注文し、mi goreng の味をたずねます。変更：mi goreng が売り切れ。別の料理を選び、友達の熱い飲み物も頼みます。",
+  "target_spans": [
+   "mamak",
+   "mi goreng",
+   "mi goreng"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|5|1": {
+  "source_text": "■ Self-check · できるチェック",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|5|2": {
+  "source_text": "☐ 1. Say \"This tea is sweet.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|5|3": {
+  "source_text": "☐ 2. Ask how this coffee tastes: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|5|4": {
+  "source_text": "☐ 3. Say you are tired because you got home late yesterday: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|5|5": {
+  "source_text": "☐ 4. Say you want the blue umbrella: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|5|6": {
+  "source_text": "☐ 5. Order a tea, less sweet, cold, with a little ice: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|5|7": {
+  "source_text": "■ Self-study guide · 自習ガイド",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|5|8": {
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c05 (23 cards, frames ms-c05-f01 and ms-c05-f02).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|5|9": {
+  "source_text": "After the session: all 58 Kata-Kata chapter 5 cards (ms-c05-001 to ms-c05-058; ms-c05-008 sedikit is chapter 2 revision) plus the ledger words kenapa, sebab and kelakar, which have no chapter 5 card yet; frames ms-c05-f01 to ms-c05-f05 in the frame drill and Susun Ayat.",
+  "target_spans": [
+   "sedikit",
+   "kenapa",
+   "sebab",
+   "kelakar"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|5|10": {
+  "source_text": "Dunia scenes (recognise only): \"Masak nasi goreng\", \"Di klinik\", \"Gambar bayi\" and \"Lepak di kedai mamak\".",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|5|11": {
+  "source_text": "Optional full-course Cikgu Sensai unit: unit 5 (adjectives, with its writing block).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|5|12": {
+  "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|5|13": {
+  "source_text": "授業後：第5章のカードと Dunia の4場面を復習しましょう。自習の目安は約9〜10時間です。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 5 · Fast-course summary pack|6|0": {
+  "source_text": "Self-check: 1 Teh ini manis. 2 Bagaimana rasa kopi ini? 3 Saya penat sebab semalam saya balik lewat. 4 Saya mahu payung yang biru. 5 Saya mahu teh, kurang manis. Sejuk, ais sedikit.",
+  "target_spans": [
+   "Teh ini manis.",
+   "Bagaimana rasa kopi ini?",
+   "Saya penat sebab semalam saya balik lewat.",
+   "Saya mahu payung yang biru.",
+   "Saya mahu teh, kurang manis. Sejuk, ais sedikit."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|6|1": {
+  "source_text": "Session plan (45 min): 0–5 recall chapter 4 (Sudah makan?, the time); 5–15 core words by theme; 15–25 patterns 1 to 5; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.",
+  "target_spans": [
+   "Sudah makan?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Chapter 5 · Fast-course summary pack|6|2": {
+  "source_text": "Same content and ledger limits as unit 5. All Japanese is a draft awaiting native review.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
  }
 }

@@ -12,7 +12,7 @@ import unittest
 from pathlib import Path
 
 from suite import Ledger, build_suite, malay_words, english_words
-from suite import ms_c05
+from suite import ms_c05, fast
 from catalogue import make_catalogue
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -237,7 +237,7 @@ class Chapter5Minimums(unittest.TestCase):
     def test_chapter5_malay_rules(self):
         label = re.compile(r'spoken|speech|話し言葉|口語', re.I)
         spoken_words = {'nak', 'tapi', 'sikit', 'dah', 'tak', 'oren', 'macam', 'tengah'}
-        everything = [l for l in self.by_unit[self.u] + self.by_unit.get('ms-c05-fast', [])]
+        everything = [l for l in self.by_unit[self.u] + self.by_unit['ms-c05-fast']]
         for l in everything:
             lines = [x for _, items, _ in l['sections'] for x in items] + l['key']
             for line in lines:
@@ -259,6 +259,36 @@ class Chapter5Minimums(unittest.TestCase):
                 self.assertNotRegex(line.lower(), r'assalam|waalaikum|insya|alhamdulillah|bismillah|halal|haram|doa\b|puasa')
                 self.assertNotRegex(line.lower(), r'\b\d+\s*(mg|ml|tablet|pil)\b')
 
+    def test_fast_pack(self):
+        self.assertIn('ms-c05-fast', self.by_unit)
+        l = self.by_unit['ms-c05-fast'][0]
+        self.assertEqual(l['suite']['course_path'], 'fast')
+        core = [x for x in self.lines(l, 'Core words') if re.search(r'\[L-\d{4}\]$', x)]
+        self.assertTrue(15 <= len(core) <= 20)
+        # Fast words are a digest of the unit core words, never new ones.
+        self.assertTrue(set(fast.C5_WORDS) <= set(self.cfg['core']))
+        labels = ' '.join(n for n, _, _ in l['sections'])
+        for part in ('Can-do', 'Core words', 'Key patterns', 'Model conversation', 'Task', 'Self-check', 'Self-study'):
+            self.assertIn(part, labels)
+        for line in self.lines(l, 'Key patterns'):
+            if re.match(r'^\d · ', line):
+                self.assertEqual(line.split('e.g.')[1].count(' / '), 1, line)
+        self.assertTrue(10 <= len(self.lines(l, 'Model conversation')) <= 16)
+        n_check = sum(x.startswith('☐') for x in self.lines(l, 'Self-check'))
+        self.assertTrue(all(f'{i} «' in l['key'][0] for i in range(1, n_check + 1)))
+        page = {x['title']: x for x in bank()}[l['title']]
+        count = len(page['pages']) - 3 - page.get('key_pages', 1)
+        self.assertTrue(2 <= count <= 4, count)
+        chapters = json.loads((ROOT / 'dist/chapters.js').read_text()[len('const chapters='):-1])
+        ch5 = next(c for c in chapters if c['title'].startswith('Chapter 5'))
+        self.assertIn(l['title'], ch5['fast_items'])
+        self.assertEqual(ch5['status'], 'Step 5c chapter 5 suite · draft for pilot')
+        # The self-study guide names the Sedia Kelas set and all four Dunia scenes.
+        guide = ' '.join(self.lines(l, 'Self-study'))
+        self.assertIn('Sedia Kelas c05', guide)
+        for scene in SCENES:
+            self.assertIn(scene, guide)
+
     def test_legacy_retirement_and_catalogue(self):
         built = {x['title'] for x in bank()}
         for name in ('Taste and colour', 'Size and shape'):
@@ -275,9 +305,10 @@ class Chapter5Minimums(unittest.TestCase):
         self.assertEqual(block['component_ids'], ['ms-c05-writing-block'])
         self.assertEqual(block['status'], 'pilot draft')
         exceptions = json.loads((ROOT / 'curriculum/legacy-exceptions.json').read_text())
-        self.assertFalse([k for k, e in exceptions.items() if e['unit'] == self.u])
+        self.assertFalse([k for k, e in exceptions.items() if e['unit'] in (self.u, 'ms-c05-fast')])
         reauthored = json.loads((ROOT / 'curriculum/reauthored-units.json').read_text())
-        self.assertIn(self.u, reauthored)
+        for unit in (self.u, 'ms-c05-fast'):
+            self.assertIn(unit, reauthored)
 
 
 if __name__ == '__main__':
