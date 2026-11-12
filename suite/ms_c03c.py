@@ -87,8 +87,8 @@ P=[
 '割合は共通ですが、小数の数字の読み違いに注意します。'),
 ]
 DIALOGUE=[
-('Tanaka','Selamat pagi. Ini kali pertama saya di sini.'),
-('Aini','Selamat pagi. Bukan, ini kali kedua encik di sini?'),
+('Tanaka','Selamat pagi. Ini kali pertama saya di Malaysia.'),
+('Aini','Selamat pagi. Bukan, ini kali kedua encik di Malaysia?'),
 ('Tanaka','Ya, betul. Ini kali kedua saya di Malaysia.'),
 ('Aini','Berapa kilo mangga untuk encik?'),
 ('Tanaka','Saya beli setengah kilo mangga.'),
@@ -100,8 +100,8 @@ DIALOGUE=[
 ('Tanaka','Saya bayar tunai. Terima kasih.'),
 ('Aini','Sama-sama. Jumpa lagi.')]
 VARIANT=[
-('Tanaka','Selamat petang. Ini kali ketiga saya di sini.'),
-('Aini','Selamat petang. Bukan, ini kali kedua encik di sini?'),
+('Tanaka','Selamat petang. Ini kali ketiga saya di Malaysia.'),
+('Aini','Selamat petang. Bukan, ini kali kedua encik di Malaysia?'),
 ('Tanaka','Tidak. Ini kali ketiga saya di Malaysia.'),
 ('Aini','Berapa kilo pisang untuk encik?'),
 ('Tanaka','Saya beli suku kilo pisang.'),
@@ -113,8 +113,8 @@ VARIANT=[
 ('Tanaka','Saya bayar dengan kad. Terima kasih.'),
 ('Aini','Sama-sama. Jumpa lagi.')]
 LISTENING=[
-('Tanaka','Ini kali kedua saya di Malaysia. Kali pertama saya di sini dengan kawan saya.'),
-('Aini','Ini kali ketiga saya di sini. Sebelum kali ketiga ada kali pertama dan kedua.'),
+('Tanaka','Ini kali kedua saya di Malaysia. Kali pertama saya di Malaysia dengan kawan saya.'),
+('Aini','Ini kali ketiga saya di Malaysia. Sebelum kali ketiga ada kali pertama dan kedua.'),
 ('Tanaka','Saya beli setengah kilo mangga. Berat buah ini setengah kilo, betul?'),
 ('Aini','Ya, betul. Setengah kilo. Harga sepuluh ringgit. Diskaun dua puluh peratus.'),
 ('Tanaka','Diskaun dua puluh peratus untuk sepuluh ringgit ialah dua ringgit.'),
@@ -128,9 +128,9 @@ LISTENING=[
 ('Tanaka','Ketinggian tiga meter. Kepanjangan sepuluh meter. Kelebaran lima meter.'),
 ('Aini','Ya. Kedalaman ini dua meter. Berat mangga pula satu kilo.'),
 ('Tanaka','Ini tiga meter, sepuluh meter, lima meter. Ini nombor untuk rumah.'),
-('Aini','Ketinggian, kepanjangan, kelebaran dan kedalaman ialah empat ukuran dalam latihan ini.'),
+('Aini','Ketinggian, kepanjangan, kelebaran dan kedalaman ialah empat nombor untuk kelas ini.'),
 ('Tanaka','Terima kasih. Ya: tiga meter, sepuluh meter, lima meter, dua meter.'),
-('Aini','Ya, betul. Ini latihan nombor sahaja. Semua harga dan ukuran untuk kelas ini.')]
+('Aini','Ya, betul. Ini latihan nombor sahaja. Harga dan nombor untuk kelas ini.')]
 CULTURE=[
 'Ordinal numbers help speakers organise repeated visits and ordered choices. Kata-Kata card ms-c03-036 explicitly warns that «pertama», not a mechanically created first ordinal, is the ordinary first-place expression. '
 'Cards ms-c03-037 to ms-c03-039 supply attested further ordinals. The teacher can contrast «satu» with «pertama» and «dua» with «kedua» without inventing a new derivation. '
