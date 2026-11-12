@@ -114,6 +114,7 @@ def add_course(lessons, lesson, suite_units=()):
     superseded=set(old["Beli buah di pasar"]["items"])
     lessons[:]=[l for l in lessons if l["title"] not in superseded]
     titles={l["title"] for l in lessons}|{t for u in suite_units for t in u["titles"]}
-    assert all(t in titles for group in groups for t in group["items"])
+    missing={t for group in groups for t in group["items"]}-titles
+    assert not missing, sorted(missing)
     assert titles=={t for group in groups for t in group["items"]}
     return groups
