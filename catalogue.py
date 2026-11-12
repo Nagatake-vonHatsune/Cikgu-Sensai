@@ -36,6 +36,9 @@ SKILLS = {'Vocabulary':['vocabulary'],'Pattern and grammar':['grammar'],'Drill':
           'Model conversation':['speaking','reading'],'Reading and writing':['reading','writing'],
           'Task':['speaking'],'Teaching plan':[],'Opener':[],'Listening':['listening'],'Culture note':['reading'],'Test':[]}
 
+# Test-item sub-types. 'writing' is used only by the A1 stage test (step 5h), whose writing paper is marked by rubric.
+TEST_SUBTYPES = ['words','grammar','listening','reading','speaking','writing']
+
 def norm(s): return ' '.join(re.findall(r"[a-z]+(?:[-'][a-z]+)*",s.lower()))
 def stable(s): return hashlib.sha256(s.encode()).hexdigest()[:12]
 
@@ -186,7 +189,7 @@ def validate_test_item(item, catalogue):
     required={'id','chapter_id','component_id','sub_type','grammar_points','word_ids','prompt','answer_key','review_status'}
     if not required <= item.keys(): raise ValueError('Missing test-item fields')
     if not item['grammar_points'] and not item['word_ids']: raise ValueError('Test item needs at least one tested grammar point or word')
-    if item['sub_type'] not in ['words','grammar','listening','reading','speaking']: raise ValueError('Invalid test subtype')
+    if item['sub_type'] not in TEST_SUBTYPES: raise ValueError('Invalid test subtype')
     if not set(item['word_ids'])<=catalogue['word_registry'].keys(): raise ValueError('Unknown tested word')
     if not set(item['grammar_points'])<={g['id'] for g in catalogue['grammar_registry']}: raise ValueError('Unknown tested grammar')
     if item['chapter_id'] not in {c['id'] for c in catalogue['chapters']}: raise ValueError('Unknown test chapter')

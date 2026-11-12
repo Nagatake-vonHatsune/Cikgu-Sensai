@@ -6,12 +6,15 @@ self-check covering every Stage 1 goal. The charter's spaced-return rule says ev
 so the model uses every Kata-Kata frame of chapters 1 to 9 (ms-c07-f03 in Sam's corrected form «jalan terus», not «jalan
 lurus»); the key lists where each frame appears and a test checks it.
 
-The A1 stage test (two parallel versions, A and B) is added in later commits of step 5h.
+The A1 stage test is a summative test in the Irodori / JF Standard style: tasks with real outcomes, in four sections
+(listening, reading, writing, speaking), 20 marks each. Version A is in suite/stage1_test_a.py.
 
 Rules (as in every unit): Malaysian standard Malay, standard forms first; only ledger words placed in chapters 1 to 9 (the
 build fails on anything else because ms-stage1 is a re-authored unit); no productive ber- or me-; no faith-specific
 greeting. All names, places, prices, numbers and times are fictional. All Japanese is a draft awaiting native review.
 """
+
+from .stage1_test_a import VERSION as VERSION_A
 
 UNIT_ID = 'ms-stage1'
 CHAPTERS = [f'ms-c{n:02}' for n in range(1, 10)]
@@ -344,8 +347,158 @@ def review_component():
                 goal=REVIEW_GOAL, skills=['speaking', 'listening', 'reading', 'writing'])
 
 
+# --- The A1 stage test ------------------------------------------------------------------------------------------------
+
+SECTION_MARKS = 20
+TIMING = {'listening': 12, 'reading': 15, 'writing': 18, 'speaking': 7}
+TEST_GOALS = {
+    'listening': ('I can understand short announcements and everyday conversations about people, food, prices, times and '
+                  'places, and note the facts I need.',
+                  '人、食べ物、値段、時刻、場所についての短いお知らせや日常会話を聞いて分かり、必要な情報を書き取れる。'),
+    'reading': ('I can read signs, a price board, a short message and a notice, and act on them.',
+                '掲示、値段表、短いメッセージ、案内を読んで、その内容どおりに行動できる。'),
+    'writing': ('I can fill in a simple form about myself and write a short message that arranges a meeting.',
+                '自分についての簡単な書類に記入し、待ち合わせを決める短いメッセージを書ける。'),
+    'speaking': ('I can introduce myself and handle short everyday exchanges: ordering, buying, asking the way and talking '
+                 'at a party, including a change of plan.',
+                 '自己紹介ができ、注文、買い物、道をたずねる、パーティーでの会話など、予定変更を含む短いやりとりができる。'),
+}
+
+
+def _marks(n):
+    return f'[{n} mark{"s" if n != 1 else ""}]'
+
+
+def _test_item(code, sub, it):
+    return dict(sub_type=sub, prompt=f'{code}. {it["q"]} / {it["ja"]} {_marks(it["marks"])}',
+                answer=it['a'], words=it['words'], grammar=[FOCUS[c] for c in sorted(set(it['ch']))])
+
+
+def item_map(version):
+    """[(item code, sub_type, marks, chapters)] for one version, in paper order."""
+    v = version; out = []
+    n = 0
+    for task in v['listening']:
+        for it in task['items']:
+            n += 1; out.append((f'{v["label"]}-L{n}', 'listening', it['marks'], it['ch']))
+    n = 0
+    for part in v['reading']:
+        for it in part['items']:
+            n += 1; out.append((f'{v["label"]}-R{n}', 'reading', it['marks'], it['ch']))
+    for n, part in enumerate(v['writing'], 1):
+        it = part['items'][0]; out.append((f'{v["label"]}-W{n}', 'writing', it['marks'], it['ch']))
+    sp = v['speaking']
+    out.append((f'{v["label"]}-S1', 'speaking', sp['intro']['marks'], sp['intro']['ch']))
+    for n, card in enumerate(sp['cards'], 1):
+        out.append((f'{v["label"]}-S2.{n}', 'speaking', card['marks'], card['ch']))
+    return out
+
+
+def test_components(v):
+    V = v['label']; low = V.lower(); out = []
+    rules = (f'Version {V}. Answer in English or Japanese unless a question asks for Malay. All names, shops, prices, times '
+             f'and places are fictional. / バージョン{V}。マレー語で書くよう指示がある問題以外は、英語か日本語で答えます。'
+             '名前、店、値段、時刻、場所はすべて架空です。')
+
+    def comp(slug, sub, title, minutes, sections, key, explain, tests, skills):
+        goal, goal_ja = TEST_GOALS[sub]
+        sections = [('Can-do and instructions · できることと指示', [f'Can-do: {goal} / {goal_ja}', rules] + sections[0][1])] + sections[1:]
+        out.append(dict(slug=f'test-{low}-{slug}', type='Test', title=f'A1 stage test · Version {V} · {title}', block='Stage test',
+                        minutes=minutes, sections=sections, key=key + [
+                            f'Section total: {SECTION_MARKS} marks. The pass mark and the item map are on the administration sheet.'],
+                        explain=explain, sub_type=sub, tests=tests, patterns=[], grammar=list(FOCUS.values()), goal=goal,
+                        skills=skills))
+
+    # Listening
+    sections = [('Before you listen', [f'{TIMING["listening"]} minutes, {SECTION_MARKS} marks. The teacher reads each text twice. '
+                                       'Read the questions first. / 12分、20点。先生が各文を2回読みます。先に質問を読みましょう。'])]
+    tests, key, n = [], [], 0
+    for t, task in enumerate(v['listening'], 1):
+        lines = [task['context']]
+        key.append(f'Task {t} · {task["title"]} · the teacher reads twice:')
+        key.extend(f'{sp}: «{line}»' for sp, line in task['script'])
+        for it in task['items']:
+            n += 1; code = f'L{n}'
+            item = _test_item(code, 'listening', it); tests.append(item)
+            lines.append(item['prompt']); lines.append('________________________________________')
+            key.append(f'{code}: {it["a"]}')
+        sections.append((f'Task {t} · {task["title"]}', lines))
+    comp('listening', 'listening', 'Listening', TIMING['listening'], sections, key,
+         ('A1 段階テストの聞く問題です。先生が台本を2回読みます。台本は先生用キーにあります。日本語は未監修です。',
+          'The listening paper of the A1 stage test. The teacher reads each script twice; the scripts are in the teacher key.'),
+         tests, ['listening'])
+
+    # Reading
+    sections = [('Before you read', [f'{TIMING["reading"]} minutes, {SECTION_MARKS} marks. / 15分、20点。'])]
+    tests, key, n = [], [], 0
+    for t, part in enumerate(v['reading'], 1):
+        lines = list(part['text'])
+        for it in part['items']:
+            n += 1; code = f'R{n}'
+            item = _test_item(code, 'reading', it); tests.append(item)
+            lines.append(item['prompt']); lines.append('________________________________________')
+            key.append(f'{code}: {it["a"]}')
+        sections.append((f'Part {t} · {part["title"]}', lines))
+    comp('reading', 'reading', 'Reading', TIMING['reading'], sections, key,
+         ('A1 段階テストの読む問題です：掲示、値段表、メッセージ、案内。日本語は未監修です。',
+          'The reading paper of the A1 stage test: signs, a price board, a message and a notice.'), tests, ['reading'])
+
+    # Writing
+    sections = [('Before you write', [f'{TIMING["writing"]} minutes, {SECTION_MARKS} marks. Write in Malay. / 18分、20点。マレー語で書きます。'])]
+    tests, key = [], []
+    for t, part in enumerate(v['writing'], 1):
+        code = f'W{t}'
+        it = part['items'][0]
+        item = _test_item(code, 'writing', it); tests.append(item)
+        lines = [part['intro'], item['prompt']]
+        lines += [f'{field}: ______________________' for field in part['form'][1:]] if part['form'] else [
+            '________________________________________'] * 5
+        if part['form']:
+            lines.insert(1, part['form'][0])
+        key.append(f'{code}: {it["a"]}')
+        sections.append((f'Part {t} · {part["title"]}', lines))
+    comp('writing', 'writing', 'Writing', TIMING['writing'], sections, key,
+         ('A1 段階テストの書く問題です：申込書とメッセージ。採点基準は先生用キーにあります。日本語は未監修です。',
+          'The writing paper of the A1 stage test: a form and a message. The marking rubric is in the teacher key.'),
+         tests, ['writing'])
+
+    # Speaking
+    sp = v['speaking']
+    tests, key = [], []
+    intro = _test_item('S1', 'speaking', sp['intro']); tests.append(intro)
+    sections = [('Before you speak', [
+        f'About {TIMING["speaking"]} minutes for each learner, {SECTION_MARKS} marks: the self-introduction (8) and two role-play '
+        'cards (6 each). The examiner chooses card 1 or 2, and card 3 or 4. / 一人約7分、20点：自己紹介（8点）と'
+        'ロールカード二枚（各6点）。試験官がカード1か2、カード3か4を選びます。']),
+        ('Part 1 · Self-introduction · 自己紹介', [intro['prompt']])]
+    key.append('S1 examiner: ' + ' '.join(sp['intro']['examiner']))
+    key.append('S1 rubric (8): ' + sp['intro']['a'])
+    cards = []
+    for c, card in enumerate(sp['cards'], 1):
+        code = f'S2.{c}'
+        it = dict(q=f'{card["title"]}: ' + ' '.join(f'({i}) {x}' for i, x in enumerate(card['tasks'], 1)),
+                  ja=f'{card["ja_title"]}：' + ''.join(f'（{i}）{x}' for i, x in enumerate(card['tasks_ja'], 1)),
+                  a=card['a'], marks=card['marks'], ch=card['ch'], words=card['words'])
+        item = _test_item(code, 'speaking', it); tests.append(item)
+        cards.append('■ ' + card['title'] + ' · ' + card['ja_title'])
+        cards.extend(f'☐ {en} / {ja}' for en, ja in zip(card['tasks'], card['tasks_ja']))
+        key.append(f'{code} examiner: ' + ' '.join(card['examiner']))
+        key.append(f'{code} rubric (6): ' + card['a'])
+    sections.append(('Part 2 · Role-play cards · ロールカード', [
+        'Read your card, then talk with the examiner without a script. The examiner will change one thing. / カードを読み、'
+        '台本なしで試験官と話します。試験官が途中で一つ変更します。', *cards]))
+    comp('speaking', 'speaking', 'Speaking', TIMING['speaking'], sections, key,
+         ('A1 段階テストの話す問題です：自己紹介とロールカード。試験官の台詞と採点基準は先生用キーにあります。日本語は未監修です。',
+          'The speaking test of the A1 stage test: a self-introduction and role-play cards. The examiner\'s lines and the '
+          'rubric are in the teacher key.'), tests, ['speaking'])
+    return out
+
+
+VERSIONS = [VERSION_A]
+
+
 def components(ledger):
-    return [review_component()]
+    return [review_component(), *[c for v in VERSIONS for c in test_components(v)]]
 
 
 UNIT = dict(unit_id=UNIT_ID, label=None, stage='stage1', chapter_id='ms-c09', check_unit=UNIT_ID, id_prefix=UNIT_ID,
