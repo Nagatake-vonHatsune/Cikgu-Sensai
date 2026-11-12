@@ -1,0 +1,36 @@
+name: Step 5a full build and tests
+on:
+  push:
+    branches: [step5a-chapter3-redo-20261112]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PDF dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+          python3 -m pip install pymupdf fonttools
+      - name: Build and validate
+        run: |
+          python3 build.py
+          python3 -m unittest discover -s tests -v
+      - name: Commit generated print assets after successful checks
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist docs/step4-authored-scope.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Build verified Step 5a print assets [skip ci]"
+            git push origin HEAD:step5a-chapter3-redo-20261112
+          fi
