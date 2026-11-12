@@ -207,6 +207,8 @@ GLOSS = {
     'L-0213': dict(en='to want (spoken «nak»)'),
     'L-0215': dict(en='but (spoken «tapi»)'),
     'L-1009': dict(en='why'),
+    'L-1051': dict(en='rent («sewa … setiap bulan» = rent every month)', ja='家賃・賃貸料（«sewa … setiap bulan»＝毎月の家賃）'),
+    'L-1052': dict(en='room («bilik tidur» = bedroom, «bilik air» = bathroom)', ja='部屋（«bilik tidur»＝寝室、«bilik air»＝浴室）'),
 }
 
 

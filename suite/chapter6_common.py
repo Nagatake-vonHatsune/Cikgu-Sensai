@@ -289,7 +289,7 @@ def components(ledger, cfg):
             ('Model · 例', e['model']),
             ('Your turn · 自分で', e['task']),
             ('Peer check · 互いに確認', e['check'])],
-            ['Model: ' + e['answer'], 'This is the extra 45-minute writing block after unit ' + label + '.'],
+            ['Model: ' + e['answer'], 'This is the extra 45-minute ' + e.get('kind', 'writing') + ' block after unit ' + label + '.'],
             (e['explain'][0], e['explain'][1]),
             subtype=e.get('sub_type', 'composition'), goal=e['goal'], skills=e.get('skills', ['speaking', 'writing']),
             grammar=e.get('grammar'))

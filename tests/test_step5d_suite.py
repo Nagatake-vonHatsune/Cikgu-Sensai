@@ -70,11 +70,13 @@ class Chapter6Minimums(unittest.TestCase):
     def test_ledger_partition(self):
         rows = self.ledger.rows
         placed = {lid for lid, r in rows.items() if r['Review status'] != 'Retired' and 6 in ch_parts(r)}
-        self.assertEqual(len(placed), 34)
+        # 34 rows from the original ledger plus «sewa», «bilik» and «luas» (L-1051 to L-1053, added 12 Nov 2026).
+        self.assertEqual(len(placed), 37)
         core_all = ch6_core_ids(rows)
         # «sekali» (L-0188) and «baru» (L-0195) are placed in chapters 4 and 6; chapter 6 adds a second meaning.
         self.assertEqual(placed - core_all, {'L-0188', 'L-0195'})
-        self.assertEqual(len(core_all), 32)
+        self.assertEqual(len(core_all), 35)
+        self.assertTrue({'L-1051', 'L-1052', 'L-1053'} <= core_all)
         rec_all = {lid for lid, r in rows.items() if r['Kata-Kata place'].startswith('Dunia')
                    and 'primes Ch6' in r['Kata-Kata place']} - core_all
         self.assertEqual(len(rec_all), 14)
@@ -248,7 +250,7 @@ class Chapter6Minimums(unittest.TestCase):
         body = ' '.join(self.lines(plan))
         self.assertIn('Sedia Kelas c06', body)
         self.assertIn('0–5', body)
-        # The unit has no writing block (the Stage 1 plan puts the review block after unit 6; it is not written yet).
+        # The review block after unit 6 (Stage 1 plan) is a separate commit (step 5e Part 1).
         self.assertFalse(any(l['suite']['block'] == 'Skills' for l in self.by_unit[self.u]))
 
     def test_chapter6_malay_rules(self):
@@ -270,7 +272,7 @@ class Chapter6Minimums(unittest.TestCase):
                         if w in spoken_words and not (w == 'tengah' and words[i + 1:i + 2] == ['hari']):
                             self.assertRegex(line, label, (l['title'], line))
                     # Words placed after chapter 6 are not used.
-                    for w in ('dekat', 'jauh', 'sewa', 'kedai', 'sini', 'sana', 'tolong', 'baju', 'kerusi', 'lif'):
+                    for w in ('dekat', 'jauh', 'kedai', 'sini', 'sana', 'tolong', 'baju', 'kerusi', 'lif'):
                         self.assertNotIn(w, words, line)
                 self.assertNotRegex(line.lower(), r'assalam|waalaikum|insya|alhamdulillah|bismillah|halal|haram|doa\b|puasa')
                 self.assertNotRegex(line.lower(), r'\b\d+\s*(mg|ml|tablet|pil)\b')
@@ -285,6 +287,15 @@ class Chapter6Minimums(unittest.TestCase):
         everything = ' '.join(x for l in self.by_unit[self.u] for _, items, _ in l['sections'] for x in items + l['key'])
         self.assertIn('Orang lain sudah ambil kondo B', everything)
         self.assertIn('setiap bulan', everything)
+        # Sam's follow-up (12 Nov 2026): rent, rooms and spacious are used in the condo scenes.
+        for w in ('«Berapa sewa kondo A?»', 'ada tiga bilik', 'luas'):
+            self.assertIn(w, everything, w)
+        cfg = self.cfg
+        scene = ' '.join(s for _, s in cfg['dialogue'] + cfg['variant'] + cfg['listening'])
+        for w in ('sewa', 'bilik', 'luas'):
+            self.assertIn(w, scene.lower(), w)
+        self.assertEqual({lid for _, ids in cfg['core_groups'] for lid in ids} & {'L-1051', 'L-1052', 'L-1053'},
+                         {'L-1051', 'L-1052', 'L-1053'})
         self.assertIn('fictional', everything)
         sources = ' '.join(self.lines(self.comp('Culture note')) + self.comp('Culture note')['key'])
         for name in ('Strata Management Act 2013', 'Klang Valley', 'Wikipedia'):
