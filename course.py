@@ -6,7 +6,7 @@ from pathlib import Path
 MALAY_CHAPTERS = [
     ("Greetings", "Social encounters", [("1", [])]),
     ("Pronouns and self-introduction", "Social encounters", [("2A", []), ("2B", [])]),
-    ("Numbers and money", "Transactions", [("3A", ["Counting and quantities"]), ("3B", ["Ringgit and sen"]), ("3C", ["Order and floors"])]),
+    ("Numbers and money", "Transactions", [("3A", []), ("3B", []), ("3C", [])]),
     ("Time and routines", "Schedules", [("4A", ["Clock time", "Dates and days"]), ("4B", ["Frequency and routines"])]),
     ("Adjectives", "Description", [("5", ["Taste and colour", "Size and shape"])]),
     ("Comparatives and superlatives", "Choices and opinions", [("6", ["Comparisons and superlatives"])]),
@@ -15,7 +15,7 @@ MALAY_CHAPTERS = [
     ("Passive di-, signs and notices", "Social encounters", [("9", [])]),
 ]
 
-RETIRED = {"Greetings", "Introductions"}  # superseded by the step 4 suites for units 1 and 2A
+RETIRED = {"Greetings", "Introductions", "Counting and quantities", "Ringgit and sen", "Order and floors"}  # superseded by the step 4 suites for units 1 and 2A
 
 def add_course(lessons, lesson, suite_units=()):
     folder=Path(__file__).with_name("curriculum")
@@ -87,11 +87,9 @@ def add_course(lessons, lesson, suite_units=()):
         units=[]
         goals=[]
         for label,names in placements:
-            members=[old[name] for name in names]
-            if label=="3B":
-                members.append(old["Beli buah di pasar"])
+            members=[old[name] for name in names if name in old]
             items=list(dict.fromkeys(t for member in members for t in member["items"]))
-            goals.extend(old[name]["goal"] for name in names)
+            goals.extend(old[name]["goal"] for name in names if name in old)
             if label in authored:
                 items=authored[label]["titles"]+items
                 goals.append(authored[label]["goal"])
@@ -103,7 +101,7 @@ def add_course(lessons, lesson, suite_units=()):
             goal=" ".join(goals),items=list(dict.fromkeys([t for unit in units for t in unit["items"]]+fast_items)),
             units=units,fast_items=fast_items,sequence="stage1",
             authored_units=[dict(unit_id=authored[u["label"]]["unit_id"],blocks=authored[u["label"]]["blocks"]) for u in units if u["label"] in authored],
-            status="Step 4 pilot suite · draft for Sam to teach and review" if pilot else "Restructure only · existing content awaiting audit corrections"))
+            status=("Step 5a chapter 3 suite · draft for pilot" if number==3 else "Step 4 pilot suite · draft for Sam to teach and review") if pilot else "Restructure only · existing content awaiting audit corrections"))
     future=old["Ambil bungkusan di lobi"]
     future.update(title="Chapter 12 · Ambil bungkusan di lobi",sequence="future",status="Stage 2, not yet active")
     supplementary=[]
@@ -112,6 +110,9 @@ def add_course(lessons, lesson, suite_units=()):
             group.update(sequence="supplementary",status="Unplaced · provisional")
             supplementary.append(group)
     groups=stage1+[future]+supplementary+[g for g in groups if g["lang"]!="Malay"]
+    # Preserve source texts on disk but do not expose superseded chapter 3 packs.
+    superseded=set(old["Beli buah di pasar"]["items"])
+    lessons[:]=[l for l in lessons if l["title"] not in superseded]
     titles={l["title"] for l in lessons}|{t for u in suite_units for t in u["titles"]}
     assert all(t in titles for group in groups for t in group["items"])
     assert titles=={t for group in groups for t in group["items"]}
