@@ -83,11 +83,11 @@ def components(ledger, cfg):
         return [(lid, ex[lid], cfg.get("vocab_opts", {}).get(lid, {})) for lid in ids]
     add('vocabulary', 'Vocabulary', 'Vocabulary focus', 'A', 10, [
         ('Core words · 新しい基本語', vocab(ledger, [
-            (cfg['core_heading'] + ' · 学習する', entries(cfg['core']))])),
+            ('Core words · ' + cfg['core_heading'] + ' · 学習する', entries(cfg['core']))])),
         ('Dunia · To recognise · 聞いて分かる', vocab(ledger, [
-            (cfg['dunia_title'] + ' (recognise only)', entries(cfg['recognition']))])),
+            ('Dunia · To recognise · ' + cfg['dunia_title'], entries(cfg['recognition']))])),
         ('Revision · 復習 (not new, not tested as new vocabulary)', vocab(ledger, [
-            ('Previously taught', entries(cfg['revision']))]))],
+            ('Revision · 復習 · Previously taught', entries(cfg['revision']))]))],
         ['Exactly %s new core entries, %s Dunia recognition entries and %s previous-chapter revision entries.'
          % (len(cfg['core']), len(cfg['recognition']), len(cfg['revision'])),
          'Dunia words are recognition-only. The test does not treat them as new core.',
