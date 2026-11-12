@@ -15,6 +15,8 @@ Read the current Google Doc charter on 12 November 2026 (revision `AHj4eMSDx09t9
 
 Primary curriculum source: [Unified Curriculum Charter v0.1](https://docs.google.com/document/d/1d-uiYfQixReMUlPAcUEJ6R4onWOh-4Aa9urr14DL2lw). Repository evidence is pinned to the starting commit above. Counts, pacing, tasks and assessments below are proposals, not external CEFR certification claims.
 
+**Concurrent source update:** main advanced to `a52c6a0` during section 2: Claude added approved Stage 1 rows L-1084–L-1088 (pesta, perhatian, hingga, tolak, tarik). Reconciled against the refreshed copy: none of the 235 proposed core forms duplicates these five rows; hingga is now Stage 1 revision beside proposed sehingga, and tolak is the existing root for chapter 17 menolak. No Stage 2 ledger permission is implied. The section 2 checkpoint followed that upstream commit.
+
 ## 1. Unit plan, blocks and hours
 
 Propose **11 teaching units across chapters 10 to 17**, plus chapter 18 as a five-block stage close. Split the three morphology-heavy chapters; keep later functional chapters intact. This preserves the agreed chapter order without carrying Stage 1's 13-unit count into a different syllabus.
@@ -421,4 +423,51 @@ The exact legacy script is not approved for chapter 12 just because its title is
 
 **Selection exclusions:** no religious expressions or ceremonies, no blanket import of higher-band Hanashishou vocabulary, no Indonesian substitutions, no new etymologies. Existing rows such as L-0853 akad nikah and L-0643 puasa are not proposed; any religious scene requires Sam's separate decision. Medical vocabulary is for reporting and understanding professional instructions, not treatment guidance.
 
-**Checkpoint:** sections 1–2 complete; sections 3–6 follow.
+
+## 3. Affix progression, register and stage-aware checks
+
+### Teaching rules by chapter
+
+| Chapter | Open for productive teaching | Boundaries and examples |
+| --- | --- | --- |
+| 10 | Selected ber- verbs: action, state, possession/background | “Saya bekerja di Kuala Lumpur.” / “Saya bercakap bahasa Melayu dengan jiran saya.” Teach the chosen lexical families, not ber- attached to any word. belajar is revision. bekerja and belajar are exceptions to simple attachment; amend the charter's “no sound changes” explanation, while retaining ber- before meN-. |
+| 11 | meN- active forms: me-, mem-, men-, meng-, meny-, menge- | Start with familiar transitive pairs: “Aini membaca buku itu.” / “Buku itu dibaca oleh Aini.” Teach lexical mappings such as tulis → menulis, sapu → menyapu, kira → mengira and cat → mengecat. Do not make a di- passive from every verb: melancong is not a transitive object-taking model. memasak, membuat, menyewa, melancong and mendaki enter here. |
+| 12 | Selected -kan and -i families, including meN-...-kan/-i and corresponding passive/request forms | “Tolong simpankan bungkusan ini.” / “Boleh hubungi juruteknik?” / “Juruteknik sedang membaiki paip.” Teach each verb with its object and meaning. -kan is not a universal politeness ending; -i does not have one English or Japanese equivalent. baiki and membaiki are preferred repair forms. bersihkan is bersih + -kan, not ber- + sih. membeli is meN- + beli, not productive -i. |
+| 13 | No new affix family; negation/modal combinations and controlled revision | “Saya belum makan.” / “Bolehkah saya masuk?” / “Saya perlu berjumpa doktor.” Contrast belum with tidak, bukan with noun predicates, and jangan with prohibitions. mesti/perlu/patut differ in force. wajib is secular obligation here. Medical scripts ask for clarification, not give treatment recommendations. |
+| 14 | No new affix family; selected connectors and two-clause messages | “Kalau hujan, kita makan di kafe.” / “Saya tidak datang kerana saya bekerja.” Keep walaupun/namun manageable and marked by register; do not turn every everyday exchange into formal prose. Nominals such as keputusan are whole words, not an opening of productive ke-...-an. |
+| 15 | No new affix family; noun + yang + short clause and precise questions | “Saya mencari beg yang ada zip.” uses a short clause to identify the item. Reuse earlier question words in genuine information gaps, not as a new-word list. |
+| 16 | Selected accidental/unplanned/result-state ter- families | “Saya tertinggal telefon di pejabat.” / “Maaf, saya terlupa.” Contrast with chapter 6 termurah/terbaik. terkunci and terputus can describe resulting states; not every ter- form means an accident. Ability/success readings and idioms are outside this batch. |
+| 17 | No new productive affix; systematic register and discourse work | Standard first: tidak/tak, mahu/nak, sudah/dah, ini/ni, itu/tu, di/kat, sedikit/sikit, sahaja/saja, tetapi/tapi, bagaimana/macam mana, seperti itu/macam tu. Every second form marked **spoken**. kan (confirmation) is distinct from suffix -kan; lah needs contextual tone examples, not a one-word translation; pun is an existing standard particle, not inherently slang. jom and jemput are invitations with different tone, not interchangeable contractions. |
+| 18 | No new affix or register form | Assessment language stays within approved chapters 1–17. Standard production is always accepted; recognition of spoken forms does not require forced particle use. |
+
+All examples in this section are planning illustrations, subject to Sam's Malaysian usage review and the eventual approved ledger check. No suite is authorised by showing them here.
+
+### What the current code actually does
+
+`language_checks.py` already blocks ber-/be-shaped words before 10 and me-shaped words before 11, but **only loads c01–c09 cards** (`range(1,10)`). Its derivation routine handles selected Stage 1 constructions, not the full Stage 2 families. There is no suffix -kan/-i gate or semantic accidental-ter gate. Chapter assignment currently takes the minimum number found in both card IDs and free-text place fields. That is unsuitable for approval decisions: a “waits for” note or historical placement can become permission accidentally.
+
+The repo's affix root allow-list is `curriculum/malay-roots.json`, added to `ROOTS` in `language_checks.py`; it contains beri, mesej, memang, mesti, beritahu and mengapa. It classifies look-alike roots only. It neither creates ledger rows nor approves their chapter placement. Keep this file root-only. Do not add every Stage 2 affixed verb to it or enlarge `curriculum/legacy-exceptions.json`.
+
+Read Kata-Kata `tools/affix-guard.mjs` and `tools/check-content.mjs` at `0f78179034552f85d4c0d7ac4cb9e185f8b8ac8a`. Its current guard receives packs but no chapter policy; `ALLOW_LIST` contains roots. It builds one global `exemptWords` set from all chunks/recognition cards, then permits those words anywhere. New later-chapter exemptions could therefore leak backwards into Stage 1. Fix that before loading c10–c18.
+
+### Required implementation, after approval
+
+1. **One versioned policy, mirrored in both repos.** Record each grammar family, first chapter, permitted senses and approved lexical mappings. Proposed schema: form, lemma/root reference, family, sense, first_chapter, register, standard_form, source, approval. Metadata may identify an internal root without silently teaching that root as a standalone vocabulary item. Exact approved surface forms remain traceable to their row or family ID.
+2. **Explicit placement.** Use an approved numeric first-chapter field or a validated placement manifest. Distinguish core, recognition, revision and deferred mention. Ignore “waits for”, historical “was Ch…” and retirement notes when granting permission. Reject unknown or missing chapter metadata for authored Stage 2 content; do not let `chapter=None` bypass the stage policy. Resolve retired/duplicate rows before matching.
+3. **Load all approved packs, not arbitrary files.** Replace the fixed c01–c09 loader with the manifest's chapter set. Keep the unpublished proposal out of that manifest. Chapter 18 has a revision-only pack, not new-card permission. Register each actual authored Stage 2 unit in `curriculum/reauthored-units.json` when it is built so ledger gaps become blocking.
+4. **Use lexical mappings, not unrestricted prefix stripping.** Gate ber- at 10, meN- at 11, -kan/-i at 12 and accidental/result ter- at 16, while preserving named Stage 1 whole-word exceptions and superlative-only ter- from 6. Check composites too: a meN-...-kan form requires both 11 and 12. A known root alone does not authorise every derived sense, spelling or object frame. Retain both root and surface provenance in test tags; never count a derived form twice as new vocabulary.
+5. **Scope exemptions.** Kata-Kata's `runAffixGuard` must pass the effective chapter into card/frame/scenario checks; source scene tags rather than its pack name determine access. Permit an exact chunk only in its approved chapter or later, and only as that chunk, not every token globally. Keep `ALLOW_LIST` and Cikgu Sensai's roots restricted to actual roots. Reconcile the lists through reviewed provenance rather than copying unreviewed additions wholesale.
+6. **Register and independent sheets.** Extend `REGISTER` for kat and approved new pairs; keep contextual particles separate from contraction mappings. Standard-form teaching and spoken labels must be available in each extractable component or its explicit prerequisite sheet. The current shared `seq='stage'` state must not allow arbitrary traversal order to supply an invisible explanation. Preserve “standard first” in both printed and app content.
+7. **Malaysian-form rules.** Add the user-specified disallowed teaching forms berbicara, perbaiki, musik, film and olahraga with context-appropriate preferred forms where absent. Keep kereta, wang/duit and existing replacements. This is a course usage rule, not a claim that every excluded item is absent from every Malaysian dictionary. Do not apply substring bans that reject good compounds or explanatory quotations.
+8. **Shared regression fixtures.** Both checkers must agree on: bercakap 9 fail/10 pass; menyewa 10 fail/11 pass; membaiki 11 fail/12 pass; accidental tertinggal 15 fail/16 pass; termurah 6 pass without unlocking terjatuh; membeli 11 pass despite final i; bersihkan 11 fail/12 pass; mesti recognised as a root but rejected without ledger placement; later chunk exemptions not leaking to earlier chapters; standalone unlabelled spoken forms failing; unknown chapter failing; retired IDs failing. Preserve all Stage 1 checks and the shrink-only baseline. Cross-language Python/JS fixture parity is an acceptance gate, not implemented here.
+
+### Linguistic source checks and limits (12 November 2026)
+
+- [DBP PRPM: bekerja](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bekerja) and [DBP morphology reference](https://jendeladbp.my/app/uploads/woocommerce_uploads/2025/04/eDigital_Morfologi-qnsczr.pdf): indexed DBP text identifies bekerja and belajar as exceptions. This supports correcting “no sound changes”, not changing chapter order.
+- [DBP PRPM: akhiran](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=akhiran) and [DBP advice on -kan/-i](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=lihat+kan): indexed explanations distinguish meanings and include membaiki. Do not teach a single mechanical translation of either suffix.
+- [DBP PRPM: bercakap](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=bercakap): indexed Kamus Dewan Edisi Keempat senses support speak/use a language/chat. This course selects those senses.
+- [DBP PRPM: terjatuh](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=terjatuh): indexed Kamus Dewan definition supports the accidental-fall sense.
+
+These were retrieved through web-search excerpts; direct PRPM page opens timed out or returned errors. **Do not mark a full KD4 review complete or invent page references.** A row-by-row check, spelling/valency review and Japanese native review remain before approved publication of teaching material. No legal, clinic, transport, price or institutional fact is asserted by the fictional scenes in this plan.
+
+**Checkpoint:** sections 1–3 complete; sections 4–6 follow.
