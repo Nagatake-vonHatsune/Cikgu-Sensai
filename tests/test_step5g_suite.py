@@ -44,9 +44,14 @@ def ch9_placed(rows):
     return {lid for lid, r in rows.items() if r['Review status'] != 'Retired' and re.search(r'Ch\s*9\b', r['Kata-Kata place'])}
 
 
+NEW_CH9 = {f'L-{i:04d}' for i in range(1076, 1084)}
+
+
 def ch9_core(rows):
-    """First placed in chapter 9 and carrying a chapter 9 card."""
-    return {lid for lid in ch9_placed(rows) if first_chapter(rows[lid]) == 9 and has_c09_card(rows[lid])}
+    """First placed in chapter 9 and carrying a chapter 9 card, or one of the chapter 9 rows Sam approved on 12 Nov 2026
+    (L-1076 to L-1083, placed "Ch9 (pending)" until Kata-Kata adds their cards)."""
+    return {lid for lid in ch9_placed(rows) if first_chapter(rows[lid]) == 9 and 'primes Ch9' not in rows[lid]['Kata-Kata place']
+            and (has_c09_card(rows[lid]) or rows[lid]['Kata-Kata place'] == 'Ch9 (pending)')}
 
 
 def ch9_recognition(rows):
@@ -96,9 +101,12 @@ class Chapter9Minimums(unittest.TestCase):
         rows = self.ledger.rows
         placed = ch9_placed(rows)
         core_all = ch9_core(rows)
-        # 29 core entries: L-0377 to L-0405. «pinggan» (L-0355) carries a chapter 9 card but was placed in chapter 8.
-        self.assertEqual(len(core_all), 29)
-        self.assertEqual(core_all, {f'L-{i:04d}' for i in range(377, 406)})
+        # 37 core entries: L-0377 to L-0405 and Sam's eight rows L-1076 to L-1083. «pinggan» (L-0355) carries a chapter 9 card
+        # but was placed in chapter 8.
+        self.assertEqual(len(core_all), 37)
+        self.assertEqual(core_all, {f'L-{i:04d}' for i in range(377, 406)} | NEW_CH9)
+        self.assertEqual({rows[x]['Malay'] for x in NEW_CH9},
+                         {'buat', 'panggil', 'cuci', 'larang', 'tuan rumah', 'mari', 'ibu', 'adik'})
         rec_all = ch9_recognition(rows)
         # 27 Dunia entries in the ledger as handed over (Rumah terbuka Hari Raya 13, Simpulan bahasa harian 14) plus Sam's six
         # festival words of 12 Nov 2026 (L-1070 to L-1075).
@@ -108,7 +116,7 @@ class Chapter9Minimums(unittest.TestCase):
         festival = {lid for lid in rec_all if 'Rumah terbuka (primes Ch9; pending)' in rows[lid]['Kata-Kata place']}
         self.assertEqual((len(raya), len(simpulan), len(festival)), (13, 14, 6))
         self.assertEqual({rows[x]['Malay'] for x in festival},
-                         {'Tahun Baru Cina', 'Deepavali', 'Krismas', 'Gawai', 'Kaamatan', 'angpau'})
+                         {'Tahun Baru Cina / Tahun Baharu Cina', 'Deepavali', 'Krismas', 'Gawai', 'Kaamatan', 'angpau'})
         carried = placed - core_all - rec_all
         self.assertEqual({rows[x]['Malay'] for x in carried}, {'pinggan'})
         core = self.cfg['core']
@@ -119,8 +127,9 @@ class Chapter9Minimums(unittest.TestCase):
         self.assertEqual(set(rec), rec_all)
         self.assertEqual({s: len(ids) for s, ids in self.cfg['recognition']}, {RUMAH: 19, IDIOMS: 14})
         groups = dict(self.cfg['core_groups'])
-        self.assertEqual(list(groups), ['«di-» verbs', '«oleh», «pada», «tadi», «siap»', 'Signs and notices', 'A party'])
-        self.assertEqual([len(v) for v in groups.values()], [18, 4, 5, 2])
+        self.assertEqual(list(groups), ['«di-» verbs', 'Roots for the «di-» rule', '«oleh», «pada», «tadi», «siap»',
+                                        'Signs and notices', 'A party and an open house', 'Family'])
+        self.assertEqual([len(v) for v in groups.values()], [18, 4, 4, 5, 4, 2])
         self.assertEqual([lid for ids in groups.values() for lid in ids], core)
         # The 18 «di-» rows are the ledger's di- forms.
         self.assertEqual([rows[x]['Malay'] for x in ms_c09.DI_VERBS], SECTION_VERBS)
@@ -167,16 +176,16 @@ class Chapter9Minimums(unittest.TestCase):
         self.assertEqual(len(entries), len(ids))
         self.assertIn(f'"{RUMAH}"', txt)
         self.assertIn(f'"{IDIOMS}"', txt)
-        # Each «di-» verb shows its root: ledger roots as Malay, the four that are not ledger words as mentions.
+        # Each «di-» verb shows its root, and every root is now a ledger word marked as Malay (L-1076 to L-1079 since 12 Nov).
         for lid, root in ms_c09.ROOTS.items():
             entry = next(x for x in entries if f'[{lid}]' in x)
             self.assertIn(root, entry, lid)
-        for root in ('‹buat›', '‹panggil›', '‹cuci›', '‹larang›'):
-            self.assertIn(root, txt)
+            self.assertTrue(root.startswith('«'), lid)
         mentions = json.loads((ROOT / 'curriculum/malay-mentions.json').read_text())['mentions']
-        for m, card in (('buat', 'ms-c09-004'), ('panggil', 'ms-c09-016'), ('cuci', 'ms-c09-018'), ('larang', 'ms-c09-021'),
-                        ('jamu', 'ms-c09-029'), ('me', 'ms-c09-024')):
+        for m, card in (('jamu', 'ms-c09-029'), ('me', 'ms-c09-024')):
             self.assertIn(card, mentions[m], m)
+        for m in ('buat', 'panggil', 'cuci', 'larang'):
+            self.assertNotIn(m, mentions, m)
         # «Dilarang merokok» is a sign to recognise only.
         self.assertIn('recognise only', next(x for x in entries if '[L-0400]' in x))
         for l in self.by_unit[self.u]:
@@ -231,9 +240,31 @@ class Chapter9Minimums(unittest.TestCase):
         for w in set(self.marked_words()):
             self.assertFalse(re.fullmatch(r'ber[a-z]{3,}', w) and w not in ('berapa', 'bersih', 'besar', 'berat'), w)
             self.assertFalse(re.fullmatch(r'me[a-z]{4,}', w) and w not in ('merokok', 'mesyuarat', 'merah', 'meter', 'mengapa', 'menu', 'melayu'), w)
-        # Active sentences use root verbs from the ledger only: ‹buat›, ‹panggil›, ‹cuci›, ‹larang› are never marked as Malay.
+        # The roots «buat», «panggil», «cuci», «larang» (L-1076 to L-1079) are ledger words now and are used as Malay.
         for w in ('buat', 'panggil', 'cuci', 'larang'):
-            self.assertNotIn(w, set(self.marked_words()), w)
+            self.assertIn(w, set(self.marked_words([self.u])), w)
+        transform = ' '.join(self.comp('Drill', 'transform')['key'])
+        self.assertIn('«Kuih ini dibuat oleh ibu saya.»', transform)
+        self.assertIn('«Encik Tanaka dipanggil oleh Puan Aini.»', transform)
+
+    def test_step5h_new_words_in_use(self):
+        """Sam, 12 Nov 2026: L-1076 to L-1083 are used naturally in the unit (outside the vocabulary list), and tested."""
+        used = []
+        for l in self.by_unit[self.u]:
+            if l['suite']['component_type'] == 'Vocabulary':
+                continue
+            used += [x for _, items, _ in l['sections'] for x in items] + l['key']
+            used += [t['prompt'] + ' ' + t['answer_key'] for t in l['suite']['tests']]
+        spans = ' | '.join(span.lower() for line in used for span in re.findall(r'«([^»]*)»', line))
+        for w in ('buat', 'panggil', 'cuci', 'tuan rumah', 'mari', 'ibu', 'adik'):
+            self.assertRegex(spans, r'(?<![a-z])' + w + r'(?![a-z])', w)
+        self.assertIn('Mari makan', spans.replace('mari makan', 'Mari makan'))
+        tests = self.comp('Test')['suite']['tests']
+        tagged = {w for t in tests for w in t['word_ids']}
+        for lid in ('L-1076', 'L-1082'):
+            self.assertIn(self.ledger.word_id(self.ledger.row(lid)), tagged, lid)
+        # «jom» is the spoken equivalent of «mari», and is labelled.
+        self.assertIn('«Jom makan»', ' '.join(self.cfg['festival_notes']['en']))
 
     def test_idioms_are_recognition_only(self):
         """Sam: the idioms are for recognition; list them with plain meanings and do not drill them as core."""
@@ -359,13 +390,24 @@ class Chapter9Minimums(unittest.TestCase):
         self.assertIn('Kaamatan', borneo)
         self.assertIn('not Malay', borneo)
         # Greetings are built from ledger words; there are no new greeting rows and no faith-specific greeting.
-        for g in ('Selamat Hari Raya', 'Selamat Hari Deepavali', 'Selamat Hari Krismas', 'Selamat Hari Gawai'):
+        for g in ('Selamat Hari Raya', '«Selamat Tahun Baru Cina» (no «Hari»)', 'Selamat Hari Deepavali', 'Selamat Hari Krismas',
+                  'Selamat Hari Gawai', '‹Selamat Pesta Kaamatan› (from usage; not yet sourced)'):
             self.assertIn(g, intro)
+        self.assertNotIn('Selamat Hari Tahun', ' '.join(self.all_lines()))
+        self.assertNotIn('Selamat Hari Kaamatan', ' '.join(self.all_lines()))
+        # Sam, 12 Nov 2026: both spellings, Labuan, the Gawai dates, «angpau» as the Malay spelling, one Christmas sentence.
+        for w in ('«Tahun Baru Cina» (Chinese New Year) is the everyday name', '«Tahun Baharu Cina» is the official one'):
+            self.assertIn(w, cny)
+        self.assertIn('"ang pow"', cny)
+        self.assertIn('Sabah and Labuan, 30 and 31 May', borneo)
+        self.assertIn('gazetted as a holiday on 25 September 1964 and first celebrated on 1 June 1965', borneo)
+        self.assertEqual(xmas.count('.'), 1)
         text = ' '.join(self.all_lines()).lower()
         self.assertNotRegex(text, r'assalam|waalaikum|kotobian|gayu guru|insya|alhamdulillah|bismillah|halal|haram|puasa|solat|sembahyang|azan|khutbah|ibadat|doa\b')
         # Sources are named, honestly.
         src = fn['sources']
-        for name in ('EMGS Connect', 'Arab News', 'Malay Mail', 'The Borneo Post', 'search summaries only',
+        for name in ('EMGS Connect', 'Arab News', 'Malay Mail', 'The Borneo Post', 'search summaries only', 'New Straits Times',
+                     'Free Malaysia Today', 'officeholidays.com', 'ecentral.my', 'not yet sourced',
                      'Wikipedia pages could not be fetched', 'no source retrieved', 'L-1070 to L-1075'):
             self.assertIn(name, src, name)
         # No figure, price or percentage is stated about the real country.

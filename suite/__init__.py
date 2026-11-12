@@ -241,6 +241,11 @@ GLOSS = {
     'L-1068': dict(en='banana fritters (standard «pisang goreng»; everyday «goreng pisang»)', ja='揚げバナナ（標準は «pisang goreng»、日常は «goreng pisang»）'),
     'L-1069': dict(en='a chewy fish-sausage snack (a Terengganu speciality)', ja='魚のすり身のソーセージ状のおやつ（トレンガヌ名物）'),
     'L-1052': dict(en='room («bilik tidur» = bedroom, «bilik air» = bathroom)', ja='部屋（«bilik tidur»＝寝室、«bilik air»＝浴室）'),
+    'L-1076': dict(en='to make, to do (everyday root; «dibuat» = made)', ja='作る・する（日常の語根；«dibuat»＝作られた）'),
+    'L-1077': dict(en='to call («dipanggil» = called)', ja='呼ぶ（«dipanggil»＝呼ばれた）'),
+    'L-1078': dict(en='to wash («dicuci» = washed)', ja='洗う（«dicuci»＝洗われた）'),
+    'L-1079': dict(en='to forbid («dilarang» = forbidden)', ja='禁じる（«dilarang»＝禁止されている）'),
+    'L-1081': dict(en='come; let\'s («Mari makan» = come and eat)', ja='さあ・〜しましょう（«Mari makan»＝どうぞ召し上がれ）'),
 }
 
 

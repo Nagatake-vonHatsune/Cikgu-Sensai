@@ -72038,13 +72038,13 @@
  "Unit 9 · Vocabulary focus|3|1": {
   "source_text": "dibuat — made (di- + buat) · 作られた（di- ＋ buat）  [L-0380]",
   "target_spans": [
-   "dibuat"
+   "dibuat",
+   "buat",
+   "buat"
   ],
   "mention_spans": [
    "di-",
-   "buat",
-   "di-",
-   "buat"
+   "di-"
   ],
   "kind": "vocabulary",
   "exclusion": null
@@ -72314,13 +72314,13 @@
  "Unit 9 · Vocabulary focus|3|25": {
   "source_text": "dipanggil — called (di- + panggil) · 呼ばれた（di- ＋ panggil）  [L-0392]",
   "target_spans": [
-   "dipanggil"
+   "dipanggil",
+   "panggil",
+   "panggil"
   ],
   "mention_spans": [
    "di-",
-   "panggil",
-   "di-",
-   "panggil"
+   "di-"
   ],
   "kind": "vocabulary",
   "exclusion": null
@@ -72360,13 +72360,13 @@
  "Unit 9 · Vocabulary focus|3|29": {
   "source_text": "dicuci — washed (di- + cuci) · 洗われた（di- ＋ cuci）  [L-0394]",
   "target_spans": [
-   "dicuci"
+   "dicuci",
+   "cuci",
+   "cuci"
   ],
   "mention_spans": [
    "di-",
-   "cuci",
-   "di-",
-   "cuci"
+   "di-"
   ],
   "kind": "vocabulary",
   "exclusion": null
@@ -72429,13 +72429,13 @@
  "Unit 9 · Vocabulary focus|4|4": {
   "source_text": "dilarang — forbidden, prohibited (di- + larang) · 禁止（di- ＋ larang）  [L-0397]",
   "target_spans": [
-   "dilarang"
+   "dilarang",
+   "larang",
+   "larang"
   ],
   "mention_spans": [
    "di-",
-   "larang",
-   "di-",
-   "larang"
+   "di-"
   ],
   "kind": "vocabulary",
   "exclusion": null
@@ -72450,6 +72450,102 @@
   "exclusion": null
  },
  "Unit 9 · Vocabulary focus|4|6": {
+  "source_text": "■ Core words · Roots for the di- rule · 学習する",
+  "target_spans": [
+   "di-"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|4|7": {
+  "source_text": "buat — to make, to do (everyday root; dibuat = made) · 作る・する（日常の語根；dibuat＝作られた）  [L-1076]",
+  "target_spans": [
+   "buat",
+   "dibuat",
+   "dibuat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|4|8": {
+  "source_text": "   e.g. Isteri saya buat kek ini. → Kek ini dibuat oleh isteri saya.",
+  "target_spans": [
+   "Isteri saya buat kek ini.",
+   "Kek ini dibuat oleh isteri saya."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|4|9": {
+  "source_text": "panggil — to call (dipanggil = called) · 呼ぶ（dipanggil＝呼ばれた）  [L-1077]",
+  "target_spans": [
+   "panggil",
+   "dipanggil",
+   "dipanggil"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|4|10": {
+  "source_text": "   e.g. Puan Aini panggil Encik Tanaka. → Encik Tanaka dipanggil oleh Puan Aini.",
+  "target_spans": [
+   "Puan Aini panggil Encik Tanaka.",
+   "Encik Tanaka dipanggil oleh Puan Aini."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|4|11": {
+  "source_text": "cuci — to wash (dicuci = washed) · 洗う（dicuci＝洗われた）  [L-1078]",
+  "target_spans": [
+   "cuci",
+   "dicuci",
+   "dicuci"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|4|12": {
+  "source_text": "   e.g. Saya cuci pinggan sekarang. → Pinggan sudah dicuci.",
+  "target_spans": [
+   "Saya cuci pinggan sekarang.",
+   "Pinggan sudah dicuci."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|4|13": {
+  "source_text": "larang — to forbid (dilarang = forbidden) · 禁じる（dilarang＝禁止されている）  [L-1079]",
+  "target_spans": [
+   "larang",
+   "dilarang",
+   "dilarang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|4|14": {
+  "source_text": "   e.g. dilarang is di- + larang; the root is mostly met inside the sign word: Dilarang masuk.",
+  "target_spans": [
+   "dilarang",
+   "larang",
+   "Dilarang masuk."
+  ],
+  "mention_spans": [
+   "di-"
+  ],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|4|15": {
   "source_text": "■ Core words · oleh, pada, tadi, siap · 学習する",
   "target_spans": [
    "oleh",
@@ -72461,7 +72557,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|7": {
+ "Unit 9 · Vocabulary focus|4|16": {
   "source_text": "oleh — by (the doer in a passive sentence): dibuat oleh Mei Ling = made by Mei Ling · 〜によって（受け身の動作主）：dibuat oleh Mei Ling＝メイリンによって作られた  [L-0377]",
   "target_spans": [
    "oleh",
@@ -72472,7 +72568,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|8": {
+ "Unit 9 · Vocabulary focus|4|17": {
   "source_text": "   e.g. Kek ini dibuat oleh Mei Ling.",
   "target_spans": [
    "Kek ini dibuat oleh Mei Ling."
@@ -72481,7 +72577,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|9": {
+ "Unit 9 · Vocabulary focus|4|18": {
   "source_text": "pada — at, on (a time): pada pukul lima = at five o'clock · 〜に（時刻・日）：pada pukul lima＝5時に  [L-0378]",
   "target_spans": [
    "pada",
@@ -72492,7 +72588,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|10": {
+ "Unit 9 · Vocabulary focus|4|19": {
   "source_text": "   e.g. Jamuan itu pada pukul lima petang.",
   "target_spans": [
    "Jamuan itu pada pukul lima petang."
@@ -72501,7 +72597,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|11": {
+ "Unit 9 · Vocabulary focus|4|20": {
   "source_text": "tadi — earlier today, a moment ago: pagi tadi = this morning (already past) · さっき・先ほど：pagi tadi＝けさ（もう過ぎた）  [L-0379]",
   "target_spans": [
    "tadi",
@@ -72512,7 +72608,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|12": {
+ "Unit 9 · Vocabulary focus|4|21": {
   "source_text": "   e.g. Saya beli nasi lemak pagi tadi.",
   "target_spans": [
    "Saya beli nasi lemak pagi tadi."
@@ -72521,7 +72617,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|13": {
+ "Unit 9 · Vocabulary focus|4|22": {
   "source_text": "siap — ready, done: Kek sudah siap. · できた・準備ができた：Kek sudah siap.  [L-0405]",
   "target_spans": [
    "siap",
@@ -72532,7 +72628,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|14": {
+ "Unit 9 · Vocabulary focus|4|23": {
   "source_text": "   e.g. Kek sudah siap.",
   "target_spans": [
    "Kek sudah siap."
@@ -72541,14 +72637,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|15": {
+ "Unit 9 · Vocabulary focus|4|24": {
   "source_text": "■ Core words · Signs and notices · 学習する",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Vocabulary focus|4|16": {
+ "Unit 9 · Vocabulary focus|5|0": {
   "source_text": "Dilarang masuk — No entry (a sign: Dilarang + what is banned) · 立入禁止（掲示：Dilarang ＋禁止されること）  [L-0398]",
   "target_spans": [
    "Dilarang masuk",
@@ -72559,7 +72655,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|17": {
+ "Unit 9 · Vocabulary focus|5|1": {
   "source_text": "   e.g. Dilarang masuk. (on a door)",
   "target_spans": [
    "Dilarang masuk."
@@ -72568,7 +72664,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|18": {
+ "Unit 9 · Vocabulary focus|5|2": {
   "source_text": "Dilarang makan dan minum — No eating or drinking · 飲食禁止  [L-0399]",
   "target_spans": [
    "Dilarang makan dan minum"
@@ -72577,7 +72673,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|19": {
+ "Unit 9 · Vocabulary focus|5|3": {
   "source_text": "   e.g. Dilarang makan dan minum. (in a meeting room)",
   "target_spans": [
    "Dilarang makan dan minum."
@@ -72586,7 +72682,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|20": {
+ "Unit 9 · Vocabulary focus|5|4": {
   "source_text": "Dilarang merokok — No smoking (a sign to recognise only; the Kata-Kata card note says it contains a me- verb) · 禁煙（見て分かればよい掲示；Kata-Kata のカード注記によると me- の動詞を含む）  [L-0400]",
   "target_spans": [
    "Dilarang merokok"
@@ -72598,7 +72694,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|21": {
+ "Unit 9 · Vocabulary focus|5|5": {
   "source_text": "   e.g. Dilarang merokok. (a sign to recognise only)",
   "target_spans": [
    "Dilarang merokok."
@@ -72607,7 +72703,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|22": {
+ "Unit 9 · Vocabulary focus|5|6": {
   "source_text": "sila — please (a polite instruction, with a verb: Sila masuk.) · 〜してください（丁寧な指示、動詞とともに：Sila masuk.）  [L-0401]",
   "target_spans": [
    "sila",
@@ -72618,7 +72714,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|23": {
+ "Unit 9 · Vocabulary focus|5|7": {
   "source_text": "   e.g. Sila masuk. / Sila duduk.",
   "target_spans": [
    "Sila masuk.",
@@ -72628,7 +72724,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|4|24": {
+ "Unit 9 · Vocabulary focus|5|8": {
   "source_text": "papan tanda — signboard · 看板  [L-0402]",
   "target_spans": [
    "papan tanda"
@@ -72637,7 +72733,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|0": {
+ "Unit 9 · Vocabulary focus|5|9": {
   "source_text": "   e.g. Papan tanda ini di depan pintu.",
   "target_spans": [
    "Papan tanda ini di depan pintu."
@@ -72646,14 +72742,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|1": {
-  "source_text": "■ Core words · A party · 学習する",
+ "Unit 9 · Vocabulary focus|5|10": {
+  "source_text": "■ Core words · A party and an open house · 学習する",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Vocabulary focus|5|2": {
+ "Unit 9 · Vocabulary focus|5|11": {
   "source_text": "kek — cake · ケーキ  [L-0403]",
   "target_spans": [
    "kek"
@@ -72662,7 +72758,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|3": {
+ "Unit 9 · Vocabulary focus|5|12": {
   "source_text": "   e.g. Kek ini sedap.",
   "target_spans": [
    "Kek ini sedap."
@@ -72671,7 +72767,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|4": {
+ "Unit 9 · Vocabulary focus|5|13": {
   "source_text": "jamuan — party with food, feast (jamu + -an, from the Kata-Kata card note) · 食事つきの集まり・会食（jamu ＋ -an、Kata-Kata のカード注記より）  [L-0404]",
   "target_spans": [
    "jamuan"
@@ -72685,7 +72781,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|5": {
+ "Unit 9 · Vocabulary focus|5|14": {
   "source_text": "   e.g. Jamuan di pejabat pada pukul lima petang.",
   "target_spans": [
    "Jamuan di pejabat pada pukul lima petang."
@@ -72694,21 +72790,100 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|6": {
-  "source_text": "■ Dunia · To recognise · 聞いて分かる",
+ "Unit 9 · Vocabulary focus|5|15": {
+  "source_text": "tuan rumah — host (of a gathering or a house): Terima kasih, tuan rumah. · 主催者・（家の）主人：Terima kasih, tuan rumah.  [L-1080]",
+  "target_spans": [
+   "tuan rumah",
+   "Terima kasih, tuan rumah.",
+   "Terima kasih, tuan rumah."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|5|16": {
+  "source_text": "   e.g. Rendang ini dimasak oleh tuan rumah.",
+  "target_spans": [
+   "Rendang ini dimasak oleh tuan rumah."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|5|17": {
+  "source_text": "mari — come; let's (standard): Mari makan. = come and eat; spoken Jom makan. · さあ・〜しましょう（標準）：Mari makan.＝どうぞ召し上がれ；話し言葉は Jom makan.  [L-1081]",
+  "target_spans": [
+   "mari",
+   "Mari makan.",
+   "Jom makan.",
+   "Mari makan.",
+   "Jom makan."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|5|18": {
+  "source_text": "   e.g. Mari makan! (spoken: Jom makan!)",
+  "target_spans": [
+   "Mari makan!",
+   "Jom makan!"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|5|19": {
+  "source_text": "■ Core words · Family · 学習する",
   "target_spans": [],
   "mention_spans": [],
-  "kind": "heading",
+  "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Vocabulary focus|5|7": {
+ "Unit 9 · Vocabulary focus|5|20": {
+  "source_text": "ibu — mother · 母  [L-1082]",
+  "target_spans": [
+   "ibu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|5|21": {
+  "source_text": "   e.g. Kuih ini dibuat oleh ibu saya.",
+  "target_spans": [
+   "Kuih ini dibuat oleh ibu saya."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|5|22": {
+  "source_text": "adik — younger brother or sister · 弟・妹  [L-1083]",
+  "target_spans": [
+   "adik"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|5|23": {
+  "source_text": "   e.g. Angpau ini untuk adik saya.",
+  "target_spans": [
+   "Angpau ini untuk adik saya."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 9 · Vocabulary focus|6|0": {
   "source_text": "■ Dunia · To recognise · \"Rumah terbuka\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Vocabulary focus|5|8": {
+ "Unit 9 · Vocabulary focus|6|1": {
   "source_text": "Hari Raya — the festival at the end of Ramadan · 断食明けのお祭り  [L-0537]",
   "target_spans": [
    "Hari Raya"
@@ -72717,7 +72892,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|9": {
+ "Unit 9 · Vocabulary focus|6|2": {
   "source_text": "   e.g. Kami balik kampung pada Hari Raya.",
   "target_spans": [
    "Kami balik kampung pada Hari Raya."
@@ -72726,7 +72901,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|10": {
+ "Unit 9 · Vocabulary focus|6|3": {
   "source_text": "Selamat Hari Raya — the greeting for the festival at the end of Ramadan · 断食明けのお祭りの挨拶  [L-0538]",
   "target_spans": [
    "Selamat Hari Raya"
@@ -72735,7 +72910,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|11": {
+ "Unit 9 · Vocabulary focus|6|4": {
   "source_text": "   e.g. Selamat Hari Raya!",
   "target_spans": [
    "Selamat Hari Raya!"
@@ -72744,7 +72919,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|12": {
+ "Unit 9 · Vocabulary focus|6|5": {
   "source_text": "maaf zahir dan batin — forgive me, outwardly and inwardly (Raya greeting) · これまでの非礼をお許しください（ハリラヤの挨拶）  [L-0539]",
   "target_spans": [
    "maaf zahir dan batin"
@@ -72753,7 +72928,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|13": {
+ "Unit 9 · Vocabulary focus|6|6": {
   "source_text": "   e.g. Maaf zahir dan batin.",
   "target_spans": [
    "Maaf zahir dan batin."
@@ -72762,7 +72937,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|14": {
+ "Unit 9 · Vocabulary focus|6|7": {
   "source_text": "rumah terbuka — open house · オープンハウス（誰でも招く集まり）  [L-0540]",
   "target_spans": [
    "rumah terbuka"
@@ -72771,7 +72946,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|15": {
+ "Unit 9 · Vocabulary focus|6|8": {
   "source_text": "   e.g. Rumah terbuka pada hari Sabtu.",
   "target_spans": [
    "Rumah terbuka pada hari Sabtu."
@@ -72780,7 +72955,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|16": {
+ "Unit 9 · Vocabulary focus|6|9": {
   "source_text": "jemput — to invite; please (help yourself) · 招く・どうぞ  [L-0541]",
   "target_spans": [
    "jemput"
@@ -72789,7 +72964,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|17": {
+ "Unit 9 · Vocabulary focus|6|10": {
   "source_text": "   e.g. Jemput masuk. Jemput makan.",
   "target_spans": [
    "Jemput masuk. Jemput makan."
@@ -72798,7 +72973,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|18": {
+ "Unit 9 · Vocabulary focus|6|11": {
   "source_text": "tetamu — guest · 客  [L-0542]",
   "target_spans": [
    "tetamu"
@@ -72807,7 +72982,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|19": {
+ "Unit 9 · Vocabulary focus|6|12": {
   "source_text": "   e.g. Semua tetamu duduk di ruang tamu.",
   "target_spans": [
    "Semua tetamu duduk di ruang tamu."
@@ -72816,7 +72991,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|20": {
+ "Unit 9 · Vocabulary focus|6|13": {
   "source_text": "ketupat — rice cooked in a woven palm-leaf case · ヤシの葉で編んだ袋で炊いた米  [L-0543]",
   "target_spans": [
    "ketupat"
@@ -72825,7 +73000,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|21": {
+ "Unit 9 · Vocabulary focus|6|14": {
   "source_text": "   e.g. Ketupat dan rendang di atas meja.",
   "target_spans": [
    "Ketupat dan rendang di atas meja."
@@ -72834,7 +73009,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|22": {
+ "Unit 9 · Vocabulary focus|6|15": {
   "source_text": "rendang — slow-cooked spiced meat · スパイスで煮込んだ肉料理  [L-0544]",
   "target_spans": [
    "rendang"
@@ -72843,7 +73018,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|23": {
+ "Unit 9 · Vocabulary focus|6|16": {
   "source_text": "   e.g. Rendang ini sedap.",
   "target_spans": [
    "Rendang ini sedap."
@@ -72852,7 +73027,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|24": {
+ "Unit 9 · Vocabulary focus|6|17": {
   "source_text": "kuih — traditional cakes and sweets · クエ（伝統菓子）  [L-0545]",
   "target_spans": [
    "kuih"
@@ -72861,7 +73036,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|25": {
+ "Unit 9 · Vocabulary focus|6|18": {
   "source_text": "   e.g. Kuih ini manis.",
   "target_spans": [
    "Kuih ini manis."
@@ -72870,7 +73045,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|5|26": {
+ "Unit 9 · Vocabulary focus|6|19": {
   "source_text": "duit raya — a Raya money gift, given to children · ハリラヤに子どもへ渡すお年玉  [L-0546]",
   "target_spans": [
    "duit raya"
@@ -72879,7 +73054,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|0": {
+ "Unit 9 · Vocabulary focus|6|20": {
   "source_text": "   e.g. Duit raya untuk anak saya.",
   "target_spans": [
    "Duit raya untuk anak saya."
@@ -72888,7 +73063,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|1": {
+ "Unit 9 · Vocabulary focus|6|21": {
   "source_text": "pelita — oil lamp · 灯油ランプ  [L-0547]",
   "target_spans": [
    "pelita"
@@ -72897,7 +73072,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|2": {
+ "Unit 9 · Vocabulary focus|6|22": {
   "source_text": "   e.g. Pelita di depan rumah.",
   "target_spans": [
    "Pelita di depan rumah."
@@ -72906,7 +73081,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|3": {
+ "Unit 9 · Vocabulary focus|6|23": {
   "source_text": "balik kampung — to go back to your hometown · 帰省する  [L-0548]",
   "target_spans": [
    "balik kampung"
@@ -72915,7 +73090,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|4": {
+ "Unit 9 · Vocabulary focus|6|24": {
   "source_text": "   e.g. Balik kampung hari Jumaat.",
   "target_spans": [
    "Balik kampung hari Jumaat."
@@ -72924,7 +73099,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|5": {
+ "Unit 9 · Vocabulary focus|6|25": {
   "source_text": "baju Melayu — traditional Malay men's outfit · マレー人男性の伝統衣装  [L-0549]",
   "target_spans": [
    "baju Melayu"
@@ -72933,7 +73108,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|6": {
+ "Unit 9 · Vocabulary focus|6|26": {
   "source_text": "   e.g. Baju Melayu biru.",
   "target_spans": [
    "Baju Melayu biru."
@@ -72942,18 +73117,24 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|7": {
-  "source_text": "Tahun Baru Cina — Chinese New Year (the greeting is built the same way: Selamat Tahun Baru Cina) · 旧正月・春節（挨拶も同じ作り方：Selamat Tahun Baru Cina）  [L-1070]",
+ "Unit 9 · Vocabulary focus|7|0": {
+  "source_text": "Tahun Baru Cina / Tahun Baharu Cina — Chinese New Year: Tahun Baru Cina is everyday, Tahun Baharu Cina official (greeting: Selamat Tahun Baru Cina, no Hari) · 旧正月・春節：Tahun Baru Cina は日常の形、Tahun Baharu Cina は公式の形（挨拶：Selamat Tahun Baru Cina、Hari は付けない）  [L-1070]",
   "target_spans": [
+   "Tahun Baru Cina / Tahun Baharu Cina",
    "Tahun Baru Cina",
+   "Tahun Baharu Cina",
    "Selamat Tahun Baru Cina",
-   "Selamat Tahun Baru Cina"
+   "Hari",
+   "Tahun Baru Cina",
+   "Tahun Baharu Cina",
+   "Selamat Tahun Baru Cina",
+   "Hari"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|8": {
+ "Unit 9 · Vocabulary focus|7|1": {
   "source_text": "   e.g. Selamat Tahun Baru Cina!",
   "target_spans": [
    "Selamat Tahun Baru Cina!"
@@ -72962,7 +73143,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|9": {
+ "Unit 9 · Vocabulary focus|7|2": {
   "source_text": "Deepavali — the Hindu festival of lights (Selamat Hari Deepavali) · ヒンドゥー教の光のお祭り（Selamat Hari Deepavali）  [L-1071]",
   "target_spans": [
    "Deepavali",
@@ -72973,7 +73154,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|10": {
+ "Unit 9 · Vocabulary focus|7|3": {
   "source_text": "   e.g. Selamat Hari Deepavali!",
   "target_spans": [
    "Selamat Hari Deepavali!"
@@ -72982,7 +73163,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|11": {
+ "Unit 9 · Vocabulary focus|7|4": {
   "source_text": "Krismas — Christmas (Selamat Hari Krismas) · クリスマス（Selamat Hari Krismas）  [L-1072]",
   "target_spans": [
    "Krismas",
@@ -72993,7 +73174,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|12": {
+ "Unit 9 · Vocabulary focus|7|5": {
   "source_text": "   e.g. Selamat Hari Krismas!",
   "target_spans": [
    "Selamat Hari Krismas!"
@@ -73002,7 +73183,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|13": {
+ "Unit 9 · Vocabulary focus|7|6": {
   "source_text": "Gawai — the Dayak harvest festival of Sarawak, also called Gawai Dayak (Selamat Hari Gawai) · サラワク州のダヤク族の収穫祭、ガワイ・ダヤクともいう（Selamat Hari Gawai）  [L-1073]",
   "target_spans": [
    "Gawai",
@@ -73014,7 +73195,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|14": {
+ "Unit 9 · Vocabulary focus|7|7": {
   "source_text": "   e.g. Selamat Hari Gawai!",
   "target_spans": [
    "Selamat Hari Gawai!"
@@ -73023,16 +73204,19 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|15": {
-  "source_text": "Kaamatan — the harvest festival of Sabah · サバ州の収穫祭  [L-1074]",
+ "Unit 9 · Vocabulary focus|7|8": {
+  "source_text": "Kaamatan — the harvest festival of Sabah and Labuan (greeting from usage, not yet sourced: Selamat Pesta Kaamatan) · サバ州とラブアンの収穫祭（使われている挨拶、出典未確認：Selamat Pesta Kaamatan）  [L-1074]",
   "target_spans": [
    "Kaamatan"
   ],
-  "mention_spans": [],
+  "mention_spans": [
+   "Selamat Pesta Kaamatan",
+   "Selamat Pesta Kaamatan"
+  ],
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|16": {
+ "Unit 9 · Vocabulary focus|7|9": {
   "source_text": "   e.g. Kaamatan pada bulan Mei.",
   "target_spans": [
    "Kaamatan pada bulan Mei."
@@ -73041,8 +73225,8 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|17": {
-  "source_text": "angpau — a red packet with money, given at Chinese New Year · 旧正月に渡す、お金入りの赤い封筒  [L-1075]",
+ "Unit 9 · Vocabulary focus|7|10": {
+  "source_text": "angpau — a red packet with money, given at Chinese New Year (the Malay spelling; English-language newspapers often write \"ang pow\") · 旧正月に渡す、お金入りの赤い封筒（マレー語のつづり。英字紙では英語式のつづりで書かれることが多い）  [L-1075]",
   "target_spans": [
    "angpau"
   ],
@@ -73050,7 +73234,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|18": {
+ "Unit 9 · Vocabulary focus|7|11": {
   "source_text": "   e.g. Angpau merah ini untuk anak saya.",
   "target_spans": [
    "Angpau merah ini untuk anak saya."
@@ -73059,14 +73243,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|19": {
+ "Unit 9 · Vocabulary focus|7|12": {
   "source_text": "■ Dunia · To recognise · \"Simpulan bahasa harian\" · 聞いて分かればよい",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Vocabulary focus|6|20": {
+ "Unit 9 · Vocabulary focus|7|13": {
   "source_text": "kepala batu — stubborn (person) · 頑固（な人）  [L-0954]",
   "target_spans": [
    "kepala batu"
@@ -73075,7 +73259,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|21": {
+ "Unit 9 · Vocabulary focus|7|14": {
   "source_text": "   e.g. Kawan saya kepala batu.",
   "target_spans": [
    "Kawan saya kepala batu."
@@ -73084,7 +73268,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|22": {
+ "Unit 9 · Vocabulary focus|7|15": {
   "source_text": "besar kepala — big-headed, arrogant · 思い上がった・天狗になった  [L-0955]",
   "target_spans": [
    "besar kepala"
@@ -73093,7 +73277,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|23": {
+ "Unit 9 · Vocabulary focus|7|16": {
   "source_text": "   e.g. Dia besar kepala.",
   "target_spans": [
    "Dia besar kepala."
@@ -73102,7 +73286,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|24": {
+ "Unit 9 · Vocabulary focus|7|17": {
   "source_text": "ringan tulang — hard-working, always ready to help · 働き者・まめな  [L-0956]",
   "target_spans": [
    "ringan tulang"
@@ -73111,7 +73295,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|6|25": {
+ "Unit 9 · Vocabulary focus|7|18": {
   "source_text": "   e.g. Kakak saya ringan tulang.",
   "target_spans": [
    "Kakak saya ringan tulang."
@@ -73120,7 +73304,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|0": {
+ "Unit 9 · Vocabulary focus|7|19": {
   "source_text": "panjang tangan — light-fingered, likely to steal · 手癖が悪い  [L-0957]",
   "target_spans": [
    "panjang tangan"
@@ -73129,7 +73313,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|1": {
+ "Unit 9 · Vocabulary focus|7|20": {
   "source_text": "   e.g. Kawan itu panjang tangan.",
   "target_spans": [
    "Kawan itu panjang tangan."
@@ -73138,7 +73322,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|2": {
+ "Unit 9 · Vocabulary focus|7|21": {
   "source_text": "buah hati — darling, sweetheart (often your child) · 最愛の人・いとしい子  [L-0958]",
   "target_spans": [
    "buah hati"
@@ -73147,7 +73331,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|3": {
+ "Unit 9 · Vocabulary focus|7|22": {
   "source_text": "   e.g. Dia buah hati saya.",
   "target_spans": [
    "Dia buah hati saya."
@@ -73156,7 +73340,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|4": {
+ "Unit 9 · Vocabulary focus|8|0": {
   "source_text": "buah tangan — a gift you bring when visiting · 手土産  [L-0959]",
   "target_spans": [
    "buah tangan"
@@ -73165,7 +73349,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|5": {
+ "Unit 9 · Vocabulary focus|8|1": {
   "source_text": "   e.g. Buah tangan untuk kawan saya.",
   "target_spans": [
    "Buah tangan untuk kawan saya."
@@ -73174,7 +73358,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|6": {
+ "Unit 9 · Vocabulary focus|8|2": {
   "source_text": "mulut murai — chatterbox · おしゃべりな人  [L-0960]",
   "target_spans": [
    "mulut murai"
@@ -73183,7 +73367,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|7": {
+ "Unit 9 · Vocabulary focus|8|3": {
   "source_text": "   e.g. Dia mulut murai.",
   "target_spans": [
    "Dia mulut murai."
@@ -73192,7 +73376,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|8": {
+ "Unit 9 · Vocabulary focus|8|4": {
   "source_text": "kaki bangku — hopeless at football (or sport) · サッカーが下手な人・運動音痴  [L-0961]",
   "target_spans": [
    "kaki bangku"
@@ -73201,7 +73385,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|9": {
+ "Unit 9 · Vocabulary focus|8|5": {
   "source_text": "   e.g. Saya kaki bangku.",
   "target_spans": [
    "Saya kaki bangku."
@@ -73210,7 +73394,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|10": {
+ "Unit 9 · Vocabulary focus|8|6": {
   "source_text": "mata duitan — money-minded, greedy for money · 金に目がない  [L-0962]",
   "target_spans": [
    "mata duitan"
@@ -73219,7 +73403,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|11": {
+ "Unit 9 · Vocabulary focus|8|7": {
   "source_text": "   e.g. Dia mata duitan.",
   "target_spans": [
    "Dia mata duitan."
@@ -73228,7 +73412,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|12": {
+ "Unit 9 · Vocabulary focus|8|8": {
   "source_text": "sakit hati — hurt and annoyed · 腹が立つ・心が傷つく  [L-0963]",
   "target_spans": [
    "sakit hati"
@@ -73237,7 +73421,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|13": {
+ "Unit 9 · Vocabulary focus|8|9": {
   "source_text": "   e.g. Saya sakit hati.",
   "target_spans": [
    "Saya sakit hati."
@@ -73246,7 +73430,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|14": {
+ "Unit 9 · Vocabulary focus|8|10": {
   "source_text": "jangan ambil hati — don't take it to heart · 気を悪くしないで  [L-0964]",
   "target_spans": [
    "jangan ambil hati"
@@ -73255,7 +73439,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|15": {
+ "Unit 9 · Vocabulary focus|8|11": {
   "source_text": "   e.g. Jangan ambil hati.",
   "target_spans": [
    "Jangan ambil hati."
@@ -73264,7 +73448,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|16": {
+ "Unit 9 · Vocabulary focus|8|12": {
   "source_text": "air muka — look on your face; face (pride) · 顔色・表情；面目  [L-0965]",
   "target_spans": [
    "air muka"
@@ -73273,7 +73457,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|17": {
+ "Unit 9 · Vocabulary focus|8|13": {
   "source_text": "   e.g. Air muka dia merah.",
   "target_spans": [
    "Air muka dia merah."
@@ -73282,7 +73466,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|18": {
+ "Unit 9 · Vocabulary focus|8|14": {
   "source_text": "tangan kosong — empty-handed · 手ぶら  [L-0966]",
   "target_spans": [
    "tangan kosong"
@@ -73291,7 +73475,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|19": {
+ "Unit 9 · Vocabulary focus|8|15": {
   "source_text": "   e.g. Dia datang tangan kosong.",
   "target_spans": [
    "Dia datang tangan kosong."
@@ -73300,7 +73484,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|20": {
+ "Unit 9 · Vocabulary focus|8|16": {
   "source_text": "cakar ayam — messy handwriting · ひどく汚い字  [L-0967]",
   "target_spans": [
    "cakar ayam"
@@ -73309,7 +73493,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|21": {
+ "Unit 9 · Vocabulary focus|8|17": {
   "source_text": "   e.g. Tulisan dia cakar ayam.",
   "target_spans": [
    "Tulisan dia cakar ayam."
@@ -73318,21 +73502,21 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|22": {
+ "Unit 9 · Vocabulary focus|8|18": {
   "source_text": "■ Revision · 復習 (not new, not tested as new vocabulary)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Vocabulary focus|7|23": {
+ "Unit 9 · Vocabulary focus|8|19": {
   "source_text": "■ Revision · 復習 · Chapters 1 to 4 · manners, time and markers",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Vocabulary focus|7|24": {
+ "Unit 9 · Vocabulary focus|8|20": {
   "source_text": "selamat — safe, well; 'may it be well' (greeting opener) · 無事な／〜を祈る（挨拶の頭）  [L-0001]",
   "target_spans": [
    "selamat"
@@ -73341,7 +73525,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|25": {
+ "Unit 9 · Vocabulary focus|8|21": {
   "source_text": "   e.g. Selamat petang, Puan Aini.",
   "target_spans": [
    "Selamat petang, Puan Aini."
@@ -73350,7 +73534,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|26": {
+ "Unit 9 · Vocabulary focus|8|22": {
   "source_text": "baik — good, well, fine · 良い・元気  [L-0013]",
   "target_spans": [
    "baik"
@@ -73359,7 +73543,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|27": {
+ "Unit 9 · Vocabulary focus|8|23": {
   "source_text": "   e.g. Baik. Saya tunggu.",
   "target_spans": [
    "Baik. Saya tunggu."
@@ -73368,7 +73552,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|28": {
+ "Unit 9 · Vocabulary focus|8|24": {
   "source_text": "terima kasih — thank you · ありがとう  [L-0016]",
   "target_spans": [
    "terima kasih"
@@ -73377,7 +73561,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|29": {
+ "Unit 9 · Vocabulary focus|8|25": {
   "source_text": "   e.g. Terima kasih, Encik Tanaka.",
   "target_spans": [
    "Terima kasih, Encik Tanaka."
@@ -73386,7 +73570,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|7|30": {
+ "Unit 9 · Vocabulary focus|8|26": {
   "source_text": "sama-sama — you're welcome · どういたしまして  [L-0017]",
   "target_spans": [
    "sama-sama"
@@ -73395,7 +73579,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|0": {
+ "Unit 9 · Vocabulary focus|8|27": {
   "source_text": "   e.g. Sama-sama.",
   "target_spans": [
    "Sama-sama."
@@ -73404,7 +73588,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|1": {
+ "Unit 9 · Vocabulary focus|8|28": {
   "source_text": "maaf — sorry; excuse me · すみません  [L-0018]",
   "target_spans": [
    "maaf"
@@ -73413,7 +73597,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|2": {
+ "Unit 9 · Vocabulary focus|8|29": {
   "source_text": "   e.g. Maaf, kek belum siap.",
   "target_spans": [
    "Maaf, kek belum siap."
@@ -73422,7 +73606,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|3": {
+ "Unit 9 · Vocabulary focus|8|30": {
   "source_text": "jumpa — to find; to meet · 見つける・会う  [L-0576]",
   "target_spans": [
    "jumpa"
@@ -73431,7 +73615,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|4": {
+ "Unit 9 · Vocabulary focus|9|0": {
   "source_text": "   e.g. Jumpa esok!",
   "target_spans": [
    "Jumpa esok!"
@@ -73440,7 +73624,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|5": {
+ "Unit 9 · Vocabulary focus|9|1": {
   "source_text": "lagi — again; more · また・もっと  [L-0024]",
   "target_spans": [
    "lagi"
@@ -73449,7 +73633,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|6": {
+ "Unit 9 · Vocabulary focus|9|2": {
   "source_text": "   e.g. Pisang goreng ada lagi?",
   "target_spans": [
    "Pisang goreng ada lagi?"
@@ -73458,7 +73642,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|7": {
+ "Unit 9 · Vocabulary focus|9|3": {
   "source_text": "esok — tomorrow · 明日  [L-0025]",
   "target_spans": [
    "esok"
@@ -73467,7 +73651,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|8": {
+ "Unit 9 · Vocabulary focus|9|4": {
   "source_text": "   e.g. Esok pejabat dibuka pukul sembilan.",
   "target_spans": [
    "Esok pejabat dibuka pukul sembilan."
@@ -73476,7 +73660,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|9": {
+ "Unit 9 · Vocabulary focus|9|5": {
   "source_text": "nanti — later · 後で  [L-0026]",
   "target_spans": [
    "nanti"
@@ -73485,7 +73669,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|10": {
+ "Unit 9 · Vocabulary focus|9|6": {
   "source_text": "   e.g. Kuih dibayar nanti.",
   "target_spans": [
    "Kuih dibayar nanti."
@@ -73494,7 +73678,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|11": {
+ "Unit 9 · Vocabulary focus|9|7": {
   "source_text": "pukul — o'clock · 〜時  [L-0157]",
   "target_spans": [
    "pukul"
@@ -73503,7 +73687,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|12": {
+ "Unit 9 · Vocabulary focus|9|8": {
   "source_text": "   e.g. Jamuan pada pukul lima petang.",
   "target_spans": [
    "Jamuan pada pukul lima petang."
@@ -73512,7 +73696,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|13": {
+ "Unit 9 · Vocabulary focus|9|9": {
   "source_text": "pagi — morning · 朝  [L-0162]",
   "target_spans": [
    "pagi"
@@ -73521,7 +73705,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|14": {
+ "Unit 9 · Vocabulary focus|9|10": {
   "source_text": "   e.g. Kek dibawa ke pejabat pagi tadi.",
   "target_spans": [
    "Kek dibawa ke pejabat pagi tadi."
@@ -73530,7 +73714,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|15": {
+ "Unit 9 · Vocabulary focus|9|11": {
   "source_text": "petang — afternoon, early evening · 午後・夕方  [L-0164]",
   "target_spans": [
    "petang"
@@ -73539,7 +73723,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|16": {
+ "Unit 9 · Vocabulary focus|9|12": {
   "source_text": "   e.g. Pejabat ditutup pada pukul enam petang.",
   "target_spans": [
    "Pejabat ditutup pada pukul enam petang."
@@ -73548,7 +73732,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|17": {
+ "Unit 9 · Vocabulary focus|9|13": {
   "source_text": "semalam — yesterday · 昨日  [L-0170]",
   "target_spans": [
    "semalam"
@@ -73557,7 +73741,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|18": {
+ "Unit 9 · Vocabulary focus|9|14": {
   "source_text": "   e.g. Surat itu dihantar semalam.",
   "target_spans": [
    "Surat itu dihantar semalam."
@@ -73566,7 +73750,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|19": {
+ "Unit 9 · Vocabulary focus|9|15": {
   "source_text": "Jumaat — Friday · 金曜日  [L-0179]",
   "target_spans": [
    "Jumaat"
@@ -73575,7 +73759,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|20": {
+ "Unit 9 · Vocabulary focus|9|16": {
   "source_text": "   e.g. Jamuan pada hari Jumaat.",
   "target_spans": [
    "Jamuan pada hari Jumaat."
@@ -73584,7 +73768,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|21": {
+ "Unit 9 · Vocabulary focus|9|17": {
   "source_text": "Sabtu — Saturday · 土曜日  [L-0180]",
   "target_spans": [
    "Sabtu"
@@ -73593,7 +73777,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|22": {
+ "Unit 9 · Vocabulary focus|9|18": {
   "source_text": "   e.g. Pasar dibuka pada hari Sabtu.",
   "target_spans": [
    "Pasar dibuka pada hari Sabtu."
@@ -73602,7 +73786,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|23": {
+ "Unit 9 · Vocabulary focus|9|19": {
   "source_text": "Ahad — Sunday · 日曜日  [L-0181]",
   "target_spans": [
    "Ahad"
@@ -73611,7 +73795,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|24": {
+ "Unit 9 · Vocabulary focus|9|20": {
   "source_text": "   e.g. Pada hari Ahad, pejabat ditutup.",
   "target_spans": [
    "Pada hari Ahad, pejabat ditutup."
@@ -73620,7 +73804,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|25": {
+ "Unit 9 · Vocabulary focus|9|21": {
   "source_text": "masih — still · まだ（〜している）  [L-0191]",
   "target_spans": [
    "masih"
@@ -73629,7 +73813,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|26": {
+ "Unit 9 · Vocabulary focus|9|22": {
   "source_text": "   e.g. Pintu masih dibuka.",
   "target_spans": [
    "Pintu masih dibuka."
@@ -73638,7 +73822,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|27": {
+ "Unit 9 · Vocabulary focus|9|23": {
   "source_text": "akan — will · 〜する予定  [L-0192]",
   "target_spans": [
    "akan"
@@ -73647,7 +73831,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|28": {
+ "Unit 9 · Vocabulary focus|9|24": {
   "source_text": "   e.g. Pejabat akan ditutup pukul enam.",
   "target_spans": [
    "Pejabat akan ditutup pukul enam."
@@ -73656,7 +73840,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|29": {
+ "Unit 9 · Vocabulary focus|9|25": {
   "source_text": "sudah / dah — already, done (standard sudah; spoken dah) · もう〜した  [L-0193]",
   "target_spans": [
    "sudah / dah",
@@ -73667,7 +73851,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|30": {
+ "Unit 9 · Vocabulary focus|9|26": {
   "source_text": "   e.g. Teh tarik sudah diminum.",
   "target_spans": [
    "Teh tarik sudah diminum."
@@ -73676,7 +73860,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|8|31": {
+ "Unit 9 · Vocabulary focus|9|27": {
   "source_text": "belum — not yet · まだ〜していない  [L-0194]",
   "target_spans": [
    "belum"
@@ -73685,7 +73869,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|0": {
+ "Unit 9 · Vocabulary focus|9|28": {
   "source_text": "   e.g. Pinggan belum dicuci.",
   "target_spans": [
    "Pinggan belum dicuci."
@@ -73694,7 +73878,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|1": {
+ "Unit 9 · Vocabulary focus|9|29": {
   "source_text": "baru — just (now); new · 〜したばかり；新しい  [L-0195]",
   "target_spans": [
    "baru"
@@ -73703,7 +73887,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|2": {
+ "Unit 9 · Vocabulary focus|9|30": {
   "source_text": "   e.g. Kedai baru ditutup.",
   "target_spans": [
    "Kedai baru ditutup."
@@ -73712,14 +73896,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|3": {
+ "Unit 9 · Vocabulary focus|10|0": {
   "source_text": "■ Revision · 復習 · Chapters 2 to 8 · verbs, the kitchen and the office",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Vocabulary focus|9|4": {
+ "Unit 9 · Vocabulary focus|10|1": {
   "source_text": "makan — to eat · 食べる  [L-0197]",
   "target_spans": [
    "makan"
@@ -73728,7 +73912,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|5": {
+ "Unit 9 · Vocabulary focus|10|2": {
   "source_text": "   e.g. Makan dan minum dilarang di sini.",
   "target_spans": [
    "Makan dan minum dilarang di sini."
@@ -73737,7 +73921,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|6": {
+ "Unit 9 · Vocabulary focus|10|3": {
   "source_text": "minum — to drink · 飲む  [L-0198]",
   "target_spans": [
    "minum"
@@ -73746,7 +73930,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|7": {
+ "Unit 9 · Vocabulary focus|10|4": {
   "source_text": "   e.g. Sila minum teh tarik.",
   "target_spans": [
    "Sila minum teh tarik."
@@ -73755,7 +73939,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|8": {
+ "Unit 9 · Vocabulary focus|10|5": {
   "source_text": "bayar — to pay · 払う  [L-0127]",
   "target_spans": [
    "bayar"
@@ -73764,7 +73948,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|9": {
+ "Unit 9 · Vocabulary focus|10|6": {
   "source_text": "   e.g. Saya bayar harga kek.",
   "target_spans": [
    "Saya bayar harga kek."
@@ -73773,7 +73957,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|10": {
+ "Unit 9 · Vocabulary focus|10|7": {
   "source_text": "beli — to buy · 買う  [L-0128]",
   "target_spans": [
    "beli"
@@ -73782,7 +73966,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|11": {
+ "Unit 9 · Vocabulary focus|10|8": {
   "source_text": "   e.g. Saya beli teh tarik.",
   "target_spans": [
    "Saya beli teh tarik."
@@ -73791,7 +73975,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|12": {
+ "Unit 9 · Vocabulary focus|10|9": {
   "source_text": "jual — to sell · 売る  [L-0129]",
   "target_spans": [
    "jual"
@@ -73800,7 +73984,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|13": {
+ "Unit 9 · Vocabulary focus|10|10": {
   "source_text": "   e.g. Gerai itu jual kuih.",
   "target_spans": [
    "Gerai itu jual kuih."
@@ -73809,7 +73993,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|14": {
+ "Unit 9 · Vocabulary focus|10|11": {
   "source_text": "baca — to read · 読む  [L-0474]",
   "target_spans": [
    "baca"
@@ -73818,7 +74002,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|15": {
+ "Unit 9 · Vocabulary focus|10|12": {
   "source_text": "   e.g. Kawan saya baca surat khabar.",
   "target_spans": [
    "Kawan saya baca surat khabar."
@@ -73827,7 +74011,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|16": {
+ "Unit 9 · Vocabulary focus|10|13": {
   "source_text": "tulis — to write · 書く  [L-0475]",
   "target_spans": [
    "tulis"
@@ -73836,7 +74020,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|17": {
+ "Unit 9 · Vocabulary focus|10|14": {
   "source_text": "   e.g. Aini tulis surat.",
   "target_spans": [
    "Aini tulis surat."
@@ -73845,7 +74029,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|18": {
+ "Unit 9 · Vocabulary focus|10|15": {
   "source_text": "ambil — to take · 取る  [L-0481]",
   "target_spans": [
    "ambil"
@@ -73854,7 +74038,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|19": {
+ "Unit 9 · Vocabulary focus|10|16": {
   "source_text": "   e.g. Sila ambil nombor.",
   "target_spans": [
    "Sila ambil nombor."
@@ -73863,7 +74047,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|20": {
+ "Unit 9 · Vocabulary focus|10|17": {
   "source_text": "bawa — to bring, carry · 持っていく  [L-0483]",
   "target_spans": [
    "bawa"
@@ -73872,7 +74056,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|21": {
+ "Unit 9 · Vocabulary focus|10|18": {
   "source_text": "   e.g. Pinggan saya bawa ke dapur.",
   "target_spans": [
    "Pinggan saya bawa ke dapur."
@@ -73881,7 +74065,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|22": {
+ "Unit 9 · Vocabulary focus|10|19": {
   "source_text": "buka — to open · 開ける  [L-0484]",
   "target_spans": [
    "buka"
@@ -73890,7 +74074,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|23": {
+ "Unit 9 · Vocabulary focus|10|20": {
   "source_text": "   e.g. Pejabat buka pukul sembilan.",
   "target_spans": [
    "Pejabat buka pukul sembilan."
@@ -73899,7 +74083,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|24": {
+ "Unit 9 · Vocabulary focus|10|21": {
   "source_text": "tutup — to close; to switch off · 閉める・消す  [L-0485]",
   "target_spans": [
    "tutup"
@@ -73908,7 +74092,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|25": {
+ "Unit 9 · Vocabulary focus|10|22": {
   "source_text": "   e.g. Kedai tutup pukul enam.",
   "target_spans": [
    "Kedai tutup pukul enam."
@@ -73917,7 +74101,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|26": {
+ "Unit 9 · Vocabulary focus|10|23": {
   "source_text": "hantar — to send · 送る  [L-0528]",
   "target_spans": [
    "hantar"
@@ -73926,7 +74110,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|27": {
+ "Unit 9 · Vocabulary focus|10|24": {
   "source_text": "   e.g. Saya hantar surat itu semalam.",
   "target_spans": [
    "Saya hantar surat itu semalam."
@@ -73935,7 +74119,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|28": {
+ "Unit 9 · Vocabulary focus|10|25": {
   "source_text": "masak — to cook (suka masak = like cooking) · 料理する  [L-1023]",
   "target_spans": [
    "masak",
@@ -73945,7 +74129,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|29": {
+ "Unit 9 · Vocabulary focus|10|26": {
   "source_text": "   e.g. Suami saya masak nasi.",
   "target_spans": [
    "Suami saya masak nasi."
@@ -73954,7 +74138,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|9|30": {
+ "Unit 9 · Vocabulary focus|10|27": {
   "source_text": "duduk — to sit · 座る  [L-0471]",
   "target_spans": [
    "duduk"
@@ -73963,7 +74147,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|0": {
+ "Unit 9 · Vocabulary focus|10|28": {
   "source_text": "   e.g. Sila duduk di sini.",
   "target_spans": [
    "Sila duduk di sini."
@@ -73972,7 +74156,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|1": {
+ "Unit 9 · Vocabulary focus|10|29": {
   "source_text": "tunggu — to wait · 待つ  [L-0496]",
   "target_spans": [
    "tunggu"
@@ -73981,7 +74165,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|2": {
+ "Unit 9 · Vocabulary focus|10|30": {
   "source_text": "   e.g. Sila tunggu di sini.",
   "target_spans": [
    "Sila tunggu di sini."
@@ -73990,7 +74174,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|3": {
+ "Unit 9 · Vocabulary focus|10|31": {
   "source_text": "goreng — to fry; fried · 揚げる・炒める  [L-0464]",
   "target_spans": [
    "goreng"
@@ -73999,7 +74183,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|4": {
+ "Unit 9 · Vocabulary focus|11|0": {
   "source_text": "   e.g. Dia goreng ikan.",
   "target_spans": [
    "Dia goreng ikan."
@@ -74008,7 +74192,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|5": {
+ "Unit 9 · Vocabulary focus|11|1": {
   "source_text": "pejabat — office · 事務所・オフィス  [L-0064]",
   "target_spans": [
    "pejabat"
@@ -74017,7 +74201,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|6": {
+ "Unit 9 · Vocabulary focus|11|2": {
   "source_text": "   e.g. Jamuan di pejabat.",
   "target_spans": [
    "Jamuan di pejabat."
@@ -74026,7 +74210,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|7": {
+ "Unit 9 · Vocabulary focus|11|3": {
   "source_text": "dapur — kitchen; stove · 台所・コンロ  [L-0456]",
   "target_spans": [
    "dapur"
@@ -74035,7 +74219,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|8": {
+ "Unit 9 · Vocabulary focus|11|4": {
   "source_text": "   e.g. Pinggan ada di dapur.",
   "target_spans": [
    "Pinggan ada di dapur."
@@ -74044,7 +74228,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|9": {
+ "Unit 9 · Vocabulary focus|11|5": {
   "source_text": "pintu — door · ドア  [L-0565]",
   "target_spans": [
    "pintu"
@@ -74053,7 +74237,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|10": {
+ "Unit 9 · Vocabulary focus|11|6": {
   "source_text": "   e.g. Papan tanda di depan pintu.",
   "target_spans": [
    "Papan tanda di depan pintu."
@@ -74062,7 +74246,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|11": {
+ "Unit 9 · Vocabulary focus|11|7": {
   "source_text": "mesyuarat — meeting · 会議  [L-0208]",
   "target_spans": [
    "mesyuarat"
@@ -74071,7 +74255,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|12": {
+ "Unit 9 · Vocabulary focus|11|8": {
   "source_text": "   e.g. Dilarang makan di bilik mesyuarat.",
   "target_spans": [
    "Dilarang makan di bilik mesyuarat."
@@ -74080,7 +74264,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|13": {
+ "Unit 9 · Vocabulary focus|11|9": {
   "source_text": "surat — letter · 手紙  [L-0426]",
   "target_spans": [
    "surat"
@@ -74089,7 +74273,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|14": {
+ "Unit 9 · Vocabulary focus|11|10": {
   "source_text": "   e.g. Surat itu ditulis oleh Puan Aini.",
   "target_spans": [
    "Surat itu ditulis oleh Puan Aini."
@@ -74098,7 +74282,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|15": {
+ "Unit 9 · Vocabulary focus|11|11": {
   "source_text": "tiket — ticket · チケット・切符  [L-0448]",
   "target_spans": [
    "tiket"
@@ -74107,7 +74291,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|16": {
+ "Unit 9 · Vocabulary focus|11|12": {
   "source_text": "   e.g. Tiket dibeli di stesen.",
   "target_spans": [
    "Tiket dibeli di stesen."
@@ -74116,7 +74300,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|17": {
+ "Unit 9 · Vocabulary focus|11|13": {
   "source_text": "bank — bank · 銀行  [L-0335]",
   "target_spans": [
    "bank"
@@ -74125,7 +74309,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|18": {
+ "Unit 9 · Vocabulary focus|11|14": {
   "source_text": "   e.g. Bank dibuka pada pukul sepuluh pagi.",
   "target_spans": [
    "Bank dibuka pada pukul sepuluh pagi."
@@ -74134,7 +74318,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|19": {
+ "Unit 9 · Vocabulary focus|11|15": {
   "source_text": "kedai — shop · 店  [L-0334]",
   "target_spans": [
    "kedai"
@@ -74143,7 +74327,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|20": {
+ "Unit 9 · Vocabulary focus|11|16": {
   "source_text": "   e.g. Kedai itu ditutup pukul sepuluh malam.",
   "target_spans": [
    "Kedai itu ditutup pukul sepuluh malam."
@@ -74152,7 +74336,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|21": {
+ "Unit 9 · Vocabulary focus|11|17": {
   "source_text": "pasar — market · 市場  [L-0512]",
   "target_spans": [
    "pasar"
@@ -74161,7 +74345,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|22": {
+ "Unit 9 · Vocabulary focus|11|18": {
   "source_text": "   e.g. Pasar dibuka pada hari Sabtu.",
   "target_spans": [
    "Pasar dibuka pada hari Sabtu."
@@ -74170,7 +74354,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|23": {
+ "Unit 9 · Vocabulary focus|11|19": {
   "source_text": "stesen — station · 駅  [L-0295]",
   "target_spans": [
    "stesen"
@@ -74179,7 +74363,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|24": {
+ "Unit 9 · Vocabulary focus|11|20": {
   "source_text": "   e.g. Tiket dibeli di stesen.",
   "target_spans": [
    "Tiket dibeli di stesen."
@@ -74188,14 +74372,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|25": {
+ "Unit 9 · Vocabulary focus|11|21": {
   "source_text": "■ Revision · 復習 · Chapters 5 to 8 · food, drink and the stall",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Vocabulary focus|10|26": {
+ "Unit 9 · Vocabulary focus|11|22": {
   "source_text": "nasi — cooked rice · ご飯  [L-0262]",
   "target_spans": [
    "nasi"
@@ -74204,7 +74388,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|27": {
+ "Unit 9 · Vocabulary focus|11|23": {
   "source_text": "   e.g. Nasi ini dimasak oleh suami saya.",
   "target_spans": [
    "Nasi ini dimasak oleh suami saya."
@@ -74213,7 +74397,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|28": {
+ "Unit 9 · Vocabulary focus|11|24": {
   "source_text": "teh / kopi — tea / coffee · 紅茶／コーヒー  [L-0261]",
   "target_spans": [
    "teh / kopi"
@@ -74222,7 +74406,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|29": {
+ "Unit 9 · Vocabulary focus|11|25": {
   "source_text": "   e.g. Teh tarik dibawa oleh Rahman.",
   "target_spans": [
    "Teh tarik dibawa oleh Rahman."
@@ -74231,7 +74415,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|10|30": {
+ "Unit 9 · Vocabulary focus|11|26": {
   "source_text": "nasi lemak — a rice dish: rice cooked in coconut milk, with sambal and other sides · ナシレマ（ココナッツミルクで炊いたご飯。サンバルなどが付く）  [L-1064]",
   "target_spans": [
    "nasi lemak"
@@ -74240,7 +74424,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|0": {
+ "Unit 9 · Vocabulary focus|11|27": {
   "source_text": "   e.g. Nasi lemak ini dibeli di gerai.",
   "target_spans": [
    "Nasi lemak ini dibeli di gerai."
@@ -74249,7 +74433,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|1": {
+ "Unit 9 · Vocabulary focus|11|28": {
   "source_text": "gerai — stall (food or market stall) · 屋台  [L-1065]",
   "target_spans": [
    "gerai"
@@ -74258,7 +74442,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|2": {
+ "Unit 9 · Vocabulary focus|11|29": {
   "source_text": "   e.g. Nasi lemak dijual di gerai itu.",
   "target_spans": [
    "Nasi lemak dijual di gerai itu."
@@ -74267,7 +74451,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|3": {
+ "Unit 9 · Vocabulary focus|12|0": {
   "source_text": "tambah — to add; more (Tambah satu lagi. = one more) · 追加する・もう一つ（Tambah satu lagi.＝もう一つ追加）  [L-1066]",
   "target_spans": [
    "tambah",
@@ -74278,7 +74462,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|4": {
+ "Unit 9 · Vocabulary focus|12|1": {
   "source_text": "   e.g. Tambah teh tarik?",
   "target_spans": [
    "Tambah teh tarik?"
@@ -74287,7 +74471,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|5": {
+ "Unit 9 · Vocabulary focus|12|2": {
   "source_text": "pisang goreng / goreng pisang — banana fritters (standard pisang goreng; everyday goreng pisang) · 揚げバナナ（標準は pisang goreng、日常は goreng pisang）  [L-1068]",
   "target_spans": [
    "pisang goreng / goreng pisang",
@@ -74300,7 +74484,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|6": {
+ "Unit 9 · Vocabulary focus|12|3": {
   "source_text": "   e.g. Pisang goreng sudah dimakan semua.",
   "target_spans": [
    "Pisang goreng sudah dimakan semua."
@@ -74309,7 +74493,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|7": {
+ "Unit 9 · Vocabulary focus|12|4": {
   "source_text": "teh tarik — pulled milk tea · テ・タリッ（泡立てたミルクティー）  [L-0934]",
   "target_spans": [
    "teh tarik"
@@ -74318,7 +74502,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|8": {
+ "Unit 9 · Vocabulary focus|12|5": {
   "source_text": "   e.g. Teh tarik sudah diminum semua.",
   "target_spans": [
    "Teh tarik sudah diminum semua."
@@ -74327,7 +74511,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|9": {
+ "Unit 9 · Vocabulary focus|12|6": {
   "source_text": "cawan — counter: cups · 〜杯  [L-0354]",
   "target_spans": [
    "cawan"
@@ -74336,7 +74520,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|10": {
+ "Unit 9 · Vocabulary focus|12|7": {
   "source_text": "   e.g. Sepuluh cawan teh tarik, tolong.",
   "target_spans": [
    "Sepuluh cawan teh tarik, tolong."
@@ -74345,7 +74529,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|11": {
+ "Unit 9 · Vocabulary focus|12|8": {
   "source_text": "pinggan — counter: plates · 〜皿  [L-0355]",
   "target_spans": [
    "pinggan"
@@ -74354,7 +74538,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|12": {
+ "Unit 9 · Vocabulary focus|12|9": {
   "source_text": "   e.g. Pinggan belum dicuci.",
   "target_spans": [
    "Pinggan belum dicuci."
@@ -74363,7 +74547,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|13": {
+ "Unit 9 · Vocabulary focus|12|10": {
   "source_text": "semua — all, everything · 全部  [L-0374]",
   "target_spans": [
    "semua"
@@ -74372,7 +74556,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|14": {
+ "Unit 9 · Vocabulary focus|12|11": {
   "source_text": "   e.g. Kek itu sudah dimakan semua.",
   "target_spans": [
    "Kek itu sudah dimakan semua."
@@ -74381,7 +74565,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|15": {
+ "Unit 9 · Vocabulary focus|12|12": {
   "source_text": "tolong — please (help me) · 〜してください  [L-0375]",
   "target_spans": [
    "tolong"
@@ -74390,7 +74574,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|16": {
+ "Unit 9 · Vocabulary focus|12|13": {
   "source_text": "   e.g. Tolong bawa pinggan ke dapur.",
   "target_spans": [
    "Tolong bawa pinggan ke dapur."
@@ -74399,7 +74583,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|17": {
+ "Unit 9 · Vocabulary focus|12|14": {
   "source_text": "sedap — delicious · おいしい  [L-0223]",
   "target_spans": [
    "sedap"
@@ -74408,7 +74592,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|18": {
+ "Unit 9 · Vocabulary focus|12|15": {
   "source_text": "   e.g. Kek ini sedap.",
   "target_spans": [
    "Kek ini sedap."
@@ -74417,14 +74601,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|19": {
+ "Unit 9 · Vocabulary focus|12|16": {
   "source_text": "■ Revision · 復習 · Chapters 2 to 8 · things, places and wanting",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Vocabulary focus|11|20": {
+ "Unit 9 · Vocabulary focus|12|17": {
   "source_text": "siapa — who · 誰  [L-0049]",
   "target_spans": [
    "siapa"
@@ -74433,7 +74617,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|21": {
+ "Unit 9 · Vocabulary focus|12|18": {
   "source_text": "   e.g. Kek ini dibuat oleh siapa?",
   "target_spans": [
    "Kek ini dibuat oleh siapa?"
@@ -74442,7 +74626,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|22": {
+ "Unit 9 · Vocabulary focus|12|19": {
   "source_text": "di mana / di manakah — where · どこ  [L-0052]",
   "target_spans": [
    "di mana / di manakah"
@@ -74451,7 +74635,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|23": {
+ "Unit 9 · Vocabulary focus|12|20": {
   "source_text": "   e.g. Nasi lemak ini dibeli di mana?",
   "target_spans": [
    "Nasi lemak ini dibeli di mana?"
@@ -74460,7 +74644,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|24": {
+ "Unit 9 · Vocabulary focus|12|21": {
   "source_text": "berapa — how many, how much · いくつ・いくら  [L-0116]",
   "target_spans": [
    "berapa"
@@ -74469,7 +74653,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|25": {
+ "Unit 9 · Vocabulary focus|12|22": {
   "source_text": "   e.g. Berapa harga kek ini?",
   "target_spans": [
    "Berapa harga kek ini?"
@@ -74478,7 +74662,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|26": {
+ "Unit 9 · Vocabulary focus|12|23": {
   "source_text": "bila — when · いつ  [L-1007]",
   "target_spans": [
    "bila"
@@ -74487,7 +74671,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|27": {
+ "Unit 9 · Vocabulary focus|12|24": {
   "source_text": "   e.g. Bila jamuan itu?",
   "target_spans": [
    "Bila jamuan itu?"
@@ -74496,7 +74680,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|28": {
+ "Unit 9 · Vocabulary focus|12|25": {
   "source_text": "sebab — Reason; because · 理由、〜なので  [L-0688]",
   "target_spans": [
    "sebab"
@@ -74505,7 +74689,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|11|29": {
+ "Unit 9 · Vocabulary focus|12|26": {
   "source_text": "   e.g. Pintu itu ditutup sebab dilarang masuk.",
   "target_spans": [
    "Pintu itu ditutup sebab dilarang masuk."
@@ -74514,7 +74698,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|0": {
+ "Unit 9 · Vocabulary focus|12|27": {
   "source_text": "kerana — because · 〜から・〜ので  [L-1050]",
   "target_spans": [
    "kerana"
@@ -74523,7 +74707,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|1": {
+ "Unit 9 · Vocabulary focus|12|28": {
   "source_text": "   e.g. Pintu itu ditutup kerana dilarang masuk.",
   "target_spans": [
    "Pintu itu ditutup kerana dilarang masuk."
@@ -74532,7 +74716,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|2": {
+ "Unit 9 · Vocabulary focus|12|29": {
   "source_text": "kenapa — why · なぜ・どうして  [L-1009]",
   "target_spans": [
    "kenapa"
@@ -74541,7 +74725,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|3": {
+ "Unit 9 · Vocabulary focus|13|0": {
   "source_text": "   e.g. Kenapa pintu itu ditutup?",
   "target_spans": [
    "Kenapa pintu itu ditutup?"
@@ -74550,7 +74734,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|4": {
+ "Unit 9 · Vocabulary focus|13|1": {
   "source_text": "yang — the one that is; which · 〜の（もの）・〜な  [L-0212]",
   "target_spans": [
    "yang"
@@ -74559,7 +74743,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|5": {
+ "Unit 9 · Vocabulary focus|13|2": {
   "source_text": "   e.g. Kek yang dibawa oleh Rahman.",
   "target_spans": [
    "Kek yang dibawa oleh Rahman."
@@ -74568,7 +74752,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|6": {
+ "Unit 9 · Vocabulary focus|13|3": {
   "source_text": "ke — to (direction) · 〜へ  [L-0296]",
   "target_spans": [
    "ke"
@@ -74577,7 +74761,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|7": {
+ "Unit 9 · Vocabulary focus|13|4": {
   "source_text": "   e.g. Surat itu dihantar ke pejabat.",
   "target_spans": [
    "Surat itu dihantar ke pejabat."
@@ -74586,7 +74770,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|8": {
+ "Unit 9 · Vocabulary focus|13|5": {
   "source_text": "isteri / suami — wife / husband · 妻／夫  [L-0080]",
   "target_spans": [
    "isteri / suami"
@@ -74595,7 +74779,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|9": {
+ "Unit 9 · Vocabulary focus|13|6": {
   "source_text": "   e.g. Kek ini dibuat oleh isteri saya.",
   "target_spans": [
    "Kek ini dibuat oleh isteri saya."
@@ -74604,7 +74788,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|10": {
+ "Unit 9 · Vocabulary focus|13|7": {
   "source_text": "kawan — friend · 友達  [L-0078]",
   "target_spans": [
    "kawan"
@@ -74613,7 +74797,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|11": {
+ "Unit 9 · Vocabulary focus|13|8": {
   "source_text": "   e.g. Tiket itu diambil oleh kawan saya.",
   "target_spans": [
    "Tiket itu diambil oleh kawan saya."
@@ -74622,7 +74806,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|12": {
+ "Unit 9 · Vocabulary focus|13|9": {
   "source_text": "anak — child · 子供  [L-0081]",
   "target_spans": [
    "anak"
@@ -74631,7 +74815,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|13": {
+ "Unit 9 · Vocabulary focus|13|10": {
   "source_text": "   e.g. Kuih ini untuk anak saya.",
   "target_spans": [
    "Kuih ini untuk anak saya."
@@ -74640,7 +74824,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|14": {
+ "Unit 9 · Vocabulary focus|13|11": {
   "source_text": "boleh — can; okay · できる・いいよ  [L-0076]",
   "target_spans": [
    "boleh"
@@ -74649,7 +74833,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|15": {
+ "Unit 9 · Vocabulary focus|13|12": {
   "source_text": "   e.g. Boleh masuk?",
   "target_spans": [
    "Boleh masuk?"
@@ -74658,7 +74842,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|16": {
+ "Unit 9 · Vocabulary focus|13|13": {
   "source_text": "adakah — yes/no question opener (Adakah …? = Is it …?) · 〜ですか（はい・いいえで答える質問）  [L-0988]",
   "target_spans": [
    "adakah",
@@ -74668,7 +74852,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|17": {
+ "Unit 9 · Vocabulary focus|13|14": {
   "source_text": "   e.g. Adakah kek sudah siap?",
   "target_spans": [
    "Adakah kek sudah siap?"
@@ -74677,7 +74861,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|18": {
+ "Unit 9 · Vocabulary focus|13|15": {
   "source_text": "bolehkah — Can …? / May I …? (polite) · 「〜できますか・〜してもいいですか」（boleh のていねいな形）  [L-0783]",
   "target_spans": [
    "bolehkah",
@@ -74687,7 +74871,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|12|19": {
+ "Unit 9 · Vocabulary focus|13|16": {
   "source_text": "   e.g. Bolehkah saya duduk di sini?",
   "target_spans": [
    "Bolehkah saya duduk di sini?"
@@ -74696,28 +74880,28 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 9 · Vocabulary focus|13|0": {
-  "source_text": "29 new core entries, 33 Dunia recognition entries and 74 revision entries.",
+ "Unit 9 · Vocabulary focus|14|0": {
+  "source_text": "37 new core entries, 33 Dunia recognition entries and 74 revision entries.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Vocabulary focus|13|1": {
+ "Unit 9 · Vocabulary focus|14|1": {
   "source_text": "Dunia words are for recognition in Block E. The unit test never treats them as new vocabulary.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Vocabulary focus|13|2": {
+ "Unit 9 · Vocabulary focus|14|2": {
   "source_text": "Revision words were taught earlier; they are listed so learners can see them reused, not counted as new.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Vocabulary focus|13|3": {
+ "Unit 9 · Vocabulary focus|14|3": {
   "source_text": "A slash variant under one ledger ID counts as one entry; spoken forms are marked \"spoken\".",
   "target_spans": [],
   "mention_spans": [],
@@ -74822,7 +75006,7 @@
   "exclusion": null
  },
  "Unit 9 · Pattern and grammar focus|3|7": {
-  "source_text": "Explanation: In a di- sentence the thing comes first and the doer comes after oleh: Kek ini dibuat oleh isteri saya. (This cake was made by my wife.) To ask who did it, put siapa after oleh: dibuat oleh siapa? If the doer is not important, leave oleh and the doer out: Kek ini dibuat. The verb is the root with di- in front, and it never changes for who or when. tadi marks a time that has just passed: pagi tadi (this morning).",
+  "source_text": "Explanation: In a di- sentence the thing comes first and the doer comes after oleh: Kek ini dibuat oleh isteri saya. (This cake was made by my wife.) To ask who did it, put siapa after oleh: dibuat oleh siapa? If the doer is not important, leave oleh and the doer out: Kek ini dibuat. The verb is the root with di- in front, and it never changes for who or when. In everyday speech the active sentence uses the bare root: Isteri saya buat kek ini. tadi marks a time that has just passed: pagi tadi (this morning).",
   "target_spans": [
    "di-",
    "oleh",
@@ -74833,6 +75017,7 @@
    "oleh",
    "Kek ini dibuat.",
    "di-",
+   "Isteri saya buat kek ini.",
    "tadi",
    "pagi tadi"
   ],
@@ -74841,7 +75026,7 @@
   "exclusion": null
  },
  "Unit 9 · Pattern and grammar focus|3|8": {
-  "source_text": "説明：di- の文では、物が先に来て、動作主は oleh のあとに置きます：Kek ini dibuat oleh isteri saya.（このケーキは妻が作りました）。誰がしたかをたずねるときは oleh のあとに siapa を置きます：dibuat oleh siapa? 動作主が大事でなければ、oleh と動作主をはぶきます：Kek ini dibuat. 動詞は語根の前に di- を付けた形で、誰が・いつしたかで形が変わりません。tadi は少し前に過ぎた時を表します：pagi tadi（けさ）。",
+  "source_text": "説明：di- の文では、物が先に来て、動作主は oleh のあとに置きます：Kek ini dibuat oleh isteri saya.（このケーキは妻が作りました）。誰がしたかをたずねるときは oleh のあとに siapa を置きます：dibuat oleh siapa? 動作主が大事でなければ、oleh と動作主をはぶきます：Kek ini dibuat. 動詞は語根の前に di- を付けた形で、誰が・いつしたかで形が変わりません。日常会話の能動文では語根をそのまま使います：Isteri saya buat kek ini. tadi は少し前に過ぎた時を表します：pagi tadi（けさ）。",
   "target_spans": [
    "di-",
    "oleh",
@@ -74852,6 +75037,7 @@
    "oleh",
    "Kek ini dibuat.",
    "di-",
+   "Isteri saya buat kek ini.",
    "tadi",
    "pagi tadi"
   ],
@@ -74938,7 +75124,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|3|17": {
+ "Unit 9 · Pattern and grammar focus|4|0": {
   "source_text": "5. A: Surat itu dihantar ke mana? B: Dihantar ke pejabat.",
   "target_spans": [
    "Surat itu dihantar ke mana?",
@@ -74948,7 +75134,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|3|18": {
+ "Unit 9 · Pattern and grammar focus|4|1": {
   "source_text": "6. A: Tiket dibeli di mana? B: Tiket dibeli di stesen.",
   "target_spans": [
    "Tiket dibeli di mana?",
@@ -74958,7 +75144,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|4|0": {
+ "Unit 9 · Pattern and grammar focus|4|2": {
   "source_text": "Explanation: After a di- verb you can add where: Nasi lemak ini dibeli di gerai. The place word di is the preposition you know from chapter 2; do not confuse it with the di- that is stuck to the verb (dibeli). Ask dibeli di mana? for where and dihantar ke mana? for where to. You can use di- with any root verb you already know, not only the 18 on the list: digoreng (fried), dipilih (chosen), ditunggu (waited for), dijemput (invited), ditanya (asked). Only roots that are verbs work this way.",
   "target_spans": [
    "di-",
@@ -74979,7 +75165,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|4|1": {
+ "Unit 9 · Pattern and grammar focus|4|3": {
   "source_text": "説明：di- の動詞のあとに場所を足せます：Nasi lemak ini dibeli di gerai. 場所を表す di は第2章で学んだ前置詞で、動詞にくっついた di-（dibeli）とは別のものです。場所は dibeli di mana?、行き先は dihantar ke mana? とたずねます。di- は一覧の18語だけでなく、すでに知っている動詞の語根ならどれにでも付けられます：digoreng（揚げられた）、dipilih（選ばれた）、ditunggu（待たれた）、dijemput（招かれた）、ditanya（たずねられた）。動詞の語根だけがこのように使えます。",
   "target_spans": [
    "di-",
@@ -75000,7 +75186,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|4|2": {
+ "Unit 9 · Pattern and grammar focus|4|4": {
   "source_text": "Japanese helps or misleads: Japanese marks the place with で (市場で買われた) after the noun; Malay puts di and the place after the verb (dibeli di gerai). Because Malay verbs do not conjugate, you only learn the root once: beli becomes dibeli, goreng becomes digoreng.",
   "target_spans": [
    "di",
@@ -75014,7 +75200,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|4|3": {
+ "Unit 9 · Pattern and grammar focus|4|5": {
   "source_text": "日本語との比較：日本語は名詞のあとに「で」を付けて場所を表します（市場で買われた）が、マレー語は動詞のあとに di と場所を置きます（dibeli di gerai）。マレー語の動詞は活用しないので、語根を一度覚えれば足ります：beli → dibeli、goreng → digoreng。",
   "target_spans": [
    "di",
@@ -75028,14 +75214,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|4|4": {
+ "Unit 9 · Pattern and grammar focus|4|6": {
   "source_text": "■ Pattern 3 · ms-c09-f03",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Pattern and grammar focus|4|5": {
+ "Unit 9 · Pattern and grammar focus|4|7": {
   "source_text": "Pattern box: ___ sudah / belum di-(verb). / ___ sudah saya (verb).",
   "target_spans": [
    "sudah",
@@ -75048,7 +75234,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|4|6": {
+ "Unit 9 · Pattern and grammar focus|4|8": {
   "source_text": "1. A: Teh tarik sudah diminum? B: Sudah. Teh tarik sudah diminum semua.",
   "target_spans": [
    "Teh tarik sudah diminum?",
@@ -75058,7 +75244,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|4|7": {
+ "Unit 9 · Pattern and grammar focus|4|9": {
   "source_text": "2. A: Harga sudah dibayar? B: Belum. Harga belum dibayar.",
   "target_spans": [
    "Harga sudah dibayar?",
@@ -75068,7 +75254,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|4|8": {
+ "Unit 9 · Pattern and grammar focus|4|10": {
   "source_text": "3. A: Kek sudah dimakan? B: Belum. Kek belum dimakan.",
   "target_spans": [
    "Kek sudah dimakan?",
@@ -75078,7 +75264,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|4|9": {
+ "Unit 9 · Pattern and grammar focus|4|11": {
   "source_text": "4. A: Surat sudah dihantar? B: Sudah. Surat dihantar semalam.",
   "target_spans": [
    "Surat sudah dihantar?",
@@ -75088,7 +75274,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|4|10": {
+ "Unit 9 · Pattern and grammar focus|4|12": {
   "source_text": "5. A: Pinggan sudah dicuci? B: Belum. Pinggan saya bawa ke dapur.",
   "target_spans": [
    "Pinggan sudah dicuci?",
@@ -75098,7 +75284,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|4|11": {
+ "Unit 9 · Pattern and grammar focus|4|13": {
   "source_text": "6. A: Pintu sudah ditutup? B: Belum. Pintu masih dibuka.",
   "target_spans": [
    "Pintu sudah ditutup?",
@@ -75108,7 +75294,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|4|12": {
+ "Unit 9 · Pattern and grammar focus|5|0": {
   "source_text": "Explanation: Put sudah (already) or belum (not yet) in front of the di- verb: Teh tarik sudah diminum. Pintu masih dibuka (still open) and Pintu akan ditutup (will be closed) use the chapter 4 markers in the same place. When you did it yourself, the doer goes straight in front of the verb and di- drops away: Pinggan saya bawa ke dapur. (I will take the plates to the kitchen.) Kek saya beli. (I bought the cake.) This is Kata-Kata frame f06: the thing, then the doer, then the verb; it works with saya, awak, kami or a name.",
   "target_spans": [
    "sudah",
@@ -75128,7 +75314,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|5|0": {
+ "Unit 9 · Pattern and grammar focus|5|1": {
   "source_text": "説明：di- の動詞の前に sudah（もう）か belum（まだ）を置きます：Teh tarik sudah diminum. 第4章のマーカーも同じ位置です：Pintu masih dibuka（まだ開いている）、Pintu akan ditutup（閉められる予定）。自分でするときは、動作主を動詞の直前に置き、di- は付けません：Pinggan saya bawa ke dapur.（お皿は私が台所へ持っていきます）、Kek saya beli.（ケーキは私が買いました）。Kata-Kata の文型 f06（物、動作主、動詞の順）にあたり、saya・awak・kami や名前で使えます。",
   "target_spans": [
    "di-",
@@ -75148,7 +75334,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|5|1": {
+ "Unit 9 · Pattern and grammar focus|5|2": {
   "source_text": "Japanese helps or misleads: Japanese もう / まだ…ていない map to sudah / belum and the Japanese verb changes (食べられた / 食べられていない). In Malay only the marker changes: sudah dimakan, belum dimakan. The \"I did it myself\" form is close to Japanese はから topic order: ケーキは私が買った = Kek saya beli.",
   "target_spans": [
    "sudah",
@@ -75161,7 +75347,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|5|2": {
+ "Unit 9 · Pattern and grammar focus|5|3": {
   "source_text": "日本語との比較：日本語の「もう」「まだ…ていない」は sudah / belum にあたり、日本語は動詞が変わります（食べられた / 食べられていない）。マレー語は前の語だけが変わります：sudah dimakan、belum dimakan。「自分でした」形は日本語の「は…が」の語順に近く、「ケーキは私が買った」＝Kek saya beli. です。",
   "target_spans": [
    "sudah",
@@ -75174,14 +75360,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|5|3": {
+ "Unit 9 · Pattern and grammar focus|5|4": {
   "source_text": "■ Pattern 4 · ms-c09-f04",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Pattern and grammar focus|5|4": {
+ "Unit 9 · Pattern and grammar focus|5|5": {
   "source_text": "Pattern box: Kedai ini dibuka / ditutup pada pukul ___.",
   "target_spans": [
    "Kedai ini",
@@ -75194,7 +75380,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|5|5": {
+ "Unit 9 · Pattern and grammar focus|5|6": {
   "source_text": "1. A: Kedai ini dibuka pada pukul berapa? B: Kedai ini dibuka pada pukul sembilan pagi.",
   "target_spans": [
    "Kedai ini dibuka pada pukul berapa?",
@@ -75204,7 +75390,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|5|6": {
+ "Unit 9 · Pattern and grammar focus|5|7": {
   "source_text": "2. A: Pejabat ditutup pada pukul berapa? B: Ditutup pada pukul enam petang.",
   "target_spans": [
    "Pejabat ditutup pada pukul berapa?",
@@ -75214,7 +75400,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|5|7": {
+ "Unit 9 · Pattern and grammar focus|5|8": {
   "source_text": "3. A: Bank dibuka pada pukul berapa? B: Dibuka pada pukul sepuluh pagi.",
   "target_spans": [
    "Bank dibuka pada pukul berapa?",
@@ -75224,7 +75410,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|5|8": {
+ "Unit 9 · Pattern and grammar focus|5|9": {
   "source_text": "4. A: Jamuan itu pada pukul berapa? B: Pada pukul lima petang.",
   "target_spans": [
    "Jamuan itu pada pukul berapa?",
@@ -75234,7 +75420,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|5|9": {
+ "Unit 9 · Pattern and grammar focus|5|10": {
   "source_text": "5. A: Kedai dibuka pada hari Ahad? B: Tidak. Kedai ditutup pada hari Ahad.",
   "target_spans": [
    "Kedai dibuka pada hari Ahad?",
@@ -75244,7 +75430,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|5|10": {
+ "Unit 9 · Pattern and grammar focus|5|11": {
   "source_text": "6. A: Pasar dibuka pada hari apa? B: Pasar dibuka pada hari Sabtu.",
   "target_spans": [
    "Pasar dibuka pada hari apa?",
@@ -75254,7 +75440,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|5|11": {
+ "Unit 9 · Pattern and grammar focus|5|12": {
   "source_text": "Explanation: dibuka and ditutup are what shops and offices say about their hours: Pejabat dibuka pada pukul sembilan. pada goes in front of a time or a day: pada pukul sembilan, pada hari Sabtu. In speech people often drop it (dibuka pukul sembilan); a sign or a notice keeps it. Ask pada pukul berapa? (at what time?) or pada hari apa? (on what day?).",
   "target_spans": [
    "dibuka",
@@ -75271,7 +75457,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|5|12": {
+ "Unit 9 · Pattern and grammar focus|6|0": {
   "source_text": "説明：dibuka（開いている）と ditutup（閉まっている）は、店や事務所が営業時間を言うときの言い方です：Pejabat dibuka pada pukul sembilan. pada は時刻や曜日の前に置きます：pada pukul sembilan、pada hari Sabtu。話すときは省くことも多い（dibuka pukul sembilan）ですが、掲示や案内では省きません。たずねるときは pada pukul berapa?（何時に）、pada hari apa?（何曜日に）です。",
   "target_spans": [
    "dibuka",
@@ -75288,7 +75474,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|5|13": {
+ "Unit 9 · Pattern and grammar focus|6|1": {
   "source_text": "Japanese helps or misleads: Japanese 9時に開きます uses に after the time; Malay pada comes before it. Japanese says 開く / 閉まる with a plain verb; Malay says dibuka / ditutup (\"is opened\", \"is closed\"), which is exactly what a shop sign says.",
   "target_spans": [
    "pada",
@@ -75299,7 +75485,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|6|0": {
+ "Unit 9 · Pattern and grammar focus|6|2": {
   "source_text": "日本語との比較：日本語の「9時に開きます」は時刻のあとに「に」を付けますが、マレー語の pada は時刻の前です。日本語は「開く・閉まる」と普通の動詞を使いますが、マレー語は dibuka・ditutup（開けられる・閉められる）で、店の掲示そのままの言い方です。",
   "target_spans": [
    "pada",
@@ -75310,14 +75496,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|6|1": {
+ "Unit 9 · Pattern and grammar focus|6|3": {
   "source_text": "■ Pattern 5 · ms-c09-f05",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Pattern and grammar focus|6|2": {
+ "Unit 9 · Pattern and grammar focus|6|4": {
   "source_text": "Pattern box: Dilarang ___. / Sila ___.",
   "target_spans": [
    "Dilarang",
@@ -75327,7 +75513,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|6|3": {
+ "Unit 9 · Pattern and grammar focus|6|5": {
   "source_text": "1. A: Papan tanda ini apa? B: Dilarang masuk.",
   "target_spans": [
    "Papan tanda ini apa?",
@@ -75337,7 +75523,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|6|4": {
+ "Unit 9 · Pattern and grammar focus|6|6": {
   "source_text": "2. A: Boleh makan di sini? B: Tidak boleh. Dilarang makan dan minum.",
   "target_spans": [
    "Boleh makan di sini?",
@@ -75347,7 +75533,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|6|5": {
+ "Unit 9 · Pattern and grammar focus|6|7": {
   "source_text": "3. A: Boleh masuk? B: Boleh. Sila masuk.",
   "target_spans": [
    "Boleh masuk?",
@@ -75357,7 +75543,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|6|6": {
+ "Unit 9 · Pattern and grammar focus|6|8": {
   "source_text": "4. A: Boleh duduk di sini? B: Boleh. Sila duduk.",
   "target_spans": [
    "Boleh duduk di sini?",
@@ -75367,7 +75553,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|6|7": {
+ "Unit 9 · Pattern and grammar focus|6|9": {
   "source_text": "5. A: Kenapa pintu itu ditutup? B: Sebab dilarang masuk.",
   "target_spans": [
    "Kenapa pintu itu ditutup?",
@@ -75377,7 +75563,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|6|8": {
+ "Unit 9 · Pattern and grammar focus|6|10": {
   "source_text": "6. A: Papan tanda itu di mana? B: Papan tanda itu di depan pintu.",
   "target_spans": [
    "Papan tanda itu di mana?",
@@ -75387,7 +75573,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|6|9": {
+ "Unit 9 · Pattern and grammar focus|6|11": {
   "source_text": "Explanation: Signs and notices use Dilarang (forbidden) in front of what is not allowed: Dilarang masuk. (No entry.) Dilarang makan dan minum. (No eating or drinking.) Dilarang merokok. (No smoking) is a sign to recognise only. Sila (please) in front of a verb is a polite instruction: Sila masuk. Sila duduk. A sign leaves out the doer: it says what is forbidden or welcome, not who must do it. A papan tanda is the signboard itself.",
   "target_spans": [
    "Dilarang",
@@ -75403,7 +75589,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|6|10": {
+ "Unit 9 · Pattern and grammar focus|6|12": {
   "source_text": "説明：掲示や案内では、してはいけないことの前に Dilarang（禁止）を置きます：Dilarang masuk.（立入禁止）、Dilarang makan dan minum.（飲食禁止）。Dilarang merokok.（禁煙）は見て分かればよい掲示です。動詞の前の Sila（どうぞ）は丁寧な指示です：Sila masuk.、Sila duduk. 掲示は動作主をはぶき、禁止か歓迎かだけを書きます。papan tanda は看板そのものです。",
   "target_spans": [
    "Dilarang",
@@ -75419,7 +75605,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|6|11": {
+ "Unit 9 · Pattern and grammar focus|6|13": {
   "source_text": "Japanese helps or misleads: Japanese signs say 立入禁止 and 禁煙 with nouns; Malay uses the passive Dilarang + a verb. Sila is like どうぞ + verb, or ください in a notice (ご自由にお取りください).",
   "target_spans": [
    "Dilarang",
@@ -75429,7 +75615,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|6|12": {
+ "Unit 9 · Pattern and grammar focus|7|0": {
   "source_text": "日本語との比較：日本語の掲示は「立入禁止」「禁煙」のように名詞で書きますが、マレー語は受け身の Dilarang ＋動詞です。Sila は「どうぞ」＋動詞にあたり、掲示の「ご自由にお取りください」の「ください」に近い言い方です。",
   "target_spans": [
    "Dilarang",
@@ -75439,14 +75625,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|7|0": {
+ "Unit 9 · Pattern and grammar focus|8|0": {
   "source_text": "Model each A line; learners answer as B, then swap. Explain the rule only after they have used the pattern.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Pattern and grammar focus|7|1": {
+ "Unit 9 · Pattern and grammar focus|8|1": {
   "source_text": "Pattern IDs are the Kata-Kata chapter 9 frames f01 to f05; frame f06 (the doer before the verb, no di-) sits inside pattern 3. Explanations and Japanese comparisons are drafts.",
   "target_spans": [],
   "mention_spans": [
@@ -75455,8 +75641,8 @@
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Pattern and grammar focus|7|2": {
-  "source_text": "Pattern 1: thing first, then oleh and the doer. If a learner puts the doer first (Japanese-style subject, Isteri saya dibuat kek), model Kek ini dibuat oleh isteri saya again. Let learners swap the doer: isteri saya, suami saya, anak saya, kawan saya. Do not teach active me- verbs: the active sentences in this unit use root verbs only.",
+ "Unit 9 · Pattern and grammar focus|8|2": {
+  "source_text": "Pattern 1: thing first, then oleh and the doer. If a learner puts the doer first (Japanese-style subject, Isteri saya dibuat kek), model Kek ini dibuat oleh isteri saya again. Let learners swap the doer: isteri saya, suami saya, anak saya, kawan saya. Do not teach active me- verbs: the active sentences in this unit use root verbs only, including the new roots buat, panggil, cuci and larang (Isteri saya buat kek ini.).",
   "target_spans": [
    "oleh",
    "Isteri saya dibuat kek",
@@ -75464,7 +75650,12 @@
    "isteri saya",
    "suami saya",
    "anak saya",
-   "kawan saya"
+   "kawan saya",
+   "buat",
+   "panggil",
+   "cuci",
+   "larang",
+   "Isteri saya buat kek ini."
   ],
   "mention_spans": [
    "me-"
@@ -75472,7 +75663,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|7|3": {
+ "Unit 9 · Pattern and grammar focus|8|3": {
   "source_text": "Pattern 2: di before a place is the preposition; di- stuck to the verb makes the passive. Write both on the board. Let learners try digoreng, dipilih, ditunggu and dijemput from roots they know; correct only roots that are not verbs. A quick active-to-passive check: Gerai itu jual kuih. → Kuih dijual di gerai itu. Saya hantar surat itu. → Surat itu dihantar.",
   "target_spans": [
    "di",
@@ -75490,7 +75681,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|7|4": {
+ "Unit 9 · Pattern and grammar focus|8|4": {
   "source_text": "Pattern 3: sudah and belum go before the di- verb; the chapter 4 markers (masih, akan, baru) take the same place. The saya + verb form (Pinggan saya bawa ke dapur) has no di-; accept it as the natural way to say \"I will do it\".",
   "target_spans": [
    "sudah",
@@ -75507,7 +75698,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|7|5": {
+ "Unit 9 · Pattern and grammar focus|8|5": {
   "source_text": "Pattern 4: dibuka and ditutup with pada and a time. Accept dibuka pukul sembilan in speech; a notice keeps pada. In everyday speech people also use the plain roots: Kedai buka pukul sembilan. Kedai tutup pukul enam.",
   "target_spans": [
    "dibuka",
@@ -75522,7 +75713,7 @@
   "kind": "key",
   "exclusion": null
  },
- "Unit 9 · Pattern and grammar focus|7|6": {
+ "Unit 9 · Pattern and grammar focus|8|6": {
   "source_text": "Pattern 5: signs. Dilarang merokok is for recognition only. Let learners read the signs in the reading text aloud as if they were a guard.",
   "target_spans": [
    "Dilarang merokok"
@@ -75978,6 +76169,24 @@
   "kind": "drill",
   "exclusion": null
  },
+ "Unit 9 · Drill 3 · Transformation|3|12": {
+  "source_text": "11. Make it passive: Ibu saya buat kuih ini.",
+  "target_spans": [
+   "Ibu saya buat kuih ini."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 9 · Drill 3 · Transformation|3|13": {
+  "source_text": "12. Make it passive: Puan Aini panggil Encik Tanaka.",
+  "target_spans": [
+   "Puan Aini panggil Encik Tanaka."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
  "Unit 9 · Drill 3 · Transformation|4|0": {
   "source_text": "Answers in order:",
   "target_spans": [],
@@ -76010,10 +76219,12 @@
   "exclusion": null
  },
  "Unit 9 · Drill 3 · Transformation|4|3": {
-  "source_text": "9 Ikan digoreng. 10 Encik Tanaka ditunggu.",
+  "source_text": "9 Ikan digoreng. 10 Encik Tanaka ditunggu. 11 Kuih ini dibuat oleh ibu saya. 12 Encik Tanaka dipanggil oleh Puan Aini.",
   "target_spans": [
    "Ikan digoreng.",
-   "Encik Tanaka ditunggu."
+   "Encik Tanaka ditunggu.",
+   "Kuih ini dibuat oleh ibu saya.",
+   "Encik Tanaka dipanggil oleh Puan Aini."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -77104,9 +77315,9 @@
   "exclusion": null
  },
  "Unit 9 · Model conversation|3|7": {
-  "source_text": "Mei Ling: Kek itu dipotong oleh Rahman tadi. Sila ambil, Encik Tanaka.",
+  "source_text": "Mei Ling: Kek itu dipotong oleh Rahman tadi. Mari makan, Encik Tanaka!",
   "target_spans": [
-   "Kek itu dipotong oleh Rahman tadi. Sila ambil, Encik Tanaka."
+   "Kek itu dipotong oleh Rahman tadi. Mari makan, Encik Tanaka!"
   ],
   "mention_spans": [],
   "kind": "model",
@@ -77270,9 +77481,9 @@
   "exclusion": null
  },
  "Unit 9 · Model conversation|3|27": {
-  "source_text": "Aini: Kuih itu dibuat oleh kawan saya. Kuih dijual di gerai dekat stesen.",
+  "source_text": "Aini: Kuih itu dibuat oleh ibu saya. Kuih ibu saya dijual di gerai dekat stesen.",
   "target_spans": [
-   "Kuih itu dibuat oleh kawan saya. Kuih dijual di gerai dekat stesen."
+   "Kuih itu dibuat oleh ibu saya. Kuih ibu saya dijual di gerai dekat stesen."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -77297,9 +77508,9 @@
   "exclusion": null
  },
  "Unit 9 · Model conversation|3|30": {
-  "source_text": "Rina: Kek itu juga dibuat oleh kawan puan?",
+  "source_text": "Rina: Kek itu juga dibuat oleh ibu puan?",
   "target_spans": [
-   "Kek itu juga dibuat oleh kawan puan?"
+   "Kek itu juga dibuat oleh ibu puan?"
   ],
   "mention_spans": [],
   "kind": "model",
@@ -77394,9 +77605,9 @@
   "exclusion": null
  },
  "Unit 9 · Model conversation|5|4": {
-  "source_text": "Turn 8: Kek itu dipotong oleh Rahman tadi. Sila ambil, Encik Tanaka.",
+  "source_text": "Turn 8: Kek itu dipotong oleh Rahman tadi. Mari makan, Encik Tanaka!",
   "target_spans": [
-   "Kek itu dipotong oleh Rahman tadi. Sila ambil, Encik Tanaka."
+   "Kek itu dipotong oleh Rahman tadi. Mari makan, Encik Tanaka!"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -78236,12 +78447,17 @@
   "exclusion": null
  },
  "Unit 9 · Culture and usage note|3|2": {
-  "source_text": "Kata-Kata's card notes name the roots: dibuat is di- + buat, dicuci is di- + cuci (wash), dipanggil comes from panggil (call) and dilarang from larang (forbid). The note on jamuan says jamu (treat a guest) → jamuan. With a root verb you already know, you can make a new one: digoreng, dipilih, ditunggu.",
+  "source_text": "Kata-Kata's card notes name the roots: dibuat is di- + buat, dicuci is di- + cuci (wash), dipanggil comes from panggil (call) and dilarang from larang (forbid). In everyday speech the roots work alone: Saya cuci pinggan. The note on jamuan says jamu (treat a guest) → jamuan. With a root verb you already know, you can make a new one: digoreng, dipilih, ditunggu.",
   "target_spans": [
    "dibuat",
+   "buat",
    "dicuci",
+   "cuci",
    "dipanggil",
+   "panggil",
    "dilarang",
+   "larang",
+   "Saya cuci pinggan.",
    "jamuan",
    "jamuan",
    "digoreng",
@@ -78250,11 +78466,7 @@
   ],
   "mention_spans": [
    "di-",
-   "buat",
    "di-",
-   "cuci",
-   "panggil",
-   "larang",
    "jamu"
   ],
   "kind": "culture",
@@ -78306,12 +78518,17 @@
   "exclusion": null
  },
  "Unit 9 · Culture and usage note|3|7": {
-  "source_text": "Kata-Kata のカード注記が語根を示しています：dibuat は di- ＋ buat、dicuci は di- ＋ cuci（洗う）、dipanggil は panggil（呼ぶ）、dilarang は larang（禁じる）から来ています。jamuan の注記には jamu（客をもてなす）→ jamuan とあります。すでに知っている動詞の語根から、新しい語を作れます：digoreng、dipilih、ditunggu。",
+  "source_text": "Kata-Kata のカード注記が語根を示しています：dibuat は di- ＋ buat、dicuci は di- ＋ cuci（洗う）、dipanggil は panggil（呼ぶ）、dilarang は larang（禁じる）から来ています。日常会話では語根だけでも使います：Saya cuci pinggan.jamuan の注記には jamu（客をもてなす）→ jamuan とあります。すでに知っている動詞の語根から、新しい語を作れます：digoreng、dipilih、ditunggu。",
   "target_spans": [
    "dibuat",
+   "buat",
    "dicuci",
+   "cuci",
    "dipanggil",
+   "panggil",
    "dilarang",
+   "larang",
+   "Saya cuci pinggan.",
    "jamuan",
    "jamuan",
    "digoreng",
@@ -78320,11 +78537,7 @@
   ],
   "mention_spans": [
    "di-",
-   "buat",
    "di-",
-   "cuci",
-   "panggil",
-   "larang",
    "jamu"
   ],
   "kind": "culture",
@@ -78343,19 +78556,23 @@
   "exclusion": null
  },
  "Unit 9 · Culture and usage note|4|0": {
-  "source_text": "English note: 211 words. The Japanese is a full translation (draft).",
+  "source_text": "English note: 221 words. The Japanese is a full translation (draft).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 9 · Culture and usage note|4|1": {
-  "source_text": "Sources: Charter chapter 9 row (Japanese bridge: the Malay passive is neutral and very common, unlike 受身); Kata-Kata chapter 9 cards ms-c09-004 (dibuat, note: buat), -016 (dipanggil, note: panggil), -018 (dicuci, note: cuci), -021 (dilarang, note: larang), -024 (Dilarang merokok, note: \"Contains me- (merokok). Learn as a sign only.\"), -029 (jamuan, note: jamu (treat a guest) → jamuan) and frames ms-c09-f01 to f06; the practice office, notices, times and names are fictional. The note makes no claim about any real sign, law or custom.",
+  "source_text": "Sources: Charter chapter 9 row (Japanese bridge: the Malay passive is neutral and very common, unlike 受身); Kata-Kata chapter 9 cards ms-c09-004 (dibuat, note: buat), -016 (dipanggil, note: panggil), -018 (dicuci, note: cuci), -021 (dilarang, note: larang; the four roots are ledger rows L-1076 to L-1079 since 12 Nov 2026), -024 (Dilarang merokok, note: \"Contains me- (merokok). Learn as a sign only.\"), -029 (jamuan, note: jamu (treat a guest) → jamuan) and frames ms-c09-f01 to f06; the practice office, notices, times and names are fictional. The note makes no claim about any real sign, law or custom.",
   "target_spans": [
    "dibuat",
+   "buat",
    "dipanggil",
+   "panggil",
    "dicuci",
+   "cuci",
    "dilarang",
+   "larang",
    "Dilarang merokok",
    "jamuan",
    "jamuan"
@@ -78406,20 +78623,28 @@
   "exclusion": null
  },
  "Unit 9 · Culture note · Open houses in Malaysia|3|0": {
-  "source_text": "A rumah terbuka (open house) is a gathering where hosts welcome relatives, friends, neighbours and colleagues during a festival, and in Malaysia people of other communities are often invited too. The scene in Block E is a general open house; below is a short note for each festival. It is culture, not a lesson in belief. Greetings are built the same way each time: Selamat Hari Raya, Selamat Hari Deepavali, Selamat Hari Krismas, Selamat Hari Gawai.",
+  "source_text": "A rumah terbuka (open house) is a gathering where the host (tuan rumah) welcomes relatives, friends, neighbours and colleagues during a festival, and people of other communities are often invited too. Guests hear Jemput masuk and Mari makan (spoken: Jom makan). It is culture, not a lesson in belief. Greetings: Selamat Hari Raya, Selamat Tahun Baru Cina (no Hari), Selamat Hari Deepavali, Selamat Hari Krismas, Selamat Hari Gawai, and Selamat Pesta Kaamatan (from usage; not yet sourced).",
   "target_spans": [
    "rumah terbuka",
+   "tuan rumah",
+   "Jemput masuk",
+   "Mari makan",
+   "Jom makan",
    "Selamat Hari Raya",
+   "Selamat Tahun Baru Cina",
+   "Hari",
    "Selamat Hari Deepavali",
    "Selamat Hari Krismas",
    "Selamat Hari Gawai"
   ],
-  "mention_spans": [],
+  "mention_spans": [
+   "Selamat Pesta Kaamatan"
+  ],
   "kind": "culture",
   "exclusion": null
  },
  "Unit 9 · Culture note · Open houses in Malaysia|3|1": {
-  "source_text": "Hari Raya (the festival at the end of Ramadan): Kata-Kata lists ketupat (rice in a woven palm-leaf case), rendang and kuih as the food, duit raya as the money gift for children, pelita as oil lamps, baju Melayu as the men's outfit and balik kampung for going back to your hometown. Maaf zahir dan batin is a Raya greeting that asks forgiveness for past wrongs.",
+  "source_text": "Hari Raya (the festival at the end of Ramadan): Kata-Kata lists ketupat, rendang and kuih as the food, duit raya as the money gift for children, pelita as oil lamps, baju Melayu as the men's outfit and balik kampung for going back to your hometown. Maaf zahir dan batin asks forgiveness for past wrongs.",
   "target_spans": [
    "Hari Raya",
    "ketupat",
@@ -78436,9 +78661,10 @@
   "exclusion": null
  },
  "Unit 9 · Culture note · Open houses in Malaysia|3|2": {
-  "source_text": "Tahun Baru Cina (Chinese New Year): open houses are widely held for it, and guides list red packets with money, angpau, among the customs.",
+  "source_text": "Tahun Baru Cina (Chinese New Year) is the everyday name; Tahun Baharu Cina is the official one, in the federal public-holiday list. Open houses are widely held, and guides list angpau (red packets with money; English-language newspapers often write \"ang pow\") among the customs.",
   "target_spans": [
    "Tahun Baru Cina",
+   "Tahun Baharu Cina",
    "angpau"
   ],
   "mention_spans": [],
@@ -78446,7 +78672,7 @@
   "exclusion": null
  },
  "Unit 9 · Culture note · Open houses in Malaysia|3|3": {
-  "source_text": "Deepavali (the Hindu festival of lights): newspapers list Deepavali open houses for all Malaysians, and reports describe families welcoming Malay and Chinese friends and neighbours.",
+  "source_text": "Deepavali (the Hindu festival of lights): newspapers list Deepavali open houses for all Malaysians, with families welcoming Malay and Chinese friends and neighbours.",
   "target_spans": [
    "Deepavali",
    "Deepavali"
@@ -78465,7 +78691,7 @@
   "exclusion": null
  },
  "Unit 9 · Culture note · Open houses in Malaysia|3|5": {
-  "source_text": "Gawai (Sarawak, from 1 June) and Kaamatan (Sabah, 30 and 31 May) are harvest festivals of Borneo communities and public holidays in their states. Gawai open houses are held. The communities have their own greetings for these festivals; they are not Malay, so they are not taught here.",
+  "source_text": "Gawai (Sarawak, 1 June) and Kaamatan (Sabah and Labuan, 30 and 31 May) are harvest festivals and public holidays there. Gawai was gazetted as a holiday on 25 September 1964 and first celebrated on 1 June 1965. The communities' own greetings are not Malay, so they are not taught here.",
   "target_spans": [
    "Gawai",
    "Kaamatan",
@@ -78483,20 +78709,28 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 9 · Culture note · Open houses in Malaysia|3|7": {
-  "source_text": "rumah terbuka（オープンハウス）は、行事のときに、親戚、友人、近所の人、同僚を迎える集まりで、マレーシアでは別の民族の人も招かれることがよくあります。ブロックEの場面は一般的なオープンハウスです。以下に行事ごとの短いメモを付けます。これは文化の紹介であり、信仰の授業ではありません。挨拶はどれも同じ作り方です：Selamat Hari Raya、Selamat Hari Deepavali、Selamat Hari Krismas、Selamat Hari Gawai。",
+  "source_text": "rumah terbuka（オープンハウス）は、行事のときに主催者（tuan rumah）が親戚、友人、近所の人、同僚を迎える集まりで、別の民族の人もよく招かれます。客は Jemput masuk・Mari makan（話し言葉：Jom makan）と声をかけられます。これは文化の紹介であり、信仰の授業ではありません。挨拶：Selamat Hari Raya、Selamat Tahun Baru Cina（Hari は付けない）、Selamat Hari Deepavali、Selamat Hari Krismas、Selamat Hari Gawai、そして Selamat Pesta Kaamatan（使われている形。出典未確認）。",
   "target_spans": [
    "rumah terbuka",
+   "tuan rumah",
+   "Jemput masuk",
+   "Mari makan",
+   "Jom makan",
    "Selamat Hari Raya",
+   "Selamat Tahun Baru Cina",
+   "Hari",
    "Selamat Hari Deepavali",
    "Selamat Hari Krismas",
    "Selamat Hari Gawai"
   ],
-  "mention_spans": [],
+  "mention_spans": [
+   "Selamat Pesta Kaamatan"
+  ],
   "kind": "culture",
   "exclusion": null
  },
  "Unit 9 · Culture note · Open houses in Malaysia|3|8": {
-  "source_text": "Hari Raya（断食明けのお祭り）：Kata-Kata は、食べ物として ketupat（ヤシの葉で編んだ袋で炊いたご飯）・rendang・kuih、子どもへの贈り物として duit raya、pelita は灯油ランプ、男性の装いとして baju Melayu、故郷へ帰ることを balik kampung と挙げています。Maaf zahir dan batin は、これまでの非礼の許しを願うハリラヤの挨拶です。",
+  "source_text": "Hari Raya（断食明けのお祭り）：Kata-Kata は、食べ物として ketupat・rendang・kuih、子どもへの贈り物として duit raya、pelita は灯油ランプ、男性の装いとして baju Melayu、故郷へ帰ることを balik kampung と挙げています。Maaf zahir dan batin は、これまでの非礼の許しを願う言葉です。",
   "target_spans": [
    "Hari Raya",
    "ketupat",
@@ -78513,16 +78747,17 @@
   "exclusion": null
  },
  "Unit 9 · Culture note · Open houses in Malaysia|3|9": {
-  "source_text": "Tahun Baru Cina（旧正月）：オープンハウスが広く開かれ、ガイドはお金入りの赤い封筒 angpau を習慣のひとつに挙げています。",
+  "source_text": "Tahun Baru Cina（旧正月）は日常の呼び方で、Tahun Baharu Cina は連邦の祝日一覧にある公式の呼び方です。オープンハウスが広く開かれ、ガイドは angpau（お金入りの赤い封筒。英字紙では英語式のつづりで書かれることが多い）を習慣のひとつに挙げています。",
   "target_spans": [
    "Tahun Baru Cina",
+   "Tahun Baharu Cina",
    "angpau"
   ],
   "mention_spans": [],
   "kind": "culture",
   "exclusion": null
  },
- "Unit 9 · Culture note · Open houses in Malaysia|3|10": {
+ "Unit 9 · Culture note · Open houses in Malaysia|4|0": {
   "source_text": "Deepavali（ヒンドゥー教の光のお祭り）：新聞はすべてのマレーシア人に開かれたディーパバリのオープンハウスを紹介し、家族がマレー系や中華系の友人や近所の人を迎える様子も報じています。",
   "target_spans": [
    "Deepavali"
@@ -78531,7 +78766,7 @@
   "kind": "culture",
   "exclusion": null
  },
- "Unit 9 · Culture note · Open houses in Malaysia|3|11": {
+ "Unit 9 · Culture note · Open houses in Malaysia|4|1": {
   "source_text": "Krismas（クリスマス）はマレーシアのキリスト教徒の人々が祝います。",
   "target_spans": [
    "Krismas"
@@ -78540,34 +78775,39 @@
   "kind": "culture",
   "exclusion": null
  },
- "Unit 9 · Culture note · Open houses in Malaysia|4|0": {
-  "source_text": "Gawai（サラワク州、6月1日から）と Kaamatan（サバ州、5月30日と31日）はボルネオの人々の収穫祭で、それぞれの州の祝日です。ガワイのオープンハウスも開かれます。これらの行事には各民族の言葉の挨拶がありますが、マレー語ではないため、ここでは教えません。",
+ "Unit 9 · Culture note · Open houses in Malaysia|4|2": {
+  "source_text": "Gawai（サラワク州、6月1日）と Kaamatan（サバ州とラブアン、5月30日と31日）は収穫祭で、その地域の祝日です。Gawai は1964年9月25日に祝日として官報に告示され、1965年6月1日に初めて祝われました。各民族の言葉の挨拶はマレー語ではないため、ここでは教えません。",
   "target_spans": [
    "Gawai",
-   "Kaamatan"
+   "Kaamatan",
+   "Gawai"
   ],
   "mention_spans": [],
   "kind": "culture",
   "exclusion": null
  },
  "Unit 9 · Culture note · Open houses in Malaysia|5|0": {
-  "source_text": "English note: 246 words. The Japanese is a full translation (draft).",
+  "source_text": "English note: 256 words. The Japanese is a full translation (draft).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 9 · Culture note · Open houses in Malaysia|5|1": {
-  "source_text": "Sources: the festival words are ledger rows L-0537 to L-0549 (the Raya words, with their glosses) and L-1070 to L-1075 (Sam approved the six rows on 12 Nov 2026); the Raya details are the ledger glosses and the Kata-Kata Dunia scene \"Rumah terbuka Hari Raya\"; open houses as a Malaysian custom open to other communities: EMGS Connect, \"You've been invited to an Open House: Hari Raya Traditions\", and Arab News, \"Malaysia's 'Open House' ensures all are welcome on Eid\", both seen in search summaries only; Chinese New Year open houses and red packets: EMGS Connect, \"Chinese New Year in Malaysia\", and Malay Mail, 10 Feb 2026 (MCA open house), seen in search summaries only; Deepavali open houses for all Malaysians: Malay Mail, 8 Nov 2026, \"Eat, mingle, celebrate: five Deepavali open houses from Brickfields to Ipoh for all Malaysians\" and a Malay Mail piece on a family open house, seen in search summaries only; Gawai from 1 June (a Sarawak public holiday since 1965) and Kaamatan on 30 and 31 May, Gawai open houses: The Borneo Post, Zafigo and Sarawak Premier's Department pages, seen in search summaries only; Christmas: general knowledge, no source retrieved. The Wikipedia pages could not be fetched in this session. The note makes no claim about any religious belief or rule.",
+  "source_text": "Sources: the festival words are ledger rows L-0537 to L-0549 (the Raya words, with their glosses) and L-1070 to L-1075 (Sam approved the six rows on 12 Nov 2026); the Raya details are the ledger glosses and the Kata-Kata Dunia scene \"Rumah terbuka Hari Raya\"; open houses as a Malaysian custom open to other communities: EMGS Connect, \"You've been invited to an Open House: Hari Raya Traditions\", and Arab News, \"Malaysia's 'Open House' ensures all are welcome on Eid\", both seen in search summaries only; Chinese New Year open houses and red packets: EMGS Connect, \"Chinese New Year in Malaysia\", and Malay Mail, 10 Feb 2026 (MCA open house), seen in search summaries only; Deepavali open houses for all Malaysians: Malay Mail, 8 Nov 2026, \"Eat, mingle, celebrate: five Deepavali open houses from Brickfields to Ipoh for all Malaysians\" and a Malay Mail piece on a family open house, seen in search summaries only; Tahun Baru Cina everyday and Tahun Baharu Cina official: Sam's decision of 12 Nov 2026 (ledger L-1070 and Journal), citing the federal public-holiday list (the federal list of public holidays for 2027 on ecentral.my, seen again in a search summary in step 5h) and Education Ministry notices; angpau is the Malay spelling, \"ang pow\" the common English-press spelling: Sam, 12 Nov 2026 (ledger L-1075); Gawai on 1 June, gazetted on 25 September 1964 and first celebrated on 1 June 1965: Sam, citing The Borneo Post and the New Straits Times; seen again in step 5h in search summaries of The Borneo Post and Free Malaysia Today (1 June 2026); Kaamatan on 30 and 31 May in Sabah and Labuan: Sam (ledger L-1074, citing officeholidays.com), seen again in step 5h in search summaries of officeholidays.com; greetings: Sam's decision (ledger Journal, 12 Nov 2026); Selamat Pesta Kaamatan is from usage and not yet sourced; Christmas: general knowledge, no source retrieved. The Wikipedia pages could not be fetched in this session. The note makes no claim about any religious belief or rule.",
   "target_spans": [
    "Hari Raya",
    "Deepavali",
    "Deepavali",
+   "Tahun Baru Cina",
+   "Tahun Baharu Cina",
+   "angpau",
    "Gawai",
-   "Kaamatan",
-   "Gawai"
+   "Kaamatan"
   ],
-  "mention_spans": [],
+  "mention_spans": [
+   "Selamat Pesta Kaamatan"
+  ],
   "kind": "key",
   "exclusion": null
  },
@@ -78579,7 +78819,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 9 · Unit test and self-check|0|0": {
-  "source_text": "聞く・語彙・文型・読むの19問と話す課題1つです。間違いは次の授業で練習します。",
+  "source_text": "聞く・語彙・文型・読むの20問と話す課題1つです。間違いは次の授業で練習します。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
@@ -78600,7 +78840,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 9 · Unit test and self-check|2|0": {
-  "source_text": "19 low-stakes items plus one speaking task and an \"I can\" self-check.",
+  "source_text": "20 low-stakes items plus one speaking task and an \"I can\" self-check.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
@@ -78736,13 +78976,22 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 9 · Unit test and self-check|3|17": {
+  "source_text": "G4. Make it passive: Ibu saya buat kek ini.",
+  "target_spans": [
+   "Ibu saya buat kek ini."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Unit 9 · Unit test and self-check|3|18": {
   "source_text": "■ Reading · 読む",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Unit test and self-check|3|18": {
+ "Unit 9 · Unit test and self-check|3|19": {
   "source_text": "Fictional notice: Pejabat ditutup pada pukul enam petang. Dilarang makan dan minum di bilik mesyuarat. Jamuan pada pukul lima petang. Kek dibawa oleh Mei Ling. Sila ambil pinggan.",
   "target_spans": [
    "Pejabat ditutup pada pukul enam petang. Dilarang makan dan minum di bilik mesyuarat. Jamuan pada pukul lima petang. Kek dibawa oleh Mei Ling. Sila ambil pinggan."
@@ -78751,42 +79000,42 @@
   "kind": "test",
   "exclusion": null
  },
- "Unit 9 · Unit test and self-check|3|19": {
+ "Unit 9 · Unit test and self-check|3|20": {
   "source_text": "R1. At what time is the office closed?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Unit test and self-check|3|20": {
+ "Unit 9 · Unit test and self-check|3|21": {
   "source_text": "R2. Where is eating and drinking forbidden?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Unit test and self-check|3|21": {
+ "Unit 9 · Unit test and self-check|3|22": {
   "source_text": "R3. Who brought the cake?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Unit test and self-check|3|22": {
+ "Unit 9 · Unit test and self-check|3|23": {
   "source_text": "R4. What does the notice ask you to take?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Unit test and self-check|3|23": {
+ "Unit 9 · Unit test and self-check|3|24": {
   "source_text": "■ Speaking · 話す",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Unit test and self-check|3|24": {
+ "Unit 9 · Unit test and self-check|3|25": {
   "source_text": "S1. At a jamuan: ask who made two of the dishes and where one was bought, say what has not been done yet, and read one sign aloud.",
   "target_spans": [
    "jamuan"
@@ -78795,14 +79044,7 @@
   "kind": "test",
   "exclusion": null
  },
- "Unit 9 · Unit test and self-check|3|25": {
-  "source_text": "■ I can · 自己評価",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "heading",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Unit 9 · Unit test and self-check|3|26": {
+ "Unit 9 · Unit test and self-check|4|0": {
   "source_text": "☐ I can say what was done with a di- verb and say who did it with oleh, and say a thing is sudah or belum done. / di- の動詞で「されたこと」を言い、oleh で誰がしたかを言え、sudah・belum でもう・まだを言える。",
   "target_spans": [
    "di-",
@@ -78818,7 +79060,7 @@
   "kind": "test",
   "exclusion": null
  },
- "Unit 9 · Unit test and self-check|4|0": {
+ "Unit 9 · Unit test and self-check|4|1": {
   "source_text": "☐ I can ask dibuat oleh siapa?, dibeli di mana? and pada pukul berapa? and answer in the passive. / dibuat oleh siapa?・dibeli di mana?・pada pukul berapa? とたずね、受け身で答えられる。",
   "target_spans": [
    "dibuat oleh siapa?",
@@ -78832,14 +79074,14 @@
   "kind": "test",
   "exclusion": null
  },
- "Unit 9 · Unit test and self-check|4|1": {
+ "Unit 9 · Unit test and self-check|4|2": {
   "source_text": "☐ I can read signs and a notice board, follow a short party plan, and write a short notice. / 掲示や案内板を読み、パーティーの短い予定が分かり、短い掲示文が書ける。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Unit test and self-check|4|2": {
+ "Unit 9 · Unit test and self-check|4|3": {
   "source_text": "☐ I can recognise the festival words in the general rumah terbuka scene and the idioms in the Dunia scene \"Simpulan bahasa harian\". / 一般的な rumah terbuka の場面の行事の語と、Dunia の「Simpulan bahasa harian」の慣用句を見て分かる。",
   "target_spans": [
    "rumah terbuka",
@@ -78988,34 +79230,43 @@
   "exclusion": null
  },
  "Unit 9 · Unit test and self-check|5|15": {
+  "source_text": "G4: Kek ini dibuat oleh ibu saya.",
+  "target_spans": [
+   "Kek ini dibuat oleh ibu saya."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 9 · Unit test and self-check|5|16": {
   "source_text": "R1: six in the evening",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Unit test and self-check|5|16": {
+ "Unit 9 · Unit test and self-check|5|17": {
   "source_text": "R2: in the meeting room",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Unit test and self-check|5|17": {
+ "Unit 9 · Unit test and self-check|5|18": {
   "source_text": "R3: Mei Ling",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Unit test and self-check|5|18": {
+ "Unit 9 · Unit test and self-check|5|19": {
   "source_text": "R4: a plate",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Unit test and self-check|5|19": {
+ "Unit 9 · Unit test and self-check|5|20": {
   "source_text": "S1: Check: dibuat oleh siapa? and dibeli di mana? asked in the passive; belum + a di- verb; one Dilarang … or Sila … read correctly.",
   "target_spans": [
    "dibuat oleh siapa?",
@@ -79029,8 +79280,8 @@
   "kind": "key",
   "exclusion": null
  },
- "Unit 9 · Unit test and self-check|5|20": {
-  "source_text": "19 scored items and one speaking task. Low-stakes: go over mistakes in the next class.",
+ "Unit 9 · Unit test and self-check|5|21": {
+  "source_text": "20 scored items and one speaking task. Low-stakes: go over mistakes in the next class.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
@@ -79290,62 +79541,80 @@
   "exclusion": null
  },
  "test:ms-c09-test-16|prompt": {
+  "source_text": "G4. Make it passive: Ibu saya buat kek ini.",
+  "target_spans": [
+   "Ibu saya buat kek ini."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c09-test-16|answer_key": {
+  "source_text": "Kek ini dibuat oleh ibu saya.",
+  "target_spans": [
+   "Kek ini dibuat oleh ibu saya."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c09-test-17|prompt": {
   "source_text": "R1. At what time is the office closed?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
- "test:ms-c09-test-16|answer_key": {
+ "test:ms-c09-test-17|answer_key": {
   "source_text": "six in the evening",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
- "test:ms-c09-test-17|prompt": {
+ "test:ms-c09-test-18|prompt": {
   "source_text": "R2. Where is eating and drinking forbidden?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
- "test:ms-c09-test-17|answer_key": {
+ "test:ms-c09-test-18|answer_key": {
   "source_text": "in the meeting room",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
- "test:ms-c09-test-18|prompt": {
+ "test:ms-c09-test-19|prompt": {
   "source_text": "R3. Who brought the cake?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
- "test:ms-c09-test-18|answer_key": {
+ "test:ms-c09-test-19|answer_key": {
   "source_text": "Mei Ling",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
- "test:ms-c09-test-19|prompt": {
+ "test:ms-c09-test-20|prompt": {
   "source_text": "R4. What does the notice ask you to take?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
- "test:ms-c09-test-19|answer_key": {
+ "test:ms-c09-test-20|answer_key": {
   "source_text": "a plate",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
- "test:ms-c09-test-20|prompt": {
+ "test:ms-c09-test-21|prompt": {
   "source_text": "S1. At a jamuan: ask who made two of the dishes and where one was bought, say what has not been done yet, and read one sign aloud.",
   "target_spans": [
    "jamuan"
@@ -79354,7 +79623,7 @@
   "kind": "test",
   "exclusion": null
  },
- "test:ms-c09-test-20|answer_key": {
+ "test:ms-c09-test-21|answer_key": {
   "source_text": "Check: dibuat oleh siapa? and dibeli di mana? asked in the passive; belum + a di- verb; one Dilarang … or Sila … read correctly.",
   "target_spans": [
    "dibuat oleh siapa?",
@@ -79665,9 +79934,12 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 9 · Teaching plan and answer key|4|15": {
-  "source_text": "30–40 Free variation: a pair role-play of a general open house: choose a festival from the notes, say the greeting, offer food with Jemput makan, and say who made each dish; change the festival and the food.",
+  "source_text": "30–40 Free variation: a pair role-play of a general open house: the tuan rumah chooses a festival from the notes, says Jemput masuk and Mari makan, and says who made each dish (Rendang ini dimasak oleh ibu saya.); the guest says the greeting and thanks the host; change the festival and the food.",
   "target_spans": [
-   "Jemput makan"
+   "tuan rumah",
+   "Jemput masuk",
+   "Mari makan",
+   "Rendang ini dimasak oleh ibu saya."
   ],
   "mention_spans": [],
   "kind": "plan",
@@ -79680,21 +79952,24 @@
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Teaching plan and answer key|4|17": {
-  "source_text": "■ What to listen for · 注意点",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "heading",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Unit 9 · Teaching plan and answer key|4|18": {
-  "source_text": "Load: 29 core words in four groups (di- verbs 18; oleh, pada, tadi, siap 4; signs and notices 5; a party 2), plus 33 Dunia recognition words (the general rumah terbuka scene 19, the idioms 14). Suggested order: Block A the di- verbs in two lots and oleh, pada, tadi, siap; Block B the signs, the party words and the drills; Block C the notice board and the party; Block D and E recycle them. If the pilot shows 29 is too many, the natural cut is A/B: dibuat, dibeli, dimakan, diminum, dibuka, ditutup, dibayar, dihantar, dilarang, oleh, pada, tadi, siap, sila and the signs first; dibaca, ditulis, diambil, dipanggil, dimasak, dicuci, dibawa, disewa, dijual, kek, jamuan second.",
+ "Unit 9 · Teaching plan and answer key|5|0": {
+  "source_text": "Load: 37 core words in six groups (di- verbs 18; the roots buat, panggil, cuci, larang 4; oleh, pada, tadi, siap 4; signs and notices 5; a party and an open house: kek, jamuan, tuan rumah, mari 4; family: ibu, adik 2), plus 33 Dunia recognition words (the general rumah terbuka scene 19, the idioms 14). Suggested order: Block A the di- verbs in two lots with their roots, and oleh, pada, tadi, siap; Block B the signs, the party words and the drills; Block C the notice board and the party; Block D and E recycle them. If the pilot shows 29 is too many, the natural cut is A/B: dibuat, dibeli, dimakan, diminum, dibuka, ditutup, dibayar, dihantar, dilarang, oleh, pada, tadi, siap, sila and the signs first; dibaca, ditulis, diambil, dipanggil, dimasak, dicuci, dibawa, disewa, dijual, kek, jamuan second. The roots buat, panggil, cuci, larang go with their di- forms; tuan rumah and mari go with Block E; ibu and adik can wait for Block C.",
   "target_spans": [
    "di-",
+   "buat",
+   "panggil",
+   "cuci",
+   "larang",
    "oleh",
    "pada",
    "tadi",
    "siap",
+   "kek",
+   "jamuan",
+   "tuan rumah",
+   "mari",
+   "ibu",
+   "adik",
    "rumah terbuka",
    "di-",
    "oleh",
@@ -79725,14 +80000,23 @@
    "disewa",
    "dijual",
    "kek",
-   "jamuan"
+   "jamuan",
+   "buat",
+   "panggil",
+   "cuci",
+   "larang",
+   "di-",
+   "tuan rumah",
+   "mari",
+   "ibu",
+   "adik"
   ],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": null
  },
- "Unit 9 · Teaching plan and answer key|5|0": {
-  "source_text": "The point of the chapter is di- + a root the learner already knows. The 18 ledger forms are core. Other di- + verb forms are taught as the rule (digoreng, dipilih, ditunggu, dijemput, ditanya): the language checks accept di- + any ledger word placed in chapters 1 to 9 and do not look at its part of speech, so check by hand that the root is a verb. buat, panggil, cuci and larang are not ledger words; they are named from the Kata-Kata card notes only and are not used as active verbs. The active sentences in the drills use ledger root verbs only (no me- or ber-).",
+ "Unit 9 · Teaching plan and answer key|5|1": {
+  "source_text": "The point of the chapter is di- + a root the learner already knows. The 18 ledger forms are core. Other di- + verb forms are taught as the rule (digoreng, dipilih, ditunggu, dijemput, ditanya): the language checks accept di- + any ledger word placed in chapters 1 to 9 and do not look at its part of speech, so check by hand that the root is a verb. buat, panggil, cuci and larang are ledger words since 12 Nov 2026 (Sam), so each di- form now has its root in the unit, and the transformation drill makes Kuih ini dibuat oleh ibu saya. from Ibu saya buat kuih ini. larang is mostly met inside dilarang. The active sentences use ledger root verbs only (no me- or ber-; the me- forms of these roots wait for chapter 11).",
   "target_spans": [
    "di-",
    "di-",
@@ -79741,20 +80025,26 @@
    "ditunggu",
    "dijemput",
    "ditanya",
-   "di-"
-  ],
-  "mention_spans": [
+   "di-",
    "buat",
    "panggil",
    "cuci",
    "larang",
+   "di-",
+   "Kuih ini dibuat oleh ibu saya.",
+   "Ibu saya buat kuih ini.",
+   "larang",
+   "dilarang"
+  ],
+  "mention_spans": [
    "me-",
-   "ber-"
+   "ber-",
+   "me-"
   ],
   "kind": "plan",
   "exclusion": null
  },
- "Unit 9 · Teaching plan and answer key|5|1": {
+ "Unit 9 · Teaching plan and answer key|5|2": {
   "source_text": "The saya + verb form (Pinggan saya bawa ke dapur.) is Kata-Kata frame f06. It is taught inside pattern 3 as the natural way to say \"I will do it\"; accept it and do not ask for oleh saya.",
   "target_spans": [
    "saya",
@@ -79765,7 +80055,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 9 · Teaching plan and answer key|5|2": {
+ "Unit 9 · Teaching plan and answer key|5|3": {
   "source_text": "Dilarang merokok is a sign to recognise only (Kata-Kata card ms-c09-024: it contains a me- verb). No other sign in this unit uses me- or ber-.",
   "target_spans": [
    "Dilarang merokok"
@@ -79778,8 +80068,8 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 9 · Teaching plan and answer key|5|3": {
-  "source_text": "Open-house scene (Sam, 12 Nov 2026): the old \"Rumah terbuka Hari Raya\" scene is now a general rumah terbuka scene. The 13 Raya words stay as recognition; the festival-specific ones (maaf zahir dan batin, duit raya, ketupat, pelita) appear in the Hari Raya note, as culture, not as a religious lesson. Six festival words were added with Sam's approval (L-1070 to L-1075). Festival greetings are built as Selamat Hari …; no faith-specific greeting is taught. Every factual statement in the festival notes has a named source in the key, and the sources were seen in search summaries only.",
+ "Unit 9 · Teaching plan and answer key|5|4": {
+  "source_text": "Open-house scene (Sam, 12 Nov 2026): the old \"Rumah terbuka Hari Raya\" scene is now a general rumah terbuka scene. The 13 Raya words stay as recognition; the festival-specific ones (maaf zahir dan batin, duit raya, ketupat, pelita) appear in the Hari Raya note, as culture, not as a religious lesson. Six festival words were added with Sam's approval (L-1070 to L-1075), and tuan rumah and mari (L-1080, L-1081) for the host and Mari makan (Jom makan is the spoken form). Greetings (Sam, 12 Nov 2026): Selamat Hari Raya, Selamat Tahun Baru Cina (no Hari), Selamat Hari Deepavali, Selamat Hari Krismas, Selamat Hari Gawai and Selamat Pesta Kaamatan (from usage, not yet sourced, so it is shown as a quoted form, not as a ledger phrase). Teach both Tahun Baru Cina (everyday) and Tahun Baharu Cina (official). No faith-specific greeting is taught. Every factual statement in the festival notes has a named source in the key.",
   "target_spans": [
    "rumah terbuka",
    "maaf zahir dan batin",
@@ -79787,20 +80077,33 @@
    "ketupat",
    "pelita",
    "Hari Raya",
-   "Selamat Hari …"
+   "tuan rumah",
+   "mari",
+   "Mari makan",
+   "Jom makan",
+   "Selamat Hari Raya",
+   "Selamat Tahun Baru Cina",
+   "Hari",
+   "Selamat Hari Deepavali",
+   "Selamat Hari Krismas",
+   "Selamat Hari Gawai",
+   "Tahun Baru Cina",
+   "Tahun Baharu Cina"
   ],
-  "mention_spans": [],
+  "mention_spans": [
+   "Selamat Pesta Kaamatan"
+  ],
   "kind": "plan",
   "exclusion": null
  },
- "Unit 9 · Teaching plan and answer key|5|4": {
+ "Unit 9 · Teaching plan and answer key|6|0": {
   "source_text": "The 14 idioms in \"Simpulan bahasa harian\" are for recognition. Give the plain meaning and one example; do not drill them, do not test them as new vocabulary, and do not ask learners to produce them.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Teaching plan and answer key|5|5": {
+ "Unit 9 · Teaching plan and answer key|6|1": {
   "source_text": "Practice offices, notices, names and times are fictional. No productive ber- or me- (chapters 10 and 11). The stage review and the A1 test come after this unit and wait for Sam's go-ahead.",
   "target_spans": [],
   "mention_spans": [
@@ -79810,7 +80113,7 @@
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Teaching plan and answer key|5|6": {
+ "Unit 9 · Teaching plan and answer key|6|2": {
   "source_text": "Cumulative question words now include siapa with oleh (chapters 1 to 9). Chapter 9 adds no new question word.",
   "target_spans": [
    "siapa",
@@ -79820,14 +80123,14 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 9 · Teaching plan and answer key|6|0": {
+ "Unit 9 · Teaching plan and answer key|7|0": {
   "source_text": "Answer keys are on each component. Japanese text awaits native review.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 9 · Teaching plan and answer key|6|1": {
+ "Unit 9 · Teaching plan and answer key|7|1": {
   "source_text": "Standard forms first; spoken forms are labelled. No productive ber- or me- verbs (root verbs only).",
   "target_spans": [],
   "mention_spans": [],
