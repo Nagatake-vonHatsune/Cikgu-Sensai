@@ -1,18 +1,4 @@
 {
-  "ms-c04a|ledger|atau": {
-    "unit": "ms-c04a",
-    "check": "ledger",
-    "term": "atau",
-    "reasons": [
-      "First assigned chapter 5; used in chapter 4."
-    ],
-    "evidence": [
-      {
-        "source": "Clock time · Learner pack|4|2",
-        "text": "Pagi atau petang?"
-      }
-    ]
-  },
   "ms-c04b|register|saja": {
     "unit": "ms-c04b",
     "check": "register",

@@ -69,12 +69,23 @@ GRAMMAR.extend([
     dict(id='ms-c03-g08', chapter_id='ms-c03', label='Payments, totals, cash, card and change'),
 ])
 
+GRAMMAR.extend([
+    dict(id='ms-c04-g02', chapter_id='ms-c04', label='Clock time with pukul and the parts of the day; suku and setengah'),
+    dict(id='ms-c04-g03', chapter_id='ms-c04', label='Days of the week, days around today and dates (hari apa, hari bulan)'),
+    dict(id='ms-c04-g04', chapter_id='ms-c04', label='Frequency: setiap, selalu, biasanya, kadang-kadang, jarang, tidak pernah, sekali'),
+    dict(id='ms-c04-g05', chapter_id='ms-c04', label='When: bila, pukul berapa, hari apa; pukul (clock) versus jam (duration)'),
+    dict(id='ms-c04-g06', chapter_id='ms-c04', label='Aspect markers: sudah, belum, sedang, masih, akan, baru'),
+    dict(id='ms-c04-g07', chapter_id='ms-c04', label='Experience with pernah, belum pernah, tidak pernah'),
+    dict(id='ms-c04-g08', chapter_id='ms-c04', label='Daily routine with root verbs; mula, habis, sampai; awal and lambat; sebelum and selepas'),
+])
+
 
 # Product and feature names, not Malay text (removed before the unmarked-Malay guard only).
 PRODUCT_NAMES = ['Cikgu, Sensai!', 'Cikgu Sensai', 'Sedia Kelas', 'Tanya Cikgu', 'Kata-Kata', 'Dunia', 'Jambatan',
                  'Susun Ayat', 'Hanashishou', 'Teacher Desk',
                  # Kata-Kata Dunia scene titles (names of scenes, quoted as titles)
-                 'Sembang di pantri', 'Pagi di pejabat', 'Ke bank dan pejabat pos', 'Pasar pagi']
+                 'Sembang di pantri', 'Pagi di pejabat', 'Ke bank dan pejabat pos', 'Pasar pagi',
+                 'Satu hari Encik Tanaka', 'Hujan petang', 'Cuti ke pantai', 'Bangun pagi']
 
 
 def strip(s):
@@ -197,9 +208,9 @@ def turns(script):
 
 
 def load_units():
-    from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, fast
+    from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, fast
     return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT,
-                       ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT,
+                       ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT,
                        *fast.PACKS] if u]
 
 

@@ -30543,6 +30543,5328 @@
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
+ "Unit 4A · Chapter opener|0|0": {
+  "source_text": "ユニットの目標と場面を確認し、前の章の表現を思い出してから新しい内容に進みます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|2|0": {
+  "source_text": "Read the unit goals and the setting, recall earlier language without notes, then move on to the new material.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|3|0": {
+  "source_text": "Block A: I can tell the time, name the days and say how often I do something. / 時刻と曜日が言え、何かをする頻度が言える。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|3|1": {
+  "source_text": "Block B: I can ask and answer when something happens with bila, hari apa and pukul berapa. / bila・hari apa・pukul berapa で、いつ何があるかをたずね、答えられる。",
+  "target_spans": [
+   "bila",
+   "hari apa",
+   "pukul berapa",
+   "bila",
+   "hari apa",
+   "pukul berapa"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Unit 4A · Chapter opener|3|2": {
+  "source_text": "Block C: I can understand a class timetable and arrange a weekly activity. / クラスの時間割が分かり、毎週の予定を決められる。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|3|3": {
+  "source_text": "Block D: I can check my time, day and frequency language in a short test. / 時刻・曜日・頻度の表現を短いテストで確認できる。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|3|4": {
+  "source_text": "Block E: I can recognise weather and holiday words in two Kata-Kata Dunia scenes. / Kata-Kata の二つの Dunia 場面で、天気と休暇の語を聞いて分かる。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|3|5": {
+  "source_text": "■ Setting and recall · 場面と復習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|3|6": {
+  "source_text": "Encik Tanaka sorts out his Malay class times at the language centre and plans a Saturday badminton game with his colleague Cik Farah.",
+  "target_spans": [
+   "Encik",
+   "badminton",
+   "Cik"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Unit 4A · Chapter opener|3|7": {
+  "source_text": "田中さんは語学センターでマレー語クラスの時間を決め、同僚のファラさんと土曜日のバドミントンの予定を立てます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|3|8": {
+  "source_text": "Without notes, from chapter 3: say a price, an age and a telephone number. / 第3章の復習：値段・年齢・電話番号を言いましょう。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|3|9": {
+  "source_text": "Recall prompt: Berapa harga ini? Berapa umur encik? Nombor telefon encik?",
+  "target_spans": [
+   "Berapa harga ini?",
+   "Berapa umur encik?",
+   "Nombor telefon encik?"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Unit 4A · Chapter opener|3|10": {
+  "source_text": "Write one question for Tanya Cikgu before you look at the new words. / 新しい単語を見る前に、Tanya Cikgu への質問を一つ書きましょう。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|3|11": {
+  "source_text": "■ Classroom and home learning · 授業と自習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|3|12": {
+  "source_text": "Before class: Kata-Kata Sedia Kelas c04 (24 cards, frames ms-c04-f01 and ms-c04-f02). / 授業前：Kata-Kata Sedia Kelas c04（カード24枚、文型 f01・f02）。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|3|13": {
+  "source_text": "After class: the chapter 4 cards and the Dunia scenes \"Hujan petang\" and \"Cuti ke pantai\". / 授業後：第4章のカードと Dunia の場面 \"Hujan petang\" and \"Cuti ke pantai\"。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|3|14": {
+  "source_text": "Self-study planning figure: about three hours for this full-course unit. / 自習の目安：このユニットで約3時間。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|4|0": {
+  "source_text": "Recall is retrieval practice, not a score. Let learners try without notes first, then check together.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Chapter opener|4|1": {
+  "source_text": "Recall answers: e.g. Lapan ringgit lima puluh sen. Umur saya tiga puluh lima tahun. Kosong satu dua, tiga empat lima.",
+  "target_spans": [
+   "Lapan ringgit lima puluh sen.",
+   "Umur saya tiga puluh lima tahun.",
+   "Kosong satu dua, tiga empat lima."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|0|0": {
+  "source_text": "基本語は覚えて使います。Dunia の場面の語は聞いて分かれば十分です。復習語は前の章で学んだ語です。日本語訳は未監修です。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|2|0": {
+  "source_text": "Learn and use the core words; recognise the Dunia scene words; the revision words come from earlier chapters.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|3|0": {
+  "source_text": "■ Core words · Telling the time · 学習する",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|3|1": {
+  "source_text": "pukul — o'clock · 〜時  [L-0157]",
+  "target_spans": [
+   "pukul"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|2": {
+  "source_text": "   e.g. Sekarang pukul sembilan pagi.",
+  "target_spans": [
+   "Sekarang pukul sembilan pagi."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|3": {
+  "source_text": "jam — hour (duration); clock, watch · 〜時間；時計  [L-0158]",
+  "target_spans": [
+   "jam"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|4": {
+  "source_text": "   e.g. Kelas bahasa Melayu dua jam. (how long; jam is also a clock or watch)",
+  "target_spans": [
+   "Kelas bahasa Melayu dua jam.",
+   "jam"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|5": {
+  "source_text": "minit — minute · 分  [L-0159]",
+  "target_spans": [
+   "minit"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|6": {
+  "source_text": "   e.g. Pukul sembilan sepuluh minit. (9:10)",
+  "target_spans": [
+   "Pukul sembilan sepuluh minit."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|7": {
+  "source_text": "saat — second · 秒  [L-0160]",
+  "target_spans": [
+   "saat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|8": {
+  "source_text": "   e.g. Tiga puluh saat lagi!",
+  "target_spans": [
+   "Tiga puluh saat lagi!"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|9": {
+  "source_text": "sekarang — now · 今  [L-0161]",
+  "target_spans": [
+   "sekarang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|10": {
+  "source_text": "   e.g. Saya sibuk sekarang.",
+  "target_spans": [
+   "Saya sibuk sekarang."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|11": {
+  "source_text": "■ Core words · Days and dates · 学習する",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|3|12": {
+  "source_text": "hari — day · 日  [L-0166]",
+  "target_spans": [
+   "hari"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|13": {
+  "source_text": "   e.g. Kelas saya hari Selasa.",
+  "target_spans": [
+   "Kelas saya hari Selasa."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|14": {
+  "source_text": "minggu — week · 週  [L-0167]",
+  "target_spans": [
+   "minggu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|15": {
+  "source_text": "   e.g. Minggu ini saya sibuk.",
+  "target_spans": [
+   "Minggu ini saya sibuk."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|16": {
+  "source_text": "bulan — month; moon · 月  [L-0168]",
+  "target_spans": [
+   "bulan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|17": {
+  "source_text": "   e.g. Bulan ini saya cuti seminggu.",
+  "target_spans": [
+   "Bulan ini saya cuti seminggu."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|18": {
+  "source_text": "hari ini — today · 今日  [L-0169]",
+  "target_spans": [
+   "hari ini"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|19": {
+  "source_text": "   e.g. Hari ini hari Isnin.",
+  "target_spans": [
+   "Hari ini hari Isnin."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|20": {
+  "source_text": "semalam — yesterday · 昨日  [L-0170]",
+  "target_spans": [
+   "semalam"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|21": {
+  "source_text": "   e.g. Semalam hari Ahad.",
+  "target_spans": [
+   "Semalam hari Ahad."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|22": {
+  "source_text": "kelmarin — the day before yesterday · おととい  [L-0171]",
+  "target_spans": [
+   "kelmarin"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|23": {
+  "source_text": "   e.g. Kelmarin hari Sabtu.",
+  "target_spans": [
+   "Kelmarin hari Sabtu."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|24": {
+  "source_text": "lusa — the day after tomorrow · あさって  [L-0172]",
+  "target_spans": [
+   "lusa"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|25": {
+  "source_text": "   e.g. Lusa hari Rabu.",
+  "target_spans": [
+   "Lusa hari Rabu."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|26": {
+  "source_text": "Isnin — Monday · 月曜日  [L-0175]",
+  "target_spans": [
+   "Isnin"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|27": {
+  "source_text": "   e.g. Hari Isnin saya sibuk.",
+  "target_spans": [
+   "Hari Isnin saya sibuk."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|28": {
+  "source_text": "Selasa — Tuesday · 火曜日  [L-0176]",
+  "target_spans": [
+   "Selasa"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|29": {
+  "source_text": "   e.g. Kelas bahasa Melayu hari Selasa, pukul tujuh malam.",
+  "target_spans": [
+   "Kelas bahasa Melayu hari Selasa, pukul tujuh malam."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|3|30": {
+  "source_text": "Rabu — Wednesday · 水曜日  [L-0177]",
+  "target_spans": [
+   "Rabu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|0": {
+  "source_text": "   e.g. Hari Rabu saya kerja di rumah.",
+  "target_spans": [
+   "Hari Rabu saya kerja di rumah."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|1": {
+  "source_text": "Khamis — Thursday · 木曜日  [L-0178]",
+  "target_spans": [
+   "Khamis"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|2": {
+  "source_text": "   e.g. Hari Khamis saya jumpa bos.",
+  "target_spans": [
+   "Hari Khamis saya jumpa bos."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|3": {
+  "source_text": "Jumaat — Friday · 金曜日  [L-0179]",
+  "target_spans": [
+   "Jumaat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|4": {
+  "source_text": "   e.g. Jumpa hari Jumaat!",
+  "target_spans": [
+   "Jumpa hari Jumaat!"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|5": {
+  "source_text": "Sabtu — Saturday · 土曜日  [L-0180]",
+  "target_spans": [
+   "Sabtu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|6": {
+  "source_text": "   e.g. Hari Sabtu saya main badminton.",
+  "target_spans": [
+   "Hari Sabtu saya main badminton."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|7": {
+  "source_text": "Ahad — Sunday · 日曜日  [L-0181]",
+  "target_spans": [
+   "Ahad"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|8": {
+  "source_text": "   e.g. Hari Ahad saya di rumah.",
+  "target_spans": [
+   "Hari Ahad saya di rumah."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|9": {
+  "source_text": "■ Core words · How often and when · 学習する",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|4|10": {
+  "source_text": "setiap — every · 毎〜  [L-0182]",
+  "target_spans": [
+   "setiap"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|11": {
+  "source_text": "   e.g. Saya belajar bahasa Melayu setiap hari.",
+  "target_spans": [
+   "Saya belajar bahasa Melayu setiap hari."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|12": {
+  "source_text": "selalu — always, often · いつも  [L-0183]",
+  "target_spans": [
+   "selalu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|13": {
+  "source_text": "   e.g. Encik Tanaka selalu sibuk.",
+  "target_spans": [
+   "Encik Tanaka selalu sibuk."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|14": {
+  "source_text": "biasanya — usually · 普段は  [L-0184]",
+  "target_spans": [
+   "biasanya"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|15": {
+  "source_text": "   e.g. Biasanya saya kerja di pejabat.",
+  "target_spans": [
+   "Biasanya saya kerja di pejabat."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|16": {
+  "source_text": "kadang-kadang — sometimes · 時々  [L-0185]",
+  "target_spans": [
+   "kadang-kadang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|17": {
+  "source_text": "   e.g. Kadang-kadang saya masak.",
+  "target_spans": [
+   "Kadang-kadang saya masak."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|18": {
+  "source_text": "jarang — rarely · めったに〜ない  [L-0186]",
+  "target_spans": [
+   "jarang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|19": {
+  "source_text": "   e.g. Saya jarang main golf.",
+  "target_spans": [
+   "Saya jarang main golf."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|20": {
+  "source_text": "tidak pernah — never · 一度も〜ない  [L-0187]",
+  "target_spans": [
+   "tidak pernah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|21": {
+  "source_text": "   e.g. Dia tidak pernah masak.",
+  "target_spans": [
+   "Dia tidak pernah masak."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|22": {
+  "source_text": "sekali — once · 一回  [L-0188]",
+  "target_spans": [
+   "sekali"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|23": {
+  "source_text": "   e.g. Saya beli buah di pasar seminggu sekali.",
+  "target_spans": [
+   "Saya beli buah di pasar seminggu sekali."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|24": {
+  "source_text": "bila — when · いつ  [L-1007]",
+  "target_spans": [
+   "bila"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|25": {
+  "source_text": "   e.g. Bila kelas encik?",
+  "target_spans": [
+   "Bila kelas encik?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|26": {
+  "source_text": "■ Dunia · To recognise · 聞いて分かる",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|4|27": {
+  "source_text": "■ Dunia · To recognise · \"Hujan petang\" · 聞いて分かればよい",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|4|28": {
+  "source_text": "cuaca — weather · 天気  [L-0431]",
+  "target_spans": [
+   "cuaca"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|29": {
+  "source_text": "   e.g. Cuaca hari ini cerah.",
+  "target_spans": [
+   "Cuaca hari ini cerah."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|4|30": {
+  "source_text": "cerah — sunny, bright · 晴れ  [L-0432]",
+  "target_spans": [
+   "cerah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|0": {
+  "source_text": "   e.g. Pagi ini cerah.",
+  "target_spans": [
+   "Pagi ini cerah."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|1": {
+  "source_text": "mendung — cloudy, overcast · 曇り  [L-0433]",
+  "target_spans": [
+   "mendung"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|2": {
+  "source_text": "   e.g. Petang ini mendung.",
+  "target_spans": [
+   "Petang ini mendung."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|3": {
+  "source_text": "hujan — rain · 雨  [L-0434]",
+  "target_spans": [
+   "hujan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|4": {
+  "source_text": "   e.g. Biasanya hujan pukul empat petang.",
+  "target_spans": [
+   "Biasanya hujan pukul empat petang."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|5": {
+  "source_text": "ribut — storm · 嵐  [L-0435]",
+  "target_spans": [
+   "ribut"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|6": {
+  "source_text": "   e.g. Malam ini ada ribut.",
+  "target_spans": [
+   "Malam ini ada ribut."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|7": {
+  "source_text": "angin — wind · 風  [L-0436]",
+  "target_spans": [
+   "angin"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|8": {
+  "source_text": "   e.g. Ada angin petang ini.",
+  "target_spans": [
+   "Ada angin petang ini."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|9": {
+  "source_text": "payung — umbrella · 傘  [L-0437]",
+  "target_spans": [
+   "payung"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|10": {
+  "source_text": "   e.g. Ada payung?",
+  "target_spans": [
+   "Ada payung?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|11": {
+  "source_text": "basah — wet · 濡れた  [L-0438]",
+  "target_spans": [
+   "basah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|12": {
+  "source_text": "   e.g. Kaki saya basah.",
+  "target_spans": [
+   "Kaki saya basah."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|13": {
+  "source_text": "kering — dry · 乾いた  [L-0439]",
+  "target_spans": [
+   "kering"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|14": {
+  "source_text": "   e.g. Hari ini kering, tidak ada hujan.",
+  "target_spans": [
+   "Hari ini kering, tidak ada hujan."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|15": {
+  "source_text": "matahari — sun · 太陽  [L-0440]",
+  "target_spans": [
+   "matahari"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|16": {
+  "source_text": "   e.g. Pagi ini ada matahari.",
+  "target_spans": [
+   "Pagi ini ada matahari."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|17": {
+  "source_text": "langit — sky · 空  [L-0441]",
+  "target_spans": [
+   "langit"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|18": {
+  "source_text": "   e.g. Langit mendung petang ini.",
+  "target_spans": [
+   "Langit mendung petang ini."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|19": {
+  "source_text": "mata — eye · 目  [L-0442]",
+  "target_spans": [
+   "mata"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|20": {
+  "source_text": "   e.g. Buka mata!",
+  "target_spans": [
+   "Buka mata!"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|21": {
+  "source_text": "■ Dunia · To recognise · \"Cuti ke pantai\" · 聞いて分かればよい",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|5|22": {
+  "source_text": "pantai — beach · 海辺・ビーチ  [L-0443]",
+  "target_spans": [
+   "pantai"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|23": {
+  "source_text": "   e.g. Hari Sabtu kami di pantai.",
+  "target_spans": [
+   "Hari Sabtu kami di pantai."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|24": {
+  "source_text": "laut — sea · 海  [L-0444]",
+  "target_spans": [
+   "laut"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|25": {
+  "source_text": "   e.g. Kami suka laut.",
+  "target_spans": [
+   "Kami suka laut."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|26": {
+  "source_text": "pulau — island · 島  [L-0445]",
+  "target_spans": [
+   "pulau"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|27": {
+  "source_text": "   e.g. Kami cuti di pulau.",
+  "target_spans": [
+   "Kami cuti di pulau."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|28": {
+  "source_text": "pasir — sand · 砂  [L-0446]",
+  "target_spans": [
+   "pasir"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|29": {
+  "source_text": "   e.g. Kaki saya ada pasir.",
+  "target_spans": [
+   "Kaki saya ada pasir."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|5|30": {
+  "source_text": "hotel — hotel · ホテル  [L-0447]",
+  "target_spans": [
+   "hotel"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|0": {
+  "source_text": "   e.g. Hotel ini seratus ringgit satu malam.",
+  "target_spans": [
+   "Hotel ini seratus ringgit satu malam."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|1": {
+  "source_text": "tiket — ticket · チケット・切符  [L-0448]",
+  "target_spans": [
+   "tiket"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|2": {
+  "source_text": "   e.g. Tiket saya untuk hari Jumaat.",
+  "target_spans": [
+   "Tiket saya untuk hari Jumaat."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|3": {
+  "source_text": "kapal terbang — aeroplane · 飛行機  [L-0449]",
+  "target_spans": [
+   "kapal terbang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|4": {
+  "source_text": "   e.g. Kapal terbang pukul tujuh pagi.",
+  "target_spans": [
+   "Kapal terbang pukul tujuh pagi."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|5": {
+  "source_text": "lapangan terbang — airport · 空港  [L-0450]",
+  "target_spans": [
+   "lapangan terbang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|6": {
+  "source_text": "   e.g. Kami di lapangan terbang sekarang.",
+  "target_spans": [
+   "Kami di lapangan terbang sekarang."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|7": {
+  "source_text": "tempah — to book, reserve · 予約する  [L-0451]",
+  "target_spans": [
+   "tempah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|8": {
+  "source_text": "   e.g. Saya tempah hotel untuk dua malam.",
+  "target_spans": [
+   "Saya tempah hotel untuk dua malam."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|9": {
+  "source_text": "peta — map · 地図  [L-0452]",
+  "target_spans": [
+   "peta"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|10": {
+  "source_text": "   e.g. Ada peta pulau ini?",
+  "target_spans": [
+   "Ada peta pulau ini?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|11": {
+  "source_text": "ambil gambar — to take a photo · 写真を撮る  [L-0453]",
+  "target_spans": [
+   "ambil gambar"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|12": {
+  "source_text": "   e.g. Jom ambil gambar!",
+  "target_spans": [
+   "Jom ambil gambar!"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|13": {
+  "source_text": "cenderamata — souvenir · お土産  [L-0454]",
+  "target_spans": [
+   "cenderamata"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|14": {
+  "source_text": "   e.g. Saya beli cenderamata untuk kawan pejabat.",
+  "target_spans": [
+   "Saya beli cenderamata untuk kawan pejabat."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|15": {
+  "source_text": "seronok — fun, enjoyable · 楽しい  [L-0455]",
+  "target_spans": [
+   "seronok"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|16": {
+  "source_text": "   e.g. Cuti ini seronok!",
+  "target_spans": [
+   "Cuti ini seronok!"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|17": {
+  "source_text": "■ Revision · 復習 (not new, not tested as new vocabulary)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|6|18": {
+  "source_text": "■ Revision · 復習 · Chapters 1 to 3 (times of day, fractions, kali, berapa, cuti)",
+  "target_spans": [
+   "kali",
+   "berapa",
+   "cuti"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|19": {
+  "source_text": "pagi — morning · 朝  [L-0162]",
+  "target_spans": [
+   "pagi"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|20": {
+  "source_text": "   e.g. pukul tujuh pagi",
+  "target_spans": [
+   "pukul tujuh pagi"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|21": {
+  "source_text": "tengah hari — midday · 昼  [L-0163]",
+  "target_spans": [
+   "tengah hari"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|22": {
+  "source_text": "   e.g. pukul satu tengah hari",
+  "target_spans": [
+   "pukul satu tengah hari"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|23": {
+  "source_text": "petang — afternoon, early evening · 午後・夕方  [L-0164]",
+  "target_spans": [
+   "petang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|24": {
+  "source_text": "   e.g. pukul empat petang",
+  "target_spans": [
+   "pukul empat petang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|25": {
+  "source_text": "malam — night · 夜  [L-0165]",
+  "target_spans": [
+   "malam"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|26": {
+  "source_text": "   e.g. pukul sembilan malam",
+  "target_spans": [
+   "pukul sembilan malam"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|27": {
+  "source_text": "esok — tomorrow · 明日  [L-0025]",
+  "target_spans": [
+   "esok"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|28": {
+  "source_text": "   e.g. Jumpa esok!",
+  "target_spans": [
+   "Jumpa esok!"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|29": {
+  "source_text": "setengah / separuh — half · 半分  [L-0138]",
+  "target_spans": [
+   "setengah / separuh"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|6|30": {
+  "source_text": "   e.g. pukul dua setengah (2:30)",
+  "target_spans": [
+   "pukul dua setengah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|7|0": {
+  "source_text": "suku — quarter · 4分の1  [L-0139]",
+  "target_spans": [
+   "suku"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|7|1": {
+  "source_text": "   e.g. pukul empat suku (4:15)",
+  "target_spans": [
+   "pukul empat suku"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|7|2": {
+  "source_text": "kali — time(s), occurrence · 回  [L-0133]",
+  "target_spans": [
+   "kali"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|7|3": {
+  "source_text": "   e.g. dua kali seminggu",
+  "target_spans": [
+   "dua kali seminggu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|7|4": {
+  "source_text": "berapa — how many, how much · いくつ・いくら  [L-0116]",
+  "target_spans": [
+   "berapa"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|7|5": {
+  "source_text": "   e.g. Pukul berapa sekarang?",
+  "target_spans": [
+   "Pukul berapa sekarang?"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|7|6": {
+  "source_text": "cuti — leave, holiday · 休み・休暇  [L-0534]",
+  "target_spans": [
+   "cuti"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|7|7": {
+  "source_text": "   e.g. Hari Ahad saya cuti.",
+  "target_spans": [
+   "Hari Ahad saya cuti."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 4A · Vocabulary focus|8|0": {
+  "source_text": "27 new core entries, 25 Dunia recognition entries and 10 revision entries.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|8|1": {
+  "source_text": "Dunia words are for recognition in Block E. The unit test never treats them as new vocabulary.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|8|2": {
+  "source_text": "Revision words were taught earlier; they are listed so learners can see them reused, not counted as new.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Vocabulary focus|8|3": {
+  "source_text": "A slash variant under one ledger ID counts as one entry; spoken forms are marked \"spoken\".",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Pattern and grammar focus|0|0": {
+  "source_text": "まず質問と答えを声に出して練習し、そのあとで説明を読みます。日本語との比較は未監修です。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Pattern and grammar focus|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Pattern and grammar focus|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Pattern and grammar focus|2|0": {
+  "source_text": "Practise the questions and answers aloud first, then read the explanation.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Pattern and grammar focus|3|0": {
+  "source_text": "Pattern box: Pukul berapa sekarang? / Sekarang pukul ___ (pagi / tengah hari / petang / malam).",
+  "target_spans": [
+   "Pukul berapa sekarang?",
+   "Sekarang pukul",
+   "pagi",
+   "tengah hari",
+   "petang",
+   "malam"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|1": {
+  "source_text": "1. A: Pukul berapa sekarang? B: Sekarang pukul sembilan pagi.",
+  "target_spans": [
+   "Pukul berapa sekarang?",
+   "Sekarang pukul sembilan pagi."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|2": {
+  "source_text": "2. A: Pukul berapa sekarang? B: Sekarang pukul empat suku petang.",
+  "target_spans": [
+   "Pukul berapa sekarang?",
+   "Sekarang pukul empat suku petang."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|3": {
+  "source_text": "3. A: Pukul berapa sekarang? B: Pukul dua setengah.",
+  "target_spans": [
+   "Pukul berapa sekarang?",
+   "Pukul dua setengah."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|4": {
+  "source_text": "4. A: Sekarang pukul berapa, puan? B: Pukul sebelas empat puluh lima minit.",
+  "target_spans": [
+   "Sekarang pukul berapa, puan?",
+   "Pukul sebelas empat puluh lima minit."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|5": {
+  "source_text": "5. A: Pukul berapa sekarang? B: Pukul satu tengah hari.",
+  "target_spans": [
+   "Pukul berapa sekarang?",
+   "Pukul satu tengah hari."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|6": {
+  "source_text": "Explanation: pukul comes before the hour. Then add the minutes: suku for :15, setengah for :30, or the number of minutes (empat puluh lima minit for :45). Add pagi, tengah hari, petang or malam when the part of the day is not obvious.",
+  "target_spans": [
+   "pukul",
+   "suku",
+   "setengah",
+   "empat puluh lima minit",
+   "pagi",
+   "tengah hari",
+   "petang",
+   "malam"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|7": {
+  "source_text": "説明：pukul は時の数字の前に置きます。分は suku（15分）、setengah（30分）、または分の数（45分なら empat puluh lima minit）で言います。時間帯がはっきりしないときは pagi・tengah hari・petang・malam を付けます。",
+  "target_spans": [
+   "pukul",
+   "suku",
+   "setengah",
+   "empat puluh lima minit",
+   "pagi",
+   "tengah hari",
+   "petang",
+   "malam"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|8": {
+  "source_text": "Japanese helps or misleads: Like 〜時, pukul marks clock time, but it comes before the number. The part of the day works like 午前・午後, but it goes at the end: pukul empat petang = 午後4時.",
+  "target_spans": [
+   "pukul",
+   "pukul empat petang"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|9": {
+  "source_text": "日本語との比較：「〜時」と同じく時刻を表しますが、pukul は数字の前に来ます。時間帯は午前・午後に似ていますが、最後に置きます：pukul empat petang＝午後4時。",
+  "target_spans": [
+   "pukul",
+   "pukul empat petang"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|10": {
+  "source_text": "■ Pattern 2 · ms-c04-f01",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Pattern and grammar focus|3|11": {
+  "source_text": "Pattern box: Hari ini hari apa? / Hari ini hari ___ . / Hari ini berapa hari bulan?",
+  "target_spans": [
+   "Hari ini hari apa?",
+   "Hari ini hari",
+   "Hari ini berapa hari bulan?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|12": {
+  "source_text": "1. A: Hari ini hari apa? B: Hari ini hari Isnin.",
+  "target_spans": [
+   "Hari ini hari apa?",
+   "Hari ini hari Isnin."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|13": {
+  "source_text": "2. A: Semalam hari apa? B: Semalam hari Ahad.",
+  "target_spans": [
+   "Semalam hari apa?",
+   "Semalam hari Ahad."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|14": {
+  "source_text": "3. A: Lusa hari apa? B: Lusa hari Rabu.",
+  "target_spans": [
+   "Lusa hari apa?",
+   "Lusa hari Rabu."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|15": {
+  "source_text": "4. A: Hari ini berapa hari bulan? B: Hari ini dua belas hari bulan.",
+  "target_spans": [
+   "Hari ini berapa hari bulan?",
+   "Hari ini dua belas hari bulan."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|16": {
+  "source_text": "5. A: Kelmarin berapa hari bulan? B: Sepuluh hari bulan.",
+  "target_spans": [
+   "Kelmarin berapa hari bulan?",
+   "Sepuluh hari bulan."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|17": {
+  "source_text": "Explanation: Put hari before the name of the day: hari Isnin. Hari apa? asks the day of the week; berapa hari bulan? asks the date (the day of the month). Days around today: kelmarin, semalam, hari ini, esok, lusa.",
+  "target_spans": [
+   "hari",
+   "hari Isnin",
+   "Hari apa?",
+   "berapa hari bulan?",
+   "kelmarin",
+   "semalam",
+   "hari ini",
+   "esok",
+   "lusa"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|18": {
+  "source_text": "説明：曜日の名前の前に hari を置きます：hari Isnin。Hari apa? は曜日、berapa hari bulan? は日付（何日）をたずねます。今日の前後：kelmarin（おととい）、semalam（昨日）、hari ini（今日）、esok（明日）、lusa（あさって）。",
+  "target_spans": [
+   "hari",
+   "hari Isnin",
+   "Hari apa?",
+   "berapa hari bulan?",
+   "kelmarin",
+   "semalam",
+   "hari ini",
+   "esok",
+   "lusa"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|3|19": {
+  "source_text": "Japanese helps or misleads: Malay has one word each for おととい (kelmarin) and あさって (lusa), as Japanese does and English does not. The day names are not built from 月・火・水, so learn them as words.",
+  "target_spans": [
+   "kelmarin",
+   "lusa"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|0": {
+  "source_text": "日本語との比較：おととい（kelmarin）とあさって（lusa）にそれぞれ一語あるのは日本語と同じで、英語とは違います。曜日の名前は月・火・水のような組み立てではないので、単語として覚えます。",
+  "target_spans": [
+   "kelmarin",
+   "lusa"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|1": {
+  "source_text": "■ Pattern 3 · ms-c04-f02",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Pattern and grammar focus|4|2": {
+  "source_text": "Pattern box: Saya ___ setiap ___ . / Saya [selalu / biasanya / kadang-kadang / jarang / tidak pernah] ___ .",
+  "target_spans": [
+   "Saya",
+   "setiap",
+   "Saya",
+   "selalu",
+   "biasanya",
+   "kadang-kadang",
+   "jarang",
+   "tidak pernah"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|3": {
+  "source_text": "1. A: Encik main badminton? B: Ya, setiap hari Sabtu.",
+  "target_spans": [
+   "Encik main badminton?",
+   "Ya, setiap hari Sabtu."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|4": {
+  "source_text": "2. A: Puan selalu masak? B: Kadang-kadang sahaja.",
+  "target_spans": [
+   "Puan selalu masak?",
+   "Kadang-kadang sahaja."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|5": {
+  "source_text": "3. A: Encik selalu kerja di rumah? B: Jarang. Biasanya saya kerja di pejabat.",
+  "target_spans": [
+   "Encik selalu kerja di rumah?",
+   "Jarang. Biasanya saya kerja di pejabat."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|6": {
+  "source_text": "4. A: Cik Farah belajar bahasa Jepun? B: Ya, seminggu sekali, hari Rabu.",
+  "target_spans": [
+   "Cik Farah belajar bahasa Jepun?",
+   "Ya, seminggu sekali, hari Rabu."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|7": {
+  "source_text": "5. A: Awak main golf? B: Tidak pernah.",
+  "target_spans": [
+   "Awak main golf?",
+   "Tidak pernah."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|8": {
+  "source_text": "Explanation: A frequency word goes before the verb (Saya selalu masak) or, for biasanya and kadang-kadang, often at the start. setiap + time comes after the activity: setiap hari, setiap hari Sabtu. For a count use sekali or a number + kali: seminggu sekali, dua kali seminggu.",
+  "target_spans": [
+   "Saya selalu masak",
+   "biasanya",
+   "kadang-kadang",
+   "setiap",
+   "setiap hari",
+   "setiap hari Sabtu",
+   "sekali",
+   "kali",
+   "seminggu sekali",
+   "dua kali seminggu"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|9": {
+  "source_text": "説明：頻度の語は動詞の前（Saya selalu masak）、biasanya・kadang-kadang は文頭にもよく来ます。setiap＋時は活動のあと：setiap hari、setiap hari Sabtu。回数は sekali か 数＋kali：seminggu sekali（週に一回）、dua kali seminggu（週に二回）。",
+  "target_spans": [
+   "Saya selalu masak",
+   "biasanya",
+   "kadang-kadang",
+   "setiap",
+   "setiap hari",
+   "setiap hari Sabtu",
+   "sekali",
+   "kali",
+   "seminggu sekali",
+   "dua kali seminggu"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|10": {
+  "source_text": "Japanese helps or misleads: 毎日・いつも・時々 map closely to setiap hari, selalu, kadang-kadang. Watch tidak pernah: it means \"never\" as a habit, not 〜しない once.",
+  "target_spans": [
+   "setiap hari",
+   "selalu",
+   "kadang-kadang",
+   "tidak pernah"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|11": {
+  "source_text": "日本語との比較：毎日・いつも・時々 は setiap hari・selalu・kadang-kadang にほぼ対応します。tidak pernah は習慣として「一度も〜ない」で、一回だけ「しない」という意味ではありません。",
+  "target_spans": [
+   "setiap hari",
+   "selalu",
+   "kadang-kadang",
+   "tidak pernah"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|12": {
+  "source_text": "■ Pattern 4 · ms-c04-f01",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Pattern and grammar focus|4|13": {
+  "source_text": "Pattern box: Bila ___ ? / Berapa jam? (pukul = clock time, jam = how long)",
+  "target_spans": [
+   "Bila",
+   "Berapa jam?",
+   "pukul",
+   "jam"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|14": {
+  "source_text": "1. A: Bila kelas encik? B: Hari Selasa, pukul tujuh setengah malam.",
+  "target_spans": [
+   "Bila kelas encik?",
+   "Hari Selasa, pukul tujuh setengah malam."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|15": {
+  "source_text": "2. A: Kelas berapa jam? B: Dua jam.",
+  "target_spans": [
+   "Kelas berapa jam?",
+   "Dua jam."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|16": {
+  "source_text": "3. A: Bila kita main badminton? B: Hari Sabtu ini, pukul lapan pagi.",
+  "target_spans": [
+   "Bila kita main badminton?",
+   "Hari Sabtu ini, pukul lapan pagi."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|17": {
+  "source_text": "4. A: Encik main berapa jam? B: Biasanya satu jam setengah.",
+  "target_spans": [
+   "Encik main berapa jam?",
+   "Biasanya satu jam setengah."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|18": {
+  "source_text": "5. A: Bila encik cuti? B: Dua minggu lagi.",
+  "target_spans": [
+   "Bila encik cuti?",
+   "Dua minggu lagi."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|19": {
+  "source_text": "Explanation: bila asks \"when?\" and is answered with a day, a date or a time. Pukul berapa? asks only for the clock time. pukul tiga is three o'clock; tiga jam is three hours.",
+  "target_spans": [
+   "bila",
+   "Pukul berapa?",
+   "pukul tiga",
+   "tiga jam"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|4|20": {
+  "source_text": "説明：bila は「いつ」で、曜日・日付・時刻で答えます。Pukul berapa? は時刻だけをたずねます。pukul tiga は3時、tiga jam は3時間です。",
+  "target_spans": [
+   "bila",
+   "Pukul berapa?",
+   "pukul tiga",
+   "tiga jam"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|5|0": {
+  "source_text": "Japanese helps or misleads: いつ = bila. Japanese separates 時 and 時間 with a suffix; Malay uses two different words in two positions: pukul tiga (before) and tiga jam (after).",
+  "target_spans": [
+   "bila",
+   "pukul tiga",
+   "tiga jam"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|5|1": {
+  "source_text": "日本語との比較：いつ＝bila。日本語は「時」と「時間」を語尾で区別しますが、マレー語は別の語を別の位置に置きます：pukul tiga（前）と tiga jam（後）。",
+  "target_spans": [
+   "bila",
+   "pukul tiga",
+   "tiga jam"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|6|0": {
+  "source_text": "Model each A line; learners answer as B, then swap. Explain the rule only after they have used the pattern.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Pattern and grammar focus|6|1": {
+  "source_text": "Pattern IDs are the Kata-Kata chapter 4 frames. Explanations and Japanese comparisons are drafts.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Pattern and grammar focus|6|2": {
+  "source_text": "Pattern 1: check the order pukul + number + part of day; correct tiga pukul to pukul tiga.",
+  "target_spans": [
+   "pukul",
+   "tiga pukul",
+   "pukul tiga"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|6|3": {
+  "source_text": "Pattern 2: the date answer is the number + hari bulan; month names are not taught yet.",
+  "target_spans": [
+   "hari bulan"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Pattern and grammar focus|6|4": {
+  "source_text": "Pattern 4: if a learner answers Bila? with only a clock time, accept it; then ask Hari apa?",
+  "target_spans": [
+   "Bila?",
+   "Hari apa?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 1 · Pattern table|0|0": {
+  "source_text": "番号順に口で練習し、ペアで役を交代します。答えは先生用キーにあります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 1 · Pattern table|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 1 · Pattern table|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 1 · Pattern table|2|0": {
+  "source_text": "Practise aloud in numbered order and swap roles. Answers are in the teacher key.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 1 · Pattern table|3|0": {
+  "source_text": "Read every combination aloud, then cover the line and say it again. / すべての組み合わせを声に出して読み、次に隠して言います。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 1 · Pattern table|3|1": {
+  "source_text": "■ Practice · 練習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 1 · Pattern table|3|2": {
+  "source_text": "Frame: Sekarang pukul [number] [pagi / tengah hari / petang / malam] · Saya [activity] setiap [day]",
+  "target_spans": [
+   "Sekarang pukul",
+   "pagi",
+   "tengah hari",
+   "petang",
+   "malam",
+   "Saya",
+   "setiap"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 1 · Pattern table|3|3": {
+  "source_text": "1. Sekarang pukul tujuh pagi.",
+  "target_spans": [
+   "Sekarang pukul tujuh pagi."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 1 · Pattern table|3|4": {
+  "source_text": "2. Sekarang pukul satu tengah hari.",
+  "target_spans": [
+   "Sekarang pukul satu tengah hari."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 1 · Pattern table|3|5": {
+  "source_text": "3. Sekarang pukul empat suku petang.",
+  "target_spans": [
+   "Sekarang pukul empat suku petang."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 1 · Pattern table|3|6": {
+  "source_text": "4. Sekarang pukul sembilan setengah malam.",
+  "target_spans": [
+   "Sekarang pukul sembilan setengah malam."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 1 · Pattern table|3|7": {
+  "source_text": "5. Saya belajar bahasa Melayu setiap hari Selasa.",
+  "target_spans": [
+   "Saya belajar bahasa Melayu setiap hari Selasa."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 1 · Pattern table|3|8": {
+  "source_text": "6. Saya main badminton setiap hari Sabtu.",
+  "target_spans": [
+   "Saya main badminton setiap hari Sabtu."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 1 · Pattern table|3|9": {
+  "source_text": "7. Saya kadang-kadang masak.",
+  "target_spans": [
+   "Saya kadang-kadang masak."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 1 · Pattern table|3|10": {
+  "source_text": "8. Saya jarang kerja di rumah.",
+  "target_spans": [
+   "Saya jarang kerja di rumah."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 1 · Pattern table|4|0": {
+  "source_text": "Answers in order:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 1 · Pattern table|4|1": {
+  "source_text": "1–4: the part of the day matches the time (7 a.m. pagi, 1 p.m. tengah hari, 4.15 p.m. petang, 9.30 p.m. malam).",
+  "target_spans": [
+   "pagi",
+   "tengah hari",
+   "petang",
+   "malam"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 1 · Pattern table|4|2": {
+  "source_text": "5–6: setiap + day comes after the activity. 7–8: the frequency word comes straight after Saya.",
+  "target_spans": [
+   "setiap",
+   "Saya"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 2 · Substitution|0|0": {
+  "source_text": "番号順に口で練習し、ペアで役を交代します。答えは先生用キーにあります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 2 · Substitution|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 2 · Substitution|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 2 · Substitution|2|0": {
+  "source_text": "Practise aloud in numbered order and swap roles. Answers are in the teacher key.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 2 · Substitution|3|0": {
+  "source_text": "Replace one part with the cue and say the whole sentence. / キューで一か所を入れ替え、文全体を言います。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 2 · Substitution|3|1": {
+  "source_text": "■ Practice · 練習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 2 · Substitution|3|2": {
+  "source_text": "1. Sekarang pukul tujuh pagi. (cue: 8 a.m.)",
+  "target_spans": [
+   "Sekarang pukul tujuh pagi."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 2 · Substitution|3|3": {
+  "source_text": "2. Sekarang pukul tiga petang. (cue: 3.15 p.m.)",
+  "target_spans": [
+   "Sekarang pukul tiga petang."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 2 · Substitution|3|4": {
+  "source_text": "3. Kelas saya hari Selasa. (cue: Thursday)",
+  "target_spans": [
+   "Kelas saya hari Selasa."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 2 · Substitution|3|5": {
+  "source_text": "4. Saya main badminton setiap hari Sabtu. (cue: Sunday)",
+  "target_spans": [
+   "Saya main badminton setiap hari Sabtu."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 2 · Substitution|3|6": {
+  "source_text": "5. Saya selalu masak. (cue: sometimes)",
+  "target_spans": [
+   "Saya selalu masak."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 2 · Substitution|3|7": {
+  "source_text": "6. Saya jarang kerja di rumah. (cue: usually)",
+  "target_spans": [
+   "Saya jarang kerja di rumah."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 2 · Substitution|3|8": {
+  "source_text": "7. Saya beli buah di pasar seminggu sekali. (cue: every day)",
+  "target_spans": [
+   "Saya beli buah di pasar seminggu sekali."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 2 · Substitution|3|9": {
+  "source_text": "8. Kelas dua jam. (cue: one and a half hours)",
+  "target_spans": [
+   "Kelas dua jam."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 2 · Substitution|4|0": {
+  "source_text": "Answers in order:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 2 · Substitution|4|1": {
+  "source_text": "1 Sekarang pukul lapan pagi. 2 Sekarang pukul tiga suku petang. 3 Kelas saya hari Khamis.",
+  "target_spans": [
+   "Sekarang pukul lapan pagi.",
+   "Sekarang pukul tiga suku petang.",
+   "Kelas saya hari Khamis."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 2 · Substitution|4|2": {
+  "source_text": "4 Saya main badminton setiap hari Ahad. 5 Saya kadang-kadang masak. 6 Biasanya saya kerja di rumah.",
+  "target_spans": [
+   "Saya main badminton setiap hari Ahad.",
+   "Saya kadang-kadang masak.",
+   "Biasanya saya kerja di rumah."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 2 · Substitution|4|3": {
+  "source_text": "7 Saya beli buah di pasar setiap hari. 8 Kelas satu jam setengah.",
+  "target_spans": [
+   "Saya beli buah di pasar setiap hari.",
+   "Kelas satu jam setengah."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 3 · Transformation|0|0": {
+  "source_text": "番号順に口で練習し、ペアで役を交代します。答えは先生用キーにあります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 3 · Transformation|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 3 · Transformation|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 3 · Transformation|2|0": {
+  "source_text": "Practise aloud in numbered order and swap roles. Answers are in the teacher key.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 3 · Transformation|3|0": {
+  "source_text": "Change the sentence as the cue says. / キューのとおりに文を変えます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 3 · Transformation|3|1": {
+  "source_text": "■ Practice · 練習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 3 · Transformation|3|2": {
+  "source_text": "1. Ask the question: Sekarang pukul sepuluh.",
+  "target_spans": [
+   "Sekarang pukul sepuluh."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 3 · Transformation|3|3": {
+  "source_text": "2. Ask the question: Hari ini hari Rabu.",
+  "target_spans": [
+   "Hari ini hari Rabu."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 3 · Transformation|3|4": {
+  "source_text": "3. Ask with bila: Kelas saya hari Jumaat.",
+  "target_spans": [
+   "bila",
+   "Kelas saya hari Jumaat."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 3 · Transformation|3|5": {
+  "source_text": "4. Make it \"never\": Saya main golf.",
+  "target_spans": [
+   "Saya main golf."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 3 · Transformation|3|6": {
+  "source_text": "5. Today is Monday. Change to yesterday: Hari ini hari Isnin.",
+  "target_spans": [
+   "Hari ini hari Isnin."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 3 · Transformation|3|7": {
+  "source_text": "6. Today is Monday. Change to the day after tomorrow: Hari ini hari Isnin.",
+  "target_spans": [
+   "Hari ini hari Isnin."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 3 · Transformation|3|8": {
+  "source_text": "7. Change the clock time to a length of time: pukul dua",
+  "target_spans": [
+   "pukul dua"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 3 · Transformation|3|9": {
+  "source_text": "8. Say the 24-hour time 21:30 the way people say it.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 3 · Transformation|4|0": {
+  "source_text": "Answers in order:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 3 · Transformation|4|1": {
+  "source_text": "1 Pukul berapa sekarang? 2 Hari ini hari apa? 3 Bila kelas encik? 4 Saya tidak pernah main golf.",
+  "target_spans": [
+   "Pukul berapa sekarang?",
+   "Hari ini hari apa?",
+   "Bila kelas encik?",
+   "Saya tidak pernah main golf."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 3 · Transformation|4|2": {
+  "source_text": "5 Semalam hari Ahad. 6 Lusa hari Rabu. 7 dua jam 8 pukul sembilan setengah malam",
+  "target_spans": [
+   "Semalam hari Ahad.",
+   "Lusa hari Rabu.",
+   "dua jam",
+   "pukul sembilan setengah malam"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 4 · Question and answer|0|0": {
+  "source_text": "番号順に口で練習し、ペアで役を交代します。答えは先生用キーにあります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 4 · Question and answer|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 4 · Question and answer|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 4 · Question and answer|2|0": {
+  "source_text": "Practise aloud in numbered order and swap roles. Answers are in the teacher key.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 4 · Question and answer|3|0": {
+  "source_text": "Items 1 to 4: answer with the cue. Items 5 to 8: you hear the answer; ask the question. / 1〜4はキューで答え、5〜8は答えに合う質問を作ります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 4 · Question and answer|3|1": {
+  "source_text": "■ Practice · 練習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 4 · Question and answer|3|2": {
+  "source_text": "1. Pukul berapa sekarang? (cue: 8.30 a.m.)",
+  "target_spans": [
+   "Pukul berapa sekarang?"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 4 · Question and answer|3|3": {
+  "source_text": "2. Hari ini hari apa? (cue: Thursday)",
+  "target_spans": [
+   "Hari ini hari apa?"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 4 · Question and answer|3|4": {
+  "source_text": "3. Bila kelas bahasa Melayu? (cue: Tuesday, 7 p.m.)",
+  "target_spans": [
+   "Bila kelas bahasa Melayu?"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 4 · Question and answer|3|5": {
+  "source_text": "4. Encik selalu masak? (cue: rarely)",
+  "target_spans": [
+   "Encik selalu masak?"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 4 · Question and answer|3|6": {
+  "source_text": "5. You hear: Sekarang pukul empat suku petang. Ask the question.",
+  "target_spans": [
+   "Sekarang pukul empat suku petang."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 4 · Question and answer|3|7": {
+  "source_text": "6. You hear: Hari Sabtu. Ask the question with bila.",
+  "target_spans": [
+   "Hari Sabtu.",
+   "bila"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 4 · Question and answer|3|8": {
+  "source_text": "7. You hear: Dua jam. Ask the question.",
+  "target_spans": [
+   "Dua jam."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 4 · Question and answer|3|9": {
+  "source_text": "8. You hear: Seminggu sekali. Ask how many times a week.",
+  "target_spans": [
+   "Seminggu sekali."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 4 · Question and answer|4|0": {
+  "source_text": "Answers in order:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 4 · Question and answer|4|1": {
+  "source_text": "1 Sekarang pukul lapan setengah pagi. 2 Hari ini hari Khamis. 3 Hari Selasa, pukul tujuh malam. 4 Jarang. or Saya jarang masak.",
+  "target_spans": [
+   "Sekarang pukul lapan setengah pagi.",
+   "Hari ini hari Khamis.",
+   "Hari Selasa, pukul tujuh malam.",
+   "Jarang.",
+   "Saya jarang masak."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 4 · Question and answer|4|2": {
+  "source_text": "5 Pukul berapa sekarang? 6 Bila …? e.g. Bila kelas encik? 7 Berapa jam? 8 Berapa kali seminggu?",
+  "target_spans": [
+   "Pukul berapa sekarang?",
+   "Bila …?",
+   "Bila kelas encik?",
+   "Berapa jam?",
+   "Berapa kali seminggu?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 5 · Question-word choice|0|0": {
+  "source_text": "番号順に口で練習し、ペアで役を交代します。答えは先生用キーにあります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 5 · Question-word choice|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 5 · Question-word choice|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 5 · Question-word choice|2|0": {
+  "source_text": "Practise aloud in numbered order and swap roles. Answers are in the teacher key.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 5 · Question-word choice|3|0": {
+  "source_text": "Fill the gap with a question word taught so far (chapters 1 to 4). / 第1〜4章で学んだ疑問語から選んで入れます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 5 · Question-word choice|3|1": {
+  "source_text": "■ Practice · 練習",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 5 · Question-word choice|3|2": {
+  "source_text": "1. ___ khabar, puan? → Khabar baik.",
+  "target_spans": [
+   "___ khabar, puan?",
+   "Khabar baik."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 5 · Question-word choice|3|3": {
+  "source_text": "2. ___ nama cikgu kita? → Puan Aini.",
+  "target_spans": [
+   "___ nama cikgu kita?",
+   "Puan Aini."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 5 · Question-word choice|3|4": {
+  "source_text": "3. Encik tinggal ___? → Di Bangsar.",
+  "target_spans": [
+   "Encik tinggal ___?",
+   "Di Bangsar."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 5 · Question-word choice|3|5": {
+  "source_text": "4. ___ harga tiket ini? → Lima puluh ringgit.",
+  "target_spans": [
+   "___ harga tiket ini?",
+   "Lima puluh ringgit."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 5 · Question-word choice|3|6": {
+  "source_text": "5. ___ kelas encik? → Hari Selasa.",
+  "target_spans": [
+   "___ kelas encik?",
+   "Hari Selasa."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 5 · Question-word choice|3|7": {
+  "source_text": "6. ___ sekarang? → Pukul tiga petang.",
+  "target_spans": [
+   "___ sekarang?",
+   "Pukul tiga petang."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 5 · Question-word choice|3|8": {
+  "source_text": "7. Hari ini hari ___? → Hari Jumaat.",
+  "target_spans": [
+   "Hari ini hari ___?",
+   "Hari Jumaat."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 5 · Question-word choice|3|9": {
+  "source_text": "8. ___ saya tanya? → Boleh.",
+  "target_spans": [
+   "___ saya tanya?",
+   "Boleh."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 5 · Question-word choice|4|0": {
+  "source_text": "Answers in order:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 5 · Question-word choice|4|1": {
+  "source_text": "1 Apa 2 Siapa 3 di mana 4 Berapa 5 Bila 6 Pukul berapa 7 apa 8 Bolehkah",
+  "target_spans": [
+   "Apa",
+   "Siapa",
+   "di mana",
+   "Berapa",
+   "Bila",
+   "Pukul berapa",
+   "apa",
+   "Bolehkah"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 6 · Short dialogues|0|0": {
+  "source_text": "二行の会話を読み、自分で三行目を加えます。役を交代します。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 6 · Short dialogues|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 6 · Short dialogues|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 6 · Short dialogues|2|0": {
+  "source_text": "Read the two lines and add a third that fits. Swap roles.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 6 · Short dialogues|3|0": {
+  "source_text": "Dialogue 1 · at the end of the working day",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 6 · Short dialogues|3|1": {
+  "source_text": "A: Pukul berapa sekarang?  B: Pukul lima suku.  A: ____________________",
+  "target_spans": [
+   "Pukul berapa sekarang?",
+   "Pukul lima suku."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 6 · Short dialogues|3|2": {
+  "source_text": "Dialogue 2 · planning lunch with a colleague",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 6 · Short dialogues|3|3": {
+  "source_text": "A: Bila kita jumpa?  B: Hari Jumaat, pukul satu tengah hari.  A: ____________________",
+  "target_spans": [
+   "Bila kita jumpa?",
+   "Hari Jumaat, pukul satu tengah hari."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 6 · Short dialogues|3|4": {
+  "source_text": "Dialogue 3 · small talk on Monday morning",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 6 · Short dialogues|3|5": {
+  "source_text": "A: Encik selalu main golf?  B: Tidak. Saya jarang main.  A: ____________________",
+  "target_spans": [
+   "Encik selalu main golf?",
+   "Tidak. Saya jarang main."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 6 · Short dialogues|3|6": {
+  "source_text": "Dialogue 4 · filling in a form at a counter",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 6 · Short dialogues|3|7": {
+  "source_text": "A: Hari ini berapa hari bulan?  B: Dua puluh hari bulan.  A: ____________________",
+  "target_spans": [
+   "Hari ini berapa hari bulan?",
+   "Dua puluh hari bulan."
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 6 · Short dialogues|4|0": {
+  "source_text": "Any third line that answers B naturally is correct. Possible third lines:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Drill 6 · Short dialogues|4|1": {
+  "source_text": "1 Oh, terima kasih. or Jom balik!… (any natural closing) 2 Baik. Jumpa hari Jumaat!",
+  "target_spans": [
+   "Oh, terima kasih.",
+   "Jom balik!",
+   "Baik. Jumpa hari Jumaat!"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Drill 6 · Short dialogues|4|2": {
+  "source_text": "3 Saya pun jarang main. 4 Terima kasih.",
+  "target_spans": [
+   "Saya pun jarang main.",
+   "Terima kasih."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|0|0": {
+  "source_text": "第1章から第4章までの疑問語をすべて使って質問します。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Cumulative question-word drill|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Cumulative question-word drill|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Cumulative question-word drill|2|0": {
+  "source_text": "Ask questions with every question word taught so far, including bila.",
+  "target_spans": [
+   "bila"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|3|0": {
+  "source_text": "Chapters 1 to 4: apa / siapa / di mana / Siapakah (-kah) / Apakah (-kah) / di manakah (-kah) / Adakah / Bolehkah / berapa / bila / pukul berapa / hari apa",
+  "target_spans": [
+   "apa",
+   "siapa",
+   "di mana",
+   "Siapakah",
+   "Apakah",
+   "di manakah",
+   "Adakah",
+   "Bolehkah",
+   "berapa",
+   "bila",
+   "pukul berapa",
+   "hari apa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|3|1": {
+  "source_text": "New in chapter 4: bila (when), pukul berapa (what time), hari apa (what day). / 第4章で増えた疑問語：bila（いつ）、pukul berapa（何時）、hari apa（何曜日）。",
+  "target_spans": [
+   "bila",
+   "pukul berapa",
+   "hari apa",
+   "bila",
+   "pukul berapa",
+   "hari apa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|3|2": {
+  "source_text": "1. Ask a colleague how they are. (apa)",
+  "target_spans": [
+   "apa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|3|3": {
+  "source_text": "2. Ask who the new teacher is. (siapa)",
+  "target_spans": [
+   "siapa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|3|4": {
+  "source_text": "3. Ask where the class is. (di mana)",
+  "target_spans": [
+   "di mana"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|3|5": {
+  "source_text": "4. Ask formally whether the class is on Tuesday. (Adakah)",
+  "target_spans": [
+   "Adakah"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|3|6": {
+  "source_text": "5. Ask politely whether you may ask a question. (Bolehkah)",
+  "target_spans": [
+   "Bolehkah"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|3|7": {
+  "source_text": "6. Ask the price of a ticket. (berapa)",
+  "target_spans": [
+   "berapa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|3|8": {
+  "source_text": "7. Ask when the next class is. (bila)",
+  "target_spans": [
+   "bila"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|3|9": {
+  "source_text": "8. Ask the time now. (pukul berapa)",
+  "target_spans": [
+   "pukul berapa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|3|10": {
+  "source_text": "9. Ask what day it is today. (hari apa)",
+  "target_spans": [
+   "hari apa"
+  ],
+  "mention_spans": [],
+  "kind": "drill",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|4|0": {
+  "source_text": "Model questions in order:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Cumulative question-word drill|4|1": {
+  "source_text": "1 Apa khabar? 2 Siapa nama cikgu kita? 3 Di mana kelas kita? / Di manakah kelas kita?",
+  "target_spans": [
+   "Apa khabar?",
+   "Siapa nama cikgu kita?",
+   "Di mana kelas kita?",
+   "Di manakah kelas kita?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|4|2": {
+  "source_text": "4 Adakah kelas kita hari Selasa? 5 Bolehkah saya tanya? 6 Berapa harga tiket ini?",
+  "target_spans": [
+   "Adakah kelas kita hari Selasa?",
+   "Bolehkah saya tanya?",
+   "Berapa harga tiket ini?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Cumulative question-word drill|4|3": {
+  "source_text": "7 Bila kelas kita? 8 Pukul berapa sekarang? 9 Hari ini hari apa?",
+  "target_spans": [
+   "Bila kelas kita?",
+   "Pukul berapa sekarang?",
+   "Hari ini hari apa?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|0|0": {
+  "source_text": "会話を読み、空所版を埋め、条件を変えた版を台本なしで話します。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Model conversation|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Model conversation|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Model conversation|2|0": {
+  "source_text": "Read the model, fill the gaps, then perform the changed-facts version without the script.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Model conversation|3|0": {
+  "source_text": "Farah: Encik Tanaka, encik main badminton?",
+  "target_spans": [
+   "Encik Tanaka, encik main badminton?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|1": {
+  "source_text": "Tanaka: Ya, saya main setiap minggu.",
+  "target_spans": [
+   "Ya, saya main setiap minggu."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|2": {
+  "source_text": "Farah: Hari apa?",
+  "target_spans": [
+   "Hari apa?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|3": {
+  "source_text": "Tanaka: Biasanya hari Sabtu, pukul lapan pagi.",
+  "target_spans": [
+   "Biasanya hari Sabtu, pukul lapan pagi."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|4": {
+  "source_text": "Farah: Wah, pagi betul! Berapa jam?",
+  "target_spans": [
+   "Wah, pagi betul! Berapa jam?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|5": {
+  "source_text": "Tanaka: Dua jam. Cik Farah pun main badminton?",
+  "target_spans": [
+   "Dua jam. Cik Farah pun main badminton?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|6": {
+  "source_text": "Farah: Kadang-kadang sahaja. Saya selalu sibuk.",
+  "target_spans": [
+   "Kadang-kadang sahaja. Saya selalu sibuk."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|7": {
+  "source_text": "Tanaka: Jom main dengan kami hari Sabtu ini!",
+  "target_spans": [
+   "Jom main dengan kami hari Sabtu ini!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|8": {
+  "source_text": "Farah: Sabtu ini saya tidak boleh. Hari Ahad boleh?",
+  "target_spans": [
+   "Sabtu ini saya tidak boleh. Hari Ahad boleh?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|9": {
+  "source_text": "Tanaka: Hari Ahad kami tidak main. Bila Cik Farah boleh?",
+  "target_spans": [
+   "Hari Ahad kami tidak main. Bila Cik Farah boleh?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|10": {
+  "source_text": "Farah: Dua minggu lagi, hari Sabtu.",
+  "target_spans": [
+   "Dua minggu lagi, hari Sabtu."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|11": {
+  "source_text": "Tanaka: Baik. Pukul lapan pagi, ya. Jumpa nanti!",
+  "target_spans": [
+   "Baik. Pukul lapan pagi, ya. Jumpa nanti!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|12": {
+  "source_text": "■ Gapped form · 空所",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Model conversation|3|13": {
+  "source_text": "Farah: Encik Tanaka, encik main badminton?",
+  "target_spans": [
+   "Encik Tanaka, encik main badminton?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|14": {
+  "source_text": "Tanaka: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Model conversation|3|15": {
+  "source_text": "Farah: Hari apa?",
+  "target_spans": [
+   "Hari apa?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|16": {
+  "source_text": "Tanaka: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Model conversation|3|17": {
+  "source_text": "Farah: Wah, pagi betul! Berapa jam?",
+  "target_spans": [
+   "Wah, pagi betul! Berapa jam?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|18": {
+  "source_text": "Tanaka: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Model conversation|3|19": {
+  "source_text": "Farah: Kadang-kadang sahaja. Saya selalu sibuk.",
+  "target_spans": [
+   "Kadang-kadang sahaja. Saya selalu sibuk."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|20": {
+  "source_text": "Tanaka: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Model conversation|3|21": {
+  "source_text": "Farah: Sabtu ini saya tidak boleh. Hari Ahad boleh?",
+  "target_spans": [
+   "Sabtu ini saya tidak boleh. Hari Ahad boleh?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|22": {
+  "source_text": "Tanaka: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Model conversation|3|23": {
+  "source_text": "Farah: Dua minggu lagi, hari Sabtu.",
+  "target_spans": [
+   "Dua minggu lagi, hari Sabtu."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|24": {
+  "source_text": "Tanaka: Baik. Pukul lapan pagi, ya. Jumpa nanti!",
+  "target_spans": [
+   "Baik. Pukul lapan pagi, ya. Jumpa nanti!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|25": {
+  "source_text": "■ Changed facts variant · 情報を変更",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Model conversation|3|26": {
+  "source_text": "Farah: Encik Tanaka, encik main golf?",
+  "target_spans": [
+   "Encik Tanaka, encik main golf?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|27": {
+  "source_text": "Tanaka: Ya, saya main sebulan sekali.",
+  "target_spans": [
+   "Ya, saya main sebulan sekali."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|28": {
+  "source_text": "Farah: Hari apa?",
+  "target_spans": [
+   "Hari apa?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|29": {
+  "source_text": "Tanaka: Biasanya hari Ahad, pukul tujuh pagi.",
+  "target_spans": [
+   "Biasanya hari Ahad, pukul tujuh pagi."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|3|30": {
+  "source_text": "Farah: Wah, pagi betul! Berapa jam?",
+  "target_spans": [
+   "Wah, pagi betul! Berapa jam?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|4|0": {
+  "source_text": "Tanaka: Empat jam. Cik Farah pun main golf?",
+  "target_spans": [
+   "Empat jam. Cik Farah pun main golf?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|4|1": {
+  "source_text": "Farah: Tidak. Saya tidak pernah main golf.",
+  "target_spans": [
+   "Tidak. Saya tidak pernah main golf."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|4|2": {
+  "source_text": "Tanaka: Jom main dengan kami hari Ahad ini!",
+  "target_spans": [
+   "Jom main dengan kami hari Ahad ini!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|4|3": {
+  "source_text": "Farah: Ahad ini saya tidak boleh. Hari Sabtu boleh?",
+  "target_spans": [
+   "Ahad ini saya tidak boleh. Hari Sabtu boleh?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|4|4": {
+  "source_text": "Tanaka: Hari Sabtu kami tidak main. Bila Cik Farah boleh?",
+  "target_spans": [
+   "Hari Sabtu kami tidak main. Bila Cik Farah boleh?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|4|5": {
+  "source_text": "Farah: Bulan depan, hari Ahad.",
+  "target_spans": [
+   "Bulan depan, hari Ahad."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|4|6": {
+  "source_text": "Tanaka: Baik. Pukul tujuh pagi, ya. Jumpa nanti!",
+  "target_spans": [
+   "Baik. Pukul tujuh pagi, ya. Jumpa nanti!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|5|0": {
+  "source_text": "The model has 12 turns. Gaps: turns 2, 4, 6, 8, 10.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Model conversation|5|1": {
+  "source_text": "Turn 2: Ya, saya main setiap minggu.",
+  "target_spans": [
+   "Ya, saya main setiap minggu."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|5|2": {
+  "source_text": "Turn 4: Biasanya hari Sabtu, pukul lapan pagi.",
+  "target_spans": [
+   "Biasanya hari Sabtu, pukul lapan pagi."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|5|3": {
+  "source_text": "Turn 6: Dua jam. Cik Farah pun main badminton?",
+  "target_spans": [
+   "Dua jam. Cik Farah pun main badminton?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|5|4": {
+  "source_text": "Turn 8: Jom main dengan kami hari Sabtu ini!",
+  "target_spans": [
+   "Jom main dengan kami hari Sabtu ini!"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|5|5": {
+  "source_text": "Turn 10: Hari Ahad kami tidak main. Bila Cik Farah boleh?",
+  "target_spans": [
+   "Hari Ahad kami tidak main. Bila Cik Farah boleh?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Model conversation|5|6": {
+  "source_text": "Then perform the changed-facts variant without the script, changing one more fact of your own.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|0|0": {
+  "source_text": "先生が台本を2回読みます。音声ファイルはありません。質問を先に読んでから聞きます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|2|0": {
+  "source_text": "The teacher reads the script twice; read the questions first, listen for the details, then shadow.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|0": {
+  "source_text": "Encik Tanaka is at the counter of his language centre on a Monday morning, asking about his class times. / 月曜日の朝、田中さんが語学センターの受付でクラスの時間をたずねます。",
+  "target_spans": [
+   "Encik"
+  ],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|1": {
+  "source_text": "Predict: which question words will you hear? / どんな疑問語が出てくるか予想しましょう。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|2": {
+  "source_text": "Read the eight questions below before the first listening. / 1回目の前に下の8つの質問を読みます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|3": {
+  "source_text": "■ While listening · 聞きながら",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|4": {
+  "source_text": "1. On which two days is Tanaka's class at first?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|5": {
+  "source_text": "2. What time does that class start?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|6": {
+  "source_text": "3. How long is one class?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|7": {
+  "source_text": "4. Why can Tanaka not come on Thursdays?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|8": {
+  "source_text": "5. What time is the Saturday class, and how long is it?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|9": {
+  "source_text": "6. What day is it today?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|10": {
+  "source_text": "7. When is his first Saturday class?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|11": {
+  "source_text": "8. How often is there no Saturday class, and on what date this month?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|12": {
+  "source_text": "■ After listening · 聞いたあと",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|13": {
+  "source_text": "Compare your answers with a partner, then shadow lines 4, 8 and 14 after the teacher. / ペアで答えを比べ、4・8・14行目をシャドーイングします。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|3|14": {
+  "source_text": "Change one fact (the day or the time) and tell your partner your own class schedule. / 曜日か時刻を一つ変えて、自分のクラスの予定を言いましょう。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "listening",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|0": {
+  "source_text": "The teacher reads the script twice at natural speed. No audio file.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|1": {
+  "source_text": "Teacher-read script:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|2": {
+  "source_text": "Tanaka: Selamat pagi, puan. Saya Tanaka, pelajar kelas bahasa Melayu.",
+  "target_spans": [
+   "Selamat pagi, puan. Saya Tanaka, pelajar kelas bahasa Melayu."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|3": {
+  "source_text": "Aini: Selamat pagi, Encik Tanaka. Ada apa, encik?",
+  "target_spans": [
+   "Selamat pagi, Encik Tanaka. Ada apa, encik?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|4": {
+  "source_text": "Tanaka: Puan, kelas saya hari apa dan pukul berapa?",
+  "target_spans": [
+   "Puan, kelas saya hari apa dan pukul berapa?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|5": {
+  "source_text": "Aini: Kelas encik setiap hari Selasa dan Khamis, pukul tujuh setengah malam.",
+  "target_spans": [
+   "Kelas encik setiap hari Selasa dan Khamis, pukul tujuh setengah malam."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|6": {
+  "source_text": "Tanaka: Satu kelas berapa jam?",
+  "target_spans": [
+   "Satu kelas berapa jam?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|7": {
+  "source_text": "Aini: Dua jam.",
+  "target_spans": [
+   "Dua jam."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|8": {
+  "source_text": "Tanaka: Maaf, puan. Hari Khamis saya selalu sibuk di pejabat. Ada kelas hari Sabtu?",
+  "target_spans": [
+   "Maaf, puan. Hari Khamis saya selalu sibuk di pejabat. Ada kelas hari Sabtu?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|9": {
+  "source_text": "Aini: Ada. Hari Sabtu pukul sepuluh pagi. Kelas Sabtu tiga jam.",
+  "target_spans": [
+   "Ada. Hari Sabtu pukul sepuluh pagi. Kelas Sabtu tiga jam."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|10": {
+  "source_text": "Tanaka: Tiga jam. Baik, saya boleh.",
+  "target_spans": [
+   "Tiga jam. Baik, saya boleh."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|11": {
+  "source_text": "Aini: Baik. Kelas encik hari Selasa malam dan hari Sabtu pagi, ya?",
+  "target_spans": [
+   "Baik. Kelas encik hari Selasa malam dan hari Sabtu pagi, ya?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|12": {
+  "source_text": "Tanaka: Ya, betul. Hari ini hari Isnin. Bila kelas pertama hari Sabtu?",
+  "target_spans": [
+   "Ya, betul. Hari ini hari Isnin. Bila kelas pertama hari Sabtu?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|13": {
+  "source_text": "Aini: Sabtu ini. Lima hari lagi.",
+  "target_spans": [
+   "Sabtu ini. Lima hari lagi."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|14": {
+  "source_text": "Tanaka: Sabtu ini, pukul sepuluh pagi. Baik.",
+  "target_spans": [
+   "Sabtu ini, pukul sepuluh pagi. Baik."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|15": {
+  "source_text": "Aini: Satu lagi, encik. Sebulan sekali, tidak ada kelas hari Sabtu.",
+  "target_spans": [
+   "Satu lagi, encik. Sebulan sekali, tidak ada kelas hari Sabtu."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|16": {
+  "source_text": "Tanaka: Bila, puan?",
+  "target_spans": [
+   "Bila, puan?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|17": {
+  "source_text": "Aini: Bulan ini, dua puluh empat hari bulan.",
+  "target_spans": [
+   "Bulan ini, dua puluh empat hari bulan."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|18": {
+  "source_text": "Tanaka: Dua puluh empat hari bulan. Terima kasih, puan. Jumpa esok!",
+  "target_spans": [
+   "Dua puluh empat hari bulan. Terima kasih, puan. Jumpa esok!"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|19": {
+  "source_text": "Aini: Sama-sama. Jumpa esok, Encik Tanaka.",
+  "target_spans": [
+   "Sama-sama. Jumpa esok, Encik Tanaka."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|20": {
+  "source_text": "Answers: 1. Tuesday and Thursday / 2. 7.30 p.m. / 3. two hours / 4. he is always busy at the office on Thursdays / 5. 10 a.m., three hours / 6. Monday / 7. this Saturday, in five days / 8. once a month; the 24th",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Listening focus · Encik Tanaka|4|21": {
+  "source_text": "Do not hand out the script before the second listening.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|0|0": {
+  "source_text": "短い実用文を読んで質問に答え、自分でも短く書きます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|2|0": {
+  "source_text": "Read a short practical text, answer the questions, then write your own.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|0": {
+  "source_text": "Fictional notice at a language centre:",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|1": {
+  "source_text": "Kelas bahasa Melayu",
+  "target_spans": [
+   "Kelas bahasa Melayu"
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|2": {
+  "source_text": "Isnin dan Rabu: pukul sepuluh pagi (dua jam)",
+  "target_spans": [
+   "Isnin dan Rabu: pukul sepuluh pagi (dua jam)"
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|3": {
+  "source_text": "Selasa dan Khamis: pukul tujuh setengah malam (dua jam)",
+  "target_spans": [
+   "Selasa dan Khamis: pukul tujuh setengah malam (dua jam)"
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|4": {
+  "source_text": "Sabtu: pukul sepuluh pagi (tiga jam)",
+  "target_spans": [
+   "Sabtu: pukul sepuluh pagi (tiga jam)"
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|5": {
+  "source_text": "Jumaat dan Ahad: tidak ada kelas",
+  "target_spans": [
+   "Jumaat dan Ahad: tidak ada kelas"
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|6": {
+  "source_text": "Sebulan sekali, tidak ada kelas hari Sabtu.",
+  "target_spans": [
+   "Sebulan sekali, tidak ada kelas hari Sabtu."
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|7": {
+  "source_text": "■ Questions · 質問",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|8": {
+  "source_text": "1. On which two weekdays are there morning classes?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|9": {
+  "source_text": "2. How long is the Saturday class?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|10": {
+  "source_text": "3. On which days is there no class?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|11": {
+  "source_text": "4. What time is the Thursday class?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|12": {
+  "source_text": "5. How often is there no Saturday class?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|13": {
+  "source_text": "6. Write in Malay: \"The Tuesday class is at 7.30 p.m.\"",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|14": {
+  "source_text": "■ Write · 書く",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|15": {
+  "source_text": "Write your week in three or four lines: two activities with a day and a time, and one with a frequency word. Fictional times are fine. / 自分の一週間を3〜4行で書きましょう。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|16": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|17": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|3|18": {
+  "source_text": "________________________________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Reading and writing · A class timetable|4|0": {
+  "source_text": "Reading: 1. Monday and Wednesday / 2. three hours / 3. Friday and Sunday / 4. 7.30 p.m. / 5. once a month / 6. Kelas hari Selasa pukul tujuh setengah malam.",
+  "target_spans": [
+   "Kelas hari Selasa pukul tujuh setengah malam."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Reading and writing · A class timetable|4|1": {
+  "source_text": "Model writing: Saya belajar bahasa Melayu setiap hari Selasa, pukul tujuh setengah malam. Saya main badminton seminggu sekali, hari Sabtu pagi. Saya jarang masak. Hari Ahad saya di rumah.",
+  "target_spans": [
+   "Saya belajar bahasa Melayu setiap hari Selasa, pukul tujuh setengah malam. Saya main badminton seminggu sekali, hari Sabtu pagi. Saya jarang masak. Hari Ahad saya di rumah."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Reading and writing · A class timetable|4|2": {
+  "source_text": "All times, dates and names in the text are fictional.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|0|0": {
+  "source_text": "役割カードを見て台本なしで話し、途中で予定が変わります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|2|0": {
+  "source_text": "Use the role cards without a script; deal with the change of plan halfway through.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|0": {
+  "source_text": "You want to play badminton with B every week. Your fictional week: busy on Monday, Wednesday and Friday evenings; free on Thursday evening and Saturday morning.",
+  "target_spans": [
+   "badminton"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|1": {
+  "source_text": "Ask B which days and times B is free. Suggest a day and time, and say how long you usually play.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|2": {
+  "source_text": "Aは毎週Bとバドミントンをしたい。月・水・金の夜は忙しく、木曜の夜と土曜の朝は空いています。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|3": {
+  "source_text": "■ Role card B · Bのカード",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|4": {
+  "source_text": "Your fictional week: Malay class on Tuesday and Thursday at 7.30 p.m.; free on Saturday after 9 a.m. and on Sunday morning.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|5": {
+  "source_text": "Answer A, say how often you play sport, and agree a day and a time.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|6": {
+  "source_text": "Bは火・木の午後7時半にマレー語クラス。土曜の午前9時以降と日曜の朝は空いています。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|7": {
+  "source_text": "■ Change of plan · 予定変更",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|8": {
+  "source_text": "This week only, B has a work event on Saturday morning. B tells A. Choose another day for this week, then confirm the usual day for the following weeks.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|9": {
+  "source_text": "今週だけ、Bは土曜の朝に仕事があります。今週の別の日を決め、次の週からのいつもの日も確認します。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|10": {
+  "source_text": "■ Success criteria · できる基準",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|11": {
+  "source_text": "☐ Both say a day with hari and a time with pukul + pagi / petang / malam.",
+  "target_spans": [
+   "hari",
+   "pukul",
+   "pagi",
+   "petang",
+   "malam"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|12": {
+  "source_text": "☐ The frequency is clear (setiap hari Sabtu, seminggu sekali).",
+  "target_spans": [
+   "setiap hari Sabtu",
+   "seminggu sekali"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Unit 4A · Task · Find a time for a weekly game|3|13": {
+  "source_text": "☐ After the change, both repeat the new day and time back to each other.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Task · Find a time for a weekly game|4|0": {
+  "source_text": "Possible exchange: Bila awak boleh main? — Hari Sabtu, pukul sembilan pagi. — Kita main setiap hari Sabtu, dua jam. Change: Sabtu ini saya tidak boleh. Hari Ahad pagi boleh? — Boleh. Pukul sembilan pagi, ya.",
+  "target_spans": [
+   "Bila awak boleh main?",
+   "Hari Sabtu, pukul sembilan pagi.",
+   "Kita main setiap hari Sabtu, dua jam.",
+   "Sabtu ini saya tidak boleh. Hari Ahad pagi boleh?",
+   "Boleh. Pukul sembilan pagi, ya."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Task · Find a time for a weekly game|4|1": {
+  "source_text": "All schedules on the cards are fictional. Learners may swap in their real week if they wish.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Culture and usage note|0|0": {
+  "source_text": "マレーシアでの時間や日々の言い方について読みます。語の成り立ちは Kata-Kata のカード注記だけを使っています。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Culture and usage note|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Culture and usage note|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Culture and usage note|2|0": {
+  "source_text": "Read about how time and routines are talked about in Malaysia. Word-building notes come only from Kata-Kata card notes.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Culture and usage note|3|0": {
+  "source_text": "In everyday speech most Malaysians use the 12-hour clock and add the part of the day: pukul tujuh pagi (7 a.m.), pukul satu tengah hari (1 p.m.), pukul empat petang (4 p.m.) and pukul sembilan malam (9 p.m.). Petang covers the afternoon until about sunset; after dark it is malam. Quarters and halves come from chapter 3: pukul empat suku is 4:15 and pukul dua setengah is 2:30. For 4:45, say the minutes: pukul empat empat puluh lima minit. In casual talk you may also hear jam used for the clock time; in this course pukul is for the clock and jam for how long.",
+  "target_spans": [
+   "pukul tujuh pagi",
+   "pukul satu tengah hari",
+   "pukul empat petang",
+   "pukul sembilan malam",
+   "Petang",
+   "malam",
+   "pukul empat suku",
+   "pukul dua setengah",
+   "pukul empat empat puluh lima minit",
+   "jam",
+   "pukul",
+   "jam"
+  ],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 4A · Culture and usage note|3|1": {
+  "source_text": "Two card notes in Kata-Kata show how frequency words are built: seminggu sekali (once a week) is se- (one) + minggu, then sekali (card ms-c04-034), and biasanya is biasa (usual) + -nya (card ms-c04-030).",
+  "target_spans": [
+   "seminggu sekali",
+   "minggu",
+   "sekali",
+   "biasanya",
+   "-nya"
+  ],
+  "mention_spans": [
+   "se-",
+   "biasa"
+  ],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 4A · Culture and usage note|3|2": {
+  "source_text": "All of Malaysia keeps one time, Malaysian Standard Time (UTC+8). Until the end of 1981 Peninsular Malaysia was half an hour behind Sabah and Sarawak; on 1 January 1982 it moved its clocks forward 30 minutes so the whole country shares one time. Malaysia is one hour behind Japan, so 9 a.m. in Tokyo is 8 a.m. in Kuala Lumpur.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Culture and usage note|3|3": {
+  "source_text": "In Peninsular Malaysia the Employment Act 1955 limits normal working hours to 45 a week; the limit came down from 48 hours on 1 January 2023.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Culture and usage note|3|4": {
+  "source_text": "■ 日本語",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Culture and usage note|3|5": {
+  "source_text": "日常会話では、ほとんどのマレーシア人は12時間制で時刻を言い、時間帯を付け加えます：pukul tujuh pagi（午前7時）、pukul satu tengah hari（午後1時）、pukul empat petang（午後4時）、pukul sembilan malam（午後9時）。petang は午後から日没ごろまでで、暗くなると malam です。15分と30分は第3章の語を使います：pukul empat suku は4時15分、pukul dua setengah は2時30分です。4時45分は分の数で言います：pukul empat empat puluh lima minit。くだけた会話では時刻に jam を使う人もいますが、このコースでは時刻は pukul、かかる時間は jam で言います。",
+  "target_spans": [
+   "pukul tujuh pagi",
+   "pukul satu tengah hari",
+   "pukul empat petang",
+   "pukul sembilan malam",
+   "petang",
+   "malam",
+   "pukul empat suku",
+   "pukul dua setengah",
+   "pukul empat empat puluh lima minit",
+   "jam",
+   "pukul",
+   "jam"
+  ],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 4A · Culture and usage note|3|6": {
+  "source_text": "Kata-Kata のカード注記に、頻度の語の成り立ちが二つあります：seminggu sekali（週に一回）は se-（一つ）＋minggu、そのあとに sekali（カード ms-c04-034）。biasanya は biasa（ふつうの）＋-nya（カード ms-c04-030）です。",
+  "target_spans": [
+   "seminggu sekali",
+   "minggu",
+   "sekali",
+   "biasanya",
+   "-nya"
+  ],
+  "mention_spans": [
+   "se-",
+   "biasa"
+  ],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 4A · Culture and usage note|3|7": {
+  "source_text": "マレーシア全土は一つの時刻、マレーシア標準時（UTC+8）を使っています。1981年末まで、マレー半島はサバ州・サラワク州より30分遅れていましたが、1982年1月1日に時計を30分進め、国全体が同じ時刻になりました。マレーシアは日本より1時間遅いので、東京の午前9時はクアラルンプールの午前8時です。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Culture and usage note|3|8": {
+  "source_text": "マレー半島では、1955年雇用法により通常の労働時間は週45時間までと決められています。この上限は2023年1月1日に48時間から引き下げられました。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Culture and usage note|4|0": {
+  "source_text": "English note: 233 words. The Japanese is a full translation (draft).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Culture and usage note|4|1": {
+  "source_text": "Sources: Kata-Kata cards ms-c04-030 and ms-c04-034 (word-building); Malaysian Standard Time Act 1981 and the 1982 change (see docs/STEP-5b-report.md for the references checked); Employment Act 1955 as amended by the Employment (Amendment) Act 2022, in force 1 January 2023 (Department of Labour Peninsular Malaysia).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Culture and usage note|4|2": {
+  "source_text": "Discussion prompt for the teacher: What time is it in Japan now? How do people in your office say the time: 12-hour or 24-hour?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|0|0": {
+  "source_text": "聞く・語彙・文型・読むの17問と話す課題1つです。間違いは次の授業で練習します。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|2|0": {
+  "source_text": "Seventeen low-stakes items plus one speaking task and an \"I can\" self-check.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|0": {
+  "source_text": "The teacher reads five lines from the listening script.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|1": {
+  "source_text": "L1. When is the class? Write the days and the time.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|2": {
+  "source_text": "L2. How long is one class?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|3": {
+  "source_text": "L3. What time is the Saturday class, and how long?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|4": {
+  "source_text": "L4. When is the first Saturday class?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|5": {
+  "source_text": "L5. On what date is there no class this month?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|6": {
+  "source_text": "■ Words and grammar · 語彙と文型",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|7": {
+  "source_text": "V1. Write the Malay for: the day after tomorrow",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|8": {
+  "source_text": "V2. Write the Malay for: the day before yesterday",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|9": {
+  "source_text": "V3. Write the Malay for: every",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|10": {
+  "source_text": "V4. Write the Malay for: rarely",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|11": {
+  "source_text": "V5. Write the Malay for: Thursday",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|12": {
+  "source_text": "V6. Write the Malay for: when?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|13": {
+  "source_text": "G1. Say 4.15 p.m. in Malay.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|14": {
+  "source_text": "G2. Choose pukul or jam: Kelas saya tiga ___. (The class is three hours.)",
+  "target_spans": [
+   "pukul",
+   "jam",
+   "Kelas saya tiga ___."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|3|15": {
+  "source_text": "■ Reading · 読む",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|16": {
+  "source_text": "Fictional message: Kelas badminton setiap hari Rabu, pukul lapan malam. Satu kelas satu jam setengah. Minggu ini tidak ada kelas hari Rabu; kelas hari Khamis, pukul lapan malam.",
+  "target_spans": [
+   "Kelas badminton setiap hari Rabu, pukul lapan malam. Satu kelas satu jam setengah. Minggu ini tidak ada kelas hari Rabu; kelas hari Khamis, pukul lapan malam."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|3|17": {
+  "source_text": "R1. On which day is the class every week?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|18": {
+  "source_text": "R2. What time does it start?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|19": {
+  "source_text": "R3. How long is one class?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|20": {
+  "source_text": "R4. What is different this week?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|21": {
+  "source_text": "■ Speaking · 話す",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|22": {
+  "source_text": "S1. Tell your partner your fictional week: two activities with a day and a time, and how often you do one of them. Then ask your partner a question with bila.",
+  "target_spans": [
+   "bila"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|3|23": {
+  "source_text": "■ I can · 自己評価",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|24": {
+  "source_text": "☐ I can tell the time, name the days and say how often I do something. / 時刻と曜日が言え、何かをする頻度が言える。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|3|25": {
+  "source_text": "☐ I can ask and answer when something happens with bila, hari apa and pukul berapa. / bila・hari apa・pukul berapa で、いつ何があるかをたずね、答えられる。",
+  "target_spans": [
+   "bila",
+   "hari apa",
+   "pukul berapa",
+   "bila",
+   "hari apa",
+   "pukul berapa"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|4|0": {
+  "source_text": "☐ I can understand a class timetable and arrange a weekly activity. / クラスの時間割が分かり、毎週の予定を決められる。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|4|1": {
+  "source_text": "☐ I can recognise weather and holiday words in two Kata-Kata Dunia scenes. / Kata-Kata の二つの Dunia 場面で、天気と休暇の語を聞いて分かる。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|5|0": {
+  "source_text": "L1: Teacher reads: Kelas encik setiap hari Selasa dan Khamis, pukul tujuh setengah malam. Answer: Tuesday and Thursday, 7.30 p.m.",
+  "target_spans": [
+   "Kelas encik setiap hari Selasa dan Khamis, pukul tujuh setengah malam."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|1": {
+  "source_text": "L2: Teacher reads: Dua jam. Answer: two hours",
+  "target_spans": [
+   "Dua jam."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|2": {
+  "source_text": "L3: Teacher reads: Ada. Hari Sabtu pukul sepuluh pagi. Kelas Sabtu tiga jam. Answer: 10 a.m., three hours",
+  "target_spans": [
+   "Ada. Hari Sabtu pukul sepuluh pagi. Kelas Sabtu tiga jam."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|3": {
+  "source_text": "L4: Teacher reads: Sabtu ini. Lima hari lagi. Answer: this Saturday (in five days)",
+  "target_spans": [
+   "Sabtu ini. Lima hari lagi."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|4": {
+  "source_text": "L5: Teacher reads: Bulan ini, dua puluh empat hari bulan. Answer: the 24th",
+  "target_spans": [
+   "Bulan ini, dua puluh empat hari bulan."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|5": {
+  "source_text": "V1: lusa",
+  "target_spans": [
+   "lusa"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|6": {
+  "source_text": "V2: kelmarin",
+  "target_spans": [
+   "kelmarin"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|7": {
+  "source_text": "V3: setiap",
+  "target_spans": [
+   "setiap"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|8": {
+  "source_text": "V4: jarang",
+  "target_spans": [
+   "jarang"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|9": {
+  "source_text": "V5: Khamis",
+  "target_spans": [
+   "Khamis"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|10": {
+  "source_text": "V6: bila",
+  "target_spans": [
+   "bila"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|11": {
+  "source_text": "G1: pukul empat suku petang",
+  "target_spans": [
+   "pukul empat suku petang"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|12": {
+  "source_text": "G2: jam",
+  "target_spans": [
+   "jam"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|13": {
+  "source_text": "R1: Wednesday (hari Rabu)",
+  "target_spans": [
+   "hari Rabu"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|14": {
+  "source_text": "R2: 8 p.m.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|5|15": {
+  "source_text": "R3: one and a half hours",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|5|16": {
+  "source_text": "R4: no class on Wednesday; the class is on Thursday at 8 p.m.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Unit test and self-check|5|17": {
+  "source_text": "S1: Check: hari + day; pukul + number + part of day; one frequency word in the right place; a bila question.",
+  "target_spans": [
+   "hari",
+   "pukul",
+   "bila"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 4A · Unit test and self-check|5|18": {
+  "source_text": "17 scored items and one speaking task. Low-stakes: go over mistakes in the next class.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "test:ms-c04a-test-01|prompt": {
+  "source_text": "L1. When is the class? Write the days and the time.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-01|answer_key": {
+  "source_text": "Teacher reads: Kelas encik setiap hari Selasa dan Khamis, pukul tujuh setengah malam. Answer: Tuesday and Thursday, 7.30 p.m.",
+  "target_spans": [
+   "Kelas encik setiap hari Selasa dan Khamis, pukul tujuh setengah malam."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-02|prompt": {
+  "source_text": "L2. How long is one class?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-02|answer_key": {
+  "source_text": "Teacher reads: Dua jam. Answer: two hours",
+  "target_spans": [
+   "Dua jam."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-03|prompt": {
+  "source_text": "L3. What time is the Saturday class, and how long?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-03|answer_key": {
+  "source_text": "Teacher reads: Ada. Hari Sabtu pukul sepuluh pagi. Kelas Sabtu tiga jam. Answer: 10 a.m., three hours",
+  "target_spans": [
+   "Ada. Hari Sabtu pukul sepuluh pagi. Kelas Sabtu tiga jam."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-04|prompt": {
+  "source_text": "L4. When is the first Saturday class?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-04|answer_key": {
+  "source_text": "Teacher reads: Sabtu ini. Lima hari lagi. Answer: this Saturday (in five days)",
+  "target_spans": [
+   "Sabtu ini. Lima hari lagi."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-05|prompt": {
+  "source_text": "L5. On what date is there no class this month?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-05|answer_key": {
+  "source_text": "Teacher reads: Bulan ini, dua puluh empat hari bulan. Answer: the 24th",
+  "target_spans": [
+   "Bulan ini, dua puluh empat hari bulan."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-06|prompt": {
+  "source_text": "V1. Write the Malay for: the day after tomorrow",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-06|answer_key": {
+  "source_text": "lusa",
+  "target_spans": [
+   "lusa"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-07|prompt": {
+  "source_text": "V2. Write the Malay for: the day before yesterday",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-07|answer_key": {
+  "source_text": "kelmarin",
+  "target_spans": [
+   "kelmarin"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-08|prompt": {
+  "source_text": "V3. Write the Malay for: every",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-08|answer_key": {
+  "source_text": "setiap",
+  "target_spans": [
+   "setiap"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-09|prompt": {
+  "source_text": "V4. Write the Malay for: rarely",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-09|answer_key": {
+  "source_text": "jarang",
+  "target_spans": [
+   "jarang"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-10|prompt": {
+  "source_text": "V5. Write the Malay for: Thursday",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-10|answer_key": {
+  "source_text": "Khamis",
+  "target_spans": [
+   "Khamis"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-11|prompt": {
+  "source_text": "V6. Write the Malay for: when?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-11|answer_key": {
+  "source_text": "bila",
+  "target_spans": [
+   "bila"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-12|prompt": {
+  "source_text": "G1. Say 4.15 p.m. in Malay.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-12|answer_key": {
+  "source_text": "pukul empat suku petang",
+  "target_spans": [
+   "pukul empat suku petang"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-13|prompt": {
+  "source_text": "G2. Choose pukul or jam: Kelas saya tiga ___. (The class is three hours.)",
+  "target_spans": [
+   "pukul",
+   "jam",
+   "Kelas saya tiga ___."
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-13|answer_key": {
+  "source_text": "jam",
+  "target_spans": [
+   "jam"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-14|prompt": {
+  "source_text": "R1. On which day is the class every week?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-14|answer_key": {
+  "source_text": "Wednesday (hari Rabu)",
+  "target_spans": [
+   "hari Rabu"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-15|prompt": {
+  "source_text": "R2. What time does it start?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-15|answer_key": {
+  "source_text": "8 p.m.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-16|prompt": {
+  "source_text": "R3. How long is one class?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-16|answer_key": {
+  "source_text": "one and a half hours",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-17|prompt": {
+  "source_text": "R4. What is different this week?",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-17|answer_key": {
+  "source_text": "no class on Wednesday; the class is on Thursday at 8 p.m.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-18|prompt": {
+  "source_text": "S1. Tell your partner your fictional week: two activities with a day and a time, and how often you do one of them. Then ask your partner a question with bila.",
+  "target_spans": [
+   "bila"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "test:ms-c04a-test-18|answer_key": {
+  "source_text": "Check: hari + day; pukul + number + part of day; one frequency word in the right place; a bila question.",
+  "target_spans": [
+   "hari",
+   "pukul",
+   "bila"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Unit 4A · Teaching plan and answer key|0|0": {
+  "source_text": "先生用：45分×5ブロックの進め方、注意点、宿題です。答えは各シートのキーにあります。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|2|0": {
+  "source_text": "Teacher plan: five 45-minute blocks with timings, what to listen for and homework. Answers are on each sheet.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|0": {
+  "source_text": "Before Block A: Kata-Kata Sedia Kelas c04 (24 cards, frames ms-c04-f01 and ms-c04-f02).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|1": {
+  "source_text": "Before Block E: Kata-Kata Dunia \"Hujan petang\" and \"Cuti ke pantai\"; learners only need to recognise the scene words.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|2": {
+  "source_text": "After Block D: the Kata-Kata chapter 4 deck with spaced review, frames ms-c04-f01, ms-c04-f02 in the frame drill and Susun Ayat; about 3 hours of self-study for this unit (planning figure).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|3": {
+  "source_text": "Hanashishou starts at A2, so there is no Hanashishou scene for this unit. Listening uses the teacher-read script.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|4": {
+  "source_text": "■ Block A · Words and patterns (45 min)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|5": {
+  "source_text": "Goal: I can tell the time, name the days and say how often I do something.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|6": {
+  "source_text": "0–5 Recall: chapter 3 prices, ages and phone numbers (opener prompts).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|7": {
+  "source_text": "5–10 Tanya Cikgu questions from Kata-Kata.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|8": {
+  "source_text": "10–20 Vocabulary focus: core words first; Dunia and revision words are only pointed out.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|9": {
+  "source_text": "20–40 Pattern focus: patterns 1 to 4 (clock time, days and dates, frequency, bila and jam), Q&A first, rule second.",
+  "target_spans": [
+   "bila",
+   "jam"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 4A · Teaching plan and answer key|3|10": {
+  "source_text": "40–45 First substitutions (Drill 2, items 1 to 3).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|11": {
+  "source_text": "■ Block B · Drills and conversation (45 min)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|12": {
+  "source_text": "Goal: I can ask and answer when something happens with bila, hari apa and pukul berapa.",
+  "target_spans": [
+   "bila",
+   "hari apa",
+   "pukul berapa"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 4A · Teaching plan and answer key|3|13": {
+  "source_text": "0–5 Recall: say the time now and the day today without notes.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|14": {
+  "source_text": "5–25 Drill ladder in order: pattern table, substitution, transformation, question and answer, question-word choice, short dialogues.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|15": {
+  "source_text": "25–40 Model conversation, gapped form, then the changed-facts variant.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|16": {
+  "source_text": "40–45 Pair rehearsal without the script.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|17": {
+  "source_text": "■ Block C · Listening and task (45 min)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|18": {
+  "source_text": "Goal: I can understand a class timetable and arrange a weekly activity.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|19": {
+  "source_text": "0–5 Recall: learners ask each other Bila …? about their week.",
+  "target_spans": [
+   "Bila …?"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 4A · Teaching plan and answer key|3|20": {
+  "source_text": "5–20 Listening: read the questions, two readings, check, then shadow three lines.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|21": {
+  "source_text": "20–30 Reading and writing.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|3|22": {
+  "source_text": "30–45 Task with role cards; announce the change of plan halfway.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|4|0": {
+  "source_text": "Goal: I can check my time, day and frequency language in a short test.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|4|1": {
+  "source_text": "0–15 Mixed review: cumulative question-word drill (chapters 1 to 4, including bila, pukul berapa, hari apa), then chapter 3 numbers.",
+  "target_spans": [
+   "bila",
+   "pukul berapa",
+   "hari apa"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 4A · Teaching plan and answer key|4|2": {
+  "source_text": "15–25 Unit test (low-stakes).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|4|3": {
+  "source_text": "25–35 Self-check and feedback.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|4|4": {
+  "source_text": "35–45 Preview: unit 4B cards in Kata-Kata (sudah, belum, sedang, akan; daily verbs).",
+  "target_spans": [
+   "sudah",
+   "belum",
+   "sedang",
+   "akan"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 4A · Teaching plan and answer key|4|5": {
+  "source_text": "■ Block E · Dunia scene (45 min)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|4|6": {
+  "source_text": "Goal: I can recognise weather and holiday words in two Kata-Kata Dunia scenes.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|4|7": {
+  "source_text": "0–5 Recall: the weather today and the time now.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|4|8": {
+  "source_text": "5–15 Kata-Kata Dunia scenes \"Hujan petang\" and \"Cuti ke pantai\" as listening (teacher reads, learners point to pictures or words).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|4|9": {
+  "source_text": "15–30 Role-play of one scene.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|4|10": {
+  "source_text": "30–40 Free variation: the weather changes (it starts to rain), or a holiday flight moves to another day.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|4|11": {
+  "source_text": "40–45 Culture and usage note discussion.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|4|12": {
+  "source_text": "■ What to listen for · 注意点",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|4|13": {
+  "source_text": "pukul before the number for clock time; jam after the number for how long.",
+  "target_spans": [
+   "pukul",
+   "jam"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 4A · Teaching plan and answer key|4|14": {
+  "source_text": "Do not teach kurang suku. For :45 say the minutes: pukul empat empat puluh lima minit (Sam, ledger Journal).",
+  "target_spans": [
+   "pukul empat empat puluh lima minit"
+  ],
+  "mention_spans": [
+   "kurang suku"
+  ],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 4A · Teaching plan and answer key|4|15": {
+  "source_text": "Dates: berapa hari bulan? and dua belas hari bulan are taught as the spoken way to give the day of the month. Month names and the noun for \"date\" are not yet ledger words (see the step 5b report).",
+  "target_spans": [
+   "berapa hari bulan?",
+   "dua belas hari bulan"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 4A · Teaching plan and answer key|4|16": {
+  "source_text": "Use only root verbs from chapters 2 to 4 (main, kerja, belajar, masak). Daily-routine verbs come in unit 4B.",
+  "target_spans": [
+   "main",
+   "kerja",
+   "belajar",
+   "masak"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 4A · Teaching plan and answer key|4|17": {
+  "source_text": "Dunia words from \"Hujan petang\" and \"Cuti ke pantai\" are for recognition in Block E only.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|5|0": {
+  "source_text": "Answer keys are on each component. Japanese text awaits native review.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 4A · Teaching plan and answer key|5|1": {
+  "source_text": "Standard forms first; spoken forms are labelled. No productive ber- or me- verbs (root verbs only).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
  "Chapter 1 · Fast-course summary pack|0|0": {
   "source_text": "速習コース用：第1章を45分1回で学び、残りは Kata-Kata で自習します。目標、基本の20語、文型、会話、タスク、チェック、自習ガイドがあります。",
   "target_spans": [],
