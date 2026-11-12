@@ -111,7 +111,7 @@ def add_course(lessons, lesson, suite_units=()):
             supplementary.append(group)
     groups=stage1+[future]+supplementary+[g for g in groups if g["lang"]!="Malay"]
     # Preserve source texts on disk but do not expose superseded chapter 3 packs.
-    superseded=set(old["Beli buah di pasar"]["items"])
+    superseded={t for t in old["Beli buah di pasar"]["items"] if t.startswith("Beli buah di pasar · ")}
     lessons[:]=[l for l in lessons if l["title"] not in superseded]
     titles={l["title"] for l in lessons}|{t for u in suite_units for t in u["titles"]}
     missing={t for group in groups for t in group["items"]}-titles
