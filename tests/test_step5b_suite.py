@@ -244,6 +244,20 @@ class Chapter4Minimums(unittest.TestCase):
         self.assertIn(l['title'], ch4['fast_items'])
         self.assertEqual(ch4['status'], 'Step 5b chapter 4 suite · draft for pilot')
 
+    def test_sam_decisions_12_nov(self):
+        """Dates use «hari bulan berapa»; «jam» for clock time is explained; ‹ke› appears only as a mention in explainers and notes."""
+        p4a = ' '.join(self.lines(self.comp('ms-c04a', 'Pattern and grammar')))
+        self.assertIn('«Hari ini hari bulan berapa?»', p4a)
+        self.assertIn('«Hari ini hari apa?»', p4a)
+        self.assertIn('«jam tiga»', p4a)
+        self.assertIn('Monday to Friday', ' '.join(self.lines(self.comp('ms-c04a', 'Culture note'))))
+        if 'ms-c04b' in self.new:
+            explain = ' '.join(x for _, xs in self.comp('ms-c04b', 'Pattern and grammar')['explainers'] for x in xs)
+            self.assertIn('‹ke›', explain)
+            for l in self.by_unit['ms-c04b']:
+                spans = [s for _, xs, _ in l['sections'] for x in xs for s in re.findall(r'«([^»]*)»', x)]
+                self.assertFalse([s for s in spans if 'ke' in s.lower().split()], l['title'])
+
     def test_legacy_retirement_and_catalogue(self):
         built = {x['title'] for x in bank()}
         retired = ['Clock time', 'Dates and days'] + (['Frequency and routines'] if 'ms-c04b' in self.new else [])

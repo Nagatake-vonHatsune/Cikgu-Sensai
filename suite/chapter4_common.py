@@ -89,8 +89,8 @@ def components(ledger, cfg):
         ['Model each A line; learners answer as B, then swap. Explain the rule only after they have used the pattern.',
          'Pattern IDs are the Kata-Kata chapter 4 frames. Explanations and Japanese comparisons are drafts.',
          *cfg['pattern_keys']],
-        ('まず質問と答えを声に出して練習し、そのあとで説明を読みます。日本語との比較は未監修です。',
-         'Practise the questions and answers aloud first, then read the explanation.'),
+        cfg.get('pattern_explain', ('まず質問と答えを声に出して練習し、そのあとで説明を読みます。日本語との比較は未監修です。',
+                                    'Practise the questions and answers aloud first, then read the explanation.')),
         goal=goals['A'])
 
     # 4 · Drills (section 14 ladder)

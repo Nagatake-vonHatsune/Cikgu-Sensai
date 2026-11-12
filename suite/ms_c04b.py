@@ -32,8 +32,8 @@ EXAMPLES = {
     'L-0199': '«Saya tidur pukul sebelas malam.»',
     'L-0550': '«Saya bangun pukul enam pagi.»',
     'L-0200': '«Saya mandi pagi dan malam.»',
-    'L-0201': '«Saya pergi kerja pukul lapan.» (‹ke›, "to", comes in chapter 7)',
-    'L-0202': '«Saya balik rumah pukul tujuh.» / «Dia pulang pukul enam petang.»',
+    'L-0201': '«Saya pergi kerja pukul lapan.» (in writing you will also see «pergi» ‹ke› «pejabat»; ‹ke› = "to", chapter 7)',
+    'L-0202': '«Saya balik rumah pukul tujuh.» / «Dia pulang pukul enam petang.» (in writing also «balik» ‹ke› «rumah»)',
     'L-0203': '«Saya sampai di pejabat pukul sembilan.»',
     'L-0496': '«Tunggu lima minit, ya.»',
     'L-1006': '«Bos datang pukul sepuluh.»',
@@ -218,6 +218,11 @@ CFG = dict(
     revision=[('Chapters 1 to 3', REV_EARLIER), ('Unit 4A', REV_4A)],
     core_groups=[('Tense and aspect markers', MARKERS), ('The daily routine', ROUTINE), ('The working day', WORKDAY)],
     grammar=['aspect', 'experience', 'routine'], examples=EXAMPLES, vocab_opts=VOCAB_OPTS,
+    # Sam, 12 Nov 2026: introduce ke slowly to sensitise learners, not in the main line but in the explainer.
+    pattern_explain=('まず質問と答えを声に出して練習し、そのあとで説明を読みます。日本語との比較は未監修です。'
+                     '先取り（テストなし）：書き言葉では、場所の前に ‹ke›（〜へ）がよく付きます：«pergi» ‹ke› «pejabat»、«balik» ‹ke› «rumah»。‹ke› は第7章で学びます。',
+                     'Practise the questions and answers aloud first, then read the explanation. '
+                     'Looking ahead (not tested): in writing you will often see ‹ke› ("to") before a place: «pergi» ‹ke› «pejabat», «balik» ‹ke› «rumah». You will learn ‹ke› in chapter 7; for now «pergi kerja» and «balik rumah» are what people say.'),
     dunia_list='"Satu hari Encik Tanaka" and "Bangun pagi"',
     goals={'A': 'I can describe my daily routine with times and say what I have done, am doing and will do.',
            'B': 'I can ask and answer «Sudah …?» questions and use «belum», «masih» and «pernah».',
@@ -381,7 +386,7 @@ CFG = dict(
           'E_recall': 'what time you got up and what you have not done yet today.',
           'E_variation': 'the alarm clock does not ring, or the boss arrives early.'},
     teacher_notes=['Standard first: «sudah» before spoken «dah»; «sedang» before spoken «tengah». Once both are on the board, accept spoken forms in pair work.',
-                   '‹ke› (to) is a chapter 7 word, so this unit uses «pergi kerja», «balik rumah» and «sampai di …», which are everyday Malaysian speech.',
+                   '‹ke› (to) is a chapter 7 word, so this unit uses «pergi kerja», «balik rumah» and «sampai di …», which are everyday Malaysian speech. Sam (12 Nov 2026): show ‹ke› in explainers and notes to sensitise learners, but do not drill or test it before chapter 7.',
                    'With «semalam» a plain verb is natural («Semalam saya balik lambat»); «sudah» is not required. With «esok» or «minggu depan», «akan» is optional.',
                    'If «Sudah …?» is answered «Tidak» where "not yet" is meant, model «Belum».',
                    'Root verbs only («makan», «minum», «tidur», «mandi», «pergi», «bangun», «mula», «datang»); affixed forms wait for chapters 10 and 11.',

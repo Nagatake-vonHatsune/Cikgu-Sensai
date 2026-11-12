@@ -13,6 +13,9 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 - **Unverified:** «hari bulan» for dates; usage statements in the culture notes; «pergi kerja» / «balik rumah» without «ke»; Japanese (draft); Kamus Dewan check for L-0983 to L-1031. All times and schedules in the units are fictional.
 - **Chapter 3** (step 5a and the review fixes) is unchanged and still awaits Sam's pilot feedback.
 - **Chapter 5 waits for Sam's explicit go-ahead.** Do not start it until he gives it.
+- **Sam's answers to the step 5b questions (12 Nov 2026)** are recorded in `docs/STEP-5b-report.md` (last section): «hari bulan» for the day of the month and «tarikh» for the full date; the working-week line for KL and Selangor; split approved; «jam tiga» allowed if explained; ‹ke› shown in explainers only; proposed ledger rows approved.
+- **Half-done:** the approved ledger rows L-1032 to L-1047 (tarikh, Januari to Disember, hujung minggu, sekejap, lewat) are **not** in the Google Sheet. The write was blocked by the session's permissions. L-0614 sarapan was edited in the sheet (Ch4 pending) but has **no Journal row**, and the repo snapshot is not refreshed. Next action: write the rows and Journal entries, refresh both CSV copies and the hash, then add the words to 4A (tarikh, months) and 4B (hujung minggu, sarapan, sekejap, lewat).
+- **Open with Sam:** he wrote «Hari ini hari bulan apa?» → "Thursday". The units keep «Hari ini hari apa?» for the weekday until he confirms.
 
 ## Done
 
@@ -66,7 +69,7 @@ Sam asked for a targeted fix after Claude's review of step 5a. Word lists, the 3
 
 ## Next: Sam's feedback, then chapter 5 only on his go-ahead
 
-1. Sam answers the step 5b questions (dates and «hari bulan», the working-week line, the split, «jam» for clock time, routines without «ke», and the proposed ledger rows).
+1. Finish the ledger rows approved on 12 Nov (see Current state), then add them to 4A and 4B. Confirm «hari bulan apa» with Sam.
 2. Chapter 3 and chapter 4 pilot feedback: timings, drill load, the fast packs.
 3. **Chapter 5 waits for Sam's go-ahead.**
 

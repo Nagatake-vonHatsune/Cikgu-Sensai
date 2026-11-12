@@ -117,3 +117,22 @@ The Kata-Kata chapter 4 file uses words placed after chapter 4: frame ms-c04-f02
 5. **Without «ke»:** is «pergi kerja» / «balik rumah» acceptable until chapter 7?
 6. **Proposed rows:** tarikh, months, hujung minggu, sarapan, sekejap, lewat.
 7. **Chapter 5:** waits for your go-ahead.
+
+## Sam's answers (12 Nov 2026) and the follow-up
+
+| # | Sam's answer | What changed |
+| --- | --- | --- |
+| 1 | «tarikh» and «hari bulan» are separate. «Apa tarikh hari ini?» asks the full date; «Hari ini hari bulan berapa?» asks the day of the month (answer: the 11th). | 4A pattern 2, short dialogue 4 and the teacher notes now use «Hari ini hari bulan berapa?» → «Sebelas hari bulan.» The spelling is «hari bulan» (two words). «tarikh» waits for its ledger row (see below). |
+| 1 (open) | Sam also wrote «Hari ini hari bulan apa?» with the answer "Thursday". | **Not taught yet.** Sam's legacy pack Dates and days ("Hari apa? untuk hari. Berapa hari bulan? untuk tarikh.") and charter section 14 ("Chapter 4: bila, pukul berapa, hari apa") both use «hari apa» for the weekday. 4A keeps «Hari ini hari apa?» until Sam confirms. |
+| 2 | Yes to a neutral working-week line. | 4A culture note: "In Kuala Lumpur and Selangor most offices work Monday to Friday, and Saturday and Sunday are the weekend." Source: The Star, 9 Dec 2013 (the Sultan of Selangor keeps Saturday and Sunday as rest days) and Wikipedia "Public holidays in Malaysia" (Rank 3). Other states are not mentioned. |
+| 3 | Split approved. | No change. |
+| 4 | «pukul» and «jam» for clock time are both fine if explained. | 4A pattern 4 now says that «jam tiga» is common in casual speech and that the course practises «pukul tiga» (EN and JA). |
+| 5 | Introduce ‹ke› / «di» gradually in explainers, not in the main line. | 4B pattern-focus explainer (EN and JA) and the vocabulary examples for «pergi» and «balik» show «pergi» ‹ke› «pejabat» and «balik» ‹ke› «rumah» as a "looking ahead, not tested" note. ‹ke› is a mention only, never drilled or tested; a test checks this. «di» is already a chapter 2 word. |
+| 6 | Proposed ledger rows approved: tarikh, Januari to Disember, hujung minggu, sarapan, sekejap, lewat. | **Not yet in the ledger** (see below). |
+
+### Ledger state after this session (needs Sam)
+
+- The write of the 16 new rows (L-1032 to L-1047: tarikh, the twelve months, hujung minggu, sekejap, lewat) to the Google Sheet was **blocked by the session's permission system**, so the rows and their Journal entries are not there.
+- Two small edits to the existing **L-0614 sarapan** row did go through: Kata-Kata place "Jambatan · Daily life; Ch4 (pending)", Action "Add Kata-Kata Ch4 card; refresh Cikgu Sensai snapshot", last changed 2026-11-12. **No Journal row records this yet.** The repo snapshot was not refreshed, so `curriculum/reference/katakata/malay-ledger.csv` still shows the old place for L-0614.
+- AGENTS.md forbids adding words to the snapshot before the Journal records Sam's approval, so units 4A and 4B do not use the new words yet.
+- **To finish:** add the rows and Journal entries (Sam, or a session allowed to write to the sheet). Then regenerate both CSV copies from the sheet (a regeneration reproduced the current file byte for byte on 12 Nov), update the hash in `docs/step4-sources.json`, and add the words to the units. Planned placement: tarikh and the twelve months in 4A (dates; 4A becomes 40 core), and hujung minggu, sarapan, sekejap and lewat in 4B (31 core). That breaks 27/27 parity, but the month names are close to English. If Sam prefers parity, the frequency words could move to 4B instead.
