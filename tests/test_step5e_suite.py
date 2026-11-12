@@ -303,8 +303,17 @@ class Chapter7Minimums(unittest.TestCase):
         body = ' '.join(self.lines(plan))
         self.assertIn('Sedia Kelas c07', body)
         self.assertIn('0–5', body)
-        # The writing block for unit 7 is written in the next commit.
-        self.assertFalse(any(l['suite']['block'] == 'Skills' for l in self.by_unit[self.u]))
+        # The writing block for unit 7 (directions by message), 45 minutes, registered in the catalogue.
+        wb = self.comp('Reading and writing', 'composition')
+        self.assertEqual(wb['suite']['id'], 'ms-c07-writing-block')
+        self.assertEqual(wb['suite']['block'], 'Skills')
+        self.assertEqual(wb['suite']['time_minutes'], 45)
+        wtxt = ' '.join(self.lines(wb))
+        for part in ('Model', 'Your turn', 'Peer check'):
+            self.assertIn(part, ' '.join(n for n, _, _ in wb['sections']))
+        for w in ('«jalan terus»', '«jangan»', '«lebih kurang»', '«kilometer»', 'minit'):
+            self.assertIn(w, wtxt, w)
+        self.assertTrue(any(x.startswith('Model:') for x in wb['key']))
 
     def test_chapter7_malay_rules(self):
         label = re.compile(r'spoken|speech|話し言葉|口語', re.I)
@@ -467,8 +476,8 @@ class Chapter7Minimums(unittest.TestCase):
         for unit in (self.u, 'ms-c07-fast'):
             self.assertIn(unit, reauthored)
         block = next(b for b in catalogue['additional_blocks'] if b['id'] == 'ms-stage1-writing-7')
-        self.assertEqual(block['component_ids'], [])
-        self.assertEqual(block['status'], 'not yet authored')
+        self.assertEqual(block['component_ids'], ['ms-c07-writing-block'])
+        self.assertEqual(block['status'], 'pilot draft')
 
 
 if __name__ == '__main__':
