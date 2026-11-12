@@ -19,9 +19,9 @@ All counts are unique ledger entries. A slash variant («sudah» / «dah», «ba
 
 | Unit | Theme | New core | Dunia recognition (by scene) | Revision (not counted, not tested as new) |
 | --- | --- | ---: | --- | --- |
-| 4A | Telling the time, days and dates, frequency, «bila» | **27** | **25**: "Hujan petang" 12, "Cuti ke pantai" 13 | 10 from chapters 1 to 3 |
-| 4B | Tense and aspect markers, daily routine, the working day | **27** | **30**: "Satu hari Encik Tanaka" 17, "Bangun pagi" 13 | 8 from chapters 1 to 3, 5 from unit 4A |
-| **Total** | | **54** | **55** | |
+| 4A | Telling the time, days and dates, months, frequency, «bila» | **40** (27 + «tarikh» and 12 months, added 12 Nov) | **25**: "Hujan petang" 12, "Cuti ke pantai" 13 | 10 from chapters 1 to 3 |
+| 4B | Tense and aspect markers, daily routine, the working day | **31** (27 + «sarapan», «sekejap», «hujung minggu», «lewat», added 12 Nov) | **30**: "Satu hari Encik Tanaka" 17, "Bangun pagi" 13 | 8 from chapters 1 to 3, 5 from unit 4A |
+| **Total** | | **71** | **55** | |
 
 **Ledger check.** The ledger places 54 core entries in chapter 4: the 48 rows placed "Ch4", plus «sekali» and «baru» ("Ch4; Ch6"), «bangun» (Dunia and Ch4, card ms-c04-046), «tunggu» (Dunia and Ch4, card ms-c04-051), and the pending rows «datang» (L-1006) and «bila» (L-1007). The 55 recognition entries are the four Dunia scenes that prime chapter 4, less «bangun». `tests/test_step5b_suite.py` recomputes both sets from the ledger and checks that 4A and 4B cover them exactly once.
 
@@ -68,7 +68,7 @@ Sam's suggested themes give 31 words to 4A and 23 to 4B. To reach 27 / 27 I move
 - **Changed:** `suite/__init__.py` (chapter 4 grammar points ms-c04-g02 to g08, Dunia scene titles, unit loading, glosses for «sudah» / «dah» and «balik» / «pulang»), `suite/fast.py` (chapter 4 pack), `course.py` (retired packs, chapter 4 status), `catalogue.py` (review block after 4B), `curriculum/reauthored-units.json` (+ms-c04a, ms-c04b, ms-c04-fast), `curriculum/legacy-exceptions.json` (three removed), `curriculum/malay-mentions.json` (‹biasa›, ‹kurang suku›, ‹ke›, each with its source), `tests/test_catalogue.py` (retired titles), `tests/test_language_checks.py` (its example of a still-legacy unit moved from ms-c04a to ms-c05), and the generated `dist/` files.
 - **Not changed:** the ledger, the Kata-Kata reference files, and the legacy lesson sources.
 
-## Proposed ledger rows (for Sam; nothing was added)
+## Proposed ledger rows (approved by Sam on 12 Nov and added; see the last section)
 
 | Word | Meaning | Proposed chapter | Why |
 | --- | --- | --- | --- |
@@ -130,9 +130,23 @@ The Kata-Kata chapter 4 file uses words placed after chapter 4: frame ms-c04-f02
 | 5 | Introduce ‹ke› / «di» gradually in explainers, not in the main line. | 4B pattern-focus explainer (EN and JA) and the vocabulary examples for «pergi» and «balik» show «pergi» ‹ke› «pejabat» and «balik» ‹ke› «rumah» as a "looking ahead, not tested" note. ‹ke› is a mention only, never drilled or tested; a test checks this. «di» is already a chapter 2 word. |
 | 6 | Proposed ledger rows approved: tarikh, Januari to Disember, hujung minggu, sarapan, sekejap, lewat. | **Not yet in the ledger** (see below). |
 
-### Ledger state after this session (needs Sam)
+### Second round (12 Nov 2026): Sam's further answers and the ledger update
 
-- The write of the 16 new rows (L-1032 to L-1047: tarikh, the twelve months, hujung minggu, sekejap, lewat) to the Google Sheet was **blocked by the session's permission system**, so the rows and their Journal entries are not there.
-- Two small edits to the existing **L-0614 sarapan** row did go through: Kata-Kata place "Jambatan · Daily life; Ch4 (pending)", Action "Add Kata-Kata Ch4 card; refresh Cikgu Sensai snapshot", last changed 2026-11-12. **No Journal row records this yet.** The repo snapshot was not refreshed, so `curriculum/reference/katakata/malay-ledger.csv` still shows the old place for L-0614.
-- AGENTS.md forbids adding words to the snapshot before the Journal records Sam's approval, so units 4A and 4B do not use the new words yet.
-- **To finish:** add the rows and Journal entries (Sam, or a session allowed to write to the sheet). Then regenerate both CSV copies from the sheet (a regeneration reproduced the current file byte for byte on 12 Nov), update the hash in `docs/step4-sources.json`, and add the words to the units. Planned placement: tarikh and the twelve months in 4A (dates; 4A becomes 40 core), and hujung minggu, sarapan, sekejap and lewat in 4B (31 core). That breaks 27/27 parity, but the month names are close to English. If Sam prefers parity, the frequency words could move to 4B instead.
+| Sam | What changed |
+| --- | --- |
+| The day of the month is «Hari bulan sebelas», not «sebelas hari bulan». | Every date in 4A and the fast pack now puts «hari bulan» first: pattern 2, the listening (line 16: «Bulan ini, hari bulan dua puluh empat.»), short dialogue 4, the drill keys and the teacher notes. A test rejects the old order. |
+| Share that some states have a Friday–Saturday weekend (Terengganu and Kelantan?), after checking. | **Checked:** Kedah, Kelantan and Terengganu have a Friday and Saturday weekend; Johor moved back from Friday–Saturday to Saturday–Sunday on 1 January 2025. Sources: Bernama, "Johor to revert weekend to Saturday and Sunday in 2025" (Oct 2024); The Star, "Johor's weekend to be Saturday-Sunday from Jan 1, 2025" (7 Oct 2024); Malay Mail, 18 Jan 2025 (the change in effect). All Rank 3 news reports of state decisions; no state gazette was read. The note gives the days only, not the reasons. **Correction to Sam's note: Kedah also has a Friday–Saturday weekend.** |
+| Sheet writes allowed; add tarikh and the months to 4A (40) and hujung minggu, sarapan, sekejap and lewat to 4B (31); breaking 27/27 parity is fine. | Done (below). |
+| «Hari ini hari apa?» works; «Hari ini hari bulan apa?» can be taken either way, depending on the listener. Verify. | **Could not verify:** a web search found no Malaysian source on «hari bulan apa» either way (the results were Indonesian calendar pages). 4A teaches the two clear questions («hari apa» for the weekday, «hari bulan berapa» for the date), and the teacher notes record Sam's point that «hari bulan apa» is heard both ways, so either answer is accepted. [UNVERIFIED beyond Sam's native judgement] |
+
+**Ledger update (done):**
+- The sheet was written first and logged in the Journal (rows 50 to 56).
+- New rows L-1032 to L-1047: «tarikh», «Januari» to «Disember» (Malaysian spellings: Mac, Jun, Julai, Ogos, Disember), «sekejap» and «lewat». All are marked "Not yet checked" for Kamus Dewan.
+- **A mistake of mine, corrected:** «hujung minggu» already existed as L-0702 (a Jambatan row with no chapter). L-1045 duplicated it, so L-1045 is now **Retired**, with its place cleared (IDs are never deleted), and L-0702 is placed in Ch4 instead. «sarapan» (L-0614) is placed in Ch4 the same way.
+- The repo copies were regenerated from `Ledger!A1:T1048`. Before the change, regenerating them from the sheet reproduced the files byte for byte. The new hash is in `docs/step4-sources.json`.
+- `suite.Ledger` no longer traces retired rows as taught words.
+- Where the words are used:
+  - 4A: a "Months" core group; «Apa tarikh hari ini?» → «Sebelas November.» in pattern 2, drill 4 (items 9 and 10), the reading notice (start date) and the test (V5 «tarikh», V6 «Ogos»).
+  - 4B: «sarapan» in the listening, «sekejap» in a short dialogue, «hujung minggu» in the listening, and «lewat» beside «lambat» in the vocabulary.
+- April, September and November are added to the English homograph list, because English text uses the same spellings.
+- Core is now **71** (4A 40, 4B 31). Recognition stays 55. The build and all 49 tests pass.

@@ -6,16 +6,16 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 
 - **Last updated:** 12 Nov 2026, Claude: step 5b, chapter 4 (units 4A, 4B and the fast pack). Details in `docs/STEP-5b-report.md`.
 - **Most recent approved scope:** chapter 4 only. Sam authorised it on 12 Nov 2026 without waiting for chapter 3 pilot feedback (this replaced the earlier "never start chapter 4" line) and pre-approved publication to main when the checks pass.
-- **Last commit on main:** the commit that adds `docs/STEP-5b-report.md` (after `8fee84c`). Build and all 48 tests pass at each step 5b commit.
+- **Last commit on main:** the commit that updates this file after `1f921c5` (ledger words and «hari bulan» order). Build and all 49 tests pass.
 - **Chapter 4 source:** `suite/chapter4_common.py`, `suite/ms_c04a.py`, `suite/ms_c04b.py`; the fast pack is `chapter4` in `suite/fast.py`. Tests: `tests/test_step5b_suite.py`.
-- **Words:** 27/27 new core (54, every chapter 4 ledger entry once); Dunia recognition by scene, 25 in 4A (Hujan petang, Cuti ke pantai) and 30 in 4B (Satu hari Encik Tanaka, Bangun pagi); revision in labelled groups (pagi, tengah hari, petang, malam, selepas, sebelum and other chapter 1 to 3 words; 4A words in 4B).
+- **Words:** 40/31 new core (71, every chapter 4 ledger entry once, including the 17 approved on 12 Nov: tarikh, the months, sekejap, lewat, sarapan L-0614 and hujung minggu L-0702); Dunia recognition by scene, 25 in 4A (Hujan petang, Cuti ke pantai) and 30 in 4B (Satu hari Encik Tanaka, Bangun pagi); revision in labelled groups (pagi, tengah hari, petang, malam, selepas, sebelum and other chapter 1 to 3 words; 4A words in 4B).
 - **Legacy:** Clock time, Dates and days, and Frequency and routines are retired from the catalogue (source kept). Legacy exceptions 44 → 41. Re-authored units now include ms-c04a, ms-c04b and ms-c04-fast.
-- **Unverified:** «hari bulan» for dates; usage statements in the culture notes; «pergi kerja» / «balik rumah» without «ke»; Japanese (draft); Kamus Dewan check for L-0983 to L-1031. All times and schedules in the units are fictional.
+- **Unverified:** «Hari ini hari bulan apa?» as a weekday question (Sam's judgement; no source found); usage statements in the culture notes; «pergi kerja» / «balik rumah» without «ke»; Japanese (draft); Kamus Dewan check for L-0983 to L-1047. All times and schedules in the units are fictional.
 - **Chapter 3** (step 5a and the review fixes) is unchanged and still awaits Sam's pilot feedback.
 - **Chapter 5 waits for Sam's explicit go-ahead.** Do not start it until he gives it.
 - **Sam's answers to the step 5b questions (12 Nov 2026)** are recorded in `docs/STEP-5b-report.md` (last section): «hari bulan» for the day of the month and «tarikh» for the full date; the working-week line for KL and Selangor; split approved; «jam tiga» allowed if explained; ‹ke› shown in explainers only; proposed ledger rows approved.
-- **Half-done:** the approved ledger rows L-1032 to L-1047 (tarikh, Januari to Disember, hujung minggu, sekejap, lewat) are **not** in the Google Sheet. The write was blocked by the session's permissions. L-0614 sarapan was edited in the sheet (Ch4 pending) but has **no Journal row**, and the repo snapshot is not refreshed. Next action: write the rows and Journal entries, refresh both CSV copies and the hash, then add the words to 4A (tarikh, months) and 4B (hujung minggu, sarapan, sekejap, lewat).
-- **Open with Sam:** he wrote «Hari ini hari bulan apa?» → "Thursday". The units keep «Hari ini hari apa?» for the weekday until he confirms.
+- **Second round (Sam, 12 Nov):** the day of the month is «Hari bulan sebelas» («hari bulan» first); the 4A culture note now says Kedah, Kelantan and Terengganu have a Friday and Saturday weekend and Johor returned to Saturday and Sunday on 1 Jan 2025 (checked; sources in the report). «Hari ini hari bulan apa?» can be heard as the weekday or the date: teach «hari apa» and «hari bulan berapa», accept either answer.
+- **Ledger (done, Journal rows 50 to 56):** L-1032 to L-1047 added; L-1045 retired as a duplicate of L-0702 «hujung minggu» (placed in Ch4 instead); L-0614 «sarapan» placed in Ch4. Repo copies and hash refreshed. Kata-Kata still needs cards for these words.
 
 ## Done
 
@@ -69,7 +69,7 @@ Sam asked for a targeted fix after Claude's review of step 5a. Word lists, the 3
 
 ## Next: Sam's feedback, then chapter 5 only on his go-ahead
 
-1. Finish the ledger rows approved on 12 Nov (see Current state), then add them to 4A and 4B. Confirm «hari bulan apa» with Sam.
+1. Kata-Kata (Claude Code) adds cards for L-1032 to L-1044, L-1046, L-1047, L-0614 and L-0702 in chapter 4; the Kamus Dewan check covers L-0983 to L-1047.
 2. Chapter 3 and chapter 4 pilot feedback: timings, drill load, the fast packs.
 3. **Chapter 5 waits for Sam's go-ahead.**
 
