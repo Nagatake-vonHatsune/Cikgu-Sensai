@@ -13,7 +13,7 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 - **Ledger:** both copies and the hash match the sheet, L-0001 to L-1088 (Journal rows to 89). L-1084 to L-1088 are Ch9 (pending); KD4 check not yet run.
 - **Charter decisions by Sam, 12 Nov 2026 (ledger Journal row 89 and the charter):**
   1. **Pass mark:** 48 of 80 with at least 10 of 20 in each section (recorded as Sam's decision in the administration sheet and the catalogue's `pass_rule`).
-  2. **Class time:** the A1 test takes two extra 45-minute blocks (written papers, then speaking); the Stage 1 plan is **76 blocks** (the charter says about 57.5 hours; 76 × 45 minutes is 57.0, see question 1 in the report). `catalogue.py` `hour_budget.class_blocks` is 76.
+  2. **Class time:** the A1 test takes two extra 45-minute blocks (written papers, then speaking); the Stage 1 plan is **76 blocks** = 57 class hours (Claude corrected the charter from "about 57.5" on 12 Nov; 76 × 45 minutes is 57.0). `catalogue.py` `hour_budget.class_blocks` is 76.
   3. **`writing` is an accepted test-item type** (stage test only). This is a charter decision; `catalogue.py` accepts it and `docs/DATA-MODEL.md` says so.
   4. **Chapter 6 is compulsory in both test versions:** listening item L5 («lebih … daripada», «paling») and speaking card 2, which the examiner always uses (the second card is chosen from cards 1, 3 and 4). To keep sections at 20 marks, one earlier listening item per version was removed; the listening paper is five tasks, ten items.
 - **Catalogue:** a `stages` record `ms-stage1` (CEFR A1, completion flag `stage1_complete`, label "Malay A1 · Stage 1 complete", pass rule, `compulsory_items`, item-to-chapter map); chapters carry `stage_id`.

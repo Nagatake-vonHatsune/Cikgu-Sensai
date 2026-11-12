@@ -140,7 +140,7 @@ The chapter suite matches the anatomy of Minna no Nihongo closely, the assessmen
 | [Minna no Nihongo Shokyu I](https://plus.3anet.co.jp/?p=3955) | 25 lessons. Each: sentence patterns, example sentences, conversation, Exercises A, B and C, practice questions (listening, grammar, reading). A review every few lessons. Books I and II total [50 lessons](https://www.3anet.co.jp/en/minnaqa.html). | 4 to 6 hours a lesson; about 150 hours for Book I |
 | [Irodori](https://www.irodori.jpf.go.jp/en/faq.html) Starter, Elementary 1 and 2 | 18 lessons per book, built on Can-do goals; listening and speaking activities carry the vocabulary and grammar | 2.5 to 3 hours of activities a lesson, 4 to 5 with language practice; 80 to 100 hours a book |
 | [Cambridge guided learning hours](https://support.cambridgeenglish.org/hc/en-gb/articles/202838506-Guided-learning-hours) | Cumulative from zero, a guideline only | A1 90 to 100; A2 180 to 200; B1 350 to 400; B2 500 to 600; C1 700 to 800 |
-| This charter, Malay Stage 1 | 9 chapters taught as 13 units, eleven components each | Full course about 57.5 class hours; fast course about 7 |
+| This charter, Malay Stage 1 | 9 chapters taught as 13 units, eleven components each | Full course 57 class hours; fast course about 7 |
 
 What this changes:
 
@@ -270,7 +270,7 @@ Every chapter in Cikgu Sensai ships the same eleven components, taught in four 4
 
 ### **Stage 1 plan (agreed 11 Nov 2026\)**
 
-Stage 1 is taught as 13 units from the 9 chapters, five blocks per unit, plus review and skills blocks: 76 blocks, or about 57.5 class hours. Nothing new is added to the syllabus; the heavy chapters are split and each unit gets more time in use. With the self-study hours below, a learner reaches the 90 to 100 hour A1 benchmark.
+Stage 1 is taught as 13 units from the 9 chapters, five blocks per unit, plus review and skills blocks: 76 blocks, or 57 class hours. Nothing new is added to the syllabus; the heavy chapters are split and each unit gets more time in use. With the self-study hours below, a learner reaches the 90 to 100 hour A1 benchmark.
 
 **Unit count confirmed (11 Nov 2026).** Sam chose 13 units. Chapter 5 is not split.
 
@@ -295,7 +295,7 @@ Stage 1 is taught as 13 units from the 9 chapters, five blocks per unit, plus re
 | Unit blocks A to E | 65 | 48.75 |
 | Review blocks (after units 3A, 4B, 6\) and the stage review; the A1 stage test adds 2 blocks (1.5 hours: written papers, then speaking) | 4 | 3 |
 | Skills blocks (pronunciation; writing in units 2B, 3C, 5, 7\) | 5 | 3.75 |
-| Total | 76 | about 57.5 (76 blocks with the A1 test) |
+| Total | 76 | 57 (76 blocks of 45 minutes, with the A1 test) |
 
 The five strands each block type serves: new language in use (A, B), listening and reading input (C, E), fluency and recycling (E, review), explicit language focus (A, skills), and spaced retrieval (every block's recall, D, review).
 
