@@ -214,7 +214,8 @@ def components(ledger, cfg):
 
     tests = []
     quiz_words=cfg['quiz_words'][:6]
-    for i,(line,ans) in enumerate(zip(cfg['listening'][:5],cfg['test_listen_answers']),1):
+    test_lines=[cfg['listening'][k] for k in cfg.get('test_listen_lines', range(5))]
+    for i,(line,ans) in enumerate(zip(test_lines,cfg['test_listen_answers']),1):
         tests.append(dict(sub_type='listening', prompt=f'L{i}. Listen to the teacher and write the main number or value.',
                           answer=f'Teacher reads: «{line[1]}» Answer: {ans}',
                           words=[ledger.row(cfg['core'][i])['Malay'].split(' / ')[0]], grammar=gid))

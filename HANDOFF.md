@@ -4,7 +4,7 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 
 ## Current state
 
-- **Last updated:** 12 Nov 2026, Step 5a recovery work.
+- **Last updated:** 12 Nov 2026, Claude's review fixes to chapter 3 (see "Chapter 3 review fixes" below).
 - **Most recent approved scope:** Chapter 3 only (units 3A, 3B, 3C and the 45-minute fast pack). Publication to main was pre-authorised by Sam provided the build and tests pass; chapter 4 waits for his pilot feedback.
 - **Previous main baseline:** 6247d6d (or later if an independent change occurred).
 - **Chapter 3 source:** suite/ms_c03a.py, suite/ms_c03b.py, suite/ms_c03c.py and suite/chapter3_common.py. The quick summary is appended in suite/fast.py. Detailed evidence is in docs/STEP-5a-report.md.
@@ -32,6 +32,27 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 - `tests/test_step4_suite.py` encodes the charter section 6 minimums. Reuse it for chapters 3 to 9.
 - Builds are not byte-reproducible: the PDF inside `bank.js` changes IDs on every build. Commit the build you tested, and compare the lesson JSON, not the bytes.
 - Preview PDFs with poppler (`pdftoppm`). PyMuPDF's rasteriser garbles this font subset on screen; the PDF itself is fine.
+
+## Chapter 3 review fixes (12 Nov 2026, Claude)
+
+Sam asked for a targeted fix after Claude's review of step 5a. Word lists, the 3A/3B/3C split, components and tests are unchanged.
+
+- **3C measurements rebuilt around a parcel at the post office.** In speech: «Berapa panjang / lebar / tinggi / berat bungkusan ini?» «Panjang tiga puluh sentimeter.» The ke-…-an nouns («ketinggian», «kepanjangan», «kelebaran», «kedalaman») are taught as written labels on forms and parcel labels only. Removed the "house" measurements («Kepanjangan rumah ini sepuluh meter», «Kedalaman ini dua meter»).
+- **New natural scenes:** 3C model conversation and variant (post office), 3C listening (morning market, then post office), 3A listening (opening a bank account), 3B listening (fruit stall with «Kurang sikit, boleh?» and cash only). Removed filler such as «Ini nombor untuk kelas ini» and «Ini latihan nombor sahaja». The chapter 3 fast-pack conversation is now one coherent market exchange.
+- **Fixed examples:** «Kosong ringgit» → phone digits; «Selepas kali pertama, kali kedua» and «Sebelum kali ketiga, kali kedua» → prices before and after a discount; post-office words were mislabelled "bank sign".
+- **Culture notes rewritten as real culture, with full Japanese translations:** 3A mobile numbers (01x prefixes, digit groups, «kosong» vs «sifar»), tens and teens from card notes, age and forms of address; 3B ringgit and sen, Bank Negara Malaysia's 5-sen rounding of cash totals (BNM, 2007 announcement, in force since 2008), DuitNow QR, polite bargaining; 3C metric market weights, spoken sizes vs written ke-…-an nouns, «pertama» vs ‹kesatu›.
+- **Real answer keys** for drills 1 to 5 in all three units (they had only a generic instruction).
+- `chapter3_common.py` accepts an optional `test_listen_lines` so the listening test items use lines that contain a value.
+- New mentions: ‹dalam›, ‹kesatu›, ‹se-› (Kata-Kata card notes).
+
+## Quality rules for chapter 4 onward (from the chapter 3 review)
+
+- **Natural Malaysian Malay first.** Every Malay line must be something a Malaysian would actually say in that situation. If the in-scope vocabulary cannot make a natural sentence, change the scene, not the Malay.
+- **No filler to reach a count.** No classroom meta-talk inside scenes («untuk kelas ini», «latihan sahaja»), no repeated lines to pad listening, no empty example sentences.
+- **Culture notes are about Malaysia,** not teaching instructions. Use facts that can be checked; name the source for anything specific (rules, dates, institutions). Teaching advice belongs in the teacher notes.
+- **Japanese is a full translation** of the English, not a summary, and contains no leftover English.
+- **Answer keys are real answers,** item by item.
+- **Affixed nouns taught as labels:** if a ledger word is formal or written (like the ke-…-an measurement nouns), say so and show the everyday spoken form beside it.
 
 ## Next: Sam's pilot of chapter 3
 

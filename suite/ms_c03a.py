@@ -8,7 +8,7 @@ RECOG = ['L-0418','L-0419','L-0420','L-0421','L-0422']
 REV = ['L-0048','L-0059','L-0057','L-0073','L-0078','L-0038']
 G = ['numbers','age_phone']
 EXAMPLES = {
-'L-0099':'«Kosong ringgit.» (also «sifar» for zero)',
+'L-0099':'«Kosong satu dua.» (phone digits; «sifar» is the standard word, used in maths and formal reading)',
 'L-0100':'«Saya ada satu ringgit.»',
 'L-0101':'«Saya ada dua ringgit.»',
 'L-0102':'«Saya ada tiga ringgit.»',
@@ -113,40 +113,47 @@ VARIANT = [
 ('Tanaka','Ya, betul. Terima kasih, puan.')]
 
 LISTENING = [
-('Tanaka','Umur saya tiga puluh lima tahun. Nama saya Tanaka. Saya orang Jepun.'),
-('Aini','Umur saya empat puluh dua tahun. Nama saya Aini. Saya orang Malaysia.'),
-('Tanaka','Nombor telefon saya kosong satu dua, tiga empat lima enam. Ini nombor untuk kelas ini.'),
-('Aini','Nombor telefon saya kosong satu tiga, empat lima enam tujuh. Ini nombor untuk kelas ini juga.'),
-('Tanaka','Umur kawan saya dua puluh sembilan tahun. Nama dia Yuki. Dia orang Jepun.'),
-('Aini','Baik. Berapa umur kawan encik? Dua puluh sembilan tahun, betul?'),
-('Tanaka','Ya, betul. Umur dia dua puluh sembilan tahun. Umur saya tiga puluh lima tahun.'),
-('Aini','Nombor telefon encik kosong satu dua, tiga empat lima enam, betul?'),
-('Tanaka','Ya. Kosong satu dua, tiga empat lima enam. Bukan kosong satu tiga.'),
-('Aini','Terima kasih. Saya ada borang untuk kelas ini. Nama encik Tanaka, bukan Yuki.'),
-('Tanaka','Ya. Nama saya Tanaka. Yuki kawan saya. Dia ada nombor telefon juga.'),
-('Aini','Berapa nombor telefon dia? Encik boleh cakap nombor telefon dia?'),
-('Tanaka','Boleh. Kosong satu lima, dua tiga empat lima. Nombor telefon dia kosong satu lima.'),
-('Aini','Baik. Ini nombor telefon Yuki. Umur dia dua puluh sembilan tahun.'),
-('Tanaka','Terima kasih, puan. Nombor telefon saya kosong satu dua. Nombor telefon Yuki kosong satu lima.'),
-('Aini','Ya. Satu nombor untuk encik, satu nombor untuk Yuki. Terima kasih.')]
+('Tanaka','Selamat pagi, puan. Nombor giliran saya seratus dua belas.'),
+('Aini','Selamat pagi, encik. Baik, nombor seratus dua belas. Encik isi borang ini, ya.'),
+('Tanaka','Baik. Ini pasport saya.'),
+('Aini','Terima kasih. Siapa nama encik?'),
+('Tanaka','Nama saya Tanaka Kenji. Saya orang Jepun.'),
+('Aini','Berapa umur encik?'),
+('Tanaka','Umur saya tiga puluh lima tahun.'),
+('Aini','Encik tinggal di mana?'),
+('Tanaka','Saya tinggal di Mont Kiara.'),
+('Aini','Berapa nombor telefon encik?'),
+('Tanaka','Kosong satu dua, tiga empat lima, enam tujuh lapan sembilan.'),
+('Aini','Kosong satu dua, tiga empat lima, enam tujuh lapan sembilan. Betul?'),
+('Tanaka','Betul. Puan, anak saya pun boleh ada akaun?'),
+('Aini','Boleh. Berapa umur anak encik?'),
+('Tanaka','Umur dia dua belas tahun. Dia pelajar sekolah Jepun.'),
+('Aini','Baik. Untuk anak encik, isi borang ini juga. Nombor telefon untuk anak encik?'),
+('Tanaka','Nombor telefon saya juga. Terima kasih, puan.'),
+('Aini','Sama-sama, Encik Tanaka.')]
 
 CULTURE = [
-'In this unit, a quantity and an identifying number are deliberately treated as different tasks. '
-'A price or age is normally read as a complete quantity: for example, the pieces for the tens and units have to be kept in their proper order. '
-'A telephone number, however, can be read digit by digit. The classroom uses invented strings rather than asking learners to disclose a real personal number. '
-'The teacher should ask learners to say whether the digits represent a quantity, an age, or a code before deciding how to read them.',
-'Kata-Kata card ms-c03-011 explicitly notes that «sepuluh» is built from the one-unit prefix and the tens element; '
-'card ms-c03-012 gives the corresponding note for «sebelas». The cards also introduce «seratus», «seribu» and «sejuta» as standard number forms. '
-'These word-building observations are taken from the cards, not independent etymological claims. '
-'The aim is to make adult learners recognise the recurring structure while keeping irregular forms visible. '
-'Students should be able to read a price even when they cannot yet explain every part of its spelling.',
-'When recording information in a Malaysian classroom or office, ask for a repeat when an important digit is unclear. '
-'The speaker may group digits for convenience, but the listener must check the full sequence. '
-'This is a communication skill rather than a claim that one grouping style is universal. '
-'Use imaginary names and numbers in class, and let learners decline to share personal information. '
-'Japanese comparisons on this sheet are teaching drafts awaiting a native review.']
-CULTURE_JA = ['数量と電話番号の読み方を区別します。電話番号は一桁ずつ読み、この練習では実在の番号を使いません。',
-              '数の組み立てについての説明はKata-Kataの第3章カード注記に限ります。日本語の比較説明はネイティブ確認待ちです。']
+'Malaysian mobile numbers start with 01, for example 012, 016, 017 or 019, followed by seven or eight more digits. '
+'People read them digit by digit in small groups, usually following the dash: 012-345 6789 is «kosong satu dua, tiga empat lima, enam tujuh lapan sembilan». '
+'In phone numbers most people say «kosong» for zero; «sifar» is the standard word, which you also hear in maths and formal reading. '
+'Kata-Kata card ms-c03-001 notes that «kosong» also means "empty" or "plain" (chapter 5). '
+'When someone reads you a number, repeat it back in the same groups to check it.',
+'Tens and teens follow a pattern that the Kata-Kata cards point out: «sepuluh» is ‹se-› (one) plus «puluh», «sebelas» is ‹se-› plus «belas», '
+'and «dua belas» is two plus «belas» (cards ms-c03-011 to ms-c03-013). In the same way 100, 1,000 and 1,000,000 are «seratus», «seribu» and «sejuta».',
+'Age matters in Malaysian conversation because it helps decide how you address people. Someone a little older is «Abang» or «Kakak»; '
+'an older man or woman is «Pak cik» or «Mak cik» (chapter 1). Asking «Berapa umur …?» is normal about children and on forms, for example at a bank counter. '
+'With adults you have just met, especially at work, many people do not ask directly and simply choose a polite title.']
+CULTURE_JA = [
+'マレーシアの携帯電話番号は 01 で始まり（012、016、017、019 など）、そのあとに7桁か8桁が続きます。'
+'読むときは数字を一つずつ、たいていハイフンの区切りに合わせて小さなまとまりで読みます：012-345 6789 は «kosong satu dua, tiga empat lima, enam tujuh lapan sembilan»。'
+'電話番号のゼロはたいてい «kosong» と言います。«sifar» は標準語で、算数や改まった読み上げでも聞きます。'
+'Kata-Kata カード ms-c03-001 によると、«kosong» には「空の」「何も入っていない」という意味もあります（第5章）。'
+'番号を読み上げてもらったら、同じ区切りで繰り返して確認しましょう。',
+'10や11〜19の数には、Kata-Kata カードが示すきまりがあります：«sepuluh» は ‹se-›（1）＋«puluh»、«sebelas» は ‹se-›＋«belas»、'
+'«dua belas» は2＋«belas» です（カード ms-c03-011〜013）。同じように100・1000・100万は «seratus»・«seribu»・«sejuta» です。',
+'マレーシアの会話では、相手をどう呼ぶかを決めるのに年齢が関わります。少し年上の人は «Abang»・«Kakak»、年配の男性・女性は «Pak cik»・«Mak cik» です（第1章）。'
+'子どもについてや書類では «Berapa umur …?» と聞くのは普通で、銀行の窓口でもそうです。'
+'ただし、初対面の大人、特に仕事の場では、直接年齢を聞かずに丁寧な呼び方を選ぶ人も多くいます。']
 
 CFG = dict(
  label='3A',unit_goal='Read quantities to one million, state an age and give or check fictional telephone digits.',
@@ -190,8 +197,15 @@ CFG = dict(
            '___ saya tanya? → «Boleh.»','___ umur encik? → «Tiga puluh tahun.»',
            '___ nama puan? (formal -kah) → «Nama saya Aini.»',
            '___ nombor telefon encik? → «Kosong satu dua.»']},
- drill_keys={s:['Accept a complete grammatical answer using the printed cue; the learner must preserve number value and role.']
-             for s in ['repeat','substitute','transform','question and answer','question-word choice']},
+ drill_keys={
+ 'repeat':['Read each line twice. Amounts and ages are whole numbers («dua puluh»); phone digits are read one by one («kosong satu dua»).'],
+ 'substitute':['1 «Umur saya tiga puluh tahun.» 2 «Umur dia empat puluh tahun.» 3 «Saya ada lima ringgit.» 4 «Saya ada dua ratus ringgit.»',
+               '5 «Saya ada dua ribu ringgit.» 6 «Umur saya empat puluh satu tahun.» 7 «Nombor telefon saya kosong satu empat.» 8 «Nombor telefon saya kosong satu lima.»'],
+ 'transform':['1 «Berapa umur encik?» 2 «Berapa nombor telefon encik?» 3 «Umur dia bukan dua puluh tahun.» 4 «dua belas»',
+              '5 «dua, kosong» 6 «dua ratus» 7 «seribu» 8 «Kosong satu tiga, betul?»'],
+ 'question and answer':['1 «Umur saya tiga puluh tahun.» 2 «Umur saya empat puluh dua tahun.» 3 «Kosong satu dua, …» 4 «Kosong satu tiga, …»',
+                        '5 «Berapa umur encik?» 6 «Berapa nombor telefon encik?» 7 «Encik ada berapa ringgit?» 8 «Berapa umur dia?»'],
+ 'question-word choice':['1 «Apa» 2 «Siapa» 3 «di mana» («Encik di mana?») 4 «Adakah» 5 «Bolehkah» 6 «Berapa» 7 «Siapakah» 8 «Berapa»']},
  short_dialogues=[
  ('Berapa umur encik?','Umur saya tiga puluh tahun.','a new classmate'),
  ('Nombor telefon puan?','Kosong satu dua, tiga empat lima.','a fictional registration form'),
@@ -203,19 +217,20 @@ CFG = dict(
                  'Ask formally if your partner is Japanese with «Adakah».',
                  'Ask for permission to ask a question with «Bolehkah».',
                  'Ask an age with «berapa».','Ask the name with «Siapakah».'],
- listening=LISTENING,listening_context='a fictional registration conversation with age and telephone digits',
- listen_questions=['What age does Tanaka state?','What age does Aini state?','Write Tanaka’s fictional first three digits.',
-                   'Write Aini’s fictional first three digits.','What age does Yuki have?',
-                   'Which number does Aini repeat?','Does Tanaka correct a digit?','How many different fictional phone numbers occur?'],
- listen_answers=['35','42','012','013','29','012-3456','yes: 012 not 013','three'],
- test_listen_answers=['35','42','012','013','29'],
+ listening=LISTENING,listening_context='opening a bank account: queue number, form, age and a fictional phone number',
+ listen_questions=['What is Tanaka’s queue number?','What does he give the clerk with the form?','How old is Tanaka?',
+                   'Where does he live?','Write his fictional phone number.','Who else can open an account?',
+                   'How old is his child?','Which phone number is given for the child?'],
+ listen_answers=['112','his passport («pasport»)','35','Mont Kiara','012-345 6789','his child («anak»)','12','Tanaka’s own number'],
+ test_listen_lines=[0,6,8,10,14],
+ test_listen_answers=['112','35','Mont Kiara','012-345 6789','12'],
  reading_title='Reading and writing · A class registration form',
  reading=['Fictional student form: «Nama:» Tanaka · «Umur:» «tiga puluh lima tahun» · «Nombor telefon:» 012-3456.',
-          'Second fictional form: «Nama:» Yuki · «Umur:» «dua puluh sembilan tahun» · «Nombor telefon:» 015-2345.'],
+          'Second fictional form: «Nama:» Yuki · «Umur:» «dua puluh sembilan tahun» · «Nombor telefon:» 016-234 5678.'],
  read_questions=['How old is Tanaka?','Who is 29?','Which fictional number belongs to Tanaka?',
                  'Which first three digits belong to Yuki?','Write Tanaka’s age in Malay.',
                  'Ask Yuki for their age in Malay.'],
- read_answers=['35','Yuki','012-3456','015','«Umur saya tiga puluh lima tahun.»','«Berapa umur awak?»'],
+ read_answers=['35','Yuki','012-3456','016','«Umur saya tiga puluh lima tahun.»','«Berapa umur awak?»'],
  write_instruction='Write your own fictional name, age and phone digits into the blank form.',
  write_model='«Nama:» Aini · «Umur:» «empat puluh dua tahun» · «Nombor telefon:» 013-4567.',
  writing_type='form',

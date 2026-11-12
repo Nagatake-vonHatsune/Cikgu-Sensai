@@ -118,40 +118,42 @@ VARIANT=[
 ('Tanaka','Terima kasih. Jumpa lagi.'),
 ('Penjual','Sama-sama. Selamat jalan.')]
 LISTENING=[
-('Penjual','Harga mangga ini lapan ringgit lima puluh sen. Ini harga untuk satu mangga.'),
-('Tanaka','Saya ada sepuluh ringgit. Saya beli satu mangga. Berapa baki saya?'),
-('Penjual','Baki satu ringgit lima puluh sen. Jumlah lapan ringgit lima puluh sen.'),
-('Tanaka','Harga pisang itu empat ringgit. Harga epal ini dua ringgit. Betul?'),
-('Penjual','Ya. Harga pisang empat ringgit, dan harga epal dua ringgit.'),
-('Tanaka','Saya beli satu mangga sahaja. Saya bayar tunai dengan sepuluh ringgit.'),
-('Penjual','Baik. Ini mangga encik. Ini baki encik, satu ringgit lima puluh sen.'),
-('Tanaka','Terima kasih. Boleh saya tanya? Boleh bayar dengan kad juga?'),
-('Penjual','Boleh bayar dengan kad. Boleh bayar tunai. Untuk mangga ini, jumlah lapan ringgit lima puluh sen.'),
-('Tanaka','Kawan saya suka epal. Berapa harga dua epal untuk kawan saya?'),
-('Penjual','Satu epal dua ringgit. Dua epal empat ringgit. Ini bukan harga mangga.'),
-('Tanaka','Ya. Saya ada dua belas ringgit. Dua epal empat ringgit, saya cukup wang?'),
-('Penjual','Ya, cukup. Wang encik dua belas ringgit. Jumlah empat ringgit sahaja.'),
-('Tanaka','Saya beli dua epal. Saya bayar dengan kad. Duit tunai saya dua belas ringgit.'),
-('Penjual','Betul. Encik bayar dengan kad, bukan tunai. Terima kasih.'),
-('Tanaka','Terima kasih. Harga mangga lapan ringgit, harga epal dua ringgit. Saya beli epal.')]
+('Penjual','Selamat pagi, encik. Mangga ini segar. Satu mangga lapan ringgit lima puluh sen.'),
+('Tanaka','Lapan ringgit lima puluh sen? Mahal. Berapa harga epal itu?'),
+('Penjual','Epal murah. Satu epal dua ringgit sahaja.'),
+('Tanaka','Pisang ini pula, berapa harganya?'),
+('Penjual','Pisang ini empat ringgit.'),
+('Tanaka','Kurang sikit, boleh?'),
+('Penjual','Boleh. Pisang tiga ringgit lima puluh sen.'),
+('Tanaka','Baik. Saya beli dua epal dan pisang ini.'),
+('Penjual','Dua epal empat ringgit, pisang tiga ringgit lima puluh sen. Jumlah tujuh ringgit lima puluh sen.'),
+('Tanaka','Boleh bayar dengan kad?'),
+('Penjual','Maaf, tunai sahaja.'),
+('Tanaka','Baik. Ini sepuluh ringgit.'),
+('Penjual','Terima kasih. Baki dua ringgit lima puluh sen.'),
+('Tanaka','Saya ada dua belas ringgit lagi. Satu mangga untuk kawan saya, boleh?'),
+('Penjual','Boleh. Lapan ringgit lima puluh sen. Wang encik cukup.'),
+('Tanaka','Ini sepuluh ringgit.'),
+('Penjual','Baki satu ringgit lima puluh sen. Terima kasih, encik!'),
+('Tanaka','Terima kasih. Jumpa lagi!')]
 CULTURE=[
-'The everyday classroom distinction between «wang» and «duit» deserves careful handling. '
-'Kata-Kata card ms-c03-022 describes «wang» as the standard word for money and «duit» as an everyday word. '
-'For this course, present «wang» first and explicitly mark «duit» as conversational vocabulary; do not imply that both have the same register. '
-'The card for «beli» notes that the root is used in speech while the full formal written active form is outside this stage. '
-'Learners can use the taught root in a simple buying exchange without being asked to construct productive me- verbs prematurely.',
-'Prices in Malaysian ringgit may include sen. A learner needs to hear the whole amount, not just its first number, '
-'and to distinguish an amount to pay from an amount returned as change. '
-'During a practice transaction the teacher should give the customer an explicit amount of fictional cash and ask both partners to calculate the expected «baki». '
-'The numbers on this sheet are invented for teaching, not observed shop prices or price recommendations. '
-'Learners should check whether the price applies to one item or a group rather than assuming a unit without asking.',
-'The market setting is suitable for a second layer of listening. The Kata-Kata Dunia scene introduces produce and bargaining language. '
-'Those scene words are displayed separately as recognition vocabulary, because the core objective of this unit is to ask, pay, and confirm. '
-'Role-play a calm correction when the change does not match the amount paid. '
-'The teacher may accept a short, grammatical confirmation instead of requiring a long explanation. '
-'The Japanese comparison material is provisional and needs a native-speaker review.']
-CULTURE_JA=['«wang» は標準的な「お金」、«duit» は日常語です。どちらも同じ文体だと教えないでください。',
-            'リンギットとセン、支払額とお釣りを区別します。値段はすべて架空の例です。日本語の解説は未監修です。']
+'Malaysian prices are in ringgit (RM) and sen, and RM1 is 100 sen. Say the ringgit first, then the sen: RM8.50 is «lapan ringgit lima puluh sen». '
+'Kata-Kata card ms-c03-021 gives RM12.50 as «dua belas ringgit lima puluh sen». In quick speech people often drop the word «sen», but in class say the full amount.',
+'Cash totals are rounded. Since 2008, Bank Negara Malaysia’s rounding mechanism has rounded the total of a bill paid over the counter to the nearest 5 sen: '
+'totals ending in 1, 2, 6 or 7 sen go down, and totals ending in 3, 4, 8 or 9 sen go up. It applies to the total bill, not to each item, '
+'and card or QR payments are charged the exact amount. So a total of RM8.52 paid in cash becomes RM8.50.',
+'Small stalls and «pasar» sellers often prefer cash, but many also display a DuitNow QR code, Malaysia’s national QR payment standard, '
+'which you can scan with a banking or e-wallet app. At markets and small stalls, polite bargaining is common: «Kurang sikit, boleh?» (spoken). '
+'It is not done in supermarkets or shops with fixed prices. Both «wang» (standard) and «duit» (everyday) mean money (card ms-c03-022).']
+CULTURE_JA=[
+'マレーシアの値段はリンギット（RM）とセンで、RM1は100センです。リンギット、センの順に言います：RM8.50 は «lapan ringgit lima puluh sen»。'
+'Kata-Kata カード ms-c03-021 では RM12.50 を «dua belas ringgit lima puluh sen» としています。早口では «sen» を省くこともよくありますが、授業では全部言いましょう。',
+'現金の合計は端数が丸められます。2008年からマレーシア中央銀行（Bank Negara Malaysia）の端数処理の仕組みにより、窓口で支払う請求額の合計は5セン単位に丸められます：'
+'末尾が1・2・6・7センなら切り下げ、3・4・8・9センなら切り上げです。対象は品物ごとではなく合計額で、カードやQRでの支払いは端数まで正確に請求されます。'
+'たとえば合計 RM8.52 を現金で払うと RM8.50 になります。',
+'屋台や «pasar» の売り手は現金を好むことが多いですが、マレーシアの全国共通QR決済規格 DuitNow QR のコードを置いている店も多く、銀行アプリや電子ウォレットで読み取って払えます。'
+'市場や小さな屋台では、丁寧に値切るのは普通です：«Kurang sikit, boleh?»（話し言葉）。スーパーや定価の店では値切りません。'
+'«wang»（標準語）と «duit»（日常語）はどちらも「お金」です（カード ms-c03-022）。']
 CFG=dict(
  label='3B',unit_goal='Ask for a fictional price, pay with cash or card and check the correct change.',
  core=CORE,recognition=RECOG,revision=REV,grammar=['prices','transactions'],
@@ -199,8 +201,15 @@ CFG=dict(
            '___ ini epal? (yes/no) → «Ya.»',
            '___ nama puan? (-kah) → «Aini.»',
            '___ harga pisang ini? → «Empat ringgit.»']},
- drill_keys={s:['Read the printed cue, supply the full sentence, and check the numerical result together.']
-             for s in ['repeat','substitute','transform','question and answer','question-word choice']},
+ drill_keys={
+ 'repeat':['Read each line twice. Say ringgit, then sen, and the full amount.'],
+ 'substitute':['1 «Harganya lima ringgit.» 2 «Harganya lapan ringgit.» 3 «Harga ini murah.» 4 «Saya bayar dengan kad.»',
+               '5 «Saya beli mangga.» 6 «Saya beli pisang.» 7 «Baki dua ringgit.» 8 «Empat ringgit sahaja.»'],
+ 'transform':['1 «Berapa harganya?» 2 «Saya bayar sepuluh ringgit, betul?» 3 «Ini bukan epal. Ini mangga.» 4 «Lima puluh sen.»',
+              '5 «Boleh bayar dengan kad?» 6 «Baki satu ringgit lima puluh sen.» 7 «Jumlah empat ringgit.» 8 «Lapan ringgit lima puluh sen.»'],
+ 'question and answer':['1 «Harganya dua ringgit.» 2 «Harganya empat ringgit.» 3 «Boleh.» 4 «Baki satu ringgit lima puluh sen.»',
+                        '5 «Berapa harga mangga ini?» 6 «Encik bayar tunai?» 7 «Jumlah berapa?» 8 «Ini epal?»'],
+ 'question-word choice':['1 «Berapa» 2 «Siapa» 3 «Apa» 4 «di mana» 5 «Bolehkah» 6 «Adakah» 7 «Siapakah» 8 «Berapa»']},
  short_dialogues=[
  ('Berapa harga epal?','Dua ringgit.','fruit-stall price'),
  ('Boleh bayar dengan kad?','Boleh.','payment method'),
@@ -211,13 +220,14 @@ CFG=dict(
                  'Ask whether the fruit is an apple using «Adakah».',
                  'Ask whether card payment is possible using «Bolehkah».',
                  'Ask a price using «berapa».','Ask formally who the cashier is with «Siapakah».'],
- listening=LISTENING,listening_context='prices at a fictional fruit stall, cash and card payments, change',
- listen_questions=['How much is a mango?','What amount does Tanaka have first?',
-                   'What change is due after the mango?','What is the price of the banana?',
-                   'What is the price of one apple?','What is the price of two apples?',
-                   'How does Tanaka finally pay for the two apples?','Are the mango and apple prices the same?'],
- listen_answers=['RM8.50','RM10','RM1.50','RM4','RM2','RM4','card','no'],
- test_listen_answers=['RM8.50','RM10','RM1.50','RM4','RM2'],
+ listening=LISTENING,listening_context='buying fruit at a morning-market stall: prices, a small discount, cash only, change',
+ listen_questions=['How much is one mango?','How much is one apple?',
+                   'What does Tanaka say to ask for a lower price?','What is the banana price after that?',
+                   'What is the first total?','Can he pay by card?',
+                   'How much change does he get from RM10 the first time?','Who is the mango for?'],
+ listen_answers=['RM8.50','RM2','«Kurang sikit, boleh?»','RM3.50','RM7.50','no, cash only','RM2.50','his friend'],
+ test_listen_lines=[0,2,6,8,12],
+ test_listen_answers=['RM8.50','RM2','RM3.50','RM7.50','RM2.50'],
  reading_title='Reading and writing · A fictional fruit price list',
  reading=['Fictional price list: «Epal» RM2.00 · «Pisang» RM4.00 · «Mangga» RM8.50.',
           'Fictional receipt: «Jumlah» RM8.50 · «Bayar tunai» RM10.00 · «Baki» RM1.50.'],

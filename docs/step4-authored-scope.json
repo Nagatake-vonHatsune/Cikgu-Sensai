@@ -17126,9 +17126,9 @@
   "exclusion": null
  },
  "Unit 3A · Vocabulary focus|3|2": {
-  "source_text": "   e.g. Kosong ringgit. (also sifar for zero)",
+  "source_text": "   e.g. Kosong satu dua. (phone digits; sifar is the standard word, used in maths and formal reading)",
   "target_spans": [
-   "Kosong ringgit.",
+   "Kosong satu dua.",
    "sifar"
   ],
   "mention_spans": [],
@@ -17387,7 +17387,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|3|31": {
+ "Unit 3A · Vocabulary focus|4|0": {
   "source_text": "sejuta — one million · 100万  [L-0115]",
   "target_spans": [
    "sejuta"
@@ -17396,7 +17396,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|0": {
+ "Unit 3A · Vocabulary focus|4|1": {
   "source_text": "   e.g. Saya ada sejuta ringgit.",
   "target_spans": [
    "Saya ada sejuta ringgit."
@@ -17405,7 +17405,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|1": {
+ "Unit 3A · Vocabulary focus|4|2": {
   "source_text": "berapa — how many, how much · いくつ・いくら  [L-0116]",
   "target_spans": [
    "berapa"
@@ -17414,7 +17414,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|2": {
+ "Unit 3A · Vocabulary focus|4|3": {
   "source_text": "   e.g. Berapa umur encik?",
   "target_spans": [
    "Berapa umur encik?"
@@ -17423,7 +17423,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|3": {
+ "Unit 3A · Vocabulary focus|4|4": {
   "source_text": "umur — age · 年齢  [L-0131]",
   "target_spans": [
    "umur"
@@ -17432,7 +17432,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|4": {
+ "Unit 3A · Vocabulary focus|4|5": {
   "source_text": "   e.g. Umur saya tiga puluh tahun.",
   "target_spans": [
    "Umur saya tiga puluh tahun."
@@ -17441,7 +17441,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|5": {
+ "Unit 3A · Vocabulary focus|4|6": {
   "source_text": "tahun — year; years old · 年・歳  [L-0132]",
   "target_spans": [
    "tahun"
@@ -17450,7 +17450,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|6": {
+ "Unit 3A · Vocabulary focus|4|7": {
   "source_text": "   e.g. Umur saya tiga puluh tahun.",
   "target_spans": [
    "Umur saya tiga puluh tahun."
@@ -17459,7 +17459,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|7": {
+ "Unit 3A · Vocabulary focus|4|8": {
   "source_text": "nombor telefon — phone number · 電話番号  [L-0154]",
   "target_spans": [
    "nombor telefon"
@@ -17468,7 +17468,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|8": {
+ "Unit 3A · Vocabulary focus|4|9": {
   "source_text": "   e.g. Nombor telefon saya kosong satu dua, tiga empat lima.",
   "target_spans": [
    "Nombor telefon saya kosong satu dua, tiga empat lima."
@@ -17477,7 +17477,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|9": {
+ "Unit 3A · Vocabulary focus|4|10": {
   "source_text": "belas — -teen (11 to 19) · 十〜（11〜19）  [L-0989]",
   "target_spans": [
    "belas"
@@ -17486,7 +17486,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|10": {
+ "Unit 3A · Vocabulary focus|4|11": {
   "source_text": "   e.g. Umur saya tiga belas tahun.",
   "target_spans": [
    "Umur saya tiga belas tahun."
@@ -17495,7 +17495,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|11": {
+ "Unit 3A · Vocabulary focus|4|12": {
   "source_text": "puluh — tens (dua puluh = 20) · 〜十  [L-0990]",
   "target_spans": [
    "puluh",
@@ -17505,7 +17505,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|12": {
+ "Unit 3A · Vocabulary focus|4|13": {
   "source_text": "   e.g. Umur saya tiga puluh tahun.",
   "target_spans": [
    "Umur saya tiga puluh tahun."
@@ -17514,7 +17514,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|13": {
+ "Unit 3A · Vocabulary focus|4|14": {
   "source_text": "ratus — hundred (dua ratus = 200) · 〜百  [L-0991]",
   "target_spans": [
    "ratus",
@@ -17525,7 +17525,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|14": {
+ "Unit 3A · Vocabulary focus|4|15": {
   "source_text": "   e.g. Saya ada dua ratus ringgit.",
   "target_spans": [
    "Saya ada dua ratus ringgit."
@@ -17534,7 +17534,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|15": {
+ "Unit 3A · Vocabulary focus|4|16": {
   "source_text": "ribu — thousand (dua ribu = 2,000) · 〜千  [L-0992]",
   "target_spans": [
    "ribu",
@@ -17545,7 +17545,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|16": {
+ "Unit 3A · Vocabulary focus|4|17": {
   "source_text": "   e.g. Saya ada dua ribu ringgit.",
   "target_spans": [
    "Saya ada dua ribu ringgit."
@@ -17554,7 +17554,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|17": {
+ "Unit 3A · Vocabulary focus|4|18": {
   "source_text": "juta — million (dua juta = 2,000,000) · 〜百万  [L-0993]",
   "target_spans": [
    "juta",
@@ -17565,7 +17565,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|18": {
+ "Unit 3A · Vocabulary focus|4|19": {
   "source_text": "   e.g. Saya ada satu juta ringgit.",
   "target_spans": [
    "Saya ada satu juta ringgit."
@@ -17574,21 +17574,21 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|19": {
+ "Unit 3A · Vocabulary focus|4|20": {
   "source_text": "■ Dunia · To recognise · 聞いて分かる",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3A · Vocabulary focus|4|20": {
+ "Unit 3A · Vocabulary focus|4|21": {
   "source_text": "■ Dunia · To recognise · Ke bank dan pejabat pos",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3A · Vocabulary focus|4|21": {
+ "Unit 3A · Vocabulary focus|4|22": {
   "source_text": "akaun — account (bank) · 口座  [L-0418]",
   "target_spans": [
    "akaun"
@@ -17597,7 +17597,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|22": {
+ "Unit 3A · Vocabulary focus|4|23": {
   "source_text": "   e.g. On a bank sign: akaun.",
   "target_spans": [
    "akaun"
@@ -17606,7 +17606,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|23": {
+ "Unit 3A · Vocabulary focus|4|24": {
   "source_text": "borang — form (to fill in) · 用紙・申込書  [L-0419]",
   "target_spans": [
    "borang"
@@ -17615,7 +17615,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|24": {
+ "Unit 3A · Vocabulary focus|4|25": {
   "source_text": "   e.g. On a form: borang.",
   "target_spans": [
    "borang"
@@ -17624,7 +17624,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|25": {
+ "Unit 3A · Vocabulary focus|4|26": {
   "source_text": "isi — to fill in; contents · 記入する・中身  [L-0420]",
   "target_spans": [
    "isi"
@@ -17633,7 +17633,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|26": {
+ "Unit 3A · Vocabulary focus|4|27": {
   "source_text": "   e.g. On a bank form: isi.",
   "target_spans": [
    "isi"
@@ -17642,7 +17642,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|27": {
+ "Unit 3A · Vocabulary focus|4|28": {
   "source_text": "pasport — passport · パスポート  [L-0421]",
   "target_spans": [
    "pasport"
@@ -17651,7 +17651,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|28": {
+ "Unit 3A · Vocabulary focus|4|29": {
   "source_text": "   e.g. On a form label: pasport.",
   "target_spans": [
    "pasport"
@@ -17660,7 +17660,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|29": {
+ "Unit 3A · Vocabulary focus|4|30": {
   "source_text": "nombor giliran — queue number · 順番待ちの番号  [L-0422]",
   "target_spans": [
    "nombor giliran"
@@ -17669,7 +17669,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|4|30": {
+ "Unit 3A · Vocabulary focus|5|0": {
   "source_text": "   e.g. On a ticket sign: nombor giliran.",
   "target_spans": [
    "nombor giliran"
@@ -17678,14 +17678,21 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|5|0": {
+ "Unit 3A · Vocabulary focus|5|1": {
+  "source_text": "■ Revision · 復習 (not new, not tested as new vocabulary)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 3A · Vocabulary focus|5|2": {
   "source_text": "■ Revision · 復習 · Previously taught",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3A · Vocabulary focus|5|1": {
+ "Unit 3A · Vocabulary focus|5|3": {
   "source_text": "nama — name · 名前  [L-0048]",
   "target_spans": [
    "nama"
@@ -17694,7 +17701,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|5|2": {
+ "Unit 3A · Vocabulary focus|5|4": {
   "source_text": "   e.g. Nama saya Tanaka.",
   "target_spans": [
    "Nama saya Tanaka."
@@ -17703,7 +17710,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|5|3": {
+ "Unit 3A · Vocabulary focus|5|5": {
   "source_text": "orang Jepun — Japanese person · 日本人  [L-0059]",
   "target_spans": [
    "orang Jepun"
@@ -17712,7 +17719,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|5|4": {
+ "Unit 3A · Vocabulary focus|5|6": {
   "source_text": "   e.g. Saya orang Jepun.",
   "target_spans": [
    "Saya orang Jepun."
@@ -17721,7 +17728,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|5|5": {
+ "Unit 3A · Vocabulary focus|5|7": {
   "source_text": "ada — have; there is · ある・いる  [L-0057]",
   "target_spans": [
    "ada"
@@ -17730,7 +17737,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|5|6": {
+ "Unit 3A · Vocabulary focus|5|8": {
   "source_text": "   e.g. Saya ada kawan.",
   "target_spans": [
    "Saya ada kawan."
@@ -17739,7 +17746,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|5|7": {
+ "Unit 3A · Vocabulary focus|5|9": {
   "source_text": "suka — to like · 好き  [L-0073]",
   "target_spans": [
    "suka"
@@ -17748,7 +17755,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|5|8": {
+ "Unit 3A · Vocabulary focus|5|10": {
   "source_text": "   e.g. Saya suka muzik.",
   "target_spans": [
    "Saya suka muzik."
@@ -17757,7 +17764,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|5|9": {
+ "Unit 3A · Vocabulary focus|5|11": {
   "source_text": "kawan — friend · 友達  [L-0078]",
   "target_spans": [
    "kawan"
@@ -17766,7 +17773,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|5|10": {
+ "Unit 3A · Vocabulary focus|5|12": {
   "source_text": "   e.g. Ini kawan saya.",
   "target_spans": [
    "Ini kawan saya."
@@ -17775,7 +17782,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|5|11": {
+ "Unit 3A · Vocabulary focus|5|13": {
   "source_text": "awak — you (neutral, everyday) · あなた  [L-0038]",
   "target_spans": [
    "awak"
@@ -17784,7 +17791,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 3A · Vocabulary focus|5|12": {
+ "Unit 3A · Vocabulary focus|5|14": {
   "source_text": "   e.g. Awak orang Jepun?",
   "target_spans": [
    "Awak orang Jepun?"
@@ -18330,11 +18337,14 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Drill 1 · Pattern table|4|1": {
-  "source_text": "Accept a complete grammatical answer using the printed cue; the learner must preserve number value and role.",
-  "target_spans": [],
+  "source_text": "Read each line twice. Amounts and ages are whole numbers (dua puluh); phone digits are read one by one (kosong satu dua).",
+  "target_spans": [
+   "dua puluh",
+   "kosong satu dua"
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3A · Drill 2 · Substitution|0|0": {
   "source_text": "番号順に口頭で練習し、ペアで交代します。",
@@ -18476,11 +18486,28 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Drill 2 · Substitution|4|1": {
-  "source_text": "Accept a complete grammatical answer using the printed cue; the learner must preserve number value and role.",
-  "target_spans": [],
+  "source_text": "1 Umur saya tiga puluh tahun. 2 Umur dia empat puluh tahun. 3 Saya ada lima ringgit. 4 Saya ada dua ratus ringgit.",
+  "target_spans": [
+   "Umur saya tiga puluh tahun.",
+   "Umur dia empat puluh tahun.",
+   "Saya ada lima ringgit.",
+   "Saya ada dua ratus ringgit."
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
+ },
+ "Unit 3A · Drill 2 · Substitution|4|2": {
+  "source_text": "5 Saya ada dua ribu ringgit. 6 Umur saya empat puluh satu tahun. 7 Nombor telefon saya kosong satu empat. 8 Nombor telefon saya kosong satu lima.",
+  "target_spans": [
+   "Saya ada dua ribu ringgit.",
+   "Umur saya empat puluh satu tahun.",
+   "Nombor telefon saya kosong satu empat.",
+   "Nombor telefon saya kosong satu lima."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
  },
  "Unit 3A · Drill 3 · Transformation|0|0": {
   "source_text": "番号順に口頭で練習し、ペアで交代します。",
@@ -18606,11 +18633,28 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Drill 3 · Transformation|4|1": {
-  "source_text": "Accept a complete grammatical answer using the printed cue; the learner must preserve number value and role.",
-  "target_spans": [],
+  "source_text": "1 Berapa umur encik? 2 Berapa nombor telefon encik? 3 Umur dia bukan dua puluh tahun. 4 dua belas",
+  "target_spans": [
+   "Berapa umur encik?",
+   "Berapa nombor telefon encik?",
+   "Umur dia bukan dua puluh tahun.",
+   "dua belas"
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
+ },
+ "Unit 3A · Drill 3 · Transformation|4|2": {
+  "source_text": "5 dua, kosong 6 dua ratus 7 seribu 8 Kosong satu tiga, betul?",
+  "target_spans": [
+   "dua, kosong",
+   "dua ratus",
+   "seribu",
+   "Kosong satu tiga, betul?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
  },
  "Unit 3A · Drill 4 · Question and answer|0|0": {
   "source_text": "番号順に口頭で練習し、ペアで交代します。",
@@ -18734,11 +18778,28 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Drill 4 · Question and answer|4|1": {
-  "source_text": "Accept a complete grammatical answer using the printed cue; the learner must preserve number value and role.",
-  "target_spans": [],
+  "source_text": "1 Umur saya tiga puluh tahun. 2 Umur saya empat puluh dua tahun. 3 Kosong satu dua, … 4 Kosong satu tiga, …",
+  "target_spans": [
+   "Umur saya tiga puluh tahun.",
+   "Umur saya empat puluh dua tahun.",
+   "Kosong satu dua, …",
+   "Kosong satu tiga, …"
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
+ },
+ "Unit 3A · Drill 4 · Question and answer|4|2": {
+  "source_text": "5 Berapa umur encik? 6 Berapa nombor telefon encik? 7 Encik ada berapa ringgit? 8 Berapa umur dia?",
+  "target_spans": [
+   "Berapa umur encik?",
+   "Berapa nombor telefon encik?",
+   "Encik ada berapa ringgit?",
+   "Berapa umur dia?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
  },
  "Unit 3A · Drill 5 · Question-word choice|0|0": {
   "source_text": "番号順に口頭で練習し、ペアで交代します。",
@@ -18877,11 +18938,21 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Drill 5 · Question-word choice|4|1": {
-  "source_text": "Accept a complete grammatical answer using the printed cue; the learner must preserve number value and role.",
-  "target_spans": [],
+  "source_text": "1 Apa 2 Siapa 3 di mana (Encik di mana?) 4 Adakah 5 Bolehkah 6 Berapa 7 Siapakah 8 Berapa",
+  "target_spans": [
+   "Apa",
+   "Siapa",
+   "di mana",
+   "Encik di mana?",
+   "Adakah",
+   "Bolehkah",
+   "Berapa",
+   "Siapakah",
+   "Berapa"
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3A · Drill 6 · Short dialogues|0|0": {
   "source_text": "二行の会話を読み、自分で一行を加えます。役を交代します。",
@@ -19545,7 +19616,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Listening focus · Encik Tanaka|3|0": {
-  "source_text": "Predict the topic: a fictional registration conversation with age and telephone digits",
+  "source_text": "Predict the topic: opening a bank account: queue number, form, age and a fictional phone number",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
@@ -19566,56 +19637,56 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Listening focus · Encik Tanaka|3|3": {
-  "source_text": "1. What age does Tanaka state?",
+  "source_text": "1. What is Tanaka’s queue number?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Listening focus · Encik Tanaka|3|4": {
-  "source_text": "2. What age does Aini state?",
+  "source_text": "2. What does he give the clerk with the form?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Listening focus · Encik Tanaka|3|5": {
-  "source_text": "3. Write Tanaka’s fictional first three digits.",
+  "source_text": "3. How old is Tanaka?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Listening focus · Encik Tanaka|3|6": {
-  "source_text": "4. Write Aini’s fictional first three digits.",
+  "source_text": "4. Where does he live?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Listening focus · Encik Tanaka|3|7": {
-  "source_text": "5. What age does Yuki have?",
+  "source_text": "5. Write his fictional phone number.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Listening focus · Encik Tanaka|3|8": {
-  "source_text": "6. Which number does Aini repeat?",
+  "source_text": "6. Who else can open an account?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Listening focus · Encik Tanaka|3|9": {
-  "source_text": "7. Does Tanaka correct a digit?",
+  "source_text": "7. How old is his child?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Listening focus · Encik Tanaka|3|10": {
-  "source_text": "8. How many different fictional phone numbers occur?",
+  "source_text": "8. Which phone number is given for the child?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
@@ -19650,164 +19721,185 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|1": {
-  "source_text": "Teacher-read script (201 Malay words):",
+  "source_text": "Teacher-read script (126 Malay words):",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|2": {
-  "source_text": "Tanaka: Umur saya tiga puluh lima tahun. Nama saya Tanaka. Saya orang Jepun.",
+  "source_text": "Tanaka: Selamat pagi, puan. Nombor giliran saya seratus dua belas.",
   "target_spans": [
-   "Umur saya tiga puluh lima tahun. Nama saya Tanaka. Saya orang Jepun."
+   "Selamat pagi, puan. Nombor giliran saya seratus dua belas."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|3": {
-  "source_text": "Aini: Umur saya empat puluh dua tahun. Nama saya Aini. Saya orang Malaysia.",
+  "source_text": "Aini: Selamat pagi, encik. Baik, nombor seratus dua belas. Encik isi borang ini, ya.",
   "target_spans": [
-   "Umur saya empat puluh dua tahun. Nama saya Aini. Saya orang Malaysia."
+   "Selamat pagi, encik. Baik, nombor seratus dua belas. Encik isi borang ini, ya."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|4": {
-  "source_text": "Tanaka: Nombor telefon saya kosong satu dua, tiga empat lima enam. Ini nombor untuk kelas ini.",
+  "source_text": "Tanaka: Baik. Ini pasport saya.",
   "target_spans": [
-   "Nombor telefon saya kosong satu dua, tiga empat lima enam. Ini nombor untuk kelas ini."
+   "Baik. Ini pasport saya."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|5": {
-  "source_text": "Aini: Nombor telefon saya kosong satu tiga, empat lima enam tujuh. Ini nombor untuk kelas ini juga.",
+  "source_text": "Aini: Terima kasih. Siapa nama encik?",
   "target_spans": [
-   "Nombor telefon saya kosong satu tiga, empat lima enam tujuh. Ini nombor untuk kelas ini juga."
+   "Terima kasih. Siapa nama encik?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|6": {
-  "source_text": "Tanaka: Umur kawan saya dua puluh sembilan tahun. Nama dia Yuki. Dia orang Jepun.",
+  "source_text": "Tanaka: Nama saya Tanaka Kenji. Saya orang Jepun.",
   "target_spans": [
-   "Umur kawan saya dua puluh sembilan tahun. Nama dia Yuki. Dia orang Jepun."
+   "Nama saya Tanaka Kenji. Saya orang Jepun."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|7": {
-  "source_text": "Aini: Baik. Berapa umur kawan encik? Dua puluh sembilan tahun, betul?",
+  "source_text": "Aini: Berapa umur encik?",
   "target_spans": [
-   "Baik. Berapa umur kawan encik? Dua puluh sembilan tahun, betul?"
+   "Berapa umur encik?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|8": {
-  "source_text": "Tanaka: Ya, betul. Umur dia dua puluh sembilan tahun. Umur saya tiga puluh lima tahun.",
+  "source_text": "Tanaka: Umur saya tiga puluh lima tahun.",
   "target_spans": [
-   "Ya, betul. Umur dia dua puluh sembilan tahun. Umur saya tiga puluh lima tahun."
+   "Umur saya tiga puluh lima tahun."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|9": {
-  "source_text": "Aini: Nombor telefon encik kosong satu dua, tiga empat lima enam, betul?",
+  "source_text": "Aini: Encik tinggal di mana?",
   "target_spans": [
-   "Nombor telefon encik kosong satu dua, tiga empat lima enam, betul?"
+   "Encik tinggal di mana?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|10": {
-  "source_text": "Tanaka: Ya. Kosong satu dua, tiga empat lima enam. Bukan kosong satu tiga.",
+  "source_text": "Tanaka: Saya tinggal di Mont Kiara.",
   "target_spans": [
-   "Ya. Kosong satu dua, tiga empat lima enam. Bukan kosong satu tiga."
+   "Saya tinggal di Mont Kiara."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|11": {
-  "source_text": "Aini: Terima kasih. Saya ada borang untuk kelas ini. Nama encik Tanaka, bukan Yuki.",
+  "source_text": "Aini: Berapa nombor telefon encik?",
   "target_spans": [
-   "Terima kasih. Saya ada borang untuk kelas ini. Nama encik Tanaka, bukan Yuki."
+   "Berapa nombor telefon encik?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|12": {
-  "source_text": "Tanaka: Ya. Nama saya Tanaka. Yuki kawan saya. Dia ada nombor telefon juga.",
+  "source_text": "Tanaka: Kosong satu dua, tiga empat lima, enam tujuh lapan sembilan.",
   "target_spans": [
-   "Ya. Nama saya Tanaka. Yuki kawan saya. Dia ada nombor telefon juga."
+   "Kosong satu dua, tiga empat lima, enam tujuh lapan sembilan."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|13": {
-  "source_text": "Aini: Berapa nombor telefon dia? Encik boleh cakap nombor telefon dia?",
+  "source_text": "Aini: Kosong satu dua, tiga empat lima, enam tujuh lapan sembilan. Betul?",
   "target_spans": [
-   "Berapa nombor telefon dia? Encik boleh cakap nombor telefon dia?"
+   "Kosong satu dua, tiga empat lima, enam tujuh lapan sembilan. Betul?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|14": {
-  "source_text": "Tanaka: Boleh. Kosong satu lima, dua tiga empat lima. Nombor telefon dia kosong satu lima.",
+  "source_text": "Tanaka: Betul. Puan, anak saya pun boleh ada akaun?",
   "target_spans": [
-   "Boleh. Kosong satu lima, dua tiga empat lima. Nombor telefon dia kosong satu lima."
+   "Betul. Puan, anak saya pun boleh ada akaun?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|15": {
-  "source_text": "Aini: Baik. Ini nombor telefon Yuki. Umur dia dua puluh sembilan tahun.",
+  "source_text": "Aini: Boleh. Berapa umur anak encik?",
   "target_spans": [
-   "Baik. Ini nombor telefon Yuki. Umur dia dua puluh sembilan tahun."
+   "Boleh. Berapa umur anak encik?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|16": {
-  "source_text": "Tanaka: Terima kasih, puan. Nombor telefon saya kosong satu dua. Nombor telefon Yuki kosong satu lima.",
+  "source_text": "Tanaka: Umur dia dua belas tahun. Dia pelajar sekolah Jepun.",
   "target_spans": [
-   "Terima kasih, puan. Nombor telefon saya kosong satu dua. Nombor telefon Yuki kosong satu lima."
+   "Umur dia dua belas tahun. Dia pelajar sekolah Jepun."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|17": {
-  "source_text": "Aini: Ya. Satu nombor untuk encik, satu nombor untuk Yuki. Terima kasih.",
+  "source_text": "Aini: Baik. Untuk anak encik, isi borang ini juga. Nombor telefon untuk anak encik?",
   "target_spans": [
-   "Ya. Satu nombor untuk encik, satu nombor untuk Yuki. Terima kasih."
+   "Baik. Untuk anak encik, isi borang ini juga. Nombor telefon untuk anak encik?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|18": {
-  "source_text": "Answers: 35 / 42 / 012 / 013 / 29 / 012-3456 / yes: 012 not 013 / three",
-  "target_spans": [],
+  "source_text": "Tanaka: Nombor telefon saya juga. Terima kasih, puan.",
+  "target_spans": [
+   "Nombor telefon saya juga. Terima kasih, puan."
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3A · Listening focus · Encik Tanaka|4|19": {
+  "source_text": "Aini: Sama-sama, Encik Tanaka.",
+  "target_spans": [
+   "Sama-sama, Encik Tanaka."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 3A · Listening focus · Encik Tanaka|4|20": {
+  "source_text": "Answers: 112 / his passport (pasport) / 35 / Mont Kiara / 012-345 6789 / his child (anak) / 12 / Tanaka’s own number",
+  "target_spans": [
+   "pasport",
+   "anak"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 3A · Listening focus · Encik Tanaka|4|21": {
   "source_text": "Do not distribute the script before the first listening.",
   "target_spans": [],
   "mention_spans": [],
@@ -19855,7 +19947,7 @@
   "exclusion": null
  },
  "Unit 3A · Reading and writing · A class registration form|3|1": {
-  "source_text": "Second fictional form: Nama: Yuki · Umur: dua puluh sembilan tahun · Nombor telefon: 015-2345.",
+  "source_text": "Second fictional form: Nama: Yuki · Umur: dua puluh sembilan tahun · Nombor telefon: 016-234 5678.",
   "target_spans": [
    "Nama:",
    "Umur:",
@@ -19951,7 +20043,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Reading and writing · A class registration form|4|0": {
-  "source_text": "Reading: 35 / Yuki / 012-3456 / 015 / Umur saya tiga puluh lima tahun. / Berapa umur awak?",
+  "source_text": "Reading: 35 / Yuki / 012-3456 / 016 / Umur saya tiga puluh lima tahun. / Berapa umur awak?",
   "target_spans": [
    "Umur saya tiga puluh lima tahun.",
    "Berapa umur awak?"
@@ -20128,31 +20220,49 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Culture and usage note|3|0": {
-  "source_text": "In this unit, a quantity and an identifying number are deliberately treated as different tasks. A price or age is normally read as a complete quantity: for example, the pieces for the tens and units have to be kept in their proper order. A telephone number, however, can be read digit by digit. The classroom uses invented strings rather than asking learners to disclose a real personal number. The teacher should ask learners to say whether the digits represent a quantity, an age, or a code before deciding how to read them.",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "culture",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Unit 3A · Culture and usage note|3|1": {
-  "source_text": "Kata-Kata card ms-c03-011 explicitly notes that sepuluh is built from the one-unit prefix and the tens element; card ms-c03-012 gives the corresponding note for sebelas. The cards also introduce seratus, seribu and sejuta as standard number forms. These word-building observations are taken from the cards, not independent etymological claims. The aim is to make adult learners recognise the recurring structure while keeping irregular forms visible. Students should be able to read a price even when they cannot yet explain every part of its spelling.",
+  "source_text": "Malaysian mobile numbers start with 01, for example 012, 016, 017 or 019, followed by seven or eight more digits. People read them digit by digit in small groups, usually following the dash: 012-345 6789 is kosong satu dua, tiga empat lima, enam tujuh lapan sembilan. In phone numbers most people say kosong for zero; sifar is the standard word, which you also hear in maths and formal reading. Kata-Kata card ms-c03-001 notes that kosong also means \"empty\" or \"plain\" (chapter 5). When someone reads you a number, repeat it back in the same groups to check it.",
   "target_spans": [
-   "sepuluh",
-   "sebelas",
-   "seratus",
-   "seribu",
-   "sejuta"
+   "kosong satu dua, tiga empat lima, enam tujuh lapan sembilan",
+   "kosong",
+   "sifar",
+   "kosong"
   ],
   "mention_spans": [],
   "kind": "culture",
   "exclusion": null
  },
+ "Unit 3A · Culture and usage note|3|1": {
+  "source_text": "Tens and teens follow a pattern that the Kata-Kata cards point out: sepuluh is se- (one) plus puluh, sebelas is se- plus belas, and dua belas is two plus belas (cards ms-c03-011 to ms-c03-013). In the same way 100, 1,000 and 1,000,000 are seratus, seribu and sejuta.",
+  "target_spans": [
+   "sepuluh",
+   "puluh",
+   "sebelas",
+   "belas",
+   "dua belas",
+   "belas",
+   "seratus",
+   "seribu",
+   "sejuta"
+  ],
+  "mention_spans": [
+   "se-",
+   "se-"
+  ],
+  "kind": "culture",
+  "exclusion": null
+ },
  "Unit 3A · Culture and usage note|3|2": {
-  "source_text": "When recording information in a Malaysian classroom or office, ask for a repeat when an important digit is unclear. The speaker may group digits for convenience, but the listener must check the full sequence. This is a communication skill rather than a claim that one grouping style is universal. Use imaginary names and numbers in class, and let learners decline to share personal information. Japanese comparisons on this sheet are teaching drafts awaiting a native review.",
-  "target_spans": [],
+  "source_text": "Age matters in Malaysian conversation because it helps decide how you address people. Someone a little older is Abang or Kakak; an older man or woman is Pak cik or Mak cik (chapter 1). Asking Berapa umur …? is normal about children and on forms, for example at a bank counter. With adults you have just met, especially at work, many people do not ask directly and simply choose a polite title.",
+  "target_spans": [
+   "Abang",
+   "Kakak",
+   "Pak cik",
+   "Mak cik",
+   "Berapa umur …?"
+  ],
   "mention_spans": [],
   "kind": "culture",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3A · Culture and usage note|3|3": {
   "source_text": "■ 日本語",
@@ -20162,21 +20272,52 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Culture and usage note|3|4": {
-  "source_text": "数量と電話番号の読み方を区別します。電話番号は一桁ずつ読み、この練習では実在の番号を使いません。",
-  "target_spans": [],
+  "source_text": "マレーシアの携帯電話番号は 01 で始まり（012、016、017、019 など）、そのあとに7桁か8桁が続きます。読むときは数字を一つずつ、たいていハイフンの区切りに合わせて小さなまとまりで読みます：012-345 6789 は kosong satu dua, tiga empat lima, enam tujuh lapan sembilan。電話番号のゼロはたいてい kosong と言います。sifar は標準語で、算数や改まった読み上げでも聞きます。Kata-Kata カード ms-c03-001 によると、kosong には「空の」「何も入っていない」という意味もあります（第5章）。番号を読み上げてもらったら、同じ区切りで繰り返して確認しましょう。",
+  "target_spans": [
+   "kosong satu dua, tiga empat lima, enam tujuh lapan sembilan",
+   "kosong",
+   "sifar",
+   "kosong"
+  ],
   "mention_spans": [],
   "kind": "culture",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3A · Culture and usage note|3|5": {
-  "source_text": "数の組み立てについての説明はKata-Kataの第3章カード注記に限ります。日本語の比較説明はネイティブ確認待ちです。",
-  "target_spans": [],
+  "source_text": "10や11〜19の数には、Kata-Kata カードが示すきまりがあります：sepuluh は se-（1）＋puluh、sebelas は se-＋belas、dua belas は2＋belas です（カード ms-c03-011〜013）。同じように100・1000・100万は seratus・seribu・sejuta です。",
+  "target_spans": [
+   "sepuluh",
+   "puluh",
+   "sebelas",
+   "belas",
+   "dua belas",
+   "belas",
+   "seratus",
+   "seribu",
+   "sejuta"
+  ],
+  "mention_spans": [
+   "se-",
+   "se-"
+  ],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 3A · Culture and usage note|3|6": {
+  "source_text": "マレーシアの会話では、相手をどう呼ぶかを決めるのに年齢が関わります。少し年上の人は Abang・Kakak、年配の男性・女性は Pak cik・Mak cik です（第1章）。子どもについてや書類では Berapa umur …? と聞くのは普通で、銀行の窓口でもそうです。ただし、初対面の大人、特に仕事の場では、直接年齢を聞かずに丁寧な呼び方を選ぶ人も多くいます。",
+  "target_spans": [
+   "Abang",
+   "Kakak",
+   "Pak cik",
+   "Mak cik",
+   "Berapa umur …?"
+  ],
   "mention_spans": [],
   "kind": "culture",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3A · Culture and usage note|4|0": {
-  "source_text": "English culture note: 252 words.",
+  "source_text": "English culture note: 219 words.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
@@ -20351,7 +20492,7 @@
   "exclusion": null
  },
  "Unit 3A · Unit test and self-check|3|16": {
-  "source_text": "Second fictional form: Nama: Yuki · Umur: dua puluh sembilan tahun · Nombor telefon: 015-2345.",
+  "source_text": "Second fictional form: Nama: Yuki · Umur: dua puluh sembilan tahun · Nombor telefon: 016-234 5678.",
   "target_spans": [
    "Nama:",
    "Umur:",
@@ -20440,45 +20581,45 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Unit test and self-check|4|0": {
-  "source_text": "L1: Teacher reads: Umur saya tiga puluh lima tahun. Nama saya Tanaka. Saya orang Jepun. Answer: 35",
+  "source_text": "L1: Teacher reads: Selamat pagi, puan. Nombor giliran saya seratus dua belas. Answer: 112",
   "target_spans": [
-   "Umur saya tiga puluh lima tahun. Nama saya Tanaka. Saya orang Jepun."
+   "Selamat pagi, puan. Nombor giliran saya seratus dua belas."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Unit test and self-check|4|1": {
-  "source_text": "L2: Teacher reads: Umur saya empat puluh dua tahun. Nama saya Aini. Saya orang Malaysia. Answer: 42",
+  "source_text": "L2: Teacher reads: Umur saya tiga puluh lima tahun. Answer: 35",
   "target_spans": [
-   "Umur saya empat puluh dua tahun. Nama saya Aini. Saya orang Malaysia."
+   "Umur saya tiga puluh lima tahun."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Unit test and self-check|4|2": {
-  "source_text": "L3: Teacher reads: Nombor telefon saya kosong satu dua, tiga empat lima enam. Ini nombor untuk kelas ini. Answer: 012",
+  "source_text": "L3: Teacher reads: Saya tinggal di Mont Kiara. Answer: Mont Kiara",
   "target_spans": [
-   "Nombor telefon saya kosong satu dua, tiga empat lima enam. Ini nombor untuk kelas ini."
+   "Saya tinggal di Mont Kiara."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Unit test and self-check|4|3": {
-  "source_text": "L4: Teacher reads: Nombor telefon saya kosong satu tiga, empat lima enam tujuh. Ini nombor untuk kelas ini juga. Answer: 013",
+  "source_text": "L4: Teacher reads: Kosong satu dua, tiga empat lima, enam tujuh lapan sembilan. Answer: 012-345 6789",
   "target_spans": [
-   "Nombor telefon saya kosong satu tiga, empat lima enam tujuh. Ini nombor untuk kelas ini juga."
+   "Kosong satu dua, tiga empat lima, enam tujuh lapan sembilan."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3A · Unit test and self-check|4|4": {
-  "source_text": "L5: Teacher reads: Umur kawan saya dua puluh sembilan tahun. Nama dia Yuki. Dia orang Jepun. Answer: 29",
+  "source_text": "L5: Teacher reads: Umur dia dua belas tahun. Dia pelajar sekolah Jepun. Answer: 12",
   "target_spans": [
-   "Umur kawan saya dua puluh sembilan tahun. Nama dia Yuki. Dia orang Jepun."
+   "Umur dia dua belas tahun. Dia pelajar sekolah Jepun."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -20578,7 +20719,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3A · Unit test and self-check|4|16": {
-  "source_text": "R4: 015",
+  "source_text": "R4: 016",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
@@ -20608,9 +20749,9 @@
   "exclusion": null
  },
  "test:ms-c03a-test-01|answer_key": {
-  "source_text": "Teacher reads: Umur saya tiga puluh lima tahun. Nama saya Tanaka. Saya orang Jepun. Answer: 35",
+  "source_text": "Teacher reads: Selamat pagi, puan. Nombor giliran saya seratus dua belas. Answer: 112",
   "target_spans": [
-   "Umur saya tiga puluh lima tahun. Nama saya Tanaka. Saya orang Jepun."
+   "Selamat pagi, puan. Nombor giliran saya seratus dua belas."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -20624,9 +20765,9 @@
   "exclusion": null
  },
  "test:ms-c03a-test-02|answer_key": {
-  "source_text": "Teacher reads: Umur saya empat puluh dua tahun. Nama saya Aini. Saya orang Malaysia. Answer: 42",
+  "source_text": "Teacher reads: Umur saya tiga puluh lima tahun. Answer: 35",
   "target_spans": [
-   "Umur saya empat puluh dua tahun. Nama saya Aini. Saya orang Malaysia."
+   "Umur saya tiga puluh lima tahun."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -20640,9 +20781,9 @@
   "exclusion": null
  },
  "test:ms-c03a-test-03|answer_key": {
-  "source_text": "Teacher reads: Nombor telefon saya kosong satu dua, tiga empat lima enam. Ini nombor untuk kelas ini. Answer: 012",
+  "source_text": "Teacher reads: Saya tinggal di Mont Kiara. Answer: Mont Kiara",
   "target_spans": [
-   "Nombor telefon saya kosong satu dua, tiga empat lima enam. Ini nombor untuk kelas ini."
+   "Saya tinggal di Mont Kiara."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -20656,9 +20797,9 @@
   "exclusion": null
  },
  "test:ms-c03a-test-04|answer_key": {
-  "source_text": "Teacher reads: Nombor telefon saya kosong satu tiga, empat lima enam tujuh. Ini nombor untuk kelas ini juga. Answer: 013",
+  "source_text": "Teacher reads: Kosong satu dua, tiga empat lima, enam tujuh lapan sembilan. Answer: 012-345 6789",
   "target_spans": [
-   "Nombor telefon saya kosong satu tiga, empat lima enam tujuh. Ini nombor untuk kelas ini juga."
+   "Kosong satu dua, tiga empat lima, enam tujuh lapan sembilan."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -20672,9 +20813,9 @@
   "exclusion": null
  },
  "test:ms-c03a-test-05|answer_key": {
-  "source_text": "Teacher reads: Umur kawan saya dua puluh sembilan tahun. Nama dia Yuki. Dia orang Jepun. Answer: 29",
+  "source_text": "Teacher reads: Umur dia dua belas tahun. Dia pelajar sekolah Jepun. Answer: 12",
   "target_spans": [
-   "Umur kawan saya dua puluh sembilan tahun. Nama dia Yuki. Dia orang Jepun."
+   "Umur dia dua belas tahun. Dia pelajar sekolah Jepun."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -20867,7 +21008,7 @@
   "exclusion": null
  },
  "test:ms-c03a-test-17|answer_key": {
-  "source_text": "015",
+  "source_text": "016",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -22802,11 +22943,14 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Drill 1 · Pattern table|4|1": {
-  "source_text": "Read the printed cue, supply the full sentence, and check the numerical result together.",
-  "target_spans": [],
+  "source_text": "Read each line twice. Say ringgit, then sen, and the full amount.",
+  "target_spans": [
+   "ringgit",
+   "sen"
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3B · Drill 2 · Substitution|0|0": {
   "source_text": "番号順に口頭で練習し、ペアで交代します。",
@@ -22941,11 +23085,28 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Drill 2 · Substitution|4|1": {
-  "source_text": "Read the printed cue, supply the full sentence, and check the numerical result together.",
-  "target_spans": [],
+  "source_text": "1 Harganya lima ringgit. 2 Harganya lapan ringgit. 3 Harga ini murah. 4 Saya bayar dengan kad.",
+  "target_spans": [
+   "Harganya lima ringgit.",
+   "Harganya lapan ringgit.",
+   "Harga ini murah.",
+   "Saya bayar dengan kad."
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
+ },
+ "Unit 3B · Drill 2 · Substitution|4|2": {
+  "source_text": "5 Saya beli mangga. 6 Saya beli pisang. 7 Baki dua ringgit. 8 Empat ringgit sahaja.",
+  "target_spans": [
+   "Saya beli mangga.",
+   "Saya beli pisang.",
+   "Baki dua ringgit.",
+   "Empat ringgit sahaja."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
  },
  "Unit 3B · Drill 3 · Transformation|0|0": {
   "source_text": "番号順に口頭で練習し、ペアで交代します。",
@@ -23066,11 +23227,28 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Drill 3 · Transformation|4|1": {
-  "source_text": "Read the printed cue, supply the full sentence, and check the numerical result together.",
-  "target_spans": [],
+  "source_text": "1 Berapa harganya? 2 Saya bayar sepuluh ringgit, betul? 3 Ini bukan epal. Ini mangga. 4 Lima puluh sen.",
+  "target_spans": [
+   "Berapa harganya?",
+   "Saya bayar sepuluh ringgit, betul?",
+   "Ini bukan epal. Ini mangga.",
+   "Lima puluh sen."
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
+ },
+ "Unit 3B · Drill 3 · Transformation|4|2": {
+  "source_text": "5 Boleh bayar dengan kad? 6 Baki satu ringgit lima puluh sen. 7 Jumlah empat ringgit. 8 Lapan ringgit lima puluh sen.",
+  "target_spans": [
+   "Boleh bayar dengan kad?",
+   "Baki satu ringgit lima puluh sen.",
+   "Jumlah empat ringgit.",
+   "Lapan ringgit lima puluh sen."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
  },
  "Unit 3B · Drill 4 · Question and answer|0|0": {
   "source_text": "番号順に口頭で練習し、ペアで交代します。",
@@ -23194,11 +23372,28 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Drill 4 · Question and answer|4|1": {
-  "source_text": "Read the printed cue, supply the full sentence, and check the numerical result together.",
-  "target_spans": [],
+  "source_text": "1 Harganya dua ringgit. 2 Harganya empat ringgit. 3 Boleh. 4 Baki satu ringgit lima puluh sen.",
+  "target_spans": [
+   "Harganya dua ringgit.",
+   "Harganya empat ringgit.",
+   "Boleh.",
+   "Baki satu ringgit lima puluh sen."
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
+ },
+ "Unit 3B · Drill 4 · Question and answer|4|2": {
+  "source_text": "5 Berapa harga mangga ini? 6 Encik bayar tunai? 7 Jumlah berapa? 8 Ini epal?",
+  "target_spans": [
+   "Berapa harga mangga ini?",
+   "Encik bayar tunai?",
+   "Jumlah berapa?",
+   "Ini epal?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
  },
  "Unit 3B · Drill 5 · Question-word choice|0|0": {
   "source_text": "番号順に口頭で練習し、ペアで交代します。",
@@ -23337,11 +23532,20 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Drill 5 · Question-word choice|4|1": {
-  "source_text": "Read the printed cue, supply the full sentence, and check the numerical result together.",
-  "target_spans": [],
+  "source_text": "1 Berapa 2 Siapa 3 Apa 4 di mana 5 Bolehkah 6 Adakah 7 Siapakah 8 Berapa",
+  "target_spans": [
+   "Berapa",
+   "Siapa",
+   "Apa",
+   "di mana",
+   "Bolehkah",
+   "Adakah",
+   "Siapakah",
+   "Berapa"
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3B · Drill 6 · Short dialogues|0|0": {
   "source_text": "二行の会話を読み、自分で一行を加えます。役を交代します。",
@@ -24005,7 +24209,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Listening focus · Encik Tanaka|3|0": {
-  "source_text": "Predict the topic: prices at a fictional fruit stall, cash and card payments, change",
+  "source_text": "Predict the topic: buying fruit at a morning-market stall: prices, a small discount, cash only, change",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
@@ -24026,56 +24230,56 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Listening focus · Encik Tanaka|3|3": {
-  "source_text": "1. How much is a mango?",
+  "source_text": "1. How much is one mango?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Listening focus · Encik Tanaka|3|4": {
-  "source_text": "2. What amount does Tanaka have first?",
+  "source_text": "2. How much is one apple?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Listening focus · Encik Tanaka|3|5": {
-  "source_text": "3. What change is due after the mango?",
+  "source_text": "3. What does Tanaka say to ask for a lower price?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Listening focus · Encik Tanaka|3|6": {
-  "source_text": "4. What is the price of the banana?",
+  "source_text": "4. What is the banana price after that?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Listening focus · Encik Tanaka|3|7": {
-  "source_text": "5. What is the price of one apple?",
+  "source_text": "5. What is the first total?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Listening focus · Encik Tanaka|3|8": {
-  "source_text": "6. What is the price of two apples?",
+  "source_text": "6. Can he pay by card?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Listening focus · Encik Tanaka|3|9": {
-  "source_text": "7. How does Tanaka finally pay for the two apples?",
+  "source_text": "7. How much change does he get from RM10 the first time?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Listening focus · Encik Tanaka|3|10": {
-  "source_text": "8. Are the mango and apple prices the same?",
+  "source_text": "8. Who is the mango for?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
@@ -24110,164 +24314,184 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|1": {
-  "source_text": "Teacher-read script (189 Malay words):",
+  "source_text": "Teacher-read script (129 Malay words):",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|2": {
-  "source_text": "Penjual: Harga mangga ini lapan ringgit lima puluh sen. Ini harga untuk satu mangga.",
+  "source_text": "Penjual: Selamat pagi, encik. Mangga ini segar. Satu mangga lapan ringgit lima puluh sen.",
   "target_spans": [
-   "Harga mangga ini lapan ringgit lima puluh sen. Ini harga untuk satu mangga."
+   "Selamat pagi, encik. Mangga ini segar. Satu mangga lapan ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|3": {
-  "source_text": "Tanaka: Saya ada sepuluh ringgit. Saya beli satu mangga. Berapa baki saya?",
+  "source_text": "Tanaka: Lapan ringgit lima puluh sen? Mahal. Berapa harga epal itu?",
   "target_spans": [
-   "Saya ada sepuluh ringgit. Saya beli satu mangga. Berapa baki saya?"
+   "Lapan ringgit lima puluh sen? Mahal. Berapa harga epal itu?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|4": {
-  "source_text": "Penjual: Baki satu ringgit lima puluh sen. Jumlah lapan ringgit lima puluh sen.",
+  "source_text": "Penjual: Epal murah. Satu epal dua ringgit sahaja.",
   "target_spans": [
-   "Baki satu ringgit lima puluh sen. Jumlah lapan ringgit lima puluh sen."
+   "Epal murah. Satu epal dua ringgit sahaja."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|5": {
-  "source_text": "Tanaka: Harga pisang itu empat ringgit. Harga epal ini dua ringgit. Betul?",
+  "source_text": "Tanaka: Pisang ini pula, berapa harganya?",
   "target_spans": [
-   "Harga pisang itu empat ringgit. Harga epal ini dua ringgit. Betul?"
+   "Pisang ini pula, berapa harganya?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|6": {
-  "source_text": "Penjual: Ya. Harga pisang empat ringgit, dan harga epal dua ringgit.",
+  "source_text": "Penjual: Pisang ini empat ringgit.",
   "target_spans": [
-   "Ya. Harga pisang empat ringgit, dan harga epal dua ringgit."
+   "Pisang ini empat ringgit."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|7": {
-  "source_text": "Tanaka: Saya beli satu mangga sahaja. Saya bayar tunai dengan sepuluh ringgit.",
+  "source_text": "Tanaka: Kurang sikit, boleh?",
   "target_spans": [
-   "Saya beli satu mangga sahaja. Saya bayar tunai dengan sepuluh ringgit."
+   "Kurang sikit, boleh?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|8": {
-  "source_text": "Penjual: Baik. Ini mangga encik. Ini baki encik, satu ringgit lima puluh sen.",
+  "source_text": "Penjual: Boleh. Pisang tiga ringgit lima puluh sen.",
   "target_spans": [
-   "Baik. Ini mangga encik. Ini baki encik, satu ringgit lima puluh sen."
+   "Boleh. Pisang tiga ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|9": {
-  "source_text": "Tanaka: Terima kasih. Boleh saya tanya? Boleh bayar dengan kad juga?",
+  "source_text": "Tanaka: Baik. Saya beli dua epal dan pisang ini.",
   "target_spans": [
-   "Terima kasih. Boleh saya tanya? Boleh bayar dengan kad juga?"
+   "Baik. Saya beli dua epal dan pisang ini."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|10": {
-  "source_text": "Penjual: Boleh bayar dengan kad. Boleh bayar tunai. Untuk mangga ini, jumlah lapan ringgit lima puluh sen.",
+  "source_text": "Penjual: Dua epal empat ringgit, pisang tiga ringgit lima puluh sen. Jumlah tujuh ringgit lima puluh sen.",
   "target_spans": [
-   "Boleh bayar dengan kad. Boleh bayar tunai. Untuk mangga ini, jumlah lapan ringgit lima puluh sen."
+   "Dua epal empat ringgit, pisang tiga ringgit lima puluh sen. Jumlah tujuh ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|11": {
-  "source_text": "Tanaka: Kawan saya suka epal. Berapa harga dua epal untuk kawan saya?",
+  "source_text": "Tanaka: Boleh bayar dengan kad?",
   "target_spans": [
-   "Kawan saya suka epal. Berapa harga dua epal untuk kawan saya?"
+   "Boleh bayar dengan kad?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|12": {
-  "source_text": "Penjual: Satu epal dua ringgit. Dua epal empat ringgit. Ini bukan harga mangga.",
+  "source_text": "Penjual: Maaf, tunai sahaja.",
   "target_spans": [
-   "Satu epal dua ringgit. Dua epal empat ringgit. Ini bukan harga mangga."
+   "Maaf, tunai sahaja."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|13": {
-  "source_text": "Tanaka: Ya. Saya ada dua belas ringgit. Dua epal empat ringgit, saya cukup wang?",
+  "source_text": "Tanaka: Baik. Ini sepuluh ringgit.",
   "target_spans": [
-   "Ya. Saya ada dua belas ringgit. Dua epal empat ringgit, saya cukup wang?"
+   "Baik. Ini sepuluh ringgit."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|14": {
-  "source_text": "Penjual: Ya, cukup. Wang encik dua belas ringgit. Jumlah empat ringgit sahaja.",
+  "source_text": "Penjual: Terima kasih. Baki dua ringgit lima puluh sen.",
   "target_spans": [
-   "Ya, cukup. Wang encik dua belas ringgit. Jumlah empat ringgit sahaja."
+   "Terima kasih. Baki dua ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|15": {
-  "source_text": "Tanaka: Saya beli dua epal. Saya bayar dengan kad. Duit tunai saya dua belas ringgit.",
+  "source_text": "Tanaka: Saya ada dua belas ringgit lagi. Satu mangga untuk kawan saya, boleh?",
   "target_spans": [
-   "Saya beli dua epal. Saya bayar dengan kad. Duit tunai saya dua belas ringgit."
+   "Saya ada dua belas ringgit lagi. Satu mangga untuk kawan saya, boleh?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|16": {
-  "source_text": "Penjual: Betul. Encik bayar dengan kad, bukan tunai. Terima kasih.",
+  "source_text": "Penjual: Boleh. Lapan ringgit lima puluh sen. Wang encik cukup.",
   "target_spans": [
-   "Betul. Encik bayar dengan kad, bukan tunai. Terima kasih."
+   "Boleh. Lapan ringgit lima puluh sen. Wang encik cukup."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|17": {
-  "source_text": "Tanaka: Terima kasih. Harga mangga lapan ringgit, harga epal dua ringgit. Saya beli epal.",
+  "source_text": "Tanaka: Ini sepuluh ringgit.",
   "target_spans": [
-   "Terima kasih. Harga mangga lapan ringgit, harga epal dua ringgit. Saya beli epal."
+   "Ini sepuluh ringgit."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|18": {
-  "source_text": "Answers: RM8.50 / RM10 / RM1.50 / RM4 / RM2 / RM4 / card / no",
-  "target_spans": [],
+  "source_text": "Penjual: Baki satu ringgit lima puluh sen. Terima kasih, encik!",
+  "target_spans": [
+   "Baki satu ringgit lima puluh sen. Terima kasih, encik!"
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3B · Listening focus · Encik Tanaka|4|19": {
+  "source_text": "Tanaka: Terima kasih. Jumpa lagi!",
+  "target_spans": [
+   "Terima kasih. Jumpa lagi!"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 3B · Listening focus · Encik Tanaka|4|20": {
+  "source_text": "Answers: RM8.50 / RM2 / Kurang sikit, boleh? / RM3.50 / RM7.50 / no, cash only / RM2.50 / his friend",
+  "target_spans": [
+   "Kurang sikit, boleh?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 3B · Listening focus · Encik Tanaka|4|21": {
   "source_text": "Do not distribute the script before the first listening.",
   "target_spans": [],
   "mention_spans": [],
@@ -24595,37 +24819,44 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Culture and usage note|3|0": {
-  "source_text": "The everyday classroom distinction between wang and duit deserves careful handling. Kata-Kata card ms-c03-022 describes wang as the standard word for money and duit as an everyday word. For this course, present wang first and explicitly mark duit as conversational vocabulary; do not imply that both have the same register. The card for beli notes that the root is used in speech while the full formal written active form is outside this stage. Learners can use the taught root in a simple buying exchange without being asked to construct productive me- verbs prematurely.",
+  "source_text": "Malaysian prices are in ringgit (RM) and sen, and RM1 is 100 sen. Say the ringgit first, then the sen: RM8.50 is lapan ringgit lima puluh sen. Kata-Kata card ms-c03-021 gives RM12.50 as dua belas ringgit lima puluh sen. In quick speech people often drop the word sen, but in class say the full amount.",
   "target_spans": [
-   "wang",
-   "duit",
-   "wang",
-   "duit",
-   "wang",
-   "duit",
-   "beli"
+   "ringgit",
+   "sen",
+   "sen",
+   "ringgit",
+   "sen",
+   "lapan ringgit lima puluh sen",
+   "dua belas ringgit lima puluh sen",
+   "sen"
   ],
   "mention_spans": [],
   "kind": "culture",
   "exclusion": null
  },
  "Unit 3B · Culture and usage note|3|1": {
-  "source_text": "Prices in Malaysian ringgit may include sen. A learner needs to hear the whole amount, not just its first number, and to distinguish an amount to pay from an amount returned as change. During a practice transaction the teacher should give the customer an explicit amount of fictional cash and ask both partners to calculate the expected baki. The numbers on this sheet are invented for teaching, not observed shop prices or price recommendations. Learners should check whether the price applies to one item or a group rather than assuming a unit without asking.",
+  "source_text": "Cash totals are rounded. Since 2008, Bank Negara Malaysia’s rounding mechanism has rounded the total of a bill paid over the counter to the nearest 5 sen: totals ending in 1, 2, 6 or 7 sen go down, and totals ending in 3, 4, 8 or 9 sen go up. It applies to the total bill, not to each item, and card or QR payments are charged the exact amount. So a total of RM8.52 paid in cash becomes RM8.50.",
   "target_spans": [
-   "ringgit",
+   "Negara",
    "sen",
-   "baki"
+   "sen",
+   "sen"
   ],
   "mention_spans": [],
   "kind": "culture",
   "exclusion": null
  },
  "Unit 3B · Culture and usage note|3|2": {
-  "source_text": "The market setting is suitable for a second layer of listening. The Kata-Kata Dunia scene introduces produce and bargaining language. Those scene words are displayed separately as recognition vocabulary, because the core objective of this unit is to ask, pay, and confirm. Role-play a calm correction when the change does not match the amount paid. The teacher may accept a short, grammatical confirmation instead of requiring a long explanation. The Japanese comparison material is provisional and needs a native-speaker review.",
-  "target_spans": [],
+  "source_text": "Small stalls and pasar sellers often prefer cash, but many also display a DuitNow QR code, Malaysia’s national QR payment standard, which you can scan with a banking or e-wallet app. At markets and small stalls, polite bargaining is common: Kurang sikit, boleh? (spoken). It is not done in supermarkets or shops with fixed prices. Both wang (standard) and duit (everyday) mean money (card ms-c03-022).",
+  "target_spans": [
+   "pasar",
+   "Kurang sikit, boleh?",
+   "wang",
+   "duit"
+  ],
   "mention_spans": [],
   "kind": "culture",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3B · Culture and usage note|3|3": {
   "source_text": "■ 日本語",
@@ -24635,8 +24866,30 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Culture and usage note|3|4": {
-  "source_text": "wang は標準的な「お金」、duit は日常語です。どちらも同じ文体だと教えないでください。",
+  "source_text": "マレーシアの値段はリンギット（RM）とセンで、RM1は100センです。リンギット、センの順に言います：RM8.50 は lapan ringgit lima puluh sen。Kata-Kata カード ms-c03-021 では RM12.50 を dua belas ringgit lima puluh sen としています。早口では sen を省くこともよくありますが、授業では全部言いましょう。",
   "target_spans": [
+   "lapan ringgit lima puluh sen",
+   "dua belas ringgit lima puluh sen",
+   "sen"
+  ],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 3B · Culture and usage note|3|5": {
+  "source_text": "現金の合計は端数が丸められます。2008年からマレーシア中央銀行（Bank Negara Malaysia）の端数処理の仕組みにより、窓口で支払う請求額の合計は5セン単位に丸められます：末尾が1・2・6・7センなら切り下げ、3・4・8・9センなら切り上げです。対象は品物ごとではなく合計額で、カードやQRでの支払いは端数まで正確に請求されます。たとえば合計 RM8.52 を現金で払うと RM8.50 になります。",
+  "target_spans": [
+   "Negara"
+  ],
+  "mention_spans": [],
+  "kind": "culture",
+  "exclusion": null
+ },
+ "Unit 3B · Culture and usage note|3|6": {
+  "source_text": "屋台や pasar の売り手は現金を好むことが多いですが、マレーシアの全国共通QR決済規格 DuitNow QR のコードを置いている店も多く、銀行アプリや電子ウォレットで読み取って払えます。市場や小さな屋台では、丁寧に値切るのは普通です：Kurang sikit, boleh?（話し言葉）。スーパーや定価の店では値切りません。wang（標準語）と duit（日常語）はどちらも「お金」です（カード ms-c03-022）。",
+  "target_spans": [
+   "pasar",
+   "Kurang sikit, boleh?",
    "wang",
    "duit"
   ],
@@ -24644,15 +24897,8 @@
   "kind": "culture",
   "exclusion": null
  },
- "Unit 3B · Culture and usage note|3|5": {
-  "source_text": "リンギットとセン、支払額とお釣りを区別します。値段はすべて架空の例です。日本語の解説は未監修です。",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "culture",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Unit 3B · Culture and usage note|4|0": {
-  "source_text": "English culture note: 267 words.",
+  "source_text": "English culture note: 204 words.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
@@ -24910,45 +25156,45 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3B · Unit test and self-check|4|0": {
-  "source_text": "L1: Teacher reads: Harga mangga ini lapan ringgit lima puluh sen. Ini harga untuk satu mangga. Answer: RM8.50",
+  "source_text": "L1: Teacher reads: Selamat pagi, encik. Mangga ini segar. Satu mangga lapan ringgit lima puluh sen. Answer: RM8.50",
   "target_spans": [
-   "Harga mangga ini lapan ringgit lima puluh sen. Ini harga untuk satu mangga."
+   "Selamat pagi, encik. Mangga ini segar. Satu mangga lapan ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Unit test and self-check|4|1": {
-  "source_text": "L2: Teacher reads: Saya ada sepuluh ringgit. Saya beli satu mangga. Berapa baki saya? Answer: RM10",
+  "source_text": "L2: Teacher reads: Epal murah. Satu epal dua ringgit sahaja. Answer: RM2",
   "target_spans": [
-   "Saya ada sepuluh ringgit. Saya beli satu mangga. Berapa baki saya?"
+   "Epal murah. Satu epal dua ringgit sahaja."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Unit test and self-check|4|2": {
-  "source_text": "L3: Teacher reads: Baki satu ringgit lima puluh sen. Jumlah lapan ringgit lima puluh sen. Answer: RM1.50",
+  "source_text": "L3: Teacher reads: Boleh. Pisang tiga ringgit lima puluh sen. Answer: RM3.50",
   "target_spans": [
-   "Baki satu ringgit lima puluh sen. Jumlah lapan ringgit lima puluh sen."
+   "Boleh. Pisang tiga ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Unit test and self-check|4|3": {
-  "source_text": "L4: Teacher reads: Harga pisang itu empat ringgit. Harga epal ini dua ringgit. Betul? Answer: RM4",
+  "source_text": "L4: Teacher reads: Dua epal empat ringgit, pisang tiga ringgit lima puluh sen. Jumlah tujuh ringgit lima puluh sen. Answer: RM7.50",
   "target_spans": [
-   "Harga pisang itu empat ringgit. Harga epal ini dua ringgit. Betul?"
+   "Dua epal empat ringgit, pisang tiga ringgit lima puluh sen. Jumlah tujuh ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3B · Unit test and self-check|4|4": {
-  "source_text": "L5: Teacher reads: Ya. Harga pisang empat ringgit, dan harga epal dua ringgit. Answer: RM2",
+  "source_text": "L5: Teacher reads: Terima kasih. Baki dua ringgit lima puluh sen. Answer: RM2.50",
   "target_spans": [
-   "Ya. Harga pisang empat ringgit, dan harga epal dua ringgit."
+   "Terima kasih. Baki dua ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -25083,9 +25329,9 @@
   "exclusion": null
  },
  "test:ms-c03b-test-01|answer_key": {
-  "source_text": "Teacher reads: Harga mangga ini lapan ringgit lima puluh sen. Ini harga untuk satu mangga. Answer: RM8.50",
+  "source_text": "Teacher reads: Selamat pagi, encik. Mangga ini segar. Satu mangga lapan ringgit lima puluh sen. Answer: RM8.50",
   "target_spans": [
-   "Harga mangga ini lapan ringgit lima puluh sen. Ini harga untuk satu mangga."
+   "Selamat pagi, encik. Mangga ini segar. Satu mangga lapan ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -25099,9 +25345,9 @@
   "exclusion": null
  },
  "test:ms-c03b-test-02|answer_key": {
-  "source_text": "Teacher reads: Saya ada sepuluh ringgit. Saya beli satu mangga. Berapa baki saya? Answer: RM10",
+  "source_text": "Teacher reads: Epal murah. Satu epal dua ringgit sahaja. Answer: RM2",
   "target_spans": [
-   "Saya ada sepuluh ringgit. Saya beli satu mangga. Berapa baki saya?"
+   "Epal murah. Satu epal dua ringgit sahaja."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -25115,9 +25361,9 @@
   "exclusion": null
  },
  "test:ms-c03b-test-03|answer_key": {
-  "source_text": "Teacher reads: Baki satu ringgit lima puluh sen. Jumlah lapan ringgit lima puluh sen. Answer: RM1.50",
+  "source_text": "Teacher reads: Boleh. Pisang tiga ringgit lima puluh sen. Answer: RM3.50",
   "target_spans": [
-   "Baki satu ringgit lima puluh sen. Jumlah lapan ringgit lima puluh sen."
+   "Boleh. Pisang tiga ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -25131,9 +25377,9 @@
   "exclusion": null
  },
  "test:ms-c03b-test-04|answer_key": {
-  "source_text": "Teacher reads: Harga pisang itu empat ringgit. Harga epal ini dua ringgit. Betul? Answer: RM4",
+  "source_text": "Teacher reads: Dua epal empat ringgit, pisang tiga ringgit lima puluh sen. Jumlah tujuh ringgit lima puluh sen. Answer: RM7.50",
   "target_spans": [
-   "Harga pisang itu empat ringgit. Harga epal ini dua ringgit. Betul?"
+   "Dua epal empat ringgit, pisang tiga ringgit lima puluh sen. Jumlah tujuh ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -25147,9 +25393,9 @@
   "exclusion": null
  },
  "test:ms-c03b-test-05|answer_key": {
-  "source_text": "Teacher reads: Ya. Harga pisang empat ringgit, dan harga epal dua ringgit. Answer: RM2",
+  "source_text": "Teacher reads: Terima kasih. Baki dua ringgit lima puluh sen. Answer: RM2.50",
   "target_spans": [
-   "Ya. Harga pisang empat ringgit, dan harga epal dua ringgit."
+   "Terima kasih. Baki dua ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -25660,21 +25906,21 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Chapter opener|3|1": {
-  "source_text": "Block B: I can ask and answer about quantities and dimensions. / 量と寸法をたずねて答えられる。",
+  "source_text": "Block B: I can ask and answer about quantities and the size of a parcel. / 量と小包の大きさをたずねて答えられる。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Chapter opener|3|2": {
-  "source_text": "Block C: I can read an order and write a simple measurement list. / 注文と寸法表を読み書きできる。",
+  "source_text": "Block C: I can read a receipt and a parcel label, and write a label. / レシートと小包のラベルを読み、ラベルを書ける。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Chapter opener|3|3": {
-  "source_text": "Block D: I can distinguish ordinal, fraction, percent and dimension forms. / 序数・分数・割合・寸法を区別できる。",
+  "source_text": "Block D: I can distinguish ordinal, fraction, percent and size forms. / 序数・分数・割合・大きさの表現を区別できる。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -25695,7 +25941,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Chapter opener|3|6": {
-  "source_text": "A fictional order sheet uses fractions, ordinals and measurements; no real prices are quoted.",
+  "source_text": "Saturday morning errands: the morning market, then the post office. All prices, weights and sizes are fictional.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -25847,9 +26093,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|3|6": {
-  "source_text": "   e.g. Ini kali kedua saya di Malaysia.",
+  "source_text": "   e.g. Ini kali kedua saya di pasar ini.",
   "target_spans": [
-   "Ini kali kedua saya di Malaysia."
+   "Ini kali kedua saya di pasar ini."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -25865,9 +26111,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|3|8": {
-  "source_text": "   e.g. Ini kali ketiga saya di Malaysia.",
+  "source_text": "   e.g. Ini kali ketiga saya di pejabat pos ini.",
   "target_spans": [
-   "Ini kali ketiga saya di Malaysia."
+   "Ini kali ketiga saya di pejabat pos ini."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -25883,9 +26129,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|3|10": {
-  "source_text": "   e.g. Ini kali kesepuluh saya di Malaysia.",
+  "source_text": "   e.g. Ini kali kesepuluh saya di Malaysia!",
   "target_spans": [
-   "Ini kali kesepuluh saya di Malaysia."
+   "Ini kali kesepuluh saya di Malaysia!"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -25920,9 +26166,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|3|14": {
-  "source_text": "   e.g. Saya beli suku kilo.",
+  "source_text": "   e.g. Saya beli suku kilo pisang.",
   "target_spans": [
-   "Saya beli suku kilo."
+   "Saya beli suku kilo pisang."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -25938,9 +26184,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|3|16": {
-  "source_text": "   e.g. Saya beli tiga suku kilo.",
+  "source_text": "   e.g. Saya beli tiga suku kilo mangga.",
   "target_spans": [
-   "Saya beli tiga suku kilo."
+   "Saya beli tiga suku kilo mangga."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -25956,9 +26202,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|3|18": {
-  "source_text": "   e.g. Saya beli satu per tiga. (sepertiga is the same fraction)",
+  "source_text": "   e.g. Satu per tiga untuk saya. (sepertiga is the same fraction)",
   "target_spans": [
-   "Saya beli satu per tiga.",
+   "Satu per tiga untuk saya.",
    "sepertiga"
   ],
   "mention_spans": [],
@@ -25975,9 +26221,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|3|20": {
-  "source_text": "   e.g. Dua perpuluhan lima.",
+  "source_text": "   e.g. Berat bungkusan ini satu perpuluhan lima kilo.",
   "target_spans": [
-   "Dua perpuluhan lima."
+   "Berat bungkusan ini satu perpuluhan lima kilo."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26011,9 +26257,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|3|24": {
-  "source_text": "   e.g. Rumah ini tinggi.",
+  "source_text": "   e.g. Kawan saya tinggi.",
   "target_spans": [
-   "Rumah ini tinggi."
+   "Kawan saya tinggi."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26029,9 +26275,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|3|26": {
-  "source_text": "   e.g. Berat buah ini satu kilo.",
+  "source_text": "   e.g. Berat bungkusan ini dua kilo.",
   "target_spans": [
-   "Berat buah ini satu kilo."
+   "Berat bungkusan ini dua kilo."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26047,9 +26293,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|3|28": {
-  "source_text": "   e.g. Rumah ini panjang.",
+  "source_text": "   e.g. Panjang bungkusan ini tiga puluh sentimeter.",
   "target_spans": [
-   "Rumah ini panjang."
+   "Panjang bungkusan ini tiga puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26065,9 +26311,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|3|30": {
-  "source_text": "   e.g. Rumah ini lebar.",
+  "source_text": "   e.g. Lebar bungkusan ini dua puluh sentimeter.",
   "target_spans": [
-   "Rumah ini lebar."
+   "Lebar bungkusan ini dua puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26083,9 +26329,10 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|0": {
-  "source_text": "   e.g. Ketinggian rumah ini tiga meter.",
+  "source_text": "   e.g. On a form: Ketinggian: seratus tujuh puluh lima sentimeter. (in speech: tinggi)",
   "target_spans": [
-   "Ketinggian rumah ini tiga meter."
+   "Ketinggian: seratus tujuh puluh lima sentimeter.",
+   "tinggi"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26101,9 +26348,10 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|2": {
-  "source_text": "   e.g. Kepanjangan rumah ini sepuluh meter.",
+  "source_text": "   e.g. On a label: Kepanjangan: tiga puluh sentimeter. (in speech: panjang)",
   "target_spans": [
-   "Kepanjangan rumah ini sepuluh meter."
+   "Kepanjangan: tiga puluh sentimeter.",
+   "panjang"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26119,9 +26367,10 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|4": {
-  "source_text": "   e.g. Kelebaran rumah ini lima meter.",
+  "source_text": "   e.g. On a label: Kelebaran: dua puluh sentimeter. (in speech: lebar)",
   "target_spans": [
-   "Kelebaran rumah ini lima meter."
+   "Kelebaran: dua puluh sentimeter.",
+   "lebar"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26137,9 +26386,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|6": {
-  "source_text": "   e.g. Kedalaman ini dua meter.",
+  "source_text": "   e.g. On a label: Kedalaman: lima belas sentimeter.",
   "target_spans": [
-   "Kedalaman ini dua meter."
+   "Kedalaman: lima belas sentimeter."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26155,10 +26404,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|8": {
-  "source_text": "   e.g. Ketinggian ini tiga meter. (sentimeter is a smaller unit)",
+  "source_text": "   e.g. Seratus sentimeter ialah satu meter.",
   "target_spans": [
-   "Ketinggian ini tiga meter.",
-   "sentimeter"
+   "Seratus sentimeter ialah satu meter."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26174,9 +26422,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|10": {
-  "source_text": "   e.g. Berat mangga ini satu kilo.",
+  "source_text": "   e.g. Saya beli satu kilo mangga.",
   "target_spans": [
-   "Berat mangga ini satu kilo."
+   "Saya beli satu kilo mangga."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26212,9 +26460,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|14": {
-  "source_text": "   e.g. Selepas kali pertama, kali kedua.",
+  "source_text": "   e.g. Harga selepas diskaun lapan ringgit.",
   "target_spans": [
-   "Selepas kali pertama, kali kedua."
+   "Harga selepas diskaun lapan ringgit."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26230,9 +26478,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|16": {
-  "source_text": "   e.g. Sebelum kali ketiga, kali kedua.",
+  "source_text": "   e.g. Harga sebelum diskaun sepuluh ringgit.",
   "target_spans": [
-   "Sebelum kali ketiga, kali kedua."
+   "Harga sebelum diskaun sepuluh ringgit."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26262,9 +26510,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|20": {
-  "source_text": "   e.g. Bank recognition sign: kaunter.",
+  "source_text": "   e.g. Post office or bank: Kaunter tiga.",
   "target_spans": [
-   "kaunter"
+   "Kaunter tiga."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26280,9 +26528,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|22": {
-  "source_text": "   e.g. Bank recognition sign: tarik duit.",
+  "source_text": "   e.g. Saya tarik duit dulu. (spoken)",
   "target_spans": [
-   "tarik duit"
+   "Saya tarik duit dulu."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26298,9 +26546,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|24": {
-  "source_text": "   e.g. Bank recognition sign: pejabat pos.",
+  "source_text": "   e.g. Pejabat pos di mana?",
   "target_spans": [
-   "pejabat pos"
+   "Pejabat pos di mana?"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26316,9 +26564,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|26": {
-  "source_text": "   e.g. Bank recognition sign: surat.",
+  "source_text": "   e.g. Ini surat untuk encik.",
   "target_spans": [
-   "surat"
+   "Ini surat untuk encik."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26334,9 +26582,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|28": {
-  "source_text": "   e.g. Bank recognition sign: setem.",
+  "source_text": "   e.g. Berapa harga setem ini?",
   "target_spans": [
-   "setem"
+   "Berapa harga setem ini?"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26352,9 +26600,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|4|30": {
-  "source_text": "   e.g. Bank recognition sign: alamat.",
+  "source_text": "   e.g. Ini alamat kawan saya.",
   "target_spans": [
-   "alamat"
+   "Ini alamat kawan saya."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26370,9 +26618,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|5|1": {
-  "source_text": "   e.g. Bank recognition sign: poskod.",
+  "source_text": "   e.g. Berapa poskod pejabat encik?",
   "target_spans": [
-   "poskod"
+   "Berapa poskod pejabat encik?"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26388,9 +26636,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|5|3": {
-  "source_text": "   e.g. Bank recognition sign: bungkusan.",
+  "source_text": "   e.g. Bungkusan ini untuk kawan saya di Osaka.",
   "target_spans": [
-   "bungkusan"
+   "Bungkusan ini untuk kawan saya di Osaka."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26420,9 +26668,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|5|7": {
-  "source_text": "   e.g. Satu meter.",
+  "source_text": "   e.g. Satu kilo.",
   "target_spans": [
-   "Satu meter."
+   "Satu kilo."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26438,9 +26686,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|5|9": {
-  "source_text": "   e.g. Dua meter.",
+  "source_text": "   e.g. Dua kilo.",
   "target_spans": [
-   "Dua meter."
+   "Dua kilo."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26456,9 +26704,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|5|11": {
-  "source_text": "   e.g. Enam meter.",
+  "source_text": "   e.g. Enam ringgit.",
   "target_spans": [
-   "Enam meter."
+   "Enam ringgit."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26474,9 +26722,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|5|13": {
-  "source_text": "   e.g. Seratus meter.",
+  "source_text": "   e.g. Seratus sentimeter.",
   "target_spans": [
-   "Seratus meter."
+   "Seratus sentimeter."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26510,9 +26758,9 @@
   "exclusion": null
  },
  "Unit 3C · Vocabulary focus|5|17": {
-  "source_text": "   e.g. Berapa harga epal?",
+  "source_text": "   e.g. Berapa harga mangga ini?",
   "target_spans": [
-   "Berapa harga epal?"
+   "Berapa harga mangga ini?"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -26647,9 +26895,9 @@
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|2": {
-  "source_text": "2. A: Ini kali kedua encik di Malaysia? B: Ya, kali kedua.",
+  "source_text": "2. A: Ini kali kedua encik di pasar ini? B: Ya, kali kedua.",
   "target_spans": [
-   "Ini kali kedua encik di Malaysia?",
+   "Ini kali kedua encik di pasar ini?",
    "Ya, kali kedua."
   ],
   "mention_spans": [],
@@ -26657,9 +26905,9 @@
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|3": {
-  "source_text": "3. A: Ini kali ketiga encik di Malaysia? B: Bukan, kali kedua.",
+  "source_text": "3. A: Ini kali ketiga encik di pejabat pos ini? B: Bukan, kali kedua.",
   "target_spans": [
-   "Ini kali ketiga encik di Malaysia?",
+   "Ini kali ketiga encik di pejabat pos ini?",
    "Bukan, kali kedua."
   ],
   "mention_spans": [],
@@ -26667,48 +26915,64 @@
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|4": {
-  "source_text": "4. A: Ini kali kesepuluh encik di Malaysia? B: Ya, kali kesepuluh.",
+  "source_text": "4. A: Ini kali kesepuluh encik di Malaysia? B: Ya, kali kesepuluh!",
   "target_spans": [
    "Ini kali kesepuluh encik di Malaysia?",
-   "Ya, kali kesepuluh."
+   "Ya, kali kesepuluh!"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|5": {
-  "source_text": "Explanation: pertama is the usual first; other ordinals use the ordinal prefix plus a number. kali counts occasions.",
+  "source_text": "Explanation: kali counts occasions. First is pertama (irregular); from two onwards the ordinal is built on the number: dua → kedua, tiga → ketiga, sepuluh → kesepuluh.",
   "target_spans": [
+   "kali",
    "pertama",
-   "kali"
+   "dua",
+   "kedua",
+   "tiga",
+   "ketiga",
+   "sepuluh",
+   "kesepuluh"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|6": {
-  "source_text": "説明：最初は通常 pertama、その後の序数は序数の接頭辞と数字です。kali は回数。",
+  "source_text": "説明：kali は回数です。「1回目」は不規則な pertama。2以降は数字から作ります：dua→kedua、tiga→ketiga、sepuluh→kesepuluh。",
   "target_spans": [
+   "kali",
    "pertama",
-   "kali"
+   "dua",
+   "kedua",
+   "tiga",
+   "ketiga",
+   "sepuluh",
+   "kesepuluh"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|7": {
-  "source_text": "Japanese helps or misleads: Malay and Japanese both distinguish cardinal and ordinal numbers; the affix differs.",
-  "target_spans": [],
+  "source_text": "Japanese helps or misleads: Japanese 〜回目 attaches to every number, including 1回目. Malay first is a separate word, pertama.",
+  "target_spans": [
+   "pertama"
+  ],
   "mention_spans": [],
   "kind": "model",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|8": {
-  "source_text": "日本語との比較：基数と序数の区別は共通ですが、マレー語では接頭辞が使われます。",
-  "target_spans": [],
+  "source_text": "日本語との比較：日本語の「〜回目」は1にも付きますが、マレー語の「1回目」は別の語 pertama です。",
+  "target_spans": [
+   "pertama"
+  ],
   "mention_spans": [],
   "kind": "model",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|9": {
   "source_text": "■ Pattern 2 · ms-c03-f05",
@@ -26758,9 +27022,9 @@
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|14": {
-  "source_text": "4. A: Harga sepuluh ringgit, diskaun dua puluh peratus? B: Lapan ringgit.",
+  "source_text": "4. A: Harga sebelum diskaun sepuluh ringgit. Selepas diskaun? B: Lapan ringgit.",
   "target_spans": [
-   "Harga sepuluh ringgit, diskaun dua puluh peratus?",
+   "Harga sebelum diskaun sepuluh ringgit. Selepas diskaun?",
    "Lapan ringgit."
   ],
   "mention_spans": [],
@@ -26768,32 +27032,38 @@
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|15": {
-  "source_text": "Explanation: peratus follows the number; twenty percent of RM10 is RM2, leaving RM8.",
+  "source_text": "Explanation: peratus follows the number: dua puluh peratus (20%). Use sebelum and selepas for the price before and after the discount.",
   "target_spans": [
-   "peratus"
+   "peratus",
+   "dua puluh peratus",
+   "sebelum",
+   "selepas"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|16": {
-  "source_text": "説明：peratus は数字の後ろです。RM10の20%引きならRM8です。",
+  "source_text": "説明：peratus は数字の後ろです：dua puluh peratus（20%）。割引前・割引後の値段は sebelum・selepas で言います。",
   "target_spans": [
-   "peratus"
+   "peratus",
+   "dua puluh peratus",
+   "sebelum",
+   "selepas"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|17": {
-  "source_text": "Japanese helps or misleads: The Japanese percent symbol is familiar, but remember the Malay spoken word.",
+  "source_text": "Japanese helps or misleads: Japanese signs often say 2割引 as well as 20%OFF. Malay signs use the percentage.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "model",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Pattern and grammar focus|3|18": {
-  "source_text": "日本語との比較：パーセントという概念は共通ですが、マレー語の語を使います。",
+  "source_text": "日本語との比較：日本では「2割引」とも書きますが、マレー語の表示はパーセントです。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "model",
@@ -26807,93 +27077,118 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Pattern and grammar focus|3|20": {
-  "source_text": "Pattern box: Ketinggian / Kepanjangan / Kelebaran ___ ___ meter.",
+  "source_text": "Pattern box: Berapa [panjang / lebar / tinggi / berat] ___? — ___ sentimeter / kilo.",
   "target_spans": [
-   "Ketinggian",
-   "Kepanjangan",
-   "Kelebaran",
-   "meter"
+   "Berapa",
+   "panjang",
+   "lebar",
+   "tinggi",
+   "berat",
+   "sentimeter",
+   "kilo"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|21": {
-  "source_text": "1. A: Berapa ketinggian rumah ini? B: Tiga meter.",
+  "source_text": "1. A: Berapa panjang bungkusan ini? B: Tiga puluh sentimeter.",
   "target_spans": [
-   "Berapa ketinggian rumah ini?",
-   "Tiga meter."
+   "Berapa panjang bungkusan ini?",
+   "Tiga puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|22": {
-  "source_text": "2. A: Berapa kepanjangan rumah ini? B: Sepuluh meter.",
+  "source_text": "2. A: Berapa lebar bungkusan ini? B: Dua puluh sentimeter.",
   "target_spans": [
-   "Berapa kepanjangan rumah ini?",
-   "Sepuluh meter."
+   "Berapa lebar bungkusan ini?",
+   "Dua puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|23": {
-  "source_text": "3. A: Berapa kelebaran rumah ini? B: Lima meter.",
+  "source_text": "3. A: Berapa tinggi bungkusan ini? B: Sepuluh sentimeter.",
   "target_spans": [
-   "Berapa kelebaran rumah ini?",
-   "Lima meter."
+   "Berapa tinggi bungkusan ini?",
+   "Sepuluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|3|24": {
-  "source_text": "4. A: Berapa kedalaman ini? B: Dua meter.",
+  "source_text": "4. A: Berapa berat bungkusan ini? B: Dua kilo.",
   "target_spans": [
-   "Berapa kedalaman ini?",
-   "Dua meter."
+   "Berapa berat bungkusan ini?",
+   "Dua kilo."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
- "Unit 3C · Pattern and grammar focus|3|25": {
-  "source_text": "Explanation: paired prefix and suffix forms measurement nouns from certain adjectives; use the attested ledger forms.",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Unit 3C · Pattern and grammar focus|3|26": {
-  "source_text": "説明：paired prefix and suffix で一部の形容詞から寸法の名詞を作ります。台帳の語だけを使います。",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": "Japanese/English (marked source)"
- },
  "Unit 3C · Pattern and grammar focus|4|0": {
-  "source_text": "Japanese helps or misleads: Japanese uses different length and height nouns. Do not generalise this affix to every adjective.",
-  "target_spans": [],
+  "source_text": "Explanation: In speech, ask with berapa plus the adjective, and answer with the number and unit (Panjang tiga puluh sentimeter). The nouns ketinggian, kepanjangan, kelebaran and kedalaman are the written forms you see on forms and labels.",
+  "target_spans": [
+   "berapa",
+   "Panjang tiga puluh sentimeter",
+   "ketinggian",
+   "kepanjangan",
+   "kelebaran",
+   "kedalaman"
+  ],
   "mention_spans": [],
   "kind": "model",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|4|1": {
-  "source_text": "日本語との比較：日本語の高さ・長さ・幅に当たりますが、接辞をすべての形容詞に拡張しないでください。",
-  "target_spans": [],
+  "source_text": "説明：会話では berapa ＋形容詞でたずね、数字と単位で答えます（Panjang tiga puluh sentimeter）。ketinggian・kepanjangan・kelebaran・kedalaman は書類やラベルで見る書き言葉の名詞です。",
+  "target_spans": [
+   "berapa",
+   "Panjang tiga puluh sentimeter",
+   "ketinggian",
+   "kepanjangan",
+   "kelebaran",
+   "kedalaman"
+  ],
   "mention_spans": [],
   "kind": "model",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|4|2": {
+  "source_text": "Japanese helps or misleads: Japanese 長さ・幅・高さ are everyday words, but kepanjangan and kelebaran are formal. For 長さは？ in conversation say Berapa panjang?",
+  "target_spans": [
+   "kepanjangan",
+   "kelebaran",
+   "Berapa panjang?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 3C · Pattern and grammar focus|4|3": {
+  "source_text": "日本語との比較：日本語の「長さ・幅・高さ」は会話でも使いますが、kepanjangan・kelebaran は改まった語です。会話の「長さは？」は Berapa panjang? です。",
+  "target_spans": [
+   "kepanjangan",
+   "kelebaran",
+   "Berapa panjang?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 3C · Pattern and grammar focus|4|4": {
   "source_text": "■ Pattern 4 · ms-c03-f06",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Pattern and grammar focus|4|3": {
+ "Unit 3C · Pattern and grammar focus|4|5": {
   "source_text": "Pattern box: Fractions and decimals: setengah, suku, perpuluhan.",
   "target_spans": [
    "setengah",
@@ -26904,7 +27199,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 3C · Pattern and grammar focus|4|4": {
+ "Unit 3C · Pattern and grammar focus|4|6": {
   "source_text": "1. A: Berapa kilo? B: Setengah kilo.",
   "target_spans": [
    "Berapa kilo?",
@@ -26914,7 +27209,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 3C · Pattern and grammar focus|4|5": {
+ "Unit 3C · Pattern and grammar focus|4|7": {
   "source_text": "2. A: Berapa kilo? B: Suku kilo.",
   "target_spans": [
    "Berapa kilo?",
@@ -26924,7 +27219,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 3C · Pattern and grammar focus|4|6": {
+ "Unit 3C · Pattern and grammar focus|4|8": {
   "source_text": "3. A: Berapa kilo? B: Tiga suku kilo.",
   "target_spans": [
    "Berapa kilo?",
@@ -26934,49 +27229,61 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 3C · Pattern and grammar focus|4|7": {
-  "source_text": "4. A: Dua perpuluhan lima? B: Ya, dua perpuluhan lima.",
-  "target_spans": [
-   "Dua perpuluhan lima?",
-   "Ya, dua perpuluhan lima."
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 3C · Pattern and grammar focus|4|8": {
-  "source_text": "Explanation: A half, quarter and three quarters name parts of a whole. perpuluhan reads the decimal separator.",
-  "target_spans": [
-   "perpuluhan"
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
  "Unit 3C · Pattern and grammar focus|4|9": {
-  "source_text": "説明：setengah＝半分、suku＝四分の一、perpuluhan＝小数点を読む語です。",
+  "source_text": "4. A: Berat satu perpuluhan lima kilo? B: Ya, satu perpuluhan lima kilo.",
   "target_spans": [
-   "setengah",
-   "suku",
-   "perpuluhan"
+   "Berat satu perpuluhan lima kilo?",
+   "Ya, satu perpuluhan lima kilo."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|4|10": {
-  "source_text": "Japanese helps or misleads: Fractions map to familiar proportions; decimals need careful digit-by-digit checking.",
-  "target_spans": [],
+  "source_text": "Explanation: setengah (or separuh) is a half, suku a quarter, tiga suku three quarters. perpuluhan reads the decimal point: 1.5 = satu perpuluhan lima.",
+  "target_spans": [
+   "setengah",
+   "separuh",
+   "suku",
+   "tiga suku",
+   "perpuluhan",
+   "satu perpuluhan lima"
+  ],
   "mention_spans": [],
   "kind": "model",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|4|11": {
-  "source_text": "日本語との比較：割合は共通ですが、小数の数字の読み違いに注意します。",
-  "target_spans": [],
+  "source_text": "説明：setengah（または separuh）＝半分、suku＝4分の1、tiga suku＝4分の3。perpuluhan は小数点の読み方です：1.5＝satu perpuluhan lima。",
+  "target_spans": [
+   "setengah",
+   "separuh",
+   "suku",
+   "tiga suku",
+   "perpuluhan",
+   "satu perpuluhan lima"
+  ],
   "mention_spans": [],
   "kind": "model",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
+ },
+ "Unit 3C · Pattern and grammar focus|4|12": {
+  "source_text": "Japanese helps or misleads: Japanese reads 1.5 as いってんご. Malay reads the point as a word, perpuluhan.",
+  "target_spans": [
+   "perpuluhan"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Unit 3C · Pattern and grammar focus|4|13": {
+  "source_text": "日本語との比較：日本語の「いってんご」の「てん」に当たるのが perpuluhan です。",
+  "target_spans": [
+   "perpuluhan"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
  },
  "Unit 3C · Pattern and grammar focus|5|0": {
   "source_text": "Model each A question and have students answer B. Correct the numerical meaning, not the accent.",
@@ -27098,9 +27405,9 @@
   "exclusion": null
  },
  "Unit 3C · Drill 1 · Pattern table|3|9": {
-  "source_text": "8. Ketinggian tiga meter.",
+  "source_text": "8. Panjang tiga puluh sentimeter.",
   "target_spans": [
-   "Ketinggian tiga meter."
+   "Panjang tiga puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -27114,11 +27421,15 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Drill 1 · Pattern table|4|1": {
-  "source_text": "Check the complete response and numerical value; alternatives are allowed only when the amount remains equal.",
-  "target_spans": [],
-  "mention_spans": [],
+  "source_text": "Read each line twice. Check pertama (never kesatu) and that every number has its unit.",
+  "target_spans": [
+   "pertama"
+  ],
+  "mention_spans": [
+   "kesatu"
+  ],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3C · Drill 2 · Substitution|0|0": {
   "source_text": "番号順に口頭で練習し、ペアで交代します。",
@@ -27213,30 +27524,32 @@
   "exclusion": null
  },
  "Unit 3C · Drill 2 · Substitution|3|7": {
-  "source_text": "6. Ketinggian tiga meter. (cue: empat)",
+  "source_text": "6. Panjang bungkusan ini tiga puluh sentimeter. (cue: lebar)",
   "target_spans": [
-   "Ketinggian tiga meter.",
-   "empat"
+   "Panjang bungkusan ini tiga puluh sentimeter.",
+   "lebar"
   ],
   "mention_spans": [],
   "kind": "drill",
   "exclusion": null
  },
  "Unit 3C · Drill 2 · Substitution|3|8": {
-  "source_text": "7. Kepanjangan sepuluh meter. (cue: dua puluh)",
+  "source_text": "7. Lebar bungkusan ini tiga puluh sentimeter. (cue: tinggi, sepuluh)",
   "target_spans": [
-   "Kepanjangan sepuluh meter.",
-   "dua puluh"
+   "Lebar bungkusan ini tiga puluh sentimeter.",
+   "tinggi",
+   "sepuluh"
   ],
   "mention_spans": [],
   "kind": "drill",
   "exclusion": null
  },
  "Unit 3C · Drill 2 · Substitution|3|9": {
-  "source_text": "8. Kelebaran lima meter. (cue: enam)",
+  "source_text": "8. Berat bungkusan ini dua kilo. (cue: setengah kilo)",
   "target_spans": [
-   "Kelebaran lima meter.",
-   "enam"
+   "Berat bungkusan ini dua kilo.",
+   "setengah",
+   "kilo"
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -27250,11 +27563,36 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Drill 2 · Substitution|4|1": {
-  "source_text": "Check the complete response and numerical value; alternatives are allowed only when the amount remains equal.",
-  "target_spans": [],
+  "source_text": "1 Ini kali kedua. 2 Ini kali ketiga. 3 Suku kilo. 4 Tiga suku kilo.",
+  "target_spans": [
+   "Ini kali kedua.",
+   "Ini kali ketiga.",
+   "Suku kilo.",
+   "Tiga suku kilo."
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
+ },
+ "Unit 3C · Drill 2 · Substitution|4|2": {
+  "source_text": "5 Diskaun dua puluh peratus. 6 Lebar bungkusan ini tiga puluh sentimeter.",
+  "target_spans": [
+   "Diskaun dua puluh peratus.",
+   "Lebar bungkusan ini tiga puluh sentimeter."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 3C · Drill 2 · Substitution|4|3": {
+  "source_text": "7 Tinggi bungkusan ini sepuluh sentimeter. 8 Berat bungkusan ini setengah kilo.",
+  "target_spans": [
+   "Tinggi bungkusan ini sepuluh sentimeter.",
+   "Berat bungkusan ini setengah kilo."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
  },
  "Unit 3C · Drill 3 · Transformation|0|0": {
   "source_text": "番号順に口頭で練習し、ペアで交代します。",
@@ -27317,21 +27655,21 @@
   "exclusion": null
  },
  "Unit 3C · Drill 3 · Transformation|3|4": {
-  "source_text": "3. Say one-half in Malay.",
+  "source_text": "3. Say one half in Malay.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "drill",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Drill 3 · Transformation|3|5": {
-  "source_text": "4. Say one-quarter in Malay.",
+  "source_text": "4. Say one quarter in Malay.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "drill",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Drill 3 · Transformation|3|6": {
-  "source_text": "5. Say three-quarters in Malay.",
+  "source_text": "5. Say three quarters in Malay.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "drill",
@@ -27356,9 +27694,9 @@
   "exclusion": null
  },
  "Unit 3C · Drill 3 · Transformation|3|9": {
-  "source_text": "8. Say the noun for width from lebar.",
+  "source_text": "8. Say this label the spoken way: Kelebaran: dua puluh sentimeter.",
   "target_spans": [
-   "lebar"
+   "Kelebaran: dua puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -27372,11 +27710,29 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Drill 3 · Transformation|4|1": {
-  "source_text": "Check the complete response and numerical value; alternatives are allowed only when the amount remains equal.",
-  "target_spans": [],
+  "source_text": "1 kedua 2 ketiga 3 setengah (or separuh) 4 suku 5 tiga suku",
+  "target_spans": [
+   "kedua",
+   "ketiga",
+   "setengah",
+   "separuh",
+   "suku",
+   "tiga suku"
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
+ },
+ "Unit 3C · Drill 3 · Transformation|4|2": {
+  "source_text": "6 dua perpuluhan lima 7 lima puluh peratus 8 Lebar dua puluh sentimeter.",
+  "target_spans": [
+   "dua perpuluhan lima",
+   "lima puluh peratus",
+   "Lebar dua puluh sentimeter."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
  },
  "Unit 3C · Drill 4 · Question and answer|0|0": {
   "source_text": "番号順に口頭で練習し、ペアで交代します。",
@@ -27466,27 +27822,27 @@
   "exclusion": null
  },
  "Unit 3C · Drill 4 · Question and answer|3|7": {
-  "source_text": "6. Berapa ketinggian rumah? (3 metres)",
+  "source_text": "6. Berapa tinggi bungkusan ini? (10 cm)",
   "target_spans": [
-   "Berapa ketinggian rumah?"
+   "Berapa tinggi bungkusan ini?"
   ],
   "mention_spans": [],
   "kind": "drill",
   "exclusion": null
  },
  "Unit 3C · Drill 4 · Question and answer|3|8": {
-  "source_text": "7. Answer: Sepuluh meter. Ask the length.",
+  "source_text": "7. Answer: Empat puluh sentimeter. Ask the length.",
   "target_spans": [
-   "Sepuluh meter."
+   "Empat puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "drill",
   "exclusion": null
  },
  "Unit 3C · Drill 4 · Question and answer|3|9": {
-  "source_text": "8. Answer: Lima meter. Ask the width.",
+  "source_text": "8. Answer: Tiga puluh sentimeter. Ask the width.",
   "target_spans": [
-   "Lima meter."
+   "Tiga puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -27500,11 +27856,28 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Drill 4 · Question and answer|4|1": {
-  "source_text": "Check the complete response and numerical value; alternatives are allowed only when the amount remains equal.",
-  "target_spans": [],
+  "source_text": "1 Ya, kali kedua. 2 Bukan, kali kedua. 3 Setengah kilo. 4 Suku kilo.",
+  "target_spans": [
+   "Ya, kali kedua.",
+   "Bukan, kali kedua.",
+   "Setengah kilo.",
+   "Suku kilo."
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
+ },
+ "Unit 3C · Drill 4 · Question and answer|4|2": {
+  "source_text": "5 Dua puluh peratus. 6 Sepuluh sentimeter. 7 Berapa panjang bungkusan ini? 8 Berapa lebar bungkusan ini?",
+  "target_spans": [
+   "Dua puluh peratus.",
+   "Sepuluh sentimeter.",
+   "Berapa panjang bungkusan ini?",
+   "Berapa lebar bungkusan ini?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
  },
  "Unit 3C · Drill 5 · Question-word choice|0|0": {
   "source_text": "番号順に口頭で練習し、ペアで交代します。",
@@ -27582,10 +27955,10 @@
   "exclusion": null
  },
  "Unit 3C · Drill 5 · Question-word choice|3|5": {
-  "source_text": "4. Rumah ini ___? → Di Malaysia.",
+  "source_text": "4. Pejabat pos ___? → Di Bangsar.",
   "target_spans": [
-   "Rumah ini ___?",
-   "Di Malaysia."
+   "Pejabat pos ___?",
+   "Di Bangsar."
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -27643,11 +28016,20 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Drill 5 · Question-word choice|4|1": {
-  "source_text": "Check the complete response and numerical value; alternatives are allowed only when the amount remains equal.",
-  "target_spans": [],
+  "source_text": "1 Berapa 2 Siapa 3 Apa 4 di mana 5 Bolehkah 6 Adakah 7 Siapakah 8 Berapa",
+  "target_spans": [
+   "Berapa",
+   "Siapa",
+   "Apa",
+   "di mana",
+   "Bolehkah",
+   "Adakah",
+   "Siapakah",
+   "Berapa"
+  ],
   "mention_spans": [],
   "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 3C · Drill 6 · Short dialogues|0|0": {
   "source_text": "二行の会話を読み、自分で一行を加えます。役を交代します。",
@@ -27678,7 +28060,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Drill 6 · Short dialogues|3|0": {
-  "source_text": "Dialogue 1 · ordinal visit",
+  "source_text": "Dialogue 1 · meeting someone new",
   "target_spans": [],
   "mention_spans": [],
   "kind": "drill",
@@ -27695,7 +28077,7 @@
   "exclusion": null
  },
  "Unit 3C · Drill 6 · Short dialogues|3|2": {
-  "source_text": "Dialogue 2 · half quantity",
+  "source_text": "Dialogue 2 · at the morning market",
   "target_spans": [],
   "mention_spans": [],
   "kind": "drill",
@@ -27712,7 +28094,7 @@
   "exclusion": null
  },
  "Unit 3C · Drill 6 · Short dialogues|3|4": {
-  "source_text": "Dialogue 3 · fictional discount",
+  "source_text": "Dialogue 3 · a discount sign",
   "target_spans": [],
   "mention_spans": [],
   "kind": "drill",
@@ -27729,17 +28111,17 @@
   "exclusion": null
  },
  "Unit 3C · Drill 6 · Short dialogues|3|6": {
-  "source_text": "Dialogue 4 · dimensions",
+  "source_text": "Dialogue 4 · a parcel at the post office",
   "target_spans": [],
   "mention_spans": [],
   "kind": "drill",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Drill 6 · Short dialogues|3|7": {
-  "source_text": "A: Berapa ketinggian rumah?  B: Tiga meter.  A: ____________________",
+  "source_text": "A: Berapa berat bungkusan ini?  B: Dua kilo.  A: ____________________",
   "target_spans": [
-   "Berapa ketinggian rumah?",
-   "Tiga meter."
+   "Berapa berat bungkusan ini?",
+   "Dua kilo."
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -27753,20 +28135,20 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Drill 6 · Short dialogues|4|1": {
-  "source_text": "1 Terima kasih. 2 Berapa harga?",
+  "source_text": "1 Oh, kali kedua! Selamat datang lagi. 2 Baik. Berapa harganya?",
   "target_spans": [
-   "Terima kasih.",
-   "Berapa harga?"
+   "Oh, kali kedua! Selamat datang lagi.",
+   "Baik. Berapa harganya?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Drill 6 · Short dialogues|4|2": {
-  "source_text": "3 Harga selepas diskaun berapa? 4 Baik.",
+  "source_text": "3 Harga selepas diskaun berapa? 4 Berapa panjang bungkusan ini?",
   "target_spans": [
    "Harga selepas diskaun berapa?",
-   "Baik."
+   "Berapa panjang bungkusan ini?"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -27834,28 +28216,28 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Cumulative question-word drill|3|3": {
-  "source_text": "2. Ask who the customer is.",
+  "source_text": "2. Ask who the parcel is for.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "drill",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Cumulative question-word drill|3|4": {
-  "source_text": "3. Ask where the customer is.",
+  "source_text": "3. Ask where the post office is.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "drill",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Cumulative question-word drill|3|5": {
-  "source_text": "4. Ask with the formal -kah name form.",
+  "source_text": "4. Ask the clerk’s name with the formal -kah form.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "drill",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Cumulative question-word drill|3|6": {
-  "source_text": "5. Ask whether the price is correct with Adakah.",
+  "source_text": "5. Ask whether this is the customer’s first visit with Adakah.",
   "target_spans": [
    "Adakah"
   ],
@@ -27864,7 +28246,7 @@
   "exclusion": null
  },
  "Unit 3C · Cumulative question-word drill|3|7": {
-  "source_text": "6. Ask permission with Bolehkah.",
+  "source_text": "6. Ask whether you can pay by card with Bolehkah.",
   "target_spans": [
    "Bolehkah"
   ],
@@ -27873,7 +28255,7 @@
   "exclusion": null
  },
  "Unit 3C · Cumulative question-word drill|3|8": {
-  "source_text": "7. Ask the width with berapa.",
+  "source_text": "7. Ask the width of a parcel with berapa.",
   "target_spans": [
    "berapa"
   ],
@@ -27932,108 +28314,108 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Model conversation|3|0": {
-  "source_text": "Tanaka: Selamat pagi. Ini kali pertama saya di Malaysia.",
+  "source_text": "Tanaka: Selamat pagi, puan. Ini kali pertama saya di pejabat pos ini.",
   "target_spans": [
-   "Selamat pagi. Ini kali pertama saya di Malaysia."
+   "Selamat pagi, puan. Ini kali pertama saya di pejabat pos ini."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|1": {
-  "source_text": "Aini: Selamat pagi. Bukan, ini kali kedua encik di Malaysia?",
+  "source_text": "Aini: Selamat pagi, encik. Bungkusan ini untuk siapa?",
   "target_spans": [
-   "Selamat pagi. Bukan, ini kali kedua encik di Malaysia?"
+   "Selamat pagi, encik. Bungkusan ini untuk siapa?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|2": {
-  "source_text": "Tanaka: Ya, betul. Ini kali kedua saya di Malaysia.",
+  "source_text": "Tanaka: Untuk kawan saya di Osaka.",
   "target_spans": [
-   "Ya, betul. Ini kali kedua saya di Malaysia."
+   "Untuk kawan saya di Osaka."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|3": {
-  "source_text": "Aini: Berapa kilo mangga untuk encik?",
+  "source_text": "Aini: Baik. Saya timbang dulu. Berat dua kilo.",
   "target_spans": [
-   "Berapa kilo mangga untuk encik?"
+   "Baik. Saya timbang dulu. Berat dua kilo."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|4": {
-  "source_text": "Tanaka: Saya beli setengah kilo mangga.",
+  "source_text": "Tanaka: Dua kilo. Berapa harganya?",
   "target_spans": [
-   "Saya beli setengah kilo mangga."
+   "Dua kilo. Berapa harganya?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|5": {
-  "source_text": "Aini: Baik. Berat mangga ini setengah kilo.",
+  "source_text": "Aini: Sebelum itu, berapa panjang dan lebar bungkusan ini?",
   "target_spans": [
-   "Baik. Berat mangga ini setengah kilo."
+   "Sebelum itu, berapa panjang dan lebar bungkusan ini?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|6": {
-  "source_text": "Tanaka: Berapa harga untuk setengah kilo?",
+  "source_text": "Tanaka: Panjang tiga puluh sentimeter, lebar dua puluh sentimeter.",
   "target_spans": [
-   "Berapa harga untuk setengah kilo?"
+   "Panjang tiga puluh sentimeter, lebar dua puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|7": {
-  "source_text": "Aini: Harga sepuluh ringgit. Diskaun dua puluh peratus.",
+  "source_text": "Aini: Tinggi pula?",
   "target_spans": [
-   "Harga sepuluh ringgit. Diskaun dua puluh peratus."
+   "Tinggi pula?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|8": {
-  "source_text": "Tanaka: Lapan ringgit?",
+  "source_text": "Tanaka: Tinggi sepuluh sentimeter.",
   "target_spans": [
-   "Lapan ringgit?"
+   "Tinggi sepuluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|9": {
-  "source_text": "Aini: Ya, betul. Lapan ringgit sahaja.",
+  "source_text": "Aini: Baik. Jumlah empat puluh lima ringgit.",
   "target_spans": [
-   "Ya, betul. Lapan ringgit sahaja."
+   "Baik. Jumlah empat puluh lima ringgit."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|10": {
-  "source_text": "Tanaka: Saya bayar tunai. Terima kasih.",
+  "source_text": "Tanaka: Boleh bayar dengan kad?",
   "target_spans": [
-   "Saya bayar tunai. Terima kasih."
+   "Boleh bayar dengan kad?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|11": {
-  "source_text": "Aini: Sama-sama. Jumpa lagi.",
+  "source_text": "Aini: Boleh. Sebelum bayar, encik isi borang ini, ya.",
   "target_spans": [
-   "Sama-sama. Jumpa lagi."
+   "Boleh. Sebelum bayar, encik isi borang ini, ya."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -28047,9 +28429,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Model conversation|3|13": {
-  "source_text": "Tanaka: Selamat pagi. Ini kali pertama saya di Malaysia.",
+  "source_text": "Tanaka: Selamat pagi, puan. Ini kali pertama saya di pejabat pos ini.",
   "target_spans": [
-   "Selamat pagi. Ini kali pertama saya di Malaysia."
+   "Selamat pagi, puan. Ini kali pertama saya di pejabat pos ini."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -28063,9 +28445,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Model conversation|3|15": {
-  "source_text": "Tanaka: Ya, betul. Ini kali kedua saya di Malaysia.",
+  "source_text": "Tanaka: Untuk kawan saya di Osaka.",
   "target_spans": [
-   "Ya, betul. Ini kali kedua saya di Malaysia."
+   "Untuk kawan saya di Osaka."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -28079,9 +28461,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Model conversation|3|17": {
-  "source_text": "Tanaka: Saya beli setengah kilo mangga.",
+  "source_text": "Tanaka: Dua kilo. Berapa harganya?",
   "target_spans": [
-   "Saya beli setengah kilo mangga."
+   "Dua kilo. Berapa harganya?"
   ],
   "mention_spans": [],
   "kind": "model",
@@ -28095,9 +28477,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Model conversation|3|19": {
-  "source_text": "Tanaka: Berapa harga untuk setengah kilo?",
+  "source_text": "Tanaka: Panjang tiga puluh sentimeter, lebar dua puluh sentimeter.",
   "target_spans": [
-   "Berapa harga untuk setengah kilo?"
+   "Panjang tiga puluh sentimeter, lebar dua puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -28111,9 +28493,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Model conversation|3|21": {
-  "source_text": "Tanaka: Lapan ringgit?",
+  "source_text": "Tanaka: Tinggi sepuluh sentimeter.",
   "target_spans": [
-   "Lapan ringgit?"
+   "Tinggi sepuluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -28127,18 +28509,18 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Model conversation|3|23": {
-  "source_text": "Tanaka: Saya bayar tunai. Terima kasih.",
+  "source_text": "Tanaka: Boleh bayar dengan kad?",
   "target_spans": [
-   "Saya bayar tunai. Terima kasih."
+   "Boleh bayar dengan kad?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|24": {
-  "source_text": "Aini: Sama-sama. Jumpa lagi.",
+  "source_text": "Aini: Boleh. Sebelum bayar, encik isi borang ini, ya.",
   "target_spans": [
-   "Sama-sama. Jumpa lagi."
+   "Boleh. Sebelum bayar, encik isi borang ini, ya."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -28152,108 +28534,108 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Model conversation|3|26": {
-  "source_text": "Tanaka: Selamat petang. Ini kali ketiga saya di Malaysia.",
+  "source_text": "Yuki: Selamat petang, encik. Ini kali kedua saya di pejabat pos ini.",
   "target_spans": [
-   "Selamat petang. Ini kali ketiga saya di Malaysia."
+   "Selamat petang, encik. Ini kali kedua saya di pejabat pos ini."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|27": {
-  "source_text": "Aini: Selamat petang. Bukan, ini kali kedua encik di Malaysia?",
+  "source_text": "Hafiz: Selamat petang, cik. Bungkusan ini untuk siapa?",
   "target_spans": [
-   "Selamat petang. Bukan, ini kali kedua encik di Malaysia?"
+   "Selamat petang, cik. Bungkusan ini untuk siapa?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|28": {
-  "source_text": "Tanaka: Tidak. Ini kali ketiga saya di Malaysia.",
+  "source_text": "Yuki: Untuk keluarga saya di Kyoto.",
   "target_spans": [
-   "Tidak. Ini kali ketiga saya di Malaysia."
+   "Untuk keluarga saya di Kyoto."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|29": {
-  "source_text": "Aini: Berapa kilo pisang untuk encik?",
+  "source_text": "Hafiz: Baik. Saya timbang dulu. Berat satu perpuluhan lima kilo.",
   "target_spans": [
-   "Berapa kilo pisang untuk encik?"
+   "Baik. Saya timbang dulu. Berat satu perpuluhan lima kilo."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|3|30": {
-  "source_text": "Tanaka: Saya beli suku kilo pisang.",
+  "source_text": "Yuki: Satu perpuluhan lima kilo. Berapa harganya?",
   "target_spans": [
-   "Saya beli suku kilo pisang."
+   "Satu perpuluhan lima kilo. Berapa harganya?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|4|0": {
-  "source_text": "Aini: Baik. Berat pisang ini suku kilo.",
+  "source_text": "Hafiz: Sebelum itu, berapa panjang dan lebar bungkusan ini?",
   "target_spans": [
-   "Baik. Berat pisang ini suku kilo."
+   "Sebelum itu, berapa panjang dan lebar bungkusan ini?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|4|1": {
-  "source_text": "Tanaka: Berapa harga untuk suku kilo?",
+  "source_text": "Yuki: Panjang empat puluh sentimeter, lebar tiga puluh sentimeter.",
   "target_spans": [
-   "Berapa harga untuk suku kilo?"
+   "Panjang empat puluh sentimeter, lebar tiga puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|4|2": {
-  "source_text": "Aini: Harga dua puluh ringgit. Diskaun lima puluh peratus.",
+  "source_text": "Hafiz: Tinggi pula?",
   "target_spans": [
-   "Harga dua puluh ringgit. Diskaun lima puluh peratus."
+   "Tinggi pula?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|4|3": {
-  "source_text": "Tanaka: Sepuluh ringgit?",
+  "source_text": "Yuki: Tinggi dua puluh sentimeter.",
   "target_spans": [
-   "Sepuluh ringgit?"
+   "Tinggi dua puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|4|4": {
-  "source_text": "Aini: Ya, betul. Sepuluh ringgit sahaja.",
+  "source_text": "Hafiz: Baik. Jumlah tiga puluh lima ringgit.",
   "target_spans": [
-   "Ya, betul. Sepuluh ringgit sahaja."
+   "Baik. Jumlah tiga puluh lima ringgit."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|4|5": {
-  "source_text": "Tanaka: Saya bayar dengan kad. Terima kasih.",
+  "source_text": "Yuki: Saya bayar tunai. Ini lima puluh ringgit.",
   "target_spans": [
-   "Saya bayar dengan kad. Terima kasih."
+   "Saya bayar tunai. Ini lima puluh ringgit."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 3C · Model conversation|4|6": {
-  "source_text": "Aini: Sama-sama. Jumpa lagi.",
+  "source_text": "Hafiz: Terima kasih, cik. Baki lima belas ringgit.",
   "target_spans": [
-   "Sama-sama. Jumpa lagi."
+   "Terima kasih, cik. Baki lima belas ringgit."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -28309,7 +28691,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Listening focus · Encik Tanaka|3|0": {
-  "source_text": "Predict the topic: a fictional order with fractions, discount and house dimensions",
+  "source_text": "Predict the topic: Saturday morning: fruit at the morning market, then a parcel at the post office (fictional prices)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
@@ -28330,56 +28712,56 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Listening focus · Encik Tanaka|3|3": {
-  "source_text": "1. Which ordinal visit does Tanaka mention?",
+  "source_text": "1. Which visit to this market is it for Tanaka?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Listening focus · Encik Tanaka|3|4": {
-  "source_text": "2. Which ordinal does Aini mention?",
+  "source_text": "2. How much mango does he buy?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Listening focus · Encik Tanaka|3|5": {
-  "source_text": "3. What weight of mango does Tanaka ask for?",
+  "source_text": "3. What discount is there this morning?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Listening focus · Encik Tanaka|3|6": {
-  "source_text": "4. What is the fictional discount?",
+  "source_text": "4. What does his mango cost after the discount?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Listening focus · Encik Tanaka|3|7": {
-  "source_text": "5. What amount is the fictional discount on RM10?",
+  "source_text": "5. How many bananas does he buy?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Listening focus · Encik Tanaka|3|8": {
-  "source_text": "6. What is the final amount after the discount?",
+  "source_text": "6. How much change does he get at the market?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Listening focus · Encik Tanaka|3|9": {
-  "source_text": "7. What is the fictional house height?",
+  "source_text": "7. How heavy is the parcel?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Listening focus · Encik Tanaka|3|10": {
-  "source_text": "8. What are the listed length and width?",
+  "source_text": "8. What are the length, width and height of the parcel?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "listening",
@@ -28414,433 +28796,434 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|1": {
-  "source_text": "Teacher-read script (202 Malay words):",
+  "source_text": "Teacher-read script (153 Malay words):",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|2": {
-  "source_text": "Tanaka: Ini kali kedua saya di Malaysia. Kali pertama saya di Malaysia dengan kawan saya.",
+  "source_text": "Aini: Selamat pagi, encik. Mangga ini segar. Harganya sepuluh ringgit satu kilo.",
   "target_spans": [
-   "Ini kali kedua saya di Malaysia. Kali pertama saya di Malaysia dengan kawan saya."
+   "Selamat pagi, encik. Mangga ini segar. Harganya sepuluh ringgit satu kilo."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|3": {
-  "source_text": "Aini: Ini kali ketiga saya di Malaysia. Sebelum kali ketiga ada kali pertama dan kedua.",
+  "source_text": "Tanaka: Selamat pagi, mak cik. Ini kali kedua saya di pasar ini. Saya beli setengah kilo, ya.",
   "target_spans": [
-   "Ini kali ketiga saya di Malaysia. Sebelum kali ketiga ada kali pertama dan kedua."
+   "Selamat pagi, mak cik. Ini kali kedua saya di pasar ini. Saya beli setengah kilo, ya."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|4": {
-  "source_text": "Tanaka: Saya beli setengah kilo mangga. Berat buah ini setengah kilo, betul?",
+  "source_text": "Aini: Baik. Setengah kilo, lima ringgit. Pagi ini ada diskaun dua puluh peratus.",
   "target_spans": [
-   "Saya beli setengah kilo mangga. Berat buah ini setengah kilo, betul?"
+   "Baik. Setengah kilo, lima ringgit. Pagi ini ada diskaun dua puluh peratus."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|5": {
-  "source_text": "Aini: Ya, betul. Setengah kilo. Harga sepuluh ringgit. Diskaun dua puluh peratus.",
+  "source_text": "Tanaka: Dua puluh peratus? Harga selepas diskaun empat ringgit, betul?",
   "target_spans": [
-   "Ya, betul. Setengah kilo. Harga sepuluh ringgit. Diskaun dua puluh peratus."
+   "Dua puluh peratus? Harga selepas diskaun empat ringgit, betul?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|6": {
-  "source_text": "Tanaka: Diskaun dua puluh peratus untuk sepuluh ringgit ialah dua ringgit.",
+  "source_text": "Aini: Ya, betul. Sebelum diskaun lima ringgit, selepas diskaun empat ringgit.",
   "target_spans": [
-   "Diskaun dua puluh peratus untuk sepuluh ringgit ialah dua ringgit."
+   "Ya, betul. Sebelum diskaun lima ringgit, selepas diskaun empat ringgit."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|7": {
-  "source_text": "Aini: Jumlah selepas diskaun ialah lapan ringgit. Encik boleh bayar dengan kad.",
+  "source_text": "Tanaka: Saya beli pisang juga. Suku kilo sahaja.",
   "target_spans": [
-   "Jumlah selepas diskaun ialah lapan ringgit. Encik boleh bayar dengan kad."
+   "Saya beli pisang juga. Suku kilo sahaja."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|8": {
-  "source_text": "Tanaka: Saya bayar tunai. Ini sepuluh ringgit. Berapa baki saya, puan?",
+  "source_text": "Aini: Suku kilo pisang, dua ringgit. Jumlah enam ringgit.",
   "target_spans": [
-   "Saya bayar tunai. Ini sepuluh ringgit. Berapa baki saya, puan?"
+   "Suku kilo pisang, dua ringgit. Jumlah enam ringgit."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|9": {
-  "source_text": "Aini: Baki dua ringgit. Harga sebelum diskaun sepuluh ringgit, selepas diskaun lapan ringgit.",
+  "source_text": "Tanaka: Ini sepuluh ringgit.",
   "target_spans": [
-   "Baki dua ringgit. Harga sebelum diskaun sepuluh ringgit, selepas diskaun lapan ringgit."
+   "Ini sepuluh ringgit."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|10": {
-  "source_text": "Tanaka: Kawan saya beli tiga suku kilo buah. Dia suka mangga dan pisang.",
+  "source_text": "Aini: Terima kasih. Baki empat ringgit. Jumpa lagi!",
   "target_spans": [
-   "Kawan saya beli tiga suku kilo buah. Dia suka mangga dan pisang."
+   "Terima kasih. Baki empat ringgit. Jumpa lagi!"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|11": {
-  "source_text": "Aini: Tiga suku kilo, bukan satu kilo. Kawan encik beli mangga sahaja?",
+  "source_text": "Farah: Selamat pagi, encik. Bungkusan ini untuk siapa?",
   "target_spans": [
-   "Tiga suku kilo, bukan satu kilo. Kawan encik beli mangga sahaja?"
+   "Selamat pagi, encik. Bungkusan ini untuk siapa?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|12": {
-  "source_text": "Tanaka: Dia beli pisang juga. Satu per tiga untuk mangga, bukan setengah.",
+  "source_text": "Tanaka: Untuk kawan saya di Osaka. Ini alamat dan poskod dia.",
   "target_spans": [
-   "Dia beli pisang juga. Satu per tiga untuk mangga, bukan setengah."
+   "Untuk kawan saya di Osaka. Ini alamat dan poskod dia."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|13": {
-  "source_text": "Aini: Baik. Untuk kelas ini, saya ada rumah dengan ketinggian tiga meter.",
+  "source_text": "Farah: Baik. Saya timbang dulu. Berat satu perpuluhan lima kilo.",
   "target_spans": [
-   "Baik. Untuk kelas ini, saya ada rumah dengan ketinggian tiga meter."
+   "Baik. Saya timbang dulu. Berat satu perpuluhan lima kilo."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|14": {
-  "source_text": "Tanaka: Ketinggian tiga meter. Kepanjangan sepuluh meter. Kelebaran lima meter.",
+  "source_text": "Tanaka: Satu perpuluhan lima kilo. Berapa harganya?",
   "target_spans": [
-   "Ketinggian tiga meter. Kepanjangan sepuluh meter. Kelebaran lima meter."
+   "Satu perpuluhan lima kilo. Berapa harganya?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|15": {
-  "source_text": "Aini: Ya. Kedalaman ini dua meter. Berat mangga pula satu kilo.",
+  "source_text": "Farah: Sebelum itu, berapa panjang, lebar dan tinggi bungkusan ini?",
   "target_spans": [
-   "Ya. Kedalaman ini dua meter. Berat mangga pula satu kilo."
+   "Sebelum itu, berapa panjang, lebar dan tinggi bungkusan ini?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|16": {
-  "source_text": "Tanaka: Ini tiga meter, sepuluh meter, lima meter. Ini nombor untuk rumah.",
+  "source_text": "Tanaka: Panjang empat puluh sentimeter, lebar tiga puluh sentimeter dan tinggi dua puluh sentimeter.",
   "target_spans": [
-   "Ini tiga meter, sepuluh meter, lima meter. Ini nombor untuk rumah."
+   "Panjang empat puluh sentimeter, lebar tiga puluh sentimeter dan tinggi dua puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|17": {
-  "source_text": "Aini: Ketinggian, kepanjangan, kelebaran dan kedalaman ialah empat nombor untuk kelas ini.",
+  "source_text": "Farah: Baik. Jumlah tiga puluh lima ringgit. Encik bayar dengan kad?",
   "target_spans": [
-   "Ketinggian, kepanjangan, kelebaran dan kedalaman ialah empat nombor untuk kelas ini."
+   "Baik. Jumlah tiga puluh lima ringgit. Encik bayar dengan kad?"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|18": {
-  "source_text": "Tanaka: Terima kasih. Ya: tiga meter, sepuluh meter, lima meter, dua meter.",
+  "source_text": "Tanaka: Ya, dengan kad. Terima kasih, puan.",
   "target_spans": [
-   "Terima kasih. Ya: tiga meter, sepuluh meter, lima meter, dua meter."
+   "Ya, dengan kad. Terima kasih, puan."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|19": {
-  "source_text": "Aini: Ya, betul. Ini latihan nombor sahaja. Harga dan nombor untuk kelas ini.",
+  "source_text": "Answers: the second (kali kedua) / half a kilo / 20% / RM4 / a quarter kilo / RM4 / 1.5 kg / 40 cm, 30 cm, 20 cm",
   "target_spans": [
-   "Ya, betul. Ini latihan nombor sahaja. Harga dan nombor untuk kelas ini."
+   "kali kedua",
+   "kilo",
+   "kilo"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Listening focus · Encik Tanaka|4|20": {
-  "source_text": "Answers: second / third / 0.5 kg / 20% / RM2 / RM8 / 3 metres / 10 metres and 5 metres",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "key",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Unit 3C · Listening focus · Encik Tanaka|4|21": {
   "source_text": "Do not distribute the script before the first listening.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|0|0": {
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|0|0": {
   "source_text": "短い実用文を読み、質問に答えてから、自分でも書きます。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|0|1": {
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|0|1": {
   "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|1|0": {
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|1|0": {
   "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|2|0": {
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|2|0": {
   "source_text": "Read a practical text, answer questions, then write a short form or note.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|0": {
-  "source_text": "Fictional order: Mangga setengah kilo · Harga RM10.00 · Diskaun dua puluh peratus · Jumlah RM8.00.",
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|0": {
+  "source_text": "Fictional market receipt: Mangga setengah kilo RM5.00 · Diskaun dua puluh peratus -RM1.00 · Pisang suku kilo RM2.00 · Jumlah RM6.00 · Tunai RM10.00 · Baki RM4.00.",
   "target_spans": [
    "Mangga",
    "setengah kilo",
-   "Harga",
    "Diskaun",
    "dua puluh peratus",
-   "Jumlah"
+   "Pisang",
+   "suku kilo",
+   "Jumlah",
+   "Tunai",
+   "Baki"
   ],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": null
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|1": {
-  "source_text": "Fictional dimensions: Ketinggian 3 meter · Kepanjangan 10 meter · Kelebaran 5 meter · Kedalaman 2 meter.",
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|1": {
+  "source_text": "Fictional parcel label: Berat 1.5 kilo · Kepanjangan 40 sentimeter · Kelebaran 30 sentimeter · Ketinggian 20 sentimeter.",
   "target_spans": [
-   "Ketinggian",
-   "meter",
+   "Berat",
+   "kilo",
    "Kepanjangan",
-   "meter",
+   "sentimeter",
    "Kelebaran",
-   "meter",
-   "Kedalaman",
-   "meter"
+   "sentimeter",
+   "Ketinggian",
+   "sentimeter"
   ],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": null
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|2": {
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|2": {
   "source_text": "■ Questions · 質問",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|3": {
-  "source_text": "1. What fraction of a kilo is ordered?",
-  "target_spans": [
-   "kilo"
-  ],
-  "mention_spans": [],
-  "kind": "reading",
-  "exclusion": null
- },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|4": {
-  "source_text": "2. What percentage discount is shown?",
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|3": {
+  "source_text": "1. How much mango was bought?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|5": {
-  "source_text": "3. What is the final price?",
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|4": {
+  "source_text": "2. What discount is shown?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|6": {
-  "source_text": "4. What is the listed height?",
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|5": {
+  "source_text": "3. What is the total?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|7": {
-  "source_text": "5. What is the listed length?",
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|6": {
+  "source_text": "4. How much change was given?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|8": {
-  "source_text": "6. Write the width in Malay.",
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|7": {
+  "source_text": "5. How long is the parcel?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|9": {
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|8": {
+  "source_text": "6. Say the width of the parcel the spoken way.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|9": {
   "source_text": "■ Write · 書く",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|10": {
-  "source_text": "Write a fictional two-line order or dimensions list, including the units.",
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|10": {
+  "source_text": "Write a fictional label for a parcel to a friend: weight, length, width and height, each with a unit. Then say it aloud the spoken way.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|11": {
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|11": {
   "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|12": {
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|12": {
   "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|3|13": {
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|3|13": {
   "source_text": "________________________________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|4|0": {
-  "source_text": "Reading: setengah / 20% / RM8 / 3 metres / 10 metres / Lima meter.",
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|4|0": {
+  "source_text": "Reading: setengah kilo / 20% / RM6 / RM4 / 40 cm / Lebar tiga puluh sentimeter.",
   "target_spans": [
-   "setengah",
-   "Lima meter."
+   "setengah kilo",
+   "Lebar tiga puluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|4|1": {
-  "source_text": "Model writing: Ketinggian 3 meter; Kelebaran 5 meter.",
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|4|1": {
+  "source_text": "Model writing: Berat 2 kilo · Kepanjangan 30 sentimeter · Kelebaran 20 sentimeter · Ketinggian 10 sentimeter. Spoken: Berat dua kilo. Panjang tiga puluh sentimeter, lebar dua puluh sentimeter, tinggi sepuluh sentimeter.",
   "target_spans": [
-   "Ketinggian",
-   "meter",
+   "Berat",
+   "kilo",
+   "Kepanjangan",
+   "sentimeter",
    "Kelebaran",
-   "meter"
+   "sentimeter",
+   "Ketinggian",
+   "sentimeter",
+   "Berat dua kilo. Panjang tiga puluh sentimeter, lebar dua puluh sentimeter, tinggi sepuluh sentimeter."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
- "Unit 3C · Reading and writing · Fictional order and dimensions|4|2": {
+ "Unit 3C · Reading and writing · A market receipt and a parcel label|4|2": {
   "source_text": "The quantities and prices in the text are fictional teaching examples.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Task · Read and correct a fictional order|0|0": {
+ "Unit 3C · Task · Send a parcel at the post office|0|0": {
   "source_text": "役割カードを使い、台本を見ずに話し、途中で条件を変えます。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Task · Read and correct a fictional order|0|1": {
+ "Unit 3C · Task · Send a parcel at the post office|0|1": {
   "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Task · Read and correct a fictional order|1|0": {
+ "Unit 3C · Task · Send a parcel at the post office|1|0": {
   "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Task · Read and correct a fictional order|2|0": {
+ "Unit 3C · Task · Send a parcel at the post office|2|0": {
   "source_text": "Use the two role cards independently and respond to a mid-task change.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Task · Read and correct a fictional order|3|0": {
-  "source_text": "Read the fictional order and ask B about the fraction, discount and final price.",
+ "Unit 3C · Task · Send a parcel at the post office|3|0": {
+  "source_text": "Customer: you have a fictional parcel for a friend in Osaka: 2 kg, 30 cm long, 20 cm wide, 10 cm high.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Task · Read and correct a fictional order|3|1": {
-  "source_text": "Check at least one dimension from the second line.",
+ "Unit 3C · Task · Send a parcel at the post office|3|1": {
+  "source_text": "Say whether this is your first or second visit, answer the clerk, then ask the price and pay.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Task · Read and correct a fictional order|3|2": {
+ "Unit 3C · Task · Send a parcel at the post office|3|2": {
   "source_text": "■ Role card B · Bのカード",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Task · Read and correct a fictional order|3|3": {
-  "source_text": "Answer using the quantities and dimensions in the printed order.",
+ "Unit 3C · Task · Send a parcel at the post office|3|3": {
+  "source_text": "Post-office clerk: ask who the parcel is for, then its weight, length, width and height.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Task · Read and correct a fictional order|3|4": {
-  "source_text": "Ask A to repeat the fraction and the units.",
+ "Unit 3C · Task · Send a parcel at the post office|3|4": {
+  "source_text": "Give a fictional total between RM40 and RM60 and ask how the customer will pay.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Task · Read and correct a fictional order|3|5": {
+ "Unit 3C · Task · Send a parcel at the post office|3|5": {
   "source_text": "■ Change of plan · 予定変更",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Task · Read and correct a fictional order|3|6": {
-  "source_text": "A changes the order from half a kilo to one quarter or the discount from 20% to 50%.",
+ "Unit 3C · Task · Send a parcel at the post office|3|6": {
+  "source_text": "The customer adds a second parcel: half a kilo, 20 cm × 15 cm × 5 cm. B asks the sizes again and gives a new total.",
   "target_spans": [
    "kilo"
   ],
@@ -28848,53 +29231,56 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 3C · Task · Read and correct a fictional order|3|7": {
-  "source_text": "B checks the new value and explains which figure changed.",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "task",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Unit 3C · Task · Read and correct a fictional order|3|8": {
+ "Unit 3C · Task · Send a parcel at the post office|3|7": {
   "source_text": "■ Success criteria · できる基準",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Task · Read and correct a fictional order|3|9": {
-  "source_text": "☐ The ordinal uses the right form.",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "task",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Unit 3C · Task · Read and correct a fictional order|3|10": {
-  "source_text": "☐ The fraction or percent is identified correctly.",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "task",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Unit 3C · Task · Read and correct a fictional order|3|11": {
-  "source_text": "☐ Every dimension is followed by its unit.",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "task",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Unit 3C · Task · Read and correct a fictional order|4|0": {
-  "source_text": "Possible result: Setengah kilo. Diskaun dua puluh peratus. Ketinggian tiga meter.",
+ "Unit 3C · Task · Send a parcel at the post office|3|8": {
+  "source_text": "☐ B asks Berapa berat, Berapa panjang, Berapa lebar and Berapa tinggi.",
   "target_spans": [
-   "Setengah kilo.",
-   "Diskaun dua puluh peratus.",
-   "Ketinggian tiga meter."
+   "Berapa berat",
+   "Berapa panjang",
+   "Berapa lebar",
+   "Berapa tinggi"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Unit 3C · Task · Send a parcel at the post office|3|9": {
+  "source_text": "☐ A answers every size with a unit.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 3C · Task · Send a parcel at the post office|3|10": {
+  "source_text": "☐ kali pertama or kali kedua, the fraction and the total are said correctly.",
+  "target_spans": [
+   "kali pertama",
+   "kali kedua"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Unit 3C · Task · Send a parcel at the post office|4|0": {
+  "source_text": "Possible result: Berapa berat bungkusan ini? — Dua kilo. Berapa panjang? — Tiga puluh sentimeter. Jumlah empat puluh lima ringgit.",
+  "target_spans": [
+   "Berapa berat bungkusan ini?",
+   "Dua kilo.",
+   "Berapa panjang?",
+   "Tiga puluh sentimeter.",
+   "Jumlah empat puluh lima ringgit."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
- "Unit 3C · Task · Read and correct a fictional order|4|1": {
+ "Unit 3C · Task · Send a parcel at the post office|4|1": {
   "source_text": "Do not use a real phone number. All practice prices, measurements and quantities are fictional.",
   "target_spans": [],
   "mention_spans": [],
@@ -28930,36 +29316,57 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Culture and usage note|3|0": {
-  "source_text": "Ordinal numbers help speakers organise repeated visits and ordered choices. Kata-Kata card ms-c03-036 explicitly warns that pertama, not a mechanically created first ordinal, is the ordinary first-place expression. Cards ms-c03-037 to ms-c03-039 supply attested further ordinals. The teacher can contrast satu with pertama and dua with kedua without inventing a new derivation. When discussing which visit or attempt a person means, learners should repeat the entire ordinal after hearing it rather than simply agreeing.",
+  "source_text": "Malaysia uses the metric system. At a pasar (a wet market or morning market), fruit, vegetables and fish are sold by weight, and the seller weighs your order on a scale. Asking for setengah kilo or suku kilo is normal; you do not have to buy a whole kilo. Shop signs show discounts as percentages, such as Diskaun 20%, read aloud as diskaun dua puluh peratus. Decimals are read with perpuluhan: 1.5 kilo is satu perpuluhan lima kilo (Kata-Kata card ms-c03-044).",
   "target_spans": [
-   "pertama",
-   "satu",
-   "pertama",
-   "dua",
-   "kedua"
+   "pasar",
+   "setengah kilo",
+   "suku kilo",
+   "kilo",
+   "Diskaun 20%",
+   "diskaun dua puluh peratus",
+   "perpuluhan",
+   "kilo",
+   "satu perpuluhan lima kilo"
   ],
   "mention_spans": [],
   "kind": "culture",
   "exclusion": null
  },
  "Unit 3C · Culture and usage note|3|1": {
-  "source_text": "Fractions, decimal values and percentages answer different questions. A half-kilogram quantity is not the same thing as a fifty-percent discount, even though the fractions may be mathematically related. Use one written fictional label at a time and have the listener identify whether it names a share, a mass, a dimension, or a price reduction. Kata-Kata card ms-c03-044 gives dua perpuluhan lima for a 2.5 decimal, and card ms-c03-045 gives a fifty-percent example. These are card notes, not a claim about how every merchant speaks. This unit does not yet introduce classifier rules, which belong to chapter 8.",
+  "source_text": "For sizes, everyday speech uses the adjective itself: Berapa panjang bungkusan ini? Panjang tiga puluh sentimeter. The nouns ketinggian, kepanjangan, kelebaran and kedalaman are built from tinggi, panjang, lebar and dalam (Kata-Kata cards ms-c03-050 to ms-c03-053). You meet them mostly in writing: on forms, labels and product descriptions. kepanjangan can also mean the full form of an abbreviation, so in conversation panjang is the safer choice.",
   "target_spans": [
-   "dua perpuluhan lima"
+   "Berapa panjang bungkusan ini?",
+   "Panjang tiga puluh sentimeter.",
+   "ketinggian",
+   "kepanjangan",
+   "kelebaran",
+   "kedalaman",
+   "tinggi",
+   "panjang",
+   "lebar",
+   "kepanjangan",
+   "panjang"
   ],
-  "mention_spans": [],
+  "mention_spans": [
+   "dalam"
+  ],
   "kind": "culture",
   "exclusion": null
  },
  "Unit 3C · Culture and usage note|3|2": {
-  "source_text": "The measurement vocabulary gives a useful introduction to the attested nouns ketinggian, kepanjangan, kelebaran and kedalaman. They are recorded as chapter 3 terms. Avoid telling students that any adjective can be changed with paired prefix and suffix: this lesson only practises the listed forms. In the writing task, ask for a clear unit after each number and for an explicitly fictional price when a price appears. This prevents learners from confusing metres with centimetres and full prices with discounted prices. The Japanese notes are still draft translations and require native review.",
+  "source_text": "For ordinals, pertama is irregular: everyday Malay does not say kesatu (Kata-Kata card ms-c03-036). From two onwards the ordinal is built on the number: dua → kedua, tiga → ketiga. Ini kali pertama saya di Malaysia is a natural thing to say when you meet someone new, and a Malaysian may well ask Ini kali pertama encik di Malaysia? when you arrive.",
   "target_spans": [
-   "ketinggian",
-   "kepanjangan",
-   "kelebaran",
-   "kedalaman"
+   "pertama",
+   "dua",
+   "kedua",
+   "tiga",
+   "ketiga",
+   "Ini kali pertama saya di Malaysia",
+   "Ini kali pertama encik di Malaysia?"
   ],
-  "mention_spans": [],
+  "mention_spans": [
+   "kesatu"
+  ],
   "kind": "culture",
   "exclusion": null
  },
@@ -28971,24 +29378,60 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Culture and usage note|3|4": {
-  "source_text": "順序を表す pertama と kedua を通常の数と分けて練習します。",
+  "source_text": "マレーシアはメートル法を使います。pasar（ウェットマーケットや朝市）では果物・野菜・魚を重さで売り、店の人がはかりで量ってくれます。setengah kilo（500グラム）や suku kilo（250グラム）を頼むのは普通で、1キロ単位で買う必要はありません。店の割引表示は Diskaun 20% のようにパーセントで書かれ、diskaun dua puluh peratus と読みます。小数は perpuluhan で読みます：1.5キロは satu perpuluhan lima kilo（Kata-Kata カード ms-c03-044）。",
   "target_spans": [
-   "pertama",
-   "kedua"
+   "pasar",
+   "setengah kilo",
+   "suku kilo",
+   "Diskaun 20%",
+   "diskaun dua puluh peratus",
+   "perpuluhan",
+   "satu perpuluhan lima kilo"
   ],
   "mention_spans": [],
   "kind": "culture",
   "exclusion": null
  },
  "Unit 3C · Culture and usage note|3|5": {
-  "source_text": "分数・小数・百分率・寸法は別の情報です。第8章の助数詞を先取りしません。日本語比較はネイティブ確認待ちです。",
-  "target_spans": [],
-  "mention_spans": [],
+  "source_text": "大きさを言うとき、日常の会話では形容詞をそのまま使います：Berapa panjang bungkusan ini?（この小包の長さは？）Panjang tiga puluh sentimeter.（長さ30センチです）。ketinggian・kepanjangan・kelebaran・kedalaman は tinggi・panjang・lebar・dalam から作られた名詞です（Kata-Kata カード ms-c03-050〜053）。主に書類・ラベル・商品説明などの書き言葉で見かけます。kepanjangan は略語の「正式名称」の意味でも使われるので、会話では panjang を使うほうが無難です。",
+  "target_spans": [
+   "Berapa panjang bungkusan ini?",
+   "Panjang tiga puluh sentimeter.",
+   "ketinggian",
+   "kepanjangan",
+   "kelebaran",
+   "kedalaman",
+   "tinggi",
+   "panjang",
+   "lebar",
+   "kepanjangan",
+   "panjang"
+  ],
+  "mention_spans": [
+   "dalam"
+  ],
   "kind": "culture",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
+ },
+ "Unit 3C · Culture and usage note|3|6": {
+  "source_text": "序数では pertama（1番目）が不規則で、日常では kesatu とは言いません（Kata-Kata カード ms-c03-036）。2以降は数字から作ります：dua→kedua、tiga→ketiga。Ini kali pertama saya di Malaysia（マレーシアは初めてです）は初対面でよく使う自然な一言で、到着したときに Ini kali pertama encik di Malaysia?（マレーシアは初めてですか）と聞かれることもよくあります。",
+  "target_spans": [
+   "pertama",
+   "dua",
+   "kedua",
+   "tiga",
+   "ketiga",
+   "Ini kali pertama saya di Malaysia",
+   "Ini kali pertama encik di Malaysia?"
+  ],
+  "mention_spans": [
+   "kesatu"
+  ],
+  "kind": "culture",
+  "exclusion": null
  },
  "Unit 3C · Culture and usage note|4|0": {
-  "source_text": "English culture note: 263 words.",
+  "source_text": "English culture note: 208 words.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
@@ -29144,60 +29587,61 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Unit test and self-check|3|15": {
-  "source_text": "Fictional order: Mangga setengah kilo · Harga RM10.00 · Diskaun dua puluh peratus · Jumlah RM8.00.",
+  "source_text": "Fictional market receipt: Mangga setengah kilo RM5.00 · Diskaun dua puluh peratus -RM1.00 · Pisang suku kilo RM2.00 · Jumlah RM6.00 · Tunai RM10.00 · Baki RM4.00.",
   "target_spans": [
    "Mangga",
    "setengah kilo",
-   "Harga",
    "Diskaun",
    "dua puluh peratus",
-   "Jumlah"
+   "Pisang",
+   "suku kilo",
+   "Jumlah",
+   "Tunai",
+   "Baki"
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "Unit 3C · Unit test and self-check|3|16": {
-  "source_text": "Fictional dimensions: Ketinggian 3 meter · Kepanjangan 10 meter · Kelebaran 5 meter · Kedalaman 2 meter.",
+  "source_text": "Fictional parcel label: Berat 1.5 kilo · Kepanjangan 40 sentimeter · Kelebaran 30 sentimeter · Ketinggian 20 sentimeter.",
   "target_spans": [
-   "Ketinggian",
-   "meter",
+   "Berat",
+   "kilo",
    "Kepanjangan",
-   "meter",
+   "sentimeter",
    "Kelebaran",
-   "meter",
-   "Kedalaman",
-   "meter"
+   "sentimeter",
+   "Ketinggian",
+   "sentimeter"
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "Unit 3C · Unit test and self-check|3|17": {
-  "source_text": "R1. What fraction of a kilo is ordered?",
-  "target_spans": [
-   "kilo"
-  ],
+  "source_text": "R1. How much mango was bought?",
+  "target_spans": [],
   "mention_spans": [],
   "kind": "test",
-  "exclusion": null
+  "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Unit test and self-check|3|18": {
-  "source_text": "R2. What percentage discount is shown?",
+  "source_text": "R2. What discount is shown?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Unit test and self-check|3|19": {
-  "source_text": "R3. What is the final price?",
+  "source_text": "R3. What is the total?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Unit test and self-check|3|20": {
-  "source_text": "R4. What is the listed height?",
+  "source_text": "R4. How much change was given?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -29211,7 +29655,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Unit test and self-check|3|22": {
-  "source_text": "S1. Ask about an ordinal visit, a fraction and one measurement with units.",
+  "source_text": "S1. At the post office: say which visit it is, then ask and answer the weight, length and width of a parcel, with units.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -29232,14 +29676,14 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Unit test and self-check|3|25": {
-  "source_text": "☐ I can ask and answer about quantities and dimensions.",
+  "source_text": "☐ I can ask and answer about quantities and the size of a parcel.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Unit test and self-check|3|26": {
-  "source_text": "☐ I can read an order and write a simple measurement list.",
+  "source_text": "☐ I can read a receipt and a parcel label, and write a label.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -29253,46 +29697,46 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Unit test and self-check|4|0": {
-  "source_text": "L1: Teacher reads: Ini kali kedua saya di Malaysia. Kali pertama saya di Malaysia dengan kawan saya. Answer: second",
+  "source_text": "L1: Teacher reads: Selamat pagi, mak cik. Ini kali kedua saya di pasar ini. Saya beli setengah kilo, ya. Answer: second visit; half a kilo",
   "target_spans": [
-   "Ini kali kedua saya di Malaysia. Kali pertama saya di Malaysia dengan kawan saya."
-  ],
-  "mention_spans": [],
-  "kind": "key",
-  "exclusion": null
- },
- "Unit 3C · Unit test and self-check|4|1": {
-  "source_text": "L2: Teacher reads: Ini kali ketiga saya di Malaysia. Sebelum kali ketiga ada kali pertama dan kedua. Answer: third",
-  "target_spans": [
-   "Ini kali ketiga saya di Malaysia. Sebelum kali ketiga ada kali pertama dan kedua."
-  ],
-  "mention_spans": [],
-  "kind": "key",
-  "exclusion": null
- },
- "Unit 3C · Unit test and self-check|4|2": {
-  "source_text": "L3: Teacher reads: Saya beli setengah kilo mangga. Berat buah ini setengah kilo, betul? Answer: half kilo",
-  "target_spans": [
-   "Saya beli setengah kilo mangga. Berat buah ini setengah kilo, betul?",
+   "Selamat pagi, mak cik. Ini kali kedua saya di pasar ini. Saya beli setengah kilo, ya.",
    "kilo"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
- "Unit 3C · Unit test and self-check|4|3": {
-  "source_text": "L4: Teacher reads: Ya, betul. Setengah kilo. Harga sepuluh ringgit. Diskaun dua puluh peratus. Answer: 20%",
+ "Unit 3C · Unit test and self-check|4|1": {
+  "source_text": "L2: Teacher reads: Baik. Setengah kilo, lima ringgit. Pagi ini ada diskaun dua puluh peratus. Answer: RM5; 20% discount",
   "target_spans": [
-   "Ya, betul. Setengah kilo. Harga sepuluh ringgit. Diskaun dua puluh peratus."
+   "Baik. Setengah kilo, lima ringgit. Pagi ini ada diskaun dua puluh peratus."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 3C · Unit test and self-check|4|2": {
+  "source_text": "L3: Teacher reads: Dua puluh peratus? Harga selepas diskaun empat ringgit, betul? Answer: RM4 after the discount",
+  "target_spans": [
+   "Dua puluh peratus? Harga selepas diskaun empat ringgit, betul?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Unit 3C · Unit test and self-check|4|3": {
+  "source_text": "L4: Teacher reads: Baik. Saya timbang dulu. Berat satu perpuluhan lima kilo. Answer: 1.5 kg",
+  "target_spans": [
+   "Baik. Saya timbang dulu. Berat satu perpuluhan lima kilo."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 3C · Unit test and self-check|4|4": {
-  "source_text": "L5: Teacher reads: Diskaun dua puluh peratus untuk sepuluh ringgit ialah dua ringgit. Answer: RM2",
+  "source_text": "L5: Teacher reads: Baik. Jumlah tiga puluh lima ringgit. Encik bayar dengan kad? Answer: RM35",
   "target_spans": [
-   "Diskaun dua puluh peratus untuk sepuluh ringgit ialah dua ringgit."
+   "Baik. Jumlah tiga puluh lima ringgit. Encik bayar dengan kad?"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -29371,9 +29815,9 @@
   "exclusion": null
  },
  "Unit 3C · Unit test and self-check|4|13": {
-  "source_text": "R1: setengah",
+  "source_text": "R1: setengah kilo",
   "target_spans": [
-   "setengah"
+   "setengah kilo"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -29387,24 +29831,25 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Unit test and self-check|4|15": {
-  "source_text": "R3: RM8",
+  "source_text": "R3: RM6",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Unit test and self-check|4|16": {
-  "source_text": "R4: 3 metres",
+  "source_text": "R4: RM4",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Unit test and self-check|4|17": {
-  "source_text": "S1: Check pertama versus kedua, a correct fraction and stated units.",
+  "source_text": "S1: Check kali pertama or kedua, Berapa berat / panjang / lebar …?, and a unit after every number.",
   "target_spans": [
-   "pertama",
-   "kedua"
+   "kali pertama",
+   "kedua",
+   "Berapa berat / panjang / lebar …?"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -29425,9 +29870,10 @@
   "exclusion": null
  },
  "test:ms-c03c-test-01|answer_key": {
-  "source_text": "Teacher reads: Ini kali kedua saya di Malaysia. Kali pertama saya di Malaysia dengan kawan saya. Answer: second",
+  "source_text": "Teacher reads: Selamat pagi, mak cik. Ini kali kedua saya di pasar ini. Saya beli setengah kilo, ya. Answer: second visit; half a kilo",
   "target_spans": [
-   "Ini kali kedua saya di Malaysia. Kali pertama saya di Malaysia dengan kawan saya."
+   "Selamat pagi, mak cik. Ini kali kedua saya di pasar ini. Saya beli setengah kilo, ya.",
+   "kilo"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -29441,9 +29887,9 @@
   "exclusion": null
  },
  "test:ms-c03c-test-02|answer_key": {
-  "source_text": "Teacher reads: Ini kali ketiga saya di Malaysia. Sebelum kali ketiga ada kali pertama dan kedua. Answer: third",
+  "source_text": "Teacher reads: Baik. Setengah kilo, lima ringgit. Pagi ini ada diskaun dua puluh peratus. Answer: RM5; 20% discount",
   "target_spans": [
-   "Ini kali ketiga saya di Malaysia. Sebelum kali ketiga ada kali pertama dan kedua."
+   "Baik. Setengah kilo, lima ringgit. Pagi ini ada diskaun dua puluh peratus."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -29457,10 +29903,9 @@
   "exclusion": null
  },
  "test:ms-c03c-test-03|answer_key": {
-  "source_text": "Teacher reads: Saya beli setengah kilo mangga. Berat buah ini setengah kilo, betul? Answer: half kilo",
+  "source_text": "Teacher reads: Dua puluh peratus? Harga selepas diskaun empat ringgit, betul? Answer: RM4 after the discount",
   "target_spans": [
-   "Saya beli setengah kilo mangga. Berat buah ini setengah kilo, betul?",
-   "kilo"
+   "Dua puluh peratus? Harga selepas diskaun empat ringgit, betul?"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -29474,9 +29919,9 @@
   "exclusion": null
  },
  "test:ms-c03c-test-04|answer_key": {
-  "source_text": "Teacher reads: Ya, betul. Setengah kilo. Harga sepuluh ringgit. Diskaun dua puluh peratus. Answer: 20%",
+  "source_text": "Teacher reads: Baik. Saya timbang dulu. Berat satu perpuluhan lima kilo. Answer: 1.5 kg",
   "target_spans": [
-   "Ya, betul. Setengah kilo. Harga sepuluh ringgit. Diskaun dua puluh peratus."
+   "Baik. Saya timbang dulu. Berat satu perpuluhan lima kilo."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -29490,9 +29935,9 @@
   "exclusion": null
  },
  "test:ms-c03c-test-05|answer_key": {
-  "source_text": "Teacher reads: Diskaun dua puluh peratus untuk sepuluh ringgit ialah dua ringgit. Answer: RM2",
+  "source_text": "Teacher reads: Baik. Jumlah tiga puluh lima ringgit. Encik bayar dengan kad? Answer: RM35",
   "target_spans": [
-   "Diskaun dua puluh peratus untuk sepuluh ringgit ialah dua ringgit."
+   "Baik. Jumlah tiga puluh lima ringgit. Encik bayar dengan kad?"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -29629,25 +30074,23 @@
   "exclusion": null
  },
  "test:ms-c03c-test-14|prompt": {
-  "source_text": "R1. What fraction of a kilo is ordered?",
-  "target_spans": [
-   "kilo"
-  ],
+  "source_text": "R1. How much mango was bought?",
+  "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c03c-test-14|answer_key": {
-  "source_text": "setengah",
+  "source_text": "setengah kilo",
   "target_spans": [
-   "setengah"
+   "setengah kilo"
   ],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c03c-test-15|prompt": {
-  "source_text": "R2. What percentage discount is shown?",
+  "source_text": "R2. What discount is shown?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
@@ -29661,45 +30104,46 @@
   "exclusion": null
  },
  "test:ms-c03c-test-16|prompt": {
-  "source_text": "R3. What is the final price?",
+  "source_text": "R3. What is the total?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c03c-test-16|answer_key": {
-  "source_text": "RM8",
+  "source_text": "RM6",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c03c-test-17|prompt": {
-  "source_text": "R4. What is the listed height?",
+  "source_text": "R4. How much change was given?",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c03c-test-17|answer_key": {
-  "source_text": "3 metres",
+  "source_text": "RM4",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c03c-test-18|prompt": {
-  "source_text": "S1. Ask about an ordinal visit, a fraction and one measurement with units.",
+  "source_text": "S1. At the post office: say which visit it is, then ask and answer the weight, length and width of a parcel, with units.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": null
  },
  "test:ms-c03c-test-18|answer_key": {
-  "source_text": "Check pertama versus kedua, a correct fraction and stated units.",
+  "source_text": "Check kali pertama or kedua, Berapa berat / panjang / lebar …?, and a unit after every number.",
   "target_spans": [
-   "pertama",
-   "kedua"
+   "kali pertama",
+   "kedua",
+   "Berapa berat / panjang / lebar …?"
   ],
   "mention_spans": [],
   "kind": "test",
@@ -29809,7 +30253,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Teaching plan and answer key|3|10": {
-  "source_text": "Goal: I can ask and answer about quantities and dimensions.",
+  "source_text": "Goal: I can ask and answer about quantities and the size of a parcel.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -29837,7 +30281,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Teaching plan and answer key|3|14": {
-  "source_text": "Goal: I can read an order and write a simple measurement list.",
+  "source_text": "Goal: I can read a receipt and a parcel label, and write a label.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -29865,7 +30309,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Teaching plan and answer key|3|18": {
-  "source_text": "Goal: I can distinguish ordinal, fraction, percent and dimension forms.",
+  "source_text": "Goal: I can distinguish ordinal, fraction, percent and size forms.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
@@ -29925,27 +30369,32 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Teaching plan and answer key|3|26": {
-  "source_text": "Do not introduce chapter 8 productive classifiers.",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "plan",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Unit 3C · Teaching plan and answer key|3|27": {
-  "source_text": "Keep paired prefix and suffix restricted to attested chapter 3 measure nouns.",
+  "source_text": "Do not introduce chapter 8 classifiers.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 3C · Teaching plan and answer key|4|0": {
-  "source_text": "All quantities and prices are expressly fictional.",
+  "source_text": "In speech use panjang, lebar, tinggi and berat directly. Teach the four measurement nouns as written labels only; do not ask learners to build new ones.",
+  "target_spans": [
+   "panjang",
+   "lebar",
+   "tinggi",
+   "berat"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 3C · Teaching plan and answer key|4|1": {
+  "source_text": "All prices, weights and sizes are fictional.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Teaching plan and answer key|4|1": {
+ "Unit 3C · Teaching plan and answer key|4|2": {
   "source_text": "Standard first. Spoken forms labelled. No productive ber- or me- verbs.",
   "target_spans": [],
   "mention_spans": [],
@@ -29959,123 +30408,135 @@
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|0|0": {
+ "Unit 3C · Writing block · Receipt and parcel label|0|0": {
   "source_text": "追加45分ブロックでモデルを見てから自分で書くか復習します。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|0|1": {
+ "Unit 3C · Writing block · Receipt and parcel label|0|1": {
   "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|1|0": {
+ "Unit 3C · Writing block · Receipt and parcel label|1|0": {
   "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|2|0": {
+ "Unit 3C · Writing block · Receipt and parcel label|2|0": {
   "source_text": "Additional 45-minute review or writing block using the taught chapter vocabulary.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "explainer",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|3|0": {
-  "source_text": "Model: Mangga setengah kilo · Harga RM10.00 · Diskaun dua puluh peratus.",
+ "Unit 3C · Writing block · Receipt and parcel label|3|0": {
+  "source_text": "Receipt: Mangga setengah kilo RM5.00 · Diskaun dua puluh peratus -RM1.00 · Jumlah RM4.00.",
   "target_spans": [
    "Mangga",
    "setengah kilo",
-   "Harga",
    "Diskaun",
-   "dua puluh peratus"
+   "dua puluh peratus",
+   "Jumlah"
   ],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": null
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|3|1": {
-  "source_text": "Model dimensions: Ketinggian 3 meter; Kelebaran 5 meter.",
+ "Unit 3C · Writing block · Receipt and parcel label|3|1": {
+  "source_text": "Label: Berat 2 kilo · Kepanjangan 30 sentimeter · Kelebaran 20 sentimeter · Ketinggian 10 sentimeter.",
   "target_spans": [
-   "Ketinggian",
-   "meter",
+   "Berat",
+   "kilo",
+   "Kepanjangan",
+   "sentimeter",
    "Kelebaran",
-   "meter"
+   "sentimeter",
+   "Ketinggian",
+   "sentimeter"
   ],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": null
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|3|2": {
+ "Unit 3C · Writing block · Receipt and parcel label|3|2": {
   "source_text": "■ Your turn · 自分で",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|3|3": {
-  "source_text": "Write a fictional price list with a fractional amount and a percentage discount.",
+ "Unit 3C · Writing block · Receipt and parcel label|3|3": {
+  "source_text": "Write a fictional market receipt with a fraction of a kilo, a percentage discount, the total and the change.",
+  "target_spans": [
+   "kilo"
+  ],
+  "mention_spans": [],
+  "kind": "reading",
+  "exclusion": null
+ },
+ "Unit 3C · Writing block · Receipt and parcel label|3|4": {
+  "source_text": "Write a label for a fictional parcel: weight, length, width and height, with units. Read it aloud the spoken way.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|3|4": {
-  "source_text": "Write four measurements using the supplied nouns and units.",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "reading",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Unit 3C · Writing block · Fictional order and measurement sheet|3|5": {
+ "Unit 3C · Writing block · Receipt and parcel label|3|5": {
   "source_text": "■ Peer check · 互いに確認",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|3|6": {
+ "Unit 3C · Writing block · Receipt and parcel label|3|6": {
   "source_text": "☐ Every number has its unit.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|3|7": {
+ "Unit 3C · Writing block · Receipt and parcel label|3|7": {
   "source_text": "☐ The percentage is labelled.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|3|8": {
-  "source_text": "☐ The price list is marked fictional.",
-  "target_spans": [],
+ "Unit 3C · Writing block · Receipt and parcel label|3|8": {
+  "source_text": "☐ Your partner can say the label the spoken way (panjang, lebar, tinggi).",
+  "target_spans": [
+   "panjang",
+   "lebar",
+   "tinggi"
+  ],
   "mention_spans": [],
   "kind": "reading",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|4|0": {
-  "source_text": "Model: Ketinggian 3 meter; Kepanjangan 10 meter; Kelebaran 5 meter.",
+ "Unit 3C · Writing block · Receipt and parcel label|4|0": {
+  "source_text": "Model: Berat 2 kilo · Kepanjangan 30 sentimeter · Kelebaran 20 sentimeter · Ketinggian 10 sentimeter.",
   "target_spans": [
-   "Ketinggian",
-   "meter",
+   "Berat",
+   "kilo",
    "Kepanjangan",
-   "meter",
+   "sentimeter",
    "Kelebaran",
-   "meter"
+   "sentimeter",
+   "Ketinggian",
+   "sentimeter"
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
- "Unit 3C · Writing block · Fictional order and measurement sheet|4|1": {
+ "Unit 3C · Writing block · Receipt and parcel label|4|1": {
   "source_text": "This is an extra 45-minute skills or review block.",
   "target_spans": [],
   "mention_spans": [],
@@ -31613,12 +32074,15 @@
   "exclusion": null
  },
  "Chapter 3 · Fast-course summary pack|4|2": {
-  "source_text": "7 · Ketinggian ___ meter.  e.g. Ketinggian tiga meter. / Ketinggian lima meter.",
+  "source_text": "7 · Berapa [panjang / berat] ___ ?  e.g. Berapa panjang bungkusan ini? — Tiga puluh sentimeter. / Berapa berat bungkusan ini? — Dua kilo.",
   "target_spans": [
-   "Ketinggian",
-   "meter",
-   "Ketinggian tiga meter.",
-   "Ketinggian lima meter."
+   "Berapa",
+   "panjang",
+   "berat",
+   "Berapa panjang bungkusan ini?",
+   "Tiga puluh sentimeter.",
+   "Berapa berat bungkusan ini?",
+   "Dua kilo."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -31650,90 +32114,90 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 3 · Fast-course summary pack|4|6": {
-  "source_text": "Aini: Selamat pagi, Encik Tanaka. Berapa umur encik?",
+  "source_text": "Aini: Selamat pagi, encik. Ini kali pertama encik di pasar ini?",
   "target_spans": [
-   "Selamat pagi, Encik Tanaka. Berapa umur encik?"
+   "Selamat pagi, encik. Ini kali pertama encik di pasar ini?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Chapter 3 · Fast-course summary pack|4|7": {
-  "source_text": "Tanaka: Umur saya tiga puluh lima tahun.",
+  "source_text": "Tanaka: Bukan, kali kedua. Berapa harga mangga ini?",
   "target_spans": [
-   "Umur saya tiga puluh lima tahun."
+   "Bukan, kali kedua. Berapa harga mangga ini?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Chapter 3 · Fast-course summary pack|4|8": {
-  "source_text": "Aini: Nombor telefon encik?",
+  "source_text": "Aini: Satu mangga lapan ringgit lima puluh sen.",
   "target_spans": [
-   "Nombor telefon encik?"
+   "Satu mangga lapan ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Chapter 3 · Fast-course summary pack|4|9": {
-  "source_text": "Tanaka: Kosong satu dua, tiga empat lima enam.",
+  "source_text": "Tanaka: Pisang pula?",
   "target_spans": [
-   "Kosong satu dua, tiga empat lima enam."
+   "Pisang pula?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Chapter 3 · Fast-course summary pack|4|10": {
-  "source_text": "Aini: Berapa harga mangga ini?",
+  "source_text": "Aini: Pisang empat ringgit. Pagi ini ada diskaun dua puluh peratus.",
   "target_spans": [
-   "Berapa harga mangga ini?"
+   "Pisang empat ringgit. Pagi ini ada diskaun dua puluh peratus."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Chapter 3 · Fast-course summary pack|4|11": {
-  "source_text": "Tanaka: Harganya lapan ringgit lima puluh sen.",
+  "source_text": "Tanaka: Saya beli satu mangga sahaja. Ini sepuluh ringgit.",
   "target_spans": [
-   "Harganya lapan ringgit lima puluh sen."
+   "Saya beli satu mangga sahaja. Ini sepuluh ringgit."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Chapter 3 · Fast-course summary pack|4|12": {
-  "source_text": "Aini: Saya bayar tunai. Ini sepuluh ringgit.",
+  "source_text": "Aini: Terima kasih. Baki satu ringgit lima puluh sen.",
   "target_spans": [
-   "Saya bayar tunai. Ini sepuluh ringgit."
+   "Terima kasih. Baki satu ringgit lima puluh sen."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Chapter 3 · Fast-course summary pack|4|13": {
-  "source_text": "Tanaka: Baki satu ringgit lima puluh sen.",
+  "source_text": "Tanaka: Satu ringgit lima puluh sen. Betul.",
   "target_spans": [
-   "Baki satu ringgit lima puluh sen."
+   "Satu ringgit lima puluh sen. Betul."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Chapter 3 · Fast-course summary pack|4|14": {
-  "source_text": "Aini: Diskaun dua puluh peratus?",
+  "source_text": "Aini: Jumpa lagi, encik!",
   "target_spans": [
-   "Diskaun dua puluh peratus?"
+   "Jumpa lagi, encik!"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Chapter 3 · Fast-course summary pack|4|15": {
-  "source_text": "Tanaka: Bukan, harga ini lapan ringgit lima puluh sen.",
+  "source_text": "Tanaka: Terima kasih. Jumpa lagi!",
   "target_spans": [
-   "Bukan, harga ini lapan ringgit lima puluh sen."
+   "Terima kasih. Jumpa lagi!"
   ],
   "mention_spans": [],
   "kind": "model",
@@ -31825,14 +32289,7 @@
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 3 · Fast-course summary pack|4|28": {
-  "source_text": "■ Self-study guide · 自習ガイド",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "heading",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Chapter 3 · Fast-course summary pack|4|29": {
+ "Chapter 3 · Fast-course summary pack|5|0": {
   "source_text": "Before class: Kata-Kata Sedia Kelas c03; prioritise cards ms-c03-001 to ms-c03-018.",
   "target_spans": [
    "Kelas"
@@ -31841,28 +32298,28 @@
   "kind": "opener",
   "exclusion": null
  },
- "Chapter 3 · Fast-course summary pack|5|0": {
+ "Chapter 3 · Fast-course summary pack|5|1": {
   "source_text": "After class: complete all 56 Kata-Kata chapter 3 cards (ms-c03-001 to ms-c03-056), plus 17 approved Ch3 ledger entries without cards.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 3 · Fast-course summary pack|5|1": {
+ "Chapter 3 · Fast-course summary pack|5|2": {
   "source_text": "Practise Kata-Kata frames ms-c03-f01 to f07 in the frame drill and Susun Ayat.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 3 · Fast-course summary pack|5|2": {
+ "Chapter 3 · Fast-course summary pack|5|3": {
   "source_text": "Dunia scenes: \"Pasar pagi\" (11 recognise-only words) and \"Ke bank dan pejabat pos\" (13 recognise-only words).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 3 · Fast-course summary pack|5|3": {
+ "Chapter 3 · Fast-course summary pack|5|4": {
   "source_text": "Optional full-course Cikgu Sensai units 3A (numbers, age, digits), 3B (money), and 3C (ordinals and measures).",
   "target_spans": [
    "Cikgu"
@@ -31871,14 +32328,14 @@
   "kind": "opener",
   "exclusion": null
  },
- "Chapter 3 · Fast-course summary pack|5|4": {
+ "Chapter 3 · Fast-course summary pack|5|5": {
   "source_text": "Expected independent study: about 9 to 10 hours, a provisional planning figure. Hanashishou starts at A2.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 3 · Fast-course summary pack|5|5": {
+ "Chapter 3 · Fast-course summary pack|5|6": {
   "source_text": "授業後：第3章のカードと二つのDunia場面を復習してください。自習約9〜10時間（目安）。",
   "target_spans": [],
   "mention_spans": [],
