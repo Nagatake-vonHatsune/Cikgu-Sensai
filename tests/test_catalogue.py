@@ -15,7 +15,7 @@ class CatalogueTests(unittest.TestCase):
         cls.groups=json.loads((ROOT/'dist/chapters.js').read_text()[len('const chapters='):-1])
         cls.data=make_catalogue(cls.lessons,cls.groups)
     def test_preserved_content(self):
-        # Step 4 retires the legacy unit 1 and 2A packs and rewrites one 3B line; steps 5a, 5b, 5c and 5d retire chapter 3, 4, 5 and 6 packs
+        # Step 4 retires the legacy unit 1 and 2A packs and rewrites one 3B line; steps 5a, 5b, 5c, 5d and 5e retire chapter 3, 4, 5, 6 and 7 packs
         # (ledger L-1006 action). Every other legacy page is unchanged.
         old=bank(subprocess.check_output(['git','show','b42e307f6f1594f7e15e68536ee2bb60bc7b1a4b:dist/bank.js'],cwd=ROOT,text=True))
         retired={'Greetings · Learner pack','Greetings · Teaching plan','Introductions · Learner pack','Introductions · Teaching plan',
@@ -30,7 +30,11 @@ class CatalogueTests(unittest.TestCase):
                  'Taste and colour · Learner pack','Taste and colour · Teaching plan',
                  'Size and shape · Learner pack','Size and shape · Teaching plan',
                  # Step 5d retires the legacy chapter 6 pack superseded by unit 6.
-                 'Comparisons and superlatives · Learner pack','Comparisons and superlatives · Teaching plan'}
+                 'Comparisons and superlatives · Learner pack','Comparisons and superlatives · Teaching plan',
+                 # Step 5e retires the legacy chapter 7 packs superseded by unit 7 (and the grammar pack "Di, ke and dari", whose
+                 # words kampus and tren are not in the ledger and whose content unit 7 patterns 1 and 2 replace).
+                 'Asking where · Learner pack','Asking where · Teaching plan',
+                 'Directions and orientation · Learner pack','Directions and orientation · Teaching plan','Di, ke and dari'}
         expected=[l for l in old if l['title'] not in retired]
         legacy=[l for l in self.lessons if not l.get('suite')]
         strip=lambda ls:[{k:v for k,v in l.items()} | {'pages':[{k:v for k,v in p.items() if k!='index'} for p in l['pages']]} for l in ls]

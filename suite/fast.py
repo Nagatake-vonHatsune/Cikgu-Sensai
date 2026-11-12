@@ -446,3 +446,4 @@ PACKS.append(dict(
     course_path='fast', prerequisites=['ms-c01', 'ms-c02', 'ms-c03', 'ms-c04', 'ms-c05'], prerequisite_units=[],
     prereq_grammar=['ms-c03-g04', 'ms-c04-g06', 'ms-c05-g02'],
     word_scope=C6_WORDS, components=chapter6))
+
