@@ -74,7 +74,7 @@ GRAMMAR.extend([
 PRODUCT_NAMES = ['Cikgu, Sensai!', 'Cikgu Sensai', 'Sedia Kelas', 'Tanya Cikgu', 'Kata-Kata', 'Dunia', 'Jambatan',
                  'Susun Ayat', 'Hanashishou', 'Teacher Desk',
                  # Kata-Kata Dunia scene titles (names of scenes, quoted as titles)
-                 'Sembang di pantri', 'Pagi di pejabat']
+                 'Sembang di pantri', 'Pagi di pejabat', 'Ke bank dan pejabat pos', 'Pasar pagi']
 
 
 def strip(s):
@@ -220,6 +220,16 @@ def build_suite(ledger=None):
     for unit in load_units():
         unit = dict(unit)
         comps = unit['components'](ledger) if callable(unit['components']) else unit['components']
+        if unit['chapter_id'] == 'ms-c03':
+            from .chapter3_common import mark_ch3
+            for c in comps:
+                c['sections'] = [(sec[0], [mark_ch3(line, ledger) for line in sec[1]], *sec[2:])
+                                 for sec in c['sections']]
+                c['key'] = [mark_ch3(line, ledger) for line in c['key']]
+                c['explain'] = tuple(mark_ch3(line, ledger) for line in c['explain'])
+                for test in c.get('tests', []):
+                    for field in ('prompt', 'answer'):
+                        test[field] = mark_ch3(test[field], ledger)
         titles = []
         for comp in comps:
             ctype = comp['type']
