@@ -218,6 +218,32 @@ class Chapter4Minimums(unittest.TestCase):
                         if spoken:
                             self.assertRegex(line, label, (l['title'], line))
 
+    def test_fast_pack(self):
+        self.assertIn('ms-c04-fast', self.by_unit)
+        from suite import fast
+        l = self.by_unit['ms-c04-fast'][0]
+        self.assertEqual(l['suite']['course_path'], 'fast')
+        core = [x for x in self.lines(l, 'Core words') if re.search(r'\[L-\d{4}\]$', x)]
+        self.assertTrue(15 <= len(core) <= 20)
+        # Fast words are a digest of the unit core words, never new ones.
+        self.assertTrue(set(fast.C4_WORDS) <= {lid for c in self.cfg for lid in c['core']})
+        labels = ' '.join(n for n, _, _ in l['sections'])
+        for part in ('Can-do', 'Core words', 'Key patterns', 'Model conversation', 'Task', 'Self-check', 'Self-study'):
+            self.assertIn(part, labels)
+        for line in self.lines(l, 'Key patterns'):
+            if re.match(r'^\d · ', line):
+                self.assertEqual(line.split('e.g.')[1].count(' / '), 1, line)
+        self.assertTrue(10 <= len(self.lines(l, 'Model conversation')) <= 16)
+        n_check = sum(x.startswith('☐') for x in self.lines(l, 'Self-check'))
+        self.assertTrue(all(f'{i} «' in l['key'][0] for i in range(1, n_check + 1)))
+        page = {x['title']: x for x in bank()}[l['title']]
+        count = len(page['pages']) - 3 - page.get('key_pages', 1)
+        self.assertTrue(2 <= count <= 4, count)
+        chapters = json.loads((ROOT / 'dist/chapters.js').read_text()[len('const chapters='):-1])
+        ch4 = next(c for c in chapters if c['title'].startswith('Chapter 4'))
+        self.assertIn(l['title'], ch4['fast_items'])
+        self.assertEqual(ch4['status'], 'Step 5b chapter 4 suite · draft for pilot')
+
     def test_legacy_retirement_and_catalogue(self):
         built = {x['title'] for x in bank()}
         retired = ['Clock time', 'Dates and days'] + (['Frequency and routines'] if 'ms-c04b' in self.new else [])

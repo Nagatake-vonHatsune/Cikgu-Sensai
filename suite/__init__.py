@@ -181,6 +181,8 @@ GLOSS = {
     'L-0968': dict(en='the shuttlecock sport'),
     'L-1029': dict(en='to go on trips (spoken English loan)'),
     'L-1030': dict(en='walking in the hills (spoken English loan)'),
+    'L-0193': dict(en='already, done (standard «sudah»; spoken «dah»)'),
+    'L-0202': dict(en='to go back, return home («balik» everyday; «pulang» also common in writing)'),
 }
 
 

@@ -43643,5 +43643,677 @@
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|0|0": {
+  "source_text": "第4章速習：45分で基本の20語、時刻・曜日・頻度、sudah・belum・sedang・akan・pernah を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
+  "target_spans": [
+   "sudah",
+   "belum",
+   "sedang",
+   "akan",
+   "pernah"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|2|0": {
+  "source_text": "Chapter 4 in one 45-minute session: 20 core words, time, days and frequency, and the markers sudah, belum, sedang, akan and pernah; then self-study in Kata-Kata. All times are fictional.",
+  "target_spans": [
+   "sudah",
+   "belum",
+   "sedang",
+   "akan",
+   "pernah"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|0": {
+  "source_text": "I can tell the time and the day, and ask Bila …? / 時刻と曜日が言え、Bila …? とたずねられる。",
+  "target_spans": [
+   "Bila …?",
+   "Bila …?"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|1": {
+  "source_text": "I can say how often I do something. / 何かをする頻度が言える。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|3|2": {
+  "source_text": "I can answer Sudah …? with Sudah or Belum. / Sudah …? に Sudah か Belum で答えられる。",
+  "target_spans": [
+   "Sudah …?",
+   "Sudah",
+   "Belum",
+   "Sudah …?",
+   "Sudah",
+   "Belum"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|3": {
+  "source_text": "I can describe my day: what I have done, am doing and will do. / 一日について、したこと・していること・することが言える。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|3|4": {
+  "source_text": "■ Core words · 基本の20語",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|3|5": {
+  "source_text": "pukul — o'clock · 〜時  [L-0157]",
+  "target_spans": [
+   "pukul"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|6": {
+  "source_text": "jam — hour (duration); clock, watch · 〜時間；時計  [L-0158]",
+  "target_spans": [
+   "jam"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|7": {
+  "source_text": "minit — minute · 分  [L-0159]",
+  "target_spans": [
+   "minit"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|8": {
+  "source_text": "sekarang — now · 今  [L-0161]",
+  "target_spans": [
+   "sekarang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|9": {
+  "source_text": "hari — day · 日  [L-0166]",
+  "target_spans": [
+   "hari"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|10": {
+  "source_text": "minggu — week · 週  [L-0167]",
+  "target_spans": [
+   "minggu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|11": {
+  "source_text": "hari ini — today · 今日  [L-0169]",
+  "target_spans": [
+   "hari ini"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|12": {
+  "source_text": "semalam — yesterday · 昨日  [L-0170]",
+  "target_spans": [
+   "semalam"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|13": {
+  "source_text": "setiap — every · 毎〜  [L-0182]",
+  "target_spans": [
+   "setiap"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|14": {
+  "source_text": "biasanya — usually · 普段は  [L-0184]",
+  "target_spans": [
+   "biasanya"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|15": {
+  "source_text": "kadang-kadang — sometimes · 時々  [L-0185]",
+  "target_spans": [
+   "kadang-kadang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|16": {
+  "source_text": "bila — when · いつ  [L-1007]",
+  "target_spans": [
+   "bila"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|17": {
+  "source_text": "sudah / dah — already, done (standard sudah; spoken dah) · もう〜した  [L-0193]",
+  "target_spans": [
+   "sudah / dah",
+   "sudah",
+   "dah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|18": {
+  "source_text": "belum — not yet · まだ〜していない  [L-0194]",
+  "target_spans": [
+   "belum"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|19": {
+  "source_text": "sedang — in the middle of (-ing) · 〜しているところ  [L-0189]",
+  "target_spans": [
+   "sedang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|20": {
+  "source_text": "akan — will · 〜する予定  [L-0192]",
+  "target_spans": [
+   "akan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|21": {
+  "source_text": "pernah — ever, have done before · 〜したことがある  [L-0196]",
+  "target_spans": [
+   "pernah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|22": {
+  "source_text": "makan — to eat · 食べる  [L-0197]",
+  "target_spans": [
+   "makan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|23": {
+  "source_text": "balik / pulang — to go back, return home (balik everyday; pulang also common in writing) · 帰る  [L-0202]",
+  "target_spans": [
+   "balik / pulang",
+   "balik",
+   "pulang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|24": {
+  "source_text": "mesyuarat — meeting · 会議  [L-0208]",
+  "target_spans": [
+   "mesyuarat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|3|25": {
+  "source_text": "Spoken forms: dah for sudah, tengah for sedang. Revision: pagi, tengah hari, petang, malam (chapter 1); suku, setengah (chapter 3).",
+  "target_spans": [
+   "dah",
+   "sudah",
+   "tengah",
+   "sedang",
+   "pagi",
+   "tengah hari",
+   "petang",
+   "malam",
+   "suku",
+   "setengah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|0": {
+  "source_text": "1 · Pukul berapa sekarang? Sekarang pukul ___ .  e.g. Sekarang pukul empat suku petang. / Sekarang pukul dua setengah.",
+  "target_spans": [
+   "Pukul berapa sekarang?",
+   "Sekarang pukul",
+   "Sekarang pukul empat suku petang.",
+   "Sekarang pukul dua setengah."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|1": {
+  "source_text": "2 · Hari ini hari apa?  e.g. Hari ini hari Isnin. / Semalam hari Ahad.",
+  "target_spans": [
+   "Hari ini hari apa?",
+   "Hari ini hari Isnin.",
+   "Semalam hari Ahad."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|2": {
+  "source_text": "3 · Saya ___ setiap ___ .  e.g. Saya main badminton setiap hari Sabtu. / Kadang-kadang saya masak.",
+  "target_spans": [
+   "Saya",
+   "setiap",
+   "Saya main badminton setiap hari Sabtu.",
+   "Kadang-kadang saya masak."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|3": {
+  "source_text": "4 · Bila ___ ?  e.g. Bila kelas encik? Hari Selasa. / Kelas berapa jam? Dua jam.",
+  "target_spans": [
+   "Bila",
+   "Bila kelas encik?",
+   "Hari Selasa.",
+   "Kelas berapa jam?",
+   "Dua jam."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|4": {
+  "source_text": "5 · Sudah ___ ? Sudah. Belum.  e.g. Sudah makan? Belum. / Bos sudah datang? Sudah.",
+  "target_spans": [
+   "Sudah",
+   "Sudah.",
+   "Belum.",
+   "Sudah makan?",
+   "Belum.",
+   "Bos sudah datang?",
+   "Sudah."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|5": {
+  "source_text": "6 · Saya sedang ___ . Saya akan ___ .  e.g. Saya sedang makan. / Saya akan balik pukul tujuh.",
+  "target_spans": [
+   "Saya sedang",
+   "Saya akan",
+   "Saya sedang makan.",
+   "Saya akan balik pukul tujuh."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|6": {
+  "source_text": "7 · Saya pernah ___ .  e.g. Saya pernah main golf. / Saya belum pernah main badminton.",
+  "target_spans": [
+   "Saya pernah",
+   "Saya pernah main golf.",
+   "Saya belum pernah main badminton."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|7": {
+  "source_text": "8 · ___ mula pukul ___ dan habis pukul ___ .  e.g. Mesyuarat mula pukul tiga dan habis pukul lima. / Kelas mula pukul tujuh setengah.",
+  "target_spans": [
+   "mula pukul",
+   "dan habis pukul",
+   "Mesyuarat mula pukul tiga dan habis pukul lima.",
+   "Kelas mula pukul tujuh setengah."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|8": {
+  "source_text": "Remember: pukul + number for the clock, number + jam for how long. For :45 say the minutes (pukul empat empat puluh lima minit). The verb never changes; the marker in front shows the time.",
+  "target_spans": [
+   "pukul",
+   "jam",
+   "pukul empat empat puluh lima minit"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|9": {
+  "source_text": "時刻は pukul＋数、かかる時間は 数＋jam。45分は分の数で言います。動詞は変わらず、前の語が時を表します。",
+  "target_spans": [
+   "pukul",
+   "jam"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|10": {
+  "source_text": "■ Model conversation · 会話 (fictional times)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|4|11": {
+  "source_text": "Rahman: Encik Tanaka, sudah makan?",
+  "target_spans": [
+   "Encik Tanaka, sudah makan?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|12": {
+  "source_text": "Tanaka: Belum. Saya masih ada kerja. Pukul berapa sekarang?",
+  "target_spans": [
+   "Belum. Saya masih ada kerja. Pukul berapa sekarang?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|13": {
+  "source_text": "Rahman: Sekarang pukul satu suku. Jom makan!",
+  "target_spans": [
+   "Sekarang pukul satu suku. Jom makan!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|14": {
+  "source_text": "Tanaka: Baik. Mesyuarat kita pukul berapa?",
+  "target_spans": [
+   "Baik. Mesyuarat kita pukul berapa?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|15": {
+  "source_text": "Rahman: Mesyuarat akan mula pukul tiga dan habis pukul lima.",
+  "target_spans": [
+   "Mesyuarat akan mula pukul tiga dan habis pukul lima."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|16": {
+  "source_text": "Tanaka: Encik biasanya makan pukul satu?",
+  "target_spans": [
+   "Encik biasanya makan pukul satu?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|17": {
+  "source_text": "Rahman: Ya, setiap hari. Encik pula?",
+  "target_spans": [
+   "Ya, setiap hari. Encik pula?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|18": {
+  "source_text": "Tanaka: Kadang-kadang pukul dua. Saya selalu lambat!",
+  "target_spans": [
+   "Kadang-kadang pukul dua. Saya selalu lambat!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|19": {
+  "source_text": "Rahman: Hari Sabtu ini encik sibuk? Kami main badminton pukul lapan pagi.",
+  "target_spans": [
+   "Hari Sabtu ini encik sibuk? Kami main badminton pukul lapan pagi."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|20": {
+  "source_text": "Tanaka: Saya belum pernah main badminton di Malaysia. Jom!",
+  "target_spans": [
+   "Saya belum pernah main badminton di Malaysia. Jom!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|4|21": {
+  "source_text": "■ Task · タスク",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|4|22": {
+  "source_text": "A: It is 12.30 p.m. Ask B whether B has eaten, what time B's meeting is, and invite B to lunch.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|5|0": {
+  "source_text": "B: Your fictional day: got up at 6, arrived at 8.15, have not eaten, meeting from 3 to 5. Answer with sudah, belum, masih and akan.",
+  "target_spans": [
+   "sudah",
+   "belum",
+   "masih",
+   "akan"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|5|1": {
+  "source_text": "Change of plan: the meeting moves to 1.30 p.m. Agree a new plan, then arrange a weekly game: day, time and how long.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|5|2": {
+  "source_text": "A：Bに、もう食べたか、会議は何時かをたずね、昼ごはんに誘います。変更：会議が1時半に変わります。新しい予定と、毎週のスポーツの曜日・時刻を決めます。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|5|3": {
+  "source_text": "■ Self-check · できるチェック",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|5|4": {
+  "source_text": "☐ 1. Say 4.15 p.m.: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|5|5": {
+  "source_text": "☐ 2. Ask what day it is today: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|5|6": {
+  "source_text": "☐ 3. Sudah makan? Answer \"not yet\": ____________",
+  "target_spans": [
+   "Sudah makan?"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|5|7": {
+  "source_text": "☐ 4. Say you will go home at 7: ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|5|8": {
+  "source_text": "☐ 5. Say you play badminton every Saturday: ____________________",
+  "target_spans": [
+   "badminton"
+  ],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|5|9": {
+  "source_text": "■ Self-study guide · 自習ガイド",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|5|10": {
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c04 (24 cards, frames ms-c04-f01 and ms-c04-f02).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|5|11": {
+  "source_text": "After the session: all 56 Kata-Kata chapter 4 cards (ms-c04-001 to ms-c04-056; pagi, tengah hari, petang and malam are chapter 1 revision) plus the ledger words datang and bila, which have no card yet; frames ms-c04-f01 to ms-c04-f07 in the frame drill and Susun Ayat.",
+  "target_spans": [
+   "pagi",
+   "tengah hari",
+   "petang",
+   "malam",
+   "datang",
+   "bila"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|5|12": {
+  "source_text": "Dunia scenes (recognise only): \"Hujan petang\" and \"Cuti ke pantai\" (unit 4A), \"Satu hari Encik Tanaka\" and \"Bangun pagi\" (unit 4B).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|5|13": {
+  "source_text": "Optional full-course Cikgu Sensai units: 4A (time, days, frequency) and 4B (routine and tense markers, timeline drill).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|5|14": {
+  "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|5|15": {
+  "source_text": "授業後：第4章のカードと Dunia の4場面を復習しましょう。自習の目安は約9〜10時間です。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|6|0": {
+  "source_text": "Self-check: 1 pukul empat suku petang 2 Hari ini hari apa? 3 Belum. 4 Saya akan balik pukul tujuh. 5 Saya main badminton setiap hari Sabtu.",
+  "target_spans": [
+   "pukul empat suku petang",
+   "Hari ini hari apa?",
+   "Belum.",
+   "Saya akan balik pukul tujuh.",
+   "Saya main badminton setiap hari Sabtu."
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Chapter 4 · Fast-course summary pack|6|1": {
+  "source_text": "Session plan (45 min): 0–5 recall chapter 3 numbers; 5–15 core words and clock times; 15–25 patterns 1 to 8; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 4 · Fast-course summary pack|6|2": {
+  "source_text": "Same content and ledger limits as units 4A and 4B. All Japanese is a draft awaiting native review.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
  }
 }

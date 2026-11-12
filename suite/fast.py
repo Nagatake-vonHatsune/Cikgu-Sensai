@@ -210,3 +210,84 @@ PACKS.append(dict(
     course_path='fast', prerequisites=['ms-c01','ms-c02'], prerequisite_units=[],
     prereq_grammar=['ms-c02-g03','ms-c02-g04','ms-c02-g12'],
     word_scope=C3_WORDS, components=chapter3))
+
+
+# Step 5b: chapter 4 fast course (single 45-minute class), a digest of units 4A and 4B.
+C4_WORDS = ['L-0157', 'L-0158', 'L-0159', 'L-0161', 'L-0166', 'L-0167', 'L-0169', 'L-0170',
+            'L-0182', 'L-0184', 'L-0185', 'L-1007', 'L-0193', 'L-0194', 'L-0189', 'L-0192',
+            'L-0196', 'L-0197', 'L-0202', 'L-0208']
+
+
+def chapter4(ledger):
+    dialogue = [
+        ('Rahman', '«Encik Tanaka, sudah makan?»'),
+        ('Tanaka', '«Belum. Saya masih ada kerja. Pukul berapa sekarang?»'),
+        ('Rahman', '«Sekarang pukul satu suku. Jom makan!»'),
+        ('Tanaka', '«Baik. Mesyuarat kita pukul berapa?»'),
+        ('Rahman', '«Mesyuarat akan mula pukul tiga dan habis pukul lima.»'),
+        ('Tanaka', '«Encik biasanya makan pukul satu?»'),
+        ('Rahman', '«Ya, setiap hari. Encik pula?»'),
+        ('Tanaka', '«Kadang-kadang pukul dua. Saya selalu lambat!»'),
+        ('Rahman', '«Hari Sabtu ini encik sibuk? Kami main badminton pukul lapan pagi.»'),
+        ('Tanaka', '«Saya belum pernah main badminton di Malaysia. Jom!»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=['ms-c04-g02', 'ms-c04-g03', 'ms-c04-g04', 'ms-c04-g05', 'ms-c04-g06', 'ms-c04-g07', 'ms-c04-g08'],
+        patterns=['ms-c04-f01', 'ms-c04-f02', 'ms-c04-f03', 'ms-c04-f04', 'ms-c04-f05', 'ms-c04-f06', 'ms-c04-f07'],
+        goal='Tell the time and day, describe a routine, and say what is done, not yet done, under way or planned.',
+        explain=('第4章速習：45分で基本の20語、時刻・曜日・頻度、«sudah»・«belum»・«sedang»・«akan»・«pernah» を練習し、残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 4 in one 45-minute session: 20 core words, time, days and frequency, and the markers «sudah», «belum», «sedang», «akan» and «pernah»; then self-study in Kata-Kata. All times are fictional.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can tell the time and the day, and ask «Bila …?» / 時刻と曜日が言え、«Bila …?» とたずねられる。',
+                'I can say how often I do something. / 何かをする頻度が言える。',
+                'I can answer «Sudah …?» with «Sudah» or «Belum». / «Sudah …?» に «Sudah» か «Belum» で答えられる。',
+                'I can describe my day: what I have done, am doing and will do. / 一日について、したこと・していること・することが言える。'], 'opener'),
+            ('Core words · 基本の20語', core(ledger, C4_WORDS) +
+             ['Spoken forms: «dah» for «sudah», «tengah» for «sedang». Revision: «pagi», «tengah hari», «petang», «malam» (chapter 1); «suku», «setengah» (chapter 3).'], 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · «Pukul berapa sekarang?» «Sekarang pukul» ___ .  e.g. «Sekarang pukul empat suku petang.» / «Sekarang pukul dua setengah.»',
+                '2 · «Hari ini hari apa?»  e.g. «Hari ini hari Isnin.» / «Semalam hari Ahad.»',
+                '3 · «Saya» ___ «setiap» ___ .  e.g. «Saya main badminton setiap hari Sabtu.» / «Kadang-kadang saya masak.»',
+                '4 · «Bila» ___ ?  e.g. «Bila kelas encik?» «Hari Selasa.» / «Kelas berapa jam?» «Dua jam.»',
+                '5 · «Sudah» ___ ? «Sudah.» «Belum.»  e.g. «Sudah makan?» «Belum.» / «Bos sudah datang?» «Sudah.»',
+                '6 · «Saya sedang» ___ . «Saya akan» ___ .  e.g. «Saya sedang makan.» / «Saya akan balik pukul tujuh.»',
+                '7 · «Saya pernah» ___ .  e.g. «Saya pernah main golf.» / «Saya belum pernah main badminton.»',
+                '8 · ___ «mula pukul» ___ «dan habis pukul» ___ .  e.g. «Mesyuarat mula pukul tiga dan habis pukul lima.» / «Kelas mula pukul tujuh setengah.»',
+                'Remember: «pukul» + number for the clock, number + «jam» for how long. For :45 say the minutes («pukul empat empat puluh lima minit»). The verb never changes; the marker in front shows the time.',
+                '時刻は «pukul»＋数、かかる時間は 数＋«jam»。45分は分の数で言います。動詞は変わらず、前の語が時を表します。'], 'model'),
+            ('Model conversation · 会話 (fictional times)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: It is 12.30 p.m. Ask B whether B has eaten, what time B\'s meeting is, and invite B to lunch.',
+                'B: Your fictional day: got up at 6, arrived at 8.15, have not eaten, meeting from 3 to 5. Answer with «sudah», «belum», «masih» and «akan».',
+                'Change of plan: the meeting moves to 1.30 p.m. Agree a new plan, then arrange a weekly game: day, time and how long.',
+                'A：Bに、もう食べたか、会議は何時かをたずね、昼ごはんに誘います。変更：会議が1時半に変わります。新しい予定と、毎週のスポーツの曜日・時刻を決めます。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say 4.15 p.m.: ____________________',
+                '☐ 2. Ask what day it is today: ____________________',
+                '☐ 3. «Sudah makan?» Answer "not yet": ____________',
+                '☐ 4. Say you will go home at 7: ____________________',
+                '☐ 5. Say you play «badminton» every Saturday: ____________________'], 'test'),
+            ('Self-study guide · 自習ガイド', [
+                'Before the session: Kata-Kata Sedia Kelas c04 (24 cards, frames ms-c04-f01 and ms-c04-f02).',
+                'After the session: all 56 Kata-Kata chapter 4 cards (ms-c04-001 to ms-c04-056; «pagi», «tengah hari», «petang» and «malam» are chapter 1 revision) plus the ledger words «datang» and «bila», which have no card yet; frames ms-c04-f01 to ms-c04-f07 in the frame drill and Susun Ayat.',
+                'Dunia scenes (recognise only): "Hujan petang" and "Cuti ke pantai" (unit 4A), "Satu hari Encik Tanaka" and "Bangun pagi" (unit 4B).',
+                'Optional full-course Cikgu Sensai units: 4A (time, days, frequency) and 4B (routine and tense markers, timeline drill).',
+                'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',
+                '授業後：第4章のカードと Dunia の4場面を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
+        key=['Self-check: 1 «pukul empat suku petang» 2 «Hari ini hari apa?» 3 «Belum.» 4 «Saya akan balik pukul tujuh.» '
+             '5 «Saya main badminton setiap hari Sabtu.»',
+             'Session plan (45 min): 0–5 recall chapter 3 numbers; 5–15 core words and clock times; 15–25 patterns 1 to 8; '
+             '25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',
+             'Same content and ledger limits as units 4A and 4B. All Japanese is a draft awaiting native review.'])]
+
+
+PACKS.append(dict(
+    chapter_id='ms-c04', check_unit='ms-c04-fast', id_prefix='ms-c04-fast',
+    title_prefix='Chapter 4', header='Chapter 4 fast course (ms-c04)',
+    menu_title='Chapter 4 · Time and routines', genre='Time and routines',
+    course_path='fast', prerequisites=['ms-c01', 'ms-c02', 'ms-c03'], prerequisite_units=[],
+    prereq_grammar=['ms-c01-g02', 'ms-c03-g02', 'ms-c03-g06'],
+    word_scope=C4_WORDS, components=chapter4))
