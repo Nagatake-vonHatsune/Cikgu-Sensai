@@ -303,6 +303,41 @@ class Chapter6Minimums(unittest.TestCase):
         opener = next(l for l in self.by_unit[self.u] if l['suite']['component_type'] == 'Opener')
         self.assertIn('Sedia Kelas c06 (16 cards, frames ms-c06-f01 and ms-c06-f02)', ' '.join(self.lines(opener)))
 
+    def test_fast_pack(self):
+        self.assertIn('ms-c06-fast', self.by_unit)
+        l = self.by_unit['ms-c06-fast'][0]
+        self.assertEqual(l['suite']['course_path'], 'fast')
+        core = [x for x in self.lines(l, 'Core words') if re.search(r'\[L-\d{4}\]$', x)]
+        self.assertTrue(15 <= len(core) <= 20)
+        # Fast words are a digest of the unit core words, never new ones.
+        self.assertTrue(set(fast.C6_WORDS) <= set(self.cfg['core']))
+        labels = ' '.join(n for n, _, _ in l['sections'])
+        for part in ('Can-do', 'Core words', 'Key patterns', 'Model conversation', 'Task', 'Self-check', 'Self-study'):
+            self.assertIn(part, labels)
+        for line in self.lines(l, 'Key patterns'):
+            if re.match(r'^\d · ', line):
+                self.assertEqual(line.split('e.g.')[1].count(' / '), 1, line)
+        self.assertTrue(10 <= len(self.lines(l, 'Model conversation')) <= 16)
+        n_check = sum(x.startswith('☐') for x in self.lines(l, 'Self-check'))
+        self.assertEqual(n_check, 5)
+        self.assertTrue(all(f'{i} «' in l['key'][0] for i in range(1, n_check + 1)))
+        page = {x['title']: x for x in bank()}[l['title']]
+        count = len(page['pages']) - 3 - page.get('key_pages', 1)
+        self.assertTrue(2 <= count <= 4, count)
+        chapters = json.loads((ROOT / 'dist/chapters.js').read_text()[len('const chapters='):-1])
+        ch6 = next(c for c in chapters if c['title'].startswith('Chapter 6'))
+        self.assertIn(l['title'], ch6['fast_items'])
+        self.assertEqual(ch6['status'], 'Step 5d chapter 6 suite · draft for pilot')
+        # The self-study guide names the Sedia Kelas set and the Dunia scene.
+        guide = ' '.join(self.lines(l, 'Self-study'))
+        self.assertIn('Sedia Kelas c06', guide)
+        self.assertIn('Main badminton', guide)
+        self.assertIn('ms-c06-001 to ms-c06-034', guide)
+        # The whole-word note and the two re-used chapter 4 words are in the core list.
+        core_text = ' '.join(self.lines(l, 'Core words'))
+        self.assertIn('Whole words to learn as they are', core_text)
+        self.assertIn('«sekali»', core_text)
+
     def test_legacy_retirement_and_catalogue(self):
         built = {x['title'] for x in bank()}
         self.assertFalse(any(t == 'Comparisons and superlatives' or t.startswith('Comparisons and superlatives ·') for t in built))

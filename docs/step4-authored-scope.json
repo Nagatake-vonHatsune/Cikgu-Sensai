@@ -59242,5 +59242,672 @@
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|0|0": {
+  "source_text": "第6章速習：45分で基本の20語、lebih … daripada・sama … dengan・paling、sangat・terlalu、Yang mana …? と pilih を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
+  "target_spans": [
+   "lebih … daripada",
+   "sama … dengan",
+   "paling",
+   "sangat",
+   "terlalu",
+   "Yang mana …?",
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|0|1": {
+  "source_text": "（日本語は下書きです。ネイティブ・スピーカーの確認待ち）",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|1|0": {
+  "source_text": "No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English (Sam, 11 Nov 2026). Select 日本語 or English.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|2|0": {
+  "source_text": "Chapter 6 in one 45-minute session: 20 core words, comparing with lebih … daripada, sama … dengan and paling, sangat and terlalu, and Yang mana …? with pilih; then self-study in Kata-Kata. All prices and situations are fictional.",
+  "target_spans": [
+   "lebih … daripada",
+   "sama … dengan",
+   "paling",
+   "sangat",
+   "terlalu",
+   "Yang mana …?",
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "explainer",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|0": {
+  "source_text": "I can compare two things with lebih or kurang and daripada, and say they are the same with sama … dengan. / lebih・kurang と daripada で二つを比べ、sama … dengan で同じだと言える。",
+  "target_spans": [
+   "lebih",
+   "kurang",
+   "daripada",
+   "sama … dengan",
+   "lebih",
+   "kurang",
+   "daripada",
+   "sama … dengan"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|1": {
+  "source_text": "I can say which is the most with paling and use sangat and terlalu. / paling で一番を言い、sangat・terlalu を使える。",
+  "target_spans": [
+   "paling",
+   "sangat",
+   "terlalu",
+   "paling",
+   "sangat",
+   "terlalu"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|2": {
+  "source_text": "I can ask Yang mana …? and answer with Saya pilih …. / Yang mana …? とたずね、Saya pilih … で答えられる。",
+  "target_spans": [
+   "Yang mana …?",
+   "Saya pilih …",
+   "Yang mana …?",
+   "Saya pilih …"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|3": {
+  "source_text": "I can describe a place: comfortable, quiet, noisy, crowded, clean. / 場所を描写できる：快適、静か、うるさい、混んでいる、清潔。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|3|4": {
+  "source_text": "■ Core words · 基本の20語",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|3|5": {
+  "source_text": "lebih — more · もっと・より  [L-0265]",
+  "target_spans": [
+   "lebih"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|6": {
+  "source_text": "kurang — less · より少ない  [L-0266]",
+  "target_spans": [
+   "kurang"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|7": {
+  "source_text": "daripada — than · 〜より  [L-0267]",
+  "target_spans": [
+   "daripada"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|8": {
+  "source_text": "sama — same · 同じ  [L-0268]",
+  "target_spans": [
+   "sama"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|9": {
+  "source_text": "paling — most · 一番  [L-0274]",
+  "target_spans": [
+   "paling"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|10": {
+  "source_text": "termurah — cheapest · 一番安い  [L-0275]",
+  "target_spans": [
+   "termurah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|11": {
+  "source_text": "terbaik — best · 最高・一番良い  [L-0277]",
+  "target_spans": [
+   "terbaik"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|12": {
+  "source_text": "sangat — very (before adjective) · とても  [L-0271]",
+  "target_spans": [
+   "sangat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|13": {
+  "source_text": "terlalu — too (excessively) · 〜すぎる  [L-0273]",
+  "target_spans": [
+   "terlalu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|14": {
+  "source_text": "yang mana — which one · どれ  [L-0279]",
+  "target_spans": [
+   "yang mana"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|15": {
+  "source_text": "pilih — to choose · 選ぶ  [L-0280]",
+  "target_spans": [
+   "pilih"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|16": {
+  "source_text": "cantik — beautiful, pretty · きれい  [L-0282]",
+  "target_spans": [
+   "cantik"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|17": {
+  "source_text": "selesa — comfortable · 快適  [L-0288]",
+  "target_spans": [
+   "selesa"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|18": {
+  "source_text": "ramai — crowded, many (people) · 混んでいる・人が多い  [L-0289]",
+  "target_spans": [
+   "ramai"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|19": {
+  "source_text": "sunyi — quiet · 静か  [L-0290]",
+  "target_spans": [
+   "sunyi"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|20": {
+  "source_text": "bising — noisy · うるさい  [L-0291]",
+  "target_spans": [
+   "bising"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|21": {
+  "source_text": "bersih — clean · きれい（清潔）  [L-0292]",
+  "target_spans": [
+   "bersih"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|22": {
+  "source_text": "kondo — condominium · マンション  [L-0294]",
+  "target_spans": [
+   "kondo"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|23": {
+  "source_text": "stesen — station · 駅  [L-0295]",
+  "target_spans": [
+   "stesen"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|24": {
+  "source_text": "susah — difficult · 難しい  [L-0286]",
+  "target_spans": [
+   "susah"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|3|25": {
+  "source_text": "Whole words to learn as they are: termurah, terbesar, terbaik, tercantik, setinggi, semahal. sekali (very, after an adjective) and baru (new) are chapter 4 words with a new meaning.",
+  "target_spans": [
+   "termurah",
+   "terbesar",
+   "terbaik",
+   "tercantik",
+   "setinggi",
+   "semahal",
+   "sekali",
+   "baru"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|0": {
+  "source_text": "1 · (A) lebih / kurang (adjective) daripada (B).  e.g. Kondo A lebih besar daripada kondo B. / Kondo B kurang mahal daripada kondo A.",
+  "target_spans": [
+   "lebih",
+   "kurang",
+   "daripada",
+   "Kondo A lebih besar daripada kondo B.",
+   "Kondo B kurang mahal daripada kondo A."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|1": {
+  "source_text": "2 · (A) sama (adjective) dengan (B).  e.g. Kondo D sama mahal dengan kondo A. / Kondo B sama besar dengan kondo C.",
+  "target_spans": [
+   "sama",
+   "dengan",
+   "Kondo D sama mahal dengan kondo A.",
+   "Kondo B sama besar dengan kondo C."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|2": {
+  "source_text": "3 · (A) paling (adjective).  e.g. Kondo C paling murah. / Kondo D yang terbaik.",
+  "target_spans": [
+   "paling",
+   "Kondo C paling murah.",
+   "Kondo D yang terbaik."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|3": {
+  "source_text": "4 · (noun) sangat / terlalu (adjective).  e.g. Kondo D sangat selesa. / Kondo C terlalu bising.",
+  "target_spans": [
+   "sangat",
+   "terlalu",
+   "Kondo D sangat selesa.",
+   "Kondo C terlalu bising."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|4": {
+  "source_text": "5 · Yang mana ___ ?  Saya pilih ___ .  e.g. Yang mana lebih selesa? Kondo D. / Encik pilih yang mana? Saya pilih kondo D.",
+  "target_spans": [
+   "Yang mana",
+   "Saya pilih",
+   "Yang mana lebih selesa?",
+   "Kondo D.",
+   "Encik pilih yang mana?",
+   "Saya pilih kondo D."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|5": {
+  "source_text": "Remember: the adjective never changes. lebih, kurang, paling, sangat and terlalu go before it; sekali (very) goes after it. daripada comes after the adjective, before the thing you compare with. terlalu means too much; sangat means very. termurah, terbaik and the other whole words are learned as they are; for other adjectives use paling and sama … dengan.",
+  "target_spans": [
+   "lebih",
+   "kurang",
+   "paling",
+   "sangat",
+   "terlalu",
+   "sekali",
+   "daripada",
+   "terlalu",
+   "sangat",
+   "termurah",
+   "terbaik",
+   "paling",
+   "sama … dengan"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|6": {
+  "source_text": "形容詞は変わりません。lebih・kurang・paling・sangat・terlalu は形容詞の前、sekali（とても）はあとに置きます。daripada は形容詞のあと、比べる相手の前に置きます。terlalu は「〜すぎる」、sangat は「とても」です。termurah・terbaik などの一語はそのまま覚え、ほかの形容詞には paling と sama … dengan を使います。",
+  "target_spans": [
+   "lebih",
+   "kurang",
+   "paling",
+   "sangat",
+   "terlalu",
+   "sekali",
+   "daripada",
+   "terlalu",
+   "sangat",
+   "termurah",
+   "terbaik",
+   "paling",
+   "sama … dengan"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|7": {
+  "source_text": "■ Model conversation · 会話 (fictional)",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|4|8": {
+  "source_text": "Mei Ling: Encik Tanaka, encik suka kondo yang mana?",
+  "target_spans": [
+   "Encik Tanaka, encik suka kondo yang mana?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|9": {
+  "source_text": "Tanaka: Kondo A lebih besar daripada kondo B, tetapi kondo A lebih mahal.",
+  "target_spans": [
+   "Kondo A lebih besar daripada kondo B, tetapi kondo A lebih mahal."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|10": {
+  "source_text": "Mei Ling: Kondo B kurang besar, tetapi kondo B sunyi.",
+  "target_spans": [
+   "Kondo B kurang besar, tetapi kondo B sunyi."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|11": {
+  "source_text": "Tanaka: Kondo C pula?",
+  "target_spans": [
+   "Kondo C pula?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|12": {
+  "source_text": "Mei Ling: Kondo C paling murah, tetapi terlalu bising.",
+  "target_spans": [
+   "Kondo C paling murah, tetapi terlalu bising."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|13": {
+  "source_text": "Tanaka: Kondo D bagaimana?",
+  "target_spans": [
+   "Kondo D bagaimana?"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|14": {
+  "source_text": "Mei Ling: Kondo D sama mahal dengan kondo A, tetapi sangat selesa dan bersih.",
+  "target_spans": [
+   "Kondo D sama mahal dengan kondo A, tetapi sangat selesa dan bersih."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|15": {
+  "source_text": "Tanaka: Kondo D yang terbaik! Saya pilih kondo D.",
+  "target_spans": [
+   "Kondo D yang terbaik! Saya pilih kondo D."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|16": {
+  "source_text": "Mei Ling: Baik, encik.",
+  "target_spans": [
+   "Baik, encik."
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|17": {
+  "source_text": "Tanaka: Terima kasih, Cik Mei Ling!",
+  "target_spans": [
+   "Terima kasih, Cik Mei Ling!"
+  ],
+  "mention_spans": [],
+  "kind": "model",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|4|18": {
+  "source_text": "■ Task · タスク",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|4|19": {
+  "source_text": "A: You are looking for a condo (fictional). Ask B which condo is the cheapest and which is the most expensive, then choose one.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|4|20": {
+  "source_text": "B: You are the agent. Compare the condos with lebih, paling and sangat (invented prices); say when one is too noisy or too small.",
+  "target_spans": [
+   "lebih",
+   "paling",
+   "sangat"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|5|0": {
+  "source_text": "Change of plan: the condo A chose has been taken (B says Orang lain sudah ambil kondo itu.). A asks Yang mana …? and chooses again.",
+  "target_spans": [
+   "Orang lain sudah ambil kondo itu.",
+   "Yang mana …?"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|5|1": {
+  "source_text": "A：コンドを探しているお客さん。一番安いものと一番高いものをたずね、一つ選びます。変更：選んだコンドはすでに他の人に取られてしまい、もう一度 Yang mana …? で選びます。",
+  "target_spans": [
+   "Yang mana …?"
+  ],
+  "mention_spans": [],
+  "kind": "task",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|5|2": {
+  "source_text": "■ Self-check · できるチェック",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|5|3": {
+  "source_text": "☐ 1. Say \"Condo A is bigger than condo B.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|5|4": {
+  "source_text": "☐ 2. Say \"Condo D is as expensive as condo A.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|5|5": {
+  "source_text": "☐ 3. Say \"Condo C is the cheapest.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|5|6": {
+  "source_text": "☐ 4. Say \"This condo is too noisy.\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|5|7": {
+  "source_text": "☐ 5. Ask \"Which condo do you choose?\": ____________________",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "test",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|5|8": {
+  "source_text": "■ Self-study guide · 自習ガイド",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|5|9": {
+  "source_text": "Before the session: Kata-Kata Sedia Kelas c06 (16 cards, frames ms-c06-f01 and ms-c06-f02).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|5|10": {
+  "source_text": "After the session: all 34 Kata-Kata chapter 6 cards (ms-c06-001 to ms-c06-034; ms-c06-008 sekali and ms-c06-021 baru are chapter 4 words with new meanings) and frames ms-c06-f01 to ms-c06-f06 in the frame drill and Susun Ayat.",
+  "target_spans": [
+   "sekali",
+   "baru"
+  ],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|5|11": {
+  "source_text": "Dunia scene (recognise only): \"Main badminton\" (14 words).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|5|12": {
+  "source_text": "Optional full-course Cikgu Sensai unit: unit 6 (comparing and choosing).",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|5|13": {
+  "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|5|14": {
+  "source_text": "授業後：第6章のカードと Dunia の場面を復習しましょう。自習の目安は約9〜10時間です。",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "opener",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 6 · Fast-course summary pack|6|0": {
+  "source_text": "Self-check: 1 Kondo A lebih besar daripada kondo B. 2 Kondo D sama mahal dengan kondo A. (or semahal) 3 Kondo C paling murah. (or termurah) 4 Kondo ini terlalu bising. 5 Encik pilih kondo yang mana? (or Kondo yang mana encik pilih?)",
+  "target_spans": [
+   "Kondo A lebih besar daripada kondo B.",
+   "Kondo D sama mahal dengan kondo A.",
+   "semahal",
+   "Kondo C paling murah.",
+   "termurah",
+   "Kondo ini terlalu bising.",
+   "Encik pilih kondo yang mana?",
+   "Kondo yang mana encik pilih?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|6|1": {
+  "source_text": "Session plan (45 min): 0–5 recall chapter 5 (taste, hot or cold, Kenapa …?); 5–15 core words by theme; 15–25 patterns 1 to 5; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.",
+  "target_spans": [
+   "Kenapa …?"
+  ],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": null
+ },
+ "Chapter 6 · Fast-course summary pack|6|2": {
+  "source_text": "Same content and ledger limits as unit 6. All Japanese is a draft awaiting native review.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "key",
+  "exclusion": "Japanese/English (marked source)"
  }
 }

@@ -369,3 +369,80 @@ PACKS.append(dict(
     course_path='fast', prerequisites=['ms-c01', 'ms-c02', 'ms-c03', 'ms-c04'], prerequisite_units=[],
     prereq_grammar=['ms-c02-g03', 'ms-c02-g04', 'ms-c04-g06'],
     word_scope=C5_WORDS, components=chapter5))
+
+
+# Step 5d: chapter 6 fast course (single 45-minute class), a digest of unit 6.
+C6_WORDS = ['L-0265', 'L-0266', 'L-0267', 'L-0268', 'L-0274', 'L-0275', 'L-0277', 'L-0271', 'L-0273', 'L-0279',
+            'L-0280', 'L-0282', 'L-0288', 'L-0289', 'L-0290', 'L-0291', 'L-0292', 'L-0294', 'L-0295', 'L-0286']
+
+
+def chapter6(ledger):
+    dialogue = [
+        ('Mei Ling', '«Encik Tanaka, encik suka kondo yang mana?»'),
+        ('Tanaka', '«Kondo A lebih besar daripada kondo B, tetapi kondo A lebih mahal.»'),
+        ('Mei Ling', '«Kondo B kurang besar, tetapi kondo B sunyi.»'),
+        ('Tanaka', '«Kondo C pula?»'),
+        ('Mei Ling', '«Kondo C paling murah, tetapi terlalu bising.»'),
+        ('Tanaka', '«Kondo D bagaimana?»'),
+        ('Mei Ling', '«Kondo D sama mahal dengan kondo A, tetapi sangat selesa dan bersih.»'),
+        ('Tanaka', '«Kondo D yang terbaik! Saya pilih kondo D.»'),
+        ('Mei Ling', '«Baik, encik.»'),
+        ('Tanaka', '«Terima kasih, Cik Mei Ling!»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=['ms-c06-g02', 'ms-c06-g03', 'ms-c06-g04', 'ms-c06-g05', 'ms-c06-g06'],
+        patterns=['ms-c06-f01', 'ms-c06-f02', 'ms-c06-f03', 'ms-c06-f04', 'ms-c06-f05', 'ms-c06-f06'],
+        goal='Compare places and things, say which is the most, choose between them and describe a place.',
+        explain=('第6章速習：45分で基本の20語、«lebih … daripada»・«sama … dengan»・«paling»、«sangat»・«terlalu»、«Yang mana …?» と «pilih» を練習し、残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 6 in one 45-minute session: 20 core words, comparing with «lebih … daripada», «sama … dengan» and «paling», «sangat» and «terlalu», and «Yang mana …?» with «pilih»; then self-study in Kata-Kata. All prices and situations are fictional.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can compare two things with «lebih» or «kurang» and «daripada», and say they are the same with «sama … dengan». / «lebih»・«kurang» と «daripada» で二つを比べ、«sama … dengan» で同じだと言える。',
+                'I can say which is the most with «paling» and use «sangat» and «terlalu». / «paling» で一番を言い、«sangat»・«terlalu» を使える。',
+                'I can ask «Yang mana …?» and answer with «Saya pilih …». / «Yang mana …?» とたずね、«Saya pilih …» で答えられる。',
+                'I can describe a place: comfortable, quiet, noisy, crowded, clean. / 場所を描写できる：快適、静か、うるさい、混んでいる、清潔。'], 'opener'),
+            ('Core words · 基本の20語', core(ledger, C6_WORDS) +
+             ['Whole words to learn as they are: «termurah», «terbesar», «terbaik», «tercantik», «setinggi», «semahal». «sekali» (very, after an adjective) and «baru» (new) are chapter 4 words with a new meaning.'], 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · (A) «lebih» / «kurang» (adjective) «daripada» (B).  e.g. «Kondo A lebih besar daripada kondo B.» / «Kondo B kurang mahal daripada kondo A.»',
+                '2 · (A) «sama» (adjective) «dengan» (B).  e.g. «Kondo D sama mahal dengan kondo A.» / «Kondo B sama besar dengan kondo C.»',
+                '3 · (A) «paling» (adjective).  e.g. «Kondo C paling murah.» / «Kondo D yang terbaik.»',
+                '4 · (noun) «sangat» / «terlalu» (adjective).  e.g. «Kondo D sangat selesa.» / «Kondo C terlalu bising.»',
+                '5 · «Yang mana» ___ ?  «Saya pilih» ___ .  e.g. «Yang mana lebih selesa?» «Kondo D.» / «Encik pilih yang mana?» «Saya pilih kondo D.»',
+                'Remember: the adjective never changes. «lebih», «kurang», «paling», «sangat» and «terlalu» go before it; «sekali» (very) goes after it. «daripada» comes after the adjective, before the thing you compare with. «terlalu» means too much; «sangat» means very. «termurah», «terbaik» and the other whole words are learned as they are; for other adjectives use «paling» and «sama … dengan».',
+                '形容詞は変わりません。«lebih»・«kurang»・«paling»・«sangat»・«terlalu» は形容詞の前、«sekali»（とても）はあとに置きます。«daripada» は形容詞のあと、比べる相手の前に置きます。«terlalu» は「〜すぎる」、«sangat» は「とても」です。«termurah»・«terbaik» などの一語はそのまま覚え、ほかの形容詞には «paling» と «sama … dengan» を使います。'], 'model'),
+            ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: You are looking for a condo (fictional). Ask B which condo is the cheapest and which is the most expensive, then choose one.',
+                'B: You are the agent. Compare the condos with «lebih», «paling» and «sangat» (invented prices); say when one is too noisy or too small.',
+                'Change of plan: the condo A chose has been taken (B says «Orang lain sudah ambil kondo itu.»). A asks «Yang mana …?» and chooses again.',
+                'A：コンドを探しているお客さん。一番安いものと一番高いものをたずね、一つ選びます。変更：選んだコンドはすでに他の人に取られてしまい、もう一度 «Yang mana …?» で選びます。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say "Condo A is bigger than condo B.": ____________________',
+                '☐ 2. Say "Condo D is as expensive as condo A.": ____________________',
+                '☐ 3. Say "Condo C is the cheapest.": ____________________',
+                '☐ 4. Say "This condo is too noisy.": ____________________',
+                '☐ 5. Ask "Which condo do you choose?": ____________________'], 'test'),
+            ('Self-study guide · 自習ガイド', [
+                'Before the session: Kata-Kata Sedia Kelas c06 (16 cards, frames ms-c06-f01 and ms-c06-f02).',
+                'After the session: all 34 Kata-Kata chapter 6 cards (ms-c06-001 to ms-c06-034; ms-c06-008 «sekali» and ms-c06-021 «baru» are chapter 4 words with new meanings) and frames ms-c06-f01 to ms-c06-f06 in the frame drill and Susun Ayat.',
+                'Dunia scene (recognise only): "Main badminton" (14 words).',
+                'Optional full-course Cikgu Sensai unit: unit 6 (comparing and choosing).',
+                'Expected self-study: about 9 to 10 hours for this chapter (planning figure). Hanashishou starts at A2.',
+                '授業後：第6章のカードと Dunia の場面を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
+        key=['Self-check: 1 «Kondo A lebih besar daripada kondo B.» 2 «Kondo D sama mahal dengan kondo A.» (or «semahal») '
+             '3 «Kondo C paling murah.» (or «termurah») 4 «Kondo ini terlalu bising.» 5 «Encik pilih kondo yang mana?» (or «Kondo yang mana encik pilih?»)',
+             'Session plan (45 min): 0–5 recall chapter 5 (taste, hot or cold, «Kenapa …?»); 5–15 core words by theme; 15–25 patterns 1 to 5; '
+             '25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',
+             'Same content and ledger limits as unit 6. All Japanese is a draft awaiting native review.'])]
+
+
+PACKS.append(dict(
+    chapter_id='ms-c06', check_unit='ms-c06-fast', id_prefix='ms-c06-fast',
+    title_prefix='Chapter 6', header='Chapter 6 fast course (ms-c06)',
+    menu_title='Chapter 6 · Comparatives and superlatives', genre='Describing and choosing',
+    course_path='fast', prerequisites=['ms-c01', 'ms-c02', 'ms-c03', 'ms-c04', 'ms-c05'], prerequisite_units=[],
+    prereq_grammar=['ms-c03-g04', 'ms-c04-g06', 'ms-c05-g02'],
+    word_scope=C6_WORDS, components=chapter6))
