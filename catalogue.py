@@ -81,7 +81,7 @@ def make_catalogue(lessons, groups):
         units=[{'id':cid+re.sub(r'\d','',u['label']).lower(),'label':u['label']} for u in g['units']]
         blocks=[{'id':f'{u["id"]}-b{i}','unit_id':u['id'],'label':label,'minutes':45,
                  'can_do_goal':authored[u['id']]['blocks'][label] if u['id'] in authored else None,
-                 'goal_status':'pilot draft' if u['id'] in authored else 'awaiting pilot authoring',
+                 'goal_status':'authored draft' if u['id'] in authored else 'awaiting pilot authoring',
                  'activities':[{'name':name,'minutes':minutes} for name,minutes in tasks]} for u in units for i,(label,tasks) in enumerate(BLOCKS,1)]
         chapters.append({'id':cid,'language':'Malay','level':'A1','title':g['title'],'genre':GENRES.get(g['genre'],g['genre']),
             'can_do_goals':GOALS[n-1:n],'pattern_ids':[f['id'] for f in p['frames']],
@@ -146,7 +146,7 @@ def make_catalogue(lessons, groups):
     for c in chapters:
         c['fast_pack_ids']=[x['id'] for x in components if x['chapter_id']==c['id'] and x.get('fast')]
     tests=json.loads((ROOT/'curriculum/test-items.json').read_text())+[t for l in lessons if l.get('suite') for t in l['suite']['tests']]
-    extra_blocks={'pronunciation':'ms-c01-pronunciation-block','writing-2b':'ms-c02b-writing-block'}
+    extra_blocks={'pronunciation':'ms-c01-pronunciation-block','writing-2b':'ms-c02b-writing-block','review-3a':'ms-c03a-review-block','writing-3c':'ms-c03c-writing-block'}
     return {'schema_version':1,'review_status':'draft','component_types':TYPES+['Fast-course pack'],'chapters':chapters,'components':components,
         'component_slots':slots,'test_items':tests, 'scenes':scenes,
         'additional_blocks':[{'id':'ms-stage1-'+name,'after_unit':unit,'minutes':45,
