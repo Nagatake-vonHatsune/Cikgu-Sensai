@@ -4,21 +4,15 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 
 ## Current state
 
-- **Last updated:** 12 Nov 2026, Claude: step 5g, the unit 8 follow-ups, the six festival ledger rows, chapter 9 (unit 9 and the fast pack). Details in `docs/STEP-5g-report.md`.
-- **Chapters 1 to 9 are written** (units 1, 2A, 2B, 3A, 3B, 3C, 4A, 4B, 5, 6, 7, 8, 9, their fast packs, the review blocks after 3A, 4B and 6, and the writing blocks after 2B, 3C, 5 and 7). **The remaining Stage 1 work is the stage review and the A1 test, which wait for Sam's go-ahead.** Do not start either before he says.
-- **Most recent approved scope:** step 5g only. Sam authorised it on 12 Nov 2026 and pre-approved publication to main when the checks pass.
-- **Last commit on main:** the commit that updates this file (it follows `56887d7`, the chapter 9 fast pack; `625772b` unit 9; `4b98f45` the festival ledger rows; `e8b2059` the unit 8 follow-ups). Build and all 130 tests pass. The session branch `claude/serene-feynman-3x1cq2` was pushed to the same commit as main.
-- **Chapter 9 source:** `suite/chapter9_common.py` (generalised from the chapter 8 helper; it also builds a second Culture note component for the festival notes), `suite/ms_c09.py`; the fast pack is `chapter9` in `suite/fast.py`. Tests: `tests/test_step5g_suite.py`.
-- **Words, unit 9:** 29 core in four groups (18 «di-» verbs; «oleh», «pada», «tadi», «siap»; 5 signs and notices; «kek», «jamuan»). Dunia recognition 33: the general «rumah terbuka» scene 19 (the 13 Raya words plus Sam's six festival words L-1070 to L-1075) and the 14 "Simpulan bahasa harian" idioms (recognition only, never drilled). Revision 74. The ledger copy places 63 live rows in chapter 9; the test recomputes the sets from the ledger.
-- **Words, unit 8 after the follow-ups:** 41 core in five groups (classifiers 14 including L-1067 «buah»; containers 7; things counted 12; the «gerai» 5: «nasi lemak», «gerai», «tambah», «pisang goreng», «keropok lekor»; «semua», «tolong», «Makan sini atau bungkus?» 3), 11 recognition ("Beli baju"), 53 revision. «se-» + any counter is taught and drilled with every counter beside «satu» + counter (Sam's correction); «seekor», «sebiji», «sebuah» are also whole ledger words; ‹sebatang› and ‹sehelai› are no longer mentions. «pisang goreng» is standard, «goreng pisang» everyday. «kaki» as a counter is not added.
-- **Register (Sam, 12 Nov):** «pucuk» and «naskhah» are formal counters mostly seen in writing; «tapau» is everyday speech; «sesak» is standard, «jam» everyday speech. L-0592 «pintu masuk» is Retired (unit 7: 63 live rows, 62 core). L-0931 «mamak» Japanese is ママック. The unit 7 culture note keeps the left-hand traffic and 2020 census sentences.
-- **The «di-» rule:** the 18 ledger forms are core; «di-» + any ledger verb root is taught as the rule («digoreng», «dipilih», «ditunggu», «dijemput», «ditanya»). The language checks accept «di-» + any ledger word placed in chapters 1 to 9 (no part-of-speech check), so `test_di_rule` is stricter: a ledger «di-» form or «di-» + a ledger verb; no ber- or me- verb; ‹buat›, ‹panggil›, ‹cuci›, ‹larang› (roots of four ledger forms that are not ledger words) are mentions only. The doer before the verb («Pinggan saya bawa ke dapur.», Kata-Kata frame f06) is taught inside pattern 3.
-- **Festival notes (Sam, 12 Nov):** the scene is a general «rumah terbuka» scene; each festival has a short culture note in `Culture note · Open houses in Malaysia` (Block E): Hari Raya (the Raya words sit only here), Tahun Baru Cina, Deepavali, Krismas, Gawai and Kaamatan. Greetings are «Selamat Hari …» built from ledger words (no greeting rows, no faith-specific greeting). **All festival facts come from search summaries only (Wikipedia was unreachable); the Christmas sentence is general knowledge with no source.** Sources are named in the key and the report.
-- **Ledger (sheet, by Claude):** L-1064 to L-1069 (written earlier, Journal rows 75 to 80) and L-1070 to L-1075 (Journal rows 81 and 82). Both repo copies and the hash in `docs/step4-sources.json` match the sheet (1,075 rows).
-- **Question words now:** all earlier ones plus **«siapa» with «oleh»** (chapter 9 adds no new question word).
-- **Unverified:** all Malay example sentences (mine, ledger-checked only), the counters used with «pisang goreng» and «keropok lekor», the Kamus Dewan spelling of the new festival words and of «Tahun Baru Cina», the festival facts, Japanese (draft). All places, notices, prices and times are fictional.
-- **Proposed, awaiting Sam:** the roots «buat», «panggil», «cuci», «larang» as ledger rows; «ibu», «adik», «tuan rumah», «mari»; the Japanese of L-1064 (ナシレマッ looks truncated); an explicit narrow ‹se-› + counter rule in the checker (not needed so far); the charter table's chapter 9 scene list (Rumah terbuka Hari Raya → Rumah terbuka).
-- **Charter snapshot** `docs/handoff/charter-snapshot.md` matches the live Google Doc for the chapter 7, 8 and 9 rows (read on 12 Nov 2026).
+- **Last updated:** 12 Nov 2026, Claude: step 5h, the last Stage 1 batch (unit 9 follow-ups, the stage review block, the A1 stage test in two versions, the Kata-Kata clean-up list). Details in `docs/STEP-5h-report.md`.
+- **Stage 1 is complete and awaits Sam's pilot:** chapters 1 to 9 (units 1, 2A, 2B, 3A, 3B, 3C, 4A, 4B, 5, 6, 7, 8, 9 and the nine fast packs), the review blocks after 3A, 4B and 6, the writing blocks after 2B, 3C, 5 and 7, the pronunciation block, the **stage review** after unit 9 and the **A1 stage test** (versions A and B). **Do not start Stage 2 (chapters 10 to 18) before Sam says so.**
+- **Most recent approved scope:** step 5h only. Sam authorised it on 12 Nov 2026 and pre-approved publication to main when the checks pass.
+- **Last commit on main:** the commit that updates this file (it follows `9beefa7` the Kata-Kata clean-up list, `0e46450` test version B and the teacher sheets, `9c22b46` test version A, `3a567c3` the stage review, `ec3a8f1` the unit 9 follow-ups). Build and all 149 tests pass. The session branch `claude/stage-1-final-batch-7e9zv2` was pushed to the same commit as main.
+- **Stage close source:** `suite/stage1.py` (unit `ms-stage1`: the review block, the test builders, the scripts and administration sheets, `item_map`, `stage_record`), `suite/stage1_test_a.py` and `suite/stage1_test_b.py` (test data). Tests: `tests/test_step5h_stage1.py`. The stage components are listed with chapter 9 (`stage_items` in `course.py` and `dist/chapters.js`) and registered as re-authored unit `ms-stage1`.
+- **Unit 9 now:** 37 core words in six groups (Sam's L-1076 to L-1083 added: the roots «buat», «panggil», «cuci», «larang»; «tuan rumah», «mari»; «ibu», «adik»), 33 recognition, 74 revision; 20 scored test items. Festival notes follow Sam's 12 Nov decisions (both «Tahun Baru Cina» and «Tahun Baharu Cina»; Kaamatan in Sabah and Labuan; the Gawai dates; the six greetings, with ‹Selamat Pesta Kaamatan› quoted as "not yet sourced" because «pesta» is not a ledger word; «angpau»; one Christmas sentence).
+- **Ledger:** both copies and the hash match the sheet, L-0001 to L-1083 (Journal rows to 86). No ledger row was added or changed in step 5h by me.
+- **Catalogue:** a `stages` record `ms-stage1` (CEFR A1, completion flag `stage1_complete`, label "Malay A1 · Stage 1 complete", pass rule, item-to-chapter map) for the charter's "CEFR label shown in the Evaluator"; chapters carry `stage_id`. Test items may now have the sub-type `writing` (stage test only).
+- **Proposed, awaiting Sam:** the pass mark (48 of 80, 10 of 20 per section); one or two extra blocks for the test; the `writing` sub-type; more chapter 6 weight in the test; ledger rows «pesta», «perhatian», «hingga», «tolak», «tarik»; a source for «Selamat Pesta Kaamatan»; the proposals in `docs/kata-kata-cleanup.md`.
 
 ## Done
 
@@ -35,6 +29,7 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 | 5e | Unit 6 follow-ups («sewa», «bilik», «luas»; 35 core), review block after unit 6, chapter 7 (unit 7: 56 core in five groups, 33 Dunia recognition by scene) and its fast pack; «ke» taught; places of worship as an even-handed landmark set (five ledger rows); «ke mana», «dari mana», «berapa jauh», «berapa lama» added to the question words; legacy chapter 7 packs retired | `docs/STEP-5e-report.md` |
 | 5f | Unit 7 follow-ups («terus» not «jalan lurus»; «sesak»; five new ledger rows; «tumpang tanya» as revision; 62 core), the unit 7 writing block (directions by message), chapter 8 (unit 8: 35 core in four groups, 11 Dunia recognition «Beli baju», «seekor» / «sebiji» / «sebuah» as whole words, «berapa» with a counter) and its fast pack | `docs/STEP-5f-report.md` |
 | 5g | Unit 8 follow-ups («se-» with every counter, the «gerai» scene, six new ledger rows, register labels; 41 core), six festival ledger rows, chapter 9 (unit 9: 29 core in four groups, 33 Dunia recognition including a general «rumah terbuka» scene with a note for each festival, the «di-» rule, `siapa` + `oleh`) and its fast pack | `docs/STEP-5g-report.md` |
+| 5h | Unit 9 follow-ups (Sam's eight chapter 9 rows; 37 core; festival notes), the stage review block (a new colleague's first week; all 54 frames return; can-do self-check), the A1 stage test (versions A and B, four sections of 20 marks, keys, scripts, administration sheet, catalogue Stage 1 record) and the Kata-Kata clean-up list | `docs/STEP-5h-report.md` |
 
 ## How step 4 works (for the next builder)
 
@@ -131,12 +126,21 @@ Sam asked for a targeted fix after Claude's review of step 5a. Word lists, the 3
 - **Tests.** `tests/test_language_checks.py` now uses ms-c10 as its "not yet re-authored" unit. `tests/test_step5g_suite.py` has 17 tests (partition, revision, components, patterns, the «di-» rule, idioms never drilled, drills and question words, markers, scenes, festival notes and sources, Japanese, plan, Malay rules, registration, fast pack).
 - **Kata-Kata findings** (details in the report): the scene must become a general "Rumah terbuka" with cards for L-1070 to L-1075; the scenario uses «durian», «jom kemas», «tak ada» and a non-ledger «cuci»; frame f06 has no card; card ms-c09-028 duplicates ms-c08-016; cards are still missing for L-1032 to L-1075.
 
-## Next: Sam's feedback, then the stage review and the A1 test only on his go-ahead
+## Step 5h: the Stage 1 close (12 Nov 2026, Claude)
 
-1. Answer the questions at the end of `docs/STEP-5g-report.md` (load of units 8 and 9; the festival facts and the Christmas sentence; the greetings; the proposed rows; the spellings for the Kamus Dewan check and the Japanese of L-1064; the explicit «se-» rule; the charter table; the pilot).
-2. Kata-Kata (Claude Code) adds the cards and frame changes listed in the step 5b to 5g reports (including cards for L-1032 to L-1075 and L-0614, L-0702, L-0688, the "why" frame, «hospital» in "Di klinik", the «jalan lurus» fix on ms-c07-024, the general "Rumah terbuka" scene, and the chapter 6 to 9 findings above); the Kamus Dewan check covers L-0983 to L-1075.
-3. Chapter 3 to 9 pilot feedback: timings, drill load, the fast packs, the review blocks after 3A, 4B and 6, the writing blocks after 2B, 3C, 5 and 7.
-4. **The stage review and the A1 test** (after unit 9, charter section 6) are the remaining Stage 1 work and wait for Sam's go-ahead. Do not start them, and do not start Stage 2 (chapters 10 to 18).
+- **Environment.** Same as steps 5e to 5g (`pip install pymupdf fonttools`, `apt-get update` then `apt-get install fonts-noto-cjk`, `git fetch --unshallow`). The Google Sheets and Docs connectors worked; web search worked. The worker restarted once mid-session without losing work.
+- **Ledger workflow.** As in step 5g: read the whole Ledger tab with `get_values` (saved to a file), rewrite both copies with the `csv` module (LF and CRLF), update the hash in `docs/step4-sources.json`; the diff is exactly the changed and new rows.
+- **How the stage unit works.** `suite/stage1.UNIT` has `stage='stage1'` and no label, so `course.py` lists its components with chapter 9 (after the unit and the fast pack) instead of treating it as a fast pack; `catalogue.py` places them from `stage_items`. `chapter_id` is `ms-c09`, so the language checks allow words placed in chapters 1 to 9 only. Test-item IDs are `ms-stage1-test-{a,b}-{section}-NN`; `stage1.item_ids()` reproduces them for the catalogue's item map.
+- **Writing new Malay for the stage close:** check every «…» span first with `Ledger().checker.inspect` at chapter 9 (as `test_only_ledger_words_from_chapters_1_to_9` does); words not in the ledger were avoided and are proposed in the report.
+- **Kata-Kata:** `docs/kata-kata-cleanup.md` replaces the scattered Kata-Kata lists; a test fails if a ledger row whose action names Kata-Kata is missing from it.
+
+## Next: Sam's pilot, then the projects below (each needs Sam's go-ahead)
+
+1. **Sam's answers** to the questions at the end of `docs/STEP-5h-report.md` and his pilot of Stage 1 (timings, load, the review blocks, the stage review, one version of the A1 test).
+2. **The Kata-Kata clean-up session** (Claude Code, in the Kata-Kata repository). Brief: `docs/kata-kata-cleanup.md`. Afterwards refresh `curriculum/reference/katakata/c01.json` to `c09.json` and the ledger card-ID column.
+3. **The Kamus Dewan check** of every ledger row marked "Not yet checked" (at least L-0983 to L-1083).
+4. **The Japanese native review** of all Japanese in Cikgu Sensai (every sheet is marked draft).
+5. **Stage 2 (chapters 10 to 18, A2)** waits for Sam's go-ahead. Do not start it before then.
 
 ## Earlier: Sam's pilot of chapter 3
 
@@ -171,6 +175,8 @@ Feedback to collect: timings per block, vocabulary load (core words: unit 1 44, 
 - **Still open from before:** which textbooks the other Japanese teachers use, and the explainer language for Japanese packs. The Kamus Dewan check for L-0983 to L-1031 has still not been run (L-1031 «oshikatsu» will not be in Kamus Dewan; it is kept as a fans' loanword).
 
 ## Other repositories
+
+**The full, current list is `docs/kata-kata-cleanup.md` (step 5h); it supersedes the notes below, which are kept for history.**
 
 Kata-Kata (Claude Code) still needs the same ledger changes: new cards for L-0983 to L-1031, saya and the time words moved to chapter 1, Ch2 cards for «sedikit», «cakap» and «badminton», and card ms-c01-009 (Assalamualaikum, L-0009) removed. Tracked in the ledger Journal as pending.
 
