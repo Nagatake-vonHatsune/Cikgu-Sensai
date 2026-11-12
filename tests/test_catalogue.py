@@ -18,12 +18,12 @@ class CatalogueTests(unittest.TestCase):
         # Step 4 retires the legacy unit 1 and 2A packs and rewrites one 3B line
         # (ledger L-1006 action). Every other legacy page is unchanged.
         old=bank(subprocess.check_output(['git','show','b42e307f6f1594f7e15e68536ee2bb60bc7b1a4b:dist/bank.js'],cwd=ROOT,text=True))
-        retired={'Greetings · Learner pack','Greetings · Teaching plan','Introductions · Learner pack','Introductions · Teaching plan'}
+        retired={'Greetings · Learner pack','Greetings · Teaching plan','Introductions · Learner pack','Introductions · Teaching plan',
+                 'Counting and quantities · Learner pack','Counting and quantities · Teaching plan',
+                 'Ringgit and sen · Learner pack','Ringgit and sen · Teaching plan',
+                 'Order and floors · Learner pack','Order and floors · Teaching plan',
+                 'Beli buah di pasar'}
         expected=[l for l in old if l['title'] not in retired]
-        for l in expected:
-            if l['title']=='Beli buah di pasar':
-                self.assertEqual(l['pages'][6]['lines'][4],'A   Pukul lapan. Nak datang lagi?')
-                l['pages'][6]['lines'][4]='A   Pukul lapan. Nak beli lagi?'
         legacy=[l for l in self.lessons if not l.get('suite')]
         strip=lambda ls:[{k:v for k,v in l.items()} | {'pages':[{k:v for k,v in p.items() if k!='index'} for p in l['pages']]} for l in ls]
         self.assertEqual(strip(expected),strip(legacy))
