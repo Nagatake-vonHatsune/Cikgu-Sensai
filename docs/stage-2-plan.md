@@ -1,7 +1,8 @@
 # Malay Stage 2 (A2): plan and proposed word lists
 
-**12 November 2026 · Stage 2, Batch 1 · PLANNING ONLY · draft for Sam and Claude.**
-Sam authorised this planning session and incremental publication of this document to main. That authorisation does not approve vocabulary, ledger changes, chapter suites or changes to the other tools. All Japanese below is a draft for native review. New Malay proposals require a Kamus Dewan check and Sam's decision before ledger entry; existing ledger status is not upgraded by this plan.
+**12 November 2026 · Stage 2 · PLANNING ONLY · drafted by ChatGPT (Batch 1), audited and corrected by Claude (Batch 1b).**
+Status: **audited draft awaiting Sam's decisions.** Sam's questions are now in [`docs/stage-2-decisions.md`](stage-2-decisions.md) (one line each); the audit is summarised in [`docs/STAGE-2-audit-report.md`](STAGE-2-audit-report.md), and every change Claude made to this file is listed in the [Audit log](#audit-log) at the end. Nothing here approves vocabulary, ledger rows, chapter suites or changes to the other tools. All Japanese is a draft for native review.
+**Review gate (Sam, ledger Journal row 128, 12 Nov 2026):** the Kamus Dewan check and the native Japanese review happen once, at the end of the whole project. They do not block the Stage 2 ledger writes; rows are written as Draft with "KD4 check" in their Action cell. What does block the ledger writes is Sam's answer to the decision brief, including the few forms marked **Sam to confirm** below.
 
 ## Source record and findings
 
@@ -16,6 +17,8 @@ Read the current Google Doc charter on 12 November 2026 (revision `AHj4eMSDx09t9
 Primary curriculum source: [Unified Curriculum Charter v0.1](https://docs.google.com/document/d/1d-uiYfQixReMUlPAcUEJ6R4onWOh-4Aa9urr14DL2lw). Repository evidence is pinned to the starting commit above. Counts, pacing, tasks and assessments below are proposals, not external CEFR certification claims.
 
 **Concurrent source update:** main advanced to `a52c6a0` during section 2: Claude added approved Stage 1 rows L-1084–L-1088 (pesta, perhatian, hingga, tolak, tarik). Reconciled against the refreshed copy: none of the 235 proposed core forms duplicates these five rows; hingga is now Stage 1 revision beside proposed sehingga, and tolak is the existing root for chapter 17 menolak. No Stage 2 ledger permission is implied. The section 2 checkpoint followed that upstream commit. Later concurrent commits `55db51d` and `9d719e8` completed the Stage 1 test follow-ups and updated `HANDOFF.md` / `docs/STEP-5i-report.md`; both were read and preserved before final validation. The final source ledger is L-0001–L-1088. The newer Stage 1 decisions are recorded in the handoff/report and Journal, not inferred as A2 approval. A final docs-only upstream commit, `a4099cf`, corrected the Stage 1 hours; preserved it and re-read the live charter at revision `AHj4eMSXOEF1Yjacpzxp7Au6A3kRKnlzjTOSEy31iMqHUOUKNiMcUpcvMNyRSpIHApOj8eke2Mmwmpysd4SfMTg-g5NdQ1FXl-RyGwy426U`, confirming 57 hours. No course code changed in that last upstream commit.
+
+**Audit sources (Claude, Batch 1b, 12 Nov 2026):** the live charter (same revision as above), `AGENTS.md`, `HANDOFF.md`, `docs/STEP-5h-report.md` and `docs/STEP-5i-report.md`; the ledger regenerated from the sheet at `29f0217` (Ledger!A1:T1089, L-0001 to L-1088) and Journal rows 120 to 129; `language_checks.py` and `curriculum/malay-roots.json`; `curriculum/foundation.txt`; and the Hanashishou repository at `55fd4ed` (all nine scene files and five vocabulary files cited below exist at exactly the blob SHAs this plan records; the claims about their content were spot-checked). Every one of the 235 draft forms was checked against every ledger row (exact form, each slash variant, multi-word rows and English meaning).
 
 ## 1. Unit plan, blocks and hours
 
@@ -68,330 +71,349 @@ Propose parallel A/B test versions, four sections of 20 marks, 48/80 overall and
 | Chapter 18 review, rehearsal, assessment and feedback | 5 | 3.75 |
 | **Full-course total** | **67** | **50.25** |
 
-At two blocks a week this is 33.5 teaching weeks, before holidays or extra assessment slots. Provisional home practice: 3 hours per teaching unit (33 hours) plus 3 hours for chapter 18, **36 hours**, total classroom plus home **86.25 hours**. Pilot these estimates; they are a workload budget, not a researched Malay A2 attainment threshold.
+**Audit check:** 55 × 45 min = 41.25 h, 3 → 2.25 h, 4 → 3.00 h, 5 → 3.75 h; 67 blocks = 50.25 h. Correct. The pattern matches Stage 1 (three review blocks, four writing blocks, a stage close whose written papers are 12 + 15 + 18 = 45 minutes and whose speaking test is a separate block). Cumulative check against the charter's benchmark: Stage 1 is 57 class hours plus about 40 hours of self-study (charter section 6), Stage 2 is 50.25 plus 36, so a full-course learner reaches about 183 hours, inside the Cambridge A2 guideline of 180 to 200 cumulative hours quoted in charter section 3 (a planning figure, not a Malay attainment claim). At two blocks a week this is 33.5 teaching weeks, before holidays or extra assessment slots. Provisional home practice: 3 hours per teaching unit (33 hours) plus 3 hours for chapter 18, **36 hours**, total classroom plus home **86.25 hours**. Pilot these estimates; they are a workload budget, not a researched Malay A2 attainment threshold.
 
 **Fast course:** exactly one 2–4-page, 45-minute summary pack for each chapter c10–c18, even where the full chapter has two units: **9 blocks / 6.75 hours**. Chapters 10–17 select 15–20 words from that chapter's approved core, key patterns with two examples each, one conversation, task, self-check and exact home sets. Chapter 18 instead recycles 15–20 previously taught words, gives a review task and directs the learner to the separate full assessment. A 45-minute review pack is not the complete four-skill test. Provisional home budget: 9–10 hours per chapter, 81–90 hours total. The fast course does not confer completion by attendance alone.
 
 
 ## 2. Proposed core word lists and ledger reconciliation
 
-**Counting rule:** one distinct taught surface form or lexical chunk is one item, not one root family. Thus baiki and membaiki are two taught forms of one family, while a previously taught root is revision. This convention yields **235 core forms: 53 existing unplaced rows and 182 proposed new rows**, across 11 units. It is not a claim of 235 unrelated lexemes. Sam must decide whether derived forms become individual rows or approved family mappings before any writes; no future L-ID is reserved here.
+**Counting rule:** one ledger row is one core word. A taught surface form or fixed chunk is one row (as the ledger already does for «dibaca» L-0385, «menyimpan» L-0792 and «mengapa» L-1049); its family is recorded in the existing "Root (KD4)" and "Affix tag" columns. A root already taught is revision, not new.
 
-Existing-row meanings below are copied from the ledger, including its draft Japanese and band assignments. Those bands describe the source deck, not an automatic difficulty rating for the proposed unit. For example mendaki is band 3 there but explicitly deferred to chapter 11 by Sam. Proposed forms are selected for familiar, short A2 tasks; their existing higher-band scenes must not be unlocked wholesale. All NEW rows and their translations remain proposals pending dictionary and native review; the targeted dictionary checks in section 3 are not a check of every entry.
+**After the audit: 233 core forms, 57 existing ledger rows and 176 new rows** (draft: 235 = 53 + 182). Every unit is between 19 and 24 new core words, inside the "typically 20 to 40" of charter section 6 (unit 15 is one under 20; see the decision brief). Each table row carries an Audit column: kept, changed (with why), added or moved; dropped forms are listed under each table. Forms whose Malaysian usage I am not sure of are marked **Sam to confirm**, not guessed.
 
-The section 1 split keeps each unit at 20–40 new forms. Ordinary combinations of known words can be used without new phrase rows; the exceptional proposed chunks here have a specific lexical or pragmatic purpose. Do not create additional rows for every conjugated-looking combination, polite request, pronoun suffix or sentence.
+| Unit | Draft core | Audited core | Existing rows | New rows |
+| --- | ---: | ---: | ---: | ---: |
+| [10A](#unit-10a) | 20 | 20 | 3 | 17 |
+| [10B](#unit-10b) | 20 | 20 | 4 | 16 |
+| [11A](#unit-11a) | 20 | 20 | 0 | 20 |
+| [11B](#unit-11b) | 22 | 21 | 7 | 14 |
+| [12A](#unit-12a) | 22 | 23 | 7 | 16 |
+| [12B](#unit-12b) | 20 | 21 | 9 | 12 |
+| [13](#unit-13) | 23 | 24 | 8 | 16 |
+| [14](#unit-14) | 21 | 20 | 2 | 18 |
+| [15](#unit-15) | 21 | 19 | 3 | 16 |
+| [16](#unit-16) | 24 | 23 | 6 | 17 |
+| [17](#unit-17) | 22 | 22 | 8 | 14 |
+| **Total** | **235** | **233** | **57** | **176** |
+
+**What the audit checked for every form:** Malaysian standard as in Kamus Dewan, never Indonesian (no Indonesian form was found; the Malaysian choices are noted where an Indonesian one exists); the everyday Malaysian sense; the register (formal or written forms are paired with their everyday partner); real need for a Japanese working adult in Malaysia at A2; spelling of every ber-, meN-, -kan, -i and ter- form (all correct; nasal changes listed in the notes); the chapter gate (no form arrives before its affix opens); and duplicates against all 1,088 ledger rows, including L-1084 to L-1088 and the rows the Kata-Kata clean-up touched (no exact duplicate; one near-duplicate, «sehingga» beside L-1086 «hingga», dropped; two "new" forms, «berpindah» and «menukar», are the standard forms the ledger already names in L-0667 and L-0604, so they are linked to them). All 53 existing IDs the draft cited exist with the stated headword, meaning and band, and none is placed in a chapter yet.
 
 ### Unit 10A
 
-| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
-| --- | --- | --- | --- |
-| bekerja | to work | 働く | NEW row proposed; no L-ID allocated |
-| berjalan | to walk | 歩く | NEW row proposed; no L-ID allocated |
-| bercakap | to speak | 話す | NEW row proposed; no L-ID allocated |
-| bermain | to play | 遊ぶ・スポーツをする | NEW row proposed; no L-ID allocated |
-| berehat | to rest | 休む | NEW row proposed; no L-ID allocated |
-| bersenam | to exercise | 運動する | NEW row proposed; no L-ID allocated |
-| berenang | to swim | 泳ぐ | NEW row proposed; no L-ID allocated |
-| berlari | to run | 走る | NEW row proposed; no L-ID allocated |
-| berbasikal | to cycle | 自転車に乗る | NEW row proposed; no L-ID allocated |
-| berjumpa | to meet | 会う | NEW row proposed; no L-ID allocated |
-| berbual | to chat | おしゃべりする | NEW row proposed; no L-ID allocated |
-| beratur | to queue | 列に並ぶ | NEW row proposed; no L-ID allocated |
-| bersarapan | to have breakfast | 朝食をとる | NEW row proposed; no L-ID allocated |
-| bermula | to begin | 始まる | NEW row proposed; no L-ID allocated |
-| berhenti | to stop | 止まる・やめる | NEW row proposed; no L-ID allocated |
-| bersiap | To get ready | 準備する、したくする | L-0807 existing, unplaced; office · band 3 |
-| bersedia | To be ready or prepared (standard form of "sedia") | 準備ができている（「sedia」の標準形） | L-0916 existing, unplaced; tutorial · band 3 |
-| tempat kerja | Workplace | 職場 | L-0657 existing, unplaced; home-condo · band 1 |
-| berlatih | to practise | 練習する | NEW row proposed; no L-ID allocated |
-| rutin | routine | 日課 | NEW row proposed; no L-ID allocated |
+| Malay | English meaning | 日本語（草稿・母語話者の確認待ち） | Ledger | Audit |
+| --- | --- | --- | --- | --- |
+| bekerja | to work | 働く | NEW | kept: lexicalised: ber- becomes be- before a first syllable ending in -er (kerja); teach as a whole word |
+| berjalan | to walk | 歩く | NEW | kept |
+| bercakap | to speak | 話す | NEW | kept |
+| bermain | to play | 遊ぶ・スポーツをする | NEW | kept |
+| berehat | to rest | 休む | NEW | kept: ber- becomes be- before r (rehat) |
+| bersenam | to exercise | 運動する | NEW | kept |
+| berenang | to swim | 泳ぐ | NEW | kept: ber- becomes be- before r (renang) |
+| berlari | to run | 走る | NEW | kept |
+| berbasikal | to cycle | 自転車に乗る | NEW | kept: Malaysian (not Indonesian bersepeda) |
+| berjumpa | to meet | 会う | NEW | kept |
+| berbual | to chat | おしゃべりする | NEW | kept |
+| beratur | to queue | 列に並ぶ | NEW | kept: Malaysian (not Indonesian antre) |
+| bersarapan | to have breakfast | 朝食をとる | NEW | kept: standard; everyday speech often just says «sarapan» (L-0614, Ch4) |
+| bermula | to begin | 始まる | NEW | kept |
+| berhenti | to stop | 止まる・やめる | NEW | kept |
+| bersiap | To get ready | 準備する、したくする | L-0807 (existing) | kept |
+| bersedia | To be ready or prepared (standard form of "sedia") | 準備ができている（「sedia」の標準形） | L-0916 (existing) | kept |
+| tempat kerja | Workplace | 職場 | L-0657 (existing) | kept |
+| berlatih | to practise | 練習する | NEW | kept |
+| rutin | routine | 日課 | NEW | kept |
 
-**Count: 20 proposed new-to-course core forms: 3 existing unplaced ledger rows + 17 proposed new rows.**
+**Unit 10A: 20 core forms (3 existing rows, 17 new).**
 
 ### Unit 10B
 
-| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
-| --- | --- | --- | --- |
-| berumur | to be aged | 〜歳である | NEW row proposed; no L-ID allocated |
-| berkahwin | to be married / get married | 結婚している・結婚する | NEW row proposed; no L-ID allocated |
-| berkeluarga | to have a family | 家庭を持つ | NEW row proposed; no L-ID allocated |
-| berasal | to originate / come from | 〜の出身である | NEW row proposed; no L-ID allocated |
-| bernama | to be named | 〜という名前である | NEW row proposed; no L-ID allocated |
-| bersekolah | to attend school | 学校に通う | NEW row proposed; no L-ID allocated |
-| berkawan | to be friends | 友達になる・付き合う | NEW row proposed; no L-ID allocated |
-| berjiran | To live as neighbours (hidup berjiran = neighbourly living) | 隣同士で暮らす（hidup berjiran＝近所付き合い） | L-0779 existing, unplaced; home-condo · band 3 |
-| berpindah | to move home | 引っ越す | NEW row proposed; no L-ID allocated |
-| bercuti | to be on leave / holiday | 休暇をとる | NEW row proposed; no L-ID allocated |
-| berniaga | to trade / run a business | 商売をする | NEW row proposed; no L-ID allocated |
-| berbelanja | to spend money / shop | お金を使う・買い物をする | NEW row proposed; no L-ID allocated |
-| berkumpul | to gather | 集まる | NEW row proposed; no L-ID allocated |
-| berkenalan | To get to know someone; to be introduced | 知り合いになる、自己紹介し合う | L-0781 existing, unplaced; home-condo · band 3 |
-| berminat | to be interested | 興味がある | NEW row proposed; no L-ID allocated |
-| berpakaian | to wear clothes / be dressed | 服を着ている | NEW row proposed; no L-ID allocated |
-| jiran | Neighbour | 隣人、近所の人 | L-0660 existing, unplaced; home-condo · band 1 |
-| sepupu | Cousin | いとこ | L-0714 existing, unplaced; social · band 1 |
-| pengalaman | experience | 経験 | NEW row proposed; no L-ID allocated |
-| berdua | the two together | 二人で | NEW row proposed; no L-ID allocated |
+| Malay | English meaning | 日本語（草稿・母語話者の確認待ち） | Ledger | Audit |
+| --- | --- | --- | --- | --- |
+| berumur | to be aged | 〜歳である | NEW | kept: standard; everyday speech says «Umur saya …» (Ch3) |
+| berkahwin | to be married / get married | 結婚している・結婚する | NEW | kept: Malaysian (not Indonesian menikah); optional persona |
+| berkeluarga | to have a family | 家庭を持つ | NEW | kept |
+| berasal | to originate / come from | 〜の出身である | NEW | kept |
+| bernama | to be named | 〜という名前である | NEW | kept: written or formal; everyday «Nama saya …» (Ch2) |
+| bersekolah | to attend school | 学校に通う | NEW | kept |
+| berkawan | to be friends | 友達になる・付き合う | NEW | kept: Malaysian (not Indonesian berteman) |
+| berjiran | To live as neighbours (hidup berjiran = neighbourly living) | 隣同士で暮らす（hidup berjiran＝近所付き合い） | L-0779 (existing) | kept |
+| berpindah | to move home | 引っ越す | NEW | changed: new row linked to existing root L-0667 «pindah», whose note already names berpindah as the standard form; L-0667 becomes chapter 10 recognition (spoken) |
+| bercuti | to be on leave / holiday | 休暇をとる | NEW | kept |
+| berniaga | to trade / run a business | 商売をする | NEW | kept: Malaysian (not Indonesian berdagang) |
+| berbelanja | to spend money / shop | お金を使う・買い物をする | NEW | kept: spend money; contrast with L-0717 «belanja» (treat someone) in chapter 17 |
+| berkumpul | to gather | 集まる | NEW | kept |
+| berkenalan | To get to know someone; to be introduced | 知り合いになる、自己紹介し合う | L-0781 (existing) | kept |
+| berminat | to be interested | 興味がある | NEW | kept |
+| berpakaian | to wear clothes / be dressed | 服を着ている | NEW | kept: mostly in «berpakaian kemas» (dress code) |
+| jiran | Neighbour | 隣人、近所の人 | L-0660 (existing) | kept |
+| sepupu | Cousin | いとこ | L-0714 (existing) | kept |
+| pengalaman | experience | 経験 | NEW | kept: whole word only: peN-…-an is a Stage 3 family |
+| berdua | the two together | 二人で | NEW | kept |
 
-**Count: 20 proposed new-to-course core forms: 4 existing unplaced ledger rows + 16 proposed new rows.**
+**Unit 10B: 20 core forms (4 existing rows, 16 new).**
 
 ### Unit 11A
 
-| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
-| --- | --- | --- | --- |
-| membeli | to buy | 買う | NEW row proposed; no L-ID allocated |
-| membaca | to read | 読む | NEW row proposed; no L-ID allocated |
-| menulis | to write | 書く | NEW row proposed; no L-ID allocated |
-| memasak | to cook | 料理する | NEW row proposed; no L-ID allocated |
-| mengambil | to take / collect | 取る・受け取る | NEW row proposed; no L-ID allocated |
-| membuat | to make / do | 作る・する | NEW row proposed; no L-ID allocated |
-| membuka | to open | 開ける | NEW row proposed; no L-ID allocated |
-| menutup | to close | 閉める | NEW row proposed; no L-ID allocated |
-| membawa | to bring / carry | 持ってくる・運ぶ | NEW row proposed; no L-ID allocated |
-| membayar | to pay | 支払う | NEW row proposed; no L-ID allocated |
-| mencari | to look for | 探す | NEW row proposed; no L-ID allocated |
-| mencuci | to wash | 洗う | NEW row proposed; no L-ID allocated |
-| memanggil | to call someone | 人を呼ぶ | NEW row proposed; no L-ID allocated |
-| menghantar | to send / deliver | 送る・届ける | NEW row proposed; no L-ID allocated |
-| menerima | to receive | 受け取る | NEW row proposed; no L-ID allocated |
-| menjawab | to answer | 答える | NEW row proposed; no L-ID allocated |
-| melihat | to see | 見る | NEW row proposed; no L-ID allocated |
-| mendengar | to hear / listen | 聞く | NEW row proposed; no L-ID allocated |
-| menunggu | to wait | 待つ | NEW row proposed; no L-ID allocated |
-| menjual | to sell | 売る | NEW row proposed; no L-ID allocated |
+| Malay | English meaning | 日本語（草稿・母語話者の確認待ち） | Ledger | Audit |
+| --- | --- | --- | --- | --- |
+| membeli | to buy | 買う | NEW | kept |
+| membaca | to read | 読む | NEW | kept |
+| menulis | to write | 書く | NEW | kept: t → n |
+| memasak | to cook | 料理する | NEW | kept: m-initial root, no change |
+| mengambil | to take / collect | 取る・受け取る | NEW | kept: meng- before a vowel |
+| membuat | to make / do | 作る・する | NEW | kept |
+| membuka | to open | 開ける | NEW | kept |
+| menutup | to close | 閉める | NEW | kept: t → n |
+| membawa | to bring / carry | 持ってくる・運ぶ | NEW | kept |
+| membayar | to pay | 支払う | NEW | kept |
+| mencari | to look for | 探す | NEW | kept |
+| mencuci | to wash | 洗う | NEW | kept |
+| memanggil | to call someone | 人を呼ぶ | NEW | kept: p → m |
+| menghantar | to send / deliver | 送る・届ける | NEW | kept: meng- before h; Malaysian sense also "drop someone off" |
+| menerima | to receive | 受け取る | NEW | kept: t → n; root ‹terima› has no ledger row (only «terima kasih»), so teach the whole form |
+| menjawab | to answer | 答える | NEW | kept |
+| melihat | to see | 見る | NEW | kept: root ‹lihat› has no ledger row; everyday speech says «tengok» (L-0577) |
+| mendengar | to hear / listen | 聞く | NEW | kept |
+| menunggu | to wait | 待つ | NEW | kept: t → n |
+| menjual | to sell | 売る | NEW | kept |
 
-**Count: 20 proposed new-to-course core forms: 0 existing unplaced ledger rows + 20 proposed new rows.**
+**Unit 11A: 20 core forms (0 existing rows, 20 new).**
 
 ### Unit 11B
 
-| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
-| --- | --- | --- | --- |
-| menyewa | to rent as tenant | 借りる | NEW row proposed; no L-ID allocated |
-| melancong | to travel for leisure | 旅行する | NEW row proposed; no L-ID allocated |
-| mendaki | To hike; to climb (a hill) | （山を）登る、ハイキングする | L-0865 existing, unplaced; social · band 3 |
-| menyapu | to sweep | 掃く | NEW row proposed; no L-ID allocated |
-| menyimpan | To keep, to store (standard form of "simpan") | 保管する、取っておく（「simpan」の標準形） | L-0792 existing, unplaced; home-condo · band 3 |
-| menyemak | To check; to review | 確認する、目を通す | L-0819 existing, unplaced; office · band 3 |
-| menukar | to change / exchange | 替える・交換する | NEW row proposed; no L-ID allocated |
-| mengira | to count / calculate | 数える・計算する | NEW row proposed; no L-ID allocated |
-| mengisi | to fill | 記入する・入れる | NEW row proposed; no L-ID allocated |
-| memilih | to choose | 選ぶ | NEW row proposed; no L-ID allocated |
-| meminjam | to borrow | 借りる | NEW row proposed; no L-ID allocated |
-| memesan | to order goods / food | 注文する | NEW row proposed; no L-ID allocated |
-| menolong | to help | 手伝う・助ける | NEW row proposed; no L-ID allocated |
-| mengajar | to teach | 教える | NEW row proposed; no L-ID allocated |
-| mengecat | to paint | ペンキを塗る | NEW row proposed; no L-ID allocated |
-| mengepos | to post / mail | 郵送する | NEW row proposed; no L-ID allocated |
-| draf | A draft | 下書き | L-0680 existing, unplaced; office · band 2 |
-| slaid | Slide (in a presentation) | スライド | L-0696 existing, unplaced; office · band 2 |
-| tarikh akhir | Deadline (formal, written) | 締め切り（あらたまった書き言葉） | L-0849 existing, unplaced; office · band 4 |
-| rancangan | A plan | 計画、予定 | L-0684 existing, unplaced; office · band 1 |
-| semak | check / review (request) | 確認してください | NEW row proposed; no L-ID allocated |
-| mesej | message | メッセージ | NEW row proposed; no L-ID allocated |
+| Malay | English meaning | 日本語（草稿・母語話者の確認待ち） | Ledger | Audit |
+| --- | --- | --- | --- | --- |
+| menyewa | to rent as tenant | （家・部屋を）借りる（賃借する） | NEW | changed: Japanese draft made specific: （家・部屋を）借りる（賃借する）, so it is not the same as meminjam |
+| melancong | to travel for leisure | 旅行する | NEW | kept: Malaysian (not Indonesian berwisata) |
+| mendaki | To hike; to climb (a hill) | （山を）登る、ハイキングする | L-0865 (existing) | kept |
+| menyimpan | To keep, to store (standard form of "simpan") | 保管する、取っておく（「simpan」の標準形） | L-0792 (existing) | kept |
+| menyemak | To check; to review | 確認する、目を通す | L-0819 (existing) | kept |
+| menukar | to change / exchange | 替える・交換する | NEW | changed: new row linked to existing root L-0604 «tukar», whose note names menukar as the standard form; L-0604 becomes chapter 11 recognition (spoken) |
+| mengira | to count / calculate | 数える・計算する | NEW | kept: k → ng |
+| mengisi | to fill | 記入する・入れる | NEW | kept: meng- before a vowel |
+| memilih | to choose | 選ぶ | NEW | kept: p → m; root «pilih» is Ch6 |
+| meminjam | to borrow | （一時的に）借りる | NEW | changed: Japanese draft made specific: （一時的に）借りる |
+| memesan | to order goods / food | 注文する | NEW | kept: p → m |
+| menolong | to help | 手伝う・助ける | NEW | kept: t → n; contrast with «tolong» (please, Ch8) |
+| mengajar | to teach | 教える | NEW | kept |
+| draf | A draft | 下書き | L-0680 (existing) | kept |
+| slaid | Slide (in a presentation) | スライド | L-0696 (existing) | kept |
+| tarikh akhir | Deadline (formal, written) | 締め切り（あらたまった書き言葉） | L-0849 (existing) | kept: formal; L-0678 «deadline» (everyday, Sam: keep) becomes chapter 11 recognition (spoken) |
+| rancangan | A plan | 計画、予定 | L-0684 (existing) | kept |
+| semak | check / review (request) | 確認してください | NEW | kept: root used as a request: «Tolong semak draf ini.» |
+| mesej | message | メッセージ | NEW | kept |
+| menelefon | to phone | 電話をかける | NEW | added: replaces menyapu; t → n; root «telefon» L-0573 (Dunia); Hanashishou already uses it (L-0658 example) |
+| mengecas | to charge (a phone, a battery) | 充電する | NEW | added · **Sam to confirm**: replaces mengecat |
 
-**Count: 22 proposed new-to-course core forms: 7 existing unplaced ledger rows + 15 proposed new rows.**
+**Unit 11B: 21 core forms (7 existing rows, 14 new).**
+Not core after the audit: ~~menyapu~~ (dropped: low need for this learner; s → ny is already shown by menyewa, menyimpan and menyemak. Replaced by menelefon); ~~mengecat~~ (replaced by «mengecas» (to charge a phone): same menge- spelling, far higher need; root «cas» is L-0583 (Dunia, primes Ch7)); ~~mengepos~~ (dropped: the usual transitive is ‹mengeposkan› (a -kan form, chapter 12); «menghantar» covers the need).
 
 ### Unit 12A
 
-| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
-| --- | --- | --- | --- |
-| hantarkan | send / deliver for someone (request) | 送ってあげる・届けてください | NEW row proposed; no L-ID allocated |
-| simpankan | keep for someone (request) | 預かってください | NEW row proposed; no L-ID allocated |
-| ambilkan | get for someone (request) | 取ってきてください | NEW row proposed; no L-ID allocated |
-| belikan | buy for someone (request) | 買ってきてください | NEW row proposed; no L-ID allocated |
-| bawakan | bring for someone (request) | 持ってきてください | NEW row proposed; no L-ID allocated |
-| tutupkan | close for someone (request) | 閉めてください | NEW row proposed; no L-ID allocated |
-| bukakan | open for someone (request) | 開けてください | NEW row proposed; no L-ID allocated |
-| letakkan | put / place (request) | 置いてください | NEW row proposed; no L-ID allocated |
-| pulangkan | return something (request) | 返してください | NEW row proposed; no L-ID allocated |
-| berikan | give (request) | 渡してください | NEW row proposed; no L-ID allocated |
-| tunjukkan | show (request) | 見せてください | NEW row proposed; no L-ID allocated |
-| pastikan | To make sure | 確かめる、必ず〜するようにする | L-0743 existing, unplaced; daily-life · band 3 |
-| pengawal | Security guard | 警備員 | L-0595 existing, unplaced; daily-life · band 2 |
-| unit | Unit; flat (in a condo) | 部屋、住戸 | L-0654 existing, unplaced; home-condo · band 1 |
-| pejabat pengurusan | The (condo) management office | 管理事務所 | L-0650 existing, unplaced; home-condo · band 2 |
-| pondok pengawal | Guardhouse | 守衛所、警備員室 | L-0658 existing, unplaced; home-condo · band 2 |
-| pemilik | Owner | 所有者、オーナー | L-0662 existing, unplaced; home-condo · band 2 |
-| label | label | ラベル | NEW row proposed; no L-ID allocated |
-| penerima | recipient | 受取人 | NEW row proposed; no L-ID allocated |
-| nombor penjejakan | tracking number | 追跡番号 | NEW row proposed; no L-ID allocated |
-| lobi | lobby | ロビー | NEW row proposed; no L-ID allocated |
-| koyak | torn | 破れた | NEW row proposed; no L-ID allocated |
+| Malay | English meaning | 日本語（草稿・母語話者の確認待ち） | Ledger | Audit |
+| --- | --- | --- | --- | --- |
+| hantarkan | send / deliver for someone (request) | 送ってあげる・届けてください | NEW | kept |
+| simpankan | keep for someone (request) | 預かってください | NEW | kept |
+| ambilkan | get for someone (request) | 取ってきてください | NEW | kept |
+| belikan | buy for someone (request) | 買ってきてください | NEW | kept |
+| bawakan | bring for someone (request) | 持ってきてください | NEW | kept |
+| tutupkan | close for someone (request) | 閉めてください | NEW | kept: charter example «Tolong tutupkan pintu.» |
+| bukakan | open for someone (request) | 開けてください | NEW | kept |
+| letakkan | put / place (request) | 置いてください | NEW | kept: double k |
+| pulangkan | return something (request) | 返してください | NEW | kept |
+| berikan | give (request) | 渡してください | NEW | kept: «beri» is on the root allow-list; everyday «bagi» (L-0482) |
+| tunjukkan | show (request) | 見せてください | NEW | kept: double k |
+| pastikan | To make sure | 確かめる、必ず〜するようにする | L-0743 (existing) | kept |
+| pengawal | Security guard | 警備員 | L-0595 (existing) | kept |
+| unit | Unit; flat (in a condo) | 部屋、住戸 | L-0654 (existing) | kept |
+| pejabat pengurusan | The (condo) management office | 管理事務所 | L-0650 (existing) | kept |
+| pondok pengawal | Guardhouse | 守衛所、警備員室 | L-0658 (existing) | kept |
+| pemilik | Owner | 所有者、オーナー | L-0662 (existing) | kept |
+| label | label | ラベル | NEW | kept |
+| penerima | recipient | 受取人 | NEW | kept: written label on parcels; whole word |
+| nombor penjejakan | tracking number | 追跡番号 | NEW | kept · **Sam to confirm**: the ledger itself names it as the formal form of L-0608 «nombor tracking»; standard first, L-0608 as spoken recognition. Whether couriers really print this term is unconfirmed |
+| lobi | lobby | ロビー | NEW | kept: L-0666 «lobi lif» is then compositional, not a new core word |
+| koyak | torn | 破れた | NEW | kept |
+| blok | Block (of a building) | 棟（ブロック） | L-0653 (existing) | added: needed for the wrong-unit parcel scene («Blok B, unit 12-3») |
 
-**Count: 22 proposed new-to-course core forms: 6 existing unplaced ledger rows + 16 proposed new rows.**
+**Unit 12A: 23 core forms (7 existing rows, 16 new).**
 
 ### Unit 12B
 
-| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
-| --- | --- | --- | --- |
-| baiki | repair (request) | 修理してください | NEW row proposed; no L-ID allocated |
-| membaiki | to repair | 修理する | NEW row proposed; no L-ID allocated |
-| hubungi | contact (request) | 連絡してください | NEW row proposed; no L-ID allocated |
-| menghubungi | To contact | 連絡する | L-0789 existing, unplaced; home-condo · band 3 |
-| tempahan | booking / reservation | 予約 | NEW row proposed; no L-ID allocated |
-| isikan | fill in / put in (request) | 記入してください・入れてください | NEW row proposed; no L-ID allocated |
-| kosongkan | empty / clear (request) | 空にしてください | NEW row proposed; no L-ID allocated |
-| hidupkan | switch on (request) | つけてください | NEW row proposed; no L-ID allocated |
-| matikan | switch off (request) | 消してください | NEW row proposed; no L-ID allocated |
-| bersihkan | clean (request) | きれいにしてください | NEW row proposed; no L-ID allocated |
-| kebocoran | A leak | 水漏れ、漏れ | L-0651 existing, unplaced; home-condo · band 2 |
-| juruteknik | Technician | 技術者、修理の人 | L-0652 existing, unplaced; home-condo · band 2 |
-| paip | Pipe | 配管、パイプ | L-0661 existing, unplaced; home-condo · band 1 |
-| siling | Ceiling | 天井 | L-0649 existing, unplaced; home-condo · band 1 |
-| kontraktor | Contractor | 工事業者、請負業者 | L-0665 existing, unplaced; home-condo · band 2 |
-| slot | Time slot (a booked period of time) | 時間帯、枠 | L-0655 existing, unplaced; home-condo · band 2 |
-| kerosakan | damage / fault | 故障・破損 | NEW row proposed; no L-ID allocated |
-| aduan | complaint / problem report | 苦情・問題の報告 | NEW row proposed; no L-ID allocated |
-| gantikan | replace (request) | 交換してください | NEW row proposed; no L-ID allocated |
-| perlahankan | To lower (the voice); to slow down | （声を）小さくする、ゆっくりにする | L-0871 existing, unplaced; social · band 3 |
+| Malay | English meaning | 日本語（草稿・母語話者の確認待ち） | Ledger | Audit |
+| --- | --- | --- | --- | --- |
+| baiki | repair (request) | 修理してください | NEW | kept: Malaysian (never Indonesian ‹perbaiki›) |
+| membaiki | to repair | 修理する | NEW | kept |
+| hubungi | contact (request) | 連絡してください | NEW | kept: common on notices: «Sila hubungi …» |
+| menghubungi | To contact | 連絡する | L-0789 (existing) | kept |
+| tempahan | booking / reservation | 予約 | NEW | kept: root «tempah» is L-0451 (Dunia) |
+| isikan | fill in / put in (request) | 記入してください・入れてください | NEW | kept: everyday speech prefers «isi» («Sila isi borang ini»); teach both |
+| kosongkan | empty / clear (request) | 空にしてください | NEW | kept |
+| hidupkan | switch on (request) | つけてください | NEW | kept: standard; everyday «buka» (lights, aircon), noted |
+| matikan | switch off (request) | 消してください | NEW | kept: standard; everyday «tutup», noted |
+| bersihkan | clean (request) | きれいにしてください | NEW | kept: bersih + -kan, not ber- + sih |
+| kebocoran | A leak | 水漏れ、漏れ | L-0651 (existing) | kept |
+| juruteknik | Technician | 技術者、修理の人 | L-0652 (existing) | kept |
+| paip | Pipe | 配管、パイプ | L-0661 (existing) | kept |
+| siling | Ceiling | 天井 | L-0649 (existing) | kept |
+| kontraktor | Contractor | 工事業者、請負業者 | L-0665 (existing) | kept |
+| slot | Time slot (a booked period of time) | 時間帯、枠 | L-0655 (existing) | kept |
+| kerosakan | damage / fault | 故障・破損 | NEW | kept |
+| aduan | complaint / problem report | 苦情・問題の報告 | NEW | kept |
+| gantikan | replace (request) | 交換してください | NEW | kept |
+| perlahankan | To lower (the voice); to slow down | （声を）小さくする、ゆっくりにする | L-0871 (existing) | kept: whole word (per- is Stage 3); fits a noise request |
+| ganti | To replace; to stand in for someone | 代わりをする、代わる | L-0698 (existing) | moved: moved from unit 16, beside «gantikan» |
 
-**Count: 20 proposed new-to-course core forms: 8 existing unplaced ledger rows + 12 proposed new rows.**
+**Unit 12B: 21 core forms (9 existing rows, 12 new).**
 
 ### Unit 13
 
-| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
-| --- | --- | --- | --- |
-| perlu | need / necessary | 必要である | NEW row proposed; no L-ID allocated |
-| patut | should / advisable | 〜したほうがよい | NEW row proposed; no L-ID allocated |
-| wajib | compulsory | 義務である・必須の | NEW row proposed; no L-ID allocated |
-| dibenarkan | allowed | 許可されている | NEW row proposed; no L-ID allocated |
-| larangan | prohibition | 禁止 | NEW row proposed; no L-ID allocated |
-| kebenaran | permission | 許可 | NEW row proposed; no L-ID allocated |
-| nasihat | advice | 助言 | NEW row proposed; no L-ID allocated |
-| alahan | Allergy | アレルギー | L-0633 existing, unplaced; health · band 2 |
-| simptom | Symptom | 症状 | L-0634 existing, unplaced; health · band 2 |
-| sakit tekak | Sore throat | のどの痛み | L-0631 existing, unplaced; health · band 1 |
-| temu janji | Appointment | 予約、約束 | L-0638 existing, unplaced; health · band 2 |
-| farmasi | pharmacy | 薬局 | NEW row proposed; no L-ID allocated |
-| dos | dose | 用量 | NEW row proposed; no L-ID allocated |
-| arahan | instruction | 指示 | NEW row proposed; no L-ID allocated |
-| kesihatan | health | 健康 | NEW row proposed; no L-ID allocated |
-| rawatan | treatment | 治療 | NEW row proposed; no L-ID allocated |
-| elakkan | avoid (request) | 避けてください | NEW row proposed; no L-ID allocated |
-| sesuai | suitable | 適している | NEW row proposed; no L-ID allocated |
-| risiko | risk | 危険性 | NEW row proposed; no L-ID allocated |
-| kecemasan | emergency | 緊急事態 | NEW row proposed; no L-ID allocated |
-| penyambut tetamu | Receptionist | 受付係 | L-0627 existing, unplaced; health · band 2 |
-| bila perlu | When needed | 必要なときに | L-0636 existing, unplaced; health · band 2 |
-| mesti | must | 〜しなければならない | NEW row proposed; no L-ID allocated |
+| Malay | English meaning | 日本語（草稿・母語話者の確認待ち） | Ledger | Audit |
+| --- | --- | --- | --- | --- |
+| perlu | need / necessary | 必要である | NEW | kept |
+| patut | should / advisable | 〜したほうがよい | NEW | kept |
+| wajib | compulsory | 義務である・必須の | NEW | kept: secular use only («wajib isi borang») |
+| dibenarkan | allowed | 許可されている | NEW | kept: di-…-kan: needs chapters 9 and 12 |
+| kebenaran | permission | 許可 | NEW | kept: sense note: also means "truth"; taught only as "permission" («minta kebenaran») |
+| nasihat | advice | 助言 | NEW | kept |
+| alahan | Allergy | アレルギー | L-0633 (existing) | kept |
+| simptom | Symptom | 症状 | L-0634 (existing) | kept |
+| sakit tekak | Sore throat | のどの痛み | L-0631 (existing) | kept |
+| temu janji | Appointment | 予約、約束 | L-0638 (existing) | kept |
+| farmasi | pharmacy | 薬局 | NEW | kept: Malaysian (not Indonesian apotek) |
+| dos | dose | 用量 | NEW | kept: reading a label only; no dosage advice is authored |
+| arahan | instruction | 指示 | NEW | kept |
+| kesihatan | health | 健康 | NEW | kept |
+| rawatan | treatment | 治療 | NEW | kept |
+| elakkan | avoid (request) | 避けてください | NEW | kept: existing L-0788 «mengelak» stays unplaced |
+| sesuai | suitable | 適している | NEW | kept |
+| kecemasan | emergency | 緊急事態 | NEW | kept: Malaysian (not Indonesian darurat) |
+| penyambut tetamu | Receptionist | 受付係 | L-0627 (existing) | kept |
+| bila perlu | When needed | 必要なときに | L-0636 (existing) | kept |
+| mesti | must | 〜しなければならない | NEW | kept |
+| klinik panel | Panel clinic (one your company has an agreement with) | パネルクリニック（会社が契約しているクリニック） | L-0630 (existing) | added: used three times in the linked Hanashishou scene clinic_visit |
+| daftar | To register | 登録する、受付をする | L-0648 (existing) | added: registering at the clinic counter (clinic_registration scene) |
+| cuti sakit | sick leave | 病気休暇 | NEW | added · **Sam to confirm**: spoken «MC» is used seven times in clinic_visit; propose «MC» as its marked spoken form |
 
-**Count: 23 proposed new-to-course core forms: 6 existing unplaced ledger rows + 17 proposed new rows.**
+**Unit 13: 24 core forms (8 existing rows, 16 new).**
+Not core after the audit: ~~larangan~~ (dropped: «dilarang» (Ch9) already covers notices; the noun adds little at A2); ~~risiko~~ (dropped: abstract, low need for the permission and advice functions).
 
 ### Unit 14
 
-| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
-| --- | --- | --- | --- |
-| supaya | so that | 〜するために・〜するように | NEW row proposed; no L-ID allocated |
-| walaupun | although / even though | 〜だけれども | NEW row proposed; no L-ID allocated |
-| jika | if | もし〜なら | NEW row proposed; no L-ID allocated |
-| apabila | when | 〜するとき | NEW row proposed; no L-ID allocated |
-| sambil | while doing | 〜しながら | NEW row proposed; no L-ID allocated |
-| sehingga | until | 〜まで | NEW row proposed; no L-ID allocated |
-| selagi | as long as / while still | 〜している限り | NEW row proposed; no L-ID allocated |
-| namun | however (written) | しかし（書き言葉） | NEW row proposed; no L-ID allocated |
-| oleh itu | therefore | そのため | NEW row proposed; no L-ID allocated |
-| sebaliknya | instead / conversely | その反対に・代わりに | NEW row proposed; no L-ID allocated |
-| akhirnya | finally | 最後に・ついに | NEW row proposed; no L-ID allocated |
-| mula-mula | first / at first | 最初に | NEW row proposed; no L-ID allocated |
-| seterusnya | next | 次に | NEW row proposed; no L-ID allocated |
-| semasa | during / when | 〜の間に | NEW row proposed; no L-ID allocated |
-| sejak | since | 〜以来 | NEW row proposed; no L-ID allocated |
-| tujuan | purpose | 目的 | NEW row proposed; no L-ID allocated |
-| alasan | reason / excuse | 理由・言い訳 | NEW row proposed; no L-ID allocated |
-| pilihan | choice | 選択肢 | NEW row proposed; no L-ID allocated |
-| keputusan | decision / result | 決定・結果 | NEW row proposed; no L-ID allocated |
-| perubahan | change | 変更・変化 | NEW row proposed; no L-ID allocated |
-| jadi | so / therefore | だから・そのため | NEW row proposed; no L-ID allocated |
+| Malay | English meaning | 日本語（草稿・母語話者の確認待ち） | Ledger | Audit |
+| --- | --- | --- | --- | --- |
+| supaya | so that | 〜するために・〜するように | NEW | kept |
+| walaupun | although / even though | 〜だけれども | NEW | kept |
+| jika | if | もし〜なら | NEW | kept: formal or written; everyday «kalau» (Ch7) |
+| apabila | when | 〜するとき | NEW | kept: formal or written; everyday «bila» (Ch4) |
+| sambil | while doing | 〜しながら | NEW | kept |
+| namun | however (written) | しかし（書き言葉） | NEW | kept: written only; everyday «tapi» |
+| oleh itu | therefore | そのため | NEW | kept: formal; everyday «jadi» |
+| akhirnya | finally | 最後に・ついに | NEW | kept |
+| mula-mula | first / at first | 最初に | NEW | kept: whole word (reduplication is Stage 3) |
+| seterusnya | next | 次に | NEW | kept: formal; everyday «lepas tu» from known words |
+| semasa | during / when | 〜の間に | NEW | kept |
+| sejak | since | 〜以来 | NEW | kept |
+| tujuan | purpose | 目的 | NEW | kept |
+| pilihan | choice | 選択肢 | NEW | kept |
+| keputusan | decision / result | 決定・結果 | NEW | kept |
+| perubahan | change | 変更・変化 | NEW | kept: whole word (per-…-an is Stage 3); needed for "change of plan" |
+| jadi | so / therefore | だから・そのため | NEW | kept |
+| tangguh | To put off; to pause for a while | 延期する、一時休む | L-0641 (existing) | added: postponing is the core "change of plan" move |
+| janji | A promise; to promise | 約束（する） | L-0710 (existing) | added |
+| batal | to cancel; cancelled | 取り消す・中止になる | NEW | added: «dibatalkan» on notices; spoken loan «cancel» noted |
 
-**Count: 21 proposed new-to-course core forms: 0 existing unplaced ledger rows + 21 proposed new rows.**
+**Unit 14: 20 core forms (2 existing rows, 18 new).**
+Not core after the audit: ~~sehingga~~ (dropped: duplicates L-1086 «hingga» (until, Ch9); shown as a ‹sehingga› mention beside it); ~~selagi~~ (dropped: B1 level; «kalau» covers the A2 need); ~~sebaliknya~~ (dropped: B1 level; not needed for the five A2 functions); ~~alasan~~ (dropped: reads as "excuse" and can sound accusatory («Apa alasan awak?»); «sebab» (L-0688) already means "reason").
 
 ### Unit 15
 
-| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
-| --- | --- | --- | --- |
-| hilang | lost / missing | なくなった | NEW row proposed; no L-ID allocated |
-| ciri | feature | 特徴 | NEW row proposed; no L-ID allocated |
-| berjalur | striped | しま模様の | NEW row proposed; no L-ID allocated |
-| berbintik | spotted | 斑点のある | NEW row proposed; no L-ID allocated |
-| berzip | having a zip | ファスナー付きの | NEW row proposed; no L-ID allocated |
-| berlengan | having sleeves | 袖のある | NEW row proposed; no L-ID allocated |
-| pemegang | handle | 取っ手 | NEW row proposed; no L-ID allocated |
-| tali | strap / cord | ひも・ストラップ | NEW row proposed; no L-ID allocated |
-| poket | pocket | ポケット | NEW row proposed; no L-ID allocated |
-| dompet | wallet | 財布 | NEW row proposed; no L-ID allocated |
-| beg tangan | Hand luggage (also: handbag) | 手荷物、ハンドバッグ | L-0623 existing, unplaced; daily-life · band 2 |
-| kulit | Leather; also skin | 革；皮膚 | L-0618 existing, unplaced; daily-life · band 2 |
-| tanda harga | Price tag | 値札 | L-0622 existing, unplaced; daily-life · band 2 |
-| nombor plat | Car number plate | 車のナンバー（ナンバープレート） | L-0591 existing, unplaced; daily-life · band 2 |
-| bentuk | shape | 形 | NEW row proposed; no L-ID allocated |
-| bulat | round | 丸い | NEW row proposed; no L-ID allocated |
-| segi empat | quadrilateral / four-sided shape | 四角形 | NEW row proposed; no L-ID allocated |
-| segi tiga | triangle | 三角形 | NEW row proposed; no L-ID allocated |
-| jalur | stripe | しま | NEW row proposed; no L-ID allocated |
-| zip | zip / zipper | ファスナー | NEW row proposed; no L-ID allocated |
-| seperti | like / such as | 〜のような | NEW row proposed; no L-ID allocated |
+| Malay | English meaning | 日本語（草稿・母語話者の確認待ち） | Ledger | Audit |
+| --- | --- | --- | --- | --- |
+| hilang | lost / missing | なくなった | NEW | kept |
+| ciri | feature | 特徴 | NEW | kept: usually reduplicated «ciri-ciri» on forms; recognise both |
+| berjalur | striped | しま模様の | NEW | kept |
+| tali | strap / cord | ひも・ストラップ | NEW | kept |
+| poket | pocket | ポケット | NEW | kept: Malaysian (not Indonesian saku) |
+| dompet | wallet | 財布 | NEW | kept |
+| beg tangan | Handbag (narrowed from "hand luggage; handbag") | ハンドバッグ | L-0623 (existing) | kept: sense narrowed to "handbag" (L-0623 also says hand luggage) |
+| kulit | Leather; also skin | 革；皮膚 | L-0618 (existing) | kept |
+| nombor plat | Car number plate | 車のナンバー（ナンバープレート） | L-0591 (existing) | kept: useful for identifying an e-hailing car |
+| bentuk | shape | 形 | NEW | kept |
+| bulat | round | 丸い | NEW | kept |
+| segi empat | square or rectangular (four-sided) | 四角形 | NEW | changed: English gloss changed to "square or rectangular (four-sided)", the everyday sense |
+| zip | zip / zipper | ファスナー | NEW | kept |
+| seperti | like / such as | 〜のような | NEW | kept: standard; spoken «macam» (L-0930) |
+| lelaki | man; male | 男性・男の | NEW | added: no ledger row exists; needed to describe a person |
+| perempuan | woman; female | 女性・女の | NEW | added: no ledger row exists; needed to describe a person |
+| cermin mata | glasses | めがね | NEW | added: compound; «cermin» L-0556 (mirror) is Stage 1 recognition |
+| barang | thing(s); belongings | 物・持ち物 | NEW | added: «barang hilang» (lost property) |
+| jenama | brand | ブランド・銘柄 | NEW | added |
 
-**Count: 21 proposed new-to-course core forms: 4 existing unplaced ledger rows + 17 proposed new rows.**
+**Unit 15: 19 core forms (3 existing rows, 16 new).**
+Not core after the audit: ~~berbintik~~ (dropped: low need; natural form is reduplicated ‹berbintik-bintik› (Stage 3)); ~~berzip~~ (dropped: the chapter target «beg yang ada zip» says the same thing with yang); ~~berlengan~~ (dropped: everyday «baju lengan panjang» uses «lengan» (L-0977, Dunia) without ber-); ~~pemegang~~ (dropped: low need for lost-item and person descriptions); ~~tanda harga~~ (dropped: no use in the chapter 15 scenes; stays unplaced); ~~segi tiga~~ (dropped: low need; «bulat» and «segi empat» cover bags and boxes); ~~jalur~~ (dropped: «berjalur» covers it).
 
 ### Unit 16
 
-| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
-| --- | --- | --- | --- |
-| terjatuh | to fall accidentally | うっかり落ちる・転ぶ | NEW row proposed; no L-ID allocated |
-| tertinggal | To be left behind by accident | （うっかり）置き忘れる | L-0619 existing, unplaced; daily-life · band 2 |
-| terlupa | To forget (by accident) | うっかり忘れる | L-0644 existing, unplaced; health · band 2 |
-| tertidur | to fall asleep unintentionally | うっかり寝てしまう | NEW row proposed; no L-ID allocated |
-| terlepas | To miss (a bus, a chance) | （バスやチャンスを）逃す、乗り遅れる | L-0621 existing, unplaced; daily-life · band 2 |
-| tersilap | To be mistaken; to get something wrong (by accident) | 間違える、間違いが起きる（うっかり） | L-0752 existing, unplaced; daily-life · band 3 |
-| tertumpah | to spill accidentally | こぼれてしまう | NEW row proposed; no L-ID allocated |
-| terlanggar | to bump into accidentally | うっかりぶつかる | NEW row proposed; no L-ID allocated |
-| terkunci | locked / accidentally locked | 鍵がかかっている・かかってしまう | NEW row proposed; no L-ID allocated |
-| tercedera | injured | けがをする | NEW row proposed; no L-ID allocated |
-| tergelincir | to slip | 滑る | NEW row proposed; no L-ID allocated |
-| terbakar | burnt / on fire | 燃える・焼ける | NEW row proposed; no L-ID allocated |
-| terputus | cut off / disconnected | 切れてしまう・途切れる | NEW row proposed; no L-ID allocated |
-| tersangkut | Stuck (in traffic or somewhere) | （渋滞などで）身動きがとれない | L-0875 existing, unplaced; social · band 3 |
-| tidak sengaja | By accident; not on purpose | うっかり、わざとではなく | L-0758 existing, unplaced; daily-life · band 4 |
-| kemalangan | accident | 事故 | NEW row proposed; no L-ID allocated |
-| kecederaan | injury | けが | NEW row proposed; no L-ID allocated |
-| luka | wound | 傷 | NEW row proposed; no L-ID allocated |
-| lebam | bruise | あざ | NEW row proposed; no L-ID allocated |
-| bengkak | swollen | 腫れた | NEW row proposed; no L-ID allocated |
-| licin | slippery | 滑りやすい | NEW row proposed; no L-ID allocated |
-| pecah | broken / shattered | 割れた | NEW row proposed; no L-ID allocated |
-| tumpah | spill / spilled | こぼれる | NEW row proposed; no L-ID allocated |
-| ganti | To replace; to stand in for someone | 代わりをする、代わる | L-0698 existing, unplaced; office · band 2 |
+| Malay | English meaning | 日本語（草稿・母語話者の確認待ち） | Ledger | Audit |
+| --- | --- | --- | --- | --- |
+| terjatuh | to fall accidentally | うっかり落ちる・転ぶ | NEW | kept |
+| tertinggal | To be left behind by accident | （うっかり）置き忘れる | L-0619 (existing) | kept |
+| terlupa | To forget (by accident) | うっかり忘れる | L-0644 (existing) | kept |
+| tertidur | to fall asleep unintentionally | うっかり寝てしまう | NEW | kept |
+| terlepas | To miss (a bus, a chance) | （バスやチャンスを）逃す、乗り遅れる | L-0621 (existing) | kept |
+| tersilap | To be mistaken; to get something wrong (by accident) | 間違える、間違いが起きる（うっかり） | L-0752 (existing) | kept |
+| tertumpah | to spill accidentally | こぼれてしまう | NEW | kept |
+| terlanggar | to bump into accidentally | うっかりぶつかる | NEW | kept |
+| terkunci | locked / accidentally locked | 鍵がかかっている・かかってしまう | NEW | kept |
+| tercedera | injured | けがをする | NEW | kept |
+| tergelincir | to slip | 滑る | NEW | kept |
+| terbakar | burnt / on fire | 燃える・焼ける | NEW | kept |
+| terputus | cut off / disconnected | 切れてしまう・途切れる | NEW | kept: e.g. water supply or a call cut off |
+| tersangkut | Stuck (in traffic or somewhere) | （渋滞などで）身動きがとれない | L-0875 (existing) | kept |
+| tidak sengaja | By accident; not on purpose | うっかり、わざとではなく | L-0758 (existing) | kept: spoken «tak sengaja» |
+| kemalangan | accident | 事故 | NEW | kept: Malaysian (not Indonesian kecelakaan) |
+| luka | wound | 傷 | NEW | kept |
+| lebam | bruise | あざ | NEW | kept |
+| bengkak | swollen | 腫れた | NEW | kept |
+| licin | slippery | 滑りやすい | NEW | kept |
+| pecah | broken / shattered | 割れた | NEW | kept |
+| tumpah | spill / spilled | こぼれる | NEW | kept: root beside «tertumpah»; everyday «Air tumpah!» |
+| kunci | key | 鍵 | NEW | added: the chapter 16 scene is a key left inside the flat; «terkunci» needs the noun |
 
-**Count: 24 proposed new-to-course core forms: 7 existing unplaced ledger rows + 17 proposed new rows.**
+**Unit 16: 23 core forms (6 existing rows, 17 new).**
+Not core after the audit: ~~kecederaan~~ (dropped: formal noun; «tercedera» and «luka» cover the need); ~~ganti~~ (moved: to unit 12B, beside «gantikan»; a root should not arrive four chapters after its -kan form).
 
 ### Unit 17
 
-| Malay | English meaning | 日本語（母語話者の確認待ち） | Ledger status / source |
-| --- | --- | --- | --- |
-| kat | at / in (spoken, standard di) | 〜で・〜に（話し言葉） | NEW row proposed; no L-ID allocated; spoken |
-| kan | confirmation-seeking particle (spoken) | 〜でしょう・〜よね（話し言葉） | NEW row proposed; no L-ID allocated; spoken |
-| lah | discourse particle (spoken, tone-dependent) | 語調を調整する助詞（話し言葉・文脈による） | NEW row proposed; no L-ID allocated; spoken |
-| ajak | To invite along; to ask someone to come (informal) | （気軽に）誘う | L-0689 existing, unplaced; office · band 1 |
-| sudi | To be willing; glad to (polite) | 喜んで〜する（ていねい） | L-0828 existing, unplaced; office · band 3 |
-| lapang | Free (not busy) | 手が空いている、暇な | L-0656 existing, unplaced; home-condo · band 2 |
-| setuju | agree | 賛成する | NEW row proposed; no L-ID allocated |
-| menolak | decline / reject | 断る | NEW row proposed; no L-ID allocated |
-| pelawaan | invitation | 誘い | NEW row proposed; no L-ID allocated |
-| cadangan | suggestion | 提案 | NEW row proposed; no L-ID allocated |
-| segan | hesitant / shy | 遠慮する・気が引ける | NEW row proposed; no L-ID allocated |
-| sayangnya | what a pity | 残念なことに | NEW row proposed; no L-ID allocated |
-| malangnya | Unfortunately | 残念ながら、あいにく | L-0787 existing, unplaced; home-condo · band 3 |
-| lain kali | another time | また今度 | NEW row proposed; no L-ID allocated |
-| tidak mengapa | it is all right / never mind | 大丈夫・かまわない | NEW row proposed; no L-ID allocated |
-| macam tu | like that (spoken, standard seperti itu) | そんなふうに（話し言葉） | NEW row proposed; no L-ID allocated; spoken |
-| tak tahan | Can't handle; can't stand (informal) | 耐えられない、苦手だ（くだけた言い方） | L-0690 existing, unplaced; office · band 2; spoken |
-| set | "Deal!" / "Agreed!" (everyday speech) | 「決まり！」（日常の話し言葉） | L-0703 existing, unplaced; social · band 1; spoken |
-| belanja | To treat someone (pay for them) | おごる、ごちそうする | L-0717 existing, unplaced; social · band 2 |
-| singgah | To drop in; to stop by | 立ち寄る | L-0748 existing, unplaced; daily-life · band 3 |
-| ni | this (spoken, standard ini) | これ・この（話し言葉） | NEW row proposed; no L-ID allocated; spoken |
-| tu | that (spoken, standard itu) | それ・その（話し言葉） | NEW row proposed; no L-ID allocated; spoken |
+| Malay | English meaning | 日本語（草稿・母語話者の確認待ち） | Ledger | Audit |
+| --- | --- | --- | --- | --- |
+| kat | at / in (spoken, standard di) | 〜で・〜に（話し言葉） | NEW; spoken | kept: spoken; standard «di» |
+| kan | confirmation-seeking particle (spoken) | 〜でしょう・〜よね（話し言葉） | NEW; spoken | kept: spoken; recognition first (see the decision brief) |
+| lah | discourse particle (spoken, tone-dependent) | 語調を調整する助詞（話し言葉・文脈による） | NEW; spoken | kept: spoken; recognition first (see the decision brief) |
+| ajak | To invite along; to ask someone to come (informal) | （気軽に）誘う | L-0689 (existing) | kept |
+| sudi | To be willing; glad to (polite) | 喜んで〜する（ていねい） | L-0828 (existing) | kept |
+| lapang | Free (not busy) | 手が空いている、暇な | L-0656 (existing) | kept |
+| setuju | agree | 賛成する | NEW | kept: standard before «Set!» (L-0703) |
+| menolak | decline / reject | 断る | NEW | kept: root «tolak» (push, Ch9); new sense "decline" |
+| cadangan | suggestion | 提案 | NEW | kept |
+| segan | hesitant / shy | 遠慮する・気が引ける | NEW | kept |
+| sayangnya | what a pity | 残念なことに | NEW | kept |
+| malangnya | Unfortunately | 残念ながら、あいにく | L-0787 (existing) | kept |
+| lain kali | another time | また今度 | NEW | kept |
+| tidak mengapa | it is all right / never mind | 大丈夫・かまわない | NEW | kept: standard; spoken partner is existing L-0940 «tak apa» (Stage 1 recognition) |
+| macam tu | like that (spoken, standard seperti itu) | そんなふうに（話し言葉） | NEW; spoken | kept: spoken; standard «seperti itu» (chapter 15) |
+| tak tahan | Can't handle; can't stand (informal) | 耐えられない、苦手だ（くだけた言い方） | L-0690 (existing); spoken | kept: spoken; show «tidak tahan» first |
+| set | "Deal!" / "Agreed!" (everyday speech) | 「決まり！」（日常の話し言葉） | L-0703 (existing); spoken | kept: spoken; «setuju» first |
+| belanja | To treat someone (pay for them) | おごる、ごちそうする | L-0717 (existing) | kept |
+| singgah | To drop in; to stop by | 立ち寄る | L-0748 (existing) | kept |
+| ni | this (spoken, standard ini) | これ・この（話し言葉） | NEW; spoken | kept: spoken; standard «ini» |
+| tu | that (spoken, standard itu) | それ・その（話し言葉） | NEW; spoken | kept: spoken; standard «itu» |
+| jemputan | invitation | 招待・招待状 | NEW | added · **Sam to confirm**: replaces pelawaan |
 
-**Count: 22 proposed new-to-course core forms: 8 existing unplaced ledger rows + 14 proposed new rows.**
+**Unit 17: 22 core forms (8 existing rows, 14 new).**
+Not core after the audit: ~~pelawaan~~ (replaced by «jemputan» (invitation; «kad jemputan»), the everyday noun; root «jemput» L-0541 is Stage 1 recognition).
 
 ### Chapter 18: no new core list
 
@@ -403,21 +425,21 @@ These are deliberately outside the new-core totals. A teacher may activate recog
 
 | Chapter | Minimum revision anchor set (existing ledger rows) | Recognition / scope decision |
 | --- | --- | --- |
-| 10 | kerja L-0065; jalan L-0321; cakap L-0473; main L-0074; belajar L-0069; hujung minggu L-0702 | belajar is an existing whole-word exception, not NEW. L-1045 duplicates hujung minggu and must not supply another core item. No new recognition pool proposed. |
-| 11 | baca L-0474; tulis L-0475; ambil L-0481; buat L-1076; masak L-1023; sewa L-1051; cuci L-1078; panggil L-1077 | Deferred forms: memasak/membuat in 11A; menyewa/melancong/mendaki in 11B. menaiki and other -i families wait for 12 or later. |
-| 12 | tolong L-0375; bungkusan L-0430; kotak L-0359; pintu L-0565; simpan L-0529; isi L-0420; chapter 11 menghantar, menyimpan, menyemak, mesej | L-0608 nombor tracking: optional spoken recognition only, after new standard nombor penjejakan; existing row, not core. L-0666 lobi lif can be understood compositionally after lobi; no duplicate core count. |
-| 13 | tidak/tak L-0030; bukan L-0130; belum L-0194; jangan L-1062; boleh L-0076; rehat L-0417; dilarang L-0397 | mesti is on the root allow-list but has no exact ledger row: genuinely NEW, not permission supplied by that allow-list. No diagnosis or dosage advice is authored. |
-| 14 | kerana L-1050; sebab L-0688; kalau L-0341; sebelum L-1002; selepas L-1001; tetapi/tapi L-0215 | These are already taught, so the new work is connecting clauses. jadi has no exact row and is proposed here, not silently assumed earlier. |
-| 15 | yang L-0212; kenapa L-1009; bila L-1007; yang mana L-0279; corak L-0511; chapter 12 pemilik | pemiliknya is revision via -nya, not a new word. All earlier question words return. No accidental ter- introduced a chapter early. |
-| 16 | termurah L-0275; terbaik L-0277; maaf L-0018; chapter 12 aduan/kerosakan; chapter 13 symptom terms | Contrast superlatives with event/state ter-. Other ter- meanings and idioms wait; do not infer meaning merely from a prefix. |
-| 17 | tidak/tak L-0030; mahu/nak L-0213; sudah/dah L-0193; sedikit/sikit L-0216; sahaja/saja L-1000; tetapi/tapi L-0215; macam mana L-0211; pun L-0983; jom L-0075; jemput L-0541; betul ke? L-0944 | These spoken forms and chunks are systematised, not counted new. ni/tu are NEW rows even though the register checker already names them. Other regional forms are excluded. |
+| 10 | kerja L-0065; jalan L-0321; cakap L-0473; main L-0074; belajar L-0069; hujung minggu L-0702; sarapan L-0614; umur (Ch3) | belajar is an existing whole-word exception, not NEW. L-1045 duplicates hujung minggu and must not supply another core item. Recognition: L-0667 «pindah» (spoken partner of «berpindah»). |
+| 11 | baca L-0474; tulis L-0475; ambil L-0481; buat L-1076; masak L-1023; sewa L-1051; cuci L-1078; panggil L-1077; pilih L-0280; tolong L-0375; telefon L-0573; cas L-0583; tengok L-0577 | Deferred forms: memasak/membuat in 11A; menyewa/melancong/mendaki in 11B. «terima» and «lihat» have no root rows, so «menerima» and «melihat» are taught as whole forms. Recognition: L-0604 «tukar» and L-0678 «deadline» (spoken partners). |
+| 12 | tolong L-0375; bungkusan L-0430; kotak L-0359; pintu L-0565; simpan L-0529; isi L-0420; buka L-0484; tutup L-0485; tempah L-0451; chapter 11 menghantar, menyimpan, menyemak, mesej | L-0608 nombor tracking: optional spoken recognition only, after new standard nombor penjejakan; existing row, not core. L-0666 lobi lif can be understood compositionally after lobi; no duplicate core count. |
+| 13 | tidak/tak L-0030; bukan L-0130; belum L-0194; jangan L-1062; boleh L-0076; rehat L-0417; dilarang L-0397; doktor L-0407; ubat L-0408; demam L-0409; batuk L-0410 | mesti is on the root allow-list but has no exact ledger row: genuinely NEW, not permission supplied by that allow-list. No diagnosis or dosage advice is authored. |
+| 14 | kerana L-1050; sebab L-0688; kalau L-0341; sebelum L-1002; selepas L-1001; tetapi/tapi L-0215; kemudian L-0320; bila L-1007; hingga L-1086; sampai L-0203; cuaca L-0431; hujan L-0434 | These are already taught, so the new work is connecting clauses. jadi has no exact row and is proposed here, not silently assumed earlier. ‹sehingga› is shown only as a mention beside «hingga». |
+| 15 | yang L-0212; kenapa L-1009; bila L-1007; yang mana L-0279; corak L-0511; warna L-0225; beg L-0504; baju L-0500; seluar L-0501; topi L-0503; rambut L-0927; lengan L-0977; kad L-0124; pasport L-0421; kaunter L-0423; chapter 12 pemilik | pemiliknya is revision via -nya, not a new word. All earlier question words return. No accidental ter- introduced a chapter early. |
+| 16 | termurah L-0275; terbaik L-0277; maaf L-0018; rosak L-0588; lantai L-0571; pintu L-0565; chapter 12 aduan/kerosakan/ganti; chapter 13 symptom terms | Contrast superlatives with event/state ter-. Other ter- meanings and idioms wait; do not infer meaning merely from a prefix. |
+| 17 | tidak/tak L-0030; mahu/nak L-0213; sudah/dah L-0193; sedikit/sikit L-0216; sahaja/saja L-1000; tetapi/tapi L-0215; macam mana L-0211; pun L-0983; jom L-0075; jemput L-0541; betul ke? L-0944; tak apa L-0940; macam L-0930 | These spoken forms and chunks are systematised, not counted new. ni/tu are NEW rows even though the register checker already names them. Other regional forms are excluded. |
 | 18 | All earlier chapters as required by the item map | No vocabulary inflation to meet a teaching-unit minimum. |
 
-**Core totals by chapter:** 10 = 40; 11 = 42; 12 = 42; 13 = 23; 14 = 21; 15 = 21; 16 = 24; 17 = 22; 18 = 0. Total 235. Optional new-to-course recognition: one existing row, L-0608, at chapter 12; never tested as new core. Revision counts will follow actual scene usage, not an invented total before authoring.
+**Core totals by chapter after the audit:** 10 = 40; 11 = 41; 12 = 44; 13 = 24; 14 = 20; 15 = 19; 16 = 23; 17 = 22; 18 = 0. Total 233 (draft 235). New-to-course recognition (existing rows, never tested as new core): L-0667 «pindah» (10), L-0604 «tukar» and L-0678 «deadline» (11), L-0608 «nombor tracking» (12). Revision counts will follow actual scene usage, not an invented total before authoring.
 
 ### Existing parcel pack: move and re-author, not relabel
 
-Read `curriculum/foundation.txt` and `curriculum/foundation-guided.txt`, “Ambil bungkusan di lobi”. Its existing dialogue leads with nak/dah and includes tak/ni, unplaced vocabulary, and jadi/perlu before their proposed chapters. Plan a chapter 12 adaptation whose standard model begins “Saya mahu ambil bungkusan. Sudah sampai?” and uses the learned request forms. Use “Boleh tunjukkan mesej?” rather than the later modal perlu; omit jadi until chapter 14; use ini rather than ni; use baik instead of adding elok solely for one line. semak and mesej enter 11B; lobi, unit, pengawal, label and koyak enter 12A. Keep the wrong-unit/torn-label change of plan and a clear successful collection outcome. Fictional condo procedures only.
+Read `curriculum/foundation.txt` and `curriculum/foundation-guided.txt`, “Ambil bungkusan di lobi”. Its existing dialogue leads with nak/dah and includes tak/ni, unplaced vocabulary, and jadi/perlu before their proposed chapters. Plan a chapter 12 adaptation whose standard model begins “Saya mahu ambil bungkusan. Sudah sampai?” and uses the learned request forms. Use “Boleh tunjukkan mesej?” rather than the later modal perlu; omit jadi until chapter 14; use ini rather than ni; use baik instead of adding elok solely for one line. semak and mesej enter 11B; lobi, unit, blok, pengawal, label and koyak enter 12A. Keep the wrong-unit/torn-label change of plan and a clear successful collection outcome. Fictional condo procedures only.
 
 The exact legacy script is not approved for chapter 12 just because its title is linked. Remove or revise every out-of-scope line in both ordinary and guided versions, then retire the superseded listing while preserving provenance. No migration happens in this planning batch.
 
@@ -430,14 +452,14 @@ The exact legacy script is not approved for chapter 12 just because its title is
 
 | Chapter | Open for productive teaching | Boundaries and examples |
 | --- | --- | --- |
-| 10 | Selected ber- verbs: action, state, possession/background | “Saya bekerja di Kuala Lumpur.” / “Saya bercakap bahasa Melayu dengan jiran saya.” Teach the chosen lexical families, not ber- attached to any word. belajar is revision. bekerja and belajar are exceptions to simple attachment; amend the charter's “no sound changes” explanation, while retaining ber- before meN-. |
-| 11 | meN- active forms: me-, mem-, men-, meng-, meny-, menge- | Start with familiar transitive pairs: “Aini membaca buku itu.” / “Buku itu dibaca oleh Aini.” Teach lexical mappings such as tulis → menulis, sapu → menyapu, kira → mengira and cat → mengecat. Do not make a di- passive from every verb: melancong is not a transitive object-taking model. memasak, membuat, menyewa, melancong and mendaki enter here. |
+| 10 | Selected ber- verbs: action, state, possession/background | “Saya bekerja di Kuala Lumpur.” / “Saya bercakap bahasa Melayu dengan jiran saya.” Teach the chosen lexical families, not ber- attached to any word. belajar is revision. **Corrected in the audit:** ber- has no nasal changes, but it has two spelling variants: be- before a root starting with r (berehat, berenang) or whose first syllable ends in -er (bekerja), and bel- in belajar only. So bekerja follows a rule and belajar is the one true exception. The charter's "no sound changes" should read "no nasal sound changes" (a proposal for Sam; the charter is not edited here). |
+| 11 | meN- active forms: me-, mem-, men-, meng-, meny-, menge- | Start with familiar transitive pairs: “Aini membaca buku itu.” / “Buku itu dibaca oleh Aini.” Teach lexical mappings such as tulis → menulis, telefon → menelefon, sewa → menyewa, kira → mengira and cas → mengecas. Do not make a di- passive from every verb: melancong is not a transitive object-taking model. memasak, membuat, menyewa, melancong and mendaki enter here. |
 | 12 | Selected -kan and -i families, including meN-...-kan/-i and corresponding passive/request forms | “Tolong simpankan bungkusan ini.” / “Boleh hubungi juruteknik?” / “Juruteknik sedang membaiki paip.” Teach each verb with its object and meaning. -kan is not a universal politeness ending; -i does not have one English or Japanese equivalent. baiki and membaiki are preferred repair forms. bersihkan is bersih + -kan, not ber- + sih. membeli is meN- + beli, not productive -i. |
 | 13 | No new affix family; negation/modal combinations and controlled revision | “Saya belum makan.” / “Bolehkah saya masuk?” / “Saya perlu berjumpa doktor.” Contrast belum with tidak, bukan with noun predicates, and jangan with prohibitions. mesti/perlu/patut differ in force. wajib is secular obligation here. Medical scripts ask for clarification, not give treatment recommendations. |
 | 14 | No new affix family; selected connectors and two-clause messages | “Kalau hujan, kita makan di kafe.” / “Saya tidak datang kerana saya bekerja.” Keep walaupun/namun manageable and marked by register; do not turn every everyday exchange into formal prose. Nominals such as keputusan are whole words, not an opening of productive ke-...-an. |
 | 15 | No new affix family; noun + yang + short clause and precise questions | “Saya mencari beg yang ada zip.” uses a short clause to identify the item. Reuse earlier question words in genuine information gaps, not as a new-word list. |
 | 16 | Selected accidental/unplanned/result-state ter- families | “Saya tertinggal telefon di pejabat.” / “Maaf, saya terlupa.” Contrast with chapter 6 termurah/terbaik. terkunci and terputus can describe resulting states; not every ter- form means an accident. Ability/success readings and idioms are outside this batch. |
-| 17 | No new productive affix; systematic register and discourse work | Standard first: tidak/tak, mahu/nak, sudah/dah, ini/ni, itu/tu, di/kat, sedikit/sikit, sahaja/saja, tetapi/tapi, bagaimana/macam mana, seperti itu/macam tu. Every second form marked **spoken**. kan (confirmation) is distinct from suffix -kan; lah needs contextual tone examples, not a one-word translation; pun is an existing standard particle, not inherently slang. jom and jemput are invitations with different tone, not interchangeable contractions. |
+| 17 | No new productive affix; systematic register and discourse work | Standard first: tidak/tak, mahu/nak, sudah/dah, ini/ni, itu/tu, di/kat, sedikit/sikit, sahaja/saja, tetapi/tapi, bagaimana/macam mana, seperti itu/macam tu, tidak mengapa/tak apa, tidak tahan/tak tahan, setuju/set. Every second form marked **spoken**. kan (confirmation) is distinct from suffix -kan; lah needs contextual tone examples, not a one-word translation; pun is an existing standard particle, not inherently slang. jom and jemput are invitations with different tone, not interchangeable contractions. |
 | 18 | No new affix or register form | Assessment language stays within approved chapters 1–17. Standard production is always accepted; recognition of spoken forms does not require forced particle use. |
 
 All examples in this section are planning illustrations, subject to Sam's Malaysian usage review and the eventual approved ledger check. No suite is authorised by showing them here.
@@ -450,16 +472,17 @@ The repo's affix root allow-list is `curriculum/malay-roots.json`, added to `ROO
 
 Read Kata-Kata `tools/affix-guard.mjs` and `tools/check-content.mjs` at `0f78179034552f85d4c0d7ac4cb9e185f8b8ac8a`. Its current guard receives packs but no chapter policy; `ALLOW_LIST` contains roots. It builds one global `exemptWords` set from all chunks/recognition cards, then permits those words anywhere. New later-chapter exemptions could therefore leak backwards into Stage 1. Fix that before loading c10–c18.
 
-### Required implementation, after approval
+### Required implementation, after approval (simplified in the audit)
 
-1. **One versioned policy, mirrored in both repos.** Record each grammar family, first chapter, permitted senses and approved lexical mappings. Proposed schema: form, lemma/root reference, family, sense, first_chapter, register, standard_form, source, approval. Metadata may identify an internal root without silently teaching that root as a standalone vocabulary item. Exact approved surface forms remain traceable to their row or family ID.
-2. **Explicit placement.** Use an approved numeric first-chapter field or a validated placement manifest. Distinguish core, recognition, revision and deferred mention. Ignore “waits for”, historical “was Ch…” and retirement notes when granting permission. Reject unknown or missing chapter metadata for authored Stage 2 content; do not let `chapter=None` bypass the stage policy. Resolve retired/duplicate rows before matching.
-3. **Load all approved packs, not arbitrary files.** Replace the fixed c01–c09 loader with the manifest's chapter set. Keep the unpublished proposal out of that manifest. Chapter 18 has a revision-only pack, not new-card permission. Register each actual authored Stage 2 unit in `curriculum/reauthored-units.json` when it is built so ledger gaps become blocking.
-4. **Use lexical mappings, not unrestricted prefix stripping.** Gate ber- at 10, meN- at 11, -kan/-i at 12 and accidental/result ter- at 16, while preserving named Stage 1 whole-word exceptions and superlative-only ter- from 6. Check composites too: a meN-...-kan form requires both 11 and 12. A known root alone does not authorise every derived sense, spelling or object frame. Retain both root and surface provenance in test tags; never count a derived form twice as new vocabulary.
-5. **Scope exemptions.** Kata-Kata's `runAffixGuard` must pass the effective chapter into card/frame/scenario checks; source scene tags rather than its pack name determine access. Permit an exact chunk only in its approved chapter or later, and only as that chunk, not every token globally. Keep `ALLOW_LIST` and Cikgu Sensai's roots restricted to actual roots. Reconcile the lists through reviewed provenance rather than copying unreviewed additions wholesale.
-6. **Register and independent sheets.** Extend `REGISTER` for kat and approved new pairs; keep contextual particles separate from contraction mappings. Standard-form teaching and spoken labels must be available in each extractable component or its explicit prerequisite sheet. The current shared `seq='stage'` state must not allow arbitrary traversal order to supply an invisible explanation. Preserve “standard first” in both printed and app content.
-7. **Malaysian-form rules.** Add the user-specified disallowed teaching forms berbicara, perbaiki, musik, film and olahraga with context-appropriate preferred forms where absent. Keep kereta, wang/duit and existing replacements. This is a course usage rule, not a claim that every excluded item is absent from every Malaysian dictionary. Do not apply substring bans that reject good compounds or explanatory quotations.
-8. **Shared regression fixtures.** Both checkers must agree on: bercakap 9 fail/10 pass; menyewa 10 fail/11 pass; membaiki 11 fail/12 pass; accidental tertinggal 15 fail/16 pass; termurah 6 pass without unlocking terjatuh; membeli and mengisi 11 pass despite final i; makan/ikan remain roots rather than -kan derivations; bersihkan 11 fail/12 pass; mesti recognised as a root but rejected without ledger placement; later chunk exemptions not leaking to earlier chapters; standalone unlabelled spoken forms failing; unknown chapter failing; retired IDs failing. Preserve all Stage 1 checks and the shrink-only baseline. Cross-language Python/JS fixture parity is an acceptance gate, not implemented here.
+The draft listed eight requirements and a new policy schema with family mappings. The ledger already holds what the checks need, so the audit recommends this smaller design (decision S4 in the brief):
+
+1. **The ledger drives the gate.** Each Stage 2 form gets its own row, like «dibaca» L-0385, «menyimpan» L-0792 and «mengapa» L-1049 today, with its chapter in "Kata-Kata place", its family in "Affix tag" and its root in "Root (KD4)". No separate policy file and no family-mapping schema. A form is allowed from its row's chapter; a row with no chapter, or a retired row, is never allowed in authored content.
+2. **One table of affix openings, identical in both repositories:** ber- 10; meN- 11; -kan and -i 12 (a meN-…-kan or meN-…-i form needs both 11 and 12); ter- in the accident or unplanned-state sense 16 (superlative ter- and its Stage 1 whole words stay at 6). Whole words with Stage 3 affixes («pengalaman», «perubahan», «penerima», «kerosakan» and so on) pass only as their own ledger rows, never by rule.
+3. **Read placement strictly.** Load every placed chapter instead of the fixed c01–c09 range (`range(1,10)` in `language_checks.py`), and take the chapter from the place field only, ignoring notes such as "waits for" or "was Ch…" (today `_chapter` is the minimum of every chapter number found). Register each Stage 2 unit in `curriculum/reauthored-units.json` when it is built. Keep `curriculum/malay-roots.json` for roots only.
+4. **Kata-Kata: scope exemptions by chapter.** The draft found (at Kata-Kata 0f78179) that the affix guard builds one global exemption set from all chunks, so a chapter 12 chunk would become legal in Stage 1 once c10–c18 exist. Pass the chapter to the guard and allow a chunk only from its own chapter. Re-read the guard at the current Kata-Kata head before changing it.
+5. **Register pairs:** add «kat», «ni», «tu», «macam tu», «tak apa», «tak tahan» and «set» with their standard partners; treat «lah» and «kan» as particles, not contractions of anything.
+6. **Malaysian-form rules:** add ‹berbicara›, ‹perbaiki›, ‹musik›, ‹film› and ‹olahraga› as disallowed teaching forms, matched as whole words.
+7. **Shared fixtures (Python and JavaScript must agree):** «bercakap» 9 fail / 10 pass; «menyewa» 10 fail / 11 pass; «membaiki» 11 fail / 12 pass; «tertinggal» 15 fail / 16 pass; «termurah» 6 pass without unlocking «terjatuh»; «membeli» and «mengisi» 11 pass (a final i is not -i); «makan» and «ikan» stay roots; «bersihkan» 11 fail / 12 pass; a chapter 12 chunk fails at chapter 9; an unlabelled spoken form fails; an unplaced or retired row fails. All Stage 1 checks and the shrink-only exception baseline stay as they are.
 
 ### Linguistic source checks and limits (12 November 2026)
 
@@ -467,6 +490,8 @@ Read Kata-Kata `tools/affix-guard.mjs` and `tools/check-content.mjs` at `0f78179
 - [DBP PRPM: akhiran](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=akhiran) and [DBP advice on -kan/-i](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=lihat+kan): indexed explanations distinguish meanings and include membaiki. Do not teach a single mechanical translation of either suffix.
 - [DBP PRPM: bercakap](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=bercakap): indexed Kamus Dewan Edisi Keempat senses support speak/use a language/chat. This course selects those senses.
 - [DBP PRPM: terjatuh](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=terjatuh): indexed Kamus Dewan definition supports the accidental-fall sense.
+
+- **Audit, ber- spelling (12 Nov 2026):** secondary grammar sources found by web search (not Tatabahasa Dewan itself) agree that ber- becomes be- before r-initial roots and roots whose first syllable ends in -er (bekerja), and bel- only in belajar. Treated as [INFERRED] until the end-of-project Kamus Dewan check. «mengecas» could not be found in PRPM by search, so it is marked Sam to confirm.
 
 These were retrieved through web-search excerpts; direct PRPM page opens timed out or returned errors. **Do not mark a full KD4 review complete or invent page references.** A row-by-row check, spelling/valency review and Japanese native review remain before approved publication of teaching material. No legal, clinic, transport, price or institutional fact is asserted by the fictional scenes in this plan.
 
@@ -516,13 +541,13 @@ The charter's pack labels map to the actual repository folders `daily-life`, `of
 
 | Ch | One or two classroom scenes and outcome | Charter pack and inspected scene anchor | Japanese helps / potential interference |
 | --- | --- | --- | --- |
-| 10 | 10A: a brief conversation with a driver about the working day. 10B: meeting a neighbour and exchanging background details, using an optional persona. Outcome: understand the person's routine and two relevant details. | Daily life: `daily-life/grab_ride_chat.ink`. Neighbour scene is a proposed classroom extension; Home and condo vocabulary supplies jiran/berjiran, without changing the charter's primary link. | Familiar self-introduction routines help; separate time markers can be compared with Japanese time expressions. Avoid treating ber- as a Malay equivalent of -ます or adding it to every verb. Japanese often leaves subjects implicit; use explicit actor cues when learners need them, without banning natural Malay ellipsis. |
+| 10 | 10A: telling a colleague about your usual working day and weekend (classroom scene). 10B: meeting a neighbour and exchanging background details, using an optional persona; the e-hailing driver's "Where are you from?" small talk as the speaking link. Outcome: understand the person's routine and two background details. | Daily life: `daily-life/grab_ride_chat.ink` (**audit:** the scene is background small talk, «Awak dari mana?» with «berpindah» at band 3, plus steering the driver to the office; it suits 10B, not "the working day"). Also `home-condo/new_neighbour.ink`, whose bands 1–2 use root words only, for 10B. | Familiar self-introduction routines help; separate time markers can be compared with Japanese time expressions. Avoid treating ber- as a Malay equivalent of -ます or adding it to every verb. Japanese often leaves subjects implicit; use explicit actor cues when learners need them, without banning natural Malay ellipsis. |
 | 11 | 11A: a colleague reads a document and sends it to another colleague; identify who did what. 11B: check a draft and confirm when it will be ready; optional short discussion of cooking/travel/hiking after work. | Office: `office/report_deadline.ink`; draf/menyemak/slaid from the office word pool, mendaki from Social. | Familiar transitive/intransitive distinctions can help discussion, but Malay meN- is not a tense or politeness ending. Do not transfer a negative/adversative interpretation to every di- passive. Nasal spelling changes need word-family retrieval, not Japanese conjugation rules. |
-| 12 | 12A: collect two parcels at a condo guardhouse; the small box belongs to another unit. 12B: report water at the ceiling and agree a technician's visit. Outcome: correct item or a confirmed next action/time. | Home and condo: `home-condo/guardhouse_parcel.ink`, `home-condo/ceiling_leak.ink`; Cikgu Sensai's “Ambil bungkusan di lobi” is adapted here. | Request frames such as 〜てください help establish intent. They do not predict whether Malay needs -kan, -i or neither. English/Japanese glosses must show the recipient, object and place separately; do not equate -kan mechanically with 〜てあげる. |
-| 13 | Ask permission and clarify a simple fictional clinic notice; ask a pharmacist to repeat an instruction, without authoring a real dose or treatment recommendation. Outcome: distinguish must, should, may and must not. | Health: `health/clinic_visit.ink`, `health/pharmacy_advice.ink`. Their full scripts require adaptation and content review before assignment. | まだ and もう help with belum/sudah; 〜てもいい, 〜なければならない and 〜たほうがいい help frame permission/obligation/advice. They are approximate bridges. Jangan is a prohibition, not an interchangeable negative ending. |
+| 12 | 12A: collect two parcels at a condo guardhouse; the small box belongs to another unit (block and unit numbers). 12B: report water at the ceiling and agree a technician's visit. Outcome: correct item or a confirmed next action/time. | Home and condo: `home-condo/guardhouse_parcel.ink`, `home-condo/ceiling_leak.ink`; also `home-condo/aircon_repair.ink` for «hidupkan» / «matikan». Cikgu Sensai's “Ambil bungkusan di lobi” is adapted here. | Request frames such as 〜てください help establish intent. They do not predict whether Malay needs -kan, -i or neither. English/Japanese glosses must show the recipient, object and place separately; do not equate -kan mechanically with 〜てあげる. |
+| 13 | Ask permission and clarify a simple fictional clinic notice; ask a pharmacist to repeat an instruction, without authoring a real dose or treatment recommendation. Outcome: distinguish must, should, may and must not. | Health: `health/clinic_visit.ink`, `health/pharmacy_advice.ink`; also `health/clinic_registration.ink` (a starter scene: first visit, registering). **Audit:** clinic_visit uses «MC» seven times and «klinik panel» three times, so chapter 13 now has «cuti sakit» (spoken «MC», Sam to confirm), «klinik panel» and «daftar». Their full scripts require adaptation and content review before assignment. | まだ and もう help with belum/sudah; 〜てもいい, 〜なければならない and 〜たほうがいい help frame permission/obligation/advice. They are approximate bridges. Jangan is a prohibition, not an interchangeable negative ending. |
 | 14 | Rearrange a weekend activity because of rain or a work commitment; explain a three-step plan with one condition and one alternative. Outcome: both people agree when/where and what happens if the condition changes. | Social: `social/weekend_plans.ink`. Use fictional meeting places and timings rather than repeating unverified weather or safety advice. | Japanese reason/condition connectors give useful functional comparisons. Avoid word-for-word 〜から/〜ので/〜たら mapping; choose by the relationship between clauses. Keep Malay clause order and short messages natural. |
 | 15 | Describe a missing wallet to station staff; identify a visitor or colleague from clothing and an agreed meeting location. Outcome: select the right item/person from plausible alternatives. | Daily life: `daily-life/lost_wallet.ink`. Chapter 15 version must say hilang rather than the original opening's tertinggal; return to the accident account in 16. | Japanese noun-modifying clauses provide the concept, but come before the noun. Malay noun + yang + clause reverses that order. Questions need useful distinguishing details, not just a memorised interrogative. |
-| 16 | Explain a small spill or a key left inside a flat; report a minor fall at a clinic reception using fictional details. Outcome: state what happened and request a practical next step. | Home and condo + Health: reuse adapted `home-condo/guardhouse_parcel.ink` or `ceiling_leak.ink` problem/response structure; adapted `health/clinic_visit.ink` for the minor incident. Daily life's `lost_wallet.ink` is optional cross-pack recycling, not a replacement charter link. | 〜てしまった can help introduce unintended events, but does not cover every ter- sense. A resulting state may resemble 〜ている, while chapter 6 superlatives require a separate reading. Apologies depend on responsibility and context. |
+| 16 | Explain a small spill or a key left inside a flat; report a minor fall at a clinic reception using fictional details. Outcome: state what happened and request a practical next step. | Home and condo + Health: reuse adapted `home-condo/guardhouse_parcel.ink` or `ceiling_leak.ink` problem/response structure; adapted `health/clinic_visit.ink` for the minor incident. Daily life's `lost_wallet.ink`, `missed_bus.ink` («terlepas») and `wrong_order.ink` (pointing out a problem without blame) are optional cross-pack recycling, not replacement charter links; `home-condo/noisy_renovation.ink` fits the polite complaint. | 〜てしまった can help introduce unintended events, but does not cover every ter- sense. A resulting state may resemble 〜ている, while chapter 6 superlatives require a separate reading. Apologies depend on responsibility and context. |
 | 17 | Accept or decline a colleague's dinner invitation; rearrange a weekend outing and offer another time. Outcome: an explicit answer and, when appropriate, an alternative. | Social + Office: `social/weekend_plans.ink`, `office/team_dinner.ink`. | Japanese invitations, refusals and sentence-final particles offer a familiar pragmatic topic. lah and kan are not automatic replacements for よ and ね. Indirectness alone does not guarantee clarity: practise an understandable yes/no plus reason or alternative. |
 | 18 | Integrated working-week scenario: introduction and office handover, parcel/repair problem, appointment clarification and changed invitation. Second parallel version uses different fictional details. Outcome: complete all four skill sections and choose targeted home practice. | All five packs, using only audited chapter-tagged versions of the anchors above. | Translate only when it supports comprehension; the task outcome is achieved in Malay. Japanese self-check wording must not hide a different standard from the English rubric. |
 
@@ -554,44 +579,37 @@ Source browser: [Hanashishou content packs](https://github.com/Nagatake-vonHatsu
 
 ## 6. Build order, approval gates and handover
 
-### Shared-source workflow
+Sam has decided that Claude builds Stage 2. The questions are in [`docs/stage-2-decisions.md`](stage-2-decisions.md); nothing below starts until Sam has answered them and the answers are recorded in the ledger Journal (the first step does that).
 
-| Order | Owner / tool | Deliverable and gate |
-| --- | --- | --- |
-| 0. Review this plan | Sam + Claude | Agree unit split, word placements and storage model, can-do changes, register/sense decisions and the review questions below. This document is a proposal, not a ledger approval record. |
-| 1. Verify the proposed inventory | Ledger owner with Sam | Check each proposed new form/sense in Kamus Dewan, its Malaysian use and required object frame; compare again with the latest live sheet and Journal to catch concurrent additions. Resolve duplicates, especially hujung minggu. Check standard counterparts and morphological family references. Confirm all Japanese remains draft and identify the reviewer. Produce a reviewed change set before writing. |
-| 2. Record approval and update the shared ledger | Ledger owner, after explicit approval recorded in Journal | Place the 53 existing rows without replacing IDs; add only the approved subset of the 182 proposed new surface rows, or record approved family mappings if Sam chooses that model. Never allocate duplicate IDs or make every derivation a separate row automatically. Record chapter, unit, core/recognition status, register, source, review status and action for each tool. Refresh both Cikgu Sensai CSV copies and source hashes from the sheet. This is a future authorised session. |
-| 3. Build the policy before content | Kata-Kata first, then Cikgu Sensai parity | Implement stage-aware affix/placement/register checks from section 3 with shared fixtures. Preserve Stage 1 acceptance tests and shrink-only exceptions. Resolve the Stage 1 clean-up brief as a separate scoped task; do not quietly broaden this batch. |
-| 4. Establish the canonical chapter packs | Kata-Kata | Create c10–c18, word/card IDs and sentence-frame IDs from approved ledger data; unit prep subsets for split chapters, graded Dunia scenes and Sedia Kelas sets; c18 contains review references, not new vocabulary. Every frame must use in-scope words/forms. Publish a pinned snapshot for Cikgu Sensai. |
-| 5. Author and pilot chapter 10 | Cikgu Sensai | Read approved Kata-Kata c10 and current ledger; build 10A/10B, writing block and one chapter 10 fast pack with the eleven-component minimums. Render/inspect PDFs and test content/IDs/word placement. Sam pilots vocabulary load, verb explanations, timings and Japanese notes before repeating the template. No suites are written in this batch. |
-| 6. Build in gated chapter batches | Kata-Kata → Cikgu Sensai → Hanashishou for each chapter | After chapter 10's pilot, proceed 11, 12, 13–15, 16–17, then 18, subject to Sam's separate scope approvals. Each cycle freezes words/frames first, authors class content second, then adapts and chapter-tags the matching speaking scenes. Include the writing/review blocks at their planned points. |
-| 7. Tag and grade speaking paths | Hanashishou | Audit all reachable Malay text: narrator, other speaker, every response, loop, stretch branch, ladder, minigame, distractor and explainer. Record earliest chapter and required word/pattern IDs. Grade or defer branches with later language; do not rely on band labels alone. Rebuild the Jambatan bridge from these reviewed scene tags. Preserve existing scene IDs where possible and record adapted-version provenance. |
-| 8. Close Stage 2 | All three, Sam review | Cikgu Sensai chapter 18 review and parallel test forms, Kata-Kata c18 cumulative practice, and five appropriately tagged band 1 paths in Hanashishou. Reconcile completion labels and explicit limits; keep learner information local, no runtime services or shared server records. Stage 3 remains out of scope. |
+### Build order after Sam approves (audit proposal)
 
-This order allows each chapter's home preparation to exist before its class pack. Hanashishou scene auditing may identify missing language early, but missing words go back through the approval workflow; they never enter the ledger simply to accommodate an existing script.
+| Step | Session and tool | What it delivers | Recommended model |
+| --- | --- | --- | --- |
+| 1 | Ledger session (sheet, then Cikgu Sensai copies) | Journal rows recording Sam's answers; the approved rows written to the Ledger tab (new rows as Draft with "KD4 check" in Action, existing rows placed, roots in "Root (KD4)"); both copies and the hash regenerated, diff checked row by row | Sonnet: a mechanical change set from the audited tables, with a scripted duplicate and diff check |
+| 2 | Cikgu Sensai | Stage-aware language checks and the affix allow-list (section 3, items 1 to 3 and 5 to 7) with the shared fixtures; no content | Opus: the gate logic decides what every later chapter may say |
+| 3 | Kata-Kata session | Packs c10 to c18 (cards, frames, Sedia Kelas, Dunia scenes; c18 review only) and the stage-aware affix guard with scoped exemptions (item 4); a pinned snapshot for Cikgu Sensai | Opus for the guard and c10, then Sonnet for c11 to c18 with an Opus check of each pack's frames |
+| 4 | Cikgu Sensai, chapter by chapter | Chapter 10 (10A, 10B, writing block, fast pack) as the template; then chapters 11 to 17 with their review and writing blocks, each to the section 6 minimums | Opus for chapter 10; Sonnet for chapters 11 to 17, with an Opus review after each chapter before it is published |
+| 5 | Cikgu Sensai | Chapter 18: the A2 review and rehearsal blocks, the A2 test (versions A and B, keys, scripts, administration sheet), the catalogue's Stage 2 record | Opus |
+| 6 | Hanashishou session | Chapter tags on every Malay scene (all reachable text: narration, other speakers, every branch), graded or deferred branches, the Jambatan bridge rebuilt from the tags, and the L-0592 → L-0330 «pintu masuk» mapping | Sonnet for tagging, with an Opus review of the bridge rebuild |
+
+Steps 3 and 4 run chapter by chapter after chapter 10 (Kata-Kata pack first, then the Cikgu Sensai suite), so each chapter's home preparation exists before its class pack. Sam pilots chapter 10 before the template is repeated. Missing words found while authoring or tagging go back through Sam and the Journal; they never enter the ledger to fit an existing script.
 
 ### Cross-tool acceptance checklist for later builds
 
 - Same stable word IDs, approved sense, chapter/unit assignment and pattern IDs in all three tools; compare snapshot hashes and record source commits.
-- Core / recognition / revision remain distinct. The optional L-0608 spoken recognition entry is not assessed as a new core word. Chapter 18 adds no vocabulary.
+- Core / recognition / revision remain distinct. The recognition rows (L-0667, L-0604, L-0678, L-0608) are not assessed as new core words. Chapter 18 adds no vocabulary.
 - Same lexical/affix policy outcomes in Python and JavaScript; no global exemption leakage and no permission derived from deferred notes.
 - Shared frames, with actor/object meaning preserved in active/passive work. Accept natural Malaysian alternatives in keys; no filler, no unidiomatic line to satisfy a count.
 - Every full teaching unit meets section 6 minimums and all six section 14 drill types; cumulative question words and aspect markers continue throughout.
 - Explicit spaced-return schedule: 10 → 11/13/18; 11 → 12/14/18; 12 → 13/15/18; 13 → 14/16/18; 14 → 15/17/18; 15 → 16/18; 16 → 17/18 plus a carried-forward Stage 3 return; 17 → 18 plus a carried-forward Stage 3 return. Chapter 18 separates review and rehearsal so late-stage material is recalled more than once.
-- Standard forms taught first and each spoken form visibly labelled, including stand-alone print extracts. For L-0690 tak tahan, propose adding its standard counterpart tidak tahan to the reviewed entry or mapping, not teaching the spoken chunk alone. For L-0703 set, show setuju first. Neither change is made now.
+- Standard forms taught first and each spoken form visibly labelled, including stand-alone print extracts. For L-0690 tak tahan, show «tidak tahan» first; for L-0703 set, show «setuju» first; for «tidak mengapa», L-0940 «tak apa» is the spoken partner. Neither change is made now.
 - Full Japanese translations in eventual instructional prose and keys, marked draft until reviewed. No etymologies beyond approved Kata-Kata notes.
 - Facts supported by checkable sources; fictional procedures clearly labelled. No imported medicine doses, baggage limits, legal duties or religion-specific expressions without the necessary review and Sam's scope decision.
 - Tests and full-history build pass; PDF pages are visually reviewed when suites are authored. A successful build of this planning document validates the unchanged course build, not the linguistic quality of proposed words.
 
-### Questions Sam must answer before any Stage 2 ledger writes
+### Questions for Sam
 
-1. **Structure and workload:** approve 11 teaching units (10A/B, 11A/B, 12A/B, 13–17), the 67-block / 50.25-hour full course and nine fast packs, with chapter 18 review-only and zero new words? Any changes to the proposed self-study budget or split?
-2. **Inventory and placement:** approve the proposed 235 core forms and their unit placements, or identify additions/removals/moves? This includes 53 existing unplaced IDs, 182 proposed new forms, one optional recognition row (L-0608), and the new standard forms mesti, jadi, mesej, lobi and seperti needed for coherent progression. Earlier words remain revision.
-3. **Derived-form storage:** should each approved new surface form have a ledger row, or should regular derived forms use approved lexical-family mappings linked to existing rows? Recommendation: use explicit, validated family mappings where genuinely regular, retaining separate entries for lexicalised/meaning-changing forms; do not infer every possible derivation. Confirm the shared schema and counting convention before IDs are allocated.
-4. **Sense and register choices:** approve narrowing L-0623 beg tangan to “handbag” for chapter 15, standard tracking-number terminology before spoken L-0608, the tak tahan → tidak tahan pairing, and chapter 17's proposed kat/ni/tu/lah/kan treatment? Should any particles remain recognition-only rather than productive core?
-5. **Goals and speaking links:** approve the refined can-do goals and graded adaptations of the inspected Hanashishou scenes, including the standard-first rewrite of “Ambil bungkusan di lobi” for chapter 12 and deferral of any full scene whose narration/branches exceed the chapter?
-6. **Assessment:** carry over the now-approved Stage 1 structure to A2: two parallel versions, four equally weighted sections, 48/80 total plus 10/20 per section, and a local course-completion label? What class size should determine speaking-test slots beyond the base six-learner allowance?
-7. **Review and release gate:** who will confirm Malaysian usage/Kamus Dewan checks and review Japanese, and must that review finish before draft ledger entries are written, or before teaching release? Recommendation: verify Malay form/sense/placement before ledger writes; retain Japanese as explicitly draft until native review. Confirm that approval will be recorded in the Journal by the ledger owner before any additions or placement edits.
+The draft's seven long questions are replaced by the one-sitting brief [`docs/stage-2-decisions.md`](stage-2-decisions.md).
 
 ### Publication and validation record
 
@@ -606,4 +624,48 @@ Section checkpoints were published incrementally to main using the connected Git
 | 5: scenes and source audit | `3e2c1ac83fc9d1ceebb4c55627fe0e733182dc86` |
 | 6: build order and final questions | The commit containing this completed section and the accompanying handoff update |
 
-No chapter suites, ledger rows, language-check code or external repositories were changed by this session. Concurrent Stage 1 changes by Claude are described in the source record, not claimed as this batch's work. **Stop here for Sam and Claude's review.**
+No chapter suites, ledger rows, language-check code or external repositories were changed by this session. Concurrent Stage 1 changes by Claude are described in the source record, not claimed as this batch's work.
+
+**Batch 1b (Claude, audit):** this file was corrected in place in one commit after `3f3c367`; see the Audit log below and `docs/STAGE-2-audit-report.md`. `python3 build.py` and all unit tests passed before publication. **Stop here for Sam's decisions.**
+
+## Audit log
+
+Claude, Stage 2 Batch 1b, 12 November 2026. Every change made to this file, and why. The decision brief lists only the items that need Sam's judgement.
+
+### Word lists (section 2)
+
+1. **Totals: 235 → 233 core forms; 53 → 57 existing rows; 182 → 176 new rows.** Of the 235 draft forms, 211 are kept as they were, 5 are changed in place, 2 are replaced, 1 is moved and 16 are dropped; 16 forms are added (2 of them the replacements). Each unit's table shows the status of every form.
+2. **Changed in place (5):** «berpindah» and «menukar» are linked to the existing roots L-0667 «pindah» and L-0604 «tukar», whose ledger notes already name them as the standard forms (the roots become spoken recognition); the Japanese of «menyewa» and «meminjam» now distinguishes renting from borrowing (both were 借りる); the English of «segi empat» is now the everyday "square or rectangular".
+3. **Replaced (2):** «mengecat» → «mengecas» (same menge- spelling, much higher need, root «cas» already in the ledger; Sam to confirm); «pelawaan» → «jemputan» (the everyday noun for an invitation; Sam to confirm).
+4. **Moved (1):** L-0698 «ganti» from unit 16 to unit 12B, beside «gantikan».
+5. **Dropped (16):** «menyapu», «mengepos», «larangan», «risiko», «sehingga», «selagi», «sebaliknya», «alasan», «berbintik», «berzip», «berlengan», «pemegang», «tanda harga», «segi tiga», «jalur», «kecederaan». Reasons are in each unit's "Not core after the audit" line: a duplicate (sehingga beside L-1086 hingga), B1-level or low need for this learner, a form the chapter's own yang pattern already covers (berzip), a reduplicated natural form (berbintik-bintik), a ‹-kan› transitive that belongs to chapter 12 (mengepos), or a pragmatic risk (alasan reads as "excuse").
+6. **Added (16):** existing rows L-0653 «blok», L-0630 «klinik panel», L-0648 «daftar», L-0641 «tangguh» and L-0710 «janji»; new rows «menelefon», «mengecas», «cuti sakit», «batal», «lelaki», «perempuan», «cermin mata», «barang», «jenama», «kunci» and «jemputan». Each is needed by the chapter's own scene: the ledger has no «lelaki», «perempuan» or «kunci» although chapter 15 describes people and chapter 16 has a key left inside a flat; the linked Hanashishou clinic scene uses «MC» and «klinik panel».
+7. **Recognition rows named** (existing rows, never tested as core): L-0667, L-0604, L-0678 «deadline» and L-0608 «nombor tracking»; the draft named only L-0608.
+8. **Revision anchors** extended in every chapter with the Stage 1 rows the scenes actually reuse (for example the clinic words of chapter 5's Dunia scene for chapter 13, the clothing words of chapter 8 for chapter 15, L-0940 «tak apa» for chapter 17).
+9. **Counting rule simplified:** one ledger row is one core word, and the family is recorded in the existing "Root (KD4)" and "Affix tag" columns. This answers the draft's derived-form storage question (see section 3, item 1).
+10. The parcel-pack paragraph adds «blok» to the forms that enter in 12A.
+
+### Structure, affixes and checks (sections 1 and 3)
+
+11. **Hours re-checked** (all arithmetic correct) and a cumulative check added: about 183 hours of class and self-study by the end of Stage 2, inside the charter's quoted A2 guideline of 180 to 200.
+12. **ber- explanation corrected:** «bekerja» follows the be- rule (first syllable ending in -er); «belajar» is the only true exception. The charter's "no sound changes" should become "no nasal sound changes" (proposal for Sam; charter not edited). Source: secondary grammar sources by web search, marked [INFERRED] until the end-of-project Kamus Dewan check.
+13. Chapter 11 spelling examples updated to the audited list (telefon → menelefon, cas → mengecas instead of sapu and cat). Chapter 17's standard and spoken pairs now include «tidak mengapa / tak apa», «tidak tahan / tak tahan» and «setuju / set».
+14. **Checks simplified:** the draft's eight implementation requirements and its proposed policy schema with family mappings are replaced by seven shorter items driven by the ledger's existing columns. The two real defects the draft found are kept: the fixed c01–c09 loader and minimum-chapter reading in `language_checks.py` (verified in the code), and Kata-Kata's global exemption set.
+
+### Scenes (section 5)
+
+15. **All Hanashishou anchors verified** at Hanashishou `55fd4ed`: the nine scene files and five vocabulary files exist at exactly the blob SHAs recorded; the draft's content claims (tertinggal in lost_wallet's opening, perlu in the guard's loop, ni and kan in report_deadline, later words in ceiling_leak) are correct; no linked scene contains a faith-specific greeting or «jalan lurus».
+16. **Chapter 10 link corrected:** grab_ride_chat is background small talk and steering the driver, not "the working day", so it serves 10B; home-condo/new_neighbour (root words only at bands 1–2) is added for 10B and 10A becomes a classroom scene about the working day.
+17. Extra anchors named: aircon_repair (12B), clinic_registration (13), missed_bus, wrong_order and noisy_renovation (16), all optional and still to be graded before use.
+18. Scene naturalness checked: every proposed scene (e-hailing small talk, condo guardhouse parcel, ceiling leak, panel clinic, pharmacy, rained-off weekend plan, lost wallet at a station counter, key locked inside, dinner invitation) is an everyday situation for a Japanese professional in Malaysia. The plan states no real-world fact (rule, fare, dose, date) that needs a source; scenes are fictional, as the draft says.
+
+### Build order and questions (section 6)
+
+19. The eight-row shared workflow is replaced by the six-step build order Sam asked for, with a recommended model for each step.
+20. The seven long questions are replaced by `docs/stage-2-decisions.md`.
+21. The cross-tool checklist now names all four recognition rows and the «tak apa» pairing.
+
+### Checked and left unchanged
+
+- The unit split (11 units, five blocks each), the review and writing block positions, chapter 18's five blocks and zero new words, the fast course (nine packs), the pass rule carried over from Stage 1, and the can-do goals of section 4. All are consistent with the Stage 1 decisions (48/80 with 10/20 per section; writing items allowed; 76 Stage 1 blocks = 57 hours; standard forms first; no faith-specific greetings; no festivals added; «terus», never «jalan lurus»; classifiers with se-).
+- Affix spelling: all 235 draft forms are spelt and formed correctly and none arrives before its gate; whole words with Stage 3 affixes are listed as whole words.
