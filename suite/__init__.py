@@ -33,7 +33,7 @@ BM_NOTE = ('No Malay explainer for Stage 1 units: explainers and rubrics are in 
 # English words that are spelt like a ledger entry. Unmarked use of these is
 # allowed; anything else in the ledger must be marked «…» or ‹…›.
 ENGLISH_HOMOGRAPHS = {'main', 'oh', 'pun', 'best', 'bank', 'hotel', 'menu', 'fail', 'golf', 'set', 'unit',
-                      'april', 'september', 'november', 'hospital', 'internet', 'kilometer'}  # month names (ledger L-1036, L-1041, L-1043)
+                      'april', 'september', 'november', 'hospital', 'internet', 'kilometer', 'pen', 'tin', 'batik'}  # month names (ledger L-1036, L-1041, L-1043)
 
 # Grammar points taught in the pilot (IDs extend the step 2 chapter points).
 GRAMMAR = [
@@ -104,6 +104,14 @@ GRAMMAR.extend([
     dict(id='ms-c07-g06', chapter_id='ms-c07', label='Duration and transport: berapa lama, naik bas, kereta api, jalan kaki; jam / sesak (traffic)'),
 ])
 
+GRAMMAR.extend([
+    dict(id='ms-c08-g02', chapter_id='ms-c08', label='Number + counter + noun: dua ekor ikan; the counter never changes'),
+    dict(id='ms-c08-g03', chapter_id='ms-c08', label='The whole words seekor, sebiji, sebuah; satu + counter for the rest'),
+    dict(id='ms-c08-g04', chapter_id='ms-c08', label='Berapa + counter: how many (Berapa biji telur?)'),
+    dict(id='ms-c08-g05', chapter_id='ms-c08', label='Price per counter and the total: lima ringgit satu kuntum; semua'),
+    dict(id='ms-c08-g06', chapter_id='ms-c08', label='Ordering: tolong, Makan sini atau bungkus?; containers and portions'),
+])
+
 
 # Product and feature names, not Malay text (removed before the unmarked-Malay guard only).
 PRODUCT_NAMES = ['Cikgu, Sensai!', 'Cikgu Sensai', 'Sedia Kelas', 'Tanya Cikgu', 'Kata-Kata', 'Dunia', 'Jambatan',
@@ -112,7 +120,7 @@ PRODUCT_NAMES = ['Cikgu, Sensai!', 'Cikgu Sensai', 'Sedia Kelas', 'Tanya Cikgu',
                  'Sembang di pantri', 'Pagi di pejabat', 'Ke bank dan pejabat pos', 'Pasar pagi',
                  'Satu hari Encik Tanaka', 'Hujan petang', 'Cuti ke pantai', 'Bangun pagi',
                  'Masak nasi goreng', 'Di klinik', 'Gambar bayi', 'Lepak di kedai mamak',
-                 'Main badminton', 'Di ruang tamu', 'Telefon baru', 'Lintas jalan']
+                 'Main badminton', 'Di ruang tamu', 'Telefon baru', 'Lintas jalan', 'Beli baju']
 
 
 def strip(s):
@@ -246,9 +254,9 @@ def turns(script):
 
 
 def load_units():
-    from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, ms_c07, fast
+    from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, ms_c07, ms_c08, fast
     return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT,
-                       ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT, ms_c06.UNIT, ms_c07.UNIT,
+                       ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT, ms_c06.UNIT, ms_c07.UNIT, ms_c08.UNIT,
                        *fast.PACKS] if u]
 
 
