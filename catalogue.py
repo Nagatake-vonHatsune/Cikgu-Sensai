@@ -94,7 +94,7 @@ def make_catalogue(lessons, groups):
             'scene_ids':[f'scene-a1-ms-origin-{n:02}'],'kata_kata_set':{'pack_id':p['id'],'sedia_kelas':p['sedia_kelas'],
                 'source_url':f'https://github.com/Nagatake-vonHatsune/katakata/blob/0f78179034552f85d4c0d7ac4cb9e185f8b8ac8a/content/ms/kelas/c{n:02}.json'},
             'hanashishou_scene_ids':[], 'self_study_hours':{'full':3*len(units),'fast':[9,10],'status':'provisional planning estimate'},
-            'review_status':'draft','sequence':'stage1',
+            'review_status':'draft','sequence':'stage1','stage_id':'ms-stage1',
             'prerequisites':[f'ms-c{k:02}' for k in range(1,n)] if n<=2 else [],
             'prerequisite_status':('none (first chapter)' if n==1 else 'mapped in the step 4 pilot') if n<=2 else 'not yet mapped',
             'fast_pack_ids':[], 'pilot_status':'step 4 pilot draft' if all(u['id'] in authored for u in units) else None})
@@ -150,7 +150,11 @@ def make_catalogue(lessons, groups):
         c['fast_pack_ids']=[x['id'] for x in components if x['chapter_id']==c['id'] and x.get('fast')]
     tests=json.loads((ROOT/'curriculum/test-items.json').read_text())+[t for l in lessons if l.get('suite') for t in l['suite']['tests']]
     extra_blocks={'pronunciation':'ms-c01-pronunciation-block','writing-2b':'ms-c02b-writing-block','review-3a':'ms-c03a-review-block','writing-3c':'ms-c03c-writing-block','review-4b':'ms-c04b-review-block','writing-5':'ms-c05-writing-block','review-6':'ms-c06-review-block','writing-7':'ms-c07-writing-block','review':'ms-stage1-review'}
-    return {'schema_version':1,'review_status':'draft','component_types':TYPES+['Fast-course pack'],'chapters':chapters,'components':components,
+    from suite.stage1 import stage_record
+    # Stage records carry the stage's CEFR label and its completion rule (step 5h): the data behind the charter's
+    # "CEFR label shown in the Evaluator" (section 10, phase 3). Chapters and components keep their own 'level'.
+    stages=[stage_record([x for x in components if x.get('check_unit')=='ms-stage1'])]
+    return {'schema_version':1,'review_status':'draft','component_types':TYPES+['Fast-course pack'],'chapters':chapters,'stages':stages,'components':components,
         'component_slots':slots,'test_items':tests, 'scenes':scenes,
         'additional_blocks':[{'id':'ms-stage1-'+name,'after_unit':unit,'minutes':45,
             'component_ids':[x['id'] for x in components if x['id']==extra_blocks.get(name)],

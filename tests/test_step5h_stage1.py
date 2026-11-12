@@ -304,3 +304,90 @@ class StageTest(unittest.TestCase):
         script = ' '.join(line for _, line in a['listening'][2]['script'])
         self.assertIn('Semua enam ringgit', script)
         self.assertIn('Baki empat ringgit', script)
+
+    def test_version_b_prices_add_up(self):
+        b = stage1.VERSION_B
+        self.assertAlmostEqual(5.50 + 2 * 0.50 + 2.00, 8.50)   # B-L8: nasi goreng, two pisang goreng, a kopi
+        self.assertAlmostEqual(10.00 - 8.50, 1.50)
+        self.assertAlmostEqual(3 * 1.50, 4.50)                  # B-R3
+        self.assertAlmostEqual(20.00 - (2 * 3.00 + 5 * 1.20), 8.00)  # B-R5
+        board = ' '.join(b['reading'][1]['text'])
+        for price in ('Epal · RM1.50 sebiji', 'Oren · RM1.20 sebiji', 'Mangga · RM3.00 sebiji'):
+            self.assertIn(price, board)
+        script = ' '.join(line for _, line in b['listening'][2]['script'])
+        self.assertIn('Semua lapan ringgit lima puluh sen', script)
+        self.assertIn('Baki satu ringgit lima puluh sen', script)
+
+    def test_versions_are_parallel(self):
+        a, b = stage1.VERSION_A, stage1.VERSION_B
+        ma, mb = stage1.item_map(a), stage1.item_map(b)
+        self.assertEqual([(c[2:], s, m) for c, s, m, _ in ma], [(c[2:], s, m) for c, s, m, _ in mb])
+        for (ca, _, _, cha), (cb, _, _, chb) in zip(ma, mb):
+            # The same chapters are tested in the same place, give or take one supporting chapter.
+            self.assertTrue(set(cha) & set(chb), (ca, cb))
+        # Different facts: no listening line that carries a fact, and no reading text, is shared (stock phrases such as
+        # «Makan sini atau bungkus?» may recur).
+        sa = {line for t in a['listening'] for _, line in t['script'] if len(line) > 25}
+        sb = {line for t in b['listening'] for _, line in t['script'] if len(line) > 25}
+        self.assertFalse(sa & sb)
+        self.assertFalse(set(' '.join(p['text']) for p in a['reading']) & set(' '.join(p['text']) for p in b['reading']))
+
+    def test_scripts_and_administration_sheet(self):
+        scripts = self.mine['ms-stage1-test-scripts']
+        text = ' '.join(self.lines(scripts))
+        for version in stage1.VERSIONS:
+            for task in version['listening']:
+                for _, line in task['script']:
+                    self.assertIn(f'«{line}»', text)
+        admin = self.mine['ms-stage1-test-admin']
+        self.assertEqual(admin['suite']['component_type'], 'Teaching plan')
+        body = ' '.join(self.lines(admin) + admin['key'])
+        for part in ('Timing', 'Materials', 'Running the test', 'Scoring and pass mark', 'Item map · Version A',
+                     'Item map · Version B', 'Result sheet'):
+            self.assertIn(part, ' '.join(n for n, _, _ in admin['sections']) + body, part)
+        self.assertIn('48 or more out of 80 (60 per cent), and at least 10 out of 20 in every section', body)
+        self.assertIn('proposal for Sam', body)
+        self.assertIn('not an official CEFR certificate', body)
+        self.assertIn('keeps no learner records', body)
+        # The item map lists every item and every chapter with its can-do goal, for both versions.
+        for version in stage1.VERSIONS:
+            for code, _, m, ch in stage1.item_map(version):
+                self.assertIn(f'{code} · {m} · ch ', body)
+            for n in range(1, 10):
+                self.assertIn(f'Ch {n} · {GOALS[n - 1]}: {version["label"]}-', body)
+        minutes = sum(stage1.TIMING[s] for s in ('listening', 'reading', 'writing'))
+        self.assertEqual(minutes, 45)
+
+    def test_catalogue_stage_record(self):
+        """The charter's "CEFR label shown in the Evaluator" (section 10, phase 3): the catalogue carries a Stage 1 record with
+        its CEFR level and the completion flag and label. No learner data."""
+        catalogue = make_catalogue(bank(), chapters_js())
+        stage = next(s for s in catalogue['stages'] if s['id'] == 'ms-stage1')
+        self.assertEqual(stage['cefr'], 'A1')
+        self.assertEqual(stage['chapter_ids'], [f'ms-c{n:02}' for n in range(1, 10)])
+        self.assertEqual(stage['review_block_id'], 'ms-stage1-review')
+        self.assertEqual(stage['completion']['flag'], 'stage1_complete')
+        self.assertEqual(stage['completion']['cefr'], 'A1')
+        self.assertIn('Nothing is built in Hanashishou', stage['completion']['evaluator_note'])
+        self.assertIn('none', stage['learner_records'])
+        st = stage['stage_test']
+        self.assertEqual(st['pass_rule']['total_min'], 48)
+        self.assertEqual(st['total_marks'], 80)
+        ids = {c['id'] for c in catalogue['components']}
+        for v in ('A', 'B'):
+            self.assertEqual(len(st['versions'][v]), 4)
+            self.assertTrue(set(st['versions'][v]) <= ids)
+        self.assertIn(st['scripts_id'], ids)
+        self.assertIn(st['administration_id'], ids)
+        # Every stage-test item in the catalogue has its chapters, and the ids match the generated test items.
+        items = {t['id'] for t in catalogue['test_items'] if t['id'].startswith('ms-stage1-test-')}
+        self.assertEqual(items, set(st['item_chapters']))
+        for chapters in st['item_chapters'].values():
+            self.assertTrue(chapters and all(c in stage['chapter_ids'] for c in chapters))
+        for c in catalogue['chapters']:
+            self.assertEqual(c['level'], 'A1')
+            self.assertEqual(c['stage_id'], 'ms-stage1')
+        ch9 = next(c for c in chapters_js() if c['title'].startswith('Chapter 9'))
+        for title in ('Stage 1 · A1 stage test · Version A · Listening', 'Stage 1 · A1 stage test · Version B · Speaking',
+                      'Stage 1 · A1 stage test · Administration sheet (teacher)'):
+            self.assertIn(title, ch9['stage_items'])

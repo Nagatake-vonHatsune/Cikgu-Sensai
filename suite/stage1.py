@@ -7,7 +7,9 @@ so the model uses every Kata-Kata frame of chapters 1 to 9 (ms-c07-f03 in Sam's 
 lurus»); the key lists where each frame appears and a test checks it.
 
 The A1 stage test is a summative test in the Irodori / JF Standard style: tasks with real outcomes, in four sections
-(listening, reading, writing, speaking), 20 marks each. Version A is in suite/stage1_test_a.py.
+(listening, reading, writing, speaking), 20 marks each, in two parallel versions (suite/stage1_test_a.py and
+stage1_test_b.py), with the listening scripts, the administration sheet (timing, materials, scoring, the pass mark and
+the item map) and the Stage 1 record for the catalogue (CEFR A1, the completion label).
 
 Rules (as in every unit): Malaysian standard Malay, standard forms first; only ledger words placed in chapters 1 to 9 (the
 build fails on anything else because ms-stage1 is a re-authored unit); no productive ber- or me-; no faith-specific
@@ -15,6 +17,7 @@ greeting. All names, places, prices, numbers and times are fictional. All Japane
 """
 
 from .stage1_test_a import VERSION as VERSION_A
+from .stage1_test_b import VERSION as VERSION_B
 
 UNIT_ID = 'ms-stage1'
 CHAPTERS = [f'ms-c{n:02}' for n in range(1, 10)]
@@ -396,13 +399,16 @@ def item_map(version):
 
 def test_components(v):
     V = v['label']; low = V.lower(); out = []
-    rules = (f'Version {V}. Answer in English or Japanese unless a question asks for Malay. All names, shops, prices, times '
-             f'and places are fictional. / バージョン{V}。マレー語で書くよう指示がある問題以外は、英語か日本語で答えます。'
-             '名前、店、値段、時刻、場所はすべて架空です。')
+    fiction = ('All names, shops, prices, times and places are fictional.', '名前、店、値段、時刻、場所はすべて架空です。')
+    rules = {'listening': (f'Version {V}. Answer in English or Japanese unless a question asks for Malay. {fiction[0]} / '
+                           f'バージョン{V}。マレー語で書くよう指示がある問題以外は、英語か日本語で答えます。{fiction[1]}'),
+             'writing': f'Version {V}. Write in Malay. {fiction[0]} / バージョン{V}。マレー語で書きます。{fiction[1]}',
+             'speaking': f'Version {V}. Speak in Malay. {fiction[0]} / バージョン{V}。マレー語で話します。{fiction[1]}'}
+    rules['reading'] = rules['listening']
 
     def comp(slug, sub, title, minutes, sections, key, explain, tests, skills):
         goal, goal_ja = TEST_GOALS[sub]
-        sections = [('Can-do and instructions · できることと指示', [f'Can-do: {goal} / {goal_ja}', rules] + sections[0][1])] + sections[1:]
+        sections = [('Can-do and instructions · できることと指示', [f'Can-do: {goal} / {goal_ja}', rules[sub]] + sections[0][1])] + sections[1:]
         out.append(dict(slug=f'test-{low}-{slug}', type='Test', title=f'A1 stage test · Version {V} · {title}', block='Stage test',
                         minutes=minutes, sections=sections, key=key + [
                             f'Section total: {SECTION_MARKS} marks. The pass mark and the item map are on the administration sheet.'],
@@ -444,7 +450,7 @@ def test_components(v):
           'The reading paper of the A1 stage test: signs, a price board, a message and a notice.'), tests, ['reading'])
 
     # Writing
-    sections = [('Before you write', [f'{TIMING["writing"]} minutes, {SECTION_MARKS} marks. Write in Malay. / 18分、20点。マレー語で書きます。'])]
+    sections = [('Before you write', [f'{TIMING["writing"]} minutes, {SECTION_MARKS} marks. / 18分、20点。'])]
     tests, key = [], []
     for t, part in enumerate(v['writing'], 1):
         code = f'W{t}'
@@ -494,11 +500,143 @@ def test_components(v):
     return out
 
 
-VERSIONS = [VERSION_A]
+PASS_TOTAL, PASS_SECTION, TOTAL = 48, 10, 4 * SECTION_MARKS
+COMPLETION_LABEL = 'Malay A1 · Stage 1 complete'
+
+
+def _chapters(ch):
+    return ', '.join(str(c) for c in sorted(set(ch)))
+
+
+def item_ids(version):
+    """[(catalogue test-item id, item code, chapters)] in component order, matching suite.build_suite's numbering."""
+    low = version['label'].lower(); counters = {}; out = []
+    for code, sub, _, ch in item_map(version):
+        counters[sub] = counters.get(sub, 0) + 1
+        out.append((f'ms-stage1-test-{low}-{sub}-{counters[sub]:02}', code, sorted(set(ch))))
+    return out
+
+
+def scripts_component():
+    sections = []
+    for v in VERSIONS:
+        lines = []
+        for t, task in enumerate(v['listening'], 1):
+            lines.append(f'■ Version {v["label"]} · Task {t} · {task["title"]}')
+            lines.append(task['context'])
+            lines.extend(f'{sp}: «{line}»' for sp, line in task['script'])
+        sections.append((f'Version {v["label"]} · バージョン{v["label"]}', lines))
+    return dict(slug='test-scripts', type='Teaching plan', title='A1 stage test · Listening scripts (teacher)', block='Stage test',
+                minutes=None, sections=sections,
+                key=['Read each text twice at a natural speed, with a short pause between the two readings. Say the speaker\'s '
+                     'name before each line. Do not hand out this sheet. The answers are in the keys of the two listening papers.',
+                     'All names, shops, prices, times and places are fictional.'],
+                explain=('A1 段階テストの聞く問題の台本（先生用、バージョンAとB）です。学習者には配りません。日本語は未監修です。',
+                         'The teacher-read scripts for the A1 stage test listening papers, versions A and B. Not for learners.'),
+                sub_type='listening scripts', tests=[], patterns=[], grammar=list(FOCUS.values()),
+                goal=TEST_GOALS['listening'][0], skills=['listening'])
+
+
+def admin_component():
+    maps = []
+    for v in VERSIONS:
+        lines = [f'■ Version {v["label"]}: item, marks, chapters whose can-do goals it tests']
+        lines += [f'{code} · {m} · ch {_chapters(ch)}' for code, _, m, ch in item_map(v)]
+        lines.append(f'■ Version {v["label"]}: chapter, its can-do goal, the items that test it')
+        for n in range(1, 10):
+            codes = [code for code, _, _, ch in item_map(v) if n in ch]
+            lines.append(f'Ch {n} · {CHARTER_GOALS[n]}: ' + ', '.join(codes))
+        maps.append((f'Item map · Version {v["label"]} · 問題と章の対応', lines))
+    sections = [
+        ('What the test is · テストについて', [
+            'The A1 stage test closes Stage 1 (chapters 1 to 9). It checks the charter\'s Stage 1 can-do goals at CEFR A1 '
+            'with tasks that have a real outcome, in the Irodori and JF Standard way: understand an announcement, act on a '
+            'sign, fill in a form, order and pay, ask the way. / A1 段階テストは第1段階（第1〜9章）のまとめのテストです。'
+            '憲章の「できること」を CEFR A1 で、実際の目的のある課題で確かめます（いろどり・JF スタンダードの方法）。',
+            'Two parallel versions, A and B, with the same sections, tasks, marks and chapter spread. Use A for the main sitting; '
+            'use B for a second group, a re-sit or the next course. Do not give both versions to one learner in the same week. / '
+            '同じ構成のバージョンAとBがあります。本試験はA、別のグループ・再試験・次の講座はBを使います。',
+            'The test is summative but kept low-stakes in spirit (charter rule 9): the result tells the learner which can-do goals '
+            'to revisit. A pass means the learner has met the Stage 1 goals at A1 as this course defines them; it is not an '
+            'official CEFR certificate. / 合格は、この講座の定める A1 の第1段階の目標を達成したという意味で、公式の CEFR 証明ではありません。']),
+        ('Timing · 時間', [
+            f'Written paper, one 45-minute block: listening {TIMING["listening"]} minutes, reading {TIMING["reading"]}, writing '
+            f'{TIMING["writing"]}. Collect each paper before the next one.',
+            f'Speaking: about {TIMING["speaking"]} minutes for each learner, one at a time or in pairs, in a second block (six '
+            'learners fill about 45 minutes). The others can do the stage review self-check or Kata-Kata review meanwhile.',
+            'Do the stage review block before the test, in an earlier class.']),
+        ('Materials · 準備するもの', [
+            'For each learner: the listening, reading and writing papers of the version you use (without the teacher keys).',
+            'For the speaking test: the speaking sheet, with the four role-play cards cut apart; the teacher key with the '
+            'examiner\'s lines and the rubric.',
+            'For the teacher: the listening scripts sheet, the four teacher keys, this sheet and one result sheet per learner. '
+            'No audio is needed: the teacher reads the scripts.']),
+        ('Running the test · 実施の手順', [
+            'Listening: read the instructions, give one minute to read the questions, then read each text twice at a natural '
+            'speed. Learners answer in English or Japanese, or in Malay where the question asks for it.',
+            'Reading and writing: learners work alone without notes or dictionaries. Answer questions about the instructions only.',
+            'Speaking: greet the learner first («Selamat pagi. Apa khabar?»; not marked). Part 1, the self-introduction, then the two follow-up questions. '
+            'Part 2: choose card 1 or 2, then card 3 or 4; give 30 seconds to read the card; play your part from the key and '
+            'bring in the change of plan halfway. Mark with the rubric straight after each part.']),
+        ('Scoring and pass mark · 採点と合格基準', [
+            f'Four sections of {SECTION_MARKS} marks: {TOTAL} in all. Listening and reading: one mark for each fact in the key. '
+            'Writing and speaking: the rubric in each key (content, language, accuracy or interaction).',
+            f'Pass: {PASS_TOTAL} or more out of {TOTAL} (60 per cent), and at least {PASS_SECTION} out of {SECTION_MARKS} in every '
+            'section. / 合格：80点中48点以上（60％）、かつ各セクション20点中10点以上。',
+            f'A pass is recorded as "{COMPLETION_LABEL}" (CEFR A1). "Not yet": go back to the chapters of the items that were '
+            'missed (item map below), then sit the other version.',
+            'Accept any natural answer with the same meaning. In listening and reading, a spelling slip that does not change the '
+            'meaning loses no mark. No half marks.']),
+        *maps,
+        ('After the test · テストのあと', [
+            'Go over the answers in the next class. Errors return as practice, not as red crosses (charter rule 9).',
+            'Fill in a result sheet for each learner on paper. Cikgu Sensai keeps no learner records.',
+            '■ Result sheet', 'Name: ______________________   Version: A / B   Date: __________',
+            f'Listening __ / {SECTION_MARKS}   Reading __ / {SECTION_MARKS}   Writing __ / {SECTION_MARKS}   Speaking __ / {SECTION_MARKS}',
+            f'Total __ / {TOTAL}   ☐ {COMPLETION_LABEL} (pass)   ☐ Not yet',
+            'Chapters to revisit: ______________________']),
+    ]
+    return dict(slug='test-admin', type='Teaching plan', title='A1 stage test · Administration sheet (teacher)', block='Stage test',
+                minutes=None, sections=sections,
+                key=['The pass mark (60 per cent overall, half of each section) is a proposal for Sam; it is not taken from a JF or '
+                     'CEFR document. The item maps are generated from the item data, so they always match the papers.',
+                     'Answer keys: on each paper. Listening scripts: on the scripts sheet and in the listening keys.'],
+                explain=('A1 段階テストの実施要領（先生用）：時間、準備、手順、採点と合格基準、問題と章の対応表、結果記入表。日本語は未監修です。',
+                         'How to run the A1 stage test: timing, materials, procedure, scoring and the pass mark, the item maps and a '
+                         'result sheet.'),
+                sub_type='administration', tests=[], patterns=[], grammar=list(FOCUS.values()),
+                goal='I can run and mark the A1 stage test and tell each learner which can-do goals to revisit.', skills=[])
+
+
+def stage_record(components):
+    """The Stage 1 record for the catalogue. It carries the CEFR label that the charter (section 10, phase 3) wants shown in
+    Hanashishou's Evaluator: a learner who passes the A1 stage test has completed Stage 1 at A1. The record is a definition
+    only; Cikgu Sensai stores no learner results."""
+    ids = {c['id'] for c in components}
+    return dict(
+        id='ms-stage1', language='Malay', title='Stage 1', cefr='A1', chapter_ids=CHAPTERS,
+        review_block_id='ms-stage1-review' if 'ms-stage1-review' in ids else None,
+        stage_test=dict(
+            versions={v['label']: [f'ms-stage1-test-{v["label"].lower()}-{s}' for s in ('listening', 'reading', 'writing', 'speaking')
+                                   if f'ms-stage1-test-{v["label"].lower()}-{s}' in ids] for v in VERSIONS},
+            scripts_id='ms-stage1-test-scripts' if 'ms-stage1-test-scripts' in ids else None,
+            administration_id='ms-stage1-test-admin' if 'ms-stage1-test-admin' in ids else None,
+            section_marks=SECTION_MARKS, total_marks=TOTAL, timing_minutes=TIMING,
+            pass_rule=dict(total_min=PASS_TOTAL, section_min=PASS_SECTION, status='proposal for Sam'),
+            item_chapters={iid: [f'ms-c{c:02}' for c in ch] for v in VERSIONS for iid, _, ch in item_ids(v)}),
+        completion=dict(flag='stage1_complete', label=COMPLETION_LABEL, cefr='A1',
+                        rule='pass the A1 stage test (either version) by the pass rule',
+                        evaluator_note='Hanashishou shows this CEFR label for a learner who has completed Stage 1; its band 1 '
+                                       '(Foundation) starts at A2 (charter section 7). Nothing is built in Hanashishou here.'),
+        learner_records='none: the result sheet is paper; Cikgu Sensai stores no learner data', review_status='draft')
+
+
+VERSIONS = [VERSION_A, VERSION_B]
 
 
 def components(ledger):
-    return [review_component(), *[c for v in VERSIONS for c in test_components(v)]]
+    return [review_component(), *[c for v in VERSIONS for c in test_components(v)], scripts_component(), admin_component()]
+
 
 
 UNIT = dict(unit_id=UNIT_ID, label=None, stage='stage1', chapter_id='ms-c09', check_unit=UNIT_ID, id_prefix=UNIT_ID,
