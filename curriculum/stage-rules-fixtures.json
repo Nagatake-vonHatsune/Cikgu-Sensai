@@ -735,9 +735,54 @@
    "check": "register"
   },
   {
-   "id": "tak-apa-before-tidak-mengapa-fails",
-   "why": "R3: «tak apa» before «tidak mengapa» (chapter 17)",
+   "id": "tak-tahan-before-tidak-tahan-fails",
+   "why": "R3: «tak tahan» with no earlier «tidak tahan»",
    "expect": "fail",
+   "check": "register",
+   "segments": [
+    {
+     "text": "tidak",
+     "chapter": 17,
+     "kind": "vocabulary"
+    },
+    {
+     "text": "tak",
+     "chapter": 17,
+     "kind": "vocabulary",
+     "source_text": "tak [spoken]"
+    },
+    {
+     "text": "Saya tak tahan.",
+     "chapter": 17
+    }
+   ]
+  },
+  {
+   "id": "standard-then-labelled-spoken-passes",
+   "why": "R3 order: standard first, spoken form labelled",
+   "expect": "pass",
+   "segments": [
+    {
+     "text": "setuju",
+     "chapter": 17,
+     "kind": "vocabulary"
+    },
+    {
+     "text": "set",
+     "chapter": 17,
+     "kind": "vocabulary",
+     "source_text": "set [spoken]"
+    },
+    {
+     "text": "Set, jumpa esok.",
+     "chapter": 17
+    }
+   ]
+  },
+  {
+   "id": "tak-apa-everyday-form-passes",
+   "why": "«tak apa» has no standard partner (Sam, 13 Nov 2026); only the tak / tidak pair applies",
+   "expect": "pass",
    "segments": [
     {
      "text": "tidak",
@@ -753,29 +798,6 @@
     {
      "text": "Tak apa, saya tunggu.",
      "chapter": 12
-    }
-   ],
-   "check": "register"
-  },
-  {
-   "id": "standard-then-labelled-spoken-passes",
-   "why": "R3 order: standard first, spoken form labelled",
-   "expect": "pass",
-   "segments": [
-    {
-     "text": "tidak mengapa",
-     "chapter": 17,
-     "kind": "vocabulary"
-    },
-    {
-     "text": "tak apa",
-     "chapter": 17,
-     "kind": "vocabulary",
-     "source_text": "tak apa [spoken]"
-    },
-    {
-     "text": "Tak apa, saya tunggu.",
-     "chapter": 17
     }
    ]
   },

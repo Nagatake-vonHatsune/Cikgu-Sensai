@@ -16,14 +16,14 @@ All rules live in `curriculum/stage-rules.json`; `language_checks.py` reads its 
 2. **Family detection.** If the ledger's "Affix tag" names a family or a non-root type (for example «masakan» is tagged -an), the tag decides. Otherwise the spelling decides. This matters for L-0619 «tertinggal», L-0621 «terlepas» and L-0644 «terlupa», which the ledger tags "root": they are still gated at 16. «termurah», «terbesar», «terbaik» and «tercantik» stay chapter 6 superlatives and never open the accident ter- family. A final i is not -i («membeli», «mengisi»), and «makan», «ikan», «bukan» and «akan» are roots.
 3. **Whole words at their own chapter:** Selamat berkenalan (1), belajar (2, the only bel- spelling), berapa (3), mengapa (5), the four superlatives, bersih and menang (6), Dilarang merokok (9), bekerja and berehat (10, the be- spelling of ber-), mesej (11), mesti (13), belanja and setuju (17); plus every ledger row tagged chunk, chunk* or lex, at its own chapter (so «rumah terbuka» stays a chapter 9 phrase), and the look-alike roots (the Kata-Kata allow-list plus Sam's list in `curriculum/malay-roots.json`). The Stage 1 di- rule (9), se- + classifier (8), ke- ordinals (3), -nya, -kah and -an (2) are unchanged; their chapter numbers now come from the file.
 4. **Placement read strictly.** The chapter is the lowest "ChN" in the ledger's place column after removing notes ("moved from", "reviewed in", "reused", "was", "waits for"); card IDs no longer count, and a retired row is never placed. For today's ledger this gives the same chapter for all 1,265 rows. Every pinned Kata-Kata chapter file is loaded, not a fixed c01 to c09 range.
-5. **Register (R3).** New pairs: tidak mengapa / tak apa, tidak tahan / tak tahan, setuju / set, di / kat (seperti itu / macam tu, ini / ni and itu / tu were already checked). As before, a spoken form fails unless its standard form was taught earlier and the spoken form was taught with a "spoken" label.
+5. **Register (R3).** New pairs: tidak tahan / tak tahan, setuju / set, di / kat, in every chapter (seperti itu / macam tu, ini / ni and itu / tu were already checked). «tak apa» has **no** standard partner (Sam's answer below); only the tak / tidak pair applies to it. As before, a spoken form fails unless its standard form was taught earlier and the spoken form was taught with a "spoken" label.
 6. **Particles (R4).** «lah» and «kan» may appear in prompts and listening once placed (chapter 17), but a test answer key that contains them fails («lah» on its own or as an ending, «kan» on its own; «adalah» and «masalah» are whole words). If a key has to name the particle, quote it as a ‹…› mention.
 7. **Malaysian forms.** Disallowed teaching forms, matched as whole words and inside hyphenated words: the Stage 1 list plus berbicara, perbaiki, musik, film, olahraga, apotek, kantor, and four the plan names as Indonesian: bersepeda, antre, berwisata, kecelakaan. They are allowed only inside a ‹…› mention whose source in `curriculum/malay-mentions.json` says "do not use"; any other use fails, including other mentions.
 
 ## The shared files
 
 - **`curriculum/stage-rules.json`** (version 1). Its `format` key documents every field for Kata-Kata: `affix_gates` (family, chapter, ledger tags, detection, which rule set enforces it), `stage_aware_rule`, `family_resolution`, `shape_tests`, `whole_words` (form, chapter, ledger ID, reason), `ter_superlatives`, `lookalike_roots`, `register_pairs` (spoken, standard, from_chapter, decision), `particles` and `disallowed_forms`. Readers ignore keys they do not know, and nobody edits the file to make content pass.
-- **`curriculum/stage-rules-fixtures.json`**: 69 shared cases (each a short list of segments with an expected pass or fail and the check that must fail). `tests/test_stage_rules.py` runs them all; Kata-Kata's guard should run the same file.
+- **`curriculum/stage-rules-fixtures.json`**: 70 shared cases (each a short list of segments with an expected pass or fail and the check that must fail). `tests/test_stage_rules.py` runs them all; Kata-Kata's guard should run the same file.
 
 ## Left for Kata-Kata (build step 3)
 
@@ -32,8 +32,13 @@ All rules live in `curriculum/stage-rules.json`; `language_checks.py` reads its 
 3. Run `curriculum/stage-rules-fixtures.json` and agree with Python on every case.
 4. When c10 to c18 exist, refresh the Cikgu Sensai snapshot: the checker already loads every pinned chapter file.
 
-## For Sam to confirm
+## Sam's answers (13 Nov 2026, in chat)
 
-1. **«tak apa» in Stage 1.** Unit 5 already shows «tak apa» (L-0940, a Dunia recognition word, primes chapter 5), long before «tidak mengapa» (L-1261, chapter 17). To keep Stage 1 passing unchanged, the four new R3 pairs apply from chapter 10. In Stage 2 «tak apa» therefore needs «tidak mengapa» first (chapter 17). Is that what you want, or should unit 5 change?
-2. **Indonesian forms.** I added bersepeda, antre, berwisata and kecelakaan from the plan's word tables. I did **not** add saku, darurat, berdagang, berteman or menikah, which the plan also calls Indonesian but which are also used in Malaysian Malay (for example «wang saku»). [UNVERIFIED against Kamus Dewan; part of the end-of-project check.]
-3. **Stative ter- words.** The checker treats every ter- word except the four superlatives as the chapter 16 accident family. «terbuka», «tertutup» or «termasuk» on their own would need a whole-word entry (your approval) before chapter 16. «rumah terbuka» is unaffected.
+1. **«tak apa»: «tidak mengapa» is not used.** Sam: today Malaysians say «tak apa», or the slang short form takpe. So the tidak mengapa / tak apa pair is removed from `curriculum/stage-rules.json` (recorded under `register_notes`), and the other three new pairs now apply from chapter 1 (Stage 1 never uses tak tahan, set or kat, so its results are unchanged). [I could not confirm by web search whether Kamus Dewan lists «tidak mengapa» as a formal written phrase; Sam's usage decision governs teaching either way.]
+2. **Indonesian forms: confirmed** as added (bersepeda, antre, berwisata, kecelakaan) and as left out (saku, darurat, berdagang, berteman, menikah).
+3. **Stative ter- words: confirmed.** «terbuka» and the like on their own stay gated at chapter 16 unless Sam approves a whole-word entry.
+
+## Still to do in the ledger (not done here: this step may not edit the ledger)
+
+- **L-1261 «tidak mengapa»** is still a Ch17 core row (unit 17). A ledger session should add a Journal row for Sam's answer above and retire the row or remove its placement; unit 17 then has one core word fewer. Its meaning cells also call «tak apa» the spoken form of it, which no longer holds.
+- **takpe** is not in the ledger. Whether it is taught as a marked spoken spelling of L-0940 «tak apa» (recognition only) is Sam's call; a new row needs his approval in the Journal.

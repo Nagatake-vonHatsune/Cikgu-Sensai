@@ -59,7 +59,9 @@ class StageRulesFile(unittest.TestCase):
   for form in ['berbicara','perbaiki','musik','film','olahraga','apotek','kantor','mobil','uang']:self.assertIn(form,RULES['disallowed_forms'])
  def test_register_pairs(self):
   pairs={(p['spoken'],p['standard']) for p in RULES['register_pairs']}
-  for pair in [('tak apa','tidak mengapa'),('tak tahan','tidak tahan'),('set','setuju'),('macam tu','seperti itu'),('ni','ini'),('tu','itu'),('kat','di')]:
+  # Sam, 13 Nov 2026: «tidak mengapa» is not used, so «tak apa» has no standard partner.
+  self.assertNotIn('tak apa',{p['spoken'] for p in RULES['register_pairs']})
+  for pair in [('tak tahan','tidak tahan'),('set','setuju'),('macam tu','seperti itu'),('ni','ini'),('tu','itu'),('kat','di')]:
    self.assertIn(pair,pairs)
   self.assertEqual({p['form'] for p in RULES['particles']},{'lah','kan'})
  def test_strict_placement(self):

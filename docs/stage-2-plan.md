@@ -697,4 +697,4 @@ Claude wrote the approved rows to the ledger sheet and regenerated both Cikgu Se
 
 ## Build step 2: stage-aware checks (13 Nov 2026)
 
-Section 3's "Required implementation" is built: gates, whole words, register pairs, particles and disallowed forms are in `curriculum/stage-rules.json`, shared with Kata-Kata, with 69 shared cases in `curriculum/stage-rules-fixtures.json`. Stage 1 results are unchanged. Report and three points for Sam: [`docs/STAGE-2-step2-report.md`](STAGE-2-step2-report.md).
+Section 3's "Required implementation" is built: gates, whole words, register pairs, particles and disallowed forms are in `curriculum/stage-rules.json`, shared with Kata-Kata, with 69 shared cases in `curriculum/stage-rules-fixtures.json`. Stage 1 results are unchanged. Sam's answers to its three points (13 Nov 2026): «tidak mengapa» is not used, so «tak apa» has no standard partner and L-1261 awaits a ledger session; the disallowed forms and the stative ter- rule are confirmed. Report: [`docs/STAGE-2-step2-report.md`](STAGE-2-step2-report.md).
