@@ -36,6 +36,21 @@ class CatalogueTests(unittest.TestCase):
                  'Asking where · Learner pack','Asking where · Teaching plan',
                  'Directions and orientation · Learner pack','Directions and orientation · Teaching plan','Di, ke and dari'}
         expected=[l for l in old if l['title'] not in retired]
+        # Stage 2 build step 1 (13 Nov 2026): placing «perlu» (Ch13), «jadi» (Ch14), «ni» and «macam tu» (Ch17) in the ledger
+        # made them forward references in the legacy chapter 12 pack, so exactly these lines were rewritten (plan section 2,
+        # "Existing parcel pack"; the full re-authoring is build step 4).
+        edited={'Yang kecil ni untuk unit B-21.':'Yang kecil ini untuk unit B-21.','Oh, jadi kotak saya belum ada?':'Oh, kotak saya belum ada?',
+                'Betul, itu nama saya. Perlu tunjuk apa?':'Betul, itu nama saya. Encik mahu tengok apa?',
+                'Ya. Di mana saya perlu tulis nama?':'Ya. Di mana saya tulis nama?','Nama dia Mei. Apa dia perlu tunjuk?':'Nama dia Mei. Dia bawa apa?',
+                'Kalau macam tu, saya ambil esok. Perlu tulis nama sekarang?':'Baik, saya ambil esok. Saya tulis nama sekarang?',
+                'Tak perlu. Semak nama bila ambil nanti.':'Tak. Semak nama bila ambil nanti.'}
+        def edit(line):
+            for a,b in edited.items():
+                if line.endswith(a): return line[:-len(a)]+b
+            return line
+        for l in expected:
+            if l['title']=='Ambil bungkusan di lobi':
+                for page in l['pages']: page['lines']=[edit(x) for x in page['lines']]
         legacy=[l for l in self.lessons if not l.get('suite')]
         strip=lambda ls:[{k:v for k,v in l.items()} | {'pages':[{k:v for k,v in p.items() if k!='index'} for p in l['pages']]} for l in ls]
         self.assertEqual(strip(expected),strip(legacy))

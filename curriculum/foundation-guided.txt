@@ -29,9 +29,9 @@ There you are. Shall we go?|Yes. I have both tickets.
 Ada kotak untuk unit D-6?|Maaf, lori [belum] sampai. Ada nombor pesanan?
 Ada. Ini nombornya. Bila lori sampai?|Mungkin pukul tiga. Nak tunggu atau datang lagi?
 Saya ada kelas. Kawan boleh ambil?|Boleh. Siapa [nama] kawan?
-Nama dia Mei. Apa dia perlu tunjuk?|Mesej dari awak dan nombor unit.
+Nama dia Mei. Dia bawa apa?|Mesej dari awak dan nombor unit.
 Kalau dia datang pukul enam, pejabat masih buka?|Tak. Kami tutup pukul lima. Esok pun [boleh].
-Kalau macam tu, saya ambil esok. Perlu tulis nama sekarang?|Tak perlu. Semak nama bila ambil nanti.
+Baik, saya ambil esok. Saya tulis nama sekarang?|Tak. Semak nama bila ambil nanti.
 Sekarang kotak saya dah sampai ke?|Ya, lori baru sampai. Ini [kotak] awak.
 Bagus, saya boleh ambil sekarang.|Boleh, semak nombor dulu.
 @ Return a borrowed book

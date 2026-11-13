@@ -56,10 +56,20 @@ class LanguageChecksTests(unittest.TestCase):
  def test_no_content_or_reference_edits(self):
   # Legacy lesson sources are unchanged. Step 4 changed exactly one legacy line (3B, ledger
   # L-1006) and refreshed the ledger.
-  files=['curriculum/malay-course.txt','curriculum/foundation.txt','curriculum/advanced.txt','curriculum/guided.txt','conversations.py','curriculum.py']
+  files=['curriculum/malay-course.txt','curriculum/advanced.txt','curriculum/guided.txt','conversations.py','curriculum.py']
   for f in files:
    original=subprocess.check_output(['git','show','c067e225eabe51e3bfc7020bd2800f9bdaf5a5b4:'+f],cwd=ROOT)
    self.assertEqual(original,(ROOT/f).read_bytes(),f)
+  # Stage 2 build step 1 (13 Nov 2026) rewrote four lines of the legacy chapter 12 pack in foundation.txt and two in
+  # foundation-guided.txt: «perlu», «jadi», «ni» and «macam tu» are now placed in chapters 13, 14 and 17.
+  original=subprocess.check_output(['git','show','c067e225eabe51e3bfc7020bd2800f9bdaf5a5b4:curriculum/foundation.txt'],cwd=ROOT,text=True).splitlines()
+  now=(ROOT/'curriculum/foundation.txt').read_text().splitlines()
+  self.assertEqual(len(original),len(now))
+  self.assertEqual([(a,b) for a,b in zip(original,now) if a!=b],[
+   ('Kotak kecil. Ada nama saya tak?|Yang kecil ni untuk unit B-21.','Kotak kecil. Ada nama saya tak?|Yang kecil ini untuk unit B-21.'),
+   ('Oh, jadi kotak saya belum ada?|Tunggu dulu. Ada satu lagi dekat pintu.','Oh, kotak saya belum ada?|Tunggu dulu. Ada satu lagi dekat pintu.'),
+   ('Betul, itu nama saya. Perlu tunjuk apa?|Boleh tunjuk mesej dari kedai?','Betul, itu nama saya. Encik mahu tengok apa?|Boleh tunjuk mesej dari kedai?'),
+   ('Ya. Di mana saya perlu tulis nama?|Di sini. Semak kotak dulu.','Ya. Di mana saya tulis nama?|Di sini. Semak kotak dulu.')])
   # The Kata-Kata chapter files are no longer the 0f78179 baseline: they were refreshed to Kata-Kata
   # 34710c6 (the end of the 12 Nov 2026 clean-up) and are edited only by copying them from there.
   # Pinned in docs/step4-sources.json; no Cikgu Sensai edit may change them.
@@ -70,7 +80,9 @@ class LanguageChecksTests(unittest.TestCase):
    self.assertEqual(hashlib.sha256((ROOT/'curriculum/reference/katakata'/name).read_bytes()).hexdigest(),sources['kata_kata_chapter_sha256']['content/ms/kelas/'+name],name)
   original=subprocess.check_output(['git','show','c067e225eabe51e3bfc7020bd2800f9bdaf5a5b4:curriculum/foundation-guided.txt'],cwd=ROOT,text=True).splitlines()
   changed=[(a,b) for a,b in zip(original,(ROOT/'curriculum/foundation-guided.txt').read_text().splitlines()) if a!=b]
-  self.assertEqual(changed,[('Pukul lapan. Nak datang lagi?|Ya, saya nak beli untuk kawan.','Pukul lapan. Nak beli lagi?|Ya, saya nak beli untuk kawan.')])
+  self.assertEqual(changed,[('Pukul lapan. Nak datang lagi?|Ya, saya nak beli untuk kawan.','Pukul lapan. Nak beli lagi?|Ya, saya nak beli untuk kawan.'),
+   ('Nama dia Mei. Apa dia perlu tunjuk?|Mesej dari awak dan nombor unit.','Nama dia Mei. Dia bawa apa?|Mesej dari awak dan nombor unit.'),
+   ('Kalau macam tu, saya ambil esok. Perlu tulis nama sekarang?|Tak perlu. Semak nama bila ambil nanti.','Baik, saya ambil esok. Saya tulis nama sekarang?|Tak. Semak nama bila ambil nanti.')])
  def test_unplaced_phrase_does_not_hide_placed_words(self):
   # 'encik pula' is an unplaced Hanashishou row; Encik and pula are chapter 1 words.
   r=self.checker.inspect([self.seg('Khabar baik. Encik pula?',1)]);self.assertFalse(r['violations']);self.assertFalse(r['ledger_gaps'])

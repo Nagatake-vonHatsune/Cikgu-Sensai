@@ -56,7 +56,8 @@ BM_NOTE = ('No Malay explainer for Stage 1 units: explainers and rubrics are in 
 # English words that are spelt like a ledger entry. Unmarked use of these is
 # allowed; anything else in the ledger must be marked «…» or ‹…›.
 ENGLISH_HOMOGRAPHS = {'main', 'oh', 'pun', 'best', 'bank', 'hotel', 'menu', 'fail', 'golf', 'set', 'unit',
-                      'april', 'september', 'november', 'hospital', 'internet', 'kilometer', 'pen', 'tin', 'batik'}  # month names (ledger L-1036, L-1041, L-1043)
+                      'april', 'september', 'november', 'hospital', 'internet', 'kilometer', 'pen', 'tin', 'batik',
+                      'bernama', 'label'}  # month names (ledger L-1036, L-1041, L-1043); "Bernama" (the news agency, cited in English source notes) and English "label", since the Stage 2 rows L-1111 «bernama» and L-1168 «label» exist
 
 # Grammar points taught in the pilot (IDs extend the step 2 chapter points).
 GRAMMAR = [

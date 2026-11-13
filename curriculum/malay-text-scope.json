@@ -2533,17 +2533,17 @@
       "exclusion": null
     },
     "Ambil bungkusan di lobi|3|5": {
-      "source_text": "B   Yang kecil ni untuk unit B-21.",
+      "source_text": "B   Yang kecil ini untuk unit B-21.",
       "target_spans": [
-        "Yang kecil ni untuk unit B-21."
+        "Yang kecil ini untuk unit B-21."
       ],
       "kind": "model",
       "exclusion": null
     },
     "Ambil bungkusan di lobi|3|6": {
-      "source_text": "A   Oh, jadi kotak saya belum ada?",
+      "source_text": "A   Oh, kotak saya belum ada?",
       "target_spans": [
-        "Oh, jadi kotak saya belum ada?"
+        "Oh, kotak saya belum ada?"
       ],
       "kind": "model",
       "exclusion": null
@@ -2557,9 +2557,9 @@
       "exclusion": null
     },
     "Ambil bungkusan di lobi|4|0": {
-      "source_text": "A   Betul, itu nama saya. Perlu tunjuk apa?",
+      "source_text": "A   Betul, itu nama saya. Encik mahu tengok apa?",
       "target_spans": [
-        "Betul, itu nama saya. Perlu tunjuk apa?"
+        "Betul, itu nama saya. Encik mahu tengok apa?"
       ],
       "kind": "model",
       "exclusion": null
@@ -2589,9 +2589,9 @@
       "exclusion": null
     },
     "Ambil bungkusan di lobi|4|4": {
-      "source_text": "A   Ya. Di mana saya perlu tulis nama?",
+      "source_text": "A   Ya. Di mana saya tulis nama?",
       "target_spans": [
-        "Ya. Di mana saya perlu tulis nama?"
+        "Ya. Di mana saya tulis nama?"
       ],
       "kind": "model",
       "exclusion": null
@@ -2669,9 +2669,9 @@
       "exclusion": null
     },
     "Ambil bungkusan di lobi|5|6": {
-      "source_text": "A   Nama dia Mei. Apa dia perlu tunjuk?",
+      "source_text": "A   Nama dia Mei. Dia bawa apa?",
       "target_spans": [
-        "Nama dia Mei. Apa dia perlu tunjuk?"
+        "Nama dia Mei. Dia bawa apa?"
       ],
       "kind": "model",
       "exclusion": null
@@ -2701,17 +2701,17 @@
       "exclusion": null
     },
     "Ambil bungkusan di lobi|6|2": {
-      "source_text": "A   Kalau macam tu, saya ambil esok. Perlu tulis nama sekarang?",
+      "source_text": "A   Baik, saya ambil esok. Saya tulis nama sekarang?",
       "target_spans": [
-        "Kalau macam tu, saya ambil esok. Perlu tulis nama sekarang?"
+        "Baik, saya ambil esok. Saya tulis nama sekarang?"
       ],
       "kind": "model",
       "exclusion": null
     },
     "Ambil bungkusan di lobi|6|3": {
-      "source_text": "B   Tak perlu. Semak nama bila ambil nanti.",
+      "source_text": "B   Tak. Semak nama bila ambil nanti.",
       "target_spans": [
-        "Tak perlu. Semak nama bila ambil nanti."
+        "Tak. Semak nama bila ambil nanti."
       ],
       "kind": "model",
       "exclusion": null

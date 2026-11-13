@@ -41,11 +41,11 @@ Give a meeting point|Meet me at gate two at ten.|Can we meet at gate two at ten,
 dah は完了、belum はまだです。受け取り状況を確認しましょう。|Dah: sudah siap. Belum: masih tunggu.|Use dah and belum to check whether a parcel has arrived.
 Saya nak ambil bungkusan. Dah sampai?|Nama siapa? Ada nombor unit?
 Unit B-12. Nama saya Aki.|Ada dua kotak. Yang mana satu?
-Kotak kecil. Ada nama saya tak?|Yang kecil ni untuk unit B-21.
-Oh, jadi kotak saya belum ada?|Tunggu dulu. Ada satu lagi dekat pintu.
-Betul, itu nama saya. Perlu tunjuk apa?|Boleh tunjuk mesej dari kedai?
+Kotak kecil. Ada nama saya tak?|Yang kecil ini untuk unit B-21.
+Oh, kotak saya belum ada?|Tunggu dulu. Ada satu lagi dekat pintu.
+Betul, itu nama saya. Encik mahu tengok apa?|Boleh tunjuk mesej dari kedai?
 Ini mesejnya. Nombor sama tak?|Sama. Nak ambil sekarang?
-Ya. Di mana saya perlu tulis nama?|Di sini. Semak kotak dulu.
+Ya. Di mana saya tulis nama?|Di sini. Semak kotak dulu.
 Kotak elok. Terima kasih.|Sama-sama. Tolong tutup pintu ya.
 Cari kotak kecil untuk unit C-3. Anda ada mesej dari kedai.|Dua kotak warna sama. Tanya nombor unit dan semak nama.|Label koyak. Cari cara lain untuk semak pemilik.
 Dah atau belum|Kotak dah sampai. Saya belum ambil.|Kotak masih dalam van. Kotak ____ sampai. / Ini kotaknya. Kotak ____ sampai.|belum / dah|Tanya status dua bungkusan.

@@ -488,7 +488,7 @@ class KataKataCleanup(unittest.TestCase):
     def test_no_open_kata_kata_action_is_left(self):
         import re
         rows = self.rows()
-        self.assertEqual(len(rows), 1088)
+        self.assertEqual(len(rows), 1265)  # L-0001 to L-1088 (Stage 1) and L-1089 to L-1265 (Stage 2 build step 1, Sam approved 13 Nov 2026)
         self.assertEqual([r['ID'] for r in rows if 'kata-kata' in r['Action (open)'].lower()], [])
         # Every remaining open action is one of the known kinds; a new kind (for example "Add ... card" without the words
         # Kata-Kata) fails here and has to be looked at.
