@@ -2,7 +2,14 @@
 
 Update this file at the end of every session. The next builder (ChatGPT or Claude) starts here, after the charter and `AGENTS.md`.
 
-## Latest session: Stage 2 build step 2, stage-aware language checks (13 Nov 2026, Claude)
+## Latest session: Stage 2 step 4a, two changes to the shared stage rules (13 Nov 2026, Claude)
+
+- **Authorised:** Sam, so Kata-Kata can finish chapter 17. Details in `docs/STAGE-2-step2-report.md` ("Step 4a amendments"). Rules file and fixtures are ready to copy to Kata-Kata unchanged in format.
+- **Done:** (1) R3 pair is now tak tahan / **tidak boleh tahan**. (2) Written -lah joined to a word is read from chapter 17 (`-lah` derivation), as in Kata-Kata. Fixtures 72 to 77. 167 tests pass (165 before, plus 2 new test methods); `build.py` unchanged (335 packs, 2,140 pages, 22 violations, 203 gaps).
+- **Not done (by instruction):** `curriculum/reference/katakata/` not refreshed (step 4, after Kata-Kata is final); Kata-Kata, Hanashishou and the ledger untouched. I did not run Kata-Kata's checker on the new fixtures (the run was blocked); Kata-Kata should confirm all 77 agree.
+- **Next:** Kata-Kata copies `stage-rules.json` and `stage-rules-fixtures.json` from the commit named in the report (update its 72-case count and SOURCE.json hashes), builds the L-0690 card; then step 4 here refreshes the snapshot (which will also make «takpe» a known form).
+
+## Previous session: Stage 2 build step 2, stage-aware language checks (13 Nov 2026, Claude)
 
 - **Authorised scope:** Sam's build step 2 instruction (13 Nov 2026): make the Malay checks stage-aware; no chapter content, no ledger edits; publication to main pre-approved when the checks pass. Started at `9474aeb`. Report: `docs/STAGE-2-step2-report.md`.
 - **Done:** `language_checks.py` now reads its gates, whole words, look-alike roots, register pairs, particles and disallowed forms from the new shared file `curriculum/stage-rules.json`. Gates: ber- 10, meN- 11, -kan and -i 12, accident ter- 16; a gated form also needs its own ledger row placed at or before the unit's chapter. Placement is read strictly from the place column; every pinned Kata-Kata chapter file is loaded. New R3 register pairs (tak apa and takpe with «tidak mengapa», tak tahan, set, kat), the R4 particle rule (no test answer key may require «lah» or «kan») and the new disallowed forms (berbicara, perbaiki, musik, film, olahraga, apotek, kantor, bersepeda, antre, berwisata, kecelakaan; mobil and uang already listed), allowed only in a ‹…› "do not use" mention.

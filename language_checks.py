@@ -96,6 +96,9 @@ class Checker:
   if w.startswith('ke') and w[2:] in NUMBERS and ch>=g['ke- ordinal']:return (w[2:],'ke- ordinal')
   if w.endswith('nya') and len(w)>4 and ch>=g['-nya'] and (w[:-3] in self.entries or w[:-3] in self.cards or w=='ceritanya'):return (w[:-3],'-nya')
   if w.endswith('kah') and len(w)>4 and ch>=g['-kah']:return (w[:-3],'-kah')
+  # Written particle «lah» joins the word (takpelah, tidak mengapalah), like -kah, once the particle's own ledger row is placed (chapter 17).
+  # Never a ledger word (sekolah) or a listed non-particle (adalah, masalah); the rest must be a known form.
+  if w.endswith('lah') and len(w)>5 and w not in self.entries and w not in self.not_particle and self.placed_by('lah',ch) and w[:-3] in self.known:return (w[:-3],'-lah')
   if w.startswith('se') and len(w)>3:
    base=w[2:]
    # Chapter 4 time nouns and chapter 8 counters follow their own base placement.

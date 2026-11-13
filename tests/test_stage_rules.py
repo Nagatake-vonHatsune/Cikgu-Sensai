@@ -23,6 +23,7 @@ class StageRulesFixtures(unittest.TestCase):
  def setUpClass(cls):cls.checker=Checker()
  def test_shared_fixtures(self):
   self.assertGreaterEqual(len(FIXTURES),60)
+  self.assertEqual(len(FIXTURES),77)
   for case in FIXTURES:
    with self.subTest(case=case['id']):
     v=run_case(self.checker,case)
@@ -60,7 +61,7 @@ class StageRulesFile(unittest.TestCase):
  def test_register_pairs(self):
   pairs={(p['spoken'],p['standard']) for p in RULES['register_pairs']}
   # Sam, 13 Nov 2026: «tidak mengapa» (spoken: «takpe» / «tak apa»).
-  for pair in [('tak apa','tidak mengapa'),('takpe','tidak mengapa'),('tak tahan','tidak tahan'),('set','setuju'),('macam tu','seperti itu'),('ni','ini'),('tu','itu'),('kat','di')]:
+  for pair in [('tak apa','tidak mengapa'),('takpe','tidak mengapa'),('tak tahan','tidak boleh tahan'),('set','setuju'),('macam tu','seperti itu'),('ni','ini'),('tu','itu'),('kat','di')]:
    self.assertIn(pair,pairs)
   self.assertEqual({p['form'] for p in RULES['particles']},{'lah','kan'})
  def test_strict_placement(self):
@@ -81,5 +82,22 @@ class StageRulesFile(unittest.TestCase):
    self.assertEqual(self.checker.families(w,15),{'ter- accident'},w)
   self.assertEqual(self.checker.families('termurah',6),set())
   self.assertEqual(self.checker.families('masakan',2),set())  # ledger tag -an decides, not the -kan shape
+
+class JoinedLah(unittest.TestCase):
+ """Written -lah joined to a word (Sam, 13 Nov 2026; mirrors Kata-Kata tools/stage-rules.mjs)."""
+ @classmethod
+ def setUpClass(cls):cls.checker=Checker()
+ def seg(self,ch,text):return [{'unit':f'fixture-c{ch}','chapter':ch,'source':'fixture','text':text,'source_text':text,'kind':'model'}]
+ def lah(self,ch,text):return [d for d in self.checker.inspect(self.seg(ch,text))['derivations'] if d['rule']=='-lah']
+ def test_read_from_chapter_17_only(self):
+  self.assertEqual(self.lah(17,'Tidak mengapalah.')[0]['base'],'mengapa')
+  self.assertEqual(self.lah(16,'Tidak mengapalah.'),[])
+  self.assertEqual(self.lah(10,'Tidak mengapalah.'),[])
+  self.assertEqual(self.lah(None,'Tidak mengapalah.'),[])
+ def test_real_words_and_unknown_bases_are_not_split(self):
+  self.assertEqual(self.lah(17,'Saya ke sekolah. Itu masalah saya. Dia adalah guru. Itu salah.'),[])
+  r=self.checker.inspect(self.seg(17,'Xyzlah.'))
+  self.assertEqual(self.lah(17,'Xyzlah.'),[])
+  self.assertTrue(any(g['term']=='xyzlah' for g in r['ledger_gaps'].values()))
 
 if __name__=='__main__':unittest.main()
