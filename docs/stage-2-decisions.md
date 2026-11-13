@@ -148,7 +148,9 @@ Recorded after Claude's review of chapter 13 (`docs/STAGE-2-ch13-report.md`). Th
 
 ## 11. Chapter 14 answers (Sam, 13 November 2026)
 
-Recorded after Claude's review of chapter 14 (`docs/STAGE-2-ch14-report.md`).
+Sam's answers, given directly in the chapter 14 session (`docs/STAGE-2-ch14-report.md`).
+
+Claude's later review of chapter 14 added two fixes, in their own commit before chapter 15: (1) «tangguhkan» and «batalkan» take a noun object («tangguhkan rancangan mendaki», «batalkan rancangan mendaki», «Rancangan mendaki batal.»); a written notice gives the object («Oleh itu, kita tangguhkan rancangan itu ke hari Ahad.»), a short spoken reply may drop it; (2) group-chat messages and writing models use inclusive «kita» (not «kami») with a teacher note on «kami» (excludes the listener) against «kita» (includes the listener).
 
 | # | Question | Answer |
 | --- | --- | --- |

@@ -198,6 +198,23 @@ class Chapter14(unittest.TestCase):
         self.assertIn('Saya sudah tulis mesej untuk kawan kita', ' '.join(s for _, s in ms_c14.CFG['dialogue']))
         self.assertIn('Saya menulis mesej itu', ' '.join(ms_c14.CFG['markers']['items']))
 
+    def test_noun_object_and_kita(self):
+        """Claude's review fixes: «tangguhkan» and «batalkan» take a noun object («rancangan»), not a verb; the group-chat messages and
+        writing models use inclusive «kita» (not «kami»); a teacher note sets «kami» against «kita»."""
+        text = ' '.join(self.all_lines())
+        self.assertNotRegex(text, r'(?<![a-z])(?:tangguhkan|batalkan) mendaki')
+        self.assertNotRegex(text, r'(?<![a-z])Mendaki (?:pada hari Sabtu )?batal')
+        self.assertNotRegex(text, r'(?<!ancangan )(?<![a-z])mendaki batal')
+        self.assertIn('Rancangan mendaki batal kerana hujan', text)
+        self.assertIn('Mei Ling tangguhkan rancangan mendaki kerana dia bekerja', text)
+        self.assertIn('Oleh itu, kita tangguhkan rancangan itu ke hari Ahad', text)
+        for sp in spans(self.all_lines()):
+            if re.search(r'(?<![a-z])(?:tangguhkan|batalkan)(?![a-z])', sp) and re.search(r'(?<![a-z])kita masih(?![a-z])', sp):
+                self.assertNotRegex(sp, r'(?<![a-z])[Kk]ami(?![a-z])', sp)
+        notes = ' '.join(ms_c14.CFG['teacher_notes'])
+        self.assertIn('«kami» against «kita»', notes)
+        self.assertIn('leaves the listener out', notes)
+
     def test_katakata_alignment(self):
         """Same frames f01 to f06, same scene (the weekend hike), every scenario line word for word, card IDs cited."""
         frames = {f['id']: f for f in self.pack['frames']}

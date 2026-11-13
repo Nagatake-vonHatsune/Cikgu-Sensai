@@ -1087,10 +1087,10 @@ def chapter14(ledger):
             ('Task · タスク', [
                 'A: You and B plan a Saturday outing (fictional). You can come on Sunday, not on Saturday, because you work. Give your reason, two choices and a rain plan.',
                 'B: Ask why A cannot come, choose a day, ask what you do if it rains, and say the order of the day with «mula-mula», «kemudian» and «akhirnya».',
-                'Change of plan: A says «Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe.» B asks the time they meet at the cafe.',
+                'Change of plan: A says «Maaf, hari Ahad pun hujan. Jadi, kita batalkan rancangan mendaki, tetapi kita masih makan di kafe.» B asks the time they meet at the cafe.',
                 'A：Bさんと土曜日の外出を計画します（架空）。仕事があるので土曜日は行けず、日曜日なら行けます。理由・二つの選択肢・雨の日の計画を言います。'
                 'B：Aがなぜ来られないかをたずね、日を選び、雨が降ったらどうするかをたずね、«mula-mula»・«kemudian»・«akhirnya» で一日の順序を言います。'
-                '変更：Aが «Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe.» と言い、Bはカフェで会う時刻をたずねます。'], 'task'),
+                '変更：Aが «Maaf, hari Ahad pun hujan. Jadi, kita batalkan rancangan mendaki, tetapi kita masih makan di kafe.» と言い、Bはカフェで会う時刻をたずねます。'], 'task'),
             ('Self-check · できるチェック', [
                 '☐ 1. Say "If it rains, we eat at the cafe.": ____________________',
                 '☐ 2. Say "I am not coming because I am working.": ____________________',

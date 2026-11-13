@@ -138445,9 +138445,9 @@
   "exclusion": null
  },
  "Unit 14 · Vocabulary focus|3|12": {
-  "source_text": "   e.g. Cuaca mendung. Namun kami masih mahu mendaki. (written; everyday tetapi)",
+  "source_text": "   e.g. Cuaca mendung. Namun kita masih mahu mendaki. (written; everyday tetapi)",
   "target_spans": [
-   "Cuaca mendung. Namun kami masih mahu mendaki.",
+   "Cuaca mendung. Namun kita masih mahu mendaki.",
    "tetapi"
   ],
   "mention_spans": [],
@@ -138470,9 +138470,9 @@
   "exclusion": null
  },
  "Unit 14 · Vocabulary focus|3|14": {
-  "source_text": "   e.g. Saya bekerja pada hari Sabtu. Oleh itu, kami tangguhkan ke hari Ahad. (formal; everyday jadi)",
+  "source_text": "   e.g. Saya bekerja pada hari Sabtu. Oleh itu, kita tangguhkan rancangan itu ke hari Ahad. (formal; everyday jadi)",
   "target_spans": [
-   "Saya bekerja pada hari Sabtu. Oleh itu, kami tangguhkan ke hari Ahad.",
+   "Saya bekerja pada hari Sabtu. Oleh itu, kita tangguhkan rancangan itu ke hari Ahad.",
    "jadi"
   ],
   "mention_spans": [],
@@ -138776,22 +138776,22 @@
   "exclusion": null
  },
  "Unit 14 · Vocabulary focus|5|1": {
-  "source_text": "batal — to cancel; cancelled (the root of batalkan; Mendaki batal. = the hike is off) · 取り消す・中止になる（batalkan の語根；Mendaki batal.＝ハイキングは中止）  [L-1218]",
+  "source_text": "batal — to cancel; cancelled (the root of batalkan; Rancangan mendaki batal. = the hike is off) · 取り消す・中止になる（batalkan の語根；Rancangan mendaki batal.＝ハイキングは中止）  [L-1218]",
   "target_spans": [
    "batal",
    "batalkan",
-   "Mendaki batal.",
+   "Rancangan mendaki batal.",
    "batalkan",
-   "Mendaki batal."
+   "Rancangan mendaki batal."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
  "Unit 14 · Vocabulary focus|5|2": {
-  "source_text": "   e.g. Mendaki batal kerana hujan.",
+  "source_text": "   e.g. Rancangan mendaki batal kerana hujan.",
   "target_spans": [
-   "Mendaki batal kerana hujan."
+   "Rancangan mendaki batal kerana hujan."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -138918,9 +138918,9 @@
   "exclusion": null
  },
  "Unit 14 · Vocabulary focus|5|16": {
-  "source_text": "   e.g. Cuaca mendung, tetapi kami masih mahu mendaki.",
+  "source_text": "   e.g. Cuaca mendung, tetapi kita masih mahu mendaki.",
   "target_spans": [
-   "Cuaca mendung, tetapi kami masih mahu mendaki."
+   "Cuaca mendung, tetapi kita masih mahu mendaki."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -139032,7 +139032,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|5|29": {
+ "Unit 14 · Vocabulary focus|6|0": {
   "source_text": "   e.g. Kalau hujan, kita makan di kafe.",
   "target_spans": [
    "Kalau hujan, kita makan di kafe."
@@ -139041,7 +139041,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|0": {
+ "Unit 14 · Vocabulary focus|6|1": {
   "source_text": "mendung — cloudy, overcast · 曇り  [L-0433]",
   "target_spans": [
    "mendung"
@@ -139050,7 +139050,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|1": {
+ "Unit 14 · Vocabulary focus|6|2": {
   "source_text": "   e.g. Cuaca mendung.",
   "target_spans": [
    "Cuaca mendung."
@@ -139059,7 +139059,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|2": {
+ "Unit 14 · Vocabulary focus|6|3": {
   "source_text": "cerah — sunny, bright · 晴れ  [L-0432]",
   "target_spans": [
    "cerah"
@@ -139068,7 +139068,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|3": {
+ "Unit 14 · Vocabulary focus|6|4": {
   "source_text": "   e.g. Apabila cuaca cerah, kita mendaki.",
   "target_spans": [
    "Apabila cuaca cerah, kita mendaki."
@@ -139077,7 +139077,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|4": {
+ "Unit 14 · Vocabulary focus|6|5": {
   "source_text": "cuaca — weather · 天気  [L-0431]",
   "target_spans": [
    "cuaca"
@@ -139086,7 +139086,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|5": {
+ "Unit 14 · Vocabulary focus|6|6": {
   "source_text": "   e.g. Cuaca hari Ahad bagus.",
   "target_spans": [
    "Cuaca hari Ahad bagus."
@@ -139095,7 +139095,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|6": {
+ "Unit 14 · Vocabulary focus|6|7": {
   "source_text": "mendaki — To hike; to climb (a hill) · （山を）登る、ハイキングする  [L-0865]",
   "target_spans": [
    "mendaki"
@@ -139104,7 +139104,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|7": {
+ "Unit 14 · Vocabulary focus|6|8": {
   "source_text": "   e.g. Kalau tidak hujan, kita mendaki.",
   "target_spans": [
    "Kalau tidak hujan, kita mendaki."
@@ -139113,7 +139113,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|8": {
+ "Unit 14 · Vocabulary focus|6|9": {
   "source_text": "berjalan — to walk · 歩く  [L-1090]",
   "target_spans": [
    "berjalan"
@@ -139122,7 +139122,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|9": {
+ "Unit 14 · Vocabulary focus|6|10": {
   "source_text": "   e.g. Walaupun hujan, saya mahu berjalan kaki.",
   "target_spans": [
    "Walaupun hujan, saya mahu berjalan kaki."
@@ -139131,7 +139131,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|10": {
+ "Unit 14 · Vocabulary focus|6|11": {
   "source_text": "berehat — to rest · 休む  [L-1093]",
   "target_spans": [
    "berehat"
@@ -139140,7 +139140,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|11": {
+ "Unit 14 · Vocabulary focus|6|12": {
   "source_text": "   e.g. Tujuan kita sama: berehat dan berjalan.",
   "target_spans": [
    "Tujuan kita sama: berehat dan berjalan."
@@ -139149,7 +139149,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|12": {
+ "Unit 14 · Vocabulary focus|6|13": {
   "source_text": "penat — tired · 疲れた  [L-0249]",
   "target_spans": [
    "penat"
@@ -139158,7 +139158,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|13": {
+ "Unit 14 · Vocabulary focus|6|14": {
   "source_text": "   e.g. Walaupun saya penat, saya suka mendaki.",
   "target_spans": [
    "Walaupun saya penat, saya suka mendaki."
@@ -139167,14 +139167,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|14": {
+ "Unit 14 · Vocabulary focus|6|15": {
   "source_text": "■ Revision · 復習 · The plan",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 14 · Vocabulary focus|6|15": {
+ "Unit 14 · Vocabulary focus|6|16": {
   "source_text": "rancangan — A plan · 計画、予定  [L-0684]",
   "target_spans": [
    "rancangan"
@@ -139183,7 +139183,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|16": {
+ "Unit 14 · Vocabulary focus|6|17": {
   "source_text": "   e.g. Kita batalkan rancangan mendaki.",
   "target_spans": [
    "Kita batalkan rancangan mendaki."
@@ -139192,7 +139192,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|17": {
+ "Unit 14 · Vocabulary focus|6|18": {
   "source_text": "stesen — station · 駅  [L-0295]",
   "target_spans": [
    "stesen"
@@ -139201,7 +139201,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|18": {
+ "Unit 14 · Vocabulary focus|6|19": {
   "source_text": "   e.g. Kita berjumpa di stesen pukul tujuh.",
   "target_spans": [
    "Kita berjumpa di stesen pukul tujuh."
@@ -139210,7 +139210,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|19": {
+ "Unit 14 · Vocabulary focus|6|20": {
   "source_text": "kafe — café (also spelt cafe in signs and speech) · カフェ  [L-1026]",
   "target_spans": [
    "kafe"
@@ -139219,7 +139219,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|20": {
+ "Unit 14 · Vocabulary focus|6|21": {
   "source_text": "   e.g. Akhirnya kita makan di kafe.",
   "target_spans": [
    "Akhirnya kita makan di kafe."
@@ -139228,7 +139228,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|21": {
+ "Unit 14 · Vocabulary focus|6|22": {
   "source_text": "berjumpa — to meet · 会う  [L-1098]",
   "target_spans": [
    "berjumpa"
@@ -139237,7 +139237,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|22": {
+ "Unit 14 · Vocabulary focus|6|23": {
   "source_text": "   e.g. Mula-mula kita berjumpa di stesen.",
   "target_spans": [
    "Mula-mula kita berjumpa di stesen."
@@ -139246,7 +139246,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|23": {
+ "Unit 14 · Vocabulary focus|6|24": {
   "source_text": "mesej — message · メッセージ  [L-1154]",
   "target_spans": [
    "mesej"
@@ -139255,7 +139255,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|24": {
+ "Unit 14 · Vocabulary focus|6|25": {
   "source_text": "   e.g. Saya sudah tulis mesej untuk kawan kita.",
   "target_spans": [
    "Saya sudah tulis mesej untuk kawan kita."
@@ -139264,7 +139264,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|25": {
+ "Unit 14 · Vocabulary focus|6|26": {
   "source_text": "tulis — to write · 書く  [L-0475]",
   "target_spans": [
    "tulis"
@@ -139273,7 +139273,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|26": {
+ "Unit 14 · Vocabulary focus|6|27": {
   "source_text": "   e.g. Saya sudah tulis mesej itu.",
   "target_spans": [
    "Saya sudah tulis mesej itu."
@@ -139282,7 +139282,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|27": {
+ "Unit 14 · Vocabulary focus|6|28": {
   "source_text": "kawan — friend · 友達  [L-0078]",
   "target_spans": [
    "kawan"
@@ -139291,7 +139291,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|28": {
+ "Unit 14 · Vocabulary focus|6|29": {
   "source_text": "   e.g. Saya sudah tulis mesej untuk kawan kita.",
   "target_spans": [
    "Saya sudah tulis mesej untuk kawan kita."
@@ -139300,7 +139300,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|29": {
+ "Unit 14 · Vocabulary focus|6|30": {
   "source_text": "awal — early · 早い  [L-0206]",
   "target_spans": [
    "awal"
@@ -139309,7 +139309,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|6|30": {
+ "Unit 14 · Vocabulary focus|7|0": {
   "source_text": "   e.g. Saya akan datang awal supaya kita tidak lambat.",
   "target_spans": [
    "Saya akan datang awal supaya kita tidak lambat."
@@ -139318,7 +139318,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|0": {
+ "Unit 14 · Vocabulary focus|7|1": {
   "source_text": "lambat — late, slow · 遅い  [L-0207]",
   "target_spans": [
    "lambat"
@@ -139327,7 +139327,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|1": {
+ "Unit 14 · Vocabulary focus|7|2": {
   "source_text": "   e.g. Saya akan datang awal supaya kita tidak lambat.",
   "target_spans": [
    "Saya akan datang awal supaya kita tidak lambat."
@@ -139336,7 +139336,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|2": {
+ "Unit 14 · Vocabulary focus|7|3": {
   "source_text": "datang — to come · 来る  [L-1006]",
   "target_spans": [
    "datang"
@@ -139345,7 +139345,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|3": {
+ "Unit 14 · Vocabulary focus|7|4": {
   "source_text": "   e.g. Saya tidak boleh datang pada hari Sabtu.",
   "target_spans": [
    "Saya tidak boleh datang pada hari Sabtu."
@@ -139354,7 +139354,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|4": {
+ "Unit 14 · Vocabulary focus|7|5": {
   "source_text": "bangun — to wake up, get up · 起きる  [L-0550]",
   "target_spans": [
    "bangun"
@@ -139363,7 +139363,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|5": {
+ "Unit 14 · Vocabulary focus|7|6": {
   "source_text": "   e.g. Saya bangun awal supaya saya tidak lambat.",
   "target_spans": [
    "Saya bangun awal supaya saya tidak lambat."
@@ -139372,7 +139372,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|6": {
+ "Unit 14 · Vocabulary focus|7|7": {
   "source_text": "bekerja — to work · 働く  [L-1089]",
   "target_spans": [
    "bekerja"
@@ -139381,7 +139381,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|7": {
+ "Unit 14 · Vocabulary focus|7|8": {
   "source_text": "   e.g. Saya tidak datang kerana saya bekerja.",
   "target_spans": [
    "Saya tidak datang kerana saya bekerja."
@@ -139390,7 +139390,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|8": {
+ "Unit 14 · Vocabulary focus|7|9": {
   "source_text": "cuti — leave, holiday · 休み・休暇  [L-0534]",
   "target_spans": [
    "cuti"
@@ -139399,7 +139399,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|9": {
+ "Unit 14 · Vocabulary focus|7|10": {
   "source_text": "   e.g. Hari Ahad saya cuti.",
   "target_spans": [
    "Hari Ahad saya cuti."
@@ -139408,14 +139408,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|10": {
+ "Unit 14 · Vocabulary focus|7|11": {
   "source_text": "■ Revision · 復習 · Talking",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 14 · Vocabulary focus|7|11": {
+ "Unit 14 · Vocabulary focus|7|12": {
   "source_text": "kemudian — then, after that · それから  [L-0320]",
   "target_spans": [
    "kemudian"
@@ -139424,7 +139424,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|12": {
+ "Unit 14 · Vocabulary focus|7|13": {
   "source_text": "   e.g. Kemudian kita mendaki.",
   "target_spans": [
    "Kemudian kita mendaki."
@@ -139433,7 +139433,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|13": {
+ "Unit 14 · Vocabulary focus|7|14": {
   "source_text": "bercakap — to speak · 話す  [L-1091]",
   "target_spans": [
    "bercakap"
@@ -139442,7 +139442,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|14": {
+ "Unit 14 · Vocabulary focus|7|15": {
   "source_text": "   e.g. Kita boleh bercakap sambil berjalan.",
   "target_spans": [
    "Kita boleh bercakap sambil berjalan."
@@ -139451,7 +139451,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|15": {
+ "Unit 14 · Vocabulary focus|7|16": {
   "source_text": "membaca — to read · 読む  [L-1124]",
   "target_spans": [
    "membaca"
@@ -139460,7 +139460,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|16": {
+ "Unit 14 · Vocabulary focus|7|17": {
   "source_text": "   e.g. Dia makan sambil membaca surat khabar.",
   "target_spans": [
    "Dia makan sambil membaca surat khabar."
@@ -139469,7 +139469,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|17": {
+ "Unit 14 · Vocabulary focus|7|18": {
   "source_text": "makan — to eat · 食べる  [L-0197]",
   "target_spans": [
    "makan"
@@ -139478,7 +139478,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|18": {
+ "Unit 14 · Vocabulary focus|7|19": {
   "source_text": "   e.g. Kita makan di kafe.",
   "target_spans": [
    "Kita makan di kafe."
@@ -139487,7 +139487,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|19": {
+ "Unit 14 · Vocabulary focus|7|20": {
   "source_text": "minum — to drink · 飲む  [L-0198]",
   "target_spans": [
    "minum"
@@ -139496,7 +139496,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|20": {
+ "Unit 14 · Vocabulary focus|7|21": {
   "source_text": "   e.g. Semasa mendaki, kita minum air.",
   "target_spans": [
    "Semasa mendaki, kita minum air."
@@ -139505,7 +139505,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|21": {
+ "Unit 14 · Vocabulary focus|7|22": {
   "source_text": "air — water; drink · 水・飲み物  [L-0259]",
   "target_spans": [
    "air"
@@ -139514,7 +139514,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|22": {
+ "Unit 14 · Vocabulary focus|7|23": {
   "source_text": "   e.g. Semasa mendaki, kita minum air.",
   "target_spans": [
    "Semasa mendaki, kita minum air."
@@ -139523,7 +139523,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|23": {
+ "Unit 14 · Vocabulary focus|7|24": {
   "source_text": "bagus — good, great · 良い・すごい  [L-0283]",
   "target_spans": [
    "bagus"
@@ -139532,7 +139532,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|24": {
+ "Unit 14 · Vocabulary focus|7|25": {
   "source_text": "   e.g. Bagus! Kita mendaki hari Ahad.",
   "target_spans": [
    "Bagus! Kita mendaki hari Ahad."
@@ -139541,7 +139541,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|25": {
+ "Unit 14 · Vocabulary focus|7|26": {
   "source_text": "baik — good, well, fine · 良い・元気  [L-0013]",
   "target_spans": [
    "baik"
@@ -139550,7 +139550,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|26": {
+ "Unit 14 · Vocabulary focus|7|27": {
   "source_text": "   e.g. Baik. Ini rancangan kita.",
   "target_spans": [
    "Baik. Ini rancangan kita."
@@ -139559,7 +139559,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|27": {
+ "Unit 14 · Vocabulary focus|7|28": {
   "source_text": "betul — correct, right · 正しい・そのとおり  [L-0997]",
   "target_spans": [
    "betul"
@@ -139568,7 +139568,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|28": {
+ "Unit 14 · Vocabulary focus|7|29": {
   "source_text": "   e.g. Ya, betul!",
   "target_spans": [
    "Ya, betul!"
@@ -139577,7 +139577,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|29": {
+ "Unit 14 · Vocabulary focus|7|30": {
   "source_text": "masih — still · まだ（〜している）  [L-0191]",
   "target_spans": [
    "masih"
@@ -139586,7 +139586,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|7|30": {
+ "Unit 14 · Vocabulary focus|8|0": {
   "source_text": "   e.g. Masih. Kita masih mahu mendaki.",
   "target_spans": [
    "Masih. Kita masih mahu mendaki."
@@ -139595,7 +139595,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|8|0": {
+ "Unit 14 · Vocabulary focus|8|1": {
   "source_text": "guna — to use · 使う  [L-0480]",
   "target_spans": [
    "guna"
@@ -139604,7 +139604,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 14 · Vocabulary focus|8|1": {
+ "Unit 14 · Vocabulary focus|8|2": {
   "source_text": "   e.g. Kita guna kalau dan bila, ya?",
   "target_spans": [
    "Kita guna kalau dan bila, ya?"
@@ -139873,10 +139873,10 @@
   "exclusion": null
  },
  "Unit 14 · Pattern and grammar focus|4|3": {
-  "source_text": "5. A: Kenapa Mei Ling tangguhkan mendaki? B: Mei Ling tangguhkan mendaki kerana dia bekerja.",
+  "source_text": "5. A: Kenapa Mei Ling tangguhkan rancangan mendaki? B: Mei Ling tangguhkan rancangan mendaki kerana dia bekerja.",
   "target_spans": [
-   "Kenapa Mei Ling tangguhkan mendaki?",
-   "Mei Ling tangguhkan mendaki kerana dia bekerja."
+   "Kenapa Mei Ling tangguhkan rancangan mendaki?",
+   "Mei Ling tangguhkan rancangan mendaki kerana dia bekerja."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -140031,17 +140031,17 @@
   "exclusion": null
  },
  "Unit 14 · Pattern and grammar focus|5|1": {
-  "source_text": "6. A: Apa dalam mesej itu? B: Mendaki batal kerana hujan. Namun kita masih makan di kafe.",
+  "source_text": "6. A: Apa dalam mesej itu? B: Rancangan mendaki batal kerana hujan. Namun kita masih makan di kafe.",
   "target_spans": [
    "Apa dalam mesej itu?",
-   "Mendaki batal kerana hujan. Namun kita masih makan di kafe."
+   "Rancangan mendaki batal kerana hujan. Namun kita masih makan di kafe."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 14 · Pattern and grammar focus|5|2": {
-  "source_text": "Explanation: walaupun + a clause says what is true although something else is true: Walaupun hujan, saya mahu berjalan kaki. (the Kata-Kata frame). The comma comes after the first clause and the surprising part follows. Do not add tetapi in the second clause, because walaupun already carries the contrast. For two separate sentences, tetapi (chapter 5; spoken tapi) is the everyday word and namun is the written one: Mendaki batal. Namun kita masih makan di kafe. Kalau is not the same as walaupun: kalau hujan is a condition, walaupun hujan says the rain is no obstacle.",
+  "source_text": "Explanation: walaupun + a clause says what is true although something else is true: Walaupun hujan, saya mahu berjalan kaki. (the Kata-Kata frame). The comma comes after the first clause and the surprising part follows. Do not add tetapi in the second clause, because walaupun already carries the contrast. For two separate sentences, tetapi (chapter 5; spoken tapi) is the everyday word and namun is the written one: Rancangan mendaki batal. Namun kita masih makan di kafe. Kalau is not the same as walaupun: kalau hujan is a condition, walaupun hujan says the rain is no obstacle.",
   "target_spans": [
    "walaupun",
    "Walaupun hujan, saya mahu berjalan kaki.",
@@ -140050,7 +140050,7 @@
    "tetapi",
    "tapi",
    "namun",
-   "Mendaki batal. Namun kita masih makan di kafe.",
+   "Rancangan mendaki batal. Namun kita masih makan di kafe.",
    "Kalau",
    "walaupun",
    "kalau hujan",
@@ -140061,7 +140061,7 @@
   "exclusion": null
  },
  "Unit 14 · Pattern and grammar focus|5|3": {
-  "source_text": "説明：walaupun ＋ 節で、別のことが事実であってもこうだ、という対比を言います：Walaupun hujan, saya mahu berjalan kaki.（Kata-Kata の文型）。最初の節のあとにコンマを置き、意外な部分が続きます。後ろの節に tetapi は足しません。walaupun がすでに対比を表しているからです。二つの別々の文では、日常語は tetapi（第5章；話し言葉は tapi）、書き言葉は namun です：Mendaki batal. Namun kita masih makan di kafe. Kalau と walaupun は違います。kalau hujan は条件、walaupun hujan は「雨でも関係ない」です。",
+  "source_text": "説明：walaupun ＋ 節で、別のことが事実であってもこうだ、という対比を言います：Walaupun hujan, saya mahu berjalan kaki.（Kata-Kata の文型）。最初の節のあとにコンマを置き、意外な部分が続きます。後ろの節に tetapi は足しません。walaupun がすでに対比を表しているからです。二つの別々の文では、日常語は tetapi（第5章；話し言葉は tapi）、書き言葉は namun です：Rancangan mendaki batal. Namun kita masih makan di kafe. Kalau と walaupun は違います。kalau hujan は条件、walaupun hujan は「雨でも関係ない」です。",
   "target_spans": [
    "walaupun",
    "Walaupun hujan, saya mahu berjalan kaki.",
@@ -140070,7 +140070,7 @@
    "tetapi",
    "tapi",
    "namun",
-   "Mendaki batal. Namun kita masih makan di kafe.",
+   "Rancangan mendaki batal. Namun kita masih makan di kafe.",
    "Kalau",
    "walaupun",
    "kalau hujan",
@@ -140299,9 +140299,9 @@
   "exclusion": null
  },
  "Unit 14 · Pattern and grammar focus|6|11": {
-  "source_text": "5. A: Kita tangguhkan mendaki, ya? B: Ya. Mula-mula kita tangguhkan, kemudian kita tulis mesej untuk kawan kita.",
+  "source_text": "5. A: Kita tangguhkan rancangan mendaki, ya? B: Ya. Mula-mula kita tangguhkan, kemudian kita tulis mesej untuk kawan kita.",
   "target_spans": [
-   "Kita tangguhkan mendaki, ya?",
+   "Kita tangguhkan rancangan mendaki, ya?",
    "Ya. Mula-mula kita tangguhkan, kemudian kita tulis mesej untuk kawan kita."
   ],
   "mention_spans": [],
@@ -140837,9 +140837,9 @@
   "exclusion": null
  },
  "Unit 14 · Drill 3 · Transformation|3|5": {
-  "source_text": "4. Formal to everyday: Oleh itu, kita tangguhkan ke hari Ahad.",
+  "source_text": "4. Formal to everyday: Oleh itu, kita tangguhkan rancangan itu ke hari Ahad.",
   "target_spans": [
-   "Oleh itu, kita tangguhkan ke hari Ahad."
+   "Oleh itu, kita tangguhkan rancangan itu ke hari Ahad."
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -141143,9 +141143,9 @@
   "exclusion": null
  },
  "Unit 14 · Drill 5 · Question-word choice|3|3": {
-  "source_text": "2. Kita tangguhkan mendaki ke ___? → Ke hari Ahad.",
+  "source_text": "2. Kita tangguhkan rancangan mendaki ke ___? → Ke hari Ahad.",
   "target_spans": [
-   "Kita tangguhkan mendaki ke ___?",
+   "Kita tangguhkan rancangan mendaki ke ___?",
    "Ke hari Ahad."
   ],
   "mention_spans": [],
@@ -141326,10 +141326,10 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 14 · Drill 6 · Short dialogues|3|7": {
-  "source_text": "A: Walaupun hujan, awak masih mahu mendaki?  B: Tidak. Kita batalkan mendaki, tetapi kita makan di kafe.  A: ____________________",
+  "source_text": "A: Walaupun hujan, awak masih mahu mendaki?  B: Tidak. Kita batalkan rancangan mendaki, tetapi kita makan di kafe.  A: ____________________",
   "target_spans": [
    "Walaupun hujan, awak masih mahu mendaki?",
-   "Tidak. Kita batalkan mendaki, tetapi kita makan di kafe."
+   "Tidak. Kita batalkan rancangan mendaki, tetapi kita makan di kafe."
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -141630,18 +141630,18 @@
   "exclusion": null
  },
  "Unit 14 · Cumulative question-word drill|3|1": {
-  "source_text": "Chapter 14 adds no new question word. The plan sentences fit every question you know: Siapa yang menulis mesej itu?, Kita berjumpa di mana?, Pukul berapa kita berjumpa?, Ada berapa pilihan?, Kenapa kita tangguhkan mendaki? / 第14章で新しい疑問語は増えません。計画の文は知っている疑問語すべてと使えます：Siapa yang menulis mesej itu?、Kita berjumpa di mana?、Pukul berapa kita berjumpa?、Ada berapa pilihan?、Kenapa kita tangguhkan mendaki?",
+  "source_text": "Chapter 14 adds no new question word. The plan sentences fit every question you know: Siapa yang menulis mesej itu?, Kita berjumpa di mana?, Pukul berapa kita berjumpa?, Ada berapa pilihan?, Kenapa kita tangguhkan rancangan mendaki? / 第14章で新しい疑問語は増えません。計画の文は知っている疑問語すべてと使えます：Siapa yang menulis mesej itu?、Kita berjumpa di mana?、Pukul berapa kita berjumpa?、Ada berapa pilihan?、Kenapa kita tangguhkan rancangan mendaki?",
   "target_spans": [
    "Siapa yang menulis mesej itu?",
    "Kita berjumpa di mana?",
    "Pukul berapa kita berjumpa?",
    "Ada berapa pilihan?",
-   "Kenapa kita tangguhkan mendaki?",
+   "Kenapa kita tangguhkan rancangan mendaki?",
    "Siapa yang menulis mesej itu?",
    "Kita berjumpa di mana?",
    "Pukul berapa kita berjumpa?",
    "Ada berapa pilihan?",
-   "Kenapa kita tangguhkan mendaki?"
+   "Kenapa kita tangguhkan rancangan mendaki?"
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -141856,11 +141856,11 @@
   "exclusion": null
  },
  "Unit 14 · Cumulative question-word drill|4|4": {
-  "source_text": "10 Bagaimana kita ke stesen? (spoken: Macam mana kita ke stesen?) 11 Kenapa kita tangguhkan mendaki? / Mengapa …? / Apa sebab …? Sebab hujan. / Kerana hujan.",
+  "source_text": "10 Bagaimana kita ke stesen? (spoken: Macam mana kita ke stesen?) 11 Kenapa kita tangguhkan rancangan mendaki? / Mengapa …? / Apa sebab …? Sebab hujan. / Kerana hujan.",
   "target_spans": [
    "Bagaimana kita ke stesen?",
    "Macam mana kita ke stesen?",
-   "Kenapa kita tangguhkan mendaki?",
+   "Kenapa kita tangguhkan rancangan mendaki?",
    "Mengapa …?",
    "Apa sebab …?",
    "Sebab hujan.",
@@ -142247,9 +142247,9 @@
   "exclusion": null
  },
  "Unit 14 · Model conversation|4|10": {
-  "source_text": "Mei Ling: Kalau hujan, kita batalkan mendaki. Kita makan di kafe sahaja.",
+  "source_text": "Mei Ling: Kalau hujan, kita batalkan rancangan mendaki. Kita makan di kafe sahaja.",
   "target_spans": [
-   "Kalau hujan, kita batalkan mendaki. Kita makan di kafe sahaja."
+   "Kalau hujan, kita batalkan rancangan mendaki. Kita makan di kafe sahaja."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -142555,9 +142555,9 @@
   "exclusion": null
  },
  "Unit 14 · Listening focus · Encik Tanaka|4|4": {
-  "source_text": "Tanaka: Cik Mei Ling bekerja pada hari Sabtu. Jadi, kami tangguhkan ke hari Ahad.",
+  "source_text": "Tanaka: Cik Mei Ling bekerja pada hari Sabtu. Jadi, kita tangguhkan ke hari Ahad.",
   "target_spans": [
-   "Cik Mei Ling bekerja pada hari Sabtu. Jadi, kami tangguhkan ke hari Ahad."
+   "Cik Mei Ling bekerja pada hari Sabtu. Jadi, kita tangguhkan ke hari Ahad."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -142573,9 +142573,9 @@
   "exclusion": null
  },
  "Unit 14 · Listening focus · Encik Tanaka|4|6": {
-  "source_text": "Tanaka: Kalau hujan, mendaki batal. Tetapi kita masih berjumpa dan makan di kafe.",
+  "source_text": "Tanaka: Kalau hujan, rancangan mendaki batal. Tetapi kita masih berjumpa dan makan di kafe.",
   "target_spans": [
-   "Kalau hujan, mendaki batal. Tetapi kita masih berjumpa dan makan di kafe."
+   "Kalau hujan, rancangan mendaki batal. Tetapi kita masih berjumpa dan makan di kafe."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -142694,9 +142694,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 14 · Reading and writing · A message about the hike|3|1": {
-  "source_text": "Selamat pagi semua. Ada perubahan rancangan. Mendaki pada hari Sabtu batal kerana saya bekerja. Oleh itu, kami tangguhkan ke hari Ahad. Jika hujan pada hari Ahad, kami batalkan rancangan mendaki. Namun kita masih makan di kafe. Apabila cuaca cerah, kita mendaki. Mula-mula berjumpa di stesen pukul tujuh. Seterusnya mendaki. Akhirnya makan di kafe. Tujuan kita sama: berehat dan berjalan. Keputusan: hari Ahad. Janji!",
+  "source_text": "Selamat pagi semua. Ada perubahan rancangan. Rancangan mendaki pada hari Sabtu batal kerana saya bekerja. Oleh itu, kita tangguhkan rancangan itu ke hari Ahad. Jika hujan pada hari Ahad, kita batalkan rancangan mendaki. Namun kita masih makan di kafe. Apabila cuaca cerah, kita mendaki. Mula-mula berjumpa di stesen pukul tujuh. Seterusnya mendaki. Akhirnya makan di kafe. Tujuan kita sama: berehat dan berjalan. Keputusan: hari Ahad. Janji!",
   "target_spans": [
-   "Selamat pagi semua. Ada perubahan rancangan. Mendaki pada hari Sabtu batal kerana saya bekerja. Oleh itu, kami tangguhkan ke hari Ahad. Jika hujan pada hari Ahad, kami batalkan rancangan mendaki. Namun kita masih makan di kafe. Apabila cuaca cerah, kita mendaki. Mula-mula berjumpa di stesen pukul tujuh. Seterusnya mendaki. Akhirnya makan di kafe. Tujuan kita sama: berehat dan berjalan. Keputusan: hari Ahad. Janji!"
+   "Selamat pagi semua. Ada perubahan rancangan. Rancangan mendaki pada hari Sabtu batal kerana saya bekerja. Oleh itu, kita tangguhkan rancangan itu ke hari Ahad. Jika hujan pada hari Ahad, kita batalkan rancangan mendaki. Namun kita masih makan di kafe. Apabila cuaca cerah, kita mendaki. Mula-mula berjumpa di stesen pukul tujuh. Seterusnya mendaki. Akhirnya makan di kafe. Tujuan kita sama: berehat dan berjalan. Keputusan: hari Ahad. Janji!"
   ],
   "mention_spans": [],
   "kind": "reading",
@@ -142822,9 +142822,9 @@
   "exclusion": null
  },
  "Unit 14 · Reading and writing · A message about the hike|4|1": {
-  "source_text": "Model writing: Selamat petang. Ada perubahan rancangan. Kami tangguhkan makan malam ke hari Jumaat kerana saya bekerja pada hari Khamis. Kalau hujan, kami makan di rumah. Mula-mula kita berjumpa, kemudian kita makan, akhirnya kita berjalan. Janji!",
+  "source_text": "Model writing: Selamat petang. Ada perubahan rancangan. Kita tangguhkan makan malam ke hari Jumaat kerana saya bekerja pada hari Khamis. Kalau hujan, kita makan di rumah. Mula-mula kita berjumpa, kemudian kita makan, akhirnya kita berjalan. Janji!",
   "target_spans": [
-   "Selamat petang. Ada perubahan rancangan. Kami tangguhkan makan malam ke hari Jumaat kerana saya bekerja pada hari Khamis. Kalau hujan, kami makan di rumah. Mula-mula kita berjumpa, kemudian kita makan, akhirnya kita berjalan. Janji!"
+   "Selamat petang. Ada perubahan rancangan. Kita tangguhkan makan malam ke hari Jumaat kerana saya bekerja pada hari Khamis. Kalau hujan, kita makan di rumah. Mula-mula kita berjumpa, kemudian kita makan, akhirnya kita berjalan. Janji!"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -142942,9 +142942,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 14 · Task · A changed outing|3|8": {
-  "source_text": "Halfway, A says: Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe. B answers with a reason or a promise and asks what time they meet: Baik. Pukul berapa kita berjumpa di kafe?",
+  "source_text": "Halfway, A says: Maaf, hari Ahad pun hujan. Jadi, kita batalkan rancangan mendaki, tetapi kita masih makan di kafe. B answers with a reason or a promise and asks what time they meet: Baik. Pukul berapa kita berjumpa di kafe?",
   "target_spans": [
-   "Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe.",
+   "Maaf, hari Ahad pun hujan. Jadi, kita batalkan rancangan mendaki, tetapi kita masih makan di kafe.",
    "Baik. Pukul berapa kita berjumpa di kafe?"
   ],
   "mention_spans": [],
@@ -142952,9 +142952,9 @@
   "exclusion": null
  },
  "Unit 14 · Task · A changed outing|3|9": {
-  "source_text": "途中でAが Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe. と言います。Bは理由か約束で答え、何時に会うかをたずねます：Baik. Pukul berapa kita berjumpa di kafe?",
+  "source_text": "途中でAが Maaf, hari Ahad pun hujan. Jadi, kita batalkan rancangan mendaki, tetapi kita masih makan di kafe. と言います。Bは理由か約束で答え、何時に会うかをたずねます：Baik. Pukul berapa kita berjumpa di kafe?",
   "target_spans": [
-   "Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe.",
+   "Maaf, hari Ahad pun hujan. Jadi, kita batalkan rancangan mendaki, tetapi kita masih makan di kafe.",
    "Baik. Pukul berapa kita berjumpa di kafe?"
   ],
   "mention_spans": [],
@@ -143001,7 +143001,7 @@
   "exclusion": null
  },
  "Unit 14 · Task · A changed outing|4|0": {
-  "source_text": "Possible exchange: Kita ada dua pilihan: hari Sabtu atau hari Ahad. — Saya tidak boleh datang pada hari Sabtu kerana saya bekerja. Boleh kita tangguhkan ke hari Ahad? — Boleh. Tetapi kalau hujan, bagaimana? — Kalau hujan, kita makan di kafe. — Bagus. Mula-mula kita berjumpa di stesen. Kemudian kita berjalan. Akhirnya kita makan di kafe. — Saya datang awal supaya kita tidak lambat. Janji! — Change: Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe. — Baik. Pukul berapa kita berjumpa di kafe?",
+  "source_text": "Possible exchange: Kita ada dua pilihan: hari Sabtu atau hari Ahad. — Saya tidak boleh datang pada hari Sabtu kerana saya bekerja. Boleh kita tangguhkan ke hari Ahad? — Boleh. Tetapi kalau hujan, bagaimana? — Kalau hujan, kita makan di kafe. — Bagus. Mula-mula kita berjumpa di stesen. Kemudian kita berjalan. Akhirnya kita makan di kafe. — Saya datang awal supaya kita tidak lambat. Janji! — Change: Maaf, hari Ahad pun hujan. Jadi, kita batalkan rancangan mendaki, tetapi kita masih makan di kafe. — Baik. Pukul berapa kita berjumpa di kafe?",
   "target_spans": [
    "Kita ada dua pilihan: hari Sabtu atau hari Ahad.",
    "Saya tidak boleh datang pada hari Sabtu kerana saya bekerja. Boleh kita tangguhkan ke hari Ahad?",
@@ -143009,7 +143009,7 @@
    "Kalau hujan, kita makan di kafe.",
    "Bagus. Mula-mula kita berjumpa di stesen. Kemudian kita berjalan. Akhirnya kita makan di kafe.",
    "Saya datang awal supaya kita tidak lambat. Janji!",
-   "Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe.",
+   "Maaf, hari Ahad pun hujan. Jadi, kita batalkan rancangan mendaki, tetapi kita masih makan di kafe.",
    "Baik. Pukul berapa kita berjumpa di kafe?"
   ],
   "mention_spans": [],
@@ -143367,9 +143367,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 14 · Unit test and self-check|3|19": {
-  "source_text": "Fictional message to the hiking group: Jika hujan pada hari Ahad, kita batalkan mendaki. Namun kita masih makan di kafe. Apabila cuaca cerah, kita mendaki. Mula-mula berjumpa di stesen. Seterusnya mendaki. Akhirnya makan di kafe.",
+  "source_text": "Fictional message to the hiking group: Jika hujan pada hari Ahad, kita batalkan rancangan mendaki. Namun kita masih makan di kafe. Apabila cuaca cerah, kita mendaki. Mula-mula berjumpa di stesen. Seterusnya mendaki. Akhirnya makan di kafe.",
   "target_spans": [
-   "Jika hujan pada hari Ahad, kita batalkan mendaki. Namun kita masih makan di kafe. Apabila cuaca cerah, kita mendaki. Mula-mula berjumpa di stesen. Seterusnya mendaki. Akhirnya makan di kafe."
+   "Jika hujan pada hari Ahad, kita batalkan rancangan mendaki. Namun kita masih makan di kafe. Apabila cuaca cerah, kita mendaki. Mula-mula berjumpa di stesen. Seterusnya mendaki. Akhirnya makan di kafe."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -143464,18 +143464,18 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 14 · Unit test and self-check|5|0": {
-  "source_text": "L1: Teacher reads: Cik Mei Ling bekerja pada hari Sabtu. Jadi, kami tangguhkan ke hari Ahad. Answer: Mei Ling works on Saturday",
+  "source_text": "L1: Teacher reads: Cik Mei Ling bekerja pada hari Sabtu. Jadi, kita tangguhkan ke hari Ahad. Answer: Mei Ling works on Saturday",
   "target_spans": [
-   "Cik Mei Ling bekerja pada hari Sabtu. Jadi, kami tangguhkan ke hari Ahad."
+   "Cik Mei Ling bekerja pada hari Sabtu. Jadi, kita tangguhkan ke hari Ahad."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 14 · Unit test and self-check|5|1": {
-  "source_text": "L2: Teacher reads: Kalau hujan, mendaki batal. Tetapi kita masih berjumpa dan makan di kafe. Answer: the hike is cancelled but they still eat at the cafe",
+  "source_text": "L2: Teacher reads: Kalau hujan, rancangan mendaki batal. Tetapi kita masih berjumpa dan makan di kafe. Answer: the hike is cancelled but they still eat at the cafe",
   "target_spans": [
-   "Kalau hujan, mendaki batal. Tetapi kita masih berjumpa dan makan di kafe."
+   "Kalau hujan, rancangan mendaki batal. Tetapi kita masih berjumpa dan makan di kafe."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -143674,9 +143674,9 @@
   "exclusion": null
  },
  "test:ms-c14-test-01|answer_key": {
-  "source_text": "Teacher reads: Cik Mei Ling bekerja pada hari Sabtu. Jadi, kami tangguhkan ke hari Ahad. Answer: Mei Ling works on Saturday",
+  "source_text": "Teacher reads: Cik Mei Ling bekerja pada hari Sabtu. Jadi, kita tangguhkan ke hari Ahad. Answer: Mei Ling works on Saturday",
   "target_spans": [
-   "Cik Mei Ling bekerja pada hari Sabtu. Jadi, kami tangguhkan ke hari Ahad."
+   "Cik Mei Ling bekerja pada hari Sabtu. Jadi, kita tangguhkan ke hari Ahad."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -143690,9 +143690,9 @@
   "exclusion": null
  },
  "test:ms-c14-test-02|answer_key": {
-  "source_text": "Teacher reads: Kalau hujan, mendaki batal. Tetapi kita masih berjumpa dan makan di kafe. Answer: the hike is cancelled but they still eat at the cafe",
+  "source_text": "Teacher reads: Kalau hujan, rancangan mendaki batal. Tetapi kita masih berjumpa dan makan di kafe. Answer: the hike is cancelled but they still eat at the cafe",
   "target_spans": [
-   "Kalau hujan, mendaki batal. Tetapi kita masih berjumpa dan makan di kafe."
+   "Kalau hujan, rancangan mendaki batal. Tetapi kita masih berjumpa dan makan di kafe."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -144428,7 +144428,7 @@
   "exclusion": null
  },
  "Unit 14 · Teaching plan and answer key|5|4": {
-  "source_text": "The -kan rule from chapter 12 (Sam): tangguhkan and batalkan appear in kita sentences and requests (Kita batalkan rancangan mendaki., Boleh kita tangguhkan ke hari Ahad?), never after sudah, sedang, belum, akan, baru or masih. With a third-person doer the bare form is allowed for now (Sam, 13 Nov 2026): Mei Ling tangguhkan mendaki ke hari Ahad. A later chapter teaches the meN- forms (menangguhkan, membatalkan) as the standard; do not teach them here. Mendaki batal. stays for the intransitive. No meN- + -kan form is taught.",
+  "source_text": "The -kan rule from chapter 12 (Sam): tangguhkan and batalkan appear in kita sentences and requests (Kita batalkan rancangan mendaki., Boleh kita tangguhkan ke hari Ahad?), never after sudah, sedang, belum, akan, baru or masih. With a third-person doer the bare form is allowed for now (Sam, 13 Nov 2026): Mei Ling tangguhkan rancangan mendaki ke hari Ahad. A later chapter teaches the meN- forms (menangguhkan, membatalkan) as the standard; do not teach them here. Rancangan mendaki batal. stays for the intransitive. No meN- + -kan form is taught.",
   "target_spans": [
    "tangguhkan",
    "batalkan",
@@ -144441,8 +144441,8 @@
    "akan",
    "baru",
    "masih",
-   "Mei Ling tangguhkan mendaki ke hari Ahad.",
-   "Mendaki batal."
+   "Mei Ling tangguhkan rancangan mendaki ke hari Ahad.",
+   "Rancangan mendaki batal."
   ],
   "mention_spans": [
    "-kan",
@@ -144456,6 +144456,41 @@
   "exclusion": null
  },
  "Unit 14 · Teaching plan and answer key|5|5": {
+  "source_text": "tangguhkan and batalkan take a noun object, not a verb: tangguhkan rancangan mendaki, batalkan rancangan mendaki (a verb such as mendaki does not follow them), and Rancangan mendaki batal. for the intransitive. A written notice gives the object (Oleh itu, kita tangguhkan rancangan itu ke hari Ahad.); a short spoken reply may drop it (Jika hujan, kita tangguhkan., Kita tangguhkan ke hari Ahad.).",
+  "target_spans": [
+   "tangguhkan",
+   "batalkan",
+   "tangguhkan rancangan mendaki",
+   "batalkan rancangan mendaki",
+   "mendaki",
+   "Rancangan mendaki batal.",
+   "Oleh itu, kita tangguhkan rancangan itu ke hari Ahad.",
+   "Jika hujan, kita tangguhkan.",
+   "Kita tangguhkan ke hari Ahad."
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 14 · Teaching plan and answer key|6|0": {
+  "source_text": "kami against kita (a common trap): kami leaves the listener out, kita includes the listener. A group-chat message or a notice goes to people who are going too, so it says kita (Kita tangguhkan ke hari Ahad. Namun kita masih makan di kafe.). kami fits an invitation to someone who has not yet said yes (Hujung minggu ini kami mahu mendaki. Puan Aini mahu datang?); once she says yes, the plan is kita. Japanese has one 私たち for both, so learners mix them: the question is whether the listener goes too.",
+  "target_spans": [
+   "kami",
+   "kita",
+   "kami",
+   "kita",
+   "kita",
+   "Kita tangguhkan ke hari Ahad. Namun kita masih makan di kafe.",
+   "kami",
+   "Hujung minggu ini kami mahu mendaki. Puan Aini mahu datang?",
+   "kita",
+   "私たち"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 14 · Teaching plan and answer key|6|1": {
   "source_text": "keputusan is a word for a written notice or a result (Keputusan: hari Ahad.). The casual turns do not use ruling-style words: no keputusan in conversation. The casual dialogue lines may use the everyday bare root after an aspect word, as Kata-Kata does (Saya sudah tulis mesej.); the pattern examples, keys, notices and written texts use the meN- form (menulis).",
   "target_spans": [
    "keputusan",
@@ -144470,7 +144505,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 14 · Teaching plan and answer key|5|6": {
+ "Unit 14 · Teaching plan and answer key|6|2": {
   "source_text": "Where Japanese learners usually slip: (1) supaya for a reason, or kerana for a purpose (ので against ように); (2) tetapi in the second clause after walaupun; (3) a word for \"then\" after the comma of kalau; (4) bila for \"if\" and kalau for \"when\"; (5) jika and apabila in speech, which sounds like a notice; (6) one verb in the sambil sentence given to two different people.",
   "target_spans": [
    "supaya",
@@ -144488,7 +144523,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 14 · Teaching plan and answer key|6|0": {
+ "Unit 14 · Teaching plan and answer key|6|3": {
   "source_text": "Natural speech: Kalau, bila, tetapi, jadi, Janji! and Baik in conversation; jika, apabila, namun, oleh itu, seterusnya in messages and notices. The casual lines keep kita and a short second sentence. The scene follows Kata-Kata c14 (scenario lines ms-c14-s01 to s15, frames f01 to f06). All names, plans and times are fictional; learners may use an invented outing.",
   "target_spans": [
    "Kalau",
@@ -144508,7 +144543,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 14 · Teaching plan and answer key|6|1": {
+ "Unit 14 · Teaching plan and answer key|6|4": {
   "source_text": "Cumulative question words: chapters 1 to 14. Chapter 14 adds no new question word.",
   "target_spans": [],
   "mention_spans": [],
@@ -144565,18 +144600,18 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 14 · Writing block · Explain and rearrange a plan|3|1": {
-  "source_text": "Selamat petang semua. Kita tangguhkan mendaki ke hari Ahad kerana saya bekerja pada hari Sabtu. Kalau hujan, kita makan di kafe. Mula-mula kita berjumpa di stesen pukul tujuh, kemudian kita mendaki, akhirnya kita makan di kafe. Saya datang awal supaya kita tidak lambat. Janji!",
+  "source_text": "Selamat petang semua. Kita tangguhkan rancangan mendaki ke hari Ahad kerana saya bekerja pada hari Sabtu. Kalau hujan, kita makan di kafe. Mula-mula kita berjumpa di stesen pukul tujuh, kemudian kita mendaki, akhirnya kita makan di kafe. Saya datang awal supaya kita tidak lambat. Janji!",
   "target_spans": [
-   "Selamat petang semua. Kita tangguhkan mendaki ke hari Ahad kerana saya bekerja pada hari Sabtu. Kalau hujan, kita makan di kafe. Mula-mula kita berjumpa di stesen pukul tujuh, kemudian kita mendaki, akhirnya kita makan di kafe. Saya datang awal supaya kita tidak lambat. Janji!"
+   "Selamat petang semua. Kita tangguhkan rancangan mendaki ke hari Ahad kerana saya bekerja pada hari Sabtu. Kalau hujan, kita makan di kafe. Mula-mula kita berjumpa di stesen pukul tujuh, kemudian kita mendaki, akhirnya kita makan di kafe. Saya datang awal supaya kita tidak lambat. Janji!"
   ],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": null
  },
  "Unit 14 · Writing block · Explain and rearrange a plan|3|2": {
-  "source_text": "Ada perubahan rancangan. Oleh itu, kami tangguhkan mendaki ke hari Ahad. Jika hujan, kami batalkan mendaki. Namun kami masih makan di kafe. Apabila cuaca cerah, kami mendaki. Keputusan: hari Ahad.",
+  "source_text": "Ada perubahan rancangan. Oleh itu, kita tangguhkan rancangan itu ke hari Ahad. Jika hujan, kita batalkan rancangan itu. Namun kita masih makan di kafe. Apabila cuaca cerah, kita mendaki. Keputusan: hari Ahad.",
   "target_spans": [
-   "Ada perubahan rancangan. Oleh itu, kami tangguhkan mendaki ke hari Ahad. Jika hujan, kami batalkan mendaki. Namun kami masih makan di kafe. Apabila cuaca cerah, kami mendaki. Keputusan: hari Ahad."
+   "Ada perubahan rancangan. Oleh itu, kita tangguhkan rancangan itu ke hari Ahad. Jika hujan, kita batalkan rancangan itu. Namun kita masih makan di kafe. Apabila cuaca cerah, kita mendaki. Keputusan: hari Ahad."
   ],
   "mention_spans": [],
   "kind": "reading",
@@ -144621,9 +144656,9 @@
   "exclusion": null
  },
  "Unit 14 · Writing block · Explain and rearrange a plan|3|6": {
-  "source_text": "5–15 Model and notice: read the two messages; underline every connector and say which is everyday and which is written; rewrite Jika hujan, kami batalkan mendaki as speech.",
+  "source_text": "5–15 Model and notice: read the two messages; underline every connector and say which is everyday and which is written; rewrite Jika hujan, kita batalkan rancangan itu as speech.",
   "target_spans": [
-   "Jika hujan, kami batalkan mendaki"
+   "Jika hujan, kita batalkan rancangan itu"
   ],
   "mention_spans": [],
   "kind": "reading",
@@ -144820,10 +144855,10 @@
   "exclusion": null
  },
  "Unit 14 · Writing block · Explain and rearrange a plan|5|0": {
-  "source_text": "Model: Any six to eight correct sentences that cover the checklist. Model: Selamat petang semua. Kita tangguhkan mendaki ke hari Ahad kerana saya bekerja pada hari Sabtu. Kalau hujan, kita makan di kafe. Mula-mula kita berjumpa di stesen, kemudian kita mendaki, akhirnya kita makan di kafe. Saya datang awal supaya kita tidak lambat. Janji! Notice: Ada perubahan rancangan. Oleh itu, kami tangguhkan mendaki ke hari Ahad. Jika hujan, kami batalkan mendaki.",
+  "source_text": "Model: Any six to eight correct sentences that cover the checklist. Model: Selamat petang semua. Kita tangguhkan rancangan mendaki ke hari Ahad kerana saya bekerja pada hari Sabtu. Kalau hujan, kita makan di kafe. Mula-mula kita berjumpa di stesen, kemudian kita mendaki, akhirnya kita makan di kafe. Saya datang awal supaya kita tidak lambat. Janji! Notice: Ada perubahan rancangan. Oleh itu, kita tangguhkan rancangan itu ke hari Ahad. Jika hujan, kita batalkan rancangan itu.",
   "target_spans": [
-   "Selamat petang semua. Kita tangguhkan mendaki ke hari Ahad kerana saya bekerja pada hari Sabtu. Kalau hujan, kita makan di kafe. Mula-mula kita berjumpa di stesen, kemudian kita mendaki, akhirnya kita makan di kafe. Saya datang awal supaya kita tidak lambat. Janji!",
-   "Ada perubahan rancangan. Oleh itu, kami tangguhkan mendaki ke hari Ahad. Jika hujan, kami batalkan mendaki."
+   "Selamat petang semua. Kita tangguhkan rancangan mendaki ke hari Ahad kerana saya bekerja pada hari Sabtu. Kalau hujan, kita makan di kafe. Mula-mula kita berjumpa di stesen, kemudian kita mendaki, akhirnya kita makan di kafe. Saya datang awal supaya kita tidak lambat. Janji!",
+   "Ada perubahan rancangan. Oleh itu, kita tangguhkan rancangan itu ke hari Ahad. Jika hujan, kita batalkan rancangan itu."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -148166,21 +148201,21 @@
   "exclusion": null
  },
  "Chapter 14 · Fast-course summary pack|5|6": {
-  "source_text": "Change of plan: A says Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe. B asks the time they meet at the cafe.",
+  "source_text": "Change of plan: A says Maaf, hari Ahad pun hujan. Jadi, kita batalkan rancangan mendaki, tetapi kita masih makan di kafe. B asks the time they meet at the cafe.",
   "target_spans": [
-   "Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe."
+   "Maaf, hari Ahad pun hujan. Jadi, kita batalkan rancangan mendaki, tetapi kita masih makan di kafe."
   ],
   "mention_spans": [],
   "kind": "task",
   "exclusion": null
  },
  "Chapter 14 · Fast-course summary pack|5|7": {
-  "source_text": "A：Bさんと土曜日の外出を計画します（架空）。仕事があるので土曜日は行けず、日曜日なら行けます。理由・二つの選択肢・雨の日の計画を言います。B：Aがなぜ来られないかをたずね、日を選び、雨が降ったらどうするかをたずね、mula-mula・kemudian・akhirnya で一日の順序を言います。変更：Aが Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe. と言い、Bはカフェで会う時刻をたずねます。",
+  "source_text": "A：Bさんと土曜日の外出を計画します（架空）。仕事があるので土曜日は行けず、日曜日なら行けます。理由・二つの選択肢・雨の日の計画を言います。B：Aがなぜ来られないかをたずね、日を選び、雨が降ったらどうするかをたずね、mula-mula・kemudian・akhirnya で一日の順序を言います。変更：Aが Maaf, hari Ahad pun hujan. Jadi, kita batalkan rancangan mendaki, tetapi kita masih makan di kafe. と言い、Bはカフェで会う時刻をたずねます。",
   "target_spans": [
    "mula-mula",
    "kemudian",
    "akhirnya",
-   "Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe."
+   "Maaf, hari Ahad pun hujan. Jadi, kita batalkan rancangan mendaki, tetapi kita masih makan di kafe."
   ],
   "mention_spans": [],
   "kind": "task",
