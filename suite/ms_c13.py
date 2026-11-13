@@ -27,7 +27,7 @@ CORE = RULES + CLINIC + PHARMACY
 REV_NOT = ['L-0030', 'L-0130', 'L-0194', 'L-1062', 'L-0076', 'L-0783', 'L-0193', 'L-0192', 'L-0189', 'L-0191', 'L-0195']
 REV_HEALTH = ['L-0407', 'L-0406', 'L-0409', 'L-0410', 'L-0255', 'L-1093', 'L-1098', 'L-0534']
 REV_FORM = ['L-0419', 'L-0420', 'L-1147', 'L-0423', 'L-0124', 'L-0421', 'L-0532', 'L-0066', 'L-1141', 'L-1135', 'L-1155', 'L-0451', 'L-0127']
-REV_RULES = ['L-0397', 'L-0401', 'L-0197', 'L-0198', 'L-0325', 'L-0471', 'L-0086', 'L-0574', 'L-0368']
+REV_RULES = ['L-0397', 'L-0401', 'L-0197', 'L-0198', 'L-0325', 'L-0471', 'L-0574', 'L-0368']
 REV_ASK = ['L-0018', 'L-0375', 'L-0020', 'L-0535', 'L-0476', 'L-0473', 'L-0024', 'L-1175', 'L-1168', 'L-0188', 'L-1050', 'L-0688']
 
 EXAMPLES = {
@@ -39,7 +39,7 @@ EXAMPLES = {
     'L-1188': '«Tidak dibenarkan minum di sini.»',
     'L-1189': '«Awak mesti minta kebenaran bos dulu.» (permission only)',
     'L-1190': '«Itu nasihat doktor.»',
-    'L-1196': '«Tolong elakkan bising di bilik menunggu.»',
+    'L-1196': '«Tolong elakkan lif itu. Lif itu rosak.»',
     'L-1197': '«Pukul empat petang sesuai?»',
     'L-0636': '«Tanya penyambut tetamu bila perlu.»',
     # The panel clinic
@@ -101,12 +101,11 @@ EXAMPLES = {
     'L-0198': '«Boleh saya minum air di sini?»',
     'L-0325': '«Bolehkah saya masuk?»',
     'L-0471': '«Boleh saya duduk di sini?»',
-    'L-0086': '«Pelawat dibenarkan masuk pukul dua.»',
     'L-0574': '«Boleh saya letak beg di sini?»',
     'L-0368': '«Tidak dibenarkan ambil gambar di sini.»',
     # Revision · asking and thanking
     'L-0018': '«Maaf, tidak dibenarkan minum di sini.»',
-    'L-0375': '«Tolong elakkan bising di bilik menunggu.»',
+    'L-0375': '«Tolong jangan bising di bilik menunggu.»',
     'L-0020': '«Doktor, boleh saya minta cuti sakit untuk esok?»',
     'L-0535': '«Tanya penyambut tetamu bila perlu.»',
     'L-0476': '«Baik, saya faham.»',
@@ -209,18 +208,18 @@ P = [
      "«patut» + a verb is advice: it says what is a good idea, and you may choose: «Encik patut berehat.» (the Kata-Kata frame, said by the doctor). «nasihat» is the advice itself. "
      "«mesti» is must, with no choice: «Encik mesti baca arahan di label.» «mesti» is a root, not ‹me-› + ‹sti›. «wajib» is must on a form or a notice: «Borang ini wajib diisi.» "
      "So the three steps are: «perlu» (a step you take), «patut» (advice) and «mesti» or «wajib» (must). This course teaches the language of advice only; for your health follow your own doctor and pharmacist. "
-     "«Elakkan» (avoid) belongs to notices and requests: «Tolong elakkan bising di bilik menunggu.»",
+     "«Elakkan» (avoid) belongs to notices and requests: «Tolong elakkan lif itu.» To tell someone not to make a noise, say «Tolong jangan bising.»",
      "«patut» ＋ 動詞は助言で、よいことを言うだけで、選ぶのは本人です：«Encik patut berehat.»（Kata-Kata の文型、医者の言葉）。«nasihat» は助言そのものです。"
      "«mesti» は「しなければならない」で選べません：«Encik mesti baca arahan di label.» «mesti» は語根で、‹me-› ＋ ‹sti› ではありません。«wajib» は用紙や掲示での「必須」です：«Borang ini wajib diisi.» "
      "つまり三つの段階は «perlu»（する手順）、«patut»（助言）、«mesti»・«wajib»（義務）です。このコースが教えるのは助言のことばだけで、健康については自分の医者と薬剤師の指示に従ってください。"
-     "«Elakkan»（避ける）は掲示や依頼に使います：«Tolong elakkan bising di bilik menunggu.»",
+     "«Elakkan»（避ける）は掲示や依頼に使います：«Tolong elakkan lif itu.» 音を立てないでと言うときは «Tolong jangan bising.» です。",
      'Japanese 〜たほうがいい is advice and 〜なければならない is must. Malay keeps them apart: «patut» is 〜たほうがいい, «mesti» and «wajib» are 〜なければならない, «perlu» is 必要がある. Do not use «mesti» for advice: it sounds like an order.',
      '日本語の「〜たほうがいい」は助言、「〜なければならない」は義務です。マレー語も分けます：«patut» が「〜たほうがいい」、«mesti»・«wajib» が「〜なければならない」、«perlu» が「必要がある」です。助言に «mesti» を使わないでください。命令のように聞こえます。'),
     ('ms-c13-f05 and f06', '«Tidak dibenarkan» ___ «di sini.» / «Borang ini wajib» ___ «.»  (signs and forms)', [
         'A: «Boleh saya minum air di sini?» B: «Maaf, tidak dibenarkan minum di sini.»',
         'A: «Boleh saya makan di sini?» B: «Maaf, tidak boleh. Dilarang makan dan minum di bilik menunggu.»',
         'A: «Boleh saya masuk bilik doktor?» B: «Maaf, dilarang masuk. Sila tunggu di bilik menunggu.»',
-        'A: «Pelawat boleh masuk pukul berapa?» B: «Pelawat dibenarkan masuk pukul dua.»',
+        'A: «Apa yang tidak dibenarkan di sini?» B: «Tidak dibenarkan ambil gambar dan minum di sini.»',
         'A: «Borang ini wajib diisi?» B: «Ya, borang ini wajib diisi.»',
         'A: «Borang yang mana wajib diisi?» B: «Borang kesihatan wajib diisi.»'],
      "On a sign or a rule, «tidak dibenarkan» + a verb says that something is not allowed: «Tidak dibenarkan minum di sini.» (the Kata-Kata frame). «dibenarkan» is ‹di-› + ‹benar› + ‹-kan›, "
@@ -364,7 +363,7 @@ CFG = dict(
         'question and answer': ['«Ada temu janji?» (cue: «tidak ada»)', '«Encik sudah mendaftar?» (cue: «belum»)',
                                 '«Boleh saya minum air di sini?» (cue: «maaf, tidak dibenarkan»)', '«Encik ada alahan?» (cue: «tidak ada»)',
                                 'You hear: «Saya perlu daftar dulu.» Ask the question («di mana»).',
-                                'You hear: «Cuti sakit satu hari dari doktor.» Ask the question («berapa hari»).',
+                                'You hear: «Cuti sakit satu hari daripada doktor.» Ask the question («berapa hari»).',
                                 'You hear: «Borang ini wajib diisi.» Ask the question («yang mana»).',
                                 'You hear: «Dos ada di label itu.» Ask the question («di mana»).'],
         'question-word choice': ['«___ sudah mendaftar?» → «Encik Tanaka.»', '«Saya perlu bawa ___?» → «Kad syarikat.»',
@@ -381,7 +380,7 @@ CFG = dict(
         'transform': ['1 «Saya belum mendaftar.» 2 «Boleh saya masuk?» 3 «Saya tidak perlu tunggu.» 4 «Awak patut berehat.»',
                       '5 «Saya belum isi borang.» 6 «Tidak boleh minum di sini.» 7 «Borang ini wajib diisi.» 8 «Belum. Saya belum mendaftar.»'],
         'question and answer': ['1 «Tidak ada. Saya belum tempah.» 2 «Belum. Saya belum mendaftar.» 3 «Maaf, tidak dibenarkan minum di sini.» 4 «Tidak ada. Saya tidak ada alahan.»',
-                                '5 «Daftar di mana?» 6 «Berapa hari cuti sakit dari doktor?» 7 «Borang yang mana wajib diisi?» 8 «Dos ada di mana?»'],
+                                '5 «Daftar di mana?» 6 «Berapa hari cuti sakit daripada doktor?» 7 «Borang yang mana wajib diisi?» 8 «Dos ada di mana?»'],
         'question-word choice': ['1 «Siapa» 2 «apa» 3 «di mana» 4 «Pukul berapa» 5 «Kenapa» (also «Mengapa», «Apa sebab»; the answer starts with «sebab» or «kerana») 6 «yang mana» 7 «Berapa» 8 «apa»'],
     },
     short_dialogues=[
@@ -454,8 +453,8 @@ CFG = dict(
     reading_title='Reading and writing · A clinic notice and a message about sick leave',
     reading=['Fictional notice at a panel clinic and message from a boss (all names are invented):',
              '«KLINIK PANEL. Sila daftar di kaunter. Untuk rawatan, tunjukkan kad syarikat. Borang kesihatan wajib diisi. Dilarang makan dan minum di bilik menunggu. Tidak dibenarkan ambil gambar. Bila perlu, tanya penyambut tetamu.»',
-             '«Encik Tanaka, terima kasih untuk mesej. Cuti sakit satu hari dari doktor. Awak tidak perlu datang ke pejabat esok. Awak patut berehat di rumah. Hubungi saya bila perlu.»',
-             'Sign in the clinic corridor: «Pintu kecemasan ada di sebelah kiri. Sila elakkan bising.»'],
+             '«Encik Tanaka, terima kasih atas mesej itu. Cuti sakit satu hari daripada doktor. Awak tidak perlu datang ke pejabat esok. Awak patut berehat di rumah. Hubungi saya bila perlu.»',
+             'Sign in the clinic corridor: «Pintu kecemasan ada di sebelah kiri. Sila jangan bising.»'],
     read_questions=['Where do you register?', 'Which form is compulsory?', 'What is forbidden in the waiting room?', 'What is not allowed?',
                     'How many days of sick leave did the doctor give?', 'Does Tanaka have to come to the office tomorrow?',
                     'Where is the emergency door?', 'Say in Malay: "May I come in?"'],
@@ -463,7 +462,7 @@ CFG = dict(
                   'on the left', '«Bolehkah saya masuk?»'],
     write_instruction='Write four or five sentences to your boss: say that you saw the doctor, that you have sick leave, that you do not need to come to the office and what you will do. / '
                       '上司にあてて4〜5文を書きましょう：医者に会ったこと、病気休暇があること、出社しなくてよいこと、これからすることを書きます。',
-    write_model='«Selamat pagi, bos. Saya berjumpa doktor pagi ini. Cuti sakit satu hari dari doktor. Saya tidak perlu datang ke pejabat esok. Saya akan menghubungi bos hari Isnin. Terima kasih.»',
+    write_model='«Selamat pagi, bos. Saya berjumpa doktor pagi ini. Cuti sakit satu hari daripada doktor. Saya tidak perlu datang ke pejabat esok. Saya akan menghubungi bos hari Isnin. Terima kasih.»',
     writing_type='message',
     task_title='Task · Register at the clinic and ask the pharmacist to repeat',
     role_a=['Your information (fictional): you are the receptionist, and later the pharmacist. The patient has no appointment and has not registered. The form is compulsory. Drinking is not allowed in the waiting room.',
@@ -500,7 +499,7 @@ CFG = dict(
                   ('Write the sign: "No eating or drinking in the waiting room."', '«Dilarang makan dan minum di bilik menunggu.»', ['dilarang', 'menunggu']),
                   ('Say in Malay to a man: "You should rest."', '«Encik patut berehat.»', ['patut', 'berehat'])],
     test_reading=['Fictional notice at another panel clinic: «KLINIK PANEL. Sila daftar dulu. Borang kesihatan wajib diisi. Tidak dibenarkan minum di bilik menunggu. '
-                  'Pelawat dibenarkan masuk pukul dua. Bila perlu, tanya penyambut tetamu.»'],
+                  'Bila perlu, tanya penyambut tetamu.»'],
     reading_quiz=[('What must you do first?', 'register', ['daftar']),
                   ('Which form must be filled in?', 'the health form', ['borang', 'kesihatan', 'wajib']),
                   ('What is not allowed in the waiting room?', 'drinking', ['dibenarkan', 'minum']),

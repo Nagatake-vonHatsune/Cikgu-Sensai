@@ -260,7 +260,7 @@ DIALOGUE = [
     ('Aini', 'Baik. Selepas itu saya menghantar jawapan itu ke Jepun.'),
 ]
 VARIANT = [
-    ('Rahman', 'Cik Mei Ling, surat dari bank itu sudah dibaca?'),
+    ('Rahman', 'Cik Mei Ling, surat daripada bank itu sudah dibaca?'),
     ('Mei Ling', 'Sudah. Saya membaca surat itu semalam, kemudian saya menulis jawapan.'),
     ('Rahman', 'Siapa yang menghantar jawapan itu?'),
     ('Mei Ling', 'Puan Aini yang menghantar jawapan itu. Sekarang bank sedang menerima fail kita.'),

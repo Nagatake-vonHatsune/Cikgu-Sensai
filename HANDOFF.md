@@ -26,9 +26,9 @@ Collected from every chapter. Builders rewrote the lines instead and added no ro
 | «sejak» (since) | 12 | **recommended, especially** (Sam, 13 Nov): «Sejak semalam» for when a leak started (rewritten to «Bila kebocoran itu bermula?» / «Malam tadi.») |
 | «melapor» / «melaporkan» (to report) | 12 | **recommended** (Sam, 13 Nov): Hanashishou band 2 uses «melaporkan kebocoran»; the unit says «Ada kebocoran di … saya.» |
 | the di- partners «dihubungi», «dibaiki» | 12 | the ledger has only «membaiki» and «menghubungi». **The meN-…-kan forms «menyimpankan», «menghantarkan», «membawakan» are dropped: Sam (13 Nov) says they are not natural and are not taught.** |
-| «sihat» (healthy) | 13 (Claude recommends) | the root of the ledger word «kesihatan»; «Saya sihat.» / «Saya tidak sihat.» (the unit says «Saya demam dan sakit tekak.») |
+| «sihat» (healthy) | 13 (**recommended**, Sam 13 Nov) | the root of the ledger word «kesihatan»; «Saya sihat.» / «Saya tidak sihat.» (the unit says «Saya demam dan sakit tekak.») |
 | «ahli farmasi» (pharmacist) | 13 | the Kata-Kata speaker label for s16 and s18; the unit uses the English label «Pharmacist» |
-| «beritahu» (to tell) | 13 | "tell the doctor"; the unit says «Saya cakap dengan doktor nanti.» |
+| «beritahu» (to tell) | 13 (**recommended**, Sam 13 Nov) | "tell the doctor"; the unit says «Saya cakap dengan doktor nanti.» |
 | «tinggalkan» (to leave behind) | 13 | leaving a bag at the counter; the unit says «Boleh saya letak beg di sini?» |
 
 ## Latest session: Stage 2 build step 4, chapter 12 fixes and chapter 13 (13 Nov 2026, Claude)
@@ -106,6 +106,9 @@ Collected from every chapter. Builders rewrote the lines instead and added no ro
 8. **Tests:** copy `tests/test_stage2_ch10.py` and change the chapter, units, frame lists and scenario ranges. Then update `test_catalogue.test_structure` (chapters, units, blocks and slots).
 
 **What to check before each commit**
+- **«dari» and «daripada» (Sam, 13 Nov 2026):** «dari» is for places, times and directions («dari Osaka», «dari pukul sembilan», «dari atas meja»); «daripada» is for people and organisations («mesej daripada kedai itu», «cuti sakit daripada doktor», «surat daripada bank itu») and for comparisons («lebih … daripada»). «daripada» is ledger row L-0267 (Ch6). Check every «dari» before a person or an organisation.
+- **Bare roots in dialogue (Sam, 13 Nov 2026):** a dialogue line may use the everyday bare root after an aspect word or a modal, as Kata-Kata does («Saya belum isi borang.», «Encik perlu daftar dulu.», «Doktor akan panggil cik.»). Pattern models, drills, answer keys, notices and written texts (readings, writing models) use the meN- form the ledger has («Saya belum mengisi borang.»). Bare ‹-kan› stays for requests and first-person offers («Tolong simpankan …», «Saya hantarkan sekarang.»); the chapter 12 -kan rule is unchanged otherwise.
+- **Natural speech in casual turns:** no ruling-style words («keputusan», «ialah», di- … oleh) in casual dialogue lines; rewrite the line, and list any needed word that is not in the ledger on the backlog instead of adding it.
 - Check every new «…» line at the chapter with the checker before it goes into the file: `Checker().inspect([...])` at chapter N, kind `model`, with `python3 tools/check_spans.py N suite/ms_cNN….py` (added in this step; it prints every span with a violation or a ledger gap). Fix any gap by rewriting the line, or list the word as a proposal. **Never add a ledger row.**
 - Gates: meN- from 11 (meN-…-kan and meN-…-i need 12 as well); -kan and -i from 12; accident ter- from 16; «lah» joined from 17. Every affixed form must be its own ledger row placed by the chapter. **«lah» and «kan» are never in an answer key.** A spoken form needs its standard form taught earlier with a "spoken" label in a vocabulary or model line (the register check reads the order of the components).
 - English prose: mark Malay titles and words («Encik» Lim, «Puan» Siti's) or the build stops. Names go in `curriculum/malay-proper-nouns.json`; a word quoted but not taught is a ‹…› mention with a source.

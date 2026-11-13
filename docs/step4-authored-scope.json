@@ -110242,9 +110242,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 11A · Model conversation|4|0": {
-  "source_text": "Rahman: Cik Mei Ling, surat dari bank itu sudah dibaca?",
+  "source_text": "Rahman: Cik Mei Ling, surat daripada bank itu sudah dibaca?",
   "target_spans": [
-   "Cik Mei Ling, surat dari bank itu sudah dibaca?"
+   "Cik Mei Ling, surat daripada bank itu sudah dibaca?"
   ],
   "mention_spans": [],
   "kind": "model",
@@ -122596,9 +122596,9 @@
   "exclusion": null
  },
  "Unit 12A · Model conversation|4|3": {
-  "source_text": "Guard: Penerima Puan Siti, ya? Boleh tunjukkan mesej dari kedai itu?",
+  "source_text": "Guard: Penerima Puan Siti, ya? Boleh tunjukkan mesej daripada kedai itu?",
   "target_spans": [
-   "Penerima Puan Siti, ya? Boleh tunjukkan mesej dari kedai itu?"
+   "Penerima Puan Siti, ya? Boleh tunjukkan mesej daripada kedai itu?"
   ],
   "mention_spans": [],
   "kind": "model",
@@ -122920,9 +122920,9 @@
   "exclusion": null
  },
  "Unit 12A · Listening focus · Encik Tanaka|4|5": {
-  "source_text": "Guard: Boleh tunjukkan mesej dari kedai itu? Nombor penjejakan ada dalam mesej.",
+  "source_text": "Guard: Boleh tunjukkan mesej daripada kedai itu? Nombor penjejakan ada dalam mesej.",
   "target_spans": [
-   "Boleh tunjukkan mesej dari kedai itu? Nombor penjejakan ada dalam mesej."
+   "Boleh tunjukkan mesej daripada kedai itu? Nombor penjejakan ada dalam mesej."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -123832,9 +123832,9 @@
   "exclusion": null
  },
  "Unit 12A · Unit test and self-check|5|1": {
-  "source_text": "L2: Teacher reads: Boleh tunjukkan mesej dari kedai itu? Nombor penjejakan ada dalam mesej. Answer: the message from the shop",
+  "source_text": "L2: Teacher reads: Boleh tunjukkan mesej daripada kedai itu? Nombor penjejakan ada dalam mesej. Answer: the message from the shop",
   "target_spans": [
-   "Boleh tunjukkan mesej dari kedai itu? Nombor penjejakan ada dalam mesej."
+   "Boleh tunjukkan mesej daripada kedai itu? Nombor penjejakan ada dalam mesej."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -124054,9 +124054,9 @@
   "exclusion": null
  },
  "test:ms-c12a-test-02|answer_key": {
-  "source_text": "Teacher reads: Boleh tunjukkan mesej dari kedai itu? Nombor penjejakan ada dalam mesej. Answer: the message from the shop",
+  "source_text": "Teacher reads: Boleh tunjukkan mesej daripada kedai itu? Nombor penjejakan ada dalam mesej. Answer: the message from the shop",
   "target_spans": [
-   "Boleh tunjukkan mesej dari kedai itu? Nombor penjejakan ada dalam mesej."
+   "Boleh tunjukkan mesej daripada kedai itu? Nombor penjejakan ada dalam mesej."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -131922,9 +131922,9 @@
   "exclusion": null
  },
  "Unit 13 · Vocabulary focus|3|16": {
-  "source_text": "   e.g. Tolong elakkan bising di bilik menunggu.",
+  "source_text": "   e.g. Tolong elakkan lif itu. Lif itu rosak.",
   "target_spans": [
-   "Tolong elakkan bising di bilik menunggu."
+   "Tolong elakkan lif itu. Lif itu rosak."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -133015,24 +133015,6 @@
   "exclusion": null
  },
  "Unit 13 · Vocabulary focus|7|28": {
-  "source_text": "pelawat — visitor · 訪問者  [L-0086]",
-  "target_spans": [
-   "pelawat"
-  ],
-  "mention_spans": [],
-  "kind": "vocabulary",
-  "exclusion": null
- },
- "Unit 13 · Vocabulary focus|7|29": {
-  "source_text": "   e.g. Pelawat dibenarkan masuk pukul dua.",
-  "target_spans": [
-   "Pelawat dibenarkan masuk pukul dua."
-  ],
-  "mention_spans": [],
-  "kind": "vocabulary",
-  "exclusion": null
- },
- "Unit 13 · Vocabulary focus|7|30": {
   "source_text": "letak — to put, place · 置く  [L-0574]",
   "target_spans": [
    "letak"
@@ -133041,7 +133023,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|0": {
+ "Unit 13 · Vocabulary focus|7|29": {
   "source_text": "   e.g. Boleh saya letak beg di sini?",
   "target_spans": [
    "Boleh saya letak beg di sini?"
@@ -133050,7 +133032,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|1": {
+ "Unit 13 · Vocabulary focus|7|30": {
   "source_text": "gambar — picture, photo · 写真・絵  [L-0368]",
   "target_spans": [
    "gambar"
@@ -133059,7 +133041,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|2": {
+ "Unit 13 · Vocabulary focus|8|0": {
   "source_text": "   e.g. Tidak dibenarkan ambil gambar di sini.",
   "target_spans": [
    "Tidak dibenarkan ambil gambar di sini."
@@ -133068,14 +133050,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|3": {
+ "Unit 13 · Vocabulary focus|8|1": {
   "source_text": "■ Revision · 復習 · Asking and thanking",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 13 · Vocabulary focus|8|4": {
+ "Unit 13 · Vocabulary focus|8|2": {
   "source_text": "maaf — sorry; excuse me · すみません  [L-0018]",
   "target_spans": [
    "maaf"
@@ -133084,7 +133066,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|5": {
+ "Unit 13 · Vocabulary focus|8|3": {
   "source_text": "   e.g. Maaf, tidak dibenarkan minum di sini.",
   "target_spans": [
    "Maaf, tidak dibenarkan minum di sini."
@@ -133093,7 +133075,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|6": {
+ "Unit 13 · Vocabulary focus|8|4": {
   "source_text": "tolong — please (help me) · 〜してください  [L-0375]",
   "target_spans": [
    "tolong"
@@ -133102,16 +133084,16 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|7": {
-  "source_text": "   e.g. Tolong elakkan bising di bilik menunggu.",
+ "Unit 13 · Vocabulary focus|8|5": {
+  "source_text": "   e.g. Tolong jangan bising di bilik menunggu.",
   "target_spans": [
-   "Tolong elakkan bising di bilik menunggu."
+   "Tolong jangan bising di bilik menunggu."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|8": {
+ "Unit 13 · Vocabulary focus|8|6": {
   "source_text": "minta — to ask for, request · 頼む・求める  [L-0020]",
   "target_spans": [
    "minta"
@@ -133120,7 +133102,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|9": {
+ "Unit 13 · Vocabulary focus|8|7": {
   "source_text": "   e.g. Doktor, boleh saya minta cuti sakit untuk esok?",
   "target_spans": [
    "Doktor, boleh saya minta cuti sakit untuk esok?"
@@ -133129,7 +133111,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|10": {
+ "Unit 13 · Vocabulary focus|8|8": {
   "source_text": "tanya — to ask · 尋ねる  [L-0535]",
   "target_spans": [
    "tanya"
@@ -133138,7 +133120,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|11": {
+ "Unit 13 · Vocabulary focus|8|9": {
   "source_text": "   e.g. Tanya penyambut tetamu bila perlu.",
   "target_spans": [
    "Tanya penyambut tetamu bila perlu."
@@ -133147,7 +133129,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|12": {
+ "Unit 13 · Vocabulary focus|8|10": {
   "source_text": "faham — to understand · わかる  [L-0476]",
   "target_spans": [
    "faham"
@@ -133156,7 +133138,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|13": {
+ "Unit 13 · Vocabulary focus|8|11": {
   "source_text": "   e.g. Baik, saya faham.",
   "target_spans": [
    "Baik, saya faham."
@@ -133165,7 +133147,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|14": {
+ "Unit 13 · Vocabulary focus|8|12": {
   "source_text": "cakap — to speak, say · 話す・言う  [L-0473]",
   "target_spans": [
    "cakap"
@@ -133174,7 +133156,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|15": {
+ "Unit 13 · Vocabulary focus|8|13": {
   "source_text": "   e.g. Maaf, boleh cakap lagi sekali?",
   "target_spans": [
    "Maaf, boleh cakap lagi sekali?"
@@ -133183,7 +133165,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|16": {
+ "Unit 13 · Vocabulary focus|8|14": {
   "source_text": "lagi — again; more · また・もっと  [L-0024]",
   "target_spans": [
    "lagi"
@@ -133192,7 +133174,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|17": {
+ "Unit 13 · Vocabulary focus|8|15": {
   "source_text": "   e.g. Kalau ada soalan, tanya saya lagi.",
   "target_spans": [
    "Kalau ada soalan, tanya saya lagi."
@@ -133201,7 +133183,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|18": {
+ "Unit 13 · Vocabulary focus|8|16": {
   "source_text": "hubungi — contact (request) · 連絡してください  [L-1175]",
   "target_spans": [
    "hubungi"
@@ -133210,7 +133192,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|19": {
+ "Unit 13 · Vocabulary focus|8|17": {
   "source_text": "   e.g. Hubungi saya bila perlu.",
   "target_spans": [
    "Hubungi saya bila perlu."
@@ -133219,7 +133201,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|20": {
+ "Unit 13 · Vocabulary focus|8|18": {
   "source_text": "label — label · ラベル  [L-1168]",
   "target_spans": [
    "label"
@@ -133228,7 +133210,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|21": {
+ "Unit 13 · Vocabulary focus|8|19": {
   "source_text": "   e.g. Dos ada di label itu.",
   "target_spans": [
    "Dos ada di label itu."
@@ -133237,7 +133219,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|22": {
+ "Unit 13 · Vocabulary focus|8|20": {
   "source_text": "sekali — once; very (after an adjective) · 一回；とても（後置）  [L-0188]",
   "target_spans": [
    "sekali"
@@ -133246,7 +133228,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|23": {
+ "Unit 13 · Vocabulary focus|8|21": {
   "source_text": "   e.g. Maaf, boleh cakap lagi sekali?",
   "target_spans": [
    "Maaf, boleh cakap lagi sekali?"
@@ -133255,7 +133237,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|24": {
+ "Unit 13 · Vocabulary focus|8|22": {
   "source_text": "kerana — because · 〜から・〜ので  [L-1050]",
   "target_spans": [
    "kerana"
@@ -133264,7 +133246,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|25": {
+ "Unit 13 · Vocabulary focus|8|23": {
   "source_text": "   e.g. Kenapa tidak dibenarkan minum di sini? Kerana ini bilik menunggu.",
   "target_spans": [
    "Kenapa tidak dibenarkan minum di sini?",
@@ -133274,7 +133256,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|26": {
+ "Unit 13 · Vocabulary focus|8|24": {
   "source_text": "sebab — Reason; because · 理由、〜なので  [L-0688]",
   "target_spans": [
    "sebab"
@@ -133283,7 +133265,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 13 · Vocabulary focus|8|27": {
+ "Unit 13 · Vocabulary focus|8|25": {
   "source_text": "   e.g. Sebab ini bilik menunggu.",
   "target_spans": [
    "Sebab ini bilik menunggu."
@@ -133293,7 +133275,7 @@
   "exclusion": null
  },
  "Unit 13 · Vocabulary focus|9|0": {
-  "source_text": "25 new core entries, 0 recognition entries and 53 revision entries.",
+  "source_text": "25 new core entries, 0 recognition entries and 52 revision entries.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
@@ -133840,7 +133822,7 @@
   "exclusion": null
  },
  "Unit 13 · Pattern and grammar focus|5|11": {
-  "source_text": "Explanation: patut + a verb is advice: it says what is a good idea, and you may choose: Encik patut berehat. (the Kata-Kata frame, said by the doctor). nasihat is the advice itself. mesti is must, with no choice: Encik mesti baca arahan di label. mesti is a root, not me- + sti. wajib is must on a form or a notice: Borang ini wajib diisi. So the three steps are: perlu (a step you take), patut (advice) and mesti or wajib (must). This course teaches the language of advice only; for your health follow your own doctor and pharmacist. Elakkan (avoid) belongs to notices and requests: Tolong elakkan bising di bilik menunggu.",
+  "source_text": "Explanation: patut + a verb is advice: it says what is a good idea, and you may choose: Encik patut berehat. (the Kata-Kata frame, said by the doctor). nasihat is the advice itself. mesti is must, with no choice: Encik mesti baca arahan di label. mesti is a root, not me- + sti. wajib is must on a form or a notice: Borang ini wajib diisi. So the three steps are: perlu (a step you take), patut (advice) and mesti or wajib (must). This course teaches the language of advice only; for your health follow your own doctor and pharmacist. Elakkan (avoid) belongs to notices and requests: Tolong elakkan lif itu. To tell someone not to make a noise, say Tolong jangan bising.",
   "target_spans": [
    "patut",
    "Encik patut berehat.",
@@ -133855,7 +133837,8 @@
    "mesti",
    "wajib",
    "Elakkan",
-   "Tolong elakkan bising di bilik menunggu."
+   "Tolong elakkan lif itu.",
+   "Tolong jangan bising."
   ],
   "mention_spans": [
    "me-",
@@ -133865,7 +133848,7 @@
   "exclusion": null
  },
  "Unit 13 · Pattern and grammar focus|6|0": {
-  "source_text": "説明：patut ＋ 動詞は助言で、よいことを言うだけで、選ぶのは本人です：Encik patut berehat.（Kata-Kata の文型、医者の言葉）。nasihat は助言そのものです。mesti は「しなければならない」で選べません：Encik mesti baca arahan di label. mesti は語根で、me- ＋ sti ではありません。wajib は用紙や掲示での「必須」です：Borang ini wajib diisi. つまり三つの段階は perlu（する手順）、patut（助言）、mesti・wajib（義務）です。このコースが教えるのは助言のことばだけで、健康については自分の医者と薬剤師の指示に従ってください。Elakkan（避ける）は掲示や依頼に使います：Tolong elakkan bising di bilik menunggu.",
+  "source_text": "説明：patut ＋ 動詞は助言で、よいことを言うだけで、選ぶのは本人です：Encik patut berehat.（Kata-Kata の文型、医者の言葉）。nasihat は助言そのものです。mesti は「しなければならない」で選べません：Encik mesti baca arahan di label. mesti は語根で、me- ＋ sti ではありません。wajib は用紙や掲示での「必須」です：Borang ini wajib diisi. つまり三つの段階は perlu（する手順）、patut（助言）、mesti・wajib（義務）です。このコースが教えるのは助言のことばだけで、健康については自分の医者と薬剤師の指示に従ってください。Elakkan（避ける）は掲示や依頼に使います：Tolong elakkan lif itu. 音を立てないでと言うときは Tolong jangan bising. です。",
   "target_spans": [
    "patut",
    "Encik patut berehat.",
@@ -133880,7 +133863,8 @@
    "mesti",
    "wajib",
    "Elakkan",
-   "Tolong elakkan bising di bilik menunggu."
+   "Tolong elakkan lif itu.",
+   "Tolong jangan bising."
   ],
   "mention_spans": [
    "me-",
@@ -133965,10 +133949,10 @@
   "exclusion": null
  },
  "Unit 13 · Pattern and grammar focus|6|8": {
-  "source_text": "4. A: Pelawat boleh masuk pukul berapa? B: Pelawat dibenarkan masuk pukul dua.",
+  "source_text": "4. A: Apa yang tidak dibenarkan di sini? B: Tidak dibenarkan ambil gambar dan minum di sini.",
   "target_spans": [
-   "Pelawat boleh masuk pukul berapa?",
-   "Pelawat dibenarkan masuk pukul dua."
+   "Apa yang tidak dibenarkan di sini?",
+   "Tidak dibenarkan ambil gambar dan minum di sini."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -134703,9 +134687,9 @@
   "exclusion": null
  },
  "Unit 13 · Drill 4 · Question and answer|3|7": {
-  "source_text": "6. You hear: Cuti sakit satu hari dari doktor. Ask the question (berapa hari).",
+  "source_text": "6. You hear: Cuti sakit satu hari daripada doktor. Ask the question (berapa hari).",
   "target_spans": [
-   "Cuti sakit satu hari dari doktor.",
+   "Cuti sakit satu hari daripada doktor.",
    "berapa hari"
   ],
   "mention_spans": [],
@@ -134752,10 +134736,10 @@
   "exclusion": null
  },
  "Unit 13 · Drill 4 · Question and answer|4|2": {
-  "source_text": "5 Daftar di mana? 6 Berapa hari cuti sakit dari doktor? 7 Borang yang mana wajib diisi? 8 Dos ada di mana?",
+  "source_text": "5 Daftar di mana? 6 Berapa hari cuti sakit daripada doktor? 7 Borang yang mana wajib diisi? 8 Dos ada di mana?",
   "target_spans": [
    "Daftar di mana?",
-   "Berapa hari cuti sakit dari doktor?",
+   "Berapa hari cuti sakit daripada doktor?",
    "Borang yang mana wajib diisi?",
    "Dos ada di mana?"
   ],
@@ -136353,18 +136337,18 @@
   "exclusion": null
  },
  "Unit 13 · Reading and writing · A clinic notice and a message about sick leave|3|2": {
-  "source_text": "Encik Tanaka, terima kasih untuk mesej. Cuti sakit satu hari dari doktor. Awak tidak perlu datang ke pejabat esok. Awak patut berehat di rumah. Hubungi saya bila perlu.",
+  "source_text": "Encik Tanaka, terima kasih atas mesej itu. Cuti sakit satu hari daripada doktor. Awak tidak perlu datang ke pejabat esok. Awak patut berehat di rumah. Hubungi saya bila perlu.",
   "target_spans": [
-   "Encik Tanaka, terima kasih untuk mesej. Cuti sakit satu hari dari doktor. Awak tidak perlu datang ke pejabat esok. Awak patut berehat di rumah. Hubungi saya bila perlu."
+   "Encik Tanaka, terima kasih atas mesej itu. Cuti sakit satu hari daripada doktor. Awak tidak perlu datang ke pejabat esok. Awak patut berehat di rumah. Hubungi saya bila perlu."
   ],
   "mention_spans": [],
   "kind": "reading",
   "exclusion": null
  },
  "Unit 13 · Reading and writing · A clinic notice and a message about sick leave|3|3": {
-  "source_text": "Sign in the clinic corridor: Pintu kecemasan ada di sebelah kiri. Sila elakkan bising.",
+  "source_text": "Sign in the clinic corridor: Pintu kecemasan ada di sebelah kiri. Sila jangan bising.",
   "target_spans": [
-   "Pintu kecemasan ada di sebelah kiri. Sila elakkan bising."
+   "Pintu kecemasan ada di sebelah kiri. Sila jangan bising."
   ],
   "mention_spans": [],
   "kind": "reading",
@@ -136478,9 +136462,9 @@
   "exclusion": null
  },
  "Unit 13 · Reading and writing · A clinic notice and a message about sick leave|4|1": {
-  "source_text": "Model writing: Selamat pagi, bos. Saya berjumpa doktor pagi ini. Cuti sakit satu hari dari doktor. Saya tidak perlu datang ke pejabat esok. Saya akan menghubungi bos hari Isnin. Terima kasih.",
+  "source_text": "Model writing: Selamat pagi, bos. Saya berjumpa doktor pagi ini. Cuti sakit satu hari daripada doktor. Saya tidak perlu datang ke pejabat esok. Saya akan menghubungi bos hari Isnin. Terima kasih.",
   "target_spans": [
-   "Selamat pagi, bos. Saya berjumpa doktor pagi ini. Cuti sakit satu hari dari doktor. Saya tidak perlu datang ke pejabat esok. Saya akan menghubungi bos hari Isnin. Terima kasih."
+   "Selamat pagi, bos. Saya berjumpa doktor pagi ini. Cuti sakit satu hari daripada doktor. Saya tidak perlu datang ke pejabat esok. Saya akan menghubungi bos hari Isnin. Terima kasih."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -137009,9 +136993,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 13 · Unit test and self-check|3|19": {
-  "source_text": "Fictional notice at another panel clinic: KLINIK PANEL. Sila daftar dulu. Borang kesihatan wajib diisi. Tidak dibenarkan minum di bilik menunggu. Pelawat dibenarkan masuk pukul dua. Bila perlu, tanya penyambut tetamu.",
+  "source_text": "Fictional notice at another panel clinic: KLINIK PANEL. Sila daftar dulu. Borang kesihatan wajib diisi. Tidak dibenarkan minum di bilik menunggu. Bila perlu, tanya penyambut tetamu.",
   "target_spans": [
-   "KLINIK PANEL. Sila daftar dulu. Borang kesihatan wajib diisi. Tidak dibenarkan minum di bilik menunggu. Pelawat dibenarkan masuk pukul dua. Bila perlu, tanya penyambut tetamu."
+   "KLINIK PANEL. Sila daftar dulu. Borang kesihatan wajib diisi. Tidak dibenarkan minum di bilik menunggu. Bila perlu, tanya penyambut tetamu."
   ],
   "mention_spans": [],
   "kind": "test",

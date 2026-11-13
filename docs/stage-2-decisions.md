@@ -129,3 +129,19 @@ Recorded after Claude's review of chapter 12 (`docs/STAGE-2-ch12-report.md`). Th
 | Native | 12B «Tolong kosongkan lantai itu juga.» | **Deleted;** the reply is «Boleh, encik. Terima kasih.» |
 | Native | «Kontraktor ganti paip yang rosak.» / «Kalau paip itu rosak, juruteknik gantikan paip itu.» | **«… akan menukar paip itu»** («Kalau paip itu rosak, juruteknik akan menukar paip itu.»). |
 | Backlog | «sejak», «melaporkan», «salinan» | **Added to the word proposals backlog, marked "recommended" (sejak especially).** |
+
+## 10. Chapter 13 answers and fixes (Sam, 13 November 2026)
+
+Recorded after Claude's review of chapter 13 (`docs/STAGE-2-ch13-report.md`). The fixes are in their own commit, before chapter 14.
+
+| # | Question | Answer |
+| --- | --- | --- |
+| Q1 | Five patterns: f05 and f06 together? | **Yes, f05 and f06 share one pattern.** |
+| Q2 | «mendaftar» first | **«mendaftar» is the standard form; «daftar» is the everyday form.** |
+| Q3 | «MC» | **Recognition only; «cuti sakit» is in the keys.** |
+| Q4 | Fictional notices | **Keep the health-form and photo rules; drop visiting hours** (clinics have no visiting hours). «Pelawat dibenarkan masuk pukul dua.» and «Pelawat boleh masuk pukul berapa?» are gone; «pelawat» left the 13 revision list. |
+| Rule | «dari» against «daripada» | **«dari» for places, times and directions; «daripada» for people and organisations (and comparisons).** 13: «Cuti sakit satu hari daripada doktor.» (listening, task key, reading message, writing model) and «Berapa hari cuti sakit daripada doktor?»; 12A: «mesej daripada kedai itu» (both lines); 11A: «surat daripada bank itu» (found by the search of chapters 10 to 13; no other hit). |
+| Native | 13 «Sila elakkan bising.» / «Tolong elakkan bising di bilik menunggu.» | **«Sila jangan bising.» / «Tolong jangan bising di bilik menunggu.»** The core word «elakkan» keeps its place with «Tolong elakkan lif itu. Lif itu rosak.» |
+| Native | 13 reading message | **«terima kasih atas mesej itu»** (was «untuk mesej»). |
+| Rule | Bare root in dialogue | **Dialogue lines may use the everyday bare root after aspect words and modals** («Saya belum isi borang.», «Encik perlu daftar dulu.», «Doktor akan panggil cik.»), as Kata-Kata does. Pattern models, drills, answer keys, notices and written texts use the meN- form in the ledger. Bare ‹-kan› stays for requests and first-person offers. |
+| Backlog | «sihat», «beritahu» | **Marked "recommended".** |

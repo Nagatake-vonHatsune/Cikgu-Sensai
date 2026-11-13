@@ -164,7 +164,13 @@ class Chapter13(unittest.TestCase):
         pupil = ' '.join(line.lower() for line in self.pupil_malay())
         for gone in ('ialah', 'keputusan', 'menyimpankan', 'menghantarkan'):
             self.assertNotRegex(pupil, r'(?<![a-z])' + gone + r'(?![a-z])')
-        self.assertIn('Tolong elakkan bising di bilik menunggu', text)
+        self.assertIn('Tolong elakkan lif itu', text)
+        # Sam (13 Nov): no «elakkan bising»; «jangan bising» instead. «dari» is for places, «daripada» for people and organisations.
+        self.assertNotIn('elakkan bising', text)
+        self.assertIn('Sila jangan bising', text)
+        self.assertNotRegex(text, r'(?<![a-z])dari (?:doktor|kedai|bank|bos)')
+        self.assertIn('cuti sakit satu hari daripada doktor', text.lower())
+        self.assertNotRegex(text, r'Pelawat|pelawat')
 
     def test_katakata_alignment(self):
         """Same frames f01 to f06, same scene (the panel clinic and the pharmacy), every scenario line word for word, card IDs cited."""
