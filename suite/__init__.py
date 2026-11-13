@@ -53,14 +53,14 @@ MENTION = re.compile(r'‹([^«»‹›]+)›')
 JA_DRAFT = '（日本語は下書きです。ネイティブ・スピーカーの確認待ち）'
 BM_NOTE = ('No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English '
            '(Sam, 11 Nov 2026). Select 日本語 or English.')
-# Stage 2 keeps the Stage 1 rule until Sam decides otherwise (question in docs/STAGE-2-ch10-report.md).
-BM_NOTE_STAGE2 = ('No Malay explainer yet for Stage 2 units: explainers and rubrics stay in Japanese or English, '
-                  'as in Stage 1 (Sam, 11 Nov 2026), until Sam decides otherwise. Select 日本語 or English.')
+# Stage 2 keeps the Stage 1 rule: Japanese and English explainers only (Sam, 13 Nov 2026, answer to question 1 of docs/STAGE-2-ch10-report.md).
+BM_NOTE_STAGE2 = ('No Malay explainer for Stage 2 units: explainers and rubrics are in Japanese or English only, '
+                  'as in Stage 1 (Sam, 13 Nov 2026). Select 日本語 or English.')
 # English words that are spelt like a ledger entry. Unmarked use of these is
 # allowed; anything else in the ledger must be marked «…» or ‹…›.
 ENGLISH_HOMOGRAPHS = {'main', 'oh', 'pun', 'best', 'bank', 'hotel', 'menu', 'fail', 'golf', 'set', 'unit',
                       'april', 'september', 'november', 'hospital', 'internet', 'kilometer', 'pen', 'tin', 'batik',
-                      'bernama', 'label', 'badminton', 'travel'}  # badminton and travel: English words in Stage 2 prose (ledger L-0968, L-1029)  # month names (ledger L-1036, L-1041, L-1043); "Bernama" (the news agency, cited in English source notes) and English "label", since the Stage 2 rows L-1111 «bernama» and L-1168 «label» exist
+                      'bernama', 'label', 'badminton', 'travel', 'hiking', 'deadline'}  # badminton and travel: English words in Stage 2 prose (ledger L-0968, L-1029)  # month names (ledger L-1036, L-1041, L-1043); "Bernama" (the news agency, cited in English source notes) and English "label", since the Stage 2 rows L-1111 «bernama» and L-1168 «label» exist
 
 # Grammar points taught in the pilot (IDs extend the step 2 chapter points).
 GRAMMAR = [
@@ -155,6 +155,13 @@ GRAMMAR.extend([
     dict(id='ms-c10-g06', chapter_id='ms-c10', label='Background with ber- verbs: berasal dari, bekerja di, bernama, berumur'),
     dict(id='ms-c10-g07', chapter_id='ms-c10', label='Life events with sudah / belum / masih / baru + ber- verb: berkahwin, berpindah, bersekolah'),
     dict(id='ms-c10-g08', chapter_id='ms-c10', label='Spelling and register of ber-: be- (berehat, bekerja), bel- (belajar); standard ber- form beside the everyday root'),
+    dict(id='ms-c11-g02', chapter_id='ms-c11', label='meN- verbs as whole words, each with its root, the nasal change and its di- partner: doer + verb + thing'),
+    dict(id='ms-c11-g03', chapter_id='ms-c11', label='The same event with the chapter 9 di- partner: Aini membaca buku itu = Buku itu dibaca oleh Aini'),
+    dict(id='ms-c11-g04', chapter_id='ms-c11', label='Siapa yang + meN- verb; the answer with the doer before yang'),
+    dict(id='ms-c11-g05', chapter_id='ms-c11', label='sedang / sudah / belum / akan + meN- verb; Awak sedang ___ apa?'),
+    dict(id='ms-c11-g06', chapter_id='ms-c11', label='A request takes the plain root: Tolong semak ___ ini; tarikh akhir (spoken deadline)'),
+    dict(id='ms-c11-g07', chapter_id='ms-c11', label='Plans with mahu + meN- verb: Hujung minggu ini saya mahu ___'),
+    dict(id='ms-c11-g08', chapter_id='ms-c11', label='Spelling of meN-: mem- before b; t, p, s, k drop; meng- before h or a vowel; men- before c, d, j; me- before l, m, n, r, w, y; menge- before a one-syllable root'),
 ])
 
 
@@ -286,6 +293,8 @@ GLOSS = {
     # Chapter 10 (fast pack word list): ledger meanings that contain Malay, re-marked.
     'L-1101': dict(en='to have breakfast (standard; «sarapan» alone is everyday)', ja='朝食をとる（標準；日常は «sarapan»）'),
     'L-0779': dict(en='to be neighbours, to live as neighbours (‹hidup berjiran› = neighbourly living)', ja='隣同士で暮らす（‹hidup berjiran›＝近所付き合い）'),
+    'L-0941': dict(en='to count; «Kira!» = the bill, please', ja='数える・（店で）お会計'),
+    'L-0935': dict(en='a flaky flatbread eaten with curry', ja='ロティ・チャナイ（カレーで食べる薄焼きパン）'),
     'L-1114': dict(en='to move home (standard; spoken «pindah»)', ja='引っ越す（標準；話し言葉は «pindah»）'),
 }
 
@@ -315,10 +324,10 @@ def turns(script):
 
 def load_units():
     from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, ms_c07, ms_c08, ms_c09, fast, stage1
-    from . import ms_c10a, ms_c10b
+    from . import ms_c10a, ms_c10b, ms_c11a, ms_c11b
     return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT,
                        ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT, ms_c06.UNIT, ms_c07.UNIT, ms_c08.UNIT, ms_c09.UNIT,
-                       *fast.PACKS, stage1.UNIT, ms_c10a.UNIT, ms_c10b.UNIT, *fast.STAGE2_PACKS] if u]
+                       *fast.PACKS, stage1.UNIT, ms_c10a.UNIT, ms_c10b.UNIT, ms_c11a.UNIT, ms_c11b.UNIT, *fast.STAGE2_PACKS] if u]
 
 
 SKILLS = {'Opener': ['speaking'], 'Vocabulary': ['vocabulary'], 'Pattern and grammar': ['grammar'],

@@ -704,3 +704,7 @@ Section 3's "Required implementation" is built: gates, whole words, register pai
 ## Build step 4: refresh and chapter 10 (13 Nov 2026)
 
 `curriculum/reference/katakata/` now holds c01 to c18 and the ledger copy from Kata-Kata 7fbe173 (c01 to c09 unchanged). The ledger has **240 Stage 2 core rows** (56 existing + 184 new, L-1089 to L-1272): the 233 of build step 1 plus L-1266 «takpe», L-1267 «tidak boleh tahan» (17), L-1268 «mendaftar» (13), L-1269 «tangguhkan», L-1270 «batalkan» (14), L-1271 «memakai», L-1272 «berwarna» (15). Chapter 10 (40 core) is unchanged. Report: [`docs/STAGE-2-ch10-report.md`](STAGE-2-ch10-report.md).
+
+## Build step 4: chapter 11 (13 Nov 2026)
+
+Units 11A (20 core) and 11B (21 core, plus «tukar» and «deadline» to recognise) are built, with the review block after 11B (Review 1) and the chapter 11 fast pack. The plan gives chapter 11 a review block and no writing block, so no writing block was built (question 1 in the report). Sam's answers to the chapter 10 questions are in [`docs/stage-2-decisions.md`](stage-2-decisions.md) section 7. Report: [`docs/STAGE-2-ch11-report.md`](STAGE-2-ch11-report.md).

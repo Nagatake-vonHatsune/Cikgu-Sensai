@@ -24,5 +24,8 @@
   "ms-stage1",
   "ms-c10a",
   "ms-c10b",
-  "ms-c10-fast"
+  "ms-c10-fast",
+  "ms-c11a",
+  "ms-c11b",
+  "ms-c11-fast"
 ]

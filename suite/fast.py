@@ -768,3 +768,92 @@ STAGE2_PACKS.append(dict(
     course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 10)], prerequisite_units=[],
     prereq_grammar=['ms-c02-g08', 'ms-c04-g06', 'ms-c04-g08'],
     word_scope=C10_WORDS, components=chapter10))
+
+
+C11_WORDS = ['L-1124', 'L-1125', 'L-1123', 'L-1126', 'L-1127', 'L-1129', 'L-1132', 'L-1133', 'L-1136', 'L-1137',
+             'L-1141', 'L-1138', 'L-0819', 'L-0865', 'L-1155', 'L-1156', 'L-1146', 'L-1143', 'L-1150', 'L-1152']
+
+
+def chapter11(ledger):
+    dialogue = [
+        ('Tanaka', '«Puan Aini, emel dari Jepun itu sudah dibaca?»'),
+        ('Aini', '«Sudah. Saya membaca emel itu pagi tadi, kemudian saya menghantar fail itu.»'),
+        ('Tanaka', '«Oh, Encik Rahman yang menerima fail itu?»'),
+        ('Aini', '«Ya. Sekarang dia sedang membuka fail itu.»'),
+        ('Tanaka', '«Cik Mei Ling, draf slaid itu sudah siap?»'),
+        ('Mei Ling', '«Belum. Saya masih menyemak draf itu. Tarikh akhir hari Jumaat, ya?»'),
+        ('Tanaka', '«Ya, hari Jumaat. Tolong semak sekali lagi.»'),
+        ('Mei Ling', '«Baik. Nanti saya menghantar mesej. Hujung minggu ini encik buat apa?»'),
+        ('Tanaka', '«Saya mahu memasak. Isteri saya mengajar saya memasak nasi lemak.»'),
+        ('Mei Ling', '«Wah, bagus! Saya mahu mendaki dengan kawan saya. Boleh saya mengecas telefon saya di sini?»'),
+        ('Tanaka', '«Boleh. Mari kita minum kopi. Saya yang membayar.»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=['ms-c11-g02', 'ms-c11-g03', 'ms-c11-g04', 'ms-c11-g05', 'ms-c11-g06', 'ms-c11-g07', 'ms-c11-g08'],
+        patterns=['ms-c11-f01', 'ms-c11-f02', 'ms-c11-f03', 'ms-c11-f04', 'ms-c11-f06'],
+        goal='Say who did what at the office with meN- verbs, check a draft, and say your weekend plan.',
+        explain=('第11章速習：45分で基本の20語、meN- の動詞（語根・つづりの変化・«di-» の相手）、「誰が」の質問、依頼 «Tolong semak …»、週末の予定 «mahu» を練習し、'
+                 '残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 11 in one 45-minute session: 20 core words, meN- verbs (the root, the spelling change and the «di-» partner), the question «Siapa yang …?», '
+                 'the request «Tolong semak …» and weekend plans with «mahu»; then self-study in Kata-Kata. All names and details are fictional.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can say who did what with a meN- verb and its «di-» partner. / meN- の動詞とその «di-» の相手で、誰が何をしたかを言える。',
+                'I can ask who sent or received a file. / 誰がファイルを送ったか、受け取ったかをたずねられる。',
+                'I can ask a colleague to check a draft. / 同僚に下書きの確認を頼める。',
+                'I can say what I want to do this weekend. / 今週末にしたいことを言える。'], 'opener'),
+            ('Core words · 基本の20語', core(ledger, C11_WORDS) +
+             ['The full course also teaches «membuat», «menutup», «membawa», «mencuci», «memanggil», «melihat», «mendengar», «menjual», «menyimpan», «melancong», '
+              '«menukar», «memilih», «meminjam», «menolong», «mengisi», «semak», «mesej», «draf», «slaid», «tarikh akhir», «rancangan», and «tukar» and «deadline» '
+              'as spoken forms (to recognise only).'], 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · «Aini» ___ «buku itu.»  e.g. «Puan Aini membaca emel itu.» / «Encik Rahman menerima fail itu.»',
+                '2 · «Buku itu» («di-» verb) «oleh Aini.»  e.g. «Emel itu dibaca oleh Puan Aini.» / «Fail itu dihantar oleh Puan Aini.»',
+                '3 · «Siapa yang» ___ «fail itu?»  e.g. «Siapa yang menghantar fail itu?» / «Puan Aini yang menghantar fail itu.»',
+                '4 · «Tolong semak» ___ «ini.»  e.g. «Tolong semak draf ini.» / «Tolong semak slaid ini.»',
+                '5 · «Hujung minggu ini saya mahu» ___.  e.g. «Hujung minggu ini saya mahu mendaki.» / «Hujung minggu ini saya mahu memasak.»',
+                'Remember: a meN- verb is a root with ‹meN-› in front, and the first sound of the root decides the front: ‹mem-› before b; t, p, s and k drop; ‹meng-› before h or a '
+                'vowel; ‹men-› before c, d and j; ‹me-› before l, m, n, r, w and y; ‹menge-› before a one-syllable root («cas» → «mengecas»). A request takes the plain root '
+                '(«Tolong semak …»), not the meN- form. In speech you will hear the root alone («baca», «tukar»); say the meN- form.',
+                'meN- の動詞は語根の前に ‹meN-› を付けた形で、語根の最初の音で前の部分が決まります：b の前は ‹mem-›、t・p・s・k は落ちる、h か母音の前は ‹meng-›、c・d・j の前は ‹men-›、'
+                'l・m・n・r・w・y の前は ‹me-›、一音節の語根は ‹menge-› です（«cas» → «mengecas»）。依頼は meN- の形ではなく語根をそのまま使います（«Tolong semak …»）。'
+                '話し言葉では語根だけも聞きますが、言うときは meN- の形を使います。'], 'model'),
+            ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: You are a colleague who knows the morning (fictional): Aini read the email, Mei Ling checked the draft, Rahman sent the reply. Answer B with the doer first.',
+                'B: You were out. Ask A who read the email, who checked the draft and who sent the reply, ask A to check one thing, and ask what A wants to do at the weekend.',
+                'Change of plan: A says «Maaf, bukan Encik Rahman. Puan Aini yang menghantar jawapan itu.» B corrects the report with the «di-» form.',
+                'A：今朝のことを知っている同僚です（架空）：アイニさんがメールを読み、メイリンさんが下書きを確認し、ラーマンさんが返事を送りました。Bに動作主を先にして答えます。'
+                'B：席を外していました。誰がメールを読み、下書きを確認し、返事を送ったかをたずね、確認してほしいことを一つ頼み、週末にしたいことをたずねます。'
+                '変更：Aが «Maaf, bukan Encik Rahman. Puan Aini yang menghantar jawapan itu.» と言い、Bは «di-» の形で報告を直します。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say "Aini reads the email.": ____________________',
+                '☐ 2. Say "The email is read by Aini.": ____________________',
+                '☐ 3. Ask "Who sent the file?": ____________________',
+                '☐ 4. Say "Please check this draft.": ____________________',
+                '☐ 5. Say "This weekend I want to go hiking.": ____________________'], 'test'),
+            ('Self-study guide · 自習ガイド', [
+                f'Before the session: Kata-Kata Sedia Kelas c11 ({sedia_cards(11)} cards, frames ms-c11-f01 and ms-c11-f02).',
+                f'After the session: all {pack_cards(11)} Kata-Kata chapter 11 cards (ms-c11-001 to ms-c11-{last_card(11):03}; ms-c11-042 «tukar» and ms-c11-043 «deadline» '
+                'are recognise only) and frames ms-c11-f01 to ms-c11-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario "Who did what in the office" '
+                'matches this pack.',
+                'No Dunia scene primes chapter 11. The Hanashishou office scene for chapter 11 (report_deadline) is not yet tagged by chapter, so it is not assigned yet.',
+                'Optional full-course Cikgu Sensai units: unit 11A (who did what at the office) and unit 11B (the draft, the deadline and the weekend), with a review block.',
+                'Expected self-study: about 9 to 10 hours for this chapter (planning figure).',
+                '授業後：第11章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
+        key=['Self-check: 1 «Puan Aini membaca emel itu.» 2 «Emel itu dibaca oleh Puan Aini.» 3 «Siapa yang menghantar fail itu?» '
+             '4 «Tolong semak draf ini.» 5 «Hujung minggu ini saya mahu mendaki.»',
+             'Session plan (45 min): 0–5 recall chapter 10 (ber- verbs have no object) and chapter 9 («dibaca», «dihantar»); 5–15 core words with their roots; '
+             '15–25 patterns 1 to 5; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',
+             'Same content and ledger limits as units 11A and 11B. All Japanese is a draft awaiting native review.'])]
+
+
+STAGE2_PACKS.append(dict(
+    chapter_id='ms-c11', check_unit='ms-c11-fast', id_prefix='ms-c11-fast', level='A2',
+    title_prefix='Chapter 11', header='Chapter 11 fast course (ms-c11)',
+    menu_title='Chapter 11 · meN- verbs', genre='Work',
+    course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 11)], prerequisite_units=[],
+    prereq_grammar=['ms-c09-g02', 'ms-c04-g06', 'ms-c10-g02'],
+    word_scope=C11_WORDS, components=chapter11))

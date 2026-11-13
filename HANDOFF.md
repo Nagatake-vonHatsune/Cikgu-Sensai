@@ -2,7 +2,25 @@
 
 Update this file at the end of every session. The next builder (ChatGPT or Claude) starts here, after the charter and `AGENTS.md`.
 
-## Latest session: Stage 2 build step 4, Kata-Kata refresh and chapter 10 (13 Nov 2026, Claude)
+## Latest session: Stage 2 build step 4, chapter 10 fix and chapter 11 (13 Nov 2026, Claude)
+
+- **Authorised:** Sam (build step 4, chapter 11 instruction, 13 Nov 2026): one chapter 10 fix, then units 11A and 11B; push to main when the checks pass; **stop after chapter 11 for Claude's review** before chapter 12. Started at `8ada95c`. Report: `docs/STAGE-2-ch11-report.md`.
+- **Chapter 10 fix (`0853da9`):** 10A pattern 3 is now «Tidak juga. Saya lebih suka berbasikal.» (Sam: «Tidak sangat» is not natural). Sam's six answers to the chapter 10 questions are in `docs/stage-2-decisions.md` section 7: Japanese and English explanations only; the fast pack and writing block belong with each chapter; «Belum.» confirmed; «berminat untuk» + a verb stays the taught pattern (a noun waits for chapter 18); Hanashishou links are named only until step 6; `ms-stage2-<name>` ids are fine. No word proposals from chapter 10 were added.
+- **Chapter 11 (the commit after `0853da9`):** unit 11A (who did what at the office with «Puan» Aini, «Encik» Rahman: 20 core), unit 11B (the draft, the deadline and the weekend with «Cik» Mei Ling: 21 core, «tukar» and «deadline» recognise only), the **review block after 11B** (the plan's Review 1; the plan gives chapter 11 no writing block, see question 1 in the report) and the chapter 11 fast pack: 11 blocks = 8.25 h, plus 1 fast block. All three are in `curriculum/reauthored-units.json` with zero gaps and zero violations. Build: 411 packs, 2,572 pages, still 22 violations and 203 gaps (none in chapter 11). **193 tests** pass (13 new in `tests/test_stage2_ch11.py`).
+- **Waiting for:** Claude's review of chapter 11; Sam's answers to the seven questions at the end of the report (review block or writing block, «menelefon» in 11A, «menghantar» = take someone, the plain-root request rule, spoken «tukar» and «deadline», the pilot cut, the changed page note) and the 12 lines for the native reader. Word proposals (none added to the ledger): «kepada», «bukit», «menempah», the di- partners of the 11B verbs, «sehari», «menyapu».
+- **Next:** after the review, chapter 12 (-kan and -i) with the template note below (Kata-Kata c12 is already in the snapshot).
+- **Environment note for the next builder:** `build.py` needs `pymupdf`, `fonttools`, `brotli` and the `fonts-noto-cjk` package (the Noto Sans CJK path in `build.py`), and a full (not shallow) Git checkout.
+
+### What chapter 11 added to the template below
+
+- `chapter10_common` was imported unchanged again. A unit can pass `extra` for a review block with `kind='review'`; it needs `plan`, `model`, `task`, `check`, `answer` and `explain`.
+- When a Kata-Kata scenario has more lines than fit one unit, split it by scene (11A s01 to s08, 11B s09 to s18) and check every line is in the right unit. A scene line may use a core word of the other unit of the same chapter (11A uses «menelefon» from 11B): gloss it in the teacher notes.
+- Test-item `words` must be ledger headwords: write «tarikh akhir» and «hujung minggu», not their parts.
+- A starred wrong form (*mempanggil) in a teacher note is fine; a wrong form inside «…» in a pupil-facing line is not. English prose needs «di-» (marked) for the prefix and «…» for every Malay name, title and food word; Japanese cells quote Malay with «…», not 「…」.
+- English words that are also ledger entries (hiking, deadline, travel, badminton) go in `ENGLISH_HOMOGRAPHS` in `suite/__init__.py`. A ledger gloss that contains Malay needs a `GLOSS` entry (done for «kira» and «roti canai»).
+- A revision word must appear in a «…» span outside the vocabulary list, or the test fails; drop it from the list rather than force it in.
+
+## Previous session: Stage 2 build step 4, Kata-Kata refresh and chapter 10 (13 Nov 2026, Claude)
 
 - **Authorised:** Sam (build step 4 instruction, 13 Nov 2026): refresh the Kata-Kata reference copy, then author units 10A and 10B; push to main when the checks pass; **stop after chapter 10 for Claude's review** before chapters 11 to 17. Started at `a24a993`. Report: `docs/STAGE-2-ch10-report.md`.
 - **Part 1, refresh (`382dfec`):** `curriculum/reference/katakata/c10.json` to `c18.json` added and both ledger copies replaced from Kata-Kata **7fbe173** (c01 to c09 unchanged). `docs/handoff/ledger-snapshot.csv` is the Kata-Kata file byte for byte (CRLF); the reference copy is the same file with LF. Kata-Kata `content/rules/SOURCE.json` pins a24a993, and its three rule files match ours byte for byte. Ledger: 1,272 rows; **Stage 2 core 240** (56 existing + 184 new), recounted and updated in `docs/stage-2-plan.md`. The live charter states no 233; the other places that do are listed in the report. Build before and after: 22 violations, 203 gaps.
