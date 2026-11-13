@@ -1,8 +1,8 @@
 # Malay Stage 2 (A2): plan and proposed word lists
 
 **12 November 2026 · Stage 2 · PLANNING ONLY · drafted by ChatGPT (Batch 1), audited and corrected by Claude (Batch 1b).**
-Status: **audited draft awaiting Sam's decisions.** Sam's questions are now in [`docs/stage-2-decisions.md`](stage-2-decisions.md) (one line each); the audit is summarised in [`docs/STAGE-2-audit-report.md`](STAGE-2-audit-report.md), and every change Claude made to this file is listed in the [Audit log](#audit-log) at the end. Nothing here approves vocabulary, ledger rows, chapter suites or changes to the other tools. All Japanese is a draft for native review.
-**Review gate (Sam, ledger Journal row 128, 12 Nov 2026):** the Kamus Dewan check and the native Japanese review happen once, at the end of the whole project. They do not block the Stage 2 ledger writes; rows are written as Draft with "KD4 check" in their Action cell. What does block the ledger writes is Sam's answer to the decision brief, including the few forms marked **Sam to confirm** below.
+Status: **audited; Sam's decisions recorded on 13 Nov 2026** (every recommendation accepted, «bertolak» added to 10A, no chapter 10 pilot gate, charter edited for R7; see the answers in the brief and [Sam's decisions](#sams-decisions-13-nov-2026) at the end). Sam's questions are now in [`docs/stage-2-decisions.md`](stage-2-decisions.md) (one line each); the audit is summarised in [`docs/STAGE-2-audit-report.md`](STAGE-2-audit-report.md), and every change Claude made to this file is listed in the [Audit log](#audit-log) at the end. Nothing here approves vocabulary, ledger rows, chapter suites or changes to the other tools. All Japanese is a draft for native review.
+**Review gate (Sam, ledger Journal row 128, 12 Nov 2026):** the Kamus Dewan check and the native Japanese review happen once, at the end of the whole project. They do not block the Stage 2 ledger writes; rows are written as Draft with "KD4 check" in their Action cell. Sam has now answered the brief, so the ledger writes (build step 1) can go ahead; the four forms once marked "Sam to confirm" are confirmed.
 
 ## Source record and findings
 
@@ -80,11 +80,11 @@ Propose parallel A/B test versions, four sections of 20 marks, 48/80 overall and
 
 **Counting rule:** one ledger row is one core word. A taught surface form or fixed chunk is one row (as the ledger already does for «dibaca» L-0385, «menyimpan» L-0792 and «mengapa» L-1049); its family is recorded in the existing "Root (KD4)" and "Affix tag" columns. A root already taught is revision, not new.
 
-**After the audit: 233 core forms, 57 existing ledger rows and 176 new rows** (draft: 235 = 53 + 182). Every unit is between 19 and 24 new core words, inside the "typically 20 to 40" of charter section 6 (unit 15 is one under 20; see the decision brief). Each table row carries an Audit column: kept, changed (with why), added or moved; dropped forms are listed under each table. Forms whose Malaysian usage I am not sure of are marked **Sam to confirm**, not guessed.
+**After the audit and Sam's decisions: 234 core forms, 57 existing ledger rows and 177 new rows** (draft: 235 = 53 + 182; the audit gave 233, and Sam added «bertolak»). Every unit is between 19 and 24 new core words, inside the "typically 20 to 40" of charter section 6 (unit 15 is one under 20; see the decision brief). Each table row carries an Audit column: kept, changed (with why), added or moved; dropped forms are listed under each table. The four forms whose Malaysian usage I was not sure of were put to Sam and are marked "confirmed by Sam".
 
 | Unit | Draft core | Audited core | Existing rows | New rows |
 | --- | ---: | ---: | ---: | ---: |
-| [10A](#unit-10a) | 20 | 20 | 3 | 17 |
+| [10A](#unit-10a) | 20 | 21 | 3 | 18 |
 | [10B](#unit-10b) | 20 | 20 | 4 | 16 |
 | [11A](#unit-11a) | 20 | 20 | 0 | 20 |
 | [11B](#unit-11b) | 22 | 21 | 7 | 14 |
@@ -95,7 +95,7 @@ Propose parallel A/B test versions, four sections of 20 marks, 48/80 overall and
 | [15](#unit-15) | 21 | 19 | 3 | 16 |
 | [16](#unit-16) | 24 | 23 | 6 | 17 |
 | [17](#unit-17) | 22 | 22 | 8 | 14 |
-| **Total** | **235** | **233** | **57** | **176** |
+| **Total** | **235** | **234** | **57** | **177** |
 
 **What the audit checked for every form:** Malaysian standard as in Kamus Dewan, never Indonesian (no Indonesian form was found; the Malaysian choices are noted where an Indonesian one exists); the everyday Malaysian sense; the register (formal or written forms are paired with their everyday partner); real need for a Japanese working adult in Malaysia at A2; spelling of every ber-, meN-, -kan, -i and ter- form (all correct; nasal changes listed in the notes); the chapter gate (no form arrives before its affix opens); and duplicates against all 1,088 ledger rows, including L-1084 to L-1088 and the rows the Kata-Kata clean-up touched (no exact duplicate; one near-duplicate, «sehingga» beside L-1086 «hingga», dropped; two "new" forms, «berpindah» and «menukar», are the standard forms the ledger already names in L-0667 and L-0604, so they are linked to them). All 53 existing IDs the draft cited exist with the stated headword, meaning and band, and none is placed in a chapter yet.
 
@@ -123,8 +123,9 @@ Propose parallel A/B test versions, four sections of 20 marks, 48/80 overall and
 | tempat kerja | Workplace | 職場 | L-0657 (existing) | kept |
 | berlatih | to practise | 練習する | NEW | kept |
 | rutin | routine | 日課 | NEW | kept |
+| bertolak | to set off; to depart | 出発する | NEW | added by Sam (W9, 13 Nov): root «tolak» (push, L-1087, Ch9) changes meaning with ber-; «Pukul berapa kita bertolak?» |
 
-**Unit 10A: 20 core forms (3 existing rows, 17 new).**
+**Unit 10A: 21 core forms (3 existing rows, 18 new).**
 
 ### Unit 10B
 
@@ -204,7 +205,7 @@ Propose parallel A/B test versions, four sections of 20 marks, 48/80 overall and
 | semak | check / review (request) | 確認してください | NEW | kept: root used as a request: «Tolong semak draf ini.» |
 | mesej | message | メッセージ | NEW | kept |
 | menelefon | to phone | 電話をかける | NEW | added: replaces menyapu; t → n; root «telefon» L-0573 (Dunia); Hanashishou already uses it (L-0658 example) |
-| mengecas | to charge (a phone, a battery) | 充電する | NEW | added · **Sam to confirm**: replaces mengecat |
+| mengecas | to charge (a phone, a battery) | 充電する | NEW | added · confirmed by Sam (13 Nov): replaces mengecat |
 
 **Unit 11B: 21 core forms (7 existing rows, 14 new).**
 Not core after the audit: ~~menyapu~~ (dropped: low need for this learner; s → ny is already shown by menyewa, menyimpan and menyemak. Replaced by menelefon); ~~mengecat~~ (replaced by «mengecas» (to charge a phone): same menge- spelling, far higher need; root «cas» is L-0583 (Dunia, primes Ch7)); ~~mengepos~~ (dropped: the usual transitive is ‹mengeposkan› (a -kan form, chapter 12); «menghantar» covers the need).
@@ -232,7 +233,7 @@ Not core after the audit: ~~menyapu~~ (dropped: low need for this learner; s →
 | pemilik | Owner | 所有者、オーナー | L-0662 (existing) | kept |
 | label | label | ラベル | NEW | kept |
 | penerima | recipient | 受取人 | NEW | kept: written label on parcels; whole word |
-| nombor penjejakan | tracking number | 追跡番号 | NEW | kept · **Sam to confirm**: the ledger itself names it as the formal form of L-0608 «nombor tracking»; standard first, L-0608 as spoken recognition. Whether couriers really print this term is unconfirmed |
+| nombor penjejakan | tracking number | 追跡番号 | NEW | kept · confirmed by Sam (13 Nov): the ledger itself names it as the formal form of L-0608 «nombor tracking»; standard first, L-0608 as spoken recognition. Whether couriers really print this term is unconfirmed |
 | lobi | lobby | ロビー | NEW | kept: L-0666 «lobi lif» is then compositional, not a new core word |
 | koyak | torn | 破れた | NEW | kept |
 | blok | Block (of a building) | 棟（ブロック） | L-0653 (existing) | added: needed for the wrong-unit parcel scene («Blok B, unit 12-3») |
@@ -294,7 +295,7 @@ Not core after the audit: ~~menyapu~~ (dropped: low need for this learner; s →
 | mesti | must | 〜しなければならない | NEW | kept |
 | klinik panel | Panel clinic (one your company has an agreement with) | パネルクリニック（会社が契約しているクリニック） | L-0630 (existing) | added: used three times in the linked Hanashishou scene clinic_visit |
 | daftar | To register | 登録する、受付をする | L-0648 (existing) | added: registering at the clinic counter (clinic_registration scene) |
-| cuti sakit | sick leave | 病気休暇 | NEW | added · **Sam to confirm**: spoken «MC» is used seven times in clinic_visit; propose «MC» as its marked spoken form |
+| cuti sakit | sick leave | 病気休暇 | NEW | added · confirmed by Sam (13 Nov): spoken «MC» is used seven times in clinic_visit; propose «MC» as its marked spoken form |
 
 **Unit 13: 24 core forms (8 existing rows, 16 new).**
 Not core after the audit: ~~larangan~~ (dropped: «dilarang» (Ch9) already covers notices; the noun adds little at A2); ~~risiko~~ (dropped: abstract, low need for the permission and advice functions).
@@ -410,7 +411,7 @@ Not core after the audit: ~~kecederaan~~ (dropped: formal noun; «tercedera» an
 | singgah | To drop in; to stop by | 立ち寄る | L-0748 (existing) | kept |
 | ni | this (spoken, standard ini) | これ・この（話し言葉） | NEW; spoken | kept: spoken; standard «ini» |
 | tu | that (spoken, standard itu) | それ・その（話し言葉） | NEW; spoken | kept: spoken; standard «itu» |
-| jemputan | invitation | 招待・招待状 | NEW | added · **Sam to confirm**: replaces pelawaan |
+| jemputan | invitation | 招待・招待状 | NEW | added · confirmed by Sam (13 Nov): replaces pelawaan |
 
 **Unit 17: 22 core forms (8 existing rows, 14 new).**
 Not core after the audit: ~~pelawaan~~ (replaced by «jemputan» (invitation; «kad jemputan»), the everyday noun; root «jemput» L-0541 is Stage 1 recognition).
@@ -435,7 +436,7 @@ These are deliberately outside the new-core totals. A teacher may activate recog
 | 17 | tidak/tak L-0030; mahu/nak L-0213; sudah/dah L-0193; sedikit/sikit L-0216; sahaja/saja L-1000; tetapi/tapi L-0215; macam mana L-0211; pun L-0983; jom L-0075; jemput L-0541; betul ke? L-0944; tak apa L-0940; macam L-0930 | These spoken forms and chunks are systematised, not counted new. ni/tu are NEW rows even though the register checker already names them. Other regional forms are excluded. |
 | 18 | All earlier chapters as required by the item map | No vocabulary inflation to meet a teaching-unit minimum. |
 
-**Core totals by chapter after the audit:** 10 = 40; 11 = 41; 12 = 44; 13 = 24; 14 = 20; 15 = 19; 16 = 23; 17 = 22; 18 = 0. Total 233 (draft 235). New-to-course recognition (existing rows, never tested as new core): L-0667 «pindah» (10), L-0604 «tukar» and L-0678 «deadline» (11), L-0608 «nombor tracking» (12). Revision counts will follow actual scene usage, not an invented total before authoring.
+**Core totals by chapter after the audit and Sam's decisions:** 10 = 41; 11 = 41; 12 = 44; 13 = 24; 14 = 20; 15 = 19; 16 = 23; 17 = 22; 18 = 0. Total 234 (draft 235). New-to-course recognition (existing rows, never tested as new core): L-0667 «pindah» (10), L-0604 «tukar» and L-0678 «deadline» (11), L-0608 «nombor tracking» (12). Revision counts will follow actual scene usage, not an invented total before authoring.
 
 ### Existing parcel pack: move and re-author, not relabel
 
@@ -579,7 +580,7 @@ Source browser: [Hanashishou content packs](https://github.com/Nagatake-vonHatsu
 
 ## 6. Build order, approval gates and handover
 
-Sam has decided that Claude builds Stage 2. The questions are in [`docs/stage-2-decisions.md`](stage-2-decisions.md); nothing below starts until Sam has answered them and the answers are recorded in the ledger Journal (the first step does that).
+Sam has decided that Claude builds Stage 2 and answered [`docs/stage-2-decisions.md`](stage-2-decisions.md) on 13 Nov 2026, approving this build order and its models (B1). Step 1 starts by recording the answers in the ledger Journal.
 
 ### Build order after Sam approves (audit proposal)
 
@@ -588,11 +589,11 @@ Sam has decided that Claude builds Stage 2. The questions are in [`docs/stage-2-
 | 1 | Ledger session (sheet, then Cikgu Sensai copies) | Journal rows recording Sam's answers; the approved rows written to the Ledger tab (new rows as Draft with "KD4 check" in Action, existing rows placed, roots in "Root (KD4)"); both copies and the hash regenerated, diff checked row by row | Sonnet: a mechanical change set from the audited tables, with a scripted duplicate and diff check |
 | 2 | Cikgu Sensai | Stage-aware language checks and the affix allow-list (section 3, items 1 to 3 and 5 to 7) with the shared fixtures; no content | Opus: the gate logic decides what every later chapter may say |
 | 3 | Kata-Kata session | Packs c10 to c18 (cards, frames, Sedia Kelas, Dunia scenes; c18 review only) and the stage-aware affix guard with scoped exemptions (item 4); a pinned snapshot for Cikgu Sensai | Opus for the guard and c10, then Sonnet for c11 to c18 with an Opus check of each pack's frames |
-| 4 | Cikgu Sensai, chapter by chapter | Chapter 10 (10A, 10B, writing block, fast pack) as the template; then chapters 11 to 17 with their review and writing blocks, each to the section 6 minimums | Opus for chapter 10; Sonnet for chapters 11 to 17, with an Opus review after each chapter before it is published |
+| 4 | Cikgu Sensai, chapter by chapter | Chapter 10 (10A, 10B, writing block, fast pack) as the template; then chapters 11 to 17 with their review and writing blocks, each to the section 6 minimums | Opus for chapter 10; Sonnet for chapters 11 to 17, with an Opus review after each chapter before it is published (no pilot pause after chapter 10: Sam, G3) |
 | 5 | Cikgu Sensai | Chapter 18: the A2 review and rehearsal blocks, the A2 test (versions A and B, keys, scripts, administration sheet), the catalogue's Stage 2 record | Opus |
 | 6 | Hanashishou session | Chapter tags on every Malay scene (all reachable text: narration, other speakers, every branch), graded or deferred branches, the Jambatan bridge rebuilt from the tags, and the L-0592 → L-0330 «pintu masuk» mapping | Sonnet for tagging, with an Opus review of the bridge rebuild |
 
-Steps 3 and 4 run chapter by chapter after chapter 10 (Kata-Kata pack first, then the Cikgu Sensai suite), so each chapter's home preparation exists before its class pack. Sam pilots chapter 10 before the template is repeated. Missing words found while authoring or tagging go back through Sam and the Journal; they never enter the ledger to fit an existing script.
+Steps 3 and 4 run chapter by chapter after chapter 10 (Kata-Kata pack first, then the Cikgu Sensai suite), so each chapter's home preparation exists before its class pack. Sam decided (G3, 13 Nov 2026) not to pilot chapter 10 first: all chapters are built in order, each with an Opus review before the next starts. Missing words found while authoring or tagging go back through Sam and the Journal; they never enter the ledger to fit an existing script.
 
 ### Cross-tool acceptance checklist for later builds
 
@@ -669,3 +670,16 @@ Claude, Stage 2 Batch 1b, 12 November 2026. Every change made to this file, and 
 
 - The unit split (11 units, five blocks each), the review and writing block positions, chapter 18's five blocks and zero new words, the fast course (nine packs), the pass rule carried over from Stage 1, and the can-do goals of section 4. All are consistent with the Stage 1 decisions (48/80 with 10/20 per section; writing items allowed; 76 Stage 1 blocks = 57 hours; standard forms first; no faith-specific greetings; no festivals added; «terus», never «jalan lurus»; classifiers with se-).
 - Affix spelling: all 235 draft forms are spelt and formed correctly and none arrives before its gate; whole words with Stage 3 affixes are listed as whole words.
+
+## Sam's decisions (13 Nov 2026)
+
+Sam answered `docs/stage-2-decisions.md` in chat on 13 Nov 2026: **every recommendation accepted**, with these specifics.
+
+- **W6, W7, W8: yes.** «mengecas», «jemputan» and «cuti sakit» (with «MC» as its marked spoken form) are confirmed.
+- **W9: yes.** «bertolak» added to unit 10A (now 21 core; Stage 2 total 234 = 57 existing + 177 new).
+- **R1: (a).** «nombor penjejakan» is a new row (written label) and L-0608 «nombor tracking» its spoken partner.
+- **R7: yes, and Claude edits the charter.** Done on 13 Nov 2026: section 5 of the live charter (revision after the edit `AHj4eMSiZ2Bi…`) and `docs/handoff/charter-snapshot.md` now say ber- has no nasal sound changes, with be- (berehat, bekerja) and bel- (belajar) as its only spelling variants.
+- **G3: no.** No chapter 10 pilot before the rest: build all chapters, with an Opus review after each.
+- **B1: yes.** The six-step build order and models in section 6 are approved.
+
+These answers are recorded here, in the brief and in `HANDOFF.md`; build step 1 copies them into the ledger Journal before writing any row.

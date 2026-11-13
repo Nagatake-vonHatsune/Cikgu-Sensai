@@ -34,6 +34,6 @@ Every change to the plan is itemised in its [Audit log](stage-2-plan.md#audit-lo
 
 Web sources consulted for item 4: secondary descriptions of ber- allomorphs at [kumparan.com](https://kumparan.com/berita-terkini/memahami-makna-dari-imbuhan-ber-dalam-sebuah-kalimat-21RS8lxf9mm), [Scribd document 581257442](https://www.scribd.com/document/581257442/52945-147088-1-PB) and [MLCS Singapore](https://mlcs.moe.edu.sg/files/Kertas2_Dian2.pdf) (search excerpts only; none is Tatabahasa Dewan). The ledger and the draft's own DBP excerpts remain the main sources.
 
-## Next
+## Sam's decisions and next step
 
-Sam answers [`docs/stage-2-decisions.md`](stage-2-decisions.md) with Claude in chat. Then build step 1 (the ledger session) records the answers in the Journal and writes the rows. Nothing is built before that.
+Sam answered the brief in chat on 13 November 2026: every recommendation accepted; W6, W7, W8 yes; W9 yes («bertolak» added, 234 core words); R1 (a); G3 no (build every chapter, no chapter 10 pilot); and Claude edited the charter for R7 (section 5, ber- has no nasal sound changes; the snapshot matches). The answers are in [`docs/stage-2-decisions.md`](stage-2-decisions.md) and at the end of the plan. Next is build step 1, the ledger session, which records the answers in the Journal before writing any row.

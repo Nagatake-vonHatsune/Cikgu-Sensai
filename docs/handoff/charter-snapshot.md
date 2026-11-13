@@ -1,4 +1,4 @@
-<!-- Snapshot of the Google Doc charter (master: https://docs.google.com/document/d/1d-uiYfQixReMUlPAcUEJ6R4onWOh-4Aa9urr14DL2lw), exported 2026-11-11, refreshed 2026-11-12 (the faith-expression sentence in section 8, Malay form rules, added). For builders without Drive access. If you can open the Google Doc, it wins. -->
+<!-- Snapshot of the Google Doc charter (master: https://docs.google.com/document/d/1d-uiYfQixReMUlPAcUEJ6R4onWOh-4Aa9urr14DL2lw), exported 2026-11-11, refreshed 2026-11-12 (the faith-expression sentence in section 8, Malay form rules, added) and 2026-11-13 (section 5, ber- has no nasal sound changes; Claude at Sam's request, Stage 2 decision R7). For builders without Drive access. If you can open the Google Doc, it wins. -->
 
 # **Unified Curriculum Charter: Cikgu Sensai, Kata-Kata, Hanashishou (v0.1)**
 
@@ -218,7 +218,7 @@ The logic of Stage 2: Stage 1 deliberately holds back ber- and me-. Learners fin
 
 Notes on the order:
 
-* ber- comes before me- because it has no sound changes and covers the routine verbs learners already half-know.
+* ber- comes before me- because it has no nasal sound changes and covers the routine verbs learners already half-know. Its only spelling variants are be- before a root starting with r or whose first syllable ends in -er (berehat, bekerja) and bel- in belajar, the one exception (Sam, 13 Nov 2026).
 
 * Chapter 11 pairs each me- verb with the di- form learnt in chapter 9, so the new prefix attaches to known words.
 
