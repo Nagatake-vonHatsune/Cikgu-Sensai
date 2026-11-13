@@ -21,5 +21,8 @@
   "ms-c08-fast",
   "ms-c09",
   "ms-c09-fast",
-  "ms-stage1"
+  "ms-stage1",
+  "ms-c10a",
+  "ms-c10b",
+  "ms-c10-fast"
 ]

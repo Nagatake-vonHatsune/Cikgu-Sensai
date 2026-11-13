@@ -677,3 +677,94 @@ PACKS.append(dict(
     course_path='fast', prerequisites=['ms-c01', 'ms-c02', 'ms-c03', 'ms-c04', 'ms-c05', 'ms-c06', 'ms-c07', 'ms-c08'], prerequisite_units=[],
     prereq_grammar=['ms-c03-g04', 'ms-c04-g06', 'ms-c05-g06'],
     word_scope=C9_WORDS, components=chapter9))
+
+
+# Stage 2 (A2) fast packs: one 45-minute pack per chapter, from chapter 10 (plan section 1, "Fast course").
+STAGE2_PACKS = []
+
+C10_WORDS = ['L-1089', 'L-1091', 'L-1093', 'L-1094', 'L-1095', 'L-1098', 'L-1101', 'L-1102', 'L-1103', 'L-1106',
+             'L-1110', 'L-1108', 'L-1112', 'L-1114', 'L-1122', 'L-0660', 'L-0779', 'L-0781', 'L-1118', 'L-1115']
+
+
+def chapter10(ledger):
+    dialogue = [
+        ('Siti', '«Selamat petang. Encik jiran baru, ya?»'),
+        ('Tanaka', '«Ya, saya baru berpindah minggu lepas. Saya berasal dari Osaka.»'),
+        ('Siti', '«Selamat berkenalan! Saya Siti. Encik bekerja di mana?»'),
+        ('Tanaka', '«Saya bekerja di sebuah syarikat Jepun di Kuala Lumpur.»'),
+        ('Siti', '«Pukul berapa encik bertolak ke pejabat?»'),
+        ('Tanaka', '«Setiap pagi saya bertolak pukul tujuh. Saya bersarapan di kedai mamak.»'),
+        ('Siti', '«Pada hujung minggu encik buat apa?»'),
+        ('Tanaka', '«Saya suka berenang. Puan pula?»'),
+        ('Siti', '«Saya suka berehat di rumah. Pada hari Ahad, kami berkumpul di rumah saya. Encik datang, ya!»'),
+        ('Tanaka', '«Terima kasih! Nanti kita berbual lagi.»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=['ms-c10-g02', 'ms-c10-g03', 'ms-c10-g04', 'ms-c10-g05', 'ms-c10-g06', 'ms-c10-g07', 'ms-c10-g08'],
+        patterns=['ms-c10-f01', 'ms-c10-f02', 'ms-c10-f03', 'ms-c10-f05', 'ms-c10-f06'],
+        goal='Describe a working day and your background with ber- verbs, and meet a new neighbour.',
+        explain=('第10章速習：45分で基本の20語、ber- の動詞（つづりは ‹be-›・‹bel-› だけ）、日課と時刻、週末にすること、出身・仕事・人生のできごと '
+                 '«sudah»・«belum» を練習し、残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 10 in one 45-minute session: 20 core words, ber- verbs (spelling variants ‹be-› and ‹bel-› only), a routine with times, '
+                 'weekend activities, background and life events with «sudah» / «belum»; then self-study in Kata-Kata. All names and details are fictional.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can say when I do things on a working day with ber- verbs and «pukul». / ber- の動詞と «pukul» で、仕事の日にいつ何をするかを言える。',
+                'I can ask what time something starts or when we set off. / 何時に始まるか、何時に出発するかをたずねられる。',
+                'I can give my background with «berasal dari» and «bekerja di». / «berasal dari»・«bekerja di» で自分の背景を言える。',
+                'I can introduce myself to a new neighbour and accept an invitation. / 新しい隣人に自己紹介し、招待を受けられる。'], 'opener'),
+            ('Core words · 基本の20語', core(ledger, C10_WORDS) +
+             ['The full course also teaches «berjalan», «bermain», «berlari», «berbasikal», «berbual», «beratur», «bersiap», «bersedia», «berlatih», '
+              '«rutin», «bernama», «berumur», «berkeluarga», «berkawan», «berniaga», «berbelanja», «berminat», «berpakaian», «sepupu», '
+              '«pengalaman», and «pindah» as the spoken form of «berpindah» (to recognise only).'], 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · «Setiap pagi saya» (ber- verb) «pukul» ___.  e.g. «Setiap pagi saya bersarapan pukul tujuh.» / «Setiap pagi saya bertolak pukul tujuh setengah.»',
+                '2 · «Pukul berapa» ___ «bermula» / «kita bertolak»?  e.g. «Pukul berapa mesyuarat bermula?» / «Pukul berapa kita bertolak?»',
+                '3 · «Pada hujung minggu saya suka» (ber- verb).  e.g. «Pada hujung minggu saya suka berenang.» / «Saya suka bermain badminton.»',
+                '4 · «Saya berasal dari» ___. «Saya bekerja di» ___.  e.g. «Saya berasal dari Osaka.» / «Saya bekerja di Kuala Lumpur.»',
+                '5 · «Saya sudah / belum» (ber- verb).  e.g. «Saya sudah berkahwin.» / «Saya belum berkenalan dengan jiran.»',
+                'Remember: ‹ber-› has no nasal sound changes; it is spelt ‹be-› before r and in «bekerja», and ‹bel-› only in «belajar». A ber- verb '
+                'never changes; the markers do the work. «bertolak» is set off (not push); «berhenti kerja» is quit a job. In speech you will hear '
+                'the root («kerja», «sarapan», «pindah»); write the ‹ber-› form.',
+                '‹ber-› には鼻音の変化がなく、r の前と «bekerja» で ‹be-›、«belajar» だけ ‹bel-› になります。ber- の動詞は形が変わらず、マーカーが時を表します。'
+                '«bertolak» は「出発する」（「押す」ではない）、«berhenti kerja» は「仕事を辞める」です。話し言葉では語根（«kerja»・«sarapan»・«pindah»）も聞きますが、'
+                '書くときは ‹ber-› の形を使います。'], 'model'),
+            ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: You have just moved into a condominium (a real or invented persona). Introduce yourself, say where you work and when you set off in the morning.',
+                'B: You are a neighbour. Ask where A is from and what A does at the weekend, say one thing about yourself, and invite A to a gathering on Sunday.',
+                'Change of plan: B says «Maaf, hari Ahad saya bercuti. Kita berkumpul hari Sabtu, ya?» A asks the time.',
+                'A：コンドミニアムに引っ越してきたばかりです（本人か架空の人物）。自己紹介し、勤め先と朝の出発時刻を言います。B：隣人として、Aの出身と週末にすることをたずね、'
+                '自分のことを一つ話し、日曜日の集まりに招きます。変更：Bが «Maaf, hari Ahad saya bercuti. Kita berkumpul hari Sabtu, ya?» と言い、Aは時刻をたずねます。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say "Every morning I set off at seven.": ____________________',
+                '☐ 2. Ask "What time does the meeting start?": ____________________',
+                '☐ 3. Say "I am from Osaka.": ____________________',
+                '☐ 4. Say "I have just moved here.": ____________________',
+                '☐ 5. Answer "not yet" to «Sudah berkahwin?»: ____________________'], 'test'),
+            ('Self-study guide · 自習ガイド', [
+                f'Before the session: Kata-Kata Sedia Kelas c10 ({sedia_cards(10)} cards, frames ms-c10-f01 and ms-c10-f02).',
+                f'After the session: all {pack_cards(10)} Kata-Kata chapter 10 cards (ms-c10-001 to ms-c10-{last_card(10):03}; ms-c10-041 «pindah» '
+                'is recognise only) and frames ms-c10-f01 to ms-c10-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario "A working day and '
+                'a new neighbour" matches this pack.',
+                'No Dunia scene primes chapter 10. Hanashishou scenes for chapter 10 (grab_ride_chat, new_neighbour) are not yet tagged by chapter, '
+                'so they are not assigned yet.',
+                'Optional full-course Cikgu Sensai units: unit 10A (the working day) and unit 10B (background and neighbours), with a writing block.',
+                'Expected self-study: about 9 to 10 hours for this chapter (planning figure).',
+                '授業後：第10章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
+        key=['Self-check: 1 «Setiap pagi saya bertolak pukul tujuh.» 2 «Pukul berapa mesyuarat bermula?» 3 «Saya berasal dari Osaka.» '
+             '4 «Saya baru berpindah ke sini.» 5 «Belum.» (or «Saya belum berkahwin.»)',
+             'Session plan (45 min): 0–5 recall chapter 9 (the door signs; «tolak» before «bertolak»); 5–15 core words with their roots; '
+             '15–25 patterns 1 to 5; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',
+             'Same content and ledger limits as units 10A and 10B. Personal details are optional. All Japanese is a draft awaiting native review.'])]
+
+
+STAGE2_PACKS.append(dict(
+    chapter_id='ms-c10', check_unit='ms-c10-fast', id_prefix='ms-c10-fast', level='A2',
+    title_prefix='Chapter 10', header='Chapter 10 fast course (ms-c10)',
+    menu_title='Chapter 10 · ber- verbs', genre='Daily routines',
+    course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 10)], prerequisite_units=[],
+    prereq_grammar=['ms-c02-g08', 'ms-c04-g06', 'ms-c04-g08'],
+    word_scope=C10_WORDS, components=chapter10))

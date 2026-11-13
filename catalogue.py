@@ -17,7 +17,7 @@ GENRES = {'Social encounters':'Social life','Transactions':'Shopping and money',
           'Housing':'Home','Work':'Work and study','Study':'Work and study','Governance':'Work and study','Campus services':'Work and study'}
 FOCUS = ['Greetings and titles','Pronouns, pe-, -an, -kah and questions','Numbers, money, ke- and ke-an',
          'Time, frequency and aspect','Adjectives, Bagaimana and yang','Comparatives and superlatives',
-         'Location and direction','Counters','Passive di-']
+         'Location and direction','Counters','Passive di-','ber- verbs']
 GOALS = ['Greet by time of day, use titles, ask after someone, take leave',
          'Introduce yourself (name, origin, work, home, hobby) and ask the same of others',
          'Ask and pay a price, check change, give age and phone number, say which one in a sequence',
@@ -25,7 +25,10 @@ GOALS = ['Greet by time of day, use titles, ask after someone, take leave',
          'Describe food, objects and feelings, and choose between items',
          'Compare two options, say two things are equal, pick the best of three',
          'Ask where something is, follow and give a route, name transport',
-         'Order and count things with the right classifier','Read signs and notices, say what was done and by whom']
+         'Order and count things with the right classifier','Read signs and notices, say what was done and by whom',
+         'Retell your day and your background in full sentences']
+STAGE1_CHAPTERS = 9   # chapters 1 to 9: Stage 1 (A1); from chapter 10: Stage 2 (A2)
+CHAPTERS_BUILT = len(GOALS)  # chapters with a Kata-Kata pack and a catalogue record (10 since Stage 2 build step 4)
 BLOCKS = [
  ('A', [('Recall',5),('Tanya Cikgu',5),('Vocabulary check',10),('Pattern focus',20),('First substitutions',5)]),
  ('B', [('Recall',5),('Drill ladder',20),('Model and gapped conversation',15),('Pair rehearsal',5)]),
@@ -59,7 +62,7 @@ def ledger_only_words():
 
 def make_catalogue(lessons, groups):
     from suite import GRAMMAR
-    packs=[json.loads((ROOT/f'curriculum/reference/katakata/c{n:02}.json').read_text()) for n in range(1,10)]
+    packs=[json.loads((ROOT/f'curriculum/reference/katakata/c{n:02}.json').read_text()) for n in range(1,CHAPTERS_BUILT+1)]
     words={c['id']:c for p in packs for c in p['cards']}
     words.update(ledger_only_words())
     patterns={f['id']:f for p in packs for f in p['frames']}
@@ -79,26 +82,26 @@ def make_catalogue(lessons, groups):
     grammar.extend({**g,'review_status':'draft'} for g in GRAMMAR)
     authored={u['unit_id']:u for g in groups for u in g.get('authored_units',[])}
     chapters=[];scenes=[];components=[];by_title={l['title']:l for l in lessons}
-    for n,(p,g) in enumerate(zip(packs,groups[:9]),1):
-        cid=f'ms-c{n:02}'; gid=f'{cid}-g01'
+    for n,(p,g) in enumerate(zip(packs,groups[:CHAPTERS_BUILT]),1):
+        cid=f'ms-c{n:02}'; gid=f'{cid}-g01'; a2=n>STAGE1_CHAPTERS; level='A2' if a2 else 'A1'
         units=[{'id':cid+re.sub(r'\d','',u['label']).lower(),'label':u['label']} for u in g['units']]
         blocks=[{'id':f'{u["id"]}-b{i}','unit_id':u['id'],'label':label,'minutes':45,
                  'can_do_goal':authored[u['id']]['blocks'][label] if u['id'] in authored else None,
                  'goal_status':'authored draft' if u['id'] in authored else 'awaiting pilot authoring',
                  'activities':[{'name':name,'minutes':minutes} for name,minutes in tasks]} for u in units for i,(label,tasks) in enumerate(BLOCKS,1)]
-        chapters.append({'id':cid,'language':'Malay','level':'A1','title':g['title'],'genre':GENRES.get(g['genre'],g['genre']),
+        chapters.append({'id':cid,'language':'Malay','level':level,'title':g['title'],'genre':GENRES.get(g['genre'],g['genre']),
             'can_do_goals':GOALS[n-1:n],'pattern_ids':[f['id'] for f in p['frames']],
             'word_ids':[c['id'] for c in p['cards']], 'grammar_points':[gid], 'units':units,'block_plan':blocks,
             'recycled_items':{'word_ids':[],'pattern_ids':[], 'status':'not yet selected',
-                'planned_pattern_returns':[{'pattern_id':f['id'],'destinations':[f'ms-c{k:02}' for k in (n+1,n+3) if k<=9]+['ms-stage1-review']} for f in p['frames']]},
-            'scene_ids':[f'scene-a1-ms-origin-{n:02}'],'kata_kata_set':{'pack_id':p['id'],'sedia_kelas':p['sedia_kelas'],
+                'planned_pattern_returns':[{'pattern_id':f['id'],'destinations':([f'ms-c{k:02}' for k in (n+1,n+3,18) if k<=18] if a2 else [f'ms-c{k:02}' for k in (n+1,n+3) if k<=9]+['ms-stage1-review'])} for f in p['frames']]},
+            'scene_ids':[f'scene-{level.lower()}-ms-origin-{n:02}'],'kata_kata_set':{'pack_id':p['id'],'sedia_kelas':p['sedia_kelas'],
                 'source_url':f'https://github.com/Nagatake-vonHatsune/katakata/blob/7fbe1732a6d85d421fda8d607c61efb2d0784092/content/ms/kelas/c{n:02}.json'},
             'hanashishou_scene_ids':[], 'self_study_hours':{'full':3*len(units),'fast':[9,10],'status':'provisional planning estimate'},
-            'review_status':'draft','sequence':'stage1','stage_id':'ms-stage1',
+            'review_status':'draft','sequence':'stage2' if a2 else 'stage1','stage_id':'ms-stage2' if a2 else 'ms-stage1',
             'prerequisites':[f'ms-c{k:02}' for k in range(1,n)] if n<=2 else [],
             'prerequisite_status':('none (first chapter)' if n==1 else 'mapped in the step 4 pilot') if n<=2 else 'not yet mapped',
             'fast_pack_ids':[], 'pilot_status':'step 4 pilot draft' if all(u['id'] in authored for u in units) else None})
-        scenes.append({'id':f'scene-a1-ms-origin-{n:02}','level':'A1','situation':p['scenario']['title_en'],
+        scenes.append({'id':f'scene-{level.lower()}-ms-origin-{n:02}','level':level,'situation':p['scenario']['title_en'],
             'can_do_goals':GOALS[n-1:n],'genre':GENRES.get(g['genre'],g['genre']),
             'task':None,'change_of_plan':None,'listening_outline':None,'reading_text_type':None,'test_item_shapes':[],
             'review_status':'draft','source':'Kata-Kata scenario title and charter draft goal; localisation not yet authored'})
@@ -109,7 +112,7 @@ def make_catalogue(lessons, groups):
         g['genre']=GENRES.get(g['genre'],g['genre'])
         for u in g.get('units',[{'label':None,'items':g['items']} ])+([{'label':None,'items':g['fast_items']}] if g.get('fast_items') else [])+([{'label':None,'items':g['stage_items']}] if g.get('stage_items') else []):
             for title in u['items']:
-                cid=f'ms-c{gi+1:02}' if gi<9 else 'ms-c12' if g.get('sequence')=='future' else None
+                cid=f'ms-c{gi+1:02}' if gi<CHAPTERS_BUILT else 'ms-c12' if g.get('sequence')=='future' else None
                 uid=(cid+re.sub(r'\d','',u['label']).lower()) if cid and u['label'] else None
                 placements.append((g,u,title,cid,uid))
     for g,u,title,cid,uid in placements:
@@ -149,7 +152,10 @@ def make_catalogue(lessons, groups):
     for c in chapters:
         c['fast_pack_ids']=[x['id'] for x in components if x['chapter_id']==c['id'] and x.get('fast')]
     tests=json.loads((ROOT/'curriculum/test-items.json').read_text())+[t for l in lessons if l.get('suite') for t in l['suite']['tests']]
-    extra_blocks={'pronunciation':'ms-c01-pronunciation-block','writing-2b':'ms-c02b-writing-block','review-3a':'ms-c03a-review-block','writing-3c':'ms-c03c-writing-block','review-4b':'ms-c04b-review-block','writing-5':'ms-c05-writing-block','review-6':'ms-c06-review-block','writing-7':'ms-c07-writing-block','review':'ms-stage1-review'}
+    extra_blocks={'pronunciation':'ms-c01-pronunciation-block','writing-2b':'ms-c02b-writing-block','review-3a':'ms-c03a-review-block','writing-3c':'ms-c03c-writing-block','review-4b':'ms-c04b-review-block','writing-5':'ms-c05-writing-block','review-6':'ms-c06-review-block','writing-7':'ms-c07-writing-block','review':'ms-stage1-review',
+                  'writing-10b':'ms-c10b-writing-block'}
+    # Stage 2 extra blocks (plan section 1): writing after 10B, 12A, 14, 16; reviews after 11B, 12B, 15. Only built ones are listed.
+    stage2_blocks=[('writing-10b','ms-c10b')]
     from suite.stage1 import stage_record
     # Stage records carry the stage's CEFR label and its completion rule (step 5h): the data behind the charter's
     # "CEFR label shown in the Evaluator" (section 10, phase 3). Chapters and components keep their own 'level'.
@@ -158,7 +164,10 @@ def make_catalogue(lessons, groups):
         'component_slots':slots,'test_items':tests, 'scenes':scenes,
         'additional_blocks':[{'id':'ms-stage1-'+name,'after_unit':unit,'minutes':45,
             'component_ids':[x['id'] for x in components if x['id']==extra_blocks.get(name)],
-            'status':'pilot draft' if name in extra_blocks else 'not yet authored'} for name,unit in [('pronunciation','ms-c01'),('writing-2b','ms-c02b'),('review-3a','ms-c03a'),('writing-3c','ms-c03c'),('review-4b','ms-c04b'),('writing-5','ms-c05'),('review-6','ms-c06'),('writing-7','ms-c07'),('review','ms-c09')]],
+            'status':'pilot draft' if name in extra_blocks else 'not yet authored'} for name,unit in [('pronunciation','ms-c01'),('writing-2b','ms-c02b'),('review-3a','ms-c03a'),('writing-3c','ms-c03c'),('review-4b','ms-c04b'),('writing-5','ms-c05'),('review-6','ms-c06'),('writing-7','ms-c07'),('review','ms-c09')]]
+        +[{'id':'ms-stage2-'+name,'after_unit':unit,'minutes':45,
+            'component_ids':[x['id'] for x in components if x['id']==extra_blocks.get(name)],
+            'status':'draft for Claude\'s review' if name in extra_blocks else 'not yet authored'} for name,unit in stage2_blocks],
         'language_layers':[
             {'language':'Malay','chapter_ids':[c['id'] for c in chapters],'grammar_sequence':[x['id'] for x in grammar],
              'word_ids':list(words),'pattern_ids':list(patterns),'first_language_notes':[],
@@ -174,7 +183,7 @@ def authored_component(l,body,g,u):
     """Step 4 suite component: tags come from the authored metadata, not inferred."""
     m=l['suite']; first_key=len(l['pages'])-l.get('key_pages',1)
     prereq_words=m.get('prereq_word_ids',[])
-    return {'id':m['id'],'source_title':l['title'],'title':l['title'],'language':'Malay','level':'A1',
+    return {'id':m['id'],'source_title':l['title'],'title':l['title'],'language':'Malay','level':l['level'],
         'chapter_id':m['chapter_id'],'unit_id':m['unit_id'],'check_unit':m['check_unit'],'component_type':m['component_type'],
         'sub_type':m['sub_type'],'skills':m['skills'],'genre':g['genre'],'grammar_points':m['grammar_points'],
         'word_ids':m['word_ids_override'] or m['word_ids'],'pattern_ids':m['pattern_ids'],'time_minutes':m['time_minutes'],

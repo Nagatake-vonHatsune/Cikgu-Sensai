@@ -53,11 +53,14 @@ MENTION = re.compile(r'‹([^«»‹›]+)›')
 JA_DRAFT = '（日本語は下書きです。ネイティブ・スピーカーの確認待ち）'
 BM_NOTE = ('No Malay explainer for Stage 1 units: explainers and rubrics are in Japanese or English '
            '(Sam, 11 Nov 2026). Select 日本語 or English.')
+# Stage 2 keeps the Stage 1 rule until Sam decides otherwise (question in docs/STAGE-2-ch10-report.md).
+BM_NOTE_STAGE2 = ('No Malay explainer yet for Stage 2 units: explainers and rubrics stay in Japanese or English, '
+                  'as in Stage 1 (Sam, 11 Nov 2026), until Sam decides otherwise. Select 日本語 or English.')
 # English words that are spelt like a ledger entry. Unmarked use of these is
 # allowed; anything else in the ledger must be marked «…» or ‹…›.
 ENGLISH_HOMOGRAPHS = {'main', 'oh', 'pun', 'best', 'bank', 'hotel', 'menu', 'fail', 'golf', 'set', 'unit',
                       'april', 'september', 'november', 'hospital', 'internet', 'kilometer', 'pen', 'tin', 'batik',
-                      'bernama', 'label'}  # month names (ledger L-1036, L-1041, L-1043); "Bernama" (the news agency, cited in English source notes) and English "label", since the Stage 2 rows L-1111 «bernama» and L-1168 «label» exist
+                      'bernama', 'label', 'badminton', 'travel'}  # badminton and travel: English words in Stage 2 prose (ledger L-0968, L-1029)  # month names (ledger L-1036, L-1041, L-1043); "Bernama" (the news agency, cited in English source notes) and English "label", since the Stage 2 rows L-1111 «bernama» and L-1168 «label» exist
 
 # Grammar points taught in the pilot (IDs extend the step 2 chapter points).
 GRAMMAR = [
@@ -142,6 +145,16 @@ GRAMMAR.extend([
     dict(id='ms-c09-g04', chapter_id='ms-c09', label='sudah / belum + di- verb; the doer before the verb without di- (Pinggan saya bawa)'),
     dict(id='ms-c09-g05', chapter_id='ms-c09', label='Hours on signs: dibuka / ditutup pada pukul ___; pada and tadi'),
     dict(id='ms-c09-g06', chapter_id='ms-c09', label='Signs and notices: Dilarang ___, Sila ___, papan tanda'),
+])
+
+GRAMMAR.extend([
+    dict(id='ms-c10-g02', chapter_id='ms-c10', label='ber- verbs of routine and movement as whole words, each with its root; no nasal sound changes'),
+    dict(id='ms-c10-g03', chapter_id='ms-c10', label='When things start and when we set off: bermula / bertolak + pukul; Setiap pagi saya ___'),
+    dict(id='ms-c10-g04', chapter_id='ms-c10', label='Free time with ber- verbs: suka + ber- verb, pada hujung minggu'),
+    dict(id='ms-c10-g05', chapter_id='ms-c10', label='Speaking and meeting with dengan: bercakap, berbual, berjumpa, berkenalan dengan ___'),
+    dict(id='ms-c10-g06', chapter_id='ms-c10', label='Background with ber- verbs: berasal dari, bekerja di, bernama, berumur'),
+    dict(id='ms-c10-g07', chapter_id='ms-c10', label='Life events with sudah / belum / masih / baru + ber- verb: berkahwin, berpindah, bersekolah'),
+    dict(id='ms-c10-g08', chapter_id='ms-c10', label='Spelling and register of ber-: be- (berehat, bekerja), bel- (belajar); standard ber- form beside the everyday root'),
 ])
 
 
@@ -270,6 +283,10 @@ GLOSS = {
     'L-1078': dict(en='to wash («dicuci» = washed)', ja='洗う（«dicuci»＝洗われた）'),
     'L-1079': dict(en='to forbid («dilarang» = forbidden)', ja='禁じる（«dilarang»＝禁止されている）'),
     'L-1081': dict(en='come; let\'s («Mari makan» = come and eat)', ja='さあ・〜しましょう（«Mari makan»＝どうぞ召し上がれ）'),
+    # Chapter 10 (fast pack word list): ledger meanings that contain Malay, re-marked.
+    'L-1101': dict(en='to have breakfast (standard; «sarapan» alone is everyday)', ja='朝食をとる（標準；日常は «sarapan»）'),
+    'L-0779': dict(en='to be neighbours, to live as neighbours (‹hidup berjiran› = neighbourly living)', ja='隣同士で暮らす（‹hidup berjiran›＝近所付き合い）'),
+    'L-1114': dict(en='to move home (standard; spoken «pindah»)', ja='引っ越す（標準；話し言葉は «pindah»）'),
 }
 
 
@@ -298,9 +315,10 @@ def turns(script):
 
 def load_units():
     from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, ms_c07, ms_c08, ms_c09, fast, stage1
+    from . import ms_c10a, ms_c10b
     return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT,
                        ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT, ms_c06.UNIT, ms_c07.UNIT, ms_c08.UNIT, ms_c09.UNIT,
-                       *fast.PACKS, stage1.UNIT] if u]
+                       *fast.PACKS, stage1.UNIT, ms_c10a.UNIT, ms_c10b.UNIT, *fast.STAGE2_PACKS] if u]
 
 
 SKILLS = {'Opener': ['speaking'], 'Vocabulary': ['vocabulary'], 'Pattern and grammar': ['grammar'],
@@ -355,11 +373,12 @@ def build_suite(ledger=None):
                                   prompt=item['prompt'], answer_key=item['answer'], review_status='draft'))
             meta['tests'] = tests
             explain = comp['explain']
-            lesson = dict(title=title, lang='Malay', level='A1', kind=kind_label, style='compact',
-                          header=f'Cikgu, Sensai! / Malay · A1 · {unit["header"]} · {ctype}'
+            level = unit.get('level', 'A1')
+            lesson = dict(title=title, lang='Malay', level=level, kind=kind_label, style='compact',
+                          header=f'Cikgu, Sensai! / Malay · {level} · {unit["header"]} · {ctype}'
                                  + (f' · {comp["minutes"]} min' if comp.get('minutes') else '')
                                  + ' · Draft (Japanese awaiting native review)',
-                          explainers=[('日本語', [explain[0], JA_DRAFT]), ('Bahasa Melayu', [BM_NOTE]),
+                          explainers=[('日本語', [explain[0], JA_DRAFT]), ('Bahasa Melayu', [BM_NOTE if level == 'A1' else BM_NOTE_STAGE2]),
                                       ('English', [explain[1]])],
                           sections=[(s[0], s[1], s[2] if len(s) > 2 else KIND.get(ctype, 'model'))
                                     for s in comp['sections']],

@@ -86,7 +86,7 @@ class StageReview(unittest.TestCase):
         self.assertIn('Jalan terus, kemudian belok kiri', body)
 
     def test_can_do_self_check_covers_every_stage1_goal(self):
-        self.assertEqual([stage1.CHARTER_GOALS[n] for n in range(1, 10)], GOALS)
+        self.assertEqual([stage1.CHARTER_GOALS[n] for n in range(1, 10)], GOALS[:9])  # GOALS[9] is chapter 10 (Stage 2)
         check = self.lines(self.review, 'Can-do self-check')
         for n in range(1, 10):
             self.assertIn(f'■ Chapter {n} · {GOALS[n - 1]}', check)
@@ -453,8 +453,10 @@ class StageTest(unittest.TestCase):
         for chapters in st['item_chapters'].values():
             self.assertTrue(chapters and all(c in stage['chapter_ids'] for c in chapters))
         for c in catalogue['chapters']:
-            self.assertEqual(c['level'], 'A1')
-            self.assertEqual(c['stage_id'], 'ms-stage1')
+            # Chapters 1 to 9 are Stage 1 (A1); chapter 10 onward is Stage 2 (A2), built from Stage 2 build step 4.
+            stage1_chapter = int(c['id'][-2:]) <= 9
+            self.assertEqual(c['level'], 'A1' if stage1_chapter else 'A2')
+            self.assertEqual(c['stage_id'], 'ms-stage1' if stage1_chapter else 'ms-stage2')
         ch9 = next(c for c in chapters_js() if c['title'].startswith('Chapter 9'))
         for title in ('Stage 1 · A1 stage test · Version A · Listening', 'Stage 1 · A1 stage test · Version B · Speaking',
                       'Stage 1 · A1 stage test · Administration sheet (teacher)'):
