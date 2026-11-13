@@ -60,7 +60,7 @@ BM_NOTE_STAGE2 = ('No Malay explainer for Stage 2 units: explainers and rubrics 
 # allowed; anything else in the ledger must be marked «…» or ‹…›.
 ENGLISH_HOMOGRAPHS = {'zip', 'main', 'oh', 'pun', 'best', 'bank', 'hotel', 'menu', 'fail', 'golf', 'set', 'unit',
                       'april', 'september', 'november', 'hospital', 'internet', 'kilometer', 'pen', 'tin', 'batik',
-                      'bernama', 'label', 'badminton', 'travel', 'hiking', 'deadline', 'slot'}  # badminton and travel: English words in Stage 2 prose (ledger L-0968, L-1029)  # month names (ledger L-1036, L-1041, L-1043); "Bernama" (the news agency, cited in English source notes) and English "label", since the Stage 2 rows L-1111 «bernama» and L-1168 «label» exist
+                      'bernama', 'label', 'badminton', 'travel', 'hiking', 'deadline', 'slot', 'mamak'}  # badminton and travel: English words in Stage 2 prose (ledger L-0968, L-1029)  # month names (ledger L-1036, L-1041, L-1043); "Bernama" (the news agency, cited in English source notes) and English "label", since the Stage 2 rows L-1111 «bernama» and L-1168 «label» exist
 
 # Grammar points taught in the pilot (IDs extend the step 2 chapter points).
 GRAMMAR = [
@@ -200,6 +200,14 @@ GRAMMAR.extend([
     dict(id='ms-c16-g07', chapter_id='ms-c16', label='ter- states: Pintu terkunci, Talian terputus, tercedera, terbakar (a state, not an action); the request Boleh tolong hubungi ___?'),
     dict(id='ms-c16-g08', chapter_id='ms-c16', label='tertinggal against hilang (chapter 15): you know where it is, or you cannot find it'),
     dict(id='ms-c16-g09', chapter_id='ms-c16', label='Accident words: kemalangan, kunci, tumpah, luka, lebam, bengkak, licin, pecah'),
+    dict(id='ms-c17-g02', chapter_id='ms-c17', label='Inviting politely: Sudikah encik ___?; ajak, jemput and jemputan; jom (friends) and mari (standard); belanja = to treat; kami and kita in an invitation'),
+    dict(id='ms-c17-g03', chapter_id='ms-c17', label='Declining softly: Sayangnya / Malangnya saya tidak ___ + a reason + Lain kali, ya?; segan untuk menolak jemputan; lapang'),
+    dict(id='ms-c17-g04', chapter_id='ms-c17', label='Suggesting another time: Bagaimana kalau ___? (spoken Macam mana kalau); cadangan; singgah'),
+    dict(id='ms-c17-g05', chapter_id='ms-c17', label='Standard and spoken pairs: tidak mengapa / takpe / tak apa; tidak boleh tahan / tak tahan; seperti itu / macam tu; di / kat; ini / ni; itu / tu; setuju / set'),
+    dict(id='ms-c17-g06', chapter_id='ms-c17', label='Particles lah (joined in writing: Takpelah.) and kan: recognition only, never required; Japanese learners over-use lah'),
+    dict(id='ms-c17-g07', chapter_id='ms-c17', label='Choosing the register: spoken forms with friends, colleagues and at the mamak; standard forms in emails, forms, notices and client meetings'),
+    dict(id='ms-c17-g08', chapter_id='ms-c17', label='tidak boleh tahan (can\'t stand) against boleh tahan (not bad); Saya tak nak pedas, Saya tak suka pedas'),
+    dict(id='ms-c17-g09', chapter_id='ms-c17', label='Invitation words: jemputan, ajak, sudi, belanja, singgah, cadangan, lain kali; belanja against berbelanja'),
 ])
 
 
@@ -349,6 +357,15 @@ GLOSS = {
     'L-1229': dict(en='like, such as (standard; everyday «macam», spoken)', ja='〜のような（標準；日常・話し言葉は «macam»）'),
     'L-1271': dict(en='to wear; to use (standard form of «pakai»)', ja='着る・身につける・使う（«pakai» の標準形）'),
     'L-1272': dict(en='coloured; to be (a colour): «berwarna hitam» = black', ja='〜色の・〜色をしている：«berwarna hitam»＝黒い'),
+    # Chapter 17 (fast pack word list): ledger meanings that contain Malay, re-marked.
+    'L-0931': dict(en='a casual eatery, often open late (a «mamak» stall)', ja='気軽な食堂・深夜まで開いていることが多い（«mamak» の屋台）'),
+    'L-1261': dict(en='never mind; it is all right (standard; spoken «takpe» / «tak apa»)', ja='大丈夫・かまわない（標準；話し言葉は «takpe» / «tak apa»）'),
+    'L-1266': dict(en='never mind (spoken short form of «tak apa»; standard «tidak mengapa»)', ja='大丈夫（話し言葉、«tak apa» の短縮形；標準は «tidak mengapa»）', ),
+    'L-1267': dict(en='can\'t stand; can\'t handle, e.g. spicy food (standard; spoken «tak tahan»)', ja='耐えられない・苦手だ、例えば辛いもの（標準；話し言葉は «tak tahan»）'),
+    'L-1252': dict(en='at, in (spoken; standard «di»)', ja='〜で・〜に（話し言葉；標準は «di»）'),
+    'L-1263': dict(en='this (spoken; standard «ini»)', ja='これ・この（話し言葉；標準は «ini»）'),
+    'L-1264': dict(en='that (spoken; standard «itu»)', ja='それ・その（話し言葉；標準は «itu»）'),
+    'L-1262': dict(en='like that (spoken; standard «seperti itu»)', ja='そんなふうに（話し言葉；標準は «seperti itu»）'),
 }
 
 
@@ -377,10 +394,10 @@ def turns(script):
 
 def load_units():
     from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, ms_c07, ms_c08, ms_c09, fast, stage1
-    from . import ms_c10a, ms_c10b, ms_c11a, ms_c11b, ms_c12a, ms_c12b, ms_c13, ms_c14, ms_c15, ms_c16
+    from . import ms_c10a, ms_c10b, ms_c11a, ms_c11b, ms_c12a, ms_c12b, ms_c13, ms_c14, ms_c15, ms_c16, ms_c17
     return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT,
                        ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT, ms_c06.UNIT, ms_c07.UNIT, ms_c08.UNIT, ms_c09.UNIT,
-                       *fast.PACKS, stage1.UNIT, ms_c10a.UNIT, ms_c10b.UNIT, ms_c11a.UNIT, ms_c11b.UNIT, ms_c12a.UNIT, ms_c12b.UNIT, ms_c13.UNIT, ms_c14.UNIT, ms_c15.UNIT, ms_c16.UNIT, *fast.STAGE2_PACKS] if u]
+                       *fast.PACKS, stage1.UNIT, ms_c10a.UNIT, ms_c10b.UNIT, ms_c11a.UNIT, ms_c11b.UNIT, ms_c12a.UNIT, ms_c12b.UNIT, ms_c13.UNIT, ms_c14.UNIT, ms_c15.UNIT, ms_c16.UNIT, ms_c17.UNIT, *fast.STAGE2_PACKS] if u]
 
 
 SKILLS = {'Opener': ['speaking'], 'Vocabulary': ['vocabulary'], 'Pattern and grammar': ['grammar'],

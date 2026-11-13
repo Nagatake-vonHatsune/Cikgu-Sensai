@@ -1281,6 +1281,83 @@ def chapter16(ledger):
              'Same content and ledger limits as unit 16. All Japanese is a draft awaiting native review.'])]
 
 
+C17_WORDS = ['L-1265', 'L-0689', 'L-0828', 'L-0656', 'L-0717', 'L-0748', 'L-1257', 'L-1260',
+             'L-1255', 'L-1256', 'L-1258', 'L-1259', 'L-0787', 'L-1261',
+             'L-1267', 'L-0690', 'L-0703', 'L-1252', 'L-1263', 'L-1264', 'L-1262', 'L-1266',
+             'L-1254', 'L-1253']
+
+
+def chapter17(ledger):
+    dialogue = [
+        ('Aini', '«Encik Tanaka, ini jemputan makan malam pejabat. Hari Sabtu, pukul tujuh.»'),
+        ('Tanaka', '«Terima kasih, Puan Aini. Siapa yang belanja?»'),
+        ('Aini', '«Bos belanja. Sudikah encik datang?»'),
+        ('Tanaka', '«Sayangnya hari Sabtu saya tidak lapang. Saya segan untuk menolak jemputan puan.»'),
+        ('Aini', '«Tidak mengapa. Ada cadangan lain?»'),
+        ('Tanaka', '«Bagaimana kalau hari Jumaat?»'),
+        ('Aini', '«Itu cadangan yang bagus. Saya tanya bos dulu.»'),
+        ('Aini', '«Bos setuju. Hari Jumaat, pukul tujuh. Encik singgah di pejabat dulu, ya? Kita pergi sama-sama.»'),
+        ('Tanaka', '«Baik. Terima kasih!»'),
+        ('Mei Ling', '«Encik Tanaka, jom makan kat kafe ni! Saya belanja!»'),
+        ('Tanaka', '«Terima kasih. Tetapi makanan di kafe itu pedas. Saya tidak boleh tahan pedas.»'),
+        ('Mei Ling', '«Takpelah. Kita cari kedai lain. Macam tu boleh?»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=['ms-c17-g02', 'ms-c17-g03', 'ms-c17-g04', 'ms-c17-g05', 'ms-c17-g06', 'ms-c17-g07', 'ms-c17-g08', 'ms-c17-g09'],
+        patterns=['ms-c17-f01', 'ms-c17-f02', 'ms-c17-f03', 'ms-c17-f04', 'ms-c17-f05', 'ms-c17-f06'],
+        goal='Invite politely, accept or decline with a reason and another time, tell the standard forms from the spoken ones, and recognise «lah» and «kan».',
+        explain=('第17章速習：45分で基本の24語、«Sudikah encik ___?»、«Sayangnya saya tidak ___. Lain kali, ya?»、«Bagaimana kalau ___?»、標準形と話し言葉の組を練習し、職場の夕食会の誘いとカフェの場面を演じ、残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 17 in one 45-minute session: 24 core words, «Sudikah encik ___?», «Sayangnya saya tidak ___. Lain kali, ya?», «Bagaimana kalau ___?» and the standard and spoken pairs; '
+                 'then the office dinner invitation and the café scene, and self-study in Kata-Kata. All names and places are fictional.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can invite someone politely with «Sudikah encik …?». / «Sudikah encik …?» でていねいに誘える。',
+                'I can decline with «Sayangnya …», a reason and «Lain kali, ya?». / «Sayangnya …»・理由・«Lain kali, ya?» で断れる。',
+                'I can suggest another time with «Bagaimana kalau …?» and say «Setuju!». / «Bagaimana kalau …?» で別の機会を提案し、«Setuju!» と言える。',
+                'I can tell the standard forms from the spoken ones, and I recognise «lah» and «kan» without having to say them. / 標準形と話し言葉を区別でき、«lah» と «kan» は自分で言わなくても聞いて分かる。'], 'opener'),
+            ('Core words · 基本の24語', core(ledger, C17_WORDS) +
+             ['The full course adds the revision words of the whole unit. «lah» and «kan» are for recognition only.'], 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · «Sudikah encik» ___ «?»  e.g. «Sudikah encik datang?» / «Sudikah puan singgah di pejabat dulu?»',
+                '2 · «Sayangnya saya tidak» ___ «. Lain kali, ya?»  e.g. «Sayangnya hari Sabtu saya tidak lapang. Lain kali, ya?» / «Malangnya saya ada mesyuarat. Lain kali, ya?»',
+                '3 · «Bagaimana kalau» ___ «?»  e.g. «Bagaimana kalau hari Jumaat?» / «Bagaimana kalau kita makan di kedai lain?»',
+                '4 · ___ «! Hari Jumaat, pukul tujuh. / Tidak mengapa.» ___  e.g. «Setuju! Hari Jumaat, pukul tujuh.» / «Tidak mengapa. Kita cuba lain kali.»',
+                '5 · «Jom makan kat» ___ «ni!» (spoken)  e.g. «Jom makan kat kafe ni! Saya belanja!» / «Jom makan kat kedai mamak tu!»',
+                'Remember: standard first. «tidak mengapa» is spoken «takpe» or «tak apa»; «tidak boleh tahan» is spoken «tak tahan»; «setuju» is spoken «set»; «di» is spoken «kat»; «ini» is spoken «ni»; «itu» is spoken «tu»; «seperti itu» is spoken «macam tu». '
+                'Use the spoken forms with friends and colleagues, and write the standard forms. «belanja» means to treat, not to spend.',
+                '標準形が先です。«tidak mengapa» の話し言葉は «takpe»・«tak apa»、«tidak boleh tahan» は «tak tahan»、«setuju» は «set»、«di» は «kat»、«ini» は «ni»、«itu» は «tu»、«seperti itu» は «macam tu»。'
+                '友人や同僚には話し言葉を使い、書くときは標準形を書きます。«belanja» は「おごる」で、「お金を使う」ではありません。'], 'model'),
+            ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: You are «Puan» Aini (fictional). Invite your colleague to the team dinner on Saturday at seven; the boss pays. Use «Sudikah encik …?».',
+                'B: You are not free on Saturday. Thank A, say «Sayangnya …» and a reason, and suggest another day with «Bagaimana kalau …?».',
+                'Change of plan: A says «Maaf, hari Jumaat bos tidak lapang. Hari Khamis boleh?» B says yes with «Setuju!» or declines again with a reason and «Lain kali, ya?».',
+                'A：あなたはアイニさんです（架空）。同僚を土曜日7時の職場の夕食会に誘います。ボスがおごります。«Sudikah encik …?» を使います。'
+                'B：土曜日は空いていません。お礼を言い、«Sayangnya …» と理由を言って、«Bagaimana kalau …?» で別の日を提案します。'
+                '変更：Aが «Maaf, hari Jumaat bos tidak lapang. Hari Khamis boleh?» と言い、Bは «Setuju!» で受けるか、理由と «Lain kali, ya?» でもう一度断ります。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say "Would you like to come, sir?" (polite): ____________________',
+                '☐ 2. Say "Unfortunately I am not free on Saturday. Another time?": ____________________',
+                '☐ 3. Say "How about Friday?": ____________________',
+                '☐ 4. Say "Agreed! Friday at seven.": ____________________',
+                '☐ 5. Say "I can\'t stand spicy food." (standard): ____________________'], 'test'),
+            ('Self-study guide · 自習ガイド', [
+                f'Before the session: Kata-Kata Sedia Kelas c17 ({sedia_cards(17)} cards, frames ms-c17-f01 and ms-c17-f02).',
+                f'After the session: all {pack_cards(17)} Kata-Kata chapter 17 cards (ms-c17-001 to ms-c17-{last_card(17):03}) and frames ms-c17-f01 to ms-c17-f06 in the frame drill and Susun Ayat; '
+                'the Kata-Kata scenario "An invitation, and how people really talk" matches this pack (the full unit adds the mamak scene).',
+                'No Dunia scene primes chapter 17. The Hanashishou weekend-plans and team-dinner scenes are not yet tagged by chapter, so they are not assigned yet.',
+                'Optional full-course Cikgu Sensai unit: unit 17 (spoken Malay and invitations).',
+                'Expected self-study: about 9 to 10 hours for this chapter (planning figure).',
+                '授業後：第17章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
+        key=['Self-check: 1 «Sudikah encik datang?» 2 «Sayangnya hari Sabtu saya tidak lapang. Lain kali, ya?» 3 «Bagaimana kalau hari Jumaat?» '
+             '4 «Setuju! Hari Jumaat, pukul tujuh.» 5 «Saya tidak boleh tahan pedas.»',
+             'Session plan (45 min): 0–5 recall chapters 1, 14 and 15 («tidak» / «tak», «kalau», «seperti itu»); 5–15 core words; '
+             '15–25 patterns 1 to 5; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',
+             'Same content and ledger limits as unit 17. All Japanese is a draft awaiting native review.'])]
+
+
 STAGE2_PACKS.append(dict(
     chapter_id='ms-c16', check_unit='ms-c16-fast', id_prefix='ms-c16-fast', level='A2',
     title_prefix='Chapter 16', header='Chapter 16 fast course (ms-c16)',
@@ -1288,3 +1365,12 @@ STAGE2_PACKS.append(dict(
     course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 16)], prerequisite_units=[],
     prereq_grammar=['ms-c15-g02', 'ms-c15-g03', 'ms-c06-g02', 'ms-c12-g02'],
     word_scope=C16_WORDS, components=chapter16))
+
+
+STAGE2_PACKS.append(dict(
+    chapter_id='ms-c17', check_unit='ms-c17-fast', id_prefix='ms-c17-fast', level='A2',
+    title_prefix='Chapter 17', header='Chapter 17 fast course (ms-c17)',
+    menu_title='Chapter 17 · Spoken Malay and invitations', genre='Invitations',
+    course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 17)], prerequisite_units=[],
+    prereq_grammar=['ms-c16-g02', 'ms-c15-g05', 'ms-c14-g02', 'ms-c05-g04'],
+    word_scope=C17_WORDS, components=chapter17))

@@ -60,12 +60,17 @@ with TemporaryDirectory() as tmp:
     font=TTFont("/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",fontNumber=0)
     sub=subset.Subsetter(); sub.populate(text=json.dumps(lessons,ensure_ascii=False)+"Cikgu, Sensai! · /()0123456789"); sub.subset(font); font.save(tmp+"/body.otf")
     archive=fitz.Archive(tmp)
-    scratch=fitz.open()
+    scratch=[fitz.open(),0]
     def fits(item,label,lines):
-        page=scratch.new_page(width=595.28,height=841.89)
+        # insert_htmlbox keeps memory until its document is closed, so the scratch document is replaced every 100 checks
+        # (keeps the build under the session memory limit; the result is the same).
+        if scratch[1]>=100:
+            scratch[0].close();scratch[0]=fitz.open();scratch[1]=0
+        scratch[1]+=1
+        page=scratch[0].new_page(width=595.28,height=841.89)
         text,css=markup(item,label,lines)
         space,scale=page.insert_htmlbox(RECT,text,css=css,archive=archive,scale_low=1)
-        scratch.delete_page(-1)
+        scratch[0].delete_page(-1)
         return space>=0
     for item in suite_lessons:paginate(item,fits)
     scope=authored_scope(suite_lessons,ledger)
@@ -82,6 +87,10 @@ with TemporaryDirectory() as tmp:
     doc=fitz.open()
     for item in lessons:
         for page_no,page in enumerate(item["pages"]):
+            # insert_htmlbox keeps memory per page; reopening the document every 300 pages keeps the build under the
+            # session memory limit (the saved PDF is the same).
+            if len(doc) and len(doc)%300==0:
+                data=doc.tobytes(garbage=1,deflate=True);doc.close();doc=fitz.open("pdf",data);del data
             page["index"]=len(doc)
             p=doc.new_page(width=595.28,height=841.89)
             raw=[x for x,k in item["_raw"][page_no]] if "_raw" in item else None

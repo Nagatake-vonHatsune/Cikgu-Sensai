@@ -728,3 +728,7 @@ Unit 15 (21 core, no recognition word) is built as one unit of five blocks, with
 ## Build step 4: chapter 16 (13 Nov 2026)
 
 Unit 16 (23 core, no recognition word) is built as one unit of five blocks, with the writing block after it ("a brief factual incident message") and the chapter 16 fast pack. The plan gives chapter 16 no review block. Sam's answers to the chapter 15 questions and the chapter 15 review-block fix are in [`docs/stage-2-decisions.md`](stage-2-decisions.md) section 12. Report: [`docs/STAGE-2-ch16-report.md`](STAGE-2-ch16-report.md).
+
+## Build step 4: chapter 17 (13 Nov 2026)
+
+Unit 17 (24 core, no recognition word) is built as one unit of five blocks, with the chapter 17 fast pack. The plan gives chapter 17 no review or writing block (chapter 18 is the integrated review), so none was built. Sam's answers to the chapter 16 questions and the chapter 16 fixes are in [`docs/stage-2-decisions.md`](stage-2-decisions.md) section 13 (no turn is joined across a scene change: the model is Kata-Kata s01 to s16 and the mamak scene s17 to s20 is the Block E dialogue). Report: [`docs/STAGE-2-ch17-report.md`](STAGE-2-ch17-report.md).
