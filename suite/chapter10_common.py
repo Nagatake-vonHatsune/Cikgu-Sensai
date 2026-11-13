@@ -15,6 +15,9 @@ What changes for Stage 2 (A2):
   recognition rows (chapter 10: L-0667 «pindah», the spoken partner of «berpindah»), and is left out when empty.
 - Pages say A2 and Stage 2.
 
+A config may also give scene_e (title, lines): a scene the model conversation leaves out, shown in the teaching plan as the Block E dialogue
+(Sam, 13 Nov 2026: never join turns across a scene change).
+
 No ledger word is introduced here. Recognition words are never tested as new vocabulary. All Japanese is a draft
 awaiting native review.
 """
@@ -279,6 +282,9 @@ def components(ledger, cfg):
             '5–15 Scene listening: ' + plan['E_listening'],
             '15–30 Role-play in pairs: ' + plan['E_roleplay'], '30–40 Changed situation: ' + plan['E_variation'],
             '40–45 Culture and usage note discussion, and the home-practice briefing.']),
+        # Optional (chapter 16 on): a scene of the Kata-Kata scenario that the model conversation leaves out, as its own short dialogue for Block E.
+        ('Block E scene dialogue · ' + cfg['scene_e']['title'] if cfg.get('scene_e') else 'Block E scene dialogue',
+         [f'{sp}: «{speech}»' for sp, speech in cfg['scene_e']['lines']] if cfg.get('scene_e') else []),
         ('What to listen for · 注意点', cfg['teacher_notes'])],
         ['Answer keys are on each component. Japanese text awaits native review.',
          f'Standard forms first; spoken forms are labelled. ber- verbs are taught as whole ledger forms, each with its root; '

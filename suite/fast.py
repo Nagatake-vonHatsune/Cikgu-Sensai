@@ -1224,8 +1224,6 @@ def chapter16(ledger):
         ('Tanaka', '«Awak tidak sengaja. Jangan risau.»'),
         ('Mei Ling', '«Saya ambil tisu. Fail encik sedikit basah.»'),
         ('Tanaka', '«Terima kasih. Hati-hati, lantai licin.»'),
-        ('Tanaka', '«Selamat pagi. Saya tergelincir di tangga tadi.»'),
-        ('Receptionist', '«Encik tercedera? Di mana yang sakit?»'),
     ]
     return [dict(
         slug='pack', type='Fast-course pack', title='Fast-course summary pack',
@@ -1233,9 +1231,9 @@ def chapter16(ledger):
         grammar=['ms-c16-g02', 'ms-c16-g03', 'ms-c16-g04', 'ms-c16-g05', 'ms-c16-g06', 'ms-c16-g07', 'ms-c16-g08', 'ms-c16-g09'],
         patterns=['ms-c16-f01', 'ms-c16-f02', 'ms-c16-f03', 'ms-c16-f04', 'ms-c16-f05', 'ms-c16-f06'],
         goal='Say what happened by accident with ‹ter-›, apologise for a small slip, report a locked door or a spill, and keep ‹ter-› (the most) apart from ‹ter-› (by accident).',
-        explain=('第16章速習：45分で基本の23語、«Saya tertinggal ___ di ___»、«Maaf, saya ___»、«tidak sengaja»、«Pintu terkunci.»、«termurah» と «tertinggal» の違いを練習し、鍵・こぼれたコーヒー・クリニックの場面を演じ、残りは Kata-Kata で自習します。日本語は未監修です。',
+        explain=('第16章速習：45分で基本の23語、«Saya tertinggal ___ di ___»、«Maaf, saya ___»、«tidak sengaja»、«Pintu terkunci.»、«termurah» と «tertinggal» の違いを練習し、鍵・こぼれたコーヒーの場面を演じ、残り（クリニックの場面も）は Kata-Kata で自習します。日本語は未監修です。',
                  'Chapter 16 in one 45-minute session: 23 core words, «Saya tertinggal ___ di ___», «Maaf, saya ___», «tidak sengaja», «Pintu terkunci.» and the two ‹ter-› («termurah» against «tertinggal»); '
-                 'then the scene at the locked door, the spilt coffee and the clinic counter, and self-study in Kata-Kata. All names and items are fictional.'),
+                 'then the scene at the locked door and the spilt coffee, and self-study in Kata-Kata (the clinic scene too). All names and items are fictional.'),
         sections=[
             ('Can-do goals · できること', [
                 'I can say what I left behind or forgot by accident with «tertinggal» and «terlupa». / «tertinggal»・«terlupa» でうっかり置き忘れたことや忘れたことを言える。',

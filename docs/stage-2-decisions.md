@@ -174,3 +174,21 @@ Sam's answers to the six questions in `docs/STAGE-2-ch15-report.md`. The fix is 
 | Q5 | Clinic lost-bag review and menu names | **Fine.** |
 | Q6 | «kakitangan» and «bola» | **Approved for the backlog batch** (marked "approved by Sam"). |
 | Fix | Review block line | **«Walaupun saya sibuk, saya akan menunggu doktor di sini.»** (was «… saya menunggu doktor …»). |
+
+## 13. Chapter 16 answers and fixes (Sam, 13 November 2026)
+
+Sam's answers to the questions in `docs/STAGE-2-ch16-report.md`, and the fixes he listed in the chapter 17 instruction. The fixes are in their own commit, before chapter 17.
+
+| # | Question | Answer |
+| --- | --- | --- |
+| Q1 | Turn 11 joins s11 and s12 across a scene change | **Do not join turns across a scene change.** The model conversation ends at the office scene (s11); the clinic scene (s12 to s17) is its own short dialogue in Block E. This applies to every later chapter. |
+| Q2 | «terjatuh», «tertidur» and «terbakar» are in the unit | **Fine.** |
+| Q3 | Backlog additions from chapter 16 | **Accepted.** «tidak apa-apa» and «masalah» are marked "recommended" on the backlog. |
+
+| Fix | What changed |
+| --- | --- |
+| «terjatuh» takes «ke» for movement | «Cawan itu terjatuh ke lantai.», «Telefon saya terjatuh ke lantai.» The Kata-Kata line «Air kopi tertumpah di meja.» stays as it is («tertumpah» and «tergelincir» take «di» for where it happened). A teacher note says so. |
+| Aspect drill | «Kunci saya masih di dalam rumah.» replaces «Kunci saya sudah tertinggal di rumah.»; «Mei Ling masih tersangkut di jalan yang sesak.» replaces the «sedang» item. Teacher note: an accident ter- verb rarely takes «sudah» or «sedang»; «masih» and «baru» are fine. |
+| Mei Ling's unit | Mei Ling lives in Block C, unit 5-2 (her chapter 12 complaint form). The writing model and the changed-facts variant said Block B, unit 12-3 and Block A, unit 8-5. Checked every chapter 10 to 16 line: Tanaka is Block B, unit 12-3; Siti is Block A, unit 8-1; Mei Ling is Block C, unit 5-2 (no other mix-up). |
+| Superlatives after a noun | «Beg ini yang terbesar.», «Telefon itu yang termurah, tetapi …», «Telefon ini yang terbaik?» (the Kata-Kata frame example «Yang ini termurah, tetapi dompet saya tertinggal di rumah.» is unchanged). |
+| Model conversation | No join across a scene change: the model is s01 to s11 (11 turns) and the clinic scene is the Block E dialogue in the teaching plan. The fast pack's model ends at s11 too. |

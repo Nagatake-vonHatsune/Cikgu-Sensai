@@ -151784,9 +151784,9 @@
   "exclusion": null
  },
  "Unit 16 · Vocabulary focus|3|2": {
-  "source_text": "   e.g. Telefon saya terjatuh di lantai.",
+  "source_text": "   e.g. Telefon saya terjatuh ke lantai.",
   "target_spans": [
-   "Telefon saya terjatuh di lantai."
+   "Telefon saya terjatuh ke lantai."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -152354,9 +152354,9 @@
   "exclusion": null
  },
  "Unit 16 · Vocabulary focus|5|18": {
-  "source_text": "   e.g. Beg ini terbesar.",
+  "source_text": "   e.g. Beg ini yang terbesar.",
   "target_spans": [
-   "Beg ini terbesar."
+   "Beg ini yang terbesar."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -153497,10 +153497,10 @@
   "exclusion": null
  },
  "Unit 16 · Pattern and grammar focus|4|9": {
-  "source_text": "2. A: Cawan awak pecah? B: Ya, saya tidak sengaja. Cawan itu terjatuh di lantai.",
+  "source_text": "2. A: Cawan awak pecah? B: Ya, saya tidak sengaja. Cawan itu terjatuh ke lantai.",
   "target_spans": [
    "Cawan awak pecah?",
-   "Ya, saya tidak sengaja. Cawan itu terjatuh di lantai."
+   "Ya, saya tidak sengaja. Cawan itu terjatuh ke lantai."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -153787,9 +153787,9 @@
   "exclusion": null
  },
  "Unit 16 · Pattern and grammar focus|6|6": {
-  "source_text": "3. A: Telefon ini terbaik? B: Ya, yang ini terbaik, tetapi kad saya tertinggal di rumah.",
+  "source_text": "3. A: Telefon ini yang terbaik? B: Ya, yang ini terbaik, tetapi kad saya tertinggal di rumah.",
   "target_spans": [
-   "Telefon ini terbaik?",
+   "Telefon ini yang terbaik?",
    "Ya, yang ini terbaik, tetapi kad saya tertinggal di rumah."
   ],
   "mention_spans": [],
@@ -153797,10 +153797,10 @@
   "exclusion": null
  },
  "Unit 16 · Pattern and grammar focus|6|7": {
-  "source_text": "4. A: Kenapa awak tidak membeli telefon itu? B: Telefon itu termurah, tetapi dompet saya tertinggal di rumah.",
+  "source_text": "4. A: Kenapa awak tidak membeli telefon itu? B: Telefon itu yang termurah, tetapi dompet saya tertinggal di rumah.",
   "target_spans": [
    "Kenapa awak tidak membeli telefon itu?",
-   "Telefon itu termurah, tetapi dompet saya tertinggal di rumah."
+   "Telefon itu yang termurah, tetapi dompet saya tertinggal di rumah."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -154621,12 +154621,12 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 16 · Drill 4 · Question and answer|4|1": {
-  "source_text": "1 Kunci saya tertinggal di rumah. 2 Saya lambat kerana saya terlepas bas. 3 Air kopi tertumpah di lantai. 4 Telefon saya terjatuh di lantai.",
+  "source_text": "1 Kunci saya tertinggal di rumah. 2 Saya lambat kerana saya terlepas bas. 3 Air kopi tertumpah di lantai. 4 Telefon saya terjatuh ke lantai.",
   "target_spans": [
    "Kunci saya tertinggal di rumah.",
    "Saya lambat kerana saya terlepas bas.",
    "Air kopi tertumpah di lantai.",
-   "Telefon saya terjatuh di lantai."
+   "Telefon saya terjatuh ke lantai."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -154916,19 +154916,23 @@
   "exclusion": null
  },
  "Unit 16 · Markers with the ter- verbs|0|0": {
-  "source_text": "第4章の sudah・belum・sedang・masih・akan・baru を、第16章の ter- の動詞と組み合わせて言います。terkunci・bengkak のような状態には masih がよく合います。",
+  "source_text": "第4章の sudah・belum・masih・akan・baru を、第16章の ter- の動詞と組み合わせて言います。terkunci・bengkak のような状態には masih がよく合います。事故の ter- の動詞に sudah や sedang を付けることはあまりなく、masih と baru は自然です。",
   "target_spans": [
    "sudah",
    "belum",
-   "sedang",
    "masih",
    "akan",
    "baru",
    "terkunci",
    "bengkak",
-   "masih"
+   "masih",
+   "sudah",
+   "sedang",
+   "masih",
+   "baru"
   ],
   "mention_spans": [
+   "ter-",
    "ter-"
   ],
   "kind": "explainer",
@@ -154949,11 +154953,15 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 16 · Markers with the ter- verbs|2|0": {
-  "source_text": "Combine the chapter 4 markers with the chapter 16 ter- verbs. masih goes well with a state such as terkunci or bengkak.",
+  "source_text": "Combine the chapter 4 markers with the chapter 16 ter- verbs. masih goes well with a state such as terkunci or bengkak. An accident ter- verb rarely takes sudah or sedang; masih and baru are fine.",
   "target_spans": [
    "masih",
    "terkunci",
-   "bengkak"
+   "bengkak",
+   "sudah",
+   "sedang",
+   "masih",
+   "baru"
   ],
   "mention_spans": [],
   "kind": "explainer",
@@ -154974,10 +154982,10 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 16 · Markers with the ter- verbs|3|2": {
-  "source_text": "1. Kunci saya tertinggal di rumah. (marker: sudah)",
+  "source_text": "1. Kunci saya di dalam rumah. (marker: masih)",
   "target_spans": [
-   "Kunci saya tertinggal di rumah.",
-   "sudah"
+   "Kunci saya di dalam rumah.",
+   "masih"
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -155004,10 +155012,10 @@
   "exclusion": null
  },
  "Unit 16 · Markers with the ter- verbs|3|5": {
-  "source_text": "4. Mei Ling tersangkut di jalan yang sesak. (marker: sedang)",
+  "source_text": "4. Mei Ling tersangkut di jalan yang sesak. (marker: masih)",
   "target_spans": [
    "Mei Ling tersangkut di jalan yang sesak.",
-   "sedang"
+   "masih"
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -155024,10 +155032,10 @@
   "exclusion": null
  },
  "Unit 16 · Markers with the ter- verbs|3|7": {
-  "source_text": "6. Tangan saya bengkak. (marker: masih)",
+  "source_text": "6. Tangan saya bengkak. (marker: sudah)",
   "target_spans": [
    "Tangan saya bengkak.",
-   "masih"
+   "sudah"
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -155061,12 +155069,13 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 16 · Markers with the ter- verbs|3|11": {
-  "source_text": "sudah tertinggal ≈ もう置き忘れた · baru tergelincir ≈ 滑ったばかり · masih terkunci ≈ まだ鍵がかかっている · sedang tersangkut ≈ 動けなくなっている · belum jumpa ≈ まだ見つかっていない · akan menghubungi ≈ 連絡する予定",
+  "source_text": "masih di dalam rumah ≈ まだ家の中にある · baru tergelincir ≈ 滑ったばかり · masih terkunci ≈ まだ鍵がかかっている · masih tersangkut ≈ まだ動けない · sudah bengkak ≈ もう腫れている · belum jumpa ≈ まだ見つかっていない · akan menghubungi ≈ 連絡する予定",
   "target_spans": [
-   "sudah tertinggal",
+   "masih di dalam rumah",
    "baru tergelincir",
    "masih terkunci",
-   "sedang tersangkut",
+   "masih tersangkut",
+   "sudah bengkak",
    "belum jumpa",
    "akan menghubungi"
   ],
@@ -155100,22 +155109,22 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 16 · Markers with the ter- verbs|4|1": {
-  "source_text": "1 Kunci saya sudah tertinggal di rumah. 2 Encik Tanaka baru tergelincir di tangga. 3 Pintu itu masih terkunci. 4 Mei Ling sedang tersangkut di jalan yang sesak.",
+  "source_text": "1 Kunci saya masih di dalam rumah. 2 Encik Tanaka baru tergelincir di tangga. 3 Pintu itu masih terkunci. 4 Mei Ling masih tersangkut di jalan yang sesak.",
   "target_spans": [
-   "Kunci saya sudah tertinggal di rumah.",
+   "Kunci saya masih di dalam rumah.",
    "Encik Tanaka baru tergelincir di tangga.",
    "Pintu itu masih terkunci.",
-   "Mei Ling sedang tersangkut di jalan yang sesak."
+   "Mei Ling masih tersangkut di jalan yang sesak."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 16 · Markers with the ter- verbs|4|2": {
-  "source_text": "5 Air kopi baru tertumpah di meja. 6 Tangan saya masih bengkak. 7 Belum. Saya belum jumpa kunci saya. 8 Pengawal akan menghubungi pejabat pengurusan.",
+  "source_text": "5 Air kopi baru tertumpah di meja. 6 Tangan saya sudah bengkak. 7 Belum. Saya belum jumpa kunci saya. 8 Pengawal akan menghubungi pejabat pengurusan.",
   "target_spans": [
    "Air kopi baru tertumpah di meja.",
-   "Tangan saya masih bengkak.",
+   "Tangan saya sudah bengkak.",
    "Belum. Saya belum jumpa kunci saya.",
    "Pengawal akan menghubungi pejabat pengurusan."
   ],
@@ -155581,67 +155590,22 @@
   "exclusion": null
  },
  "Unit 16 · Model conversation|3|10": {
-  "source_text": "Tanaka: Terima kasih. Hati-hati, lantai licin. Selamat pagi. Saya tergelincir di tangga tadi.",
+  "source_text": "Tanaka: Terima kasih. Hati-hati, lantai licin.",
   "target_spans": [
-   "Terima kasih. Hati-hati, lantai licin. Selamat pagi. Saya tergelincir di tangga tadi."
+   "Terima kasih. Hati-hati, lantai licin."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 16 · Model conversation|3|11": {
-  "source_text": "Receptionist: Encik tercedera? Di mana yang sakit?",
-  "target_spans": [
-   "Encik tercedera? Di mana yang sakit?"
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 16 · Model conversation|3|12": {
-  "source_text": "Tanaka: Tangan saya bengkak dan ada luka kecil. Lutut saya pun lebam.",
-  "target_spans": [
-   "Tangan saya bengkak dan ada luka kecil. Lutut saya pun lebam."
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 16 · Model conversation|3|13": {
-  "source_text": "Receptionist: Encik perlu daftar dulu. Ini borang.",
-  "target_spans": [
-   "Encik perlu daftar dulu. Ini borang."
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 16 · Model conversation|3|14": {
-  "source_text": "Tanaka: Baik. Boleh doktor melihat tangan saya sekarang?",
-  "target_spans": [
-   "Baik. Boleh doktor melihat tangan saya sekarang?"
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 16 · Model conversation|3|15": {
-  "source_text": "Receptionist: Boleh. Sila tunggu sekejap.",
-  "target_spans": [
-   "Boleh. Sila tunggu sekejap."
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 16 · Model conversation|3|16": {
   "source_text": "■ Gapped form · 空所",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 16 · Model conversation|3|17": {
+ "Unit 16 · Model conversation|3|12": {
   "source_text": "Tanaka: Selamat malam. Maaf, kunci saya tertinggal di dalam rumah. Pintu terkunci.",
   "target_spans": [
    "Selamat malam. Maaf, kunci saya tertinggal di dalam rumah. Pintu terkunci."
@@ -155650,14 +155614,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|3|18": {
+ "Unit 16 · Model conversation|3|13": {
   "source_text": "Guard: ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "model",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 16 · Model conversation|3|19": {
+ "Unit 16 · Model conversation|3|14": {
   "source_text": "Tanaka: Blok B, unit 12-3. Saya terlupa kunci tadi.",
   "target_spans": [
    "Blok B, unit 12-3. Saya terlupa kunci tadi."
@@ -155666,14 +155630,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|3|20": {
+ "Unit 16 · Model conversation|3|15": {
   "source_text": "Guard: ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "model",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 16 · Model conversation|3|21": {
+ "Unit 16 · Model conversation|3|16": {
   "source_text": "Tanaka: Baik. Terima kasih banyak.",
   "target_spans": [
    "Baik. Terima kasih banyak."
@@ -155682,14 +155646,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|3|22": {
+ "Unit 16 · Model conversation|3|17": {
   "source_text": "Mei Ling: ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "model",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 16 · Model conversation|3|23": {
+ "Unit 16 · Model conversation|3|18": {
   "source_text": "Tanaka: Jangan risau. Mesyuarat belum bermula.",
   "target_spans": [
    "Jangan risau. Mesyuarat belum bermula."
@@ -155698,14 +155662,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|3|24": {
+ "Unit 16 · Model conversation|3|19": {
   "source_text": "Mei Ling: ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "model",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 16 · Model conversation|3|25": {
+ "Unit 16 · Model conversation|3|20": {
   "source_text": "Tanaka: Awak tidak sengaja. Jangan risau.",
   "target_spans": [
    "Awak tidak sengaja. Jangan risau."
@@ -155714,73 +155678,30 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|3|26": {
-  "source_text": "Mei Ling: Saya ambil tisu. Fail encik sedikit basah.",
-  "target_spans": [
-   "Saya ambil tisu. Fail encik sedikit basah."
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 16 · Model conversation|3|27": {
-  "source_text": "Tanaka: Terima kasih. Hati-hati, lantai licin. Selamat pagi. Saya tergelincir di tangga tadi.",
-  "target_spans": [
-   "Terima kasih. Hati-hati, lantai licin. Selamat pagi. Saya tergelincir di tangga tadi."
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 16 · Model conversation|3|28": {
-  "source_text": "Receptionist: ____________________",
+ "Unit 16 · Model conversation|3|21": {
+  "source_text": "Mei Ling: ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "model",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 16 · Model conversation|4|0": {
-  "source_text": "Tanaka: Tangan saya bengkak dan ada luka kecil. Lutut saya pun lebam.",
+ "Unit 16 · Model conversation|3|22": {
+  "source_text": "Tanaka: Terima kasih. Hati-hati, lantai licin.",
   "target_spans": [
-   "Tangan saya bengkak dan ada luka kecil. Lutut saya pun lebam."
+   "Terima kasih. Hati-hati, lantai licin."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|4|1": {
-  "source_text": "Receptionist: ____________________",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Unit 16 · Model conversation|4|2": {
-  "source_text": "Tanaka: Baik. Boleh doktor melihat tangan saya sekarang?",
-  "target_spans": [
-   "Baik. Boleh doktor melihat tangan saya sekarang?"
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 16 · Model conversation|4|3": {
-  "source_text": "Receptionist: Boleh. Sila tunggu sekejap.",
-  "target_spans": [
-   "Boleh. Sila tunggu sekejap."
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Unit 16 · Model conversation|4|4": {
+ "Unit 16 · Model conversation|3|23": {
   "source_text": "■ Changed facts variant · 情報を変更",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 16 · Model conversation|4|5": {
+ "Unit 16 · Model conversation|3|24": {
   "source_text": "Mei Ling: Selamat petang. Maaf, kunci saya tertinggal di dalam bilik. Pintu terkunci.",
   "target_spans": [
    "Selamat petang. Maaf, kunci saya tertinggal di dalam bilik. Pintu terkunci."
@@ -155789,7 +155710,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|4|6": {
+ "Unit 16 · Model conversation|3|25": {
   "source_text": "Guard: Unit berapa, cik?",
   "target_spans": [
    "Unit berapa, cik?"
@@ -155798,16 +155719,16 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|4|7": {
-  "source_text": "Mei Ling: Blok A, unit 8-5. Saya terlupa kunci tadi.",
+ "Unit 16 · Model conversation|3|26": {
+  "source_text": "Mei Ling: Blok C, unit 5-2. Saya terlupa kunci tadi.",
   "target_spans": [
-   "Blok A, unit 8-5. Saya terlupa kunci tadi."
+   "Blok C, unit 5-2. Saya terlupa kunci tadi."
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|4|8": {
+ "Unit 16 · Model conversation|3|27": {
   "source_text": "Guard: Cik tunggu di sini. Saya hubungi pejabat pengurusan.",
   "target_spans": [
    "Cik tunggu di sini. Saya hubungi pejabat pengurusan."
@@ -155816,7 +155737,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|4|9": {
+ "Unit 16 · Model conversation|3|28": {
   "source_text": "Mei Ling: Baik. Terima kasih banyak.",
   "target_spans": [
    "Baik. Terima kasih banyak."
@@ -155825,7 +155746,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|4|10": {
+ "Unit 16 · Model conversation|3|29": {
   "source_text": "Guard: Maaf, pejabat pengurusan belum buka. Cik tunggu sekejap.",
   "target_spans": [
    "Maaf, pejabat pengurusan belum buka. Cik tunggu sekejap."
@@ -155834,7 +155755,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|4|11": {
+ "Unit 16 · Model conversation|3|30": {
   "source_text": "Mei Ling: Boleh saya duduk di lobi?",
   "target_spans": [
    "Boleh saya duduk di lobi?"
@@ -155843,7 +155764,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|4|12": {
+ "Unit 16 · Model conversation|4|0": {
   "source_text": "Guard: Boleh. Sila duduk.",
   "target_spans": [
    "Boleh. Sila duduk."
@@ -155852,7 +155773,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|4|13": {
+ "Unit 16 · Model conversation|4|1": {
   "source_text": "Mei Ling: Terima kasih. Saya tidak sengaja terlupa kunci itu.",
   "target_spans": [
    "Terima kasih. Saya tidak sengaja terlupa kunci itu."
@@ -155861,7 +155782,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 16 · Model conversation|4|14": {
+ "Unit 16 · Model conversation|4|2": {
   "source_text": "Guard: Jangan risau, cik.",
   "target_spans": [
    "Jangan risau, cik."
@@ -155871,7 +155792,7 @@
   "exclusion": null
  },
  "Unit 16 · Model conversation|5|0": {
-  "source_text": "The model has 16 turns. Gaps: turns 2, 4, 6, 8, 12, 14.",
+  "source_text": "The model has 11 turns. Gaps: turns 2, 4, 6, 8, 10.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
@@ -155914,24 +155835,15 @@
   "exclusion": null
  },
  "Unit 16 · Model conversation|5|5": {
-  "source_text": "Turn 12: Encik tercedera? Di mana yang sakit?",
+  "source_text": "Turn 10: Saya ambil tisu. Fail encik sedikit basah.",
   "target_spans": [
-   "Encik tercedera? Di mana yang sakit?"
+   "Saya ambil tisu. Fail encik sedikit basah."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 16 · Model conversation|5|6": {
-  "source_text": "Turn 14: Encik perlu daftar dulu. Ini borang.",
-  "target_spans": [
-   "Encik perlu daftar dulu. Ini borang."
-  ],
-  "mention_spans": [],
-  "kind": "key",
-  "exclusion": null
- },
- "Unit 16 · Model conversation|5|7": {
   "source_text": "Then perform the changed-facts variant without the script, changing one more fact of your own.",
   "target_spans": [],
   "mention_spans": [],
@@ -157820,7 +157732,7 @@
   "exclusion": null
  },
  "Unit 16 · Teaching plan and answer key|4|14": {
-  "source_text": "5–15 Scene listening: read the Kata-Kata scenario lines ms-c16-s01 to ms-c16-s17 (the locked door, the spilt coffee, then the clinic) twice; learners tick tertinggal, terlupa, terlepas, tersangkut, tertumpah, tergelincir and tidak sengaja when they hear them, and listen for Jangan risau. in lines 7 and 9.",
+  "source_text": "5–15 Scene listening: read the Kata-Kata scenario lines ms-c16-s01 to ms-c16-s11 (the model: the locked door and the spilt coffee) and then the clinic scene ms-c16-s12 to s17 (the Block E dialogue below) twice; learners tick tertinggal, terlupa, terlepas, tersangkut, tertumpah, tergelincir and tidak sengaja when they hear them, and listen for Jangan risau. in lines 7 and 9.",
   "target_spans": [
    "tertinggal",
    "terlupa",
@@ -157861,6 +157773,67 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 16 · Teaching plan and answer key|5|0": {
+  "source_text": "Tanaka: Selamat pagi. Saya tergelincir di tangga tadi.",
+  "target_spans": [
+   "Selamat pagi. Saya tergelincir di tangga tadi."
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 16 · Teaching plan and answer key|5|1": {
+  "source_text": "Receptionist: Encik tercedera? Di mana yang sakit?",
+  "target_spans": [
+   "Encik tercedera? Di mana yang sakit?"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 16 · Teaching plan and answer key|5|2": {
+  "source_text": "Tanaka: Tangan saya bengkak dan ada luka kecil. Lutut saya pun lebam.",
+  "target_spans": [
+   "Tangan saya bengkak dan ada luka kecil. Lutut saya pun lebam."
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 16 · Teaching plan and answer key|5|3": {
+  "source_text": "Receptionist: Encik perlu daftar dulu. Ini borang.",
+  "target_spans": [
+   "Encik perlu daftar dulu. Ini borang."
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 16 · Teaching plan and answer key|5|4": {
+  "source_text": "Tanaka: Baik. Boleh doktor melihat tangan saya sekarang?",
+  "target_spans": [
+   "Baik. Boleh doktor melihat tangan saya sekarang?"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 16 · Teaching plan and answer key|5|5": {
+  "source_text": "Receptionist: Boleh. Sila tunggu sekejap.",
+  "target_spans": [
+   "Boleh. Sila tunggu sekejap."
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 16 · Teaching plan and answer key|5|6": {
+  "source_text": "■ What to listen for · 注意点",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 16 · Teaching plan and answer key|5|7": {
   "source_text": "Load: 23 core words in four groups (ter- accidents 9, ter- states and results 5, by accident, an accident, the key and the spill 4, what you see 5), no recognition word, and revision of the chapter 6 ter-, sorry and the reply, things and places, moving about and time, and office and clinic. Suggested order: Block A the first two groups with patterns 1 and 2; Block B the last two groups with patterns 3 to 5. If the pilot shows 23 is too many, the natural cut is: tertinggal, terlupa, terlepas, tertumpah, terkunci, tidak sengaja, kunci, bengkak, luka, lebam first; the rest second.",
   "target_spans": [
    "tertinggal",
@@ -157878,7 +157851,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 16 · Teaching plan and answer key|5|1": {
+ "Unit 16 · Teaching plan and answer key|5|8": {
   "source_text": "ter- accident against ter- superlative: ter- + an adjective (chapter 6: termurah, terbesar, terbaik) means \"the most\"; ter- + a verb (this chapter: tertinggal, terlupa, terlepas) means \"by accident, without meaning to\". The Kata-Kata cards for this chapter say it on the first card: not the ter- of termurah and terbaik. Teach the two side by side with Yang ini termurah, tetapi dompet saya tertinggal di rumah. Do not tell learners to guess the meaning of any other ter- word from the prefix: the plan says to learn each form as a word. Ability and idiom readings of ter- are outside this chapter.",
   "target_spans": [
    "termurah",
@@ -157901,7 +157874,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 16 · Teaching plan and answer key|5|2": {
+ "Unit 16 · Teaching plan and answer key|5|9": {
   "source_text": "tertinggal (left behind) against hilang (lost, chapter 15): Dompet saya hilang. means you cannot find the wallet; Saya tertinggal dompet di rumah. means you know where it is and you did not mean to leave it. The chapter 15 unit used hilang and only named tertinggal; from here learners choose between them by one question: \"do I know where it is?\"",
   "target_spans": [
    "tertinggal",
@@ -157916,7 +157889,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 16 · Teaching plan and answer key|5|3": {
+ "Unit 16 · Teaching plan and answer key|5|10": {
   "source_text": "Apologising in Malay against Japanese うっかり〜てしまいました: Japanese marks the slip twice (うっかり, 〜てしまう). Malay marks it once, in the verb: Maaf, saya terlupa. is the whole apology, and the answer is Jangan risau. Do not ask for a longer apology for a small slip, and do not teach a formula for blame: if it is not your fault, state what happened (Pintu terkunci., Talian terputus.) and make the request.",
   "target_spans": [
    "Maaf, saya terlupa.",
@@ -157928,8 +157901,8 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 16 · Teaching plan and answer key|5|4": {
-  "source_text": "terkunci as a state, not an action: Pintu terkunci. means the door is locked now; nobody is locking it. terputus, tercedera and terbakar are the same: a state that lasts. The Japanese 〜ている feeling is close (鍵がかかっている, 切れている, けがをしている), while terlupa and terlepas feel like 〜てしまった. A state can take masih (Pintu itu masih terkunci.); an accident takes baru or sudah.",
+ "Unit 16 · Teaching plan and answer key|6|0": {
+  "source_text": "terkunci as a state, not an action: Pintu terkunci. means the door is locked now; nobody is locking it. terputus, tercedera and terbakar are the same: a state that lasts. The Japanese 〜ている feeling is close (鍵がかかっている, 切れている, けがをしている), while terlupa and terlepas feel like 〜てしまった. A state can take masih (Pintu itu masih terkunci.); an accident takes baru (Encik Tanaka baru tergelincir.). An accident ter- verb rarely takes sudah or sedang; masih and baru are fine, and masih also goes with a place: Kunci saya masih di dalam rumah.",
   "target_spans": [
    "terkunci",
    "Pintu terkunci.",
@@ -157944,13 +157917,19 @@
    "masih",
    "Pintu itu masih terkunci.",
    "baru",
-   "sudah"
+   "Encik Tanaka baru tergelincir.",
+   "sudah",
+   "sedang",
+   "masih",
+   "baru",
+   "masih",
+   "Kunci saya masih di dalam rumah."
   ],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": null
  },
- "Unit 16 · Teaching plan and answer key|5|5": {
+ "Unit 16 · Teaching plan and answer key|6|1": {
   "source_text": "tidak sengaja with a ter- verb adds emphasis, and does not change the meaning: Saya tidak sengaja terlanggar kerusi. The spoken form is tak sengaja. Do not mark a ter- sentence without it wrong. Awak tidak sengaja. is also what you say to someone else who did something small (Kata-Kata s09).",
   "target_spans": [
    "tidak sengaja",
@@ -157963,7 +157942,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 16 · Teaching plan and answer key|6|0": {
+ "Unit 16 · Teaching plan and answer key|6|2": {
   "source_text": "Whole words and roots: each ter- word is learned whole, with its root as the card note gives it: tertinggal (ter- + tinggal, chapter 2), terlupa (lupa, chapter 4), tertidur (tidur, chapter 4), terlepas (lepas, chapter 4), tertumpah (tumpah, this chapter), terkunci (kunci, this chapter); jatuh, silap, langgar, gelincir, cedera, bakar, putus and sangkut are not class cards. kemalangan is a whole word (ke-an words come in Stage 3; the root malang is not taught alone); Malaysian Malay says kemalangan, not the Indonesian word.",
   "target_spans": [
    "tertinggal",
@@ -157996,7 +157975,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 16 · Teaching plan and answer key|6|1": {
+ "Unit 16 · Teaching plan and answer key|6|3": {
   "source_text": "The clinic scene (safety): learners say only what they can see: bengkak, luka kecil, lebam. The receptionist registers Mr Tanaka (Encik perlu daftar dulu. Ini borang.) and asks him to wait (Sila tunggu sekejap.). The unit gives no diagnosis, no treatment advice and no medicine, and learners must not be asked to name a cause or a remedy. If a learner asks what to do for an injury, say that it is a question for the doctor.",
   "target_spans": [
    "bengkak",
@@ -158009,7 +157988,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 16 · Teaching plan and answer key|6|2": {
+ "Unit 16 · Teaching plan and answer key|6|4": {
   "source_text": "The -kan and bare-root rules from chapters 12 to 15 still hold: a dialogue line may keep Kata-Kata's everyday bare root (Saya hubungi pejabat pengurusan., Encik perlu daftar dulu.), and the pattern examples, keys and written forms use the meN- form (menunggu, mendaftar, menghubungi). A request takes the plain root (Boleh tolong hubungi …?). tangguhkan and batalkan take a noun object (tangguhkan rancangan); this unit does not use them. dari is for places and daripada for people and organisations.",
   "target_spans": [
    "Saya hubungi pejabat pengurusan.",
@@ -158030,7 +158009,7 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 16 · Teaching plan and answer key|6|3": {
+ "Unit 16 · Teaching plan and answer key|6|5": {
   "source_text": "Where Japanese learners usually slip: (1) hilang for something left behind; (2) ter- on an adjective to mean \"too\" or \"very\"; (3) reading terbesar as accidental; (4) an apology that is too long for a small slip; (5) putting a doer into a state sentence (Saya terkunci means \"I am locked in\"); (6) tidak sengaja without a verb (Saya tidak sengaja kunci).",
   "target_spans": [
    "hilang",
@@ -158045,14 +158024,23 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 16 · Teaching plan and answer key|6|4": {
-  "source_text": "Natural speech: Maaf, saya terlupa. and Jangan risau.; Pintu terkunci.; Hati-hati, lantai licin.; Awak tidak sengaja.; the spoken tak sengaja. The scene follows Kata-Kata c16 (scenario lines ms-c16-s01 to s17, frames f01 to f06); turn 11 of the model joins s11 and s12, the move from the office to the clinic the next morning. All names, units and times are fictional; learners may use an invented flat or an invented cup.",
+ "Unit 16 · Teaching plan and answer key|7|0": {
+  "source_text": "Natural speech: Maaf, saya terlupa. and Jangan risau.; Pintu terkunci.; Hati-hati, lantai licin.; Awak tidak sengaja.; the spoken tak sengaja. The scene follows Kata-Kata c16 (scenario lines ms-c16-s01 to s17, frames f01 to f06); the model ends at the office scene (s11) and the clinic scene (s12 to s17) is its own short dialogue in Block E, because turns are not joined across a scene change. terjatuh takes ke for the movement (Cawan itu terjatuh ke lantai.), while tertumpah and tergelincir take di for where it happened (tertumpah di meja, tergelincir di tangga); the Kata-Kata line Air kopi tertumpah di meja. stays as it is. All names, units and times are fictional; learners may use an invented flat or an invented cup.",
   "target_spans": [
    "Maaf, saya terlupa.",
    "Jangan risau.",
    "Pintu terkunci.",
    "Hati-hati, lantai licin.",
-   "Awak tidak sengaja."
+   "Awak tidak sengaja.",
+   "terjatuh",
+   "ke",
+   "Cawan itu terjatuh ke lantai.",
+   "tertumpah",
+   "tergelincir",
+   "di",
+   "tertumpah di meja",
+   "tergelincir di tangga",
+   "Air kopi tertumpah di meja."
   ],
   "mention_spans": [
    "tak sengaja"
@@ -158060,21 +158048,21 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 16 · Teaching plan and answer key|6|5": {
+ "Unit 16 · Teaching plan and answer key|7|1": {
   "source_text": "Cumulative question words: chapters 1 to 16. Chapter 16 adds no new question word.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 16 · Teaching plan and answer key|7|0": {
+ "Unit 16 · Teaching plan and answer key|8|0": {
   "source_text": "Answer keys are on each component. Japanese text awaits native review.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 16 · Teaching plan and answer key|7|1": {
+ "Unit 16 · Teaching plan and answer key|8|1": {
   "source_text": "Standard forms first; spoken forms are labelled. ber- verbs are taught as whole ledger forms, each with its root; no meN- verb (chapter 11) and no suffixed verb form (chapter 12).",
   "target_spans": [],
   "mention_spans": [],
@@ -158119,9 +158107,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 16 · Writing block · A brief factual incident message|3|1": {
-  "source_text": "Selamat petang. Saya Mei Ling dari Blok B, unit 12-3. Kunci saya tertinggal di dalam rumah dan pintu terkunci. Saya tidak sengaja terlupa kunci tadi. Boleh tolong hubungi pengawal? Saya menunggu di lobi. Terima kasih.",
+  "source_text": "Selamat petang. Saya Mei Ling dari Blok C, unit 5-2. Kunci saya tertinggal di dalam rumah dan pintu terkunci. Saya tidak sengaja terlupa kunci tadi. Boleh tolong hubungi pengawal? Saya menunggu di lobi. Terima kasih.",
   "target_spans": [
-   "Selamat petang. Saya Mei Ling dari Blok B, unit 12-3. Kunci saya tertinggal di dalam rumah dan pintu terkunci. Saya tidak sengaja terlupa kunci tadi. Boleh tolong hubungi pengawal? Saya menunggu di lobi. Terima kasih."
+   "Selamat petang. Saya Mei Ling dari Blok C, unit 5-2. Kunci saya tertinggal di dalam rumah dan pintu terkunci. Saya tidak sengaja terlupa kunci tadi. Boleh tolong hubungi pengawal? Saya menunggu di lobi. Terima kasih."
   ],
   "mention_spans": [],
   "kind": "reading",
@@ -158361,9 +158349,9 @@
   "exclusion": null
  },
  "Unit 16 · Writing block · A brief factual incident message|5|0": {
-  "source_text": "Model: Any four to six correct sentences that cover the checklist. Model: Selamat petang. Saya Mei Ling dari Blok B, unit 12-3. Kunci saya tertinggal di dalam rumah dan pintu terkunci. Saya tidak sengaja terlupa kunci tadi. Boleh tolong hubungi pengawal? Saya menunggu di lobi. Terima kasih.",
+  "source_text": "Model: Any four to six correct sentences that cover the checklist. Model: Selamat petang. Saya Mei Ling dari Blok C, unit 5-2. Kunci saya tertinggal di dalam rumah dan pintu terkunci. Saya tidak sengaja terlupa kunci tadi. Boleh tolong hubungi pengawal? Saya menunggu di lobi. Terima kasih.",
   "target_spans": [
-   "Selamat petang. Saya Mei Ling dari Blok B, unit 12-3. Kunci saya tertinggal di dalam rumah dan pintu terkunci. Saya tidak sengaja terlupa kunci tadi. Boleh tolong hubungi pengawal? Saya menunggu di lobi. Terima kasih."
+   "Selamat petang. Saya Mei Ling dari Blok C, unit 5-2. Kunci saya tertinggal di dalam rumah dan pintu terkunci. Saya tidak sengaja terlupa kunci tadi. Boleh tolong hubungi pengawal? Saya menunggu di lobi. Terima kasih."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -162542,7 +162530,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 16 · Fast-course summary pack|0|0": {
-  "source_text": "第16章速習：45分で基本の23語、Saya tertinggal ___ di ___、Maaf, saya ___、tidak sengaja、Pintu terkunci.、termurah と tertinggal の違いを練習し、鍵・こぼれたコーヒー・クリニックの場面を演じ、残りは Kata-Kata で自習します。日本語は未監修です。",
+  "source_text": "第16章速習：45分で基本の23語、Saya tertinggal ___ di ___、Maaf, saya ___、tidak sengaja、Pintu terkunci.、termurah と tertinggal の違いを練習し、鍵・こぼれたコーヒーの場面を演じ、残り（クリニックの場面も）は Kata-Kata で自習します。日本語は未監修です。",
   "target_spans": [
    "Saya tertinggal ___ di ___",
    "Maaf, saya ___",
@@ -162570,7 +162558,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 16 · Fast-course summary pack|2|0": {
-  "source_text": "Chapter 16 in one 45-minute session: 23 core words, Saya tertinggal ___ di ___, Maaf, saya ___, tidak sengaja, Pintu terkunci. and the two ter- (termurah against tertinggal); then the scene at the locked door, the spilt coffee and the clinic counter, and self-study in Kata-Kata. All names and items are fictional.",
+  "source_text": "Chapter 16 in one 45-minute session: 23 core words, Saya tertinggal ___ di ___, Maaf, saya ___, tidak sengaja, Pintu terkunci. and the two ter- (termurah against tertinggal); then the scene at the locked door and the spilt coffee, and self-study in Kata-Kata (the clinic scene too). All names and items are fictional.",
   "target_spans": [
    "Saya tertinggal ___ di ___",
    "Maaf, saya ___",
@@ -163066,31 +163054,6 @@
   "exclusion": null
  },
  "Chapter 16 · Fast-course summary pack|5|0": {
-  "source_text": "Tanaka: Selamat pagi. Saya tergelincir di tangga tadi.",
-  "target_spans": [
-   "Selamat pagi. Saya tergelincir di tangga tadi."
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Chapter 16 · Fast-course summary pack|5|1": {
-  "source_text": "Receptionist: Encik tercedera? Di mana yang sakit?",
-  "target_spans": [
-   "Encik tercedera? Di mana yang sakit?"
-  ],
-  "mention_spans": [],
-  "kind": "model",
-  "exclusion": null
- },
- "Chapter 16 · Fast-course summary pack|5|2": {
-  "source_text": "■ Task · タスク",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "heading",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Chapter 16 · Fast-course summary pack|5|3": {
   "source_text": "A: You live in Block B, unit 12-3 (fictional). Your key is left inside the flat. Tell the guard with tertinggal and terkunci, say Maaf, saya terlupa. and ask him to contact the management office.",
   "target_spans": [
    "tertinggal",
@@ -163101,14 +163064,14 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 16 · Fast-course summary pack|5|4": {
+ "Chapter 16 · Fast-course summary pack|5|1": {
   "source_text": "B: You are the guard. Ask the unit, say you will contact the management office, and answer kindly.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 16 · Fast-course summary pack|5|5": {
+ "Chapter 16 · Fast-course summary pack|5|2": {
   "source_text": "Change of plan: B says Maaf, pejabat pengurusan belum buka. Encik tunggu sekejap. A asks to wait in the lobby and says Saya tidak sengaja terlupa kunci itu.",
   "target_spans": [
    "Maaf, pejabat pengurusan belum buka. Encik tunggu sekejap.",
@@ -163118,7 +163081,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 16 · Fast-course summary pack|5|6": {
+ "Chapter 16 · Fast-course summary pack|5|3": {
   "source_text": "A：Bブロック12-3号室に住んでいます（架空）。鍵が家の中にあります。tertinggal・terkunci で警備員に伝え、Maaf, saya terlupa. と言い、管理事務所への連絡を頼みます。B：警備員です。部屋をたずね、管理事務所に連絡すると言い、やさしく答えます。変更：Bが Maaf, pejabat pengurusan belum buka. Encik tunggu sekejap. と言い、Aはロビーで待ってよいかをたずね、Saya tidak sengaja terlupa kunci itu. と言います。",
   "target_spans": [
    "tertinggal",
@@ -163131,77 +163094,77 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 16 · Fast-course summary pack|5|7": {
+ "Chapter 16 · Fast-course summary pack|5|4": {
   "source_text": "■ Self-check · できるチェック",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 16 · Fast-course summary pack|5|8": {
+ "Chapter 16 · Fast-course summary pack|5|5": {
   "source_text": "☐ 1. Say \"I left my phone at the office.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 16 · Fast-course summary pack|5|9": {
+ "Chapter 16 · Fast-course summary pack|5|6": {
   "source_text": "☐ 2. Say \"Sorry, I forgot.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 16 · Fast-course summary pack|5|10": {
+ "Chapter 16 · Fast-course summary pack|5|7": {
   "source_text": "☐ 3. Say \"Coffee spilled on the table.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 16 · Fast-course summary pack|5|11": {
+ "Chapter 16 · Fast-course summary pack|5|8": {
   "source_text": "☐ 4. Say \"The door is locked.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 16 · Fast-course summary pack|5|12": {
+ "Chapter 16 · Fast-course summary pack|5|9": {
   "source_text": "☐ 5. Say \"This one is the cheapest, but my wallet is left at home.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 16 · Fast-course summary pack|5|13": {
+ "Chapter 16 · Fast-course summary pack|5|10": {
   "source_text": "■ Self-study guide · 自習ガイド",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 16 · Fast-course summary pack|5|14": {
+ "Chapter 16 · Fast-course summary pack|5|11": {
   "source_text": "Before the session: Kata-Kata Sedia Kelas c16 (31 cards, frames ms-c16-f01 and ms-c16-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 16 · Fast-course summary pack|5|15": {
+ "Chapter 16 · Fast-course summary pack|5|12": {
   "source_text": "After the session: all 23 Kata-Kata chapter 16 cards (ms-c16-001 to ms-c16-023) and frames ms-c16-f01 to ms-c16-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"A locked door, a spill and a slip\" matches this pack.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 16 · Fast-course summary pack|5|16": {
+ "Chapter 16 · Fast-course summary pack|5|13": {
   "source_text": "No Dunia scene primes chapter 16. The Hanashishou scenes with the guardhouse, a missed bus and the clinic are not yet tagged by chapter, so they are not assigned yet.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 16 · Fast-course summary pack|5|17": {
+ "Chapter 16 · Fast-course summary pack|5|14": {
   "source_text": "Optional full-course Cikgu Sensai unit: unit 16 (accidents with ter-), with the writing block after chapter 16.",
   "target_spans": [],
   "mention_spans": [
@@ -163210,14 +163173,14 @@
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 16 · Fast-course summary pack|5|18": {
+ "Chapter 16 · Fast-course summary pack|5|15": {
   "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 16 · Fast-course summary pack|5|19": {
+ "Chapter 16 · Fast-course summary pack|5|16": {
   "source_text": "授業後：第16章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。",
   "target_spans": [],
   "mention_spans": [],

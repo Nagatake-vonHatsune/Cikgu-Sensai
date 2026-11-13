@@ -37,9 +37,9 @@ Collected from every chapter. Builders rewrote the lines instead and added no ro
 | «menangguhkan» and «membatalkan» (meN- forms of «tangguhkan» and «batalkan») | 14 (**recommended**, Claude's review) | a third person in standard speech and writing («Mei Ling menangguhkan rancangan itu.»); the unit uses the bare form with a noun object for now |
 | «kakitangan» (staff) | 15 (**approved by Sam**, 13 Nov) | the Kata-Kata speaker label for the counter clerk (s02 to s10); the unit uses the English label «Staff» |
 | «bola» (ball) | 15 (**approved by Sam**, 13 Nov) | the natural comparison for a round thing («bulat, seperti bola»); the unit says «bulat, seperti jam» |
-| «tidak apa-apa» (never mind, it's nothing) | 16 | the everyday answer to «Maaf»; the unit uses «Jangan risau.» (Kata-Kata s07) |
+| «tidak apa-apa» (never mind, it's nothing) | 16 (**recommended**, Sam 13 Nov) | the everyday answer to «Maaf»; the unit uses «Jangan risau.» (Kata-Kata s07) |
 | «berlaku» (to happen) | 16 | "what happened" in a report or a clinic form; the form says «Sebab: tergelincir di tangga.» |
-| «masalah» (problem) | 16 | «Ada masalah?» asked of a late colleague; the unit says «Kenapa?» |
+| «masalah» (problem) | 16 (**recommended**, Sam 13 Nov) | «Ada masalah?» asked of a late colleague; the unit says «Kenapa?» |
 | «pinjam» (to borrow) | 16 | «Pemandu teksi pinjamkan telefon …»; the unit says «Pemandu teksi menelefon pejabat untuk saya» |
 
 ## Latest session: Stage 2 build step 4, chapter 15 fix and chapter 16 (13 Nov 2026, Claude)

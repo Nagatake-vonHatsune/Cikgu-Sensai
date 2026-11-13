@@ -31,7 +31,7 @@ REV_OFFICE = ['L-0595', 'L-1175', 'L-0648', 'L-0419', 'L-0407', 'L-0406', 'L-049
 
 EXAMPLES = {
     # ter- accidents
-    'L-1235': '«Telefon saya terjatuh di lantai.»',
+    'L-1235': '«Telefon saya terjatuh ke lantai.»',
     'L-0619': '«Saya tertinggal telefon di pejabat.»',
     'L-0644': '«Maaf, saya terlupa.»',
     'L-1236': '«Maaf, saya tertidur di dalam bas.»',
@@ -59,7 +59,7 @@ EXAMPLES = {
     'L-1249': '«Cawan saya pecah.»',
     # Revision · the ter- of chapter 6
     'L-0275': '«Yang ini termurah.»',
-    'L-0276': '«Beg ini terbesar.»',
+    'L-0276': '«Beg ini yang terbesar.»',
     'L-0277': '«Yang ini terbaik.»',
     # Revision · sorry and reply
     'L-0018': '«Maaf, saya lambat.»',
@@ -184,7 +184,7 @@ P = [
      '日本語は「すみません、うっかり忘れてしまいました」と、「うっかり」と「〜てしまう」の両方で失敗を示します。マレー語はどちらも要らず、«Maaf, saya terlupa.» で謝罪は十分です。‹ter-› が「うっかり〜てしまう」の代わりをし、小さな失敗に長い謝罪は求められません。'),
     ('ms-c16-f04', '«Saya tidak sengaja» ___ ___ «.»  (by accident, with emphasis)', [
         'A: «Awak terlanggar kerusi?» B: «Ya, saya tidak sengaja terlanggar kerusi itu.»',
-        'A: «Cawan awak pecah?» B: «Ya, saya tidak sengaja. Cawan itu terjatuh di lantai.»',
+        'A: «Cawan awak pecah?» B: «Ya, saya tidak sengaja. Cawan itu terjatuh ke lantai.»',
         'A: «Kenapa awak tidak datang?» B: «Maaf, saya tidak sengaja tertidur.»',
         'A: «Lantai ini basah.» B: «Maaf, saya tidak sengaja. Air kopi saya tertumpah.»',
         'A: «Awak terlupa kunci lagi?» B: «Ya, saya tidak sengaja terlupa kunci tadi.»',
@@ -213,8 +213,8 @@ P = [
     ('ms-c16-f05', '«Yang ini» ___ «, tetapi dompet saya» ___ «di rumah.»  (the two ter-: the most, and by accident)', [
         'A: «Telefon ini murah?» B: «Yang ini termurah, tetapi dompet saya tertinggal di rumah.»',
         'A: «Yang mana terbesar?» B: «Yang ini terbesar, tetapi beg saya tertinggal di pejabat.»',
-        'A: «Telefon ini terbaik?» B: «Ya, yang ini terbaik, tetapi kad saya tertinggal di rumah.»',
-        'A: «Kenapa awak tidak membeli telefon itu?» B: «Telefon itu termurah, tetapi dompet saya tertinggal di rumah.»',
+        'A: «Telefon ini yang terbaik?» B: «Ya, yang ini terbaik, tetapi kad saya tertinggal di rumah.»',
+        'A: «Kenapa awak tidak membeli telefon itu?» B: «Telefon itu yang termurah, tetapi dompet saya tertinggal di rumah.»',
         'A: «Bas ini yang terbaik.» B: «Maaf, saya terlepas bas itu.»',
         'A: «Saya mahu cawan yang termurah.» B: «Yang ini termurah. Yang itu pecah.»'],
      "‹ter-› has two meanings. In front of an adjective it means \"the most\": «termurah» (the cheapest), «terbesar» (the biggest), «terbaik» (the best): chapter 6. In front of a verb it means \"by accident, without meaning to\": «tertinggal», «terlupa», «terlepas»: this chapter. "
@@ -227,8 +227,9 @@ P = [
      '日本語は「一番〜」（最も）と「うっかり〜てしまう」（偶然）をはっきり分けます。マレー語は一つの接頭辞で両方を言うので、語根が決め手になります。«terbesar» を「うっかり大きい」、«tertinggal» を「一番残っている」と読むと、二つを混ぜています。'),
 ]
 
-# The Kata-Kata scenario lines ms-c16-s01 to s17 are the model conversation. Turn 11 joins s11 and s12 (Tanaka thanks Mei Ling and warns about the floor, then,
-# next morning, tells the clinic receptionist he slipped), so the whole scene fits the 16 turns the charter allows. The clinic turns only register him and ask him to wait.
+# The Kata-Kata scenario lines ms-c16-s01 to s11 (the locked door and the spilt coffee) are the model conversation, one line to a turn.
+# Sam (13 Nov 2026): turns are never joined across a scene change, so the model ends at the office scene and the clinic scene (s12 to s17) is its own
+# short dialogue in Block E (CLINIC, below). The clinic turns only register Mr Tanaka and ask him to wait.
 DIALOGUE = [
     ('Tanaka', 'Selamat malam. Maaf, kunci saya tertinggal di dalam rumah. Pintu terkunci.'),
     ('Guard', 'Unit berapa, encik?'),
@@ -240,18 +241,22 @@ DIALOGUE = [
     ('Mei Ling', 'Maaf, Encik Tanaka! Air kopi saya tertumpah di meja. Cawan saya pun pecah.'),
     ('Tanaka', 'Awak tidak sengaja. Jangan risau.'),
     ('Mei Ling', 'Saya ambil tisu. Fail encik sedikit basah.'),
-    ('Tanaka', 'Terima kasih. Hati-hati, lantai licin. Selamat pagi. Saya tergelincir di tangga tadi.'),
+    ('Tanaka', 'Terima kasih. Hati-hati, lantai licin.'),
+]
+# Block E: the clinic the next morning (Kata-Kata s12 to s17), its own scene.
+CLINIC = [
+    ('Tanaka', 'Selamat pagi. Saya tergelincir di tangga tadi.'),
     ('Receptionist', 'Encik tercedera? Di mana yang sakit?'),
     ('Tanaka', 'Tangan saya bengkak dan ada luka kecil. Lutut saya pun lebam.'),
     ('Receptionist', 'Encik perlu daftar dulu. Ini borang.'),
     ('Tanaka', 'Baik. Boleh doktor melihat tangan saya sekarang?'),
     ('Receptionist', 'Boleh. Sila tunggu sekejap.'),
 ]
-# Changed facts: Mei Ling is locked out of unit 8-5 and the management office is not open yet.
+# Changed facts: Mei Ling (Block C, unit 5-2, as on her chapter 12 complaint form) is locked out and the management office is not open yet.
 VARIANT = [
     ('Mei Ling', 'Selamat petang. Maaf, kunci saya tertinggal di dalam bilik. Pintu terkunci.'),
     ('Guard', 'Unit berapa, cik?'),
-    ('Mei Ling', 'Blok A, unit 8-5. Saya terlupa kunci tadi.'),
+    ('Mei Ling', 'Blok C, unit 5-2. Saya terlupa kunci tadi.'),
     ('Guard', 'Cik tunggu di sini. Saya hubungi pejabat pengurusan.'),
     ('Mei Ling', 'Baik. Terima kasih banyak.'),
     ('Guard', 'Maaf, pejabat pengurusan belum buka. Cik tunggu sekejap.'),
@@ -337,7 +342,8 @@ CFG = dict(
                   'Pattern 3: «Saya tidak sengaja» + a ‹ter-› verb. Accept the spoken ‹tak sengaja› in a quick answer; ask for «tidak sengaja» once in the written part. Do not mark the sentence without «tidak sengaja» wrong: ‹ter-› already says "by accident".',
                   'Pattern 4: a thing + «tertumpah» or another ‹ter-› word (a result or a state), then a request with «Boleh tolong». Check that «terkunci» and «terputus» are used for a state, with no doer. Accept «Boleh tolong hubungi …?» with the plain root after «tolong».',
                   'Pattern 5: «Yang ini» + «termurah», «terbesar» or «terbaik», then «tetapi» + the thing + «tertinggal» + the place. Ask the learner which ‹ter-› says "the most" and which says "by accident", and why (the root).'],
-    dialogue=DIALOGUE, variant=VARIANT, gap_turns=(1, 3, 5, 7, 11, 13),
+    dialogue=DIALOGUE, variant=VARIANT, gap_turns=(1, 3, 5, 7, 9),
+    scene_e=dict(title='the clinic the next morning (Kata-Kata s12 to s17)', lines=CLINIC),
     drills={
         'repeat_frame': 'Frame: «Saya tertinggal» [«telefon» / «dompet»] «di» [«pejabat» / «rumah»] «.»',
         'repeat': ['«Saya tertinggal telefon di pejabat.»', '«Maaf, saya terlupa.»', '«Air kopi tertumpah di meja.»',
@@ -384,7 +390,7 @@ CFG = dict(
         'transform': ['1 «Saya terlupa kunci tadi.» 2 «Telefon saya tertinggal di pejabat.» 3 «Saya tidak sengaja terlanggar kerusi.» 4 «Pintu itu terkunci.» 5 «Kunci saya tertinggal di dalam rumah.»',
                       '6 «termurah» = "the most" (the adjective «murah»); «tertinggal» = "by accident" (the verb «tinggal»). 7 «Kunci saya tertinggal di rumah.» («hilang» is for what you cannot find.) '
                       '8 «Maaf, saya terlepas bas.» 9 «Jangan risau.» 10 «Saya belum jumpa kunci saya.»'],
-        'question and answer': ['1 «Kunci saya tertinggal di rumah.» 2 «Saya lambat kerana saya terlepas bas.» 3 «Air kopi tertumpah di lantai.» 4 «Telefon saya terjatuh di lantai.»',
+        'question and answer': ['1 «Kunci saya tertinggal di rumah.» 2 «Saya lambat kerana saya terlepas bas.» 3 «Air kopi tertumpah di lantai.» 4 «Telefon saya terjatuh ke lantai.»',
                                 '5 «Awak tergelincir di mana?» 6 «Kenapa pintu terkunci?» 7 «Bila awak terlepas bas?» 8 «Jangan risau.»'],
         'question-word choice': ['1 «Di mana» 2 «Kenapa» 3 «di mana» 4 «Bila» 5 «berapa» 6 «Siapa» 7 «berapa» 8 «Yang mana» (also «Mengapa» for 2; the answer starts with «sebab» or «kerana»)'],
     },
@@ -399,20 +405,20 @@ CFG = dict(
         title='Markers with the ter- verbs', grammar='tertinggal',
         instructions=['Say each sentence again with the marker in brackets. Keep the verb as the course teaches it; only the marker is added in front. / '
                       'かっこ内のマーカーを付けて言い直します。動詞はこのコースで教えた形のままで、前にマーカーを足すだけです。'],
-        items=['«Kunci saya tertinggal di rumah.» (marker: «sudah»)', '«Encik Tanaka tergelincir di tangga.» (marker: «baru»)',
-               '«Pintu itu terkunci.» (marker: «masih»)', '«Mei Ling tersangkut di jalan yang sesak.» (marker: «sedang»)',
-               '«Air kopi tertumpah di meja.» (marker: «baru»)', '«Tangan saya bengkak.» (marker: «masih»)',
+        items=['«Kunci saya di dalam rumah.» (marker: «masih»)', '«Encik Tanaka tergelincir di tangga.» (marker: «baru»)',
+               '«Pintu itu terkunci.» (marker: «masih»)', '«Mei Ling tersangkut di jalan yang sesak.» (marker: «masih»)',
+               '«Air kopi tertumpah di meja.» (marker: «baru»)', '«Tangan saya bengkak.» (marker: «sudah»)',
                'Answer «Awak sudah jumpa kunci awak?» (marker: «belum»)', '«Pengawal menghubungi pejabat pengurusan.» (marker: «akan»)'],
-        bridge=['«sudah tertinggal» ≈ もう置き忘れた · «baru tergelincir» ≈ 滑ったばかり · «masih terkunci» ≈ まだ鍵がかかっている · '
-                '«sedang tersangkut» ≈ 動けなくなっている · «belum jumpa» ≈ まだ見つかっていない · «akan menghubungi» ≈ 連絡する予定',
+        bridge=['«masih di dalam rumah» ≈ まだ家の中にある · «baru tergelincir» ≈ 滑ったばかり · «masih terkunci» ≈ まだ鍵がかかっている · '
+                '«masih tersangkut» ≈ まだ動けない · «sudah bengkak» ≈ もう腫れている · «belum jumpa» ≈ まだ見つかっていない · «akan menghubungi» ≈ 連絡する予定',
                 'Japanese changes the verb ending (置き忘れた / 滑ったばかり); Malay puts the marker in front and keeps the verb («tertinggal», «tergelincir»). «belum» is まだ〜ていない, «sudah» is もう〜た, «masih» is まだ〜ている. / '
                 '日本語は動詞の語尾が変わります。マレー語はマーカーを前に置き、動詞（«tertinggal»・«tergelincir»）はそのままです。«belum» は「まだ〜ていない」、«sudah» は「もう〜た」、«masih» は「まだ〜ている」です。'],
-        key=['1 «Kunci saya sudah tertinggal di rumah.» 2 «Encik Tanaka baru tergelincir di tangga.» 3 «Pintu itu masih terkunci.» '
-             '4 «Mei Ling sedang tersangkut di jalan yang sesak.»',
-             '5 «Air kopi baru tertumpah di meja.» 6 «Tangan saya masih bengkak.» 7 «Belum. Saya belum jumpa kunci saya.» '
+        key=['1 «Kunci saya masih di dalam rumah.» 2 «Encik Tanaka baru tergelincir di tangga.» 3 «Pintu itu masih terkunci.» '
+             '4 «Mei Ling masih tersangkut di jalan yang sesak.»',
+             '5 «Air kopi baru tertumpah di meja.» 6 «Tangan saya sudah bengkak.» 7 «Belum. Saya belum jumpa kunci saya.» '
              '8 «Pengawal akan menghubungi pejabat pengurusan.»'],
-        explain=('第4章の «sudah»・«belum»・«sedang»・«masih»・«akan»・«baru» を、第16章の ‹ter-› の動詞と組み合わせて言います。«terkunci»・«bengkak» のような状態には «masih» がよく合います。',
-                 'Combine the chapter 4 markers with the chapter 16 ter- verbs. «masih» goes well with a state such as «terkunci» or «bengkak».')),
+        explain=('第4章の «sudah»・«belum»・«masih»・«akan»・«baru» を、第16章の ‹ter-› の動詞と組み合わせて言います。«terkunci»・«bengkak» のような状態には «masih» がよく合います。事故の ‹ter-› の動詞に «sudah» や «sedang» を付けることはあまりなく、«masih» と «baru» は自然です。',
+                 'Combine the chapter 4 markers with the chapter 16 ter- verbs. «masih» goes well with a state such as «terkunci» or «bengkak». An accident ter- verb rarely takes «sudah» or «sedang»; «masih» and «baru» are fine.')),
     question_note='Chapter 16 adds no new question word. The accident questions use the ones you know: «Kunci awak di mana?», «Kenapa awak lambat?», «Bila awak tergelincir?», «Awak tercedera?», '
                   '«Unit berapa?», «Yang mana satu?» / '
                   '第16章で新しい疑問語は増えません。事故の質問は知っている疑問語で作ります：'
@@ -515,7 +521,7 @@ CFG = dict(
           'D_review': 'cumulative question-word drill (chapters 1 to 16), then the markers drill with new cues and a check of the two ‹ter-› meanings.',
           'D_preview': 'the writing block after chapter 16 (a brief factual incident message), then unit 17 (standard and spoken choices, particles, invitations and refusals; Kata-Kata c17).',
           'E_recall': 'say three sentences: one «tertinggal», one «Maaf, saya …» and one «Pintu terkunci.»',
-          'E_listening': 'read the Kata-Kata scenario lines ms-c16-s01 to ms-c16-s17 (the locked door, the spilt coffee, then the clinic) twice; '
+          'E_listening': 'read the Kata-Kata scenario lines ms-c16-s01 to ms-c16-s11 (the model: the locked door and the spilt coffee) and then the clinic scene ms-c16-s12 to s17 (the Block E dialogue below) twice; '
                          'learners tick «tertinggal», «terlupa», «terlepas», «tersangkut», «tertumpah», «tergelincir» and «tidak sengaja» when they hear them, and listen for «Jangan risau.» in lines 7 and 9.',
           'E_roleplay': 'pairs play the guardhouse scene with their own unit and key, without the script; then swap and play a spill with a colleague. Do not role-play any medical advice: the clinic part stops at the receptionist\'s «Sila tunggu sekejap.»',
           'E_variation': 'a changed fact: the management office is not open yet; A asks to wait in the lobby and says «tidak sengaja» once more.'},
@@ -533,7 +539,8 @@ CFG = dict(
                    'Apologising in Malay against Japanese うっかり〜てしまいました: Japanese marks the slip twice (うっかり, 〜てしまう). Malay marks it once, in the verb: «Maaf, saya terlupa.» is the whole apology, and the answer is «Jangan risau.» '
                    'Do not ask for a longer apology for a small slip, and do not teach a formula for blame: if it is not your fault, state what happened («Pintu terkunci.», «Talian terputus.») and make the request.',
                    '«terkunci» as a state, not an action: «Pintu terkunci.» means the door is locked now; nobody is locking it. «terputus», «tercedera» and «terbakar» are the same: a state that lasts. '
-                   'The Japanese 〜ている feeling is close («鍵がかかっている», «切れている», «けがをしている»), while «terlupa» and «terlepas» feel like 〜てしまった. A state can take «masih» («Pintu itu masih terkunci.»); an accident takes «baru» or «sudah».',
+                   'The Japanese 〜ている feeling is close («鍵がかかっている», «切れている», «けがをしている»), while «terlupa» and «terlepas» feel like 〜てしまった. A state can take «masih» («Pintu itu masih terkunci.»); an accident takes «baru» («Encik Tanaka baru tergelincir.»). '
+                   'An accident ter- verb rarely takes «sudah» or «sedang»; «masih» and «baru» are fine, and «masih» also goes with a place: «Kunci saya masih di dalam rumah.»',
                    '«tidak sengaja» with a ter- verb adds emphasis, and does not change the meaning: «Saya tidak sengaja terlanggar kerusi.» The spoken form is ‹tak sengaja›. Do not mark a ter- sentence without it wrong. '
                    '«Awak tidak sengaja.» is also what you say to someone else who did something small (Kata-Kata s09).',
                    'Whole words and roots: each ter- word is learned whole, with its root as the card note gives it: «tertinggal» (ter- + «tinggal», chapter 2), «terlupa» («lupa», chapter 4), «tertidur» («tidur», chapter 4), «terlepas» («lepas», chapter 4), '
@@ -547,7 +554,9 @@ CFG = dict(
                    'Where Japanese learners usually slip: (1) «hilang» for something left behind; (2) ‹ter-› on an adjective to mean "too" or "very"; (3) reading «terbesar» as accidental; (4) an apology that is too long for a small slip; (5) putting a doer into a state sentence («Saya terkunci» means "I am locked in"); '
                    '(6) «tidak sengaja» without a verb («Saya tidak sengaja kunci»).',
                    'Natural speech: «Maaf, saya terlupa.» and «Jangan risau.»; «Pintu terkunci.»; «Hati-hati, lantai licin.»; «Awak tidak sengaja.»; the spoken ‹tak sengaja›. The scene follows Kata-Kata c16 (scenario lines ms-c16-s01 to s17, frames f01 to f06); '
-                   'turn 11 of the model joins s11 and s12, the move from the office to the clinic the next morning. All names, units and times are fictional; learners may use an invented flat or an invented cup.',
+                   'the model ends at the office scene (s11) and the clinic scene (s12 to s17) is its own short dialogue in Block E, because turns are not joined across a scene change. '
+                   '«terjatuh» takes «ke» for the movement («Cawan itu terjatuh ke lantai.»), while «tertumpah» and «tergelincir» take «di» for where it happened («tertumpah di meja», «tergelincir di tangga»); the Kata-Kata line «Air kopi tertumpah di meja.» stays as it is. '
+                   'All names, units and times are fictional; learners may use an invented flat or an invented cup.',
                    'Cumulative question words: chapters 1 to 16. Chapter 16 adds no new question word.'],
 )
 
@@ -558,7 +567,7 @@ EXTRA = dict(
     grammar=['ms-c16-g02', 'ms-c16-g03', 'ms-c16-g04', 'ms-c16-g05', 'ms-c16-g07'],
     patterns=['ms-c16-f01', 'ms-c16-f02', 'ms-c16-f03', 'ms-c16-f06'],
     model=['Fictional model: two short factual messages about small incidents, one to the management office (a key left inside) and one to a colleague (a spill). All names and units are invented:',
-           '«Selamat petang. Saya Mei Ling dari Blok B, unit 12-3. Kunci saya tertinggal di dalam rumah dan pintu terkunci. Saya tidak sengaja terlupa kunci tadi. Boleh tolong hubungi pengawal? Saya menunggu di lobi. Terima kasih.»',
+           '«Selamat petang. Saya Mei Ling dari Blok C, unit 5-2. Kunci saya tertinggal di dalam rumah dan pintu terkunci. Saya tidak sengaja terlupa kunci tadi. Boleh tolong hubungi pengawal? Saya menunggu di lobi. Terima kasih.»',
            '«Encik Tanaka, maaf. Air kopi saya tertumpah di meja dan cawan saya pecah. Saya tidak sengaja. Lantai licin. Boleh tolong ambil tisu? Terima kasih.»',
            'Notice: who and where first, then what happened with a ‹ter-› verb, then «tidak sengaja» if it matters, then one request with «Boleh tolong». The message states facts; it does not blame anyone and gives no advice. / '
            '気づくこと：まずだれがどこで、次に ‹ter-› の動詞で何が起きたか、必要なら «tidak sengaja»、最後に «Boleh tolong» で頼みを一つ書きます。事実だけを書き、だれも責めず、助言もしません。'],
@@ -582,7 +591,7 @@ EXTRA = dict(
            '☐ It states facts only: no blame, no guess about a cause, no advice; an injury is described only by what you can see.',
            '☐ One request with «Boleh tolong …?» and the plain root after «tolong»; the partner can say what is asked of whom.',
            '☐ 事実だけか、責めていないか、頼みが一つか、«hilang» と «tertinggal» の使い分けを確認し、パートナーが質問を一つします。'],
-    answer='Any four to six correct sentences that cover the checklist. Model: «Selamat petang. Saya Mei Ling dari Blok B, unit 12-3. Kunci saya tertinggal di dalam rumah dan pintu terkunci. '
+    answer='Any four to six correct sentences that cover the checklist. Model: «Selamat petang. Saya Mei Ling dari Blok C, unit 5-2. Kunci saya tertinggal di dalam rumah dan pintu terkunci. '
            'Saya tidak sengaja terlupa kunci tadi. Boleh tolong hubungi pengawal? Saya menunggu di lobi. Terima kasih.»',
     key_extra=['Mark for the task first (who and where, what happened, a request), then for form (the ‹ter-› verb, «tidak sengaja» in front of it, «tertinggal» against «hilang», the plain root after «tolong»). '
                'Accept a short «Maaf.» in a first draft but ask for the ‹ter-› verb once in the rewrite; accept the everyday bare root in a first draft («Saya hubungi pengawal») but ask for the written form in the message.',

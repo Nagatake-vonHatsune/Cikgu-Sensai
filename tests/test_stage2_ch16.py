@@ -84,7 +84,7 @@ class Chapter16(unittest.TestCase):
     def pupil_malay(self):
         """Malay lines a learner reads or says: dialogues, listening, drills and keys, pattern examples, reading, writing model, task key and the fast-pack conversation."""
         cfg = ms_c16.CFG
-        out = [s for _, s in cfg['dialogue'] + cfg['variant'] + cfg['listening']]
+        out = [s for _, s in cfg['dialogue'] + cfg['scene_e']['lines'] + cfg['variant'] + cfg['listening']]
         for v in cfg['drills'].values():
             out += v if isinstance(v, list) else [v]
         for v in cfg['drill_keys'].values():
@@ -205,9 +205,8 @@ class Chapter16(unittest.TestCase):
         english = ' '.join(self.all_lines(('ms-c16',))).lower()
         for banned in ('take medicine', 'painkiller', 'ibuprofen', 'paracetamol', 'put ice', 'apply ', 'you should rest', 'it is a sprain', 'it is broken bone'):
             self.assertNotIn(banned, english, banned)
-        d = ms_c16.DIALOGUE
-        clinic = [(sp, s) for sp, s in d[10:] ]
-        receptionist = [s for sp, s in clinic if sp == 'Receptionist']
+        d = ms_c16.CLINIC
+        receptionist = [s for sp, s in d if sp == 'Receptionist']
         self.assertEqual(receptionist, ['Encik tercedera? Di mana yang sakit?', 'Encik perlu daftar dulu. Ini borang.', 'Boleh. Sila tunggu sekejap.'])
         self.assertIn('Tangan saya bengkak dan ada luka kecil. Lutut saya pun lebam.', [s for _, s in d])
         notes = ' '.join(ms_c16.CFG['teacher_notes'])
@@ -215,9 +214,30 @@ class Chapter16(unittest.TestCase):
             self.assertIn(w, notes, w)
         self.assertIn('Do not role-play any medical advice', ms_c16.CFG['plan']['E_roleplay'])
 
+    def test_fixes_of_13_nov_terjatuh_aspect_unit_superlatives(self):
+        """Sam's chapter 16 answers and Claude's review of 13 Nov 2026: «terjatuh» takes «ke» for the movement; an accident ter- verb takes no «sudah» or «sedang»;
+        Mei Ling lives in Block C, unit 5-2; a superlative after a noun takes «yang»."""
+        text = ' '.join(self.all_lines())
+        self.assertNotRegex(text, r'terjatuh di')
+        self.assertIn('Cawan itu terjatuh ke lantai.', text)
+        self.assertIn('Telefon saya terjatuh ke lantai.', text)
+        self.assertIn('Air kopi tertumpah di meja.', text)  # the Kata-Kata line stays
+        self.assertNotRegex(text, r'(?:sudah|sedang) (?:ter(?:tinggal|lupa|lepas|tidur|jatuh|silap|langgar|gelincir|sangkut|tumpah|cedera|bakar|putus))')
+        m = self.comp('ms-c16', 'Drill', 'markers')
+        self.assertIn('Kunci saya masih di dalam rumah.', ' '.join(m['key']))
+        self.assertIn('Mei Ling masih tersangkut di jalan yang sesak.', ' '.join(m['key']))
+        notes = ' '.join(ms_c16.CFG['teacher_notes'])
+        self.assertIn('An accident ter- verb rarely takes «sudah» or «sedang»; «masih» and «baru» are fine', notes)
+        self.assertNotRegex(text, r'Mei Ling[^.]*Blok B|Blok B[^.]*Mei Ling|unit 8-5')
+        self.assertIn('Saya Mei Ling dari Blok C, unit 5-2.', text)
+        self.assertEqual(ms_c16.VARIANT[2], ('Mei Ling', 'Blok C, unit 5-2. Saya terlupa kunci tadi.'))
+        for ex in ('Beg ini yang terbesar.', 'Telefon itu yang termurah, tetapi', 'Telefon ini yang terbaik?'):
+            self.assertIn(ex, text, ex)
+        self.assertNotRegex(text, r'(?:Beg|Telefon|Bas) (?:ini|itu) (?:termurah|terbesar|terbaik)')
+
     def test_casual_turns_and_no_ruling_style(self):
         cfg = ms_c16.CFG
-        casual = ' '.join(s for _, s in cfg['dialogue'] + cfg['variant'] + cfg['listening']).lower()
+        casual = ' '.join(s for _, s in cfg['dialogue'] + cfg['scene_e']['lines'] + cfg['variant'] + cfg['listening']).lower()
         for banned in ('ialah', 'keputusan', 'baiklah', 'begini'):
             self.assertNotRegex(casual, r'(?<![a-z])' + banned + r'(?![a-z])', banned)
 
@@ -235,7 +255,7 @@ class Chapter16(unittest.TestCase):
         self.assertNotRegex(text, r'(?<![a-z])dari (?:doktor|kedai|bank|bos|syarikat|kawan|pengurus|Puan|Encik|Cik)')
         # The bare root in the dialogue (Kata-Kata's own line) and the meN- form in the pattern models, drills and keys.
         self.assertIn('Saya hubungi pejabat pengurusan.', ' '.join(s for _, s in ms_c16.CFG['dialogue']))
-        self.assertIn('Encik perlu daftar dulu.', ' '.join(s for _, s in ms_c16.CFG['dialogue']))
+        self.assertIn('Encik perlu daftar dulu.', ' '.join(s for _, s in ms_c16.CFG['scene_e']['lines']))
         self.assertIn('Saya mencari', ' '.join(ex for p in ms_c16.CFG['patterns'] for ex in p[2]))
         self.assertNotRegex(pupil, r'(?<![a-z])(?:tangguhkan|batalkan)(?![a-z])')
         # the written reading and the writing model use the meN- form
@@ -253,18 +273,23 @@ class Chapter16(unittest.TestCase):
         self.assertEqual(len(lines), 17)
         for line in lines:
             self.assertIn(line['ms'], text, line['id'])
-        model = ' '.join(s for _, s in ms_c16.DIALOGUE)
+        model = ' '.join(s for _, s in ms_c16.DIALOGUE + ms_c16.CLINIC)
         for line in lines:
             self.assertIn(line['ms'], model, line['id'])
         plan = ' '.join(self.lines(self.comp('ms-c16', 'Teaching plan')))
         self.assertIn('ms-c16-s01', plan)
-        self.assertIn('ms-c16-s17', plan)
-        self.assertEqual({sp for sp, _ in ms_c16.DIALOGUE}, {'Tanaka', 'Guard', 'Mei Ling', 'Receptionist'})
-        self.assertEqual(len(ms_c16.DIALOGUE), 16)
-        # Turn 11 joins s11 and s12 (both Tanaka); the rest follow one to one.
-        self.assertEqual(ms_c16.DIALOGUE[10][1], lines[10]['ms'] + ' ' + lines[11]['ms'])
-        self.assertEqual([s for _, s in ms_c16.DIALOGUE[:10]], [l['ms'] for l in lines[:10]])
-        self.assertEqual([s for _, s in ms_c16.DIALOGUE[11:]], [l['ms'] for l in lines[12:]])
+        self.assertIn('ms-c16-s12 to s17', plan)
+        self.assertEqual({sp for sp, _ in ms_c16.DIALOGUE + ms_c16.CLINIC}, {'Tanaka', 'Guard', 'Mei Ling', 'Receptionist'})
+        # Sam (13 Nov 2026): no turn is joined across a scene change. The model is s01 to s11 (the office scene), one line to a turn;
+        # the clinic scene s12 to s17 is its own short dialogue in Block E.
+        self.assertEqual(len(ms_c16.DIALOGUE), 11)
+        self.assertEqual([s for _, s in ms_c16.DIALOGUE], [l['ms'] for l in lines[:11]])
+        self.assertEqual([s for _, s in ms_c16.CLINIC], [l['ms'] for l in lines[11:]])
+        self.assertEqual(ms_c16.CFG['scene_e']['lines'], ms_c16.CLINIC)
+        plan_text = ' '.join(n + ' ' + ' '.join(items) for n, items, _ in self.comp('ms-c16', 'Teaching plan')['sections'])
+        self.assertIn('Block E scene dialogue', plan_text)
+        self.assertIn('Encik perlu daftar dulu. Ini borang.', plan_text)
+        self.assertNotIn('Hati-hati, lantai licin. Selamat pagi.', ' '.join(self.all_lines()))
         # The three scenes of the brief: locked out with the key inside, Mei Ling late with the spill and the cup, Tanaka's slip and the clinic.
         for w in ('kunci saya tertinggal di dalam rumah', 'pintu terkunci', 'terlepas bas', 'tersangkut', 'tertumpah', 'pecah', 'tergelincir', 'tercedera', 'bengkak', 'luka kecil', 'lebam'):
             self.assertIn(w, model.lower(), w)
