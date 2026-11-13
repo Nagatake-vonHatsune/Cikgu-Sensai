@@ -2,6 +2,12 @@
 
 Missing ledger entries are gaps, never waivable lesson violations. No reference
 or lesson text is modified. Structural/scope errors cannot be waived.
+
+Stage-aware rules (Stage 2 build step 2): affix gates, whole-word exemptions,
+look-alike roots, register pairs, particles and disallowed forms come from
+curriculum/stage-rules.json, which Kata-Kata's affix guard reads too. A ber-,
+meN-, -kan, -i or accident ter- form passes only when every gate of its families
+is open in the unit's chapter and its own ledger row is placed at or before it.
 """
 import csv
 import io
@@ -13,10 +19,7 @@ from collections import defaultdict,Counter
 from pathlib import Path
 ROOT=Path(__file__).parent
 EXCEPTIONS='curriculum/legacy-exceptions.json'
-INDONESIAN={'nomor':'nombor','bis':'bas','apel':'epal','setelah':'selepas','beda':'beza','mobil':'kereta','toilet':'tandas','wc':'tandas','karcis':'tiket','toko':'kedai','uang':'wang / duit'}
-REGISTER={'nak':'mahu','tak':'tidak','dah':'sudah','ni':'ini','tu':'itu','sikit':'sedikit','saja':'sahaja','tapi':'tetapi','macam mana':'bagaimana','macam tu':'seperti itu'}
-# Exact copy of the pinned upstream guard's root allow-list, plus Sam's local file.
-ROOTS=set('berat bersih belok belakang belas belum beli besar bebas beliau berus merah meja meter mesyuarat mereka mendung menu belanja menang'.split())
+RULES_FILE='curriculum/stage-rules.json'
 PROPER=set('a b c d emi farah osaka jepun pj shah alam kl sentral pasar seni aki mei qr rm am pm'.split())
 NUMBERS=set('sifar kosong satu dua tiga empat lima enam tujuh lapan sembilan sepuluh sebelas belas puluh ratus ribu juta'.split())
 PROPER_FILE='curriculum/malay-proper-nouns.json'
@@ -27,27 +30,60 @@ def read_json(path):return json.loads(Path(path).read_text())
 def key(unit,check,term):return '|'.join((unit,check,term))
 def chapter_id(s):
  m=re.search(r'ms-c(\d+)',s or '');return int(m[1]) if m else None
+# Gates, whole words, look-alike roots, register pairs and disallowed forms are shared with Kata-Kata's
+# affix guard through one data file (its "format" key documents it).
+RULES=read_json(ROOT/RULES_FILE)
+GATES={g['family']:g['chapter'] for g in RULES['affix_gates']}
+INDONESIAN=dict(RULES['disallowed_forms'])
+REGISTER={p['spoken']:p['standard'] for p in RULES['register_pairs']}
+ROOTS=set(RULES['lookalike_roots']['kata_kata_allow_list'].split())|set(RULES['lookalike_roots']['sam_local'])
+# Ledger "Affix tag" tokens that name a gated family ('ter-' is split into superlative or accident later).
+TAG_FAMILY={'ber-':'ber-','meN-':'meN-','-kan':'-kan','-i':'-i','ter-':'ter-','di-':'di-'}
+# Notes in the place column that never place a row ("moved from Ch2", "reviewed in Ch7", ...).
+PLACE_NOTE=re.compile(r'(?:moved from|reviewed in|reused|was|waits for)\s+Ch\s*\d+',re.I)
+def placed_chapter(place):
+ """Chapter from the ledger place column only; notes and retired rows never place a row."""
+ if place.strip().lower().startswith('retired'):return None
+ found=[int(x) for x in re.findall(r'Ch\s*(\d+)',PLACE_NOTE.sub('',place))]
+ return min(found) if found else None
+# Reverse meN- and other prefixes (nasal changes undone) to find a candidate base.
+UNPREFIX=[('menge',['']),('meny',['s']),('meng',['','k']),('mem',['','p']),('men',['','t']),('me',['']),('di',['']),('ber',['']),('be',['']),('ter',[''])]
 
 class Checker:
  def __init__(self,root=ROOT):
   self.root=Path(root);self.entries=defaultdict(list);self.cards={};self.chunks=[]
   for row in csv.DictReader(io.StringIO((self.root/'curriculum/reference/katakata/malay-ledger.csv').read_text())):
-   chapters=[int(x) for x in re.findall(r'ms-c(\d+)-',row['Kata-Kata (card IDs)'])]
-   places=[int(x) for x in re.findall(r'Ch\s*(\d+)',row['Kata-Kata place'])]
-   row['_chapter']=min(chapters+places) if chapters+places else None
+   # Placement is read strictly from the place column (stage-rules.json, "stage_aware_rule").
+   row['_chapter']=placed_chapter(row['Kata-Kata place'])
    for form in re.sub(r'\([^)]*\)','',row['Malay']).split('/'):
     if norm(form):self.entries[norm(form)].append(row)
-  for n in range(1,10):
-   pack=read_json(self.root/f'curriculum/reference/katakata/c{n:02}.json')
+  # Every pinned Kata-Kata chapter file, not a fixed c01-c09 range.
+  for path in sorted((self.root/'curriculum/reference/katakata').glob('c[0-9][0-9].json')):
+   n=int(path.stem[1:]);pack=read_json(path)
    for c in pack['cards']:
     for v in c['term'].split(' / '):
      self.cards.setdefault(norm(v),[]).append(c)
      if c['affix_tag'] in ['chunk','chunk*','lex'] or c.get('recognise_only'):self.chunks.append((norm(v),n))
-  self.roots=ROOTS|set(read_json(self.root/'curriculum/malay-roots.json')['roots'])
+  # Ledger rows tagged chunk, chunk* or lex are whole words or phrases at their own chapter, like chunk cards.
+  self.chunks+=sorted({(t,r['_chapter']) for t,rows in self.entries.items() for r in rows
+                       if r['Affix tag'] in ['chunk','chunk*','lex'] and r['_chapter'] is not None and r['Review status']!='Retired'})
+  rules=read_json(self.root/RULES_FILE)
+  self.gates={g['family']:g['chapter'] for g in rules['affix_gates']}
+  self.disallowed=dict(rules['disallowed_forms'])
+  self.pairs=[(p['spoken'],p['standard'],p['from_chapter']) for p in rules['register_pairs']]
+  self.particles=[p['form'] for p in rules['particles']]
+  self.not_particle={w for p in rules['particles'] for w in p.get('not_particle',[])}
+  self.whole_words=[(w['form'],w['chapter']) for w in rules['whole_words']]
+  self.superlatives=set(rules['ter_superlatives'])
+  lookalike=rules['lookalike_roots']
+  self.roots=set(lookalike['kata_kata_allow_list'].split())|set(lookalike['sam_local'])|set(read_json(self.root/'curriculum/malay-roots.json')['roots'])
+  mentions=self.root/MENTIONS_FILE
+  self.mentions={norm(k):v for k,v in read_json(mentions)['mentions'].items()} if mentions.exists() else {}
   # Names of people, places and organisations are not vocabulary (step 4 list).
   names=read_json(self.root/PROPER_FILE)['names'] if (self.root/PROPER_FILE).exists() else []
   self.proper=PROPER|{t for name in names for t in tokens(name)}
   self.maxlen=max(len(t.split()) for t in self.entries)
+  self.known=set(self.entries)|set(self.cards)|self.roots
  def compositional(self,term,parts):
   return all(r['_chapter'] is None for r in self.entries[term]) and all(t in self.entries for t in parts)
  def known_by(self,term,ch):
@@ -56,18 +92,51 @@ class Checker:
  def derivation(self,w,ch):
   """Productive forms only after their rule; root is checked separately."""
   if ch is None:return None
-  if w.startswith('ke') and w[2:] in NUMBERS and ch>=3:return (w[2:],'ke- ordinal')
-  if w.endswith('nya') and len(w)>4 and ch>=2 and (w[:-3] in self.entries or w[:-3] in self.cards or w=='ceritanya'):return (w[:-3],'-nya')
-  if w.endswith('kah') and len(w)>4 and ch>=2:return (w[:-3],'-kah')
+  g=self.gates
+  if w.startswith('ke') and w[2:] in NUMBERS and ch>=g['ke- ordinal']:return (w[2:],'ke- ordinal')
+  if w.endswith('nya') and len(w)>4 and ch>=g['-nya'] and (w[:-3] in self.entries or w[:-3] in self.cards or w=='ceritanya'):return (w[:-3],'-nya')
+  if w.endswith('kah') and len(w)>4 and ch>=g['-kah']:return (w[:-3],'-kah')
   if w.startswith('se') and len(w)>3:
    base=w[2:]
    # Chapter 4 time nouns and chapter 8 counters follow their own base placement.
    if self.noun(base):return (base,'se- noun; base chapter checked separately')
-   if ch>=6 and self.known_by(base,ch) and any(c['pos']=='adj' for c in self.cards.get(base,[])):return (base,'se- comparison')
-  if w.startswith('di') and ch>=9 and self.known_by(w[2:],ch):return (w[2:],'di- passive')
-  if w.startswith('ter') and ch>=6 and self.known_by(w[3:],ch) and any(c['pos']=='adj' for c in self.cards.get(w[3:],[])):return (w[3:],'ter- superlative')
-  if w.endswith('an') and ch>=2 and self.known_by(w[:-2],ch) and any(c['pos']=='v' for c in self.cards.get(w[:-2],[])):return (w[:-2],'-an nominalisation')
+   if ch>=g['se- comparison'] and self.known_by(base,ch) and any(c['pos']=='adj' for c in self.cards.get(base,[])):return (base,'se- comparison')
+  if w.startswith('di') and ch>=g['di-'] and self.known_by(w[2:],ch):return (w[2:],'di- passive')
+  if w.startswith('ter') and ch>=g['ter- superlative'] and self.superlative(w) and self.known_by(w[3:],ch):return (w[3:],'ter- superlative')
+  if w.endswith('an') and ch>=g['-an'] and self.known_by(w[:-2],ch) and any(c['pos']=='v' for c in self.cards.get(w[:-2],[])):return (w[:-2],'-an nominalisation')
   return None
+ def superlative(self,w):
+  """Chapter 6 superlative: a listed whole word, or ter- + an adjective with no ledger row of its own.
+  Any other ter- word (tertinggal, terlepas) is the chapter 16 accident family."""
+  if w in self.superlatives:return True
+  return w.startswith('ter') and w not in self.entries and any(c['pos']=='adj' for c in self.cards.get(w[3:],[]))
+ def bases(self,w):
+  out={w}
+  for p,adds in UNPREFIX:
+   if w.startswith(p) and len(w)-len(p)>=3:out.update(a+w[len(p):] for a in adds)
+  return out
+ def is_base(self,b):return len(b)>=3 and b in self.known
+ def shape_families(self,w):
+  """Families read from spelling alone (stage-rules.json, format.shape_tests)."""
+  f=set()
+  if w.startswith('ber') or re.match(r'^be[kl]',w):f.add('ber-')
+  if re.match(r'^me[^aeiou\W]',w):f.add('meN-')
+  if w.endswith('kan') and len(w)>5 and any(self.is_base(b) for b in self.bases(w[:-3])):f.add('-kan')
+  if w.endswith('i') and len(w)>4 and re.match(r'^(me|di)',w) and any(self.is_base(b[:-1]) for b in self.bases(w)-{w} if b.endswith('i')):f.add('-i')
+  if w.startswith('ter') and len(w)>5 and self.is_base(w[3:]):f.add('ter-')
+  return f
+ def families(self,w,ch):
+  """Gated Stage 2 families of one word (stage-rules.json, format.family_resolution)."""
+  if w in self.roots or any(form==w and (ch is None or ch>=first) for form,first in self.whole_words):return set()
+  tags=[t for r in self.entries.get(w,[]) for t in r['Affix tag'].split()]
+  if any(t!='root' for t in tags):fam={TAG_FAMILY[t] for t in tags if t in TAG_FAMILY}
+  else:fam=self.shape_families(w)
+  if 'ter-' in fam:
+   fam.discard('ter-')
+   if not self.superlative(w):fam.add('ter- accident')
+  return fam
+ def placed_by(self,w,ch):
+  return any(r['_chapter'] is not None and r['_chapter']<=ch and r['Review status']!='Retired' for r in self.entries.get(w,[]))
  def inspect(self,segments):
   violations={};gaps={};derived=[];unplaced=set();seen_standard=set();labelled=set()
   def add(dst,s,check,term,reason):
@@ -79,33 +148,52 @@ class Checker:
   for s in segments:
    text=norm(s['text']);ts=tokens(s['text']);ch=s['chapter'];seq=s['unit'] if ch is None else 'stage'
    if ch is None:unplaced.add(s['unit'])
-   for bad,good in INDONESIAN.items():
-    if bad in ts:add(violations,s,'malaysian-form',bad,'Charter-listed form; use '+good)
+   # Disallowed (Indonesian) forms, as whole words and inside hyphenated words. A ‹…› mention may quote
+   # one only as a "do not use" note listed with its source in malay-mentions.json.
+   parts=set(ts)|{p for t in ts for p in t.split('-')}
+   note=s['kind']=='mention' and 'do not use' in self.mentions.get(text,'').lower()
+   for bad,good in self.disallowed.items():
+    if bad in parts and not note:add(violations,s,'malaysian-form',bad,'Disallowed (Indonesian) form; use '+good)
    # A mention (root or standard form quoted from a Kata-Kata note) is not taught
    # vocabulary: only the Malaysian-form check applies; its allow-list is checked by the suite builder.
    if s['kind']=='mention':continue
-   for spoken,standard in REGISTER.items():
+   for spoken,standard,first in self.pairs:
+    if ch is not None and ch<first:continue
     if re.search(r'(?<!\w)'+re.escape(spoken)+r'(?!\w)',text):
      if (seq,standard) not in seen_standard:add(violations,s,'register',spoken,'Standard '+standard+' has no earlier target-language teaching occurrence.')
      if (seq,spoken) not in labelled and not re.search(r'\bspoken\b',s.get('source_text',''),re.I):add(violations,s,'register',spoken,'Spoken form lacks an explicit spoken label in prior teaching.')
+   # R4: «lah» and «kan» are recognition and optional production, so no answer key may require them.
+   if s['kind']=='test' and s['source'].endswith('|answer_key'):
+    for w in ts:
+     for particle in self.particles:
+      if w==particle or (particle=='lah' and w.endswith('lah') and w not in self.entries and w not in self.not_particle and w[:-3] in self.known):
+       add(violations,s,'register',particle,'Particle «'+particle+'» is optional production (R4); a test answer key must not require it.')
    # Do not turn a phrase exemption into a global exemption for its individual words.
-   exempt=set()
-   for phrase,first in self.chunks:
+   exempt=set();g=self.gates
+   for phrase,first in self.chunks+self.whole_words:
     if ch is not None and first<=ch and re.search(r'(?<!\w)'+re.escape(phrase)+r'(?!\w)',text):exempt.update(tokens(phrase))
    for w in set(ts)-self.proper:
     if ch is not None and w not in exempt:
      early=[]
-     if ch<3 and w.startswith('ke') and w[2:] in NUMBERS:early.append('ke- ordinal before chapter 3')
-     if ch<2 and w.endswith('nya') and (w[:-3] in self.entries or w=='ceritanya'):early.append('-nya before chapter 2')
-     if ch<2 and w.endswith('kah') and w[:-3] in self.entries:early.append('-kah before chapter 2')
-     if ch<9 and w.startswith('di') and w[2:] in self.entries and any(c['pos']=='v' for c in self.cards.get(w[2:],[])):early.append('di- passive before chapter 9')
-     if ch<6 and w.startswith('ter') and any(c['pos']=='adj' for c in self.cards.get(w[3:],[])):early.append('ter- superlative before chapter 6')
+     if ch<g['ke- ordinal'] and w.startswith('ke') and w[2:] in NUMBERS:early.append(f"ke- ordinal before chapter {g['ke- ordinal']}")
+     if ch<g['-nya'] and w.endswith('nya') and (w[:-3] in self.entries or w=='ceritanya'):early.append(f"-nya before chapter {g['-nya']}")
+     if ch<g['-kah'] and w.endswith('kah') and w[:-3] in self.entries:early.append(f"-kah before chapter {g['-kah']}")
+     if ch<g['di-'] and w.startswith('di') and w[2:] in self.entries and any(c['pos']=='v' for c in self.cards.get(w[2:],[])):early.append(f"di- passive before chapter {g['di-']}")
+     if ch<g['ter- superlative'] and w.startswith('ter') and any(c['pos']=='adj' for c in self.cards.get(w[3:],[])):early.append(f"ter- superlative before chapter {g['ter- superlative']}")
      for reason in early:add(violations,s,'affix',w,reason)
     derived_form=self.derivation(w,ch)
     affix_base=derived_form[0] if derived_form else w
     if affix_base not in self.roots and affix_base not in exempt:
-     if ch is not None and ch<10 and (affix_base.startswith('ber') or re.match(r'^be[kl]',affix_base)):add(violations,s,'affix',w,'ber-/be- shaped form before chapter 10; no taught chunk or root exemption.')
-     if ch is not None and ch<11 and re.match(r'^me[^aeiou\W]',affix_base):add(violations,s,'affix',w,'me- shaped form before chapter 11; no taught chunk or root exemption.')
+     if ch is not None and ch<g['ber-'] and (affix_base.startswith('ber') or re.match(r'^be[kl]',affix_base)):add(violations,s,'affix',w,f"ber-/be- shaped form before chapter {g['ber-']}; no taught chunk or root exemption.")
+     if ch is not None and ch<g['meN-'] and re.match(r'^me[^aeiou\W]',affix_base):add(violations,s,'affix',w,f"me- shaped form before chapter {g['meN-']}; no taught chunk or root exemption.")
+    # Stage-aware rule (stage-rules.json): every gate of the word's families is open, and the form's own
+    # ledger row (or, for a Stage 1 derivation, its base's row) is placed at or before this chapter.
+    if ch is not None and w not in exempt and affix_base not in exempt:
+     fam=self.families(affix_base,ch)
+     for f in sorted(fam):
+      if ch<g[f]:add(violations,s,'affix',w,f'{f} form before chapter {g[f]}.')
+     if fam and all(ch>=g[f] for f in fam) and not (self.placed_by(w,ch) or (derived_form and self.placed_by(affix_base,ch))):
+      add(violations,s,'affix',w,f'{"/".join(sorted(fam))} form has no ledger row placed at or before chapter {ch}.')
    i=0
    while i<len(ts):
     if ts[i] in self.proper:i+=1;continue
@@ -132,7 +220,7 @@ class Checker:
     i+=size
    # Only vocabulary/pattern/model teaching counts, never rubric or a task.
    if s['kind'] in ['vocabulary','model']:
-    for spoken,standard in REGISTER.items():
+    for spoken,standard,first in self.pairs:
      if re.search(r'(?<!\w)'+re.escape(standard)+r'(?!\w)',text):seen_standard.add((seq,standard))
      if spoken in text and re.search(r'\bspoken\b',s.get('source_text',''),re.I):labelled.add((seq,spoken))
   return {'violations':violations,'ledger_gaps':gaps,'derivations':list({json.dumps(x,sort_keys=True):x for x in derived}.values()),'unplaced_units':sorted(unplaced)}

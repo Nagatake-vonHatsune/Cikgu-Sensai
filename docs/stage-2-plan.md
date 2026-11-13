@@ -694,3 +694,7 @@ Claude wrote the approved rows to the ledger sheet and regenerated both Cikgu Se
 - **One exception, for Sam to confirm:** L-0657 «tempat kerja» was not placed (see unit 10A), so the ledger holds 233 Stage 2 core forms (56 + 177).
 - **Knock-on fixes the build required:** six lines of the legacy chapter 12 pack "Ambil bungkusan di lobi" no longer use «ni», «jadi», «perlu» or «macam tu» before their chapters (the review record `curriculum/malay-text-scope.json` and the two legacy-content tests list exactly those edits); «Bernama» and English «label» were added to the English homographs, since both are now ledger forms.
 - Each batch was read back from the sheet and compared cell by cell with the plan: no other cell changed.
+
+## Build step 2: stage-aware checks (13 Nov 2026)
+
+Section 3's "Required implementation" is built: gates, whole words, register pairs, particles and disallowed forms are in `curriculum/stage-rules.json`, shared with Kata-Kata, with 69 shared cases in `curriculum/stage-rules-fixtures.json`. Stage 1 results are unchanged. Report and three points for Sam: [`docs/STAGE-2-step2-report.md`](STAGE-2-step2-report.md).

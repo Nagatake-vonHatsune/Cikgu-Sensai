@@ -2,7 +2,32 @@
 
 Update this file at the end of every session. The next builder (ChatGPT or Claude) starts here, after the charter and `AGENTS.md`.
 
-## Latest session: Stage 2 build step 1, the ledger (13 Nov 2026, Claude)
+## Latest session: Stage 2 build step 2, stage-aware language checks (13 Nov 2026, Claude)
+
+- **Authorised scope:** Sam's build step 2 instruction (13 Nov 2026): make the Malay checks stage-aware; no chapter content, no ledger edits; publication to main pre-approved when the checks pass. Started at `9474aeb`. Report: `docs/STAGE-2-step2-report.md`.
+- **Done:** `language_checks.py` now reads its gates, whole words, look-alike roots, register pairs, particles and disallowed forms from the new shared file `curriculum/stage-rules.json`. Gates: ber- 10, meN- 11, -kan and -i 12, accident ter- 16; a gated form also needs its own ledger row placed at or before the unit's chapter. Placement is read strictly from the place column; every pinned Kata-Kata chapter file is loaded. New R3 register pairs (tak apa, tak tahan, set, kat), the R4 particle rule (no test answer key may require «lah» or «kan») and the new disallowed forms (berbicara, perbaiki, musik, film, olahraga, apotek, kantor, bersepeda, antre, berwisata, kecelakaan; mobil and uang already listed), allowed only in a ‹…› "do not use" mention.
+- **Stage 1 unchanged:** old and new checkers give identical violations, reasons, gaps and derivations on all 13,586 checked segments. `python3 build.py` passes (335 packs, 2,140 pages; 22 violations, all in the baseline of 30); all **165** tests pass (10 new in `tests/test_stage_rules.py`, which also runs the 69 shared cases in `curriculum/stage-rules-fixtures.json`).
+- **For Sam to confirm** (details in the report): (1) the R3 pairs apply from chapter 10, because unit 5 already shows «tak apa» (L-0940, Dunia) before «tidak mengapa» (chapter 17); (2) saku, darurat, berdagang, berteman and menikah were not made disallowed forms, as they are also Malaysian; (3) stative ter- words («terbuka» alone) are gated at 16 unless you approve them as whole words.
+- **Next:** build step 3 in Kata-Kata (packs c10 to c18 and the stage-aware affix guard reading `curriculum/stage-rules.json`, with chapter-scoped exemptions and the shared fixtures), then step 4 here. When a Stage 2 unit is built, register it in `curriculum/reauthored-units.json`, and add any ‹…› "do not use" note to `curriculum/malay-mentions.json` with its source.
+
+### Shared stage rules: `curriculum/stage-rules.json` (format v1)
+
+One JSON file for Cikgu Sensai and Kata-Kata; its `format` key is the full specification. In short:
+
+| Key | Contents |
+| --- | --- |
+| `affix_gates` | `{family, chapter, ledger_tags, detect, enforced_by, note}` for every affix rule, Stage 1 (-nya, -kah, -an 2; ke- ordinal 3; ter- superlative and se- comparison 6; se- + classifier 8; di- 9) and Stage 2 (ber- 10, meN- 11, -kan and -i 12, ter- accident 16) |
+| `stage_aware_rule`, `family_resolution`, `shape_tests` (in `format`) | How a word's families are found (ledger tag first, else spelling) and when it passes (all gates open and its own row placed at or before the chapter) |
+| `whole_words` | `{form, chapter, ledger_id, reason}`: lexicalised or allow-listed words that look affixed, whole words at their own chapter (a test checks each chapter against the ledger) |
+| `ter_superlatives` | termurah, terbesar, terbaik, tercantik (chapter 6; never open accident ter-) |
+| `lookalike_roots` | The Kata-Kata allow-list and Sam's local list (must equal `curriculum/malay-roots.json`) |
+| `register_pairs` | `{spoken, standard, from_chapter, decision}` |
+| `particles` | «lah» and «kan»: recognition only in tests (R4) |
+| `disallowed_forms` | Indonesian form → Malaysian form, with sources in `disallowed_forms_sources` |
+
+`curriculum/stage-rules-fixtures.json` holds the shared cases (segments, expected pass or fail, the failing check). Change either file only with Sam's approval, recorded in the ledger Journal or here.
+
+## Previous session: Stage 2 build step 1, the ledger (13 Nov 2026, Claude)
 
 - **Authorised scope:** Sam asked Claude to do build step 1 in this session: Journal entries for the 13 Nov answers first, then the new rows and placements, reading the sheet back after each batch, then regenerate the copies, build, test and push.
 - **Sheet:** Journal rows 130 to 132 (Sam's answers) and 133 to 145 (the changes). Ledger rows **L-1089 to L-1265** (177 new, chapters 10 to 17, Draft, Action "KD4 check"); 56 existing rows placed as Stage 2 core and L-0604, L-0608, L-0667, L-0678 as recognition; L-0623 narrowed to "Handbag". Written in three new-row batches and one placement batch; after each, the whole Ledger tab was read back and compared cell by cell with the plan (zero unplanned differences). Before writing, a local dry run with the planned ledger found the problems below, so they were fixed before the sheet was touched.
