@@ -1119,3 +1119,88 @@ STAGE2_PACKS.append(dict(
     course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 14)], prerequisite_units=[],
     prereq_grammar=['ms-c13-g02', 'ms-c13-g04', 'ms-c11-g02', 'ms-c08-g02'],
     word_scope=C14_WORDS, components=chapter14))
+
+
+C15_WORDS = ['L-1219', 'L-1233', 'L-1224', 'L-0623', 'L-0591', 'L-1234', 'L-0618', 'L-1223', 'L-1228', 'L-1222', 'L-1220',
+             'L-1272', 'L-1221', 'L-1225', 'L-1226', 'L-1227', 'L-1229', 'L-1230', 'L-1231', 'L-1232', 'L-1271']
+
+
+def chapter15(ledger):
+    dialogue = [
+        ('Tanaka', '«Maaf, ini kaunter barang hilang? Saya mencari dompet saya.»'),
+        ('Staff', '«Ya, encik. Dompet yang mana? Apa warna dompet itu?»'),
+        ('Tanaka', '«Hitam. Dompet kulit. Ada zip dan satu poket kecil.»'),
+        ('Staff', '«Ada jenama?»'),
+        ('Tanaka', '«Saya tidak ingat jenamanya. Bentuknya segi empat, seperti kotak kecil.»'),
+        ('Staff', '«Seperti ini?»'),
+        ('Tanaka', '«Ya, seperti itu, tetapi ada zip.»'),
+        ('Staff', '«Ada dua dompet hitam di sini. Yang mana satu? Yang ada zip atau yang tidak ada zip?»'),
+        ('Tanaka', '«Yang ada zip. Yang itu! Kad saya ada di dalam, tetapi pasport saya tidak ada.»'),
+        ('Staff', '«Betul, ada kad encik di dalam. Ini dompet encik.»'),
+        ('Tanaka', '«Terima kasih banyak! Encik Rahman, tetamu dari Jepun sudah sampai di stesen.»'),
+        ('Rahman', '«Saya tidak tahu siapa dia. Lelaki yang mana?»'),
+        ('Tanaka', '«Lelaki yang memakai cermin mata dan baju berjalur. Dia dengan seorang perempuan yang memakai topi. Mereka membawa beg yang ada tali panjang.»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=['ms-c15-g02', 'ms-c15-g03', 'ms-c15-g04', 'ms-c15-g05', 'ms-c15-g06', 'ms-c15-g07', 'ms-c15-g08', 'ms-c15-g09'],
+        patterns=['ms-c15-f01', 'ms-c15-f02', 'ms-c15-f03', 'ms-c15-f04', 'ms-c15-f05', 'ms-c15-f06'],
+        goal='Say that something is lost, describe a thing or a person with «yang», colour and shape, and say which one.',
+        explain=('第15章速習：45分で基本の21語、«___ saya hilang»、«yang» での説明、«berwarna»・«seperti»・«Yang mana satu?»、«memakai» を練習し、遺失物の窓口と駅の場面を演じ、残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 15 in one 45-minute session: 21 core words, «___ saya hilang», descriptions with «yang», «berwarna», «seperti» and «Yang mana satu?», and «memakai»; '
+                 'then the scene at the lost-property counter and the station, and self-study in Kata-Kata. All names and items are fictional.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can say that something of mine is lost with «___ saya hilang». / «___ saya hilang» で自分の物がなくなったと言える。',
+                'I can describe a thing or a person with «yang», «ada» and «memakai». / «yang»・«ada»・«memakai» で物や人を説明できる。',
+                'I can give a colour and a shape with «berwarna», «bentuknya» and «seperti». / «berwarna»・«bentuknya»・«seperti» で色と形を言える。',
+                'I can say which one with «Yang mana satu? Yang ___ atau yang ___?». / «Yang mana satu? Yang ___ atau yang ___?» でどれかを言える。'], 'opener'),
+            ('Core words · 基本の21語', core(ledger, C15_WORDS) +
+             ['The full course adds the revision words of the whole unit and the review block after chapter 15.'], 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · ___ «saya hilang.»  e.g. «Dompet saya hilang.» / «Beg tangan saya hilang di stesen.»',
+                '2 · «Saya mencari» ___ «yang ada» ___ «.»  e.g. «Saya mencari beg yang ada zip.» / «Lelaki yang memakai cermin mata.»',
+                '3 · «Beg itu berwarna» ___ «dan ada» ___ «.»  e.g. «Beg itu berwarna hitam dan ada tali panjang.» / «Dompet kulit. Ada zip dan satu poket kecil.»',
+                '4 · «Bentuknya» ___ «, seperti» ___ «.»  e.g. «Bentuknya segi empat, seperti kotak.» / «Ya, seperti itu, tetapi ada zip.»',
+                '5 · «Yang mana satu? Yang» ___ «atau yang» ___ «?»  e.g. «Yang mana satu? Yang ada zip atau yang tidak ada zip?» / «Yang itu! Yang ada zip.»',
+                'Remember: say the noun first and the description after it: «beg yang ada zip» (a clause needs «yang»); one adjective can follow the noun by itself («dompet hitam»). '
+                '«hilang» is lost (you cannot find it), and «memakai» covers glasses, clothes, a hat and shoes. «seperti» is standard; everyday speech says «macam».',
+                '名詞が先、説明があと：«beg yang ada zip»（節には «yang» が要ります）。形容詞一つなら名詞のすぐあとに置けます（«dompet hitam»）。'
+                '«hilang» は見つからないこと、«memakai» はめがね・服・帽子・靴に使います。«seperti» は標準語で、日常は «macam» です。'], 'model'),
+            ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: You lost a bag at the station (fictional). Say what is lost, its colour, its shape and one feature, and answer «Seperti ini?».',
+                'B: You are the counter staff. Ask the colour and the brand, show an item, and ask «Yang mana satu? Yang ___ atau yang ___?».',
+                'Change of plan: B says «Maaf, ada dua beg seperti itu. Yang mana satu? Yang ada poket atau yang ada tali panjang?» A chooses by one feature and says what is inside.',
+                'A：駅でバッグをなくしました（架空）。なくした物・色・形・特徴を一つ言い、«Seperti ini?» に答えます。'
+                'B：窓口の係員です。色とブランドをたずね、物を見せ、«Yang mana satu? Yang ___ atau yang ___?» とたずねます。'
+                '変更：Bが «Maaf, ada dua beg seperti itu. Yang mana satu? Yang ada poket atau yang ada tali panjang?» と言い、Aは特徴を一つ言って選び、中身を言います。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say "My wallet is lost.": ____________________',
+                '☐ 2. Say "I am looking for a bag that has a zip.": ____________________',
+                '☐ 3. Say "The man who wears glasses.": ____________________',
+                '☐ 4. Say "The bag is black and has a long strap.": ____________________',
+                '☐ 5. Say "Which one? The one with a zip or the one without?": ____________________'], 'test'),
+            ('Self-study guide · 自習ガイド', [
+                f'Before the session: Kata-Kata Sedia Kelas c15 ({sedia_cards(15)} cards, frames ms-c15-f01 and ms-c15-f02).',
+                f'After the session: all {pack_cards(15)} Kata-Kata chapter 15 cards (ms-c15-001 to ms-c15-{last_card(15):03}) and frames ms-c15-f01 to ms-c15-f06 in the frame drill and Susun Ayat; '
+                'the Kata-Kata scenario "A lost wallet and a visitor" matches this pack.',
+                'No Dunia scene primes chapter 15. The Hanashishou scenes with lost property and stations are not yet tagged by chapter, so they are not assigned yet.',
+                'Optional full-course Cikgu Sensai unit: unit 15 (describing things and people), with the review block after chapter 15.',
+                'Expected self-study: about 9 to 10 hours for this chapter (planning figure).',
+                '授業後：第15章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
+        key=['Self-check: 1 «Dompet saya hilang.» 2 «Saya mencari beg yang ada zip.» 3 «Lelaki yang memakai cermin mata.» '
+             '4 «Beg itu berwarna hitam dan ada tali panjang.» 5 «Yang mana satu? Yang ada zip atau yang tidak ada zip?»',
+             'Session plan (45 min): 0–5 recall chapters 5, 8 and 14 (a colour, clothes, «kerana»); 5–15 core words; '
+             '15–25 patterns 1 to 5; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',
+             'Same content and ledger limits as unit 15. All Japanese is a draft awaiting native review.'])]
+
+
+STAGE2_PACKS.append(dict(
+    chapter_id='ms-c15', check_unit='ms-c15-fast', id_prefix='ms-c15-fast', level='A2',
+    title_prefix='Chapter 15', header='Chapter 15 fast course (ms-c15)',
+    menu_title='Chapter 15 · Describing things and people', genre='Lost property',
+    course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 15)], prerequisite_units=[],
+    prereq_grammar=['ms-c14-g02', 'ms-c14-g03', 'ms-c13-g02', 'ms-c06-g02'],
+    word_scope=C15_WORDS, components=chapter15))

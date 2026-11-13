@@ -58,7 +58,7 @@ BM_NOTE_STAGE2 = ('No Malay explainer for Stage 2 units: explainers and rubrics 
                   'as in Stage 1 (Sam, 13 Nov 2026). Select 日本語 or English.')
 # English words that are spelt like a ledger entry. Unmarked use of these is
 # allowed; anything else in the ledger must be marked «…» or ‹…›.
-ENGLISH_HOMOGRAPHS = {'main', 'oh', 'pun', 'best', 'bank', 'hotel', 'menu', 'fail', 'golf', 'set', 'unit',
+ENGLISH_HOMOGRAPHS = {'zip', 'main', 'oh', 'pun', 'best', 'bank', 'hotel', 'menu', 'fail', 'golf', 'set', 'unit',
                       'april', 'september', 'november', 'hospital', 'internet', 'kilometer', 'pen', 'tin', 'batik',
                       'bernama', 'label', 'badminton', 'travel', 'hiking', 'deadline', 'slot'}  # badminton and travel: English words in Stage 2 prose (ledger L-0968, L-1029)  # month names (ledger L-1036, L-1041, L-1043); "Bernama" (the news agency, cited in English source notes) and English "label", since the Stage 2 rows L-1111 «bernama» and L-1168 «label» exist
 
@@ -184,6 +184,14 @@ GRAMMAR.extend([
     dict(id='ms-c14-g07', chapter_id='ms-c14', label='Sequence: mula-mula, kemudian, akhirnya; seterusnya in writing; a plan in order'),
     dict(id='ms-c14-g08', chapter_id='ms-c14', label='Written and everyday words: jika / kalau, apabila / bila, namun / tetapi, oleh itu / jadi, seterusnya / kemudian'),
     dict(id='ms-c14-g09', chapter_id='ms-c14', label='Plans and changes: tangguh and tangguhkan, batal and batalkan (kita sentences and requests), pilihan, perubahan, keputusan, janji'),
+    dict(id='ms-c15-g02', chapter_id='ms-c15', label='Something of mine is lost: Dompet saya hilang; barang hilang; hilang against tertinggal (chapter 16)'),
+    dict(id='ms-c15-g03', chapter_id='ms-c15', label='yang + a short clause: beg yang ada zip, lelaki yang memakai cermin mata; the description comes after the noun'),
+    dict(id='ms-c15-g04', chapter_id='ms-c15', label='Colour and features: berwarna + a colour, dan ada + a feature; apa warna; berjalur, kulit, zip, poket, tali, ciri'),
+    dict(id='ms-c15-g05', chapter_id='ms-c15', label='Shape and likeness: bentuknya segi empat / bulat, seperti + noun; seperti itu and seperti ini (standard; spoken macam)'),
+    dict(id='ms-c15-g06', chapter_id='ms-c15', label='Which one: Yang mana satu? Yang ___ atau yang ___?; the answer Yang ___ with no noun; yang itu'),
+    dict(id='ms-c15-g07', chapter_id='ms-c15', label='memakai for glasses, clothes, a hat and shoes (everyday pakai); lelaki, perempuan, cermin mata'),
+    dict(id='ms-c15-g08', chapter_id='ms-c15', label='When yang can be dropped (one adjective: dompet hitam) and when it stays (a clause with ada or a verb)'),
+    dict(id='ms-c15-g09', chapter_id='ms-c15', label='Lost-property words: barang, dompet, beg tangan, nombor plat, jenama, ciri, bentuk'),
 ])
 
 
@@ -329,6 +337,10 @@ GLOSS = {
     'L-1206': dict(en='however (written; everyday «tetapi», spoken «tapi»)', ja='しかし（書き言葉；日常は «tetapi»、話し言葉は «tapi»）'),
     'L-1207': dict(en='therefore (formal; everyday «jadi»)', ja='そのため（改まった語；日常は «jadi»）'),
     'L-1210': dict(en='next, after that (formal; everyday «kemudian»)', ja='次に（改まった語；日常は «kemudian»）'),
+    # Chapter 15 (fast pack word list): ledger meanings that contain Malay, re-marked.
+    'L-1229': dict(en='like, such as (standard; everyday «macam», spoken)', ja='〜のような（標準；日常・話し言葉は «macam»）'),
+    'L-1271': dict(en='to wear; to use (standard form of «pakai»)', ja='着る・身につける・使う（«pakai» の標準形）'),
+    'L-1272': dict(en='coloured; to be (a colour): «berwarna hitam» = black', ja='〜色の・〜色をしている：«berwarna hitam»＝黒い'),
 }
 
 
@@ -357,10 +369,10 @@ def turns(script):
 
 def load_units():
     from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, ms_c07, ms_c08, ms_c09, fast, stage1
-    from . import ms_c10a, ms_c10b, ms_c11a, ms_c11b, ms_c12a, ms_c12b, ms_c13, ms_c14
+    from . import ms_c10a, ms_c10b, ms_c11a, ms_c11b, ms_c12a, ms_c12b, ms_c13, ms_c14, ms_c15
     return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT,
                        ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT, ms_c06.UNIT, ms_c07.UNIT, ms_c08.UNIT, ms_c09.UNIT,
-                       *fast.PACKS, stage1.UNIT, ms_c10a.UNIT, ms_c10b.UNIT, ms_c11a.UNIT, ms_c11b.UNIT, ms_c12a.UNIT, ms_c12b.UNIT, ms_c13.UNIT, ms_c14.UNIT, *fast.STAGE2_PACKS] if u]
+                       *fast.PACKS, stage1.UNIT, ms_c10a.UNIT, ms_c10b.UNIT, ms_c11a.UNIT, ms_c11b.UNIT, ms_c12a.UNIT, ms_c12b.UNIT, ms_c13.UNIT, ms_c14.UNIT, ms_c15.UNIT, *fast.STAGE2_PACKS] if u]
 
 
 SKILLS = {'Opener': ['speaking'], 'Vocabulary': ['vocabulary'], 'Pattern and grammar': ['grammar'],
