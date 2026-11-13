@@ -106824,9 +106824,9 @@
   "exclusion": null
  },
  "Unit 11A · Vocabulary focus|4|7": {
-  "source_text": "   e.g. Saya mengambil fail itu di atas meja.",
+  "source_text": "   e.g. Saya mengambil fail itu dari atas meja.",
   "target_spans": [
-   "Saya mengambil fail itu di atas meja."
+   "Saya mengambil fail itu dari atas meja."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -108072,9 +108072,9 @@
   "exclusion": null
  },
  "Unit 11A · Pattern and grammar focus|4|3": {
-  "source_text": "1. A: Siapa membaca emel itu? B: Emel itu dibaca oleh Puan Aini.",
+  "source_text": "1. A: Siapa yang membaca emel itu? B: Emel itu dibaca oleh Puan Aini.",
   "target_spans": [
-   "Siapa membaca emel itu?",
+   "Siapa yang membaca emel itu?",
    "Emel itu dibaca oleh Puan Aini."
   ],
   "mention_spans": [],
@@ -110085,18 +110085,18 @@
   "exclusion": null
  },
  "Unit 11A · Model conversation|3|10": {
-  "source_text": "Aini: Kopi itu dibeli oleh siapa?",
+  "source_text": "Aini: Siapa yang membeli kopi itu?",
   "target_spans": [
-   "Kopi itu dibeli oleh siapa?"
+   "Siapa yang membeli kopi itu?"
   ],
   "mention_spans": [],
   "kind": "model",
   "exclusion": null
  },
  "Unit 11A · Model conversation|3|11": {
-  "source_text": "Rahman: Kopi itu dibeli oleh Encik Tanaka. Saya yang membayar kuih.",
+  "source_text": "Rahman: Encik Tanaka yang membeli kopi itu. Saya yang membayar kuih.",
   "target_spans": [
-   "Kopi itu dibeli oleh Encik Tanaka. Saya yang membayar kuih."
+   "Encik Tanaka yang membeli kopi itu. Saya yang membayar kuih."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -110210,9 +110210,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 11A · Model conversation|3|25": {
-  "source_text": "Aini: Kopi itu dibeli oleh siapa?",
+  "source_text": "Aini: Siapa yang membeli kopi itu?",
   "target_spans": [
-   "Kopi itu dibeli oleh siapa?"
+   "Siapa yang membeli kopi itu?"
   ],
   "mention_spans": [],
   "kind": "model",
@@ -110375,9 +110375,9 @@
   "exclusion": null
  },
  "Unit 11A · Model conversation|5|5": {
-  "source_text": "Turn 12: Kopi itu dibeli oleh Encik Tanaka. Saya yang membayar kuih.",
+  "source_text": "Turn 12: Encik Tanaka yang membeli kopi itu. Saya yang membayar kuih.",
   "target_spans": [
-   "Kopi itu dibeli oleh Encik Tanaka. Saya yang membayar kuih."
+   "Encik Tanaka yang membeli kopi itu. Saya yang membayar kuih."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -112462,6 +112462,20 @@
   "exclusion": null
  },
  "Unit 11A · Teaching plan and answer key|5|5": {
+  "source_text": "In conversation, focus the doer with yang (Encik Tanaka yang membeli kopi itu, Siapa yang membaca emel itu?); the model conversation does this. Keep di- … oleh for the drills and for written notices (Sam, 13 Nov 2026: in speech people focus with yang).",
+  "target_spans": [
+   "yang",
+   "Encik Tanaka yang membeli kopi itu",
+   "Siapa yang membaca emel itu?",
+   "di-",
+   "oleh",
+   "yang"
+  ],
+  "mention_spans": [],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 11A · Teaching plan and answer key|5|6": {
   "source_text": "Standard first: teach the meN- form, accept the everyday root in speech (baca, hantar, beli, tengok), and never mark it wrong in a speaking task. No other spoken contraction is needed in this unit.",
   "target_spans": [
    "baca",
@@ -112473,28 +112487,28 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 11A · Teaching plan and answer key|5|6": {
+ "Unit 11A · Teaching plan and answer key|6|0": {
   "source_text": "The scene follows Kata-Kata c11 (scenario lines ms-c11-s01 to s08, frames f01, f02, f03 and f05). All names, times and files are fictional; learners may use their real office or an invented one.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 11A · Teaching plan and answer key|5|7": {
+ "Unit 11A · Teaching plan and answer key|6|1": {
   "source_text": "Cumulative question words: chapters 1 to 11. Chapter 11 adds no new question word.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 11A · Teaching plan and answer key|6|0": {
+ "Unit 11A · Teaching plan and answer key|7|0": {
   "source_text": "Answer keys are on each component. Japanese text awaits native review.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 11A · Teaching plan and answer key|6|1": {
+ "Unit 11A · Teaching plan and answer key|7|1": {
   "source_text": "Standard forms first; spoken forms are labelled. ber- verbs are taught as whole ledger forms, each with its root; no meN- verb (chapter 11) and no suffixed verb form (chapter 12).",
   "target_spans": [],
   "mention_spans": [],
@@ -113934,26 +113948,8 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 11B · Vocabulary focus|7|23": {
-  "source_text": "setiap — every · 毎〜  [L-0182]",
-  "target_spans": [
-   "setiap"
-  ],
-  "mention_spans": [],
-  "kind": "vocabulary",
-  "exclusion": null
- },
- "Unit 11B · Vocabulary focus|7|24": {
-  "source_text": "   e.g. Setiap hari saya menyemak emel.",
-  "target_spans": [
-   "Setiap hari saya menyemak emel."
-  ],
-  "mention_spans": [],
-  "kind": "vocabulary",
-  "exclusion": null
- },
  "Unit 11B · Vocabulary focus|8|0": {
-  "source_text": "21 new core entries, 2 recognition entries and 34 revision entries.",
+  "source_text": "21 new core entries, 2 recognition entries and 33 revision entries.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
@@ -116726,9 +116722,9 @@
   "exclusion": null
  },
  "Unit 11B · Listening focus · Encik Tanaka|4|9": {
-  "source_text": "Mei Ling: Seratus ringgit setiap hari. Kawan saya membayar dulu.",
+  "source_text": "Mei Ling: Seratus ringgit untuk satu hari. Kawan saya membayar dulu.",
   "target_spans": [
-   "Seratus ringgit setiap hari. Kawan saya membayar dulu."
+   "Seratus ringgit untuk satu hari. Kawan saya membayar dulu."
   ],
   "mention_spans": [],
   "kind": "key",

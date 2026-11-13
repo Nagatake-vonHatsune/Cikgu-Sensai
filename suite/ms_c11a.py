@@ -37,7 +37,7 @@ EXAMPLES = {
     'L-1142': '«Kedai itu menjual baju dan kasut.»',
     'L-1132': '«Siapa yang membayar kopi ini?»',
     'L-1131': '«Saya membawa payung hari ini.»',
-    'L-1127': '«Saya mengambil fail itu di atas meja.»',
+    'L-1127': '«Saya mengambil fail itu dari atas meja.»',
     'L-1133': '«Saya mencari bilik mesyuarat.»',
     # Senses, calling and everyday tasks
     'L-1139': '«Saya melihat jam. Sudah pukul sembilan.» (spoken: «tengok»)',
@@ -183,7 +183,7 @@ P = [
      '日本語の動詞には接頭辞がないので鼻音の変化は初めてですが、動作主＋動詞＋物の順は「〜が〜を〜する」と同じです。ただし二点に注意：‹meN-› は「ます」では'
      'なく（ていねいさも過去も表しません）、「を」にあたる語もないので、物は動詞のすぐあとに置きます。'),
     ('ms-c11-f02', '«Buku itu» ___ «oleh Aini.»  (the thing + «di-» verb + «oleh» + the doer)', [
-        'A: «Siapa membaca emel itu?» B: «Emel itu dibaca oleh Puan Aini.»',
+        'A: «Siapa yang membaca emel itu?» B: «Emel itu dibaca oleh Puan Aini.»',
         'A: «Fail itu dihantar oleh siapa?» B: «Fail itu dihantar oleh Puan Aini.»',
         'A: «Kek ini dibuat oleh siapa?» B: «Kek ini dibuat oleh isteri saya.»',
         'A: «Pintu itu dibuka oleh siapa?» B: «Pintu itu dibuka oleh Encik Rahman.»',
@@ -254,8 +254,8 @@ DIALOGUE = [
     ('Aini', 'Baik, encik. Saya menunggu jawapan itu.'),
     ('Tanaka', 'Encik Rahman, siapa yang membuka pintu bilik mesyuarat tadi?'),
     ('Rahman', 'Cik Mei Ling yang membuka pintu itu. Dia juga membawa kopi untuk kita.'),
-    ('Aini', 'Kopi itu dibeli oleh siapa?'),
-    ('Rahman', 'Kopi itu dibeli oleh Encik Tanaka. Saya yang membayar kuih.'),
+    ('Aini', 'Siapa yang membeli kopi itu?'),
+    ('Rahman', 'Encik Tanaka yang membeli kopi itu. Saya yang membayar kuih.'),
     ('Tanaka', 'Terima kasih, Encik Rahman. Mari kita minum kopi dulu.'),
     ('Aini', 'Baik. Selepas itu saya menghantar jawapan itu ke Jepun.'),
 ]
@@ -581,6 +581,8 @@ CFG = dict(
                    'question («tanya», chapter 2): ask which they mean; (4) spelling: dropping the first sound of b, c, d, j («membeli» is right, *meli is wrong) or keeping it '
                    'for t and p (*mentulis, *mempanggil); (5) reading the «di-» form as a complaint because the Japanese passive often is one; (6) 見る covers «melihat» and '
                    '«tengok»: teach «melihat» first, accept «tengok» in speech.',
+                   'In conversation, focus the doer with «yang» («Encik Tanaka yang membeli kopi itu», «Siapa yang membaca emel itu?»); the model conversation does this. Keep '
+                   '«di-» … «oleh» for the drills and for written notices (Sam, 13 Nov 2026: in speech people focus with «yang»).',
                    'Standard first: teach the meN- form, accept the everyday root in speech («baca», «hantar», «beli», «tengok»), and never mark it wrong in a speaking task. '
                    'No other spoken contraction is needed in this unit.',
                    'The scene follows Kata-Kata c11 (scenario lines ms-c11-s01 to s08, frames f01, f02, f03 and f05). All names, times and files are fictional; '

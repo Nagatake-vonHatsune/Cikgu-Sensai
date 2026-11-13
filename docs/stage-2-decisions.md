@@ -93,3 +93,22 @@ Recorded after Claude's review of chapter 10 (`docs/STAGE-2-ch10-report.md`).
 | Q5 | Hanashishou links | **Named only, not assigned, until build step 6.** |
 | Q6 | Additional-block ids | **`ms-stage2-<name>` is fine.** |
 | Native line 1 | 10A «Tidak sangat. Saya suka berbasikal.» | **Not natural.** Now «Tidak juga. Saya lebih suka berbasikal.» No word proposals from chapter 10 are added. |
+
+## 8. Chapter 11 answers (Sam, 13 November 2026)
+
+Recorded after Claude's review of chapter 11 (`docs/STAGE-2-ch11-report.md`). The four native-read lines Sam corrected are fixed in the same commit.
+
+| # | Question | Answer |
+| --- | --- | --- |
+| Q1 | Review block or writing block for chapter 11 | **No writing block for chapter 11; keep the plan's review block.** |
+| Q2 | «menelefon» in 11A | **Stays in 11B (core), glossed in 11A.** |
+| Q3 | «menghantar» = take someone to a place | **Teach it.** |
+| Q4 | A request takes the plain root | **«Tolong» + root is the rule.** |
+| Q5 | Spoken «deadline» | **Normal in Malaysian offices.** |
+| Q6 | Pilot cut list for 11A | **The cut list stays.** |
+| Q7 | Page note (Japanese and English explainers only) | **As intended.** |
+| Native 3 | 11A pattern 2 | **«Siapa yang membaca emel itu?»** (was «Siapa membaca emel itu?»). |
+| Native 2 | 11A model conversation | **«Encik Tanaka yang membeli kopi itu.»** In speech people focus with «yang»; di- … oleh stays for drills and written notices (teacher note added). The question before it is now «Siapa yang membeli kopi itu?» to match. |
+| Native | 11A «Saya mengambil fail itu …» | **«dari atas meja»** (was «di atas meja»). |
+| Native 8 | 11B listening | **«Seratus ringgit untuk satu hari.»** («setiap hari» means every day.) The revision word «setiap» no longer returns in 11B and was dropped from its revision list. |
+| Spelling | L-0530 | **«tandatangan» (joined, the Malaysian spelling; «tanda tangan» is Indonesian).** This repo's ledger copy gets it at the next Kata-Kata sync. The 11B line «Tolong tanda tangan di sini.» is left until then (HANDOFF, "Stage 2 clean-up pass"). |

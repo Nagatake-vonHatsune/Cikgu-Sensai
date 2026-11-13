@@ -22,7 +22,7 @@ RECOGNITION = ['L-0604', 'L-0678']
 REV_ROOTS = ['L-0529', 'L-0941', 'L-0375', 'L-0573', 'L-0583', 'L-1051', 'L-1023', 'L-0396']
 REV_WORK = ['L-0526', 'L-0525', 'L-0995', 'L-0419', 'L-0208', 'L-0064', 'L-0523', 'L-0567']
 REV_FREE = ['L-0702', 'L-0030', 'L-0078', 'L-0079', 'L-0262', 'L-0934', 'L-0935', 'L-0936']
-REV_TIME = ['L-0189', 'L-0193', 'L-0194', 'L-0192', 'L-0191', 'L-0161', 'L-0179', 'L-0178', 'L-0213', 'L-0182']
+REV_TIME = ['L-0189', 'L-0193', 'L-0194', 'L-0192', 'L-0191', 'L-0161', 'L-0179', 'L-0178', 'L-0213']
 
 EXAMPLES = {
     # The draft and the deadline
@@ -89,7 +89,6 @@ EXAMPLES = {
     'L-0179': '«Tarikh akhir hari Jumaat.»',
     'L-0178': '«Mesyuarat hari Khamis.»',
     'L-0213': '«Saya mahu memasak.» (spoken: «Saya nak masak.»)',
-    'L-0182': '«Setiap hari saya menyemak emel.»',
 }
 
 # (root, where the root sits, English change, Japanese change, passive)
@@ -277,7 +276,7 @@ LISTENING = [
     ('Tanaka', 'Pada hari Ahad pula?'),
     ('Mei Ling', 'Saya mahu melancong ke Johor Bahru dengan keluarga saya. Kami menyewa kereta di sana.'),
     ('Tanaka', 'Wah! Berapa sewa kereta itu?'),
-    ('Mei Ling', 'Seratus ringgit setiap hari. Kawan saya membayar dulu.'),
+    ('Mei Ling', 'Seratus ringgit untuk satu hari. Kawan saya membayar dulu.'),
     ('Tanaka', 'Seronok! Tetapi draf slaid itu bagaimana? Tarikh akhir hari Isnin, ya?'),
     ('Mei Ling', 'Ya. Saya menyemak draf itu hari Jumaat. Selepas itu saya menghantar draf itu ke Osaka.'),
     ('Tanaka', 'Baik. Siapa yang akan menelefon Osaka?'),

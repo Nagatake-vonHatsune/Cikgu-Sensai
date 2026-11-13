@@ -2,6 +2,28 @@
 
 Update this file at the end of every session. The next builder (ChatGPT or Claude) starts here, after the charter and `AGENTS.md`.
 
+## Stage 2 clean-up pass (open list)
+
+Do these together, after the Kata-Kata sync that brings in the ledger change, in one commit.
+
+1. **«tandatangan»** (Sam, 13 Nov 2026; ledger row L-0530 is now «tandatangan», joined, the Malaysian spelling; «tanda tangan» is Indonesian). Switch every «tanda tangan» in the units to «tandatangan»: 11B pattern 1 «Tolong tanda tangan di sini.» (`suite/ms_c11b.py`) and the Stage 1 example `suite/ms_c02b.py` («Ini tanda tangan saya.»). Check the ledger copy and the Kata-Kata reference copy have the new row first.
+2. **Disallowed form:** add «tanda tangan» to the disallowed forms in `curriculum/stage-rules.json` (and the fixtures file), allowed only in a ‹…› "do not use" mention. Kata-Kata must copy the same rules file.
+
+## Word proposals backlog (not in the ledger; Sam approves in one batch after chapter 17)
+
+Collected from every chapter. Builders rewrote the lines instead and added no rows. Sam will approve (or drop) them together after chapter 17; then a ledger session adds the approved rows.
+
+| Proposed form | Chapter | Why it came up |
+| --- | --- | --- |
+| «kepada» (to, for a person) | 11 (Claude recommends) | «menghantar emel kepada pengurus»; the unit says «Saya menghantar fail itu ke Osaka.» |
+| «sehari» (a day, per day) | 11 (Claude recommends) | the price of a rented car; the unit says «untuk satu hari» |
+| «bukit» (hill) | 11 | «mendaki bukit»; the unit says «mendaki dengan kawan saya» |
+| «menempah» (to book) | 11 | booking a car for the trip («tempah» is chapter 4, «menempah» is not a row) |
+| the di- partners «disemak», «disimpan», «dipesan», «dipilih», «dipinjam», «dikira», «diisi» | 11 | passive of the 11B verbs; the ledger has di- rows only for the chapter 9 list |
+| «menyapu» (to sweep) | 11 | the s → ny trap; quoted only as a ‹menyapu› mention |
+| «kolam renang», «taman», «seminggu», «penuh», «bersukan», «hidup» | 10 | recorded in `docs/STAGE-2-ch10-report.md` (word proposals) |
+| (chapter 12 proposals are added below as the unit files are written) | 12 | |
+
 ## Latest session: Stage 2 build step 4, chapter 10 fix and chapter 11 (13 Nov 2026, Claude)
 
 - **Authorised:** Sam (build step 4, chapter 11 instruction, 13 Nov 2026): one chapter 10 fix, then units 11A and 11B; push to main when the checks pass; **stop after chapter 11 for Claude's review** before chapter 12. Started at `8ada95c`. Report: `docs/STAGE-2-ch11-report.md`.
