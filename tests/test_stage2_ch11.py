@@ -381,7 +381,7 @@ class Chapter11(unittest.TestCase):
         for u in UNITS + ('ms-c11-fast',):
             self.assertIn(u, reauthored)
         exceptions = json.loads((ROOT / 'curriculum/legacy-exceptions.json').read_text())
-        self.assertEqual(len(exceptions), 30)
+        self.assertEqual(len(exceptions), 20)
         self.assertFalse([k for k, e in exceptions.items() if e['unit'].startswith('ms-c11')])
         chapters = json.loads((ROOT / 'dist/chapters.js').read_text()[len('const chapters='):-1])
         ch11 = next(c for c in chapters if c['title'].startswith('Chapter 11'))

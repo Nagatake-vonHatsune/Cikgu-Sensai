@@ -48,7 +48,7 @@ EXAMPLES = {
     'L-0653': '«Blok A, unit 8-1.»',
     # The parcel
     'L-1168': '«Label ini koyak, tetapi nombor unit ada di sini.»',
-    'L-1169': '«Penerima ialah Encik Tanaka.»',
+    'L-1169': '«Penerima Encik Tanaka.»',
     'L-1170': '«Nombor penjejakan ada dalam mesej ini.» (spoken: «nombor tracking»)',
     'L-1171': '«Bungkusan besar itu ada di lobi.»',
     'L-1172': '«Kotak itu koyak.»',
@@ -84,11 +84,11 @@ EXAMPLES = {
     'L-0016': '«Terima kasih, encik.»',
     'L-0018': '«Maaf, label itu koyak.»',
     # Revision · time and markers
-    'L-0193': '«Saya sudah simpankan bungkusan itu.»',
-    'L-0194': '«Saya belum bukakan pintu itu.»',
-    'L-0189': '«Saya sedang bawakan bungkusan itu ke lif.»',
-    'L-0192': '«Saya akan hantarkan bungkusan itu petang ini.»',
-    'L-0195': '«Pengawal baru bukakan pintu itu.»',
+    'L-0193': '«Saya sudah menyimpan bungkusan itu.»',
+    'L-0194': '«Saya belum membuka pintu itu.»',
+    'L-0189': '«Saya sedang membawa bungkusan itu ke lif.»',
+    'L-0192': '«Saya akan menghantar bungkusan itu petang ini.»',
+    'L-0195': '«Pengawal baru membuka pintu itu.»',
     'L-0191': '«Saya masih tunggu bungkusan itu.»',
     'L-0161': '«Sekarang saya hantarkan bungkusan itu.»',
 }
@@ -191,7 +191,7 @@ P = [
     ('ms-c12-f03', '«Saya mahu ambil» ___ «. Sudah sampai?»  (collecting a parcel: the root for yourself)', [
         'A: «Saya mahu ambil bungkusan. Sudah sampai?» B: «Sudah, encik. Unit berapa?»',
         'A: «Blok B, unit 12-3.» B: «Ada dua bungkusan di pondok pengawal.»',
-        'A: «Siapa penerima bungkusan ini?» B: «Penerima ialah Encik Tanaka.»',
+        'A: «Siapa penerima bungkusan ini?» B: «Penerima Encik Tanaka.»',
         'A: «Bungkusan kecil itu bukan untuk saya.» B: «Label itu koyak, tetapi nombor unit ada di sini: Blok A, unit 8-1.»',
         'A: «Saya tidak ada di rumah. Boleh ambilkan bungkusan saya?» B: «Boleh. Saya ambilkan petang ini.»',
         'A: «Bungkusan saya sudah sampai di lobi?» B: «Belum. Tolong tunggu sekejap.»'],
@@ -227,7 +227,7 @@ VARIANT = [
     ('Siti', 'Selamat pagi, encik. Saya mahu ambil bungkusan saya. Sudah sampai?'),
     ('Guard', 'Sudah, puan. Unit berapa?'),
     ('Siti', 'Blok A, unit 8-1.'),
-    ('Guard', 'Penerima ialah Puan Siti, ya? Boleh tunjukkan mesej dari kedai itu?'),
+    ('Guard', 'Penerima Puan Siti, ya? Boleh tunjukkan mesej dari kedai itu?'),
     ('Siti', 'Boleh. Ini nombor penjejakan saya.'),
     ('Guard', 'Terima kasih. Bungkusan ini berat. Saya bawakan ke lif.'),
     ('Siti', 'Terima kasih banyak. Satu lagi: boleh simpankan bungkusan suami saya? Dia sampai petang nanti.'),
@@ -241,11 +241,11 @@ LISTENING = [
     ('Mei Ling', 'Blok C, unit 5-2.'),
     ('Guard', 'Boleh tunjukkan mesej dari kedai itu? Nombor penjejakan ada dalam mesej.'),
     ('Mei Ling', 'Boleh. Ini mesej saya.'),
-    ('Guard', 'Terima kasih. Penerima ialah Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil.'),
+    ('Guard', 'Terima kasih. Penerima Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil.'),
     ('Mei Ling', 'Kotak besar itu berat. Boleh bawakan kotak itu ke lif?'),
     ('Guard', 'Boleh, cik. Saya bawakan kotak besar itu dan saya letakkan di depan lif.'),
     ('Mei Ling', 'Terima kasih banyak. Satu lagi: tolong simpankan kotak kecil itu di pondok pengawal. Suami saya akan ambil kotak itu petang nanti.'),
-    ('Guard', 'Baik, cik. Saya simpankan kotak kecil itu di sini. Suami cik boleh tunjukkan mesej itu juga.'),
+    ('Guard', 'Baik, cik. Saya simpankan kotak kecil itu di sini. Tolong minta suami cik tunjukkan mesej itu juga.'),
     ('Mei Ling', 'Baik. Nombor telefon saya ada di label. Pastikan label itu tidak koyak, ya?'),
     ('Guard', 'Baik, cik. Saya pastikan. Selamat petang!'),
 ]
@@ -256,9 +256,8 @@ CULTURE = [
     'is for, and you will understand the short form when you hear it. «Berikan» works the same way: everyday speech says «bagi».',
     'Two points of spelling matter. «letakkan» and «tunjukkan» have two k, because the root ends in k and the suffix begins with k. And «berikan» is ‹beri› + ‹-kan›, '
     'not ‹ber-› + «ikan». Japanese learners often put ‹-kan› on every verb, as if it were a polite ending. It is not: «Tolong baca emel ini» takes the root.',
-    'General knowledge, not a rule and not a checked fact: in many Malaysian condominiums a guard sits at a guardhouse near the gate, and parcels are often kept there or in '
-    'the lobby until the resident collects them. The guard may ask to see the delivery message or the tracking number before handing a parcel over, and a torn label can mean '
-    'a call to the owner or to the management office. Arrangements differ from one building to another, so ask at your own guardhouse.',
+    'General knowledge, not a rule and not a checked fact: in many Malaysian condominiums a guard keeps parcels at a guardhouse and may ask to see the delivery message. '
+    'Arrangements differ from one building to another, so ask at your own guardhouse.',
     'A short, plain request with «Tolong» or «Boleh» is polite and clear. Address the guard as «Encik» (or «Cik»), say «Terima kasih» when you have your parcel, and expect a '
     'short, friendly answer.',
 ]
@@ -268,8 +267,8 @@ CULTURE_JA = [
     '短い形は聞いて分かるようにします。«Berikan» も同じで、日常では «bagi» と言います。',
     'つづりには二つ注意があります。«letakkan» と «tunjukkan» は、語根の終わりが k で接尾辞の初めも k なので k が二つになります。また «berikan» は ‹beri› ＋ ‹-kan› で、'
     '‹ber-› ＋ «ikan» ではありません。日本人の学習者は ‹-kan› をていねいな語尾のようにどの動詞にも付けがちですが、そうではありません：«Tolong baca emel ini» は語根のままです。',
-    '一般的な知識であり、規則でも確認済みの事実でもありません：マレーシアの多くのコンドミニアムでは、門の近くの守衛所に守衛さんがいて、荷物は住民が取りに来るまでそこかロビーで預かることが多いです。'
-    '荷物を渡す前に、配達のメッセージや追跡番号を見せるように言われることがあり、ラベルが破れているときは所有者や管理事務所に連絡することもあります。建物によって違うので、自分の建物の守衛所で聞きましょう。',
+    '一般的な知識であり、規則でも確認済みの事実でもありません：マレーシアの多くのコンドミニアムでは、守衛さんが守衛所で荷物を預かり、配達のメッセージを見せるように言われることがあります。'
+    '建物によって違うので、自分の建物の守衛所で聞きましょう。',
     '«Tolong» か «Boleh» を使った短くて簡単な依頼で、ていねいさは十分です。守衛さんには «Encik»（女性なら «Cik»）と呼びかけ、荷物を受け取ったら «Terima kasih» と言いましょう。短くて親しみのある返事が返ってきます。',
 ]
 
@@ -371,16 +370,16 @@ CFG = dict(
                        '«Tolong pulangkan pen saya.» (cue: «buku»)'],
         'transform': ['Root to the ‹-kan› form, for someone: «Tolong simpan bungkusan ini.»', 'Root to the ‹-kan› form: «Tolong buka pintu itu.»',
                       'Root to the ‹-kan› form: «Tolong ambil fail itu.»', 'Back to the everyday root: «Tolong tutupkan pintu itu.»',
-                      'Make it a polite question with «Boleh»: «Tunjukkan mesej itu.»', 'Not yet («belum»): «Saya simpankan bungkusan itu.»',
-                      'Add «sedang»: «Saya bawakan bungkusan itu ke lif.»', 'Make the question with «Siapa yang»: «Pengawal menyimpan bungkusan itu.»'],
+                      'Make it a polite question with «Boleh»: «Tunjukkan mesej itu.»', 'Not yet («belum»; change the verb): «Saya simpankan bungkusan itu.»',
+                      'Add «sedang» (and change the verb): «Saya bawakan bungkusan itu ke lif.»', 'Make the question with «Siapa yang»: «Pengawal menyimpan bungkusan itu.»'],
         'question and answer': ['«Bungkusan itu untuk siapa?» (cue: «Encik» Tanaka)', '«Bungkusan kecil itu di mana?» (cue: «pondok pengawal»)',
                                 '«Unit berapa?» (cue: «Blok B, unit 12-3»)', '«Label itu bagaimana?» (cue: «koyak»)',
-                                'You hear: «Pengawal simpankan bungkusan itu di pondok pengawal.» Ask the question («di mana»).',
+                                'You hear: «Pengawal menyimpan bungkusan itu di pondok pengawal.» Ask the question («di mana»).',
                                 'You hear: «Saya hantarkan bungkusan itu pukul tiga.» Ask the question («pukul berapa»).',
                                 'You hear: «Bungkusan besar itu untuk Encik Tanaka.» Ask the question («untuk siapa»).',
                                 'You hear: «Ada dua bungkusan di lobi.» Ask the question («berapa»).'],
         'question-word choice': ['«Bungkusan ini untuk ___?» → «Untuk Encik Tanaka.»', '«Boleh tunjukkan ___?» → «Mesej ini.»',
-                                 '«Unit ___?» → «Unit 12-3.»', '«Pengawal simpankan bungkusan itu di ___?» → «Di pondok pengawal.»',
+                                 '«Unit ___?» → «Unit 12-3.»', '«Pengawal menyimpan bungkusan itu di ___?» → «Di pondok pengawal.»',
                                  '«___ bungkusan itu sampai?» → «Pagi tadi.»', '«___ label ini koyak?» → «Sebab hujan.»',
                                  '«Bungkusan ___ untuk encik?» → «Yang besar.»', '«___ lama awak tunggu di lobi?» → «Lima belas minit.»'],
     },
@@ -393,9 +392,9 @@ CFG = dict(
                        '5 «Saya mahu ambil surat.» 6 «Jiran saya belum ada di rumah.» 7 «Tolong letakkan beg itu di lobi.» 8 «Tolong pulangkan buku saya.»'],
         'transform': ['1 «Tolong simpankan bungkusan ini.» 2 «Tolong bukakan pintu itu.» 3 «Tolong ambilkan fail itu.» 4 «Tolong tutup pintu itu.» '
                       '5 «Boleh tunjukkan mesej itu?»',
-                      '6 «Saya belum simpankan bungkusan itu.» 7 «Saya sedang bawakan bungkusan itu ke lif.» 8 «Siapa yang menyimpan bungkusan itu?»'],
+                      '6 «Saya belum menyimpan bungkusan itu.» 7 «Saya sedang membawa bungkusan itu ke lif.» 8 «Siapa yang menyimpan bungkusan itu?»'],
         'question and answer': ['1 «Bungkusan itu untuk Encik Tanaka.» 2 «Bungkusan kecil itu di pondok pengawal.» 3 «Blok B, unit 12-3.» 4 «Label itu koyak.»',
-                                '5 «Pengawal simpankan bungkusan itu di mana?» 6 «Pukul berapa awak hantarkan bungkusan itu?» 7 «Bungkusan besar itu untuk siapa?» '
+                                '5 «Pengawal menyimpan bungkusan itu di mana?» 6 «Pukul berapa awak menghantar bungkusan itu?» 7 «Bungkusan besar itu untuk siapa?» '
                                 '8 «Berapa bungkusan di lobi?»'],
         'question-word choice': ['1 «siapa» 2 «apa» 3 «berapa» 4 «di mana» 5 «Bila» '
                                  '6 «Kenapa» (also «Mengapa», «Apa sebab»; the answer starts with «sebab» or «kerana») 7 «yang mana» 8 «Berapa»'],
@@ -409,22 +408,22 @@ CFG = dict(
                 '3 «Baik. Saya hantarkan ke unit itu.» 4 «Terima kasih banyak.»'],
     markers=dict(
         title='Markers with ‹-kan› verbs', grammar='collect',
-        instructions=['Say each sentence again with the marker or time cue in brackets. The ‹-kan› verb never changes; only the marker does. / '
-                      'かっこ内のマーカーか時の言葉を付けて言い直します。‹-kan› の動詞は変わらず、前に付く語だけが変わります。'],
-        items=['«Saya simpankan bungkusan itu.» (marker: «sudah»)', '«Pengawal hantarkan bungkusan itu.» (marker: «belum»)',
+        instructions=['Say each sentence again with the marker in brackets. After «sudah», «sedang», «belum», «akan», «baru» or «masih», or with a third-person doer, the bare ‹-kan› verb becomes the meN- verb: «simpankan» → «menyimpan», «hantarkan» → «menghantar». / '
+                      'かっこ内のマーカーを付けて言い直します。«sudah»・«sedang»・«belum»・«akan»・«baru»・«masih» のあと、または三人称の動作主のときは、素の ‹-kan› の動詞が meN- の動詞になります：«simpankan» → «menyimpan»、«hantarkan» → «menghantar»。'],
+        items=['«Saya simpankan bungkusan itu.» (marker: «sudah»)', '«Pengawal menghantar bungkusan itu.» (marker: «belum»)',
                '«Saya bawakan bungkusan itu ke lif.» (marker: «sedang»)', '«Saya hantarkan bungkusan itu petang ini.» (marker: «akan»)',
-               '«Pengawal bukakan pintu itu.» (marker: «baru»)', '«Saya tunggu bungkusan itu.» (marker: «masih»)',
-               'Answer «Bungkusan itu sudah sampai?» (marker: «belum»)', '«Saya letakkan bungkusan itu di sini.» (time cue: «sekarang», marker: «sedang»)'],
-        bridge=['«sudah simpankan» ≈ もう預かった · «belum hantarkan» ≈ まだ届けていない · «sedang bawakan» ≈ 持っていくところ · '
-                '«akan hantarkan» ≈ 届ける予定 · «baru bukakan» ≈ 開けたばかり',
-                'Japanese changes the verb ending (預かった / 預かっていない); Malay keeps «simpankan» and changes only the marker. / '
-                '日本語は動詞の語尾が変わりますが、マレー語は «simpankan» のままで、前の語だけが変わります。'],
-        key=['1 «Saya sudah simpankan bungkusan itu.» 2 «Pengawal belum hantarkan bungkusan itu.» 3 «Saya sedang bawakan bungkusan itu ke lif.» '
-             '4 «Saya akan hantarkan bungkusan itu petang ini.»',
-             '5 «Pengawal baru bukakan pintu itu.» 6 «Saya masih tunggu bungkusan itu.» 7 «Belum. Bungkusan itu belum sampai.» '
-             '8 «Sekarang saya sedang letakkan bungkusan itu di sini.»'],
-        explain=('第4章の «sudah»・«belum»・«sedang»・«masih»・«akan»・«baru» を、第12章の ‹-kan› の動詞と組み合わせて言います。',
-                 'Combine the chapter 4 markers with the ‹-kan› verbs: the verb never changes, only the marker does.')),
+               '«Pengawal membuka pintu itu.» (marker: «baru»)', '«Saya tunggu bungkusan itu.» (marker: «masih»)',
+               'Answer «Bungkusan itu sudah sampai?» (marker: «belum»)', '«Pengawal menyimpan bungkusan itu.» (marker: «masih»)'],
+        bridge=['«sudah menyimpan» ≈ もう預かった · «belum menghantar» ≈ まだ届けていない · «sedang membawa» ≈ 持っていくところ · '
+                '«akan menghantar» ≈ 届ける予定 · «baru membuka» ≈ 開けたばかり',
+                'Japanese changes the verb ending (預かった / 預かっていない); Malay puts the marker in front and uses the meN- verb («menyimpan»), not «simpankan». / '
+                '日本語は動詞の語尾が変わります。マレー語はマーカーを前に置き、«simpankan» ではなく meN- の動詞（«menyimpan»）を使います。'],
+        key=['1 «Saya sudah menyimpan bungkusan itu.» 2 «Pengawal belum menghantar bungkusan itu.» 3 «Saya sedang membawa bungkusan itu ke lif.» '
+             '4 «Saya akan menghantar bungkusan itu petang ini.»',
+             '5 «Pengawal baru membuka pintu itu.» 6 «Saya masih tunggu bungkusan itu.» 7 «Belum. Bungkusan itu belum sampai.» '
+             '8 «Pengawal masih menyimpan bungkusan itu.»'],
+        explain=('第4章の «sudah»・«belum»・«sedang»・«masih»・«akan»・«baru» を言い、‹-kan› の動詞を meN- の動詞（«menyimpan»・«menghantar»・«membawa»・«membuka»）に直します。',
+                 'Say the chapter 4 markers and change the bare ‹-kan› verb to the meN- verb («menyimpan», «menghantar», «membawa», «membuka») after a marker.')),
     question_note='Chapter 12 adds no new question word. The ‹-kan› verbs fit every question you know: «Siapa yang menyimpan bungkusan itu?», '
                   '«Bungkusan itu untuk siapa?», «Unit berapa?», «Bila bungkusan itu sampai?», «Berapa lama awak tunggu?» / '
                   '第12章で新しい疑問語は増えません。‹-kan› の動詞は知っている疑問語すべてと使えます：'
@@ -438,7 +437,7 @@ CFG = dict(
                     'Ask why the label is torn. («kenapa»; also «mengapa» or «apa sebab»; the answer starts with «sebab» or «kerana»)',
                     'Ask which parcel is for you. («yang mana»)', 'Ask where the guard takes the small parcel. («ke mana»)',
                     'Ask where the parcel came from. («dari mana»)', 'Ask how far the lobby is from the guardhouse. («berapa jauh»)',
-                    'Ask how long you wait for the parcel. («berapa lama»)', 'Ask how many boxes are in the lobby. («berapa» with a counter)',
+                    'Ask how long you wait for the parcel. («berapa lama»)', 'Ask how many boxes are in the lobby. («berapa»)',
                     'Ask who brought the parcel. («siapa» with «oleh»)'],
     question_keys=['1 «Awak bawa apa ke lobi?» 2 «Siapa yang menyimpan bungkusan?» 3 «Pondok pengawal di mana?»',
                    '4 «Adakah bungkusan saya sudah sampai?» 5 «Bolehkah saya letakkan beg di sini?» 6 «Ada berapa bungkusan?»',
@@ -446,7 +445,7 @@ CFG = dict(
                    '10 «Bagaimana saya ambil bungkusan?» (spoken: «Macam mana saya ambil bungkusan?») 11 «Kenapa label itu koyak?» / '
                    '«Mengapa …?» / «Apa sebab …?» «Sebab hujan.» / «Kerana hujan.»',
                    '12 «Bungkusan yang mana untuk saya?» 13 «Pengawal bawa bungkusan kecil itu ke mana?» 14 «Bungkusan ini datang dari mana?»',
-                   '15 «Berapa jauh lobi dari pondok pengawal?» 16 «Berapa lama saya tunggu bungkusan itu?» 17 «Ada berapa biji kotak di lobi?»',
+                   '15 «Berapa jauh lobi dari pondok pengawal?» 16 «Berapa lama saya tunggu bungkusan itu?» 17 «Ada berapa kotak di lobi?»',
                    '18 «Bungkusan itu dibawa oleh siapa?»'],
     listening=LISTENING,
     listening_context='In the afternoon «Cik» Mei Ling collects two boxes at the guardhouse. / 午後、メイリンさんが守衛所で二つの箱を受け取ります。',
@@ -558,11 +557,11 @@ CFG = dict(
                    'are whole words: their roots (‹kawal›, ‹milik›, ‹terima›) are not taught alone (cards ms-c12-013, -017, -019).',
                    'Where Japanese learners usually slip: (1) putting ‹-kan› on every verb as if it were a polite ending: «Tolong baca emel ini» takes the root, and so does «Saya mahu ambil bungkusan» '
                    '(card ms-c12-003 is for another person); (2) forgetting the double k: *letakan, *tunjukan; (3) hearing «berikan» as ‹ber-› + «ikan»; (4) a '
-                   'full ‹meN-› + ‹-kan› form (a longer, formal form of the same verbs) is not taught here: «Saya simpankan bungkusan itu» is the form to use in a reply; (5) 〜てください covering both «Tolong» + root and '
+                   'full ‹meN-› + ‹-kan› form (*menyimpankan, *menghantarkan) is not natural and is not taught: see the ‹-kan› rule below; (5) 〜てください covering both «Tolong» + root and '
                    '«Tolong» + ‹-kan›: ask for whom the action is.',
-                   'Guardhouse and management-office customs (general knowledge, not a rule and not source-checked; no figure): in many Malaysian condominiums the guard keeps parcels and may ask for the '
-                   'delivery message or the tracking number; the management office takes problems with the building. Buildings differ, so tell learners to ask at their own guardhouse. '
-                   'The unit gives no Malaysian rule, price or time.',
+                   'the ‹-kan› rule (Sam, 13 Nov 2026): use the bare ‹-kan› verb for a request («Tolong simpankan …», «Boleh bawakan …?») and for a first-person offer or reply («Saya hantarkan sekarang.», «Baik, saya matikan sekarang.»); in a statement with a third-person doer or with «sudah», «sedang», «belum», «akan», «baru» or «masih», use the meN- verb the course has («Pengawal menyimpan bungkusan itu.», «Pengawal menghantar bungkusan itu.», «Pengawal membuka pintu itu.», «Saya sedang membawa bungkusan itu ke lif.»); where the course has no meN- verb («letakkan», «bukakan», «matikan», «bersihkan»), rephrase: «Saya letakkan bungkusan itu di sini sekarang.», «Saya bersihkan lantai itu sekarang.» Do not teach forms such as *menyimpankan or *menghantarkan: they are not natural.',
+                   'Guardhouse (general knowledge, not a rule and not source-checked; no figure): in many Malaysian condominiums the guard keeps parcels and may ask to see the delivery message. '
+                   'Buildings differ, so tell learners to ask at their own guardhouse.',
                    'Standard first: teach the ‹-kan› form, accept the everyday root in speech («simpan», «hantar», «tutup», «buka»), and never mark it wrong in a speaking task. '
                    '«nombor tracking» is spoken; the written label is «nombor penjejakan» (recognition only, never in a key).',
                    'The scene follows Kata-Kata c12 (scenario lines ms-c12-s01 to s10, frames f01, f02 and f03). All names, blocks, units and times are fictional; learners may use their real building or an invented one.',

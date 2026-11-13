@@ -591,7 +591,7 @@ class Chapter9Minimums(unittest.TestCase):
         self.assertTrue(mine)
         self.assertTrue(all(c['chapter_id'] == 'ms-c09' and c['review_status'] == 'draft' for c in mine))
         exceptions = json.loads((ROOT / 'curriculum/legacy-exceptions.json').read_text())
-        self.assertEqual(len(exceptions), 30)
+        self.assertEqual(len(exceptions), 20)
         self.assertFalse([k for k, e in exceptions.items() if e['unit'] in (self.u, 'ms-c09-fast')])
         reauthored = json.loads((ROOT / 'curriculum/reauthored-units.json').read_text())
         for unit in (self.u, 'ms-c09-fast'):

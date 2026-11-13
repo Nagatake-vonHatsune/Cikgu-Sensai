@@ -31,14 +31,14 @@ EXAMPLES = {
     'L-1182': '«Ada kerosakan di paip dapur saya.»',
     'L-1183': '«Saya isi borang aduan sekarang.»',
     'L-0652': '«Boleh hubungi juruteknik?»',
-    'L-0665': '«Kami akan hubungi kontraktor.»',
+    'L-0665': '«Kami akan menghubungi kontraktor.»',
     'L-0655': '«Ada slot petang ini, pukul tiga.»',
     # Repair and contact
     'L-1173': '«Tolong baiki paip ini.» (same spelling as «baik», a different meaning)',
     'L-1174': '«Juruteknik sedang membaiki paip.»',
     'L-1175': '«Boleh hubungi juruteknik?» (everyday on notices: «Sila hubungi pejabat pengurusan.»)',
     'L-0789': '«Kami akan menghubungi juruteknik.»',
-    'L-0698': '«Kontraktor ganti paip yang rosak.»',
+    'L-0698': '«Tolong ganti lampu itu.» (also «gantikan»; for a plan: «Kontraktor akan menukar paip itu.»)',
     'L-1184': '«Tolong gantikan lampu itu.»',
     'L-1176': '«Tempahan slot juruteknik ada di pejabat pengurusan.»',
     # Switch, empty, clean
@@ -76,8 +76,8 @@ EXAMPLES = {
     'L-1139': '«Juruteknik akan melihat siling itu.»',
     'L-1155': '«Saya akan menelefon pejabat pengurusan.»',
     # Revision · time and markers
-    'L-0193': '«Saya sudah hubungi juruteknik.»',
-    'L-0194': '«Juruteknik belum baiki paip itu.»',
+    'L-0193': '«Saya sudah menghubungi juruteknik.»',
+    'L-0194': '«Juruteknik belum membaiki paip itu.»',
     'L-0189': '«Juruteknik sedang membaiki paip.»',
     'L-0192': '«Kami akan menghubungi juruteknik.»',
     'L-0161': '«Saya matikan lampu itu sekarang.»',
@@ -138,17 +138,17 @@ P = [
         'A: «Boleh hubungi pejabat pengurusan?» B: «Boleh. Nombor telefon ada di sini.»',
         'A: «Siapa yang menghubungi kontraktor?» B: «Pejabat pengurusan yang menghubungi kontraktor.»',
         'A: «Tolong hubungi saya sebelum juruteknik sampai.» B: «Baik. Saya hubungi encik.»',
-        'A: «Awak sudah hubungi pemilik unit itu?» B: «Belum. Saya akan menelefon dia petang ini.»',
+        'A: «Awak sudah menghubungi pemilik unit itu?» B: «Belum. Saya akan menelefon dia petang ini.»',
         'A: «Kami akan menghubungi juruteknik.» B: «Terima kasih. Bila juruteknik boleh datang?»'],
      "‹-i› goes on the end of a root and points the action at a person or a place: «hubungi» is ‹hubung› + ‹-i›, and it means to get in touch with someone. "
      "The person follows the verb directly, with no little word between them: «Boleh hubungi juruteknik?» (the Kata-Kata frame), not a word like «dengan» before the person. "
      "On notices you read «Sila hubungi pejabat pengurusan.» With ‹meN-› in front, «hubungi» becomes «menghubungi» (‹meng-› before h): «Kami akan menghubungi juruteknik.» "
-     "Choose the form by the sentence: after «Tolong», «Boleh» or «Sila» use «hubungi»; after a doer such as «kami» or «pejabat pengurusan» both «hubungi» and «menghubungi» are heard, "
-     "and this course teaches «menghubungi» first. «menelefon» (chapter 11) means to phone, and «hubungi» does not say how you get in touch. The suffix ‹-i› does not mean the same as ‹-kan›: ‹-i› is to or at a person or place, ‹-kan› is for someone or to make it happen.",
+     "Choose the form by the sentence: after «Tolong», «Boleh» or «Sila», and in a first-person reply («Saya hubungi sekarang.»), use «hubungi»; after a doer such as «kami» or «pejabat pengurusan», or after «sudah», «belum», «sedang» or «akan», use «menghubungi». "
+     "This is the same rule as for the ‹-kan› verbs. «menelefon» (chapter 11) means to phone, and «hubungi» does not say how you get in touch. The suffix ‹-i› does not mean the same as ‹-kan›: ‹-i› is to or at a person or place, ‹-kan› is for someone or to make it happen.",
      "‹-i› は語根の終わりに付いて、動作を人や場所に向けます：«hubungi» は ‹hubung› ＋ ‹-i› で、誰かと連絡を取るという意味です。人は動詞のすぐあとに置き、間に小さな語は入りません："
      "«Boleh hubungi juruteknik?»（Kata-Kata の文型）。「に」にあたる語は入りません。掲示では «Sila hubungi pejabat pengurusan.» と読みます。前に ‹meN-› が付くと "
-     "«hubungi» は «menghubungi»（h の前は ‹meng-›）になります：«Kami akan menghubungi juruteknik.» 使い分けは文で決まります：«Tolong»・«Boleh»・«Sila» のあとは «hubungi»、"
-     "«kami» や «pejabat pengurusan» のような動作主のあとは «hubungi» も «menghubungi» も聞きますが、このコースでは «menghubungi» を先に教えます。«menelefon»（第11章）は電話をかけることで、"
+     "«hubungi» は «menghubungi»（h の前は ‹meng-›）になります：«Kami akan menghubungi juruteknik.» 使い分けは文で決まります：«Tolong»・«Boleh»・«Sila» のあと、また一人称の返事（«Saya hubungi sekarang.»）では «hubungi»、"
+     "«kami» や «pejabat pengurusan» のような動作主のあと、また «sudah»・«belum»・«sedang»・«akan» のあとでは «menghubungi» を使います。‹-kan› の動詞と同じ規則です。«menelefon»（第11章）は電話をかけることで、"
      "«hubungi» は連絡の手段を言いません。‹-i› と ‹-kan› は同じではありません：‹-i› は人や場所へ向かう動作、‹-kan› は誰かのため・そうなるようにする動作です。",
      'Japanese 連絡する takes に: 技術者に連絡する. Malay has no に-word after «hubungi»: the person follows the verb directly. Do not add ‹kepada› or «dengan».',
      '日本語の「連絡する」は「技術者に連絡する」のように「に」を取ります。マレー語の «hubungi» のあとには「に」にあたる語がなく、人は動詞のすぐあとに来ます。‹kepada› や «dengan» を足さないでください。'),
@@ -217,14 +217,14 @@ DIALOGUE = [
     ('Tanaka', 'Boleh. Tolong hubungi saya sebelum juruteknik sampai.'),
     ('Office', 'Baik. Juruteknik akan melihat siling itu. Saya isi borang aduan sekarang.'),
     ('Tanaka', 'Boleh saya kosongkan meja dan kerusi di bawah siling itu?'),
-    ('Office', 'Boleh, encik. Tolong kosongkan lantai itu juga.'),
+    ('Office', 'Boleh, encik. Terima kasih.'),
     ('Tanaka', 'Terima kasih. Saya tunggu di rumah.'),
 ]
 VARIANT = [
     ('Siti', 'Selamat petang. Saya Puan Siti, Blok A, unit 8-1. Ada kerosakan di paip dapur saya.'),
     ('Office', 'Selamat petang, puan. Air keluar dari paip atau dari bawah?'),
     ('Siti', 'Dari bawah. Lantai dapur basah.'),
-    ('Office', 'Tolong matikan air dulu. Kami akan hubungi kontraktor.'),
+    ('Office', 'Tolong matikan air dulu. Kami akan menghubungi kontraktor.'),
     ('Siti', 'Baik. Bila kontraktor boleh membaiki paip itu?'),
     ('Office', 'Ada slot esok pagi, pukul sepuluh. Boleh?'),
     ('Siti', 'Boleh. Tolong hubungi saya sebelum kontraktor sampai.'),
@@ -240,7 +240,7 @@ LISTENING = [
     ('Mei Ling', 'Baik, saya matikan sekarang. Bila juruteknik boleh datang?'),
     ('Office', 'Ada dua slot, petang ini pukul empat atau esok pagi.'),
     ('Mei Ling', 'Petang ini, pukul empat. Tolong hubungi saya sebelum juruteknik sampai.'),
-    ('Office', 'Baik. Juruteknik akan baiki paip itu. Kalau paip itu rosak, juruteknik gantikan paip itu.'),
+    ('Office', 'Baik. Juruteknik akan membaiki paip itu. Kalau paip itu rosak, juruteknik akan menukar paip itu.'),
     ('Mei Ling', 'Satu lagi. Tolong perlahankan muzik di unit sebelah. Bising sangat.'),
     ('Office', 'Baik, cik. Saya hubungi jiran cik itu. Tolong bersihkan lantai dulu, ya?'),
     ('Office', 'Satu lagi, cik. Tolong kosongkan meja dan kerusi di bawah siling itu dulu.'),
@@ -254,9 +254,8 @@ CULTURE = [
     'for a repair Malaysian Malay uses «baiki» and «membaiki».',
     'Everyday speech often uses the plain verb: «buka lampu» and «tutup lampu» for «hidupkan lampu» and «matikan lampu» (also for the aircon), and «Sila isi borang ini» for «isikan». '
     'Both are correct. This course teaches the ‹-kan› form first and you will understand the everyday form when you hear it.',
-    'General knowledge, not a rule and not a checked fact: in many Malaysian condominiums the management office is where residents report a problem such as a leak. '
-    'Staff may ask your block and unit, what is wrong and where, and may fill in a complaint form while you are on the phone. A technician is often booked for a time slot, '
-    'and who arranges and pays for a repair can depend on the building and on whether you own or rent. Ask the office about your own case; this note gives no figure or rule.',
+    'General knowledge, not a rule and not a checked fact: in many Malaysian condominiums residents report a problem such as a leak to the management office, which may book a technician for a time slot. '
+    'Buildings differ, so ask the office about your own case.',
     'Japanese learners often put ‹-kan› on every verb. Here that is a mistake: «Tolong baca emel ini» and «Saya hubungi juruteknik» do not need it. Start the call with your name and unit, '
     'say plainly what is wrong, and thank the office at the end.',
 ]
@@ -265,9 +264,8 @@ CULTURE_JA = [
     '意味が変わるので、動詞は目的語と一緒に覚えます：«hubungi juruteknik»・«baiki paip»・«matikan lampu»。掲示では «Sila hubungi pejabat pengurusan» と書かれ、修理にはマレーシアのマレー語で «baiki»・«membaiki» を使います。',
     '日常会話では素の動詞がよく使われます：«hidupkan lampu»・«matikan lampu» の代わりに «buka lampu»・«tutup lampu»（エアコンも同じ）、«isikan» の代わりに «Sila isi borang ini» です。'
     'どちらも正しいので、このコースでは ‹-kan› の形を先に教え、日常の形は聞いて分かるようにします。',
-    '一般的な知識であり、規則でも確認済みの事実でもありません：マレーシアの多くのコンドミニアムでは、水漏れなどの問題は管理事務所に連絡します。'
-    '担当者は棟と部屋番号、何がどこでおかしいかをたずね、電話中に苦情の用紙に記入することもあります。技術者は時間帯で予約されることが多く、修理の手配や費用は建物や、持ち家か借家かによって違うことがあります。'
-    '自分の場合は事務所に聞いてください。このノートは数字や規則を述べません。',
+    '一般的な知識であり、規則でも確認済みの事実でもありません：マレーシアの多くのコンドミニアムでは、水漏れなどの問題は管理事務所に連絡し、事務所が技術者を時間帯で予約することがあります。'
+    '建物によって違うので、自分の場合は事務所に聞いてください。',
     '日本人の学習者は ‹-kan› をどの動詞にも付けがちですが、ここでは間違いです：«Tolong baca emel ini» や «Saya hubungi juruteknik» には要りません。電話は名前と部屋番号から始め、'
     '何がおかしいかをはっきり言い、最後に事務所にお礼を言いましょう。',
 ]
@@ -300,7 +298,7 @@ EXTRA = dict(
            '☐ ‹-kan› verbs keep the spelling of their card (two k in «letakkan» and «tunjukkan»; «bersihkan», not *berbersih).',
            '☐ The person follows «hubungi» directly, with no extra word.',
            '☐ A request uses «Tolong» or «Boleh» and the thing follows the verb.',
-           '☐ The marker («sudah», «belum», «sedang», «akan») stands in front of the verb and the verb does not change.'],
+           '☐ The marker («sudah», «belum», «sedang», «akan») stands in front of the verb, and a bare «hubungi» or «baiki» becomes «menghubungi» or «membaiki» after it.'],
     answer='Any natural exchange that follows the checklist. Model: «Ada kebocoran di siling saya. Tolong hubungi juruteknik. Saya matikan lampu itu sekarang dan kosongkan meja dulu. '
            'Juruteknik sedang membaiki paip, dan Encik Rahman akan menelefon saya.»',
     key_extra=['Mark for the task first (the right kind of verb in each answer, a marker, one request), then for form (the spelling of the suffixed verb, the person after «hubungi»). '
@@ -364,7 +362,7 @@ CFG = dict(
                        '«Tolong gantikan lampu itu.» (cue: «perlahankan», «muzik»)',
                        '«Ada slot petang ini.» (cue: «esok pagi»)'],
         'transform': ['Request to question: «Hubungi juruteknik.» (with «Boleh»)', 'Standard to everyday: «Tolong matikan lampu itu.» (with «tutup»)',
-                      'Everyday to standard: «Tolong isi borang ini.» (with «isikan»)', 'Add «sudah»: «Saya hubungi juruteknik.»',
+                      'Everyday to standard: «Tolong isi borang ini.» (with «isikan»)', 'Add «sudah» (and change the verb): «Saya hubungi juruteknik.»',
                       'Add «sedang»: «Juruteknik membaiki paip.»', 'Not yet («belum»): «Kontraktor membaiki siling itu.»',
                       'Make the question with «Siapa yang»: «Pejabat pengurusan menghubungi juruteknik.»', 'Add «akan»: «Kami menghubungi kontraktor.»'],
         'question and answer': ['«Siapa yang sedang membaiki paip?» (cue: «juruteknik»)', '«Ada kebocoran di mana?» (cue: «siling bilik air saya»)',
@@ -376,7 +374,7 @@ CFG = dict(
         'question-word choice': ['«___ yang sedang membaiki paip?» → «Juruteknik.»', '«Ada kebocoran di ___?» → «Di siling bilik air saya.»',
                                  '«___ juruteknik boleh datang?» → «Petang ini.»', '«___ pukul juruteknik datang?» → «Pukul tiga.»',
                                  '«Siapa ___ menghubungi kontraktor?» → «Pejabat pengurusan yang menghubungi kontraktor.»',
-                                 '«___ awak matikan lampu itu?» → «Sebab saya takut.»', '«Paip ___ rosak?» → «Paip dapur.»',
+                                 '«___ lampu itu rosak?» → «Sebab air turun dari siling.»', '«Paip ___ rosak?» → «Paip dapur.»',
                                  '«___ lama awak tunggu juruteknik?» → «Satu jam.»'],
     },
     drill_keys={
@@ -385,7 +383,7 @@ CFG = dict(
                    'we will contact the technician; there is a slot this afternoon at three; please contact me before the technician arrives; I am filling in the complaint form now.'],
         'substitute': ['1 «Boleh hubungi kontraktor?» 2 «Kontraktor sedang membaiki siling.» 3 «Ada kerosakan di paip dapur saya.» 4 «Tolong hidupkan kipas itu.»',
                        '5 «Tolong kosongkan meja itu.» 6 «Kami akan menghubungi pemilik unit itu.» 7 «Tolong perlahankan muzik itu.» 8 «Ada slot esok pagi.»'],
-        'transform': ['1 «Boleh hubungi juruteknik?» 2 «Tolong tutup lampu itu.» 3 «Tolong isikan borang ini.» 4 «Saya sudah hubungi juruteknik.» '
+        'transform': ['1 «Boleh hubungi juruteknik?» 2 «Tolong tutup lampu itu.» 3 «Tolong isikan borang ini.» 4 «Saya sudah menghubungi juruteknik.» '
                       '5 «Juruteknik sedang membaiki paip.»',
                       '6 «Kontraktor belum membaiki siling itu.» 7 «Siapa yang menghubungi juruteknik?» 8 «Kami akan menghubungi kontraktor.»'],
         'question and answer': ['1 «Juruteknik yang sedang membaiki paip.» 2 «Ada kebocoran di siling bilik air saya.» 3 «Juruteknik boleh datang petang ini, pukul tiga.» '
@@ -403,23 +401,23 @@ CFG = dict(
                 '3 «Terima kasih. Saya takut lampu itu rosak.» 4 «Boleh. Terima kasih.»'],
     markers=dict(
         title='Markers with ‹-kan› and ‹-i› verbs', grammar='i',
-        instructions=['Say each sentence again with the marker or time cue in brackets. The verb never changes; only the marker does. / '
-                      'かっこ内のマーカーか時の言葉を付けて言い直します。動詞は変わらず、前に付く語だけが変わります。'],
+        instructions=['Say each sentence again with the marker in brackets. After «sudah», «sedang», «belum», «akan», «baru» or «masih», or with a third-person doer, use «menghubungi» and «membaiki», not the bare «hubungi» and «baiki». / '
+                      'かっこ内のマーカーを付けて言い直します。«sudah»・«sedang»・«belum»・«akan»・«baru»・«masih» のあと、または三人称の動作主のときは、«hubungi»・«baiki» ではなく «menghubungi»・«membaiki» を使います。'],
         items=['«Saya hubungi juruteknik.» (marker: «sudah»)', '«Kontraktor membaiki siling itu.» (marker: «belum»)',
                '«Juruteknik membaiki paip.» (marker: «sedang»)', '«Kami menghubungi kontraktor.» (marker: «akan»)',
-               '«Saya matikan lampu itu.» (marker: «baru»)', '«Saya tunggu juruteknik.» (marker: «masih»)',
+               '«Saya mengisi borang aduan.» (marker: «baru»)', '«Saya tunggu juruteknik.» (marker: «masih»)',
                'Answer «Juruteknik sudah sampai?» (marker: «belum»)',
-               '«Saya bersihkan lantai itu.» (time cue: «sekarang», marker: «sedang»)'],
-        bridge=['«sudah hubungi» ≈ もう連絡した · «belum membaiki» ≈ まだ修理していない · «sedang membaiki» ≈ 修理している · '
-                '«akan menghubungi» ≈ 連絡する予定 · «baru matikan» ≈ 消したばかり',
-                'Japanese changes the verb ending (連絡した / 連絡していない); Malay keeps «hubungi» and changes only the marker. / '
-                '日本語は動詞の語尾が変わりますが、マレー語は «hubungi» のままで、前の語だけが変わります。'],
-        key=['1 «Saya sudah hubungi juruteknik.» 2 «Kontraktor belum membaiki siling itu.» 3 «Juruteknik sedang membaiki paip.» '
+               '«Pejabat pengurusan menghubungi juruteknik.» (marker: «sedang»)'],
+        bridge=['«sudah menghubungi» ≈ もう連絡した · «belum membaiki» ≈ まだ修理していない · «sedang membaiki» ≈ 修理している · '
+                '«akan menghubungi» ≈ 連絡する予定 · «baru mengisi» ≈ 記入したばかり',
+                'Japanese changes the verb ending (連絡した / 連絡していない); Malay puts the marker in front and uses the meN- verb («menghubungi»), not the bare «hubungi». / '
+                '日本語は動詞の語尾が変わります。マレー語はマーカーを前に置き、素の «hubungi» ではなく meN- の動詞（«menghubungi»）を使います。'],
+        key=['1 «Saya sudah menghubungi juruteknik.» 2 «Kontraktor belum membaiki siling itu.» 3 «Juruteknik sedang membaiki paip.» '
              '4 «Kami akan menghubungi kontraktor.»',
-             '5 «Saya baru matikan lampu itu.» 6 «Saya masih tunggu juruteknik.» 7 «Belum. Juruteknik belum sampai.» '
-             '8 «Sekarang saya sedang bersihkan lantai itu.»'],
-        explain=('第4章の «sudah»・«belum»・«sedang»・«masih»・«akan»・«baru» を、第12章の ‹-kan›・‹-i› の動詞と組み合わせて言います。',
-                 'Combine the chapter 4 markers with the ‹-kan› and ‹-i› verbs: the verb never changes, only the marker does.')),
+             '5 «Saya baru mengisi borang aduan.» 6 «Saya masih tunggu juruteknik.» 7 «Belum. Juruteknik belum sampai.» '
+             '8 «Pejabat pengurusan sedang menghubungi juruteknik.»'],
+        explain=('第4章の «sudah»・«belum»・«sedang»・«masih»・«akan»・«baru» を言い、素の ‹-i› の動詞を meN- の動詞（«menghubungi»・«membaiki»・«mengisi»）に直します。',
+                 'Say the chapter 4 markers and change the bare ‹-i› verb to the meN- verb («menghubungi», «membaiki», «mengisi») after a marker.')),
     question_note='Chapter 12 adds no new question word. The ‹-kan› and ‹-i› verbs fit every question you know: «Siapa yang menghubungi juruteknik?», '
                   '«Ada kebocoran di mana?», «Bila juruteknik boleh datang?», «Pukul berapa juruteknik sampai?», «Berapa lama awak tunggu?» / '
                   '第12章で新しい疑問語は増えません。‹-kan›・‹-i› の動詞は知っている疑問語すべてと使えます：'
@@ -430,18 +428,18 @@ CFG = dict(
                     'Ask politely whether you may switch the light off. («Bolehkah»)', 'Ask how many slots there are. («berapa»)',
                     'Ask when the technician can come. («bila»)', 'Ask what time the technician arrives. («pukul berapa»)',
                     'Ask on what day the contractor comes. («hari apa»)', 'Ask how you contact the management office. («bagaimana»; spoken «macam mana»)',
-                    'Ask why you must switch the light off. («kenapa»; also «mengapa» or «apa sebab»; the answer starts with «sebab» or «kerana»)',
+                    'Ask why the light is damaged. («kenapa»; also «mengapa» or «apa sebab»; the answer starts with «sebab» or «kerana»)',
                     'Ask which pipe is broken. («yang mana»)', 'Ask where the water goes. («ke mana»)',
                     'Ask where the water comes from. («dari mana»)', 'Ask how far the management office is. («berapa jauh»)',
-                    'Ask how long you wait for the technician. («berapa lama»)', 'Ask how many lamps are damaged. («berapa» with a counter)',
+                    'Ask how long you wait for the technician. («berapa lama»)', 'Ask how many lamps are damaged. («berapa»)',
                     'Ask who wrote the complaint form. («siapa» with «oleh»)'],
     question_keys=['1 «Juruteknik sedang membaiki apa?» 2 «Siapa yang menghubungi juruteknik?» 3 «Ada kebocoran di mana?»',
                    '4 «Adakah juruteknik sudah sampai?» 5 «Bolehkah saya matikan lampu itu?» 6 «Ada berapa slot?»',
                    '7 «Bila juruteknik boleh datang?» 8 «Pukul berapa juruteknik sampai?» 9 «Pada hari apa kontraktor datang?»',
-                   '10 «Bagaimana saya hubungi pejabat pengurusan?» (spoken: «Macam mana saya hubungi pejabat pengurusan?») 11 «Kenapa saya matikan lampu itu?» / '
-                   '«Mengapa …?» / «Apa sebab …?» «Sebab lampu itu basah.» / «Kerana lampu itu basah.»',
+                   '10 «Bagaimana saya menghubungi pejabat pengurusan?» (spoken: «Macam mana saya menghubungi pejabat pengurusan?») 11 «Kenapa lampu itu rosak?» / '
+                   '«Mengapa …?» / «Apa sebab …?» «Sebab air turun dari siling.» / «Kerana air turun dari siling.»',
                    '12 «Paip yang mana rosak?» 13 «Air itu turun ke mana?» 14 «Air itu turun dari mana?»',
-                   '15 «Berapa jauh pejabat pengurusan?» 16 «Berapa lama saya tunggu juruteknik?» 17 «Ada berapa biji lampu yang rosak?»',
+                   '15 «Berapa jauh pejabat pengurusan?» 16 «Berapa lama saya tunggu juruteknik?» 17 «Ada berapa lampu yang rosak?»',
                    '18 «Borang aduan itu ditulis oleh siapa?»'],
     listening=LISTENING,
     listening_context='In the morning «Cik» Mei Ling telephones the management office about a leak in her bathroom. / 朝、メイリンさんが浴室の水漏れについて管理事務所に電話します。',
@@ -458,7 +456,7 @@ CFG = dict(
                  (2, 'last night', ['malam', 'lantai']),
                  (3, 'the fan and the light', ['matikan', 'kipas', 'lampu']),
                  (6, 'this afternoon at four', ['petang', 'pukul', 'hubungi']),
-                 (7, 'replace the pipe', ['baiki', 'gantikan', 'paip']),
+                 (7, 'replace the pipe', ['baiki', 'menukar', 'paip']),
                  (8, 'loud music in the next unit', ['perlahankan', 'muzik', 'bising'])],
     test_listen_prompts=['Which block and unit is Mei Ling in?', 'When did the leak start?', 'What does the office ask her to switch off?',
                          'Which slot does she choose?', 'What will the technician do if the pipe is broken?', 'What is the second problem?'],
@@ -546,9 +544,9 @@ CFG = dict(
                    'Where Japanese learners usually slip: (1) putting ‹-kan› on every verb as if it were a polite ending; (2) adding a に-word such as «dengan» after «hubungi»; '
                    '(3) *perbaiki for a repair (Indonesian): the course uses «baiki» and «membaiki»; (4) *bersihan or *berbersih for «bersihkan»; (5) treating «baiki» as «baik» (good); '
                    '(6) 直す covers «membaiki» and correcting a mistake: only the first is «baiki».',
-                   'Guardhouse and management-office customs (general knowledge, not a rule and not source-checked; no figure): in many Malaysian condominiums residents report a leak or a fault to the '
-                   'management office, which may take the block and unit, fill in a complaint form and book a technician or a contractor for a time slot; who arranges and pays can depend on the '
-                   'building and on whether you own or rent. Tell learners to ask the office about their own case. The unit gives no Malaysian rule, price or time.',
+                   'the ‹-kan› rule (Sam, 13 Nov 2026): use the bare ‹-kan› verb for a request («Tolong simpankan …», «Boleh bawakan …?») and for a first-person offer or reply («Saya hantarkan sekarang.», «Baik, saya matikan sekarang.»); in a statement with a third-person doer or with «sudah», «sedang», «belum», «akan», «baru» or «masih», use the meN- verb the course has («Pengawal menyimpan bungkusan itu.», «Juruteknik akan membaiki paip itu.», «Kami akan menghubungi juruteknik.», «Saya sedang membawa bungkusan itu ke lif.»); where the course has no meN- verb («letakkan», «bukakan», «matikan», «bersihkan»), rephrase: «Saya letakkan bungkusan itu di sini sekarang.», «Saya bersihkan lantai itu sekarang.» The same goes for ‹-i› verbs: «hubungi» and «baiki» are for requests and first-person replies, «menghubungi» and «membaiki» for the rest. Do not teach forms such as *menyimpankan or *menghantarkan: they are not natural.',
+                   'Management office (general knowledge, not a rule and not source-checked; no figure): in many Malaysian condominiums residents report a leak or a fault to the management office, which may book a technician for a time slot. '
+                   'Buildings differ, so tell learners to ask the office about their own case.',
                    'Spoken forms: «buka lampu» and «tutup lampu» for «hidupkan» and «matikan» (card notes ms-c12-032 and -033), and «isi» for «isikan» (ms-c12-030). They are everyday words; accept them '
                    'in speech and never mark them wrong. Standard first: teach the ‹-kan› form.',
                    'The scene follows Kata-Kata c12 (scenario lines ms-c12-s11 to s19, frames f04, f05 and f06, with f01 returning). All names, blocks, units and times are fictional; '

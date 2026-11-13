@@ -112,3 +112,20 @@ Recorded after Claude's review of chapter 11 (`docs/STAGE-2-ch11-report.md`). Th
 | Native | 11A «Saya mengambil fail itu …» | **«dari atas meja»** (was «di atas meja»). |
 | Native 8 | 11B listening | **«Seratus ringgit untuk satu hari.»** («setiap hari» means every day.) The revision word «setiap» no longer returns in 11B and was dropped from its revision list. |
 | Spelling | L-0530 | **«tandatangan» (joined, the Malaysian spelling; «tanda tangan» is Indonesian).** This repo's ledger copy gets it at the next Kata-Kata sync. The 11B line «Tolong tanda tangan di sini.» is left until then (HANDOFF, "Stage 2 clean-up pass"). |
+
+## 9. Chapter 12 answers (Sam, 13 November 2026)
+
+Recorded after Claude's review of chapter 12 (`docs/STAGE-2-ch12-report.md`). The fixes are in their own commit, before chapter 13.
+
+| # | Question | Answer |
+| --- | --- | --- |
+| Q1 | Review block after 12B | **Keep it.** |
+| Q2 | The old placeholder «Ambil bungkusan di lobi» | **Retire it** from the course menu, with its legacy exceptions (the list only shrinks: 30 to 20). The six legacy lessons it held are no longer exposed. |
+| Q3 | Three patterns in 12A | **Enough** (f01, f02, f03). |
+| Q4 | Bare ‹-kan› after a pronoun, and meN-…-kan | **Bare ‹-kan› for requests** («Tolong simpankan …», «Boleh bawakan …?») **and first-person offers or replies** («Saya hantarkan sekarang.», «Baik, saya matikan sekarang.»). **With a third-person doer or an aspect word** (sudah, sedang, belum, akan, baru, masih) **use the meN- form that is in the ledger** («Pengawal menyimpan bungkusan itu.», «Saya sedang membawa bungkusan itu ke lif.»). **Where the ledger has no meN- form** (letakkan, bersihkan, matikan, bukakan …) **rephrase** («Saya letakkan bungkusan itu di sini sekarang.»). **Do not teach meN-…-kan** («menyimpankan», «menghantarkan»): not natural. The teacher notes say so. The same applies to the ‹-i› verbs («menghubungi», «membaiki»). |
+| Q5 | The guardhouse and management-office notes | **Shortened to two lines each**, still labelled as general knowledge. |
+| Native | 12A «Penerima ialah Puan Siti, ya?» | **«Penerima Puan Siti, ya?»** («ialah» is formal for speech; also removed from the other 12A lines). |
+| Native | «Ada berapa biji kotak di lobi?» | **«Ada berapa kotak di lobi?»** (the 12B lamp question likewise). |
+| Native | 12B «Tolong kosongkan lantai itu juga.» | **Deleted;** the reply is «Boleh, encik. Terima kasih.» |
+| Native | «Kontraktor ganti paip yang rosak.» / «Kalau paip itu rosak, juruteknik gantikan paip itu.» | **«… akan menukar paip itu»** («Kalau paip itu rosak, juruteknik akan menukar paip itu.»). |
+| Backlog | «sejak», «melaporkan», «salinan» | **Added to the word proposals backlog, marked "recommended" (sejak especially).** |

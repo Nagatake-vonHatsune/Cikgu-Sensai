@@ -114,7 +114,7 @@ def make_catalogue(lessons, groups):
         g['genre']=GENRES.get(g['genre'],g['genre'])
         for u in g.get('units',[{'label':None,'items':g['items']} ])+([{'label':None,'items':g['fast_items']}] if g.get('fast_items') else [])+([{'label':None,'items':g['stage_items']}] if g.get('stage_items') else []):
             for title in u['items']:
-                cid=f'ms-c{gi+1:02}' if gi<CHAPTERS_BUILT else 'ms-c12' if g.get('sequence')=='future' else None
+                cid=f'ms-c{gi+1:02}' if gi<CHAPTERS_BUILT else None
                 uid=(cid+re.sub(r'\d','',u['label']).lower()) if cid and u['label'] else None
                 placements.append((g,u,title,cid,uid))
     for g,u,title,cid,uid in placements:
@@ -179,7 +179,7 @@ def make_catalogue(lessons, groups):
                'first_language_notes':[],'scene_chapter_map':[],'hour_budget':None,'review_status':'draft',
                'status':'Supplementary legacy packs; language-specific syllabus not yet authored'} for lang in ['English','Japanese']]],
         'grammar_registry':grammar,'word_registry':words,'pattern_registry':patterns,
-        'source_manifest':'docs/restructure-sources.json', 'source_manifest_current':'docs/step4-sources.json', 'future_chapters':[{'id':'ms-c12','level':'A2','status':'Stage 2, not yet active'}]}
+        'source_manifest':'docs/restructure-sources.json', 'source_manifest_current':'docs/step4-sources.json', 'future_chapters':[]}
 
 def authored_component(l,body,g,u):
     """Step 4 suite component: tags come from the authored metadata, not inferred."""

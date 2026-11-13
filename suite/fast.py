@@ -906,10 +906,10 @@ def chapter12(ledger):
                 '4 · «Boleh hubungi» ___ «?»  e.g. «Boleh hubungi juruteknik?» / «Juruteknik sedang membaiki paip.»',
                 '5 · «Ada kebocoran di» ___ «saya.»  e.g. «Ada kebocoran di siling saya.» / «Tolong matikan lampu itu dulu.»',
                 'Remember: ‹-kan› on a root means do it for someone or make it happen («simpan» → «simpankan», ‹mati› → «matikan»); ‹-i› points at a person or place («hubungi»). '
-                'Two k in «letakkan» and «tunjukkan»; «berikan» is ‹beri› + ‹-kan›, not ‹ber-› + «ikan»; «bersihkan» is «bersih» + ‹-kan›. In speech you will hear the root alone («simpan», «tutup»); say the ‹-kan› form.',
+                'Two k in «letakkan» and «tunjukkan»; «berikan» is ‹beri› + ‹-kan›, not ‹ber-› + «ikan»; «bersihkan» is «bersih» + ‹-kan›. In speech you will hear the root alone («simpan», «tutup»); say the ‹-kan› form. After «sudah», «sedang», «belum» or «akan», or with a third-person doer, use the meN- verb: «menyimpan», «menghantar».',
                 '‹-kan› は語根に付いて「誰かのためにする」「そうなるようにする」を表し（«simpan» → «simpankan»、‹mati› → «matikan»）、‹-i› は人や場所へ向かう動作です（«hubungi»）。'
                 '«letakkan» と «tunjukkan» は k が二つで、«berikan» は ‹beri› ＋ ‹-kan›（‹ber-› ＋ «ikan» ではありません）、«bersihkan» は «bersih» ＋ ‹-kan› です。'
-                '話し言葉では語根だけも聞きますが、言うときは ‹-kan› の形を使います。'], 'model'),
+                '話し言葉では語根だけも聞きますが、言うときは ‹-kan› の形を使います。«sudah»・«sedang»・«belum»・«akan» のあと、または三人称の動作主のときは meN- の動詞（«menyimpan»・«menghantar»）を使います。'], 'model'),
             ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
             ('Task · タスク', [
                 'A: You are the guard or the office (fictional). Two parcels are in the guardhouse; the small one has a torn label. Later the resident reports a leak.',

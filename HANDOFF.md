@@ -22,10 +22,10 @@ Collected from every chapter. Builders rewrote the lines instead and added no ro
 | the di- partners «disemak», «disimpan», «dipesan», «dipilih», «dipinjam», «dikira», «diisi» | 11 | passive of the 11B verbs; the ledger has di- rows only for the chapter 9 list |
 | «menyapu» (to sweep) | 11 | the s → ny trap; quoted only as a ‹menyapu› mention |
 | «kolam renang», «taman», «seminggu», «penuh», «bersukan», «hidup» | 10 | recorded in `docs/STAGE-2-ch10-report.md` (word proposals) |
-| «salinan» (copy) | 12 | review block: «simpankan salinan di pejabat» (rewritten to «simpankan borang itu») |
-| «sejak» (since) | 12 | «Sejak semalam» for when a leak started (rewritten to «Bila kebocoran itu bermula?» / «Malam tadi.») |
-| «melapor» / «melaporkan» (to report) | 12 | Hanashishou band 2 uses «melaporkan kebocoran»; the unit says «Ada kebocoran di … saya.» |
-| the meN-…-kan partners «menyimpankan», «menghantarkan», «membawakan» and the di- partners «dihubungi», «dibaiki» | 12 | the plan allows meN-…-kan from chapter 12 but the ledger has only «membaiki» and «menghubungi»; the units use the bare ‹-kan› verb after a pronoun («Saya simpankan …», as in Kata-Kata s08) |
+| «salinan» (copy) | 12 | **recommended** (Sam, 13 Nov): review block: «simpankan salinan di pejabat» (rewritten to «simpankan borang itu») |
+| «sejak» (since) | 12 | **recommended, especially** (Sam, 13 Nov): «Sejak semalam» for when a leak started (rewritten to «Bila kebocoran itu bermula?» / «Malam tadi.») |
+| «melapor» / «melaporkan» (to report) | 12 | **recommended** (Sam, 13 Nov): Hanashishou band 2 uses «melaporkan kebocoran»; the unit says «Ada kebocoran di … saya.» |
+| the di- partners «dihubungi», «dibaiki» | 12 | the ledger has only «membaiki» and «menghubungi». **The meN-…-kan forms «menyimpankan», «menghantarkan», «membawakan» are dropped: Sam (13 Nov) says they are not natural and are not taught.** |
 
 ## Latest session: Stage 2 build step 4, chapter 11 fixes and chapter 12 (13 Nov 2026, Claude)
 

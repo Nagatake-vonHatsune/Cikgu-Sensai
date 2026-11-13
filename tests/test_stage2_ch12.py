@@ -162,6 +162,24 @@ class Chapter12(unittest.TestCase):
         # Requests: the plain root stays the everyday form.
         self.assertIn('Tolong simpan bungkusan ini', ' '.join(ms_c12a.CULTURE))
 
+    def test_kan_rule_in_statements(self):
+        """Sam, 13 Nov 2026: bare -kan for requests and first-person offers; meN- (or a rephrase) after an aspect word or a third-person doer."""
+        kan = r'(?:simpankan|hantarkan|ambilkan|belikan|bawakan|tutupkan|bukakan|letakkan|pulangkan|berikan|tunjukkan|pastikan|matikan|hidupkan|' \
+              r'perlahankan|bersihkan|kosongkan|isikan|gantikan|hubungi|baiki)'
+        bad = re.compile(rf'\b(?:sudah|sedang|belum|akan|baru|masih|pengawal|juruteknik|kontraktor|pejabat pengurusan|pemilik|awak|kami)\s+{kan}\b', re.I)
+        for sp in spans(self.all_lines()):
+            self.assertIsNone(bad.search(sp), sp)
+        text = ' '.join(self.all_lines())
+        for gone in ('Tolong kosongkan lantai itu juga', 'ialah', 'berapa biji', 'ganti paip yang rosak', 'ambil bungkusan di lobi'):
+            self.assertNotIn(gone, text, gone)
+        self.assertIn('Boleh, encik. Terima kasih.', text)
+        self.assertIn('Penerima Puan Siti, ya?', text)
+        self.assertIn('Ada berapa kotak di lobi?', text)
+        self.assertIn('Kalau paip itu rosak, juruteknik akan menukar paip itu.', text)
+        notes = ' '.join(ms_c12a.CFG['teacher_notes'] + ms_c12b.CFG['teacher_notes'])
+        self.assertIn('‹-kan› rule', notes)
+        self.assertIn('*menyimpankan', notes)
+
     def test_katakata_alignment(self):
         """Same frames f01 to f06, same scenes (parcel at the guardhouse; the ceiling leak), card IDs cited."""
         frames = {f['id']: f for f in self.pack['frames']}
@@ -399,7 +417,7 @@ class Chapter12(unittest.TestCase):
         for u in UNITS + ('ms-c12-fast',):
             self.assertIn(u, reauthored)
         exceptions = json.loads((ROOT / 'curriculum/legacy-exceptions.json').read_text())
-        self.assertEqual(len(exceptions), 30)
+        self.assertEqual(len(exceptions), 20)
         self.assertFalse([k for k, e in exceptions.items() if e['unit'].startswith(('ms-c12a', 'ms-c12b', 'ms-c12-fast'))])
         chapters = json.loads((ROOT / 'dist/chapters.js').read_text()[len('const chapters='):-1])
         ch11 = next(c for c in chapters if c['title'].startswith('Chapter 12'))

@@ -115,16 +115,17 @@ def add_course(lessons, lesson, suite_units=()):
             units=units,fast_items=fast_items,stage_items=stage_items,sequence="stage2" if a2 else "stage1",
             authored_units=[dict(unit_id=authored[u["label"]]["unit_id"],blocks=authored[u["label"]]["blocks"]) for u in units if u["label"] in authored],
             status=("Stage 2 build step 4 chapter 12 suite · draft for Claude's review" if number==12 else "Stage 2 build step 4 chapter 11 suite · draft for Claude's review" if number==11 else "Stage 2 build step 4 chapter 10 suite · draft for Claude's review" if number==10 else "Step 5g chapter 9 suite · draft for pilot" if number==9 else "Step 5f chapter 8 suite · draft for pilot" if number==8 else "Step 5e chapter 7 suite · draft for pilot" if number==7 else "Step 5d chapter 6 suite · draft for pilot" if number==6 else "Step 5c chapter 5 suite · draft for pilot" if number==5 else "Step 5b chapter 4 suite · draft for pilot" if number==4 else "Step 5a chapter 3 suite · draft for pilot" if number==3 else "Step 4 pilot suite · draft for Sam to teach and review") if pilot else "Restructure only · existing content awaiting audit corrections"))
-    future=old["Ambil bungkusan di lobi"]
-    future.update(title="Chapter 12 · Ambil bungkusan di lobi",sequence="future",status="Stage 2, not yet active")
+    # The old chapter 12 placeholder "Ambil bungkusan di lobi" is retired (Sam, 13 Nov 2026): units 12A and 12B replace it.
+    retired_placeholder=set(old["Ambil bungkusan di lobi"]["items"])
     supplementary=[]
     for group in groups[course_count:]:
         if group["lang"]=="Malay" and group["level"] in {"B1","B2","C1"}:
             group.update(sequence="supplementary",status="Unplaced · provisional")
             supplementary.append(group)
-    groups=stage1+[future]+supplementary+[g for g in groups if g["lang"]!="Malay"]
+    groups=stage1+supplementary+[g for g in groups if g["lang"]!="Malay"]
     # Preserve source texts on disk but do not expose superseded chapter 3 packs.
     superseded={t for t in old["Beli buah di pasar"]["items"] if t.startswith("Beli buah di pasar · ")}
+    superseded.update(retired_placeholder)
     superseded.update({'Beli buah di pasar', 'Jumlah buah', 'Pesanan buah', 'Di, ke and dari'})  # the last is superseded by unit 7 patterns 1 and 2
     lessons[:]=[l for l in lessons if l["title"] not in superseded]
     titles={l["title"] for l in lessons}|{t for u in suite_units for t in u["titles"]}

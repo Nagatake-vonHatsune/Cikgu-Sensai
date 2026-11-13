@@ -34,7 +34,9 @@ class CatalogueTests(unittest.TestCase):
                  # Step 5e retires the legacy chapter 7 packs superseded by unit 7 (and the grammar pack "Di, ke and dari", whose
                  # words kampus and tren are not in the ledger and whose content unit 7 patterns 1 and 2 replace).
                  'Asking where · Learner pack','Asking where · Teaching plan',
-                 'Directions and orientation · Learner pack','Directions and orientation · Teaching plan','Di, ke and dari'}
+                 'Directions and orientation · Learner pack','Directions and orientation · Teaching plan','Di, ke and dari',
+                 # Stage 2 chapter 12 fixes (Sam, 13 Nov 2026) retire the old chapter 12 placeholder, replaced by units 12A and 12B.
+                 'Ambil bungkusan di lobi','Ambil bungkusan di lobi · Learner pack','Ambil bungkusan di lobi · Teaching plan','Dah atau belum','Mesej untuk pengawal','A clear pickup message'}
         expected=[l for l in old if l['title'] not in retired]
         # Stage 2 build step 1 (13 Nov 2026): placing «perlu» (Ch13), «jadi» (Ch14), «ni» and «macam tu» (Ch17) in the ledger
         # made them forward references in the legacy chapter 12 pack, so exactly these lines were rewritten (plan section 2,

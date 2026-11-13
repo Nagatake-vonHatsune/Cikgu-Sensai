@@ -119555,9 +119555,9 @@
   "exclusion": null
  },
  "Unit 12A · Vocabulary focus|5|0": {
-  "source_text": "   e.g. Penerima ialah Encik Tanaka.",
+  "source_text": "   e.g. Penerima Encik Tanaka.",
   "target_spans": [
-   "Penerima ialah Encik Tanaka."
+   "Penerima Encik Tanaka."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -120193,9 +120193,9 @@
   "exclusion": null
  },
  "Unit 12A · Vocabulary focus|7|10": {
-  "source_text": "   e.g. Saya sudah simpankan bungkusan itu.",
+  "source_text": "   e.g. Saya sudah menyimpan bungkusan itu.",
   "target_spans": [
-   "Saya sudah simpankan bungkusan itu."
+   "Saya sudah menyimpan bungkusan itu."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -120211,9 +120211,9 @@
   "exclusion": null
  },
  "Unit 12A · Vocabulary focus|7|12": {
-  "source_text": "   e.g. Saya belum bukakan pintu itu.",
+  "source_text": "   e.g. Saya belum membuka pintu itu.",
   "target_spans": [
-   "Saya belum bukakan pintu itu."
+   "Saya belum membuka pintu itu."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -120229,9 +120229,9 @@
   "exclusion": null
  },
  "Unit 12A · Vocabulary focus|7|14": {
-  "source_text": "   e.g. Saya sedang bawakan bungkusan itu ke lif.",
+  "source_text": "   e.g. Saya sedang membawa bungkusan itu ke lif.",
   "target_spans": [
-   "Saya sedang bawakan bungkusan itu ke lif."
+   "Saya sedang membawa bungkusan itu ke lif."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -120247,9 +120247,9 @@
   "exclusion": null
  },
  "Unit 12A · Vocabulary focus|7|16": {
-  "source_text": "   e.g. Saya akan hantarkan bungkusan itu petang ini.",
+  "source_text": "   e.g. Saya akan menghantar bungkusan itu petang ini.",
   "target_spans": [
-   "Saya akan hantarkan bungkusan itu petang ini."
+   "Saya akan menghantar bungkusan itu petang ini."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -120265,9 +120265,9 @@
   "exclusion": null
  },
  "Unit 12A · Vocabulary focus|7|18": {
-  "source_text": "   e.g. Pengawal baru bukakan pintu itu.",
+  "source_text": "   e.g. Pengawal baru membuka pintu itu.",
   "target_spans": [
-   "Pengawal baru bukakan pintu itu."
+   "Pengawal baru membuka pintu itu."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -120708,10 +120708,10 @@
   "exclusion": null
  },
  "Unit 12A · Pattern and grammar focus|5|5": {
-  "source_text": "3. A: Siapa penerima bungkusan ini? B: Penerima ialah Encik Tanaka.",
+  "source_text": "3. A: Siapa penerima bungkusan ini? B: Penerima Encik Tanaka.",
   "target_spans": [
    "Siapa penerima bungkusan ini?",
-   "Penerima ialah Encik Tanaka."
+   "Penerima Encik Tanaka."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -121275,7 +121275,7 @@
   "exclusion": null
  },
  "Unit 12A · Drill 3 · Transformation|3|7": {
-  "source_text": "6. Not yet (belum): Saya simpankan bungkusan itu.",
+  "source_text": "6. Not yet (belum; change the verb): Saya simpankan bungkusan itu.",
   "target_spans": [
    "belum",
    "Saya simpankan bungkusan itu."
@@ -121285,7 +121285,7 @@
   "exclusion": null
  },
  "Unit 12A · Drill 3 · Transformation|3|8": {
-  "source_text": "7. Add sedang: Saya bawakan bungkusan itu ke lif.",
+  "source_text": "7. Add sedang (and change the verb): Saya bawakan bungkusan itu ke lif.",
   "target_spans": [
    "sedang",
    "Saya bawakan bungkusan itu ke lif."
@@ -121325,10 +121325,10 @@
   "exclusion": null
  },
  "Unit 12A · Drill 3 · Transformation|4|2": {
-  "source_text": "6 Saya belum simpankan bungkusan itu. 7 Saya sedang bawakan bungkusan itu ke lif. 8 Siapa yang menyimpan bungkusan itu?",
+  "source_text": "6 Saya belum menyimpan bungkusan itu. 7 Saya sedang membawa bungkusan itu ke lif. 8 Siapa yang menyimpan bungkusan itu?",
   "target_spans": [
-   "Saya belum simpankan bungkusan itu.",
-   "Saya sedang bawakan bungkusan itu ke lif.",
+   "Saya belum menyimpan bungkusan itu.",
+   "Saya sedang membawa bungkusan itu ke lif.",
    "Siapa yang menyimpan bungkusan itu?"
   ],
   "mention_spans": [],
@@ -121418,9 +121418,9 @@
   "exclusion": null
  },
  "Unit 12A · Drill 4 · Question and answer|3|6": {
-  "source_text": "5. You hear: Pengawal simpankan bungkusan itu di pondok pengawal. Ask the question (di mana).",
+  "source_text": "5. You hear: Pengawal menyimpan bungkusan itu di pondok pengawal. Ask the question (di mana).",
   "target_spans": [
-   "Pengawal simpankan bungkusan itu di pondok pengawal.",
+   "Pengawal menyimpan bungkusan itu di pondok pengawal.",
    "di mana"
   ],
   "mention_spans": [],
@@ -121477,10 +121477,10 @@
   "exclusion": null
  },
  "Unit 12A · Drill 4 · Question and answer|4|2": {
-  "source_text": "5 Pengawal simpankan bungkusan itu di mana? 6 Pukul berapa awak hantarkan bungkusan itu? 7 Bungkusan besar itu untuk siapa? 8 Berapa bungkusan di lobi?",
+  "source_text": "5 Pengawal menyimpan bungkusan itu di mana? 6 Pukul berapa awak menghantar bungkusan itu? 7 Bungkusan besar itu untuk siapa? 8 Berapa bungkusan di lobi?",
   "target_spans": [
-   "Pengawal simpankan bungkusan itu di mana?",
-   "Pukul berapa awak hantarkan bungkusan itu?",
+   "Pengawal menyimpan bungkusan itu di mana?",
+   "Pukul berapa awak menghantar bungkusan itu?",
    "Bungkusan besar itu untuk siapa?",
    "Berapa bungkusan di lobi?"
   ],
@@ -121561,9 +121561,9 @@
   "exclusion": null
  },
  "Unit 12A · Drill 5 · Question-word choice|3|5": {
-  "source_text": "4. Pengawal simpankan bungkusan itu di ___? → Di pondok pengawal.",
+  "source_text": "4. Pengawal menyimpan bungkusan itu di ___? → Di pondok pengawal.",
   "target_spans": [
-   "Pengawal simpankan bungkusan itu di ___?",
+   "Pengawal menyimpan bungkusan itu di ___?",
    "Di pondok pengawal."
   ],
   "mention_spans": [],
@@ -121761,14 +121761,18 @@
   "exclusion": null
  },
  "Unit 12A · Markers with ‹-kan› verbs|0|0": {
-  "source_text": "第4章の sudah・belum・sedang・masih・akan・baru を、第12章の -kan の動詞と組み合わせて言います。",
+  "source_text": "第4章の sudah・belum・sedang・masih・akan・baru を言い、-kan の動詞を meN- の動詞（menyimpan・menghantar・membawa・membuka）に直します。",
   "target_spans": [
    "sudah",
    "belum",
    "sedang",
    "masih",
    "akan",
-   "baru"
+   "baru",
+   "menyimpan",
+   "menghantar",
+   "membawa",
+   "membuka"
   ],
   "mention_spans": [
    "-kan"
@@ -121791,23 +121795,49 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 12A · Markers with ‹-kan› verbs|2|0": {
-  "source_text": "Combine the chapter 4 markers with the -kan verbs: the verb never changes, only the marker does.",
-  "target_spans": [],
+  "source_text": "Say the chapter 4 markers and change the bare -kan verb to the meN- verb (menyimpan, menghantar, membawa, membuka) after a marker.",
+  "target_spans": [
+   "menyimpan",
+   "menghantar",
+   "membawa",
+   "membuka"
+  ],
   "mention_spans": [
    "-kan"
   ],
   "kind": "explainer",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 12A · Markers with ‹-kan› verbs|3|0": {
-  "source_text": "Say each sentence again with the marker or time cue in brackets. The -kan verb never changes; only the marker does. / かっこ内のマーカーか時の言葉を付けて言い直します。-kan の動詞は変わらず、前に付く語だけが変わります。",
-  "target_spans": [],
+  "source_text": "Say each sentence again with the marker in brackets. After sudah, sedang, belum, akan, baru or masih, or with a third-person doer, the bare -kan verb becomes the meN- verb: simpankan → menyimpan, hantarkan → menghantar. / かっこ内のマーカーを付けて言い直します。sudah・sedang・belum・akan・baru・masih のあと、または三人称の動作主のときは、素の -kan の動詞が meN- の動詞になります：simpankan → menyimpan、hantarkan → menghantar。",
+  "target_spans": [
+   "sudah",
+   "sedang",
+   "belum",
+   "akan",
+   "baru",
+   "masih",
+   "simpankan",
+   "menyimpan",
+   "hantarkan",
+   "menghantar",
+   "sudah",
+   "sedang",
+   "belum",
+   "akan",
+   "baru",
+   "masih",
+   "simpankan",
+   "menyimpan",
+   "hantarkan",
+   "menghantar"
+  ],
   "mention_spans": [
    "-kan",
    "-kan"
   ],
   "kind": "drill",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 12A · Markers with ‹-kan› verbs|3|1": {
   "source_text": "■ Say it with the marker · マーカーを付けて言う",
@@ -121827,9 +121857,9 @@
   "exclusion": null
  },
  "Unit 12A · Markers with ‹-kan› verbs|3|3": {
-  "source_text": "2. Pengawal hantarkan bungkusan itu. (marker: belum)",
+  "source_text": "2. Pengawal menghantar bungkusan itu. (marker: belum)",
   "target_spans": [
-   "Pengawal hantarkan bungkusan itu.",
+   "Pengawal menghantar bungkusan itu.",
    "belum"
   ],
   "mention_spans": [],
@@ -121857,9 +121887,9 @@
   "exclusion": null
  },
  "Unit 12A · Markers with ‹-kan› verbs|3|6": {
-  "source_text": "5. Pengawal bukakan pintu itu. (marker: baru)",
+  "source_text": "5. Pengawal membuka pintu itu. (marker: baru)",
   "target_spans": [
-   "Pengawal bukakan pintu itu.",
+   "Pengawal membuka pintu itu.",
    "baru"
   ],
   "mention_spans": [],
@@ -121887,11 +121917,10 @@
   "exclusion": null
  },
  "Unit 12A · Markers with ‹-kan› verbs|3|9": {
-  "source_text": "8. Saya letakkan bungkusan itu di sini. (time cue: sekarang, marker: sedang)",
+  "source_text": "8. Pengawal menyimpan bungkusan itu. (marker: masih)",
   "target_spans": [
-   "Saya letakkan bungkusan itu di sini.",
-   "sekarang",
-   "sedang"
+   "Pengawal menyimpan bungkusan itu.",
+   "masih"
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -121905,23 +121934,25 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 12A · Markers with ‹-kan› verbs|3|11": {
-  "source_text": "sudah simpankan ≈ もう預かった · belum hantarkan ≈ まだ届けていない · sedang bawakan ≈ 持っていくところ · akan hantarkan ≈ 届ける予定 · baru bukakan ≈ 開けたばかり",
+  "source_text": "sudah menyimpan ≈ もう預かった · belum menghantar ≈ まだ届けていない · sedang membawa ≈ 持っていくところ · akan menghantar ≈ 届ける予定 · baru membuka ≈ 開けたばかり",
   "target_spans": [
-   "sudah simpankan",
-   "belum hantarkan",
-   "sedang bawakan",
-   "akan hantarkan",
-   "baru bukakan"
+   "sudah menyimpan",
+   "belum menghantar",
+   "sedang membawa",
+   "akan menghantar",
+   "baru membuka"
   ],
   "mention_spans": [],
   "kind": "drill",
   "exclusion": null
  },
  "Unit 12A · Markers with ‹-kan› verbs|3|12": {
-  "source_text": "Japanese changes the verb ending (預かった / 預かっていない); Malay keeps simpankan and changes only the marker. / 日本語は動詞の語尾が変わりますが、マレー語は simpankan のままで、前の語だけが変わります。",
+  "source_text": "Japanese changes the verb ending (預かった / 預かっていない); Malay puts the marker in front and uses the meN- verb (menyimpan), not simpankan. / 日本語は動詞の語尾が変わります。マレー語はマーカーを前に置き、simpankan ではなく meN- の動詞（menyimpan）を使います。",
   "target_spans": [
+   "menyimpan",
    "simpankan",
-   "simpankan"
+   "simpankan",
+   "menyimpan"
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -121935,24 +121966,24 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 12A · Markers with ‹-kan› verbs|4|1": {
-  "source_text": "1 Saya sudah simpankan bungkusan itu. 2 Pengawal belum hantarkan bungkusan itu. 3 Saya sedang bawakan bungkusan itu ke lif. 4 Saya akan hantarkan bungkusan itu petang ini.",
+  "source_text": "1 Saya sudah menyimpan bungkusan itu. 2 Pengawal belum menghantar bungkusan itu. 3 Saya sedang membawa bungkusan itu ke lif. 4 Saya akan menghantar bungkusan itu petang ini.",
   "target_spans": [
-   "Saya sudah simpankan bungkusan itu.",
-   "Pengawal belum hantarkan bungkusan itu.",
-   "Saya sedang bawakan bungkusan itu ke lif.",
-   "Saya akan hantarkan bungkusan itu petang ini."
+   "Saya sudah menyimpan bungkusan itu.",
+   "Pengawal belum menghantar bungkusan itu.",
+   "Saya sedang membawa bungkusan itu ke lif.",
+   "Saya akan menghantar bungkusan itu petang ini."
   ],
   "mention_spans": [],
   "kind": "key",
   "exclusion": null
  },
  "Unit 12A · Markers with ‹-kan› verbs|4|2": {
-  "source_text": "5 Pengawal baru bukakan pintu itu. 6 Saya masih tunggu bungkusan itu. 7 Belum. Bungkusan itu belum sampai. 8 Sekarang saya sedang letakkan bungkusan itu di sini.",
+  "source_text": "5 Pengawal baru membuka pintu itu. 6 Saya masih tunggu bungkusan itu. 7 Belum. Bungkusan itu belum sampai. 8 Pengawal masih menyimpan bungkusan itu.",
   "target_spans": [
-   "Pengawal baru bukakan pintu itu.",
+   "Pengawal baru membuka pintu itu.",
    "Saya masih tunggu bungkusan itu.",
    "Belum. Bungkusan itu belum sampai.",
-   "Sekarang saya sedang letakkan bungkusan itu di sini."
+   "Pengawal masih menyimpan bungkusan itu."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -122194,7 +122225,7 @@
   "exclusion": null
  },
  "Unit 12A · Cumulative question-word drill|3|18": {
-  "source_text": "17. Ask how many boxes are in the lobby. (berapa with a counter)",
+  "source_text": "17. Ask how many boxes are in the lobby. (berapa)",
   "target_spans": [
    "berapa"
   ],
@@ -122279,11 +122310,11 @@
   "exclusion": null
  },
  "Unit 12A · Cumulative question-word drill|4|6": {
-  "source_text": "15 Berapa jauh lobi dari pondok pengawal? 16 Berapa lama saya tunggu bungkusan itu? 17 Ada berapa biji kotak di lobi?",
+  "source_text": "15 Berapa jauh lobi dari pondok pengawal? 16 Berapa lama saya tunggu bungkusan itu? 17 Ada berapa kotak di lobi?",
   "target_spans": [
    "Berapa jauh lobi dari pondok pengawal?",
    "Berapa lama saya tunggu bungkusan itu?",
-   "Ada berapa biji kotak di lobi?"
+   "Ada berapa kotak di lobi?"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -122565,9 +122596,9 @@
   "exclusion": null
  },
  "Unit 12A · Model conversation|4|3": {
-  "source_text": "Guard: Penerima ialah Puan Siti, ya? Boleh tunjukkan mesej dari kedai itu?",
+  "source_text": "Guard: Penerima Puan Siti, ya? Boleh tunjukkan mesej dari kedai itu?",
   "target_spans": [
-   "Penerima ialah Puan Siti, ya? Boleh tunjukkan mesej dari kedai itu?"
+   "Penerima Puan Siti, ya? Boleh tunjukkan mesej dari kedai itu?"
   ],
   "mention_spans": [],
   "kind": "model",
@@ -122907,9 +122938,9 @@
   "exclusion": null
  },
  "Unit 12A · Listening focus · Encik Tanaka|4|7": {
-  "source_text": "Guard: Terima kasih. Penerima ialah Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil.",
+  "source_text": "Guard: Terima kasih. Penerima Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil.",
   "target_spans": [
-   "Terima kasih. Penerima ialah Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil."
+   "Terima kasih. Penerima Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -122943,9 +122974,9 @@
   "exclusion": null
  },
  "Unit 12A · Listening focus · Encik Tanaka|4|11": {
-  "source_text": "Guard: Baik, cik. Saya simpankan kotak kecil itu di sini. Suami cik boleh tunjukkan mesej itu juga.",
+  "source_text": "Guard: Baik, cik. Saya simpankan kotak kecil itu di sini. Tolong minta suami cik tunjukkan mesej itu juga.",
   "target_spans": [
-   "Baik, cik. Saya simpankan kotak kecil itu di sini. Suami cik boleh tunjukkan mesej itu juga."
+   "Baik, cik. Saya simpankan kotak kecil itu di sini. Tolong minta suami cik tunjukkan mesej itu juga."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -123404,7 +123435,7 @@
   "exclusion": null
  },
  "Unit 12A · Culture and usage note|3|2": {
-  "source_text": "General knowledge, not a rule and not a checked fact: in many Malaysian condominiums a guard sits at a guardhouse near the gate, and parcels are often kept there or in the lobby until the resident collects them. The guard may ask to see the delivery message or the tracking number before handing a parcel over, and a torn label can mean a call to the owner or to the management office. Arrangements differ from one building to another, so ask at your own guardhouse.",
+  "source_text": "General knowledge, not a rule and not a checked fact: in many Malaysian condominiums a guard keeps parcels at a guardhouse and may ask to see the delivery message. Arrangements differ from one building to another, so ask at your own guardhouse.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "culture",
@@ -123464,7 +123495,7 @@
   "exclusion": null
  },
  "Unit 12A · Culture and usage note|3|7": {
-  "source_text": "一般的な知識であり、規則でも確認済みの事実でもありません：マレーシアの多くのコンドミニアムでは、門の近くの守衛所に守衛さんがいて、荷物は住民が取りに来るまでそこかロビーで預かることが多いです。荷物を渡す前に、配達のメッセージや追跡番号を見せるように言われることがあり、ラベルが破れているときは所有者や管理事務所に連絡することもあります。建物によって違うので、自分の建物の守衛所で聞きましょう。",
+  "source_text": "一般的な知識であり、規則でも確認済みの事実でもありません：マレーシアの多くのコンドミニアムでは、守衛さんが守衛所で荷物を預かり、配達のメッセージを見せるように言われることがあります。建物によって違うので、自分の建物の守衛所で聞きましょう。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "culture",
@@ -123484,7 +123515,7 @@
   "exclusion": null
  },
  "Unit 12A · Culture and usage note|4|0": {
-  "source_text": "English note: 251 words. The Japanese is a full translation (draft).",
+  "source_text": "English note: 208 words. The Japanese is a full translation (draft).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
@@ -123810,9 +123841,9 @@
   "exclusion": null
  },
  "Unit 12A · Unit test and self-check|5|2": {
-  "source_text": "L3: Teacher reads: Terima kasih. Penerima ialah Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil. Answer: two boxes: one big and one small",
+  "source_text": "L3: Teacher reads: Terima kasih. Penerima Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil. Answer: two boxes: one big and one small",
   "target_spans": [
-   "Terima kasih. Penerima ialah Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil."
+   "Terima kasih. Penerima Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -124039,9 +124070,9 @@
   "exclusion": null
  },
  "test:ms-c12a-test-03|answer_key": {
-  "source_text": "Teacher reads: Terima kasih. Penerima ialah Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil. Answer: two boxes: one big and one small",
+  "source_text": "Teacher reads: Terima kasih. Penerima Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil. Answer: two boxes: one big and one small",
   "target_spans": [
-   "Terima kasih. Penerima ialah Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil."
+   "Terima kasih. Penerima Cik Mei Ling. Ada dua kotak, satu besar dan satu kecil."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -124732,13 +124763,12 @@
   "exclusion": null
  },
  "Unit 12A · Teaching plan and answer key|5|3": {
-  "source_text": "Where Japanese learners usually slip: (1) putting -kan on every verb as if it were a polite ending: Tolong baca emel ini takes the root, and so does Saya mahu ambil bungkusan (card ms-c12-003 is for another person); (2) forgetting the double k: *letakan, *tunjukan; (3) hearing berikan as ber- + ikan; (4) a full meN- + -kan form (a longer, formal form of the same verbs) is not taught here: Saya simpankan bungkusan itu is the form to use in a reply; (5) 〜てください covering both Tolong + root and Tolong + -kan: ask for whom the action is.",
+  "source_text": "Where Japanese learners usually slip: (1) putting -kan on every verb as if it were a polite ending: Tolong baca emel ini takes the root, and so does Saya mahu ambil bungkusan (card ms-c12-003 is for another person); (2) forgetting the double k: *letakan, *tunjukan; (3) hearing berikan as ber- + ikan; (4) a full meN- + -kan form (*menyimpankan, *menghantarkan) is not natural and is not taught: see the -kan rule below; (5) 〜てください covering both Tolong + root and Tolong + -kan: ask for whom the action is.",
   "target_spans": [
    "Tolong baca emel ini",
    "Saya mahu ambil bungkusan",
    "berikan",
    "ikan",
-   "Saya simpankan bungkusan itu",
    "Tolong",
    "Tolong"
   ],
@@ -124747,19 +124777,51 @@
    "ber-",
    "meN-",
    "-kan",
+   "-kan",
    "-kan"
   ],
   "kind": "plan",
   "exclusion": null
  },
  "Unit 12A · Teaching plan and answer key|5|4": {
-  "source_text": "Guardhouse and management-office customs (general knowledge, not a rule and not source-checked; no figure): in many Malaysian condominiums the guard keeps parcels and may ask for the delivery message or the tracking number; the management office takes problems with the building. Buildings differ, so tell learners to ask at their own guardhouse. The unit gives no Malaysian rule, price or time.",
+  "source_text": "the -kan rule (Sam, 13 Nov 2026): use the bare -kan verb for a request (Tolong simpankan …, Boleh bawakan …?) and for a first-person offer or reply (Saya hantarkan sekarang., Baik, saya matikan sekarang.); in a statement with a third-person doer or with sudah, sedang, belum, akan, baru or masih, use the meN- verb the course has (Pengawal menyimpan bungkusan itu., Pengawal menghantar bungkusan itu., Pengawal membuka pintu itu., Saya sedang membawa bungkusan itu ke lif.); where the course has no meN- verb (letakkan, bukakan, matikan, bersihkan), rephrase: Saya letakkan bungkusan itu di sini sekarang., Saya bersihkan lantai itu sekarang. Do not teach forms such as *menyimpankan or *menghantarkan: they are not natural.",
+  "target_spans": [
+   "Tolong simpankan …",
+   "Boleh bawakan …?",
+   "Saya hantarkan sekarang.",
+   "Baik, saya matikan sekarang.",
+   "sudah",
+   "sedang",
+   "belum",
+   "akan",
+   "baru",
+   "masih",
+   "Pengawal menyimpan bungkusan itu.",
+   "Pengawal menghantar bungkusan itu.",
+   "Pengawal membuka pintu itu.",
+   "Saya sedang membawa bungkusan itu ke lif.",
+   "letakkan",
+   "bukakan",
+   "matikan",
+   "bersihkan",
+   "Saya letakkan bungkusan itu di sini sekarang.",
+   "Saya bersihkan lantai itu sekarang."
+  ],
+  "mention_spans": [
+   "-kan",
+   "-kan"
+  ],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 12A · Teaching plan and answer key|5|5": {
+  "source_text": "Guardhouse (general knowledge, not a rule and not source-checked; no figure): in many Malaysian condominiums the guard keeps parcels and may ask to see the delivery message. Buildings differ, so tell learners to ask at their own guardhouse.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 12A · Teaching plan and answer key|5|5": {
+ "Unit 12A · Teaching plan and answer key|6|0": {
   "source_text": "Standard first: teach the -kan form, accept the everyday root in speech (simpan, hantar, tutup, buka), and never mark it wrong in a speaking task. nombor tracking is spoken; the written label is nombor penjejakan (recognition only, never in a key).",
   "target_spans": [
    "simpan",
@@ -124775,28 +124837,28 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 12A · Teaching plan and answer key|5|6": {
+ "Unit 12A · Teaching plan and answer key|6|1": {
   "source_text": "The scene follows Kata-Kata c12 (scenario lines ms-c12-s01 to s10, frames f01, f02 and f03). All names, blocks, units and times are fictional; learners may use their real building or an invented one.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 12A · Teaching plan and answer key|5|7": {
+ "Unit 12A · Teaching plan and answer key|6|2": {
   "source_text": "Cumulative question words: chapters 1 to 12. Chapter 12 adds no new question word.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 12A · Teaching plan and answer key|6|0": {
+ "Unit 12A · Teaching plan and answer key|7|0": {
   "source_text": "Answer keys are on each component. Japanese text awaits native review.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 12A · Teaching plan and answer key|6|1": {
+ "Unit 12A · Teaching plan and answer key|7|1": {
   "source_text": "Standard forms first; spoken forms are labelled. ber- verbs are taught as whole ledger forms, each with its root; no meN- verb (chapter 11) and no suffixed verb form (chapter 12).",
   "target_spans": [],
   "mention_spans": [],
@@ -125479,9 +125541,9 @@
   "exclusion": null
  },
  "Unit 12B · Vocabulary focus|3|14": {
-  "source_text": "   e.g. Kami akan hubungi kontraktor.",
+  "source_text": "   e.g. Kami akan menghubungi kontraktor.",
   "target_spans": [
-   "Kami akan hubungi kontraktor."
+   "Kami akan menghubungi kontraktor."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -125628,9 +125690,11 @@
   "exclusion": null
  },
  "Unit 12B · Vocabulary focus|4|3": {
-  "source_text": "   e.g. Kontraktor ganti paip yang rosak.",
+  "source_text": "   e.g. Tolong ganti lampu itu. (also gantikan; for a plan: Kontraktor akan menukar paip itu.)",
   "target_spans": [
-   "Kontraktor ganti paip yang rosak."
+   "Tolong ganti lampu itu.",
+   "gantikan",
+   "Kontraktor akan menukar paip itu."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -125789,7 +125853,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|4|17": {
+ "Unit 12B · Vocabulary focus|5|0": {
   "source_text": "bersihkan — clean (a request) (root bersih (chapter 6); -kan: make clean; bersih + -kan, not ber- + sih) · きれいにしてください（語根 bersih（第6章）；-kan：きれいにする；bersih ＋ -kan で、ber- ＋ sih ではない）  [L-1181]",
   "target_spans": [
    "bersihkan",
@@ -125811,7 +125875,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|0": {
+ "Unit 12B · Vocabulary focus|5|1": {
   "source_text": "   e.g. Tolong bersihkan lantai itu.",
   "target_spans": [
    "Tolong bersihkan lantai itu."
@@ -125820,7 +125884,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|1": {
+ "Unit 12B · Vocabulary focus|5|2": {
   "source_text": "perlahankan — to lower (the voice), to slow down (root perlahan (chapter 6); -kan: make slower or quieter) · （声を）小さくする・ゆっくりにする（語根 perlahan（第6章）；-kan：ゆっくり・小さくする）  [L-0871]",
   "target_spans": [
    "perlahankan",
@@ -125834,7 +125898,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|2": {
+ "Unit 12B · Vocabulary focus|5|3": {
   "source_text": "   e.g. Tolong perlahankan muzik itu.",
   "target_spans": [
    "Tolong perlahankan muzik itu."
@@ -125843,14 +125907,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|3": {
+ "Unit 12B · Vocabulary focus|5|4": {
   "source_text": "■ Revision · 復習 (not new, not tested as new vocabulary)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 12B · Vocabulary focus|5|4": {
+ "Unit 12B · Vocabulary focus|5|5": {
   "source_text": "■ Revision · 復習 · Roots of the -kan and -i verbs",
   "target_spans": [],
   "mention_spans": [
@@ -125860,7 +125924,7 @@
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 12B · Vocabulary focus|5|5": {
+ "Unit 12B · Vocabulary focus|5|6": {
   "source_text": "baik — good, well, fine · 良い・元気  [L-0013]",
   "target_spans": [
    "baik"
@@ -125869,7 +125933,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|6": {
+ "Unit 12B · Vocabulary focus|5|7": {
   "source_text": "   e.g. baik → baiki: Baik, saya baiki sekarang.",
   "target_spans": [
    "baik",
@@ -125880,7 +125944,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|7": {
+ "Unit 12B · Vocabulary focus|5|8": {
   "source_text": "isi — to fill in; contents · 記入する・中身  [L-0420]",
   "target_spans": [
    "isi"
@@ -125889,7 +125953,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|8": {
+ "Unit 12B · Vocabulary focus|5|9": {
   "source_text": "   e.g. isi → isikan: Sila isi borang aduan.",
   "target_spans": [
    "isi",
@@ -125900,7 +125964,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|9": {
+ "Unit 12B · Vocabulary focus|5|10": {
   "source_text": "kosong / sifar — zero · ゼロ  [L-0099]",
   "target_spans": [
    "kosong / sifar"
@@ -125909,7 +125973,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|10": {
+ "Unit 12B · Vocabulary focus|5|11": {
   "source_text": "   e.g. kosong → kosongkan: Lantai itu kosong.",
   "target_spans": [
    "kosong",
@@ -125920,7 +125984,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|11": {
+ "Unit 12B · Vocabulary focus|5|12": {
   "source_text": "bersih — clean · きれい（清潔）  [L-0292]",
   "target_spans": [
    "bersih"
@@ -125929,7 +125993,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|12": {
+ "Unit 12B · Vocabulary focus|5|13": {
   "source_text": "   e.g. bersih → bersihkan: Lantai itu bersih.",
   "target_spans": [
    "bersih",
@@ -125940,7 +126004,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|13": {
+ "Unit 12B · Vocabulary focus|5|14": {
   "source_text": "perlahan — slow · 遅い（速度）  [L-0287]",
   "target_spans": [
    "perlahan"
@@ -125949,7 +126013,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|14": {
+ "Unit 12B · Vocabulary focus|5|15": {
   "source_text": "   e.g. perlahan → perlahankan: Tolong bercakap perlahan.",
   "target_spans": [
    "perlahan",
@@ -125960,7 +126024,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|15": {
+ "Unit 12B · Vocabulary focus|5|16": {
   "source_text": "rosak — broken, out of order · 壊れた・故障した  [L-0588]",
   "target_spans": [
    "rosak"
@@ -125969,7 +126033,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|16": {
+ "Unit 12B · Vocabulary focus|5|17": {
   "source_text": "   e.g. rosak → kerosakan: Lampu itu rosak.",
   "target_spans": [
    "rosak",
@@ -125980,14 +126044,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|17": {
+ "Unit 12B · Vocabulary focus|5|18": {
   "source_text": "■ Revision · 復習 · The home",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 12B · Vocabulary focus|5|18": {
+ "Unit 12B · Vocabulary focus|5|19": {
   "source_text": "lampu — lamp, light · 電灯・ランプ  [L-0569]",
   "target_spans": [
    "lampu"
@@ -125996,7 +126060,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|19": {
+ "Unit 12B · Vocabulary focus|5|20": {
   "source_text": "   e.g. Tolong matikan lampu itu dulu.",
   "target_spans": [
    "Tolong matikan lampu itu dulu."
@@ -126005,7 +126069,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|20": {
+ "Unit 12B · Vocabulary focus|5|21": {
   "source_text": "kipas — fan · 扇風機  [L-0570]",
   "target_spans": [
    "kipas"
@@ -126014,7 +126078,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|21": {
+ "Unit 12B · Vocabulary focus|5|22": {
   "source_text": "   e.g. Tolong matikan kipas itu.",
   "target_spans": [
    "Tolong matikan kipas itu."
@@ -126023,7 +126087,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|22": {
+ "Unit 12B · Vocabulary focus|5|23": {
   "source_text": "bilik air — bathroom · 浴室・トイレ  [L-0555]",
   "target_spans": [
    "bilik air"
@@ -126032,7 +126096,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|23": {
+ "Unit 12B · Vocabulary focus|5|24": {
   "source_text": "   e.g. Ada kebocoran di siling bilik air saya.",
   "target_spans": [
    "Ada kebocoran di siling bilik air saya."
@@ -126041,7 +126105,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|24": {
+ "Unit 12B · Vocabulary focus|5|25": {
   "source_text": "air — water; drink · 水・飲み物  [L-0259]",
   "target_spans": [
    "air"
@@ -126050,7 +126114,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|25": {
+ "Unit 12B · Vocabulary focus|5|26": {
   "source_text": "   e.g. Air turun dari siling atau dari paip?",
   "target_spans": [
    "Air turun dari siling atau dari paip?"
@@ -126059,7 +126123,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|26": {
+ "Unit 12B · Vocabulary focus|5|27": {
   "source_text": "lantai — floor · 床  [L-0571]",
   "target_spans": [
    "lantai"
@@ -126068,7 +126132,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|27": {
+ "Unit 12B · Vocabulary focus|6|0": {
   "source_text": "   e.g. Lantai itu basah.",
   "target_spans": [
    "Lantai itu basah."
@@ -126077,7 +126141,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|28": {
+ "Unit 12B · Vocabulary focus|6|1": {
   "source_text": "tingkap — window · 窓  [L-0566]",
   "target_spans": [
    "tingkap"
@@ -126086,7 +126150,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|5|29": {
+ "Unit 12B · Vocabulary focus|6|2": {
   "source_text": "   e.g. Tolong bukakan tingkap itu.",
   "target_spans": [
    "Tolong bukakan tingkap itu."
@@ -126095,7 +126159,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|0": {
+ "Unit 12B · Vocabulary focus|6|3": {
   "source_text": "dapur — kitchen; stove · 台所・コンロ  [L-0456]",
   "target_spans": [
    "dapur"
@@ -126104,7 +126168,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|1": {
+ "Unit 12B · Vocabulary focus|6|4": {
   "source_text": "   e.g. Paip dapur saya rosak.",
   "target_spans": [
    "Paip dapur saya rosak."
@@ -126113,7 +126177,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|2": {
+ "Unit 12B · Vocabulary focus|6|5": {
   "source_text": "borang — form (to fill in) · 用紙・申込書  [L-0419]",
   "target_spans": [
    "borang"
@@ -126122,7 +126186,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|3": {
+ "Unit 12B · Vocabulary focus|6|6": {
   "source_text": "   e.g. Saya isi borang aduan sekarang.",
   "target_spans": [
    "Saya isi borang aduan sekarang."
@@ -126131,14 +126195,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|4": {
+ "Unit 12B · Vocabulary focus|6|7": {
   "source_text": "■ Revision · 復習 · Asking, feelings and place",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 12B · Vocabulary focus|6|5": {
+ "Unit 12B · Vocabulary focus|6|8": {
   "source_text": "tolong — please (help me) · 〜してください  [L-0375]",
   "target_spans": [
    "tolong"
@@ -126147,7 +126211,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|6": {
+ "Unit 12B · Vocabulary focus|6|9": {
   "source_text": "   e.g. Tolong matikan lampu itu dulu.",
   "target_spans": [
    "Tolong matikan lampu itu dulu."
@@ -126156,7 +126220,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|7": {
+ "Unit 12B · Vocabulary focus|6|10": {
   "source_text": "boleh — can; okay · できる・いいよ  [L-0076]",
   "target_spans": [
    "boleh"
@@ -126165,7 +126229,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|8": {
+ "Unit 12B · Vocabulary focus|6|11": {
   "source_text": "   e.g. Boleh hubungi juruteknik?",
   "target_spans": [
    "Boleh hubungi juruteknik?"
@@ -126174,7 +126238,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|9": {
+ "Unit 12B · Vocabulary focus|6|12": {
   "source_text": "sila — please (polite instruction) · 〜してください（丁寧）  [L-0401]",
   "target_spans": [
    "sila"
@@ -126183,7 +126247,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|10": {
+ "Unit 12B · Vocabulary focus|6|13": {
   "source_text": "   e.g. Sila hubungi pejabat pengurusan.",
   "target_spans": [
    "Sila hubungi pejabat pengurusan."
@@ -126192,7 +126256,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|11": {
+ "Unit 12B · Vocabulary focus|6|14": {
   "source_text": "nanti — later · 後で  [L-0026]",
   "target_spans": [
    "nanti"
@@ -126201,7 +126265,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|12": {
+ "Unit 12B · Vocabulary focus|6|15": {
   "source_text": "   e.g. Tolong hubungi pemilik unit itu nanti.",
   "target_spans": [
    "Tolong hubungi pemilik unit itu nanti."
@@ -126210,7 +126274,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|13": {
+ "Unit 12B · Vocabulary focus|6|16": {
   "source_text": "dulu — first, before others · 先に  [L-0023]",
   "target_spans": [
    "dulu"
@@ -126219,7 +126283,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|14": {
+ "Unit 12B · Vocabulary focus|6|17": {
   "source_text": "   e.g. Tolong matikan lampu itu dulu.",
   "target_spans": [
    "Tolong matikan lampu itu dulu."
@@ -126228,7 +126292,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|15": {
+ "Unit 12B · Vocabulary focus|6|18": {
   "source_text": "bising — noisy · うるさい  [L-0291]",
   "target_spans": [
    "bising"
@@ -126237,7 +126301,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|16": {
+ "Unit 12B · Vocabulary focus|6|19": {
   "source_text": "   e.g. Muzik itu bising.",
   "target_spans": [
    "Muzik itu bising."
@@ -126246,7 +126310,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|17": {
+ "Unit 12B · Vocabulary focus|6|20": {
   "source_text": "takut — afraid · 怖い  [L-0248]",
   "target_spans": [
    "takut"
@@ -126255,7 +126319,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|18": {
+ "Unit 12B · Vocabulary focus|6|21": {
   "source_text": "   e.g. Saya takut lampu itu rosak.",
   "target_spans": [
    "Saya takut lampu itu rosak."
@@ -126264,7 +126328,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|19": {
+ "Unit 12B · Vocabulary focus|6|22": {
   "source_text": "dekat — near · 近い  [L-0313]",
   "target_spans": [
    "dekat"
@@ -126273,7 +126337,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|20": {
+ "Unit 12B · Vocabulary focus|6|23": {
   "source_text": "   e.g. Dari siling, dekat lampu.",
   "target_spans": [
    "Dari siling, dekat lampu."
@@ -126282,7 +126346,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|21": {
+ "Unit 12B · Vocabulary focus|6|24": {
   "source_text": "melihat — to see · 見る  [L-1139]",
   "target_spans": [
    "melihat"
@@ -126291,7 +126355,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|22": {
+ "Unit 12B · Vocabulary focus|6|25": {
   "source_text": "   e.g. Juruteknik akan melihat siling itu.",
   "target_spans": [
    "Juruteknik akan melihat siling itu."
@@ -126300,7 +126364,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|23": {
+ "Unit 12B · Vocabulary focus|6|26": {
   "source_text": "menelefon — to phone · 電話をかける  [L-1155]",
   "target_spans": [
    "menelefon"
@@ -126309,7 +126373,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|24": {
+ "Unit 12B · Vocabulary focus|6|27": {
   "source_text": "   e.g. Saya akan menelefon pejabat pengurusan.",
   "target_spans": [
    "Saya akan menelefon pejabat pengurusan."
@@ -126318,14 +126382,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|25": {
+ "Unit 12B · Vocabulary focus|6|28": {
   "source_text": "■ Revision · 復習 · Time and markers",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 12B · Vocabulary focus|6|26": {
+ "Unit 12B · Vocabulary focus|6|29": {
   "source_text": "sudah / dah — already, done (standard sudah; spoken dah) · もう〜した  [L-0193]",
   "target_spans": [
    "sudah / dah",
@@ -126336,16 +126400,16 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|27": {
-  "source_text": "   e.g. Saya sudah hubungi juruteknik.",
+ "Unit 12B · Vocabulary focus|6|30": {
+  "source_text": "   e.g. Saya sudah menghubungi juruteknik.",
   "target_spans": [
-   "Saya sudah hubungi juruteknik."
+   "Saya sudah menghubungi juruteknik."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|28": {
+ "Unit 12B · Vocabulary focus|7|0": {
   "source_text": "belum — not yet · まだ〜していない  [L-0194]",
   "target_spans": [
    "belum"
@@ -126354,16 +126418,16 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|29": {
-  "source_text": "   e.g. Juruteknik belum baiki paip itu.",
+ "Unit 12B · Vocabulary focus|7|1": {
+  "source_text": "   e.g. Juruteknik belum membaiki paip itu.",
   "target_spans": [
-   "Juruteknik belum baiki paip itu."
+   "Juruteknik belum membaiki paip itu."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|6|30": {
+ "Unit 12B · Vocabulary focus|7|2": {
   "source_text": "sedang — in the middle of (-ing) · 〜しているところ  [L-0189]",
   "target_spans": [
    "sedang"
@@ -126372,7 +126436,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|7|0": {
+ "Unit 12B · Vocabulary focus|7|3": {
   "source_text": "   e.g. Juruteknik sedang membaiki paip.",
   "target_spans": [
    "Juruteknik sedang membaiki paip."
@@ -126381,7 +126445,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|7|1": {
+ "Unit 12B · Vocabulary focus|7|4": {
   "source_text": "akan — will · 〜する予定  [L-0192]",
   "target_spans": [
    "akan"
@@ -126390,7 +126454,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|7|2": {
+ "Unit 12B · Vocabulary focus|7|5": {
   "source_text": "   e.g. Kami akan menghubungi juruteknik.",
   "target_spans": [
    "Kami akan menghubungi juruteknik."
@@ -126399,7 +126463,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|7|3": {
+ "Unit 12B · Vocabulary focus|7|6": {
   "source_text": "sekarang — now · 今  [L-0161]",
   "target_spans": [
    "sekarang"
@@ -126408,7 +126472,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|7|4": {
+ "Unit 12B · Vocabulary focus|7|7": {
   "source_text": "   e.g. Saya matikan lampu itu sekarang.",
   "target_spans": [
    "Saya matikan lampu itu sekarang."
@@ -126417,7 +126481,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|7|5": {
+ "Unit 12B · Vocabulary focus|7|8": {
   "source_text": "bila — when · いつ  [L-1007]",
   "target_spans": [
    "bila"
@@ -126426,7 +126490,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|7|6": {
+ "Unit 12B · Vocabulary focus|7|9": {
   "source_text": "   e.g. Bila juruteknik boleh datang?",
   "target_spans": [
    "Bila juruteknik boleh datang?"
@@ -126435,7 +126499,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|7|7": {
+ "Unit 12B · Vocabulary focus|7|10": {
   "source_text": "pukul — o'clock · 〜時  [L-0157]",
   "target_spans": [
    "pukul"
@@ -126444,7 +126508,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 12B · Vocabulary focus|7|8": {
+ "Unit 12B · Vocabulary focus|7|11": {
   "source_text": "   e.g. Juruteknik datang pukul tiga.",
   "target_spans": [
    "Juruteknik datang pukul tiga."
@@ -126562,9 +126626,9 @@
   "exclusion": null
  },
  "Unit 12B · Pattern and grammar focus|3|5": {
-  "source_text": "5. A: Awak sudah hubungi pemilik unit itu? B: Belum. Saya akan menelefon dia petang ini.",
+  "source_text": "5. A: Awak sudah menghubungi pemilik unit itu? B: Belum. Saya akan menelefon dia petang ini.",
   "target_spans": [
-   "Awak sudah hubungi pemilik unit itu?",
+   "Awak sudah menghubungi pemilik unit itu?",
    "Belum. Saya akan menelefon dia petang ini."
   ],
   "mention_spans": [],
@@ -126582,7 +126646,7 @@
   "exclusion": null
  },
  "Unit 12B · Pattern and grammar focus|3|7": {
-  "source_text": "Explanation: -i goes on the end of a root and points the action at a person or a place: hubungi is hubung + -i, and it means to get in touch with someone. The person follows the verb directly, with no little word between them: Boleh hubungi juruteknik? (the Kata-Kata frame), not a word like dengan before the person. On notices you read Sila hubungi pejabat pengurusan. With meN- in front, hubungi becomes menghubungi (meng- before h): Kami akan menghubungi juruteknik. Choose the form by the sentence: after Tolong, Boleh or Sila use hubungi; after a doer such as kami or pejabat pengurusan both hubungi and menghubungi are heard, and this course teaches menghubungi first. menelefon (chapter 11) means to phone, and hubungi does not say how you get in touch. The suffix -i does not mean the same as -kan: -i is to or at a person or place, -kan is for someone or to make it happen.",
+  "source_text": "Explanation: -i goes on the end of a root and points the action at a person or a place: hubungi is hubung + -i, and it means to get in touch with someone. The person follows the verb directly, with no little word between them: Boleh hubungi juruteknik? (the Kata-Kata frame), not a word like dengan before the person. On notices you read Sila hubungi pejabat pengurusan. With meN- in front, hubungi becomes menghubungi (meng- before h): Kami akan menghubungi juruteknik. Choose the form by the sentence: after Tolong, Boleh or Sila, and in a first-person reply (Saya hubungi sekarang.), use hubungi; after a doer such as kami or pejabat pengurusan, or after sudah, belum, sedang or akan, use menghubungi. This is the same rule as for the -kan verbs. menelefon (chapter 11) means to phone, and hubungi does not say how you get in touch. The suffix -i does not mean the same as -kan: -i is to or at a person or place, -kan is for someone or to make it happen.",
   "target_spans": [
    "hubungi",
    "Boleh hubungi juruteknik?",
@@ -126594,11 +126658,14 @@
    "Tolong",
    "Boleh",
    "Sila",
+   "Saya hubungi sekarang.",
    "hubungi",
    "kami",
    "pejabat pengurusan",
-   "hubungi",
-   "menghubungi",
+   "sudah",
+   "belum",
+   "sedang",
+   "akan",
    "menghubungi",
    "menelefon",
    "hubungi"
@@ -126609,6 +126676,7 @@
    "-i",
    "meN-",
    "meng-",
+   "-kan",
    "-i",
    "-kan",
    "-i",
@@ -126618,7 +126686,7 @@
   "exclusion": null
  },
  "Unit 12B · Pattern and grammar focus|3|8": {
-  "source_text": "説明：-i は語根の終わりに付いて、動作を人や場所に向けます：hubungi は hubung ＋ -i で、誰かと連絡を取るという意味です。人は動詞のすぐあとに置き、間に小さな語は入りません：Boleh hubungi juruteknik?（Kata-Kata の文型）。「に」にあたる語は入りません。掲示では Sila hubungi pejabat pengurusan. と読みます。前に meN- が付くと hubungi は menghubungi（h の前は meng-）になります：Kami akan menghubungi juruteknik. 使い分けは文で決まります：Tolong・Boleh・Sila のあとは hubungi、kami や pejabat pengurusan のような動作主のあとは hubungi も menghubungi も聞きますが、このコースでは menghubungi を先に教えます。menelefon（第11章）は電話をかけることで、hubungi は連絡の手段を言いません。-i と -kan は同じではありません：-i は人や場所へ向かう動作、-kan は誰かのため・そうなるようにする動作です。",
+  "source_text": "説明：-i は語根の終わりに付いて、動作を人や場所に向けます：hubungi は hubung ＋ -i で、誰かと連絡を取るという意味です。人は動詞のすぐあとに置き、間に小さな語は入りません：Boleh hubungi juruteknik?（Kata-Kata の文型）。「に」にあたる語は入りません。掲示では Sila hubungi pejabat pengurusan. と読みます。前に meN- が付くと hubungi は menghubungi（h の前は meng-）になります：Kami akan menghubungi juruteknik. 使い分けは文で決まります：Tolong・Boleh・Sila のあと、また一人称の返事（Saya hubungi sekarang.）では hubungi、kami や pejabat pengurusan のような動作主のあと、また sudah・belum・sedang・akan のあとでは menghubungi を使います。-kan の動詞と同じ規則です。menelefon（第11章）は電話をかけることで、hubungi は連絡の手段を言いません。-i と -kan は同じではありません：-i は人や場所へ向かう動作、-kan は誰かのため・そうなるようにする動作です。",
   "target_spans": [
    "hubungi",
    "Boleh hubungi juruteknik?",
@@ -126629,11 +126697,14 @@
    "Tolong",
    "Boleh",
    "Sila",
+   "Saya hubungi sekarang.",
    "hubungi",
    "kami",
    "pejabat pengurusan",
-   "hubungi",
-   "menghubungi",
+   "sudah",
+   "belum",
+   "sedang",
+   "akan",
    "menghubungi",
    "menelefon",
    "hubungi"
@@ -126644,6 +126715,7 @@
    "-i",
    "meN-",
    "meng-",
+   "-kan",
    "-i",
    "-kan",
    "-i",
@@ -126664,7 +126736,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|3|10": {
+ "Unit 12B · Pattern and grammar focus|4|0": {
   "source_text": "日本語との比較：日本語の「連絡する」は「技術者に連絡する」のように「に」を取ります。マレー語の hubungi のあとには「に」にあたる語がなく、人は動詞のすぐあとに来ます。kepada や dengan を足さないでください。",
   "target_spans": [
    "hubungi",
@@ -126676,7 +126748,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|0": {
+ "Unit 12B · Pattern and grammar focus|4|1": {
+  "source_text": "■ Pattern 2 · ms-c12-f04",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Unit 12B · Pattern and grammar focus|4|2": {
   "source_text": "Pattern box: Juruteknik sedang ___ paip.  (meN- + -i: is repairing)",
   "target_spans": [
    "Juruteknik sedang",
@@ -126689,7 +126768,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|1": {
+ "Unit 12B · Pattern and grammar focus|4|3": {
   "source_text": "1. A: Juruteknik sedang membaiki paip. B: Paip yang mana?",
   "target_spans": [
    "Juruteknik sedang membaiki paip.",
@@ -126699,7 +126778,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|2": {
+ "Unit 12B · Pattern and grammar focus|4|4": {
   "source_text": "2. A: Juruteknik sedang membaiki apa? B: Dia sedang membaiki paip bilik air saya.",
   "target_spans": [
    "Juruteknik sedang membaiki apa?",
@@ -126709,7 +126788,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|3": {
+ "Unit 12B · Pattern and grammar focus|4|5": {
   "source_text": "3. A: Siapa yang membaiki lampu itu? B: Juruteknik yang membaiki lampu itu.",
   "target_spans": [
    "Siapa yang membaiki lampu itu?",
@@ -126719,7 +126798,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|4": {
+ "Unit 12B · Pattern and grammar focus|4|6": {
   "source_text": "4. A: Tolong baiki paip ini. B: Baik. Saya baiki sekarang.",
   "target_spans": [
    "Tolong baiki paip ini.",
@@ -126729,7 +126808,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|5": {
+ "Unit 12B · Pattern and grammar focus|4|7": {
   "source_text": "5. A: Kontraktor sudah membaiki siling itu? B: Belum. Kontraktor akan membaiki siling itu esok.",
   "target_spans": [
    "Kontraktor sudah membaiki siling itu?",
@@ -126739,7 +126818,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|6": {
+ "Unit 12B · Pattern and grammar focus|4|8": {
   "source_text": "6. A: Bila juruteknik boleh membaiki paip itu? B: Ada slot petang ini, pukul tiga.",
   "target_spans": [
    "Bila juruteknik boleh membaiki paip itu?",
@@ -126749,7 +126828,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|7": {
+ "Unit 12B · Pattern and grammar focus|4|9": {
   "source_text": "Explanation: baiki is baik + -i. It looks like baik (good) but means to repair. With meN- in front, mem- before b gives membaiki: Juruteknik sedang membaiki paip. (the Kata-Kata frame). sedang goes in front of the verb, as in chapter 11. A request uses the root form: Tolong baiki paip ini. This course uses baiki and membaiki for a repair in Malaysian Malay. Gantikan (ganti + -kan) means to replace something: Tolong gantikan lampu itu., and ganti alone means to replace or to stand in for someone. Notice that the doer comes first and the thing follows the verb: Juruteknik membaiki paip.",
   "target_spans": [
    "baiki",
@@ -126776,7 +126855,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|8": {
+ "Unit 12B · Pattern and grammar focus|4|10": {
   "source_text": "説明：baiki は baik ＋ -i です。baik（良い）に似ていますが、修理するという意味です。前に meN- が付き、b の前は mem- なので membaiki になります：Juruteknik sedang membaiki paip.（Kata-Kata の文型）。sedang は第11章と同じく動詞の前に置きます。依頼は語根の形です：Tolong baiki paip ini. このコースでは、マレーシアのマレー語として baiki・membaiki を使います。Gantikan（ganti ＋ -kan）は何かを取り替えることで、Tolong gantikan lampu itu.、ganti だけなら取り替える・誰かの代わりをするです。動作主が先で、物は動詞のすぐあとに来ることに注意：Juruteknik membaiki paip.",
   "target_spans": [
    "baiki",
@@ -126803,7 +126882,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|9": {
+ "Unit 12B · Pattern and grammar focus|4|11": {
   "source_text": "Japanese helps or misleads: Japanese 直す and 修理する both fit membaiki. But 直す also covers correcting a mistake, and Malay does not use baiki for that. Do not mix it up with baik (good).",
   "target_spans": [
    "membaiki",
@@ -126814,7 +126893,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|10": {
+ "Unit 12B · Pattern and grammar focus|4|12": {
   "source_text": "日本語との比較：日本語の「直す」「修理する」はどちらも membaiki にあたります。ただし「直す」は間違いを直す意味でも使いますが、マレー語ではその意味に baiki は使いません。baik（良い）と混同しないでください。",
   "target_spans": [
    "membaiki",
@@ -126825,14 +126904,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|11": {
+ "Unit 12B · Pattern and grammar focus|4|13": {
   "source_text": "■ Pattern 3 · ms-c12-f06",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 12B · Pattern and grammar focus|4|12": {
+ "Unit 12B · Pattern and grammar focus|4|14": {
   "source_text": "Pattern box: Ada kebocoran di ___ saya.  (reporting a problem)",
   "target_spans": [
    "Ada kebocoran di",
@@ -126842,7 +126921,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|13": {
+ "Unit 12B · Pattern and grammar focus|4|15": {
   "source_text": "1. A: Ada kebocoran di siling saya. B: Siling bilik air atau siling dapur?",
   "target_spans": [
    "Ada kebocoran di siling saya.",
@@ -126852,7 +126931,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|14": {
+ "Unit 12B · Pattern and grammar focus|5|0": {
   "source_text": "2. A: Ada kebocoran di siling bilik air saya. B: Air turun dari siling atau dari paip?",
   "target_spans": [
    "Ada kebocoran di siling bilik air saya.",
@@ -126862,7 +126941,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|15": {
+ "Unit 12B · Pattern and grammar focus|5|1": {
   "source_text": "3. A: Ada kerosakan di paip dapur saya. B: Kami akan menghubungi juruteknik.",
   "target_spans": [
    "Ada kerosakan di paip dapur saya.",
@@ -126872,7 +126951,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|4|16": {
+ "Unit 12B · Pattern and grammar focus|5|2": {
   "source_text": "4. A: Saya Tanaka, Blok B, unit 12-3. B: Selamat pagi, Encik Tanaka. Apa aduan encik?",
   "target_spans": [
    "Saya Tanaka, Blok B, unit 12-3.",
@@ -126882,7 +126961,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|5|0": {
+ "Unit 12B · Pattern and grammar focus|5|3": {
   "source_text": "5. A: Dari siling, dekat lampu. Saya takut lampu itu rosak. B: Tolong matikan lampu itu dulu.",
   "target_spans": [
    "Dari siling, dekat lampu. Saya takut lampu itu rosak.",
@@ -126892,7 +126971,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|5|1": {
+ "Unit 12B · Pattern and grammar focus|5|4": {
   "source_text": "6. A: Bila juruteknik boleh datang? B: Ada slot petang ini, pukul tiga. Boleh?",
   "target_spans": [
    "Bila juruteknik boleh datang?",
@@ -126902,7 +126981,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|5|2": {
+ "Unit 12B · Pattern and grammar focus|5|5": {
   "source_text": "Explanation: To report a problem in your own home, say what is wrong and where: Ada kebocoran di siling saya. (the Kata-Kata frame). kebocoran (a leak) and kerosakan (damage, a fault) are learned as whole words, as are aduan (a complaint or problem report) and tempahan (a booking). Start the call with your name, block and unit, as Encik Tanaka does. The office answers with a question and then a request: Tolong matikan lampu itu dulu. and gives you a slot with the technician (juruteknik) or the contractor (kontraktor). Say the place after di: di siling bilik air saya, di paip dapur saya.",
   "target_spans": [
    "Ada kebocoran di siling saya.",
@@ -126923,7 +127002,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|5|3": {
+ "Unit 12B · Pattern and grammar focus|5|6": {
   "source_text": "説明：自分の家の問題を伝えるときは、何がどこでおかしいかを言います：Ada kebocoran di siling saya.（Kata-Kata の文型）。kebocoran（水漏れ）と kerosakan（故障・破損）は一語として覚え、aduan（苦情・問題の報告）と tempahan（予約）も同じです。田中さんのように、まず名前・棟・部屋番号を言って電話を始めます。事務所は質問のあとに依頼で答えます：Tolong matikan lampu itu dulu. そして技術者（juruteknik）か業者（kontraktor）の slot を教えてくれます。場所は di のあとに言います：di siling bilik air saya、di paip dapur saya。",
   "target_spans": [
    "Ada kebocoran di siling saya.",
@@ -126943,7 +127022,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|5|4": {
+ "Unit 12B · Pattern and grammar focus|5|7": {
   "source_text": "Japanese helps or misleads: Japanese 〜が漏れています uses the verb 漏れる. Malay says Ada kebocoran (there is a leak), with ada and a noun, and di for the place. Do not look for a verb meaning to leak.",
   "target_spans": [
    "Ada kebocoran",
@@ -126954,7 +127033,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|5|5": {
+ "Unit 12B · Pattern and grammar focus|5|8": {
   "source_text": "日本語との比較：日本語の「水漏れしています」は動詞を使いますが、マレー語は Ada kebocoran（水漏れがある）のように ada と名詞を使い、場所は di で言います。漏れるという動詞を探さないでください。",
   "target_spans": [
    "Ada kebocoran",
@@ -126965,14 +127044,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|5|6": {
+ "Unit 12B · Pattern and grammar focus|5|9": {
   "source_text": "■ Pattern 4 · ms-c12-f01",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 12B · Pattern and grammar focus|5|7": {
+ "Unit 12B · Pattern and grammar focus|5|10": {
   "source_text": "Pattern box: Tolong ___ lampu itu.  (-kan again: switch, clean, fill, replace)",
   "target_spans": [
    "Tolong",
@@ -126984,7 +127063,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|5|8": {
+ "Unit 12B · Pattern and grammar focus|5|11": {
   "source_text": "1. A: Tolong matikan lampu itu dulu. B: Baik, saya matikan sekarang.",
   "target_spans": [
    "Tolong matikan lampu itu dulu.",
@@ -126994,7 +127073,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|5|9": {
+ "Unit 12B · Pattern and grammar focus|5|12": {
   "source_text": "2. A: Tolong hidupkan kipas itu. B: Baik. Saya hidupkan kipas sekarang.",
   "target_spans": [
    "Tolong hidupkan kipas itu.",
@@ -127004,7 +127083,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|5|10": {
+ "Unit 12B · Pattern and grammar focus|5|13": {
   "source_text": "3. A: Tolong bersihkan lantai itu. B: Baik. Lantai itu basah. Saya bersihkan sekarang.",
   "target_spans": [
    "Tolong bersihkan lantai itu.",
@@ -127014,7 +127093,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|5|11": {
+ "Unit 12B · Pattern and grammar focus|5|14": {
   "source_text": "4. A: Tolong kosongkan meja itu dan bukakan tingkap. B: Baik, saya kosongkan dulu.",
   "target_spans": [
    "Tolong kosongkan meja itu dan bukakan tingkap.",
@@ -127024,7 +127103,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|5|12": {
+ "Unit 12B · Pattern and grammar focus|5|15": {
   "source_text": "5. A: Tolong isikan borang aduan ini. B: Baik. Saya isi sekarang.",
   "target_spans": [
    "Tolong isikan borang aduan ini.",
@@ -127034,7 +127113,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Unit 12B · Pattern and grammar focus|5|13": {
+ "Unit 12B · Pattern and grammar focus|5|16": {
   "source_text": "6. A: Tolong perlahankan muzik itu. B: Maaf. Saya perlahankan sekarang.",
   "target_spans": [
    "Tolong perlahankan muzik itu.",
@@ -127604,7 +127683,7 @@
   "exclusion": null
  },
  "Unit 12B · Drill 3 · Transformation|3|5": {
-  "source_text": "4. Add sudah: Saya hubungi juruteknik.",
+  "source_text": "4. Add sudah (and change the verb): Saya hubungi juruteknik.",
   "target_spans": [
    "sudah",
    "Saya hubungi juruteknik."
@@ -127661,12 +127740,12 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 12B · Drill 3 · Transformation|4|1": {
-  "source_text": "1 Boleh hubungi juruteknik? 2 Tolong tutup lampu itu. 3 Tolong isikan borang ini. 4 Saya sudah hubungi juruteknik. 5 Juruteknik sedang membaiki paip.",
+  "source_text": "1 Boleh hubungi juruteknik? 2 Tolong tutup lampu itu. 3 Tolong isikan borang ini. 4 Saya sudah menghubungi juruteknik. 5 Juruteknik sedang membaiki paip.",
   "target_spans": [
    "Boleh hubungi juruteknik?",
    "Tolong tutup lampu itu.",
    "Tolong isikan borang ini.",
-   "Saya sudah hubungi juruteknik.",
+   "Saya sudah menghubungi juruteknik.",
    "Juruteknik sedang membaiki paip."
   ],
   "mention_spans": [],
@@ -127930,10 +128009,10 @@
   "exclusion": null
  },
  "Unit 12B · Drill 5 · Question-word choice|3|7": {
-  "source_text": "6. ___ awak matikan lampu itu? → Sebab saya takut.",
+  "source_text": "6. ___ lampu itu rosak? → Sebab air turun dari siling.",
   "target_spans": [
-   "___ awak matikan lampu itu?",
-   "Sebab saya takut."
+   "___ lampu itu rosak?",
+   "Sebab air turun dari siling."
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -128110,17 +128189,19 @@
   "exclusion": null
  },
  "Unit 12B · Markers with ‹-kan› and ‹-i› verbs|0|0": {
-  "source_text": "第4章の sudah・belum・sedang・masih・akan・baru を、第12章の -kan・-i の動詞と組み合わせて言います。",
+  "source_text": "第4章の sudah・belum・sedang・masih・akan・baru を言い、素の -i の動詞を meN- の動詞（menghubungi・membaiki・mengisi）に直します。",
   "target_spans": [
    "sudah",
    "belum",
    "sedang",
    "masih",
    "akan",
-   "baru"
+   "baru",
+   "menghubungi",
+   "membaiki",
+   "mengisi"
   ],
   "mention_spans": [
-   "-kan",
    "-i"
   ],
   "kind": "explainer",
@@ -128141,21 +128222,45 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 12B · Markers with ‹-kan› and ‹-i› verbs|2|0": {
-  "source_text": "Combine the chapter 4 markers with the -kan and -i verbs: the verb never changes, only the marker does.",
-  "target_spans": [],
+  "source_text": "Say the chapter 4 markers and change the bare -i verb to the meN- verb (menghubungi, membaiki, mengisi) after a marker.",
+  "target_spans": [
+   "menghubungi",
+   "membaiki",
+   "mengisi"
+  ],
   "mention_spans": [
-   "-kan",
    "-i"
   ],
   "kind": "explainer",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 12B · Markers with ‹-kan› and ‹-i› verbs|3|0": {
-  "source_text": "Say each sentence again with the marker or time cue in brackets. The verb never changes; only the marker does. / かっこ内のマーカーか時の言葉を付けて言い直します。動詞は変わらず、前に付く語だけが変わります。",
-  "target_spans": [],
+  "source_text": "Say each sentence again with the marker in brackets. After sudah, sedang, belum, akan, baru or masih, or with a third-person doer, use menghubungi and membaiki, not the bare hubungi and baiki. / かっこ内のマーカーを付けて言い直します。sudah・sedang・belum・akan・baru・masih のあと、または三人称の動作主のときは、hubungi・baiki ではなく menghubungi・membaiki を使います。",
+  "target_spans": [
+   "sudah",
+   "sedang",
+   "belum",
+   "akan",
+   "baru",
+   "masih",
+   "menghubungi",
+   "membaiki",
+   "hubungi",
+   "baiki",
+   "sudah",
+   "sedang",
+   "belum",
+   "akan",
+   "baru",
+   "masih",
+   "hubungi",
+   "baiki",
+   "menghubungi",
+   "membaiki"
+  ],
   "mention_spans": [],
   "kind": "drill",
-  "exclusion": "Japanese/English (marked source)"
+  "exclusion": null
  },
  "Unit 12B · Markers with ‹-kan› and ‹-i› verbs|3|1": {
   "source_text": "■ Say it with the marker · マーカーを付けて言う",
@@ -128205,9 +128310,9 @@
   "exclusion": null
  },
  "Unit 12B · Markers with ‹-kan› and ‹-i› verbs|3|6": {
-  "source_text": "5. Saya matikan lampu itu. (marker: baru)",
+  "source_text": "5. Saya mengisi borang aduan. (marker: baru)",
   "target_spans": [
-   "Saya matikan lampu itu.",
+   "Saya mengisi borang aduan.",
    "baru"
   ],
   "mention_spans": [],
@@ -128235,10 +128340,9 @@
   "exclusion": null
  },
  "Unit 12B · Markers with ‹-kan› and ‹-i› verbs|3|9": {
-  "source_text": "8. Saya bersihkan lantai itu. (time cue: sekarang, marker: sedang)",
+  "source_text": "8. Pejabat pengurusan menghubungi juruteknik. (marker: sedang)",
   "target_spans": [
-   "Saya bersihkan lantai itu.",
-   "sekarang",
+   "Pejabat pengurusan menghubungi juruteknik.",
    "sedang"
   ],
   "mention_spans": [],
@@ -128253,23 +128357,25 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 12B · Markers with ‹-kan› and ‹-i› verbs|3|11": {
-  "source_text": "sudah hubungi ≈ もう連絡した · belum membaiki ≈ まだ修理していない · sedang membaiki ≈ 修理している · akan menghubungi ≈ 連絡する予定 · baru matikan ≈ 消したばかり",
+  "source_text": "sudah menghubungi ≈ もう連絡した · belum membaiki ≈ まだ修理していない · sedang membaiki ≈ 修理している · akan menghubungi ≈ 連絡する予定 · baru mengisi ≈ 記入したばかり",
   "target_spans": [
-   "sudah hubungi",
+   "sudah menghubungi",
    "belum membaiki",
    "sedang membaiki",
    "akan menghubungi",
-   "baru matikan"
+   "baru mengisi"
   ],
   "mention_spans": [],
   "kind": "drill",
   "exclusion": null
  },
  "Unit 12B · Markers with ‹-kan› and ‹-i› verbs|3|12": {
-  "source_text": "Japanese changes the verb ending (連絡した / 連絡していない); Malay keeps hubungi and changes only the marker. / 日本語は動詞の語尾が変わりますが、マレー語は hubungi のままで、前の語だけが変わります。",
+  "source_text": "Japanese changes the verb ending (連絡した / 連絡していない); Malay puts the marker in front and uses the meN- verb (menghubungi), not the bare hubungi. / 日本語は動詞の語尾が変わります。マレー語はマーカーを前に置き、素の hubungi ではなく meN- の動詞（menghubungi）を使います。",
   "target_spans": [
+   "menghubungi",
    "hubungi",
-   "hubungi"
+   "hubungi",
+   "menghubungi"
   ],
   "mention_spans": [],
   "kind": "drill",
@@ -128283,9 +128389,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 12B · Markers with ‹-kan› and ‹-i› verbs|4|1": {
-  "source_text": "1 Saya sudah hubungi juruteknik. 2 Kontraktor belum membaiki siling itu. 3 Juruteknik sedang membaiki paip. 4 Kami akan menghubungi kontraktor.",
+  "source_text": "1 Saya sudah menghubungi juruteknik. 2 Kontraktor belum membaiki siling itu. 3 Juruteknik sedang membaiki paip. 4 Kami akan menghubungi kontraktor.",
   "target_spans": [
-   "Saya sudah hubungi juruteknik.",
+   "Saya sudah menghubungi juruteknik.",
    "Kontraktor belum membaiki siling itu.",
    "Juruteknik sedang membaiki paip.",
    "Kami akan menghubungi kontraktor."
@@ -128295,12 +128401,12 @@
   "exclusion": null
  },
  "Unit 12B · Markers with ‹-kan› and ‹-i› verbs|4|2": {
-  "source_text": "5 Saya baru matikan lampu itu. 6 Saya masih tunggu juruteknik. 7 Belum. Juruteknik belum sampai. 8 Sekarang saya sedang bersihkan lantai itu.",
+  "source_text": "5 Saya baru mengisi borang aduan. 6 Saya masih tunggu juruteknik. 7 Belum. Juruteknik belum sampai. 8 Pejabat pengurusan sedang menghubungi juruteknik.",
   "target_spans": [
-   "Saya baru matikan lampu itu.",
+   "Saya baru mengisi borang aduan.",
    "Saya masih tunggu juruteknik.",
    "Belum. Juruteknik belum sampai.",
-   "Sekarang saya sedang bersihkan lantai itu."
+   "Pejabat pengurusan sedang menghubungi juruteknik."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -128486,7 +128592,7 @@
   "exclusion": null
  },
  "Unit 12B · Cumulative question-word drill|3|12": {
-  "source_text": "11. Ask why you must switch the light off. (kenapa; also mengapa or apa sebab; the answer starts with sebab or kerana)",
+  "source_text": "11. Ask why the light is damaged. (kenapa; also mengapa or apa sebab; the answer starts with sebab or kerana)",
   "target_spans": [
    "kenapa",
    "mengapa",
@@ -128544,7 +128650,7 @@
   "exclusion": null
  },
  "Unit 12B · Cumulative question-word drill|3|18": {
-  "source_text": "17. Ask how many lamps are damaged. (berapa with a counter)",
+  "source_text": "17. Ask how many lamps are damaged. (berapa)",
   "target_spans": [
    "berapa"
   ],
@@ -128603,15 +128709,15 @@
   "exclusion": null
  },
  "Unit 12B · Cumulative question-word drill|4|4": {
-  "source_text": "10 Bagaimana saya hubungi pejabat pengurusan? (spoken: Macam mana saya hubungi pejabat pengurusan?) 11 Kenapa saya matikan lampu itu? / Mengapa …? / Apa sebab …? Sebab lampu itu basah. / Kerana lampu itu basah.",
+  "source_text": "10 Bagaimana saya menghubungi pejabat pengurusan? (spoken: Macam mana saya menghubungi pejabat pengurusan?) 11 Kenapa lampu itu rosak? / Mengapa …? / Apa sebab …? Sebab air turun dari siling. / Kerana air turun dari siling.",
   "target_spans": [
-   "Bagaimana saya hubungi pejabat pengurusan?",
-   "Macam mana saya hubungi pejabat pengurusan?",
-   "Kenapa saya matikan lampu itu?",
+   "Bagaimana saya menghubungi pejabat pengurusan?",
+   "Macam mana saya menghubungi pejabat pengurusan?",
+   "Kenapa lampu itu rosak?",
    "Mengapa …?",
    "Apa sebab …?",
-   "Sebab lampu itu basah.",
-   "Kerana lampu itu basah."
+   "Sebab air turun dari siling.",
+   "Kerana air turun dari siling."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -128629,11 +128735,11 @@
   "exclusion": null
  },
  "Unit 12B · Cumulative question-word drill|4|6": {
-  "source_text": "15 Berapa jauh pejabat pengurusan? 16 Berapa lama saya tunggu juruteknik? 17 Ada berapa biji lampu yang rosak?",
+  "source_text": "15 Berapa jauh pejabat pengurusan? 16 Berapa lama saya tunggu juruteknik? 17 Ada berapa lampu yang rosak?",
   "target_spans": [
    "Berapa jauh pejabat pengurusan?",
    "Berapa lama saya tunggu juruteknik?",
-   "Ada berapa biji lampu yang rosak?"
+   "Ada berapa lampu yang rosak?"
   ],
   "mention_spans": [],
   "kind": "key",
@@ -128758,9 +128864,9 @@
   "exclusion": null
  },
  "Unit 12B · Model conversation|3|9": {
-  "source_text": "Office: Boleh, encik. Tolong kosongkan lantai itu juga.",
+  "source_text": "Office: Boleh, encik. Terima kasih.",
   "target_spans": [
-   "Boleh, encik. Tolong kosongkan lantai itu juga."
+   "Boleh, encik. Terima kasih."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -128906,9 +129012,9 @@
   "exclusion": null
  },
  "Unit 12B · Model conversation|3|27": {
-  "source_text": "Office: Tolong matikan air dulu. Kami akan hubungi kontraktor.",
+  "source_text": "Office: Tolong matikan air dulu. Kami akan menghubungi kontraktor.",
   "target_spans": [
-   "Tolong matikan air dulu. Kami akan hubungi kontraktor."
+   "Tolong matikan air dulu. Kami akan menghubungi kontraktor."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -129012,9 +129118,9 @@
   "exclusion": null
  },
  "Unit 12B · Model conversation|5|5": {
-  "source_text": "Turn 10: Boleh, encik. Tolong kosongkan lantai itu juga.",
+  "source_text": "Turn 10: Boleh, encik. Terima kasih.",
   "target_spans": [
-   "Boleh, encik. Tolong kosongkan lantai itu juga."
+   "Boleh, encik. Terima kasih."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -129261,9 +129367,9 @@
   "exclusion": null
  },
  "Unit 12B · Listening focus · Encik Tanaka|4|9": {
-  "source_text": "Office: Baik. Juruteknik akan baiki paip itu. Kalau paip itu rosak, juruteknik gantikan paip itu.",
+  "source_text": "Office: Baik. Juruteknik akan membaiki paip itu. Kalau paip itu rosak, juruteknik akan menukar paip itu.",
   "target_spans": [
-   "Baik. Juruteknik akan baiki paip itu. Kalau paip itu rosak, juruteknik gantikan paip itu."
+   "Baik. Juruteknik akan membaiki paip itu. Kalau paip itu rosak, juruteknik akan menukar paip itu."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -129733,7 +129839,7 @@
   "exclusion": null
  },
  "Unit 12B · Culture and usage note|3|2": {
-  "source_text": "General knowledge, not a rule and not a checked fact: in many Malaysian condominiums the management office is where residents report a problem such as a leak. Staff may ask your block and unit, what is wrong and where, and may fill in a complaint form while you are on the phone. A technician is often booked for a time slot, and who arranges and pays for a repair can depend on the building and on whether you own or rent. Ask the office about your own case; this note gives no figure or rule.",
+  "source_text": "General knowledge, not a rule and not a checked fact: in many Malaysian condominiums residents report a problem such as a leak to the management office, which may book a technician for a time slot. Buildings differ, so ask the office about your own case.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "culture",
@@ -129795,7 +129901,7 @@
   "exclusion": null
  },
  "Unit 12B · Culture and usage note|3|7": {
-  "source_text": "一般的な知識であり、規則でも確認済みの事実でもありません：マレーシアの多くのコンドミニアムでは、水漏れなどの問題は管理事務所に連絡します。担当者は棟と部屋番号、何がどこでおかしいかをたずね、電話中に苦情の用紙に記入することもあります。技術者は時間帯で予約されることが多く、修理の手配や費用は建物や、持ち家か借家かによって違うことがあります。自分の場合は事務所に聞いてください。このノートは数字や規則を述べません。",
+  "source_text": "一般的な知識であり、規則でも確認済みの事実でもありません：マレーシアの多くのコンドミニアムでは、水漏れなどの問題は管理事務所に連絡し、事務所が技術者を時間帯で予約することがあります。建物によって違うので、自分の場合は事務所に聞いてください。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "culture",
@@ -129814,7 +129920,7 @@
   "exclusion": null
  },
  "Unit 12B · Culture and usage note|4|0": {
-  "source_text": "English note: 255 words. The Japanese is a full translation (draft).",
+  "source_text": "English note: 205 words. The Japanese is a full translation (draft).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
@@ -130138,9 +130244,9 @@
   "exclusion": null
  },
  "Unit 12B · Unit test and self-check|5|4": {
-  "source_text": "L5: Teacher reads: Baik. Juruteknik akan baiki paip itu. Kalau paip itu rosak, juruteknik gantikan paip itu. Answer: replace the pipe",
+  "source_text": "L5: Teacher reads: Baik. Juruteknik akan membaiki paip itu. Kalau paip itu rosak, juruteknik akan menukar paip itu. Answer: replace the pipe",
   "target_spans": [
-   "Baik. Juruteknik akan baiki paip itu. Kalau paip itu rosak, juruteknik gantikan paip itu."
+   "Baik. Juruteknik akan membaiki paip itu. Kalau paip itu rosak, juruteknik akan menukar paip itu."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -130378,9 +130484,9 @@
   "exclusion": null
  },
  "test:ms-c12b-test-05|answer_key": {
-  "source_text": "Teacher reads: Baik. Juruteknik akan baiki paip itu. Kalau paip itu rosak, juruteknik gantikan paip itu. Answer: replace the pipe",
+  "source_text": "Teacher reads: Baik. Juruteknik akan membaiki paip itu. Kalau paip itu rosak, juruteknik akan menukar paip itu. Answer: replace the pipe",
   "target_spans": [
-   "Baik. Juruteknik akan baiki paip itu. Kalau paip itu rosak, juruteknik gantikan paip itu."
+   "Baik. Juruteknik akan membaiki paip itu. Kalau paip itu rosak, juruteknik akan menukar paip itu."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -131040,13 +131146,49 @@
   "exclusion": null
  },
  "Unit 12B · Teaching plan and answer key|5|2": {
-  "source_text": "Guardhouse and management-office customs (general knowledge, not a rule and not source-checked; no figure): in many Malaysian condominiums residents report a leak or a fault to the management office, which may take the block and unit, fill in a complaint form and book a technician or a contractor for a time slot; who arranges and pays can depend on the building and on whether you own or rent. Tell learners to ask the office about their own case. The unit gives no Malaysian rule, price or time.",
+  "source_text": "the -kan rule (Sam, 13 Nov 2026): use the bare -kan verb for a request (Tolong simpankan …, Boleh bawakan …?) and for a first-person offer or reply (Saya hantarkan sekarang., Baik, saya matikan sekarang.); in a statement with a third-person doer or with sudah, sedang, belum, akan, baru or masih, use the meN- verb the course has (Pengawal menyimpan bungkusan itu., Juruteknik akan membaiki paip itu., Kami akan menghubungi juruteknik., Saya sedang membawa bungkusan itu ke lif.); where the course has no meN- verb (letakkan, bukakan, matikan, bersihkan), rephrase: Saya letakkan bungkusan itu di sini sekarang., Saya bersihkan lantai itu sekarang. The same goes for -i verbs: hubungi and baiki are for requests and first-person replies, menghubungi and membaiki for the rest. Do not teach forms such as *menyimpankan or *menghantarkan: they are not natural.",
+  "target_spans": [
+   "Tolong simpankan …",
+   "Boleh bawakan …?",
+   "Saya hantarkan sekarang.",
+   "Baik, saya matikan sekarang.",
+   "sudah",
+   "sedang",
+   "belum",
+   "akan",
+   "baru",
+   "masih",
+   "Pengawal menyimpan bungkusan itu.",
+   "Juruteknik akan membaiki paip itu.",
+   "Kami akan menghubungi juruteknik.",
+   "Saya sedang membawa bungkusan itu ke lif.",
+   "letakkan",
+   "bukakan",
+   "matikan",
+   "bersihkan",
+   "Saya letakkan bungkusan itu di sini sekarang.",
+   "Saya bersihkan lantai itu sekarang.",
+   "hubungi",
+   "baiki",
+   "menghubungi",
+   "membaiki"
+  ],
+  "mention_spans": [
+   "-kan",
+   "-kan",
+   "-i"
+  ],
+  "kind": "plan",
+  "exclusion": null
+ },
+ "Unit 12B · Teaching plan and answer key|5|3": {
+  "source_text": "Management office (general knowledge, not a rule and not source-checked; no figure): in many Malaysian condominiums residents report a leak or a fault to the management office, which may book a technician for a time slot. Buildings differ, so tell learners to ask the office about their own case.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 12B · Teaching plan and answer key|5|3": {
+ "Unit 12B · Teaching plan and answer key|5|4": {
   "source_text": "Spoken forms: buka lampu and tutup lampu for hidupkan and matikan (card notes ms-c12-032 and -033), and isi for isikan (ms-c12-030). They are everyday words; accept them in speech and never mark them wrong. Standard first: teach the -kan form.",
   "target_spans": [
    "buka lampu",
@@ -131062,14 +131204,14 @@
   "kind": "plan",
   "exclusion": null
  },
- "Unit 12B · Teaching plan and answer key|5|4": {
+ "Unit 12B · Teaching plan and answer key|5|5": {
   "source_text": "The scene follows Kata-Kata c12 (scenario lines ms-c12-s11 to s19, frames f04, f05 and f06, with f01 returning). All names, blocks, units and times are fictional; learners may use their real building or an invented one.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "plan",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 12B · Teaching plan and answer key|5|5": {
+ "Unit 12B · Teaching plan and answer key|5|6": {
   "source_text": "Cumulative question words: chapters 1 to 12. Chapter 12 adds no new question word.",
   "target_spans": [],
   "mention_spans": [],
@@ -131340,12 +131482,16 @@
   "exclusion": null
  },
  "Unit 12B · Review block · Chapters 10 to 12: a request and a reply|4|7": {
-  "source_text": "☐ The marker (sudah, belum, sedang, akan) stands in front of the verb and the verb does not change.",
+  "source_text": "☐ The marker (sudah, belum, sedang, akan) stands in front of the verb, and a bare hubungi or baiki becomes menghubungi or membaiki after it.",
   "target_spans": [
    "sudah",
    "belum",
    "sedang",
-   "akan"
+   "akan",
+   "hubungi",
+   "baiki",
+   "menghubungi",
+   "membaiki"
   ],
   "mention_spans": [],
   "kind": "reading",
@@ -133058,7 +133204,7 @@
   "exclusion": null
  },
  "Chapter 12 · Fast-course summary pack|4|7": {
-  "source_text": "Remember: -kan on a root means do it for someone or make it happen (simpan → simpankan, mati → matikan); -i points at a person or place (hubungi). Two k in letakkan and tunjukkan; berikan is beri + -kan, not ber- + ikan; bersihkan is bersih + -kan. In speech you will hear the root alone (simpan, tutup); say the -kan form.",
+  "source_text": "Remember: -kan on a root means do it for someone or make it happen (simpan → simpankan, mati → matikan); -i points at a person or place (hubungi). Two k in letakkan and tunjukkan; berikan is beri + -kan, not ber- + ikan; bersihkan is bersih + -kan. In speech you will hear the root alone (simpan, tutup); say the -kan form. After sudah, sedang, belum or akan, or with a third-person doer, use the meN- verb: menyimpan, menghantar.",
   "target_spans": [
    "simpan",
    "simpankan",
@@ -133071,7 +133217,13 @@
    "bersihkan",
    "bersih",
    "simpan",
-   "tutup"
+   "tutup",
+   "sudah",
+   "sedang",
+   "belum",
+   "akan",
+   "menyimpan",
+   "menghantar"
   ],
   "mention_spans": [
    "-kan",
@@ -133087,7 +133239,7 @@
   "exclusion": null
  },
  "Chapter 12 · Fast-course summary pack|4|8": {
-  "source_text": "-kan は語根に付いて「誰かのためにする」「そうなるようにする」を表し（simpan → simpankan、mati → matikan）、-i は人や場所へ向かう動作です（hubungi）。letakkan と tunjukkan は k が二つで、berikan は beri ＋ -kan（ber- ＋ ikan ではありません）、bersihkan は bersih ＋ -kan です。話し言葉では語根だけも聞きますが、言うときは -kan の形を使います。",
+  "source_text": "-kan は語根に付いて「誰かのためにする」「そうなるようにする」を表し（simpan → simpankan、mati → matikan）、-i は人や場所へ向かう動作です（hubungi）。letakkan と tunjukkan は k が二つで、berikan は beri ＋ -kan（ber- ＋ ikan ではありません）、bersihkan は bersih ＋ -kan です。話し言葉では語根だけも聞きますが、言うときは -kan の形を使います。sudah・sedang・belum・akan のあと、または三人称の動作主のときは meN- の動詞（menyimpan・menghantar）を使います。",
   "target_spans": [
    "simpan",
    "simpankan",
@@ -133098,7 +133250,13 @@
    "berikan",
    "ikan",
    "bersihkan",
-   "bersih"
+   "bersih",
+   "sudah",
+   "sedang",
+   "belum",
+   "akan",
+   "menyimpan",
+   "menghantar"
   ],
   "mention_spans": [
    "-kan",
@@ -133174,7 +133332,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|16": {
+ "Chapter 12 · Fast-course summary pack|5|0": {
   "source_text": "Tanaka: Oh, bukan untuk saya. Tolong simpankan bungkusan kecil itu di pondok pengawal.",
   "target_spans": [
    "Oh, bukan untuk saya. Tolong simpankan bungkusan kecil itu di pondok pengawal."
@@ -133183,7 +133341,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|17": {
+ "Chapter 12 · Fast-course summary pack|5|1": {
   "source_text": "Guard: Baik, encik.",
   "target_spans": [
    "Baik, encik."
@@ -133192,7 +133350,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|18": {
+ "Chapter 12 · Fast-course summary pack|5|2": {
   "source_text": "Tanaka: Selamat pagi. Ada kebocoran di siling bilik air saya.",
   "target_spans": [
    "Selamat pagi. Ada kebocoran di siling bilik air saya."
@@ -133201,7 +133359,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|0": {
+ "Chapter 12 · Fast-course summary pack|5|3": {
   "source_text": "Office: Tolong matikan lampu itu dulu. Kami akan menghubungi juruteknik.",
   "target_spans": [
    "Tolong matikan lampu itu dulu. Kami akan menghubungi juruteknik."
@@ -133210,7 +133368,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|1": {
+ "Chapter 12 · Fast-course summary pack|5|4": {
   "source_text": "Tanaka: Baik, saya matikan lampu itu sekarang. Bila juruteknik boleh datang?",
   "target_spans": [
    "Baik, saya matikan lampu itu sekarang. Bila juruteknik boleh datang?"
@@ -133219,7 +133377,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|2": {
+ "Chapter 12 · Fast-course summary pack|5|5": {
   "source_text": "Office: Ada slot petang ini, pukul tiga. Boleh?",
   "target_spans": [
    "Ada slot petang ini, pukul tiga. Boleh?"
@@ -133228,7 +133386,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|3": {
+ "Chapter 12 · Fast-course summary pack|5|6": {
   "source_text": "Tanaka: Boleh. Tolong hubungi saya sebelum juruteknik sampai.",
   "target_spans": [
    "Boleh. Tolong hubungi saya sebelum juruteknik sampai."
@@ -133237,28 +133395,28 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|4": {
+ "Chapter 12 · Fast-course summary pack|5|7": {
   "source_text": "■ Task · タスク",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|5": {
+ "Chapter 12 · Fast-course summary pack|5|8": {
   "source_text": "A: You are the guard or the office (fictional). Two parcels are in the guardhouse; the small one has a torn label. Later the resident reports a leak.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|6": {
+ "Chapter 12 · Fast-course summary pack|5|9": {
   "source_text": "B: You are the resident. Collect your parcel, ask the guard to keep the small one, then report a leak in your ceiling, switch off the light and ask to be contacted.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|7": {
+ "Chapter 12 · Fast-course summary pack|5|10": {
   "source_text": "Change of plan: A says Maaf, juruteknik datang pukul dua, bukan pukul tiga. B agrees and asks to be contacted before the technician arrives.",
   "target_spans": [
    "Maaf, juruteknik datang pukul dua, bukan pukul tiga."
@@ -133267,7 +133425,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|8": {
+ "Chapter 12 · Fast-course summary pack|5|11": {
   "source_text": "A：守衛または管理事務所の担当です（架空）。守衛所に荷物が二つあり、小さい方はラベルが破れています。あとで住民が水漏れを連絡します。B：住民です。荷物を受け取り、小さい荷物を預かってもらい、天井の水漏れを連絡し、電灯を消し、連絡を頼みます。変更：Aが Maaf, juruteknik datang pukul dua, bukan pukul tiga. と言い、Bは了承して技術者が着く前の連絡を頼みます。",
   "target_spans": [
    "Maaf, juruteknik datang pukul dua, bukan pukul tiga."
@@ -133276,63 +133434,63 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|9": {
+ "Chapter 12 · Fast-course summary pack|5|12": {
   "source_text": "■ Self-check · できるチェック",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|10": {
+ "Chapter 12 · Fast-course summary pack|5|13": {
   "source_text": "☐ 1. Say \"Please keep this parcel.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|11": {
+ "Chapter 12 · Fast-course summary pack|5|14": {
   "source_text": "☐ 2. Say \"Can you show me the message?\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|12": {
+ "Chapter 12 · Fast-course summary pack|5|15": {
   "source_text": "☐ 3. Say \"Can you contact the technician?\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|13": {
+ "Chapter 12 · Fast-course summary pack|5|16": {
   "source_text": "☐ 4. Say \"There is a leak in my ceiling.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|14": {
+ "Chapter 12 · Fast-course summary pack|5|17": {
   "source_text": "☐ 5. Say \"Please switch that light off first.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|15": {
+ "Chapter 12 · Fast-course summary pack|5|18": {
   "source_text": "■ Self-study guide · 自習ガイド",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|16": {
+ "Chapter 12 · Fast-course summary pack|5|19": {
   "source_text": "Before the session: Kata-Kata Sedia Kelas c12 (36 cards, frames ms-c12-f01 and ms-c12-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|17": {
+ "Chapter 12 · Fast-course summary pack|5|20": {
   "source_text": "After the session: all 45 Kata-Kata chapter 12 cards (ms-c12-001 to ms-c12-045; ms-c12-024 nombor tracking is recognise only) and frames ms-c12-f01 to ms-c12-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"Parcels and a leak\" matches this pack.",
   "target_spans": [
    "nombor tracking"
@@ -133341,14 +133499,14 @@
   "kind": "opener",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|18": {
+ "Chapter 12 · Fast-course summary pack|6|0": {
   "source_text": "No Dunia scene primes chapter 12. The Hanashishou home-condo scenes for chapter 12 are not yet tagged by chapter, so they are not assigned yet.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|19": {
+ "Chapter 12 · Fast-course summary pack|6|1": {
   "source_text": "Optional full-course Cikgu Sensai units: unit 12A (parcels and -kan requests, with a writing block) and unit 12B (the leak and the repair, with a review block).",
   "target_spans": [],
   "mention_spans": [
@@ -133357,14 +133515,14 @@
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|20": {
+ "Chapter 12 · Fast-course summary pack|6|2": {
   "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|6|0": {
+ "Chapter 12 · Fast-course summary pack|6|3": {
   "source_text": "授業後：第12章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。",
   "target_spans": [],
   "mention_spans": [],
