@@ -724,3 +724,7 @@ Unit 14 (22 core, no recognition word) is built as one unit of five blocks, with
 ## Build step 4: chapter 15 (13 Nov 2026)
 
 Unit 15 (21 core, no recognition word) is built as one unit of five blocks, with the review block after it (Review 3: chapters 13 to 15 plus earlier verb contrasts) and the chapter 15 fast pack. Claude's chapter 14 fixes (noun objects after «tangguhkan» and «batalkan», inclusive «kita») are in `docs/stage-2-decisions.md` section 11. Report: [`docs/STAGE-2-ch15-report.md`](STAGE-2-ch15-report.md).
+
+## Build step 4: chapter 16 (13 Nov 2026)
+
+Unit 16 (23 core, no recognition word) is built as one unit of five blocks, with the writing block after it ("a brief factual incident message") and the chapter 16 fast pack. The plan gives chapter 16 no review block. Sam's answers to the chapter 15 questions and the chapter 15 review-block fix are in [`docs/stage-2-decisions.md`](stage-2-decisions.md) section 12. Report: [`docs/STAGE-2-ch16-report.md`](STAGE-2-ch16-report.md).

@@ -37,8 +37,31 @@ Collected from every chapter. Builders rewrote the lines instead and added no ro
 | «menangguhkan» and «membatalkan» (meN- forms of «tangguhkan» and «batalkan») | 14 (**recommended**, Claude's review) | a third person in standard speech and writing («Mei Ling menangguhkan rancangan itu.»); the unit uses the bare form with a noun object for now |
 | «kakitangan» (staff) | 15 (**approved by Sam**, 13 Nov) | the Kata-Kata speaker label for the counter clerk (s02 to s10); the unit uses the English label «Staff» |
 | «bola» (ball) | 15 (**approved by Sam**, 13 Nov) | the natural comparison for a round thing («bulat, seperti bola»); the unit says «bulat, seperti jam» |
+| «tidak apa-apa» (never mind, it's nothing) | 16 | the everyday answer to «Maaf»; the unit uses «Jangan risau.» (Kata-Kata s07) |
+| «berlaku» (to happen) | 16 | "what happened" in a report or a clinic form; the form says «Sebab: tergelincir di tangga.» |
+| «masalah» (problem) | 16 | «Ada masalah?» asked of a late colleague; the unit says «Kenapa?» |
+| «pinjam» (to borrow) | 16 | «Pemandu teksi pinjamkan telefon …»; the unit says «Pemandu teksi menelefon pejabat untuk saya» |
 
-## Latest session: Stage 2 build step 4, chapter 14 fixes and chapter 15 (13 Nov 2026, Claude)
+## Latest session: Stage 2 build step 4, chapter 15 fix and chapter 16 (13 Nov 2026, Claude)
+
+- **Authorised:** Sam (build step 4, chapter 16 instruction, 13 Nov 2026): one chapter 15 fix and Sam's chapter 15 answers in their own commit, then the chapter 16 suite; push to main when the checks pass; **stop after chapter 16 for Claude's review** before chapter 17. Started at `e83eaca`. Report: `docs/STAGE-2-ch16-report.md`.
+- **Fix (`7389195`):** the review block line is now «Walaupun saya sibuk, saya akan menunggu doktor di sini.»; Sam's six chapter 15 answers are in `docs/stage-2-decisions.md` section 12 (join of s11 and s12, f01 and f03 merged, fast packs hold all core words from now on, «ciri» common and «ciri-ciri» a mention only, review setting and menu names fine, «kakitangan» and «bola» **approved by Sam** on the backlog). 258 tests passed on that commit.
+- **Chapter 16 (`f73c68b`):** unit 16 (the locked door, the spilt coffee and the slip at the clinic: 23 core words, no recognition word), the **writing block after chapter 16** (a brief factual incident message; the plan gives chapter 16 no review block) and the chapter 16 fast pack (all 23 core words): 6 blocks = 4.5 h, plus 1 fast block. All in `curriculum/reauthored-units.json` with zero gaps and zero violations. Build: 523 packs, 3,219 pages, still 20 violations and 199 gaps (none in chapter 16). **277 tests** pass (19 new in `tests/test_stage2_ch16.py`).
+- **Waiting for:** Claude's review of chapter 16; Sam's answers to the questions at the end of the report and the 12 native-read lines.
+- **Next:** after the review, chapter 17 (standard and spoken choices, particles, invitations and refusals; «lah» joined from 17; Kata-Kata c17 is already in the snapshot). Chapter 17 has no writing or review block in the plan; chapter 18 is the integrated review. Use the template note below.
+- **Environment note:** `build.py` needs `pymupdf`, `fonttools`, `brotli` and `fonts-noto-cjk` (apt; run `apt-get update` first), and a full Git checkout (`git fetch --unshallow`).
+
+### What chapter 16 added to the template below
+
+- A **single-unit chapter with a writing block** is the chapter 14 pattern: `label='16'`, `unit_id='ms-c16'`, menu entry `("…", "Accidents", [("16", [])])`, `extra=EXTRA` with `kind='writing'` (block id `ms-c16-writing-block`; register `writing-16` in `catalogue.py` `extra_blocks` and `stage2_blocks`; the additional block is `ms-stage2-writing-16`). Chapter 16 has no review block.
+- **All the core words, not only the ones the brief names.** The brief listed eleven ter- words; the ledger places 23 core words at chapter 16 (also «terjatuh», «tertidur», «terbakar», «tidak sengaja», «kemalangan», «kunci», «tumpah», «luka», «lebam», «bengkak», «licin», «pecah»). Recompute the core list from the ledger, as the template says; the test fails if a core word is not used.
+- **ter- roots:** a root that is a ledger word placed at or before 16 is «root» with its chapter in the vocabulary entry («tinggal», chapter 2; «lupa», «tidur», «lepas», chapter 4; «tumpah», «kunci», this chapter); the others (‹jatuh›, ‹silap›, ‹langgar›, ‹gelincir›, ‹cedera›, ‹bakar›, ‹putus›, ‹sangkut›, ‹malang›) are ‹…› mentions with a Kata-Kata card as source. `‹ter-›` is also a mention: **write the prefix as ‹ter-›, never «ter-»** (the span check reads «ter-» as a ledger gap), in English and Japanese text and in `fast.py`.
+- **A phrase in «…» must be a ledger phrase:** «mana» alone is a gap («di mana», «yang mana», «dari mana» pass); the spoken ‹tak sengaja› is a mention, not a «…» span.
+- **Speaker labels:** «Pengawal» and «Penyambut tetamu» are ledger words, so the labels are the English «Guard» and «Receptionist» (the chapter 15 rule).
+- **Clinic safety:** Kata-Kata describes the injury only as «bengkak», «luka kecil», «lebam»; the unit adds no diagnosis, no treatment advice and no medicine, the receptionist only registers and asks to wait, and `test_clinic_safety` checks the Malay spans for banned words and the receptionist's three lines.
+- **A scene change inside one turn:** turn 11 joins s11 and s12 (both Tanaka); here s12 starts the clinic scene, so the join crosses a scene change. A teacher note says so (a question for Sam in the report).
+
+## Previous session: Stage 2 build step 4, chapter 14 fixes and chapter 15 (13 Nov 2026, Claude)
 
 - **Authorised:** Sam (build step 4, chapter 15 instruction, 13 Nov 2026): the chapter 14 fixes in their own commit, then the chapter 15 suite; push to main when the checks pass; **stop after chapter 15 for Claude's review** before chapter 16. Started at `ea61fef`. Report: `docs/STAGE-2-ch15-report.md`.
 - **Fixes (`40b3c59`):** «tangguhkan» and «batalkan» take a noun object («tangguhkan rancangan mendaki», «batalkan rancangan mendaki», «Rancangan mendaki batal …»; written notices give it, short spoken replies may drop it); inclusive «kita» in the group-chat messages, notices and writing models (a teacher note on «kami» against «kita»); `docs/stage-2-decisions.md` section 11 now says "Sam's answers, given directly in the chapter 14 session" and records the two fixes as Claude's later review; «menangguhkan» and «membatalkan» on the backlog (recommended). 240 tests passed on that commit.
