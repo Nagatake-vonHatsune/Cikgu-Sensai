@@ -35,8 +35,28 @@ Collected from every chapter. Builders rewrote the lines instead and added no ro
 | «kata» (to say) | 14 | "what does the message say?"; the unit says «Apa dalam mesej itu?» |
 | «pengumuman» (announcement) | 14 | the heading of a written notice; the unit starts «Ada perubahan rancangan.» |
 | «menangguhkan» and «membatalkan» (meN- forms of «tangguhkan» and «batalkan») | 14 (**recommended**, Claude's review) | a third person in standard speech and writing («Mei Ling menangguhkan rancangan itu.»); the unit uses the bare form with a noun object for now |
+| «kakitangan» (staff) | 15 | the Kata-Kata speaker label for the counter clerk (s02 to s10); the unit uses the English label «Staff» |
+| «bola» (ball) | 15 | the natural comparison for a round thing («bulat, seperti bola»); the unit says «bulat, seperti jam» |
 
-## Latest session: Stage 2 build step 4, chapter 13 fixes and chapter 14 (13 Nov 2026, Claude)
+## Latest session: Stage 2 build step 4, chapter 14 fixes and chapter 15 (13 Nov 2026, Claude)
+
+- **Authorised:** Sam (build step 4, chapter 15 instruction, 13 Nov 2026): the chapter 14 fixes in their own commit, then the chapter 15 suite; push to main when the checks pass; **stop after chapter 15 for Claude's review** before chapter 16. Started at `ea61fef`. Report: `docs/STAGE-2-ch15-report.md`.
+- **Fixes (`40b3c59`):** «tangguhkan» and «batalkan» take a noun object («tangguhkan rancangan mendaki», «batalkan rancangan mendaki», «Rancangan mendaki batal …»; written notices give it, short spoken replies may drop it); inclusive «kita» in the group-chat messages, notices and writing models (a teacher note on «kami» against «kita»); `docs/stage-2-decisions.md` section 11 now says "Sam's answers, given directly in the chapter 14 session" and records the two fixes as Claude's later review; «menangguhkan» and «membatalkan» on the backlog (recommended). 240 tests passed on that commit.
+- **Chapter 15 (the commit after `40b3c59`):** unit 15 (the lost wallet at the station counter and the Japanese visitors: 21 core words, no recognition word), the **review block after chapter 15** (the plan's Review 3: chapters 13 to 15 plus earlier verb contrasts) and the chapter 15 fast pack (all 21 core words): 6 blocks = 4.5 h, plus 1 fast block. All in `curriculum/reauthored-units.json` with zero gaps and zero violations. Build: 503 packs, 3,100 pages, still 20 violations and 199 gaps (none in chapter 15). **258 tests** pass (18 new in `tests/test_stage2_ch15.py`, 1 new in the chapter 14 file).
+- **Waiting for:** Claude's review of chapter 15; Sam's answers to the six questions at the end of the report (the turn that joins s11 and s12, the five-pattern grouping, the fast pack with all 21 words, «ciri-ciri» as a mention, the review setting, menu names) and the 12 native-read lines.
+- **Next:** after the review, chapter 16 (accidental ter-, apology and complaint; Kata-Kata c16 is already in the snapshot) **with the writing block after chapter 16**, using the template note below. Chapter 16 teaches ‹tertinggal›; chapter 15 only names it.
+- **Environment note:** `build.py` needs `pymupdf`, `fonttools`, `brotli` and `fonts-noto-cjk` (apt; run `apt-get update` first), and a full Git checkout.
+
+### What chapter 15 added to the template below
+
+- A **single-unit chapter with a review block** uses `label='15'`, `unit_id='ms-c15'`, the menu entry `("…", "Lost property", [("15", [])])` and `extra=EXTRA` with `kind='review'` (block id `ms-c15-review-block`; register `review-15` in `catalogue.py` `extra_blocks` and `stage2_blocks`; the additional block is `ms-stage2-review-15`). Its key says "review block after unit 15" (the label), not "after chapter 15".
+- **Seventeen scenario lines, 16 turns:** join two consecutive lines of one speaker into one turn (turn 11 = s11 + s12) and test that the turn equals the two Kata-Kata lines joined by a space. A speaker label that is a ledger word or a new Malay word (Kata-Kata's «Kakitangan stesen») becomes an English label («Staff»).
+- **A word that is also English** («zip») goes in `ENGLISH_HOMOGRAPHS`. A ledger meaning with Malay in it («seperti», «memakai», «berwarna») needs a `GLOSS` entry for the fast-pack word list.
+- **A quoted but not taught form** is a ‹…› mention with a source: ‹tertinggal› (chapter 16), ‹macam tu› (chapter 17), ‹ciri-ciri›, ‹jalur›, ‹-nya›, ‹ber-›, ‹me-›. A reduplicated form or a chapter-gated form inside «…» fails the span check (`tools/check_spans.py 15 suite/ms_c15.py`).
+- In a review block, `-nya` on a placed root («bentuknya») is allowed; the test strips «nya» before looking the word up.
+- **Noun objects (Sam, 13 Nov 2026):** «tangguhkan» and «batalkan» take a noun («rancangan»), never a verb; chapter 15 does not use them, chapter 16 and later may.
+
+## Previous session: Stage 2 build step 4, chapter 13 fixes and chapter 14 (13 Nov 2026, Claude)
 
 - **Authorised:** Sam (build step 4, chapter 14 instruction, 13 Nov 2026): the chapter 12 and 13 fixes in their own commit, then the chapter 14 suite; push to main when the checks pass; **stop after chapter 14 for Claude's review** before chapter 15. Started at `1fd7862`. Report: `docs/STAGE-2-ch14-report.md`.
 - **Fixes (`11db7f0`):** «dari» for places and times, «daripada» for people and organisations (13 «cuti sakit … daripada doktor» in five places, 12A «mesej daripada kedai itu», and 11A «surat daripada bank itu», the one extra hit); 13 «Sila jangan bising.» and «Tolong jangan bising di bilik menunggu.» (the core word «elakkan» now has «Tolong elakkan lif itu. Lif itu rosak.»); «terima kasih atas mesej itu»; no visiting hours (health-form and photo rules kept); the bare-root rule and the «dari» / «daripada» rule in the template; Sam's chapter 13 answers in `docs/stage-2-decisions.md` section 10; «sihat» and «beritahu» "recommended".
