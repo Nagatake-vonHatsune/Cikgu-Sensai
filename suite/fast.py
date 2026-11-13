@@ -1204,3 +1204,89 @@ STAGE2_PACKS.append(dict(
     course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 15)], prerequisite_units=[],
     prereq_grammar=['ms-c14-g02', 'ms-c14-g03', 'ms-c13-g02', 'ms-c06-g02'],
     word_scope=C15_WORDS, components=chapter15))
+
+
+C16_WORDS = ['L-1235', 'L-0619', 'L-0644', 'L-1236', 'L-0621', 'L-0752', 'L-1237', 'L-1238', 'L-1241',
+             'L-1239', 'L-1240', 'L-1242', 'L-1243', 'L-0875', 'L-0758', 'L-1244', 'L-1251', 'L-1250',
+             'L-1245', 'L-1246', 'L-1247', 'L-1248', 'L-1249']
+
+
+def chapter16(ledger):
+    dialogue = [
+        ('Tanaka', '«Selamat malam. Maaf, kunci saya tertinggal di dalam rumah. Pintu terkunci.»'),
+        ('Guard', '«Unit berapa, encik?»'),
+        ('Tanaka', '«Blok B, unit 12-3. Saya terlupa kunci tadi.»'),
+        ('Guard', '«Encik tunggu di sini. Saya hubungi pejabat pengurusan.»'),
+        ('Tanaka', '«Baik. Terima kasih banyak.»'),
+        ('Mei Ling', '«Maaf, saya lambat. Saya terlepas bas, kemudian saya tersangkut di jalan yang sesak.»'),
+        ('Tanaka', '«Jangan risau. Mesyuarat belum bermula.»'),
+        ('Mei Ling', '«Maaf, Encik Tanaka! Air kopi saya tertumpah di meja. Cawan saya pun pecah.»'),
+        ('Tanaka', '«Awak tidak sengaja. Jangan risau.»'),
+        ('Mei Ling', '«Saya ambil tisu. Fail encik sedikit basah.»'),
+        ('Tanaka', '«Terima kasih. Hati-hati, lantai licin.»'),
+        ('Tanaka', '«Selamat pagi. Saya tergelincir di tangga tadi.»'),
+        ('Receptionist', '«Encik tercedera? Di mana yang sakit?»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=['ms-c16-g02', 'ms-c16-g03', 'ms-c16-g04', 'ms-c16-g05', 'ms-c16-g06', 'ms-c16-g07', 'ms-c16-g08', 'ms-c16-g09'],
+        patterns=['ms-c16-f01', 'ms-c16-f02', 'ms-c16-f03', 'ms-c16-f04', 'ms-c16-f05', 'ms-c16-f06'],
+        goal='Say what happened by accident with ‹ter-›, apologise for a small slip, report a locked door or a spill, and keep ‹ter-› (the most) apart from ‹ter-› (by accident).',
+        explain=('第16章速習：45分で基本の23語、«Saya tertinggal ___ di ___»、«Maaf, saya ___»、«tidak sengaja»、«Pintu terkunci.»、«termurah» と «tertinggal» の違いを練習し、鍵・こぼれたコーヒー・クリニックの場面を演じ、残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 16 in one 45-minute session: 23 core words, «Saya tertinggal ___ di ___», «Maaf, saya ___», «tidak sengaja», «Pintu terkunci.» and the two ‹ter-› («termurah» against «tertinggal»); '
+                 'then the scene at the locked door, the spilt coffee and the clinic counter, and self-study in Kata-Kata. All names and items are fictional.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can say what I left behind or forgot by accident with «tertinggal» and «terlupa». / «tertinggal»・«terlupa» でうっかり置き忘れたことや忘れたことを言える。',
+                'I can apologise for a small slip with «Maaf, saya ___.». / «Maaf, saya ___.» で小さな失敗を謝れる。',
+                'I can say what spilt, slipped, broke or was locked with a ‹ter-› verb and «tidak sengaja». / ‹ter-› の動詞と «tidak sengaja» で、こぼれた・滑った・割れた・鍵がかかったことを言える。',
+                'I can tell «termurah» (the most) from «tertinggal» (by accident). / «termurah»（最も）と «tertinggal»（うっかり）を区別できる。'], 'opener'),
+            ('Core words · 基本の23語', core(ledger, C16_WORDS) +
+             ['The full course adds the revision words of the whole unit and the writing block after chapter 16.'], 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · «Saya tertinggal» ___ «di» ___ «.»  e.g. «Saya tertinggal telefon di pejabat.» / «Kunci saya tertinggal di dalam rumah.»',
+                '2 · «Maaf, saya» ___ «.»  e.g. «Maaf, saya terlupa.» / «Maaf, saya terlepas bas.»',
+                '3 · «Saya tidak sengaja» ___ ___ «.»  e.g. «Saya tidak sengaja terlanggar kerusi.» / «Awak tidak sengaja. Jangan risau.»',
+                '4 · ___ «tertumpah di» ___ «. / Pintu terkunci. Boleh tolong» ___ «?»  e.g. «Air kopi tertumpah di meja.» / «Pintu terkunci. Boleh tolong hubungi pejabat pengurusan?»',
+                '5 · «Yang ini» ___ «, tetapi dompet saya» ___ «di rumah.»  e.g. «Yang ini termurah, tetapi dompet saya tertinggal di rumah.» / «Yang ini terbaik, tetapi kad saya tertinggal di rumah.»',
+                'Remember: ‹ter-› + a verb means "by accident, without meaning to"; ‹ter-› + an adjective («termurah», «terbesar», «terbaik») means "the most". '
+                '«tertinggal» is left behind (you know where it is); «hilang» is lost (you cannot find it). «terkunci» is a state: «Pintu terkunci.»',
+                '‹ter-›＋動詞は「うっかり、そのつもりなく」、‹ter-›＋形容詞（«termurah»・«terbesar»・«terbaik»）は「最も」。'
+                '«tertinggal» は置き忘れ（どこか分かっている）、«hilang» はなくしたこと（見つからない）。«terkunci» は状態です：«Pintu terkunci.»'], 'model'),
+            ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: You live in Block B, unit 12-3 (fictional). Your key is left inside the flat. Tell the guard with «tertinggal» and «terkunci», say «Maaf, saya terlupa.» and ask him to contact the management office.',
+                'B: You are the guard. Ask the unit, say you will contact the management office, and answer kindly.',
+                'Change of plan: B says «Maaf, pejabat pengurusan belum buka. Encik tunggu sekejap.» A asks to wait in the lobby and says «Saya tidak sengaja terlupa kunci itu.»',
+                'A：Bブロック12-3号室に住んでいます（架空）。鍵が家の中にあります。«tertinggal»・«terkunci» で警備員に伝え、«Maaf, saya terlupa.» と言い、管理事務所への連絡を頼みます。'
+                'B：警備員です。部屋をたずね、管理事務所に連絡すると言い、やさしく答えます。'
+                '変更：Bが «Maaf, pejabat pengurusan belum buka. Encik tunggu sekejap.» と言い、Aはロビーで待ってよいかをたずね、«Saya tidak sengaja terlupa kunci itu.» と言います。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say "I left my phone at the office.": ____________________',
+                '☐ 2. Say "Sorry, I forgot.": ____________________',
+                '☐ 3. Say "Coffee spilled on the table.": ____________________',
+                '☐ 4. Say "The door is locked.": ____________________',
+                '☐ 5. Say "This one is the cheapest, but my wallet is left at home.": ____________________'], 'test'),
+            ('Self-study guide · 自習ガイド', [
+                f'Before the session: Kata-Kata Sedia Kelas c16 ({sedia_cards(16)} cards, frames ms-c16-f01 and ms-c16-f02).',
+                f'After the session: all {pack_cards(16)} Kata-Kata chapter 16 cards (ms-c16-001 to ms-c16-{last_card(16):03}) and frames ms-c16-f01 to ms-c16-f06 in the frame drill and Susun Ayat; '
+                'the Kata-Kata scenario "A locked door, a spill and a slip" matches this pack.',
+                'No Dunia scene primes chapter 16. The Hanashishou scenes with the guardhouse, a missed bus and the clinic are not yet tagged by chapter, so they are not assigned yet.',
+                'Optional full-course Cikgu Sensai unit: unit 16 (accidents with ‹ter-›), with the writing block after chapter 16.',
+                'Expected self-study: about 9 to 10 hours for this chapter (planning figure).',
+                '授業後：第16章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
+        key=['Self-check: 1 «Saya tertinggal telefon di pejabat.» 2 «Maaf, saya terlupa.» 3 «Air kopi tertumpah di meja.» '
+             '4 «Pintu terkunci.» 5 «Yang ini termurah, tetapi dompet saya tertinggal di rumah.»',
+             'Session plan (45 min): 0–5 recall chapters 1, 6 and 15 («Maaf», «termurah», «hilang»); 5–15 core words; '
+             '15–25 patterns 1 to 5; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',
+             'Same content and ledger limits as unit 16. All Japanese is a draft awaiting native review.'])]
+
+
+STAGE2_PACKS.append(dict(
+    chapter_id='ms-c16', check_unit='ms-c16-fast', id_prefix='ms-c16-fast', level='A2',
+    title_prefix='Chapter 16', header='Chapter 16 fast course (ms-c16)',
+    menu_title='Chapter 16 · Accidents with ter-', genre='Accidents',
+    course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 16)], prerequisite_units=[],
+    prereq_grammar=['ms-c15-g02', 'ms-c15-g03', 'ms-c06-g02', 'ms-c12-g02'],
+    word_scope=C16_WORDS, components=chapter16))

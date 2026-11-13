@@ -192,6 +192,14 @@ GRAMMAR.extend([
     dict(id='ms-c15-g07', chapter_id='ms-c15', label='memakai for glasses, clothes, a hat and shoes (everyday pakai); lelaki, perempuan, cermin mata'),
     dict(id='ms-c15-g08', chapter_id='ms-c15', label='When yang can be dropped (one adjective: dompet hitam) and when it stays (a clause with ada or a verb)'),
     dict(id='ms-c15-g09', chapter_id='ms-c15', label='Lost-property words: barang, dompet, beg tangan, nombor plat, jenama, ciri, bentuk'),
+    dict(id='ms-c16-g02', chapter_id='ms-c16', label='Left behind by accident: Saya tertinggal ___ di ___; the thing as the subject (Kunci saya tertinggal); ter- + a verb = by accident, without meaning to'),
+    dict(id='ms-c16-g03', chapter_id='ms-c16', label='Apologising for a small slip: Maaf, saya terlupa / terlepas / tersilap / tertidur; the reply Jangan risau'),
+    dict(id='ms-c16-g04', chapter_id='ms-c16', label='tidak sengaja (spoken tak sengaja) with a ter- verb adds emphasis: Saya tidak sengaja terlanggar kerusi'),
+    dict(id='ms-c16-g05', chapter_id='ms-c16', label='A thing as the subject: Air kopi tertumpah di meja; Cawan pecah; Lantai licin; what you can see (bengkak, luka kecil, lebam)'),
+    dict(id='ms-c16-g06', chapter_id='ms-c16', label='Two ter-: termurah, terbesar, terbaik (the most, chapter 6) against tertinggal, terlupa, terlepas (by accident)'),
+    dict(id='ms-c16-g07', chapter_id='ms-c16', label='ter- states: Pintu terkunci, Talian terputus, tercedera, terbakar (a state, not an action); the request Boleh tolong hubungi ___?'),
+    dict(id='ms-c16-g08', chapter_id='ms-c16', label='tertinggal against hilang (chapter 15): you know where it is, or you cannot find it'),
+    dict(id='ms-c16-g09', chapter_id='ms-c16', label='Accident words: kemalangan, kunci, tumpah, luka, lebam, bengkak, licin, pecah'),
 ])
 
 
@@ -369,10 +377,10 @@ def turns(script):
 
 def load_units():
     from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, ms_c07, ms_c08, ms_c09, fast, stage1
-    from . import ms_c10a, ms_c10b, ms_c11a, ms_c11b, ms_c12a, ms_c12b, ms_c13, ms_c14, ms_c15
+    from . import ms_c10a, ms_c10b, ms_c11a, ms_c11b, ms_c12a, ms_c12b, ms_c13, ms_c14, ms_c15, ms_c16
     return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT,
                        ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT, ms_c06.UNIT, ms_c07.UNIT, ms_c08.UNIT, ms_c09.UNIT,
-                       *fast.PACKS, stage1.UNIT, ms_c10a.UNIT, ms_c10b.UNIT, ms_c11a.UNIT, ms_c11b.UNIT, ms_c12a.UNIT, ms_c12b.UNIT, ms_c13.UNIT, ms_c14.UNIT, ms_c15.UNIT, *fast.STAGE2_PACKS] if u]
+                       *fast.PACKS, stage1.UNIT, ms_c10a.UNIT, ms_c10b.UNIT, ms_c11a.UNIT, ms_c11b.UNIT, ms_c12a.UNIT, ms_c12b.UNIT, ms_c13.UNIT, ms_c14.UNIT, ms_c15.UNIT, ms_c16.UNIT, *fast.STAGE2_PACKS] if u]
 
 
 SKILLS = {'Opener': ['speaking'], 'Vocabulary': ['vocabulary'], 'Pattern and grammar': ['grammar'],
