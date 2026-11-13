@@ -716,3 +716,7 @@ Units 12A (23 core, plus «nombor tracking» to recognise) and 12B (21 core) are
 ## Build step 4: chapter 13 (13 Nov 2026)
 
 Unit 13 (25 core, no recognition word) is built as one unit of five blocks, with the chapter 13 fast pack. The plan gives chapter 13 no writing or review block, so none was built. Sam's answers to the chapter 12 questions are in [`docs/stage-2-decisions.md`](stage-2-decisions.md) section 9. Report: [`docs/STAGE-2-ch13-report.md`](STAGE-2-ch13-report.md).
+
+## Build step 4: chapter 14 (13 Nov 2026)
+
+Unit 14 (22 core, no recognition word) is built as one unit of five blocks, with the writing block after it ("explain and rearrange a plan") and the chapter 14 fast pack. Sam's answers to the chapter 13 questions are in [`docs/stage-2-decisions.md`](stage-2-decisions.md) section 10. Report: [`docs/STAGE-2-ch14-report.md`](STAGE-2-ch14-report.md).

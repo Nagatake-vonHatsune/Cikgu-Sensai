@@ -1034,3 +1034,88 @@ STAGE2_PACKS.append(dict(
     course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 13)], prerequisite_units=[],
     prereq_grammar=['ms-c12-g02', 'ms-c12-g03', 'ms-c11-g02', 'ms-c08-g02'],
     word_scope=C13_WORDS, components=chapter13))
+
+
+C14_WORDS = ['L-1201', 'L-1202', 'L-1203', 'L-1204', 'L-1205', 'L-1206', 'L-1207', 'L-1217', 'L-1209', 'L-1210', 'L-1208',
+             'L-1213', 'L-1214', 'L-1215', 'L-1216', 'L-0710', 'L-0641', 'L-1269', 'L-1218', 'L-1270']
+
+
+def chapter14(ledger):
+    dialogue = [
+        ('Tanaka', '«Cik Mei Ling, hujung minggu ini kita masih mahu mendaki?»'),
+        ('Mei Ling', '«Masih. Tetapi cuaca mendung. Kalau hujan pada hari Sabtu, kita tidak boleh mendaki.»'),
+        ('Tanaka', '«Kalau hujan, kita makan di kafe. Kalau tidak hujan, kita mendaki.»'),
+        ('Mei Ling', '«Bagus! Tetapi saya tidak boleh datang pada hari Sabtu kerana saya bekerja.»'),
+        ('Tanaka', '«Ada dua pilihan: kita tangguhkan ke hari Ahad atau ke hari Sabtu depan.»'),
+        ('Mei Ling', '«Hari Ahad lebih baik. Hari Ahad saya cuti. Janji!»'),
+        ('Tanaka', '«Ada perubahan rancangan, tetapi tujuan kita sama: berehat dan berjalan.»'),
+        ('Tanaka', '«Baik. Ini rancangan kita. Mula-mula kita berjumpa di stesen pukul tujuh. Kemudian kita mendaki. Akhirnya kita makan di kafe.»'),
+        ('Mei Ling', '«Saya akan datang awal supaya kita tidak lambat.»'),
+        ('Tanaka', '«Bagus. Walaupun saya penat, saya suka mendaki. Kita boleh bercakap sambil berjalan.»'),
+        ('Mei Ling', '«Kalau hujan lagi pada hari Ahad, bagaimana?»'),
+        ('Tanaka', '«Kita batalkan rancangan mendaki, tetapi kita masih makan di kafe.»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=['ms-c14-g02', 'ms-c14-g03', 'ms-c14-g04', 'ms-c14-g05', 'ms-c14-g06', 'ms-c14-g07', 'ms-c14-g08', 'ms-c14-g09'],
+        patterns=['ms-c14-f01', 'ms-c14-f02', 'ms-c14-f03', 'ms-c14-f04', 'ms-c14-f05', 'ms-c14-f06'],
+        goal='Give a condition, a reason, a purpose and a contrast, put a plan in order, and put off or cancel a plan.',
+        explain=('第14章速習：45分で基本の20語、«kalau»・«kerana»・«supaya»・«walaupun»・«sambil»、«mula-mula»・«kemudian»・«akhirnya»、日常の語と書き言葉の語（«kalau» と «jika» など）、'
+                 '週末のハイキングの延期と中止の場面を練習し、残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 14 in one 45-minute session: 20 core words, «kalau», «kerana», «supaya», «walaupun» and «sambil», «mula-mula», «kemudian» and «akhirnya», the everyday and written pairs («kalau» and «jika», and so on), '
+                 'and the scene of putting off and cancelling a weekend hike; then self-study in Kata-Kata. All names and plans are fictional.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can say a condition with «kalau» and a reason with «kerana». / «kalau» で条件を、«kerana» で理由を言える。',
+                'I can say a purpose with «supaya» and a contrast with «walaupun». / «supaya» で目的を、«walaupun» で対比を言える。',
+                'I can put a plan in order with «mula-mula», «kemudian» and «akhirnya». / «mula-mula»・«kemudian»・«akhirnya» で計画を順序立てられる。',
+                'I can put off or cancel a plan with «tangguhkan» and «batalkan», and tell the written «jika» from the everyday «kalau». / «tangguhkan»・«batalkan» で予定を延期・中止でき、書き言葉の «jika» と日常の «kalau» を区別できる。'], 'opener'),
+            ('Core words · 基本の20語', core(ledger, C14_WORDS) +
+             ['The full course also teaches «semasa» and «sejak», with the revision words of the whole unit.'], 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · «Kalau» ___ «, kita» ___ «.»  e.g. «Kalau hujan, kita makan di kafe.» / «Kalau tidak hujan, kita mendaki.»',
+                '2 · «Saya tidak datang kerana saya» ___ «.»  e.g. «Saya tidak datang kerana saya bekerja.» / «Saya bangun awal supaya saya tidak lambat.»',
+                '3 · «Walaupun» ___ «, saya mahu» ___ «.»  e.g. «Walaupun hujan, saya mahu berjalan kaki.» / «Walaupun saya penat, saya suka mendaki.»',
+                '4 · «Dia makan sambil» ___ «.»  e.g. «Dia makan sambil membaca surat khabar.» / «Kita boleh bercakap sambil berjalan.»',
+                '5 · «Mula-mula kita» ___ «, kemudian kita» ___ «, akhirnya kita» ___ «.»  e.g. «Mula-mula kita makan, kemudian kita berjalan kaki, akhirnya kita balik.» / «Mula-mula kita berjumpa di stesen. Kemudian kita mendaki. Akhirnya kita makan di kafe.»',
+                'Remember: people say «kalau» and «bila» and write «jika» and «apabila»; «tetapi» and «jadi» in speech, «namun» and «oleh itu» in a message. «kerana» and «sebab» give the reason, «supaya» the purpose. '
+                '«tangguhkan» and «batalkan» go in «kita» sentences and requests.',
+                '話すときは «kalau»・«bila»、書くときは «jika»・«apabila»；話し言葉は «tetapi»・«jadi»、メッセージでは «namun»・«oleh itu»。«kerana»・«sebab» は理由、«supaya» は目的。'
+                '«tangguhkan»・«batalkan» は «kita» の文と依頼で使います。'], 'model'),
+            ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: You and B plan a Saturday outing (fictional). You can come on Sunday, not on Saturday, because you work. Give your reason, two choices and a rain plan.',
+                'B: Ask why A cannot come, choose a day, ask what you do if it rains, and say the order of the day with «mula-mula», «kemudian» and «akhirnya».',
+                'Change of plan: A says «Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe.» B asks the time they meet at the cafe.',
+                'A：Bさんと土曜日の外出を計画します（架空）。仕事があるので土曜日は行けず、日曜日なら行けます。理由・二つの選択肢・雨の日の計画を言います。'
+                'B：Aがなぜ来られないかをたずね、日を選び、雨が降ったらどうするかをたずね、«mula-mula»・«kemudian»・«akhirnya» で一日の順序を言います。'
+                '変更：Aが «Maaf, hari Ahad pun hujan. Jadi, kita batalkan mendaki, tetapi kita masih makan di kafe.» と言い、Bはカフェで会う時刻をたずねます。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say "If it rains, we eat at the cafe.": ____________________',
+                '☐ 2. Say "I am not coming because I am working.": ____________________',
+                '☐ 3. Say "I get up early so that I am not late.": ____________________',
+                '☐ 4. Say "Even though it is raining, I want to walk.": ____________________',
+                '☐ 5. Say "First we meet, then we hike, finally we eat.": ____________________'], 'test'),
+            ('Self-study guide · 自習ガイド', [
+                f'Before the session: Kata-Kata Sedia Kelas c14 ({sedia_cards(14)} cards, frames ms-c14-f01 and ms-c14-f02).',
+                f'After the session: all {pack_cards(14)} Kata-Kata chapter 14 cards (ms-c14-001 to ms-c14-{last_card(14):03}) and frames ms-c14-f01 to ms-c14-f06 in the frame drill and Susun Ayat; '
+                'the Kata-Kata scenario "The weekend hike" matches this pack.',
+                'No Dunia scene primes chapter 14. The Hanashishou scenes with plans and changes are not yet tagged by chapter, so they are not assigned yet.',
+                'Optional full-course Cikgu Sensai unit: unit 14 (reasons, conditions and plans), with its writing block.',
+                'Expected self-study: about 9 to 10 hours for this chapter (planning figure).',
+                '授業後：第14章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
+        key=['Self-check: 1 «Kalau hujan, kita makan di kafe.» 2 «Saya tidak datang kerana saya bekerja.» 3 «Saya bangun awal supaya saya tidak lambat.» '
+             '4 «Walaupun hujan, saya mahu berjalan kaki.» 5 «Mula-mula kita berjumpa, kemudian kita mendaki, akhirnya kita makan.»',
+             'Session plan (45 min): 0–5 recall chapters 5 and 13 («Kenapa …?» with «sebab», «perlu»); 5–15 core words; '
+             '15–25 patterns 1 to 5; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',
+             'Same content and ledger limits as unit 14. All Japanese is a draft awaiting native review.'])]
+
+
+STAGE2_PACKS.append(dict(
+    chapter_id='ms-c14', check_unit='ms-c14-fast', id_prefix='ms-c14-fast', level='A2',
+    title_prefix='Chapter 14', header='Chapter 14 fast course (ms-c14)',
+    menu_title='Chapter 14 · Reasons, conditions and plans', genre='Plans',
+    course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 14)], prerequisite_units=[],
+    prereq_grammar=['ms-c13-g02', 'ms-c13-g04', 'ms-c11-g02', 'ms-c08-g02'],
+    word_scope=C14_WORDS, components=chapter14))

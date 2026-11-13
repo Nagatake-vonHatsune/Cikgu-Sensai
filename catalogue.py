@@ -17,7 +17,7 @@ GENRES = {'Social encounters':'Social life','Transactions':'Shopping and money',
           'Housing':'Home','Work':'Work and study','Study':'Work and study','Governance':'Work and study','Campus services':'Work and study'}
 FOCUS = ['Greetings and titles','Pronouns, pe-, -an, -kah and questions','Numbers, money, ke- and ke-an',
          'Time, frequency and aspect','Adjectives, Bagaimana and yang','Comparatives and superlatives',
-         'Location and direction','Counters','Passive di-','ber- verbs','meN- verbs','-kan and -i verbs','belum, permission, need and advice']
+         'Location and direction','Counters','Passive di-','ber- verbs','meN- verbs','-kan and -i verbs','belum, permission, need and advice','Reasons, conditions, purpose, contrast and sequence']
 GOALS = ['Greet by time of day, use titles, ask after someone, take leave',
          'Introduce yourself (name, origin, work, home, hobby) and ask the same of others',
          'Ask and pay a price, check change, give age and phone number, say which one in a sequence',
@@ -29,7 +29,8 @@ GOALS = ['Greet by time of day, use titles, ask after someone, take leave',
          'Retell your day and your background in full sentences',
          'Say who did what at the office, check a draft and a deadline, and say your weekend plan',
          'Ask for a favour, collect a parcel, and report a problem such as a leak to the management office',
-         'Say what is not done yet, ask permission, say what you need and understand advice and rules at a clinic and a pharmacy']
+         'Say what is not done yet, ask permission, say what you need and understand advice and rules at a clinic and a pharmacy',
+         'Give a reason, a condition, a purpose and a contrast, put a plan in order, and put off or cancel a plan with a reason']
 STAGE1_CHAPTERS = 9   # chapters 1 to 9: Stage 1 (A1); from chapter 10: Stage 2 (A2)
 CHAPTERS_BUILT = len(GOALS)  # chapters with a Kata-Kata pack and a catalogue record (10 since Stage 2 build step 4, 11 since chapter 11)
 BLOCKS = [
@@ -156,9 +157,9 @@ def make_catalogue(lessons, groups):
         c['fast_pack_ids']=[x['id'] for x in components if x['chapter_id']==c['id'] and x.get('fast')]
     tests=json.loads((ROOT/'curriculum/test-items.json').read_text())+[t for l in lessons if l.get('suite') for t in l['suite']['tests']]
     extra_blocks={'pronunciation':'ms-c01-pronunciation-block','writing-2b':'ms-c02b-writing-block','review-3a':'ms-c03a-review-block','writing-3c':'ms-c03c-writing-block','review-4b':'ms-c04b-review-block','writing-5':'ms-c05-writing-block','review-6':'ms-c06-review-block','writing-7':'ms-c07-writing-block','review':'ms-stage1-review',
-                  'writing-10b':'ms-c10b-writing-block','review-11b':'ms-c11b-review-block','writing-12a':'ms-c12a-writing-block','review-12b':'ms-c12b-review-block'}
+                  'writing-10b':'ms-c10b-writing-block','review-11b':'ms-c11b-review-block','writing-12a':'ms-c12a-writing-block','review-12b':'ms-c12b-review-block','writing-14':'ms-c14-writing-block'}
     # Stage 2 extra blocks (plan section 1): writing after 10B, 12A, 14, 16; reviews after 11B, 12B, 15. Only built ones are listed.
-    stage2_blocks=[('writing-10b','ms-c10b'),('review-11b','ms-c11b'),('writing-12a','ms-c12a'),('review-12b','ms-c12b')]
+    stage2_blocks=[('writing-10b','ms-c10b'),('review-11b','ms-c11b'),('writing-12a','ms-c12a'),('review-12b','ms-c12b'),('writing-14','ms-c14')]
     from suite.stage1 import stage_record
     # Stage records carry the stage's CEFR label and its completion rule (step 5h): the data behind the charter's
     # "CEFR label shown in the Evaluator" (section 10, phase 3). Chapters and components keep their own 'level'.

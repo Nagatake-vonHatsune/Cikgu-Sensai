@@ -23,15 +23,37 @@ Collected from every chapter. Builders rewrote the lines instead and added no ro
 | «menyapu» (to sweep) | 11 | the s → ny trap; quoted only as a ‹menyapu› mention |
 | «kolam renang», «taman», «seminggu», «penuh», «bersukan», «hidup» | 10 | recorded in `docs/STAGE-2-ch10-report.md` (word proposals) |
 | «salinan» (copy) | 12 | **recommended** (Sam, 13 Nov): review block: «simpankan salinan di pejabat» (rewritten to «simpankan borang itu») |
-| «sejak» (since) | 12 | **recommended, especially** (Sam, 13 Nov): «Sejak semalam» for when a leak started (rewritten to «Bila kebocoran itu bermula?» / «Malam tadi.») |
+| «sejak» (since) | 12 | **now a chapter 14 core word (L-1212), taught there; the chapter 12 rewrite stays.** Sam, 13 Nov: recommended, especially: «Sejak semalam» for when a leak started (rewritten to «Bila kebocoran itu bermula?» / «Malam tadi.») |
 | «melapor» / «melaporkan» (to report) | 12 | **recommended** (Sam, 13 Nov): Hanashishou band 2 uses «melaporkan kebocoran»; the unit says «Ada kebocoran di … saya.» |
 | the di- partners «dihubungi», «dibaiki» | 12 | the ledger has only «membaiki» and «menghubungi». **The meN-…-kan forms «menyimpankan», «menghantarkan», «membawakan» are dropped: Sam (13 Nov) says they are not natural and are not taught.** |
 | «sihat» (healthy) | 13 (**recommended**, Sam 13 Nov) | the root of the ledger word «kesihatan»; «Saya sihat.» / «Saya tidak sihat.» (the unit says «Saya demam dan sakit tekak.») |
 | «ahli farmasi» (pharmacist) | 13 | the Kata-Kata speaker label for s16 and s18; the unit uses the English label «Pharmacist» |
 | «beritahu» (to tell) | 13 (**recommended**, Sam 13 Nov) | "tell the doctor"; the unit says «Saya cakap dengan doktor nanti.» |
 | «tinggalkan» (to leave behind) | 13 | leaving a bag at the counter; the unit says «Boleh saya letak beg di sini?» |
+| «baiklah» and «begini» | 14 (Sam's natural casual phrase) | «Baiklah, kita buat begini» for stating a plan; no line needs them, the unit says «Baik. Ini rancangan kita.» (Kata-Kata s08) |
+| «ikut» (to come along) | 14 | inviting a friend: «Puan Aini mahu ikut?»; the unit says «mahu datang?» |
+| «kata» (to say) | 14 | "what does the message say?"; the unit says «Apa dalam mesej itu?» |
+| «pengumuman» (announcement) | 14 | the heading of a written notice; the unit starts «Ada perubahan rancangan.» |
 
-## Latest session: Stage 2 build step 4, chapter 12 fixes and chapter 13 (13 Nov 2026, Claude)
+## Latest session: Stage 2 build step 4, chapter 13 fixes and chapter 14 (13 Nov 2026, Claude)
+
+- **Authorised:** Sam (build step 4, chapter 14 instruction, 13 Nov 2026): the chapter 12 and 13 fixes in their own commit, then the chapter 14 suite; push to main when the checks pass; **stop after chapter 14 for Claude's review** before chapter 15. Started at `1fd7862`. Report: `docs/STAGE-2-ch14-report.md`.
+- **Fixes (`11db7f0`):** «dari» for places and times, «daripada» for people and organisations (13 «cuti sakit … daripada doktor» in five places, 12A «mesej daripada kedai itu», and 11A «surat daripada bank itu», the one extra hit); 13 «Sila jangan bising.» and «Tolong jangan bising di bilik menunggu.» (the core word «elakkan» now has «Tolong elakkan lif itu. Lif itu rosak.»); «terima kasih atas mesej itu»; no visiting hours (health-form and photo rules kept); the bare-root rule and the «dari» / «daripada» rule in the template; Sam's chapter 13 answers in `docs/stage-2-decisions.md` section 10; «sihat» and «beritahu» "recommended".
+- **Chapter 14 (the commit after `11db7f0`):** unit 14 (the weekend hike, the rain plan and the change to Sunday: 22 core words, no recognition word), the **writing block after unit 14** (explain and rearrange a plan) and the chapter 14 fast pack: 6 blocks = 4.5 h, plus 1 fast block. All in `curriculum/reauthored-units.json` with zero gaps and zero violations. Build: 483 packs, 2,981 pages, still 20 violations and 199 gaps (none in chapter 14). **239 tests** pass (16 new in `tests/test_stage2_ch14.py`).
+- **Waiting for:** Claude's review of chapter 14; Sam's answers to the six questions at the end of the report (the pair merged into pattern 2, «keputusan» in written notices only, the bare root «tangguh», no third-person «tangguhkan», the fast-pack cut, the menu names) and the 12 native-read lines.
+- **Next:** after the review, chapter 15 (lost property: «yang» descriptions and the cumulative question words; Kata-Kata c15 is already in the snapshot) **with the review block after chapter 15** (the plan's Review 3), using the template note below.
+- **Environment note:** `build.py` needs `pymupdf`, `fonttools`, `brotli` and `fonts-noto-cjk` (apt; run `apt-get update` first), and a full Git checkout.
+
+### What chapter 14 added to the template below
+
+- A **single-unit chapter with a writing block** uses `label='14'`, `unit_id='ms-c14'`, the menu entry `("…", "Plans", [("14", [])])` and `extra=EXTRA` (the same `EXTRA` dict as chapter 12A; the block id is `ms-c14-writing-block`). Register the block in `catalogue.py` (`extra_blocks['writing-14']` and `stage2_blocks`).
+- **Six frames, five patterns:** f02 and f03 share pattern 2 (the pattern ID string is `ms-c14-f02 and f03`; `pattern_ids` lists all six). The 15 scenario lines all fit the 16-turn model conversation, so the whole scene is the model; the variant is a second change of facts.
+- **Written against everyday words:** a connector pair is shown in the vocabulary entry of the formal word («jika» beside «kalau»), in the transformation drill (written to everyday) and in a test; the casual lines use the everyday words and the reading and the notice use the written ones. A spoken partner (‹lepas tu›) is a ‹…› mention with a source; «tapi» appears only with the label "spoken".
+- **-kan words that have no meN- form** («tangguhkan», «batalkan») stay in «kita» sentences and requests; a third-person doer or an aspect word is rephrased («Mendaki batal.»). `tests/test_stage2_ch14.py::test_kan_rule_and_dari` holds the regex and the «dari» / «daripada» check.
+- A **dialogue line may keep Kata-Kata's everyday bare root** («Saya sudah tulis mesej …»); the models, keys, readings and the markers drill use the meN- form («menulis»).
+- Speaker labels are «Tanaka», «Mei Ling», «Aini» (no «Cik»/«Puan» in a label); English prose marks «Cik» and «Puan» with «…».
+
+## Previous session: Stage 2 build step 4, chapter 12 fixes and chapter 13 (13 Nov 2026, Claude)
 
 - **Authorised:** Sam (build step 4, chapter 13 instruction, 13 Nov 2026): the chapter 12 fixes in their own commit, then unit 13; push to main when the checks pass; **stop after chapter 13 for Claude's review** before chapter 14. Started at `b54fde6`. Report: `docs/STAGE-2-ch13-report.md`.
 - **Chapter 12 fixes (`732e336`):** the ‹-kan› rule (bare ‹-kan› for requests and first-person offers or replies; the meN- verb the ledger has after a third-person doer or an aspect word; rephrase where there is no meN- verb; no meN-…-kan forms; the same for the ‹-i› verbs), «… akan menukar paip itu», 12B «Tolong kosongkan lantai itu juga.» deleted, «Penerima Puan Siti, ya?» (no «ialah» in conversation), «Ada berapa kotak di lobi?», the guardhouse and management-office notes in two lines, the old «Ambil bungkusan di lobi» placeholder retired from the course menu with its six legacy lessons and ten legacy exceptions (30 to 20), Sam's answers in `docs/stage-2-decisions.md` section 9, and «sejak», «melaporkan» and «salinan» marked "recommended" in the backlog.

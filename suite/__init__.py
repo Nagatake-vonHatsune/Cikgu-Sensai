@@ -176,6 +176,14 @@ GRAMMAR.extend([
     dict(id='ms-c13-g06', chapter_id='ms-c13', label='Signs and rules: tidak dibenarkan, dibenarkan, dilarang; tidak boleh in speech'),
     dict(id='ms-c13-g07', chapter_id='ms-c13', label='wajib: compulsory on forms and notices; Borang ini wajib diisi (secular use only)'),
     dict(id='ms-c13-g08', chapter_id='ms-c13', label='The panel clinic and the pharmacy: daftar / mendaftar, temu janji, cuti sakit (MC), arahan and dos on a label; no diagnosis and no dosage advice'),
+    dict(id='ms-c14-g02', chapter_id='ms-c14', label='Condition: kalau + clause, result (jika in writing); bila and apabila for "when"; Kalau hujan, kita makan di kafe'),
+    dict(id='ms-c14-g03', chapter_id='ms-c14', label='Reason: kerana and sebab; Saya tidak datang kerana saya bekerja; answer to Kenapa'),
+    dict(id='ms-c14-g04', chapter_id='ms-c14', label='Purpose: supaya + clause; tujuan; Saya bangun awal supaya saya tidak lambat'),
+    dict(id='ms-c14-g05', chapter_id='ms-c14', label='Contrast: walaupun + clause, no tetapi in the second clause; namun in writing; walaupun against kalau'),
+    dict(id='ms-c14-g06', chapter_id='ms-c14', label='Two actions at once: sambil; semasa and sejak as whole words; Dia makan sambil membaca surat khabar'),
+    dict(id='ms-c14-g07', chapter_id='ms-c14', label='Sequence: mula-mula, kemudian, akhirnya; seterusnya in writing; a plan in order'),
+    dict(id='ms-c14-g08', chapter_id='ms-c14', label='Written and everyday words: jika / kalau, apabila / bila, namun / tetapi, oleh itu / jadi, seterusnya / kemudian'),
+    dict(id='ms-c14-g09', chapter_id='ms-c14', label='Plans and changes: tangguh and tangguhkan, batal and batalkan (kita sentences and requests), pilihan, perubahan, keputusan, janji'),
 ])
 
 
@@ -315,6 +323,12 @@ GLOSS = {
     'L-1189': dict(en='permission (taught only in this sense: «minta kebenaran»)', ja='許可（この意味だけを教える：«minta kebenaran»）'),
     'L-1268': dict(en='to register (standard form of «daftar»)', ja='登録する・受付をする（«daftar» の標準形）'),
     'L-1200': dict(en='sick leave (standard «cuti sakit»; spoken «MC», from "medical certificate")', ja='病気休暇（標準 «cuti sakit»；話し言葉 «MC»）'),
+    # Chapter 14 (fast pack word list): ledger meanings that contain Malay, re-marked.
+    'L-1203': dict(en='if (standard and written; everyday «kalau»)', ja='もし〜なら（標準・書き言葉；日常は «kalau»）'),
+    'L-1204': dict(en='when (standard and written; everyday «bila»)', ja='〜するとき（標準・書き言葉；日常は «bila»）'),
+    'L-1206': dict(en='however (written; everyday «tetapi», spoken «tapi»)', ja='しかし（書き言葉；日常は «tetapi»、話し言葉は «tapi»）'),
+    'L-1207': dict(en='therefore (formal; everyday «jadi»)', ja='そのため（改まった語；日常は «jadi»）'),
+    'L-1210': dict(en='next, after that (formal; everyday «kemudian»)', ja='次に（改まった語；日常は «kemudian»）'),
 }
 
 
@@ -343,10 +357,10 @@ def turns(script):
 
 def load_units():
     from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, ms_c07, ms_c08, ms_c09, fast, stage1
-    from . import ms_c10a, ms_c10b, ms_c11a, ms_c11b, ms_c12a, ms_c12b, ms_c13
+    from . import ms_c10a, ms_c10b, ms_c11a, ms_c11b, ms_c12a, ms_c12b, ms_c13, ms_c14
     return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT,
                        ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT, ms_c06.UNIT, ms_c07.UNIT, ms_c08.UNIT, ms_c09.UNIT,
-                       *fast.PACKS, stage1.UNIT, ms_c10a.UNIT, ms_c10b.UNIT, ms_c11a.UNIT, ms_c11b.UNIT, ms_c12a.UNIT, ms_c12b.UNIT, ms_c13.UNIT, *fast.STAGE2_PACKS] if u]
+                       *fast.PACKS, stage1.UNIT, ms_c10a.UNIT, ms_c10b.UNIT, ms_c11a.UNIT, ms_c11b.UNIT, ms_c12a.UNIT, ms_c12b.UNIT, ms_c13.UNIT, ms_c14.UNIT, *fast.STAGE2_PACKS] if u]
 
 
 SKILLS = {'Opener': ['speaking'], 'Vocabulary': ['vocabulary'], 'Pattern and grammar': ['grammar'],
