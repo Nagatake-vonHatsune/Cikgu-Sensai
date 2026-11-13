@@ -780,9 +780,10 @@
    ]
   },
   {
-   "id": "tak-apa-everyday-form-passes",
-   "why": "«tak apa» has no standard partner (Sam, 13 Nov 2026); only the tak / tidak pair applies",
-   "expect": "pass",
+   "id": "tak-apa-before-tidak-mengapa-fails",
+   "why": "«tak apa» is a spoken form of «tidak mengapa» (chapter 17); Sam, 13 Nov 2026",
+   "expect": "fail",
+   "check": "register",
    "segments": [
     {
      "text": "tidak",
@@ -798,6 +799,44 @@
     {
      "text": "Tak apa, saya tunggu.",
      "chapter": 12
+    }
+   ]
+  },
+  {
+   "id": "tidak-mengapa-with-both-spoken-forms-passes",
+   "why": "«tidak mengapa» (spoken: «takpe» / «tak apa»), standard first",
+   "expect": "pass",
+   "segments": [
+    {
+     "text": "tidak mengapa",
+     "chapter": 17,
+     "kind": "vocabulary"
+    },
+    {
+     "text": "takpe / tak apa",
+     "chapter": 17,
+     "kind": "vocabulary",
+     "source_text": "«tidak mengapa» (spoken: «takpe» / «tak apa»)"
+    },
+    {
+     "text": "Takpe, saya tunggu.",
+     "chapter": 17
+    },
+    {
+     "text": "Tak apa, saya tunggu.",
+     "chapter": 17
+    }
+   ]
+  },
+  {
+   "id": "takpe-before-tidak-mengapa-fails",
+   "why": "«takpe» before its standard form",
+   "expect": "fail",
+   "check": "register",
+   "segments": [
+    {
+     "text": "Takpe, saya tunggu.",
+     "chapter": 17
     }
    ]
   },

@@ -11,7 +11,7 @@
     "whole_words": "List of {form, chapter, ledger_id, reason}. Lexicalised or allow-listed whole words that look affixed. Each is a whole word at its own chapter (equal to its ledger row's chapter); before that chapter the normal rules apply. Never a family exemption for any other word.",
     "ter_superlatives": "The chapter 6 lexical superlatives, whole words from chapter 6. They never open the accident ter- family.",
     "lookalike_roots": "Roots that only look affixed (beri, merah, mesti ...). Classification only: they do not create ledger rows or chapter placements. Sam's local additions also stay in curriculum/malay-roots.json, which must remain a subset of this list.",
-    "register_pairs": "List of {spoken, standard, from_chapter, decision}. In any unit whose chapter is from_chapter or later (and in unplaced units), the spoken form fails unless the standard form has been taught earlier in vocabulary or a model and the spoken form has been taught with an explicit 'spoken' label. Multi-word forms match as whole phrases. register_notes records spoken forms that deliberately have no standard partner.",
+    "register_pairs": "List of {spoken, standard, from_chapter, decision}. In any unit whose chapter is from_chapter or later (and in unplaced units), the spoken form fails unless the standard form has been taught earlier in vocabulary or a model and the spoken form has been taught with an explicit 'spoken' label. Multi-word forms match as whole phrases. register_notes records Sam's decisions on how a pair is presented.",
     "particles": "List of {form, decision, rule, not_particle}. Recognition particles: allowed in prompts and listening once placed, never required in a test answer key («lah» as a word or as an ending on a known form with no ledger row of its own, except the not_particle words; «kan» as a word). A key that must name the particle quotes it as a ‹…› mention.",
     "disallowed_forms": "Map form -> Malaysian form to use. Matched as whole words, also inside hyphenated words. Fails everywhere, including mentions, except inside a ‹…› mention whose source in curriculum/malay-mentions.json says 'do not use'."
   },
@@ -67,12 +67,14 @@
     {"spoken": "tapi", "standard": "tetapi", "from_chapter": 1, "decision": "Stage 1"},
     {"spoken": "macam mana", "standard": "bagaimana", "from_chapter": 1, "decision": "Stage 1"},
     {"spoken": "macam tu", "standard": "seperti itu", "from_chapter": 1, "decision": "Stage 1; R3"},
+    {"spoken": "tak apa", "standard": "tidak mengapa", "from_chapter": 10, "decision": "R3, amended by Sam 13 Nov 2026 (see register_notes)"},
+    {"spoken": "takpe", "standard": "tidak mengapa", "from_chapter": 1, "decision": "Sam 13 Nov 2026: slang short form of tak apa, taught as a marked spoken form of tidak mengapa"},
     {"spoken": "tak tahan", "standard": "tidak tahan", "from_chapter": 1, "decision": "R3"},
     {"spoken": "set", "standard": "setuju", "from_chapter": 1, "decision": "R3"},
     {"spoken": "kat", "standard": "di", "from_chapter": 1, "decision": "R3"}
   ],
   "register_notes": {
-    "tak apa": "No standard partner. Sam, 13 Nov 2026: «tidak mengapa» is not used; today Malaysians say «tak apa» (or the slang short form takpe). «tak apa» is the taught form (L-0940, its own chapter); the tak / tidak pair above still applies to it."
+    "tidak mengapa": "Sam, 13 Nov 2026: teach «tidak mengapa» with both spoken forms, shown as «tidak mengapa» (spoken: «takpe» / «tak apa»). The tak apa pair applies from chapter 10 because Stage 1 unit 5 already shows «tak apa» as Dunia recognition (L-0940, primes chapter 5). «takpe» needs a ledger row before content uses it."
   },
   "particles": [
     {"form": "lah", "decision": "R4", "rule": "Recognition; production optional; never required in a test answer key.", "not_particle": ["adalah", "masalah"], "not_particle_note": "Whole words that end in -lah on a known form but contain no particle (ada + lah, masa + lah are not their sources)."},

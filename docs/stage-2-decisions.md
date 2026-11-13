@@ -40,7 +40,7 @@ Audited total: **233 core words, 57 existing ledger rows and 176 new rows** (dra
 | --- | --- | --- | --- |
 | R1 | **Sam to confirm:** tracking number. (a) new «nombor penjejakan» as the written label, with L-0608 «nombor tracking» as the spoken form; or (b) L-0608 only, no new row | (a), if couriers really print «nombor penjejakan»; otherwise (b) | **(a)** |
 | R2 | «tarikh akhir» is core; L-0678 «deadline» is spoken recognition | Yes | Yes |
-| R3 | Spoken partners after the standard form: tidak mengapa / tak apa (existing L-0940), tidak tahan / tak tahan, setuju / set, seperti itu / macam tu, ini / ni, itu / tu, di / kat | Yes | Yes. **Amended 13 Nov 2026 (Sam, build step 2):** «tidak mengapa» is not used; «tak apa» (slang takpe) has no standard partner. See `docs/STAGE-2-step2-report.md` |
+| R3 | Spoken partners after the standard form: tidak mengapa / tak apa (existing L-0940), tidak tahan / tak tahan, setuju / set, seperti itu / macam tu, ini / ni, itu / tu, di / kat | Yes | Yes. **Amended 13 Nov 2026 (Sam, build step 2):** teach «tidak mengapa» (spoken: «takpe» / «tak apa»), covering all three. See `docs/STAGE-2-step2-report.md` |
 | R4 | «lah» and «kan»: learners understand them; producing them is optional and never required in a test | Yes | Yes |
 | R5 | Written connectors (jika, apabila, namun, oleh itu, seterusnya) taught beside their everyday partners (kalau, bila, tapi, jadi, lepas tu) | Yes | Yes |
 | R6 | «hidupkan» / «matikan» are taught; everyday «buka» / «tutup» for lights and aircon are noted | Yes | Yes |

@@ -32,7 +32,7 @@ class StageRulesFixtures(unittest.TestCase):
   ids={c['id'] for c in FIXTURES}
   for i in ['bercakap-9-fails','bercakap-10-passes','menulis-10B-fails','menulis-11A-passes','kan-suffix-11B-fails','kan-suffix-12A-passes',
             'tertinggal-15-fails','tertinggal-16-passes','whole-word-bekerja-10','whole-word-belajar-2','indonesian-berbicara-fails',
-            'indonesian-in-do-not-use-note-passes','spoken-before-standard-fails','termurah-does-not-unlock-terjatuh','lah-in-answer-key-fails']:
+            'indonesian-in-do-not-use-note-passes','spoken-before-standard-fails','tak-apa-before-tidak-mengapa-fails','tidak-mengapa-with-both-spoken-forms-passes','termurah-does-not-unlock-terjatuh','lah-in-answer-key-fails']:
    self.assertIn(i,ids)
 
 class StageRulesFile(unittest.TestCase):
@@ -59,9 +59,8 @@ class StageRulesFile(unittest.TestCase):
   for form in ['berbicara','perbaiki','musik','film','olahraga','apotek','kantor','mobil','uang']:self.assertIn(form,RULES['disallowed_forms'])
  def test_register_pairs(self):
   pairs={(p['spoken'],p['standard']) for p in RULES['register_pairs']}
-  # Sam, 13 Nov 2026: «tidak mengapa» is not used, so «tak apa» has no standard partner.
-  self.assertNotIn('tak apa',{p['spoken'] for p in RULES['register_pairs']})
-  for pair in [('tak tahan','tidak tahan'),('set','setuju'),('macam tu','seperti itu'),('ni','ini'),('tu','itu'),('kat','di')]:
+  # Sam, 13 Nov 2026: «tidak mengapa» (spoken: «takpe» / «tak apa»).
+  for pair in [('tak apa','tidak mengapa'),('takpe','tidak mengapa'),('tak tahan','tidak tahan'),('set','setuju'),('macam tu','seperti itu'),('ni','ini'),('tu','itu'),('kat','di')]:
    self.assertIn(pair,pairs)
   self.assertEqual({p['form'] for p in RULES['particles']},{'lah','kan'})
  def test_strict_placement(self):
