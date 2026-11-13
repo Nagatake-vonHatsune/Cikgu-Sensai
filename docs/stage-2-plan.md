@@ -80,7 +80,7 @@ Propose parallel A/B test versions, four sections of 20 marks, 48/80 overall and
 
 **Counting rule:** one ledger row is one core word. A taught surface form or fixed chunk is one row (as the ledger already does for «dibaca» L-0385, «menyimpan» L-0792 and «mengapa» L-1049); its family is recorded in the existing "Root (KD4)" and "Affix tag" columns. A root already taught is revision, not new.
 
-**In the ledger after build step 1: 233 core forms, 56 existing ledger rows and 177 new rows (L-1089 to L-1265)** (draft: 235 = 53 + 182; the audit gave 233; Sam added «bertolak»; build step 1 left L-0657 «tempat kerja» as revision, see the note under unit 10A). Every unit is between 19 and 24 new core words, inside the "typically 20 to 40" of charter section 6 (unit 15 is one under 20; see the decision brief). Each table row carries an Audit column: kept, changed (with why), added or moved; dropped forms are listed under each table. The four forms whose Malaysian usage I was not sure of were put to Sam and are marked "confirmed by Sam".
+**In the ledger now (build step 4 refresh, 13 Nov 2026): 240 core forms, 56 existing ledger rows and 184 new rows (L-1089 to L-1272).** After build step 1 the ledger held 233 (56 + 177, L-1089 to L-1265: draft 235 = 53 + 182; the audit gave 233; Sam added «bertolak»; build step 1 left L-0657 «tempat kerja» as revision, see the note under unit 10A). Sam then added seven rows during the Kata-Kata steps 3c and 3d: L-1266 «takpe» and L-1267 «tidak boleh tahan» (17), L-1268 «mendaftar» (13), L-1269 «tangguhkan» and L-1270 «batalkan» (14), L-1271 «memakai» and L-1272 «berwarna» (15) (L-1268 to L-1272: Journal row 184; L-1266 and L-1267: added by Sam before Kata-Kata c17 was built, see Kata-Kata `docs/STAGE-2-c11-c18-report.md` and `docs/STAGE-2-step3c-report.md`). Every unit is now between 20 and 25 new core words, inside the "typically 20 to 40" of charter section 6 (unit 15, one under 20 at the audit, now has 21). Each table row carries an Audit column: kept, changed (with why), added or moved; dropped forms are listed under each table. The four forms whose Malaysian usage I was not sure of were put to Sam and are marked "confirmed by Sam".
 
 | Unit | Draft core | Audited core | Existing rows | New rows |
 | --- | ---: | ---: | ---: | ---: |
@@ -90,12 +90,14 @@ Propose parallel A/B test versions, four sections of 20 marks, 48/80 overall and
 | [11B](#unit-11b) | 22 | 21 | 7 | 14 |
 | [12A](#unit-12a) | 22 | 23 | 7 | 16 |
 | [12B](#unit-12b) | 20 | 21 | 9 | 12 |
-| [13](#unit-13) | 23 | 24 | 8 | 16 |
-| [14](#unit-14) | 21 | 20 | 2 | 18 |
-| [15](#unit-15) | 21 | 19 | 3 | 16 |
+| [13](#unit-13) | 23 | 24 → **25** | 8 | 17 |
+| [14](#unit-14) | 21 | 20 → **22** | 2 | 20 |
+| [15](#unit-15) | 21 | 19 → **21** | 3 | 18 |
 | [16](#unit-16) | 24 | 23 | 6 | 17 |
-| [17](#unit-17) | 22 | 22 | 8 | 14 |
-| **Total** | **235** | **233** | **56** | **177** |
+| [17](#unit-17) | 22 | 22 → **24** | 8 | 16 |
+| **Total** | **235** | **233 → 240** | **56** | **184** |
+
+The arrows show the seven rows added after the audit (build step 4 refresh); the New rows column is the count now.
 
 **What the audit checked for every form:** Malaysian standard as in Kamus Dewan, never Indonesian (no Indonesian form was found; the Malaysian choices are noted where an Indonesian one exists); the everyday Malaysian sense; the register (formal or written forms are paired with their everyday partner); real need for a Japanese working adult in Malaysia at A2; spelling of every ber-, meN-, -kan, -i and ter- form (all correct; nasal changes listed in the notes); the chapter gate (no form arrives before its affix opens); and duplicates against all 1,088 ledger rows, including L-1084 to L-1088 and the rows the Kata-Kata clean-up touched (no exact duplicate; one near-duplicate, «sehingga» beside L-1086 «hingga», dropped; two "new" forms, «berpindah» and «menukar», are the standard forms the ledger already names in L-0667 and L-0604, so they are linked to them). All 53 existing IDs the draft cited exist with the stated headword, meaning and band, and none is placed in a chapter yet.
 
@@ -297,7 +299,7 @@ Not core after the audit: ~~menyapu~~ (dropped: low need for this learner; s →
 | daftar | To register | 登録する、受付をする | L-0648 (existing) | added: registering at the clinic counter (clinic_registration scene) |
 | cuti sakit | sick leave | 病気休暇 | NEW | added · confirmed by Sam (13 Nov): spoken «MC» is used seven times in clinic_visit; propose «MC» as its marked spoken form |
 
-**Unit 13: 24 core forms (8 existing rows, 16 new).**
+**Unit 13: 24 core forms (8 existing rows, 16 new).** Now **25** (17 new): Sam added L-1268 «mendaftar» (Journal row 184; build step 4 refresh).
 Not core after the audit: ~~larangan~~ (dropped: «dilarang» (Ch9) already covers notices; the noun adds little at A2); ~~risiko~~ (dropped: abstract, low need for the permission and advice functions).
 
 ### Unit 14
@@ -325,7 +327,7 @@ Not core after the audit: ~~larangan~~ (dropped: «dilarang» (Ch9) already cove
 | janji | A promise; to promise | 約束（する） | L-0710 (existing) | added |
 | batal | to cancel; cancelled | 取り消す・中止になる | NEW | added: «dibatalkan» on notices; spoken loan «cancel» noted |
 
-**Unit 14: 20 core forms (2 existing rows, 18 new).**
+**Unit 14: 20 core forms (2 existing rows, 18 new).** Now **22** (20 new): Sam added L-1269 «tangguhkan» and L-1270 «batalkan» (Journal row 184).
 Not core after the audit: ~~sehingga~~ (dropped: duplicates L-1086 «hingga» (until, Ch9); shown as a ‹sehingga› mention beside it); ~~selagi~~ (dropped: B1 level; «kalau» covers the A2 need); ~~sebaliknya~~ (dropped: B1 level; not needed for the five A2 functions); ~~alasan~~ (dropped: reads as "excuse" and can sound accusatory («Apa alasan awak?»); «sebab» (L-0688) already means "reason").
 
 ### Unit 15
@@ -352,7 +354,7 @@ Not core after the audit: ~~sehingga~~ (dropped: duplicates L-1086 «hingga» (u
 | barang | thing(s); belongings | 物・持ち物 | NEW | added: «barang hilang» (lost property) |
 | jenama | brand | ブランド・銘柄 | NEW | added |
 
-**Unit 15: 19 core forms (3 existing rows, 16 new).**
+**Unit 15: 19 core forms (3 existing rows, 16 new).** Now **21** (18 new): Sam added L-1271 «memakai» and L-1272 «berwarna» (Journal row 184).
 Not core after the audit: ~~berbintik~~ (dropped: low need; natural form is reduplicated ‹berbintik-bintik› (Stage 3)); ~~berzip~~ (dropped: the chapter target «beg yang ada zip» says the same thing with yang); ~~berlengan~~ (dropped: everyday «baju lengan panjang» uses «lengan» (L-0977, Dunia) without ber-); ~~pemegang~~ (dropped: low need for lost-item and person descriptions); ~~tanda harga~~ (dropped: no use in the chapter 15 scenes; stays unplaced); ~~segi tiga~~ (dropped: low need; «bulat» and «segi empat» cover bags and boxes); ~~jalur~~ (dropped: «berjalur» covers it).
 
 ### Unit 16
@@ -413,7 +415,7 @@ Not core after the audit: ~~kecederaan~~ (dropped: formal noun; «tercedera» an
 | tu | that (spoken, standard itu) | それ・その（話し言葉） | NEW; spoken | kept: spoken; standard «itu» |
 | jemputan | invitation | 招待・招待状 | NEW | added · confirmed by Sam (13 Nov): replaces pelawaan |
 
-**Unit 17: 22 core forms (8 existing rows, 14 new).**
+**Unit 17: 22 core forms (8 existing rows, 14 new).** Now **24** (16 new): Sam added L-1266 «takpe» (marked spoken) and L-1267 «tidak boleh tahan» (added by Sam during Kata-Kata step 3; see Kata-Kata `docs/STAGE-2-c11-c18-report.md` and `docs/STAGE-2-step3c-report.md`).
 Not core after the audit: ~~pelawaan~~ (replaced by «jemputan» (invitation; «kad jemputan»), the everyday noun; root «jemput» L-0541 is Stage 1 recognition).
 
 ### Chapter 18: no new core list
@@ -436,7 +438,7 @@ These are deliberately outside the new-core totals. A teacher may activate recog
 | 17 | tidak/tak L-0030; mahu/nak L-0213; sudah/dah L-0193; sedikit/sikit L-0216; sahaja/saja L-1000; tetapi/tapi L-0215; macam mana L-0211; pun L-0983; jom L-0075; jemput L-0541; betul ke? L-0944; tak apa L-0940; macam L-0930 | These spoken forms and chunks are systematised, not counted new. ni/tu are NEW rows even though the register checker already names them. Other regional forms are excluded. |
 | 18 | All earlier chapters as required by the item map | No vocabulary inflation to meet a teaching-unit minimum. |
 
-**Core totals by chapter in the ledger (build step 1):** 10 = 40; 11 = 41; 12 = 44; 13 = 24; 14 = 20; 15 = 19; 16 = 23; 17 = 22; 18 = 0. Total 233 (draft 235). New-to-course recognition (existing rows, never tested as new core): L-0667 «pindah» (10), L-0604 «tukar» and L-0678 «deadline» (11), L-0608 «nombor tracking» (12). Revision counts will follow actual scene usage, not an invented total before authoring.
+**Core totals by chapter in the ledger (build step 4 refresh, 13 Nov 2026):** 10 = 40; 11 = 41; 12 = 44; 13 = 25; 14 = 22; 15 = 21; 16 = 23; 17 = 24; 18 = 0. Total 240 (build step 1: 233, with 13 = 24, 14 = 20, 15 = 19, 17 = 22; draft 235). New-to-course recognition (existing rows, never tested as new core): L-0667 «pindah» (10), L-0604 «tukar» and L-0678 «deadline» (11), L-0608 «nombor tracking» (12). Revision counts will follow actual scene usage, not an invented total before authoring.
 
 ### Existing parcel pack: move and re-author, not relabel
 
@@ -691,10 +693,14 @@ Claude wrote the approved rows to the ledger sheet and regenerated both Cikgu Se
 - **Journal rows 130 to 132:** Sam's answers. **Rows 133 to 145:** the changes below.
 - **New rows L-1089 to L-1265 (177):** Ch10 L-1089 to L-1122, Ch11 L-1123 to L-1156, Ch12 L-1157 to L-1184, Ch13 L-1185 to L-1200, Ch14 L-1201 to L-1218, Ch15 L-1219 to L-1234, Ch16 L-1235 to L-1251, Ch17 L-1252 to L-1265. All Draft, KD4 check "Not yet checked", Action "KD4 check", place "ChN (unit X)", root in "Root (KD4)", affix family in "Affix tag".
 - **Existing rows placed:** 56 as core (place "ChN (unit X); Jambatan · …"), and L-0604, L-0608, L-0667, L-0678 as recognition. L-0623 narrowed to "Handbag" (Hanashishou keeps hand luggage in its own column).
-- **One exception, for Sam to confirm:** L-0657 «tempat kerja» was not placed (see unit 10A), so the ledger holds 233 Stage 2 core forms (56 + 177).
+- **One exception, for Sam to confirm:** L-0657 «tempat kerja» was not placed (see unit 10A), so the ledger holds 233 Stage 2 core forms (56 + 177). (240 since the build step 4 refresh: see section 2.)
 - **Knock-on fixes the build required:** six lines of the legacy chapter 12 pack "Ambil bungkusan di lobi" no longer use «ni», «jadi», «perlu» or «macam tu» before their chapters (the review record `curriculum/malay-text-scope.json` and the two legacy-content tests list exactly those edits); «Bernama» and English «label» were added to the English homographs, since both are now ledger forms.
 - Each batch was read back from the sheet and compared cell by cell with the plan: no other cell changed.
 
 ## Build step 2: stage-aware checks (13 Nov 2026)
 
 Section 3's "Required implementation" is built: gates, whole words, register pairs, particles and disallowed forms are in `curriculum/stage-rules.json`, shared with Kata-Kata, with 69 shared cases in `curriculum/stage-rules-fixtures.json`. Stage 1 results are unchanged. Sam's answers to its three points (13 Nov 2026): «tidak mengapa» is taught as «tidak mengapa» (spoken: «takpe» / «tak apa»), with «takpe» awaiting a ledger row; the disallowed forms and the stative ter- rule are confirmed. Report: [`docs/STAGE-2-step2-report.md`](STAGE-2-step2-report.md).
+
+## Build step 4: refresh and chapter 10 (13 Nov 2026)
+
+`curriculum/reference/katakata/` now holds c01 to c18 and the ledger copy from Kata-Kata 7fbe173 (c01 to c09 unchanged). The ledger has **240 Stage 2 core rows** (56 existing + 184 new, L-1089 to L-1272): the 233 of build step 1 plus L-1266 «takpe», L-1267 «tidak boleh tahan» (17), L-1268 «mendaftar» (13), L-1269 «tangguhkan», L-1270 «batalkan» (14), L-1271 «memakai», L-1272 «berwarna» (15). Chapter 10 (40 core) is unchanged. Report: [`docs/STAGE-2-ch10-report.md`](STAGE-2-ch10-report.md).

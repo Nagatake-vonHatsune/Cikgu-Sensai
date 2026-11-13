@@ -70,12 +70,13 @@ class LanguageChecksTests(unittest.TestCase):
    ('Oh, jadi kotak saya belum ada?|Tunggu dulu. Ada satu lagi dekat pintu.','Oh, kotak saya belum ada?|Tunggu dulu. Ada satu lagi dekat pintu.'),
    ('Betul, itu nama saya. Perlu tunjuk apa?|Boleh tunjuk mesej dari kedai?','Betul, itu nama saya. Encik mahu tengok apa?|Boleh tunjuk mesej dari kedai?'),
    ('Ya. Di mana saya perlu tulis nama?|Di sini. Semak kotak dulu.','Ya. Di mana saya tulis nama?|Di sini. Semak kotak dulu.')])
-  # The Kata-Kata chapter files are no longer the 0f78179 baseline: they were refreshed to Kata-Kata
-  # 34710c6 (the end of the 12 Nov 2026 clean-up) and are edited only by copying them from there.
+  # The Kata-Kata chapter files are no longer the 0f78179 baseline: c01 to c09 were refreshed to Kata-Kata
+  # 34710c6 (the end of the 12 Nov 2026 clean-up), and c01 to c18 are pinned at Kata-Kata 7fbe173 (Stage 2 build
+  # step 4; c01 to c09 unchanged). They are edited only by copying them from Kata-Kata.
   # Pinned in docs/step4-sources.json; no Cikgu Sensai edit may change them.
   sources=json.loads((ROOT/'docs/step4-sources.json').read_text())
-  self.assertEqual(sources['kata_kata_commit'],'34710c6')
-  for i in range(1,10):
+  self.assertEqual(sources['kata_kata_commit'],'7fbe173')
+  for i in range(1,19):
    name='c%02d.json'%i
    self.assertEqual(hashlib.sha256((ROOT/'curriculum/reference/katakata'/name).read_bytes()).hexdigest(),sources['kata_kata_chapter_sha256']['content/ms/kelas/'+name],name)
   original=subprocess.check_output(['git','show','c067e225eabe51e3bfc7020bd2800f9bdaf5a5b4:curriculum/foundation-guided.txt'],cwd=ROOT,text=True).splitlines()

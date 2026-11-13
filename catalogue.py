@@ -92,7 +92,7 @@ def make_catalogue(lessons, groups):
             'recycled_items':{'word_ids':[],'pattern_ids':[], 'status':'not yet selected',
                 'planned_pattern_returns':[{'pattern_id':f['id'],'destinations':[f'ms-c{k:02}' for k in (n+1,n+3) if k<=9]+['ms-stage1-review']} for f in p['frames']]},
             'scene_ids':[f'scene-a1-ms-origin-{n:02}'],'kata_kata_set':{'pack_id':p['id'],'sedia_kelas':p['sedia_kelas'],
-                'source_url':f'https://github.com/Nagatake-vonHatsune/katakata/blob/34710c6a766c63278610864c46db87d78194dc05/content/ms/kelas/c{n:02}.json'},
+                'source_url':f'https://github.com/Nagatake-vonHatsune/katakata/blob/7fbe1732a6d85d421fda8d607c61efb2d0784092/content/ms/kelas/c{n:02}.json'},
             'hanashishou_scene_ids':[], 'self_study_hours':{'full':3*len(units),'fast':[9,10],'status':'provisional planning estimate'},
             'review_status':'draft','sequence':'stage1','stage_id':'ms-stage1',
             'prerequisites':[f'ms-c{k:02}' for k in range(1,n)] if n<=2 else [],

@@ -488,7 +488,7 @@ class KataKataCleanup(unittest.TestCase):
     def test_no_open_kata_kata_action_is_left(self):
         import re
         rows = self.rows()
-        self.assertEqual(len(rows), 1265)  # L-0001 to L-1088 (Stage 1) and L-1089 to L-1265 (Stage 2 build step 1, Sam approved 13 Nov 2026)
+        self.assertEqual(len(rows), 1272)  # L-0001 to L-1088 (Stage 1), L-1089 to L-1265 (Stage 2 build step 1, Sam approved 13 Nov 2026), L-1266 to L-1272 (takpe, tidak boleh tahan, mendaftar, tangguhkan, batalkan, memakai, berwarna; Sam, synced from Kata-Kata 7fbe173)
         self.assertEqual([r['ID'] for r in rows if 'kata-kata' in r['Action (open)'].lower()], [])
         # Every remaining open action is one of the known kinds; a new kind (for example "Add ... card" without the words
         # Kata-Kata) fails here and has to be looked at.
@@ -506,7 +506,8 @@ class KataKataCleanup(unittest.TestCase):
         rows = {r['ID']: r for r in self.rows()}
         new = re.findall(r'^\| (L-\d{4}) \|', doc, re.M)
         self.assertEqual(len(new), 112)  # the brief's "New cards" tables
-        cards = {c['id'] for n in range(1, 10)
+        # Every pinned chapter file (c01 to c18 since the Stage 2 build step 4 refresh).
+        cards = {c['id'] for n in range(1, 19)
                  for c in json.loads((ROOT / f'curriculum/reference/katakata/c{n:02}.json').read_text())['cards']}
         for lid in new:
             ids = [x.strip() for x in rows[lid]['Kata-Kata (card IDs)'].split(',') if x.strip()]
