@@ -11,7 +11,7 @@ Do these together, after the Kata-Kata sync that brings in the ledger change, in
 
 ## Word proposals backlog (not in the ledger; Sam approves in one batch after chapter 17)
 
-Collected from every chapter. Builders rewrote the lines instead and added no rows. Sam will approve (or drop) them together after chapter 17; then a ledger session adds the approved rows.
+Collected from every chapter. Builders rewrote the lines instead and added no rows. Sam will approve (or drop) them together after chapter 17; then a ledger session adds the approved rows. **The full table with a recommendation for every word (Claude's or Sam's) is at the end of `docs/STAGE-2-ch17-report.md`, ready for one approval.**
 
 | Proposed form | Chapter | Why it came up |
 | --- | --- | --- |
@@ -41,8 +41,31 @@ Collected from every chapter. Builders rewrote the lines instead and added no ro
 | «berlaku» (to happen) | 16 | "what happened" in a report or a clinic form; the form says «Sebab: tergelincir di tangga.» |
 | «masalah» (problem) | 16 (**recommended**, Sam 13 Nov) | «Ada masalah?» asked of a late colleague; the unit says «Kenapa?» |
 | «pinjam» (to borrow) | 16 | «Pemandu teksi pinjamkan telefon …»; the unit says «Pemandu teksi menelefon pejabat untuk saya» |
+| «balas» (to reply) | 17 | «Sila balas sebelum hari Rabu.» on a written invitation; the unit says «Sila hubungi Puan Aini.» |
+| «minggu depan» (next week) | 17 | «Saya belanja minggu depan.»; the unit says «Lain kali saya belanja.» |
+| «giliran» (turn) | 17 | «Lain kali, giliran Mei Ling belanja.»; the unit says «Lain kali, Mei Ling belanja pula, ya?» |
+| «ikut» (to come along) | 17 (again) | the chapter 17 invitations ask for it a second time; the unit says «datang» and «singgah» |
 
-## Latest session: Stage 2 build step 4, chapter 15 fix and chapter 16 (13 Nov 2026, Claude)
+## Latest session: Stage 2 build step 4, chapter 16 fixes and chapter 17 (13 Nov 2026, Claude)
+
+- **Authorised:** Sam (build step 4, chapter 17 instruction, 13 Nov 2026): the chapter 16 fixes in their own commit, then the chapter 17 suite; push to main when the checks pass; **stop after chapter 17 for Claude's review** before the clean-up pass and chapter 18. Started at `680d4bd`. Report: `docs/STAGE-2-ch17-report.md` (it ends with the full word proposals backlog as one table).
+- **Fixes (`d5e3958`):** «terjatuh ke», no «sudah» or «sedang» before an accident ter- verb in the aspect drill, Mei Ling in Block C unit 5-2, «yang» before a superlative after a noun, and **no turn joined across a scene change**: the chapter 16 model is s01 to s11 and the clinic scene is the Block E dialogue (optional `scene_e` key in `suite/chapter10_common.py`, shown in the teaching plan). Sam's answers are in `docs/stage-2-decisions.md` section 13.
+- **Chapter 17 (`5e62076`):** unit 17 (the office dinner invitation moved to Friday, the café that is too spicy, the mamak: 24 core words, no recognition word) and the chapter 17 fast pack (all 24 core words): 5 blocks = 3.75 h, plus 1 fast block. The plan gives chapter 17 **no review or writing block**, so none was built. In `curriculum/reauthored-units.json` with zero gaps and zero violations. Build: 542 packs, 3,335 pages, still 20 violations and 199 gaps (none in chapter 17). **295 tests** pass (17 new in `tests/test_stage2_ch17.py`).
+- **Waiting for:** Claude's review of chapter 17; Sam's answers to the eight questions at the end of the report and the 12 native-read lines; Sam's approval of the word proposals backlog (one table at the end of the report); then the clean-up pass (list at the top of this file) and chapter 18.
+- **Next:** after the review, the Stage 2 clean-up pass (the «tandatangan» change and the disallowed-form rule), the word proposals batch (a ledger session), and chapter 18 (the integrated review, rehearsal and A2 check; no new word; Kata-Kata c18 is already in the snapshot).
+- **Environment note:** `build.py` needs `pymupdf`, `fonttools`, `brotli` and `fonts-noto-cjk` (apt; run `apt-get update` first), and a full Git checkout (`git fetch --unshallow`). **`build.py` now releases `insert_htmlbox` memory** (scratch document replaced every 100 fit checks, PDF document reopened every 300 pages); before that the build grew to about 14 GB past 3,300 pages and was killed (exit 137). The output is unchanged.
+
+### What chapter 17 added to the template below
+
+- A **single-unit chapter with no extra block** is the chapter 13 pattern: `label='17'`, `unit_id='ms-c17'`, `extra=None`, menu entry `("…", "Invitations", [("17", [])])`. Chapter 17 has no review or writing block.
+- **Standard first, spoken labelled:** the register check reads the order of the components. A spoken form (`takpe`, `tak apa`, `tak tahan`, `set`, `kat`, `ni`, `tu`, `macam tu`) must not appear in «…» in the Opener or the goals (the vocabulary and the model come later); put "spoken" in the vocabulary line of the first occurrence, standard entry before spoken entry. A ledger meaning that contains a Malay form (L-1252, L-1261 to L-1267) needs a `GLOSS` entry for the fast-pack word list.
+- **«lah» and «kan»:** never in a key or a task card or a test answer (including the teacher-read line inside a listening test item: choose items whose lines have no «kan» or joined «-lah»). A key that must name them quotes ‹lah› and ‹kan› as mentions (now in `malay-mentions.json`). The unit test strips ‹…› before it looks for them.
+- **Kata-Kata lines with inner «…»** (s13, s15) are shown with ‘…’; a test compares the lines after that change.
+- **Scene changes:** the 16-turn model takes the first 16 scenario lines and the rest go in `scene_e`; never join turns across a scene change (Sam, 13 Nov).
+- **English prose:** «mamak» is in `ENGLISH_HOMOGRAPHS`; «nasi lemak» is marked.
+- **A word that is not in the ledger:** «kat mana» fails (the ledger has «di mana» only); use «kat» with a noun.
+
+## Previous session: Stage 2 build step 4, chapter 15 fix and chapter 16 (13 Nov 2026, Claude)
 
 - **Authorised:** Sam (build step 4, chapter 16 instruction, 13 Nov 2026): one chapter 15 fix and Sam's chapter 15 answers in their own commit, then the chapter 16 suite; push to main when the checks pass; **stop after chapter 16 for Claude's review** before chapter 17. Started at `e83eaca`. Report: `docs/STAGE-2-ch16-report.md`.
 - **Fix (`7389195`):** the review block line is now «Walaupun saya sibuk, saya akan menunggu doktor di sini.»; Sam's six chapter 15 answers are in `docs/stage-2-decisions.md` section 12 (join of s11 and s12, f01 and f03 merged, fast packs hold all core words from now on, «ciri» common and «ciri-ciri» a mention only, review setting and menu names fine, «kakitangan» and «bola» **approved by Sam** on the backlog). 258 tests passed on that commit.
