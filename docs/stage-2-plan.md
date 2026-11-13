@@ -708,3 +708,7 @@ Section 3's "Required implementation" is built: gates, whole words, register pai
 ## Build step 4: chapter 11 (13 Nov 2026)
 
 Units 11A (20 core) and 11B (21 core, plus «tukar» and «deadline» to recognise) are built, with the review block after 11B (Review 1) and the chapter 11 fast pack. The plan gives chapter 11 a review block and no writing block, so no writing block was built (question 1 in the report). Sam's answers to the chapter 10 questions are in [`docs/stage-2-decisions.md`](stage-2-decisions.md) section 7. Report: [`docs/STAGE-2-ch11-report.md`](STAGE-2-ch11-report.md).
+
+## Build step 4: chapter 12 (13 Nov 2026)
+
+Units 12A (23 core, plus «nombor tracking» to recognise) and 12B (21 core) are built, with the writing block after 12A, the review block after 12B (Review 2) and the chapter 12 fast pack. Sam's answers to the chapter 11 questions are in [`docs/stage-2-decisions.md`](stage-2-decisions.md) section 8. The old placeholder «Ambil bungkusan di lobi» is still listed as a "future" Chapter 12 beside the new chapter (see the chapter 12 report).

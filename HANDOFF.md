@@ -22,9 +22,30 @@ Collected from every chapter. Builders rewrote the lines instead and added no ro
 | the di- partners «disemak», «disimpan», «dipesan», «dipilih», «dipinjam», «dikira», «diisi» | 11 | passive of the 11B verbs; the ledger has di- rows only for the chapter 9 list |
 | «menyapu» (to sweep) | 11 | the s → ny trap; quoted only as a ‹menyapu› mention |
 | «kolam renang», «taman», «seminggu», «penuh», «bersukan», «hidup» | 10 | recorded in `docs/STAGE-2-ch10-report.md` (word proposals) |
-| (chapter 12 proposals are added below as the unit files are written) | 12 | |
+| «salinan» (copy) | 12 | review block: «simpankan salinan di pejabat» (rewritten to «simpankan borang itu») |
+| «sejak» (since) | 12 | «Sejak semalam» for when a leak started (rewritten to «Bila kebocoran itu bermula?» / «Malam tadi.») |
+| «melapor» / «melaporkan» (to report) | 12 | Hanashishou band 2 uses «melaporkan kebocoran»; the unit says «Ada kebocoran di … saya.» |
+| the meN-…-kan partners «menyimpankan», «menghantarkan», «membawakan» and the di- partners «dihubungi», «dibaiki» | 12 | the plan allows meN-…-kan from chapter 12 but the ledger has only «membaiki» and «menghubungi»; the units use the bare ‹-kan› verb after a pronoun («Saya simpankan …», as in Kata-Kata s08) |
 
-## Latest session: Stage 2 build step 4, chapter 10 fix and chapter 11 (13 Nov 2026, Claude)
+## Latest session: Stage 2 build step 4, chapter 11 fixes and chapter 12 (13 Nov 2026, Claude)
+
+- **Authorised:** Sam (build step 4, chapter 12 instruction, 13 Nov 2026): the chapter 11 fixes in their own commit, then units 12A and 12B; push to main when the checks pass; **stop after chapter 12 for Claude's review** before chapter 13. Started at `839ea18`. Report: `docs/STAGE-2-ch12-report.md`.
+- **Chapter 11 fixes (`76964a3`):** 11A pattern 2 «Siapa yang membaca emel itu?»; 11A model conversation «Encik Tanaka yang membeli kopi itu.» (the question before it is now «Siapa yang membeli kopi itu?»; teacher note: focus with «yang» in speech, di- … oleh for drills and written notices); «dari atas meja»; 11B listening «Seratus ringgit untuk satu hari.» (the revision word «setiap» was dropped from 11B). Sam's seven answers are in `docs/stage-2-decisions.md` section 8. «tandatangan» and the word-proposals backlog are in the two lists below.
+- **Chapter 12 (the commit after `76964a3`):** unit 12A (parcels at the guardhouse, ‹-kan› requests: 23 core + «nombor tracking» to recognise), unit 12B (the ceiling leak, ‹-i› and more ‹-kan›: 21 core), the **writing block after 12A**, the **review block after 12B** (the plan's Review 2; your brief named the writing block only: see question 1 in the report) and the chapter 12 fast pack: 12 blocks = 9 h, plus 1 fast block. All three are in `curriculum/reauthored-units.json` with zero gaps and zero violations. Build: 450 packs, 2,797 pages, still 22 violations and 203 gaps (none in chapter 12). **207 tests** pass (14 new in `tests/test_stage2_ch12.py`).
+- **Waiting for:** Claude's review of chapter 12; Sam's answers to the questions at the end of the report and the 12 native-read lines.
+- **Next:** after the review, chapter 13 (negation, permission and advice in health situations; Kata-Kata c13 is already in the snapshot) with the template note below.
+- **Environment note:** `build.py` needs `pymupdf`, `fonttools`, `brotli` and `fonts-noto-cjk` (apt; run `apt-get update` first), and a full Git checkout.
+
+### What chapter 12 added to the template below
+
+- A unit can have **one recognition word in 12A and none in 12B**; speaker labels must be English («Guard», «Office») because «pengawal» and «pejabat» are ledger words and an unmarked Malay speaker label stops the build.
+- A suffix is shown with ‹-kan›, ‹-i›, ‹pe-›, ‹ke-an›, ‹-an› (all in `curriculum/malay-mentions.json`); a root that is a ledger word placed by the chapter is «root», otherwise ‹root› with a sourced mention (new: ‹beri›, ‹tunjuk›, ‹pasti›, ‹kawal›, ‹milik›, ‹jejak›, ‹hubung›, ‹bocor›, ‹hidup›, ‹mati›, ‹adu›, ‹kepada›, ‹sih›). A bare ledger form such as «mana» or «pondok» is a ledger gap: write «di mana», «pondok pengawal».
+- Test-item `words` must be ledger headwords («borang», «aduan», not «borang aduan»). English prose uses "slot" (added to `ENGLISH_HOMOGRAPHS`); ledger meanings that contain Malay need a `GLOSS` entry (done for L-1179 and L-1180).
+- A word in the starred wrong form that has two parts fails the unmarked-Malay check; describe it in words («a に-word such as «dengan»»).
+- `ROOTS` for a suffix unit holds `(root, where, where_ja, what the suffix adds, in Japanese)`.
+- The old "future" placeholder «Ambil bungkusan di lobi» is still listed as Chapter 12 beside the new chapter 12 (retiring it changes the legacy exceptions, which may only shrink): decision for Sam, see the report.
+
+## Previous session: Stage 2 build step 4, chapter 10 fix and chapter 11 (13 Nov 2026, Claude)
 
 - **Authorised:** Sam (build step 4, chapter 11 instruction, 13 Nov 2026): one chapter 10 fix, then units 11A and 11B; push to main when the checks pass; **stop after chapter 11 for Claude's review** before chapter 12. Started at `8ada95c`. Report: `docs/STAGE-2-ch11-report.md`.
 - **Chapter 10 fix (`0853da9`):** 10A pattern 3 is now «Tidak juga. Saya lebih suka berbasikal.» (Sam: «Tidak sangat» is not natural). Sam's six answers to the chapter 10 questions are in `docs/stage-2-decisions.md` section 7: Japanese and English explanations only; the fast pack and writing block belong with each chapter; «Belum.» confirmed; «berminat untuk» + a verb stays the taught pattern (a noun waits for chapter 18); Hanashishou links are named only until step 6; `ms-stage2-<name>` ids are fine. No word proposals from chapter 10 were added.

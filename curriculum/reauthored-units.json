@@ -27,5 +27,8 @@
   "ms-c10-fast",
   "ms-c11a",
   "ms-c11b",
-  "ms-c11-fast"
+  "ms-c11-fast",
+  "ms-c12a",
+  "ms-c12b",
+  "ms-c12-fast"
 ]

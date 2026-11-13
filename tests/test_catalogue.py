@@ -71,13 +71,13 @@ class CatalogueTests(unittest.TestCase):
         import csv, io
         self.assertEqual(list(csv.reader(io.StringIO(ledger.read_text()))),list(csv.reader(io.StringIO((ROOT/'docs/handoff/ledger-snapshot.csv').read_text()))))
     def test_structure(self):
-        # Stage 1: 9 chapters, 13 units; Stage 2 build step 4 adds chapter 10 (units 10A and 10B) and chapter 11 (units 11A and 11B).
-        d=self.data;self.assertEqual(len(d['chapters']),11)
-        self.assertEqual(sum(len(c['units']) for c in d['chapters']),17)
-        self.assertEqual(sum(len(c['block_plan']) for c in d['chapters']),85)
-        self.assertEqual(len(d['component_slots']),187)
-        self.assertEqual([c['level'] for c in d['chapters']],['A1']*9+['A2']*2)
-        self.assertEqual([c['stage_id'] for c in d['chapters']],['ms-stage1']*9+['ms-stage2']*2)
+        # Stage 1: 9 chapters, 13 units; Stage 2 build step 4 adds chapter 10 (units 10A and 10B) chapter 11 (units 11A and 11B) and chapter 12 (units 12A and 12B).
+        d=self.data;self.assertEqual(len(d['chapters']),12)
+        self.assertEqual(sum(len(c['units']) for c in d['chapters']),19)
+        self.assertEqual(sum(len(c['block_plan']) for c in d['chapters']),95)
+        self.assertEqual(len(d['component_slots']),209)
+        self.assertEqual([c['level'] for c in d['chapters']],['A1']*9+['A2']*3)
+        self.assertEqual([c['stage_id'] for c in d['chapters']],['ms-stage1']*9+['ms-stage2']*3)
         self.assertEqual(len({c['id'] for c in d['components']}),len(d['components']))
         for c in d['chapters']:
             for b in c['block_plan']:self.assertEqual(sum(a['minutes'] for a in b['activities']),45)

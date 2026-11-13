@@ -857,3 +857,93 @@ STAGE2_PACKS.append(dict(
     course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 11)], prerequisite_units=[],
     prereq_grammar=['ms-c09-g02', 'ms-c04-g06', 'ms-c10-g02'],
     word_scope=C11_WORDS, components=chapter11))
+
+
+C12_WORDS = ['L-1157', 'L-1158', 'L-1159', 'L-1161', 'L-1162', 'L-1164', 'L-1167', 'L-0595', 'L-0658', 'L-0654',
+             'L-1168', 'L-1172', 'L-0651', 'L-0649', 'L-0652', 'L-1174', 'L-1175', 'L-1180', 'L-1181', 'L-0655']
+
+
+def chapter12(ledger):
+    dialogue = [
+        ('Tanaka', '«Selamat petang. Saya mahu ambil bungkusan. Sudah sampai?»'),
+        ('Guard', '«Sudah, encik. Unit berapa?»'),
+        ('Tanaka', '«Blok B, unit 12-3.»'),
+        ('Guard', '«Ada dua bungkusan. Boleh tunjukkan mesej itu?»'),
+        ('Tanaka', '«Boleh. Nombor penjejakan ada dalam mesej ini.»'),
+        ('Guard', '«Bungkusan kecil itu bukan untuk encik. Label ini koyak.»'),
+        ('Tanaka', '«Oh, bukan untuk saya. Tolong simpankan bungkusan kecil itu di pondok pengawal.»'),
+        ('Guard', '«Baik, encik.»'),
+        ('Tanaka', '«Selamat pagi. Ada kebocoran di siling bilik air saya.»'),
+        ('Office', '«Tolong matikan lampu itu dulu. Kami akan menghubungi juruteknik.»'),
+        ('Tanaka', '«Baik, saya matikan lampu itu sekarang. Bila juruteknik boleh datang?»'),
+        ('Office', '«Ada slot petang ini, pukul tiga. Boleh?»'),
+        ('Tanaka', '«Boleh. Tolong hubungi saya sebelum juruteknik sampai.»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=['ms-c12-g02', 'ms-c12-g03', 'ms-c12-g04', 'ms-c12-g05', 'ms-c12-g06', 'ms-c12-g07', 'ms-c12-g08'],
+        patterns=['ms-c12-f01', 'ms-c12-f02', 'ms-c12-f03', 'ms-c12-f04', 'ms-c12-f05', 'ms-c12-f06'],
+        goal='Ask for a favour with a -kan verb, collect a parcel, and report a leak and ask for a repair.',
+        explain=('第12章速習：45分で基本の20語、‹-kan› と ‹-i› の動詞（語根・接尾辞の働き・つづり）、依頼 «Tolong simpankan …»、荷物の受け取り、水漏れの連絡 «Ada kebocoran di … saya» を練習し、'
+                 '残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 12 in one 45-minute session: 20 core words, the ‹-kan› and ‹-i› verbs (the root, what the suffix adds and the spelling), the request «Tolong simpankan …», '
+                 'collecting a parcel and reporting a leak; then self-study in Kata-Kata. All names and details are fictional.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can ask a guard to keep, bring or show something with a ‹-kan› verb. / ‹-kan› の動詞で守衛さんに預かる・持ってくる・見せるよう頼める。',
+                'I can collect a parcel and read a parcel label. / 荷物を受け取り、荷物のラベルを読める。',
+                'I can report a leak to the management office. / 管理事務所に水漏れを連絡できる。',
+                'I can ask the office to contact me and say that a technician is repairing something. / 事務所に連絡を頼み、技術者が修理中だと言える。'], 'opener'),
+            ('Core words · 基本の20語', core(ledger, C12_WORDS) +
+             ['The full course also teaches «bukakan», «belikan», «pulangkan», «berikan», «pastikan», «pemilik», «pejabat pengurusan», «blok», «penerima», «nombor penjejakan», «lobi», '
+              '«baiki», «menghubungi», «ganti», «gantikan», «isikan», «kosongkan», «hidupkan», «perlahankan», «kerosakan», «aduan», «kontraktor», «paip», «tempahan», and «nombor tracking» '
+              'as a spoken form (to recognise only).'], 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · «Tolong» ___ «bungkusan ini.»  e.g. «Tolong simpankan bungkusan ini.» / «Tolong hantarkan bungkusan itu.»',
+                '2 · «Boleh» ___ «mesej itu?»  e.g. «Boleh tunjukkan mesej itu?» / «Boleh bawakan beg saya?»',
+                '3 · «Saya mahu ambil» ___.  e.g. «Saya mahu ambil bungkusan.» / «Boleh ambilkan bungkusan saya?»',
+                '4 · «Boleh hubungi» ___ «?»  e.g. «Boleh hubungi juruteknik?» / «Juruteknik sedang membaiki paip.»',
+                '5 · «Ada kebocoran di» ___ «saya.»  e.g. «Ada kebocoran di siling saya.» / «Tolong matikan lampu itu dulu.»',
+                'Remember: ‹-kan› on a root means do it for someone or make it happen («simpan» → «simpankan», ‹mati› → «matikan»); ‹-i› points at a person or place («hubungi»). '
+                'Two k in «letakkan» and «tunjukkan»; «berikan» is ‹beri› + ‹-kan›, not ‹ber-› + «ikan»; «bersihkan» is «bersih» + ‹-kan›. In speech you will hear the root alone («simpan», «tutup»); say the ‹-kan› form.',
+                '‹-kan› は語根に付いて「誰かのためにする」「そうなるようにする」を表し（«simpan» → «simpankan»、‹mati› → «matikan»）、‹-i› は人や場所へ向かう動作です（«hubungi»）。'
+                '«letakkan» と «tunjukkan» は k が二つで、«berikan» は ‹beri› ＋ ‹-kan›（‹ber-› ＋ «ikan» ではありません）、«bersihkan» は «bersih» ＋ ‹-kan› です。'
+                '話し言葉では語根だけも聞きますが、言うときは ‹-kan› の形を使います。'], 'model'),
+            ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: You are the guard or the office (fictional). Two parcels are in the guardhouse; the small one has a torn label. Later the resident reports a leak.',
+                'B: You are the resident. Collect your parcel, ask the guard to keep the small one, then report a leak in your ceiling, switch off the light and ask to be contacted.',
+                'Change of plan: A says «Maaf, juruteknik datang pukul dua, bukan pukul tiga.» B agrees and asks to be contacted before the technician arrives.',
+                'A：守衛または管理事務所の担当です（架空）。守衛所に荷物が二つあり、小さい方はラベルが破れています。あとで住民が水漏れを連絡します。'
+                'B：住民です。荷物を受け取り、小さい荷物を預かってもらい、天井の水漏れを連絡し、電灯を消し、連絡を頼みます。'
+                '変更：Aが «Maaf, juruteknik datang pukul dua, bukan pukul tiga.» と言い、Bは了承して技術者が着く前の連絡を頼みます。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say "Please keep this parcel.": ____________________',
+                '☐ 2. Say "Can you show me the message?": ____________________',
+                '☐ 3. Say "Can you contact the technician?": ____________________',
+                '☐ 4. Say "There is a leak in my ceiling.": ____________________',
+                '☐ 5. Say "Please switch that light off first.": ____________________'], 'test'),
+            ('Self-study guide · 自習ガイド', [
+                f'Before the session: Kata-Kata Sedia Kelas c12 ({sedia_cards(12)} cards, frames ms-c12-f01 and ms-c12-f02).',
+                f'After the session: all {pack_cards(12)} Kata-Kata chapter 12 cards (ms-c12-001 to ms-c12-{last_card(12):03}; ms-c12-024 «nombor tracking» '
+                'is recognise only) and frames ms-c12-f01 to ms-c12-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario "Parcels and a leak" '
+                'matches this pack.',
+                'No Dunia scene primes chapter 12. The Hanashishou home-condo scenes for chapter 12 are not yet tagged by chapter, so they are not assigned yet.',
+                'Optional full-course Cikgu Sensai units: unit 12A (parcels and ‹-kan› requests, with a writing block) and unit 12B (the leak and the repair, with a review block).',
+                'Expected self-study: about 9 to 10 hours for this chapter (planning figure).',
+                '授業後：第12章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
+        key=['Self-check: 1 «Tolong simpankan bungkusan ini.» 2 «Boleh tunjukkan mesej itu?» 3 «Boleh hubungi juruteknik?» '
+             '4 «Ada kebocoran di siling saya.» 5 «Tolong matikan lampu itu dulu.»',
+             'Session plan (45 min): 0–5 recall chapter 11 (meN- verbs) and the request «Tolong» + root; 5–15 core words with their roots; '
+             '15–25 patterns 1 to 5; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',
+             'Same content and ledger limits as units 12A and 12B. All Japanese is a draft awaiting native review.'])]
+
+
+STAGE2_PACKS.append(dict(
+    chapter_id='ms-c12', check_unit='ms-c12-fast', id_prefix='ms-c12-fast', level='A2',
+    title_prefix='Chapter 12', header='Chapter 12 fast course (ms-c12)',
+    menu_title='Chapter 12 · -kan and -i verbs', genre='Housing',
+    course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 12)], prerequisite_units=[],
+    prereq_grammar=['ms-c11-g02', 'ms-c11-g06', 'ms-c08-g02'],
+    word_scope=C12_WORDS, components=chapter12))
