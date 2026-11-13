@@ -115,3 +115,7 @@ All four are on the HANDOFF "Word proposals backlog" with the earlier ones. «se
 - **Legacy text:** «mesej dari kedai» and «mesej dari awak» still stand in the retired placeholder's legacy text (`curriculum/foundation.txt`, `foundation-guided.txt`) and its generated scope files; the placeholder is no longer in the course menu. I did not edit them.
 - **PDF:** the build's fit check passed for every page. I did not review the pages by eye.
 - **Environment:** the build needed `pymupdf`, `fonttools`, `brotli` and `fonts-noto-cjk` (after `apt-get update`); I installed them in the session. The checkout was shallow and was unshallowed first.
+
+## Update after Sam's answers (13 Nov 2026)
+
+All six accepted (`docs/stage-2-decisions.md` section 11). Changes: a third-person doer takes the bare «tangguhkan» / «batalkan» (pattern 2 now has «Mei Ling tangguhkan mendaki kerana dia bekerja.»; aspect words still do not), the meN- forms are named only as ‹menangguhkan› / ‹membatalkan› mentions for a later chapter, and the fast pack holds all 22 core words ("Core words" heading and tests updated).

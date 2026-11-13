@@ -1037,7 +1037,7 @@ STAGE2_PACKS.append(dict(
 
 
 C14_WORDS = ['L-1201', 'L-1202', 'L-1203', 'L-1204', 'L-1205', 'L-1206', 'L-1207', 'L-1217', 'L-1209', 'L-1210', 'L-1208',
-             'L-1213', 'L-1214', 'L-1215', 'L-1216', 'L-0710', 'L-0641', 'L-1269', 'L-1218', 'L-1270']
+             'L-1213', 'L-1214', 'L-1215', 'L-1216', 'L-0710', 'L-0641', 'L-1269', 'L-1218', 'L-1270', 'L-1211', 'L-1212']
 
 
 def chapter14(ledger):
@@ -1061,9 +1061,9 @@ def chapter14(ledger):
         grammar=['ms-c14-g02', 'ms-c14-g03', 'ms-c14-g04', 'ms-c14-g05', 'ms-c14-g06', 'ms-c14-g07', 'ms-c14-g08', 'ms-c14-g09'],
         patterns=['ms-c14-f01', 'ms-c14-f02', 'ms-c14-f03', 'ms-c14-f04', 'ms-c14-f05', 'ms-c14-f06'],
         goal='Give a condition, a reason, a purpose and a contrast, put a plan in order, and put off or cancel a plan.',
-        explain=('第14章速習：45分で基本の20語、«kalau»・«kerana»・«supaya»・«walaupun»・«sambil»、«mula-mula»・«kemudian»・«akhirnya»、日常の語と書き言葉の語（«kalau» と «jika» など）、'
+        explain=('第14章速習：45分で基本の22語、«kalau»・«kerana»・«supaya»・«walaupun»・«sambil»、«mula-mula»・«kemudian»・«akhirnya»、日常の語と書き言葉の語（«kalau» と «jika» など）、'
                  '週末のハイキングの延期と中止の場面を練習し、残りは Kata-Kata で自習します。日本語は未監修です。',
-                 'Chapter 14 in one 45-minute session: 20 core words, «kalau», «kerana», «supaya», «walaupun» and «sambil», «mula-mula», «kemudian» and «akhirnya», the everyday and written pairs («kalau» and «jika», and so on), '
+                 'Chapter 14 in one 45-minute session: 22 core words, «kalau», «kerana», «supaya», «walaupun» and «sambil», «mula-mula», «kemudian» and «akhirnya», the everyday and written pairs («kalau» and «jika», and so on), '
                  'and the scene of putting off and cancelling a weekend hike; then self-study in Kata-Kata. All names and plans are fictional.'),
         sections=[
             ('Can-do goals · できること', [
@@ -1071,8 +1071,8 @@ def chapter14(ledger):
                 'I can say a purpose with «supaya» and a contrast with «walaupun». / «supaya» で目的を、«walaupun» で対比を言える。',
                 'I can put a plan in order with «mula-mula», «kemudian» and «akhirnya». / «mula-mula»・«kemudian»・«akhirnya» で計画を順序立てられる。',
                 'I can put off or cancel a plan with «tangguhkan» and «batalkan», and tell the written «jika» from the everyday «kalau». / «tangguhkan»・«batalkan» で予定を延期・中止でき、書き言葉の «jika» と日常の «kalau» を区別できる。'], 'opener'),
-            ('Core words · 基本の20語', core(ledger, C14_WORDS) +
-             ['The full course also teaches «semasa» and «sejak», with the revision words of the whole unit.'], 'vocabulary'),
+            ('Core words · 基本の22語', core(ledger, C14_WORDS) +
+             ['The full course adds the revision words of the whole unit.'], 'vocabulary'),
             ('Key patterns · 文型', [
                 '1 · «Kalau» ___ «, kita» ___ «.»  e.g. «Kalau hujan, kita makan di kafe.» / «Kalau tidak hujan, kita mendaki.»',
                 '2 · «Saya tidak datang kerana saya» ___ «.»  e.g. «Saya tidak datang kerana saya bekerja.» / «Saya bangun awal supaya saya tidak lambat.»',

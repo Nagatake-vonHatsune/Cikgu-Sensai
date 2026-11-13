@@ -145,3 +145,17 @@ Recorded after Claude's review of chapter 13 (`docs/STAGE-2-ch13-report.md`). Th
 | Native | 13 reading message | **«terima kasih atas mesej itu»** (was «untuk mesej»). |
 | Rule | Bare root in dialogue | **Dialogue lines may use the everyday bare root after aspect words and modals** («Saya belum isi borang.», «Encik perlu daftar dulu.», «Doktor akan panggil cik.»), as Kata-Kata does. Pattern models, drills, answer keys, notices and written texts use the meN- form in the ledger. Bare ‹-kan› stays for requests and first-person offers. |
 | Backlog | «sihat», «beritahu» | **Marked "recommended".** |
+
+## 11. Chapter 14 answers (Sam, 13 November 2026)
+
+Recorded after Claude's review of chapter 14 (`docs/STAGE-2-ch14-report.md`).
+
+| # | Question | Answer |
+| --- | --- | --- |
+| Q1 | f02 and f03 share pattern 2 | **Yes.** |
+| Q2 | «keputusan» only in written notices | **Yes.** |
+| Q3 | Bare root «tangguh» as a short reply | **OK.** |
+| Q4 | No third-person «tangguhkan» / «batalkan» | **Proceed without meN-: use the bare form with a third-person doer («Mei Ling tangguhkan …»); a later chapter introduces the meN- forms.** Aspect words (sudah, sedang, belum, akan, baru, masih) are still not used before the bare form. |
+| Q5 | Fast pack | **Add «semasa» and «sejak»: the chapter 14 fast pack has all 22 core words.** |
+| Q6 | Menu names | **OK.** |
+

@@ -12,7 +12,7 @@ word for word, and goes further in class: a second friend, a message in written 
 Register (Sam, 13 Nov 2026): «kalau» and «bila» are everyday and are what people say; «jika» and «apabila» are standard and written. The
 casual turns use no ruling-style words («keputusan», «ialah»); «keputusan» is taught as a word for a written notice or a result.
 The -kan rule of chapter 12 holds: «tangguhkan» and «batalkan» appear in «kita» sentences and requests, never after an aspect word or with a
-third-person doer; there the unit says «Mendaki batal.». Japanese is a draft awaiting native review.
+aspect word; with a third-person doer the bare form is allowed for now (Sam, 13 Nov 2026: «Mei Ling tangguhkan …»; the meN- forms come in a later chapter), and «Mendaki batal.» is the intransitive. Japanese is a draft awaiting native review.
 """
 from .chapter10_common import unit_dict
 
@@ -163,7 +163,7 @@ P = [
         'A: «Kenapa cik tidak boleh datang pada hari Sabtu?» B: «Sebab saya bekerja.»',
         'A: «Kenapa awak bangun awal?» B: «Saya bangun awal supaya saya tidak lambat.»',
         'A: «Kenapa awak datang awal?» B: «Saya datang awal supaya kita tidak lambat.»',
-        'A: «Kenapa kita tangguhkan mendaki?» B: «Kita tangguhkan kerana hujan.»',
+        'A: «Kenapa Mei Ling tangguhkan mendaki?» B: «Mei Ling tangguhkan mendaki kerana dia bekerja.»',
         'A: «Apa tujuan mesej ini?» B: «Supaya kawan kita tahu rancangan itu.»'],
      "«kerana» (chapter 5) and «sebab» (chapter 5) both give the reason: the main clause comes first and the reason after it, «Saya tidak datang kerana saya bekerja.» (the Kata-Kata frame). "
      "«kerana» is the standard word, «sebab» is just as common in speech, and the answer to «Kenapa …?» can start with either. "
@@ -525,8 +525,8 @@ CFG = dict(
                    '«kalau hujan» (a condition) is not «walaupun hujan» (rain is no obstacle). «sambil» is two actions by one person; «semasa» and «sejak» are whole words.',
                    'Whole words and roots: «walaupun» (‹walau›), «akhirnya» (‹akhir› + ‹-nya›), «mula-mula» (repeated words come in Stage 3), «seterusnya» («terus»), «semasa» («masa»), «tujuan» (‹tuju›), «pilihan» («pilih»), '
                    '«keputusan» (‹putus›) and «perubahan» (‹ubah›) are each learned whole. «tangguh» and «batal» are the roots of «tangguhkan» and «batalkan» (cards ms-c14-018 to -022).',
-                   'The ‹-kan› rule from chapter 12 (Sam): «tangguhkan» and «batalkan» appear in «kita» sentences and requests («Kita batalkan rancangan mendaki.», «Boleh kita tangguhkan ke hari Ahad?»), never after «sudah», «sedang», «belum», «akan», «baru» or «masih» '
-                   'and never with a third-person doer (there is no ‹meN-› form in the ledger). Say «Mendaki batal.» instead. No ‹meN-› + ‹-kan› form is taught.',
+                   'The ‹-kan› rule from chapter 12 (Sam): «tangguhkan» and «batalkan» appear in «kita» sentences and requests («Kita batalkan rancangan mendaki.», «Boleh kita tangguhkan ke hari Ahad?»), never after «sudah», «sedang», «belum», «akan», «baru» or «masih». '
+                   'With a third-person doer the bare form is allowed for now (Sam, 13 Nov 2026): «Mei Ling tangguhkan mendaki ke hari Ahad.» A later chapter teaches the ‹meN-› forms (‹menangguhkan›, ‹membatalkan›) as the standard; do not teach them here. «Mendaki batal.» stays for the intransitive. No ‹meN-› + ‹-kan› form is taught.',
                    '«keputusan» is a word for a written notice or a result («Keputusan: hari Ahad.»). The casual turns do not use ruling-style words: no «keputusan» in conversation. '
                    'The casual dialogue lines may use the everyday bare root after an aspect word, as Kata-Kata does («Saya sudah tulis mesej.»); the pattern examples, keys, notices and written texts use the ‹meN-› form («menulis»).',
                    'Where Japanese learners usually slip: (1) «supaya» for a reason, or «kerana» for a purpose (ので against ように); (2) «tetapi» in the second clause after «walaupun»; (3) a word for "then" after the comma of «kalau»; '

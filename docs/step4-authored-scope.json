@@ -139873,10 +139873,10 @@
   "exclusion": null
  },
  "Unit 14 · Pattern and grammar focus|4|3": {
-  "source_text": "5. A: Kenapa kita tangguhkan mendaki? B: Kita tangguhkan kerana hujan.",
+  "source_text": "5. A: Kenapa Mei Ling tangguhkan mendaki? B: Mei Ling tangguhkan mendaki kerana dia bekerja.",
   "target_spans": [
-   "Kenapa kita tangguhkan mendaki?",
-   "Kita tangguhkan kerana hujan."
+   "Kenapa Mei Ling tangguhkan mendaki?",
+   "Mei Ling tangguhkan mendaki kerana dia bekerja."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -144428,7 +144428,7 @@
   "exclusion": null
  },
  "Unit 14 · Teaching plan and answer key|5|4": {
-  "source_text": "The -kan rule from chapter 12 (Sam): tangguhkan and batalkan appear in kita sentences and requests (Kita batalkan rancangan mendaki., Boleh kita tangguhkan ke hari Ahad?), never after sudah, sedang, belum, akan, baru or masih and never with a third-person doer (there is no meN- form in the ledger). Say Mendaki batal. instead. No meN- + -kan form is taught.",
+  "source_text": "The -kan rule from chapter 12 (Sam): tangguhkan and batalkan appear in kita sentences and requests (Kita batalkan rancangan mendaki., Boleh kita tangguhkan ke hari Ahad?), never after sudah, sedang, belum, akan, baru or masih. With a third-person doer the bare form is allowed for now (Sam, 13 Nov 2026): Mei Ling tangguhkan mendaki ke hari Ahad. A later chapter teaches the meN- forms (menangguhkan, membatalkan) as the standard; do not teach them here. Mendaki batal. stays for the intransitive. No meN- + -kan form is taught.",
   "target_spans": [
    "tangguhkan",
    "batalkan",
@@ -144441,11 +144441,14 @@
    "akan",
    "baru",
    "masih",
+   "Mei Ling tangguhkan mendaki ke hari Ahad.",
    "Mendaki batal."
   ],
   "mention_spans": [
    "-kan",
    "meN-",
+   "menangguhkan",
+   "membatalkan",
    "meN-",
    "-kan"
   ],
@@ -147580,7 +147583,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 14 · Fast-course summary pack|0|0": {
-  "source_text": "第14章速習：45分で基本の20語、kalau・kerana・supaya・walaupun・sambil、mula-mula・kemudian・akhirnya、日常の語と書き言葉の語（kalau と jika など）、週末のハイキングの延期と中止の場面を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
+  "source_text": "第14章速習：45分で基本の22語、kalau・kerana・supaya・walaupun・sambil、mula-mula・kemudian・akhirnya、日常の語と書き言葉の語（kalau と jika など）、週末のハイキングの延期と中止の場面を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
   "target_spans": [
    "kalau",
    "kerana",
@@ -147612,7 +147615,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 14 · Fast-course summary pack|2|0": {
-  "source_text": "Chapter 14 in one 45-minute session: 20 core words, kalau, kerana, supaya, walaupun and sambil, mula-mula, kemudian and akhirnya, the everyday and written pairs (kalau and jika, and so on), and the scene of putting off and cancelling a weekend hike; then self-study in Kata-Kata. All names and plans are fictional.",
+  "source_text": "Chapter 14 in one 45-minute session: 22 core words, kalau, kerana, supaya, walaupun and sambil, mula-mula, kemudian and akhirnya, the everyday and written pairs (kalau and jika, and so on), and the scene of putting off and cancelling a weekend hike; then self-study in Kata-Kata. All names and plans are fictional.",
   "target_spans": [
    "kalau",
    "kerana",
@@ -147684,7 +147687,7 @@
   "exclusion": null
  },
  "Chapter 14 · Fast-course summary pack|3|4": {
-  "source_text": "■ Core words · 基本の20語",
+  "source_text": "■ Core words · 基本の22語",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
@@ -147883,23 +147886,38 @@
   "exclusion": null
  },
  "Chapter 14 · Fast-course summary pack|4|1": {
-  "source_text": "The full course also teaches semasa and sejak, with the revision words of the whole unit.",
+  "source_text": "semasa — during / when · 〜の間に  [L-1211]",
   "target_spans": [
-   "semasa",
-   "sejak"
+   "semasa"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
  "Chapter 14 · Fast-course summary pack|4|2": {
+  "source_text": "sejak — since · 〜以来  [L-1212]",
+  "target_spans": [
+   "sejak"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 14 · Fast-course summary pack|4|3": {
+  "source_text": "The full course adds the revision words of the whole unit.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 14 · Fast-course summary pack|4|4": {
   "source_text": "■ Key patterns · 文型",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 14 · Fast-course summary pack|4|3": {
+ "Chapter 14 · Fast-course summary pack|4|5": {
   "source_text": "1 · Kalau ___ , kita ___ .  e.g. Kalau hujan, kita makan di kafe. / Kalau tidak hujan, kita mendaki.",
   "target_spans": [
    "Kalau",
@@ -147912,7 +147930,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|4": {
+ "Chapter 14 · Fast-course summary pack|4|6": {
   "source_text": "2 · Saya tidak datang kerana saya ___ .  e.g. Saya tidak datang kerana saya bekerja. / Saya bangun awal supaya saya tidak lambat.",
   "target_spans": [
    "Saya tidak datang kerana saya",
@@ -147924,7 +147942,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|5": {
+ "Chapter 14 · Fast-course summary pack|4|7": {
   "source_text": "3 · Walaupun ___ , saya mahu ___ .  e.g. Walaupun hujan, saya mahu berjalan kaki. / Walaupun saya penat, saya suka mendaki.",
   "target_spans": [
    "Walaupun",
@@ -147937,7 +147955,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|6": {
+ "Chapter 14 · Fast-course summary pack|4|8": {
   "source_text": "4 · Dia makan sambil ___ .  e.g. Dia makan sambil membaca surat khabar. / Kita boleh bercakap sambil berjalan.",
   "target_spans": [
    "Dia makan sambil",
@@ -147949,7 +147967,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|7": {
+ "Chapter 14 · Fast-course summary pack|4|9": {
   "source_text": "5 · Mula-mula kita ___ , kemudian kita ___ , akhirnya kita ___ .  e.g. Mula-mula kita makan, kemudian kita berjalan kaki, akhirnya kita balik. / Mula-mula kita berjumpa di stesen. Kemudian kita mendaki. Akhirnya kita makan di kafe.",
   "target_spans": [
    "Mula-mula kita",
@@ -147963,7 +147981,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|8": {
+ "Chapter 14 · Fast-course summary pack|4|10": {
   "source_text": "Remember: people say kalau and bila and write jika and apabila; tetapi and jadi in speech, namun and oleh itu in a message. kerana and sebab give the reason, supaya the purpose. tangguhkan and batalkan go in kita sentences and requests.",
   "target_spans": [
    "kalau",
@@ -147985,7 +148003,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|9": {
+ "Chapter 14 · Fast-course summary pack|4|11": {
   "source_text": "話すときは kalau・bila、書くときは jika・apabila；話し言葉は tetapi・jadi、メッセージでは namun・oleh itu。kerana・sebab は理由、supaya は目的。tangguhkan・batalkan は kita の文と依頼で使います。",
   "target_spans": [
    "kalau",
@@ -148007,14 +148025,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|10": {
+ "Chapter 14 · Fast-course summary pack|4|12": {
   "source_text": "■ Model conversation · 会話 (fictional)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 14 · Fast-course summary pack|4|11": {
+ "Chapter 14 · Fast-course summary pack|4|13": {
   "source_text": "Tanaka: Cik Mei Ling, hujung minggu ini kita masih mahu mendaki?",
   "target_spans": [
    "Cik Mei Ling, hujung minggu ini kita masih mahu mendaki?"
@@ -148023,7 +148041,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|12": {
+ "Chapter 14 · Fast-course summary pack|4|14": {
   "source_text": "Mei Ling: Masih. Tetapi cuaca mendung. Kalau hujan pada hari Sabtu, kita tidak boleh mendaki.",
   "target_spans": [
    "Masih. Tetapi cuaca mendung. Kalau hujan pada hari Sabtu, kita tidak boleh mendaki."
@@ -148032,7 +148050,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|13": {
+ "Chapter 14 · Fast-course summary pack|4|15": {
   "source_text": "Tanaka: Kalau hujan, kita makan di kafe. Kalau tidak hujan, kita mendaki.",
   "target_spans": [
    "Kalau hujan, kita makan di kafe. Kalau tidak hujan, kita mendaki."
@@ -148041,7 +148059,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|14": {
+ "Chapter 14 · Fast-course summary pack|4|16": {
   "source_text": "Mei Ling: Bagus! Tetapi saya tidak boleh datang pada hari Sabtu kerana saya bekerja.",
   "target_spans": [
    "Bagus! Tetapi saya tidak boleh datang pada hari Sabtu kerana saya bekerja."
@@ -148050,7 +148068,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|15": {
+ "Chapter 14 · Fast-course summary pack|4|17": {
   "source_text": "Tanaka: Ada dua pilihan: kita tangguhkan ke hari Ahad atau ke hari Sabtu depan.",
   "target_spans": [
    "Ada dua pilihan: kita tangguhkan ke hari Ahad atau ke hari Sabtu depan."
@@ -148059,7 +148077,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|16": {
+ "Chapter 14 · Fast-course summary pack|4|18": {
   "source_text": "Mei Ling: Hari Ahad lebih baik. Hari Ahad saya cuti. Janji!",
   "target_spans": [
    "Hari Ahad lebih baik. Hari Ahad saya cuti. Janji!"
@@ -148068,7 +148086,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|17": {
+ "Chapter 14 · Fast-course summary pack|4|19": {
   "source_text": "Tanaka: Ada perubahan rancangan, tetapi tujuan kita sama: berehat dan berjalan.",
   "target_spans": [
    "Ada perubahan rancangan, tetapi tujuan kita sama: berehat dan berjalan."
@@ -148077,7 +148095,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|18": {
+ "Chapter 14 · Fast-course summary pack|4|20": {
   "source_text": "Tanaka: Baik. Ini rancangan kita. Mula-mula kita berjumpa di stesen pukul tujuh. Kemudian kita mendaki. Akhirnya kita makan di kafe.",
   "target_spans": [
    "Baik. Ini rancangan kita. Mula-mula kita berjumpa di stesen pukul tujuh. Kemudian kita mendaki. Akhirnya kita makan di kafe."
@@ -148086,7 +148104,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 14 · Fast-course summary pack|4|19": {
+ "Chapter 14 · Fast-course summary pack|4|21": {
   "source_text": "Mei Ling: Saya akan datang awal supaya kita tidak lambat.",
   "target_spans": [
    "Saya akan datang awal supaya kita tidak lambat."
