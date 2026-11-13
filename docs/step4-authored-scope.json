@@ -151299,9 +151299,9 @@
   "exclusion": null
  },
  "Unit 15 · Review block · Chapters 13 to 15: a lost bag at the clinic|3|4": {
-  "source_text": "A: Baik. Walaupun saya sibuk, saya menunggu doktor di sini. Tolong hubungi pejabat saya, ya? Saya bekerja di sana. B: Baik. Kalau doktor sudah ada, kami panggil encik.",
+  "source_text": "A: Baik. Walaupun saya sibuk, saya akan menunggu doktor di sini. Tolong hubungi pejabat saya, ya? Saya bekerja di sana. B: Baik. Kalau doktor sudah ada, kami panggil encik.",
   "target_spans": [
-   "Baik. Walaupun saya sibuk, saya menunggu doktor di sini. Tolong hubungi pejabat saya, ya? Saya bekerja di sana.",
+   "Baik. Walaupun saya sibuk, saya akan menunggu doktor di sini. Tolong hubungi pejabat saya, ya? Saya bekerja di sana.",
    "Baik. Kalau doktor sudah ada, kami panggil encik."
   ],
   "mention_spans": [],

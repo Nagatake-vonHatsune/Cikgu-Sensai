@@ -543,7 +543,7 @@ EXTRA = dict(
            'A: «Selamat pagi. Saya belum mendaftar, tetapi beg saya hilang di klinik ini.» B: «Beg yang mana? Apa warna beg itu?»',
            'A: «Beg itu berwarna biru dan ada tali panjang. Bentuknya segi empat, seperti kotak.» B: «Ada dua beg biru di sini. Yang mana satu? Yang ada zip atau yang tidak ada zip?»',
            'A: «Yang ada zip. Boleh saya ambil beg itu sekarang?» B: «Boleh. Tetapi encik perlu mendaftar dulu supaya doktor boleh berjumpa encik.»',
-           'A: «Baik. Walaupun saya sibuk, saya menunggu doktor di sini. Tolong hubungi pejabat saya, ya? Saya bekerja di sana.» B: «Baik. Kalau doktor sudah ada, kami panggil encik.»',
+           'A: «Baik. Walaupun saya sibuk, saya akan menunggu doktor di sini. Tolong hubungi pejabat saya, ya? Saya bekerja di sana.» B: «Baik. Kalau doktor sudah ada, kami panggil encik.»',
            'Notice: «belum» and «sudah» stand in front of the verb; «perlu» says what you must do and «supaya» why; «yang» opens a description after the noun; a ber- verb has no object («bekerja», «berjumpa»), a meN- verb takes the thing («mendaftar», «menunggu doktor»), '
            'a request takes the plain root («Tolong hubungi …») and ‹-i› points at a person or place. / '
            '気づくこと：«belum»・«sudah» は動詞の前、«perlu» はすべきこと、«supaya» は目的、«yang» は名詞のあとの説明を始めます。ber- の動詞は目的語をとらず（«bekerja»・«berjumpa»）、meN- の動詞は物をすぐあとに置き（«mendaftar»・«menunggu doktor»）、依頼は素の語根（«Tolong hubungi …»）、‹-i› は人や場所へ向かう動作です。'],

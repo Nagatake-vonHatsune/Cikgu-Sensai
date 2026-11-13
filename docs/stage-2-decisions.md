@@ -161,3 +161,16 @@ Claude's later review of chapter 14 added two fixes, in their own commit before 
 | Q5 | Fast pack | **Add «semasa» and «sejak»: the chapter 14 fast pack has all 22 core words.** |
 | Q6 | Menu names | **OK.** |
 
+## 12. Chapter 15 answers and fix (Sam, 13 November 2026)
+
+Sam's answers to the six questions in `docs/STAGE-2-ch15-report.md`. The fix is in its own commit, before chapter 16.
+
+| # | Question | Answer |
+| --- | --- | --- |
+| Q1 | Turn 11 joins s11 and s12 | **Fine.** |
+| Q2 | f01 and f03 share one pattern | **Fine.** |
+| Q3 | Fast pack | **The fast pack holds all core words from now on.** |
+| Q4 | «ciri-ciri» | **«ciri» is the common form; «ciri-ciri» is only its plural and rarely heard, so it stays a mention only.** The form keeps «Ciri:». |
+| Q5 | Clinic lost-bag review and menu names | **Fine.** |
+| Q6 | «kakitangan» and «bola» | **Approved for the backlog batch** (marked "approved by Sam"). |
+| Fix | Review block line | **«Walaupun saya sibuk, saya akan menunggu doktor di sini.»** (was «… saya menunggu doktor …»). |

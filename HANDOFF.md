@@ -35,8 +35,8 @@ Collected from every chapter. Builders rewrote the lines instead and added no ro
 | «kata» (to say) | 14 | "what does the message say?"; the unit says «Apa dalam mesej itu?» |
 | «pengumuman» (announcement) | 14 | the heading of a written notice; the unit starts «Ada perubahan rancangan.» |
 | «menangguhkan» and «membatalkan» (meN- forms of «tangguhkan» and «batalkan») | 14 (**recommended**, Claude's review) | a third person in standard speech and writing («Mei Ling menangguhkan rancangan itu.»); the unit uses the bare form with a noun object for now |
-| «kakitangan» (staff) | 15 | the Kata-Kata speaker label for the counter clerk (s02 to s10); the unit uses the English label «Staff» |
-| «bola» (ball) | 15 | the natural comparison for a round thing («bulat, seperti bola»); the unit says «bulat, seperti jam» |
+| «kakitangan» (staff) | 15 (**approved by Sam**, 13 Nov) | the Kata-Kata speaker label for the counter clerk (s02 to s10); the unit uses the English label «Staff» |
+| «bola» (ball) | 15 (**approved by Sam**, 13 Nov) | the natural comparison for a round thing («bulat, seperti bola»); the unit says «bulat, seperti jam» |
 
 ## Latest session: Stage 2 build step 4, chapter 14 fixes and chapter 15 (13 Nov 2026, Claude)
 
