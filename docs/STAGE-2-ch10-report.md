@@ -130,7 +130,7 @@ All 40 core words appear in their unit outside the vocabulary list. The test fil
 
 These are my judgement calls, so please read them first. Everything passes the checks, but the checks cannot judge whether a line sounds natural.
 
-1. 10A P3: «Tidak sangat. Saya suka berbasikal.» Is "not really" natural in this form, or would «Kurang suka» or «Tak sangat» (spoken) be better?
+1. 10A P3: «Tidak juga. Saya lebih suka berbasikal.» (changed on 13 Nov 2026 after Sam said «Tidak sangat» is not natural). Is «Tidak juga» the right gentle "not really", and «lebih suka» the right "prefer"?
 2. 10A P4 and the 10B listening: «Saya berbual dengan rakan sekerja.» «rakan sekerja» comes from Dunia, chapter 2. Is it natural here?
 3. 10A listening: «Waktu pagi, ramai orang beratur di stesen. Kereta api selalu sesak.» Is «sesak» natural for a crowded train? The ledger glosses it as traffic.
 4. 10A listening: «Saya hantar anak ke sekolah dulu.» Everyday root «hantar» (Dunia, chapter 2).

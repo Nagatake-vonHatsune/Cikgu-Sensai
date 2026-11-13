@@ -79,3 +79,17 @@ Audited total: **233 core words, 57 existing ledger rows and 176 new rows** (dra
 | B1 | Approve this build order and the models | Yes | Yes |
 
 All Japanese in the plan is a draft for the end-of-project native review.
+
+## 7. Chapter 10 answers (Sam, 13 November 2026)
+
+Recorded after Claude's review of chapter 10 (`docs/STAGE-2-ch10-report.md`).
+
+| # | Question | Answer |
+| --- | --- | --- |
+| Q1 | Malay explainers for Stage 2 | **Japanese and English explanations only.** |
+| Q2 | Scope of build step 4 | **The fast pack and the writing block belong with each chapter.** |
+| Q3 | «Belum.» as the polite "not married (yet)" | **Confirmed.** |
+| Q4 | «berminat» | **«berminat untuk» + a verb stays the taught pattern; «berminat dengan» + a noun waits for the chapter 18 review.** |
+| Q5 | Hanashishou links | **Named only, not assigned, until build step 6.** |
+| Q6 | Additional-block ids | **`ms-stage2-<name>` is fine.** |
+| Native line 1 | 10A «Tidak sangat. Saya suka berbasikal.» | **Not natural.** Now «Tidak juga. Saya lebih suka berbasikal.» No word proposals from chapter 10 are added. |

@@ -173,16 +173,16 @@ P = [
     ('ms-c10-f03', '«Pada hujung minggu saya suka» (ber- verb).', [
         'A: «Pada hujung minggu encik buat apa?» B: «Pada hujung minggu saya suka berenang.»',
         'A: «Encik suka bermain badminton?» B: «Suka. Saya bermain badminton pada hari Sabtu.»',
-        'A: «Puan suka berlari?» B: «Tidak sangat. Saya suka berbasikal.»',
+        'A: «Puan suka berlari?» B: «Tidak juga. Saya lebih suka berbasikal.»',
         'A: «Encik selalu bersenam?» B: «Ya. Saya bersenam setiap hari Isnin, Rabu dan Jumaat.»',
         'A: «Apa hobi encik?» B: «Pada hujung minggu saya suka berenang dan berbasikal.»',
         'A: «Encik berlatih apa pada hari Ahad?» B: «Saya berlatih badminton dengan kawan.»'],
      "«suka» goes straight in front of the verb, with nothing in between: «Saya suka berenang.» (I like swimming.) «bermain» "
-     "takes the game: «bermain badminton», «bermain golf»; in everyday talk «main badminton» is just as common. Say how often with "
+     "takes the game: «bermain badminton», «bermain golf»; in everyday talk «main badminton» is just as common. «Tidak juga» is the natural, gentle \"not really\"; «lebih suka» means prefer (\"I like cycling more\"). Say how often with "
      "the chapter 4 words: «selalu», «biasanya», «kadang-kadang», «jarang», «setiap hari Sabtu». «berlatih» is practising a skill "
      "or a sport, and it can take a verb: «berlatih bercakap bahasa Melayu».",
      "«suka» は動詞の直前に置き、間に何も入れません：«Saya suka berenang.»（泳ぐのが好きです）。«bermain» のあとに競技名を置きます："
-     "«bermain badminton»・«bermain golf»。日常会話では «main badminton» もよく使います。頻度は第4章の言葉で言います："
+     "«bermain badminton»・«bermain golf»。日常会話では «main badminton» もよく使います。«Tidak juga» は「そうでもない」にあたる自然なやわらかい言い方で、«lebih suka» は「〜のほうが好き」です。頻度は第4章の言葉で言います："
      "«selalu»・«biasanya»・«kadang-kadang»・«jarang»・«setiap hari Sabtu»。«berlatih» は技術やスポーツを練習することで、動詞を続けることも"
      "できます：«berlatih bercakap bahasa Melayu»。",
      'Japanese needs 〜するのが好き or 〜することが好き; Malay needs no の or こと: «suka» + verb. Japanese 遊ぶ is for children and '

@@ -95647,10 +95647,10 @@
   "exclusion": null
  },
  "Unit 10A · Pattern and grammar focus|4|15": {
-  "source_text": "3. A: Puan suka berlari? B: Tidak sangat. Saya suka berbasikal.",
+  "source_text": "3. A: Puan suka berlari? B: Tidak juga. Saya lebih suka berbasikal.",
   "target_spans": [
    "Puan suka berlari?",
-   "Tidak sangat. Saya suka berbasikal."
+   "Tidak juga. Saya lebih suka berbasikal."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -95687,7 +95687,7 @@
   "exclusion": null
  },
  "Unit 10A · Pattern and grammar focus|5|3": {
-  "source_text": "Explanation: suka goes straight in front of the verb, with nothing in between: Saya suka berenang. (I like swimming.) bermain takes the game: bermain badminton, bermain golf; in everyday talk main badminton is just as common. Say how often with the chapter 4 words: selalu, biasanya, kadang-kadang, jarang, setiap hari Sabtu. berlatih is practising a skill or a sport, and it can take a verb: berlatih bercakap bahasa Melayu.",
+  "source_text": "Explanation: suka goes straight in front of the verb, with nothing in between: Saya suka berenang. (I like swimming.) bermain takes the game: bermain badminton, bermain golf; in everyday talk main badminton is just as common. Tidak juga is the natural, gentle \"not really\"; lebih suka means prefer (\"I like cycling more\"). Say how often with the chapter 4 words: selalu, biasanya, kadang-kadang, jarang, setiap hari Sabtu. berlatih is practising a skill or a sport, and it can take a verb: berlatih bercakap bahasa Melayu.",
   "target_spans": [
    "suka",
    "Saya suka berenang.",
@@ -95695,6 +95695,8 @@
    "bermain badminton",
    "bermain golf",
    "main badminton",
+   "Tidak juga",
+   "lebih suka",
    "selalu",
    "biasanya",
    "kadang-kadang",
@@ -95708,7 +95710,7 @@
   "exclusion": null
  },
  "Unit 10A · Pattern and grammar focus|5|4": {
-  "source_text": "説明：suka は動詞の直前に置き、間に何も入れません：Saya suka berenang.（泳ぐのが好きです）。bermain のあとに競技名を置きます：bermain badminton・bermain golf。日常会話では main badminton もよく使います。頻度は第4章の言葉で言います：selalu・biasanya・kadang-kadang・jarang・setiap hari Sabtu。berlatih は技術やスポーツを練習することで、動詞を続けることもできます：berlatih bercakap bahasa Melayu。",
+  "source_text": "説明：suka は動詞の直前に置き、間に何も入れません：Saya suka berenang.（泳ぐのが好きです）。bermain のあとに競技名を置きます：bermain badminton・bermain golf。日常会話では main badminton もよく使います。Tidak juga は「そうでもない」にあたる自然なやわらかい言い方で、lebih suka は「〜のほうが好き」です。頻度は第4章の言葉で言います：selalu・biasanya・kadang-kadang・jarang・setiap hari Sabtu。berlatih は技術やスポーツを練習することで、動詞を続けることもできます：berlatih bercakap bahasa Melayu。",
   "target_spans": [
    "suka",
    "Saya suka berenang.",
@@ -95716,6 +95718,8 @@
    "bermain badminton",
    "bermain golf",
    "main badminton",
+   "Tidak juga",
+   "lebih suka",
    "selalu",
    "biasanya",
    "kadang-kadang",
