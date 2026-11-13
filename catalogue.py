@@ -17,7 +17,7 @@ GENRES = {'Social encounters':'Social life','Transactions':'Shopping and money',
           'Housing':'Home','Work':'Work and study','Study':'Work and study','Governance':'Work and study','Campus services':'Work and study'}
 FOCUS = ['Greetings and titles','Pronouns, pe-, -an, -kah and questions','Numbers, money, ke- and ke-an',
          'Time, frequency and aspect','Adjectives, Bagaimana and yang','Comparatives and superlatives',
-         'Location and direction','Counters','Passive di-','ber- verbs','meN- verbs','-kan and -i verbs']
+         'Location and direction','Counters','Passive di-','ber- verbs','meN- verbs','-kan and -i verbs','belum, permission, need and advice']
 GOALS = ['Greet by time of day, use titles, ask after someone, take leave',
          'Introduce yourself (name, origin, work, home, hobby) and ask the same of others',
          'Ask and pay a price, check change, give age and phone number, say which one in a sequence',
@@ -28,7 +28,8 @@ GOALS = ['Greet by time of day, use titles, ask after someone, take leave',
          'Order and count things with the right classifier','Read signs and notices, say what was done and by whom',
          'Retell your day and your background in full sentences',
          'Say who did what at the office, check a draft and a deadline, and say your weekend plan',
-         'Ask for a favour, collect a parcel, and report a problem such as a leak to the management office']
+         'Ask for a favour, collect a parcel, and report a problem such as a leak to the management office',
+         'Say what is not done yet, ask permission, say what you need and understand advice and rules at a clinic and a pharmacy']
 STAGE1_CHAPTERS = 9   # chapters 1 to 9: Stage 1 (A1); from chapter 10: Stage 2 (A2)
 CHAPTERS_BUILT = len(GOALS)  # chapters with a Kata-Kata pack and a catalogue record (10 since Stage 2 build step 4, 11 since chapter 11)
 BLOCKS = [

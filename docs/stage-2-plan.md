@@ -711,4 +711,8 @@ Units 11A (20 core) and 11B (21 core, plus «tukar» and «deadline» to recogni
 
 ## Build step 4: chapter 12 (13 Nov 2026)
 
-Units 12A (23 core, plus «nombor tracking» to recognise) and 12B (21 core) are built, with the writing block after 12A, the review block after 12B (Review 2) and the chapter 12 fast pack. Sam's answers to the chapter 11 questions are in [`docs/stage-2-decisions.md`](stage-2-decisions.md) section 8. The old placeholder «Ambil bungkusan di lobi» is still listed as a "future" Chapter 12 beside the new chapter (see the chapter 12 report).
+Units 12A (23 core, plus «nombor tracking» to recognise) and 12B (21 core) are built, with the writing block after 12A, the review block after 12B (Review 2) and the chapter 12 fast pack. Sam's answers to the chapter 11 questions are in [`docs/stage-2-decisions.md`](stage-2-decisions.md) section 8. The old placeholder «Ambil bungkusan di lobi» was retired in the chapter 12 fixes (Sam, 13 Nov 2026): it is no longer in the course menu and its legacy exceptions are gone (30 to 20); see [`docs/stage-2-decisions.md`](stage-2-decisions.md) section 9.
+
+## Build step 4: chapter 13 (13 Nov 2026)
+
+Unit 13 (25 core, no recognition word) is built as one unit of five blocks, with the chapter 13 fast pack. The plan gives chapter 13 no writing or review block, so none was built. Sam's answers to the chapter 12 questions are in [`docs/stage-2-decisions.md`](stage-2-decisions.md) section 9. Report: [`docs/STAGE-2-ch13-report.md`](STAGE-2-ch13-report.md).

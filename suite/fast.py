@@ -947,3 +947,90 @@ STAGE2_PACKS.append(dict(
     course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 12)], prerequisite_units=[],
     prereq_grammar=['ms-c11-g02', 'ms-c11-g06', 'ms-c08-g02'],
     word_scope=C12_WORDS, components=chapter12))
+
+
+C13_WORDS = ['L-1185', 'L-1186', 'L-1199', 'L-1187', 'L-1188', 'L-1189', 'L-1190', 'L-1196', 'L-0627', 'L-0630',
+             'L-0638', 'L-0648', 'L-1268', 'L-1200', 'L-0631', 'L-0633', 'L-1191', 'L-1193', 'L-1192', 'L-0636']
+
+
+def chapter13(ledger):
+    dialogue = [
+        ('Receptionist', '«Selamat pagi, encik. Ada temu janji?»'),
+        ('Tanaka', '«Tidak ada. Saya demam dan sakit tekak. Saya batuk juga.»'),
+        ('Receptionist', '«Encik perlu daftar dulu. Sila isi borang ini.»'),
+        ('Tanaka', '«Baik. Saya belum isi borang. Bolehkah saya isi borang di sini?»'),
+        ('Receptionist', '«Boleh. Ini klinik panel syarikat encik?»'),
+        ('Tanaka', '«Ya. Boleh saya minum air di sini?»'),
+        ('Receptionist', '«Maaf, tidak dibenarkan minum di sini. Dilarang makan dan minum di bilik menunggu.»'),
+        ('Tanaka', '«Baik, saya faham. Terima kasih.»'),
+        ('Doctor', '«Encik patut berehat di rumah. Encik tidak perlu datang ke pejabat esok.»'),
+        ('Tanaka', '«Doktor, boleh saya minta cuti sakit untuk esok?»'),
+        ('Doctor', '«Boleh. Saya berikan cuti sakit satu hari.»'),
+        ('Tanaka', '«Maaf, boleh cakap lagi sekali? Saya tidak faham arahan itu.»'),
+        ('Pharmacist', '«Boleh. Encik mesti baca arahan di label. Dos ada di label itu.»'),
+        ('Pharmacist', '«Kalau ada soalan, tanya saya lagi.»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=['ms-c13-g02', 'ms-c13-g03', 'ms-c13-g04', 'ms-c13-g05', 'ms-c13-g06', 'ms-c13-g07', 'ms-c13-g08'],
+        patterns=['ms-c13-f01', 'ms-c13-f02', 'ms-c13-f03', 'ms-c13-f04', 'ms-c13-f05', 'ms-c13-f06'],
+        goal='Say what you have not done yet, ask permission, say what you need, and read advice and rules at a clinic and a pharmacy.',
+        explain=('第13章速習：45分で基本の20語、«belum»・«Bolehkah saya …?»・«perlu»・«patut»・«mesti»・«wajib»、掲示の «tidak dibenarkan»・«dilarang»、パネルクリニックと薬局の場面を練習し、'
+                 '残りは Kata-Kata で自習します。日本語は未監修です。このパックは医学的な助言をしません。',
+                 'Chapter 13 in one 45-minute session: 20 core words, «belum», «Bolehkah saya …?», «perlu», «patut», «mesti» and «wajib», the signs «tidak dibenarkan» and «dilarang», and the panel clinic and pharmacy scene; '
+                 'then self-study in Kata-Kata. All names and details are fictional and the pack gives no medical advice.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can say what I have not done yet with «belum». / «belum» でまだしていないことを言える。',
+                'I can ask permission with «Bolehkah saya …?». / «Bolehkah saya …?» で許可を求められる。',
+                'I can say what I need («perlu»), and tell advice («patut») from a must («mesti», «wajib»). / «perlu» で必要なことを言い、助言（«patut»）と義務（«mesti»・«wajib»）を区別できる。',
+                'I can read «tidak dibenarkan» and «dilarang» on a sign and ask a pharmacist to say an instruction once more. / 掲示の «tidak dibenarkan»・«dilarang» が読め、薬剤師に指示をもう一度言ってもらえる。'], 'opener'),
+            ('Core words · 基本の20語', core(ledger, C13_WORDS) +
+             ['The full course also teaches «sesuai», «simptom», «kesihatan», «rawatan» and «kecemasan», with the revision words of the whole unit.'], 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · «Saya belum» ___ «.»  e.g. «Saya belum makan.» / «Saya belum mendaftar.»',
+                '2 · «Bolehkah saya» ___ «?»  e.g. «Bolehkah saya masuk?» / «Boleh saya duduk di sini?»',
+                '3 · «Saya perlu» ___ «.»  e.g. «Saya perlu berjumpa doktor.» / «Encik perlu daftar dulu.»',
+                '4 · «Encik patut» ___ «.»  e.g. «Encik patut berehat.» / «Encik mesti baca arahan di label.»',
+                '5 · «Tidak dibenarkan» ___ «di sini.»  e.g. «Tidak dibenarkan minum di sini.» / «Borang ini wajib diisi.»',
+                'Remember: «belum» is not yet, «tidak» is not; «perlu» is a step you take, «patut» is advice and «mesti» or «wajib» is a must; «tidak perlu» is not having to and «tidak boleh» is not allowed. '
+                'On a sign you read «tidak dibenarkan» or «dilarang»; in speech you say «tidak boleh». For your health follow your own doctor and pharmacist.',
+                '«belum» は「まだ〜ていない」、«tidak» は「〜ない」。«perlu» は手順、«patut» は助言、«mesti»・«wajib» は義務。«tidak perlu» は「しなくてよい」、«tidak boleh» は「してはいけない」。'
+                '掲示では «tidak dibenarkan»・«dilarang»、話し言葉では «tidak boleh» です。健康については自分の医者と薬剤師の指示に従ってください。'], 'model'),
+            ('Model conversation · 会話 (fictional)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: You are the receptionist, and later the pharmacist (fictional). The patient has no appointment and has not registered. Never name a medicine, a dose or a time to take it: point to the label.',
+                'B: You are the patient. Register, ask permission twice, say what you need, and ask the pharmacist to say an instruction once more.',
+                'Change of plan: A says «Maaf, doktor belum ada. Encik boleh tunggu, atau datang pukul empat. Sesuai?» B decides and says the time suits.',
+                'A：受付係で、あとで薬剤師にもなります（架空）。患者は予約がなく、まだ受付をしていません。薬の名前・用量・飲む時間は言わず、ラベルを指します。'
+                'B：患者です。受付をし、許可を二回たずね、必要なことを言い、薬剤師に指示をもう一度言ってもらいます。'
+                '変更：Aが «Maaf, doktor belum ada. Encik boleh tunggu, atau datang pukul empat. Sesuai?» と言い、Bは決めて、その時間でよいと言います。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say "I haven\'t registered yet.": ____________________',
+                '☐ 2. Say "May I come in?": ____________________',
+                '☐ 3. Say "I need to see a doctor.": ____________________',
+                '☐ 4. Say "You should rest." to a man: ____________________',
+                '☐ 5. Write the sign "Drinking is not allowed here.": ____________________'], 'test'),
+            ('Self-study guide · 自習ガイド', [
+                f'Before the session: Kata-Kata Sedia Kelas c13 ({sedia_cards(13)} cards, frames ms-c13-f01 and ms-c13-f02).',
+                f'After the session: all {pack_cards(13)} Kata-Kata chapter 13 cards (ms-c13-001 to ms-c13-{last_card(13):03}) and frames ms-c13-f01 to ms-c13-f06 in the frame drill and Susun Ayat; '
+                'the Kata-Kata scenario "At the clinic and the pharmacy" matches this pack.',
+                'No Dunia scene primes chapter 13. The Hanashishou clinic scenes for chapter 13 are not yet tagged by chapter, so they are not assigned yet.',
+                'Optional full-course Cikgu Sensai unit: unit 13 (the panel clinic and the pharmacy).',
+                'Expected self-study: about 9 to 10 hours for this chapter (planning figure).',
+                '授業後：第13章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。'], 'opener')],
+        key=['Self-check: 1 «Saya belum mendaftar.» 2 «Bolehkah saya masuk?» 3 «Saya perlu berjumpa doktor.» '
+             '4 «Encik patut berehat.» 5 «Tidak dibenarkan minum di sini.» (or «Dilarang minum di sini.»)',
+             'Session plan (45 min): 0–5 recall chapters 2 and 12 («Boleh …?», «Tolong» + a request); 5–15 core words; '
+             '15–25 patterns 1 to 5; 25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',
+             'Same content and ledger limits as unit 13. The pack and the unit give no diagnosis, no treatment advice and no dosing instruction. All Japanese is a draft awaiting native review.'])]
+
+
+STAGE2_PACKS.append(dict(
+    chapter_id='ms-c13', check_unit='ms-c13-fast', id_prefix='ms-c13-fast', level='A2',
+    title_prefix='Chapter 13', header='Chapter 13 fast course (ms-c13)',
+    menu_title='Chapter 13 · Health: may, need, should', genre='Health',
+    course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 13)], prerequisite_units=[],
+    prereq_grammar=['ms-c12-g02', 'ms-c12-g03', 'ms-c11-g02', 'ms-c08-g02'],
+    word_scope=C13_WORDS, components=chapter13))

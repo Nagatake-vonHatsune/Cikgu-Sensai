@@ -26,8 +26,30 @@ Collected from every chapter. Builders rewrote the lines instead and added no ro
 | «sejak» (since) | 12 | **recommended, especially** (Sam, 13 Nov): «Sejak semalam» for when a leak started (rewritten to «Bila kebocoran itu bermula?» / «Malam tadi.») |
 | «melapor» / «melaporkan» (to report) | 12 | **recommended** (Sam, 13 Nov): Hanashishou band 2 uses «melaporkan kebocoran»; the unit says «Ada kebocoran di … saya.» |
 | the di- partners «dihubungi», «dibaiki» | 12 | the ledger has only «membaiki» and «menghubungi». **The meN-…-kan forms «menyimpankan», «menghantarkan», «membawakan» are dropped: Sam (13 Nov) says they are not natural and are not taught.** |
+| «sihat» (healthy) | 13 (Claude recommends) | the root of the ledger word «kesihatan»; «Saya sihat.» / «Saya tidak sihat.» (the unit says «Saya demam dan sakit tekak.») |
+| «ahli farmasi» (pharmacist) | 13 | the Kata-Kata speaker label for s16 and s18; the unit uses the English label «Pharmacist» |
+| «beritahu» (to tell) | 13 | "tell the doctor"; the unit says «Saya cakap dengan doktor nanti.» |
+| «tinggalkan» (to leave behind) | 13 | leaving a bag at the counter; the unit says «Boleh saya letak beg di sini?» |
 
-## Latest session: Stage 2 build step 4, chapter 11 fixes and chapter 12 (13 Nov 2026, Claude)
+## Latest session: Stage 2 build step 4, chapter 12 fixes and chapter 13 (13 Nov 2026, Claude)
+
+- **Authorised:** Sam (build step 4, chapter 13 instruction, 13 Nov 2026): the chapter 12 fixes in their own commit, then unit 13; push to main when the checks pass; **stop after chapter 13 for Claude's review** before chapter 14. Started at `b54fde6`. Report: `docs/STAGE-2-ch13-report.md`.
+- **Chapter 12 fixes (`732e336`):** the ‹-kan› rule (bare ‹-kan› for requests and first-person offers or replies; the meN- verb the ledger has after a third-person doer or an aspect word; rephrase where there is no meN- verb; no meN-…-kan forms; the same for the ‹-i› verbs), «… akan menukar paip itu», 12B «Tolong kosongkan lantai itu juga.» deleted, «Penerima Puan Siti, ya?» (no «ialah» in conversation), «Ada berapa kotak di lobi?», the guardhouse and management-office notes in two lines, the old «Ambil bungkusan di lobi» placeholder retired from the course menu with its six legacy lessons and ten legacy exceptions (30 to 20), Sam's answers in `docs/stage-2-decisions.md` section 9, and «sejak», «melaporkan» and «salinan» marked "recommended" in the backlog.
+- **Chapter 13 (the commit after `732e336`):** unit 13 (the panel clinic and the pharmacy: 25 core words, no recognition word) and the chapter 13 fast pack: 5 blocks = 3.75 h, plus 1 fast block. The plan gives chapter 13 no writing or review block, so none was built. Both are in `curriculum/reauthored-units.json` with zero gaps and zero violations. Build: 463 packs, 2,862 pages, 20 violations and 199 gaps (none in chapter 13). **223 tests** pass (15 new in `tests/test_stage2_ch13.py`, 1 new in the chapter 12 file).
+- **Waiting for:** Claude's review of chapter 13; Sam's answers to the four questions at the end of the report (the five-pattern grouping, «mendaftar» first, «MC» as recognition, the fictional notices) and the 12 native-read lines.
+- **Next:** after the review, chapter 14 (reasons, conditions, purpose, contrast and sequence; Kata-Kata c14 is already in the snapshot), with its writing block, using the template note below.
+- **Environment note:** `build.py` needs `pymupdf`, `fonttools`, `brotli` and `fonts-noto-cjk` (apt; run `apt-get update` first), and a full Git checkout.
+
+### What chapter 13 added to the template below
+
+- A **single-unit chapter** uses `label='13'`, `unit_id='ms-c13'`, `extra=None` and the menu entry `("…", "Health", [("13", [])])`; there is no Block "Skills" and no additional block. Genre names are free text (`Health`).
+- Kata-Kata gives **six frames**; the charter allows five patterns, so a pattern can carry two frames (the pattern ID string is `ms-c13-f05 and f06`; `pattern_ids` still lists all six). The model conversation is limited to 16 turns: put the first 14 scenario lines in it and the rest (the pharmacy) in the task key and the E-block listening. Every scenario line must still appear word for word somewhere in the unit.
+- A statement with a third-person doer or an aspect word uses the meN- verb the ledger has (the chapter 12 -kan rule); a bare ‹-i› or ‹-kan› verb is for requests and first-person replies. `tests/test_stage2_ch12.py::test_kan_rule_in_statements` and `tests/test_stage2_ch13.py::test_kan_rule_in_statements` hold the regex.
+- **Safety units:** a test checks that no diagnosis, medicine, dose or dosing instruction appears in Malay and that the doctor and pharmacist lines are from a short allowed list. Reuse it for any later health-adjacent chapter.
+- A spoken form that is part of a ledger headword (L-1200 «cuti sakit / MC») needs a `GLOSS` entry when the meaning contains Malay; label «MC» spoken wherever it appears. Test-item `words` are headwords («dibenarkan», not «tidak dibenarkan»). A quoted formal word to avoid («ialah») is a «…» mention in a teacher note and is checked out of the pupil-facing lines only.
+- Retiring a legacy pack: add its lesson titles to `superseded` in `course.py`, drop its group from the final list, remove exactly its keys from `curriculum/legacy-exceptions.json`, add the titles to `retired` in `tests/test_catalogue.py`, and lower the exception count in the tests (now 20).
+
+## Previous session: Stage 2 build step 4, chapter 11 fixes and chapter 12 (13 Nov 2026, Claude)
 
 - **Authorised:** Sam (build step 4, chapter 12 instruction, 13 Nov 2026): the chapter 11 fixes in their own commit, then units 12A and 12B; push to main when the checks pass; **stop after chapter 12 for Claude's review** before chapter 13. Started at `839ea18`. Report: `docs/STAGE-2-ch12-report.md`.
 - **Chapter 11 fixes (`76964a3`):** 11A pattern 2 «Siapa yang membaca emel itu?»; 11A model conversation «Encik Tanaka yang membeli kopi itu.» (the question before it is now «Siapa yang membeli kopi itu?»; teacher note: focus with «yang» in speech, di- … oleh for drills and written notices); «dari atas meja»; 11B listening «Seratus ringgit untuk satu hari.» (the revision word «setiap» was dropped from 11B). Sam's seven answers are in `docs/stage-2-decisions.md` section 8. «tandatangan» and the word-proposals backlog are in the two lists below.
@@ -43,7 +65,7 @@ Collected from every chapter. Builders rewrote the lines instead and added no ro
 - Test-item `words` must be ledger headwords («borang», «aduan», not «borang aduan»). English prose uses "slot" (added to `ENGLISH_HOMOGRAPHS`); ledger meanings that contain Malay need a `GLOSS` entry (done for L-1179 and L-1180).
 - A word in the starred wrong form that has two parts fails the unmarked-Malay check; describe it in words («a に-word such as «dengan»»).
 - `ROOTS` for a suffix unit holds `(root, where, where_ja, what the suffix adds, in Japanese)`.
-- The old "future" placeholder «Ambil bungkusan di lobi» is still listed as Chapter 12 beside the new chapter 12 (retiring it changes the legacy exceptions, which may only shrink): decision for Sam, see the report.
+- The old "future" placeholder «Ambil bungkusan di lobi» was listed as Chapter 12 beside the new chapter 12; Sam decided to retire it (13 Nov 2026) and it is gone (see the chapter 13 session above).
 
 ## Previous session: Stage 2 build step 4, chapter 10 fix and chapter 11 (13 Nov 2026, Claude)
 
