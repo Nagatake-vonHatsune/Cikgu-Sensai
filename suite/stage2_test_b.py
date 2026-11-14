@@ -90,7 +90,7 @@ VERSION = dict(
                          words=['dibenarkan', 'ditutup'])]),
         dict(title='A message from the guardhouse · 守衛所からのメッセージ',
              text=['A fictional WhatsApp message:',
-                   '«Selamat petang, Encik Kimura. Ada dua bungkusan untuk encik di pondok pengawal. Satu kotak basah, jadi kami simpan kotak '
+                   '«Selamat petang, Encik Kimura. Ada dua bungkusan untuk encik di pondok pengawal. Satu kotak basah, jadi kami menyimpan kotak '
                    'itu di pejabat. Juruteknik akan datang ke unit encik hari Selasa pukul tiga petang untuk membaiki lampu dapur. Kalau encik '
                    'pulang lewat, sila hubungi pondok pengawal. Terima kasih. Pengawal»'],
              items=[dict(q='Where is the wet box, and why is it there?', ja='濡れた箱はどこにありますか。なぜそこにあるのですか。',

@@ -742,3 +742,7 @@ Unit 17 (24 core, no recognition word) is built as one unit of five blocks, with
 ## Build step 5 prep: refresh and fast packs (14 Nov 2026)
 
 `curriculum/reference/katakata/` c17 and both ledger copies now come from Kata-Kata 1987ab9 (step 3f): card ms-c17-026 is gone and L-1303 «minggu depan» is Retired (chapter 4 teaches it: L-0167 «minggu» and card ms-c04-019). `curriculum/phrases-taught-earlier.json` and the code that read it are removed. **Stage 2 core is 270** (17 = 25). The chapter 10 to 13 fast packs now hold all their core words (44, 45, 48, 29), as chapters 14 to 17 do (Sam's rule from chapter 15).
+
+## Build step 5: chapter 18 (14 Nov 2026)
+
+Chapter 18 is built as this plan gives it: 18A integrated review, 18B rehearsal and targeted repair, 18C the written A2 check (12 + 15 + 18 minutes), 18D speaking (about 7 minutes a learner, six learners per examiner), 18E feedback, can-do review, Hanashishou band 1 scenes (named only) and a practice plan; the fast pack with 20 review words and a pointer to the test; the A2 stage test in versions A and B with keys, scripts, an administration sheet and an item map. No new word. Every chapter 10 to 17 pattern returns in 18A; chapters 16 and 17 return again in 18B and are carried forward to Stage 3. The hours check holds: 67 blocks = 50.25 hours. Report: `docs/STAGE-2-ch18-report.md`.

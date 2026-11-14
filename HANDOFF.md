@@ -2,6 +2,23 @@
 
 Update this file at the end of every session. The next builder (ChatGPT or Claude) starts here, after the charter and `AGENTS.md`.
 
+## Stage 2 is built: build step 5, chapter 18 (14 Nov 2026, Claude)
+
+- **Authorised:** Sam (the chapter 18 instruction, 14 Nov 2026): a prep commit, then chapter 18; push to main when the checks pass; **stop at the end for Claude's review.** Started at `4f2391b`. Report: **`docs/STAGE-2-ch18-report.md`** (blocks and timings, the item map, the pass rule, 12 native-read lines, the six pages looked at, six questions for Sam).
+- **Prep (`7d45aac`):** c17 and both ledger copies from Kata-Kata **1987ab9** (step 3f): L-1303 «minggu depan» Retired, card ms-c17-026 gone; `curriculum/phrases-taught-earlier.json` and its checker condition removed; **Stage 2 core 270** (17 = 25); the chapter 10 to 13 fast packs widened to all core words. **Ledger Journal row 200 can be closed** (both halves done; the sheet is not ours to edit, so `tests/test_step5h_stage1.py` allows L-1303's stale action cell).
+- **Chapter 18 (`73b9d98`, plus the report commit):** `suite/ms_c18.py` (unit 18: teaching plan, 18A integrated review, 18B rehearsal and targeted repair, 18E feedback, can-do review, Hanashishou band 1 scenes named only, practice plan); `suite/stage2.py` with `stage2_test_a.py` and `stage2_test_b.py` (the A2 stage test for 18C and 18D: versions A and B, scripts, administration sheet, item map with chapter and pattern per item, the Stage 2 record); the chapter 18 fast pack in `suite/fast.py`. Pass 48/80 with 10/20 per section is **Sam's decision A1** (the charter has no A2 rule). **Hours: 67 blocks = 50.25 h**, counted from the catalogue by a test. Build: **557 packs, 3,456 pages**, 20 violations and 188 gaps (none in a re-authored unit). **332 tests** pass (22 new in `tests/test_stage2_ch18.py`).
+- **Waiting for:** Claude's review of chapter 18; Sam's answers to the six questions at the end of the report (pass rule into the charter; the compulsory-card reading; the wrong lines in the 18B repair; the one practice-word use; the native-read lines; the avoided words).
+- **What remains of the project after the review:**
+  1. **Build step 6 (Hanashishou session):** chapter tags on every Malay scene (all reachable text, every branch), graded or deferred branches, the Jambatan bridge rebuilt from the tags, the L-0592 → L-0330 «pintu masuk» mapping. Chapter 18 names twelve band 1 scenes (18E) without assigning them; after step 6, the 18E list and each chapter's Hanashishou note can link tagged scenes.
+  2. **End of project:** the Kamus Dewan check of every ledger row marked "KD4 check" or "Not yet checked" (ledger Journal row 128), and the native reviews (all Japanese in Cikgu Sensai; the Malay native-read lines collected in the chapter reports).
+  3. **Stage 3 carry-forward:** the third return of the chapter 16 and 17 patterns (the Stage 2 record's `stage3_carry_forward`), when Stage 3 is planned after the Stage 2 pilot.
+- **Template note for a later stage close:** a stage close is a labelled unit (`label='18'`, no vocabulary, `word_scope=None`, components with `block='18A'` …) plus a stage unit (`stage='stage2'`, `label=None`, `chapter_id` of the closing chapter) whose components `course.py` lists as `stage_items`; `catalogue.BLOCKS_18` gives the closing chapter its own block activities; `stage2.stage_record` is the catalogue's second stage. Check every new line with the checker at the last teaching chapter (17 here) before it goes in. Test-item `words` must be ledger headwords («dibenarkan», «menunggu», «bilik», not «tidak dibenarkan» or «bilik menunggu»).
+- **Environment:** as before (`pymupdf`, `fonttools`, `brotli`, `fonts-noto-cjk`, a full Git checkout). The build took about 2 minutes this session.
+
+## Word proposals from chapter 18
+
+None needed: every line was written with chapter 1 to 17 words. Avoided (lines rewritten, **not proposed**): «pesakit», «restoran», «laporan», «penghuni», «pasukan», «tepi», «kain», «lap». The report asks Sam whether «pesakit» should go on a backlog for Stage 3.
+
 ## Stage 2 clean-up (14 Nov 2026, Claude) and the chapter 18 starting point
 
 - **Authorised:** Sam (the Stage 2 clean-up instruction, 14 Nov 2026): refresh from Kata-Kata, rules fixes, chapter 17 fixes, the approved words back into the units; push to main when the checks pass; **stop for Claude's review before chapter 18.** Started at `5d131e1`. Report: **`docs/STAGE-2-cleanup-report.md`** (what changed per part, the lines per chapter, the PDF text finding, the pages I looked at and the questions for Sam).

@@ -178379,9 +178379,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 2 · A2 stage test · Version B · Reading|3|16": {
-  "source_text": "Selamat petang, Encik Kimura. Ada dua bungkusan untuk encik di pondok pengawal. Satu kotak basah, jadi kami simpan kotak itu di pejabat. Juruteknik akan datang ke unit encik hari Selasa pukul tiga petang untuk membaiki lampu dapur. Kalau encik pulang lewat, sila hubungi pondok pengawal. Terima kasih. Pengawal",
+  "source_text": "Selamat petang, Encik Kimura. Ada dua bungkusan untuk encik di pondok pengawal. Satu kotak basah, jadi kami menyimpan kotak itu di pejabat. Juruteknik akan datang ke unit encik hari Selasa pukul tiga petang untuk membaiki lampu dapur. Kalau encik pulang lewat, sila hubungi pondok pengawal. Terima kasih. Pengawal",
   "target_spans": [
-   "Selamat petang, Encik Kimura. Ada dua bungkusan untuk encik di pondok pengawal. Satu kotak basah, jadi kami simpan kotak itu di pejabat. Juruteknik akan datang ke unit encik hari Selasa pukul tiga petang untuk membaiki lampu dapur. Kalau encik pulang lewat, sila hubungi pondok pengawal. Terima kasih. Pengawal"
+   "Selamat petang, Encik Kimura. Ada dua bungkusan untuk encik di pondok pengawal. Satu kotak basah, jadi kami menyimpan kotak itu di pejabat. Juruteknik akan datang ke unit encik hari Selasa pukul tiga petang untuk membaiki lampu dapur. Kalau encik pulang lewat, sila hubungi pondok pengawal. Terima kasih. Pengawal"
   ],
   "mention_spans": [],
   "kind": "test",
