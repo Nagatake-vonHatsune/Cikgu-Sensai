@@ -192,3 +192,27 @@ Sam's answers to the questions in `docs/STAGE-2-ch16-report.md`, and the fixes h
 | Mei Ling's unit | Mei Ling lives in Block C, unit 5-2 (her chapter 12 complaint form). The writing model and the changed-facts variant said Block B, unit 12-3 and Block A, unit 8-5. Checked every chapter 10 to 16 line: Tanaka is Block B, unit 12-3; Siti is Block A, unit 8-1; Mei Ling is Block C, unit 5-2 (no other mix-up). |
 | Superlatives after a noun | «Beg ini yang terbesar.», «Telefon itu yang termurah, tetapi …», «Telefon ini yang terbaik?» (the Kata-Kata frame example «Yang ini termurah, tetapi dompet saya tertinggal di rumah.» is unchanged). |
 | Model conversation | No join across a scene change: the model is s01 to s11 (11 turns) and the clinic scene is the Block E dialogue in the teaching plan. The fast pack's model ends at s11 too. |
+
+## 14. Chapter 17 fixes and the chapter 17 questions (Sam, 14 November 2026; Claude)
+
+Sam's chapter 17 fixes, from the Stage 2 clean-up instruction (14 Nov 2026), made in `suite/ms_c17.py` (the chapter 17 fast pack did not hold any of these lines). The questions of `docs/STAGE-2-ch17-report.md` were **not contested by Sam**: they stay as built and are recorded below as Claude's recommendations.
+
+| # | What | Decision |
+| --- | --- | --- |
+| Fix 1 | «Lain kali, ya?» | **A soft no, like Japanese また今度 (Sam).** In the reading and the writing model, drop «Lain kali, ya?» wherever the writer offers a new day («Bagaimana kalau hari Khamis?»). The reading reply and the test reading now end at the suggestion; the answer to «What does he suggest?» is «Thursday» only. The Kata-Kata frame f02 («Sayangnya saya tidak ___. Lain kali, ya?») and every refusal that offers no day keep it. A teacher note says so. |
+| Fix 2 | «Saya ajak Encik Tanaka makan malam. Sudikah encik datang?», said to Tanaka | **«Saya mahu ajak encik makan malam. Sudikah encik datang?»** (the vocabulary example for «ajak», a statement about Tanaka to someone else, is unchanged). |
+| Fix 3 | «Sudikah cik singgah di pejabat dulu?» | **«Boleh cik singgah di pejabat dulu?»** Sam: «sudi» is very polite, for invitations; «boleh» is the casual, common choice. Teacher note added. |
+| Fix 4 | «Kafe itu pedas.» | **«Makanan di kafe itu pedas.»** (pattern 3). Claude also changed the same slip in the short dialogue «Terima kasih. Tetapi kafe itu pedas.» (now «… makanan di kafe itu pedas.»); the Kata-Kata line s11 already says «makanan di kafe itu pedas». |
+| Fix 5 | «Terima kasih. Saya ada hari lain.» | **«Terima kasih. Kita cari hari lain.»** (short-dialogue key). |
+| Fix 6 | «Terima kasih atas jemputan puan. Saya datang.» | **«… Saya akan datang.»** (pattern 1). |
+
+| # | Chapter 17 question | Claude's recommendation, not contested by Sam (all as built) |
+| --- | --- | --- |
+| Q1 | The model is s01 to s16, one line to a turn | **As built.** No join across a scene change; s07 and s08 (both «Puan» Aini) stay separate; the mamak scene s17 to s20 is the Block E dialogue. |
+| Q2 | No spoken form in «…» in the Opener and the goals | **As built.** The goals say "the spoken forms" in English; the standard form is taught first. |
+| Q3 | «mamak» in English prose | **As built.** «mamak» is in `ENGLISH_HOMOGRAPHS`; the Malay uses are marked. |
+| Q4 | The Sedia Kelas festival card (ms-d-perayaan-raya-05) | **Kept out of Cikgu Sensai** (no festival and no faith-specific expression in this unit). |
+| Q5 | Five patterns: f04 and f05 share pattern 4 | **As built.** |
+| Q6 | Spoken forms with friends, standard with a senior colleague | **As built.** |
+| Q7 | Menu names «Spoken Malay and invitations», «Invitations» | **As built.** |
+| Q8 | The `build.py` memory fix (same output) | **Keep.** |

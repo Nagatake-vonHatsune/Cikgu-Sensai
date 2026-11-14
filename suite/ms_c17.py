@@ -175,10 +175,10 @@ P = [
     ('ms-c17-f01', '«Sudikah encik» ___ «?»  (a polite invitation)', [
         'A: «Ini jemputan makan malam pejabat. Sudikah encik datang?» B: «Terima kasih, Puan Aini. Pukul berapa?»',
         'A: «Sudikah puan makan dengan kami hari Jumaat?» B: «Terima kasih. Saya lapang pada hari Jumaat.»',
-        'A: «Sudikah cik singgah di pejabat dulu?» B: «Boleh. Saya singgah pukul enam.»',
-        'A: «Sudikah encik datang ke rumah saya hujung minggu ini?» B: «Terima kasih atas jemputan puan. Saya datang.»',
+        'A: «Boleh cik singgah di pejabat dulu?» B: «Boleh. Saya singgah pukul enam.»',
+        'A: «Sudikah encik datang ke rumah saya hujung minggu ini?» B: «Terima kasih atas jemputan puan. Saya akan datang.»',
         'A: «Bos belanja. Sudikah encik datang?» B: «Siapa lagi yang datang?»',
-        'A: «Saya ajak Encik Tanaka makan malam. Sudikah encik datang?» B: «Terima kasih. Saya setuju.»'],
+        'A: «Saya mahu ajak encik makan malam. Sudikah encik datang?» B: «Terima kasih. Saya setuju.»'],
      "«sudi» is polite: you ask the other person, never about yourself. «Sudikah encik datang?» (the Kata-Kata frame) means \"would you be willing to come?\" and is for someone senior, a client or someone you do not know well. "
      "The same invitation can be written on a card as a «jemputan». With «kami» (we, not you) the host speaks for a group: «Sudikah puan makan dengan kami?»; «kita» (we, with you) comes after the answer: «Kita pergi sama-sama.» "
      "«ajak» is friendlier: «Saya ajak encik makan malam.» A written invitation from a person is «jemputan daripada Puan Aini» («daripada» for people and offices, never «dari»).",
@@ -204,7 +204,7 @@ P = [
      '日本語の「ちょっと…」は断りを言わずに相手の察しに任せます。マレー語はやわらげても断りを言います：«Sayangnya …» と理由、そのあと別の機会。«Susah» だけの返事や沈黙では主催者が分からないことがあり、はっきりした理由と «Lain kali, ya?» が、ていねいで伝わる言い方です。'),
     ('ms-c17-f03', '«Bagaimana kalau» ___ «?»  (suggesting another time or place)', [
         'A: «Hari Sabtu saya tidak lapang.» B: «Bagaimana kalau hari Jumaat?»',
-        'A: «Kafe itu pedas.» B: «Bagaimana kalau kita makan di kedai lain?»',
+        'A: «Makanan di kafe itu pedas.» B: «Bagaimana kalau kita makan di kedai lain?»',
         'A: «Kita makan pukul tujuh?» B: «Bagaimana kalau pukul lapan?»',
         'A: «Hari Jumaat saya tidak boleh datang.» B: «Bagaimana kalau hari Isnin?»',
         'A: «Bagaimana kalau kita makan di rumah saya?» B: «Itu cadangan yang bagus.»',
@@ -420,9 +420,9 @@ CFG = dict(
     short_dialogues=[
         ('Sudikah encik datang hari Jumaat?', 'Terima kasih. Setuju!', 'a polite invitation'),
         ('Sayangnya saya tidak lapang hari ini.', 'Tidak mengapa. Lain kali, ya?', 'a refusal'),
-        ('Jom makan kat kafe ni!', 'Terima kasih. Tetapi kafe itu pedas.', 'friends'),
+        ('Jom makan kat kafe ni!', 'Terima kasih. Tetapi makanan di kafe itu pedas.', 'friends'),
         ('Bagaimana kalau hari Isnin?', 'Itu cadangan yang bagus.', 'a suggestion')],
-    short_keys=['1 «Pukul berapa?» 2 «Terima kasih. Saya ada hari lain.»',
+    short_keys=['1 «Pukul berapa?» 2 «Terima kasih. Kita cari hari lain.»',
                 '3 «Takpe. Kita cari kedai lain.» 4 «Setuju! Hari Isnin, pukul tujuh.»'],
     markers=dict(
         title='Markers in invitations', grammar='invite',
@@ -483,11 +483,11 @@ CFG = dict(
     reading_title='Reading and writing · A written invitation and a reply',
     reading=['A fictional message from the office and a written reply (standard Malay; all names are invented):',
              '«Encik Tanaka, ini jemputan makan malam pejabat. Hari: Jumaat. Pukul: tujuh malam. Tempat: kedai makan dekat pejabat. Bos belanja. Sudikah encik datang? Sila hubungi Puan Aini. Terima kasih.»',
-             'Reply: «Terima kasih, Puan Aini. Saya segan untuk menolak jemputan puan, tetapi hari Jumaat saya tidak lapang. Bagaimana kalau hari Khamis? Lain kali, ya?»'],
+             'Reply: «Terima kasih, Puan Aini. Saya segan untuk menolak jemputan puan, tetapi hari Jumaat saya tidak lapang. Bagaimana kalau hari Khamis?»'],
     read_questions=['What is the message, and who is it for?', 'On what day and at what time?', 'Where is it?', 'Who pays?', 'What does the reply say about the invitation?',
                     'Why can the person not come?', 'What does he suggest?'],
     read_answers=['an invitation to the office dinner; Mr Tanaka', 'on Friday at seven in the evening', 'at a restaurant near the office', 'the boss',
-                  'he is reluctant to turn it down', 'he is not free on Friday', 'Thursday; and another time'],
+                  'he is reluctant to turn it down', 'he is not free on Friday', 'Thursday'],
     write_instruction='Write three or four sentences in standard Malay (no spoken forms) to reply to the invitation (fictional): thank, say yes or no, give a reason, suggest a day. / '
                       '標準のマレー語（話し言葉は使わない）で、この招待への返事を3〜4文で書きましょう（架空でよい）：お礼、賛成か断りか、理由、別の日の提案を入れます。',
     write_model='«Terima kasih, Puan Aini. Saya setuju. Hari Jumaat saya lapang. Saya singgah di pejabat pukul enam.»',
@@ -522,7 +522,7 @@ CFG = dict(
                   ('Say in Malay: "Unfortunately I am not free on Saturday. Another time?"', '«Sayangnya hari Sabtu saya tidak lapang. Lain kali, ya?»', ['sayangnya', 'lapang', 'lain kali']),
                   ('Say in Malay: "How about Friday?"', '«Bagaimana kalau hari Jumaat?»', ['bagaimana', 'kalau', 'Jumaat']),
                   ('Say in Malay, in the standard form: "I can\'t stand spicy food."', '«Saya tidak boleh tahan pedas.» (the spoken «Saya tak tahan pedas.» is also right in conversation)', ['tidak boleh tahan', 'pedas'])],
-    test_reading=['Fictional message: «Puan Aini, terima kasih atas jemputan puan. Sayangnya hari Sabtu saya ada mesyuarat. Bagaimana kalau hari Jumaat? Lain kali, ya?»'],
+    test_reading=['Fictional message: «Puan Aini, terima kasih atas jemputan puan. Sayangnya hari Sabtu saya ada mesyuarat. Bagaimana kalau hari Jumaat?»'],
     reading_quiz=[('What is the writer doing?', 'thanking for an invitation and declining it', ['terima kasih', 'jemputan']),
                   ('Why can the writer not come?', 'a meeting on Saturday', ['mesyuarat', 'Sabtu']),
                   ('What does the writer suggest?', 'Friday', ['bagaimana', 'kalau', 'Jumaat']),
@@ -564,6 +564,8 @@ CFG = dict(
                    '«Lain kali saya belanja.» is the kind answer to a treat. «menolak» is «tolak» (chapter 9, push) with meN-; here it means to decline.',
                    '«jom», «mari», «ajak», «jemput» and «sudi» are different tones, not shortenings of one another: «Sudikah encik datang?» (polite, to a senior person), «Mari kita pergi.» (standard), «Jom makan!» (friends), «Saya ajak encik.» (friendly), «Ini jemputan daripada Puan Aini.» (a written invitation). '
                    '«sudi» asks the other person and is not used about yourself.',
+                   '«sudi» is very polite and belongs to invitations («Sudikah encik datang?»); «boleh» is the casual, common choice in an everyday request («Boleh cik singgah di pejabat dulu?»). Teach «sudi» for a senior person, a client or a formal invitation, and «boleh» for colleagues and friends (Sam, 14 Nov 2026).',
+                   '«Lain kali, ya?» is a soft no, the same job as Japanese また今度: it closes the matter kindly and promises no day (Sam, 14 Nov 2026). When the writer really offers a new day, say the day («Bagaimana kalau hari Khamis?») and do not add «Lain kali, ya?»; the reading and the writing model do exactly that. Use «Lain kali, ya?» when you decline and no new day is meant.',
                    '«kami» against «kita» in invitations: «Sudikah puan makan dengan kami?» (the host speaks for a group; «kami» does not include the listener) and «Kita pergi sama-sama.» (all of us together; «kita» includes the listener).',
                    'The ‹-kan› and bare-root rules from chapters 12 to 16 still hold: a dialogue line may keep Kata-Kata\'s everyday bare root («Saya tanya bos dulu.», «Kita pergi sama-sama.»), and a request takes the plain root; the written reply and the pattern examples use «menerima» and «menghantar». '
                    '«tangguhkan» and «batalkan» are not used in this unit. «dari» is for places and «daripada» for people and offices («jemputan daripada Puan Aini»).',

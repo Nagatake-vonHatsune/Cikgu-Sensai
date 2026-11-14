@@ -36,6 +36,18 @@ class StageRulesFixtures(unittest.TestCase):
             'indonesian-in-do-not-use-note-passes','spoken-before-standard-fails','tak-apa-before-tidak-mengapa-fails','tidak-mengapa-with-both-spoken-forms-passes','termurah-does-not-unlock-terjatuh','lah-in-answer-key-fails','indonesian-tanda-tangan-fails','tandatangan-joined-passes','tanda-tangan-in-do-not-use-note-passes','tanda-tangan-mention-without-do-not-use-fails']:
    self.assertIn(i,ids)
 
+class TandatanganSpelling(unittest.TestCase):
+ def test_no_spaced_tanda_tangan_in_the_units(self):
+  """Sam, 13 Nov 2026: «tandatangan» is one word in Malaysian Malay; the spaced form is Indonesian (rule: disallowed form)."""
+  hits=[]
+  for folder,pattern in (('suite','*.py'),('curriculum','*.txt')):
+   for path in sorted((ROOT/folder).glob(pattern)):
+    for n,line in enumerate(path.read_text(encoding='utf-8').splitlines(),1):
+     if re.search(r'tanda\s+tangan',line,re.I):hits.append(f'{path.name}:{n}')
+  self.assertEqual(hits,[])
+  self.assertIn('Tolong tandatangan di sini.',(ROOT/'suite/ms_c11b.py').read_text(encoding='utf-8'))
+  self.assertIn('«Ini tandatangan saya.»',(ROOT/'suite/ms_c02b.py').read_text(encoding='utf-8'))
+
 class StageRulesFile(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
