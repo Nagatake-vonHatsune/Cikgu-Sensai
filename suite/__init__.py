@@ -304,6 +304,14 @@ def vocab(ledger, groups):
 
 # Ledger glosses that contain Malay examples, re-marked so the Malay is checked.
 GLOSS = {
+    # Stage 2 chapters 10 to 13 fast packs widened to all core words (chapter 18 prep): ledger meanings that contain Malay.
+    'L-0792': dict(en='to keep, to store (standard form of «simpan»)', ja='保管する、取っておく（«simpan» の標準形）'),
+    'L-1107': dict(en='to be aged (standard; «Umur saya …» is everyday)'),
+    'L-1111': dict(en='to be named (written or formal; «Nama saya …» is everyday)'),
+    'L-1117': dict(en='to spend money; to shop (‹belanja› alone, chapter 17, means to treat someone)', ja='お金を使う・買い物をする（‹belanja› だけだと「おごる」：第17章）'),
+    'L-1153': dict(en='check, review (as a request: «Tolong semak …»)'),
+    'L-1170': dict(en='tracking number (written label; «nombor tracking» is spoken)', ja='追跡番号（書き言葉・ラベル表記。話し言葉は «nombor tracking»）'),
+    'L-1177': dict(en='fill in, put in (request; «isi» alone is more common in speech)'),
     'L-0983': dict(en='also, too (after the word: «Saya pun baik»)'),
     'L-0988': dict(en='yes/no question opener («Adakah …?» = Is it …?)'),
     'L-0783': dict(en='Can …? / May I …? (polite)', ja='「〜できますか・〜してもいいですか」（«boleh» のていねいな形）'),

@@ -228,3 +228,10 @@ Sam approved the word proposals backlog (31 core rows L-1273 to L-1303, Kata-Kat
 | 3 | **The six practice-pool rows are not core.** They are in no core count, coverage test, fast pack or chapter 18 test key. The checker reads their place («Dunia · Kata biasa (primes Ch18)») as chapter 18; one of them, «bersukan», is now quoted in unit 10A as a ‹bersukan› mention (practice word, not taught). | `tests/test_stage2_cleanup.py`, `curriculum/malay-mentions.json` |
 | 4 | **L-1303 «minggu depan» is placed at chapter 17 but «minggu depan» is already taught at chapter 4** (Kata-Kata card ms-c04-019; used in 4B, 7 and 10B). The checker would call the early uses forward references, so `curriculum/phrases-taught-earlier.json` lets the phrase through from chapter 4. **Question for Sam** (the report): move the row's place to Ch4, or keep this exception. | `curriculum/phrases-taught-earlier.json`, `language_checks.py` |
 
+## 16. Chapter 18 prep (Sam's chapter 18 instruction, 14 November 2026; Claude)
+
+| # | What | Done |
+| --- | --- | --- |
+| 1 | L-1303 «minggu depan» | **Retired in the ledger** (Kata-Kata step 3f, Journal row 200): chapter 4 teaches it. Card ms-c17-026 is gone; `curriculum/phrases-taught-earlier.json` and its checker condition are removed; unit 17 keeps «Saya belanja minggu depan.» as revision. Stage 2 core is **270** (17 = 25). This answers question 1 of `docs/STAGE-2-cleanup-report.md`; Journal row 200 can be closed (the sheet is not Cikgu Sensai's to edit). |
+| 2 | Fast packs 10 to 13 | **Widened to all core words** (44, 45, 48, 29), as chapters 14 to 17 (Sam's rule from chapter 15). This answers question 2 of the clean-up report and replaces ruling 2 of section 15 for chapters 10 to 13. |
+

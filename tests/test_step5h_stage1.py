@@ -475,7 +475,7 @@ class KataKataCleanup(unittest.TestCase):
     ALLOWED_OPEN = [
         r'KD4 check( \([^)]*\))?(; refresh Cikgu Sensai snapshot)?',
         r'refresh Cikgu Sensai snapshot',
-        r'KD4 check; refresh Kata-Kata Dunia card',  # L-0530 only: stale, Kata-Kata did it in step 3e (see the comment in the test)
+        r'Covered by Ch4 \(L-0167 minggu \+ card ms-c04-019 depan, whose note teaches minggu depan\); Kata-Kata: drop card ms-c17-026; Cikgu Sensai: drop curriculum/phrases-taught-earlier\.json',  # L-1303: both done (see the comment in the test)
         r'KD4 check; Cikgu Sensai: rewrite the 3B line that uses it',
         r'remove from Cikgu Sensai unit 1 \(vocabulary, culture note, pronunciation, teaching plan\)',
         r'Hanashishou: map the daily-life card to L-0330',
@@ -492,10 +492,11 @@ class KataKataCleanup(unittest.TestCase):
         import re
         rows = self.rows()
         self.assertEqual(len(rows), 1309)  # L-0001 to L-1088 (Stage 1), L-1089 to L-1265 (Stage 2 build step 1, Sam approved 13 Nov 2026), L-1266 to L-1272 (takpe, tidak boleh tahan, mendaftar, tangguhkan, batalkan, memakai, berwarna; Sam, synced from Kata-Kata 7fbe173), L-1273 to L-1309 (37 rows from Kata-Kata step 3e, 907946f: 31 core, 6 practice pool)
-        # L-0530 «tandatangan» still says "refresh Kata-Kata Dunia card" in the sheet: Kata-Kata did that in its step 3e
-        # (ms-d-pejabat-pagi-08 rebuilt) and the Cikgu Sensai session may not edit the sheet, so the stale cell is
-        # allowed here until a ledger session clears it (Stage 2 clean-up report, questions).
-        self.assertEqual([r['ID'] for r in rows if 'kata-kata' in r['Action (open)'].lower()], ['L-0530'])
+        # L-0530 is cleared («KD4 check», Kata-Kata step 3f, Journal row 201). L-1303 «minggu depan» (Retired) names both
+        # repositories: Kata-Kata dropped card ms-c17-026 in step 3f and Cikgu Sensai dropped curriculum/phrases-taught-earlier.json
+        # in the chapter 18 prep commit, so Journal row 200 can be closed; the sheet is not ours to edit, so the cell is allowed here.
+        self.assertEqual([r['ID'] for r in rows if 'kata-kata' in r['Action (open)'].lower()], ['L-1303'])
+        self.assertFalse((ROOT / 'curriculum/phrases-taught-earlier.json').exists())
         # Every remaining open action is one of the known kinds; a new kind (for example "Add ... card" without the words
         # Kata-Kata) fails here and has to be looked at.
         for r in rows:

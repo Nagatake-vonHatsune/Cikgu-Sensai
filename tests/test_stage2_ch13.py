@@ -111,7 +111,7 @@ class Chapter13(unittest.TestCase):
                 self.assertNotIn(lid, cfg['core'])
         stage2 = {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
                   and re.match(r'Ch1[0-7] \(unit \w+\)(?:;|$)', r['Kata-Kata place'])}
-        self.assertEqual(len(stage2), 271)  # 240 + the 31 words approved on 13 and 14 Nov 2026 (L-1273 to L-1303); the six practice-pool rows are not core
+        self.assertEqual(len(stage2), 270)  # 240 + the 31 words approved on 13 and 14 Nov 2026 (L-1273 to L-1303), less L-1303 «minggu depan», Retired (Kata-Kata step 3f); the six practice-pool rows are not core
         # No ledger row carries a recognition place for chapter 13.
         self.assertFalse([lid for lid, r in rows.items() if re.match(r'Ch13 \(unit 13, recognition', r['Kata-Kata place'])])
         self.assertEqual(cfg['recognition'], [])
@@ -371,8 +371,8 @@ class Chapter13(unittest.TestCase):
         self.assertEqual(l['suite']['course_path'], 'fast')
         self.assertEqual(l['level'], 'A2')
         core = [x for x in self.lines(l, 'Core words') if re.search(r'\[L-\d{4}\]$', x)]
-        self.assertEqual(len(core), 24)  # 20 + L-1285 to L-1288 (14 Nov 2026)
-        self.assertTrue(set(fast.C13_WORDS) <= set(ms_c13.CORE))
+        self.assertEqual(len(core), 29)  # all chapter 13 core words (Sam's rule from chapter 15, widened in the chapter 18 prep)
+        self.assertEqual(set(fast.C13_WORDS), set(ms_c13.CORE))
         patterns = [x for x in self.lines(l, 'Key patterns') if re.match(r'^\d · ', x)]
         self.assertEqual(len(patterns), 5)
         for line in patterns:

@@ -75,7 +75,7 @@ class LanguageChecksTests(unittest.TestCase):
   # step 4; c01 to c09 unchanged). They are edited only by copying them from Kata-Kata.
   # Pinned in docs/step4-sources.json; no Cikgu Sensai edit may change them.
   sources=json.loads((ROOT/'docs/step4-sources.json').read_text())
-  self.assertEqual(sources['kata_kata_commit'],'907946f')
+  self.assertEqual(sources['kata_kata_commit'],'1987ab9')
   for i in range(1,19):
    name='c%02d.json'%i
    self.assertEqual(hashlib.sha256((ROOT/'curriculum/reference/katakata'/name).read_bytes()).hexdigest(),sources['kata_kata_chapter_sha256']['content/ms/kelas/'+name],name)

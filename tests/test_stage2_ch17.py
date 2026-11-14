@@ -96,7 +96,7 @@ class Chapter17(unittest.TestCase):
         cfg = ms_c17.CFG
         self.assertEqual(len(cfg['core']), len(set(cfg['core'])))
         self.assertEqual(set(cfg['core']), ch17_rows(rows))
-        self.assertEqual(len(cfg['core']), 26)  # 24 + L-1302, L-1303 (14 Nov 2026)
+        self.assertEqual(len(cfg['core']), 25)  # 24 + L-1302 (14 Nov 2026); L-1303 is Retired (Kata-Kata step 3f)
         for lid in ('L-1266', 'L-1267', 'L-0690', 'L-0703', 'L-0717', 'L-1254', 'L-1253'):  # takpe and tidak boleh tahan are core words
             self.assertIn(lid, cfg['core'])
         self.assertEqual([lid for _, ids in cfg['core_groups'] for lid in ids], cfg['core'])
@@ -106,16 +106,16 @@ class Chapter17(unittest.TestCase):
                 self.assertNotIn(lid, cfg['core'])
         stage2 = {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
                   and re.match(r'Ch1[0-7] \(unit \w+\)(?:;|$)', r['Kata-Kata place'])}
-        self.assertEqual(len(stage2), 271)  # 240 + the 31 words approved on 13 and 14 Nov 2026 (L-1273 to L-1303); the six practice-pool rows are not core
+        self.assertEqual(len(stage2), 270)  # 240 + the 31 words approved on 13 and 14 Nov 2026 (L-1273 to L-1303), less L-1303 «minggu depan», Retired (Kata-Kata step 3f); the six practice-pool rows are not core
         self.assertFalse([lid for lid, r in rows.items() if re.match(r'Ch17 \(unit 17, recognition', r['Kata-Kata place'])])
         self.assertEqual(cfg['recognition'], [])
         cards = {c['id'] for c in self.pack['cards']}
         for lid in ms_c17.CORE:
             self.assertIn(rows[lid]['Kata-Kata (card IDs)'].split(',')[0].strip(), cards, lid)  # the class card is listed first; a Dunia twin may follow
-        self.assertEqual(len(cards), 26)  # 24 core + 2 new (L-1302, L-1303)
+        self.assertEqual(len(cards), 25)  # 24 core + L-1302; card ms-c17-026 (L-1303) dropped in Kata-Kata step 3f
 
     def test_every_core_word_is_used(self):
-        """All 26 chapter 17 core words appear outside the vocabulary list (including «takpe», «tidak boleh tahan», «lah» and «kan»)."""
+        """All 25 chapter 17 core words appear outside the vocabulary list (including «takpe», «tidak boleh tahan», «lah» and «kan»)."""
         text = ' | '.join(s.lower() for s in spans(self.all_lines(('ms-c17',), skip_vocab=True)))
         for lid in ms_c17.CFG['core']:
             form = self.ledger.row(lid)['Malay'].lower().split(' / ')[0]
@@ -370,7 +370,7 @@ class Chapter17(unittest.TestCase):
         body = ' '.join(self.lines(opener))
         self.assertIn(f'Sedia Kelas c17 ({katakata_ref.sedia_count(17)} cards, frames ms-c17-f01 and ms-c17-f02)', body)
         self.assertIn(f'（カード{katakata_ref.sedia_count(17)}枚、文型 f01・f02）', body)
-        self.assertIn('ms-c17-001 to ms-c17-026', body)
+        self.assertIn('ms-c17-001 to ms-c17-025', body)
 
     def test_culture_note_general_knowledge_labelled(self):
         cult = ' '.join(ms_c17.CULTURE)
@@ -393,7 +393,7 @@ class Chapter17(unittest.TestCase):
         self.assertEqual(l['suite']['course_path'], 'fast')
         self.assertEqual(l['level'], 'A2')
         core = [x for x in self.lines(l, 'Core words') if re.search(r'\[L-\d{4}\]$', x)]
-        self.assertEqual(len(core), 26)  # 24 + L-1302, L-1303
+        self.assertEqual(len(core), 25)  # 24 + L-1302
         self.assertEqual(set(fast.C17_WORDS), set(ms_c17.CORE))  # the fast pack holds every core word (Sam, 13 Nov)
         patterns = [x for x in self.lines(l, 'Key patterns') if re.match(r'^\d · ', x)]
         self.assertEqual(len(patterns), 5)

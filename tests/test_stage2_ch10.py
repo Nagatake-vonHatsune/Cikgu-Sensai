@@ -89,11 +89,11 @@ class Chapter10(unittest.TestCase):
                 for lid in ids:
                     self.assertLessEqual(placed_chapter(rows[lid]['Kata-Kata place']), 9, (u, lid))
                     self.assertNotIn(lid, cfg['core'])
-        # 44 core rows for chapter 10 (40 in plan section 2, plus L-1273 to L-1276 approved on 14 Nov 2026), 271 across Stage 2.
+        # 44 core rows for chapter 10 (40 in plan section 2, plus L-1273 to L-1276 approved on 14 Nov 2026), 270 across Stage 2 (L-1303 Retired).
         self.assertEqual(len(ch10_rows(rows, '10A') | ch10_rows(rows, '10B')), 44)
         stage2 = {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
                   and re.match(r'Ch1[0-7] \(unit \w+\)(?:;|$)', r['Kata-Kata place'])}
-        self.assertEqual(len(stage2), 271)  # 240 + the 31 words approved on 13 and 14 Nov 2026 (L-1273 to L-1303); the six practice-pool rows are not core
+        self.assertEqual(len(stage2), 270)  # 240 + the 31 words approved on 13 and 14 Nov 2026 (L-1273 to L-1303), less L-1303 «minggu depan», Retired (Kata-Kata step 3f); the six practice-pool rows are not core
         # The only recognition row is «pindah», the spoken partner of «berpindah».
         rec = [lid for _, ids in ms_c10b.CFG['recognition'] for lid in ids]
         self.assertEqual(rec, ['L-0667'])
@@ -323,8 +323,8 @@ class Chapter10(unittest.TestCase):
         self.assertEqual(l['suite']['course_path'], 'fast')
         self.assertEqual(l['level'], 'A2')
         core = [x for x in self.lines(l, 'Core words') if re.search(r'\[L-\d{4}\]$', x)]
-        self.assertEqual(len(core), 24)  # 20 + L-1273 to L-1276 (14 Nov 2026)
-        self.assertTrue(set(fast.C10_WORDS) <= set(ms_c10a.CORE + ms_c10b.CORE))
+        self.assertEqual(len(core), 44)  # all chapter 10 core words (Sam's rule from chapter 15, widened in the chapter 18 prep)
+        self.assertEqual(set(fast.C10_WORDS), set(ms_c10a.CORE + ms_c10b.CORE))
         patterns = [x for x in self.lines(l, 'Key patterns') if re.match(r'^\d · ', x)]
         self.assertEqual(len(patterns), 5)
         for line in patterns:

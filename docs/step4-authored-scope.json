@@ -159196,7 +159196,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 17 · Chapter opener|4|0": {
-  "source_text": "After class: the chapter 17 cards for this unit (the 26 cards ms-c17-001 to ms-c17-026) and the frames ms-c17-f01 to f06. / 授業後：このユニットの第17章のカード（the 26 cards ms-c17-001 to ms-c17-026）と文型 f01〜f06。",
+  "source_text": "After class: the chapter 17 cards for this unit (the 25 cards ms-c17-001 to ms-c17-025) and the frames ms-c17-f01 to f06. / 授業後：このユニットの第17章のカード（the 25 cards ms-c17-001 to ms-c17-025）と文型 f01〜f06。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -159586,31 +159586,13 @@
   "exclusion": null
  },
  "Unit 17 · Vocabulary focus|4|10": {
-  "source_text": "minggu depan — next week · 来週  [L-1303]",
-  "target_spans": [
-   "minggu depan"
-  ],
-  "mention_spans": [],
-  "kind": "vocabulary",
-  "exclusion": null
- },
- "Unit 17 · Vocabulary focus|4|11": {
-  "source_text": "   e.g. Saya belanja minggu depan.",
-  "target_spans": [
-   "Saya belanja minggu depan."
-  ],
-  "mention_spans": [],
-  "kind": "vocabulary",
-  "exclusion": null
- },
- "Unit 17 · Vocabulary focus|4|12": {
   "source_text": "■ Core words · Standard and spoken pairs · 学習する",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 17 · Vocabulary focus|4|13": {
+ "Unit 17 · Vocabulary focus|4|11": {
   "source_text": "tidak boleh tahan — can't stand, can't handle (the standard form), for example spicy food; not the same as boleh tahan (not bad, chapter 5); spoken tak tahan · 耐えられない・苦手だ（標準形）、例えば辛いもの；boleh tahan（悪くない、第5章）とは別の表現；話し言葉は tak tahan  [L-1267]",
   "target_spans": [
    "tidak boleh tahan",
@@ -159623,7 +159605,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|4|14": {
+ "Unit 17 · Vocabulary focus|4|12": {
   "source_text": "   e.g. Saya tidak boleh tahan pedas.",
   "target_spans": [
    "Saya tidak boleh tahan pedas."
@@ -159632,7 +159614,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|4|15": {
+ "Unit 17 · Vocabulary focus|4|13": {
   "source_text": "tak tahan — can't stand, can't handle (spoken, informal), for tidak boleh tahan; also spoken: Saya tak nak pedas., Saya tak suka pedas. · 耐えられない・苦手だ（話し言葉、くだけた言い方）、tidak boleh tahan の代わり；ほかに話し言葉で Saya tak nak pedas.・Saya tak suka pedas.  [L-0690]",
   "target_spans": [
    "tak tahan",
@@ -159647,7 +159629,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|4|16": {
+ "Unit 17 · Vocabulary focus|4|14": {
   "source_text": "   e.g. Saya tak tahan pedas.",
   "target_spans": [
    "Saya tak tahan pedas."
@@ -159656,7 +159638,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|4|17": {
+ "Unit 17 · Vocabulary focus|4|15": {
   "source_text": "set — \"Deal!\", \"Agreed!\" (spoken, everyday), for the standard setuju above · 「決まり！」（日常の話し言葉）、上の標準形 setuju の代わり  [L-0703]",
   "target_spans": [
    "set",
@@ -159667,7 +159649,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|4|18": {
+ "Unit 17 · Vocabulary focus|4|16": {
   "source_text": "   e.g. Set! Hari Jumaat, pukul tujuh.",
   "target_spans": [
    "Set! Hari Jumaat, pukul tujuh."
@@ -159676,7 +159658,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|4|19": {
+ "Unit 17 · Vocabulary focus|4|17": {
   "source_text": "kat — at, in (spoken), for the standard di (chapter 2) · 〜で・〜に（話し言葉）、標準形 di（第2章）の代わり  [L-1252]",
   "target_spans": [
    "kat",
@@ -159687,7 +159669,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|4|20": {
+ "Unit 17 · Vocabulary focus|4|18": {
   "source_text": "   e.g. Jom makan kat kafe ni!",
   "target_spans": [
    "Jom makan kat kafe ni!"
@@ -159696,7 +159678,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|0": {
+ "Unit 17 · Vocabulary focus|4|19": {
   "source_text": "ni — this (spoken), for the standard ini (chapter 2); it stands after the noun: kafe ni · これ・この（話し言葉）、標準形 ini（第2章）の代わり；名詞のあとに置く：kafe ni  [L-1263]",
   "target_spans": [
    "ni",
@@ -159709,7 +159691,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|1": {
+ "Unit 17 · Vocabulary focus|5|0": {
   "source_text": "   e.g. Kafe ni dekat pejabat.",
   "target_spans": [
    "Kafe ni dekat pejabat."
@@ -159718,7 +159700,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|2": {
+ "Unit 17 · Vocabulary focus|5|1": {
   "source_text": "tu — that (spoken), for the standard itu (chapter 2); it stands after the noun: kedai mamak tu · それ・その（話し言葉）、標準形 itu（第2章）の代わり；名詞のあとに置く：kedai mamak tu  [L-1264]",
   "target_spans": [
    "tu",
@@ -159731,7 +159713,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|3": {
+ "Unit 17 · Vocabulary focus|5|2": {
   "source_text": "   e.g. Kedai mamak tu dekat sahaja.",
   "target_spans": [
    "Kedai mamak tu dekat sahaja."
@@ -159740,7 +159722,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|4": {
+ "Unit 17 · Vocabulary focus|5|3": {
   "source_text": "macam tu — like that (spoken), for the standard seperti itu (chapter 15) · そんなふうに（話し言葉）、標準形 seperti itu（第15章）の代わり  [L-1262]",
   "target_spans": [
    "macam tu",
@@ -159751,7 +159733,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|5": {
+ "Unit 17 · Vocabulary focus|5|4": {
   "source_text": "   e.g. Macam tu boleh?",
   "target_spans": [
    "Macam tu boleh?"
@@ -159760,7 +159742,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|6": {
+ "Unit 17 · Vocabulary focus|5|5": {
   "source_text": "takpe / tak apa — never mind (spoken, a slang short form of tak apa), for the standard tidak mengapa above · 大丈夫（話し言葉、tak apa のくだけた短縮形）、上の標準形 tidak mengapa の代わり  [L-1266]",
   "target_spans": [
    "takpe",
@@ -159774,7 +159756,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|7": {
+ "Unit 17 · Vocabulary focus|5|6": {
   "source_text": "   e.g. Takpe. Kita cari kedai lain.",
   "target_spans": [
    "Takpe. Kita cari kedai lain."
@@ -159783,14 +159765,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|8": {
+ "Unit 17 · Vocabulary focus|5|7": {
   "source_text": "■ Core words · Two particles you hear · 学習する",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 17 · Vocabulary focus|5|9": {
+ "Unit 17 · Vocabulary focus|5|8": {
   "source_text": "lah — a spoken particle that softens or stresses what is said; the meaning depends on the tone. Written joined to the word (Takpelah., Tidak mengapalah.). Recognition only: you never have to say it · 話し言葉の助詞：語調をやわらげたり強めたりする；意味は語調による。書くときは語に続ける（Takpelah.・Tidak mengapalah.）。聞いて分かればよく、自分で言わなくてよい  [L-1254]",
   "target_spans": [
    "lah",
@@ -159803,7 +159785,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|10": {
+ "Unit 17 · Vocabulary focus|5|9": {
   "source_text": "   e.g. Takpelah. Kita cari kedai lain.",
   "target_spans": [
    "Takpelah. Kita cari kedai lain."
@@ -159812,7 +159794,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|11": {
+ "Unit 17 · Vocabulary focus|5|10": {
   "source_text": "kan — \"right?\", \"isn't it?\": a spoken confirmation particle, not the suffix -kan (chapter 12). Recognition only: you never have to say it · 「〜でしょう？」「〜よね？」：確認の話し言葉の助詞で、接尾辞 -kan（第12章）ではない。聞いて分かればよく、自分で言わなくてよい  [L-1253]",
   "target_spans": [
    "kan"
@@ -159824,7 +159806,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|12": {
+ "Unit 17 · Vocabulary focus|5|11": {
   "source_text": "   e.g. Cakap seperti itu pun bagus, kan?",
   "target_spans": [
    "Cakap seperti itu pun bagus, kan?"
@@ -159833,21 +159815,21 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|13": {
+ "Unit 17 · Vocabulary focus|5|12": {
   "source_text": "■ Revision · 復習 (not new, not tested as new vocabulary)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 17 · Vocabulary focus|5|14": {
+ "Unit 17 · Vocabulary focus|5|13": {
   "source_text": "■ Revision · 復習 · Spoken forms and chunks from Stage 1",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 17 · Vocabulary focus|5|15": {
+ "Unit 17 · Vocabulary focus|5|14": {
   "source_text": "tidak / tak — not: standard tidak, spoken tak (chapter 1); the same in the everyday answers Saya tak nak pedas. · 〜ない：標準形 tidak、話し言葉 tak（第1章）；日常の返事 Saya tak nak pedas. でも同じ  [L-0030]",
   "target_spans": [
    "tidak / tak",
@@ -159862,7 +159844,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|16": {
+ "Unit 17 · Vocabulary focus|5|15": {
   "source_text": "   e.g. Saya tak nak pedas.",
   "target_spans": [
    "Saya tak nak pedas."
@@ -159871,7 +159853,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|5|17": {
+ "Unit 17 · Vocabulary focus|5|16": {
   "source_text": "mahu / nak — to want: standard mahu, spoken nak (chapter 5) · 〜したい：標準形 mahu、話し言葉 nak（第5章）  [L-0213]",
   "target_spans": [
    "mahu / nak",
@@ -159884,7 +159866,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|0": {
+ "Unit 17 · Vocabulary focus|5|17": {
   "source_text": "   e.g. Saya tak nak pedas.",
   "target_spans": [
    "Saya tak nak pedas."
@@ -159893,7 +159875,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|1": {
+ "Unit 17 · Vocabulary focus|5|18": {
   "source_text": "macam mana — how: spoken macam mana, standard bagaimana (chapter 5) · どう：話し言葉 macam mana、標準形 bagaimana（第5章）  [L-0211]",
   "target_spans": [
    "macam mana",
@@ -159906,7 +159888,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|2": {
+ "Unit 17 · Vocabulary focus|6|0": {
   "source_text": "   e.g. Macam mana kalau hari Jumaat?",
   "target_spans": [
    "Macam mana kalau hari Jumaat?"
@@ -159915,7 +159897,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|3": {
+ "Unit 17 · Vocabulary focus|6|1": {
   "source_text": "jom — let's (friendly, spoken tone): Jom makan! is for friends and colleagues; Mari kita pergi. is the polite form · 〜しよう（親しい話し言葉の調子）：Jom makan! は友人や同僚に；ていねいには Mari kita pergi.  [L-0075]",
   "target_spans": [
    "jom",
@@ -159928,7 +159910,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|4": {
+ "Unit 17 · Vocabulary focus|6|2": {
   "source_text": "   e.g. Jom makan kat kafe ni!",
   "target_spans": [
    "Jom makan kat kafe ni!"
@@ -159937,7 +159919,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|5": {
+ "Unit 17 · Vocabulary focus|6|3": {
   "source_text": "mari — come; let's (the polite, standard invitation, chapter 9): Mari kita pergi. · さあ・〜しましょう（ていねいな標準の誘い、第9章）：Mari kita pergi.  [L-1081]",
   "target_spans": [
    "mari",
@@ -159948,7 +159930,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|6": {
+ "Unit 17 · Vocabulary focus|6|4": {
   "source_text": "   e.g. Mari kita pergi.",
   "target_spans": [
    "Mari kita pergi."
@@ -159957,7 +159939,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|7": {
+ "Unit 17 · Vocabulary focus|6|5": {
   "source_text": "jemput — to invite; please (help yourself) · 招く・どうぞ  [L-0541]",
   "target_spans": [
    "jemput"
@@ -159966,7 +159948,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|8": {
+ "Unit 17 · Vocabulary focus|6|6": {
   "source_text": "   e.g. Ini jemputan daripada Puan Aini.",
   "target_spans": [
    "Ini jemputan daripada Puan Aini."
@@ -159975,7 +159957,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|9": {
+ "Unit 17 · Vocabulary focus|6|7": {
   "source_text": "tak apa — never mind (spoken, chapter 5): the spoken partner of tidak mengapa · 大丈夫（話し言葉、第5章）：tidak mengapa の話し言葉  [L-0940]",
   "target_spans": [
    "tak apa",
@@ -159986,7 +159968,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|10": {
+ "Unit 17 · Vocabulary focus|6|8": {
   "source_text": "   e.g. Tak apa. Lain kali, ya?",
   "target_spans": [
    "Tak apa. Lain kali, ya?"
@@ -159995,7 +159977,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|11": {
+ "Unit 17 · Vocabulary focus|6|9": {
   "source_text": "macam — like, in the manner of (spoken, chapter 5): macam tu is macam + tu · 〜のように（話し言葉、第5章）：macam tu は macam＋tu  [L-0930]",
   "target_spans": [
    "macam",
@@ -160010,7 +159992,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|12": {
+ "Unit 17 · Vocabulary focus|6|10": {
   "source_text": "   e.g. Macam tu boleh?",
   "target_spans": [
    "Macam tu boleh?"
@@ -160019,7 +160001,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|13": {
+ "Unit 17 · Vocabulary focus|6|11": {
   "source_text": "tetapi / tapi — but: standard tetapi, spoken tapi (chapter 5) · しかし：標準形 tetapi、話し言葉 tapi（第5章）  [L-0215]",
   "target_spans": [
    "tetapi / tapi",
@@ -160032,7 +160014,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|14": {
+ "Unit 17 · Vocabulary focus|6|12": {
   "source_text": "   e.g. Terima kasih, tapi saya tidak lapang.",
   "target_spans": [
    "Terima kasih, tapi saya tidak lapang."
@@ -160041,7 +160023,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|15": {
+ "Unit 17 · Vocabulary focus|6|13": {
   "source_text": "sudah / dah — already: standard sudah, spoken dah (chapter 4) · もう：標準形 sudah、話し言葉 dah（第4章）  [L-0193]",
   "target_spans": [
    "sudah / dah",
@@ -160054,7 +160036,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|16": {
+ "Unit 17 · Vocabulary focus|6|14": {
   "source_text": "   e.g. Saya dah makan.",
   "target_spans": [
    "Saya dah makan."
@@ -160063,14 +160045,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|17": {
+ "Unit 17 · Vocabulary focus|6|15": {
   "source_text": "■ Revision · 復習 · Food and the café",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 17 · Vocabulary focus|6|18": {
+ "Unit 17 · Vocabulary focus|6|16": {
   "source_text": "mamak — a casual eatery, often open late (a mamak stall) · 気軽な食堂・深夜まで開いていることが多い（mamak の屋台）  [L-0931]",
   "target_spans": [
    "mamak",
@@ -160081,7 +160063,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|19": {
+ "Unit 17 · Vocabulary focus|6|17": {
   "source_text": "   e.g. Ada kedai mamak dekat pejabat?",
   "target_spans": [
    "Ada kedai mamak dekat pejabat?"
@@ -160090,7 +160072,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|20": {
+ "Unit 17 · Vocabulary focus|6|18": {
   "source_text": "kafe — café (also spelt cafe in signs and speech) · カフェ  [L-1026]",
   "target_spans": [
    "kafe"
@@ -160099,7 +160081,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|21": {
+ "Unit 17 · Vocabulary focus|6|19": {
   "source_text": "   e.g. Jom makan kat kafe ni!",
   "target_spans": [
    "Jom makan kat kafe ni!"
@@ -160108,7 +160090,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|22": {
+ "Unit 17 · Vocabulary focus|6|20": {
   "source_text": "pedas — spicy (chilli hot) · 辛い  [L-0221]",
   "target_spans": [
    "pedas"
@@ -160117,7 +160099,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|6|23": {
+ "Unit 17 · Vocabulary focus|6|21": {
   "source_text": "   e.g. Saya tidak boleh tahan pedas.",
   "target_spans": [
    "Saya tidak boleh tahan pedas."
@@ -160126,7 +160108,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|0": {
+ "Unit 17 · Vocabulary focus|6|22": {
   "source_text": "lapar — hungry · お腹が空いた  [L-0250]",
   "target_spans": [
    "lapar"
@@ -160135,7 +160117,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|1": {
+ "Unit 17 · Vocabulary focus|6|23": {
   "source_text": "   e.g. Saya lapar. Jom makan!",
   "target_spans": [
    "Saya lapar. Jom makan!"
@@ -160144,7 +160126,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|2": {
+ "Unit 17 · Vocabulary focus|7|0": {
   "source_text": "nasi lemak — a rice dish: rice cooked in coconut milk, with sambal and other sides · ナシレマ（ココナッツミルクで炊いたご飯。サンバルなどが付く）  [L-1064]",
   "target_spans": [
    "nasi lemak"
@@ -160153,7 +160135,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|3": {
+ "Unit 17 · Vocabulary focus|7|1": {
   "source_text": "   e.g. Ada nasi lemak yang tidak pedas.",
   "target_spans": [
    "Ada nasi lemak yang tidak pedas."
@@ -160162,7 +160144,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|4": {
+ "Unit 17 · Vocabulary focus|7|2": {
   "source_text": "kedai — shop · 店  [L-0334]",
   "target_spans": [
    "kedai"
@@ -160171,7 +160153,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|5": {
+ "Unit 17 · Vocabulary focus|7|3": {
   "source_text": "   e.g. Kita cari kedai lain.",
   "target_spans": [
    "Kita cari kedai lain."
@@ -160180,7 +160162,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|6": {
+ "Unit 17 · Vocabulary focus|7|4": {
   "source_text": "makanan — food · 食べ物  [L-0091]",
   "target_spans": [
    "makanan"
@@ -160189,7 +160171,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|7": {
+ "Unit 17 · Vocabulary focus|7|5": {
   "source_text": "   e.g. Makanan di kafe itu pedas.",
   "target_spans": [
    "Makanan di kafe itu pedas."
@@ -160198,7 +160180,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|8": {
+ "Unit 17 · Vocabulary focus|7|6": {
   "source_text": "minum — to drink · 飲む  [L-0198]",
   "target_spans": [
    "minum"
@@ -160207,7 +160189,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|9": {
+ "Unit 17 · Vocabulary focus|7|7": {
   "source_text": "   e.g. Jom minum kat kafe ni!",
   "target_spans": [
    "Jom minum kat kafe ni!"
@@ -160216,7 +160198,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|10": {
+ "Unit 17 · Vocabulary focus|7|8": {
   "source_text": "teh / kopi — tea / coffee · 紅茶／コーヒー  [L-0261]",
   "target_spans": [
    "teh / kopi"
@@ -160225,7 +160207,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|11": {
+ "Unit 17 · Vocabulary focus|7|9": {
   "source_text": "   e.g. Saya minum teh.",
   "target_spans": [
    "Saya minum teh."
@@ -160234,14 +160216,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|12": {
+ "Unit 17 · Vocabulary focus|7|10": {
   "source_text": "■ Revision · 復習 · Plans, days and the office",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 17 · Vocabulary focus|7|13": {
+ "Unit 17 · Vocabulary focus|7|11": {
   "source_text": "kalau — if · もし  [L-0341]",
   "target_spans": [
    "kalau"
@@ -160250,7 +160232,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|14": {
+ "Unit 17 · Vocabulary focus|7|12": {
   "source_text": "   e.g. Bagaimana kalau hari Jumaat?",
   "target_spans": [
    "Bagaimana kalau hari Jumaat?"
@@ -160259,7 +160241,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|15": {
+ "Unit 17 · Vocabulary focus|7|13": {
   "source_text": "Sabtu — Saturday · 土曜日  [L-0180]",
   "target_spans": [
    "Sabtu"
@@ -160268,7 +160250,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|16": {
+ "Unit 17 · Vocabulary focus|7|14": {
   "source_text": "   e.g. Hari Sabtu saya tidak lapang.",
   "target_spans": [
    "Hari Sabtu saya tidak lapang."
@@ -160277,7 +160259,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|17": {
+ "Unit 17 · Vocabulary focus|7|15": {
   "source_text": "Jumaat — Friday · 金曜日  [L-0179]",
   "target_spans": [
    "Jumaat"
@@ -160286,7 +160268,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|18": {
+ "Unit 17 · Vocabulary focus|7|16": {
   "source_text": "   e.g. Bos setuju. Hari Jumaat, pukul tujuh.",
   "target_spans": [
    "Bos setuju. Hari Jumaat, pukul tujuh."
@@ -160295,7 +160277,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|19": {
+ "Unit 17 · Vocabulary focus|7|17": {
   "source_text": "Khamis — Thursday · 木曜日  [L-0178]",
   "target_spans": [
    "Khamis"
@@ -160304,7 +160286,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|20": {
+ "Unit 17 · Vocabulary focus|7|18": {
   "source_text": "   e.g. Bagaimana kalau hari Khamis?",
   "target_spans": [
    "Bagaimana kalau hari Khamis?"
@@ -160313,7 +160295,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|21": {
+ "Unit 17 · Vocabulary focus|7|19": {
   "source_text": "Isnin — Monday · 月曜日  [L-0175]",
   "target_spans": [
    "Isnin"
@@ -160322,7 +160304,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|22": {
+ "Unit 17 · Vocabulary focus|7|20": {
   "source_text": "   e.g. Bagaimana kalau hari Isnin?",
   "target_spans": [
    "Bagaimana kalau hari Isnin?"
@@ -160331,7 +160313,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|23": {
+ "Unit 17 · Vocabulary focus|7|21": {
   "source_text": "esok — tomorrow · 明日  [L-0025]",
   "target_spans": [
    "esok"
@@ -160340,7 +160322,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|24": {
+ "Unit 17 · Vocabulary focus|7|22": {
   "source_text": "   e.g. Esok saya lapang.",
   "target_spans": [
    "Esok saya lapang."
@@ -160349,7 +160331,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|25": {
+ "Unit 17 · Vocabulary focus|7|23": {
   "source_text": "hujung minggu — Weekend · 週末  [L-0702]",
   "target_spans": [
    "hujung minggu"
@@ -160358,7 +160340,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|26": {
+ "Unit 17 · Vocabulary focus|7|24": {
   "source_text": "   e.g. Hujung minggu ini saya tidak lapang.",
   "target_spans": [
    "Hujung minggu ini saya tidak lapang."
@@ -160367,7 +160349,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|27": {
+ "Unit 17 · Vocabulary focus|7|25": {
   "source_text": "bos — boss · 上司  [L-0532]",
   "target_spans": [
    "bos"
@@ -160376,7 +160358,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|28": {
+ "Unit 17 · Vocabulary focus|7|26": {
   "source_text": "   e.g. Bos belanja.",
   "target_spans": [
    "Bos belanja."
@@ -160385,7 +160367,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|29": {
+ "Unit 17 · Vocabulary focus|7|27": {
   "source_text": "mesyuarat — meeting · 会議  [L-0208]",
   "target_spans": [
    "mesyuarat"
@@ -160394,7 +160376,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|7|30": {
+ "Unit 17 · Vocabulary focus|7|28": {
   "source_text": "   e.g. Malangnya saya ada mesyuarat.",
   "target_spans": [
    "Malangnya saya ada mesyuarat."
@@ -160403,7 +160385,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|0": {
+ "Unit 17 · Vocabulary focus|7|29": {
   "source_text": "pejabat — office · 事務所・オフィス  [L-0064]",
   "target_spans": [
    "pejabat"
@@ -160412,7 +160394,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|1": {
+ "Unit 17 · Vocabulary focus|7|30": {
   "source_text": "   e.g. Encik singgah di pejabat dulu, ya?",
   "target_spans": [
    "Encik singgah di pejabat dulu, ya?"
@@ -160421,7 +160403,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|2": {
+ "Unit 17 · Vocabulary focus|8|0": {
   "source_text": "kawan — friend · 友達  [L-0078]",
   "target_spans": [
    "kawan"
@@ -160430,7 +160412,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|3": {
+ "Unit 17 · Vocabulary focus|8|1": {
   "source_text": "   e.g. Saya ajak kawan saya makan.",
   "target_spans": [
    "Saya ajak kawan saya makan."
@@ -160439,7 +160421,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|4": {
+ "Unit 17 · Vocabulary focus|8|2": {
   "source_text": "kenapa — why · なぜ・どうして  [L-1009]",
   "target_spans": [
    "kenapa"
@@ -160448,7 +160430,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|5": {
+ "Unit 17 · Vocabulary focus|8|3": {
   "source_text": "   e.g. Kenapa encik tidak boleh datang?",
   "target_spans": [
    "Kenapa encik tidak boleh datang?"
@@ -160457,7 +160439,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|6": {
+ "Unit 17 · Vocabulary focus|8|4": {
   "source_text": "sebab — Reason; because · 理由、〜なので  [L-0688]",
   "target_spans": [
    "sebab"
@@ -160466,7 +160448,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|7": {
+ "Unit 17 · Vocabulary focus|8|5": {
   "source_text": "   e.g. Sebab saya ada mesyuarat.",
   "target_spans": [
    "Sebab saya ada mesyuarat."
@@ -160475,14 +160457,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|8": {
+ "Unit 17 · Vocabulary focus|8|6": {
   "source_text": "■ Revision · 復習 · Other words that return",
   "target_spans": [],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 17 · Vocabulary focus|8|9": {
+ "Unit 17 · Vocabulary focus|8|7": {
   "source_text": "terima kasih — thank you · ありがとう  [L-0016]",
   "target_spans": [
    "terima kasih"
@@ -160491,7 +160473,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|10": {
+ "Unit 17 · Vocabulary focus|8|8": {
   "source_text": "   e.g. Terima kasih atas jemputan puan.",
   "target_spans": [
    "Terima kasih atas jemputan puan."
@@ -160500,7 +160482,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|11": {
+ "Unit 17 · Vocabulary focus|8|9": {
   "source_text": "sama-sama — you're welcome · どういたしまして  [L-0017]",
   "target_spans": [
    "sama-sama"
@@ -160509,7 +160491,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|12": {
+ "Unit 17 · Vocabulary focus|8|10": {
   "source_text": "   e.g. Terima kasih. Sama-sama.",
   "target_spans": [
    "Terima kasih.",
@@ -160519,10 +160501,28 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|13": {
+ "Unit 17 · Vocabulary focus|8|11": {
   "source_text": "sila — please (polite instruction) · 〜してください（丁寧）  [L-0401]",
   "target_spans": [
    "sila"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 17 · Vocabulary focus|8|12": {
+  "source_text": "   e.g. Sila hubungi Puan Aini.",
+  "target_spans": [
+   "Sila hubungi Puan Aini."
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Unit 17 · Vocabulary focus|8|13": {
+  "source_text": "hubungi — contact (request) · 連絡してください  [L-1175]",
+  "target_spans": [
+   "hubungi"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -160538,24 +160538,6 @@
   "exclusion": null
  },
  "Unit 17 · Vocabulary focus|8|15": {
-  "source_text": "hubungi — contact (request) · 連絡してください  [L-1175]",
-  "target_spans": [
-   "hubungi"
-  ],
-  "mention_spans": [],
-  "kind": "vocabulary",
-  "exclusion": null
- },
- "Unit 17 · Vocabulary focus|8|16": {
-  "source_text": "   e.g. Sila hubungi Puan Aini.",
-  "target_spans": [
-   "Sila hubungi Puan Aini."
-  ],
-  "mention_spans": [],
-  "kind": "vocabulary",
-  "exclusion": null
- },
- "Unit 17 · Vocabulary focus|8|17": {
   "source_text": "kami — we (not including the listener) · 私たち（相手を含まない）  [L-0044]",
   "target_spans": [
    "kami"
@@ -160564,7 +160546,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|18": {
+ "Unit 17 · Vocabulary focus|8|16": {
   "source_text": "   e.g. Sudikah puan makan dengan kami?",
   "target_spans": [
    "Sudikah puan makan dengan kami?"
@@ -160573,7 +160555,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|19": {
+ "Unit 17 · Vocabulary focus|8|17": {
   "source_text": "kita — we (including the listener) · 私たち（相手を含む）  [L-0045]",
   "target_spans": [
    "kita"
@@ -160582,7 +160564,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|20": {
+ "Unit 17 · Vocabulary focus|8|18": {
   "source_text": "   e.g. Kita pergi sama-sama.",
   "target_spans": [
    "Kita pergi sama-sama."
@@ -160591,7 +160573,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|21": {
+ "Unit 17 · Vocabulary focus|8|19": {
   "source_text": "daripada — than · 〜より  [L-0267]",
   "target_spans": [
    "daripada"
@@ -160600,7 +160582,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|22": {
+ "Unit 17 · Vocabulary focus|8|20": {
   "source_text": "   e.g. Ini jemputan daripada Puan Aini.",
   "target_spans": [
    "Ini jemputan daripada Puan Aini."
@@ -160609,7 +160591,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|23": {
+ "Unit 17 · Vocabulary focus|8|21": {
   "source_text": "tanya — to ask · 尋ねる  [L-0535]",
   "target_spans": [
    "tanya"
@@ -160618,7 +160600,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|24": {
+ "Unit 17 · Vocabulary focus|8|22": {
   "source_text": "   e.g. Saya tanya bos dulu.",
   "target_spans": [
    "Saya tanya bos dulu."
@@ -160627,7 +160609,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|25": {
+ "Unit 17 · Vocabulary focus|8|23": {
   "source_text": "cuba — to try · 試す  [L-0507]",
   "target_spans": [
    "cuba"
@@ -160636,7 +160618,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|26": {
+ "Unit 17 · Vocabulary focus|8|24": {
   "source_text": "   e.g. Kita cuba lain kali.",
   "target_spans": [
    "Kita cuba lain kali."
@@ -160645,7 +160627,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|27": {
+ "Unit 17 · Vocabulary focus|8|25": {
   "source_text": "cari — to look for · 探す  [L-0575]",
   "target_spans": [
    "cari"
@@ -160654,7 +160636,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|28": {
+ "Unit 17 · Vocabulary focus|8|26": {
   "source_text": "   e.g. Kita cari kedai lain.",
   "target_spans": [
    "Kita cari kedai lain."
@@ -160663,7 +160645,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|29": {
+ "Unit 17 · Vocabulary focus|8|27": {
   "source_text": "cakap — to speak, say · 話す・言う  [L-0473]",
   "target_spans": [
    "cakap"
@@ -160672,7 +160654,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|8|30": {
+ "Unit 17 · Vocabulary focus|8|28": {
   "source_text": "   e.g. Tadi cik cakap takpe.",
   "target_spans": [
    "Tadi cik cakap takpe."
@@ -160681,7 +160663,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|9|0": {
+ "Unit 17 · Vocabulary focus|8|29": {
   "source_text": "faham — to understand · わかる  [L-0476]",
   "target_spans": [
    "faham"
@@ -160690,7 +160672,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|9|1": {
+ "Unit 17 · Vocabulary focus|8|30": {
   "source_text": "   e.g. Saya faham.",
   "target_spans": [
    "Saya faham."
@@ -160699,7 +160681,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|9|2": {
+ "Unit 17 · Vocabulary focus|9|0": {
   "source_text": "tolak — to push (on a door); the root of menolak (chapter 17), to decline · 押す（ドア）；menolak（第17章、断る）の語根  [L-1087]",
   "target_spans": [
    "tolak",
@@ -160710,7 +160692,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|9|3": {
+ "Unit 17 · Vocabulary focus|9|1": {
   "source_text": "   e.g. Saya segan untuk menolak jemputan puan.",
   "target_spans": [
    "Saya segan untuk menolak jemputan puan."
@@ -160719,7 +160701,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|9|4": {
+ "Unit 17 · Vocabulary focus|9|2": {
   "source_text": "pun — also, too (after the word: Saya pun baik) · 〜も  [L-0983]",
   "target_spans": [
    "pun",
@@ -160729,7 +160711,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|9|5": {
+ "Unit 17 · Vocabulary focus|9|3": {
   "source_text": "   e.g. Cakap seperti itu pun bagus.",
   "target_spans": [
    "Cakap seperti itu pun bagus."
@@ -160738,7 +160720,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|9|6": {
+ "Unit 17 · Vocabulary focus|9|4": {
   "source_text": "suka — to like · 好き  [L-0073]",
   "target_spans": [
    "suka"
@@ -160747,7 +160729,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Unit 17 · Vocabulary focus|9|7": {
+ "Unit 17 · Vocabulary focus|9|5": {
   "source_text": "   e.g. Saya tidak suka pedas.",
   "target_spans": [
    "Saya tidak suka pedas."
@@ -160757,7 +160739,7 @@
   "exclusion": null
  },
  "Unit 17 · Vocabulary focus|10|0": {
-  "source_text": "26 new core entries, 0 recognition entries and 47 revision entries.",
+  "source_text": "25 new core entries, 0 recognition entries and 47 revision entries.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "key",
@@ -165549,7 +165531,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 17 · Teaching plan and answer key|5|4": {
-  "source_text": "Load: 26 core words in four groups (invitations 8, accepting and declining 8, standard and spoken pairs 8, two particles 2), no recognition word, and revision of the Stage 1 spoken forms, food and the café, plans, days and the office. Suggested order: Block A the first two groups with patterns 1 and 2; Block B the pairs and the particles with patterns 3 to 5. If the pilot shows 26 is too many, the natural cut is: sudi, lapang, setuju, menolak, sayangnya, lain kali, tidak mengapa, tidak boleh tahan, jemputan first; the rest second.",
+  "source_text": "Load: 25 core words in four groups (invitations 8, accepting and declining 7, standard and spoken pairs 8, two particles 2), no recognition word, and revision of the Stage 1 spoken forms, food and the café, plans, days and the office. Suggested order: Block A the first two groups with patterns 1 and 2; Block B the pairs and the particles with patterns 3 to 5. If the pilot shows 25 is too many, the natural cut is: sudi, lapang, setuju, menolak, sayangnya, lain kali, tidak mengapa, tidak boleh tahan, jemputan first; the rest second.",
   "target_spans": [
    "sudi",
    "lapang",
@@ -165804,7 +165786,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 10 · Fast-course summary pack|0|0": {
-  "source_text": "第10章速習：45分で基本の24語、ber- の動詞（つづりは be-・bel- だけ）、日課と時刻、週末にすること、出身・仕事・人生のできごと sudah・belum を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
+  "source_text": "第10章速習：45分で基本の44語、ber- の動詞（つづりは be-・bel- だけ）、日課と時刻、週末にすること、出身・仕事・人生のできごと sudah・belum を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
   "target_spans": [
    "sudah",
    "belum"
@@ -165831,7 +165813,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 10 · Fast-course summary pack|2|0": {
-  "source_text": "Chapter 10 in one 45-minute session: 24 core words, ber- verbs (spelling variants be- and bel- only), a routine with times, weekend activities, background and life events with sudah / belum; then self-study in Kata-Kata. All names and details are fictional.",
+  "source_text": "Chapter 10 in one 45-minute session: 44 core words, ber- verbs (spelling variants be- and bel- only), a routine with times, weekend activities, background and life events with sudah / belum; then self-study in Kata-Kata. All names and details are fictional.",
   "target_spans": [
    "sudah",
    "belum"
@@ -165880,7 +165862,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 10 · Fast-course summary pack|3|4": {
-  "source_text": "■ Core words · 基本の24語",
+  "source_text": "■ Core words · 基本の44語",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
@@ -166112,28 +166094,193 @@
   "exclusion": null
  },
  "Chapter 10 · Fast-course summary pack|4|4": {
-  "source_text": "The full course also teaches berjalan, bermain, berlari, berbasikal, berbual, beratur, bersiap, bersedia, berlatih, rutin, bernama, berumur, berkeluarga, berkawan, berniaga, berbelanja, berminat, berpakaian, sepupu, pengalaman, and pindah as the spoken form of berpindah (to recognise only).",
+  "source_text": "bersiap — To get ready · 準備する、したくする  [L-0807]",
   "target_spans": [
-   "berjalan",
-   "bermain",
-   "berlari",
-   "berbasikal",
-   "berbual",
-   "beratur",
-   "bersiap",
-   "bersedia",
-   "berlatih",
-   "rutin",
+   "bersiap"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|5": {
+  "source_text": "berjalan — to walk · 歩く  [L-1090]",
+  "target_spans": [
+   "berjalan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|6": {
+  "source_text": "beratur — to queue · 列に並ぶ  [L-1100]",
+  "target_spans": [
+   "beratur"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|7": {
+  "source_text": "rutin — routine · 日課  [L-1105]",
+  "target_spans": [
+   "rutin"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|8": {
+  "source_text": "berbual — to chat · おしゃべりする  [L-1099]",
+  "target_spans": [
+   "berbual"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|9": {
+  "source_text": "bersedia — To be ready or prepared (standard form of \"sedia\") · 準備ができている（「sedia」の標準形）  [L-0916]",
+  "target_spans": [
+   "bersedia"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|10": {
+  "source_text": "bermain — to play · 遊ぶ・スポーツをする  [L-1092]",
+  "target_spans": [
+   "bermain"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|11": {
+  "source_text": "berlari — to run · 走る  [L-1096]",
+  "target_spans": [
+   "berlari"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|12": {
+  "source_text": "berbasikal — to cycle · 自転車に乗る  [L-1097]",
+  "target_spans": [
+   "berbasikal"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|13": {
+  "source_text": "berlatih — to practise · 練習する  [L-1104]",
+  "target_spans": [
+   "berlatih"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|14": {
+  "source_text": "bernama — to be named (written or formal; Nama saya … is everyday) · 〜という名前である  [L-1111]",
+  "target_spans": [
    "bernama",
+   "Nama saya …"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|15": {
+  "source_text": "berumur — to be aged (standard; Umur saya … is everyday) · 〜歳である  [L-1107]",
+  "target_spans": [
    "berumur",
-   "berkeluarga",
-   "berkawan",
-   "berniaga",
-   "berbelanja",
-   "berminat",
-   "berpakaian",
-   "sepupu",
-   "pengalaman",
+   "Umur saya …"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|16": {
+  "source_text": "berkeluarga — to have a family · 家庭を持つ  [L-1109]",
+  "target_spans": [
+   "berkeluarga"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|17": {
+  "source_text": "sepupu — Cousin · いとこ  [L-0714]",
+  "target_spans": [
+   "sepupu"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|18": {
+  "source_text": "berkawan — to be friends · 友達になる・付き合う  [L-1113]",
+  "target_spans": [
+   "berkawan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|19": {
+  "source_text": "berniaga — to trade / run a business · 商売をする  [L-1116]",
+  "target_spans": [
+   "berniaga"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|20": {
+  "source_text": "berbelanja — to spend money; to shop (belanja alone, chapter 17, means to treat someone) · お金を使う・買い物をする（belanja だけだと「おごる」：第17章）  [L-1117]",
+  "target_spans": [
+   "berbelanja"
+  ],
+  "mention_spans": [
+   "belanja",
+   "belanja"
+  ],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|21": {
+  "source_text": "berminat — to be interested · 興味がある  [L-1119]",
+  "target_spans": [
+   "berminat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|22": {
+  "source_text": "berpakaian — to wear clothes / be dressed · 服を着ている  [L-1120]",
+  "target_spans": [
+   "berpakaian"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|23": {
+  "source_text": "pengalaman — experience · 経験  [L-1121]",
+  "target_spans": [
+   "pengalaman"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 10 · Fast-course summary pack|4|24": {
+  "source_text": "Recognise only: pindah, the spoken form of berpindah. The full course adds the revision words of both units.",
+  "target_spans": [
    "pindah",
    "berpindah"
   ],
@@ -166141,14 +166288,7 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|4|5": {
-  "source_text": "■ Key patterns · 文型",
-  "target_spans": [],
-  "mention_spans": [],
-  "kind": "heading",
-  "exclusion": "Japanese/English (marked source)"
- },
- "Chapter 10 · Fast-course summary pack|4|6": {
+ "Chapter 10 · Fast-course summary pack|5|0": {
   "source_text": "1 · Setiap pagi saya (ber- verb) pukul ___.  e.g. Setiap pagi saya bersarapan pukul tujuh. / Setiap pagi saya bertolak pukul tujuh setengah.",
   "target_spans": [
    "Setiap pagi saya",
@@ -166160,7 +166300,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|4|7": {
+ "Chapter 10 · Fast-course summary pack|5|1": {
   "source_text": "2 · Pukul berapa ___ bermula / kita bertolak?  e.g. Pukul berapa mesyuarat bermula? / Pukul berapa kita bertolak?",
   "target_spans": [
    "Pukul berapa",
@@ -166173,7 +166313,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|4|8": {
+ "Chapter 10 · Fast-course summary pack|5|2": {
   "source_text": "3 · Pada hujung minggu saya suka (ber- verb).  e.g. Pada hujung minggu saya suka berenang di kolam renang. / Saya bersenam tiga kali seminggu.",
   "target_spans": [
    "Pada hujung minggu saya suka",
@@ -166184,7 +166324,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|4|9": {
+ "Chapter 10 · Fast-course summary pack|5|3": {
   "source_text": "4 · Saya berasal dari ___. Saya bekerja di ___.  e.g. Saya berasal dari Osaka. / Saya bekerja di Kuala Lumpur.",
   "target_spans": [
    "Saya berasal dari",
@@ -166196,7 +166336,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|4|10": {
+ "Chapter 10 · Fast-course summary pack|5|4": {
   "source_text": "5 · Saya sudah / belum (ber- verb).  e.g. Saya sudah berkahwin. / Saya belum berkenalan dengan jiran.",
   "target_spans": [
    "Saya sudah / belum",
@@ -166207,7 +166347,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|4|11": {
+ "Chapter 10 · Fast-course summary pack|5|5": {
   "source_text": "Remember: ber- has no nasal sound changes; it is spelt be- before r and in bekerja, and bel- only in belajar. A ber- verb never changes; the markers do the work. bertolak is set off (not push); berhenti kerja is quit a job. In speech you will hear the root (kerja, sarapan, pindah); write the ber- form.",
   "target_spans": [
    "bekerja",
@@ -166227,7 +166367,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|4|12": {
+ "Chapter 10 · Fast-course summary pack|5|6": {
   "source_text": "ber- には鼻音の変化がなく、r の前と bekerja で be-、belajar だけ bel- になります。ber- の動詞は形が変わらず、マーカーが時を表します。bertolak は「出発する」（「押す」ではない）、berhenti kerja は「仕事を辞める」です。話し言葉では語根（kerja・sarapan・pindah）も聞きますが、書くときは ber- の形を使います。",
   "target_spans": [
    "bekerja",
@@ -166247,14 +166387,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|4|13": {
+ "Chapter 10 · Fast-course summary pack|5|7": {
   "source_text": "■ Model conversation · 会話 (fictional)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|4|14": {
+ "Chapter 10 · Fast-course summary pack|5|8": {
   "source_text": "Siti: Selamat petang. Encik jiran baru, ya?",
   "target_spans": [
    "Selamat petang. Encik jiran baru, ya?"
@@ -166263,7 +166403,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|4|15": {
+ "Chapter 10 · Fast-course summary pack|5|9": {
   "source_text": "Tanaka: Ya, saya baru berpindah minggu lepas. Saya berasal dari Osaka.",
   "target_spans": [
    "Ya, saya baru berpindah minggu lepas. Saya berasal dari Osaka."
@@ -166272,7 +166412,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|4|16": {
+ "Chapter 10 · Fast-course summary pack|5|10": {
   "source_text": "Siti: Selamat berkenalan! Saya Siti. Encik bekerja di mana?",
   "target_spans": [
    "Selamat berkenalan! Saya Siti. Encik bekerja di mana?"
@@ -166281,7 +166421,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|4|17": {
+ "Chapter 10 · Fast-course summary pack|5|11": {
   "source_text": "Tanaka: Saya bekerja di sebuah syarikat Jepun di Kuala Lumpur.",
   "target_spans": [
    "Saya bekerja di sebuah syarikat Jepun di Kuala Lumpur."
@@ -166290,7 +166430,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|4|18": {
+ "Chapter 10 · Fast-course summary pack|5|12": {
   "source_text": "Siti: Pukul berapa encik bertolak ke pejabat?",
   "target_spans": [
    "Pukul berapa encik bertolak ke pejabat?"
@@ -166299,7 +166439,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|5|0": {
+ "Chapter 10 · Fast-course summary pack|5|13": {
   "source_text": "Tanaka: Setiap pagi saya bertolak pukul tujuh. Saya bersarapan di kedai mamak.",
   "target_spans": [
    "Setiap pagi saya bertolak pukul tujuh. Saya bersarapan di kedai mamak."
@@ -166308,7 +166448,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|5|1": {
+ "Chapter 10 · Fast-course summary pack|5|14": {
   "source_text": "Siti: Pada hujung minggu encik buat apa?",
   "target_spans": [
    "Pada hujung minggu encik buat apa?"
@@ -166317,7 +166457,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|5|2": {
+ "Chapter 10 · Fast-course summary pack|5|15": {
   "source_text": "Tanaka: Saya suka berenang. Puan pula?",
   "target_spans": [
    "Saya suka berenang. Puan pula?"
@@ -166326,7 +166466,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|5|3": {
+ "Chapter 10 · Fast-course summary pack|5|16": {
   "source_text": "Siti: Saya suka berehat di rumah. Pada hari Ahad, kami berkumpul di rumah saya. Encik datang, ya!",
   "target_spans": [
    "Saya suka berehat di rumah. Pada hari Ahad, kami berkumpul di rumah saya. Encik datang, ya!"
@@ -166335,7 +166475,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|5|4": {
+ "Chapter 10 · Fast-course summary pack|5|17": {
   "source_text": "Tanaka: Terima kasih! Nanti kita berbual lagi.",
   "target_spans": [
    "Terima kasih! Nanti kita berbual lagi."
@@ -166344,28 +166484,28 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|5|5": {
+ "Chapter 10 · Fast-course summary pack|5|18": {
   "source_text": "■ Task · タスク",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|5|6": {
+ "Chapter 10 · Fast-course summary pack|5|19": {
   "source_text": "A: You have just moved into a condominium (a real or invented persona). Introduce yourself, say where you work and when you set off in the morning.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|5|7": {
+ "Chapter 10 · Fast-course summary pack|6|0": {
   "source_text": "B: You are a neighbour. Ask where A is from and what A does at the weekend, say one thing about yourself, and invite A to a gathering on Sunday.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|5|8": {
+ "Chapter 10 · Fast-course summary pack|6|1": {
   "source_text": "Change of plan: B says Maaf, hari Ahad saya bercuti. Kita berkumpul hari Sabtu, ya? A asks the time.",
   "target_spans": [
    "Maaf, hari Ahad saya bercuti. Kita berkumpul hari Sabtu, ya?"
@@ -166374,7 +166514,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|5|9": {
+ "Chapter 10 · Fast-course summary pack|6|2": {
   "source_text": "A：コンドミニアムに引っ越してきたばかりです（本人か架空の人物）。自己紹介し、勤め先と朝の出発時刻を言います。B：隣人として、Aの出身と週末にすることをたずね、自分のことを一つ話し、日曜日の集まりに招きます。変更：Bが Maaf, hari Ahad saya bercuti. Kita berkumpul hari Sabtu, ya? と言い、Aは時刻をたずねます。",
   "target_spans": [
    "Maaf, hari Ahad saya bercuti. Kita berkumpul hari Sabtu, ya?"
@@ -166383,42 +166523,42 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|5|10": {
+ "Chapter 10 · Fast-course summary pack|6|3": {
   "source_text": "■ Self-check · できるチェック",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|5|11": {
+ "Chapter 10 · Fast-course summary pack|6|4": {
   "source_text": "☐ 1. Say \"Every morning I set off at seven.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|5|12": {
+ "Chapter 10 · Fast-course summary pack|6|5": {
   "source_text": "☐ 2. Ask \"What time does the meeting start?\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|5|13": {
+ "Chapter 10 · Fast-course summary pack|6|6": {
   "source_text": "☐ 3. Say \"I am from Osaka.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|5|14": {
+ "Chapter 10 · Fast-course summary pack|6|7": {
   "source_text": "☐ 4. Say \"I have just moved here.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|5|15": {
+ "Chapter 10 · Fast-course summary pack|6|8": {
   "source_text": "☐ 5. Answer \"not yet\" to Sudah berkahwin?: ____________________",
   "target_spans": [
    "Sudah berkahwin?"
@@ -166427,21 +166567,21 @@
   "kind": "test",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|5|16": {
+ "Chapter 10 · Fast-course summary pack|6|9": {
   "source_text": "■ Self-study guide · 自習ガイド",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|5|17": {
+ "Chapter 10 · Fast-course summary pack|6|10": {
   "source_text": "Before the session: Kata-Kata Sedia Kelas c10 (33 cards, frames ms-c10-f01 and ms-c10-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|5|18": {
+ "Chapter 10 · Fast-course summary pack|6|11": {
   "source_text": "After the session: all 45 Kata-Kata chapter 10 cards (ms-c10-001 to ms-c10-045; ms-c10-041 pindah is recognise only) and frames ms-c10-f01 to ms-c10-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"A working day and a new neighbour\" matches this pack.",
   "target_spans": [
    "pindah"
@@ -166450,28 +166590,28 @@
   "kind": "opener",
   "exclusion": null
  },
- "Chapter 10 · Fast-course summary pack|5|19": {
+ "Chapter 10 · Fast-course summary pack|6|12": {
   "source_text": "No Dunia scene primes chapter 10. Hanashishou scenes for chapter 10 (grab_ride_chat, new_neighbour) are not yet tagged by chapter, so they are not assigned yet.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|6|0": {
+ "Chapter 10 · Fast-course summary pack|6|13": {
   "source_text": "Optional full-course Cikgu Sensai units: unit 10A (the working day) and unit 10B (background and neighbours), with a writing block.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|6|1": {
+ "Chapter 10 · Fast-course summary pack|6|14": {
   "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 10 · Fast-course summary pack|6|2": {
+ "Chapter 10 · Fast-course summary pack|6|15": {
   "source_text": "授業後：第10章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。",
   "target_spans": [],
   "mention_spans": [],
@@ -166510,7 +166650,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 11 · Fast-course summary pack|0|0": {
-  "source_text": "第11章速習：45分で基本の24語、meN- の動詞（語根・つづりの変化・di- の相手）、「誰が」の質問、依頼 Tolong semak …、週末の予定 mahu を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
+  "source_text": "第11章速習：45分で基本の45語、meN- の動詞（語根・つづりの変化・di- の相手）、「誰が」の質問、依頼 Tolong semak …、週末の予定 mahu を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
   "target_spans": [
    "di-",
    "Tolong semak …",
@@ -166535,7 +166675,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 11 · Fast-course summary pack|2|0": {
-  "source_text": "Chapter 11 in one 45-minute session: 24 core words, meN- verbs (the root, the spelling change and the di- partner), the question Siapa yang …?, the request Tolong semak … and weekend plans with mahu; then self-study in Kata-Kata. All names and details are fictional.",
+  "source_text": "Chapter 11 in one 45-minute session: 45 core words, meN- verbs (the root, the spelling change and the di- partner), the question Siapa yang …?, the request Tolong semak … and weekend plans with mahu; then self-study in Kata-Kata. All names and details are fictional.",
   "target_spans": [
    "di-",
    "Siapa yang …?",
@@ -166578,7 +166718,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 11 · Fast-course summary pack|3|4": {
-  "source_text": "■ Core words · 基本の24語",
+  "source_text": "■ Core words · 基本の45語",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
@@ -166807,44 +166947,217 @@
   "exclusion": null
  },
  "Chapter 11 · Fast-course summary pack|4|2": {
-  "source_text": "The full course also teaches membuat, menutup, membawa, mencuci, memanggil, melihat, mendengar, menjual, menyimpan, melancong, menukar, memilih, meminjam, menolong, mengisi, semak, mesej, draf, slaid, tarikh akhir, rancangan, and tukar and deadline as spoken forms (to recognise only).",
+  "source_text": "menutup — to close · 閉める  [L-1130]",
   "target_spans": [
-   "membuat",
-   "menutup",
-   "membawa",
-   "mencuci",
-   "memanggil",
-   "melihat",
-   "mendengar",
-   "menjual",
-   "menyimpan",
-   "melancong",
-   "menukar",
-   "memilih",
-   "meminjam",
-   "menolong",
-   "mengisi",
-   "semak",
-   "mesej",
-   "draf",
-   "slaid",
-   "tarikh akhir",
-   "rancangan",
-   "tukar",
-   "deadline"
+   "menutup"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
  "Chapter 11 · Fast-course summary pack|4|3": {
+  "source_text": "menjual — to sell · 売る  [L-1142]",
+  "target_spans": [
+   "menjual"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|4": {
+  "source_text": "membawa — to bring / carry · 持ってくる・運ぶ  [L-1131]",
+  "target_spans": [
+   "membawa"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|5": {
+  "source_text": "melihat — to see · 見る  [L-1139]",
+  "target_spans": [
+   "melihat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|6": {
+  "source_text": "mendengar — to hear / listen · 聞く  [L-1140]",
+  "target_spans": [
+   "mendengar"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|7": {
+  "source_text": "memanggil — to call someone · 人を呼ぶ  [L-1135]",
+  "target_spans": [
+   "memanggil"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|8": {
+  "source_text": "mencuci — to wash · 洗う  [L-1134]",
+  "target_spans": [
+   "mencuci"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|9": {
+  "source_text": "membuat — to make / do · 作る・する  [L-1128]",
+  "target_spans": [
+   "membuat"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|10": {
+  "source_text": "semak — check, review (as a request: Tolong semak …) · 確認してください  [L-1153]",
+  "target_spans": [
+   "semak",
+   "Tolong semak …"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|11": {
+  "source_text": "draf — A draft · 下書き  [L-0680]",
+  "target_spans": [
+   "draf"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|12": {
+  "source_text": "slaid — Slide (in a presentation) · スライド  [L-0696]",
+  "target_spans": [
+   "slaid"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|13": {
+  "source_text": "tarikh akhir — Deadline (formal, written) · 締め切り（あらたまった書き言葉）  [L-0849]",
+  "target_spans": [
+   "tarikh akhir"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|14": {
+  "source_text": "rancangan — A plan · 計画、予定  [L-0684]",
+  "target_spans": [
+   "rancangan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|15": {
+  "source_text": "mesej — message · メッセージ  [L-1154]",
+  "target_spans": [
+   "mesej"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|16": {
+  "source_text": "menukar — to change / exchange · 替える・交換する  [L-1145]",
+  "target_spans": [
+   "menukar"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|17": {
+  "source_text": "mengisi — to fill · 記入する・入れる  [L-1147]",
+  "target_spans": [
+   "mengisi"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|18": {
+  "source_text": "memilih — to choose · 選ぶ  [L-1148]",
+  "target_spans": [
+   "memilih"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|19": {
+  "source_text": "melancong — to travel for leisure · 旅行する  [L-1144]",
+  "target_spans": [
+   "melancong"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|20": {
+  "source_text": "meminjam — to borrow · （一時的に）借りる  [L-1149]",
+  "target_spans": [
+   "meminjam"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|21": {
+  "source_text": "menolong — to help · 手伝う・助ける  [L-1151]",
+  "target_spans": [
+   "menolong"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|22": {
+  "source_text": "menyimpan — to keep, to store (standard form of simpan) · 保管する、取っておく（simpan の標準形）  [L-0792]",
+  "target_spans": [
+   "menyimpan",
+   "simpan",
+   "simpan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|23": {
+  "source_text": "Recognise only: tukar and deadline, the spoken forms of menukar and tarikh akhir. The full course adds the revision words of both units.",
+  "target_spans": [
+   "tukar",
+   "deadline",
+   "menukar",
+   "tarikh akhir"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 11 · Fast-course summary pack|4|24": {
   "source_text": "■ Key patterns · 文型",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|4|4": {
+ "Chapter 11 · Fast-course summary pack|4|25": {
   "source_text": "1 · Aini ___ buku itu.  e.g. Puan Aini membaca emel itu. / Encik Rahman menerima fail itu.",
   "target_spans": [
    "Aini",
@@ -166856,7 +167169,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|4|5": {
+ "Chapter 11 · Fast-course summary pack|4|26": {
   "source_text": "2 · Buku itu (di- verb) oleh Aini.  e.g. Emel itu dibaca oleh Puan Aini. / Fail itu dihantar oleh Puan Aini.",
   "target_spans": [
    "Buku itu",
@@ -166869,7 +167182,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|4|6": {
+ "Chapter 11 · Fast-course summary pack|5|0": {
   "source_text": "3 · Siapa yang ___ fail itu?  e.g. Siapa yang menghantar fail itu? / Puan Aini yang menghantar fail itu.",
   "target_spans": [
    "Siapa yang",
@@ -166881,7 +167194,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|4|7": {
+ "Chapter 11 · Fast-course summary pack|5|1": {
   "source_text": "4 · Tolong semak ___ ini.  e.g. Tolong semak draf ini. / Tolong semak slaid ini.",
   "target_spans": [
    "Tolong semak",
@@ -166893,7 +167206,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|4|8": {
+ "Chapter 11 · Fast-course summary pack|5|2": {
   "source_text": "5 · Hujung minggu ini saya mahu ___.  e.g. Hujung minggu ini saya mahu mendaki. / Hujung minggu ini saya mahu memasak.",
   "target_spans": [
    "Hujung minggu ini saya mahu",
@@ -166904,7 +167217,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|4|9": {
+ "Chapter 11 · Fast-course summary pack|5|3": {
   "source_text": "Remember: a meN- verb is a root with meN- in front, and the first sound of the root decides the front: mem- before b; t, p, s and k drop; meng- before h or a vowel; men- before c, d and j; me- before l, m, n, r, w and y; menge- before a one-syllable root (cas → mengecas). A request takes the plain root (Tolong semak …), not the meN- form. In speech you will hear the root alone (baca, tukar); say the meN- form.",
   "target_spans": [
    "cas",
@@ -166924,7 +167237,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|4|10": {
+ "Chapter 11 · Fast-course summary pack|5|4": {
   "source_text": "meN- の動詞は語根の前に meN- を付けた形で、語根の最初の音で前の部分が決まります：b の前は mem-、t・p・s・k は落ちる、h か母音の前は meng-、c・d・j の前は men-、l・m・n・r・w・y の前は me-、一音節の語根は menge- です（cas → mengecas）。依頼は meN- の形ではなく語根をそのまま使います（Tolong semak …）。話し言葉では語根だけも聞きますが、言うときは meN- の形を使います。",
   "target_spans": [
    "cas",
@@ -166942,14 +167255,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|4|11": {
+ "Chapter 11 · Fast-course summary pack|5|5": {
   "source_text": "■ Model conversation · 会話 (fictional)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|4|12": {
+ "Chapter 11 · Fast-course summary pack|5|6": {
   "source_text": "Tanaka: Puan Aini, emel dari Jepun itu sudah dibaca?",
   "target_spans": [
    "Puan Aini, emel dari Jepun itu sudah dibaca?"
@@ -166958,7 +167271,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|4|13": {
+ "Chapter 11 · Fast-course summary pack|5|7": {
   "source_text": "Aini: Sudah. Saya membaca emel itu pagi tadi, kemudian saya menghantar fail itu.",
   "target_spans": [
    "Sudah. Saya membaca emel itu pagi tadi, kemudian saya menghantar fail itu."
@@ -166967,7 +167280,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|4|14": {
+ "Chapter 11 · Fast-course summary pack|5|8": {
   "source_text": "Tanaka: Oh, Encik Rahman yang menerima fail itu?",
   "target_spans": [
    "Oh, Encik Rahman yang menerima fail itu?"
@@ -166976,7 +167289,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|4|15": {
+ "Chapter 11 · Fast-course summary pack|5|9": {
   "source_text": "Aini: Ya. Sekarang dia sedang membuka fail itu.",
   "target_spans": [
    "Ya. Sekarang dia sedang membuka fail itu."
@@ -166985,7 +167298,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|4|16": {
+ "Chapter 11 · Fast-course summary pack|5|10": {
   "source_text": "Tanaka: Cik Mei Ling, draf slaid itu sudah siap?",
   "target_spans": [
    "Cik Mei Ling, draf slaid itu sudah siap?"
@@ -166994,7 +167307,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|4|17": {
+ "Chapter 11 · Fast-course summary pack|5|11": {
   "source_text": "Mei Ling: Belum. Saya masih menyemak draf itu. Tarikh akhir hari Jumaat, ya?",
   "target_spans": [
    "Belum. Saya masih menyemak draf itu. Tarikh akhir hari Jumaat, ya?"
@@ -167003,7 +167316,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|4|18": {
+ "Chapter 11 · Fast-course summary pack|5|12": {
   "source_text": "Tanaka: Ya, hari Jumaat. Tolong semak sekali lagi.",
   "target_spans": [
    "Ya, hari Jumaat. Tolong semak sekali lagi."
@@ -167012,7 +167325,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|5|0": {
+ "Chapter 11 · Fast-course summary pack|5|13": {
   "source_text": "Mei Ling: Baik. Nanti saya menghantar mesej. Hujung minggu ini encik buat apa?",
   "target_spans": [
    "Baik. Nanti saya menghantar mesej. Hujung minggu ini encik buat apa?"
@@ -167021,7 +167334,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|5|1": {
+ "Chapter 11 · Fast-course summary pack|5|14": {
   "source_text": "Tanaka: Saya mahu memasak. Isteri saya mengajar saya memasak nasi lemak.",
   "target_spans": [
    "Saya mahu memasak. Isteri saya mengajar saya memasak nasi lemak."
@@ -167030,7 +167343,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|5|2": {
+ "Chapter 11 · Fast-course summary pack|5|15": {
   "source_text": "Mei Ling: Wah, bagus! Saya mahu mendaki dengan kawan saya. Boleh saya mengecas telefon saya di sini?",
   "target_spans": [
    "Wah, bagus! Saya mahu mendaki dengan kawan saya. Boleh saya mengecas telefon saya di sini?"
@@ -167039,7 +167352,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|5|3": {
+ "Chapter 11 · Fast-course summary pack|5|16": {
   "source_text": "Tanaka: Boleh. Mari kita minum kopi. Saya yang membayar.",
   "target_spans": [
    "Boleh. Mari kita minum kopi. Saya yang membayar."
@@ -167048,28 +167361,28 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|5|4": {
+ "Chapter 11 · Fast-course summary pack|5|17": {
   "source_text": "■ Task · タスク",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|5|5": {
+ "Chapter 11 · Fast-course summary pack|5|18": {
   "source_text": "A: You are a colleague who knows the morning (fictional): Aini read the email, Mei Ling checked the draft, Rahman sent the reply. Answer B with the doer first.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|5|6": {
+ "Chapter 11 · Fast-course summary pack|5|19": {
   "source_text": "B: You were out. Ask A who read the email, who checked the draft and who sent the reply, ask A to check one thing, and ask what A wants to do at the weekend.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|5|7": {
+ "Chapter 11 · Fast-course summary pack|6|0": {
   "source_text": "Change of plan: A says Maaf, bukan Encik Rahman. Puan Aini yang menghantar jawapan itu. B corrects the report with the di- form.",
   "target_spans": [
    "Maaf, bukan Encik Rahman. Puan Aini yang menghantar jawapan itu.",
@@ -167079,7 +167392,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|5|8": {
+ "Chapter 11 · Fast-course summary pack|6|1": {
   "source_text": "A：今朝のことを知っている同僚です（架空）：アイニさんがメールを読み、メイリンさんが下書きを確認し、ラーマンさんが返事を送りました。Bに動作主を先にして答えます。B：席を外していました。誰がメールを読み、下書きを確認し、返事を送ったかをたずね、確認してほしいことを一つ頼み、週末にしたいことをたずねます。変更：Aが Maaf, bukan Encik Rahman. Puan Aini yang menghantar jawapan itu. と言い、Bは di- の形で報告を直します。",
   "target_spans": [
    "Maaf, bukan Encik Rahman. Puan Aini yang menghantar jawapan itu.",
@@ -167089,63 +167402,63 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|5|9": {
+ "Chapter 11 · Fast-course summary pack|6|2": {
   "source_text": "■ Self-check · できるチェック",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|5|10": {
+ "Chapter 11 · Fast-course summary pack|6|3": {
   "source_text": "☐ 1. Say \"Aini reads the email.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|5|11": {
+ "Chapter 11 · Fast-course summary pack|6|4": {
   "source_text": "☐ 2. Say \"The email is read by Aini.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|5|12": {
+ "Chapter 11 · Fast-course summary pack|6|5": {
   "source_text": "☐ 3. Ask \"Who sent the file?\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|5|13": {
+ "Chapter 11 · Fast-course summary pack|6|6": {
   "source_text": "☐ 4. Say \"Please check this draft.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|5|14": {
+ "Chapter 11 · Fast-course summary pack|6|7": {
   "source_text": "☐ 5. Say \"This weekend I want to go hiking.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|5|15": {
+ "Chapter 11 · Fast-course summary pack|6|8": {
   "source_text": "■ Self-study guide · 自習ガイド",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|5|16": {
+ "Chapter 11 · Fast-course summary pack|6|9": {
   "source_text": "Before the session: Kata-Kata Sedia Kelas c11 (34 cards, frames ms-c11-f01 and ms-c11-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|5|17": {
+ "Chapter 11 · Fast-course summary pack|6|10": {
   "source_text": "After the session: all 47 Kata-Kata chapter 11 cards (ms-c11-001 to ms-c11-047; ms-c11-042 tukar and ms-c11-043 deadline are recognise only) and frames ms-c11-f01 to ms-c11-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"Who did what in the office\" matches this pack.",
   "target_spans": [
    "tukar",
@@ -167155,28 +167468,28 @@
   "kind": "opener",
   "exclusion": null
  },
- "Chapter 11 · Fast-course summary pack|5|18": {
+ "Chapter 11 · Fast-course summary pack|6|11": {
   "source_text": "No Dunia scene primes chapter 11. The Hanashishou office scene for chapter 11 (report_deadline) is not yet tagged by chapter, so it is not assigned yet.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|6|0": {
+ "Chapter 11 · Fast-course summary pack|6|12": {
   "source_text": "Optional full-course Cikgu Sensai units: unit 11A (who did what at the office) and unit 11B (the draft, the deadline and the weekend), with a review block.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|6|1": {
+ "Chapter 11 · Fast-course summary pack|6|13": {
   "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 11 · Fast-course summary pack|6|2": {
+ "Chapter 11 · Fast-course summary pack|6|14": {
   "source_text": "授業後：第11章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。",
   "target_spans": [],
   "mention_spans": [],
@@ -167214,7 +167527,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 12 · Fast-course summary pack|0|0": {
-  "source_text": "第12章速習：45分で基本の24語、-kan と -i の動詞（語根・接尾辞の働き・つづり）、依頼 Tolong simpankan …、荷物の受け取り、水漏れの連絡 Ada kebocoran di … saya を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
+  "source_text": "第12章速習：45分で基本の48語、-kan と -i の動詞（語根・接尾辞の働き・つづり）、依頼 Tolong simpankan …、荷物の受け取り、水漏れの連絡 Ada kebocoran di … saya を練習し、残りは Kata-Kata で自習します。日本語は未監修です。",
   "target_spans": [
    "Tolong simpankan …",
    "Ada kebocoran di … saya"
@@ -167241,7 +167554,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 12 · Fast-course summary pack|2|0": {
-  "source_text": "Chapter 12 in one 45-minute session: 24 core words, the -kan and -i verbs (the root, what the suffix adds and the spelling), the request Tolong simpankan …, collecting a parcel and reporting a leak; then self-study in Kata-Kata. All names and details are fictional.",
+  "source_text": "Chapter 12 in one 45-minute session: 48 core words, the -kan and -i verbs (the root, what the suffix adds and the spelling), the request Tolong simpankan …, collecting a parcel and reporting a leak; then self-study in Kata-Kata. All names and details are fictional.",
   "target_spans": [
    "Tolong simpankan …"
   ],
@@ -167284,7 +167597,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 12 · Fast-course summary pack|3|4": {
-  "source_text": "■ Core words · 基本の24語",
+  "source_text": "■ Core words · 基本の48語",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
@@ -167509,46 +167822,237 @@
   "exclusion": null
  },
  "Chapter 12 · Fast-course summary pack|4|2": {
-  "source_text": "The full course also teaches bukakan, belikan, pulangkan, berikan, pastikan, pemilik, pejabat pengurusan, blok, penerima, nombor penjejakan, lobi, baiki, menghubungi, ganti, gantikan, isikan, kosongkan, hidupkan, perlahankan, kerosakan, aduan, kontraktor, paip, tempahan, and nombor tracking as a spoken form (to recognise only).",
+  "source_text": "belikan — buy for someone (request) · 買ってきてください  [L-1160]",
   "target_spans": [
-   "bukakan",
-   "belikan",
-   "pulangkan",
-   "berikan",
-   "pastikan",
-   "pemilik",
-   "pejabat pengurusan",
-   "blok",
-   "penerima",
-   "nombor penjejakan",
-   "lobi",
-   "baiki",
-   "menghubungi",
-   "ganti",
-   "gantikan",
-   "isikan",
-   "kosongkan",
-   "hidupkan",
-   "perlahankan",
-   "kerosakan",
-   "aduan",
-   "kontraktor",
-   "paip",
-   "tempahan",
-   "nombor tracking"
+   "belikan"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
  "Chapter 12 · Fast-course summary pack|4|3": {
-  "source_text": "■ Key patterns · 文型",
-  "target_spans": [],
+  "source_text": "bukakan — open for someone (request) · 開けてください  [L-1163]",
+  "target_spans": [
+   "bukakan"
+  ],
   "mention_spans": [],
-  "kind": "heading",
-  "exclusion": "Japanese/English (marked source)"
+  "kind": "vocabulary",
+  "exclusion": null
  },
  "Chapter 12 · Fast-course summary pack|4|4": {
+  "source_text": "pulangkan — return something (request) · 返してください  [L-1165]",
+  "target_spans": [
+   "pulangkan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|5": {
+  "source_text": "berikan — give (request) · 渡してください  [L-1166]",
+  "target_spans": [
+   "berikan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|6": {
+  "source_text": "pastikan — To make sure · 確かめる、必ず〜するようにする  [L-0743]",
+  "target_spans": [
+   "pastikan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|7": {
+  "source_text": "pejabat pengurusan — The (condo) management office · 管理事務所  [L-0650]",
+  "target_spans": [
+   "pejabat pengurusan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|8": {
+  "source_text": "pemilik — Owner · 所有者、オーナー  [L-0662]",
+  "target_spans": [
+   "pemilik"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|9": {
+  "source_text": "blok — Block (of a building) · 棟（ブロック）  [L-0653]",
+  "target_spans": [
+   "blok"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|10": {
+  "source_text": "penerima — recipient (on parcel labels) · 受取人  [L-1169]",
+  "target_spans": [
+   "penerima"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|11": {
+  "source_text": "nombor penjejakan — tracking number (written label; nombor tracking is spoken) · 追跡番号（書き言葉・ラベル表記。話し言葉は nombor tracking）  [L-1170]",
+  "target_spans": [
+   "nombor penjejakan",
+   "nombor tracking",
+   "nombor tracking"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|12": {
+  "source_text": "lobi — lobby · ロビー  [L-1171]",
+  "target_spans": [
+   "lobi"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|13": {
+  "source_text": "paip — Pipe · 配管、パイプ  [L-0661]",
+  "target_spans": [
+   "paip"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|14": {
+  "source_text": "kerosakan — damage / fault · 故障・破損  [L-1182]",
+  "target_spans": [
+   "kerosakan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|15": {
+  "source_text": "aduan — complaint / problem report · 苦情・問題の報告  [L-1183]",
+  "target_spans": [
+   "aduan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|16": {
+  "source_text": "kontraktor — Contractor · 工事業者、請負業者  [L-0665]",
+  "target_spans": [
+   "kontraktor"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|17": {
+  "source_text": "baiki — repair (request) · 修理してください  [L-1173]",
+  "target_spans": [
+   "baiki"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|18": {
+  "source_text": "menghubungi — To contact · 連絡する  [L-0789]",
+  "target_spans": [
+   "menghubungi"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|19": {
+  "source_text": "ganti — To replace; to stand in for someone · 代わりをする、代わる  [L-0698]",
+  "target_spans": [
+   "ganti"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|20": {
+  "source_text": "gantikan — replace (request) · 交換してください  [L-1184]",
+  "target_spans": [
+   "gantikan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|21": {
+  "source_text": "tempahan — booking / reservation · 予約  [L-1176]",
+  "target_spans": [
+   "tempahan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|22": {
+  "source_text": "isikan — fill in, put in (request; isi alone is more common in speech) · 記入してください・入れてください  [L-1177]",
+  "target_spans": [
+   "isikan",
+   "isi"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|23": {
+  "source_text": "kosongkan — empty / clear (request) · 空にしてください  [L-1178]",
+  "target_spans": [
+   "kosongkan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|24": {
+  "source_text": "hidupkan — switch on (a request; buka is everyday for lights and aircon) · つけてください（照明やエアコンの日常語は buka）  [L-1179]",
+  "target_spans": [
+   "hidupkan",
+   "buka",
+   "buka"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|25": {
+  "source_text": "perlahankan — To lower (the voice); to slow down · （声を）小さくする、ゆっくりにする  [L-0871]",
+  "target_spans": [
+   "perlahankan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|4|26": {
+  "source_text": "Recognise only: nombor tracking, the spoken form of nombor penjejakan. The full course adds the revision words of both units.",
+  "target_spans": [
+   "nombor tracking",
+   "nombor penjejakan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 12 · Fast-course summary pack|5|0": {
   "source_text": "1 · Tolong ___ bungkusan ini.  e.g. Tolong simpankan bungkusan ini. / Tolong hantarkan bungkusan itu.",
   "target_spans": [
    "Tolong",
@@ -167560,7 +168064,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|5": {
+ "Chapter 12 · Fast-course summary pack|5|1": {
   "source_text": "2 · Boleh ___ mesej itu?  e.g. Boleh tunjukkan mesej itu? / Boleh bawakan beg saya?",
   "target_spans": [
    "Boleh",
@@ -167572,7 +168076,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|6": {
+ "Chapter 12 · Fast-course summary pack|5|2": {
   "source_text": "3 · Saya mahu ambil ___.  e.g. Saya mahu ambil bungkusan. / Boleh ambilkan bungkusan saya?",
   "target_spans": [
    "Saya mahu ambil",
@@ -167583,7 +168087,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|7": {
+ "Chapter 12 · Fast-course summary pack|5|3": {
   "source_text": "4 · Boleh hubungi ___ ?  e.g. Boleh hubungi juruteknik? / Juruteknik sedang membaiki paip.",
   "target_spans": [
    "Boleh hubungi",
@@ -167595,7 +168099,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|8": {
+ "Chapter 12 · Fast-course summary pack|5|4": {
   "source_text": "5 · Ada kebocoran di ___ saya.  e.g. Ada kebocoran di siling saya. / Tolong matikan lampu itu dulu.",
   "target_spans": [
    "Ada kebocoran di",
@@ -167607,7 +168111,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|9": {
+ "Chapter 12 · Fast-course summary pack|5|5": {
   "source_text": "Remember: -kan on a root means do it for someone or make it happen (simpan → simpankan, mati → matikan); -i points at a person or place (hubungi). Two k in letakkan and tunjukkan; berikan is beri + -kan, not ber- + ikan; bersihkan is bersih + -kan. In speech you will hear the root alone (simpan, tutup); say the -kan form. After sudah, sedang, belum or akan, or with a third-person doer, use the meN- verb: menyimpan, menghantar.",
   "target_spans": [
    "simpan",
@@ -167642,7 +168146,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|10": {
+ "Chapter 12 · Fast-course summary pack|5|6": {
   "source_text": "-kan は語根に付いて「誰かのためにする」「そうなるようにする」を表し（simpan → simpankan、mati → matikan）、-i は人や場所へ向かう動作です（hubungi）。letakkan と tunjukkan は k が二つで、berikan は beri ＋ -kan（ber- ＋ ikan ではありません）、bersihkan は bersih ＋ -kan です。話し言葉では語根だけも聞きますが、言うときは -kan の形を使います。sudah・sedang・belum・akan のあと、または三人称の動作主のときは meN- の動詞（menyimpan・menghantar）を使います。",
   "target_spans": [
    "simpan",
@@ -167675,14 +168179,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|11": {
+ "Chapter 12 · Fast-course summary pack|5|7": {
   "source_text": "■ Model conversation · 会話 (fictional)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|4|12": {
+ "Chapter 12 · Fast-course summary pack|5|8": {
   "source_text": "Tanaka: Selamat petang. Saya mahu ambil bungkusan. Sudah sampai?",
   "target_spans": [
    "Selamat petang. Saya mahu ambil bungkusan. Sudah sampai?"
@@ -167691,7 +168195,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|13": {
+ "Chapter 12 · Fast-course summary pack|5|9": {
   "source_text": "Guard: Sudah, encik. Unit berapa?",
   "target_spans": [
    "Sudah, encik. Unit berapa?"
@@ -167700,7 +168204,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|14": {
+ "Chapter 12 · Fast-course summary pack|5|10": {
   "source_text": "Tanaka: Blok B, unit 12-3.",
   "target_spans": [
    "Blok B, unit 12-3."
@@ -167709,7 +168213,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|15": {
+ "Chapter 12 · Fast-course summary pack|5|11": {
   "source_text": "Guard: Ada dua bungkusan. Boleh tunjukkan mesej itu?",
   "target_spans": [
    "Ada dua bungkusan. Boleh tunjukkan mesej itu?"
@@ -167718,7 +168222,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|4|16": {
+ "Chapter 12 · Fast-course summary pack|5|12": {
   "source_text": "Tanaka: Boleh. Nombor penjejakan ada dalam mesej ini.",
   "target_spans": [
    "Boleh. Nombor penjejakan ada dalam mesej ini."
@@ -167727,7 +168231,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|0": {
+ "Chapter 12 · Fast-course summary pack|5|13": {
   "source_text": "Guard: Bungkusan kecil itu bukan untuk encik. Label ini koyak.",
   "target_spans": [
    "Bungkusan kecil itu bukan untuk encik. Label ini koyak."
@@ -167736,7 +168240,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|1": {
+ "Chapter 12 · Fast-course summary pack|5|14": {
   "source_text": "Tanaka: Oh, bukan untuk saya. Tolong simpankan bungkusan kecil itu di pondok pengawal.",
   "target_spans": [
    "Oh, bukan untuk saya. Tolong simpankan bungkusan kecil itu di pondok pengawal."
@@ -167745,7 +168249,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|2": {
+ "Chapter 12 · Fast-course summary pack|5|15": {
   "source_text": "Guard: Baik, encik.",
   "target_spans": [
    "Baik, encik."
@@ -167754,7 +168258,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|3": {
+ "Chapter 12 · Fast-course summary pack|5|16": {
   "source_text": "Tanaka: Selamat pagi. Ada kebocoran di siling bilik air saya.",
   "target_spans": [
    "Selamat pagi. Ada kebocoran di siling bilik air saya."
@@ -167763,7 +168267,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|4": {
+ "Chapter 12 · Fast-course summary pack|5|17": {
   "source_text": "Office: Tolong matikan lampu itu dulu. Kami akan menghubungi juruteknik.",
   "target_spans": [
    "Tolong matikan lampu itu dulu. Kami akan menghubungi juruteknik."
@@ -167772,7 +168276,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|5": {
+ "Chapter 12 · Fast-course summary pack|5|18": {
   "source_text": "Tanaka: Baik, saya matikan lampu itu sekarang. Bila juruteknik boleh datang?",
   "target_spans": [
    "Baik, saya matikan lampu itu sekarang. Bila juruteknik boleh datang?"
@@ -167781,7 +168285,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|6": {
+ "Chapter 12 · Fast-course summary pack|5|19": {
   "source_text": "Office: Ada slot petang ini, pukul tiga. Boleh?",
   "target_spans": [
    "Ada slot petang ini, pukul tiga. Boleh?"
@@ -167790,7 +168294,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|7": {
+ "Chapter 12 · Fast-course summary pack|6|0": {
   "source_text": "Tanaka: Boleh. Tolong hubungi saya sebelum juruteknik sampai.",
   "target_spans": [
    "Boleh. Tolong hubungi saya sebelum juruteknik sampai."
@@ -167799,28 +168303,28 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|8": {
+ "Chapter 12 · Fast-course summary pack|6|1": {
   "source_text": "■ Task · タスク",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|9": {
+ "Chapter 12 · Fast-course summary pack|6|2": {
   "source_text": "A: You are the guard or the office (fictional). Two parcels are in the guardhouse; the small one has a torn label. Later the resident reports a leak.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|10": {
+ "Chapter 12 · Fast-course summary pack|6|3": {
   "source_text": "B: You are the resident. Collect your parcel, ask the guard to keep the small one, then report a leak in your ceiling, switch off the light and ask to be contacted.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|11": {
+ "Chapter 12 · Fast-course summary pack|6|4": {
   "source_text": "Change of plan: A says Maaf, juruteknik datang pukul dua, bukan pukul tiga. B agrees and asks to be contacted before the technician arrives.",
   "target_spans": [
    "Maaf, juruteknik datang pukul dua, bukan pukul tiga."
@@ -167829,7 +168333,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|12": {
+ "Chapter 12 · Fast-course summary pack|6|5": {
   "source_text": "A：守衛または管理事務所の担当です（架空）。守衛所に荷物が二つあり、小さい方はラベルが破れています。あとで住民が水漏れを連絡します。B：住民です。荷物を受け取り、小さい荷物を預かってもらい、天井の水漏れを連絡し、電灯を消し、連絡を頼みます。変更：Aが Maaf, juruteknik datang pukul dua, bukan pukul tiga. と言い、Bは了承して技術者が着く前の連絡を頼みます。",
   "target_spans": [
    "Maaf, juruteknik datang pukul dua, bukan pukul tiga."
@@ -167838,63 +168342,63 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|5|13": {
+ "Chapter 12 · Fast-course summary pack|6|6": {
   "source_text": "■ Self-check · できるチェック",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|14": {
+ "Chapter 12 · Fast-course summary pack|6|7": {
   "source_text": "☐ 1. Say \"Please keep this parcel.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|15": {
+ "Chapter 12 · Fast-course summary pack|6|8": {
   "source_text": "☐ 2. Say \"Can you show me the message?\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|16": {
+ "Chapter 12 · Fast-course summary pack|6|9": {
   "source_text": "☐ 3. Say \"Can you contact the technician?\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|17": {
+ "Chapter 12 · Fast-course summary pack|6|10": {
   "source_text": "☐ 4. Say \"There is a leak in my ceiling.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|18": {
+ "Chapter 12 · Fast-course summary pack|6|11": {
   "source_text": "☐ 5. Say \"Please switch that light off first.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|19": {
+ "Chapter 12 · Fast-course summary pack|6|12": {
   "source_text": "■ Self-study guide · 自習ガイド",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|20": {
+ "Chapter 12 · Fast-course summary pack|6|13": {
   "source_text": "Before the session: Kata-Kata Sedia Kelas c12 (36 cards, frames ms-c12-f01 and ms-c12-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|5|21": {
+ "Chapter 12 · Fast-course summary pack|6|14": {
   "source_text": "After the session: all 49 Kata-Kata chapter 12 cards (ms-c12-001 to ms-c12-049; ms-c12-024 nombor tracking is recognise only) and frames ms-c12-f01 to ms-c12-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"Parcels and a leak\" matches this pack.",
   "target_spans": [
    "nombor tracking"
@@ -167903,14 +168407,14 @@
   "kind": "opener",
   "exclusion": null
  },
- "Chapter 12 · Fast-course summary pack|6|0": {
+ "Chapter 12 · Fast-course summary pack|6|15": {
   "source_text": "No Dunia scene primes chapter 12. The Hanashishou home-condo scenes for chapter 12 are not yet tagged by chapter, so they are not assigned yet.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|6|1": {
+ "Chapter 12 · Fast-course summary pack|6|16": {
   "source_text": "Optional full-course Cikgu Sensai units: unit 12A (parcels and -kan requests, with a writing block) and unit 12B (the leak and the repair, with a review block).",
   "target_spans": [],
   "mention_spans": [
@@ -167919,14 +168423,14 @@
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|6|2": {
+ "Chapter 12 · Fast-course summary pack|6|17": {
   "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 12 · Fast-course summary pack|6|3": {
+ "Chapter 12 · Fast-course summary pack|6|18": {
   "source_text": "授業後：第12章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。",
   "target_spans": [],
   "mention_spans": [],
@@ -167963,7 +168467,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 13 · Fast-course summary pack|0|0": {
-  "source_text": "第13章速習：45分で基本の24語、belum・Bolehkah saya …?・perlu・patut・mesti・wajib、掲示の tidak dibenarkan・dilarang、パネルクリニックと薬局の場面を練習し、残りは Kata-Kata で自習します。日本語は未監修です。このパックは医学的な助言をしません。",
+  "source_text": "第13章速習：45分で基本の29語、belum・Bolehkah saya …?・perlu・patut・mesti・wajib、掲示の tidak dibenarkan・dilarang、パネルクリニックと薬局の場面を練習し、残りは Kata-Kata で自習します。日本語は未監修です。このパックは医学的な助言をしません。",
   "target_spans": [
    "belum",
    "Bolehkah saya …?",
@@ -167993,7 +168497,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 13 · Fast-course summary pack|2|0": {
-  "source_text": "Chapter 13 in one 45-minute session: 24 core words, belum, Bolehkah saya …?, perlu, patut, mesti and wajib, the signs tidak dibenarkan and dilarang, and the panel clinic and pharmacy scene; then self-study in Kata-Kata. All names and details are fictional and the pack gives no medical advice.",
+  "source_text": "Chapter 13 in one 45-minute session: 29 core words, belum, Bolehkah saya …?, perlu, patut, mesti and wajib, the signs tidak dibenarkan and dilarang, and the panel clinic and pharmacy scene; then self-study in Kata-Kata. All names and details are fictional and the pack gives no medical advice.",
   "target_spans": [
    "belum",
    "Bolehkah saya …?",
@@ -168057,7 +168561,7 @@
   "exclusion": null
  },
  "Chapter 13 · Fast-course summary pack|3|4": {
-  "source_text": "■ Core words · 基本の24語",
+  "source_text": "■ Core words · 基本の29語",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
@@ -168288,26 +168792,65 @@
   "exclusion": null
  },
  "Chapter 13 · Fast-course summary pack|4|5": {
-  "source_text": "The full course also teaches sesuai, simptom, kesihatan, rawatan and kecemasan, with the revision words of the whole unit.",
+  "source_text": "sesuai — suitable · 適している  [L-1197]",
   "target_spans": [
-   "sesuai",
-   "simptom",
-   "kesihatan",
-   "rawatan",
-   "kecemasan"
+   "sesuai"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
  "Chapter 13 · Fast-course summary pack|4|6": {
+  "source_text": "simptom — Symptom · 症状  [L-0634]",
+  "target_spans": [
+   "simptom"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 13 · Fast-course summary pack|4|7": {
+  "source_text": "kesihatan — health · 健康  [L-1194]",
+  "target_spans": [
+   "kesihatan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 13 · Fast-course summary pack|4|8": {
+  "source_text": "rawatan — treatment · 治療  [L-1195]",
+  "target_spans": [
+   "rawatan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 13 · Fast-course summary pack|4|9": {
+  "source_text": "kecemasan — emergency · 緊急事態  [L-1198]",
+  "target_spans": [
+   "kecemasan"
+  ],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": null
+ },
+ "Chapter 13 · Fast-course summary pack|4|10": {
+  "source_text": "The full course adds the revision words of the whole unit.",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "vocabulary",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 13 · Fast-course summary pack|4|11": {
   "source_text": "■ Key patterns · 文型",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|4|7": {
+ "Chapter 13 · Fast-course summary pack|4|12": {
   "source_text": "1 · Saya belum ___ .  e.g. Saya belum makan. / Saya belum mendaftar.",
   "target_spans": [
    "Saya belum",
@@ -168319,7 +168862,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|8": {
+ "Chapter 13 · Fast-course summary pack|4|13": {
   "source_text": "2 · Bolehkah saya ___ ?  e.g. Bolehkah saya masuk? / Boleh saya duduk di sini?",
   "target_spans": [
    "Bolehkah saya",
@@ -168331,7 +168874,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|9": {
+ "Chapter 13 · Fast-course summary pack|4|14": {
   "source_text": "3 · Saya perlu ___ .  e.g. Saya perlu berjumpa doktor. / Encik perlu daftar dulu.",
   "target_spans": [
    "Saya perlu",
@@ -168343,7 +168886,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|10": {
+ "Chapter 13 · Fast-course summary pack|4|15": {
   "source_text": "4 · Encik patut ___ .  e.g. Encik patut berehat. / Encik mesti baca arahan di label.",
   "target_spans": [
    "Encik patut",
@@ -168355,7 +168898,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|11": {
+ "Chapter 13 · Fast-course summary pack|4|16": {
   "source_text": "5 · Tidak dibenarkan ___ di sini.  e.g. Tidak dibenarkan minum di sini. / Borang ini wajib diisi.",
   "target_spans": [
    "Tidak dibenarkan",
@@ -168367,7 +168910,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|12": {
+ "Chapter 13 · Fast-course summary pack|4|17": {
   "source_text": "Remember: belum is not yet, tidak is not; perlu is a step you take, patut is advice and mesti or wajib is a must; tidak perlu is not having to and tidak boleh is not allowed. On a sign you read tidak dibenarkan or dilarang; in speech you say tidak boleh. For your health follow your own doctor and pharmacist.",
   "target_spans": [
    "belum",
@@ -168386,7 +168929,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|13": {
+ "Chapter 13 · Fast-course summary pack|4|18": {
   "source_text": "belum は「まだ〜ていない」、tidak は「〜ない」。perlu は手順、patut は助言、mesti・wajib は義務。tidak perlu は「しなくてよい」、tidak boleh は「してはいけない」。掲示では tidak dibenarkan・dilarang、話し言葉では tidak boleh です。健康については自分の医者と薬剤師の指示に従ってください。",
   "target_spans": [
    "belum",
@@ -168405,14 +168948,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|14": {
+ "Chapter 13 · Fast-course summary pack|4|19": {
   "source_text": "■ Model conversation · 会話 (fictional)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|4|15": {
+ "Chapter 13 · Fast-course summary pack|4|20": {
   "source_text": "Receptionist: Selamat pagi, encik. Ada temu janji?",
   "target_spans": [
    "Selamat pagi, encik. Ada temu janji?"
@@ -168421,7 +168964,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|16": {
+ "Chapter 13 · Fast-course summary pack|4|21": {
   "source_text": "Tanaka: Tidak ada. Saya demam dan sakit tekak. Saya batuk juga.",
   "target_spans": [
    "Tidak ada. Saya demam dan sakit tekak. Saya batuk juga."
@@ -168430,7 +168973,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|17": {
+ "Chapter 13 · Fast-course summary pack|4|22": {
   "source_text": "Receptionist: Encik perlu daftar dulu. Sila isi borang ini.",
   "target_spans": [
    "Encik perlu daftar dulu. Sila isi borang ini."
@@ -168439,7 +168982,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|18": {
+ "Chapter 13 · Fast-course summary pack|4|23": {
   "source_text": "Tanaka: Baik. Saya belum isi borang. Bolehkah saya isi borang di sini?",
   "target_spans": [
    "Baik. Saya belum isi borang. Bolehkah saya isi borang di sini?"
@@ -168448,7 +168991,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|19": {
+ "Chapter 13 · Fast-course summary pack|4|24": {
   "source_text": "Receptionist: Boleh. Ini klinik panel syarikat encik?",
   "target_spans": [
    "Boleh. Ini klinik panel syarikat encik?"
@@ -168457,7 +169000,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|20": {
+ "Chapter 13 · Fast-course summary pack|5|0": {
   "source_text": "Tanaka: Ya. Boleh saya minum air di sini?",
   "target_spans": [
    "Ya. Boleh saya minum air di sini?"
@@ -168466,7 +169009,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|21": {
+ "Chapter 13 · Fast-course summary pack|5|1": {
   "source_text": "Receptionist: Maaf, tidak dibenarkan minum di sini. Dilarang makan dan minum di bilik menunggu.",
   "target_spans": [
    "Maaf, tidak dibenarkan minum di sini. Dilarang makan dan minum di bilik menunggu."
@@ -168475,7 +169018,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|4|22": {
+ "Chapter 13 · Fast-course summary pack|5|2": {
   "source_text": "Tanaka: Baik, saya faham. Terima kasih.",
   "target_spans": [
    "Baik, saya faham. Terima kasih."
@@ -168484,7 +169027,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|5|0": {
+ "Chapter 13 · Fast-course summary pack|5|3": {
   "source_text": "Doctor: Encik patut berehat di rumah. Encik tidak perlu datang ke pejabat esok.",
   "target_spans": [
    "Encik patut berehat di rumah. Encik tidak perlu datang ke pejabat esok."
@@ -168493,7 +169036,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|5|1": {
+ "Chapter 13 · Fast-course summary pack|5|4": {
   "source_text": "Tanaka: Doktor, boleh saya minta cuti sakit untuk esok?",
   "target_spans": [
    "Doktor, boleh saya minta cuti sakit untuk esok?"
@@ -168502,7 +169045,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|5|2": {
+ "Chapter 13 · Fast-course summary pack|5|5": {
   "source_text": "Doctor: Boleh. Saya berikan cuti sakit satu hari.",
   "target_spans": [
    "Boleh. Saya berikan cuti sakit satu hari."
@@ -168511,7 +169054,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|5|3": {
+ "Chapter 13 · Fast-course summary pack|5|6": {
   "source_text": "Tanaka: Maaf, boleh cakap lagi sekali? Saya tidak faham arahan itu.",
   "target_spans": [
    "Maaf, boleh cakap lagi sekali? Saya tidak faham arahan itu."
@@ -168520,7 +169063,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|5|4": {
+ "Chapter 13 · Fast-course summary pack|5|7": {
   "source_text": "Pharmacist: Boleh. Encik mesti baca arahan di label. Dos ada di label itu.",
   "target_spans": [
    "Boleh. Encik mesti baca arahan di label. Dos ada di label itu."
@@ -168529,7 +169072,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|5|5": {
+ "Chapter 13 · Fast-course summary pack|5|8": {
   "source_text": "Pharmacist: Kalau ada soalan, tanya saya lagi.",
   "target_spans": [
    "Kalau ada soalan, tanya saya lagi."
@@ -168538,28 +169081,28 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|5|6": {
+ "Chapter 13 · Fast-course summary pack|5|9": {
   "source_text": "■ Task · タスク",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|5|7": {
+ "Chapter 13 · Fast-course summary pack|5|10": {
   "source_text": "A: You are the receptionist, and later the pharmacist (fictional). The patient has no appointment and has not registered. Never name a medicine, a dose or a time to take it: point to the label.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|5|8": {
+ "Chapter 13 · Fast-course summary pack|5|11": {
   "source_text": "B: You are the patient. Register, ask permission twice, say what you need, and ask the pharmacist to say an instruction once more.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|5|9": {
+ "Chapter 13 · Fast-course summary pack|5|12": {
   "source_text": "Change of plan: A says Maaf, doktor belum ada. Encik boleh tunggu, atau datang pukul empat. Sesuai? B decides and says the time suits.",
   "target_spans": [
    "Maaf, doktor belum ada. Encik boleh tunggu, atau datang pukul empat. Sesuai?"
@@ -168568,7 +169111,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|5|10": {
+ "Chapter 13 · Fast-course summary pack|5|13": {
   "source_text": "A：受付係で、あとで薬剤師にもなります（架空）。患者は予約がなく、まだ受付をしていません。薬の名前・用量・飲む時間は言わず、ラベルを指します。B：患者です。受付をし、許可を二回たずね、必要なことを言い、薬剤師に指示をもう一度言ってもらいます。変更：Aが Maaf, doktor belum ada. Encik boleh tunggu, atau datang pukul empat. Sesuai? と言い、Bは決めて、その時間でよいと言います。",
   "target_spans": [
    "Maaf, doktor belum ada. Encik boleh tunggu, atau datang pukul empat. Sesuai?"
@@ -168577,91 +169120,91 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 13 · Fast-course summary pack|5|11": {
+ "Chapter 13 · Fast-course summary pack|5|14": {
   "source_text": "■ Self-check · できるチェック",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|5|12": {
+ "Chapter 13 · Fast-course summary pack|5|15": {
   "source_text": "☐ 1. Say \"I haven't registered yet.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|5|13": {
+ "Chapter 13 · Fast-course summary pack|5|16": {
   "source_text": "☐ 2. Say \"May I come in?\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|5|14": {
+ "Chapter 13 · Fast-course summary pack|5|17": {
   "source_text": "☐ 3. Say \"I need to see a doctor.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|5|15": {
+ "Chapter 13 · Fast-course summary pack|5|18": {
   "source_text": "☐ 4. Say \"You should rest.\" to a man: ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|5|16": {
+ "Chapter 13 · Fast-course summary pack|5|19": {
   "source_text": "☐ 5. Write the sign \"Drinking is not allowed here.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|5|17": {
+ "Chapter 13 · Fast-course summary pack|5|20": {
   "source_text": "■ Self-study guide · 自習ガイド",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|5|18": {
+ "Chapter 13 · Fast-course summary pack|5|21": {
   "source_text": "Before the session: Kata-Kata Sedia Kelas c13 (27 cards, frames ms-c13-f01 and ms-c13-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|5|19": {
+ "Chapter 13 · Fast-course summary pack|6|0": {
   "source_text": "After the session: all 29 Kata-Kata chapter 13 cards (ms-c13-001 to ms-c13-029) and frames ms-c13-f01 to ms-c13-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"At the clinic and the pharmacy\" matches this pack.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|5|20": {
+ "Chapter 13 · Fast-course summary pack|6|1": {
   "source_text": "No Dunia scene primes chapter 13. The Hanashishou clinic scenes for chapter 13 are not yet tagged by chapter, so they are not assigned yet.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|5|21": {
+ "Chapter 13 · Fast-course summary pack|6|2": {
   "source_text": "Optional full-course Cikgu Sensai unit: unit 13 (the panel clinic and the pharmacy).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|6|0": {
+ "Chapter 13 · Fast-course summary pack|6|3": {
   "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 13 · Fast-course summary pack|6|1": {
+ "Chapter 13 · Fast-course summary pack|6|4": {
   "source_text": "授業後：第13章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。",
   "target_spans": [],
   "mention_spans": [],
@@ -170922,7 +171465,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 17 · Fast-course summary pack|0|0": {
-  "source_text": "第17章速習：45分で基本の26語、Sudikah encik ___?、Sayangnya saya tidak ___. Lain kali, ya?、Bagaimana kalau ___?、標準形と話し言葉の組を練習し、職場の夕食会の誘いとカフェの場面を演じ、残りは Kata-Kata で自習します。日本語は未監修です。",
+  "source_text": "第17章速習：45分で基本の25語、Sudikah encik ___?、Sayangnya saya tidak ___. Lain kali, ya?、Bagaimana kalau ___?、標準形と話し言葉の組を練習し、職場の夕食会の誘いとカフェの場面を演じ、残りは Kata-Kata で自習します。日本語は未監修です。",
   "target_spans": [
    "Sudikah encik ___?",
    "Sayangnya saya tidak ___. Lain kali, ya?",
@@ -170947,7 +171490,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 17 · Fast-course summary pack|2|0": {
-  "source_text": "Chapter 17 in one 45-minute session: 26 core words, Sudikah encik ___?, Sayangnya saya tidak ___. Lain kali, ya?, Bagaimana kalau ___? and the standard and spoken pairs; then the office dinner invitation and the café scene, and self-study in Kata-Kata. All names and places are fictional.",
+  "source_text": "Chapter 17 in one 45-minute session: 25 core words, Sudikah encik ___?, Sayangnya saya tidak ___. Lain kali, ya?, Bagaimana kalau ___? and the standard and spoken pairs; then the office dinner invitation and the café scene, and self-study in Kata-Kata. All names and places are fictional.",
   "target_spans": [
    "Sudikah encik ___?",
    "Sayangnya saya tidak ___. Lain kali, ya?",
@@ -171004,7 +171547,7 @@
   "exclusion": null
  },
  "Chapter 17 · Fast-course summary pack|3|4": {
-  "source_text": "■ Core words · 基本の26語",
+  "source_text": "■ Core words · 基本の25語",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
@@ -171254,15 +171797,6 @@
   "exclusion": null
  },
  "Chapter 17 · Fast-course summary pack|4|6": {
-  "source_text": "minggu depan — next week · 来週  [L-1303]",
-  "target_spans": [
-   "minggu depan"
-  ],
-  "mention_spans": [],
-  "kind": "vocabulary",
-  "exclusion": null
- },
- "Chapter 17 · Fast-course summary pack|4|7": {
   "source_text": "The full course adds the revision words of the whole unit. lah and kan are for recognition only.",
   "target_spans": [
    "lah",
@@ -171272,14 +171806,14 @@
   "kind": "vocabulary",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|4|8": {
+ "Chapter 17 · Fast-course summary pack|4|7": {
   "source_text": "■ Key patterns · 文型",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|4|9": {
+ "Chapter 17 · Fast-course summary pack|4|8": {
   "source_text": "1 · Sudikah encik ___ ?  e.g. Sudikah encik datang? / Sudikah puan singgah di pejabat dulu?",
   "target_spans": [
    "Sudikah encik",
@@ -171291,7 +171825,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|4|10": {
+ "Chapter 17 · Fast-course summary pack|4|9": {
   "source_text": "2 · Sayangnya saya tidak ___ . Lain kali, ya?  e.g. Sayangnya hari Sabtu saya tidak lapang. Lain kali, ya? / Malangnya saya ada mesyuarat. Lain kali, ya?",
   "target_spans": [
    "Sayangnya saya tidak",
@@ -171303,7 +171837,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|4|11": {
+ "Chapter 17 · Fast-course summary pack|4|10": {
   "source_text": "3 · Bagaimana kalau ___ ?  e.g. Bagaimana kalau hari Jumaat? / Bagaimana kalau kita makan di kedai lain?",
   "target_spans": [
    "Bagaimana kalau",
@@ -171315,7 +171849,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|4|12": {
+ "Chapter 17 · Fast-course summary pack|4|11": {
   "source_text": "4 · ___ ! Hari Jumaat, pukul tujuh. / Tidak mengapa. ___  e.g. Setuju! Hari Jumaat, pukul tujuh. / Tidak mengapa. Kita cuba lain kali.",
   "target_spans": [
    "! Hari Jumaat, pukul tujuh. / Tidak mengapa.",
@@ -171326,7 +171860,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|4|13": {
+ "Chapter 17 · Fast-course summary pack|4|12": {
   "source_text": "5 · Jom makan kat ___ ni! (spoken)  e.g. Jom makan kat kafe ni! Saya belanja! / Jom makan kat kedai mamak tu!",
   "target_spans": [
    "Jom makan kat",
@@ -171338,7 +171872,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|4|14": {
+ "Chapter 17 · Fast-course summary pack|4|13": {
   "source_text": "Remember: standard first. tidak mengapa is spoken takpe or tak apa; tidak boleh tahan is spoken tak tahan; setuju is spoken set; di is spoken kat; ini is spoken ni; itu is spoken tu; seperti itu is spoken macam tu. Use the spoken forms with friends and colleagues, and write the standard forms. belanja means to treat, not to spend.",
   "target_spans": [
    "tidak mengapa",
@@ -171362,7 +171896,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|4|15": {
+ "Chapter 17 · Fast-course summary pack|4|14": {
   "source_text": "標準形が先です。tidak mengapa の話し言葉は takpe・tak apa、tidak boleh tahan は tak tahan、setuju は set、di は kat、ini は ni、itu は tu、seperti itu は macam tu。友人や同僚には話し言葉を使い、書くときは標準形を書きます。belanja は「おごる」で、「お金を使う」ではありません。",
   "target_spans": [
    "tidak mengapa",
@@ -171386,14 +171920,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|4|16": {
+ "Chapter 17 · Fast-course summary pack|4|15": {
   "source_text": "■ Model conversation · 会話 (fictional)",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|4|17": {
+ "Chapter 17 · Fast-course summary pack|4|16": {
   "source_text": "Aini: Encik Tanaka, ini jemputan makan malam pejabat. Hari Sabtu, pukul tujuh.",
   "target_spans": [
    "Encik Tanaka, ini jemputan makan malam pejabat. Hari Sabtu, pukul tujuh."
@@ -171402,7 +171936,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|4|18": {
+ "Chapter 17 · Fast-course summary pack|4|17": {
   "source_text": "Tanaka: Terima kasih, Puan Aini. Siapa yang belanja?",
   "target_spans": [
    "Terima kasih, Puan Aini. Siapa yang belanja?"
@@ -171411,7 +171945,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|0": {
+ "Chapter 17 · Fast-course summary pack|4|18": {
   "source_text": "Aini: Bos belanja. Sudikah encik datang?",
   "target_spans": [
    "Bos belanja. Sudikah encik datang?"
@@ -171420,7 +171954,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|1": {
+ "Chapter 17 · Fast-course summary pack|5|0": {
   "source_text": "Tanaka: Sayangnya hari Sabtu saya tidak lapang. Saya segan untuk menolak jemputan puan.",
   "target_spans": [
    "Sayangnya hari Sabtu saya tidak lapang. Saya segan untuk menolak jemputan puan."
@@ -171429,7 +171963,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|2": {
+ "Chapter 17 · Fast-course summary pack|5|1": {
   "source_text": "Aini: Tidak mengapa. Ada cadangan lain?",
   "target_spans": [
    "Tidak mengapa. Ada cadangan lain?"
@@ -171438,7 +171972,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|3": {
+ "Chapter 17 · Fast-course summary pack|5|2": {
   "source_text": "Tanaka: Bagaimana kalau hari Jumaat?",
   "target_spans": [
    "Bagaimana kalau hari Jumaat?"
@@ -171447,7 +171981,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|4": {
+ "Chapter 17 · Fast-course summary pack|5|3": {
   "source_text": "Aini: Itu cadangan yang bagus. Saya tanya bos dulu.",
   "target_spans": [
    "Itu cadangan yang bagus. Saya tanya bos dulu."
@@ -171456,7 +171990,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|5": {
+ "Chapter 17 · Fast-course summary pack|5|4": {
   "source_text": "Aini: Bos setuju. Hari Jumaat, pukul tujuh. Encik singgah di pejabat dulu, ya? Kita pergi sama-sama.",
   "target_spans": [
    "Bos setuju. Hari Jumaat, pukul tujuh. Encik singgah di pejabat dulu, ya? Kita pergi sama-sama."
@@ -171465,7 +171999,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|6": {
+ "Chapter 17 · Fast-course summary pack|5|5": {
   "source_text": "Tanaka: Baik. Terima kasih!",
   "target_spans": [
    "Baik. Terima kasih!"
@@ -171474,7 +172008,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|7": {
+ "Chapter 17 · Fast-course summary pack|5|6": {
   "source_text": "Mei Ling: Encik Tanaka, jom makan kat kafe ni! Saya belanja!",
   "target_spans": [
    "Encik Tanaka, jom makan kat kafe ni! Saya belanja!"
@@ -171483,7 +172017,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|8": {
+ "Chapter 17 · Fast-course summary pack|5|7": {
   "source_text": "Tanaka: Terima kasih. Tetapi makanan di kafe itu pedas. Saya tidak boleh tahan pedas.",
   "target_spans": [
    "Terima kasih. Tetapi makanan di kafe itu pedas. Saya tidak boleh tahan pedas."
@@ -171492,7 +172026,7 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|9": {
+ "Chapter 17 · Fast-course summary pack|5|8": {
   "source_text": "Mei Ling: Takpelah. Kita cari kedai lain. Macam tu boleh?",
   "target_spans": [
    "Takpelah. Kita cari kedai lain. Macam tu boleh?"
@@ -171501,14 +172035,14 @@
   "kind": "model",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|10": {
+ "Chapter 17 · Fast-course summary pack|5|9": {
   "source_text": "■ Task · タスク",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|5|11": {
+ "Chapter 17 · Fast-course summary pack|5|10": {
   "source_text": "A: You are Puan Aini (fictional). Invite your colleague to the team dinner on Saturday at seven; the boss pays. Use Sudikah encik …?.",
   "target_spans": [
    "Puan",
@@ -171518,7 +172052,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|12": {
+ "Chapter 17 · Fast-course summary pack|5|11": {
   "source_text": "B: You are not free on Saturday. Thank A, say Sayangnya … and a reason, and suggest another day with Bagaimana kalau …?.",
   "target_spans": [
    "Sayangnya …",
@@ -171528,7 +172062,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|13": {
+ "Chapter 17 · Fast-course summary pack|5|12": {
   "source_text": "Change of plan: A says Maaf, hari Jumaat bos tidak lapang. Hari Khamis boleh? B says yes with Setuju! or declines again with a reason and Lain kali, ya?.",
   "target_spans": [
    "Maaf, hari Jumaat bos tidak lapang. Hari Khamis boleh?",
@@ -171539,7 +172073,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|14": {
+ "Chapter 17 · Fast-course summary pack|5|13": {
   "source_text": "A：あなたはアイニさんです（架空）。同僚を土曜日7時の職場の夕食会に誘います。ボスがおごります。Sudikah encik …? を使います。B：土曜日は空いていません。お礼を言い、Sayangnya … と理由を言って、Bagaimana kalau …? で別の日を提案します。変更：Aが Maaf, hari Jumaat bos tidak lapang. Hari Khamis boleh? と言い、Bは Setuju! で受けるか、理由と Lain kali, ya? でもう一度断ります。",
   "target_spans": [
    "Sudikah encik …?",
@@ -171553,84 +172087,91 @@
   "kind": "task",
   "exclusion": null
  },
- "Chapter 17 · Fast-course summary pack|5|15": {
+ "Chapter 17 · Fast-course summary pack|5|14": {
   "source_text": "■ Self-check · できるチェック",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|5|16": {
+ "Chapter 17 · Fast-course summary pack|5|15": {
   "source_text": "☐ 1. Say \"Would you like to come, sir?\" (polite): ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|5|17": {
+ "Chapter 17 · Fast-course summary pack|5|16": {
   "source_text": "☐ 2. Say \"Unfortunately I am not free on Saturday. Another time?\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|5|18": {
+ "Chapter 17 · Fast-course summary pack|5|17": {
   "source_text": "☐ 3. Say \"How about Friday?\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|5|19": {
+ "Chapter 17 · Fast-course summary pack|5|18": {
   "source_text": "☐ 4. Say \"Agreed! Friday at seven.\": ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|5|20": {
+ "Chapter 17 · Fast-course summary pack|5|19": {
   "source_text": "☐ 5. Say \"I can't stand spicy food.\" (standard): ____________________",
   "target_spans": [],
   "mention_spans": [],
   "kind": "test",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|6|0": {
+ "Chapter 17 · Fast-course summary pack|5|20": {
+  "source_text": "■ Self-study guide · 自習ガイド",
+  "target_spans": [],
+  "mention_spans": [],
+  "kind": "heading",
+  "exclusion": "Japanese/English (marked source)"
+ },
+ "Chapter 17 · Fast-course summary pack|5|21": {
   "source_text": "Before the session: Kata-Kata Sedia Kelas c17 (32 cards, frames ms-c17-f01 and ms-c17-f02).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|6|1": {
-  "source_text": "After the session: all 26 Kata-Kata chapter 17 cards (ms-c17-001 to ms-c17-026) and frames ms-c17-f01 to ms-c17-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"An invitation, and how people really talk\" matches this pack (the full unit adds the mamak scene).",
+ "Chapter 17 · Fast-course summary pack|6|0": {
+  "source_text": "After the session: all 25 Kata-Kata chapter 17 cards (ms-c17-001 to ms-c17-025) and frames ms-c17-f01 to ms-c17-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"An invitation, and how people really talk\" matches this pack (the full unit adds the mamak scene).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|6|2": {
+ "Chapter 17 · Fast-course summary pack|6|1": {
   "source_text": "No Dunia scene primes chapter 17. The Hanashishou weekend-plans and team-dinner scenes are not yet tagged by chapter, so they are not assigned yet.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|6|3": {
+ "Chapter 17 · Fast-course summary pack|6|2": {
   "source_text": "Optional full-course Cikgu Sensai unit: unit 17 (spoken Malay and invitations).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|6|4": {
+ "Chapter 17 · Fast-course summary pack|6|3": {
   "source_text": "Expected self-study: about 9 to 10 hours for this chapter (planning figure).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
   "exclusion": "Japanese/English (marked source)"
  },
- "Chapter 17 · Fast-course summary pack|6|5": {
+ "Chapter 17 · Fast-course summary pack|6|4": {
   "source_text": "授業後：第17章のカードと文型を復習しましょう。自習の目安は約9〜10時間です。",
   "target_spans": [],
   "mention_spans": [],

@@ -19,8 +19,10 @@ NEW = {
     'L-1281': '12B', 'L-1282': '12B', 'L-1283': '12B', 'L-1284': '12B',
     'L-1285': '13', 'L-1286': '13', 'L-1287': '13', 'L-1288': '13',
     'L-1289': '14', 'L-1290': '14', 'L-1291': '14', 'L-1292': '14', 'L-1293': '14', 'L-1294': '14', 'L-1295': '14',
-    'L-1296': '15', 'L-1297': '15', 'L-1298': '16', 'L-1299': '16', 'L-1300': '16', 'L-1301': '16', 'L-1302': '17', 'L-1303': '17',
+    'L-1296': '15', 'L-1297': '15', 'L-1298': '16', 'L-1299': '16', 'L-1300': '16', 'L-1301': '16', 'L-1302': '17',
 }
+# L-1303 «minggu depan» was the 31st word; Kata-Kata step 3f retired it (chapter 4 teaches it), so it is revision in unit 17.
+RETIRED = ['L-1303']
 FAST = {'10A': fast.C10_WORDS, '11A': fast.C11_WORDS, '11B': fast.C11_WORDS, '12B': fast.C12_WORDS, '13': fast.C13_WORDS, '14': fast.C14_WORDS,
         '15': fast.C15_WORDS, '16': fast.C16_WORDS, '17': fast.C17_WORDS}
 POOL = ['L-1304', 'L-1305', 'L-1306', 'L-1307', 'L-1308', 'L-1309']
@@ -53,8 +55,8 @@ class Cleanup(unittest.TestCase):
         with (ROOT / 'curriculum/reference/katakata/malay-ledger.csv').open(encoding='utf-8', newline='') as f:
             cls.rows = {r['ID']: r for r in csv.DictReader(f)}
 
-    def test_the_31_words_are_core_in_their_unit_and_in_the_fast_pack(self):
-        self.assertEqual(len(NEW), 31)
+    def test_the_30_words_are_core_in_their_unit_and_in_the_fast_pack(self):
+        self.assertEqual(len(NEW), 30)
         for lid, unit in NEW.items():
             self.assertIn(lid, UNITS[unit].CFG['core'], (lid, unit))
             self.assertIn(lid, UNITS[unit].CFG['examples'], lid)
@@ -67,6 +69,22 @@ class Cleanup(unittest.TestCase):
             text = teaching_text(UNITS[unit]).lower()
             self.assertRegex(text, r'(?<![a-z])' + re.escape(form) + r'(?![a-z])', (lid, form))
 
+    def test_minggu_depan_is_retired_and_taught_at_chapter_4(self):
+        """Kata-Kata step 3f (ledger Journal row 200): L-1303 is Retired; the phrase is chapter 4 («minggu» L-0167, «depan» L-0173, card ms-c04-019),
+        so no exception file is needed and the unit 17 line stays."""
+        self.assertEqual(self.rows['L-1303']['Review status'], 'Retired')
+        self.assertEqual(self.rows['L-1303']['Kata-Kata place'], '')
+        self.assertFalse((ROOT / 'curriculum/phrases-taught-earlier.json').exists())
+        self.assertNotIn('earlier_phrases', (ROOT / 'language_checks.py').read_text())
+        for lid in RETIRED:
+            self.assertNotIn(lid, ms_c17.CFG['core'])
+            self.assertNotIn(lid, fast.C17_WORDS)
+        from language_checks import Checker
+        checker = Checker(ROOT)
+        for ch, line in ((4, 'Saya cuti minggu depan.'), (10, 'Saya bercuti minggu depan.'), (17, 'Saya belanja minggu depan.'), (18, 'Saya belanja minggu depan.')):
+            r = checker.inspect([{'unit': 'check', 'chapter': ch, 'source': 'span', 'source_text': line, 'kind': 'model', 'text': line}])
+            self.assertEqual((r['violations'], r['ledger_gaps']), ({}, {}), (ch, line))
+
     def test_practice_pool_is_not_core(self):
         """L-1304 to L-1309 (menyapu, disemak, disimpan, bersukan, hidup, giliran) are Dunia practice words: in no unit core list, fast pack or coverage count."""
         self.assertEqual([self.rows[i]['Malay'] for i in POOL], ['menyapu', 'disemak', 'disimpan', 'bersukan', 'hidup', 'giliran'])
@@ -77,9 +95,9 @@ class Cleanup(unittest.TestCase):
             self.assertIn('practice pool', self.rows[lid]['Kata-Kata place'])
             self.assertNotIn(lid, in_units)
             self.assertNotIn(lid, in_fast)
-        # No core row of Stage 2 is a pool row, and the core count is 271.
+        # No core row of Stage 2 is a pool row, and the core count is 270 (L-1303 Retired).
         core = {lid for lid, r in self.rows.items() if r['Review status'] != 'Retired' and re.match(r'Ch1[0-7] \(unit \w+\)(?:;|$)', r['Kata-Kata place'])}
-        self.assertEqual(len(core), 271)
+        self.assertEqual(len(core), 270)
         self.assertFalse(core & set(POOL))
 
     def test_the_rewritten_lines_are_back(self):

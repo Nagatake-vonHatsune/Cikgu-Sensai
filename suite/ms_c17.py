@@ -2,8 +2,8 @@
 a café that is too spicy and the mamak near the office
 (Sudikah encik ___?; Sayangnya saya tidak ___. Lain kali, ya?; Bagaimana kalau ___?; ___! Hari Jumaat, pukul tujuh. / Tidak mengapa. ___.; Jom makan kat ___ ni!).
 
-26 core ledger entries, the rows the ledger places in "Ch17 (unit 17)": the existing rows L-0656 «lapang», L-0689 «ajak», L-0690 «tak tahan», L-0703 «set», L-0717 «belanja»,
-L-0748 «singgah», L-0787 «malangnya» and L-0828 «sudi», the new rows L-1252 to L-1267, and L-1302 «balas» and L-1303 «minggu depan» (approved by Sam, 14 Nov 2026). They come in four groups: invitations (8), accepting and declining (8),
+25 core ledger entries, the rows the ledger places in "Ch17 (unit 17)": the existing rows L-0656 «lapang», L-0689 «ajak», L-0690 «tak tahan», L-0703 «set», L-0717 «belanja»,
+L-0748 «singgah», L-0787 «malangnya» and L-0828 «sudi», the new rows L-1252 to L-1267, and L-1302 «balas» (approved by Sam, 14 Nov 2026). L-1303 «minggu depan» is Retired (chapter 4 teaches it; Kata-Kata step 3f), so it is revision here. They come in four groups: invitations (8), accepting and declining (7),
 standard and spoken pairs (8) and the two particles «lah» and «kan» (2). No recognition word. Standard first, always: every spoken form is taught after its standard form
 and labelled "spoken" («takpe», «tak apa» after «tidak mengapa»; «tak tahan» after «tidak boleh tahan»; «set» after «setuju»; «kat», «ni», «tu», «macam tu» after «di», «ini», «itu», «seperti itu»).
 «lah» (joined in writing: «Takpelah.») and «kan» are for recognition: no key and no task requires them. The scene follows Kata-Kata c17 (scenario lines ms-c17-s01 to s20: the dinner
@@ -13,7 +13,7 @@ Japanese is a draft awaiting native review.
 from .chapter10_common import unit_dict
 
 INVITE = ['L-1265', 'L-0689', 'L-0828', 'L-0656', 'L-0717', 'L-0748', 'L-1257', 'L-1260']
-ANSWER = ['L-1255', 'L-1256', 'L-1258', 'L-1259', 'L-0787', 'L-1261', 'L-1302', 'L-1303']
+ANSWER = ['L-1255', 'L-1256', 'L-1258', 'L-1259', 'L-0787', 'L-1261', 'L-1302']
 PAIRS = ['L-1267', 'L-0690', 'L-0703', 'L-1252', 'L-1263', 'L-1264', 'L-1262', 'L-1266']
 PARTICLES = ['L-1254', 'L-1253']
 CORE = INVITE + ANSWER + PAIRS + PARTICLES
@@ -51,7 +51,6 @@ EXAMPLES = {
     'L-1262': '«Macam tu boleh?»',
     'L-1266': '«Takpe. Kita cari kedai lain.»',
     'L-1302': '«Sila balas sebelum hari Rabu.»',
-    'L-1303': '«Saya belanja minggu depan.»',
     # particles
     'L-1254': '«Takpelah. Kita cari kedai lain.»',
     'L-1253': '«Cakap seperti itu pun bagus, kan?»',
@@ -341,7 +340,7 @@ CFG = dict(
     grammar_ids={'invite': 'ms-c17-g02', 'decline': 'ms-c17-g03', 'suggest': 'ms-c17-g04', 'pairs': 'ms-c17-g05', 'particles': 'ms-c17-g06',
                  'register': 'ms-c17-g07', 'tahan': 'ms-c17-g08', 'words': 'ms-c17-g09'},
     grammar=['invite', 'decline', 'suggest', 'pairs', 'particles', 'register'], examples=EXAMPLES, vocab_opts=VOCAB_OPTS,
-    card_range='the 26 cards ms-c17-001 to ms-c17-026', frame_list='ms-c17-f01 to f06', frame_list_ja='f01〜f06',
+    card_range='the 25 cards ms-c17-001 to ms-c17-025', frame_list='ms-c17-f01 to f06', frame_list_ja='f01〜f06',
     extra=None,
     goals={'A': 'I can invite someone politely with «Sudikah encik …?», and say yes («Setuju!») or no («Sayangnya saya tidak …») with a reason.',
            'B': 'I can suggest another time with «Bagaimana kalau …?», take a refusal kindly, and tell the standard forms from the spoken ones, such as «tidak mengapa» and its spoken partner.',
@@ -549,9 +548,9 @@ CFG = dict(
           'E_variation': 'a changed fact: the day moves from Friday to Thursday and the boss changes the plan; B accepts or declines again with a reason and «Lain kali, ya?».'},
     hanashishou_note='Hanashishou (Stage 2): the plan links chapter 17 to the weekend-plans and team-dinner scenes. Their Malay is not yet tagged by chapter (build step 6), so do not assign them yet.',
     next_note='Next: chapter 18 (the integrated review, rehearsal and the A2 check; no new word).',
-    teacher_notes=['Load: 26 core words in four groups (invitations 8, accepting and declining 8, standard and spoken pairs 8, two particles 2), no recognition word, and revision of the Stage 1 spoken forms, food and the café, plans, days and the office. '
+    teacher_notes=['Load: 25 core words in four groups (invitations 8, accepting and declining 7, standard and spoken pairs 8, two particles 2), no recognition word, and revision of the Stage 1 spoken forms, food and the café, plans, days and the office. '
                    'Suggested order: Block A the first two groups with patterns 1 and 2; Block B the pairs and the particles with patterns 3 to 5. '
-                   'If the pilot shows 26 is too many, the natural cut is: «sudi», «lapang», «setuju», «menolak», «sayangnya», «lain kali», «tidak mengapa», «tidak boleh tahan», «jemputan» first; the rest second.',
+                   'If the pilot shows 25 is too many, the natural cut is: «sudi», «lapang», «setuju», «menolak», «sayangnya», «lain kali», «tidak mengapa», «tidak boleh tahan», «jemputan» first; the rest second.',
                    'Standard first, always: the standard form is taught before its spoken form, and the spoken form is labelled "spoken". The pairs of this chapter: «tidak mengapa» / «takpe» or «tak apa»; «tidak boleh tahan» / «tak tahan»; «seperti itu» / «macam tu»; «di» / «kat»; «ini» / «ni»; «itu» / «tu»; «setuju» / «set»; and «jom» against «mari». '
                    'Learners must understand the spoken forms, may use them with friends and colleagues, and write the standard forms. The spoken form is never marked wrong in conversation and the standard form is always right.',
                    'When to use the spoken forms and when not: use them with friends, with colleagues you know and at the mamak; do not use them in emails, forms, notices or meetings with clients, or with someone you meet for the first time. '

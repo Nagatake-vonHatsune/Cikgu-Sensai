@@ -109,7 +109,7 @@ class Chapter14(unittest.TestCase):
                 self.assertNotIn(lid, cfg['core'])
         stage2 = {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
                   and re.match(r'Ch1[0-7] \(unit \w+\)(?:;|$)', r['Kata-Kata place'])}
-        self.assertEqual(len(stage2), 271)  # 240 + the 31 words approved on 13 and 14 Nov 2026 (L-1273 to L-1303); the six practice-pool rows are not core
+        self.assertEqual(len(stage2), 270)  # 240 + the 31 words approved on 13 and 14 Nov 2026 (L-1273 to L-1303), less L-1303 «minggu depan», Retired (Kata-Kata step 3f); the six practice-pool rows are not core
         self.assertFalse([lid for lid, r in rows.items() if re.match(r'Ch14 \(unit 14, recognition', r['Kata-Kata place'])])
         self.assertEqual(cfg['recognition'], [])
         cards = {c['id'] for c in self.pack['cards']}

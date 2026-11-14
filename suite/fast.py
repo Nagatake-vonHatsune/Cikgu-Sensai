@@ -684,7 +684,9 @@ STAGE2_PACKS = []
 
 C10_WORDS = ['L-1089', 'L-1091', 'L-1093', 'L-1094', 'L-1095', 'L-1098', 'L-1101', 'L-1102', 'L-1103', 'L-1106',
              'L-1110', 'L-1108', 'L-1112', 'L-1114', 'L-1122', 'L-0660', 'L-0779', 'L-0781', 'L-1118', 'L-1115',
-             'L-1273', 'L-1274', 'L-1275', 'L-1276']
+             'L-1273', 'L-1274', 'L-1275', 'L-1276', 'L-0807', 'L-1090', 'L-1100', 'L-1105', 'L-1099', 'L-0916',
+             'L-1092', 'L-1096', 'L-1097', 'L-1104', 'L-1111', 'L-1107', 'L-1109', 'L-0714', 'L-1113', 'L-1116',
+             'L-1117', 'L-1119', 'L-1120', 'L-1121']
 
 
 def chapter10(ledger):
@@ -706,9 +708,9 @@ def chapter10(ledger):
         grammar=['ms-c10-g02', 'ms-c10-g03', 'ms-c10-g04', 'ms-c10-g05', 'ms-c10-g06', 'ms-c10-g07', 'ms-c10-g08'],
         patterns=['ms-c10-f01', 'ms-c10-f02', 'ms-c10-f03', 'ms-c10-f05', 'ms-c10-f06'],
         goal='Describe a working day and your background with ber- verbs, and meet a new neighbour.',
-        explain=('第10章速習：45分で基本の24語、ber- の動詞（つづりは ‹be-›・‹bel-› だけ）、日課と時刻、週末にすること、出身・仕事・人生のできごと '
+        explain=('第10章速習：45分で基本の44語、ber- の動詞（つづりは ‹be-›・‹bel-› だけ）、日課と時刻、週末にすること、出身・仕事・人生のできごと '
                  '«sudah»・«belum» を練習し、残りは Kata-Kata で自習します。日本語は未監修です。',
-                 'Chapter 10 in one 45-minute session: 24 core words, ber- verbs (spelling variants ‹be-› and ‹bel-› only), a routine with times, '
+                 'Chapter 10 in one 45-minute session: 44 core words, ber- verbs (spelling variants ‹be-› and ‹bel-› only), a routine with times, '
                  'weekend activities, background and life events with «sudah» / «belum»; then self-study in Kata-Kata. All names and details are fictional.'),
         sections=[
             ('Can-do goals · できること', [
@@ -716,10 +718,8 @@ def chapter10(ledger):
                 'I can ask what time something starts or when we set off. / 何時に始まるか、何時に出発するかをたずねられる。',
                 'I can give my background with «berasal dari» and «bekerja di». / «berasal dari»・«bekerja di» で自分の背景を言える。',
                 'I can introduce myself to a new neighbour and accept an invitation. / 新しい隣人に自己紹介し、招待を受けられる。'], 'opener'),
-            ('Core words · 基本の24語', core(ledger, C10_WORDS) +
-             ['The full course also teaches «berjalan», «bermain», «berlari», «berbasikal», «berbual», «beratur», «bersiap», «bersedia», «berlatih», '
-              '«rutin», «bernama», «berumur», «berkeluarga», «berkawan», «berniaga», «berbelanja», «berminat», «berpakaian», «sepupu», '
-              '«pengalaman», and «pindah» as the spoken form of «berpindah» (to recognise only).'], 'vocabulary'),
+            ('Core words · 基本の44語', core(ledger, C10_WORDS) +
+             ['Recognise only: «pindah», the spoken form of «berpindah». The full course adds the revision words of both units.'], 'vocabulary'),
             ('Key patterns · 文型', [
                 '1 · «Setiap pagi saya» (ber- verb) «pukul» ___.  e.g. «Setiap pagi saya bersarapan pukul tujuh.» / «Setiap pagi saya bertolak pukul tujuh setengah.»',
                 '2 · «Pukul berapa» ___ «bermula» / «kita bertolak»?  e.g. «Pukul berapa mesyuarat bermula?» / «Pukul berapa kita bertolak?»',
@@ -773,7 +773,9 @@ STAGE2_PACKS.append(dict(
 
 C11_WORDS = ['L-1124', 'L-1125', 'L-1123', 'L-1126', 'L-1127', 'L-1129', 'L-1132', 'L-1133', 'L-1136', 'L-1137',
              'L-1141', 'L-1138', 'L-0819', 'L-0865', 'L-1155', 'L-1156', 'L-1146', 'L-1143', 'L-1150', 'L-1152',
-             'L-1277', 'L-1278', 'L-1279', 'L-1280']
+             'L-1277', 'L-1278', 'L-1279', 'L-1280', 'L-1130', 'L-1142', 'L-1131', 'L-1139', 'L-1140', 'L-1135',
+             'L-1134', 'L-1128', 'L-1153', 'L-0680', 'L-0696', 'L-0849', 'L-0684', 'L-1154', 'L-1145', 'L-1147',
+             'L-1148', 'L-1144', 'L-1149', 'L-1151', 'L-0792']
 
 
 def chapter11(ledger):
@@ -796,9 +798,9 @@ def chapter11(ledger):
         grammar=['ms-c11-g02', 'ms-c11-g03', 'ms-c11-g04', 'ms-c11-g05', 'ms-c11-g06', 'ms-c11-g07', 'ms-c11-g08'],
         patterns=['ms-c11-f01', 'ms-c11-f02', 'ms-c11-f03', 'ms-c11-f04', 'ms-c11-f06'],
         goal='Say who did what at the office with meN- verbs, check a draft, and say your weekend plan.',
-        explain=('第11章速習：45分で基本の24語、meN- の動詞（語根・つづりの変化・«di-» の相手）、「誰が」の質問、依頼 «Tolong semak …»、週末の予定 «mahu» を練習し、'
+        explain=('第11章速習：45分で基本の45語、meN- の動詞（語根・つづりの変化・«di-» の相手）、「誰が」の質問、依頼 «Tolong semak …»、週末の予定 «mahu» を練習し、'
                  '残りは Kata-Kata で自習します。日本語は未監修です。',
-                 'Chapter 11 in one 45-minute session: 24 core words, meN- verbs (the root, the spelling change and the «di-» partner), the question «Siapa yang …?», '
+                 'Chapter 11 in one 45-minute session: 45 core words, meN- verbs (the root, the spelling change and the «di-» partner), the question «Siapa yang …?», '
                  'the request «Tolong semak …» and weekend plans with «mahu»; then self-study in Kata-Kata. All names and details are fictional.'),
         sections=[
             ('Can-do goals · できること', [
@@ -806,10 +808,8 @@ def chapter11(ledger):
                 'I can ask who sent or received a file. / 誰がファイルを送ったか、受け取ったかをたずねられる。',
                 'I can ask a colleague to check a draft. / 同僚に下書きの確認を頼める。',
                 'I can say what I want to do this weekend. / 今週末にしたいことを言える。'], 'opener'),
-            ('Core words · 基本の24語', core(ledger, C11_WORDS) +
-             ['The full course also teaches «membuat», «menutup», «membawa», «mencuci», «memanggil», «melihat», «mendengar», «menjual», «menyimpan», «melancong», '
-              '«menukar», «memilih», «meminjam», «menolong», «mengisi», «semak», «mesej», «draf», «slaid», «tarikh akhir», «rancangan», and «tukar» and «deadline» '
-              'as spoken forms (to recognise only).'], 'vocabulary'),
+            ('Core words · 基本の45語', core(ledger, C11_WORDS) +
+             ['Recognise only: «tukar» and «deadline», the spoken forms of «menukar» and «tarikh akhir». The full course adds the revision words of both units.'], 'vocabulary'),
             ('Key patterns · 文型', [
                 '1 · «Aini» ___ «buku itu.»  e.g. «Puan Aini membaca emel itu.» / «Encik Rahman menerima fail itu.»',
                 '2 · «Buku itu» («di-» verb) «oleh Aini.»  e.g. «Emel itu dibaca oleh Puan Aini.» / «Fail itu dihantar oleh Puan Aini.»',
@@ -863,7 +863,9 @@ STAGE2_PACKS.append(dict(
 
 C12_WORDS = ['L-1157', 'L-1158', 'L-1159', 'L-1161', 'L-1162', 'L-1164', 'L-1167', 'L-0595', 'L-0658', 'L-0654',
              'L-1168', 'L-1172', 'L-0651', 'L-0649', 'L-0652', 'L-1174', 'L-1175', 'L-1180', 'L-1181', 'L-0655',
-             'L-1281', 'L-1282', 'L-1283', 'L-1284']
+             'L-1281', 'L-1282', 'L-1283', 'L-1284', 'L-1160', 'L-1163', 'L-1165', 'L-1166', 'L-0743', 'L-0650',
+             'L-0662', 'L-0653', 'L-1169', 'L-1170', 'L-1171', 'L-0661', 'L-1182', 'L-1183', 'L-0665', 'L-1173',
+             'L-0789', 'L-0698', 'L-1184', 'L-1176', 'L-1177', 'L-1178', 'L-1179', 'L-0871']
 
 
 def chapter12(ledger):
@@ -888,9 +890,9 @@ def chapter12(ledger):
         grammar=['ms-c12-g02', 'ms-c12-g03', 'ms-c12-g04', 'ms-c12-g05', 'ms-c12-g06', 'ms-c12-g07', 'ms-c12-g08'],
         patterns=['ms-c12-f01', 'ms-c12-f02', 'ms-c12-f03', 'ms-c12-f04', 'ms-c12-f05', 'ms-c12-f06'],
         goal='Ask for a favour with a -kan verb, collect a parcel, and report a leak and ask for a repair.',
-        explain=('第12章速習：45分で基本の24語、‹-kan› と ‹-i› の動詞（語根・接尾辞の働き・つづり）、依頼 «Tolong simpankan …»、荷物の受け取り、水漏れの連絡 «Ada kebocoran di … saya» を練習し、'
+        explain=('第12章速習：45分で基本の48語、‹-kan› と ‹-i› の動詞（語根・接尾辞の働き・つづり）、依頼 «Tolong simpankan …»、荷物の受け取り、水漏れの連絡 «Ada kebocoran di … saya» を練習し、'
                  '残りは Kata-Kata で自習します。日本語は未監修です。',
-                 'Chapter 12 in one 45-minute session: 24 core words, the ‹-kan› and ‹-i› verbs (the root, what the suffix adds and the spelling), the request «Tolong simpankan …», '
+                 'Chapter 12 in one 45-minute session: 48 core words, the ‹-kan› and ‹-i› verbs (the root, what the suffix adds and the spelling), the request «Tolong simpankan …», '
                  'collecting a parcel and reporting a leak; then self-study in Kata-Kata. All names and details are fictional.'),
         sections=[
             ('Can-do goals · できること', [
@@ -898,10 +900,8 @@ def chapter12(ledger):
                 'I can collect a parcel and read a parcel label. / 荷物を受け取り、荷物のラベルを読める。',
                 'I can report a leak to the management office. / 管理事務所に水漏れを連絡できる。',
                 'I can ask the office to contact me and say that a technician is repairing something. / 事務所に連絡を頼み、技術者が修理中だと言える。'], 'opener'),
-            ('Core words · 基本の24語', core(ledger, C12_WORDS) +
-             ['The full course also teaches «bukakan», «belikan», «pulangkan», «berikan», «pastikan», «pemilik», «pejabat pengurusan», «blok», «penerima», «nombor penjejakan», «lobi», '
-              '«baiki», «menghubungi», «ganti», «gantikan», «isikan», «kosongkan», «hidupkan», «perlahankan», «kerosakan», «aduan», «kontraktor», «paip», «tempahan», and «nombor tracking» '
-              'as a spoken form (to recognise only).'], 'vocabulary'),
+            ('Core words · 基本の48語', core(ledger, C12_WORDS) +
+             ['Recognise only: «nombor tracking», the spoken form of «nombor penjejakan». The full course adds the revision words of both units.'], 'vocabulary'),
             ('Key patterns · 文型', [
                 '1 · «Tolong» ___ «bungkusan ini.»  e.g. «Tolong simpankan bungkusan ini.» / «Tolong hantarkan bungkusan itu.»',
                 '2 · «Boleh» ___ «mesej itu?»  e.g. «Boleh tunjukkan mesej itu?» / «Boleh bawakan beg saya?»',
@@ -954,7 +954,7 @@ STAGE2_PACKS.append(dict(
 
 C13_WORDS = ['L-1185', 'L-1186', 'L-1199', 'L-1187', 'L-1188', 'L-1189', 'L-1190', 'L-1196', 'L-0627', 'L-0630',
              'L-0638', 'L-0648', 'L-1268', 'L-1200', 'L-0631', 'L-0633', 'L-1191', 'L-1193', 'L-1192', 'L-0636',
-             'L-1285', 'L-1286', 'L-1287', 'L-1288']
+             'L-1285', 'L-1286', 'L-1287', 'L-1288', 'L-1197', 'L-0634', 'L-1194', 'L-1195', 'L-1198']
 
 
 def chapter13(ledger):
@@ -980,9 +980,9 @@ def chapter13(ledger):
         grammar=['ms-c13-g02', 'ms-c13-g03', 'ms-c13-g04', 'ms-c13-g05', 'ms-c13-g06', 'ms-c13-g07', 'ms-c13-g08'],
         patterns=['ms-c13-f01', 'ms-c13-f02', 'ms-c13-f03', 'ms-c13-f04', 'ms-c13-f05', 'ms-c13-f06'],
         goal='Say what you have not done yet, ask permission, say what you need, and read advice and rules at a clinic and a pharmacy.',
-        explain=('第13章速習：45分で基本の24語、«belum»・«Bolehkah saya …?»・«perlu»・«patut»・«mesti»・«wajib»、掲示の «tidak dibenarkan»・«dilarang»、パネルクリニックと薬局の場面を練習し、'
+        explain=('第13章速習：45分で基本の29語、«belum»・«Bolehkah saya …?»・«perlu»・«patut»・«mesti»・«wajib»、掲示の «tidak dibenarkan»・«dilarang»、パネルクリニックと薬局の場面を練習し、'
                  '残りは Kata-Kata で自習します。日本語は未監修です。このパックは医学的な助言をしません。',
-                 'Chapter 13 in one 45-minute session: 24 core words, «belum», «Bolehkah saya …?», «perlu», «patut», «mesti» and «wajib», the signs «tidak dibenarkan» and «dilarang», and the panel clinic and pharmacy scene; '
+                 'Chapter 13 in one 45-minute session: 29 core words, «belum», «Bolehkah saya …?», «perlu», «patut», «mesti» and «wajib», the signs «tidak dibenarkan» and «dilarang», and the panel clinic and pharmacy scene; '
                  'then self-study in Kata-Kata. All names and details are fictional and the pack gives no medical advice.'),
         sections=[
             ('Can-do goals · できること', [
@@ -990,8 +990,8 @@ def chapter13(ledger):
                 'I can ask permission with «Bolehkah saya …?». / «Bolehkah saya …?» で許可を求められる。',
                 'I can say what I need («perlu»), and tell advice («patut») from a must («mesti», «wajib»). / «perlu» で必要なことを言い、助言（«patut»）と義務（«mesti»・«wajib»）を区別できる。',
                 'I can read «tidak dibenarkan» and «dilarang» on a sign and ask a pharmacist to say an instruction once more. / 掲示の «tidak dibenarkan»・«dilarang» が読め、薬剤師に指示をもう一度言ってもらえる。'], 'opener'),
-            ('Core words · 基本の24語', core(ledger, C13_WORDS) +
-             ['The full course also teaches «sesuai», «simptom», «kesihatan», «rawatan» and «kecemasan», with the revision words of the whole unit.'], 'vocabulary'),
+            ('Core words · 基本の29語', core(ledger, C13_WORDS) +
+             ['The full course adds the revision words of the whole unit.'], 'vocabulary'),
             ('Key patterns · 文型', [
                 '1 · «Saya belum» ___ «.»  e.g. «Saya belum makan.» / «Saya belum mendaftar.»',
                 '2 · «Bolehkah saya» ___ «?»  e.g. «Bolehkah saya masuk?» / «Boleh saya duduk di sini?»',
@@ -1289,7 +1289,7 @@ def chapter16(ledger):
 
 C17_WORDS = ['L-1265', 'L-0689', 'L-0828', 'L-0656', 'L-0717', 'L-0748', 'L-1257', 'L-1260', 'L-1255', 'L-1256',
              'L-1258', 'L-1259', 'L-0787', 'L-1261', 'L-1267', 'L-0690', 'L-0703', 'L-1252', 'L-1263', 'L-1264',
-             'L-1262', 'L-1266', 'L-1254', 'L-1253', 'L-1302', 'L-1303']
+             'L-1262', 'L-1266', 'L-1254', 'L-1253', 'L-1302']
 
 
 def chapter17(ledger):
@@ -1313,8 +1313,8 @@ def chapter17(ledger):
         grammar=['ms-c17-g02', 'ms-c17-g03', 'ms-c17-g04', 'ms-c17-g05', 'ms-c17-g06', 'ms-c17-g07', 'ms-c17-g08', 'ms-c17-g09'],
         patterns=['ms-c17-f01', 'ms-c17-f02', 'ms-c17-f03', 'ms-c17-f04', 'ms-c17-f05', 'ms-c17-f06'],
         goal='Invite politely, accept or decline with a reason and another time, tell the standard forms from the spoken ones, and recognise «lah» and «kan».',
-        explain=('第17章速習：45分で基本の26語、«Sudikah encik ___?»、«Sayangnya saya tidak ___. Lain kali, ya?»、«Bagaimana kalau ___?»、標準形と話し言葉の組を練習し、職場の夕食会の誘いとカフェの場面を演じ、残りは Kata-Kata で自習します。日本語は未監修です。',
-                 'Chapter 17 in one 45-minute session: 26 core words, «Sudikah encik ___?», «Sayangnya saya tidak ___. Lain kali, ya?», «Bagaimana kalau ___?» and the standard and spoken pairs; '
+        explain=('第17章速習：45分で基本の25語、«Sudikah encik ___?»、«Sayangnya saya tidak ___. Lain kali, ya?»、«Bagaimana kalau ___?»、標準形と話し言葉の組を練習し、職場の夕食会の誘いとカフェの場面を演じ、残りは Kata-Kata で自習します。日本語は未監修です。',
+                 'Chapter 17 in one 45-minute session: 25 core words, «Sudikah encik ___?», «Sayangnya saya tidak ___. Lain kali, ya?», «Bagaimana kalau ___?» and the standard and spoken pairs; '
                  'then the office dinner invitation and the café scene, and self-study in Kata-Kata. All names and places are fictional.'),
         sections=[
             ('Can-do goals · できること', [
@@ -1322,7 +1322,7 @@ def chapter17(ledger):
                 'I can decline with «Sayangnya …», a reason and «Lain kali, ya?». / «Sayangnya …»・理由・«Lain kali, ya?» で断れる。',
                 'I can suggest another time with «Bagaimana kalau …?» and say «Setuju!». / «Bagaimana kalau …?» で別の機会を提案し、«Setuju!» と言える。',
                 'I can tell the standard forms from the spoken ones, and I recognise «lah» and «kan» without having to say them. / 標準形と話し言葉を区別でき、«lah» と «kan» は自分で言わなくても聞いて分かる。'], 'opener'),
-            ('Core words · 基本の26語', core(ledger, C17_WORDS) +
+            ('Core words · 基本の25語', core(ledger, C17_WORDS) +
              ['The full course adds the revision words of the whole unit. «lah» and «kan» are for recognition only.'], 'vocabulary'),
             ('Key patterns · 文型', [
                 '1 · «Sudikah encik» ___ «?»  e.g. «Sudikah encik datang?» / «Sudikah puan singgah di pejabat dulu?»',
