@@ -476,9 +476,11 @@ class KataKataCleanup(unittest.TestCase):
         r'KD4 check( \([^)]*\))?(; refresh Cikgu Sensai snapshot)?',
         r'refresh Cikgu Sensai snapshot',
         r'Covered by Ch4 \(L-0167 minggu \+ card ms-c04-019 depan, whose note teaches minggu depan\); Kata-Kata: drop card ms-c17-026; Cikgu Sensai: drop curriculum/phrases-taught-earlier\.json',  # L-1303: both done (see the comment in the test)
+        r'\(none: Retired; Kata-Kata card dropped in step 3f, Cikgu Sensai exception removed in 7d45aac\)',  # L-1303 after Kata-Kata step 6b
         r'KD4 check; Cikgu Sensai: rewrite the 3B line that uses it',
         r'remove from Cikgu Sensai unit 1 \(vocabulary, culture note, pronunciation, teaching plan\)',
         r'Hanashishou: map the daily-life card to L-0330',
+        r'KD4 check; Kata-Kata: card terms ms-c04-041, ms-c06-021 pick up the alias',  # L-0195, done in Kata-Kata step 6b
         r'Hanashishou root-word rule: .*',
         r'Retired: use L-0336 hospital \(Sam 12 Nov\)',
         r'Duplicate of L-0702 \(hujung minggu\); use L-0702',
@@ -491,11 +493,13 @@ class KataKataCleanup(unittest.TestCase):
     def test_no_open_kata_kata_action_is_left(self):
         import re
         rows = self.rows()
-        self.assertEqual(len(rows), 1309)  # L-0001 to L-1088 (Stage 1), L-1089 to L-1265 (Stage 2 build step 1, Sam approved 13 Nov 2026), L-1266 to L-1272 (takpe, tidak boleh tahan, mendaftar, tangguhkan, batalkan, memakai, berwarna; Sam, synced from Kata-Kata 7fbe173), L-1273 to L-1309 (37 rows from Kata-Kata step 3e, 907946f: 31 core, 6 practice pool)
+        self.assertEqual(len(rows), 1493)  # L-1310 to L-1493: 184 Hanashishou bridge-batch rows (Kata-Kata e4e294d, step 6b; no chapter); then the older rows: # L-0001 to L-1088 (Stage 1), L-1089 to L-1265 (Stage 2 build step 1, Sam approved 13 Nov 2026), L-1266 to L-1272 (takpe, tidak boleh tahan, mendaftar, tangguhkan, batalkan, memakai, berwarna; Sam, synced from Kata-Kata 7fbe173), L-1273 to L-1309 (37 rows from Kata-Kata step 3e, 907946f: 31 core, 6 practice pool)
         # L-0530 is cleared («KD4 check», Kata-Kata step 3f, Journal row 201). L-1303 «minggu depan» (Retired) names both
         # repositories: Kata-Kata dropped card ms-c17-026 in step 3f and Cikgu Sensai dropped curriculum/phrases-taught-earlier.json
         # in the chapter 18 prep commit, so Journal row 200 can be closed; the sheet is not ours to edit, so the cell is allowed here.
-        self.assertEqual([r['ID'] for r in rows if 'kata-kata' in r['Action (open)'].lower()], ['L-1303'])
+        # L-0195 «baru / baharu»: Kata-Kata step 6b set the card terms (ms-c04-041, ms-c06-021 now read «baru / baharu»; Cikgu Sensai
+        # refreshed c04 and c06 in step 6c-1), but the sheet's Action cell is not ours to clear.
+        self.assertEqual([r['ID'] for r in rows if 'kata-kata' in r['Action (open)'].lower()], ['L-0195', 'L-1303'])
         self.assertFalse((ROOT / 'curriculum/phrases-taught-earlier.json').exists())
         # Every remaining open action is one of the known kinds; a new kind (for example "Add ... card" without the words
         # Kata-Kata) fails here and has to be looked at.

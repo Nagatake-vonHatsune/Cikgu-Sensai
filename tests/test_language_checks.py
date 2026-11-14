@@ -19,7 +19,8 @@ class LanguageChecksTests(unittest.TestCase):
   for term,ch in [('keempat',3),('seminggu',4)]:
    r=self.checker.inspect([self.seg(term,ch)]);self.assertFalse(r['violations']);self.assertFalse(r['ledger_gaps'])
   self.assertTrue(any(e['check']=='affix' for e in self.checker.inspect([self.seg('keempat',2)])['violations'].values()));self.assertIsNone(self.checker.derivation('keempat',2));self.assertIsNone(self.checker.derivation('ceritanya',1))
-  r=self.checker.inspect([self.seg('ceritanya',6)]);self.assertEqual({x['term'] for x in r['ledger_gaps'].values()},{'cerita'})
+  # «cerita» is a Jambatan row with no chapter (L-1338), so it is no root for -nya (step 6c-1, rule 2): the form is a gap itself.
+  r=self.checker.inspect([self.seg('ceritanya',6)]);self.assertEqual({x['term'] for x in r['ledger_gaps'].values()},{'ceritanya'});self.assertFalse(r['violations'])
   r=self.checker.inspect([self.seg('sebiji',3)]);self.assertTrue(any(x['check']=='ledger' and x['term']=='biji' for x in r['violations'].values()))
  def test_gap_is_not_ledger_violation(self):
   r=self.checker.inspect([self.seg('lucu',3)]);self.assertTrue(r['ledger_gaps']);self.assertFalse(r['violations'])
@@ -75,7 +76,7 @@ class LanguageChecksTests(unittest.TestCase):
   # step 4; c01 to c09 unchanged). They are edited only by copying them from Kata-Kata.
   # Pinned in docs/step4-sources.json; no Cikgu Sensai edit may change them.
   sources=json.loads((ROOT/'docs/step4-sources.json').read_text())
-  self.assertEqual(sources['kata_kata_commit'],'1987ab9')
+  self.assertEqual(sources['kata_kata_commit'],'e4e294d')
   for i in range(1,19):
    name='c%02d.json'%i
    self.assertEqual(hashlib.sha256((ROOT/'curriculum/reference/katakata'/name).read_bytes()).hexdigest(),sources['kata_kata_chapter_sha256']['content/ms/kelas/'+name],name)

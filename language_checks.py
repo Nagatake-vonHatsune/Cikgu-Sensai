@@ -8,6 +8,13 @@ look-alike roots, register pairs, particles and disallowed forms come from
 curriculum/stage-rules.json, which Kata-Kata's affix guard reads too. A ber-,
 meN-, -kan, -i or accident ter- form passes only when every gate of its families
 is open in the unit's chapter and its own ledger row is placed at or before it.
+
+Rows and chapters (Stage 2 step 6c-1, Sam and Claude, 14 Nov 2026), now that the ledger holds rows with no chapter (Jambatan and bridge-batch rows):
+1. A form that is itself a live ledger row with a chapter is checked at that row's chapter, as a whole word. From that chapter on it is never split into a
+   root and an affix. Before it, a regular derivation from a placed base still applies (seminggu in chapter 4; «disemak» is a practice-pool row, placed at 18).
+2. A row with no chapter (and not retired) never serves as the root of a derivation. It makes no form legal and no placed form illegal; in a unit with
+   a chapter it counts as no ledger entry (a gap, as before the row existed).
+3. Practice-pool rows («primes Ch18») are placed at 18 by the place column and keep that behaviour.
 """
 import csv
 import io
@@ -57,6 +64,8 @@ class Checker:
    row['_chapter']=placed_chapter(row['Kata-Kata place'])
    for form in re.sub(r'\([^)]*\)','',row['Malay']).split('/'):
     if norm(form):self.entries[norm(form)].append(row)
+  # Forms with at least one row that has a chapter. Only these can be whole words, roots or bases (rules 1 and 2).
+  self.placed={t for t,rows in self.entries.items() if any(r['_chapter'] is not None for r in rows)}
   # Every pinned Kata-Kata chapter file, not a fixed c01-c09 range.
   for path in sorted((self.root/'curriculum/reference/katakata').glob('c[0-9][0-9].json')):
    n=int(path.stem[1:]);pack=read_json(path)
@@ -83,22 +92,35 @@ class Checker:
   names=read_json(self.root/PROPER_FILE)['names'] if (self.root/PROPER_FILE).exists() else []
   self.proper=PROPER|{t for name in names for t in tokens(name)}
   self.maxlen=max(len(t.split()) for t in self.entries)
-  self.known=set(self.entries)|set(self.cards)|self.roots
+  self.known=self.placed|set(self.cards)|self.roots
+ @staticmethod
+ def unplaced(row):
+  """A live row with no chapter (a Jambatan or bridge-batch row). Retired rows are not live."""
+  return row['_chapter'] is None and row['Review status']!='Retired'
+ def rows_for(self,term,ch):
+  """Ledger rows that count for a term in a unit. In a unit with a chapter an unplaced row counts as no row at all."""
+  rows=self.entries.get(term,[])
+  return rows if ch is None else [r for r in rows if not self.unplaced(r)]
  def compositional(self,term,parts):
   return all(r['_chapter'] is None for r in self.entries[term]) and all(t in self.entries for t in parts)
  def known_by(self,term,ch):
   return any(r['_chapter'] is not None and r['_chapter']<=ch for r in self.entries.get(term,[]))
- def noun(self,t):return any(c['pos'] in ['n','noun','counter','num'] for c in self.cards.get(t,[])) or any(r['POS'] in ['n','noun','counter'] for r in self.entries.get(t,[]))
+ def noun(self,t):return any(c['pos'] in ['n','noun','counter','num'] for c in self.cards.get(t,[])) or any(r['POS'] in ['n','noun','counter'] for r in self.entries.get(t,[]) if r['_chapter'] is not None)
  def derivation(self,w,ch):
   """Productive forms only after their rule; root is checked separately."""
   if ch is None:return None
+  # Rule 1: a form whose own ledger row is placed at or before this chapter is a whole word, never split (biasanya, akhirnya, terlalu).
+  # Before its row's chapter a regular derivation from a placed base still applies, as it always did (seminggu in chapter 4, the
+  # practice-pool row «disemak» in chapter 11).
+  if self.placed_by(w,ch):return None
   g=self.gates
   if w.startswith('ke') and w[2:] in NUMBERS and ch>=g['ke- ordinal']:return (w[2:],'ke- ordinal')
-  if w.endswith('nya') and len(w)>4 and ch>=g['-nya'] and (w[:-3] in self.entries or w[:-3] in self.cards or w=='ceritanya'):return (w[:-3],'-nya')
-  if w.endswith('kah') and len(w)>4 and ch>=g['-kah']:return (w[:-3],'-kah')
+  if w.endswith('nya') and len(w)>4 and ch>=g['-nya'] and (w[:-3] in self.placed or w[:-3] in self.cards or (w=='ceritanya' and 'cerita' not in self.entries)):return (w[:-3],'-nya')
+  # An unplaced row is no root (rule 2); a base the ledger does not hold at all is still reported as the gap.
+  if w.endswith('kah') and len(w)>4 and ch>=g['-kah'] and (w[:-3] in self.placed or w[:-3] not in self.entries):return (w[:-3],'-kah')
   # Written particle «lah» joins the word (takpelah, tidak mengapalah), like -kah, once the particle's own ledger row is placed (chapter 17).
   # Never a ledger word (sekolah) or a listed non-particle (adalah, masalah); the rest must be a known form.
-  if w.endswith('lah') and len(w)>5 and w not in self.entries and w not in self.not_particle and self.placed_by('lah',ch) and w[:-3] in self.known:return (w[:-3],'-lah')
+  if w.endswith('lah') and len(w)>5 and w not in self.placed and w not in self.not_particle and self.placed_by('lah',ch) and w[:-3] in self.known:return (w[:-3],'-lah')
   if w.startswith('se') and len(w)>3:
    base=w[2:]
    # Chapter 4 time nouns and chapter 8 counters follow their own base placement.
@@ -112,7 +134,7 @@ class Checker:
   """Chapter 6 superlative: a listed whole word, or ter- + an adjective with no ledger row of its own.
   Any other ter- word (tertinggal, terlepas) is the chapter 16 accident family."""
   if w in self.superlatives:return True
-  return w.startswith('ter') and w not in self.entries and any(c['pos']=='adj' for c in self.cards.get(w[3:],[]))
+  return w.startswith('ter') and w not in self.placed and any(c['pos']=='adj' for c in self.cards.get(w[3:],[]))
  def bases(self,w):
   out={w}
   for p,adds in UNPREFIX:
@@ -131,7 +153,7 @@ class Checker:
  def families(self,w,ch):
   """Gated Stage 2 families of one word (stage-rules.json, format.family_resolution)."""
   if w in self.roots or any(form==w and (ch is None or ch>=first) for form,first in self.whole_words):return set()
-  tags=[t for r in self.entries.get(w,[]) for t in r['Affix tag'].split()]
+  tags=[t for r in self.entries.get(w,[]) if r['_chapter'] is not None for t in r['Affix tag'].split()]
   if any(t!='root' for t in tags):fam={TAG_FAMILY[t] for t in tags if t in TAG_FAMILY}
   else:fam=self.shape_families(w)
   if 'ter-' in fam:
@@ -171,7 +193,7 @@ class Checker:
    if s['kind']=='test' and s['source'].endswith('|answer_key'):
     for w in ts:
      for particle in self.particles:
-      if w==particle or (particle=='lah' and w.endswith('lah') and w not in self.entries and w not in self.not_particle and w[:-3] in self.known):
+      if w==particle or (particle=='lah' and w.endswith('lah') and w not in self.placed and w not in self.not_particle and w[:-3] in self.known):
        add(violations,s,'register',particle,'Particle «'+particle+'» is optional production (R4); a test answer key must not require it.')
    # Do not turn a phrase exemption into a global exemption for its individual words.
    exempt=set();g=self.gates
@@ -181,9 +203,9 @@ class Checker:
     if ch is not None and w not in exempt:
      early=[]
      if ch<g['ke- ordinal'] and w.startswith('ke') and w[2:] in NUMBERS:early.append(f"ke- ordinal before chapter {g['ke- ordinal']}")
-     if ch<g['-nya'] and w.endswith('nya') and (w[:-3] in self.entries or w=='ceritanya'):early.append(f"-nya before chapter {g['-nya']}")
-     if ch<g['-kah'] and w.endswith('kah') and w[:-3] in self.entries:early.append(f"-kah before chapter {g['-kah']}")
-     if ch<g['di-'] and w.startswith('di') and w[2:] in self.entries and any(c['pos']=='v' for c in self.cards.get(w[2:],[])):early.append(f"di- passive before chapter {g['di-']}")
+     if ch<g['-nya'] and w.endswith('nya') and (w[:-3] in self.placed or (w=='ceritanya' and 'cerita' not in self.entries)):early.append(f"-nya before chapter {g['-nya']}")
+     if ch<g['-kah'] and w.endswith('kah') and w[:-3] in self.placed:early.append(f"-kah before chapter {g['-kah']}")
+     if ch<g['di-'] and w.startswith('di') and w[2:] in self.placed and any(c['pos']=='v' for c in self.cards.get(w[2:],[])):early.append(f"di- passive before chapter {g['di-']}")
      if ch<g['ter- superlative'] and w.startswith('ter') and any(c['pos']=='adj' for c in self.cards.get(w[3:],[])):early.append(f"ter- superlative before chapter {g['ter- superlative']}")
      for reason in early:add(violations,s,'affix',w,reason)
     derived_form=self.derivation(w,ch)
@@ -207,7 +229,8 @@ class Checker:
      term=' '.join(ts[i:i+size])
      # An unplaced multi-word row (e.g. a Hanashishou phrase "encik pula") does not
      # override placed single words it is built from; match the words instead.
-     if term in self.entries and size>1 and self.compositional(term,ts[i:i+size]):continue
+     # In a unit with a chapter an unplaced multi-word row is not an entry either (rule 2): its words are checked one by one.
+     if term in self.entries and size>1 and (self.compositional(term,ts[i:i+size]) or not self.rows_for(term,ch)):continue
      if term in self.entries:matched=(term,size);break
     term,size=matched if matched else (ts[i],1)
     deriv=self.derivation(term,ch) if size==1 else None
@@ -216,7 +239,7 @@ class Checker:
     if deriv:
      base,rule=deriv;derived.append({'unit':s['unit'],'term':term,'base':base,'rule':rule})
      term=base
-    rows=self.entries.get(term,[])
+    rows=self.rows_for(term,ch)
     if not rows:add(gaps,s,'ledger gap',term,'No exact ledger entry for this term/base; not a lesson violation.')
     elif ch is not None:
      taught=[r['_chapter'] for r in rows if r['_chapter'] is not None]

@@ -15,7 +15,7 @@ def run_case(checker,case):
   if kind=='mention':mentions[' '.join(re.findall(r"[a-z]+(?:[-'][a-z]+)*",s['text'].lower()))]=s['mention_source']
   segments.append({'unit':s.get('unit',f'fixture-c{ch:02}'),'chapter':ch,'source':source,'text':s['text'],'source_text':s.get('source_text',s['text']),'kind':kind})
  saved=checker.mentions;checker.mentions=mentions
- try:return checker.inspect(segments)['violations']
+ try:return checker.inspect(segments)
  finally:checker.mentions=saved
 
 class StageRulesFixtures(unittest.TestCase):
@@ -23,12 +23,16 @@ class StageRulesFixtures(unittest.TestCase):
  def setUpClass(cls):cls.checker=Checker()
  def test_shared_fixtures(self):
   self.assertGreaterEqual(len(FIXTURES),60)
-  self.assertEqual(len(FIXTURES),81)
+  self.assertEqual(len(FIXTURES),95)  # 77 at step 4a, 81 after the clean-up, 95 after step 6c-1 (14 cases on rows with no chapter)
   for case in FIXTURES:
    with self.subTest(case=case['id']):
-    v=run_case(self.checker,case)
+    result=run_case(self.checker,case);v=result['violations']
     if case['expect']=='pass':self.assertEqual(v,{},case['why'])
     else:self.assertTrue(any(e['check']==case['check'] for e in v.values()),f"{case['why']}: {sorted(v)}")
+    # Optional (step 6c-1): terms that must, or must not, be ledger gaps.
+    gaps={e['term'] for e in result['ledger_gaps'].values()}
+    self.assertTrue(set(case.get('expect_gaps',[]))<=gaps,f"{case['id']}: missing gaps {sorted(set(case.get('expect_gaps',[]))-gaps)}")
+    self.assertFalse(set(case.get('expect_no_gaps',[]))&gaps,f"{case['id']}: unexpected gaps {sorted(set(case.get('expect_no_gaps',[]))&gaps)}")
  def test_required_gate_fixtures_present(self):
   ids={c['id'] for c in FIXTURES}
   for i in ['bercakap-9-fails','bercakap-10-passes','menulis-10B-fails','menulis-11A-passes','kan-suffix-11B-fails','kan-suffix-12A-passes',

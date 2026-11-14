@@ -252,7 +252,8 @@ class Ledger:
                 i += 1; continue
             for size in range(min(self.checker.maxlen, len(ts) - i), 0, -1):
                 term = ' '.join(ts[i:i + size])
-                rows = self.checker.entries.get(term)
+                # Rows with no chapter (Jambatan and bridge-batch rows, cards ms-j-*) are not taught words here (Stage 2 step 6c-1, rule 2).
+                rows = self.checker.rows_for(term, 0)
                 if rows and size > 1 and self.checker.compositional(term, ts[i:i + size]):
                     continue
                 if not rows and size == 1:
@@ -549,7 +550,10 @@ def guard(source, text, ledger, mentions):
     for name in PRODUCT_NAMES:
         rest = rest.replace(name, ' ')
     words = set(tokens(rest)) - ledger.checker.proper
-    malay = [w for w in words if w in ledger.checker.entries and w not in ENGLISH_HOMOGRAPHS]
+    # A word whose only ledger rows have no chapter (the Jambatan and bridge-batch rows: «had», «idea», «sedia», «dewan» are English words too)
+    # is not course Malay: it is not flagged in English prose (Stage 2 step 6c-1; the checker treats such rows as no entry in a unit).
+    malay = [w for w in words if w in ledger.checker.entries and w not in ENGLISH_HOMOGRAPHS
+             and not all(ledger.checker.unplaced(r) for r in ledger.checker.entries[w])]
     if malay:
         raise ValueError(f'Unmarked Malay {sorted(malay)} in {source}: {text}')
 
