@@ -36,11 +36,29 @@ chapters=add_course(lessons,lesson,suite_units)
 lessons.extend(suite_lessons)
 
 from fontTools import subset
-from fontTools.ttLib import TTFont
+from fontTools.ttLib import TTFont, newTable
+from fontTools.pens.cu2quPen import Cu2QuPen
+from fontTools.pens.ttGlyphPen import TTGlyphPen
+def cff_to_truetype(font):
+    # Noto Sans CJK is a CID-keyed CFF font. After subsetting, its glyphs keep their old CIDs while MuPDF writes the new
+    # glyph indices into the page text, so every PDF viewer drew the wrong glyphs (Sam, 14 Nov 2026: chapter 1 download
+    # unreadable). TrueType outlines have no CIDs: the glyph index is the glyph, so the text renders as written.
+    order=font.getGlyphOrder();glyphset=font.getGlyphSet()
+    font["loca"]=newTable("loca");glyf=font["glyf"]=newTable("glyf");glyf.glyphOrder=order;glyf.glyphs={}
+    for name in order:
+        pen=TTGlyphPen(glyphset);glyphset[name].draw(Cu2QuPen(pen,1.0,reverse_direction=True));glyf[name]=pen.glyph()
+    maxp=font["maxp"]=newTable("maxp");maxp.tableVersion=0x00010000
+    for key in ("maxZones","maxTwilightPoints","maxStorage","maxFunctionDefs","maxInstructionDefs","maxStackElements","maxSizeOfInstructions","maxComponentElements"):
+        setattr(maxp,key,1 if key=="maxZones" else 0)
+    post=font["post"];post.formatType=2.0;post.extraNames=[];post.mapping={};post.glyphOrder=order
+    for tag in ("CFF ","VORG"):
+        if tag in font:del font[tag]
+    font["head"].glyphDataFormat=0;font.sfntVersion="\x00\x01\x00\x00"
+    return font
 from tempfile import TemporaryDirectory
-LEGACY_CSS="@font-face{font-family:Body;src:url(body.otf)}*{font-family:Body;color:#151515}body{font-size:18pt;line-height:1.42}small{font-size:12pt}h1{font-size:27pt}h2{font-size:21pt;border-bottom:1pt solid black}p{margin:0 0 12pt}"
+LEGACY_CSS="@font-face{font-family:Body;src:url(body.ttf)}*{font-family:Body;color:#151515}body{font-size:18pt;line-height:1.42}small{font-size:12pt}h1{font-size:27pt}h2{font-size:21pt;border-bottom:1pt solid black}p{margin:0 0 12pt}"
 # Step 4 suites carry more text per sheet; a smaller face keeps tables on one page.
-COMPACT_CSS="@font-face{font-family:Body;src:url(body.otf)}*{font-family:Body;color:#151515}body{font-size:12.5pt;line-height:1.36}small{font-size:8pt}h1{font-size:19pt;margin:0 0 3pt}h2{font-size:14.5pt;border-bottom:1pt solid black;margin:4pt 0 7pt}p{margin:0 0 4.5pt}p.h{font-weight:bold;margin-top:7pt}.ms{color:#0b4a7a}.mn{font-style:italic}"
+COMPACT_CSS="@font-face{font-family:Body;src:url(body.ttf)}*{font-family:Body;color:#151515}body{font-size:12.5pt;line-height:1.36}small{font-size:8pt}h1{font-size:19pt;margin:0 0 3pt}h2{font-size:14.5pt;border-bottom:1pt solid black;margin:4pt 0 7pt}p{margin:0 0 4.5pt}p.h{font-weight:bold;margin-top:7pt}.ms{color:#0b4a7a}.mn{font-style:italic}"
 RECT=fitz.Rect(46,42,550,796)
 import re
 def marked_html(line):
@@ -58,7 +76,7 @@ def markup(item,label,lines,raw=None):
     return f'<small>Cikgu, Sensai! / {item["lang"]} · {item["level"]}</small><h1>{item["title"]}</h1><h2>{label}</h2>{body}',LEGACY_CSS
 with TemporaryDirectory() as tmp:
     font=TTFont("/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",fontNumber=0)
-    sub=subset.Subsetter(); sub.populate(text=json.dumps(lessons,ensure_ascii=False)+"Cikgu, Sensai! · /()0123456789"); sub.subset(font); font.save(tmp+"/body.otf")
+    sub=subset.Subsetter(); sub.populate(text=json.dumps(lessons,ensure_ascii=False)+"Cikgu, Sensai! · /()0123456789"); sub.subset(font); cff_to_truetype(font).save(tmp+"/body.ttf")
     archive=fitz.Archive(tmp)
     scratch=[fitz.open(),0]
     def fits(item,label,lines):

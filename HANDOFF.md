@@ -2,6 +2,10 @@
 
 Update this file at the end of every session. The next builder (ChatGPT or Claude) starts here, after the charter and `AGENTS.md`.
 
+## PDF font fix (14 Nov 2026, Claude)
+
+Sam's chapter 1 download was unreadable: every downloaded or printed page drew the wrong glyphs, in every build since the first. Cause: `build.py` embedded a fontTools subset of Noto Sans CJK, a CID-keyed CFF font. Subsetting renumbers the glyphs but keeps their old CIDs, while MuPDF writes the new glyph numbers into the page text, so viewers looked up the wrong glyphs. Text extraction still looked right, which is why the checks never caught it. Fix: `build.py` now converts the subset to TrueType outlines (`cff_to_truetype`, saved as `body.ttf`); the glyph number is then the glyph. Same page count (3,335) and fit checks; the font stays small. `tests/test_pdf_fonts.py` fails if the body font is not TrueType or any CFF font in the page bank has CIDs that do not match its glyph numbers. **Look at a rendered page by eye after any font or build change** (render with PyMuPDF `get_pixmap`), not only at extracted text.
+
 ## Stage 2 clean-up pass (open list)
 
 Do these together, after the Kata-Kata sync that brings in the ledger change, in one commit.
