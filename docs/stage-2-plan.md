@@ -80,24 +80,24 @@ Propose parallel A/B test versions, four sections of 20 marks, 48/80 overall and
 
 **Counting rule:** one ledger row is one core word. A taught surface form or fixed chunk is one row (as the ledger already does for «dibaca» L-0385, «menyimpan» L-0792 and «mengapa» L-1049); its family is recorded in the existing "Root (KD4)" and "Affix tag" columns. A root already taught is revision, not new.
 
-**In the ledger now (build step 4 refresh, 13 Nov 2026): 240 core forms, 56 existing ledger rows and 184 new rows (L-1089 to L-1272).** After build step 1 the ledger held 233 (56 + 177, L-1089 to L-1265: draft 235 = 53 + 182; the audit gave 233; Sam added «bertolak»; build step 1 left L-0657 «tempat kerja» as revision, see the note under unit 10A). Sam then added seven rows during the Kata-Kata steps 3c and 3d: L-1266 «takpe» and L-1267 «tidak boleh tahan» (17), L-1268 «mendaftar» (13), L-1269 «tangguhkan» and L-1270 «batalkan» (14), L-1271 «memakai» and L-1272 «berwarna» (15) (L-1268 to L-1272: Journal row 184; L-1266 and L-1267: added by Sam before Kata-Kata c17 was built, see Kata-Kata `docs/STAGE-2-c11-c18-report.md` and `docs/STAGE-2-step3c-report.md`). Every unit is now between 20 and 25 new core words, inside the "typically 20 to 40" of charter section 6 (unit 15, one under 20 at the audit, now has 21). Each table row carries an Audit column: kept, changed (with why), added or moved; dropped forms are listed under each table. The four forms whose Malaysian usage I was not sure of were put to Sam and are marked "confirmed by Sam".
+**In the ledger now (Stage 2 clean-up refresh, 14 Nov 2026): 271 core forms, 56 existing ledger rows and 215 new rows (L-1089 to L-1303).** Sam approved the word proposals backlog (31 rows, L-1273 to L-1303, placed Ch10 to Ch17; Kata-Kata step 3e) on top of the 240 of the build step 4 refresh. The six practice-pool rows L-1304 to L-1309 (menyapu, disemak, disimpan, bersukan, hidup, giliran; place "Dunia · Kata biasa (primes Ch18)") are **not core** and are in none of these counts. Earlier history of the 240: After build step 1 the ledger held 233 (56 + 177, L-1089 to L-1265: draft 235 = 53 + 182; the audit gave 233; Sam added «bertolak»; build step 1 left L-0657 «tempat kerja» as revision, see the note under unit 10A). Sam then added seven rows during the Kata-Kata steps 3c and 3d: L-1266 «takpe» and L-1267 «tidak boleh tahan» (17), L-1268 «mendaftar» (13), L-1269 «tangguhkan» and L-1270 «batalkan» (14), L-1271 «memakai» and L-1272 «berwarna» (15) (L-1268 to L-1272: Journal row 184; L-1266 and L-1267: added by Sam before Kata-Kata c17 was built, see Kata-Kata `docs/STAGE-2-c11-c18-report.md` and `docs/STAGE-2-step3c-report.md`). Every unit is now between 20 and 25 new core words, inside the "typically 20 to 40" of charter section 6 (unit 15, one under 20 at the audit, now has 21). Each table row carries an Audit column: kept, changed (with why), added or moved; dropped forms are listed under each table. The four forms whose Malaysian usage I was not sure of were put to Sam and are marked "confirmed by Sam".
 
 | Unit | Draft core | Audited core | Existing rows | New rows |
 | --- | ---: | ---: | ---: | ---: |
-| [10A](#unit-10a) | 20 | 20 | 2 | 18 |
+| [10A](#unit-10a) | 20 | 20 → **24** | 2 | 22 |
 | [10B](#unit-10b) | 20 | 20 | 4 | 16 |
-| [11A](#unit-11a) | 20 | 20 | 0 | 20 |
-| [11B](#unit-11b) | 22 | 21 | 7 | 14 |
+| [11A](#unit-11a) | 20 | 20 → **21** | 0 | 21 |
+| [11B](#unit-11b) | 22 | 21 → **24** | 7 | 17 |
 | [12A](#unit-12a) | 22 | 23 | 7 | 16 |
-| [12B](#unit-12b) | 20 | 21 | 9 | 12 |
-| [13](#unit-13) | 23 | 24 → **25** | 8 | 17 |
-| [14](#unit-14) | 21 | 20 → **22** | 2 | 20 |
-| [15](#unit-15) | 21 | 19 → **21** | 3 | 18 |
-| [16](#unit-16) | 24 | 23 | 6 | 17 |
-| [17](#unit-17) | 22 | 22 → **24** | 8 | 16 |
-| **Total** | **235** | **233 → 240** | **56** | **184** |
+| [12B](#unit-12b) | 20 | 21 → **25** | 9 | 16 |
+| [13](#unit-13) | 23 | 24 → **29** | 8 | 21 |
+| [14](#unit-14) | 21 | 20 → **29** | 2 | 27 |
+| [15](#unit-15) | 21 | 19 → **23** | 3 | 20 |
+| [16](#unit-16) | 24 | 23 → **27** | 6 | 21 |
+| [17](#unit-17) | 22 | 22 → **26** | 8 | 18 |
+| **Total** | **235** | **233 → 271** | **56** | **215** |
 
-The arrows show the seven rows added after the audit (build step 4 refresh); the New rows column is the count now.
+The arrows show the 38 rows added after the audit: seven by Sam during the Kata-Kata steps (build step 4 refresh) and the 31 approved backlog words (Stage 2 clean-up refresh, 14 Nov 2026: 10A +4, 11A +1, 11B +3, 12B +4, 13 +4, 14 +7, 15 +2, 16 +4, 17 +2); the New rows column is the count now.
 
 **What the audit checked for every form:** Malaysian standard as in Kamus Dewan, never Indonesian (no Indonesian form was found; the Malaysian choices are noted where an Indonesian one exists); the everyday Malaysian sense; the register (formal or written forms are paired with their everyday partner); real need for a Japanese working adult in Malaysia at A2; spelling of every ber-, meN-, -kan, -i and ter- form (all correct; nasal changes listed in the notes); the chapter gate (no form arrives before its affix opens); and duplicates against all 1,088 ledger rows, including L-1084 to L-1088 and the rows the Kata-Kata clean-up touched (no exact duplicate; one near-duplicate, «sehingga» beside L-1086 «hingga», dropped; two "new" forms, «berpindah» and «menukar», are the standard forms the ledger already names in L-0667 and L-0604, so they are linked to them). All 53 existing IDs the draft cited exist with the stated headword, meaning and band, and none is placed in a chapter yet.
 
@@ -438,7 +438,7 @@ These are deliberately outside the new-core totals. A teacher may activate recog
 | 17 | tidak/tak L-0030; mahu/nak L-0213; sudah/dah L-0193; sedikit/sikit L-0216; sahaja/saja L-1000; tetapi/tapi L-0215; macam mana L-0211; pun L-0983; jom L-0075; jemput L-0541; betul ke? L-0944; tak apa L-0940; macam L-0930 | These spoken forms and chunks are systematised, not counted new. ni/tu are NEW rows even though the register checker already names them. Other regional forms are excluded. |
 | 18 | All earlier chapters as required by the item map | No vocabulary inflation to meet a teaching-unit minimum. |
 
-**Core totals by chapter in the ledger (build step 4 refresh, 13 Nov 2026):** 10 = 40; 11 = 41; 12 = 44; 13 = 25; 14 = 22; 15 = 21; 16 = 23; 17 = 24; 18 = 0. Total 240 (build step 1: 233, with 13 = 24, 14 = 20, 15 = 19, 17 = 22; draft 235). New-to-course recognition (existing rows, never tested as new core): L-0667 «pindah» (10), L-0604 «tukar» and L-0678 «deadline» (11), L-0608 «nombor tracking» (12). Revision counts will follow actual scene usage, not an invented total before authoring.
+**Core totals by chapter in the ledger (Stage 2 clean-up refresh, 14 Nov 2026):** 10 = 44; 11 = 45; 12 = 48; 13 = 29; 14 = 29; 15 = 23; 16 = 27; 17 = 26; 18 = 0. Total 271 (build step 4 refresh, 13 Nov: 240 with 10 = 40, 11 = 41, 12 = 44, 13 = 25, 14 = 22, 15 = 21, 16 = 23, 17 = 24; build step 1: 233; draft 235). The six practice-pool rows L-1304 to L-1309 are not core and not counted. New-to-course recognition (existing rows, never tested as new core): L-0667 «pindah» (10), L-0604 «tukar» and L-0678 «deadline» (11), L-0608 «nombor tracking» (12). Revision counts will follow actual scene usage, not an invented total before authoring.
 
 ### Existing parcel pack: move and re-author, not relabel
 
@@ -732,3 +732,7 @@ Unit 16 (23 core, no recognition word) is built as one unit of five blocks, with
 ## Build step 4: chapter 17 (13 Nov 2026)
 
 Unit 17 (24 core, no recognition word) is built as one unit of five blocks, with the chapter 17 fast pack. The plan gives chapter 17 no review or writing block (chapter 18 is the integrated review), so none was built. Sam's answers to the chapter 16 questions and the chapter 16 fixes are in [`docs/stage-2-decisions.md`](stage-2-decisions.md) section 13 (no turn is joined across a scene change: the model is Kata-Kata s01 to s16 and the mamak scene s17 to s20 is the Block E dialogue). Report: [`docs/STAGE-2-ch17-report.md`](STAGE-2-ch17-report.md).
+
+## Stage 2 clean-up, Part 1: refresh (14 Nov 2026)
+
+`curriculum/reference/katakata/` c10 to c18 and both ledger copies now come from Kata-Kata 907946f (step 3e). The ledger has 1,309 rows. **Stage 2 core is now 271** (56 existing + 215 new, L-1089 to L-1303): the 240 of the build step 4 refresh plus the 31 approved backlog rows L-1273 to L-1303 (10 = 44, 11 = 45, 12 = 48, 13 = 29, 14 = 29, 15 = 23, 16 = 27, 17 = 26). **The six practice-pool rows L-1304 to L-1309 are not core**: the checker reads their place as Ch18, but they are in no core count, no coverage test and no chapter 18 test key. L-0530 is now «tandatangan». Report: [`docs/STAGE-2-cleanup-report.md`](STAGE-2-cleanup-report.md).

@@ -143,7 +143,7 @@ def components(ledger):
                 ('L-0527', '«Bolehkah saya cetak?»'),
                 ('L-0528', '«Boleh hantar emel?»'),
                 ('L-0529', '«Jangan risau, saya simpan fail itu.»'),
-                ('L-0530', '«Ini tanda tangan saya.»'),
+                ('L-0530', '«Ini tandatangan saya.»'),
                 ('L-0531', '«Dia rakan sekerja saya.»'),
                 ('L-0532', '«Bos saya orang Jepun.» (informal)', dict(en='boss (informal)')),
                 ('L-0533', '«Maaf, saya sibuk.»'),

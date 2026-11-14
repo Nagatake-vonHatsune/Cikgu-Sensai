@@ -12283,18 +12283,18 @@
   "exclusion": null
  },
  "Unit 2B · Vocabulary focus|7|3": {
-  "source_text": "tanda tangan — signature · 署名  [L-0530]",
+  "source_text": "tandatangan — signature · 署名  [L-0530]",
   "target_spans": [
-   "tanda tangan"
+   "tandatangan"
   ],
   "mention_spans": [],
   "kind": "vocabulary",
   "exclusion": null
  },
  "Unit 2B · Vocabulary focus|7|4": {
-  "source_text": "   e.g. Ini tanda tangan saya.",
+  "source_text": "   e.g. Ini tandatangan saya.",
   "target_spans": [
-   "Ini tanda tangan saya."
+   "Ini tandatangan saya."
   ],
   "mention_spans": [],
   "kind": "vocabulary",
@@ -95940,13 +95940,15 @@
   "exclusion": null
  },
  "Unit 10A · Pattern and grammar focus|7|4": {
-  "source_text": "Pattern 3: suka + verb, nothing in between. *bersukan is not in the ledger: say bersenam or bermain + the sport. Practise the frequency words from chapter 4 with each answer.",
+  "source_text": "Pattern 3: suka + verb, nothing in between. bersukan (to do sport) is a practice-pool word (ledger L-1307, not taught in class): say bersenam or bermain + the sport. Practise the frequency words from chapter 4 with each answer.",
   "target_spans": [
    "suka",
    "bersenam",
    "bermain"
   ],
-  "mention_spans": [],
+  "mention_spans": [
+   "bersukan"
+  ],
   "kind": "key",
   "exclusion": null
  },
@@ -99840,7 +99842,7 @@
   "exclusion": null
  },
  "Unit 10A · Teaching plan and answer key|4|17": {
-  "source_text": "ber- rule (charter section 5, Sam 13 Nov 2026): no nasal sound changes; be- before r (berehat, berenang) and in bekerja; bel- only in belajar (revision, chapter 2). Every ber- word here is its own ledger row; do not let learners build new ones (*bersukan, *bermesyuarat are not taught). No meN- verb (chapter 11).",
+  "source_text": "ber- rule (charter section 5, Sam 13 Nov 2026): no nasal sound changes; be- before r (berehat, berenang) and in bekerja; bel- only in belajar (revision, chapter 2). Every ber- word here is its own ledger row; do not let learners build new ones (bersukan is a practice-pool word, not taught here; *bermesyuarat is not taught). No meN- verb (chapter 11).",
   "target_spans": [
    "berehat",
    "berenang",
@@ -99849,7 +99851,8 @@
   ],
   "mention_spans": [
    "be-",
-   "bel-"
+   "bel-",
+   "bersukan"
   ],
   "kind": "plan",
   "exclusion": null
@@ -114045,10 +114048,10 @@
   "exclusion": null
  },
  "Unit 11B · Pattern and grammar focus|3|4": {
-  "source_text": "4. A: Tolong semak borang ini. B: Sudah betul. Tolong tanda tangan di sini.",
+  "source_text": "4. A: Tolong semak borang ini. B: Sudah betul. Tolong tandatangan di sini.",
   "target_spans": [
    "Tolong semak borang ini.",
-   "Sudah betul. Tolong tanda tangan di sini."
+   "Sudah betul. Tolong tandatangan di sini."
   ],
   "mention_spans": [],
   "kind": "model",
@@ -165696,7 +165699,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 10 · Fast-course summary pack|5|14": {
-  "source_text": "After the session: all 41 Kata-Kata chapter 10 cards (ms-c10-001 to ms-c10-041; ms-c10-041 pindah is recognise only) and frames ms-c10-f01 to ms-c10-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"A working day and a new neighbour\" matches this pack.",
+  "source_text": "After the session: all 45 Kata-Kata chapter 10 cards (ms-c10-001 to ms-c10-045; ms-c10-041 pindah is recognise only) and frames ms-c10-f01 to ms-c10-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"A working day and a new neighbour\" matches this pack.",
   "target_spans": [
    "pindah"
   ],
@@ -166344,7 +166347,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 11 · Fast-course summary pack|5|12": {
-  "source_text": "After the session: all 43 Kata-Kata chapter 11 cards (ms-c11-001 to ms-c11-043; ms-c11-042 tukar and ms-c11-043 deadline are recognise only) and frames ms-c11-f01 to ms-c11-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"Who did what in the office\" matches this pack.",
+  "source_text": "After the session: all 47 Kata-Kata chapter 11 cards (ms-c11-001 to ms-c11-047; ms-c11-042 tukar and ms-c11-043 deadline are recognise only) and frames ms-c11-f01 to ms-c11-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"Who did what in the office\" matches this pack.",
   "target_spans": [
    "tukar",
    "deadline"
@@ -167057,7 +167060,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 12 · Fast-course summary pack|5|20": {
-  "source_text": "After the session: all 45 Kata-Kata chapter 12 cards (ms-c12-001 to ms-c12-045; ms-c12-024 nombor tracking is recognise only) and frames ms-c12-f01 to ms-c12-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"Parcels and a leak\" matches this pack.",
+  "source_text": "After the session: all 49 Kata-Kata chapter 12 cards (ms-c12-001 to ms-c12-049; ms-c12-024 nombor tracking is recognise only) and frames ms-c12-f01 to ms-c12-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"Parcels and a leak\" matches this pack.",
   "target_spans": [
    "nombor tracking"
   ],
@@ -167753,7 +167756,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 13 · Fast-course summary pack|5|12": {
-  "source_text": "After the session: all 25 Kata-Kata chapter 13 cards (ms-c13-001 to ms-c13-025) and frames ms-c13-f01 to ms-c13-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"At the clinic and the pharmacy\" matches this pack.",
+  "source_text": "After the session: all 29 Kata-Kata chapter 13 cards (ms-c13-001 to ms-c13-029) and frames ms-c13-f01 to ms-c13-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"At the clinic and the pharmacy\" matches this pack.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -168479,7 +168482,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 14 · Fast-course summary pack|5|16": {
-  "source_text": "After the session: all 22 Kata-Kata chapter 14 cards (ms-c14-001 to ms-c14-022) and frames ms-c14-f01 to ms-c14-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"The weekend hike\" matches this pack.",
+  "source_text": "After the session: all 29 Kata-Kata chapter 14 cards (ms-c14-001 to ms-c14-029) and frames ms-c14-f01 to ms-c14-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"The weekend hike\" matches this pack.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -169169,7 +169172,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 15 · Fast-course summary pack|5|14": {
-  "source_text": "After the session: all 21 Kata-Kata chapter 15 cards (ms-c15-001 to ms-c15-021) and frames ms-c15-f01 to ms-c15-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"A lost wallet and a visitor\" matches this pack.",
+  "source_text": "After the session: all 23 Kata-Kata chapter 15 cards (ms-c15-001 to ms-c15-023) and frames ms-c15-f01 to ms-c15-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"A lost wallet and a visitor\" matches this pack.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -169854,7 +169857,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 16 · Fast-course summary pack|5|12": {
-  "source_text": "After the session: all 23 Kata-Kata chapter 16 cards (ms-c16-001 to ms-c16-023) and frames ms-c16-f01 to ms-c16-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"A locked door, a spill and a slip\" matches this pack.",
+  "source_text": "After the session: all 27 Kata-Kata chapter 16 cards (ms-c16-001 to ms-c16-027) and frames ms-c16-f01 to ms-c16-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"A locked door, a spill and a slip\" matches this pack.",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",
@@ -170592,7 +170595,7 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Chapter 17 · Fast-course summary pack|6|0": {
-  "source_text": "After the session: all 24 Kata-Kata chapter 17 cards (ms-c17-001 to ms-c17-024) and frames ms-c17-f01 to ms-c17-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"An invitation, and how people really talk\" matches this pack (the full unit adds the mamak scene).",
+  "source_text": "After the session: all 26 Kata-Kata chapter 17 cards (ms-c17-001 to ms-c17-026) and frames ms-c17-f01 to ms-c17-f06 in the frame drill and Susun Ayat; the Kata-Kata scenario \"An invitation, and how people really talk\" matches this pack (the full unit adds the mamak scene).",
   "target_spans": [],
   "mention_spans": [],
   "kind": "opener",

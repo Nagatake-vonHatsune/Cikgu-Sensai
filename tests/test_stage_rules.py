@@ -27,6 +27,9 @@ class StageRulesFixtures(unittest.TestCase):
   for case in FIXTURES:
    with self.subTest(case=case['id']):
     v=run_case(self.checker,case)
+    # INTERIM (Stage 2 clean-up, Part 1 only): L-1289 «baiklah» is a word in its own right, so «Baiklah, saya tunggu.» no longer
+    # tests R4. Part 2 changes the fixture's example and deletes this line.
+    if case['id']=='lah-in-answer-key-fails':continue
     if case['expect']=='pass':self.assertEqual(v,{},case['why'])
     else:self.assertTrue(any(e['check']==case['check'] for e in v.values()),f"{case['why']}: {sorted(v)}")
  def test_required_gate_fixtures_present(self):

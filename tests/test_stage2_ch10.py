@@ -36,7 +36,8 @@ def bank():
 def ch10_rows(rows, unit):
     """Core rows the ledger places in the unit (not the recognition row)."""
     return {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-            and re.match(rf'Ch10 \(unit {unit}\)$', r['Kata-Kata place'])}
+            and lid not in katakata_ref.PENDING_NEW_CORE
+            and re.match(rf'Ch10 \(unit {unit}\)(?:;|$)', r['Kata-Kata place'])}
 
 
 def spans(lines):
@@ -92,7 +93,8 @@ class Chapter10(unittest.TestCase):
         # 40 core rows for chapter 10 (plan section 2), the planned 233 + 7 = 240 across Stage 2 (build step 4 refresh).
         self.assertEqual(len(ch10_rows(rows, '10A') | ch10_rows(rows, '10B')), 40)
         stage2 = {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-                  and re.match(r'Ch1[0-7] \(unit \w+\)$', r['Kata-Kata place'])}
+                  and lid not in katakata_ref.PENDING_NEW_CORE
+                  and re.match(r'Ch1[0-7] \(unit \w+\)(?:;|$)', r['Kata-Kata place'])}
         self.assertEqual(len(stage2), 240)
         # The only recognition row is «pindah», the spoken partner of «berpindah».
         rec = [lid for _, ids in ms_c10b.CFG['recognition'] for lid in ids]
@@ -102,7 +104,7 @@ class Chapter10(unittest.TestCase):
         # Every core row carries its Kata-Kata chapter 10 card.
         cards = {c['id'] for c in self.pack['cards']}
         for lid in ms_c10a.CORE + ms_c10b.CORE + ['L-0667']:
-            self.assertIn(rows[lid]['Kata-Kata (card IDs)'], cards, lid)
+            self.assertIn(rows[lid]['Kata-Kata (card IDs)'].split(',')[0].strip(), cards, lid)  # the class card is listed first; a Dunia twin may follow
 
     def test_every_core_word_is_used(self):
         """All 40 chapter 10 core words appear in their unit outside the vocabulary list, and each is tested or practised."""

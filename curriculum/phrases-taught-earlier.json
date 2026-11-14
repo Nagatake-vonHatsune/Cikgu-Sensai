@@ -1,0 +1,11 @@
+{
+  "note": "Cikgu Sensai only (not a shared rules file). A multi-word ledger row placed LATER than the words it is built from, whose phrase an earlier chapter already teaches from a Kata-Kata card. The checker lets the phrase through from `chapter` on instead of reading the later row's place as a forward reference. Added in the Stage 2 clean-up (14 Nov 2026) because L-1303 «minggu depan» (Ch17, Sam's approved backlog word) is already taught at Ch4 (Kata-Kata card ms-c04-019). Kept as a question for Sam in docs/STAGE-2-cleanup-report.md; change the ledger place or delete the entry when Sam decides.",
+  "phrases": [
+    {
+      "form": "minggu depan",
+      "chapter": 4,
+      "ledger_row": "L-1303",
+      "source": "Kata-Kata card ms-c04-019 (minggu depan = next week); ledger L-0167 minggu and L-0173 depan (Ch4)"
+    }
+  ]
+}

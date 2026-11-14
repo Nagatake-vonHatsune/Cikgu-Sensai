@@ -37,7 +37,8 @@ def bank():
 def ch11_rows(rows, unit):
     """Core rows the ledger places in the unit (not the recognition rows)."""
     return {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-            and re.match(rf'Ch11 \(unit {unit}\)$', r['Kata-Kata place'])}
+            and lid not in katakata_ref.PENDING_NEW_CORE
+            and re.match(rf'Ch11 \(unit {unit}\)(?:;|$)', r['Kata-Kata place'])}
 
 
 NAMES = {w.lower() for n in json.loads((ROOT / 'curriculum/malay-proper-nouns.json').read_text())['names'] for w in n.split()}
@@ -100,7 +101,8 @@ class Chapter11(unittest.TestCase):
         # 41 core rows for chapter 11 (plan section 2), 240 across Stage 2 (build step 4 refresh).
         self.assertEqual(len(ch11_rows(rows, '11A') | ch11_rows(rows, '11B')), 41)
         stage2 = {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-                  and re.match(r'Ch1[0-7] \(unit \w+\)$', r['Kata-Kata place'])}
+                  and lid not in katakata_ref.PENDING_NEW_CORE
+                  and re.match(r'Ch1[0-7] \(unit \w+\)(?:;|$)', r['Kata-Kata place'])}
         self.assertEqual(len(stage2), 240)
         # The recognition rows are «tukar» and «deadline», the spoken partners of «menukar» and «tarikh akhir».
         rec = [lid for _, ids in ms_c11b.CFG['recognition'] for lid in ids]
@@ -111,7 +113,7 @@ class Chapter11(unittest.TestCase):
         # Every core row carries its Kata-Kata chapter 11 card.
         cards = {c['id'] for c in self.pack['cards']}
         for lid in ms_c11a.CORE + ms_c11b.CORE + rec:
-            self.assertIn(rows[lid]['Kata-Kata (card IDs)'], cards, lid)
+            self.assertIn(rows[lid]['Kata-Kata (card IDs)'].split(',')[0].strip(), cards, lid)  # the class card is listed first; a Dunia twin may follow
 
     def test_every_core_word_is_used(self):
         """All 41 chapter 11 core words appear in their unit outside the vocabulary list, and each is tested or practised."""

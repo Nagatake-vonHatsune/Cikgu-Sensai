@@ -165,7 +165,7 @@ P = [
         'A: «Tolong semak draf ini.» B: «Baik. Tarikh akhir draf ini bila?»',
         'A: «Tolong semak slaid ini.» B: «Boleh. Saya semak sekarang.»',
         'A: «Tolong semak jumlah ini.» B: «Baik. Saya mengira sekali lagi.»',
-        'A: «Tolong semak borang ini.» B: «Sudah betul. Tolong tanda tangan di sini.»',
+        'A: «Tolong semak borang ini.» B: «Sudah betul. Tolong tandatangan di sini.»',
         'A: «Tolong semak mesej ini dulu.» B: «Boleh. Mesej ini sudah baik.»',
         'A: «Tolong semak emel ini, ya.» B: «Baik. Saya menyemak emel itu petang ini.»'],
      "«Tolong semak» + the thing is the everyday request: «Tolong semak draf ini.» (Please check this draft.) A request takes the plain root, "

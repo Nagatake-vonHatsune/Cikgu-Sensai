@@ -62,7 +62,7 @@ class CatalogueTests(unittest.TestCase):
         # Pinned in docs/step4-sources.json. docs/restructure-sources.json keeps the older Stage 1 baseline (0f78179)
         # as a record only.
         sources=json.loads((ROOT/'docs/step4-sources.json').read_text())
-        self.assertEqual(sources['kata_kata_commit'],'7fbe173')
+        self.assertEqual(sources['kata_kata_commit'],'907946f')
         files=sorted((ROOT/'curriculum/reference/katakata').glob('c*.json'))
         self.assertEqual([p.name for p in files],['c%02d.json'%i for i in range(1,19)])
         for p in files:

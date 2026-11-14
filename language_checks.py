@@ -67,6 +67,8 @@ class Checker:
   # Ledger rows tagged chunk, chunk* or lex are whole words or phrases at their own chapter, like chunk cards.
   self.chunks+=sorted({(t,r['_chapter']) for t,rows in self.entries.items() for r in rows
                        if r['Affix tag'] in ['chunk','chunk*','lex'] and r['_chapter'] is not None and r['Review status']!='Retired'})
+  # Phrases a later ledger row repeats but an earlier chapter already teaches (curriculum/phrases-taught-earlier.json).
+  self.earlier_phrases={norm(p['form']):p['chapter'] for p in read_json(self.root/'curriculum/phrases-taught-earlier.json')['phrases']}
   rules=read_json(self.root/RULES_FILE)
   self.gates={g['family']:g['chapter'] for g in rules['affix_gates']}
   self.disallowed=dict(rules['disallowed_forms'])
@@ -219,7 +221,7 @@ class Checker:
     elif ch is not None:
      taught=[r['_chapter'] for r in rows if r['_chapter'] is not None]
      if not taught:add(violations,s,'ledger',term,'Ledger entry exists but has no chapter assignment.')
-     elif min(taught)>ch:add(violations,s,'ledger',term,f'First assigned chapter {min(taught)}; used in chapter {ch}.')
+     elif min(taught)>ch and not (term in self.earlier_phrases and self.earlier_phrases[term]<=ch):add(violations,s,'ledger',term,f'First assigned chapter {min(taught)}; used in chapter {ch}.')
     i+=size
    # Only vocabulary/pattern/model teaching counts, never rubric or a task.
    if s['kind'] in ['vocabulary','model']:

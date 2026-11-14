@@ -36,7 +36,8 @@ def bank():
 def ch13_rows(rows):
     """Core rows the ledger places in unit 13 (not the recognition rows)."""
     return {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-            and re.match(r'Ch13 \(unit 13\)$', r['Kata-Kata place'])}
+            and lid not in katakata_ref.PENDING_NEW_CORE
+            and re.match(r'Ch13 \(unit 13\)(?:;|$)', r['Kata-Kata place'])}
 
 
 NAMES = {w.lower() for n in json.loads((ROOT / 'curriculum/malay-proper-nouns.json').read_text())['names'] for w in n.split()}
@@ -110,15 +111,16 @@ class Chapter13(unittest.TestCase):
                 self.assertLessEqual(placed_chapter(rows[lid]['Kata-Kata place']), 12, lid)
                 self.assertNotIn(lid, cfg['core'])
         stage2 = {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-                  and re.match(r'Ch1[0-7] \(unit \w+\)$', r['Kata-Kata place'])}
+                  and lid not in katakata_ref.PENDING_NEW_CORE
+                  and re.match(r'Ch1[0-7] \(unit \w+\)(?:;|$)', r['Kata-Kata place'])}
         self.assertEqual(len(stage2), 240)
         # No ledger row carries a recognition place for chapter 13.
         self.assertFalse([lid for lid, r in rows.items() if re.match(r'Ch13 \(unit 13, recognition', r['Kata-Kata place'])])
         self.assertEqual(cfg['recognition'], [])
         cards = {c['id'] for c in self.pack['cards']}
         for lid in ms_c13.CORE:
-            self.assertIn(rows[lid]['Kata-Kata (card IDs)'], cards, lid)
-        self.assertEqual(len(cards), 25)
+            self.assertIn(rows[lid]['Kata-Kata (card IDs)'].split(',')[0].strip(), cards, lid)  # the class card is listed first; a Dunia twin may follow
+        self.assertEqual(len(cards), 29)  # 25 core + 4 new (L-1285 to L-1288)
 
     def test_every_core_word_is_used(self):
         """All 25 chapter 13 core words (including L-1268 «mendaftar») appear outside the vocabulary list."""

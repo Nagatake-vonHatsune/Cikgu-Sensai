@@ -60,11 +60,15 @@ def ledger_only_words():
     for r in csv.DictReader(io.StringIO((ROOT/'curriculum/reference/katakata/malay-ledger.csv').read_text())):
         place=[int(x) for x in re.findall(r'Ch\s*(\d+)',r['Kata-Kata place'])]
         cards=[c.strip() for c in r['Kata-Kata (card IDs)'].split(',') if c.strip()]
-        if not place or min(place)>9 or any(re.match(r'ms-c\d\d-\d+$',c) for c in cards): continue
+        # The six practice-pool rows (L-1304 to L-1309, place "Kata-Kata practice pool (not core); Dunia · Kata biasa (primes Ch18)")
+        # are Dunia cards, not class words: they are in the registry so a unit that uses one (a di- partner such as «disemak»)
+        # can trace it, but they are never core and never counted.
+        pool='practice pool' in r['Kata-Kata place'].lower()
+        if not place or (min(place)>9 and not pool) or any(re.match(r'ms-c\d\d-\d+$',c) for c in cards): continue
         key=(cards or [r['ID']])[0]
         out[key]={'id':key,'ledger_id':r['ID'],'term':r['Malay'],'gloss_en':r['Meaning (EN)'],'gloss_ja':r['Meaning (JA)'],
             'pos':r['POS'],'affix_tag':r['Affix tag'],'chapter':min(place),
-            'status':'Kata-Kata Dunia card' if cards else 'ledger row; Kata-Kata card pending'}
+            'status':'Kata-Kata practice pool (Dunia card, not core)' if pool else 'Kata-Kata Dunia card' if cards else 'ledger row; Kata-Kata card pending'}
     return out
 
 def make_catalogue(lessons, groups):
@@ -102,7 +106,7 @@ def make_catalogue(lessons, groups):
             'recycled_items':{'word_ids':[],'pattern_ids':[], 'status':'not yet selected',
                 'planned_pattern_returns':[{'pattern_id':f['id'],'destinations':([f'ms-c{k:02}' for k in (n+1,n+3,18) if k<=18] if a2 else [f'ms-c{k:02}' for k in (n+1,n+3) if k<=9]+['ms-stage1-review'])} for f in p['frames']]},
             'scene_ids':[f'scene-{level.lower()}-ms-origin-{n:02}'],'kata_kata_set':{'pack_id':p['id'],'sedia_kelas':p['sedia_kelas'],
-                'source_url':f'https://github.com/Nagatake-vonHatsune/katakata/blob/7fbe1732a6d85d421fda8d607c61efb2d0784092/content/ms/kelas/c{n:02}.json'},
+                'source_url':f'https://github.com/Nagatake-vonHatsune/katakata/blob/907946ff2d06e9b8f9c2e11aab346d632e059d4e/content/ms/kelas/c{n:02}.json'},
             'hanashishou_scene_ids':[], 'self_study_hours':{'full':3*len(units),'fast':[9,10],'status':'provisional planning estimate'},
             'review_status':'draft','sequence':'stage2' if a2 else 'stage1','stage_id':'ms-stage2' if a2 else 'ms-stage1',
             'prerequisites':[f'ms-c{k:02}' for k in range(1,n)] if n<=2 else [],

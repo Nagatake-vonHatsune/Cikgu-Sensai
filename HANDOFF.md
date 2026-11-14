@@ -2,6 +2,10 @@
 
 Update this file at the end of every session. The next builder (ChatGPT or Claude) starts here, after the charter and `AGENTS.md`.
 
+## Stage 2 clean-up (14 Nov 2026, Claude; in progress)
+
+Sam authorised the clean-up session (refresh from Kata-Kata, rules fixes, chapter 17 fixes, the approved words back into the units). Started at `5d131e1`. **Part 1 (refresh):** `curriculum/reference/katakata/` c10 to c18 and both ledger copies now come from Kata-Kata **907946f** (step 3e): ledger **1,309 rows**; **Stage 2 core is 271** (56 existing + 215 new, L-1089 to L-1303; chapters 10 = 44, 11 = 45, 12 = 48, 13 = 29, 14 = 29, 15 = 23, 16 = 27, 17 = 26). The six practice-pool rows L-1304 to L-1309 (menyapu, disemak, disimpan, bersukan, hidup, giliran; place "Dunia · Kata biasa (primes Ch18)") are **not core**: keep them out of every core count, coverage test and chapter 18 test key. The tests that recompute the core words from the ledger skip the 31 new rows until Part 5 puts them in (`PENDING_NEW_CORE` in `tests/katakata_ref.py`; Part 5 deletes it). See `docs/STAGE-2-cleanup-report.md` when it exists.
+
 ## PDF font fix (14 Nov 2026, Claude)
 
 Sam's chapter 1 download was unreadable: every downloaded or printed page drew the wrong glyphs, in every build since the first. Cause: `build.py` embedded a fontTools subset of Noto Sans CJK, a CID-keyed CFF font. Subsetting renumbers the glyphs but keeps their old CIDs, while MuPDF writes the new glyph numbers into the page text, so viewers looked up the wrong glyphs. Text extraction still looked right, which is why the checks never caught it. Fix: `build.py` now converts the subset to TrueType outlines (`cff_to_truetype`, saved as `body.ttf`); the glyph number is then the glyph. Same page count (3,335) and fit checks; the font stays small. `tests/test_pdf_fonts.py` fails if the body font is not TrueType or any CFF font in the page bank has CIDs that do not match its glyph numbers. **Look at a rendered page by eye after any font or build change** (render with PyMuPDF `get_pixmap`), not only at extracted text.

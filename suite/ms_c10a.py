@@ -323,7 +323,7 @@ CFG = dict(
                   '(«kerja», «sarapan») in speech, but write the ‹ber-› form on the board.',
                   'Pattern 2: «bermula» for events, «bertolak» for people setting off. Ask the class what «tolak» means on a door before '
                   'you show «bertolak». Contrast «berhenti» (stop) and «berhenti kerja» (quit a job) with «habis kerja» (finish for the day).',
-                  'Pattern 3: «suka» + verb, nothing in between. *bersukan is not in the ledger: say «bersenam» or «bermain» + the sport. '
+                  'Pattern 3: «suka» + verb, nothing in between. ‹bersukan› (to do sport) is a practice-pool word (ledger L-1307, not taught in class): say «bersenam» or «bermain» + the sport. '
                   'Practise the frequency words from chapter 4 with each answer.',
                   'Pattern 4: «dengan» for the person, nothing before the language. Listen for *«berjumpa di» + person and *«bercakap dengan bahasa Melayu».'],
     dialogue=DIALOGUE, variant=VARIANT, gap_turns=(1, 3, 5, 8, 10, 12),
@@ -532,7 +532,7 @@ CFG = dict(
                    '«bertolak», «bermula», «berehat», «berhenti», «bercakap», «berjumpa», «bermain», «bersenam» first; the rest second.',
                    'ber- rule (charter section 5, Sam 13 Nov 2026): no nasal sound changes; ‹be-› before r («berehat», «berenang») and in '
                    '«bekerja»; ‹bel-› only in «belajar» (revision, chapter 2). Every ber- word here is its own ledger row; do not let learners '
-                   'build new ones (*bersukan, *bermesyuarat are not taught). No meN- verb (chapter 11).',
+                   'build new ones (‹bersukan› is a practice-pool word, not taught here; *bermesyuarat is not taught). No meN- verb (chapter 11).',
                    'Common traps from the Kata-Kata cards: «berhenti kerja» means to quit a job (card ms-c10-015); for finishing work for '
                    'the day say «habis kerja». «bertolak» means to set off, not to push (card ms-c10-020): «tolak» alone is the door sign PUSH '
                    'from chapter 9. «bersarapan» is standard; «sarapan» alone is everyday (card ms-c10-013).',
