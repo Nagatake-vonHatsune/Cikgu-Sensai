@@ -15,6 +15,11 @@ Rows and chapters (Stage 2 step 6c-1, Sam and Claude, 14 Nov 2026), now that the
 2. A row with no chapter (and not retired) never serves as the root of a derivation. It makes no form legal and no placed form illegal; in a unit with
    a chapter it counts as no ledger entry (a gap, as before the row existed).
 3. Practice-pool rows («primes Ch18») are placed at 18 by the place column and keep that behaviour.
+
+Extension rows (Kata-Kata ⚡ stretch stage, Sam, 15 Nov 2026; stage-rules.json, format.extension_rows): a row whose place is «ChN (extension)» is
+1. placed at N only for content marked as extension (segment key 'extension', or inspect(segments,extension=True)); Checker(extension=True) is that view;
+2. in core content (every Stage 1 and Stage 2 unit, pack, fast pack and test) no row at all: a gap, like a bridge-only row, never a root, a base or a tag source.
+Everything else is unchanged. Core view: an extension row gets _chapter None (so rule 2 of step 6c-1 applies unchanged); extension view: _chapter N.
 """
 import csv
 import io
@@ -48,6 +53,11 @@ ROOTS=set(RULES['lookalike_roots']['kata_kata_allow_list'].split())|set(RULES['l
 TAG_FAMILY={'ber-':'ber-','meN-':'meN-','-kan':'-kan','-i':'-i','ter-':'ter-','di-':'di-'}
 # Notes in the place column that never place a row ("moved from Ch2", "reviewed in Ch7", ...).
 PLACE_NOTE=re.compile(r'(?:moved from|reviewed in|reused|was|waits for)\s+Ch\s*\d+',re.I)
+def is_extension_place(place):
+ """True when the chapter that places the row is written «ChN (extension)» (a core «ChN» at the same chapter wins)."""
+ if place.strip().lower().startswith('retired'):return False
+ found=[(int(n),bool(e)) for n,e in re.findall(r'Ch\s*(\d+)(\s*\(extension\))?',PLACE_NOTE.sub('',place),re.I)]
+ return bool(found) and min(found,key=lambda x:(x[0],x[1]))[1]
 def placed_chapter(place):
  """Chapter from the ledger place column only; notes and retired rows never place a row."""
  if place.strip().lower().startswith('retired'):return None
@@ -57,11 +67,17 @@ def placed_chapter(place):
 UNPREFIX=[('menge',['']),('meny',['s']),('meng',['','k']),('mem',['','p']),('men',['','t']),('me',['']),('di',['']),('ber',['']),('be',['']),('ter',[''])]
 
 class Checker:
- def __init__(self,root=ROOT):
-  self.root=Path(root);self.entries=defaultdict(list);self.cards={};self.chunks=[]
-  for row in csv.DictReader(io.StringIO((self.root/'curriculum/reference/katakata/malay-ledger.csv').read_text())):
+ def __init__(self,root=ROOT,extension=False,extra_rows=()):
+  """extension=False: the core view (an extension row counts as no row). extension=True: the view for extension content
+  (an extension row is placed at its chapter). extra_rows: ledger-shaped dicts added for a fixture case only."""
+  self.root=Path(root);self.entries=defaultdict(list);self.cards={};self.chunks=[];self.extension=extension;self._ext=None
+  rows=list(csv.DictReader(io.StringIO((self.root/'curriculum/reference/katakata/malay-ledger.csv').read_text())))
+  base={k:'' for k in rows[0]};rows+=[{**base,'Review status':'Draft','Affix tag':'root',**r} for r in extra_rows]
+  for row in rows:
    # Placement is read strictly from the place column (stage-rules.json, "stage_aware_rule").
    row['_chapter']=placed_chapter(row['Kata-Kata place'])
+   row['_extension']=is_extension_place(row['Kata-Kata place'])
+   if row['_extension'] and not extension:row['_chapter']=None
    for form in re.sub(r'\([^)]*\)','',row['Malay']).split('/'):
     if norm(form):self.entries[norm(form)].append(row)
   # Forms with at least one row that has a chapter. Only these can be whole words, roots or bases (rules 1 and 2).
@@ -93,6 +109,14 @@ class Checker:
   self.proper=PROPER|{t for name in names for t in tokens(name)}
   self.maxlen=max(len(t.split()) for t in self.entries)
   self.known=self.placed|set(self.cards)|self.roots
+  self._extra=tuple(extra_rows)
+ def view(self,segment):
+  """The checker view for one segment: the extension view for extension content, the core view otherwise."""
+  if not segment.get('extension'):return self
+  if self._ext is None:self._ext=Checker(self.root,True,self._extra)
+  # Share what a caller may swap on the core view (the mentions list).
+  self._ext.mentions=self.mentions
+  return self._ext
  @staticmethod
  def unplaced(row):
   """A live row with no chapter (a Jambatan or bridge-batch row). Retired rows are not live."""
@@ -162,29 +186,30 @@ class Checker:
   return fam
  def placed_by(self,w,ch):
   return any(r['_chapter'] is not None and r['_chapter']<=ch and r['Review status']!='Retired' for r in self.entries.get(w,[]))
- def inspect(self,segments):
+ def inspect(self,segments,extension=False):
+  """extension=True marks every segment as extension content (a segment may also carry its own 'extension' key). Core content is the default."""
   violations={};gaps={};derived=[];unplaced=set();seen_standard=set();labelled=set()
   def add(dst,s,check,term,reason):
    k=key(s['unit'],check,term)
    entry=dst.setdefault(k,{'unit':s['unit'],'check':check,'term':term,'reasons':[], 'evidence':[]})
    if reason not in entry['reasons']:entry['reasons'].append(reason)
    ev={'source':s['source'],'text':s['text']}
-   if ev not in entry['evidence']:entry['evidence'].append(ev)
   for s in segments:
+   ck=self.view({**s,'extension':s.get('extension',extension)})
    text=norm(s['text']);ts=tokens(s['text']);ch=s['chapter'];seq=s['unit'] if ch is None else 'stage'
    if ch is None:unplaced.add(s['unit'])
    # Disallowed (Indonesian) forms, as whole words and inside hyphenated words. A ‹…› mention may quote
    # one only as a "do not use" note listed with its source in malay-mentions.json.
    parts=set(ts)|{p for t in ts for p in t.split('-')}
-   note=s['kind']=='mention' and 'do not use' in self.mentions.get(text,'').lower()
-   for bad,good in self.disallowed.items():
+   note=s['kind']=='mention' and 'do not use' in ck.mentions.get(text,'').lower()
+   for bad,good in ck.disallowed.items():
     # A form of two words («tanda tangan») is matched as the two words in that order, not as its parts.
     found=bad in parts or (' ' in bad and re.search(r'(?<![\w-])'+re.escape(bad)+r'(?![\w-])',text))
     if found and not note:add(violations,s,'malaysian-form',bad,'Disallowed (Indonesian) form; use '+good)
    # A mention (root or standard form quoted from a Kata-Kata note) is not taught
    # vocabulary: only the Malaysian-form check applies; its allow-list is checked by the suite builder.
    if s['kind']=='mention':continue
-   for spoken,standard,first in self.pairs:
+   for spoken,standard,first in ck.pairs:
     if ch is not None and ch<first:continue
     if re.search(r'(?<!\w)'+re.escape(spoken)+r'(?!\w)',text):
      if (seq,standard) not in seen_standard:add(violations,s,'register',spoken,'Standard '+standard+' has no earlier target-language teaching occurrence.')
@@ -192,54 +217,54 @@ class Checker:
    # R4: «lah» and «kan» are recognition and optional production, so no answer key may require them.
    if s['kind']=='test' and s['source'].endswith('|answer_key'):
     for w in ts:
-     for particle in self.particles:
-      if w==particle or (particle=='lah' and w.endswith('lah') and w not in self.placed and w not in self.not_particle and w[:-3] in self.known):
+     for particle in ck.particles:
+      if w==particle or (particle=='lah' and w.endswith('lah') and w not in ck.placed and w not in ck.not_particle and w[:-3] in ck.known):
        add(violations,s,'register',particle,'Particle «'+particle+'» is optional production (R4); a test answer key must not require it.')
    # Do not turn a phrase exemption into a global exemption for its individual words.
-   exempt=set();g=self.gates
-   for phrase,first in self.chunks+self.whole_words:
+   exempt=set();g=ck.gates
+   for phrase,first in ck.chunks+ck.whole_words:
     if ch is not None and first<=ch and re.search(r'(?<!\w)'+re.escape(phrase)+r'(?!\w)',text):exempt.update(tokens(phrase))
-   for w in set(ts)-self.proper:
+   for w in set(ts)-ck.proper:
     if ch is not None and w not in exempt:
      early=[]
      if ch<g['ke- ordinal'] and w.startswith('ke') and w[2:] in NUMBERS:early.append(f"ke- ordinal before chapter {g['ke- ordinal']}")
-     if ch<g['-nya'] and w.endswith('nya') and (w[:-3] in self.placed or (w=='ceritanya' and 'cerita' not in self.entries)):early.append(f"-nya before chapter {g['-nya']}")
-     if ch<g['-kah'] and w.endswith('kah') and w[:-3] in self.placed:early.append(f"-kah before chapter {g['-kah']}")
-     if ch<g['di-'] and w.startswith('di') and w[2:] in self.placed and any(c['pos']=='v' for c in self.cards.get(w[2:],[])):early.append(f"di- passive before chapter {g['di-']}")
-     if ch<g['ter- superlative'] and w.startswith('ter') and any(c['pos']=='adj' for c in self.cards.get(w[3:],[])):early.append(f"ter- superlative before chapter {g['ter- superlative']}")
+     if ch<g['-nya'] and w.endswith('nya') and (w[:-3] in ck.placed or (w=='ceritanya' and 'cerita' not in ck.entries)):early.append(f"-nya before chapter {g['-nya']}")
+     if ch<g['-kah'] and w.endswith('kah') and w[:-3] in ck.placed:early.append(f"-kah before chapter {g['-kah']}")
+     if ch<g['di-'] and w.startswith('di') and w[2:] in ck.placed and any(c['pos']=='v' for c in ck.cards.get(w[2:],[])):early.append(f"di- passive before chapter {g['di-']}")
+     if ch<g['ter- superlative'] and w.startswith('ter') and any(c['pos']=='adj' for c in ck.cards.get(w[3:],[])):early.append(f"ter- superlative before chapter {g['ter- superlative']}")
      for reason in early:add(violations,s,'affix',w,reason)
-    derived_form=self.derivation(w,ch)
+    derived_form=ck.derivation(w,ch)
     affix_base=derived_form[0] if derived_form else w
-    if affix_base not in self.roots and affix_base not in exempt:
+    if affix_base not in ck.roots and affix_base not in exempt:
      if ch is not None and ch<g['ber-'] and (affix_base.startswith('ber') or re.match(r'^be[kl]',affix_base)):add(violations,s,'affix',w,f"ber-/be- shaped form before chapter {g['ber-']}; no taught chunk or root exemption.")
      if ch is not None and ch<g['meN-'] and re.match(r'^me[^aeiou\W]',affix_base):add(violations,s,'affix',w,f"me- shaped form before chapter {g['meN-']}; no taught chunk or root exemption.")
     # Stage-aware rule (stage-rules.json): every gate of the word's families is open, and the form's own
     # ledger row (or, for a Stage 1 derivation, its base's row) is placed at or before this chapter.
     if ch is not None and w not in exempt and affix_base not in exempt:
-     fam=self.families(affix_base,ch)
+     fam=ck.families(affix_base,ch)
      for f in sorted(fam):
       if ch<g[f]:add(violations,s,'affix',w,f'{f} form before chapter {g[f]}.')
-     if fam and all(ch>=g[f] for f in fam) and not (self.placed_by(w,ch) or (derived_form and self.placed_by(affix_base,ch))):
+     if fam and all(ch>=g[f] for f in fam) and not (ck.placed_by(w,ch) or (derived_form and ck.placed_by(affix_base,ch))):
       add(violations,s,'affix',w,f'{"/".join(sorted(fam))} form has no ledger row placed at or before chapter {ch}.')
    i=0
    while i<len(ts):
-    if ts[i] in self.proper:i+=1;continue
+    if ts[i] in ck.proper:i+=1;continue
     matched=None
-    for size in range(min(self.maxlen,len(ts)-i),0,-1):
+    for size in range(min(ck.maxlen,len(ts)-i),0,-1):
      term=' '.join(ts[i:i+size])
      # An unplaced multi-word row (e.g. a Hanashishou phrase "encik pula") does not
      # override placed single words it is built from; match the words instead.
      # In a unit with a chapter an unplaced multi-word row is not an entry either (rule 2): its words are checked one by one.
-     if term in self.entries and size>1 and (self.compositional(term,ts[i:i+size]) or not self.rows_for(term,ch)):continue
-     if term in self.entries:matched=(term,size);break
+     if term in ck.entries and size>1 and (ck.compositional(term,ts[i:i+size]) or not ck.rows_for(term,ch)):continue
+     if term in ck.entries:matched=(term,size);break
     term,size=matched if matched else (ts[i],1)
-    deriv=self.derivation(term,ch) if size==1 else None
+    deriv=ck.derivation(term,ch) if size==1 else None
     # A regular derivation may be absent as a surface form, but its base still
     # needs ledger coverage and chapter placement.
     if deriv:
      base,rule=deriv;derived.append({'unit':s['unit'],'term':term,'base':base,'rule':rule})
      term=base
-    rows=self.rows_for(term,ch)
+    rows=ck.rows_for(term,ch)
     if not rows:add(gaps,s,'ledger gap',term,'No exact ledger entry for this term/base; not a lesson violation.')
     elif ch is not None:
      taught=[r['_chapter'] for r in rows if r['_chapter'] is not None]
@@ -248,7 +273,7 @@ class Checker:
     i+=size
    # Only vocabulary/pattern/model teaching counts, never rubric or a task.
    if s['kind'] in ['vocabulary','model']:
-    for spoken,standard,first in self.pairs:
+    for spoken,standard,first in ck.pairs:
      if re.search(r'(?<!\w)'+re.escape(standard)+r'(?!\w)',text):seen_standard.add((seq,standard))
      if spoken in text and re.search(r'\bspoken\b',s.get('source_text',''),re.I):labelled.add((seq,spoken))
   return {'violations':violations,'ledger_gaps':gaps,'derivations':list({json.dumps(x,sort_keys=True):x for x in derived}.values()),'unplaced_units':sorted(unplaced)}

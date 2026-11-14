@@ -13,7 +13,9 @@ def run_case(checker,case):
   ch=s['chapter'];kind=s.get('kind','model')
   source=f'test:{case["id"]}-{i}|{s["field"]}' if kind=='test' else f'fixture|{i}'
   if kind=='mention':mentions[' '.join(re.findall(r"[a-z]+(?:[-'][a-z]+)*",s['text'].lower()))]=s['mention_source']
-  segments.append({'unit':s.get('unit',f'fixture-c{ch:02}'),'chapter':ch,'source':source,'text':s['text'],'source_text':s.get('source_text',s['text']),'kind':kind})
+  segments.append({'unit':s.get('unit',f'fixture-c{ch:02}'),'chapter':ch,'source':source,'text':s['text'],'source_text':s.get('source_text',s['text']),'kind':kind,'extension':s.get('extension',False)})
+ # Optional (extension rows): ledger_rows are added to the ledger for this case only.
+ if case.get('ledger_rows'):checker=Checker(extra_rows=case['ledger_rows'])
  saved=checker.mentions;checker.mentions=mentions
  try:return checker.inspect(segments)
  finally:checker.mentions=saved
@@ -23,7 +25,7 @@ class StageRulesFixtures(unittest.TestCase):
  def setUpClass(cls):cls.checker=Checker()
  def test_shared_fixtures(self):
   self.assertGreaterEqual(len(FIXTURES),60)
-  self.assertEqual(len(FIXTURES),95)  # 77 at step 4a, 81 after the clean-up, 95 after step 6c-1 (14 cases on rows with no chapter)
+  self.assertEqual(len(FIXTURES),104)  # 77 at step 4a, 81 after the clean-up, 95 after step 6c-1 (14 cases on rows with no chapter), 104 with the extension rows (9 cases)
   for case in FIXTURES:
    with self.subTest(case=case['id']):
     result=run_case(self.checker,case);v=result['violations']
@@ -117,3 +119,42 @@ class JoinedLah(unittest.TestCase):
   self.assertTrue(any(g['term']=='xyzlah' for g in r['ledger_gaps'].values()))
 
 if __name__=='__main__':unittest.main()
+
+
+class ExtensionRows(unittest.TestCase):
+ """Rows placed «ChN (extension)» (Sam, 15 Nov 2026): placed at N only for extension content; no row in core content."""
+ ROWS=[{'ID':'X-1','Malay':'pertandingan','Kata-Kata place':'Ch6 (extension)','POS':'n'},
+       {'ID':'X-2','Malay':'tanding','Kata-Kata place':'Ch4 (extension)','POS':'v'}]
+ def seg(self,text,ch,**k):return {'unit':f'u{ch}','chapter':ch,'source':'x','source_text':text,'kind':'model','text':text,**k}
+ def test_parser_reads_the_mark_not_the_chapter(self):
+  from language_checks import is_extension_place
+  self.assertEqual(placed_chapter('Ch4 (extension)'),4)
+  self.assertTrue(is_extension_place('Ch4 (extension)'))
+  self.assertFalse(is_extension_place('Ch4'))
+  self.assertFalse(is_extension_place('Ch12 (unit 12A); Jambatan · Daily life'))
+  self.assertFalse(is_extension_place('Retired: was Ch4 (extension)'))
+  self.assertFalse(is_extension_place('Ch4; Ch4 (extension)'))  # a core Ch4 at the same chapter wins
+  self.assertTrue(is_extension_place('Ch4 (extension); Ch9'))
+ def test_flag_on_the_api(self):
+  c=Checker(extra_rows=self.ROWS)
+  core=c.inspect([self.seg('pertandingan',8)])
+  self.assertEqual(core['violations'],{});self.assertEqual({e['term'] for e in core['ledger_gaps'].values()},{'pertandingan'})
+  ext=c.inspect([self.seg('pertandingan',8)],extension=True)
+  self.assertEqual(ext['violations'],{});self.assertEqual(ext['ledger_gaps'],{})
+  early=c.inspect([self.seg('pertandingan',5)],extension=True)
+  self.assertTrue(any(e['check']=='ledger' for e in early['violations'].values()))
+ def test_one_call_can_mix_core_and_extension_segments(self):
+  c=Checker(extra_rows=self.ROWS)
+  r=c.inspect([self.seg('pertandingan',8,extension=True),self.seg('pertandingan',9)])
+  self.assertEqual(r['violations'],{});self.assertEqual({e['unit'] for e in r['ledger_gaps'].values()},{'u9'})
+ def test_extension_row_is_not_placed_or_a_root_in_the_core_view(self):
+  c=Checker(extra_rows=self.ROWS)
+  self.assertNotIn('pertandingan',c.placed);self.assertNotIn('tanding',c.known)
+  self.assertFalse(c.placed_by('pertandingan',18));self.assertIsNone(c.derivation('tandingnya',5))
+  e=Checker(extra_rows=self.ROWS,extension=True)
+  self.assertIn('tanding',e.placed);self.assertEqual(e.derivation('tandingnya',5)[0],'tanding')
+ def test_plain_view_ledger_has_no_extension_rows_yet(self):
+  self.assertEqual([r['ID'] for rows in Checker().entries.values() for r in rows if r['_extension']],[])
+ def test_mention_overrides_reach_the_extension_view(self):
+  c=Checker(extra_rows=self.ROWS);c.mentions={'nomor':'do not use: nomor'}
+  self.assertIs(c.view({'extension':True}).mentions,c.mentions)
