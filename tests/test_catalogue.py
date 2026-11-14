@@ -73,13 +73,13 @@ class CatalogueTests(unittest.TestCase):
         import csv, io
         self.assertEqual(list(csv.reader(io.StringIO(ledger.read_text()))),list(csv.reader(io.StringIO((ROOT/'docs/handoff/ledger-snapshot.csv').read_text()))))
     def test_structure(self):
-        # Stage 1: 9 chapters, 13 units; Stage 2 build step 4 adds chapter 10 (units 10A and 10B) chapter 11 (units 11A and 11B) and chapter 12 (units 12A and 12B) and chapter 13 (unit 13) and chapter 14 (unit 14) and chapter 15 (unit 15) and chapter 16 (unit 16) and chapter 17 (unit 17).
-        d=self.data;self.assertEqual(len(d['chapters']),17)
-        self.assertEqual(sum(len(c['units']) for c in d['chapters']),24)
-        self.assertEqual(sum(len(c['block_plan']) for c in d['chapters']),120)
-        self.assertEqual(len(d['component_slots']),264)
-        self.assertEqual([c['level'] for c in d['chapters']],['A1']*9+['A2']*8)
-        self.assertEqual([c['stage_id'] for c in d['chapters']],['ms-stage1']*9+['ms-stage2']*8)
+        # Stage 1: 9 chapters, 13 units; Stage 2 build step 4 adds chapter 10 (units 10A and 10B) chapter 11 (units 11A and 11B) and chapter 12 (units 12A and 12B) and chapter 13 (unit 13) and chapter 14 (unit 14) and chapter 15 (unit 15) and chapter 16 (unit 16) and chapter 17 (unit 17); build step 5 adds chapter 18 (unit 18: blocks 18A to 18E, the A2 stage test listed with it).
+        d=self.data;self.assertEqual(len(d['chapters']),18)
+        self.assertEqual(sum(len(c['units']) for c in d['chapters']),25)
+        self.assertEqual(sum(len(c['block_plan']) for c in d['chapters']),125)
+        self.assertEqual(len(d['component_slots']),275)
+        self.assertEqual([c['level'] for c in d['chapters']],['A1']*9+['A2']*9)
+        self.assertEqual([c['stage_id'] for c in d['chapters']],['ms-stage1']*9+['ms-stage2']*9)
         self.assertEqual(len({c['id'] for c in d['components']}),len(d['components']))
         for c in d['chapters']:
             for b in c['block_plan']:self.assertEqual(sum(a['minutes'] for a in b['activities']),45)

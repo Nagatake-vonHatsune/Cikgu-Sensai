@@ -40,5 +40,8 @@
   "ms-c16",
   "ms-c16-fast",
   "ms-c17",
-  "ms-c17-fast"
+  "ms-c17-fast",
+  "ms-c18",
+  "ms-c18-fast",
+  "ms-stage2"
 ]

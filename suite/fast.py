@@ -1379,3 +1379,95 @@ STAGE2_PACKS.append(dict(
     course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 17)], prerequisite_units=[],
     prereq_grammar=['ms-c16-g02', 'ms-c15-g05', 'ms-c14-g02', 'ms-c05-g04'],
     word_scope=C17_WORDS, components=chapter17))
+
+
+# Chapter 18 (plan section 1, "Fast course"): 20 review words recycled from chapters 10 to 17 (no new word), the six Kata-Kata
+# c18 frames, one conversation from the c18 working week, a review task and a pointer to the full A2 stage test. The pack is
+# not the test. No practice-pool word (L-1304 to L-1309) and no recognition-only word is in it.
+C18_WORDS = ['L-1106', 'L-1110', 'L-0819', 'L-1136', 'L-0849', 'L-1158', 'L-1175', 'L-0651', 'L-0652', 'L-1268',
+             'L-1186', 'L-1200', 'L-1269', 'L-1202', 'L-1219', 'L-1272', 'L-0619', 'L-0644', 'L-0828', 'L-1261']
+
+
+def chapter18(ledger):
+    dialogue = [
+        ('Tanaka', '«Selamat pagi, Cik Mei Ling. Selamat datang! Saya berasal dari Osaka dan bekerja di Kuala Lumpur sejak tahun lepas.»'),
+        ('Mei Ling', '«Terima kasih, Encik Tanaka. Saya baru bekerja di sini. Saya tinggal berdua dengan kakak saya.»'),
+        ('Tanaka', '«Hari ini cik akan membaca emel ini dan menyemak draf itu. Tarikh akhir hari Jumaat.»'),
+        ('Mei Ling', '«Baik. Siapa yang menulis draf itu?»'),
+        ('Tanaka', '«Encik Rahman yang menulis draf itu. Dia akan menghantar fail itu petang ini.»'),
+        ('Mei Ling', '«Encik Tanaka, ada kebocoran di siling bilik mesyuarat.»'),
+        ('Tanaka', '«Tolong hubungi pejabat pengurusan. Juruteknik akan melihat siling itu.»'),
+        ('Mei Ling', '«Baik. Saya hubungi mereka sekarang.»'),
+        ('Aini', '«Cik Mei Ling, ini jemputan makan malam. Hari Sabtu, pukul tujuh. Bos belanja.»'),
+        ('Mei Ling', '«Terima kasih, Puan Aini. Sayangnya hari Sabtu saya tidak lapang.»'),
+        ('Aini', '«Tidak mengapa. Bagaimana kalau hari Ahad?»'),
+        ('Mei Ling', '«Boleh. Hari Ahad saya lapang.»'),
+    ]
+    return [dict(
+        slug='pack', type='Fast-course pack', title='Fast-course summary pack',
+        block='Fast', minutes=45, course_path='fast',
+        grammar=[f'ms-c{n:02}-g01' for n in range(10, 19)],
+        patterns=['ms-c18-f01', 'ms-c18-f02', 'ms-c18-f03', 'ms-c18-f04', 'ms-c18-f05', 'ms-c18-f06'],
+        goal='Use the language of chapters 10 to 17 together in one working week, and get ready for the A2 stage test.',
+        explain=('第18章速習：45分で第10〜17章の復習語20語、Kata-Kata c18 の六つの文型、「ある一週間」の会話、復習タスクを練習します。'
+                 'このパックはテストではありません。第2段階を終えるには A2 段階テスト（18C・18D）を受けます。日本語は未監修です。',
+                 'Chapter 18 in one 45-minute session: 20 review words from chapters 10 to 17 (no new word), the six Kata-Kata c18 frames, '
+                 'a conversation from the working week and a review task. The pack is not the test: to complete Stage 2, sit the A2 '
+                 'stage test (blocks 18C and 18D). All names and details are fictional.'),
+        sections=[
+            ('Can-do goals · できること', [
+                'I can tell a new colleague my background and give the day\'s tasks with a deadline. / 新しい同僚に自分の背景を話し、締め切りのある一日の仕事を伝えられる。',
+                'I can ask someone to do something about a parcel or a leak. / 荷物や水漏れについて、何かをしてくれるよう頼める。',
+                'I can say what I need, what is not done yet, and what happened by accident. / 必要なこと、まだのこと、うっかり起きたことを言える。',
+                'I can answer an invitation: decline kindly with a reason, or accept another day. / 招待に答えられる：理由を言ってやさしく断るか、別の日を受ける。'], 'opener'),
+            ('Review words · 復習の20語', core(ledger, C18_WORDS) +
+             ['No new word in chapter 18: these are core words of chapters 10 to 17 (two or more from each chapter).'], 'vocabulary'),
+            ('Key patterns · 文型', [
+                '1 · «Setiap pagi saya» ___ «pukul» ___ «, kemudian saya» ___ «emel.»  e.g. «Setiap pagi saya bertolak pukul tujuh, kemudian saya membaca emel.» / «Setiap pagi saya bersarapan pukul tujuh, kemudian saya menulis emel.»',
+                '2 · «Tolong» ___ «bungkusan itu di pondok pengawal.»  e.g. «Tolong simpankan bungkusan itu di pondok pengawal.» / «Tolong tinggalkan bungkusan itu di pondok pengawal.»',
+                '3 · «Saya belum» ___ «, tetapi saya mesti» ___ «.»  e.g. «Saya belum mendaftar, tetapi saya mesti berjumpa doktor.» / «Saya belum makan, tetapi saya mesti pergi sekarang.»',
+                '4 · «Hari Sabtu saya tidak lapang, jadi bolehkah kita» ___ «ke hari Ahad?»  e.g. «Hari Sabtu saya tidak lapang, jadi bolehkah kita tangguhkan ke hari Ahad?» / «Hari Sabtu saya tidak lapang, jadi bolehkah kita tangguhkan rancangan itu ke hari Ahad?»',
+                '5 · «Saya mencari» ___ «yang» ___ «. / Maaf, saya» ___ «. Tidak mengapa,» ___ «.»  e.g. «Saya mencari dompet yang ada zip.» / «Maaf, saya terlupa. Tidak mengapa, lain kali, ya?»',
+                'Remember: «Tolong» + the ‹-kan› form for a request; a statement about someone takes the meN- verb («Pengawal menyimpan bungkusan itu.»). '
+                '«tangguhkan» takes a noun («rancangan itu»); a short spoken reply may drop it. «Lain kali, ya?» is a soft no: not after you offer a new day.',
+                '依頼は «Tolong» ＋ ‹-kan› の形、人についての文は meN- の動詞（«Pengawal menyimpan bungkusan itu.»）。«tangguhkan» は名詞を目的語にとります'
+                '（«rancangan itu»）。短い話し言葉の返事では省けます。«Lain kali, ya?» はやわらかい断りで、新しい日を提案したあとには使いません。'], 'model'),
+            ('Model conversation · 会話 (fictional, Kata-Kata c18)', turns(dialogue), 'model'),
+            ('Task · タスク', [
+                'A: You are a new colleague on your first day. Introduce yourself, ask who wrote the draft you must check, and report a leak in the meeting room.',
+                'B: You are «Encik» Tanaka. Answer, give the deadline, ask A to contact the management office, then invite A to dinner on Saturday.',
+                'Change of plan: A is not free on Saturday and declines with «Sayangnya …». B offers Sunday with «Bagaimana kalau …?»; A accepts.',
+                'A：初日の新しい同僚です。自己紹介し、確認する下書きを誰が書いたかたずね、会議室の水漏れを報告します。B：田中さんです。答えて締め切りを伝え、'
+                '管理事務所に連絡するようAに頼み、土曜日の夕食に誘います。変更：Aは土曜日は空いておらず «Sayangnya …» で断ります。Bは «Bagaimana kalau …?» で日曜日を提案し、Aは受けます。'], 'task'),
+            ('Self-check · できるチェック', [
+                '☐ 1. Say "Every morning I set off at seven, then I read my email.": ____________________',
+                '☐ 2. Say "Please keep that parcel at the guardhouse.": ____________________',
+                '☐ 3. Say "I haven\'t registered yet, but I must see a doctor.": ____________________',
+                '☐ 4. Say "I left my phone at home.": ____________________',
+                '☐ 5. Decline kindly: "Unfortunately I am not free on Saturday.": ____________________'], 'test'),
+            ('Self-study guide and the A2 stage test · 自習ガイドと A2 段階テスト', [
+                'Before the session: Kata-Kata Sedia Kelas c18 (20 review cards from chapters 10 to 17, frames ms-c18-f01 and ms-c18-f02).',
+                'After the session: the Kata-Kata c18 frames ms-c18-f01 to ms-c18-f06 in the frame drill and Susun Ayat, and the scenario '
+                '"A working week" (ms-c18-s01 to s22); then the chapter sets of the words you missed in the self-check.',
+                'This pack is not the test. To complete Stage 2, sit the A2 stage test with the full course: the written check (block 18C: '
+                'listening 12, reading 15, writing 18 minutes) and speaking (block 18D, about 7 minutes). The teacher has the '
+                'administration sheet.',
+                'Hanashishou band 1 scenes are named in block 18E; they get chapter tags in build step 6, so none is assigned yet.',
+                'Expected self-study: about 9 to 10 hours for this chapter (planning figure).',
+                '授業後：c18 の文型と「ある一週間」を復習し、間違えた語の章のセットに戻りましょう。このパックはテストではありません。自習の目安は約9〜10時間です。'], 'opener')],
+        key=['Self-check: 1 «Setiap pagi saya bertolak pukul tujuh, kemudian saya membaca emel.» 2 «Tolong simpankan bungkusan itu di pondok pengawal.» '
+             '3 «Saya belum mendaftar, tetapi saya mesti berjumpa doktor.» 4 «Telefon saya tertinggal di rumah.» (or «Saya tertinggal telefon di rumah.») '
+             '5 «Sayangnya hari Sabtu saya tidak lapang.» (a reason or «Lain kali, ya?» may follow)',
+             'Session plan (45 min): 0–5 recall one line from each of chapters 10 to 17; 5–15 review words; 15–25 patterns 1 to 5; '
+             '25–35 model conversation in pairs; 35–45 task with the change of plan, then the self-check.',
+             'The conversation is Kata-Kata c18 lines s01 to s08 and s17 to s20, word for word. Same ledger limits as unit 18: words of '
+             'chapters 1 to 17 only. All Japanese is a draft awaiting native review.'])]
+
+
+STAGE2_PACKS.append(dict(
+    chapter_id='ms-c18', check_unit='ms-c18-fast', id_prefix='ms-c18-fast', level='A2',
+    title_prefix='Chapter 18', header='Chapter 18 fast course (ms-c18)',
+    menu_title='Chapter 18 · Stage 2 review and A2 check', genre='Review',
+    course_path='fast', prerequisites=[f'ms-c{k:02}' for k in range(1, 18)], prerequisite_units=[],
+    prereq_grammar=[f'ms-c{k:02}-g01' for k in range(10, 18)],
+    word_scope=C18_WORDS, components=chapter18))

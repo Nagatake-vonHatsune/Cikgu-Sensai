@@ -407,10 +407,10 @@ def turns(script):
 
 def load_units():
     from . import ms_c01, ms_c02a, ms_c02b, ms_c03a, ms_c03b, ms_c03c, ms_c04a, ms_c04b, ms_c05, ms_c06, ms_c07, ms_c08, ms_c09, fast, stage1
-    from . import ms_c10a, ms_c10b, ms_c11a, ms_c11b, ms_c12a, ms_c12b, ms_c13, ms_c14, ms_c15, ms_c16, ms_c17
+    from . import ms_c10a, ms_c10b, ms_c11a, ms_c11b, ms_c12a, ms_c12b, ms_c13, ms_c14, ms_c15, ms_c16, ms_c17, ms_c18, stage2
     return [u for u in [ms_c01.UNIT, ms_c02a.UNIT, ms_c02b.UNIT,
                        ms_c03a.UNIT, ms_c03b.UNIT, ms_c03c.UNIT, ms_c04a.UNIT, ms_c04b.UNIT, ms_c05.UNIT, ms_c06.UNIT, ms_c07.UNIT, ms_c08.UNIT, ms_c09.UNIT,
-                       *fast.PACKS, stage1.UNIT, ms_c10a.UNIT, ms_c10b.UNIT, ms_c11a.UNIT, ms_c11b.UNIT, ms_c12a.UNIT, ms_c12b.UNIT, ms_c13.UNIT, ms_c14.UNIT, ms_c15.UNIT, ms_c16.UNIT, ms_c17.UNIT, *fast.STAGE2_PACKS] if u]
+                       *fast.PACKS, stage1.UNIT, ms_c10a.UNIT, ms_c10b.UNIT, ms_c11a.UNIT, ms_c11b.UNIT, ms_c12a.UNIT, ms_c12b.UNIT, ms_c13.UNIT, ms_c14.UNIT, ms_c15.UNIT, ms_c16.UNIT, ms_c17.UNIT, *fast.STAGE2_PACKS, ms_c18.UNIT, stage2.UNIT] if u]
 
 
 SKILLS = {'Opener': ['speaking'], 'Vocabulary': ['vocabulary'], 'Pattern and grammar': ['grammar'],
@@ -595,7 +595,7 @@ def component_words(lesson, ledger, units):
     rows = list({r['ID']: r for r in found}.values())
     meta = lesson['suite']
     chapter = int(meta['chapter_id'][-2:])
-    earlier_units = {lid for u in units if u.get('unit_id') in meta['prerequisite_units'] for lid in u.get('word_scope', [])}
+    earlier_units = {lid for u in units if u.get('unit_id') in meta['prerequisite_units'] for lid in (u.get('word_scope') or [])}
     def placed(r):
         return min([int(x) for x in re.findall(r'Ch\s*(\d+)', r['Kata-Kata place'])] or [99])
     meta['word_ids'] = list(dict.fromkeys(ledger.word_id(r) for r in rows))

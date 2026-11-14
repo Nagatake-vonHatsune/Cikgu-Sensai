@@ -17,7 +17,7 @@ GENRES = {'Social encounters':'Social life','Transactions':'Shopping and money',
           'Housing':'Home','Work':'Work and study','Study':'Work and study','Governance':'Work and study','Campus services':'Work and study'}
 FOCUS = ['Greetings and titles','Pronouns, pe-, -an, -kah and questions','Numbers, money, ke- and ke-an',
          'Time, frequency and aspect','Adjectives, Bagaimana and yang','Comparatives and superlatives',
-         'Location and direction','Counters','Passive di-','ber- verbs','meN- verbs','-kan and -i verbs','belum, permission, need and advice','Reasons, conditions, purpose, contrast and sequence','Describing with yang, colour, shape and likeness','Accidents with ter-, apologies and incident reports','Standard and spoken Malay, lah and kan, invitations and polite refusals']
+         'Location and direction','Counters','Passive di-','ber- verbs','meN- verbs','-kan and -i verbs','belum, permission, need and advice','Reasons, conditions, purpose, contrast and sequence','Describing with yang, colour, shape and likeness','Accidents with ter-, apologies and incident reports','Standard and spoken Malay, lah and kan, invitations and polite refusals','Stage 2 review: every chapter 10 to 17 pattern, and the A2 check']
 GOALS = ['Greet by time of day, use titles, ask after someone, take leave',
          'Introduce yourself (name, origin, work, home, hobby) and ask the same of others',
          'Ask and pay a price, check change, give age and phone number, say which one in a sequence',
@@ -33,7 +33,8 @@ GOALS = ['Greet by time of day, use titles, ask after someone, take leave',
          'Give a reason, a condition, a purpose and a contrast, put a plan in order, and put off or cancel a plan with a reason',
          'Say that something is lost, describe a thing or a person with yang, colour, shape and what they wear, and say which one',
          'Say what happened by accident with ter-, apologise for a small slip, report a locked door, a spill or a minor fall in plain facts, and keep ter- (the most) apart from ter- (by accident)',
-         'Understand and use the taught spoken forms with friends and colleagues, write the standard forms, recognise lah and kan, and invite, accept or decline politely with a reason or another time']
+         'Understand and use the taught spoken forms with friends and colleagues, write the standard forms, recognise lah and kan, and invite, accept or decline politely with a reason or another time',
+         'Complete the integrated daily-life, office, home, health and social tasks of Stage 2, see what to practise next, and start a Hanashishou band 1 scene']
 STAGE1_CHAPTERS = 9   # chapters 1 to 9: Stage 1 (A1); from chapter 10: Stage 2 (A2)
 CHAPTERS_BUILT = len(GOALS)  # chapters with a Kata-Kata pack and a catalogue record (10 since Stage 2 build step 4, 11 since chapter 11)
 BLOCKS = [
@@ -42,6 +43,13 @@ BLOCKS = [
  ('C', [('Recall',5),('Listening',15),('Reading or writing',10),('Independent task and change of plan',15)]),
  ('D', [('Mixed review',15),('Chapter test',10),('Self-check and feedback',10),('Next Kata-Kata set preview',10)]),
  ('E', [('Recall',5),('Dunia scene listening',10),('Role-play',15),('Free variation',10),('Hanashishou link where available',5)])]
+# Chapter 18 (plan section 1): five blocks of review, rehearsal, the A2 written check, speaking and feedback.
+BLOCKS_18 = [
+ ('A', [('Recall',5),('Model: the Kata-Kata c18 working week',10),('Pattern round: every chapter 10 to 17 frame',15),('Reading',10),('Self-check',5)]),
+ ('B', [('Recall',5),("A new colleague's day",10),('The parcel problem',10),('The changed invitation',10),('Targeted repair',10)]),
+ ('C', [('A2 test: listening',12),('A2 test: reading',15),('A2 test: writing',18)]),
+ ('D', [('A2 test: speaking, about 7 minutes per learner (six learners)',45)]),
+ ('E', [('Results and feedback',10),('Can-do review',15),('Hanashishou band 1 demonstration',10),('Personal practice plan',10)])]
 SKILLS = {'Vocabulary':['vocabulary'],'Pattern and grammar':['grammar'],'Drill':['grammar','speaking'],
           'Model conversation':['speaking','reading'],'Reading and writing':['reading','writing'],
           'Task':['speaking'],'Teaching plan':[],'Opener':[],'Listening':['listening'],'Culture note':['reading'],'Test':[]}
@@ -99,12 +107,12 @@ def make_catalogue(lessons, groups):
         blocks=[{'id':f'{u["id"]}-b{i}','unit_id':u['id'],'label':label,'minutes':45,
                  'can_do_goal':authored[u['id']]['blocks'][label] if u['id'] in authored else None,
                  'goal_status':'authored draft' if u['id'] in authored else 'awaiting pilot authoring',
-                 'activities':[{'name':name,'minutes':minutes} for name,minutes in tasks]} for u in units for i,(label,tasks) in enumerate(BLOCKS,1)]
+                 'activities':[{'name':name,'minutes':minutes} for name,minutes in tasks]} for u in units for i,(label,tasks) in enumerate(BLOCKS_18 if n==18 else BLOCKS,1)]
         chapters.append({'id':cid,'language':'Malay','level':level,'title':g['title'],'genre':GENRES.get(g['genre'],g['genre']),
             'can_do_goals':GOALS[n-1:n],'pattern_ids':[f['id'] for f in p['frames']],
             'word_ids':[c['id'] for c in p['cards']], 'grammar_points':[gid], 'units':units,'block_plan':blocks,
             'recycled_items':{'word_ids':[],'pattern_ids':[], 'status':'not yet selected',
-                'planned_pattern_returns':[{'pattern_id':f['id'],'destinations':([f'ms-c{k:02}' for k in (n+1,n+3,18) if k<=18] if a2 else [f'ms-c{k:02}' for k in (n+1,n+3) if k<=9]+['ms-stage1-review'])} for f in p['frames']]},
+                'planned_pattern_returns':[{'pattern_id':f['id'],'destinations':([f'ms-c{k:02}' for k in (n+1,n+3,18) if k<=18 and k!=n]+(['ms-stage3 (carried forward)'] if n in (16,17) else []) if a2 else [f'ms-c{k:02}' for k in (n+1,n+3) if k<=9]+['ms-stage1-review'])} for f in p['frames']]},
             'scene_ids':[f'scene-{level.lower()}-ms-origin-{n:02}'],'kata_kata_set':{'pack_id':p['id'],'sedia_kelas':p['sedia_kelas'],
                 'source_url':f'https://github.com/Nagatake-vonHatsune/katakata/blob/1987ab9f927bdc226e426c9b78dc46c1388456bf/content/ms/kelas/c{n:02}.json'},
             'hanashishou_scene_ids':[], 'self_study_hours':{'full':3*len(units),'fast':[9,10],'status':'provisional planning estimate'},
@@ -168,9 +176,11 @@ def make_catalogue(lessons, groups):
     # Stage 2 extra blocks (plan section 1): writing after 10B, 12A, 14, 16; reviews after 11B, 12B, 15. Only built ones are listed.
     stage2_blocks=[('writing-10b','ms-c10b'),('review-11b','ms-c11b'),('writing-12a','ms-c12a'),('review-12b','ms-c12b'),('writing-14','ms-c14'),('review-15','ms-c15'),('writing-16','ms-c16')]
     from suite.stage1 import stage_record
+    from suite.stage2 import stage_record as stage2_record
     # Stage records carry the stage's CEFR label and its completion rule (step 5h): the data behind the charter's
     # "CEFR label shown in the Evaluator" (section 10, phase 3). Chapters and components keep their own 'level'.
-    stages=[stage_record([x for x in components if x.get('check_unit')=='ms-stage1'])]
+    stages=[stage_record([x for x in components if x.get('check_unit')=='ms-stage1']),
+            stage2_record([x for x in components if x.get('check_unit') in ('ms-stage2','ms-c18')])]
     return {'schema_version':1,'review_status':'draft','component_types':TYPES+['Fast-course pack'],'chapters':chapters,'stages':stages,'components':components,
         'component_slots':slots,'test_items':tests, 'scenes':scenes,
         'additional_blocks':[{'id':'ms-stage1-'+name,'after_unit':unit,'minutes':45,

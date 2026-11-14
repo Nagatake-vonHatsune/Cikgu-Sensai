@@ -43,7 +43,8 @@ class SuiteMinimums(unittest.TestCase):
 
     def test_vocabulary_lists_every_unit_ledger_word(self):
         for u in self.units:
-            if not u.get('label'):
+            # Unit 18 (the Stage 2 close) teaches no new word, so it has no word scope and no vocabulary component.
+            if not u.get('label') or u.get('word_scope') is None:
                 continue
             text = ' '.join(self.lines(self.comp(u['check_unit'], 'Vocabulary')))
             for lid in u['word_scope']:

@@ -22,6 +22,7 @@ MALAY_CHAPTERS = [
     ("Describing things and people", "Lost property", [("15", [])]),
     ("Accidents with ter-", "Accidents", [("16", [])]),
     ("Spoken Malay and invitations", "Invitations", [("17", [])]),
+    ("Stage 2 review and A2 check", "Review", [("18", [])]),
 ]
 STAGE1_CHAPTERS = 9  # chapters 1 to 9 are Stage 1 (A1); chapter 10 onward is Stage 2 (A2)
 
@@ -96,6 +97,7 @@ def add_course(lessons, lesson, suite_units=()):
     authored={u["label"]:u for u in suite_units if u.get("label")}
     fast={u["chapter_id"]:u for u in suite_units if not u.get("label") and not u.get("stage")}
     # The stage review and the A1 stage test (step 5h) close Stage 1; they are listed with chapter 9, after unit 9.
+    # The A2 stage test (build step 5) closes Stage 2; it is listed with chapter 18, after unit 18.
     stage={u["chapter_id"]:u["titles"] for u in suite_units if u.get("stage")}
     stage1=[]
     for number,(title,genre,placements) in enumerate(MALAY_CHAPTERS,1):
@@ -119,7 +121,7 @@ def add_course(lessons, lesson, suite_units=()):
             goal=" ".join(goals),items=list(dict.fromkeys([t for unit in units for t in unit["items"]]+fast_items+stage_items)),
             units=units,fast_items=fast_items,stage_items=stage_items,sequence="stage2" if a2 else "stage1",
             authored_units=[dict(unit_id=authored[u["label"]]["unit_id"],blocks=authored[u["label"]]["blocks"]) for u in units if u["label"] in authored],
-            status=("Stage 2 build step 4 chapter 17 suite · draft for Claude's review" if number==17 else "Stage 2 build step 4 chapter 16 suite · draft for Claude's review" if number==16 else "Stage 2 build step 4 chapter 15 suite · draft for Claude's review" if number==15 else "Stage 2 build step 4 chapter 14 suite · draft for Claude's review" if number==14 else "Stage 2 build step 4 chapter 13 suite · draft for Claude's review" if number==13 else "Stage 2 build step 4 chapter 12 suite · draft for Claude's review" if number==12 else "Stage 2 build step 4 chapter 11 suite · draft for Claude's review" if number==11 else "Stage 2 build step 4 chapter 10 suite · draft for Claude's review" if number==10 else "Step 5g chapter 9 suite · draft for pilot" if number==9 else "Step 5f chapter 8 suite · draft for pilot" if number==8 else "Step 5e chapter 7 suite · draft for pilot" if number==7 else "Step 5d chapter 6 suite · draft for pilot" if number==6 else "Step 5c chapter 5 suite · draft for pilot" if number==5 else "Step 5b chapter 4 suite · draft for pilot" if number==4 else "Step 5a chapter 3 suite · draft for pilot" if number==3 else "Step 4 pilot suite · draft for Sam to teach and review") if pilot else "Restructure only · existing content awaiting audit corrections"))
+            status=("Stage 2 build step 5 chapter 18: review, rehearsal and the A2 stage test · draft for Claude's review" if number==18 else "Stage 2 build step 4 chapter 17 suite · draft for Claude's review" if number==17 else "Stage 2 build step 4 chapter 16 suite · draft for Claude's review" if number==16 else "Stage 2 build step 4 chapter 15 suite · draft for Claude's review" if number==15 else "Stage 2 build step 4 chapter 14 suite · draft for Claude's review" if number==14 else "Stage 2 build step 4 chapter 13 suite · draft for Claude's review" if number==13 else "Stage 2 build step 4 chapter 12 suite · draft for Claude's review" if number==12 else "Stage 2 build step 4 chapter 11 suite · draft for Claude's review" if number==11 else "Stage 2 build step 4 chapter 10 suite · draft for Claude's review" if number==10 else "Step 5g chapter 9 suite · draft for pilot" if number==9 else "Step 5f chapter 8 suite · draft for pilot" if number==8 else "Step 5e chapter 7 suite · draft for pilot" if number==7 else "Step 5d chapter 6 suite · draft for pilot" if number==6 else "Step 5c chapter 5 suite · draft for pilot" if number==5 else "Step 5b chapter 4 suite · draft for pilot" if number==4 else "Step 5a chapter 3 suite · draft for pilot" if number==3 else "Step 4 pilot suite · draft for Sam to teach and review") if pilot else "Restructure only · existing content awaiting audit corrections"))
     # The old chapter 12 placeholder "Ambil bungkusan di lobi" is retired (Sam, 13 Nov 2026): units 12A and 12B replace it.
     retired_placeholder=set(old["Ambil bungkusan di lobi"]["items"])
     supplementary=[]
