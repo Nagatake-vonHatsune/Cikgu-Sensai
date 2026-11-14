@@ -174523,26 +174523,26 @@
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|4|0": {
-  "source_text": "■ Change of plan: B says Maaf, air dari siling tertumpah di atas kotak itu. Kotak itu basah. A asks B to contact the management office. / 変更：Bが Maaf, air dari siling tertumpah di atas kotak itu. Kotak itu basah. と言い、Aは管理事務所に連絡してくれるよう頼みます。",
+ "Unit 18 · 18B · Rehearsal and targeted repair|3|10": {
+  "source_text": "■ Change of plan: B says Maaf, ada kebocoran di siling, jadi kotak itu basah. A asks B to contact the management office. / 変更：Bが Maaf, ada kebocoran di siling, jadi kotak itu basah. と言い、Aは管理事務所に連絡してくれるよう頼みます。",
   "target_spans": [
-   "Maaf, air dari siling tertumpah di atas kotak itu. Kotak itu basah.",
-   "Maaf, air dari siling tertumpah di atas kotak itu. Kotak itu basah."
+   "Maaf, ada kebocoran di siling, jadi kotak itu basah.",
+   "Maaf, ada kebocoran di siling, jadi kotak itu basah."
   ],
   "mention_spans": [],
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|4|1": {
-  "source_text": "Model: A Saya mahu ambil kotak saya. Sudah sampai? Saya tinggal di Blok B, unit 12-3. Kotak saya berwarna coklat. Kotak saya yang terbesar, tetapi telefon saya tertinggal di pejabat. B Boleh tunjukkan mesej? A Saya tertinggal telefon di pejabat. Maaf, saya terlupa nombor penjejakan itu. B Tidak mengapa. Nama encik ada pada label. A Tolong simpankan kotak kecil itu untuk jiran saya. After the change: B Air dari siling tertumpah di atas kotak itu. A Boleh hubungi pejabat pengurusan? Then A goes to the store room with the guard: A Saya tidak sengaja terlanggar kotak itu. Maaf. B Pintu bilik itu terkunci. Boleh tolong bukakan? (B asks the office to open the store room).",
+ "Unit 18 · 18B · Rehearsal and targeted repair|4|0": {
+  "source_text": "Model: A Saya mahu ambil kotak saya. Sudah sampai? Saya tinggal di Blok B, unit 12-3. Kotak saya berwarna coklat. Kotak saya yang terbesar. Saya tidak sengaja tertinggal kotak kecil di lobi. B Boleh tunjukkan mesej? A Saya tertinggal telefon di pejabat. Maaf, saya terlupa nombor penjejakan itu. B Tidak mengapa. Nama encik ada pada label. A Tolong simpankan kotak kecil itu untuk jiran saya. After the change: B Ada kebocoran di siling, jadi kotak itu basah. A Boleh hubungi pejabat pengurusan? Then A goes to the store room with the guard: A Saya tidak sengaja terlanggar kotak itu. Maaf. B Pintu bilik itu terkunci. Boleh tolong bukakan? (B asks the office to open the store room).",
   "target_spans": [
    "Saya mahu ambil kotak saya. Sudah sampai? Saya tinggal di Blok B, unit 12-3.",
-   "Kotak saya berwarna coklat. Kotak saya yang terbesar, tetapi telefon saya tertinggal di pejabat.",
+   "Kotak saya berwarna coklat. Kotak saya yang terbesar. Saya tidak sengaja tertinggal kotak kecil di lobi.",
    "Boleh tunjukkan mesej?",
    "Saya tertinggal telefon di pejabat. Maaf, saya terlupa nombor penjejakan itu.",
    "Tidak mengapa. Nama encik ada pada label.",
    "Tolong simpankan kotak kecil itu untuk jiran saya.",
-   "Air dari siling tertumpah di atas kotak itu.",
+   "Ada kebocoran di siling, jadi kotak itu basah.",
    "Boleh hubungi pejabat pengurusan?",
    "Saya tidak sengaja terlanggar kotak itu. Maaf.",
    "Pintu bilik itu terkunci. Boleh tolong bukakan?"
@@ -174551,14 +174551,14 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|4|2": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|4|1": {
   "source_text": "■ Rehearsal 3 · The changed invitation (10 min) · 変わった招待（10分）",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|4|3": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|4|2": {
   "source_text": "■ Role card A: you are Puan Aini. Invite B to the office dinner on Saturday at seven; the boss pays. / Aのカード：アイニさんです。土曜日7時の職場の夕食会にBを誘います。ボスがおごります。",
   "target_spans": [
    "Puan"
@@ -174567,7 +174567,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|4|4": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|4|3": {
   "source_text": "■ Role card B: you are not free on Saturday. Decline kindly with a reason. If A offers another day, accept it; if A offers no day, close kindly with Lain kali, ya?. / Bのカード：土曜日は空いていません。理由を言ってやさしく断ります。Aが別の日を出したら受け、出さなければ Lain kali, ya? でやさしく締めます。",
   "target_spans": [
    "Lain kali, ya?",
@@ -174577,7 +174577,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|4|5": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|4|4": {
   "source_text": "■ Change of plan: A says Bos menukar hari: hari Ahad, pukul tujuh. B answers twice: first to A, a senior colleague, in standard Malay; then to a friend in spoken Malay (Set!, kat, ni). / 変更：Aが「ボスが日を変えた：日曜日7時」と言います。Bは二回答えます：まず先輩のAに標準形で、次に友人に話し言葉で。",
   "target_spans": [
    "Bos menukar hari: hari Ahad, pukul tujuh.",
@@ -174589,7 +174589,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|4|6": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|4|5": {
   "source_text": "Model: A Sudikah cik datang makan malam pada hari Sabtu? B Terima kasih, puan. Sayangnya hari Sabtu saya tidak lapang. Lain kali, ya? (no day offered, so Lain kali, ya?) A Tidak mengapa. Kita cuba lain kali. After the change: A Bagaimana kalau hari Ahad, pukul tujuh? B (standard) Setuju! Hari Ahad, pukul tujuh. B to a friend (spoken: set = setuju, kat = di, ni = ini) Set! Jumpa kat pejabat dulu. Jom minum kat kafe ni!",
   "target_spans": [
    "Sudikah cik datang makan malam pada hari Sabtu?",
@@ -174611,21 +174611,21 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|4|7": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|4|6": {
   "source_text": "■ Targeted repair (10 min) · 弱点の練習（10分）",
   "target_spans": [],
   "mention_spans": [],
   "kind": "heading",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|4|8": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|4|7": {
   "source_text": "Choose the better line, a or b, and say the rule in your own words. / より良い文をaかbで選び、規則を自分のことばで言いましょう。",
   "target_spans": [],
   "mention_spans": [],
   "kind": "task",
   "exclusion": "Japanese/English (marked source)"
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|4|9": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|4|8": {
   "source_text": "1. A message from a shop: (a) Mesej dari kedai itu sudah sampai. (b) Mesej daripada kedai itu sudah sampai.",
   "target_spans": [
    "Mesej dari kedai itu sudah sampai.",
@@ -174635,7 +174635,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|5|0": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|4|9": {
   "source_text": "2. Asking the guard to keep a parcel: (a) Tolong simpankan bungkusan ini. (b) Tolong menyimpan bungkusan ini.",
   "target_spans": [
    "Tolong simpankan bungkusan ini.",
@@ -174645,7 +174645,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|5|1": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|4|10": {
   "source_text": "3. Reporting what the guard did: (a) Pengawal sudah simpankan bungkusan itu. (b) Pengawal sudah menyimpan bungkusan itu.",
   "target_spans": [
    "Pengawal sudah simpankan bungkusan itu.",
@@ -174655,7 +174655,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|5|2": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|5|0": {
   "source_text": "4. Putting a plan off: (a) Kita tangguhkan rancangan mendaki ke hari Ahad. (b) Kita tangguhkan mendaki ke hari Ahad.",
   "target_spans": [
    "Kita tangguhkan rancangan mendaki ke hari Ahad.",
@@ -174665,7 +174665,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|5|3": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|5|1": {
   "source_text": "5. Telling a colleague about Mei Ling: (a) Cik Mei Ling menangguhkan rancangan itu kerana dia sibuk. (b) Cik Mei Ling tangguhkan rancangan itu kerana dia sibuk.",
   "target_spans": [
    "Cik Mei Ling menangguhkan rancangan itu kerana dia sibuk.",
@@ -174675,7 +174675,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|5|4": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|5|2": {
   "source_text": "6. A message to the whole group, you included: (a) Esok kami makan di kafe. Jumpa di sana! (b) Esok kita makan di kafe. Jumpa di sana!",
   "target_spans": [
    "Esok kami makan di kafe. Jumpa di sana!",
@@ -174685,7 +174685,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|5|5": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|5|3": {
   "source_text": "7. Declining when you offer no new day: (a) Sayangnya saya tidak lapang. Lain kali, ya? (b) Sayangnya saya tidak lapang. Bagaimana kalau hari Isnin? Lain kali, ya?",
   "target_spans": [
    "Sayangnya saya tidak lapang. Lain kali, ya?",
@@ -174695,7 +174695,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|5|6": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|5|4": {
   "source_text": "8. Asking a colleague to drop by the office: (a) Sudikah cik singgah di pejabat dulu? (b) Boleh cik singgah di pejabat dulu?",
   "target_spans": [
    "Sudikah cik singgah di pejabat dulu?",
@@ -174705,7 +174705,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|5|7": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|5|5": {
   "source_text": "9. The most, or by accident: (a) Cawan itu terjatuh ke lantai. (b) Cawan itu yang terbesar.",
   "target_spans": [
    "Cawan itu terjatuh ke lantai.",
@@ -174715,7 +174715,7 @@
   "kind": "task",
   "exclusion": null
  },
- "Unit 18 · 18B · Rehearsal and targeted repair|5|8": {
+ "Unit 18 · 18B · Rehearsal and targeted repair|5|6": {
   "source_text": "10. Describing a lost bag: (a) Saya mencari beg yang berwarna merah. (b) Saya mencari merah yang beg.",
   "target_spans": [
    "Saya mencari beg yang berwarna merah.",
@@ -174771,13 +174771,13 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Unit 18 · 18B · Rehearsal and targeted repair|6|3": {
-  "source_text": "Ch 16 and 17, second return: c16-f01 Saya tertinggal telefon di pejabat. · c16-f02 Maaf, saya terlupa nombor penjejakan itu. · c16-f03 Air dari siling tertumpah di atas kotak itu. · c16-f04 Saya tidak sengaja terlanggar kotak itu. · c16-f05 Kotak saya yang terbesar, tetapi telefon saya tertinggal di pejabat. · c16-f06 Pintu bilik itu terkunci. Boleh tolong bukakan? · c17-f01 Sudikah cik datang makan malam pada hari Sabtu? · c17-f02 Sayangnya hari Sabtu saya tidak lapang. Lain kali, ya? · c17-f03 Bagaimana kalau hari Ahad, pukul tujuh? · c17-f04 Setuju! Hari Ahad, pukul tujuh. · c17-f05 Tidak mengapa. Kita cuba lain kali. · c17-f06 Jom minum kat kafe ni! (c17-f06 is spoken: kat = di, ni = ini)",
+  "source_text": "Ch 16 and 17, second return: c16-f01 Saya tertinggal telefon di pejabat. · c16-f02 Maaf, saya terlupa nombor penjejakan itu. · c16-f03 Ada kebocoran di siling, jadi kotak itu basah. · c16-f04 Saya tidak sengaja terlanggar kotak itu. · c16-f05 Kotak saya yang terbesar. Saya tidak sengaja tertinggal kotak kecil di lobi. · c16-f06 Pintu bilik itu terkunci. Boleh tolong bukakan? · c17-f01 Sudikah cik datang makan malam pada hari Sabtu? · c17-f02 Sayangnya hari Sabtu saya tidak lapang. Lain kali, ya? · c17-f03 Bagaimana kalau hari Ahad, pukul tujuh? · c17-f04 Setuju! Hari Ahad, pukul tujuh. · c17-f05 Tidak mengapa. Kita cuba lain kali. · c17-f06 Jom minum kat kafe ni! (c17-f06 is spoken: kat = di, ni = ini)",
   "target_spans": [
    "Saya tertinggal telefon di pejabat.",
    "Maaf, saya terlupa nombor penjejakan itu.",
-   "Air dari siling tertumpah di atas kotak itu.",
+   "Ada kebocoran di siling, jadi kotak itu basah.",
    "Saya tidak sengaja terlanggar kotak itu.",
-   "Kotak saya yang terbesar, tetapi telefon saya tertinggal di pejabat.",
+   "Kotak saya yang terbesar. Saya tidak sengaja tertinggal kotak kecil di lobi.",
    "Pintu bilik itu terkunci. Boleh tolong bukakan?",
    "Sudikah cik datang makan malam pada hari Sabtu?",
    "Sayangnya hari Sabtu saya tidak lapang. Lain kali, ya?",
@@ -175561,9 +175561,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 2 · A2 stage test · Version A · Listening|5|1": {
-  "source_text": "Management office: Selamat pagi. Ini pengumuman daripada pejabat pengurusan. Esok air dipotong dari pukul sepuluh pagi hingga pukul dua petang, kerana juruteknik akan membaiki paip di Blok B.",
+  "source_text": "Management office: Selamat pagi. Ini pengumuman daripada pejabat pengurusan. Esok air akan dipotong dari pukul sepuluh pagi hingga pukul dua petang, kerana juruteknik akan membaiki paip di Blok B.",
   "target_spans": [
-   "Selamat pagi. Ini pengumuman daripada pejabat pengurusan. Esok air dipotong dari pukul sepuluh pagi hingga pukul dua petang, kerana juruteknik akan membaiki paip di Blok B."
+   "Selamat pagi. Ini pengumuman daripada pejabat pengurusan. Esok air akan dipotong dari pukul sepuluh pagi hingga pukul dua petang, kerana juruteknik akan membaiki paip di Blok B."
   ],
   "mention_spans": [],
   "kind": "key",
@@ -178575,9 +178575,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 2 · A2 stage test · Version B · Reading|5|0": {
-  "source_text": "Semalam air teh tertumpah di lantai dapur. Puan Aini tergelincir, tetapi dia tidak apa-apa. Lantai itu sudah dibersihkan oleh Encik Lim. Sila hati-hati di dapur.",
+  "source_text": "Semalam air teh tertumpah di lantai dapur. Puan Aini tergelincir, tetapi dia tidak apa-apa. Lantai itu sudah dibersihkan oleh Encik Lim. Hati-hati di dapur.",
   "target_spans": [
-   "Semalam air teh tertumpah di lantai dapur. Puan Aini tergelincir, tetapi dia tidak apa-apa. Lantai itu sudah dibersihkan oleh Encik Lim. Sila hati-hati di dapur."
+   "Semalam air teh tertumpah di lantai dapur. Puan Aini tergelincir, tetapi dia tidak apa-apa. Lantai itu sudah dibersihkan oleh Encik Lim. Hati-hati di dapur."
   ],
   "mention_spans": [],
   "kind": "test",
@@ -179726,9 +179726,9 @@
   "exclusion": "Japanese/English (marked source)"
  },
  "Stage 2 · A2 stage test · Listening scripts (teacher)|3|2": {
-  "source_text": "Management office: Selamat pagi. Ini pengumuman daripada pejabat pengurusan. Esok air dipotong dari pukul sepuluh pagi hingga pukul dua petang, kerana juruteknik akan membaiki paip di Blok B.",
+  "source_text": "Management office: Selamat pagi. Ini pengumuman daripada pejabat pengurusan. Esok air akan dipotong dari pukul sepuluh pagi hingga pukul dua petang, kerana juruteknik akan membaiki paip di Blok B.",
   "target_spans": [
-   "Selamat pagi. Ini pengumuman daripada pejabat pengurusan. Esok air dipotong dari pukul sepuluh pagi hingga pukul dua petang, kerana juruteknik akan membaiki paip di Blok B."
+   "Selamat pagi. Ini pengumuman daripada pejabat pengurusan. Esok air akan dipotong dari pukul sepuluh pagi hingga pukul dua petang, kerana juruteknik akan membaiki paip di Blok B."
   ],
   "mention_spans": [],
   "kind": "plan",

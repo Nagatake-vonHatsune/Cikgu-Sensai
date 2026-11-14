@@ -127,7 +127,7 @@ VERSION = dict(
         dict(title='A note about a small accident · 小さな事故のメモ',
              text=['A fictional note on the office board:',
                    '«Semalam air teh tertumpah di lantai dapur. Puan Aini tergelincir, tetapi dia tidak apa-apa. Lantai itu sudah '
-                   'dibersihkan oleh Encik Lim. Sila hati-hati di dapur.»'],
+                   'dibersihkan oleh Encik Lim. Hati-hati di dapur.»'],
              items=[dict(q='What spilt, and what happened to «Puan» Aini?', ja='何がこぼれましたか。アイニさんはどうなりましたか。',
                          a='tea, on the kitchen floor («tertumpah di lantai dapur») (1); she slipped but is all right (1)', marks=2,
                          ch=[16], frames=['ms-c16-f03'], words=['tertumpah', 'tergelincir', 'tidak apa-apa']),

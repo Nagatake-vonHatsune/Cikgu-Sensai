@@ -235,3 +235,25 @@ Sam approved the word proposals backlog (31 core rows L-1273 to L-1303, Kata-Kat
 | 1 | L-1303 «minggu depan» | **Retired in the ledger** (Kata-Kata step 3f, Journal row 200): chapter 4 teaches it. Card ms-c17-026 is gone; `curriculum/phrases-taught-earlier.json` and its checker condition are removed; unit 17 keeps «Saya belanja minggu depan.» as revision. Stage 2 core is **270** (17 = 25). This answers question 1 of `docs/STAGE-2-cleanup-report.md`; Journal row 200 can be closed (the sheet is not Cikgu Sensai's to edit). |
 | 2 | Fast packs 10 to 13 | **Widened to all core words** (44, 45, 48, 29), as chapters 14 to 17 (Sam's rule from chapter 15). This answers question 2 of the clean-up report and replaces ruling 2 of section 15 for chapters 10 to 13. |
 
+
+## 17. Chapter 18 review: Sam's answers and the touch-up (Sam, 14 November 2026; Claude)
+
+Answers to the questions at the end of `docs/STAGE-2-ch18-report.md`.
+
+| # | Question | Sam's answer |
+| --- | --- | --- |
+| 1 | The A2 pass rule (48/80, 10/20 per section) | **Goes into the charter** (section 5, chapter 18 row). Claude does it. *Not done in this session: the charter is a Google Doc and read-only to builders (AGENTS.md); it stays open in HANDOFF until the edit is made.* |
+| 2 | Compulsory cards | **One request card and one mishap card are compulsory, each with a parallel spare** (as built). |
+| 3 | The wrong lines in the 18B targeted repair | **Keep.** |
+| 4 | «disimpan» in the 18A notice | **Keep as recognition only** (not tested, in no key). |
+| 5 | The native-read lines | Four lines changed (below). |
+| 6 | Avoided words | **«pesakit», «restoran» and «laporan» go on a new "Stage 3 word backlog"** in `HANDOFF.md`. |
+
+Line fixes (every occurrence in units, test versions, scripts and keys; each passes the checker at chapter 17):
+
+| Before | After |
+| --- | --- |
+| «Air dari siling tertumpah di atas kotak itu.» («tertumpah» is for spilling from a container) | «Ada kebocoran di siling, jadi kotak itu basah.» (the rehearsal 2 change of plan reads «Maaf, ada kebocoran di siling, jadi kotak itu basah.») |
+| «Kotak saya yang terbesar, tetapi telefon saya tertinggal di pejabat.» | «Kotak saya yang terbesar. Saya tidak sengaja tertinggal kotak kecil di lobi.» (superlative and accident both stay in the line; the 18B repair item "The most, or by accident" keeps the contrast) |
+| «Sila hati-hati di dapur.» | «Hati-hati di dapur.» |
+| «Esok air dipotong dari pukul sepuluh pagi …» | «Esok air akan dipotong dari pukul sepuluh pagi …» |

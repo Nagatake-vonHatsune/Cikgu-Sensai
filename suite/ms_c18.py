@@ -209,8 +209,8 @@ def review_component():
 # The late chapters 16 and 17 return a second time in 18B (plan section 6): every frame, in the rehearsal that brings it back.
 LATE_RETURNS = {
     'ms-c16-f01': 'Saya tertinggal telefon di pejabat.', 'ms-c16-f02': 'Maaf, saya terlupa nombor penjejakan itu.',
-    'ms-c16-f03': 'Air dari siling tertumpah di atas kotak itu.', 'ms-c16-f04': 'Saya tidak sengaja terlanggar kotak itu.',
-    'ms-c16-f05': 'Kotak saya yang terbesar, tetapi telefon saya tertinggal di pejabat.',
+    'ms-c16-f03': 'Ada kebocoran di siling, jadi kotak itu basah.', 'ms-c16-f04': 'Saya tidak sengaja terlanggar kotak itu.',
+    'ms-c16-f05': 'Kotak saya yang terbesar. Saya tidak sengaja tertinggal kotak kecil di lobi.',
     'ms-c16-f06': 'Pintu bilik itu terkunci. Boleh tolong bukakan?',
     'ms-c17-f01': 'Sudikah cik datang makan malam pada hari Sabtu?',
     'ms-c17-f02': 'Sayangnya hari Sabtu saya tidak lapang. Lain kali, ya?',
@@ -238,8 +238,8 @@ REHEARSALS = [
         'くれるよう頼みます。電話を事務所に置き忘れたので、メッセージを見せられません。',
         '■ Role card B: you are the guard. Ask for the unit and the message; say which box is A\'s. / Bのカード：守衛です。'
         '部屋番号とメッセージをたずね、どの箱がAのものか言います。',
-        '■ Change of plan: B says «Maaf, air dari siling tertumpah di atas kotak itu. Kotak itu basah.» A asks B to contact the '
-        'management office. / 変更：Bが «Maaf, air dari siling tertumpah di atas kotak itu. Kotak itu basah.» と言い、Aは管理'
+        '■ Change of plan: B says «Maaf, ada kebocoran di siling, jadi kotak itu basah.» A asks B to contact the '
+        'management office. / 変更：Bが «Maaf, ada kebocoran di siling, jadi kotak itu basah.» と言い、Aは管理'
         '事務所に連絡してくれるよう頼みます。',
         f'Model: A «Saya mahu ambil kotak saya. Sudah sampai? Saya tinggal di Blok B, unit 12-3.» «Kotak saya berwarna coklat. '
         f'{LATE_RETURNS["ms-c16-f05"]}» B «Boleh tunjukkan mesej?» A «{LATE_RETURNS["ms-c16-f01"]} {LATE_RETURNS["ms-c16-f02"]}» '

@@ -2,6 +2,14 @@
 
 Update this file at the end of every session. The next builder (ChatGPT or Claude) starts here, after the charter and `AGENTS.md`.
 
+## Chapter 18 touch-up (14 Nov 2026, Claude)
+
+Sam's answers to the six chapter 18 questions are in `docs/stage-2-decisions.md` section 17, with four line fixes (leak line, parcel line, «Hati-hati di dapur.», «Esok air akan dipotong …»). **Open: the A2 pass rule (48/80, 10/20 per section) still has to be written into the charter** (section 5, chapter 18 row); the charter is a Google Doc builders cannot edit, so someone with Drive write access does it.
+
+## Stage 3 word backlog
+
+Words avoided in Stage 2 lines, to propose when Stage 3 is planned (Sam, 14 Nov 2026): **«pesakit»** (patient, for clinic notices), **«restoran»**, **«laporan»**. Not in the ledger; each needs Sam's approval in the ledger Journal first.
+
 ## Stage 2 is built: build step 5, chapter 18 (14 Nov 2026, Claude)
 
 - **Authorised:** Sam (the chapter 18 instruction, 14 Nov 2026): a prep commit, then chapter 18; push to main when the checks pass; **stop at the end for Claude's review.** Started at `4f2391b`. Report: **`docs/STAGE-2-ch18-report.md`** (blocks and timings, the item map, the pass rule, 12 native-read lines, the six pages looked at, six questions for Sam).

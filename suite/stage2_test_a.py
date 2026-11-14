@@ -13,7 +13,7 @@ VERSION = dict(
         dict(title='Two announcements · 二つのお知らせ',
              context='You hear an announcement from the management office of your condominium, then one at a clinic. / '
                      'コンドミニアムの管理事務所のお知らせと、クリニックのお知らせを聞きます。',
-             script=[('Management office', 'Selamat pagi. Ini pengumuman daripada pejabat pengurusan. Esok air dipotong dari pukul sepuluh pagi '
+             script=[('Management office', 'Selamat pagi. Ini pengumuman daripada pejabat pengurusan. Esok air akan dipotong dari pukul sepuluh pagi '
                                            'hingga pukul dua petang, kerana juruteknik akan membaiki paip di Blok B.'),
                      ('Clinic', 'Selamat petang. Klinik ini dibuka hingga pukul sembilan malam. Kalau ini kali pertama anda di sini, '
                                 'anda perlu mendaftar di kaunter dulu. Tidak dibenarkan makan di bilik menunggu.')],
