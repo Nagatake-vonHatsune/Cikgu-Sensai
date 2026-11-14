@@ -4,7 +4,7 @@ Update this file at the end of every session. The next builder (ChatGPT or Claud
 
 ## Chapter 18 touch-up (14 Nov 2026, Claude)
 
-Sam's answers to the six chapter 18 questions are in `docs/stage-2-decisions.md` section 17, with four line fixes (leak line, parcel line, «Hati-hati di dapur.», «Esok air akan dipotong …»). **Open: the A2 pass rule (48/80, 10/20 per section) still has to be written into the charter** (section 5, chapter 18 row); the charter is a Google Doc builders cannot edit, so someone with Drive write access does it.
+Sam's answers to the six chapter 18 questions are in `docs/stage-2-decisions.md` section 17, with four line fixes (leak line, parcel line, «Hati-hati di dapur.», «Esok air akan dipotong …»). **Done (14 Nov 2026, Claude, at Sam's request):** the A2 pass rule (48 of 80, at least 10 of 20 per section; Sam's decision, not a validated CEFR cut score) is now in the charter's section 5, chapter 18 row; live doc revision after the edit `AHj4eMTnPw8XVLEgSaYMsGO85PlFwcmdNJ988UDl2rmLSUzcST9bx6mJmmi0-Awyck-cQsAY5IQ9hn1Ev9RlRxhKpe4ccpBouJz-RrueZa8`; `docs/handoff/charter-snapshot.md` matches.
 
 ## Stage 3 word backlog
 

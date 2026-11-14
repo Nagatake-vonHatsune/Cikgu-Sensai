@@ -214,7 +214,7 @@ The logic of Stage 2: Stage 1 deliberately holds back ber- and me-. Learners fin
 | 15 | yang clauses and the full question-word set | Describe a person or lost item precisely; ask why and when | orang yang \_\_\_, kenapa, bila, yang mana | Daily life |
 | 16 | ter- for accidents and unplanned states | Report a mishap, apologise, make a complaint politely | terjatuh, tertinggal, terlupa, tertidur | Home and condo, Health |
 | 17 | Register and particles: spoken short forms, lah, kan, pun; inviting and declining | Follow natural spoken Malay; invite, accept and refuse without offence | tak, nak, dah, kat; Jom\! Jemput datang. | Social, Office |
-| 18 | Stage review and A2 check | Pass the A2 exit tasks; set up Hanashishou at band 1 | Review of chapters 10 to 17 | All five |
+| 18 | Stage review and A2 check | Pass the A2 exit tasks (the A2 stage test: pass 48 of 80, with at least 10 of 20 in each section; Sam's decision, 13 Nov 2026, carried over from the A1 test; a course rule, not a validated CEFR cut score); set up Hanashishou at band 1 | Review of chapters 10 to 17 | All five |
 
 Notes on the order:
 
