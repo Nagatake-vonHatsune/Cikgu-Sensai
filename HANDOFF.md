@@ -2,6 +2,13 @@
 
 Update this file at the end of every session. The next builder (ChatGPT or Claude) starts here, after the charter and `AGENTS.md`.
 
+## Scope rule for «ChN (extension)» ledger rows (15 Nov 2026, Claude)
+
+- **Authorised:** Sam (15 Nov 2026). Kata-Kata will add about 366 «ChN (extension)» rows, taught in its ⚡ stretch stage and in an optional Cikgu Sensai add-on, not core until Stage 3.
+- **The rule** (`curriculum/stage-rules.json`, `format.extension_rows`): such a row is placed at N only for content marked as extension; in core content (every Stage 1 and 2 unit, pack, fast pack and test) it counts as no row (a gap, never a root). Nothing else changes. Checker API: segment key `extension`, or `inspect(segments, extension=True)`; `Checker(extension=True)` is the extension view; `Checker(extra_rows=...)` adds rows for fixtures. The build passes no extension content yet (there are no extension rows in the ledger).
+- **Fixtures:** 95 to 104 (9 new, optional case key `ledger_rows` and segment key `extension`, because the ledger holds no extension row yet). Kata-Kata's guard must support both keys.
+- **Open for Sam / next builder:** when the first Cikgu Sensai add-on exists, its build must pass `extension` for those units. Until then no unit changes status.
+
 ## Stage 2 step 6c-1: the checker and ledger rows with no chapter (14 Nov 2026, Claude)
 
 - **Authorised:** Sam (step 6c-1 instruction, 14 Nov 2026). Started at `843c1fb`. Report: **`docs/STAGE-2-step6c1-report.md`** (the rule, the 14 new fixtures, the refresh, the counts, one deviation for Sam to confirm).
