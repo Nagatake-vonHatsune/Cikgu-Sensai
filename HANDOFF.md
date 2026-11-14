@@ -2,6 +2,14 @@
 
 Update this file at the end of every session. The next builder (ChatGPT or Claude) starts here, after the charter and `AGENTS.md`.
 
+## Stage 2 step 6c-1: the checker and ledger rows with no chapter (14 Nov 2026, Claude)
+
+- **Authorised:** Sam (step 6c-1 instruction, 14 Nov 2026). Started at `843c1fb`. Report: **`docs/STAGE-2-step6c1-report.md`** (the rule, the 14 new fixtures, the refresh, the counts, one deviation for Sam to confirm).
+- **Done:** `language_checks.py` follows the rule (a live ledger row with a chapter is a whole word from its chapter; a row with no chapter is never a root and counts as no row in a unit with a chapter; practice-pool rows keep «primes Ch18»); `curriculum/stage-rules.json` has the rule in `format.ledger_rows_and_chapters`; 95 shared fixtures (81 before; two optional keys `expect_gaps` and `expect_no_gaps`); c04, c06 and both ledger copies (1,493 rows) from Kata-Kata **e4e294d**, pinned in `docs/step4-sources.json`; two suite follow-ons (English prose guard and word tracing ignore rows with no chapter). **339 tests pass; build 557 packs, 3,456 pages; 20 violations (same keys), 140 gaps (188 before: 48 closed in the unplaced legacy packs); core still 270; every re-authored unit has zero gaps and zero violations.**
+- **For Kata-Kata step 6c-2:** copy `curriculum/stage-rules.json` and `curriculum/stage-rules-fixtures.json` from the **rules commit** `909596e03db373b14de213ad64f8a0a73afdeea7` and update `SOURCE.json` (case count 81 to 95, new file hashes); its guard must run `expect_gaps` and `expect_no_gaps`, and its bridge-batch exemption in `tools/stage-rules.mjs` can go.
+- **Open for Sam:** rule 1 starts at the row's own chapter (not "never split" below it), because the literal reading fails «seminggu», «sebulan» and «disemak» in frozen or re-authored units. Report section "One deviation". The sheet's Action cells on L-0195 and L-1303 are still open (not ours to clear).
+- **Next:** Kata-Kata step 6c-2, then Hanashishou build step 6 as listed in the section below.
+
 ## Chapter 18 touch-up (14 Nov 2026, Claude)
 
 Sam's answers to the six chapter 18 questions are in `docs/stage-2-decisions.md` section 17, with four line fixes (leak line, parcel line, «Hati-hati di dapur.», «Esok air akan dipotong …»). **Done (14 Nov 2026, Claude, at Sam's request):** the A2 pass rule (48 of 80, at least 10 of 20 per section; Sam's decision, not a validated CEFR cut score) is now in the charter's section 5, chapter 18 row; live doc revision after the edit `AHj4eMTnPw8XVLEgSaYMsGO85PlFwcmdNJ988UDl2rmLSUzcST9bx6mJmmi0-Awyck-cQsAY5IQ9hn1Ev9RlRxhKpe4ccpBouJz-RrueZa8`; `docs/handoff/charter-snapshot.md` matches.
