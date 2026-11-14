@@ -163,7 +163,7 @@ P = [
         'A: «Kalau awak penat, awak buat apa?» B: «Kalau saya penat, saya berehat.»',
         'A: «Bila kita makan di kafe?» B: «Kalau hujan.»',
         'A: «Bila awak mendaki?» B: «Bila cuaca cerah.»',
-        'A: «Apa kata Puan Aini?» B: «Puan Aini kata, jika hujan, kita tangguhkan. Apabila cuaca cerah, kita mendaki.»'],
+        'A: «Apa kata Puan Aini?» B: «Puan Aini kata, kalau hujan, kita tangguhkan. Bila cuaca cerah, kita mendaki.»'],
      "«Kalau» + a clause says the condition, then a comma, then what follows: «Kalau hujan, kita makan di kafe.» (the Kata-Kata frame). Nothing like \"then\" comes after the comma. "
      "«Kalau tidak hujan» is the opposite condition. «kalau» is what people say, and «jika» is the standard word for a message or a notice: «Jika hujan, kita tangguhkan.» "
      "Both mean \"if\". Compare «bila» and «apabila»: «bila» (chapter 4) is \"when\" in everyday speech («Bila cuaca cerah, kita mendaki.»), and «apabila» is the standard word for writing. "
