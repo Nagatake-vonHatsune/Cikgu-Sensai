@@ -76,7 +76,11 @@ def markup(item,label,lines,raw=None):
     return f'<small>Cikgu, Sensai! / {item["lang"]} · {item["level"]}</small><h1>{item["title"]}</h1><h2>{label}</h2>{body}',LEGACY_CSS
 with TemporaryDirectory() as tmp:
     font=TTFont("/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",fontNumber=0)
-    sub=subset.Subsetter(); sub.populate(text=json.dumps(lessons,ensure_ascii=False)+"Cikgu, Sensai! · /()0123456789"); sub.subset(font); cff_to_truetype(font).save(tmp+"/body.ttf")
+    # Copying text out of the PDF (14 Nov 2026): the font's "liga" (fi, fl, ff, ffi) and "locl" (digits 0 to 9) features make the shaper
+    # draw alternate glyphs that have no Unicode value of their own, so the PDF's ToUnicode map has no entry for them and a viewer copies
+    # "A1" as "A=" and "file" as "6le". The glyphs look the same without those two features, so the subset keeps only ccmp, vert and vrt2.
+    opts=subset.Options(); opts.layout_features=["ccmp","vert","vrt2"]
+    sub=subset.Subsetter(opts); sub.populate(text=json.dumps(lessons,ensure_ascii=False)+"Cikgu, Sensai! · /()0123456789"); sub.subset(font); cff_to_truetype(font).save(tmp+"/body.ttf")
     archive=fitz.Archive(tmp)
     scratch=[fitz.open(),0]
     def fits(item,label,lines):
