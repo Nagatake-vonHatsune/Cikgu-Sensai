@@ -736,3 +736,6 @@ Unit 17 (24 core, no recognition word) is built as one unit of five blocks, with
 ## Stage 2 clean-up, Part 1: refresh (14 Nov 2026)
 
 `curriculum/reference/katakata/` c10 to c18 and both ledger copies now come from Kata-Kata 907946f (step 3e). The ledger has 1,309 rows. **Stage 2 core is now 271** (56 existing + 215 new, L-1089 to L-1303): the 240 of the build step 4 refresh plus the 31 approved backlog rows L-1273 to L-1303 (10 = 44, 11 = 45, 12 = 48, 13 = 29, 14 = 29, 15 = 23, 16 = 27, 17 = 26). **The six practice-pool rows L-1304 to L-1309 are not core**: the checker reads their place as Ch18, but they are in no core count, no coverage test and no chapter 18 test key. L-0530 is now «tandatangan». Report: [`docs/STAGE-2-cleanup-report.md`](STAGE-2-cleanup-report.md).
+
+**Part 5 of the same clean-up (14 Nov 2026)** put the 31 core words into the built units: 10A now teaches 24 core words, 11A 21, 11B 24, 12B 25, 13 29, 14 29, 15 23, 16 27 (a fifth group) and 17 26; every unit's fast pack holds them. Third-person statements in unit 14 take «menangguhkan» and «membatalkan» (the bare forms stay for requests, offers and «kita» plans). `curriculum/phrases-taught-earlier.json` lets «minggu depan» (L-1303, Ch17) pass from chapter 4, where it is already taught, until Sam decides the row's place.
+
