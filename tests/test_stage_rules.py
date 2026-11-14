@@ -23,20 +23,17 @@ class StageRulesFixtures(unittest.TestCase):
  def setUpClass(cls):cls.checker=Checker()
  def test_shared_fixtures(self):
   self.assertGreaterEqual(len(FIXTURES),60)
-  self.assertEqual(len(FIXTURES),77)
+  self.assertEqual(len(FIXTURES),81)
   for case in FIXTURES:
    with self.subTest(case=case['id']):
     v=run_case(self.checker,case)
-    # INTERIM (Stage 2 clean-up, Part 1 only): L-1289 «baiklah» is a word in its own right, so «Baiklah, saya tunggu.» no longer
-    # tests R4. Part 2 changes the fixture's example and deletes this line.
-    if case['id']=='lah-in-answer-key-fails':continue
     if case['expect']=='pass':self.assertEqual(v,{},case['why'])
     else:self.assertTrue(any(e['check']==case['check'] for e in v.values()),f"{case['why']}: {sorted(v)}")
  def test_required_gate_fixtures_present(self):
   ids={c['id'] for c in FIXTURES}
   for i in ['bercakap-9-fails','bercakap-10-passes','menulis-10B-fails','menulis-11A-passes','kan-suffix-11B-fails','kan-suffix-12A-passes',
             'tertinggal-15-fails','tertinggal-16-passes','whole-word-bekerja-10','whole-word-belajar-2','indonesian-berbicara-fails',
-            'indonesian-in-do-not-use-note-passes','spoken-before-standard-fails','tak-apa-before-tidak-mengapa-fails','tidak-mengapa-with-both-spoken-forms-passes','termurah-does-not-unlock-terjatuh','lah-in-answer-key-fails']:
+            'indonesian-in-do-not-use-note-passes','spoken-before-standard-fails','tak-apa-before-tidak-mengapa-fails','tidak-mengapa-with-both-spoken-forms-passes','termurah-does-not-unlock-terjatuh','lah-in-answer-key-fails','indonesian-tanda-tangan-fails','tandatangan-joined-passes','tanda-tangan-in-do-not-use-note-passes','tanda-tangan-mention-without-do-not-use-fails']:
    self.assertIn(i,ids)
 
 class StageRulesFile(unittest.TestCase):
@@ -60,7 +57,7 @@ class StageRulesFile(unittest.TestCase):
  def test_disallowed_forms_are_not_ledger_forms(self):
   for form in RULES['disallowed_forms']:
    self.assertNotIn(form,self.checker.entries,form)
-  for form in ['berbicara','perbaiki','musik','film','olahraga','apotek','kantor','mobil','uang']:self.assertIn(form,RULES['disallowed_forms'])
+  for form in ['berbicara','perbaiki','musik','film','olahraga','apotek','kantor','mobil','uang','tanda tangan']:self.assertIn(form,RULES['disallowed_forms'])
  def test_register_pairs(self):
   pairs={(p['spoken'],p['standard']) for p in RULES['register_pairs']}
   # Sam, 13 Nov 2026: «tidak mengapa» (spoken: «takpe» / «tak apa»).

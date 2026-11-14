@@ -158,7 +158,9 @@ class Checker:
    parts=set(ts)|{p for t in ts for p in t.split('-')}
    note=s['kind']=='mention' and 'do not use' in self.mentions.get(text,'').lower()
    for bad,good in self.disallowed.items():
-    if bad in parts and not note:add(violations,s,'malaysian-form',bad,'Disallowed (Indonesian) form; use '+good)
+    # A form of two words («tanda tangan») is matched as the two words in that order, not as its parts.
+    found=bad in parts or (' ' in bad and re.search(r'(?<![\w-])'+re.escape(bad)+r'(?![\w-])',text))
+    if found and not note:add(violations,s,'malaysian-form',bad,'Disallowed (Indonesian) form; use '+good)
    # A mention (root or standard form quoted from a Kata-Kata note) is not taught
    # vocabulary: only the Malaysian-form check applies; its allow-list is checked by the suite builder.
    if s['kind']=='mention':continue
