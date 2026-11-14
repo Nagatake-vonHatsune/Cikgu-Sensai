@@ -2,8 +2,8 @@
 (___ saya hilang; Saya mencari ___ yang ada ___; Lelaki yang memakai ___; Beg itu berwarna ___ dan ada ___; Bentuknya ___, seperti ___;
 Yang mana satu? Yang ___ atau yang ___?).
 
-21 core ledger entries, the rows the ledger places in "Ch15 (unit 15)": the existing rows L-0591 «nombor plat», L-0618 «kulit» and L-0623 «beg tangan»,
-the new rows L-1219 to L-1234, and L-1271 «memakai» and L-1272 «berwarna» (added by Sam, Journal row 184). They come in four groups: lost things (6),
+23 core ledger entries, the rows the ledger places in "Ch15 (unit 15)": the existing rows L-0591 «nombor plat», L-0618 «kulit» and L-0623 «beg tangan»,
+the new rows L-1219 to L-1234, L-1271 «memakai» and L-1272 «berwarna» (added by Sam, Journal row 184), and L-1296 «kakitangan» and L-1297 «bola» (approved by Sam, 13 and 14 Nov 2026). They come in four groups: lost things (6),
 parts and materials (5), colour, shape and likeness (6) and people and what they wear (4). No recognition word. The ber-, meN- and lexicalised words
 («berjalur», «berwarna», «memakai», «seperti», «bentuk», «jenama») are taught whole, each with its root as the Kata-Kata chapter 15 card notes give it.
 The scene follows Kata-Kata c15 (scenario lines ms-c15-s01 to s17: Tanaka at the lost-property counter, then Tanaka describing the visitors to Encik Rahman)
@@ -15,9 +15,9 @@ Japanese is a draft awaiting native review.
 """
 from .chapter10_common import unit_dict
 
-LOST = ['L-1219', 'L-1233', 'L-1224', 'L-0623', 'L-0591', 'L-1234']
+LOST = ['L-1219', 'L-1233', 'L-1224', 'L-0623', 'L-0591', 'L-1234', 'L-1296']
 PARTS = ['L-0618', 'L-1223', 'L-1228', 'L-1222', 'L-1220']
-LOOK = ['L-1272', 'L-1221', 'L-1225', 'L-1226', 'L-1227', 'L-1229']
+LOOK = ['L-1272', 'L-1221', 'L-1225', 'L-1226', 'L-1227', 'L-1229', 'L-1297']
 PEOPLE = ['L-1230', 'L-1231', 'L-1232', 'L-1271']
 CORE = LOST + PARTS + LOOK + PEOPLE
 
@@ -35,6 +35,7 @@ EXAMPLES = {
     'L-0623': '«Beg tangan saya berwarna merah.»',
     'L-0591': '«Apa nombor plat kereta itu?»',
     'L-1234': '«Ada jenama?»',
+    'L-1296': '«Kakitangan stesen ada di kaunter.»',
     # Parts and materials
     'L-0618': '«Ini dompet kulit.»',
     'L-1223': '«Dompet itu ada satu poket kecil.»',
@@ -48,6 +49,7 @@ EXAMPLES = {
     'L-1226': '«Cermin mata itu bulat.»',
     'L-1227': '«Dompet itu segi empat.»',
     'L-1229': '«Bentuknya segi empat, seperti kotak.»',
+    'L-1297': '«Bulat, seperti bola.»',
     # People and what they wear
     'L-1230': '«Lelaki itu memakai topi.»',
     'L-1231': '«Perempuan itu membawa beg tangan.»',
@@ -136,7 +138,7 @@ P = [
         'A: «Beg tangan awak hilang di mana?» B: «Beg tangan saya hilang di stesen.»',
         'A: «Kad awak pun hilang?» B: «Tidak. Kad saya ada, tetapi pasport saya hilang.»',
         'A: «Bila barang awak hilang?» B: «Barang saya hilang tadi.»',
-        'A: «Maaf, ini kaunter barang hilang?» B: «Ya. Barang apa yang hilang, encik?»',
+        'A: «Maaf, ini kaunter barang hilang?» B: «Ya. Kakitangan stesen ada di kaunter. Barang apa yang hilang, encik?»',
         'A: «Telefon awak hilang?» B: «Ya, telefon saya hilang. Tolong cari telefon saya.»'],
      "«___ saya hilang.» says that something of mine is lost: the thing first, then «saya» (my), then «hilang» (the Kata-Kata frame): «Dompet saya hilang.» «hilang» means you cannot find it. "
      "The thing is the subject: you do not say «saya hilang dompet». «barang hilang» is lost property, and «kaunter barang hilang» is the lost-property counter. "
@@ -178,15 +180,15 @@ P = [
      '日本語には形容詞の「黒い」と名詞の「黒色」があり、「バッグは黒で、ひもが長い」と言います。マレー語は «berwarna hitam» と言い、持っている特徴は日本語の「〜付き」「〜がある」にあたる «ada» で言います：「ファスナー付き」は «ada zip»。'),
     ('ms-c15-f06', '«Bentuknya» ___ «, seperti» ___ «.»  (shape and likeness; «seperti itu» and «seperti ini»)', [
         'A: «Bagaimana bentuk dompet itu?» B: «Bentuknya segi empat, seperti kotak.»',
-        'A: «Bagaimana bentuk cermin mata itu?» B: «Bentuknya bulat, seperti jam.»',
+        'A: «Bagaimana bentuk beg itu?» B: «Bulat, seperti bola.»',
         'A: «Seperti ini?» B: «Ya, seperti itu, tetapi ada zip.»',
         'A: «Dompet awak seperti ini?» B: «Tidak, bukan seperti ini. Dompet saya segi empat.»',
         'A: «Bagaimana bentuk meja di kafe itu?» B: «Bulat. Seperti pinggan besar.»',
         'A: «Beg itu seperti beg awak?» B: «Ya, seperti beg saya. Warna beg itu pun sama.»'],
-     "«bentuk» is shape, and «bentuknya» (‹-nya›, chapter 2) is \"its shape\": «Bentuknya segi empat, seperti kotak.» (the Kata-Kata frame). «seperti» + a noun says what it looks like: «seperti kotak», «seperti jam». "
+     "«bentuk» is shape, and «bentuknya» (‹-nya›, chapter 2) is \"its shape\": «Bentuknya segi empat, seperti kotak.» (the Kata-Kata frame). «seperti» + a noun says what it looks like: «seperti kotak», «seperti bola». "
      "«seperti ini» is \"like this one\" (the thing is near the speaker or in the hand), and «seperti itu» is \"like that one\": «Seperti ini?» «Ya, seperti itu, tetapi ada zip.» (Kata-Kata lines). "
      "«seperti» is the standard word. In speech people say «macam» (chapter 5); the spoken ‹macam tu› for «seperti itu» comes in chapter 17, so this unit only names it. «segi empat» and «bulat» tell the shape: four-sided or round.",
-     "«bentuk» は形、«bentuknya»（‹-nya›、第2章）は「その形」です：«Bentuknya segi empat, seperti kotak.»（Kata-Kata の文型）。«seperti» ＋名詞で何に似ているかを言います：«seperti kotak»・«seperti jam»。"
+     "«bentuk» は形、«bentuknya»（‹-nya›、第2章）は「その形」です：«Bentuknya segi empat, seperti kotak.»（Kata-Kata の文型）。«seperti» ＋名詞で何に似ているかを言います：«seperti kotak»・«seperti bola»。"
      "«seperti ini» は「これのような」（話し手の近くや手にある物）、«seperti itu» は「それのような」です：«Seperti ini?» «Ya, seperti itu, tetapi ada zip.»（Kata-Kata の文）。"
      "«seperti» は標準の語です。話すときは «macam»（第5章）を使い、«seperti itu» にあたる話し言葉の ‹macam tu› は第17章なので、このユニットでは名前だけ出します。«segi empat» と «bulat» は形を言います：四角か丸です。",
      'Japanese 〜のような and 〜みたい both mean «seperti»; そのような is «seperti itu» and このような is «seperti ini». Japanese says 形は四角で、箱のようです with a ような that changes form; Malay keeps «seperti» as it is and puts the noun after it.',
@@ -290,7 +292,7 @@ CFG = dict(
     grammar_ids={'hilang': 'ms-c15-g02', 'yang': 'ms-c15-g03', 'warna': 'ms-c15-g04', 'bentuk': 'ms-c15-g05', 'mana': 'ms-c15-g06',
                  'memakai': 'ms-c15-g07', 'drop': 'ms-c15-g08', 'words': 'ms-c15-g09'},
     grammar=['hilang', 'yang', 'warna', 'bentuk', 'mana', 'memakai'], examples=EXAMPLES, vocab_opts=VOCAB_OPTS,
-    card_range='the 21 cards ms-c15-001 to ms-c15-021', frame_list='ms-c15-f01 to f06', frame_list_ja='f01〜f06',
+    card_range='the 23 cards ms-c15-001 to ms-c15-023', frame_list='ms-c15-f01 to f06', frame_list_ja='f01〜f06',
     extra=None,
     goals={'A': 'I can say that something of mine is lost and describe it with «yang», a colour and a feature.',
            'B': 'I can describe a wallet or a bag by colour, shape and features, and say which one with «Yang mana satu?».',
@@ -329,7 +331,7 @@ CFG = dict(
                        '«Dompet saya hilang.» (cue: «beg tangan»)',
                        '«Lelaki yang memakai cermin mata.» (cue: «perempuan», «topi»)',
                        '«Beg itu berwarna hitam dan ada tali panjang.» (cue: «dompet», «biru», «zip»)',
-                       '«Bentuknya segi empat, seperti kotak.» (cue: «bulat», «jam»)',
+                       '«Bentuknya segi empat, seperti kotak.» (cue: «bulat», «bola»)',
                        '«Yang ada zip atau yang tidak ada zip?» (cue: «yang besar», «yang kecil»)',
                        '«Dia memakai baju berjalur.» (cue: «seluar hitam», «kasut putih»)',
                        '«Saya tidak ingat jenamanya.» (cue: «warna»)'],
@@ -361,7 +363,7 @@ CFG = dict(
                    'Cover the line and say it from the English: my wallet is lost; I am looking for a bag that has a zip; the man who wears glasses; the bag is black and has a long strap; which one, the one with a zip or the one without; '
                    'its shape is rectangular, like a box; yes, like that one, but it has a zip; he is with a woman who wears a hat.'],
         'substitute': ['1 «Saya mencari dompet yang ada satu poket kecil.» 2 «Beg tangan saya hilang.» 3 «Perempuan yang memakai topi.» 4 «Dompet itu berwarna biru dan ada zip.»',
-                       '5 «Bentuknya bulat, seperti jam.» 6 «Yang besar atau yang kecil?» 7 «Dia memakai seluar hitam.» (and «Dia memakai kasut putih.») 8 «Saya tidak ingat warnanya.»'],
+                       '5 «Bentuknya bulat, seperti bola.» 6 «Yang besar atau yang kecil?» 7 «Dia memakai seluar hitam.» (and «Dia memakai kasut putih.») 8 «Saya tidak ingat warnanya.»'],
         'transform': ['1 «Saya mencari beg yang ada tali panjang.» 2 «Saya jumpa seorang perempuan yang memakai topi.» 3 «Lelaki yang tinggi memakai cermin mata.» (or «Lelaki yang memakai cermin mata itu tinggi.») '
                       '4 «Beg itu berwarna hitam.» 5 «Bentuk dompet itu segi empat, seperti kotak.»',
                       '6 «Beg itu tidak ada zip.» 7 «Yang ada zip.» 8 «Apa warna dompet itu?» 9 «Yang mana satu?» 10 «Dompet saya sudah hilang.»'],
@@ -481,7 +483,7 @@ CFG = dict(
                   ('Say in Malay: "I am looking for a bag that has a zip."', '«Saya mencari beg yang ada zip.»', ['yang', 'zip']),
                   ('Say in Malay: "The man who wears glasses."', '«Lelaki yang memakai cermin mata.»', ['lelaki', 'memakai', 'cermin mata']),
                   ('Say in Malay: "Which one? The one with a zip or the one without?"', '«Yang mana satu? Yang ada zip atau yang tidak ada zip?»', ['yang mana', 'zip'])],
-    test_reading=['Fictional lost-property form: «Barang: beg tangan. Ciri: berwarna merah, kulit, ada dua poket dan tali panjang. Bentuk: bulat, seperti jam besar. '
+    test_reading=['Fictional lost-property form: «Barang: beg tangan. Ciri: berwarna merah, kulit, ada dua poket dan tali panjang. Bentuk: bulat, seperti bola besar. '
                   'Tempat: stesen. Kad ada di dalam beg tangan.»'],
     reading_quiz=[('What is lost?', 'a handbag', ['beg tangan', 'hilang']),
                   ('What colour is it, and what is it made of?', 'red; leather', ['berwarna', 'kulit']),
@@ -508,9 +510,9 @@ CFG = dict(
     hanashishou_note='Hanashishou (Stage 2): the plan links chapter 15 to the lost-property and station scenes. '
                      'Their Malay is not yet tagged by chapter (build step 6), so do not assign them yet.',
     next_note='Next: the review block after chapter 15 (chapters 13 to 15 and earlier verb contrasts), then unit 16 (Kata-Kata c16).',
-    teacher_notes=['Load: 21 core words in four groups (lost things 6, parts and materials 5, colour, shape and likeness 6, people and what they wear 4), no recognition word, and revision of describing, clothes and papers, places and people, and talking. '
+    teacher_notes=['Load: 23 core words in four groups (lost things 7, parts and materials 5, colour, shape and likeness 7, people and what they wear 4), no recognition word, and revision of describing, clothes and papers, places and people, and talking. '
                    'Suggested order: Block A the first two groups with patterns 1 and 2; Block B the last two groups with patterns 3 to 5. '
-                   'If the pilot shows 21 is too many, the natural cut is: «hilang», «dompet», «beg tangan», «zip», «berwarna», «bentuk», «seperti», «lelaki», «perempuan», «memakai» first; the rest second.',
+                   'If the pilot shows 23 is too many, the natural cut is: «hilang», «dompet», «beg tangan», «zip», «berwarna», «bentuk», «seperti», «lelaki», «perempuan», «memakai» first; the rest second.',
                    '«yang» is the connector Japanese does not need. Japanese puts the whole description before the noun and links it with nothing: 黒い財布, 眼鏡をかけている男性. Malay puts the noun first and joins the description with «yang»: '
                    '«dompet yang hitam» and «dompet hitam» both exist (the first stresses "the black one" against another), and «lelaki yang memakai cermin mata» needs «yang» because the description has a verb. '
                    '«yang» is one word for "who", "which" and "that", for people and things.',

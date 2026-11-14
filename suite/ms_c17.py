@@ -2,8 +2,8 @@
 a café that is too spicy and the mamak near the office
 (Sudikah encik ___?; Sayangnya saya tidak ___. Lain kali, ya?; Bagaimana kalau ___?; ___! Hari Jumaat, pukul tujuh. / Tidak mengapa. ___.; Jom makan kat ___ ni!).
 
-24 core ledger entries, the rows the ledger places in "Ch17 (unit 17)": the existing rows L-0656 «lapang», L-0689 «ajak», L-0690 «tak tahan», L-0703 «set», L-0717 «belanja»,
-L-0748 «singgah», L-0787 «malangnya» and L-0828 «sudi», and the new rows L-1252 to L-1267. They come in four groups: invitations (8), accepting and declining (6),
+26 core ledger entries, the rows the ledger places in "Ch17 (unit 17)": the existing rows L-0656 «lapang», L-0689 «ajak», L-0690 «tak tahan», L-0703 «set», L-0717 «belanja»,
+L-0748 «singgah», L-0787 «malangnya» and L-0828 «sudi», the new rows L-1252 to L-1267, and L-1302 «balas» and L-1303 «minggu depan» (approved by Sam, 14 Nov 2026). They come in four groups: invitations (8), accepting and declining (8),
 standard and spoken pairs (8) and the two particles «lah» and «kan» (2). No recognition word. Standard first, always: every spoken form is taught after its standard form
 and labelled "spoken" («takpe», «tak apa» after «tidak mengapa»; «tak tahan» after «tidak boleh tahan»; «set» after «setuju»; «kat», «ni», «tu», «macam tu» after «di», «ini», «itu», «seperti itu»).
 «lah» (joined in writing: «Takpelah.») and «kan» are for recognition: no key and no task requires them. The scene follows Kata-Kata c17 (scenario lines ms-c17-s01 to s20: the dinner
@@ -13,7 +13,7 @@ Japanese is a draft awaiting native review.
 from .chapter10_common import unit_dict
 
 INVITE = ['L-1265', 'L-0689', 'L-0828', 'L-0656', 'L-0717', 'L-0748', 'L-1257', 'L-1260']
-ANSWER = ['L-1255', 'L-1256', 'L-1258', 'L-1259', 'L-0787', 'L-1261']
+ANSWER = ['L-1255', 'L-1256', 'L-1258', 'L-1259', 'L-0787', 'L-1261', 'L-1302', 'L-1303']
 PAIRS = ['L-1267', 'L-0690', 'L-0703', 'L-1252', 'L-1263', 'L-1264', 'L-1262', 'L-1266']
 PARTICLES = ['L-1254', 'L-1253']
 CORE = INVITE + ANSWER + PAIRS + PARTICLES
@@ -50,6 +50,8 @@ EXAMPLES = {
     'L-1264': '«Kedai mamak tu dekat sahaja.»',
     'L-1262': '«Macam tu boleh?»',
     'L-1266': '«Takpe. Kita cari kedai lain.»',
+    'L-1302': '«Sila balas sebelum hari Rabu.»',
+    'L-1303': '«Saya belanja minggu depan.»',
     # particles
     'L-1254': '«Takpelah. Kita cari kedai lain.»',
     'L-1253': '«Cakap seperti itu pun bagus, kan?»',
@@ -173,7 +175,7 @@ VOCAB_OPTS = {
 
 P = [
     ('ms-c17-f01', '«Sudikah encik» ___ «?»  (a polite invitation)', [
-        'A: «Ini jemputan makan malam pejabat. Sudikah encik datang?» B: «Terima kasih, Puan Aini. Pukul berapa?»',
+        'A: «Ini jemputan makan malam pejabat. Sudikah encik datang? Sila balas sebelum hari Rabu.» B: «Terima kasih, Puan Aini. Pukul berapa?»',
         'A: «Sudikah puan makan dengan kami hari Jumaat?» B: «Terima kasih. Saya lapang pada hari Jumaat.»',
         'A: «Boleh cik singgah di pejabat dulu?» B: «Boleh. Saya singgah pukul enam.»',
         'A: «Sudikah encik datang ke rumah saya hujung minggu ini?» B: «Terima kasih atas jemputan puan. Saya akan datang.»',
@@ -234,7 +236,7 @@ P = [
         'A: «Jom makan kat kafe ni!» B: «Jom! Saya lapar.»',
         'A: «Jom makan kat kedai mamak tu!» B: «Set!»',
         'A: «Kedai mamak tu di mana?» B: «Kat depan pejabat tu. Dekat sahaja.»',
-        'A: «Jom minum kat kafe ni! Saya belanja!» B: «Terima kasih! Saya minum teh. Lain kali saya belanja.»',
+        'A: «Jom minum kat kafe ni! Saya belanja!» B: «Terima kasih! Saya minum teh. Saya belanja minggu depan.»',
         'A: «Makanan kat sini pedas.» B: «Saya tak tahan pedas. Saya tak nak pedas.»',
         'A: «Macam tu boleh?» B: «Boleh. Takpe.»'],
      "This pattern is spoken Malay for friends and colleagues (the Kata-Kata frame): «jom» (let's), «kat» for the standard «di», and «ni» or «tu» after the noun for «ini» or «itu»: «kafe ni», «kedai mamak tu». "
@@ -299,7 +301,7 @@ LISTENING = [
     ('Tanaka', 'Kalau macam tu, saya setuju. Esok saya lapang.'),
     ('Mei Ling', 'Set! Esok pukul dua belas. Encik Rahman belanja, ya?'),
     ('Rahman', 'Ya, esok saya belanja. Lain kali, Mei Ling belanja pula, ya?'),
-    ('Mei Ling', 'Bolehlah. Lain kali saya belanja.'),
+    ('Mei Ling', 'Bolehlah. Saya belanja minggu depan.'),
     ('Rahman', 'Kedai itu dekat sahaja. Kita jalan kaki dari pejabat.'),
     ('Mei Ling', 'Bagus! Saya suka jalan kaki.'),
     ('Tanaka', 'Pukul dua belas, saya tunggu di depan pejabat. Terima kasih, semua.'),
@@ -313,7 +315,7 @@ CULTURE = [
     '«lah» and «kan» are everyday particles. «lah» softens or stresses what is said, and its meaning depends on the tone; «kan» asks the listener to agree. Japanese learners often add «lah» to every sentence, which sounds odd, '
     'and neither is a copy of よ or ね. You must understand them but never need to say them: a sentence without them is correct. In writing, «lah» joins the word: «Takpelah.»',
     'General knowledge, not a rule and not a checked fact: colleagues in Malaysia often eat together at casual stalls near the office, and the person who invites often says «Saya belanja!» '
-    '«belanja» means to treat someone, not to spend money (that is «berbelanja»). Accept kindly, and offer «Lain kali saya belanja.» Names and places in this course are fictional.',
+    '«belanja» means to treat someone, not to spend money (that is «berbelanja»). Accept kindly, and offer «Saya belanja minggu depan.» Names and places in this course are fictional.',
 ]
 CULTURE_JA = [
     'マレー語の話し手は二つのレジスターを使い分けます。友人や同僚と、また日常の屋台では «takpe»・«kat»・«ni»・«tu»・«Set!» と言います。メール・書類・お知らせ・お客様との会議では標準形 «tidak mengapa»・«di»・«ini»・«itu»・«setuju» を使います。'
@@ -323,7 +325,7 @@ CULTURE_JA = [
     '«lah» と «kan» は日常の助詞です。«lah» は語調をやわらげたり強めたりし、意味は語調によります。«kan» は聞き手に同意を求めます。日本人の学習者はすべての文に «lah» を付けがちで、不自然に聞こえます。'
     'どちらも「よ」や「ね」の写しではありません。聞いて分かる必要はあっても、自分で言う必要はなく、なくても文は正しいです。書くときは «lah» は語に続けます：«Takpelah.»',
     '一般的な知識であり、規則でも確認済みの事実でもありません：マレーシアの同僚は、職場の近くの気軽な屋台で一緒に食べることがよくあり、誘った人は «Saya belanja!» とよく言います。'
-    '«belanja» は「おごる」で、「お金を使う」ではありません（それは «berbelanja»）。快く受け、«Lain kali saya belanja.» と返します。このコースの名前と場所はすべて架空です。',
+    '«belanja» は「おごる」で、「お金を使う」ではありません（それは «berbelanja»）。快く受け、«Saya belanja minggu depan.» と返します。このコースの名前と場所はすべて架空です。',
 ]
 
 CFG = dict(
@@ -339,7 +341,7 @@ CFG = dict(
     grammar_ids={'invite': 'ms-c17-g02', 'decline': 'ms-c17-g03', 'suggest': 'ms-c17-g04', 'pairs': 'ms-c17-g05', 'particles': 'ms-c17-g06',
                  'register': 'ms-c17-g07', 'tahan': 'ms-c17-g08', 'words': 'ms-c17-g09'},
     grammar=['invite', 'decline', 'suggest', 'pairs', 'particles', 'register'], examples=EXAMPLES, vocab_opts=VOCAB_OPTS,
-    card_range='the 24 cards ms-c17-001 to ms-c17-024', frame_list='ms-c17-f01 to f06', frame_list_ja='f01〜f06',
+    card_range='the 26 cards ms-c17-001 to ms-c17-026', frame_list='ms-c17-f01 to f06', frame_list_ja='f01〜f06',
     extra=None,
     goals={'A': 'I can invite someone politely with «Sudikah encik …?», and say yes («Setuju!») or no («Sayangnya saya tidak …») with a reason.',
            'B': 'I can suggest another time with «Bagaimana kalau …?», take a refusal kindly, and tell the standard forms from the spoken ones, such as «tidak mengapa» and its spoken partner.',
@@ -482,7 +484,7 @@ CFG = dict(
                          'What does he say about the food?', 'What does Mr Tanaka answer?', 'What does Mei Ling answer, and when is the lunch?'],
     reading_title='Reading and writing · A written invitation and a reply',
     reading=['A fictional message from the office and a written reply (standard Malay; all names are invented):',
-             '«Encik Tanaka, ini jemputan makan malam pejabat. Hari: Jumaat. Pukul: tujuh malam. Tempat: kedai makan dekat pejabat. Bos belanja. Sudikah encik datang? Sila hubungi Puan Aini. Terima kasih.»',
+             '«Encik Tanaka, ini jemputan makan malam pejabat. Hari: Jumaat. Pukul: tujuh malam. Tempat: kedai makan dekat pejabat. Bos belanja. Sudikah encik datang? Sila balas sebelum hari Rabu. Sila hubungi Puan Aini. Terima kasih.»',
              'Reply: «Terima kasih, Puan Aini. Saya segan untuk menolak jemputan puan, tetapi hari Jumaat saya tidak lapang. Bagaimana kalau hari Khamis?»'],
     read_questions=['What is the message, and who is it for?', 'On what day and at what time?', 'Where is it?', 'Who pays?', 'What does the reply say about the invitation?',
                     'Why can the person not come?', 'What does he suggest?'],
@@ -547,9 +549,9 @@ CFG = dict(
           'E_variation': 'a changed fact: the day moves from Friday to Thursday and the boss changes the plan; B accepts or declines again with a reason and «Lain kali, ya?».'},
     hanashishou_note='Hanashishou (Stage 2): the plan links chapter 17 to the weekend-plans and team-dinner scenes. Their Malay is not yet tagged by chapter (build step 6), so do not assign them yet.',
     next_note='Next: chapter 18 (the integrated review, rehearsal and the A2 check; no new word).',
-    teacher_notes=['Load: 24 core words in four groups (invitations 8, accepting and declining 6, standard and spoken pairs 8, two particles 2), no recognition word, and revision of the Stage 1 spoken forms, food and the café, plans, days and the office. '
+    teacher_notes=['Load: 26 core words in four groups (invitations 8, accepting and declining 8, standard and spoken pairs 8, two particles 2), no recognition word, and revision of the Stage 1 spoken forms, food and the café, plans, days and the office. '
                    'Suggested order: Block A the first two groups with patterns 1 and 2; Block B the pairs and the particles with patterns 3 to 5. '
-                   'If the pilot shows 24 is too many, the natural cut is: «sudi», «lapang», «setuju», «menolak», «sayangnya», «lain kali», «tidak mengapa», «tidak boleh tahan», «jemputan» first; the rest second.',
+                   'If the pilot shows 26 is too many, the natural cut is: «sudi», «lapang», «setuju», «menolak», «sayangnya», «lain kali», «tidak mengapa», «tidak boleh tahan», «jemputan» first; the rest second.',
                    'Standard first, always: the standard form is taught before its spoken form, and the spoken form is labelled "spoken". The pairs of this chapter: «tidak mengapa» / «takpe» or «tak apa»; «tidak boleh tahan» / «tak tahan»; «seperti itu» / «macam tu»; «di» / «kat»; «ini» / «ni»; «itu» / «tu»; «setuju» / «set»; and «jom» against «mari». '
                    'Learners must understand the spoken forms, may use them with friends and colleagues, and write the standard forms. The spoken form is never marked wrong in conversation and the standard form is always right.',
                    'When to use the spoken forms and when not: use them with friends, with colleagues you know and at the mamak; do not use them in emails, forms, notices or meetings with clients, or with someone you meet for the first time. '
@@ -561,7 +563,7 @@ CFG = dict(
                    'Polite refusal in Malaysia against Japanese ちょっと…: soften («Sayangnya …», «Malangnya …»), give a reason, and offer another time («Lain kali, ya?»). Saying only «Susah» or nothing leaves the host unsure; a clear but soft no is both polite and understood. '
                    '«Saya segan untuk menolak jemputan puan.» is a polite way to say that you are reluctant. The teacher stays with this teaching hypothesis: it is not a rule of Malaysian manners and is not source-checked.',
                    '«belanja» means to treat someone (to pay for them), not to spend money: «Bos belanja.» «Saya belanja!» The chapter 10 word «berbelanja» is to spend money or shop. A learner who says «Saya belanja di pasar» for shopping has mixed them. '
-                   '«Lain kali saya belanja.» is the kind answer to a treat. «menolak» is «tolak» (chapter 9, push) with meN-; here it means to decline.',
+                   '«Saya belanja minggu depan.» is the kind answer to a treat. «menolak» is «tolak» (chapter 9, push) with meN-; here it means to decline.',
                    '«jom», «mari», «ajak», «jemput» and «sudi» are different tones, not shortenings of one another: «Sudikah encik datang?» (polite, to a senior person), «Mari kita pergi.» (standard), «Jom makan!» (friends), «Saya ajak encik.» (friendly), «Ini jemputan daripada Puan Aini.» (a written invitation). '
                    '«sudi» asks the other person and is not used about yourself.',
                    '«sudi» is very polite and belongs to invitations («Sudikah encik datang?»); «boleh» is the casual, common choice in an everyday request («Boleh cik singgah di pejabat dulu?»). Teach «sudi» for a senior person, a client or a formal invitation, and «boleh» for colleagues and friends (Sam, 14 Nov 2026).',

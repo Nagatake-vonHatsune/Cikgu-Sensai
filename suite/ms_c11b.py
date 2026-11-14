@@ -1,7 +1,7 @@
 """Unit 11B: meN- verbs for the draft, the deadline and the weekend: checking, phoning, charging, renting, ordering, hiking
 (Tolong semak ___ ini; Hujung minggu ini saya mahu ___; Aini ___ buku itu; Siapa yang ___ fail itu?).
 
-21 core ledger entries, the rows the ledger places in "Ch11 (unit 11B)" (L-1143 to L-1156, and the existing rows L-0680 «draf»,
+24 core ledger entries, the rows the ledger places in "Ch11 (unit 11B)" (L-1143 to L-1156, L-1278 «sehari», L-1279 «menempah» and L-1280 «bukit», approved by Sam on 14 Nov 2026, and the existing rows L-0680 «draf»,
 L-0684 «rancangan», L-0696 «slaid», L-0792 «menyimpan», L-0819 «menyemak», L-0849 «tarikh akhir» and L-0865 «mendaki»), in three
 groups, and two recognition entries: L-0604 «tukar» (spoken partner of «menukar») and L-0678 «deadline» (spoken partner of
 «tarikh akhir»), ledger "Ch11 (unit 11B, recognition ...)"; Kata-Kata cards ms-c11-042 and -043, recognise only. This unit teaches
@@ -14,7 +14,7 @@ from .chapter10_common import unit_dict
 
 DRAFT = ['L-0819', 'L-1153', 'L-0680', 'L-0696', 'L-0849', 'L-0684']
 THINGS = ['L-1154', 'L-1155', 'L-1156', 'L-1145', 'L-1146', 'L-1147', 'L-1148']
-LIFE = ['L-0865', 'L-1144', 'L-1143', 'L-1149', 'L-1150', 'L-1151', 'L-1152', 'L-0792']
+LIFE = ['L-0865', 'L-1144', 'L-1143', 'L-1149', 'L-1150', 'L-1151', 'L-1152', 'L-0792', 'L-1279', 'L-1278', 'L-1280']
 CORE = DRAFT + THINGS + LIFE
 RECOGNITION = ['L-0604', 'L-0678']
 
@@ -49,6 +49,9 @@ EXAMPLES = {
     'L-1151': '«Cik Mei Ling menolong saya.»',
     'L-1152': '«Isteri saya mengajar saya memasak.»',
     'L-0792': '«Saya menyimpan fail itu di komputer saya.»',
+    'L-1279': '«Kami menempah kereta untuk hujung minggu.»',
+    'L-1278': '«Seratus ringgit sehari.» («sehari» = per day; «setiap hari» = every day)',
+    'L-1280': '«Kami mahu mendaki bukit pada hari Ahad.»',
     # Recognition
     'L-0604': '«Saya mahu tukar bilik.» (spoken; standard: «Saya mahu menukar bilik.»)',
     'L-0678': '«Deadline hari Jumaat.» (spoken; formal and written: «Tarikh akhir hari Jumaat.»)',
@@ -107,17 +110,18 @@ ROOTS = {
     'L-1151': ('«tolong»', 'chapter 8', 'the t drops: «menolong»', 't が落ちる', None),
     'L-1152': ('‹ajar›', None, '‹meng-› before a vowel', '‹meng-›（母音の前）', None),
     'L-1155': ('«telefon»', 'Dunia, chapter 7', 'the t drops: «menelefon»', 't が落ちる', None),
+    'L-1279': ('«tempah»', 'chapter 4', 'the t drops: «menempah»; the everyday root «tempah» is the same word', 't が落ちる；日常語は語根の «tempah»', None),
     'L-1156': ('«cas»', 'Dunia, chapter 7', '‹menge-› before a one-syllable root: «mengecas»', '‹menge-›（一音節の語根の前）', None),
 }
 _EN = {'L-0819': 'to check, to review', 'L-0792': 'to keep, to store (standard; everyday «simpan»)', 'L-0865': 'to hike, to climb a hill',
        'L-1143': 'to rent as a tenant', 'L-1144': 'to travel for leisure', 'L-1145': 'to change, to exchange (standard; everyday «tukar»)',
        'L-1146': 'to count, to calculate', 'L-1147': 'to fill (in), to put in', 'L-1148': 'to choose', 'L-1149': 'to borrow',
        'L-1150': 'to order (goods, food)', 'L-1151': 'to help', 'L-1152': 'to teach', 'L-1155': 'to phone',
-       'L-1156': 'to charge (a phone, a battery)'}
+       'L-1156': 'to charge (a phone, a battery)', 'L-1279': 'to book (standard form)'}
 _JA = {'L-0819': '確認する・目を通す', 'L-0792': '保管する・取っておく（標準；日常は «simpan»）', 'L-0865': '（山を）登る・ハイキングする',
        'L-1143': '（家・部屋を）借りる（賃借する）', 'L-1144': '旅行する', 'L-1145': '替える・交換する（標準；日常は «tukar»）',
        'L-1146': '数える・計算する', 'L-1147': '記入する・入れる', 'L-1148': '選ぶ', 'L-1149': '（一時的に）借りる',
-       'L-1150': '注文する', 'L-1151': '手伝う・助ける', 'L-1152': '教える', 'L-1155': '電話をかける', 'L-1156': '充電する'}
+       'L-1150': '注文する', 'L-1151': '手伝う・助ける', 'L-1152': '教える', 'L-1155': '電話をかける', 'L-1156': '充電する', 'L-1279': '予約する（標準形）'}
 
 
 def _where_ja(where):
@@ -145,6 +149,8 @@ def _opts(lid):
 
 VOCAB_OPTS = {lid: _opts(lid) for lid in ROOTS}
 VOCAB_OPTS.update({
+    'L-1278': {'en': 'a day; per day (‹se-› + «hari», chapter 4; «sehari» = per day, «setiap hari» = every day)',
+               'ja': '1日、1日あたり（‹se-› ＋ «hari»、第4章；«sehari»＝1日あたり、«setiap hari»＝毎日）'},
     'L-1153': {'en': 'check, review (the root of «menyemak», used as a request: «Tolong semak draf ini.»)',
                'ja': '確認してください（«menyemak» の語根；依頼で使う：«Tolong semak draf ini.»）'},
     'L-0680': {'en': 'a draft', 'ja': '下書き'},
@@ -182,8 +188,8 @@ P = [
      '間違いやすいのは丁寧な動詞形をそのままマレー語にすることです：*«Tolong menyemak draf ini» は不自然なので、語根を使います。'),
     ('ms-c11-f06', '«Hujung minggu ini saya mahu» ___.  (this weekend I want to ___)', [
         'A: «Hujung minggu ini awak buat apa?» B: «Hujung minggu ini saya mahu memasak.»',
-        'A: «Awak mahu memasak apa?» B: «Saya mahu memasak nasi lemak.»',
-        'A: «Encik mahu melancong ke mana?» B: «Hujung minggu ini saya mahu melancong ke Johor Bahru.»',
+        'A: «Awak mahu mendaki di mana?» B: «Saya mahu mendaki bukit dengan kawan saya.»',
+        'A: «Encik mahu melancong ke mana?» B: «Hujung minggu ini saya mahu melancong ke Johor Bahru. Kami menempah kereta, seratus ringgit sehari.»',
         'A: «Puan mahu memesan apa?» B: «Saya mahu memesan teh tarik.»',
         'A: «Awak mahu meminjam apa?» B: «Saya mahu meminjam buku itu.»',
         'A: «Awak mahu menyewa rumah di mana?» B: «Saya mahu menyewa rumah dekat stesen.»'],
@@ -270,13 +276,13 @@ VARIANT = [
 ]
 LISTENING = [
     ('Tanaka', 'Cik Mei Ling, apa rancangan cik pada hujung minggu?'),
-    ('Mei Ling', 'Pada hari Sabtu saya mahu mendaki dengan kawan saya. Kami bertolak pukul enam pagi.'),
+    ('Mei Ling', 'Pada hari Sabtu saya mahu mendaki bukit dengan kawan saya. Kami bertolak pukul enam pagi.'),
     ('Tanaka', 'Cik membawa apa?'),
     ('Mei Ling', 'Saya membawa air dan roti. Malam ini saya juga mahu mengecas telefon saya.'),
     ('Tanaka', 'Pada hari Ahad pula?'),
-    ('Mei Ling', 'Saya mahu melancong ke Johor Bahru dengan keluarga saya. Kami menyewa kereta di sana.'),
+    ('Mei Ling', 'Saya mahu melancong ke Johor Bahru dengan keluarga saya. Kami menempah kereta di sana.'),
     ('Tanaka', 'Wah! Berapa sewa kereta itu?'),
-    ('Mei Ling', 'Seratus ringgit untuk satu hari. Kawan saya membayar dulu.'),
+    ('Mei Ling', 'Seratus ringgit sehari. Kawan saya membayar dulu.'),
     ('Tanaka', 'Seronok! Tetapi draf slaid itu bagaimana? Tarikh akhir hari Isnin, ya?'),
     ('Mei Ling', 'Ya. Saya menyemak draf itu hari Jumaat. Selepas itu saya menghantar draf itu ke Osaka.'),
     ('Tanaka', 'Baik. Siapa yang akan menelefon Osaka?'),
@@ -369,7 +375,7 @@ CFG = dict(
     grammar_ids={'active': 'ms-c11-g02', 'passive': 'ms-c11-g03', 'who': 'ms-c11-g04', 'now': 'ms-c11-g05',
                  'request': 'ms-c11-g06', 'plans': 'ms-c11-g07', 'spelling': 'ms-c11-g08'},
     grammar=['request', 'plans', 'active', 'who', 'spelling'], examples=EXAMPLES, vocab_opts=VOCAB_OPTS,
-    card_range='the 23 cards ms-c11-021 to ms-c11-043 (the cards ms-c11-042 «tukar» and ms-c11-043 «deadline» are recognise only)',
+    card_range='the 26 cards ms-c11-021 to ms-c11-043 and ms-c11-045 to ms-c11-047 (the cards ms-c11-042 «tukar» and ms-c11-043 «deadline» are recognise only)',
     frame_list='ms-c11-f04, f06, f01 and f03', frame_list_ja='f04・f06・f01・f03', extra=EXTRA,
     goals={'A': 'I can request a check with «Tolong semak …» and say what I want to do this weekend with «mahu» and a meN- verb.',
            'B': 'I can ask and answer about a draft, a deadline and the weekend, and spell the meN- verbs with s, k and one-syllable roots.',
@@ -500,7 +506,7 @@ CFG = dict(
     listening_before=['Predict: which meN- verbs will you hear? Write three guesses (for example «mendaki», «mengecas», «menyemak»). / 聞こえそうな meN- の動詞を三つ予想しましょう。',
                       'Read the nine questions below before the first listening. / 1回目の前に下の9つの質問を読みます。'],
     listen_questions=['What does Mei Ling want to do on Saturday, and when do they set off?', 'What does she bring?', 'What does she want to do tonight?',
-                      'Where does she want to travel on Sunday?', 'What do they rent there, and for how much?', 'When is the deadline of the draft?',
+                      'Where does she want to travel on Sunday?', 'What do they book there, and for how much?', 'When is the deadline of the draft?',
                       'When does she check the draft?', 'Where does she send the draft?', 'Who will phone Osaka, and when?'],
     listen_answers=['go hiking with a friend; at six in the morning', 'water and bread', 'charge her phone', 'Johor Bahru', 'a car (a hundred «ringgit» a day)', 'Monday',
                     'on Friday', 'to Osaka', 'Rahman; Monday morning'],
@@ -508,12 +514,12 @@ CFG = dict(
                      'Tell your partner your plans for this weekend in four sentences with «mahu» and a meN- verb. / 今週末の予定を、«mahu» と meN- の動詞を使って4文でパートナーに話しましょう。'],
     test_listen=[(1, 'go hiking with a friend; at six', ['mendaki', 'bertolak', 'pukul']),
                  (3, 'water and bread; charge her phone', ['membawa', 'mengecas', 'telefon']),
-                 (5, 'she travels to Johor Bahru and they rent a car', ['melancong', 'menyewa']),
+                 (5, 'she travels to Johor Bahru and they book a car', ['melancong', 'menempah']),
                  (8, 'on Monday', ['tarikh akhir', 'hari']),
                  (9, 'on Friday; to Osaka', ['menyemak', 'menghantar']),
                  (11, 'Rahman, on Monday morning', ['menelefon', 'hari', 'pagi'])],
     test_listen_prompts=['What does Mei Ling want to do on Saturday, and when do they set off?', 'What does she bring, and what does she want to do tonight?',
-                         'Where does she travel on Sunday, and what do they rent?', 'When is the deadline of the draft?',
+                         'Where does she travel on Sunday, and what do they book?', 'When is the deadline of the draft?',
                          'When does she check the draft, and where does she send it?', 'Who will phone Osaka, and when?'],
     reading_title='Reading and writing · A message about a draft',
     reading=['Fictional message in the team chat (all names, places and times are invented):',
@@ -590,10 +596,10 @@ CFG = dict(
     hanashishou_note='Hanashishou (Stage 2): the plan links chapter 11 to the office scene report_deadline for this unit, with «mendaki» from the social pack. '
                      'Their Malay is not yet tagged by chapter (build step 6), so do not assign them yet. The full story already contains later words and suffixes.',
     next_note='Next: the review block after 11B (chapters 10 and 11), then chapter 12 (suffixed verb forms).',
-    teacher_notes=['Load: 21 core words in three groups (the draft and the deadline 6; messages, phones, money and choices 7; free time, help and renting 8), two '
+    teacher_notes=['Load: 24 core words in three groups (the draft and the deadline 6; messages, phones, money and choices 7; free time, help and renting 11), two '
                    'recognition entries («tukar» and «deadline»), and revision of the roots, the office, free time and the markers. Suggested order: Block A the '
                    'first group with patterns 1 and 2; Block B the second group with pattern 3 (the spelling table); the third group with pattern 4 in Block B or C. '
-                   'If the pilot shows 21 is too many, the natural cut is: «menyemak», «semak», «draf», «tarikh akhir», «mesej», «menelefon», «mendaki», '
+                   'If the pilot shows 24 is too many, the natural cut is: «menyemak», «semak», «draf», «tarikh akhir», «mesej», «menelefon», «mendaki», '
                    '«memesan», «menyewa», «mengecas» first; the rest second.',
                    'The nasal-change traps from the Kata-Kata cards: «menyewa», not *mensewa (card ms-c11-021); «mengira», not *mengkira (ms-c11-027); «mengecas», not '
                    '*mengcas (ms-c11-041); «memilih», «meminjam» and «memesan» drop the p (ms-c11-029 to -031); «menolong» drops the t (ms-c11-032). The same rule for ‹menyapu› '

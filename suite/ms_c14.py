@@ -1,24 +1,25 @@
 """Unit 14: reasons, conditions, purpose, contrast and sequence: planning the weekend hike, the rain plan and the change to Sunday
 (Kalau ___, kita ___; Saya tidak datang kerana ___; Saya ___ supaya ___; Walaupun ___, saya ___; Dia ___ sambil ___; Mula-mula ___, kemudian ___, akhirnya ___).
 
-22 core ledger entries, the rows the ledger places in "Ch14 (unit 14)": the existing rows L-0641 «tangguh» and L-0710 «janji», the new rows
-L-1201 to L-1218, and L-1269 «tangguhkan» and L-1270 «batalkan» (added by Sam, Journal row 184, with their roots «tangguh» and «batal»). They come in
-three groups: joining ideas (10: the formal connectors «jika», «apabila», «namun», «oleh itu» beside the everyday «kalau», «bila», «tetapi», «jadi»),
-the order of a plan (3) and plans and changes (9). No recognition word. The ke-an, per-an, -an, -nya and lexicalised words («keputusan», «perubahan»,
+29 core ledger entries, the rows the ledger places in "Ch14 (unit 14)": the existing rows L-0641 «tangguh» and L-0710 «janji», the new rows
+L-1201 to L-1218, L-1269 «tangguhkan» and L-1270 «batalkan» (added by Sam, Journal row 184, with their roots «tangguh» and «batal»), and the seven words
+Sam approved on 14 Nov 2026: L-1289 «baiklah», L-1290 «begini», L-1291 «ikut», L-1292 «kata», L-1293 «pengumuman», L-1294 «menangguhkan» and
+L-1295 «membatalkan». They come in three groups: joining ideas (10: the formal connectors «jika», «apabila», «namun», «oleh itu» beside the everyday
+«kalau», «bila», «tetapi», «jadi»), the order of a plan and agreeing it (5) and plans and changes (14). No recognition word. The ke-an, per-an, -an, -nya and lexicalised words («keputusan», «perubahan»,
 «tujuan», «pilihan», «akhirnya», «seterusnya», «semasa», «walaupun», «mula-mula») are taught as whole words, as the Kata-Kata chapter 14 card notes say.
 The scene follows Kata-Kata c14 (scenario lines ms-c14-s01 to s15: Tanaka and Cik Mei Ling plan the hike, the rain plan and the change to Sunday)
 word for word, and goes further in class: a second friend, a message in written Malay, a changed day. All names and plans are fictional.
 
 Register (Sam, 13 Nov 2026): «kalau» and «bila» are everyday and are what people say; «jika» and «apabila» are standard and written. The
 casual turns use no ruling-style words («keputusan», «ialah»); «keputusan» is taught as a word for a written notice or a result.
-The -kan rule of chapter 12 holds: «tangguhkan» and «batalkan» appear in «kita» sentences and requests, never after an aspect word or with a
-aspect word; with a third-person doer the bare form is allowed for now (Sam, 13 Nov 2026: «Mei Ling tangguhkan …»; the meN- forms come in a later chapter), and «Rancangan mendaki batal.» is the intransitive. Japanese is a draft awaiting native review.
+The -kan rule of chapter 12 holds: the bare «tangguhkan» and «batalkan» appear in «kita» sentences, requests and offers, never after an aspect word or with a
+third-person doer; a third person takes the standard «menangguhkan» and «membatalkan» (Sam, 14 Nov 2026: «Mei Ling menangguhkan rancangan mendaki kerana dia bekerja.»; the interim bare form of 13 Nov is gone), and «Rancangan mendaki batal.» is the intransitive. Japanese is a draft awaiting native review.
 """
 from .chapter10_common import unit_dict
 
 JOIN = ['L-1201', 'L-1202', 'L-1203', 'L-1204', 'L-1205', 'L-1206', 'L-1207', 'L-1217', 'L-1211', 'L-1212']
-ORDER = ['L-1209', 'L-1210', 'L-1208']
-PLANS = ['L-1213', 'L-1214', 'L-1215', 'L-1216', 'L-0710', 'L-0641', 'L-1269', 'L-1218', 'L-1270']
+ORDER = ['L-1209', 'L-1210', 'L-1208', 'L-1289', 'L-1290']
+PLANS = ['L-1213', 'L-1214', 'L-1215', 'L-1216', 'L-0710', 'L-0641', 'L-1269', 'L-1218', 'L-1270', 'L-1294', 'L-1295', 'L-1291', 'L-1292', 'L-1293']
 CORE = JOIN + ORDER + PLANS
 
 # Revision: words placed in chapters 1 to 13 that the unit really uses (a test fails if one is not used).
@@ -49,6 +50,13 @@ EXAMPLES = {
     'L-1214': '«Ada dua pilihan.»',
     'L-1215': '«Keputusan: kita mendaki pada hari Ahad.» (a written notice)',
     'L-1216': '«Ada perubahan rancangan.»',
+    'L-1289': '«Baiklah, kita buat begini.»',
+    'L-1290': '«Kita buat begini.»',
+    'L-1291': '«Puan Aini mahu ikut?»',
+    'L-1292': '«Apa kata Puan Aini?» («Encik Rahman kata mesyuarat bermula pukul sembilan.»)',
+    'L-1293': '«PENGUMUMAN: Ada perubahan rancangan.»',
+    'L-1294': '«Mei Ling menangguhkan rancangan mendaki kerana dia bekerja.»',
+    'L-1295': '«Puan Aini membatalkan mesyuarat itu.»',
     'L-0710': '«Hari Ahad saya cuti. Janji!»',
     'L-0641': '«Tangguh dulu, ya?» (the root of «tangguhkan»)',
     'L-1269': '«Boleh kita tangguhkan ke hari Ahad?»',
@@ -132,12 +140,20 @@ VOCAB_OPTS = {
                'ja': '変更・変化（一語まるごと覚える；‹per-an› の語は第3段階；語根は ‹ubah›）：«perubahan rancangan»＝予定の変更'},
     'L-0641': {'en': 'to put off, to pause for a while; the root of «tangguhkan»',
                'ja': '延期する・しばらく休む；«tangguhkan» の語根'},
-    'L-1269': {'en': 'to postpone, to put something off («tangguh» + ‹-kan›): for a request or a "we" sentence, as in chapter 12',
-               'ja': '延期する・先に延ばす（«tangguh» ＋ ‹-kan›）：第12章と同じく依頼や «kita» の文に使う'},
+    'L-1269': {'en': 'to postpone, to put something off («tangguh» + ‹-kan›): the bare form is for a request, an offer or a "we" sentence, as in chapter 12',
+               'ja': '延期する・先に延ばす（«tangguh» ＋ ‹-kan›）：素の形は依頼・申し出・«kita» の文に使う（第12章と同じ）'},
     'L-1218': {'en': 'to cancel; cancelled (the root of «batalkan»; «Rancangan mendaki batal.» = the hike is off)',
                'ja': '取り消す・中止になる（«batalkan» の語根；«Rancangan mendaki batal.»＝ハイキングは中止）'},
-    'L-1270': {'en': 'to cancel something («batal» + ‹-kan›): for a request or a "we" sentence, as in chapter 12',
-               'ja': '取り消す（«batal» ＋ ‹-kan›）：第12章と同じく依頼や «kita» の文に使う'},
+    'L-1270': {'en': 'to cancel something («batal» + ‹-kan›): the bare form is for a request, an offer or a "we" sentence, as in chapter 12',
+               'ja': '取り消す（«batal» ＋ ‹-kan›）：素の形は依頼・申し出・«kita» の文に使う（第12章と同じ）'},
+    'L-1294': {'en': 'to postpone (standard, with a doer: ‹meN-› + «tangguh» + ‹-kan›; the t drops; the bare «tangguhkan» is for a request, an offer or a "we" sentence)',
+               'ja': '延期する（標準形、動作主がいるとき：‹meN-› ＋ «tangguh» ＋ ‹-kan›；t が落ちる；素の «tangguhkan» は依頼・申し出・«kita» の文）'},
+    'L-1295': {'en': 'to cancel (standard, with a doer: ‹meN-› + «batal» + ‹-kan›; the bare «batalkan» is for a request, an offer or a "we" sentence)',
+               'ja': '取り消す（標準形、動作主がいるとき：‹meN-› ＋ «batal» ＋ ‹-kan›；素の «batalkan» は依頼・申し出・«kita» の文）'},
+    'L-1293': {'en': 'announcement, notice (learn the whole word; ‹pe-an› words come in Stage 3; the root is ‹umum›)',
+               'ja': 'お知らせ・告知（一語まるごと覚える；‹pe-an› の語は第3段階；語根は ‹umum›）'},
+    'L-1290': {'en': 'like this, this way (the standard partner of the spoken form you meet in chapter 17)',
+               'ja': 'このように（第17章で学ぶ話し言葉の標準形）'},
 }
 
 P = [
@@ -147,7 +163,7 @@ P = [
         'A: «Kalau awak penat, awak buat apa?» B: «Kalau saya penat, saya berehat.»',
         'A: «Bila kita makan di kafe?» B: «Kalau hujan.»',
         'A: «Bila awak mendaki?» B: «Bila cuaca cerah.»',
-        'A: «Apa dalam mesej itu?» B: «Jika hujan, kita tangguhkan. Apabila cuaca cerah, kita mendaki.»'],
+        'A: «Apa kata Puan Aini?» B: «Puan Aini kata, jika hujan, kita tangguhkan. Apabila cuaca cerah, kita mendaki.»'],
      "«Kalau» + a clause says the condition, then a comma, then what follows: «Kalau hujan, kita makan di kafe.» (the Kata-Kata frame). Nothing like \"then\" comes after the comma. "
      "«Kalau tidak hujan» is the opposite condition. «kalau» is what people say, and «jika» is the standard word for a message or a notice: «Jika hujan, kita tangguhkan.» "
      "Both mean \"if\". Compare «bila» and «apabila»: «bila» (chapter 4) is \"when\" in everyday speech («Bila cuaca cerah, kita mendaki.»), and «apabila» is the standard word for writing. "
@@ -163,7 +179,7 @@ P = [
         'A: «Kenapa cik tidak boleh datang pada hari Sabtu?» B: «Sebab saya bekerja.»',
         'A: «Kenapa awak bangun awal?» B: «Saya bangun awal supaya saya tidak lambat.»',
         'A: «Kenapa awak datang awal?» B: «Saya datang awal supaya kita tidak lambat.»',
-        'A: «Kenapa Mei Ling tangguhkan rancangan mendaki?» B: «Mei Ling tangguhkan rancangan mendaki kerana dia bekerja.»',
+        'A: «Kenapa Mei Ling menangguhkan rancangan mendaki?» B: «Mei Ling menangguhkan rancangan mendaki kerana dia bekerja.»',
         'A: «Apa tujuan mesej ini?» B: «Supaya kawan kita tahu rancangan itu.»'],
      "«kerana» (chapter 5) and «sebab» (chapter 5) both give the reason: the main clause comes first and the reason after it, «Saya tidak datang kerana saya bekerja.» (the Kata-Kata frame). "
      "«kerana» is the standard word, «sebab» is just as common in speech, and the answer to «Kenapa …?» can start with either. "
@@ -181,7 +197,7 @@ P = [
         'A: «Hari ini panas. Awak masih mahu pergi?» B: «Ya. Walaupun panas, saya mahu pergi.»',
         'A: «Walaupun hujan, kita mendaki?» B: «Tidak. Kalau hujan, kita makan di kafe.»',
         'A: «Awak penat. Awak mahu balik?» B: «Tidak. Walaupun penat, saya mahu makan di kafe dengan kawan.»',
-        'A: «Apa dalam mesej itu?» B: «Rancangan mendaki batal kerana hujan. Namun kita masih makan di kafe.»'],
+        'A: «Siapa yang membatalkan rancangan mendaki?» B: «Cik Mei Ling membatalkan rancangan mendaki kerana hujan. Namun kita masih makan di kafe.»'],
      "«walaupun» + a clause says what is true although something else is true: «Walaupun hujan, saya mahu berjalan kaki.» (the Kata-Kata frame). The comma comes after the first clause and the surprising part follows. "
      "Do not add «tetapi» in the second clause, because «walaupun» already carries the contrast. For two separate sentences, «tetapi» (chapter 5; spoken «tapi») is the everyday word and «namun» is the written one: "
      "«Rancangan mendaki batal. Namun kita masih makan di kafe.» «Kalau» is not the same as «walaupun»: «kalau hujan» is a condition, «walaupun hujan» says the rain is no obstacle.",
@@ -255,13 +271,13 @@ VARIANT = [
     ('Mei Ling', 'Tangguh dulu, ya? Kita tunggu cuaca hari Jumaat.'),
 ]
 LISTENING = [
-    ('Tanaka', 'Selamat petang, Puan Aini. Hujung minggu ini kami mahu mendaki. Puan Aini mahu datang?'),
+    ('Tanaka', 'Selamat petang, Puan Aini. Hujung minggu ini kami mahu mendaki. Puan Aini mahu ikut?'),
     ('Aini', 'Mahu! Tetapi kenapa hari Ahad? Bukan hari Sabtu?'),
     ('Tanaka', 'Cik Mei Ling bekerja pada hari Sabtu. Jadi, kita tangguhkan ke hari Ahad.'),
     ('Aini', 'Baik. Kalau hujan pada hari Ahad, bagaimana?'),
     ('Tanaka', 'Kalau hujan, rancangan mendaki batal. Tetapi kita masih berjumpa dan makan di kafe.'),
     ('Aini', 'Bagus. Mula-mula kita berjumpa di mana?'),
-    ('Tanaka', 'Di stesen, pukul tujuh. Kemudian kita mendaki. Akhirnya kita makan di kafe.'),
+    ('Tanaka', 'Baiklah, kita buat begini. Di stesen, pukul tujuh. Kemudian kita mendaki. Akhirnya kita makan di kafe.'),
     ('Aini', 'Pukul tujuh? Walaupun saya penat pada hari Ahad, saya akan datang. Saya datang awal supaya kita tidak lambat. Janji!'),
     ('Tanaka', 'Terima kasih. Kita boleh bercakap sambil berjalan.'),
     ('Aini', 'Seronok! Sejak bulan lepas saya tidak mendaki. Saya perlu bawa apa?'),
@@ -302,7 +318,7 @@ CFG = dict(
     grammar_ids={'kalau': 'ms-c14-g02', 'kerana': 'ms-c14-g03', 'supaya': 'ms-c14-g04', 'walaupun': 'ms-c14-g05', 'sambil': 'ms-c14-g06',
                  'urutan': 'ms-c14-g07', 'register': 'ms-c14-g08', 'words': 'ms-c14-g09'},
     grammar=['kalau', 'kerana', 'supaya', 'walaupun', 'sambil', 'urutan'], examples=EXAMPLES, vocab_opts=VOCAB_OPTS,
-    card_range='the 22 cards ms-c14-001 to ms-c14-022', frame_list='ms-c14-f01 to f06', frame_list_ja='f01〜f06',
+    card_range='the 29 cards ms-c14-001 to ms-c14-029', frame_list='ms-c14-f01 to f06', frame_list_ja='f01〜f06',
     extra=None,
     goals={'A': 'I can say a condition with «kalau», a reason with «kerana» or «sebab», a purpose with «supaya» and a contrast with «walaupun».',
            'B': 'I can plan a weekend outing with a friend: a rain plan, a reason I cannot come, a choice of two days and the order of the day.',
@@ -516,9 +532,9 @@ CFG = dict(
     hanashishou_note='Hanashishou (Stage 2): the plan links chapter 14 to the work and social scenes with plans and changes. '
                      'Their Malay is not yet tagged by chapter (build step 6), so do not assign them yet.',
     next_note='Next: the writing block after unit 14 (explain and rearrange a plan), then the review block after chapter 15 and unit 15 (Kata-Kata c15).',
-    teacher_notes=['Load: 22 core words in three groups (joining ideas 10, the order of a plan 3, plans and changes 9), no recognition word, and revision of if, because and but, weather and the hike, the plan and talking. '
+    teacher_notes=['Load: 29 core words in three groups (joining ideas 10, the order of a plan and agreeing it 5, plans and changes 14), no recognition word, and revision of if, because and but, weather and the hike, the plan and talking. '
                    'Suggested order: Block A the first group with patterns 1 and 2; Block B the second and third groups with patterns 3 to 5. '
-                   'If the pilot shows 22 is too many, the natural cut is: «kalau» / «jika», «kerana», «supaya», «walaupun», «sambil», «mula-mula», «akhirnya», «tangguhkan», «batalkan», «pilihan» first; the rest second.',
+                   'If the pilot shows 29 is too many, the natural cut is: «kalau» / «jika», «kerana», «supaya», «walaupun», «sambil», «mula-mula», «akhirnya», «tangguhkan», «batalkan», «pilihan» first; the rest second.',
                    'Written against spoken (Sam, 13 Nov 2026): the everyday words are what people say: «kalau», «bila» (for "when"), «tetapi» or spoken «tapi», «jadi», «kemudian» (spoken ‹lepas tu›, recognition only). The standard words are for a message or a notice: '
                    '«jika», «apabila», «namun», «oleh itu», «seterusnya». «bila» as "when" is everyday and «apabila» is standard. The scene models it in lines s13 and s14: do not correct «Kalau» or «bila» in speech and do not ask for «jika» in a conversation.',
                    '«kerana» (standard) or «sebab» (everyday) for the reason and «supaya» for the purpose; do not swap them. «walaupun» opens the first clause and takes no «tetapi» in the second; '
@@ -526,7 +542,7 @@ CFG = dict(
                    'Whole words and roots: «walaupun» (‹walau›), «akhirnya» (‹akhir› + ‹-nya›), «mula-mula» (repeated words come in Stage 3), «seterusnya» («terus»), «semasa» («masa»), «tujuan» (‹tuju›), «pilihan» («pilih»), '
                    '«keputusan» (‹putus›) and «perubahan» (‹ubah›) are each learned whole. «tangguh» and «batal» are the roots of «tangguhkan» and «batalkan» (cards ms-c14-018 to -022).',
                    'The ‹-kan› rule from chapter 12 (Sam): «tangguhkan» and «batalkan» appear in «kita» sentences and requests («Kita batalkan rancangan mendaki.», «Boleh kita tangguhkan ke hari Ahad?»), never after «sudah», «sedang», «belum», «akan», «baru» or «masih». '
-                   'With a third-person doer the bare form is allowed for now (Sam, 13 Nov 2026): «Mei Ling tangguhkan rancangan mendaki ke hari Ahad.» A later chapter teaches the ‹meN-› forms (‹menangguhkan›, ‹membatalkan›) as the standard; do not teach them here. «Rancangan mendaki batal.» stays for the intransitive. No ‹meN-› + ‹-kan› form is taught.',
+                   'A third person (a doer who is not «kita» and not the speaker) takes the standard forms «menangguhkan» and «membatalkan» (Sam, 14 Nov 2026; both are ledger rows, L-1294 and L-1295): «Mei Ling menangguhkan rancangan mendaki kerana dia bekerja.», «Puan Aini membatalkan mesyuarat itu.» The bare «tangguhkan» and «batalkan» stay for requests, offers and «kita» plans. «Rancangan mendaki batal.» stays for the intransitive. «baiklah» is one word (an agreement or the start of a plan, as in «Baiklah, kita buat begini.»); the standard form is the same in speech, so no register pair is taught.',
                    '«tangguhkan» and «batalkan» take a noun object, not a verb: «tangguhkan rancangan mendaki», «batalkan rancangan mendaki» (a verb such as «mendaki» does not follow them), and «Rancangan mendaki batal.» for the intransitive. '
                    'A written notice gives the object («Oleh itu, kita tangguhkan rancangan itu ke hari Ahad.»); a short spoken reply may drop it («Jika hujan, kita tangguhkan.», «Kita tangguhkan ke hari Ahad.»).',
                    '«kami» against «kita» (a common trap): «kami» leaves the listener out, «kita» includes the listener. A group-chat message or a notice goes to people who are going too, so it says «kita» («Kita tangguhkan ke hari Ahad. Namun kita masih makan di kafe.»). '
@@ -549,7 +565,7 @@ EXTRA = dict(
     model=['Fictional model: two messages about the same change, one for a group chat (everyday) and one for a notice at the office (written). All names and plans are invented:',
            '«Selamat petang semua. Kita tangguhkan rancangan mendaki ke hari Ahad kerana saya bekerja pada hari Sabtu. Kalau hujan, kita makan di kafe. Mula-mula kita berjumpa di stesen pukul tujuh, kemudian kita mendaki, akhirnya kita makan di kafe. '
            'Saya datang awal supaya kita tidak lambat. Janji!»',
-           '«Ada perubahan rancangan. Oleh itu, kita tangguhkan rancangan itu ke hari Ahad. Jika hujan, kita batalkan rancangan itu. Namun kita masih makan di kafe. Apabila cuaca cerah, kita mendaki. Keputusan: hari Ahad.»',
+           '«PENGUMUMAN. Ada perubahan rancangan. Oleh itu, kita tangguhkan rancangan itu ke hari Ahad. Jika hujan, kita batalkan rancangan itu. Namun kita masih makan di kafe. Apabila cuaca cerah, kita mendaki. Keputusan: hari Ahad.»',
            'Notice: the reason first, then the new day, the rain plan and the order. The group chat says «kalau» and «bila»; the notice says «jika», «apabila», «namun» and «oleh itu». / '
            '気づくこと：理由、新しい日、雨の日の計画、順序の順に書きます。グループチャットは «kalau»・«bila»、掲示は «jika»・«apabila»・«namun»・«oleh itu» を使います。'],
     plan=['0–5 Recall: say a reason with «kerana», a condition with «kalau» and a purpose with «supaya» (unit 14).',
@@ -573,7 +589,7 @@ EXTRA = dict(
            '☐ «tangguhkan» and «batalkan» are in «kita» sentences or a request, not after «sudah», «sedang», «belum» or «akan»; the partner can answer one question about the message.',
            '☐ 理由と目的の語、コンマ、日常の語と書き言葉の語の使い分け、«tangguhkan»・«batalkan» の使い方を確認し、パートナーが質問を一つします。'],
     answer='Any six to eight correct sentences that cover the checklist. Model: «Selamat petang semua. Kita tangguhkan rancangan mendaki ke hari Ahad kerana saya bekerja pada hari Sabtu. Kalau hujan, kita makan di kafe. '
-           'Mula-mula kita berjumpa di stesen, kemudian kita mendaki, akhirnya kita makan di kafe. Saya datang awal supaya kita tidak lambat. Janji!» Notice: «Ada perubahan rancangan. Oleh itu, kita tangguhkan rancangan itu ke hari Ahad. Jika hujan, kita batalkan rancangan itu.»',
+           'Mula-mula kita berjumpa di stesen, kemudian kita mendaki, akhirnya kita makan di kafe. Saya datang awal supaya kita tidak lambat. Janji!» Notice: «PENGUMUMAN. Ada perubahan rancangan. Oleh itu, kita tangguhkan rancangan itu ke hari Ahad. Jika hujan, kita batalkan rancangan itu.»',
     key_extra=['Mark for the task first (the reason, the new day, the rain plan, the order, the purpose), then for form (the comma, the choice of everyday or written words, «tangguhkan» and «batalkan» in a «kita» sentence). '
                'Accept «jika» in the group chat in a first draft but ask for «kalau» once in the rewrite; accept the everyday bare root in a first draft («Kita tulis mesej») but ask for the ‹meN-› form in the notice.',
                'Names, days and places are fictional. Do not ask anyone to share a real address or phone number.'],

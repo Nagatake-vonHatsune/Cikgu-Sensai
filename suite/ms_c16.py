@@ -2,8 +2,9 @@
 (Saya tertinggal ___ di ___; Maaf, saya ___; ___ tertumpah di ___; Saya tidak sengaja ___ ___; Pintu terkunci. Boleh tolong ___?;
 Yang ini ___, tetapi dompet saya ___ di rumah).
 
-23 core ledger entries, the rows the ledger places in "Ch16 (unit 16)": the existing rows L-0619 «tertinggal», L-0621 «terlepas», L-0644 «terlupa»,
-L-0752 «tersilap», L-0758 «tidak sengaja» and L-0875 «tersangkut», and the new rows L-1235 to L-1251. They come in four groups: ter- accidents (9),
+27 core ledger entries, the rows the ledger places in "Ch16 (unit 16)": the existing rows L-0619 «tertinggal», L-0621 «terlepas», L-0644 «terlupa»,
+L-0752 «tersilap», L-0758 «tidak sengaja» and L-0875 «tersangkut», the new rows L-1235 to L-1251, and the four words Sam recommended and approved on
+13 and 14 Nov 2026 (L-1298 «tidak apa-apa», L-1299 «masalah», L-1300 «berlaku», L-1301 «pinjam»). They come in five groups: ter- accidents (9),
 ter- states and results (5), by accident, an accident, the key and the spill (4) and what you see (5). No recognition word. Each ter- word is learned whole,
 with its root as the Kata-Kata chapter 16 card notes give it. The scene follows Kata-Kata c16 (scenario lines ms-c16-s01 to s17: Tanaka locked out of the flat,
 Mei Ling late and the spilt coffee, then Tanaka at the clinic reception) word for word, and goes further in class: a second locked-out case, a late colleague,
@@ -20,7 +21,8 @@ ACCIDENT = ['L-1235', 'L-0619', 'L-0644', 'L-1236', 'L-0621', 'L-0752', 'L-1237'
 STATE = ['L-1239', 'L-1240', 'L-1242', 'L-1243', 'L-0875']
 WHOLE = ['L-0758', 'L-1244', 'L-1251', 'L-1250']
 SEE = ['L-1245', 'L-1246', 'L-1247', 'L-1248', 'L-1249']
-CORE = ACCIDENT + STATE + WHOLE + SEE
+SAY = ['L-1298', 'L-1299', 'L-1300', 'L-1301']
+CORE = ACCIDENT + STATE + WHOLE + SEE + SAY
 
 # Revision: words placed in chapters 1 to 15 that the unit really uses (a test fails if one is not used).
 REV_TER6 = ['L-0275', 'L-0276', 'L-0277']
@@ -56,6 +58,10 @@ EXAMPLES = {
     'L-1246': '«Lutut saya lebam.»',
     'L-1247': '«Tangan saya bengkak.»',
     'L-1248': '«Hati-hati, lantai licin.»',
+    'L-1298': '«Encik tidak apa-apa?» «Saya tidak apa-apa, terima kasih.»',
+    'L-1299': '«Ada masalah?»',
+    'L-1300': '«Apa yang berlaku?»',
+    'L-1301': '«Boleh saya pinjam telefon encik?» (standard: «meminjam»)',
     'L-1249': '«Cawan saya pecah.»',
     # Revision · the ter- of chapter 6
     'L-0275': '«Yang ini termurah.»',
@@ -109,6 +115,9 @@ EXAMPLES = {
 
 # For the ter- words and the whole words: the root as the Kata-Kata card note gives it, with its chapter, and the meaning "by accident, without meaning to".
 VOCAB_OPTS = {
+    'L-1301': {'en': 'to borrow (everyday; the standard form is «meminjam», chapter 11; it does not mean to lend)', 'ja': '借りる（日常語；標準形は «meminjam»、第11章；貸すではない）'},
+    'L-1300': {'en': 'to happen (‹ber-› + ‹laku›; «Apa yang berlaku?» = What happened?)', 'ja': '起こる（‹ber-› ＋ ‹laku›；«Apa yang berlaku?»＝何がありましたか）'},
+    'L-1298': {'en': "I'm fine; it's nothing (the everyday answer after an accident or a slip)", 'ja': '大丈夫です・なんでもありません（事故や失敗のあとの日常の返事）'},
     'L-1235': {'en': 'to fall, by accident, without meaning to (‹ter-› + ‹jatuh›; the root is not taught alone)',
                'ja': 'うっかり落ちる・転ぶ（‹ter-›＋‹jatuh›；語根は単独では教えない）'},
     'L-0619': {'en': 'to be left behind, by accident, without meaning to (‹ter-› + «tinggal», chapter 2); not «hilang» (lost, chapter 15)',
@@ -201,9 +210,9 @@ P = [
         'A: «Kenapa meja itu basah?» B: «Air kopi tertumpah di meja.»',
         'A: «Pintu terkunci. Boleh tolong hubungi pejabat pengurusan?» B: «Boleh. Unit berapa, encik?»',
         'A: «Kenapa awak tidak masuk?» B: «Pintu terkunci, dan kunci saya tertinggal di dalam.»',
-        'A: «Kenapa awak tidak menelefon saya?» B: «Maaf, talian terputus.»',
-        'A: «Kenapa awak di tangga?» B: «Lif itu rosak. Saya tergelincir di tangga.»',
-        'A: «Cawan itu kenapa?» B: «Cawan saya pecah. Air kopi tertumpah di lantai.»'],
+        'A: «Maaf, telefon saya tertinggal di rumah. Boleh saya pinjam telefon encik?» B: «Boleh. Ini telefon saya.»',
+        'A: «Apa yang berlaku?» B: «Lif itu rosak. Saya tergelincir di tangga.»',
+        'A: «Encik tidak apa-apa?» B: «Saya tidak apa-apa, terima kasih. Cawan saya pecah. Air kopi tertumpah di lantai.»'],
      "When a thing is the subject, ‹ter-› says what happened to it: «Air kopi tertumpah di meja.» (the Kata-Kata frame). The same ‹ter-› can name a state that lasts: «Pintu terkunci.» (the door is locked), «Talian terputus.» (the line is cut off), «tercedera» (hurt), «terbakar» (burnt). "
      "A state is not an action: nobody is locking the door now. After the state you can ask for help: «Pintu terkunci. Boleh tolong hubungi pejabat pengurusan?» (the Kata-Kata frame). «tolong» + the plain root is the request.",
      "物が主語のとき、‹ter-› はその物に何が起きたかを言います：«Air kopi tertumpah di meja.»（Kata-Kata の文型）。同じ ‹ter-› が、続いている状態も言えます：«Pintu terkunci.»（ドアに鍵がかかっている）・«Talian terputus.»（回線が切れている）・«tercedera»（けがをしている）・«terbakar»（焼けている）。"
@@ -266,7 +275,7 @@ VARIANT = [
     ('Guard', 'Jangan risau, cik.'),
 ]
 LISTENING = [
-    ('Rahman', 'Selamat pagi, Puan Aini. Awak lambat hari ini. Kenapa?'),
+    ('Rahman', 'Selamat pagi, Puan Aini. Awak lambat hari ini. Ada masalah?'),
     ('Aini', 'Maaf, encik. Pagi tadi saya tertidur. Kemudian saya terlepas bas.'),
     ('Rahman', 'Awak naik apa ke pejabat?'),
     ('Aini', 'Saya naik teksi. Tetapi teksi itu tersangkut di jalan yang sesak. Ada kemalangan di jalan itu.'),
@@ -311,11 +320,11 @@ CFG = dict(
     recognition=[],
     revision=[('The ter- of chapter 6 (the most)', REV_TER6), ('Sorry and the reply', REV_SORRY), ('Things and places', REV_THINGS),
               ('Moving about and time', REV_MOVE), ('Office and clinic', REV_OFFICE)],
-    core_groups=[('ter- accidents', ACCIDENT), ('ter- states and results', STATE), ('By accident, an accident, the key and the spill', WHOLE), ('What you see', SEE)],
+    core_groups=[('ter- accidents', ACCIDENT), ('ter- states and results', STATE), ('By accident, an accident, the key and the spill', WHOLE), ('What you see', SEE), ('What happened, and what to say', SAY)],
     grammar_ids={'tertinggal': 'ms-c16-g02', 'maaf': 'ms-c16-g03', 'sengaja': 'ms-c16-g04', 'thing': 'ms-c16-g05', 'contrast': 'ms-c16-g06',
                  'state': 'ms-c16-g07', 'hilang': 'ms-c16-g08', 'words': 'ms-c16-g09'},
     grammar=['tertinggal', 'maaf', 'sengaja', 'thing', 'contrast', 'state'], examples=EXAMPLES, vocab_opts=VOCAB_OPTS,
-    card_range='the 23 cards ms-c16-001 to ms-c16-023', frame_list='ms-c16-f01 to f06', frame_list_ja='f01〜f06',
+    card_range='the 27 cards ms-c16-001 to ms-c16-027', frame_list='ms-c16-f01 to f06', frame_list_ja='f01〜f06',
     extra=None,
     goals={'A': 'I can say what I left behind or forgot by accident with «tertinggal» and «terlupa», and apologise with «Maaf, saya ___.».',
            'B': 'I can say what spilt, slipped, broke or was cut off with a ‹ter-› verb, say «tidak sengaja» for emphasis, and tell «termurah» from «tertinggal».',
@@ -528,9 +537,9 @@ CFG = dict(
     hanashishou_note='Hanashishou (Stage 2): the plan links chapter 16 to the guardhouse, lost-wallet and clinic-visit scenes, and offers a missed-bus scene as optional recycling. '
                      'Their Malay is not yet tagged by chapter (build step 6), so do not assign them yet.',
     next_note='Next: the writing block after chapter 16 (a brief factual incident message), then unit 17 (Kata-Kata c17).',
-    teacher_notes=['Load: 23 core words in four groups (ter- accidents 9, ter- states and results 5, by accident, an accident, the key and the spill 4, what you see 5), no recognition word, and revision of the chapter 6 ter-, sorry and the reply, things and places, moving about and time, and office and clinic. '
+    teacher_notes=['Load: 27 core words in five groups (ter- accidents 9, ter- states and results 5, by accident, an accident, the key and the spill 4, what you see 5, what happened and what to say 4), no recognition word, and revision of the chapter 6 ter-, sorry and the reply, things and places, moving about and time, and office and clinic. '
                    'Suggested order: Block A the first two groups with patterns 1 and 2; Block B the last two groups with patterns 3 to 5. '
-                   'If the pilot shows 23 is too many, the natural cut is: «tertinggal», «terlupa», «terlepas», «tertumpah», «terkunci», «tidak sengaja», «kunci», «bengkak», «luka», «lebam» first; the rest second.',
+                   'If the pilot shows 27 is too many, the natural cut is: «tertinggal», «terlupa», «terlepas», «tertumpah», «terkunci», «tidak sengaja», «kunci», «bengkak», «luka», «lebam» first; the rest second.',
                    'ter- accident against ter- superlative: ‹ter-› + an adjective (chapter 6: «termurah», «terbesar», «terbaik») means "the most"; ‹ter-› + a verb (this chapter: «tertinggal», «terlupa», «terlepas») means "by accident, without meaning to". '
                    'The Kata-Kata cards for this chapter say it on the first card: not the ‹ter-› of «termurah» and «terbaik». Teach the two side by side with «Yang ini termurah, tetapi dompet saya tertinggal di rumah.» '
                    'Do not tell learners to guess the meaning of any other ‹ter-› word from the prefix: the plan says to learn each form as a word. Ability and idiom readings of ‹ter-› are outside this chapter.',

@@ -1,7 +1,7 @@
 """Unit 12B: -i and more -kan verbs: reporting a leak and asking for a repair (Boleh ___ juruteknik?; Juruteknik sedang ___ paip;
 Ada kebocoran di ___ saya; Tolong ___ lampu itu).
 
-21 core ledger entries, the rows the ledger places in "Ch12 (unit 12B)" (L-1173 to L-1184 and the existing rows L-0649 «siling»,
+25 core ledger entries, the rows the ledger places in "Ch12 (unit 12B)" (L-1173 to L-1184, L-1281 «melaporkan», L-1282 «salinan», L-1283 «dihubungi» and L-1284 «dibaiki», approved by Sam on 14 Nov 2026, and the existing rows L-0649 «siling»,
 L-0651 «kebocoran», L-0652 «juruteknik», L-0655 «slot», L-0661 «paip», L-0665 «kontraktor», L-0698 «ganti», L-0789 «menghubungi» and
 L-0871 «perlahankan»), in three groups. Each -kan or -i verb is taught as a whole ledger form, with its root, the chapter of the
 root and what the suffix adds (-i: to or at a person or place; -kan: do it for someone or make it happen), as the Kata-Kata chapter
@@ -12,8 +12,8 @@ scene primes chapter 12). Japanese is a draft awaiting native review.
 """
 from .chapter10_common import unit_dict
 
-LEAK = ['L-0651', 'L-0649', 'L-0661', 'L-1182', 'L-1183', 'L-0652', 'L-0665', 'L-0655']
-REPAIR = ['L-1173', 'L-1174', 'L-1175', 'L-0789', 'L-0698', 'L-1184', 'L-1176']
+LEAK = ['L-0651', 'L-0649', 'L-0661', 'L-1182', 'L-1183', 'L-0652', 'L-0665', 'L-0655', 'L-1281', 'L-1282']
+REPAIR = ['L-1173', 'L-1174', 'L-1175', 'L-0789', 'L-0698', 'L-1184', 'L-1176', 'L-1283', 'L-1284']
 SWITCH = ['L-1177', 'L-1178', 'L-1179', 'L-1180', 'L-1181', 'L-0871']
 CORE = LEAK + REPAIR + SWITCH
 
@@ -26,6 +26,10 @@ REV_TIME = ['L-0193', 'L-0194', 'L-0189', 'L-0192', 'L-0161', 'L-1007', 'L-0157'
 EXAMPLES = {
     # The leak and the report
     'L-0651': '«Ada kebocoran di siling saya.»',
+    'L-1281': '«Saya melaporkan kebocoran itu kepada pengurus.»',
+    'L-1282': '«Tolong simpankan salinan borang itu.»',
+    'L-1283': '«Juruteknik sudah dihubungi.»',
+    'L-1284': '«Paip itu sudah dibaiki.»',
     'L-0649': '«Air turun dari siling.»',
     'L-0661': '«Juruteknik sedang membaiki paip.»',
     'L-1182': '«Ada kerosakan di paip dapur saya.»',
@@ -122,6 +126,14 @@ def _opts(lid):
 
 VOCAB_OPTS = {lid: _opts(lid) for lid in ROOTS}
 VOCAB_OPTS.update({
+    'L-1281': {'en': 'to report something to someone (‹meN-› + ‹lapor› + ‹-kan›: ‹me-› before l; «kepada» for the person, chapter 11)',
+               'ja': '（人に）報告する・届け出る（‹meN-› ＋ ‹lapor› ＋ ‹-kan›：l の前は ‹me-›；相手の人は «kepada»、第11章）'},
+    'L-1282': {'en': 'a copy (learn the whole word; ‹-an› words come in Stage 3; the root is ‹salin›)',
+               'ja': 'コピー・控え（一語まるごと覚える；‹-an› の語は第3段階；語根は ‹salin›）'},
+    'L-1283': {'en': 'to be contacted (the «di-» partner of «menghubungi», chapter 9 pattern: «di-» + ‹hubung› + ‹-i›)',
+               'ja': '連絡される（«menghubungi» の «di-» の相手、第9章の型：«di-» ＋ ‹hubung› ＋ ‹-i›）'},
+    'L-1284': {'en': 'to be repaired (the «di-» partner of «membaiki»: «di-» + «baiki»; «baiki» chapter 12)',
+               'ja': '修理される（«membaiki» の «di-» の相手：«di-» ＋ «baiki»）'},
     'L-0651': {'en': 'a leak (learn the whole word; ‹ke-an› words come in Stage 3; the root is ‹bocor›)',
                'ja': '水漏れ（一語まるごと覚える；‹ke-an› の語は第3段階；語根は ‹bocor›）'},
     'L-1182': {'en': 'damage, fault (learn the whole word; the root is «rosak», Dunia, chapter 7)',
@@ -136,7 +148,7 @@ P = [
     ('ms-c12-f05', '«Boleh» ___ «juruteknik?»  (‹-i›: to a person)', [
         'A: «Boleh hubungi juruteknik?» B: «Boleh. Saya hubungi sekarang.»',
         'A: «Boleh hubungi pejabat pengurusan?» B: «Boleh. Nombor telefon ada di sini.»',
-        'A: «Siapa yang menghubungi kontraktor?» B: «Pejabat pengurusan yang menghubungi kontraktor.»',
+        'A: «Juruteknik sudah dihubungi?» B: «Sudah. Juruteknik sudah dihubungi.»',
         'A: «Tolong hubungi saya sebelum juruteknik sampai.» B: «Baik. Saya hubungi encik.»',
         'A: «Awak sudah menghubungi pemilik unit itu?» B: «Belum. Saya akan menelefon dia petang ini.»',
         'A: «Kami akan menghubungi juruteknik.» B: «Terima kasih. Bila juruteknik boleh datang?»'],
@@ -155,7 +167,7 @@ P = [
     ('ms-c12-f04', '«Juruteknik sedang» ___ «paip.»  (‹meN-› + ‹-i›: is repairing)', [
         'A: «Juruteknik sedang membaiki paip.» B: «Paip yang mana?»',
         'A: «Juruteknik sedang membaiki apa?» B: «Dia sedang membaiki paip bilik air saya.»',
-        'A: «Siapa yang membaiki lampu itu?» B: «Juruteknik yang membaiki lampu itu.»',
+        'A: «Paip itu sudah dibaiki?» B: «Sudah. Paip itu sudah dibaiki oleh juruteknik.»',
         'A: «Tolong baiki paip ini.» B: «Baik. Saya baiki sekarang.»',
         'A: «Kontraktor sudah membaiki siling itu?» B: «Belum. Kontraktor akan membaiki siling itu esok.»',
         'A: «Bila juruteknik boleh membaiki paip itu?» B: «Ada slot petang ini, pukul tiga.»'],
@@ -174,7 +186,7 @@ P = [
         'A: «Ada kebocoran di siling bilik air saya.» B: «Air turun dari siling atau dari paip?»',
         'A: «Ada kerosakan di paip dapur saya.» B: «Kami akan menghubungi juruteknik.»',
         'A: «Saya Tanaka, Blok B, unit 12-3.» B: «Selamat pagi, Encik Tanaka. Apa aduan encik?»',
-        'A: «Dari siling, dekat lampu. Saya takut lampu itu rosak.» B: «Tolong matikan lampu itu dulu.»',
+        'A: «Encik sudah melaporkan kebocoran itu?» B: «Sudah. Saya melaporkan kebocoran itu kepada pengurus.»',
         'A: «Bila juruteknik boleh datang?» B: «Ada slot petang ini, pukul tiga. Boleh?»'],
      "To report a problem in your own home, say what is wrong and where: «Ada kebocoran di siling saya.» (the Kata-Kata frame). «kebocoran» (a leak) and «kerosakan» (damage, a fault) "
      "are learned as whole words, as are «aduan» (a complaint or problem report) and «tempahan» (a booking). Start the call with your name, block and unit, as «Encik» Tanaka does. "
@@ -278,7 +290,7 @@ EXTRA = dict(
     patterns=['ms-c10-f01', 'ms-c11-f01', 'ms-c11-f03', 'ms-c12-f01', 'ms-c12-f02', 'ms-c12-f05'],
     model=['Chapters 10 to 12 in one exchange (all names and times are fictional):',
            'A: «Selamat pagi, Puan Aini. Saya bekerja di rumah hari ini. Boleh hubungi juruteknik?» B: «Boleh. Saya sudah menelefon pejabat pengurusan.»',
-           'A: «Siapa yang menghantar borang aduan itu?» B: «Encik Rahman yang menghantar borang itu. Tolong simpankan borang itu di pejabat.»',
+           'A: «Siapa yang menghantar borang aduan itu?» B: «Encik Rahman yang menghantar borang itu. Tolong simpankan salinan borang itu di pejabat.»',
            'A: «Juruteknik sedang membaiki paip. Boleh tunjukkan mesej itu?» B: «Boleh. Nombor penjejakan ada dalam mesej ini.»',
            'A: «Pukul berapa juruteknik sampai?» B: «Pukul tiga. Tolong matikan lampu itu dan kosongkan meja dulu.»',
            'Notice: ber- verbs have no object; meN- verbs take the thing directly; ‹-kan› is for someone or makes it happen; ‹-i› points at a person or place; the markers go in front of any of them. / '
@@ -321,7 +333,7 @@ CFG = dict(
     grammar_ids={'kan': 'ms-c12-g02', 'boleh': 'ms-c12-g03', 'i': 'ms-c12-g04', 'collect': 'ms-c12-g05', 'repair': 'ms-c12-g06',
                  'leak': 'ms-c12-g07', 'spelling': 'ms-c12-g08'},
     grammar=['i', 'repair', 'leak', 'kan', 'spelling'], examples=EXAMPLES, vocab_opts=VOCAB_OPTS,
-    card_range='the 21 cards ms-c12-025 to ms-c12-045', frame_list='ms-c12-f04, f05, f06 and f01', frame_list_ja='f04・f05・f06・f01',
+    card_range='the 25 cards ms-c12-025 to ms-c12-045 and ms-c12-046 to ms-c12-049', frame_list='ms-c12-f04, f05, f06 and f01', frame_list_ja='f04・f05・f06・f01',
     extra=EXTRA,
     goals={'A': 'I can ask someone to contact a person with «Boleh hubungi …?» and say that a technician is repairing something with «sedang membaiki».',
            'B': 'I can report a leak with «Ada kebocoran di … saya», answer the office\'s questions and book a slot.',
@@ -533,9 +545,9 @@ CFG = dict(
     hanashishou_note='Hanashishou (Stage 2): the plan links chapter 12 to the home-condo scenes (a leak, the management office, a technician). '
                      'Their Malay is not yet tagged by chapter (build step 6), so do not assign them yet.',
     next_note='Next: the review block after 12B (chapters 10 to 12), then chapter 13 (health situations).',
-    teacher_notes=['Load: 21 core words in three groups (the leak and the report 8; repair and contact 7; switch, empty, clean, fill 6), no recognition word (no Dunia scene primes chapter 12), '
+    teacher_notes=['Load: 25 core words in three groups (the leak and the report 10; repair and contact 9; switch, empty, clean, fill 6), no recognition word (no Dunia scene primes chapter 12), '
                    'and revision of the roots, the home, asking and feelings, and the markers. Suggested order: Block A the first group with patterns 1 and 2; Block B the second group with pattern 3; '
-                   'the third group with pattern 4 in Block B or C. If the pilot shows 21 is too many, the natural cut is: «hubungi», «membaiki», «baiki», «kebocoran», «siling», «juruteknik», «matikan», '
+                   'the third group with pattern 4 in Block B or C. If the pilot shows 25 is too many, the natural cut is: «hubungi», «membaiki», «baiki», «kebocoran», «siling», «juruteknik», «matikan», '
                    '«hidupkan», «aduan», «slot» first; the rest second.',
                    'The ‹-kan› and ‹-i› choice (plan section 3, Sam 13 Nov 2026): ‹-kan› is to do it for someone or to make it happen («matikan», «bersihkan», «kosongkan»); ‹-i› is to or at a person or '
                    'place («hubungi»). Spelling traps from the cards: «baiki» has the same spelling as «baik» but means to repair (card ms-c12-025); «membaiki» has ‹mem-› before b (ms-c12-026); '

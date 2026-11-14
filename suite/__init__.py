@@ -357,6 +357,11 @@ GLOSS = {
     'L-1229': dict(en='like, such as (standard; everyday «macam», spoken)', ja='〜のような（標準；日常・話し言葉は «macam»）'),
     'L-1271': dict(en='to wear; to use (standard form of «pakai»)', ja='着る・身につける・使う（«pakai» の標準形）'),
     'L-1272': dict(en='coloured; to be (a colour): «berwarna hitam» = black', ja='〜色の・〜色をしている：«berwarna hitam»＝黒い'),
+    'L-1275': dict(en='a week; per week («tiga kali seminggu» = three times a week)', ja='1週間、週に（«tiga kali seminggu»＝週3回）'),
+    'L-1277': dict(en='to (a person): «menghantar emel kepada pengurus» = send an email to the manager', ja='（人）に：«menghantar emel kepada pengurus»＝マネージャーにメールを送る'),
+    'L-1278': dict(en='a day; per day («RM100 sehari» = RM100 a day)', ja='1日、1日あたり（«RM100 sehari»＝1日100リンギット）'),
+    'L-1279': dict(en='to book (the standard form of «tempah»)', ja='予約する（«tempah» の標準形）'),
+    'L-1301': dict(en='to borrow (everyday; the standard form is «meminjam»)', ja='借りる（日常語；標準形は «meminjam»）'),
     # Chapter 17 (fast pack word list): ledger meanings that contain Malay, re-marked.
     'L-0931': dict(en='a casual eatery, often open late (a «mamak» stall)', ja='気軽な食堂・深夜まで開いていることが多い（«mamak» の屋台）'),
     'L-1261': dict(en='never mind; it is all right (standard; spoken «takpe» / «tak apa»)', ja='大丈夫・かまわない（標準；話し言葉は «takpe» / «tak apa»）'),

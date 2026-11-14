@@ -1,7 +1,7 @@
 """Unit 11A: meN- verbs at the office: reading, writing, sending, receiving, buying and paying (Aini ___ buku itu; Buku itu
 ___ oleh Aini; Siapa yang ___ fail itu?; Awak sedang ___ apa?).
 
-20 core ledger entries, the rows the ledger places in "Ch11 (unit 11A)" (L-1123 to L-1142), in three groups. Each meN- verb is
+21 core ledger entries, the rows the ledger places in "Ch11 (unit 11A)" (L-1123 to L-1142, and L-1277 «kepada», approved by Sam on 14 Nov 2026), in three groups. Each meN- verb is
 taught as a whole ledger form, with its root, the chapter of the root, the nasal change and its chapter 9 «di-» partner where
 one exists, as the Kata-Kata chapter 11 card notes give them. This unit teaches the spelling of meN- before b, c, d, h, j, l,
 m, t, p and a vowel; unit 11B adds s, k and the one-syllable roots (menyewa, mengira, mengecas). No meN-...-kan or meN-...-i
@@ -12,7 +12,7 @@ Japanese is a draft awaiting native review.
 """
 from .chapter10_common import unit_dict
 
-DOC = ['L-1124', 'L-1125', 'L-1136', 'L-1137', 'L-1129', 'L-1130', 'L-1138']
+DOC = ['L-1124', 'L-1125', 'L-1136', 'L-1137', 'L-1129', 'L-1130', 'L-1138', 'L-1277']
 BUY = ['L-1123', 'L-1142', 'L-1132', 'L-1131', 'L-1127', 'L-1133']
 DAILY = ['L-1139', 'L-1140', 'L-1135', 'L-1141', 'L-1126', 'L-1134', 'L-1128']
 CORE = DOC + BUY + DAILY
@@ -28,6 +28,7 @@ EXAMPLES = {
     'L-1124': '«Puan Aini membaca emel itu.» (spoken: «Puan Aini baca emel itu.»)',
     'L-1125': '«Encik Rahman sedang menulis jawapan.»',
     'L-1136': '«Siapa yang menghantar fail itu?» (also: «Saya menghantar anak ke sekolah.»)',
+    'L-1277': '«Saya menghantar emel kepada pengurus.» («kepada» for a person, «ke» for a place: «Saya pergi ke pejabat.»)',
     'L-1137': '«Encik Rahman menerima fail itu.»',
     'L-1129': '«Sekarang dia sedang membuka fail itu.»',
     'L-1130': '«Tolong tutup pintu.» → «Dia menutup pintu bilik mesyuarat.»',
@@ -154,6 +155,8 @@ def _opts(lid):
 
 
 VOCAB_OPTS = {lid: _opts(lid) for lid in ROOTS}
+VOCAB_OPTS['L-1277'] = {'en': 'to (a person): «menghantar emel kepada pengurus» («kepada» for a person, «ke» for a place, chapter 7)',
+                        'ja': '（人）に：«menghantar emel kepada pengurus»（人には «kepada»、場所には «ke»、第7章）'}
 
 P = [
     ('ms-c11-f01', '«Aini» ___ «buku itu.»  (doer + meN- verb + the thing)', [
@@ -162,7 +165,7 @@ P = [
         'A: «Encik Tanaka menulis jawapan itu?» B: «Tidak. Encik Rahman menulis jawapan itu.»',
         'A: «Awak membeli apa di gerai?» B: «Saya membeli nasi lemak dan teh tarik.»',
         'A: «Cik Mei Ling membawa payung?» B: «Ya. Dia membawa payung kerana hari hujan.»',
-        'A: «Awak mencari siapa?» B: «Saya mencari Encik Rahman.»'],
+        'A: «Awak menghantar apa kepada pengurus?» B: «Saya menghantar emel kepada pengurus.»'],
      "A meN- verb is a root with ‹meN-› in front: «baca» → «membaca», «tulis» → «menulis». The doer comes first, then the verb, "
      "then the thing, with no little word for it: «Aini membaca buku itu.» (the Kata-Kata frame) or «Puan Aini membaca emel itu.» Only the front changes shape, and the first sound of "
      "the root decides how. ‹mem-› before b («membeli», «membaca», «membuat», «membuka», «membawa», «membayar»); ‹men-› before c, d "
@@ -329,7 +332,7 @@ CFG = dict(
     grammar_ids={'active': 'ms-c11-g02', 'passive': 'ms-c11-g03', 'who': 'ms-c11-g04', 'now': 'ms-c11-g05',
                  'request': 'ms-c11-g06', 'plans': 'ms-c11-g07', 'spelling': 'ms-c11-g08'},
     grammar=['active', 'passive', 'who', 'now', 'spelling'], examples=EXAMPLES, vocab_opts=VOCAB_OPTS,
-    card_range='the 20 cards ms-c11-001 to ms-c11-020', frame_list='ms-c11-f01, f02, f03 and f05', frame_list_ja='f01・f02・f03・f05',
+    card_range='the 21 cards ms-c11-001 to ms-c11-020 and ms-c11-044', frame_list='ms-c11-f01, f02, f03 and f05', frame_list_ja='f01・f02・f03・f05',
     goals={'A': 'I can say who did what with a taught meN- verb and a thing: «Puan Aini membaca emel itu.»',
            'B': 'I can ask and answer «Siapa yang …?» and «Awak sedang … apa?» with meN- verbs, and turn a meN- line into its «di-» partner.',
            'C': "I can follow a colleague's morning with files and emails, and report who sent, received and opened what.",
@@ -560,10 +563,10 @@ CFG = dict(
     hanashishou_note='Hanashishou (Stage 2): the plan links chapter 11 to the office scene report_deadline for unit 11B, with «mendaki» from the social pack. '
                      'Their Malay is not yet tagged by chapter (build step 6), so do not assign them yet.',
     next_note='Next: unit 11B (the draft, the deadline and the weekend), then the review block after 11B.',
-    teacher_notes=['Load: 20 core words in three groups (reading, writing and files 7; buying, paying and carrying 6; senses, calling and everyday tasks 7), no '
+    teacher_notes=['Load: 21 core words in three groups (reading, writing and files 8; buying, paying and carrying 6; senses, calling and everyday tasks 7), no '
                    'recognition word (no Dunia scene primes chapter 11), and revision of the roots, the «di-» partners, the office words and the markers. '
                    'Suggested order: Block A the first group with patterns 1 and 2; Block B the second group with pattern 3; the third group with pattern 4 '
-                   'in Block B or C. If the pilot shows 20 is too many, the natural cut is: «membaca», «menulis», «menghantar», «menerima», «membuka», '
+                   'in Block B or C. If the pilot shows 21 is too many, the natural cut is: «membaca», «menulis», «menghantar», «menerima», «membuka», '
                    '«membeli», «membayar», «mencari», «menunggu», «memanggil» first; the rest second.',
                    'The scene lines ms-c11-s06 and ms-c11-s07 use «menelefon», a unit 11B core word (card ms-c11-040). Gloss it as "to phone" and '
                    'treat it as recognition here; it is taught in 11B.',

@@ -1,8 +1,9 @@
 """Unit 10A: ber- verbs of the working day, movement and free time (Setiap pagi saya ___ pukul ___; Pukul berapa ___
 bermula / kita bertolak?; Pada hujung minggu saya suka ___; Saya bercakap / berbual dengan ___).
 
-20 core ledger entries, the rows the ledger places in "Ch10 (unit 10A)" (L-1089 to L-1106 except the 10B rows, plus
-L-0807 «bersiap» and L-0916 «bersedia»), in three groups. Each ber- verb is taught as a whole ledger form with its root,
+24 core ledger entries, the rows the ledger places in "Ch10 (unit 10A)" (L-1089 to L-1106 except the 10B rows, plus
+L-0807 «bersiap» and L-0916 «bersedia», and the four words Sam approved on 14 Nov 2026: L-1273 «kolam renang», L-1274 «taman»,
+L-1275 «seminggu», L-1276 «penuh»), in three groups. Each ber- verb is taught as a whole ledger form with its root,
 as the Kata-Kata card note gives it: ber- has no nasal sound changes; its only spelling variants are be- (berehat,
 berenang, bekerja) and bel- (belajar, revision from chapter 2). No meN- (chapter 11), no -kan or -i (chapter 12), and no
 ber- word that is not its own ledger row. The scene follows Kata-Kata c10 (scenario lines ms-c10-s01 to s09: a working
@@ -12,9 +13,9 @@ Japanese is a draft awaiting native review.
 """
 from .chapter10_common import unit_dict
 
-DAY = ['L-0807', 'L-1101', 'L-1106', 'L-1090', 'L-1100', 'L-1102', 'L-1089', 'L-1093', 'L-1103', 'L-1105']
+DAY = ['L-0807', 'L-1101', 'L-1106', 'L-1090', 'L-1100', 'L-1102', 'L-1089', 'L-1093', 'L-1103', 'L-1105', 'L-1276']
 TALK = ['L-1091', 'L-1099', 'L-1098', 'L-0916']
-FREE = ['L-1092', 'L-1094', 'L-1095', 'L-1096', 'L-1097', 'L-1104']
+FREE = ['L-1092', 'L-1094', 'L-1095', 'L-1096', 'L-1097', 'L-1104', 'L-1273', 'L-1274', 'L-1275']
 CORE = DAY + TALK + FREE
 
 # Revision: words placed in chapters 1 to 9 that the unit really uses (a test fails if one is not used).
@@ -36,6 +37,7 @@ EXAMPLES = {
     'L-1093': '«Selepas makan tengah hari, kami berehat sekejap.»',
     'L-1103': '«Bas itu berhenti di depan pejabat.»',
     'L-1105': '«Itu rutin saya setiap hari.»',
+    'L-1276': '«Kereta api selalu penuh pada waktu pagi.»',
     # Talking and meeting
     'L-1091': '«Saya bercakap bahasa Melayu dengan Puan Aini.»',
     'L-1099': '«Kami berbual di kedai mamak.»',
@@ -48,6 +50,9 @@ EXAMPLES = {
     'L-1096': '«Saya berlari selepas kerja.»',
     'L-1097': '«Kami berbasikal pada hari Ahad.»',
     'L-1104': '«Saya berlatih bercakap bahasa Melayu setiap malam.»',
+    'L-1273': '«Saya berenang di kolam renang pada hari Sabtu.»',
+    'L-1274': '«Saya berlari di taman selepas kerja.»',
+    'L-1275': '«Saya bersenam tiga kali seminggu.»',
     # Revision · roots and belajar
     'L-0065': '«kerja» → «bekerja»: «Saya bekerja di pejabat.»',
     'L-0473': '«cakap» → «bercakap»: «Saya bercakap bahasa Melayu.»',
@@ -111,6 +116,9 @@ _JA = {'L-0807': '準備する・したくする（動作）', 'L-1101': '朝食
        'L-1104': '練習する'}
 VOCAB_OPTS = {lid: {'en': f'{_EN[lid]} (‹ber-› + {ROOTS[lid]})', 'ja': f'{_JA[lid]}（‹ber-› ＋ {ROOTS[lid]}）'} for lid in ROOTS}
 VOCAB_OPTS.update({
+    'L-1275': {'en': 'a week; per week («tiga kali seminggu» = three times a week; ‹se-› + «minggu», chapter 4)',
+               'ja': '1週間、週に（«tiga kali seminggu»＝週3回；‹se-› ＋ «minggu»、第4章）'},
+    'L-1273': {'en': 'swimming pool (learn it as a phrase; ‹renang› is the root of «berenang»)', 'ja': 'プール（句として覚える；‹renang› は «berenang» の語根）'},
     'L-1087': {'en': 'push (the door sign «TOLAK», chapter 9)', 'ja': '押す（ドアの表示 «TOLAK»、第9章）'},
     'L-1105': {'en': 'routine («rutin saya setiap hari» = my daily routine)', 'ja': '日課（«rutin saya setiap hari»＝毎日の日課）'},
     'L-1093': {'en': 'to rest, to take a break (‹ber-› + «rehat»; spelt ‹be-› before r)',
@@ -174,7 +182,7 @@ P = [
         'A: «Pada hujung minggu encik buat apa?» B: «Pada hujung minggu saya suka berenang.»',
         'A: «Encik suka bermain badminton?» B: «Suka. Saya bermain badminton pada hari Sabtu.»',
         'A: «Puan suka berlari?» B: «Tidak juga. Saya lebih suka berbasikal.»',
-        'A: «Encik selalu bersenam?» B: «Ya. Saya bersenam setiap hari Isnin, Rabu dan Jumaat.»',
+        'A: «Encik selalu bersenam?» B: «Ya. Saya bersenam tiga kali seminggu.»',
         'A: «Apa hobi encik?» B: «Pada hujung minggu saya suka berenang dan berbasikal.»',
         'A: «Encik berlatih apa pada hari Ahad?» B: «Saya berlatih badminton dengan kawan.»'],
      "«suka» goes straight in front of the verb, with nothing in between: «Saya suka berenang.» (I like swimming.) «bermain» "
@@ -232,7 +240,7 @@ VARIANT = [
     ('Rahman', 'Awak bersarapan di mana?'),
     ('Mei Ling', 'Di rumah. Saya bersarapan dengan suami saya.'),
     ('Rahman', 'Pada hujung minggu awak buat apa?'),
-    ('Mei Ling', 'Pada hari Sabtu saya berlari. Pada hari Ahad saya berehat sahaja.'),
+    ('Mei Ling', 'Pada hari Sabtu saya berlari di taman. Pada hari Ahad saya berenang di kolam renang.'),
     ('Rahman', 'Saya pula bermain golf dengan kawan.'),
     ('Mei Ling', 'Mesyuarat kita bermula pukul berapa?'),
     ('Rahman', 'Pukul sepuluh. Awak sudah bersedia?'),
@@ -244,7 +252,7 @@ LISTENING = [
     ('Tanaka', 'Wah, awal! Pukul berapa puan bertolak ke pejabat?'),
     ('Aini', 'Pukul tujuh. Saya hantar anak ke sekolah dulu. Kemudian saya beratur di stesen.'),
     ('Tanaka', 'Puan naik kereta api?'),
-    ('Aini', 'Ya. Waktu pagi, ramai orang beratur di stesen. Kereta api selalu sesak.'),
+    ('Aini', 'Ya. Waktu pagi, ramai orang beratur di stesen. Kereta api selalu penuh.'),
     ('Tanaka', 'Puan sampai di pejabat pukul berapa?'),
     ('Aini', 'Pukul lapan setengah. Saya bersarapan di pejabat, kemudian saya bekerja.'),
     ('Tanaka', 'Puan berehat pukul berapa?'),
@@ -296,7 +304,7 @@ CFG = dict(
     grammar_ids={'routine': 'ms-c10-g02', 'start': 'ms-c10-g03', 'free': 'ms-c10-g04', 'with': 'ms-c10-g05',
                  'background': 'ms-c10-g06', 'events': 'ms-c10-g07', 'spelling': 'ms-c10-g08'},
     grammar=['routine', 'start', 'free', 'with', 'spelling'], examples=EXAMPLES, vocab_opts=VOCAB_OPTS,
-    card_range='the 20 cards ms-c10-001 to ms-c10-020', frame_list='ms-c10-f01 to ms-c10-f04', frame_list_ja='f01〜f04',
+    card_range='the 24 cards ms-c10-001 to ms-c10-020 and ms-c10-042 to ms-c10-045', frame_list='ms-c10-f01 to ms-c10-f04', frame_list_ja='f01〜f04',
     goals={'A': 'I can say when I do things on a working day with a taught ber- verb and «pukul».',
            'B': 'I can ask and answer about routines: «Pukul berapa …?», «… bermula», «… bertolak», «suka» + a ber- verb.',
            'C': "I can follow a colleague's day and a team message, and plan a time that fits two routines.",
@@ -525,10 +533,10 @@ CFG = dict(
     hanashishou_note='Hanashishou (Stage 2): the plan links chapter 10 to the daily-life scene grab_ride_chat and the home-condo scene '
                      'new_neighbour, both for unit 10B. Their Malay is not yet tagged by chapter (build step 6), so do not assign them yet.',
     next_note='Next: unit 10B (background and neighbours), then the writing block after 10B.',
-    teacher_notes=['Load: 20 core words in three groups (a working day 10; talking and meeting 4; exercise and free time 6), no recognition '
+    teacher_notes=['Load: 24 core words in three groups (a working day 11; talking and meeting 4; exercise and free time 9), no recognition '
                    'word (no Dunia scene primes chapter 10), and revision of the roots, the time words and the office words. Suggested order: '
                    'Block A the working-day group with patterns 1 and 2; Block B talking and meeting with pattern 4; exercise and free time '
-                   'with pattern 3 in Block B or C. If the pilot shows 20 is too many, the natural cut is A/B: «bekerja», «bersarapan», '
+                   'with pattern 3 in Block B or C. If the pilot shows 24 is too many, the natural cut is A/B: «bekerja», «bersarapan», '
                    '«bertolak», «bermula», «berehat», «berhenti», «bercakap», «berjumpa», «bermain», «bersenam» first; the rest second.',
                    'ber- rule (charter section 5, Sam 13 Nov 2026): no nasal sound changes; ‹be-› before r («berehat», «berenang») and in '
                    '«bekerja»; ‹bel-› only in «belajar» (revision, chapter 2). Every ber- word here is its own ledger row; do not let learners '

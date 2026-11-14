@@ -37,7 +37,6 @@ def bank():
 def ch11_rows(rows, unit):
     """Core rows the ledger places in the unit (not the recognition rows)."""
     return {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-            and lid not in katakata_ref.PENDING_NEW_CORE
             and re.match(rf'Ch11 \(unit {unit}\)(?:;|$)', r['Kata-Kata place'])}
 
 
@@ -92,18 +91,17 @@ class Chapter11(unittest.TestCase):
             cfg = CFGS[u]
             self.assertEqual(len(cfg['core']), len(set(cfg['core'])))
             self.assertEqual(set(cfg['core']), ch11_rows(rows, label), u)
-            self.assertEqual(len(cfg['core']), 20 if u == 'ms-c11a' else 21)
+            self.assertEqual(len(cfg['core']), 21 if u == 'ms-c11a' else 24)  # + L-1277 (11A), L-1278 to L-1280 (11B), 14 Nov 2026
             self.assertEqual([lid for _, ids in cfg['core_groups'] for lid in ids], cfg['core'])
             for _, ids in cfg['revision']:
                 for lid in ids:
                     self.assertLessEqual(placed_chapter(rows[lid]['Kata-Kata place']), 10, (u, lid))
                     self.assertNotIn(lid, cfg['core'])
-        # 41 core rows for chapter 11 (plan section 2), 240 across Stage 2 (build step 4 refresh).
-        self.assertEqual(len(ch11_rows(rows, '11A') | ch11_rows(rows, '11B')), 41)
+        # 45 core rows for chapter 11 (41 in plan section 2 plus L-1277 to L-1280 approved on 14 Nov 2026), 271 across Stage 2.
+        self.assertEqual(len(ch11_rows(rows, '11A') | ch11_rows(rows, '11B')), 45)
         stage2 = {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-                  and lid not in katakata_ref.PENDING_NEW_CORE
                   and re.match(r'Ch1[0-7] \(unit \w+\)(?:;|$)', r['Kata-Kata place'])}
-        self.assertEqual(len(stage2), 240)
+        self.assertEqual(len(stage2), 271)  # 240 + the 31 words approved on 13 and 14 Nov 2026 (L-1273 to L-1303); the six practice-pool rows are not core
         # The recognition rows are «tukar» and «deadline», the spoken partners of «menukar» and «tarikh akhir».
         rec = [lid for _, ids in ms_c11b.CFG['recognition'] for lid in ids]
         self.assertEqual(rec, ['L-0604', 'L-0678'])
@@ -363,7 +361,7 @@ class Chapter11(unittest.TestCase):
         self.assertEqual(l['suite']['course_path'], 'fast')
         self.assertEqual(l['level'], 'A2')
         core = [x for x in self.lines(l, 'Core words') if re.search(r'\[L-\d{4}\]$', x)]
-        self.assertEqual(len(core), 20)
+        self.assertEqual(len(core), 24)  # 20 + L-1277 to L-1280 (14 Nov 2026)
         self.assertTrue(set(fast.C11_WORDS) <= set(ms_c11a.CORE + ms_c11b.CORE))
         patterns = [x for x in self.lines(l, 'Key patterns') if re.match(r'^\d · ', x)]
         self.assertEqual(len(patterns), 5)

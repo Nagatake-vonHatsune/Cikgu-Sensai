@@ -157,7 +157,7 @@ Claude's later review of chapter 14 added two fixes, in their own commit before 
 | Q1 | f02 and f03 share pattern 2 | **Yes.** |
 | Q2 | «keputusan» only in written notices | **Yes.** |
 | Q3 | Bare root «tangguh» as a short reply | **OK.** |
-| Q4 | No third-person «tangguhkan» / «batalkan» | **Proceed without meN-: use the bare form with a third-person doer («Mei Ling tangguhkan …»); a later chapter introduces the meN- forms.** Aspect words (sudah, sedang, belum, akan, baru, masih) are still not used before the bare form. |
+| Q4 | No third-person «tangguhkan» / «batalkan» | **Proceed without meN-: use the bare form with a third-person doer («Mei Ling tangguhkan …»); a later chapter introduces the meN- forms.** Aspect words (sudah, sedang, belum, akan, baru, masih) are still not used before the bare form. **Superseded on 14 Nov 2026 (section 15): «menangguhkan» and «membatalkan» are ledger rows (L-1294, L-1295) and every third-person statement uses them; the interim bare form is gone.** |
 | Q5 | Fast pack | **Add «semasa» and «sejak»: the chapter 14 fast pack has all 22 core words.** |
 | Q6 | Menu names | **OK.** |
 
@@ -216,3 +216,15 @@ Sam's chapter 17 fixes, from the Stage 2 clean-up instruction (14 Nov 2026), mad
 | Q6 | Spoken forms with friends, standard with a senior colleague | **As built.** |
 | Q7 | Menu names «Spoken Malay and invitations», «Invitations» | **As built.** |
 | Q8 | The `build.py` memory fix (same output) | **Keep.** |
+
+## 15. The approved words are in the units (Sam, 13 and 14 November 2026; Claude)
+
+Sam approved the word proposals backlog (31 core rows L-1273 to L-1303, Kata-Kata step 3e, ledger Journal rows 191 and 192) and the six practice-pool rows L-1304 to L-1309. The Stage 2 clean-up put the 31 core words back into the units (`docs/STAGE-2-cleanup-report.md` lists the lines per chapter). Rulings that came with it:
+
+| # | Ruling | Where |
+| --- | --- | --- |
+| 1 | **Third-person statements take the standard «menangguhkan» and «membatalkan»** («Mei Ling menangguhkan rancangan mendaki kerana dia bekerja.»). The bare «tangguhkan» and «batalkan» stay for requests, offers and «kita» plans («Boleh kita tangguhkan ke hari Ahad?», «Kita batalkan rancangan mendaki.»), and never follow an aspect word. This replaces the interim ruling of 13 Nov (section 11, Q4). | `suite/ms_c14.py` (pattern 2 and 3, pattern 4, teacher note) |
+| 2 | **Each new core word is in its chapter's vocabulary, in at least one pattern, dialogue or task line, and in its fast pack.** Fast packs of chapters 10 to 13 still hold 24 of that chapter's core words (the 20 they had plus the new ones for 10, 11, 12, 13); from chapter 14 on they hold all core words (Sam, 13 Nov). The Kata-Kata scenario lines stay word for word. | `suite/fast.py` |
+| 3 | **The six practice-pool rows are not core.** They are in no core count, coverage test, fast pack or chapter 18 test key. The checker reads their place («Dunia · Kata biasa (primes Ch18)») as chapter 18; one of them, «bersukan», is now quoted in unit 10A as a ‹bersukan› mention (practice word, not taught). | `tests/test_stage2_cleanup.py`, `curriculum/malay-mentions.json` |
+| 4 | **L-1303 «minggu depan» is placed at chapter 17 but «minggu depan» is already taught at chapter 4** (Kata-Kata card ms-c04-019; used in 4B, 7 and 10B). The checker would call the early uses forward references, so `curriculum/phrases-taught-earlier.json` lets the phrase through from chapter 4. **Question for Sam** (the report): move the row's place to Ch4, or keep this exception. | `curriculum/phrases-taught-earlier.json`, `language_checks.py` |
+

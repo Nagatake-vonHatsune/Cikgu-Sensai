@@ -10,49 +10,13 @@ Sam authorised the clean-up session (refresh from Kata-Kata, rules fixes, chapte
 
 Sam's chapter 1 download was unreadable: every downloaded or printed page drew the wrong glyphs, in every build since the first. Cause: `build.py` embedded a fontTools subset of Noto Sans CJK, a CID-keyed CFF font. Subsetting renumbers the glyphs but keeps their old CIDs, while MuPDF writes the new glyph numbers into the page text, so viewers looked up the wrong glyphs. Text extraction still looked right, which is why the checks never caught it. Fix: `build.py` now converts the subset to TrueType outlines (`cff_to_truetype`, saved as `body.ttf`); the glyph number is then the glyph. Same page count (3,335) and fit checks; the font stays small. `tests/test_pdf_fonts.py` fails if the body font is not TrueType or any CFF font in the page bank has CIDs that do not match its glyph numbers. **Look at a rendered page by eye after any font or build change** (render with PyMuPDF `get_pixmap`), not only at extracted text.
 
-## Stage 2 clean-up pass (open list)
+## Stage 2 clean-up pass (done 14 Nov 2026)
 
-Do these together, after the Kata-Kata sync that brings in the ledger change, in one commit.
+Both items of the old list are done: «tandatangan» is joined in the units (11B pattern 1 and the Stage 1 2B example; a test fails if «tanda tangan» comes back) and «tanda tangan» is a disallowed form in `curriculum/stage-rules.json` with four shared fixtures. Details in the clean-up section at the top of this file and in `docs/STAGE-2-cleanup-report.md`.
 
-1. **«tandatangan»** (Sam, 13 Nov 2026; ledger row L-0530 is now «tandatangan», joined, the Malaysian spelling; «tanda tangan» is Indonesian). Switch every «tanda tangan» in the units to «tandatangan»: 11B pattern 1 «Tolong tanda tangan di sini.» (`suite/ms_c11b.py`) and the Stage 1 example `suite/ms_c02b.py` («Ini tanda tangan saya.»). Check the ledger copy and the Kata-Kata reference copy have the new row first.
-2. **Disallowed form:** add «tanda tangan» to the disallowed forms in `curriculum/stage-rules.json` (and the fixtures file), allowed only in a ‹…› "do not use" mention. Kata-Kata must copy the same rules file.
+## Word proposals backlog (empty since 14 Nov 2026)
 
-## Word proposals backlog (not in the ledger; Sam approves in one batch after chapter 17)
-
-Collected from every chapter. Builders rewrote the lines instead and added no rows. Sam will approve (or drop) them together after chapter 17; then a ledger session adds the approved rows. **The full table with a recommendation for every word (Claude's or Sam's) is at the end of `docs/STAGE-2-ch17-report.md`, ready for one approval.**
-
-| Proposed form | Chapter | Why it came up |
-| --- | --- | --- |
-| «kepada» (to, for a person) | 11 (Claude recommends) | «menghantar emel kepada pengurus»; the unit says «Saya menghantar fail itu ke Osaka.» |
-| «sehari» (a day, per day) | 11 (Claude recommends) | the price of a rented car; the unit says «untuk satu hari» |
-| «bukit» (hill) | 11 | «mendaki bukit»; the unit says «mendaki dengan kawan saya» |
-| «menempah» (to book) | 11 | booking a car for the trip («tempah» is chapter 4, «menempah» is not a row) |
-| the di- partners «disemak», «disimpan», «dipesan», «dipilih», «dipinjam», «dikira», «diisi» | 11 | passive of the 11B verbs; the ledger has di- rows only for the chapter 9 list |
-| «menyapu» (to sweep) | 11 | the s → ny trap; quoted only as a ‹menyapu› mention |
-| «kolam renang», «taman», «seminggu», «penuh», «bersukan», «hidup» | 10 | recorded in `docs/STAGE-2-ch10-report.md` (word proposals) |
-| «salinan» (copy) | 12 | **recommended** (Sam, 13 Nov): review block: «simpankan salinan di pejabat» (rewritten to «simpankan borang itu») |
-| «sejak» (since) | 12 | **now a chapter 14 core word (L-1212), taught there; the chapter 12 rewrite stays.** Sam, 13 Nov: recommended, especially: «Sejak semalam» for when a leak started (rewritten to «Bila kebocoran itu bermula?» / «Malam tadi.») |
-| «melapor» / «melaporkan» (to report) | 12 | **recommended** (Sam, 13 Nov): Hanashishou band 2 uses «melaporkan kebocoran»; the unit says «Ada kebocoran di … saya.» |
-| the di- partners «dihubungi», «dibaiki» | 12 | the ledger has only «membaiki» and «menghubungi». **The meN-…-kan forms «menyimpankan», «menghantarkan», «membawakan» are dropped: Sam (13 Nov) says they are not natural and are not taught.** |
-| «sihat» (healthy) | 13 (**recommended**, Sam 13 Nov) | the root of the ledger word «kesihatan»; «Saya sihat.» / «Saya tidak sihat.» (the unit says «Saya demam dan sakit tekak.») |
-| «ahli farmasi» (pharmacist) | 13 | the Kata-Kata speaker label for s16 and s18; the unit uses the English label «Pharmacist» |
-| «beritahu» (to tell) | 13 (**recommended**, Sam 13 Nov) | "tell the doctor"; the unit says «Saya cakap dengan doktor nanti.» |
-| «tinggalkan» (to leave behind) | 13 | leaving a bag at the counter; the unit says «Boleh saya letak beg di sini?» |
-| «baiklah» and «begini» | 14 (Sam's natural casual phrase) | «Baiklah, kita buat begini» for stating a plan; no line needs them, the unit says «Baik. Ini rancangan kita.» (Kata-Kata s08) |
-| «ikut» (to come along) | 14 | inviting a friend: «Puan Aini mahu ikut?»; the unit says «mahu datang?» |
-| «kata» (to say) | 14 | "what does the message say?"; the unit says «Apa dalam mesej itu?» |
-| «pengumuman» (announcement) | 14 | the heading of a written notice; the unit starts «Ada perubahan rancangan.» |
-| «menangguhkan» and «membatalkan» (meN- forms of «tangguhkan» and «batalkan») | 14 (**recommended**, Claude's review) | a third person in standard speech and writing («Mei Ling menangguhkan rancangan itu.»); the unit uses the bare form with a noun object for now |
-| «kakitangan» (staff) | 15 (**approved by Sam**, 13 Nov) | the Kata-Kata speaker label for the counter clerk (s02 to s10); the unit uses the English label «Staff» |
-| «bola» (ball) | 15 (**approved by Sam**, 13 Nov) | the natural comparison for a round thing («bulat, seperti bola»); the unit says «bulat, seperti jam» |
-| «tidak apa-apa» (never mind, it's nothing) | 16 (**recommended**, Sam 13 Nov) | the everyday answer to «Maaf»; the unit uses «Jangan risau.» (Kata-Kata s07) |
-| «berlaku» (to happen) | 16 | "what happened" in a report or a clinic form; the form says «Sebab: tergelincir di tangga.» |
-| «masalah» (problem) | 16 (**recommended**, Sam 13 Nov) | «Ada masalah?» asked of a late colleague; the unit says «Kenapa?» |
-| «pinjam» (to borrow) | 16 | «Pemandu teksi pinjamkan telefon …»; the unit says «Pemandu teksi menelefon pejabat untuk saya» |
-| «balas» (to reply) | 17 | «Sila balas sebelum hari Rabu.» on a written invitation; the unit says «Sila hubungi Puan Aini.» |
-| «minggu depan» (next week) | 17 | «Saya belanja minggu depan.»; the unit says «Lain kali saya belanja.» |
-| «giliran» (turn) | 17 | «Lain kali, giliran Mei Ling belanja.»; the unit says «Lain kali, Mei Ling belanja pula, ya?» |
-| «ikut» (to come along) | 17 (again) | the chapter 17 invitations ask for it a second time; the unit says «datang» and «singgah» |
+**The backlog is empty.** Sam approved it on 14 Nov 2026 and a ledger session (Kata-Kata step 3e) added the rows: 31 core rows L-1273 to L-1303, now in the units (see the report), and 6 practice-pool rows L-1304 to L-1309 (menyapu, disemak, disimpan, bersukan, hidup, giliran), which are **not core**. The words left off (Claude's earlier "only if a unit uses them"): the di- partners «dipesan», «dipilih», «dipinjam», «dikira», «diisi»; «sejak» closed earlier (L-1212, chapter 14). **New proposals from chapter 18 on go in a new table here; never add a row to the ledger without Sam's approval.**
 
 ## Latest session: Stage 2 build step 4, chapter 16 fixes and chapter 17 (13 Nov 2026, Claude)
 

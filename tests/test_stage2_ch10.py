@@ -36,7 +36,6 @@ def bank():
 def ch10_rows(rows, unit):
     """Core rows the ledger places in the unit (not the recognition row)."""
     return {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-            and lid not in katakata_ref.PENDING_NEW_CORE
             and re.match(rf'Ch10 \(unit {unit}\)(?:;|$)', r['Kata-Kata place'])}
 
 
@@ -84,18 +83,17 @@ class Chapter10(unittest.TestCase):
             cfg = CFGS[u]
             self.assertEqual(len(cfg['core']), len(set(cfg['core'])))
             self.assertEqual(set(cfg['core']), ch10_rows(rows, label), u)
-            self.assertEqual(len(cfg['core']), 20)
+            self.assertEqual(len(cfg['core']), 24 if u == 'ms-c10a' else 20)  # 10A: 20 + the four words approved on 14 Nov 2026
             self.assertEqual([lid for _, ids in cfg['core_groups'] for lid in ids], cfg['core'])
             for _, ids in cfg['revision']:
                 for lid in ids:
                     self.assertLessEqual(placed_chapter(rows[lid]['Kata-Kata place']), 9, (u, lid))
                     self.assertNotIn(lid, cfg['core'])
-        # 40 core rows for chapter 10 (plan section 2), the planned 233 + 7 = 240 across Stage 2 (build step 4 refresh).
-        self.assertEqual(len(ch10_rows(rows, '10A') | ch10_rows(rows, '10B')), 40)
+        # 44 core rows for chapter 10 (40 in plan section 2, plus L-1273 to L-1276 approved on 14 Nov 2026), 271 across Stage 2.
+        self.assertEqual(len(ch10_rows(rows, '10A') | ch10_rows(rows, '10B')), 44)
         stage2 = {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-                  and lid not in katakata_ref.PENDING_NEW_CORE
                   and re.match(r'Ch1[0-7] \(unit \w+\)(?:;|$)', r['Kata-Kata place'])}
-        self.assertEqual(len(stage2), 240)
+        self.assertEqual(len(stage2), 271)  # 240 + the 31 words approved on 13 and 14 Nov 2026 (L-1273 to L-1303); the six practice-pool rows are not core
         # The only recognition row is «pindah», the spoken partner of «berpindah».
         rec = [lid for _, ids in ms_c10b.CFG['recognition'] for lid in ids]
         self.assertEqual(rec, ['L-0667'])
@@ -107,7 +105,7 @@ class Chapter10(unittest.TestCase):
             self.assertIn(rows[lid]['Kata-Kata (card IDs)'].split(',')[0].strip(), cards, lid)  # the class card is listed first; a Dunia twin may follow
 
     def test_every_core_word_is_used(self):
-        """All 40 chapter 10 core words appear in their unit outside the vocabulary list, and each is tested or practised."""
+        """All 44 chapter 10 core words appear in their unit outside the vocabulary list, and each is tested or practised."""
         for u in UNITS:
             text = ' | '.join(s.lower() for s in spans(self.all_lines((u,), skip_vocab=True)))
             for lid in CFGS[u]['core']:
@@ -325,7 +323,7 @@ class Chapter10(unittest.TestCase):
         self.assertEqual(l['suite']['course_path'], 'fast')
         self.assertEqual(l['level'], 'A2')
         core = [x for x in self.lines(l, 'Core words') if re.search(r'\[L-\d{4}\]$', x)]
-        self.assertEqual(len(core), 20)
+        self.assertEqual(len(core), 24)  # 20 + L-1273 to L-1276 (14 Nov 2026)
         self.assertTrue(set(fast.C10_WORDS) <= set(ms_c10a.CORE + ms_c10b.CORE))
         patterns = [x for x in self.lines(l, 'Key patterns') if re.match(r'^\d · ', x)]
         self.assertEqual(len(patterns), 5)

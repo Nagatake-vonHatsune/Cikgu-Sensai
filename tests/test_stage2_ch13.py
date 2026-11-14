@@ -36,7 +36,6 @@ def bank():
 def ch13_rows(rows):
     """Core rows the ledger places in unit 13 (not the recognition rows)."""
     return {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-            and lid not in katakata_ref.PENDING_NEW_CORE
             and re.match(r'Ch13 \(unit 13\)(?:;|$)', r['Kata-Kata place'])}
 
 
@@ -103,7 +102,7 @@ class Chapter13(unittest.TestCase):
         cfg = ms_c13.CFG
         self.assertEqual(len(cfg['core']), len(set(cfg['core'])))
         self.assertEqual(set(cfg['core']), ch13_rows(rows))
-        self.assertEqual(len(cfg['core']), 25)
+        self.assertEqual(len(cfg['core']), 29)  # 25 + L-1285 to L-1288 (14 Nov 2026)
         self.assertIn('L-1268', cfg['core'])
         self.assertEqual([lid for _, ids in cfg['core_groups'] for lid in ids], cfg['core'])
         for _, ids in cfg['revision']:
@@ -111,9 +110,8 @@ class Chapter13(unittest.TestCase):
                 self.assertLessEqual(placed_chapter(rows[lid]['Kata-Kata place']), 12, lid)
                 self.assertNotIn(lid, cfg['core'])
         stage2 = {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-                  and lid not in katakata_ref.PENDING_NEW_CORE
                   and re.match(r'Ch1[0-7] \(unit \w+\)(?:;|$)', r['Kata-Kata place'])}
-        self.assertEqual(len(stage2), 240)
+        self.assertEqual(len(stage2), 271)  # 240 + the 31 words approved on 13 and 14 Nov 2026 (L-1273 to L-1303); the six practice-pool rows are not core
         # No ledger row carries a recognition place for chapter 13.
         self.assertFalse([lid for lid, r in rows.items() if re.match(r'Ch13 \(unit 13, recognition', r['Kata-Kata place'])])
         self.assertEqual(cfg['recognition'], [])
@@ -141,7 +139,7 @@ class Chapter13(unittest.TestCase):
         v = ' '.join(self.lines(self.comp('ms-c13', 'Vocabulary')))
         self.assertIn('‹me-› + ‹sti›', v)
         self.assertIn('permission, taught only in this sense', v)
-        for w in ('‹benar›', '‹sihat›', '‹cemas›', '‹arah›', '‹rawat›', '‹alah›', '‹suai›', '‹elak›'):
+        for w in ('‹benar›', '«sihat»', '‹cemas›', '‹arah›', '‹rawat›', '‹alah›', '‹suai›', '‹elak›'):
             self.assertIn(w, v, w)
         # Every use of «kebenaran» outside the vocabulary list is «minta kebenaran» (permission).
         for line in self.pupil_malay():
@@ -346,7 +344,7 @@ class Chapter13(unittest.TestCase):
         body = ' '.join(self.lines(opener))
         self.assertIn(f'Sedia Kelas c13 ({katakata_ref.sedia_count(13)} cards, frames ms-c13-f01 and ms-c13-f02)', body)
         self.assertIn(f'（カード{katakata_ref.sedia_count(13)}枚、文型 f01・f02）', body)
-        self.assertIn('ms-c13-001 to ms-c13-025', body)
+        self.assertIn('ms-c13-001 to ms-c13-029', body)
 
     def test_culture_note_general_knowledge_labelled(self):
         cult = ' '.join(ms_c13.CULTURE)
@@ -373,7 +371,7 @@ class Chapter13(unittest.TestCase):
         self.assertEqual(l['suite']['course_path'], 'fast')
         self.assertEqual(l['level'], 'A2')
         core = [x for x in self.lines(l, 'Core words') if re.search(r'\[L-\d{4}\]$', x)]
-        self.assertEqual(len(core), 20)
+        self.assertEqual(len(core), 24)  # 20 + L-1285 to L-1288 (14 Nov 2026)
         self.assertTrue(set(fast.C13_WORDS) <= set(ms_c13.CORE))
         patterns = [x for x in self.lines(l, 'Key patterns') if re.match(r'^\d · ', x)]
         self.assertEqual(len(patterns), 5)

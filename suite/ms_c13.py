@@ -1,7 +1,7 @@
 """Unit 13: belum, permission, need, advice and rules in health situations: the panel clinic and the pharmacy
 (Saya belum ___; Bolehkah saya ___?; Saya perlu ___; Encik patut ___; Tidak dibenarkan ___ di sini; Borang ini wajib ___).
 
-25 core ledger entries, the rows the ledger places in "Ch13 (unit 13)": the existing rows L-0627 «penyambut tetamu», L-0630
+29 core ledger entries, the rows the ledger places in "Ch13 (unit 13)" (the four words L-1285 «sihat», L-1286 «beritahu», L-1287 «ahli farmasi» and L-1288 «tinggalkan» were approved by Sam on 14 Nov 2026): the existing rows L-0627 «penyambut tetamu», L-0630
 «klinik panel», L-0631 «sakit tekak», L-0633 «alahan», L-0634 «simptom», L-0636 «bila perlu», L-0638 «temu janji» and L-0648
 «daftar»; the new rows L-1185 to L-1200 (including L-1200 «cuti sakit / MC»); and L-1268 «mendaftar» (added by Sam in the Kata-Kata
 step 3c, Journal row 184). They come in three groups: need, advice and rules (10), the panel clinic (11) and the pharmacy (4). No
@@ -18,9 +18,9 @@ review.
 """
 from .chapter10_common import unit_dict
 
-RULES = ['L-1185', 'L-1186', 'L-1199', 'L-1187', 'L-1188', 'L-1189', 'L-1190', 'L-1196', 'L-1197', 'L-0636']
-CLINIC = ['L-0627', 'L-0630', 'L-0638', 'L-0648', 'L-1268', 'L-1200', 'L-0634', 'L-0631', 'L-0633', 'L-1194', 'L-1195']
-PHARMACY = ['L-1191', 'L-1193', 'L-1192', 'L-1198']
+RULES = ['L-1185', 'L-1186', 'L-1199', 'L-1187', 'L-1188', 'L-1189', 'L-1190', 'L-1196', 'L-1197', 'L-0636', 'L-1286']
+CLINIC = ['L-0627', 'L-0630', 'L-0638', 'L-0648', 'L-1268', 'L-1200', 'L-0634', 'L-0631', 'L-0633', 'L-1194', 'L-1195', 'L-1285', 'L-1288']
+PHARMACY = ['L-1191', 'L-1193', 'L-1192', 'L-1198', 'L-1287']
 CORE = RULES + CLINIC + PHARMACY
 
 # Revision: words placed in chapters 1 to 12 that the unit really uses (a test fails if one is not used).
@@ -42,6 +42,7 @@ EXAMPLES = {
     'L-1196': '«Tolong elakkan lif itu. Lif itu rosak.»',
     'L-1197': '«Pukul empat petang sesuai?»',
     'L-0636': '«Tanya penyambut tetamu bila perlu.»',
+    'L-1286': '«Saya akan beritahu doktor.» (written joined: «beritahu»)',
     # The panel clinic
     'L-0627': '«Penyambut tetamu ada di kaunter.»',
     'L-0630': '«Ini klinik panel syarikat encik?»',
@@ -54,11 +55,14 @@ EXAMPLES = {
     'L-0633': '«Encik ada alahan?»',
     'L-1194': '«Borang kesihatan ini wajib diisi.»',
     'L-1195': '«Kad ini untuk rawatan di klinik panel.»',
+    'L-1285': '«Saya tidak sihat.» (and «Saya sihat.»)',
+    'L-1288': '«Boleh saya tinggalkan beg di sini?»',
     # The pharmacy
     'L-1191': '«Farmasi ada di sebelah klinik.»',
     'L-1193': '«Saya tidak faham arahan itu.»',
     'L-1192': '«Dos ada di label itu.»',
     'L-1198': '«Pintu kecemasan ada di sebelah kiri.»',
+    'L-1287': '«Tanya ahli farmasi.»',
     # Revision · not, not yet and the markers
     'L-0030': '«Tidak ada. Saya tidak ada alahan.»',
     'L-0130': '«Ini bukan klinik panel.»',
@@ -125,8 +129,12 @@ VOCAB_OPTS = {
                'ja': '許可されている（‹di-› ＋ ‹benar› ＋ ‹-kan›：一語まるごと覚える；«dilarang»（第9章）の反対；掲示では «tidak dibenarkan» がふつう）'},
     'L-1189': {'en': 'permission, taught only in this sense: «minta kebenaran» (learn the whole word; ‹ke-an› words come in Stage 3; the root is ‹benar›)',
                'ja': '許可（この意味だけを教える）：«minta kebenaran»（一語まるごと覚える；‹ke-an› の語は第3段階；語根は ‹benar›）'},
-    'L-1194': {'en': 'health (learn the whole word; ‹ke-an› words come in Stage 3; the root is ‹sihat›)',
-               'ja': '健康（一語まるごと覚える；‹ke-an› の語は第3段階；語根は ‹sihat›）'},
+    'L-1194': {'en': 'health (learn the whole word; ‹ke-an› words come in Stage 3; the root is «sihat», taught in this unit)',
+               'ja': '健康（一語まるごと覚える；‹ke-an› の語は第3段階；語根は «sihat»、このユニットで学ぶ）'},
+    'L-1288': {'en': 'to leave (something) behind or with someone (root «tinggal», chapter 2, + ‹-kan›; «tinggal» alone is to live or to stay)',
+               'ja': '置いていく・預ける（語根 «tinggal»、第2章、＋ ‹-kan›；«tinggal» だけなら「住む・泊まる」）'},
+    'L-1287': {'en': 'pharmacist (learn it as a phrase; the person who works at a «farmasi»)', 'ja': '薬剤師（句として覚える；«farmasi» で働く人）'},
+    'L-1286': {'en': 'to tell; to let someone know (written joined, as one word)', 'ja': '知らせる・伝える（つなげて一語で書く）'},
     'L-1198': {'en': 'emergency (learn the whole word; ‹ke-an› words come in Stage 3; the root is ‹cemas›)',
                'ja': '緊急事態（一語まるごと覚える；‹ke-an› の語は第3段階；語根は ‹cemas›）'},
     'L-1193': {'en': 'instruction, as on a label (learn the whole word; the root is ‹arah›)',
@@ -153,7 +161,7 @@ P = [
         'A: «Encik sudah mendaftar?» B: «Belum. Saya belum mendaftar.»',
         'A: «Awak sudah isi borang ini?» B: «Belum. Saya belum isi borang.»',
         'A: «Awak sudah berjumpa doktor?» B: «Belum. Saya belum berjumpa doktor.»',
-        'A: «Apa simptom awak?» B: «Saya demam. Saya tidak batuk.»',
+        'A: «Apa simptom awak?» B: «Saya tidak sihat. Saya demam, tetapi saya tidak batuk.»',
         'A: «Ada temu janji?» B: «Tidak ada. Saya belum tempah.»'],
      "«belum» goes in front of the verb and means not yet, so it also says that you expect to do it later: «Saya belum makan.» (the Kata-Kata frame) is "
      "\"I haven't eaten yet\". The verb does not change. «Belum.» alone is a full answer to «Sudah …?» (chapter 4). «tidak» is a plain no or not, with no \"yet\": "
@@ -168,7 +176,7 @@ P = [
     ('ms-c13-f02', '«Bolehkah saya» ___ «?»  (asking permission; also «Boleh saya» ___ «?»)', [
         'A: «Bolehkah saya masuk?» B: «Boleh. Sila masuk.»',
         'A: «Boleh saya duduk di sini?» B: «Boleh. Sila duduk.»',
-        'A: «Bolehkah saya isi borang di sini?» B: «Boleh. Ini pen.»',
+        'A: «Boleh saya tinggalkan beg di sini?» B: «Boleh. Letak beg di sebelah kaunter.»',
         'A: «Boleh saya cuti esok?» B: «Awak mesti minta kebenaran bos dulu.»',
         'A: «Bolehkah saya minum air di sini?» B: «Maaf, tidak boleh.»',
         'A: «Boleh saya ambil gambar di sini?» B: «Maaf, tidak boleh. Tidak dibenarkan ambil gambar di sini.»'],
@@ -188,7 +196,7 @@ P = [
         'A: «Saya perlu bawa apa?» B: «Awak perlu bawa kad syarikat dan pasport.»',
         'A: «Saya perlu tunggu lama?» B: «Tidak perlu. Nombor giliran awak sudah dekat.»',
         'A: «Encik perlu daftar dulu.» B: «Baik. Di mana kaunter?»',
-        'A: «Saya perlu isi semua borang ini?» B: «Tidak perlu. Borang kesihatan sahaja wajib diisi.»'],
+        'A: «Saya tidak faham arahan itu.» B: «Awak perlu tanya ahli farmasi.»'],
      "«perlu» + a verb says what you need to do or what is needed: «Saya perlu berjumpa doktor.» (the Kata-Kata frame). It is a plain fact about a step, not a threat and not advice. "
      "«Tidak perlu» means you do not have to: «Tidak perlu tunggu lama.» It does not mean it is forbidden. The standard verb after «perlu» can be «mendaftar» or the everyday «daftar»: "
      "«Encik perlu daftar dulu.» (the Kata-Kata line). The fixed phrase «bila perlu» (when needed) is learned whole: «Tanya penyambut tetamu bila perlu.» "
@@ -200,7 +208,7 @@ P = [
      '日本語の「〜なければならない」と「必要がある」は近く、「〜なくてもいい」はその反対です。マレー語は必要に «perlu»、「〜なくてもいい」に «tidak perlu» を使います。「〜なくてもいい」に «tidak boleh» を使わないでください。それは「〜てはいけません」です。'),
     ('ms-c13-f04', '«Encik patut» ___ «.»  (advice) and «mesti» (must)', [
         'A: «Encik patut berehat.» B: «Baik, doktor. Terima kasih.»',
-        'A: «Saya mahu cuti esok. Apa saya patut buat?» B: «Awak patut tanya bos dulu.»',
+        'A: «Saya mahu cuti esok. Apa saya patut buat?» B: «Awak patut beritahu bos dulu.»',
         'A: «Kita patut sampai pukul berapa?» B: «Kita patut sampai pukul sembilan.»',
         'A: «Itu nasihat siapa?» B: «Itu nasihat doktor.»',
         'A: «Saya mesti isi borang ini?» B: «Mesti. Borang ini wajib diisi.»',
@@ -257,10 +265,10 @@ VARIANT = [
     ('Receptionist', 'Cik perlu mendaftar dulu. Borang kesihatan ini wajib diisi.'),
     ('Mei Ling', 'Baik. Boleh saya isi borang di sini?'),
     ('Receptionist', 'Boleh. Sila duduk. Cik ada alahan?'),
-    ('Mei Ling', 'Ada. Saya cakap dengan doktor nanti.'),
+    ('Mei Ling', 'Ada. Saya akan beritahu doktor.'),
     ('Receptionist', 'Baik. Tolong tunggu di bilik menunggu. Tidak dibenarkan makan di sini.'),
-    ('Mei Ling', 'Boleh saya letak beg di sini?'),
-    ('Receptionist', 'Boleh. Doktor akan panggil cik.'),
+    ('Mei Ling', 'Boleh saya tinggalkan beg di sini?'),
+    ('Receptionist', 'Boleh. Letak beg di sebelah kaunter. Doktor akan panggil cik.'),
     ('Mei Ling', 'Terima kasih.'),
 ]
 LISTENING = [
@@ -312,7 +320,7 @@ CFG = dict(
     grammar_ids={'belum': 'ms-c13-g02', 'boleh': 'ms-c13-g03', 'perlu': 'ms-c13-g04', 'patut': 'ms-c13-g05', 'sign': 'ms-c13-g06',
                  'wajib': 'ms-c13-g07', 'words': 'ms-c13-g08'},
     grammar=['belum', 'boleh', 'perlu', 'patut', 'sign', 'wajib'], examples=EXAMPLES, vocab_opts=VOCAB_OPTS,
-    card_range='the 25 cards ms-c13-001 to ms-c13-025', frame_list='ms-c13-f01 to f06', frame_list_ja='f01〜f06',
+    card_range='the 29 cards ms-c13-001 to ms-c13-029', frame_list='ms-c13-f01 to f06', frame_list_ja='f01〜f06',
     extra=None,
     goals={'A': 'I can say what I have not done yet with «belum», ask permission with «Bolehkah saya …?» and say what I need with «perlu».',
            'B': 'I can register at a panel clinic, answer the receptionist and ask the doctor for sick leave.',
@@ -474,8 +482,8 @@ CFG = dict(
             'At the pharmacy you do not understand the instruction: ask the pharmacist to say it once more, then say you will read the label.',
             'Bは患者です（架空）。熱とのどの痛みがあり、予約はありません。受付をし、ここで用紙に記入してよいか、水を飲んでよいかをたずねます。'
             '薬局では指示が分からないので、薬剤師にもう一度言ってもらい、ラベルを読むと言います。'],
-    change=['Halfway, A says: «Maaf, doktor belum ada. Encik boleh tunggu, atau datang pukul empat. Sesuai?» B decides, says what is suitable and asks whether B may leave a bag here: «Pukul empat sesuai. Boleh saya letak beg di sini?»',
-            '途中でAが «Maaf, doktor belum ada. Encik boleh tunggu, atau datang pukul empat. Sesuai?» と言います。Bは決めて、都合のよい時間を言い、ここにかばんを置いてよいかをたずねます：«Pukul empat sesuai. Boleh saya letak beg di sini?»'],
+    change=['Halfway, A says: «Maaf, doktor belum ada. Encik boleh tunggu, atau datang pukul empat. Sesuai?» B decides, says what is suitable and asks whether B may leave a bag here: «Pukul empat sesuai. Boleh saya tinggalkan beg di sini?»',
+            '途中でAが «Maaf, doktor belum ada. Encik boleh tunggu, atau datang pukul empat. Sesuai?» と言います。Bは決めて、都合のよい時間を言い、ここにかばんを置いてよいかをたずねます：«Pukul empat sesuai. Boleh saya tinggalkan beg di sini?»'],
     success=['☐ B says what has not been done yet with «belum» and what B needs with «perlu».',
              '☐ B asks permission twice with «Bolehkah saya …?» or «Boleh saya …?».',
              '☐ At the pharmacy B asks for the instruction again and A only points to the label; after the change B says the time suits.'],
@@ -483,7 +491,7 @@ CFG = dict(
              '«Baik. Saya belum isi borang. Bolehkah saya isi borang di sini?» — «Boleh. Ini klinik panel syarikat encik?» — «Ya. Boleh saya minum air di sini?» — '
              '«Maaf, tidak dibenarkan minum di sini. Dilarang makan dan minum di bilik menunggu.» — The pharmacy: «Maaf, boleh cakap lagi sekali? Saya tidak faham arahan itu.» — '
              '«Boleh. Encik mesti baca arahan di label. Dos ada di label itu.» — «Baik, saya baca label itu. Terima kasih.» — «Sama-sama. Kalau ada soalan, tanya saya lagi.» — '
-             'Change: «Maaf, doktor belum ada. Encik boleh tunggu, atau datang pukul empat. Sesuai?» — «Pukul empat sesuai. Boleh saya letak beg di sini?»',
+             'Change: «Maaf, doktor belum ada. Encik boleh tunggu, atau datang pukul empat. Sesuai?» — «Pukul empat sesuai. Boleh saya tinggalkan beg di sini?»',
     culture=CULTURE, culture_ja=CULTURE_JA,
     culture_sources='Kata-Kata chapter 13 card notes ms-c13-001 to -003 («perlu», «patut», «wajib»; «mesti» is a root, card -021), -004 («dibenarkan» is ‹di-› + ‹benar› + ‹-kan›, the opposite of «dilarang»), '
                     '-005 («kebenaran» taught only as permission), -012 («dos» for reading a label only), -023 to -025 («daftar», «cuti sakit / MC» with spoken «MC», «mendaftar»); stage 2 plan sections 2 and 3 and the chapter 13 row '
@@ -525,9 +533,9 @@ CFG = dict(
     hanashishou_note='Hanashishou (Stage 2): the plan links chapter 13 to the clinic scenes (clinic_visit, pharmacy_advice, clinic_registration). '
                      'Their Malay is not yet tagged by chapter (build step 6), so do not assign them yet.',
     next_note='Next: unit 14 (reasons, conditions and sequence; Kata-Kata c14), with its writing block.',
-    teacher_notes=['Load: 25 core words in three groups (need, advice and rules 10; the panel clinic 11; the pharmacy 4), no recognition word, and revision of not and not yet, health and the clinic, forms and the counter, '
+    teacher_notes=['Load: 29 core words in three groups (need, advice and rules 11; the panel clinic 13; the pharmacy 5), no recognition word, and revision of not and not yet, health and the clinic, forms and the counter, '
                    'signs and rules, and asking and thanking. Suggested order: Block A the first group with patterns 1 to 3; Block B the second group with patterns 4 and 5; the third group in Block B or C. '
-                   'If the pilot shows 25 is too many, the natural cut is: «perlu», «patut», «mesti», «wajib», «dibenarkan», «daftar», «mendaftar», «temu janji», «klinik panel», «cuti sakit» first; the rest second.',
+                   'If the pilot shows 29 is too many, the natural cut is: «perlu», «patut», «mesti», «wajib», «dibenarkan», «daftar», «mendaftar», «temu janji», «klinik panel», «cuti sakit» first; the rest second.',
                    'Safety (read first): the unit writes no diagnosis, no treatment advice, no medicine name with a dose and no dosing instruction. The doctor only says «patut berehat» and gives sick leave; the pharmacist only '
                    'points to the label and says «tanya saya lagi». «dos» is taught for reading a label. Tell learners to follow their own doctor and pharmacist, and do not answer medical questions in class. '
                    'Use fictional names and symptoms; assess the language, not medical knowledge.',

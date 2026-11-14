@@ -37,7 +37,6 @@ def bank():
 def ch14_rows(rows):
     """Core rows the ledger places in unit 14 (not the recognition rows)."""
     return {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-            and lid not in katakata_ref.PENDING_NEW_CORE
             and re.match(r'Ch14 \(unit 14\)(?:;|$)', r['Kata-Kata place'])}
 
 
@@ -100,7 +99,7 @@ class Chapter14(unittest.TestCase):
         cfg = ms_c14.CFG
         self.assertEqual(len(cfg['core']), len(set(cfg['core'])))
         self.assertEqual(set(cfg['core']), ch14_rows(rows))
-        self.assertEqual(len(cfg['core']), 22)
+        self.assertEqual(len(cfg['core']), 29)  # 22 + L-1289 to L-1295 (14 Nov 2026)
         for lid in ('L-1269', 'L-1270', 'L-0641', 'L-0710'):
             self.assertIn(lid, cfg['core'])
         self.assertEqual([lid for _, ids in cfg['core_groups'] for lid in ids], cfg['core'])
@@ -109,9 +108,8 @@ class Chapter14(unittest.TestCase):
                 self.assertLessEqual(placed_chapter(rows[lid]['Kata-Kata place']), 13, lid)
                 self.assertNotIn(lid, cfg['core'])
         stage2 = {lid for lid, r in rows.items() if r['Review status'] != 'Retired'
-                  and lid not in katakata_ref.PENDING_NEW_CORE
                   and re.match(r'Ch1[0-7] \(unit \w+\)(?:;|$)', r['Kata-Kata place'])}
-        self.assertEqual(len(stage2), 240)
+        self.assertEqual(len(stage2), 271)  # 240 + the 31 words approved on 13 and 14 Nov 2026 (L-1273 to L-1303); the six practice-pool rows are not core
         self.assertFalse([lid for lid, r in rows.items() if re.match(r'Ch14 \(unit 14, recognition', r['Kata-Kata place'])])
         self.assertEqual(cfg['recognition'], [])
         cards = {c['id'] for c in self.pack['cards']}
@@ -120,7 +118,7 @@ class Chapter14(unittest.TestCase):
         self.assertEqual(len(cards), 29)  # 22 core + 7 new (L-1289 to L-1295)
 
     def test_every_core_word_is_used(self):
-        """All 22 chapter 14 core words (including L-1269 «tangguhkan» and L-1270 «batalkan») appear outside the vocabulary list."""
+        """All 29 chapter 14 core words (including L-1269 «tangguhkan» and L-1270 «batalkan») appear outside the vocabulary list."""
         text = ' | '.join(s.lower() for s in spans(self.all_lines(('ms-c14',), skip_vocab=True)))
         for lid in ms_c14.CFG['core']:
             form = self.ledger.row(lid)['Malay'].lower().split(' / ')[0]
@@ -174,15 +172,18 @@ class Chapter14(unittest.TestCase):
         """Sam: casual turns do not use ruling-style phrasing («keputusan»); «keputusan» is a word for a written notice or a result."""
         cfg = ms_c14.CFG
         casual = ' '.join(s for _, s in cfg['dialogue'] + cfg['variant'] + cfg['listening']).lower()
-        for banned in ('keputusan', 'ialah', 'baiklah', 'begini', 'itu keputusan kita'):
+        for banned in ('keputusan', 'ialah', 'itu keputusan kita'):
             self.assertNotRegex(casual, r'(?<![a-z])' + banned + r'(?![a-z])', banned)
+        # Sam's natural casual phrase is back (14 Nov 2026, L-1289 «baiklah» and L-1290 «begini»).
+        self.assertIn('Baiklah, kita buat begini.', ' '.join(s for _, s in cfg['listening']))
         for sp in spans(self.lines(self.comp('ms-c14', 'Pattern and grammar'))):
             self.assertNotIn('keputusan', sp.lower(), sp)
         # «keputusan» is used in a written notice (the reading and the writing block).
         self.assertIn('Keputusan:', ' '.join(cfg['reading']))
         self.assertNotIn('Itu keputusan kita', ' '.join(self.all_lines()))
-        # No ledger word that is not placed yet is proposed as a line: «baiklah» and «begini» are not in the unit at all.
-        self.assertNotRegex(' '.join(spans(self.all_lines())).lower(), r'(?<![a-z])(baiklah|begini)(?![a-z])')
+        # «baiklah» and «begini» are ledger rows now (L-1289, L-1290; 14 Nov 2026) and are in the unit.
+        self.assertRegex(' '.join(spans(self.all_lines())).lower(), r'(?<![a-z])baiklah(?![a-z])')
+        self.assertRegex(' '.join(spans(self.all_lines())).lower(), r'(?<![a-z])begini(?![a-z])')
 
     def test_kan_rule_and_dari(self):
         """Chapter 12 -kan rule (Sam): «tangguhkan» and «batalkan» only in «kita» sentences and requests, never after an aspect word or with a
@@ -208,7 +209,9 @@ class Chapter14(unittest.TestCase):
         self.assertNotRegex(text, r'(?<![a-z])Mendaki (?:pada hari Sabtu )?batal')
         self.assertNotRegex(text, r'(?<!ancangan )(?<![a-z])mendaki batal')
         self.assertIn('Rancangan mendaki batal kerana hujan', text)
-        self.assertIn('Mei Ling tangguhkan rancangan mendaki kerana dia bekerja', text)
+        # Third-person statements take the standard form (Sam, 14 Nov 2026); the bare form stays for requests, offers and «kita» plans.
+        self.assertIn('Mei Ling menangguhkan rancangan mendaki kerana dia bekerja', text)
+        self.assertNotRegex(text, r'(?:Mei Ling|Puan Aini|Aini|Encik \w+|Cik \w+) (?:tangguhkan|batalkan)(?![a-z])')
         self.assertIn('Oleh itu, kita tangguhkan rancangan itu ke hari Ahad', text)
         for sp in spans(self.all_lines()):
             if re.search(r'(?<![a-z])(?:tangguhkan|batalkan)(?![a-z])', sp) and re.search(r'(?<![a-z])kita masih(?![a-z])', sp):
@@ -364,7 +367,7 @@ class Chapter14(unittest.TestCase):
         body = ' '.join(self.lines(opener))
         self.assertIn(f'Sedia Kelas c14 ({katakata_ref.sedia_count(14)} cards, frames ms-c14-f01 and ms-c14-f02)', body)
         self.assertIn(f'（カード{katakata_ref.sedia_count(14)}枚、文型 f01・f02）', body)
-        self.assertIn('ms-c14-001 to ms-c14-022', body)
+        self.assertIn('ms-c14-001 to ms-c14-029', body)
 
     def test_culture_note_general_knowledge_labelled(self):
         cult = ' '.join(ms_c14.CULTURE)
@@ -388,7 +391,7 @@ class Chapter14(unittest.TestCase):
         self.assertEqual(l['suite']['course_path'], 'fast')
         self.assertEqual(l['level'], 'A2')
         core = [x for x in self.lines(l, 'Core words') if re.search(r'\[L-\d{4}\]$', x)]
-        self.assertEqual(len(core), 22)
+        self.assertEqual(len(core), 29)  # 22 + L-1289 to L-1295 (14 Nov 2026)
         self.assertEqual(set(fast.C14_WORDS), set(ms_c14.CORE))  # Sam, 13 Nov: «semasa» and «sejak» are in the fast pack
         patterns = [x for x in self.lines(l, 'Key patterns') if re.match(r'^\d · ', x)]
         self.assertEqual(len(patterns), 5)
