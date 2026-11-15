@@ -25,7 +25,7 @@ class StageRulesFixtures(unittest.TestCase):
  def setUpClass(cls):cls.checker=Checker()
  def test_shared_fixtures(self):
   self.assertGreaterEqual(len(FIXTURES),60)
-  self.assertEqual(len(FIXTURES),104)  # 77 at step 4a, 81 after the clean-up, 95 after step 6c-1 (14 cases on rows with no chapter), 104 with the extension rows (9 cases)
+  self.assertEqual(len(FIXTURES),118)  # 77 at step 4a, 81 after the clean-up, 95 after step 6c-1 (14 cases on rows with no chapter), 104 with the extension rows (9 cases), 118 with the seven month, nol and persen forms (14 cases)
   for case in FIXTURES:
    with self.subTest(case=case['id']):
     result=run_case(self.checker,case);v=result['violations']
@@ -75,7 +75,7 @@ class StageRulesFile(unittest.TestCase):
  def test_disallowed_forms_are_not_ledger_forms(self):
   for form in RULES['disallowed_forms']:
    self.assertNotIn(form,self.checker.entries,form)
-  for form in ['berbicara','perbaiki','musik','film','olahraga','apotek','kantor','mobil','uang','tanda tangan']:self.assertIn(form,RULES['disallowed_forms'])
+  for form in ['berbicara','perbaiki','musik','film','olahraga','apotek','kantor','mobil','uang','tanda tangan','nol','maret','juni','juli','agustus','desember','persen']:self.assertIn(form,RULES['disallowed_forms'])
  def test_register_pairs(self):
   pairs={(p['spoken'],p['standard']) for p in RULES['register_pairs']}
   # Sam, 13 Nov 2026: «tidak mengapa» (spoken: «takpe» / «tak apa»).
