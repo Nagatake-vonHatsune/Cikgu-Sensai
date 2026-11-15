@@ -2,6 +2,13 @@
 
 Update this file at the end of every session. The next builder (ChatGPT or Claude) starts here, after the charter and `AGENTS.md`.
 
+## Seven Indonesian forms disallowed (15 Nov 2026, Claude)
+
+- **Authorised:** Sam (15 Nov 2026). Rules commit **`d8612e5cd16661156ef86862f111355cc5cc0828`**, started at `bb22e43`. `curriculum/stage-rules.json` `disallowed_forms` gains nol (kosong / sifar), maret (Mac), juni (Jun), juli (Julai), agustus (Ogos), desember (Disember), persen (peratus). Whole words, case-insensitive: «Juni» is caught, «Jun» is not. «Minggu» and «jam» are left out on purpose (they need context). Source line `sam_months_nol_persen`.
+- **Fixtures:** 104 to 118 (14 new: `indonesian-<form>-fails` and `malaysian-<form>-passes` for each form). Kata-Kata's guard should copy `stage-rules.json` and `stage-rules-fixtures.json` from the rules commit and update `SOURCE.json` (case count 104 to 118).
+- **Checks:** `python build.py` and the 345 tests pass; no new Malay violation (still 20 current, 20 legacy). Cikgu Sensai content has no hit. The only occurrences are «Not Indonesian Maret / Juni / Juli / Agustus / Desember» do-not-use notes in the ledger snapshot (`curriculum/reference/katakata/malay-ledger.csv`, lines 1034, 1036, 1039, 1040, 1041, 1045), which are notes, not taught text, and the snapshot is Kata-Kata's.
+- **Kata-Kata (read only, not edited):** its own Nombor-Masa mode already bans these forms; every occurrence is a ban list, a test or a do-not-use note (ledger CSV lines 1034 to 1045, `docs/NOMBOR-MASA-report.md`, `src/core/nombor.ts` 746-747, `tests/e2e/nombor.cjs`, `tests/unit/nombor.test.ts`). **Hanashishou:** no hits.
+
 ## Scope rule for «ChN (extension)» ledger rows (15 Nov 2026, Claude)
 
 - **Authorised:** Sam (15 Nov 2026). Kata-Kata will add about 366 «ChN (extension)» rows, taught in its ⚡ stretch stage and in an optional Cikgu Sensai add-on, not core until Stage 3.
