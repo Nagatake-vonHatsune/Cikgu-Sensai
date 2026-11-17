@@ -13,7 +13,7 @@ def run_case(checker,case):
   ch=s['chapter'];kind=s.get('kind','model')
   source=f'test:{case["id"]}-{i}|{s["field"]}' if kind=='test' else f'fixture|{i}'
   if kind=='mention':mentions[' '.join(re.findall(r"[a-z]+(?:[-'][a-z]+)*",s['text'].lower()))]=s['mention_source']
-  segments.append({'unit':s.get('unit',f'fixture-c{ch:02}'),'chapter':ch,'source':source,'text':s['text'],'source_text':s.get('source_text',s['text']),'kind':kind,'extension':s.get('extension',False)})
+  segments.append({'unit':s.get('unit') or f'fixture-c{ch:02}','chapter':ch,'source':source,'text':s['text'],'source_text':s.get('source_text',s['text']),'kind':kind,'extension':s.get('extension',False)})
  # Optional (extension rows): ledger_rows are added to the ledger for this case only.
  if case.get('ledger_rows'):checker=Checker(extra_rows=case['ledger_rows'])
  saved=checker.mentions;checker.mentions=mentions
@@ -25,7 +25,7 @@ class StageRulesFixtures(unittest.TestCase):
  def setUpClass(cls):cls.checker=Checker()
  def test_shared_fixtures(self):
   self.assertGreaterEqual(len(FIXTURES),60)
-  self.assertEqual(len(FIXTURES),118)  # 77 at step 4a, 81 after the clean-up, 95 after step 6c-1 (14 cases on rows with no chapter), 104 with the extension rows (9 cases), 118 with the seven month, nol and persen forms (14 cases)
+  self.assertEqual(len(FIXTURES),174)  # 77 at step 4a, 81 after the clean-up, 95 after step 6c-1 (14 cases on rows with no chapter), 104 with the extension rows (9 cases), 118 with the seven month, nol and persen forms (14 cases), 174 with Sam's five changes of 17 Nov 2026 (56 cases: «pasar», reduplication, chapter 17 register pairs, terbaru and tertinggi, belon, mekanik and meriah)
   for case in FIXTURES:
    with self.subTest(case=case['id']):
     result=run_case(self.checker,case);v=result['violations']
@@ -39,7 +39,8 @@ class StageRulesFixtures(unittest.TestCase):
   ids={c['id'] for c in FIXTURES}
   for i in ['bercakap-9-fails','bercakap-10-passes','menulis-10B-fails','menulis-11A-passes','kan-suffix-11B-fails','kan-suffix-12A-passes',
             'tertinggal-15-fails','tertinggal-16-passes','whole-word-bekerja-10','whole-word-belajar-2','indonesian-berbicara-fails',
-            'indonesian-in-do-not-use-note-passes','spoken-before-standard-fails','tak-apa-before-tidak-mengapa-fails','tidak-mengapa-with-both-spoken-forms-passes','termurah-does-not-unlock-terjatuh','lah-in-answer-key-fails','indonesian-tanda-tangan-fails','tandatangan-joined-passes','tanda-tangan-in-do-not-use-note-passes','tanda-tangan-mention-without-do-not-use-fails']:
+            'indonesian-in-do-not-use-note-passes','spoken-before-standard-fails','tak-apa-before-tidak-mengapa-fails','tidak-mengapa-with-both-spoken-forms-passes','termurah-does-not-unlock-terjatuh','lah-in-answer-key-fails','indonesian-tanda-tangan-fails','tandatangan-joined-passes','tanda-tangan-in-do-not-use-note-passes','tanda-tangan-mention-without-do-not-use-fails',
+            'pasar-seni-capitalised-is-a-name-passes','pasar-raya-is-two-words-before-chapter-3-fails','reduplication-x-x-placed-where-x-is-passes','reduplication-own-row-wins-malam-malam-fails-before-its-row','register-ch17-je-without-standard-fails','register-ch17-takkan-without-standard-fails','terbaru-6-passes','tertinggi-6-passes','belon-is-a-root-passes','mekanik-is-a-root-passes','meriah-is-a-root-passes']:
    self.assertIn(i,ids)
 
 class TandatanganSpelling(unittest.TestCase):
@@ -68,10 +69,15 @@ class StageRulesFile(unittest.TestCase):
    row=self.ledger[w['ledger_id']]
    self.assertEqual(self.checker.entries[w['form']][0]['ID'],w['ledger_id'],w['form'])
    self.assertEqual(placed_chapter(row['Kata-Kata place']),w['chapter'],w['form'])
-  self.assertTrue(set(RULES['ter_superlatives'])<={w['form'] for w in RULES['whole_words'] if w['chapter']==6})
+  # A listed superlative is a chapter 6 whole word when it has a ledger row of its own; terbaru and tertinggi (Sam, 17 Nov 2026) have none and are read as ter- + baru / tinggi from chapter 6.
+  self.assertEqual(set(RULES['ter_superlatives']),{'termurah','terbesar','terbaik','tercantik','terbaru','tertinggi'})
+  six={w['form'] for w in RULES['whole_words'] if w['chapter']==6}
+  for form in RULES['ter_superlatives']:
+   self.assertTrue(form in six or form not in self.checker.entries,form)
  def test_local_roots_are_shared(self):
   local=json.loads((ROOT/'curriculum/malay-roots.json').read_text())['roots']
   self.assertEqual(set(local),set(RULES['lookalike_roots']['sam_local']))
+  self.assertTrue({'belon','mekanik','meriah'}<=set(local))  # Sam, 17 Nov 2026
  def test_disallowed_forms_are_not_ledger_forms(self):
   for form in RULES['disallowed_forms']:
    self.assertNotIn(form,self.checker.entries,form)
@@ -81,6 +87,10 @@ class StageRulesFile(unittest.TestCase):
   # Sam, 13 Nov 2026: «tidak mengapa» (spoken: «takpe» / «tak apa»).
   for pair in [('tak apa','tidak mengapa'),('takpe','tidak mengapa'),('tak tahan','tidak boleh tahan'),('set','setuju'),('macam tu','seperti itu'),('ni','ini'),('tu','itu'),('kat','di')]:
    self.assertIn(pair,pairs)
+  # Sam, 17 Nov 2026: the chapter 17 register pairs, spoken to standard.
+  ch17={(p['spoken'],p['standard']) for p in RULES['register_pairs'] if p['from_chapter']==17}
+  self.assertEqual(ch17,{('je','sahaja'),('tau','tahu'),('kejap','sekejap'),('motor','motosikal'),('komplen','aduan'),('bisnes','perniagaan'),('takkan','tidak akan')})
+  self.assertIn('Sam approved 17 Nov 2026',RULES['sources']['sam_17_nov_2026'])
   self.assertEqual({p['form'] for p in RULES['particles']},{'lah','kan'})
  def test_strict_placement(self):
   self.assertEqual(placed_chapter('Ch1 (moved from Ch2; reviewed in Ch2)'),1)
@@ -158,3 +168,26 @@ class ExtensionRows(unittest.TestCase):
  def test_mention_overrides_reach_the_extension_view(self):
   c=Checker(extra_rows=self.ROWS);c.mentions={'nomor':'do not use: nomor'}
   self.assertIs(c.view({'extension':True}).mentions,c.mentions)
+
+
+class PasarNames(unittest.TestCase):
+ """«pasar» is a common noun; only a capitalised «Pasar» + capitalised word is a name (Sam, 17 Nov 2026)."""
+ def test_name_detection(self):
+  from language_checks import pasar_names
+  self.assertEqual(pasar_names('Saya di Pasar Seni.'),{2,3})
+  self.assertEqual(pasar_names('Pasar Seni dan pasar.'),{0,1})
+  self.assertEqual(pasar_names('Pasar Malam Taman Tun dibuka.'),{0,1,2,3})
+  for text in ['Pasar dibuka pukul lapan.','Pasar pagi ramai.','Saya di pasar Seni.','Saya di pasar.','Pasar','pasar Seni']:
+   self.assertEqual(pasar_names(text),set(),text)
+
+ def test_pasar_is_no_longer_on_the_proper_noun_list(self):
+  from language_checks import PROPER
+  self.assertNotIn('pasar',PROPER);self.assertIn('seni',PROPER)
+
+ def test_reduplication_reads_the_base(self):
+  c=Checker(extra_rows=[{'ID':'X-1','Malay':'kesan','Kata-Kata place':'Ch12','POS':'n'}])
+  self.assertEqual(c.derivation('kesan-kesan',12),('kesan','reduplication'))
+  self.assertEqual(c.derivation('kesan-kesan',None),None)
+  self.assertIsNone(c.derivation('sama-sama',12))      # own row (L-0017)
+  self.assertIsNone(c.derivation('buku-kad',12))       # halves differ
+  self.assertIsNone(c.derivation('gajah-gajah',12))    # no row for gajah

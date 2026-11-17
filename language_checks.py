@@ -32,12 +32,28 @@ from pathlib import Path
 ROOT=Path(__file__).parent
 EXCEPTIONS='curriculum/legacy-exceptions.json'
 RULES_FILE='curriculum/stage-rules.json'
-PROPER=set('a b c d emi farah osaka jepun pj shah alam kl sentral pasar seni aki mei qr rm am pm'.split())
+PROPER=set('a b c d emi farah osaka jepun pj shah alam kl sentral seni aki mei qr rm am pm'.split())
+# Token that stands for a capitalised place name made with «Pasar» (Pasar Seni); it is never vocabulary. The lower-case common nouns
+# «pasar», «pasar raya» and «pasar malam» are ordinary words that need ledger rows (Sam, 17 Nov 2026).
+NAME='\0name'
 NUMBERS=set('sifar kosong satu dua tiga empat lima enam tujuh lapan sembilan sepuluh sebelas belas puluh ratus ribu juta'.split())
 PROPER_FILE='curriculum/malay-proper-nouns.json'
 MENTIONS_FILE='curriculum/malay-mentions.json'
 def tokens(s):return re.findall(r"[a-z]+(?:[-'][a-z]+)*",s.lower())
 def norm(s):return ' '.join(tokens(s))
+def pasar_names(text):
+ """Indexes of the tokens that make up a capitalised «Pasar …» place name: «Pasar» with a capital letter, followed by one or more
+ capitalised words («Pasar Seni», «Pasar Karat»). «Pasar» alone, at the start of a sentence or not («Pasar dibuka pukul lapan.»), is the common noun."""
+ raw=re.findall(r"[A-Za-z]+(?:[-'][A-Za-z]+)*",text);low=tokens(text)
+ if len(raw)!=len(low):return set()
+ out=set();i=0
+ while i<len(raw)-1:
+  if low[i]=='pasar' and raw[i][0].isupper() and raw[i+1][0].isupper():
+   j=i+1
+   while j<len(raw) and raw[j][0].isupper():j+=1
+   out.update(range(i,j));i=j
+  else:i+=1
+ return out
 def read_json(path):return json.loads(Path(path).read_text())
 def key(unit,check,term):return '|'.join((unit,check,term))
 def chapter_id(s):
@@ -106,7 +122,7 @@ class Checker:
   self.mentions={norm(k):v for k,v in read_json(mentions)['mentions'].items()} if mentions.exists() else {}
   # Names of people, places and organisations are not vocabulary (step 4 list).
   names=read_json(self.root/PROPER_FILE)['names'] if (self.root/PROPER_FILE).exists() else []
-  self.proper=PROPER|{t for name in names for t in tokens(name)}
+  self.proper=PROPER|{NAME}|{t for name in names for t in tokens(name)}
   self.maxlen=max(len(t.split()) for t in self.entries)
   self.known=self.placed|set(self.cards)|self.roots
   self._extra=tuple(extra_rows)
@@ -137,6 +153,11 @@ class Checker:
   # Before its row's chapter a regular derivation from a placed base still applies, as it always did (seminggu in chapter 4, the
   # practice-pool row «disemak» in chapter 11).
   if self.placed_by(w,ch):return None
+  # Full reduplication X-X (kesan-kesan, buku-buku) is read as placed where X is placed. A form with a ledger row of its own
+  # (kanak-kanak, malam-malam, pagi-pagi, sama-sama) keeps that row and its chapter: its own row always wins (Sam, 17 Nov 2026), whatever the row's chapter (even a Jambatan row with none, or
+  # a retired or extension row: the form is then reported as before, never read as X-X).
+  m=re.fullmatch(r"([a-z]+)-([a-z]+)",w)
+  if m and m[1]==m[2] and w not in self.entries and m[1] in self.placed:return (m[1],'reduplication')
   g=self.gates
   if w.startswith('ke') and w[2:] in NUMBERS and ch>=g['ke- ordinal']:return (w[2:],'ke- ordinal')
   if w.endswith('nya') and len(w)>4 and ch>=g['-nya'] and (w[:-3] in self.placed or w[:-3] in self.cards or (w=='ceritanya' and 'cerita' not in self.entries)):return (w[:-3],'-nya')
@@ -197,6 +218,8 @@ class Checker:
   for s in segments:
    ck=self.view({**s,'extension':s.get('extension',extension)})
    text=norm(s['text']);ts=tokens(s['text']);ch=s['chapter'];seq=s['unit'] if ch is None else 'stage'
+   # The same tokens with a capitalised «Pasar …» place name replaced by NAME (a name is not vocabulary).
+   names=pasar_names(s['text']);tl=[NAME if i in names else w for i,w in enumerate(ts)]
    if ch is None:unplaced.add(s['unit'])
    # Disallowed (Indonesian) forms, as whole words and inside hyphenated words. A ‹…› mention may quote
    # one only as a "do not use" note listed with its source in malay-mentions.json.
@@ -224,7 +247,7 @@ class Checker:
    exempt=set();g=ck.gates
    for phrase,first in ck.chunks+ck.whole_words:
     if ch is not None and first<=ch and re.search(r'(?<!\w)'+re.escape(phrase)+r'(?!\w)',text):exempt.update(tokens(phrase))
-   for w in set(ts)-ck.proper:
+   for w in set(tl)-ck.proper:
     if ch is not None and w not in exempt:
      early=[]
      if ch<g['ke- ordinal'] and w.startswith('ke') and w[2:] in NUMBERS:early.append(f"ke- ordinal before chapter {g['ke- ordinal']}")
@@ -247,17 +270,17 @@ class Checker:
      if fam and all(ch>=g[f] for f in fam) and not (ck.placed_by(w,ch) or (derived_form and ck.placed_by(affix_base,ch))):
       add(violations,s,'affix',w,f'{"/".join(sorted(fam))} form has no ledger row placed at or before chapter {ch}.')
    i=0
-   while i<len(ts):
-    if ts[i] in ck.proper:i+=1;continue
+   while i<len(tl):
+    if tl[i] in ck.proper:i+=1;continue
     matched=None
-    for size in range(min(ck.maxlen,len(ts)-i),0,-1):
-     term=' '.join(ts[i:i+size])
+    for size in range(min(ck.maxlen,len(tl)-i),0,-1):
+     term=' '.join(tl[i:i+size])
      # An unplaced multi-word row (e.g. a Hanashishou phrase "encik pula") does not
      # override placed single words it is built from; match the words instead.
      # In a unit with a chapter an unplaced multi-word row is not an entry either (rule 2): its words are checked one by one.
-     if term in ck.entries and size>1 and (ck.compositional(term,ts[i:i+size]) or not ck.rows_for(term,ch)):continue
+     if term in ck.entries and size>1 and (ck.compositional(term,tl[i:i+size]) or not ck.rows_for(term,ch)):continue
      if term in ck.entries:matched=(term,size);break
-    term,size=matched if matched else (ts[i],1)
+    term,size=matched if matched else (tl[i],1)
     deriv=ck.derivation(term,ch) if size==1 else None
     # A regular derivation may be absent as a surface form, but its base still
     # needs ledger coverage and chapter placement.
